@@ -32,8 +32,19 @@ def main():
     if file is not None:
         lfile = lizard.analyze_file(file)
         for func in lfile.function_list:
-            print("Function Name: {}".format(func.long_name))
-            print("Length: {}".format(func.length))
+            print("File: {}".format(file))
+            print("     Function Name: {}".format(func.long_name))
+            print("     Length: {}".format(func.length))
+
+    if directory is not None:
+        for (root, subdir, files) in os.walk(directory):
+            for file in files:
+                fullpath = os.path.join(root, file)
+                lfile = lizard.analyze_file(fullpath)
+                for func in lfile.function_list:
+                    print("File: {}".format(fullpath))
+                    print("     Function Name: {}".format(func.long_name))
+                    print("     Length: {}".format(func.length))
 
 if __name__ == '__main__':
     main()
