@@ -2,27 +2,49 @@ import lizard
 import argparse
 import os
 
+
 def parsearg():
+    """
+    Parses the arguments
+    :return:
+    """
     parser = argparse.ArgumentParser(description="CodeSize")
     parser.add_argument("-f")
     parser.add_argument("-d")
     parser.add_argument("--csv", action='store_true')
     return parser.parse_args()
 
+
 def usageerror():
+    """
+    Returns an error to the user
+    :return:
+    """
     print("ERROR: (Make sure you only specify one)")
     print("     -f {file}")
     print("     -d {directory}")
     print("Exiting program...")
 
+
 def printfile(file):
+    """
+    Prints the relevant contents of the files out
+    :param file:
+    :return:
+    """
     lfile = lizard.analyze_file(file)
     print("File: {}".format(file))
     for func in lfile.function_list:
         print("     Function Name: {}".format(func.long_name))
         print("     Length: {}".format(func.length))
 
+
 def printfilecsv(file):
+    """
+    Prints the relevant contents of the file out in csv form
+    :param file:
+    :return:
+    """
     lfile = lizard.analyze_file(file)
     for func in lfile.function_list:
         print("{},\"{}\",{}".format(file, func.long_name, func.length))
@@ -50,7 +72,7 @@ def main():
         else:
             printfile(file)
 
-
+    # If it is a directory
     if directory is not None:
         for (root, subdir, files) in os.walk(directory):
             if csv is True:
@@ -61,6 +83,7 @@ def main():
                     printfilecsv(fullpath)
                 else:
                     printfile(fullpath)
+
 
 if __name__ == '__main__':
     main()

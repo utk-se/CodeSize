@@ -12,7 +12,8 @@ void HelloWorld() {
     return;
 }
 
-void pointlessFunction(int a, int b, string c) {
+void pointlessFunction(int a, int b, string c, string d,
+string e, string f) {
     a += b;
     b += a;
     c = c;
