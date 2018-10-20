@@ -26,28 +26,31 @@ def usageerror():
     print("Exiting program...")
 
 
-def printfile(file):
+def printfiles(lfiles):
     """
     Prints the relevant contents of the files out
-    :param file:
+    :param lfiles:
     :return:
     """
-    lfile = lizard.analyze_file(file)
-    print("File: {}".format(file))
-    for func in lfile.function_list:
-        print("     Function Name: {}".format(func.long_name))
-        print("     Length: {}".format(func.length))
+    for lfile in lfiles:
+        print("File: {}".format(lfile.filename))
+        for func in lfile.function_list:
+            print("     Function Name: {}".format(func.long_name))
+            print("         Length: {}".format(func.length))
+            print("         Start: {}".format(func.start_line))
+            print("         Ends: {}".format(func.start_line + func.length - 1))
 
 
-def printfilecsv(file):
+def printfilescsv(lfiles):
     """
     Prints the relevant contents of the file out in csv form
-    :param file:
+    :param lfiles:
     :return:
     """
-    lfile = lizard.analyze_file(file)
-    for func in lfile.function_list:
-        print("{},\"{}\",{}".format(file, func.long_name, func.length))
+    print("File, Function, Length")
+    for lfile in lfiles:
+        for func in lfile.function_list:
+            print("{},\"{}\",{}".format(lfile.filename, func.long_name, func.length))
 
 
 def main():
@@ -55,6 +58,7 @@ def main():
     file = args.f
     directory = args.d
     csv = args.csv
+    lfiles = []
     # If neither are specified
     if file is None and directory is None:
         usageerror()
@@ -66,23 +70,21 @@ def main():
 
     # If it is a file
     if file is not None:
-        if csv is True:
-            print("File, Function, Length")
-            printfilecsv(file)
-        else:
-            printfile(file)
+        lfile = lizard.analyze_file(file)
+        lfiles.append(lfile)
 
     # If it is a directory
     if directory is not None:
         for (root, subdir, files) in os.walk(directory):
-            if csv is True:
-                print("File, Function, Length")
             for file in files:
                 fullpath = os.path.join(root, file)
-                if csv is True:
-                    printfilecsv(fullpath)
-                else:
-                    printfile(fullpath)
+                lfile = lizard.analyze_file(fullpath)
+                lfiles.append(lfile)
+
+    if csv is True:
+        printfilescsv(lfiles)
+    elif csv is False:
+        printfiles(lfiles)
 
 
 if __name__ == '__main__':
