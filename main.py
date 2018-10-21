@@ -26,12 +26,13 @@ def usageerror():
     print("Exiting program...")
 
 
-def printfiles(lfiles):
+def printfiles(lfiles, widths):
     """
     Prints the relevant contents of the files out
     :param lfiles:
     :return:
     """
+    i = 0
     for lfile in lfiles:
         print("File: {}".format(lfile.filename))
         for func in lfile.function_list:
@@ -39,18 +40,42 @@ def printfiles(lfiles):
             print("         Length: {}".format(func.length))
             print("         Start: {}".format(func.start_line))
             print("         Ends: {}".format(func.start_line + func.length - 1))
+            print("         Width: {}".format(widths[i]))
+            i = i + 1
 
 
-def printfilescsv(lfiles):
+def printfilescsv(lfiles, widths):
     """
     Prints the relevant contents of the file out in csv form
     :param lfiles:
     :return:
     """
-    print("File, Function, Length")
+    i = 0
+    print("File, Function, Length, Width")
     for lfile in lfiles:
         for func in lfile.function_list:
-            print("{},\"{}\",{}".format(lfile.filename, func.long_name, func.length))
+            print("{},\"{}\",{}, {}".format(lfile.filename, func.long_name, func.length, widths[i]))
+            i = i + 1
+
+
+def getmaximumwidth(lfiles):
+    """
+
+    :param lfiles:
+    :return:
+    """
+    widths = []
+    width = 0
+    for lfile in lfiles:
+        for func in lfile.function_list:
+            width = 0
+            file = open(lfile.filename, "r")
+            for i, line in enumerate(file):
+                if func.start_line-2 < i < (func.start_line + func.length - 1):
+                    if len(line) > width:
+                        width = len(line)
+            widths.append(width)
+    return widths
 
 
 def main():
@@ -81,10 +106,14 @@ def main():
                 lfile = lizard.analyze_file(fullpath)
                 lfiles.append(lfile)
 
+    widths = getmaximumwidth(lfiles)
+
+    print(widths)
+
     if csv is True:
-        printfilescsv(lfiles)
+        printfilescsv(lfiles, widths)
     elif csv is False:
-        printfiles(lfiles)
+        printfiles(lfiles, widths)
 
 
 if __name__ == '__main__':
