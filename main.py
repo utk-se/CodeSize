@@ -71,6 +71,7 @@ def getmaximumwidth(lfiles):
             width = 0
             file = open(lfile.filename, "r")
             for i, line in enumerate(file):
+                line.replace("\t", "    ")
                 if func.start_line-2 < i < (func.start_line + func.length - 1):
                     if len(line) > width:
                         width = len(line)
