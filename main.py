@@ -11,6 +11,7 @@ def parsearg():
     parser = argparse.ArgumentParser(description="CodeSize")
     parser.add_argument("-f")
     parser.add_argument("-d")
+    parser.add_argument('-l', action='append')
     parser.add_argument("--csv", action='store_true')
     return parser.parse_args()
 
@@ -60,18 +61,17 @@ def printfilescsv(lfiles, widths):
 
 def getmaximumwidth(lfiles):
     """
-
+    Expects a list of files (as a lizard files) and will return the maximum width for each function
     :param lfiles:
     :return:
     """
     widths = []
-    width = 0
     for lfile in lfiles:
         for func in lfile.function_list:
             width = 0
             file = open(lfile.filename, "r")
             for i, line in enumerate(file):
-                line.replace("\t", "    ")
+                # line.replace("\t", "    ")
                 if func.start_line-2 < i < (func.start_line + func.length - 1):
                     if len(line) > width:
                         width = len(line)
