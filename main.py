@@ -107,10 +107,14 @@ def main():
         for (root, subdir, files) in os.walk(directory):
             for file in files:
                 fullpath = os.path.join(root, file)
-                for extension in extensions:
-                    if extension in fullpath:
-                        lfile = lizard.analyze_file(fullpath)
-                        lfiles.append(lfile)
+                if extensions is not []:
+                    for extension in extensions:
+                        if extension in fullpath:
+                            lfile = lizard.analyze_file(fullpath)
+                            lfiles.append(lfile)
+                else:
+                    lfile = lizard.analyze_file(fullpath)
+                    lfiles.append(lfile)
 
     widths = getmaximumwidth(lfiles)
 
