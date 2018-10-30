@@ -11,7 +11,8 @@ def parsearg():
     parser = argparse.ArgumentParser(description="CodeSize")
     parser.add_argument("-f")
     parser.add_argument("-d")
-    parser.add_argument('-l', action='append')
+    parser.add_argument('-l',
+                        action='append')
     parser.add_argument("--csv", action='store_true')
     return parser.parse_args()
 
@@ -24,6 +25,7 @@ def usageerror():
     print("ERROR: (Make sure you only specify one)")
     print("     -f {file}")
     print("     -d {directory}")
+    print("     -l {extension}")
     print("Exiting program...")
 
 
@@ -84,6 +86,7 @@ def main():
     file = args.f
     directory = args.d
     csv = args.csv
+    extensions = args.l
     lfiles = []
     # If neither are specified
     if file is None and directory is None:
@@ -104,12 +107,14 @@ def main():
         for (root, subdir, files) in os.walk(directory):
             for file in files:
                 fullpath = os.path.join(root, file)
-                lfile = lizard.analyze_file(fullpath)
-                lfiles.append(lfile)
+                for extension in extensions:
+                    if extension in fullpath:
+                        print("Adding {}, {}".format(fullpath, extension))
+                        lfile = lizard.analyze_file(fullpath)
+                        lfiles.append(lfile)
 
     widths = getmaximumwidth(lfiles)
-
-    print(widths)
+    print(lfiles)
 
     if csv is True:
         printfilescsv(lfiles, widths)
