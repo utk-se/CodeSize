@@ -113,7 +113,6 @@ def main():
                         lfiles.append(lfile)
 
     widths = getmaximumwidth(lfiles)
-    print(lfiles)
 
     if csv is True:
         printfilescsv(lfiles, widths)
