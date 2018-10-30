@@ -2,7 +2,6 @@ import lizard
 import argparse
 import os
 
-
 def parsearg():
     """
     Parses the arguments
@@ -13,7 +12,8 @@ def parsearg():
     parser.add_argument("-d")
     parser.add_argument('-l',
                         action='append')
-    parser.add_argument("--csv", action='store_true')
+    parser.add_argument("--csv",
+                        action='store_true')
     return parser.parse_args()
 
 
@@ -109,7 +109,6 @@ def main():
                 fullpath = os.path.join(root, file)
                 for extension in extensions:
                     if extension in fullpath:
-                        print("Adding {}, {}".format(fullpath, extension))
                         lfile = lizard.analyze_file(fullpath)
                         lfiles.append(lfile)
 
