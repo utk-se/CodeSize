@@ -107,7 +107,7 @@ def main():
         for (root, subdir, files) in os.walk(directory):
             for file in files:
                 fullpath = os.path.join(root, file)
-                if not extensions:
+                if extensions:
                     for extension in extensions:
                         if extension in fullpath:
                             lfile = lizard.analyze_file(fullpath)
