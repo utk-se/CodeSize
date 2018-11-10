@@ -2,6 +2,11 @@ import lizard
 import argparse
 import os
 
+
+class Width:
+    total_width = 0
+    leadingwhitespace = 0
+
 def parsearg():
     """
     Parses the arguments
@@ -43,7 +48,8 @@ def printfiles(lfiles, widths):
             print("         Length: {}".format(func.length))
             print("         Start: {}".format(func.start_line))
             print("         Ends: {}".format(func.start_line + func.length - 1))
-            print("         Width: {}".format(widths[i]))
+            print("         Width: {}".format(widths[i].total_width))
+            print("         Leading Whitespace: {}".format(widths[i].leadingwhitespace))
             i = i + 1
 
 
@@ -54,10 +60,11 @@ def printfilescsv(lfiles, widths):
     :return:
     """
     i = 0
-    print("File, Function, Length, Width")
+    print("File, Function, Length, Total Width, Leading Whitespace (tabs / spaces)")
     for lfile in lfiles:
         for func in lfile.function_list:
-            print("{},\"{}\",{}, {}".format(lfile.filename, func.long_name, func.length, widths[i]))
+            print("{},\"{}\",{}, {}".format(lfile.filename, func.long_name,
+                                            func.length, widths[i].total_width, widths[i].leadingwhitespace))
             i = i + 1
 
 
@@ -70,13 +77,14 @@ def getmaximumwidth(lfiles):
     widths = []
     for lfile in lfiles:
         for func in lfile.function_list:
-            width = 0
+            width = Width
             file = open(lfile.filename, "r")
             for i, line in enumerate(file):
                 # line.replace("\t", "    ")
                 if func.start_line-2 < i < (func.start_line + func.length - 1):
                     if len(line) > width:
-                        width = len(line)
+                        width.total_width = len(line)
+                        width.leadingwhitespace = len(line.strip(' '))
             widths.append(width)
     return widths
 
