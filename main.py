@@ -1,9 +1,13 @@
 import lizard
 import argparse
 import os
-
+import re
 
 class Width:
+    def __init__(self, total_width, leadingwhitespace):
+        self.total_width = total_width
+        self.leadingwhitespace = leadingwhitespace
+
     total_width = 0
     leadingwhitespace = 0
 
@@ -82,11 +86,13 @@ def getmaximumwidth(lfiles):
             for i, line in enumerate(file):
                 # line.replace("\t", "    ")
                 if func.start_line-2 < i < (func.start_line + func.length - 1):
-                    if len(line) > width:
-                        width.total_width = len(line)
-                        width.leadingwhitespace = len(line.strip(' '))
+                    if len(line) > width.total_width:
+                        total_width = len(line)
+                        leadingwhitespace = len(re.match(r"\s*", line).group())
+                        width = Width(total_width, leadingwhitespace)
             widths.append(width)
     return widths
+
 
 
 def main():
