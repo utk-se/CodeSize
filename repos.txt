@@ -1,12 +1,17 @@
 Python:
 	
-	google/jax			https://github.com/google/jax
-	Delgan/loguru		https://github.com/Delgan/loguru
+	google/jax
+		https://github.com/google/jax
+
+	Delgan/loguru
+		https://github.com/Delgan/loguru
 
 JavaScript:
 
-	MrRio/jsPDF			https://github.com/MrRio/jsPDF
+	MrRio/jsPDF
+		https://github.com/MrRio/jsPDF
 
 Java:
 	
-	alibaba/arthas		https://github.com/alibaba/arthas
+	alibaba/arthas
+		https://github.com/alibaba/arthas
