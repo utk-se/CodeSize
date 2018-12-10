@@ -1,0 +1,1302 @@
+File, Function, Length, Total Width, Leading Space(s), Leading Tab(s)
+github/python/jax/build/build.py,"shell( cmd )", 3, 40, 2, 0
+github/python/jax/build/build.py,"get_python_bin_path( python_bin_path_flag )", 3, 59, 2, 0
+github/python/jax/build/build.py,"download_and_verify_bazel.progress( block_count , block_size , total_size )", 9, 70, 10, 0
+github/python/jax/build/build.py,"download_and_verify_bazel( )", 45, 81, 10, 0
+github/python/jax/build/build.py,"get_bazel_path( bazel_path_flag )", 15, 76, 2, 0
+github/python/jax/build/build.py,"check_bazel_version( bazel_path , min_version )", 15, 77, 4, 0
+github/python/jax/build/build.py,"write_bazelrc( ** kwargs )", 4, 45, 2, 0
+github/python/jax/build/build.py,"_parse_string_as_bool( s )", 9, 76, 4, 0
+github/python/jax/build/build.py,"add_boolean_argument( parser , name , default = False , help_str = None )", 11, 70, 0, 0
+github/python/jax/build/build.py,"main( )", 54, 80, 6, 0
+github/python/jax/examples/datasets.py,"_download( url , filename )", 8, 65, 2, 0
+github/python/jax/examples/datasets.py,"_partial_flatten( x )", 3, 59, 2, 0
+github/python/jax/examples/datasets.py,"_one_hot( x , k , dtype = np . float32 )", 3, 53, 2, 0
+github/python/jax/examples/datasets.py,"mnist_raw.parse_labels( filename )", 4, 67, 6, 0
+github/python/jax/examples/datasets.py,"mnist_raw.parse_images( filename )", 5, 68, 6, 0
+github/python/jax/examples/datasets.py,"mnist_raw( )", 25, 79, 2, 0
+github/python/jax/examples/datasets.py,"mnist( permute_train = False )", 15, 81, 2, 0
+github/python/jax/examples/mnist_classifier.py,"loss( params , batch )", 4, 35, 2, 0
+github/python/jax/examples/mnist_classifier.py,"accuracy( params , batch )", 5, 63, 2, 0
+github/python/jax/examples/mnist_classifier.py,"data_stream( )", 7, 63, 8, 0
+github/python/jax/examples/mnist_classifier.py,"update( i , opt_state , batch )", 3, 63, 4, 0
+github/python/jax/examples/mnist_classifier_fromscratch.py,"init_random_params( scale , layer_sizes , rng = npr . RandomState ( 0 )", 3, 68, 0, 0
+github/python/jax/examples/mnist_classifier_fromscratch.py,"predict( params , inputs )", 5, 61, 2, 0
+github/python/jax/examples/mnist_classifier_fromscratch.py,"loss( params , batch )", 4, 35, 2, 0
+github/python/jax/examples/mnist_classifier_fromscratch.py,"accuracy( params , batch )", 5, 63, 2, 0
+github/python/jax/examples/mnist_classifier_fromscratch.py,"data_stream( )", 7, 63, 8, 0
+github/python/jax/examples/mnist_classifier_fromscratch.py,"update( params , batch )", 4, 56, 12, 0
+github/python/jax/examples/mnist_vae.py,"gaussian_kl( mu , sigmasq )", 3, 73, 2, 0
+github/python/jax/examples/mnist_vae.py,"gaussian_sample( rng , mu , sigmasq )", 3, 62, 2, 0
+github/python/jax/examples/mnist_vae.py,"bernoulli_logpdf( logits , x )", 3, 66, 2, 0
+github/python/jax/examples/mnist_vae.py,"elbo( rng , params , images )", 6, 75, 2, 0
+github/python/jax/examples/mnist_vae.py,"image_sample( rng , params , nrow , ncol )", 7, 74, 2, 0
+github/python/jax/examples/mnist_vae.py,"image_grid( nrow , ncol , imagevecs , imshape )", 5, 75, 2, 0
+github/python/jax/examples/mnist_vae.py,"binarize_batch( rng , i , images )", 4, 73, 4, 0
+github/python/jax/examples/mnist_vae.py,"run_epoch.body_fun( i , rng__opt_state__images )", 7, 72, 6, 0
+github/python/jax/examples/mnist_vae.py,"run_epoch( rng , opt_state )", 11, 73, 4, 0
+github/python/jax/examples/mnist_vae.py,"evaluate( opt_state , images )", 7, 73, 4, 0
+github/python/jax/examples/resnet50.py,"ConvBlock( kernel_size , filters , strides = ( 2 , 2 )", 9, 79, 2, 0
+github/python/jax/examples/resnet50.py,"IdentityBlock.make_main( input_shape )", 6, 76, 4, 0
+github/python/jax/examples/resnet50.py,"IdentityBlock( kernel_size , filters )", 11, 79, 2, 0
+github/python/jax/examples/resnet50.py,"ResNet50( num_classes )", 21, 73, 6, 0
+github/python/jax/examples/resnet50.py,"loss( params , batch )", 4, 41, 4, 0
+github/python/jax/examples/resnet50.py,"accuracy( params , batch )", 5, 70, 4, 0
+github/python/jax/examples/resnet50.py,"synth_batches( )", 7, 62, 6, 0
+github/python/jax/examples/resnet50.py,"update( i , opt_state , batch )", 3, 63, 4, 0
+github/python/jax/jax/abstract_arrays.py,"concretization_err_msg( fun )", 5, 82, 2, 0
+github/python/jax/jax/abstract_arrays.py,"concretization_function_error.error( self , * args )", 2, 49, 4, 0
+github/python/jax/jax/abstract_arrays.py,"concretization_function_error( fun )", 4, 49, 4, 0
+github/python/jax/jax/abstract_arrays.py,"__init__( self , dtype )", 2, 29, 2, 0
+github/python/jax/jax/abstract_arrays.py,"__eq__( self , other )", 2, 67, 4, 0
+github/python/jax/jax/abstract_arrays.py,"__hash__( self )", 2, 33, 4, 0
+github/python/jax/jax/abstract_arrays.py,"__repr__( self )", 2, 70, 4, 0
+github/python/jax/jax/abstract_arrays.py,"at_least_vspace( self )", 2, 29, 2, 0
+github/python/jax/jax/abstract_arrays.py,"join( self , other )", 2, 25, 2, 0
+github/python/jax/jax/abstract_arrays.py,"str_short( self )", 2, 38, 4, 0
+github/python/jax/jax/abstract_arrays.py,"__init__( self , shape , dtype )", 3, 65, 4, 0
+github/python/jax/jax/abstract_arrays.py,"__eq__( self , other )", 3, 73, 12, 0
+github/python/jax/jax/abstract_arrays.py,"__hash__( self )", 2, 47, 4, 0
+github/python/jax/jax/abstract_arrays.py,"at_least_vspace( self )", 2, 29, 2, 0
+github/python/jax/jax/abstract_arrays.py,"join( self , other )", 7, 64, 4, 0
+github/python/jax/jax/abstract_arrays.py,"str_short( self )", 4, 47, 4, 0
+github/python/jax/jax/abstract_arrays.py,"__len__( self )", 5, 72, 6, 0
+github/python/jax/jax/abstract_arrays.py,"__init__( self , val )", 6, 80, 4, 0
+github/python/jax/jax/abstract_arrays.py,"__eq__( self , other )", 3, 78, 12, 0
+github/python/jax/jax/abstract_arrays.py,"__hash__( self )", 2, 24, 4, 0
+github/python/jax/jax/abstract_arrays.py,"at_least_vspace( self )", 2, 47, 4, 0
+github/python/jax/jax/abstract_arrays.py,"join( self , other )", 9, 66, 4, 0
+github/python/jax/jax/abstract_arrays.py,"str_short( self )", 2, 25, 4, 0
+github/python/jax/jax/abstract_arrays.py,"make_shaped_array( x )", 3, 60, 2, 0
+github/python/jax/jax/ad_util.py,"add_jaxtuples( xs , ys )", 3, 41, 2, 0
+github/python/jax/jax/ad_util.py,"add_jaxvals( x , y )", 2, 34, 2, 0
+github/python/jax/jax/ad_util.py,"add_impl( xs , ys )", 3, 42, 2, 0
+github/python/jax/jax/ad_util.py,"add_abstract( xs , ys )", 2, 30, 2, 0
+github/python/jax/jax/ad_util.py,"zeros_like_impl_jaxtuple( xs )", 2, 44, 2, 0
+github/python/jax/jax/ad_util.py,"zeros_like_jaxval( val )", 2, 32, 2, 0
+github/python/jax/jax/ad_util.py,"zeros_like_impl( example )", 2, 53, 2, 0
+github/python/jax/jax/ad_util.py,"__repr__( self )", 2, 22, 2, 0
+github/python/jax/jax/api.py,"jit.f_jitted( * args , ** kwargs )", 9, 75, 4, 0
+github/python/jax/jax/api.py,"jit( fun , static_argnums = ( )", 12, 75, 4, 0
+github/python/jax/jax/api.py,"grad.grad_f( * args , ** kwargs )", 7, 60, 4, 0
+github/python/jax/jax/api.py,"grad( fun , argnums = 0 )", 10, 60, 4, 0
+github/python/jax/jax/api.py,"jacfwd( fun , x )", 6, 66, 2, 0
+github/python/jax/jax/api.py,"jacrev( fun , x )", 6, 65, 2, 0
+github/python/jax/jax/api.py,"hessian( fun )", 2, 29, 2, 0
+github/python/jax/jax/api.py,"vmap( fun , * args , ** kwargs )", 15, 75, 4, 0
+github/python/jax/jax/api.py,"jvp.flatten_arg( primal , tangent )", 5, 60, 4, 0
+github/python/jax/jax/api.py,"jvp( fun , primals , tangents )", 13, 83, 2, 0
+github/python/jax/jax/api.py,"linearize( traceable , * primals )", 9, 87, 2, 0
+github/python/jax/jax/api.py,"lift_linearized.fun( * args )", 5, 76, 4, 0
+github/python/jax/jax/api.py,"lift_linearized( jaxpr , consts , io_tree , out_pval , py_args )", 8, 76, 4, 0
+github/python/jax/jax/api.py,"vjp.out_vjp_packed( cotangent_in )", 2, 36, 2, 0
+github/python/jax/jax/api.py,"vjp( fun , * primals )", 15, 78, 2, 0
+github/python/jax/jax/api.py,"trace_to_jaxpr( traceable , py_pvals , ** kwargs )", 6, 73, 2, 0
+github/python/jax/jax/api.py,"lift_jaxpr.fun( * args )", 3, 47, 4, 0
+github/python/jax/jax/api.py,"lift_jaxpr( jaxpr , consts , io_tree , pvals , py_args )", 5, 56, 0, 0
+github/python/jax/jax/api.py,"flatten_fun( in_trees , * args , ** kwargs )", 4, 44, 0, 0
+github/python/jax/jax/api.py,"unflatten_fun( fun , io_tree , * py_args )", 9, 77, 2, 0
+github/python/jax/jax/api.py,"argnums_partial( f , dyn_argnums , args )", 9, 70, 2, 0
+github/python/jax/jax/api.py,"argnums_partial_( dyn_argnums , fixed_args , * dyn_args )", 6, 66, 2, 0
+github/python/jax/jax/api.py,"check_args( args )", 5, 73, 6, 0
+github/python/jax/jax/api.py,"check_scalar( x )", 8, 83, 2, 0
+github/python/jax/jax/api_util.py,"flatten_fun( in_trees , * args , ** kwargs )", 4, 44, 0, 0
+github/python/jax/jax/api_util.py,"unflatten_fun( fun , io_tree , * py_args )", 9, 77, 2, 0
+github/python/jax/jax/config.py,"__init__( self )", 5, 38, 4, 0
+github/python/jax/jax/config.py,"update( self , name , val )", 5, 69, 6, 0
+github/python/jax/jax/config.py,"read( self , name )", 6, 50, 6, 0
+github/python/jax/jax/config.py,"add_option( self , name , default , opt_type , meta_args , meta_kwargs )", 5, 73, 2, 0
+github/python/jax/jax/config.py,"check_exists( self , name )", 3, 69, 6, 0
+github/python/jax/jax/config.py,"DEFINE_bool( self , name , default , * args , ** kwargs )", 2, 57, 2, 0
+github/python/jax/jax/config.py,"DEFINE_integer( self , name , default , * args , ** kwargs )", 2, 60, 2, 0
+github/python/jax/jax/config.py,"DEFINE_string( self , name , default , * args , ** kwargs )", 2, 59, 2, 0
+github/python/jax/jax/config.py,"DEFINE_enum( self , name , default , * args , ** kwargs )", 2, 57, 2, 0
+github/python/jax/jax/config.py,"config_with_absl( self )", 15, 65, 6, 0
+github/python/jax/jax/config.py,"complete_absl_config( self , absl_flags )", 3, 57, 6, 0
+github/python/jax/jax/config.py,"parse_flags_with_absl( self )", 4, 35, 2, 0
+github/python/jax/jax/config.py,"__init__( self , getter )", 2, 30, 2, 0
+github/python/jax/jax/config.py,"__getattr__( self , name )", 2, 31, 2, 0
+github/python/jax/jax/core.py,"__init__( self , constvars , freevars , invars , outvar , eqns )", 6, 65, 2, 0
+github/python/jax/jax/core.py,"__str__( self )", 2, 31, 4, 0
+github/python/jax/jax/core.py,"__repr__( self )", 2, 26, 4, 0
+github/python/jax/jax/core.py,"__init__( self , name )", 2, 28, 2, 0
+github/python/jax/jax/core.py,"__repr__( self )", 2, 34, 4, 0
+github/python/jax/jax/core.py,"bind( self , * args , ** kwargs )", 10, 75, 30, 0
+github/python/jax/jax/core.py,"def_impl( self , impl )", 3, 28, 2, 0
+github/python/jax/jax/core.py,"def_custom_bind( self , bind )", 3, 35, 2, 0
+github/python/jax/jax/core.py,"impl( self , * args , ** kwargs )", 3, 73, 4, 0
+github/python/jax/jax/core.py,"eval_jaxpr.read( v )", 2, 18, 4, 0
+github/python/jax/jax/core.py,"eval_jaxpr.write( v , val )", 2, 21, 2, 0
+github/python/jax/jax/core.py,"eval_jaxpr( jaxpr , consts , freevar_vals , * args )", 23, 74, 45, 0
+github/python/jax/jax/core.py,"full_lower( val )", 5, 30, 2, 0
+github/python/jax/jax/core.py,"find_top_trace( xs )", 8, 67, 3, 0
+github/python/jax/jax/core.py,"__init__( self , master , sublevel )", 4, 40, 2, 0
+github/python/jax/jax/core.py,"full_raise( self , val )", 25, 82, 6, 0
+github/python/jax/jax/core.py,"pure( self , val )", 2, 23, 2, 0
+github/python/jax/jax/core.py,"lift( self , tracer )", 2, 26, 2, 0
+github/python/jax/jax/core.py,"sublift( self , tracer )", 2, 29, 2, 0
+github/python/jax/jax/core.py,"__repr__( self )", 3, 60, 8, 0
+github/python/jax/jax/core.py,"__array__( self )", 3, 98, 20, 0
+github/python/jax/jax/core.py,"__init__( self , trace )", 2, 29, 2, 0
+github/python/jax/jax/core.py,"__iter__( self )", 2, 39, 4, 0
+github/python/jax/jax/core.py,"__len__( self )", 3, 66, 4, 0
+github/python/jax/jax/core.py,"aval( self )", 2, 18, 2, 0
+github/python/jax/jax/core.py,"__getattr__( self , name )", 20, 74, 10, 0
+github/python/jax/jax/core.py,"__repr__( self )", 2, 62, 4, 0
+github/python/jax/jax/core.py,"__init__( self , level , trace_type )", 3, 41, 2, 0
+github/python/jax/jax/core.py,"__repr__( self )", 2, 77, 4, 0
+github/python/jax/jax/core.py,"__hash__( self )", 2, 47, 4, 0
+github/python/jax/jax/core.py,"__eq__( self , other )", 2, 77, 4, 0
+github/python/jax/jax/core.py,"__init__( self )", 3, 23, 4, 0
+github/python/jax/jax/core.py,"next_level( self , bottom )", 5, 40, 6, 0
+github/python/jax/jax/core.py,"push( self , val , bottom )", 5, 32, 6, 0
+github/python/jax/jax/core.py,"pop( self , bottom )", 5, 26, 6, 0
+github/python/jax/jax/core.py,"__repr__( self )", 4, 47, 6, 0
+github/python/jax/jax/core.py,"cur_sublevel( )", 2, 22, 2, 0
+github/python/jax/jax/core.py,"new_master( trace_type , bottom = False )", 16, 53, 6, 0
+github/python/jax/jax/core.py,"new_sublevel( )", 14, 56, 6, 0
+github/python/jax/jax/core.py,"at_least_vspace( self )", 2, 29, 2, 0
+github/python/jax/jax/core.py,"__repr__( self )", 6, 74, 6, 0
+github/python/jax/jax/core.py,"lattice_join( x , y )", 11, 31, 2, 0
+github/python/jax/jax/core.py,"valid_jaxtype( x )", 6, 22, 0, 0
+github/python/jax/jax/core.py,"concrete_aval( x )", 5, 66, 4, 0
+github/python/jax/jax/core.py,"get_aval( x )", 5, 28, 2, 0
+github/python/jax/jax/core.py,"__new__( cls , xs )", 3, 58, 4, 0
+github/python/jax/jax/core.py,"__repr__( self )", 5, 62, 6, 0
+github/python/jax/jax/core.py,"_iter( tracer )", 2, 27, 4, 0
+github/python/jax/jax/core.py,"at_least_vspace( self )", 2, 60, 4, 0
+github/python/jax/jax/core.py,"join( self , other )", 2, 57, 4, 0
+github/python/jax/jax/core.py,"__repr__( self )", 2, 52, 4, 0
+github/python/jax/jax/core.py,"tuple_to_jaxtuple( x )", 5, 47, 4, 0
+github/python/jax/jax/core.py,"pack( args )", 2, 28, 2, 0
+github/python/jax/jax/core.py,"concrete_jaxtuple( xs )", 2, 47, 2, 0
+github/python/jax/jax/core.py,"pack_p_bind( * args )", 7, 46, 4, 0
+github/python/jax/jax/core.py,"apply_todos( todos , x )", 5, 71, 4, 0
+github/python/jax/jax/core.py,"process_env_traces( primitive , level , * args )", 11, 64, 4, 0
+github/python/jax/jax/core.py,"call_bind( primitive , f , * args , ** kwargs )", 11, 81, 2, 0
+github/python/jax/jax/core.py,"call_impl( f , * args , ** kwargs )", 2, 35, 0, 0
+github/python/jax/jax/core.py,"check_jaxpr.context( )", 2, 42, 4, 0
+github/python/jax/jax/core.py,"check_jaxpr.read_env( env , v )", 3, 73, 6, 0
+github/python/jax/jax/core.py,"check_jaxpr.write_env( env , v )", 4, 73, 6, 0
+github/python/jax/jax/core.py,"check_jaxpr( jaxpr )", 34, 73, 6, 0
+github/python/jax/jax/core.py,"pp_jaxpr.print_vars( vs )", 2, 34, 4, 0
+github/python/jax/jax/core.py,"pp_jaxpr.pp_eqn( eqn )", 16, 70, 12, 0
+github/python/jax/jax/core.py,"pp_jaxpr( jaxpr )", 27, 75, 2, 0
+github/python/jax/jax/lax.py,"maketrans( s1 , s2 )", 2, 32, 4, 0
+github/python/jax/jax/lax.py,"convert_element_type( operand , new_dtype )", 8, 59, 8, 0
+github/python/jax/jax/lax.py,"bitcast_convert_type( operand , new_dtype )", 2, 67, 2, 0
+github/python/jax/jax/lax.py,"clamp( min , operand , max )", 2, 41, 2, 0
+github/python/jax/jax/lax.py,"concatenate( operands , dimension )", 3, 77, 28, 0
+github/python/jax/jax/lax.py,"conv( lhs , rhs , window_strides , padding )", 6, 80, 2, 0
+github/python/jax/jax/lax.py,"conv_with_general_padding( lhs , rhs , window_strides , padding , lhs_dilation , rhs_dilation )", 2, 65, 0, 0
+github/python/jax/jax/lax.py,"conv_general_dilated( lhs , rhs , window_strides , padding , lhs_dilation , rhs_dilation , dimension_numbers )", 2, 74, 0, 0
+github/python/jax/jax/lax.py,"dot_general( lhs , rhs , dimension_numbers )", 4, 81, 2, 0
+github/python/jax/jax/lax.py,"broadcast( operand , sizes )", 2, 55, 2, 0
+github/python/jax/jax/lax.py,"broadcast_in_dim( operand , shape , broadcast_dimensions )", 7, 67, 2, 0
+github/python/jax/jax/lax.py,"reshape( operand , new_sizes , dimensions = None )", 10, 89, 2, 0
+github/python/jax/jax/lax.py,"pad( operand , padding_value , padding_config )", 2, 82, 2, 0
+github/python/jax/jax/lax.py,"rev( operand , dimensions )", 2, 59, 2, 0
+github/python/jax/jax/lax.py,"select( pred , on_true , on_false )", 2, 48, 2, 0
+github/python/jax/jax/lax.py,"slice( operand , start_indices , limit_indices , strides = None )", 5, 75, 22, 0
+github/python/jax/jax/lax.py,"dynamic_slice( operand , start_indices , slice_sizes )", 5, 65, 2, 0
+github/python/jax/jax/lax.py,"dynamic_update_slice( operand , update , start_indices )", 4, 69, 2, 0
+github/python/jax/jax/lax.py,"index_take( src , idxs , axes )", 5, 84, 2, 0
+github/python/jax/jax/lax.py,"_index_take.body_fun( i , state )", 8, 72, 4, 0
+github/python/jax/jax/lax.py,"_index_take( axes , src , * idxs )", 17, 75, 2, 0
+github/python/jax/jax/lax.py,"index_untake( src , dst , idxs , axes )", 5, 86, 2, 0
+github/python/jax/jax/lax.py,"_index_untake.body_fun( i , state )", 9, 80, 4, 0
+github/python/jax/jax/lax.py,"_index_untake( axes , src , dst , * idxs )", 17, 80, 4, 0
+github/python/jax/jax/lax.py,"transpose( operand , permutation )", 2, 67, 2, 0
+github/python/jax/jax/lax.py,"reduce( operand , init_value , computation , dimensions )", 8, 74, 4, 0
+github/python/jax/jax/lax.py,"_reduction_jaxpr( computation , init_value )", 4, 76, 2, 0
+github/python/jax/jax/lax.py,"_get_monoid_reducer( monoid_op , x )", 9, 71, 6, 0
+github/python/jax/jax/lax.py,"_get_max_identity( dtype )", 5, 50, 4, 0
+github/python/jax/jax/lax.py,"_get_min_identity( dtype )", 5, 50, 4, 0
+github/python/jax/jax/lax.py,"_reduce_sum( operand , axes )", 2, 81, 2, 0
+github/python/jax/jax/lax.py,"_reduce_max( operand , axes )", 2, 54, 2, 0
+github/python/jax/jax/lax.py,"_reduce_min( operand , axes )", 2, 54, 2, 0
+github/python/jax/jax/lax.py,"reduce_window( operand , init_value , computation , window_dimensions , window_strides , padding )", 2, 71, 0, 0
+github/python/jax/jax/lax.py,"_get_monoid_window_reducer( monoid_op , x )", 9, 78, 6, 0
+github/python/jax/jax/lax.py,"_reduce_window_sum( operand , window_dimensions , window_strides , padding )", 5, 77, 0, 0
+github/python/jax/jax/lax.py,"_reduce_window_max( operand , window_dimensions , window_strides , padding )", 4, 77, 0, 0
+github/python/jax/jax/lax.py,"_reduce_window_min( operand , window_dimensions , window_strides , padding )", 4, 77, 0, 0
+github/python/jax/jax/lax.py,"_select_and_scatter( operand , select , window_dimensions , window_strides , padding , source , init_value , scatter )", 2, 76, 0, 0
+github/python/jax/jax/lax.py,"_select_and_scatter_add( source , operand , select_prim , window_dimensions , window_strides , padding )", 2, 77, 0, 0
+github/python/jax/jax/lax.py,"_select_and_gather_add( tangents , operand , select_prim , window_dimensions , window_strides , padding )", 2, 78, 0, 0
+github/python/jax/jax/lax.py,"sort( operand , dimension = - 1 )", 2, 44, 2, 0
+github/python/jax/jax/lax.py,"sort_key_val( keys , values , dimension = - 1 )", 5, 66, 2, 0
+github/python/jax/jax/lax.py,"_while_loop( cond_fun , body_fun , init_val )", 15, 84, 2, 0
+github/python/jax/jax/lax.py,"__init__( self , val )", 3, 37, 4, 0
+github/python/jax/jax/lax.py,"__hash__( self )", 2, 22, 2, 0
+github/python/jax/jax/lax.py,"full_like( x , fill_value , dtype = None , shape = None )", 15, 72, 4, 0
+github/python/jax/jax/lax.py,"collapse( operand , start_dimension , stop_dimension )", 5, 64, 2, 0
+github/python/jax/jax/lax.py,"slice_in_dim( operand , start_index , limit_index , stride = 1 , axis = 0 )", 11, 73, 2, 0
+github/python/jax/jax/lax.py,"index_in_dim( operand , index , axis = 0 , keepdims = True )", 12, 76, 2, 0
+github/python/jax/jax/lax.py,"dynamic_slice_in_dim( operand , start_index , slice_size , axis = 0 )", 10, 76, 2, 0
+github/python/jax/jax/lax.py,"dynamic_index_in_dim( operand , index , axis = 0 , keepdims = True )", 7, 74, 2, 0
+github/python/jax/jax/lax.py,"dynamic_update_slice_in_dim( operand , update , start_index , axis )", 4, 69, 0, 0
+github/python/jax/jax/lax.py,"dynamic_update_index_in_dim( operand , update , index , axis )", 6, 77, 4, 0
+github/python/jax/jax/lax.py,"fori_loop( lower , upper , body_fun , init_val )", 20, 80, 4, 0
+github/python/jax/jax/lax.py,"foreach_loop( sequence , body_fun , init_val )", 16, 78, 4, 0
+github/python/jax/jax/lax.py,"batch_matmul( lhs , rhs )", 12, 81, 4, 0
+github/python/jax/jax/lax.py,"sqrt( x )", 2, 32, 2, 0
+github/python/jax/jax/lax.py,"rsqrt( x )", 2, 33, 2, 0
+github/python/jax/jax/lax.py,"square( x )", 2, 19, 2, 0
+github/python/jax/jax/lax.py,"reciprocal( x )", 2, 31, 2, 0
+github/python/jax/jax/lax.py,"tan( x )", 2, 29, 2, 0
+github/python/jax/jax/lax.py,"asin( x )", 4, 80, 13, 0
+github/python/jax/jax/lax.py,"acos( x )", 4, 80, 13, 0
+github/python/jax/jax/lax.py,"atan( x )", 2, 33, 2, 0
+github/python/jax/jax/lax.py,"sinh( x )", 2, 55, 2, 0
+github/python/jax/jax/lax.py,"cosh( x )", 2, 55, 2, 0
+github/python/jax/jax/lax.py,"asinh( x )", 3, 58, 2, 0
+github/python/jax/jax/lax.py,"acosh( x )", 4, 55, 24, 0
+github/python/jax/jax/lax.py,"_iter( tracer )", 6, 73, 4, 0
+github/python/jax/jax/lax.py,"zeros_like_array( x )", 3, 62, 2, 0
+github/python/jax/jax/lax.py,"standard_primitive( shape_rule , dtype_rule , name , translation_rule = None )", 6, 82, 2, 0
+github/python/jax/jax/lax.py,"standard_abstract_eval( shape_rule , dtype_rule , * args , ** kwargs )", 12, 81, 4, 0
+github/python/jax/jax/lax.py,"standard_translate( name , c , * args , ** kwargs )", 3, 70, 2, 0
+github/python/jax/jax/lax.py,"unop_dtype_rule( result_dtype , accepted_dtypes , name , aval )", 7, 79, 4, 0
+github/python/jax/jax/lax.py,"unop( result_dtype , accepted_dtypes , name )", 5, 77, 2, 0
+github/python/jax/jax/lax.py,"binop_dtype_rule( result_dtype , accepted_dtypes , name , * avals )", 11, 78, 2, 0
+github/python/jax/jax/lax.py,"broadcasting_shape_rule( name , * avals )", 12, 79, 4, 0
+github/python/jax/jax/lax.py,"binop( result_dtype , accepted_dtypes , name )", 6, 78, 2, 0
+github/python/jax/jax/lax.py,"_brcast( x , * others )", 9, 78, 2, 0
+github/python/jax/jax/lax.py,"_brcast_to( x , shape )", 11, 78, 4, 0
+github/python/jax/jax/lax.py,"div_transpose_rule( cotangent , x , y )", 4, 73, 2, 0
+github/python/jax/jax/lax.py,"convert_element_type_shape_rule( operand , new_dtype , old_dtype )", 2, 68, 0, 0
+github/python/jax/jax/lax.py,"convert_element_type_dtype_rule( operand , new_dtype , old_dtype )", 2, 68, 0, 0
+github/python/jax/jax/lax.py,"convert_element_type_translation_rule( c , operand , new_dtype , old_dtype )", 3, 77, 0, 0
+github/python/jax/jax/lax.py,"bitcast_convert_type_shape_rule( operand , new_dtype )", 2, 57, 0, 0
+github/python/jax/jax/lax.py,"bitcast_convert_type_dtype_rule( operand , new_dtype )", 2, 57, 0, 0
+github/python/jax/jax/lax.py,"bitcast_convert_type_translation_rule( c , operand , new_dtype )", 3, 67, 2, 0
+github/python/jax/jax/lax.py,"conv_general_dilated_shape_rule( lhs , rhs , window_strides , padding , lhs_dilation , rhs_dilation , dimension_numbers = None , ** unused_kwargs )", 3, 67, 4, 0
+github/python/jax/jax/lax.py,"conv_general_dilated_dtype_rule( lhs , rhs , window_strides , padding , lhs_dilation , rhs_dilation , dimension_numbers , ** unused_kwargs )", 3, 67, 4, 0
+github/python/jax/jax/lax.py,"conv_general_dilated_transpose_lhs( g , rhs , window_strides , padding , lhs_dilation , rhs_dilation , dimension_numbers , lhs_shape , rhs_shape )", 3, 65, 4, 0
+github/python/jax/jax/lax.py,"conv_general_dilated_transpose_rhs( g , lhs , window_strides , padding , lhs_dilation , rhs_dilation , dimension_numbers , lhs_shape , rhs_shape )", 3, 65, 4, 0
+github/python/jax/jax/lax.py,"conv_general_dilated_translation_rule( c , lhs , rhs , window_strides , padding , lhs_dilation , rhs_dilation , dimension_numbers , ** unused_kwargs )", 3, 70, 4, 0
+github/python/jax/jax/lax.py,"dot_shape_rule.require( shape_cond )", 4, 58, 6, 0
+github/python/jax/jax/lax.py,"dot_shape_rule( lhs , rhs )", 25, 69, 4, 0
+github/python/jax/jax/lax.py,"dot_transpose_lhs( t , rhs )", 11, 48, 2, 0
+github/python/jax/jax/lax.py,"dot_transpose_rhs( t , lhs )", 11, 48, 2, 0
+github/python/jax/jax/lax.py,"_outer( x , y )", 3, 71, 2, 0
+github/python/jax/jax/lax.py,"dot_batch_rule( batched_args , batch_dims )", 47, 75, 4, 0
+github/python/jax/jax/lax.py,"dot_general_shape_rule( lhs , rhs , dimension_numbers )", 51, 81, 2, 0
+github/python/jax/jax/lax.py,"dot_general_dtype_rule( lhs , rhs , dimension_numbers )", 2, 79, 2, 0
+github/python/jax/jax/lax.py,"dot_general_transpose_lhs( g , y , dimension_numbers , swap_ans = False )", 13, 79, 2, 0
+github/python/jax/jax/lax.py,"dot_general_transpose_rhs( g , x , dimension_numbers )", 4, 77, 2, 0
+github/python/jax/jax/lax.py,"dot_general_batch_rule( batched_args , batch_dims , dimension_numbers )", 29, 81, 2, 0
+github/python/jax/jax/lax.py,"broadcast_shape_rule( operand , sizes )", 3, 48, 2, 0
+github/python/jax/jax/lax.py,"broadcast_batch_rule( batched_args , batch_dims , sizes )", 5, 59, 0, 0
+github/python/jax/jax/lax.py,"broadcast_in_dim_shape_rule( operand , shape , broadcast_dimensions )", 13, 79, 4, 0
+github/python/jax/jax/lax.py,"broadcast_in_dim_transpose_rule( t , shape , broadcast_dimensions )", 3, 69, 0, 0
+github/python/jax/jax/lax.py,"broadcast_in_dim_batch_rule( batched_args , batch_dims , shape , broadcast_dimensions )", 2, 65, 0, 0
+github/python/jax/jax/lax.py,"clamp_shape_rule( min , operand , max )", 8, 80, 4, 0
+github/python/jax/jax/lax.py,"concatenate_shape_rule( * operands , ** kwargs )", 24, 81, 11, 0
+github/python/jax/jax/lax.py,"concatenate_dtype_rule( * operands , ** kwargs )", 3, 73, 2, 0
+github/python/jax/jax/lax.py,"concatenate_translation_rule( c , * operands , ** kwargs )", 3, 58, 0, 0
+github/python/jax/jax/lax.py,"concatenate_transpose_rule( t , * operands , ** kwargs )", 15, 78, 4, 0
+github/python/jax/jax/lax.py,"pad_shape_rule( operand , padding_value , padding_config )", 9, 78, 22, 0
+github/python/jax/jax/lax.py,"pad_transpose( t , operand , padding_value , padding_config )", 18, 79, 2, 0
+github/python/jax/jax/lax.py,"reshape_shape_rule( operand , new_sizes , dimensions , ** unused_kwargs )", 13, 81, 4, 0
+github/python/jax/jax/lax.py,"reshape_dtype_rule( operand , new_sizes , dimensions , ** unused_kwargs )", 2, 73, 0, 0
+github/python/jax/jax/lax.py,"reshape_translation_rule( c , operand , new_sizes , dimensions , old_sizes )", 3, 76, 0, 0
+github/python/jax/jax/lax.py,"reshape_transpose_rule( t , new_sizes , dimensions , old_sizes )", 6, 65, 0, 0
+github/python/jax/jax/lax.py,"reshape_batch_rule( batched_args , batch_dims , new_sizes , dimensions , ** unused )", 8, 83, 0, 0
+github/python/jax/jax/lax.py,"rev_shape_rule( operand , dimensions )", 10, 80, 4, 0
+github/python/jax/jax/lax.py,"transpose_shape_rule( operand , permutation )", 9, 79, 4, 0
+github/python/jax/jax/lax.py,"transpose_batch_rule( batched_args , batch_dims , permutation )", 5, 65, 0, 0
+github/python/jax/jax/lax.py,"select_shape_rule( pred , on_true , on_false )", 9, 81, 4, 0
+github/python/jax/jax/lax.py,"select_dtype_rule( pred , on_true , on_false )", 6, 69, 2, 0
+github/python/jax/jax/lax.py,"select_transpose_rule( t , pred , on_true , on_false )", 4, 74, 10, 0
+github/python/jax/jax/lax.py,"select_batch_rule( batched_args , batch_dims , ** unused_kwargs )", 12, 79, 2, 0
+github/python/jax/jax/lax.py,"slice_shape_rule( operand , start_indices , limit_indices , strides , operand_shape )", 2, 69, 0, 0
+github/python/jax/jax/lax.py,"slice_translation_rule( c , operand , start_indices , limit_indices , strides , operand_shape )", 2, 78, 0, 0
+github/python/jax/jax/lax.py,"slice_transpose_rule( t , start_indices , limit_indices , strides , operand_shape )", 2, 67, 0, 0
+github/python/jax/jax/lax.py,"slice_batching_rule( batched_args , batch_dims , start_indices , limit_indices , strides , ** unused_kwargs )", 2, 80, 0, 0
+github/python/jax/jax/lax.py,"dynamic_slice_shape_rule( operand , start_indices , slice_sizes , operand_shape )", 2, 66, 0, 0
+github/python/jax/jax/lax.py,"dynamic_slice_translation_rule( c , operand , start_indices , slice_sizes , operand_shape )", 2, 75, 0, 0
+github/python/jax/jax/lax.py,"dynamic_slice_jvp_rule( g , operand , start_indices , slice_sizes , operand_shape )", 2, 67, 0, 0
+github/python/jax/jax/lax.py,"dynamic_slice_transpose_rule( t , operand , start_indices , slice_sizes , operand_shape )", 2, 73, 0, 0
+github/python/jax/jax/lax.py,"dynamic_update_slice_shape_rule( operand , update , start_indices , update_shape )", 2, 68, 0, 0
+github/python/jax/jax/lax.py,"dynamic_update_slice_dtype_rule( operand , update , start_indices , update_shape )", 2, 68, 0, 0
+github/python/jax/jax/lax.py,"dynamic_update_slice_jvp( primals , tangents , update_shape )", 12, 75, 4, 0
+github/python/jax/jax/lax.py,"dynamic_update_slice_transpose_rule( t , operand , update , start_indices , update_shape )", 2, 75, 0, 0
+github/python/jax/jax/lax.py,"dynamic_update_slice_translation_rule( c , operand , update , start_indices , update_shape )", 2, 77, 0, 0
+github/python/jax/jax/lax.py,"index_take_shape_rule( src , * idxs , ** kwargs )", 3, 66, 2, 0
+github/python/jax/jax/lax.py,"index_take_translation_rule( c , src , * idxs , ** kwargs )", 6, 70, 2, 0
+github/python/jax/jax/lax.py,"index_take_jvp( primals , tangents , axes , input_shape , jaxpr , consts )", 5, 73, 0, 0
+github/python/jax/jax/lax.py,"index_take_transpose_rule( t , src , * idxs , ** kwargs )", 6, 68, 2, 0
+github/python/jax/jax/lax.py,"index_untake_shape_rule( src , dst , * idxs , ** kwargs )", 2, 56, 0, 0
+github/python/jax/jax/lax.py,"index_untake_translation_rule( c , src , dst , * idxs , ** kwargs )", 6, 70, 2, 0
+github/python/jax/jax/lax.py,"index_untake_jvp( primals , tangents , axes , jaxpr , consts )", 9, 62, 0, 0
+github/python/jax/jax/lax.py,"index_untake_transpose_rule( t , src , dst , * idxs , ** kwargs )", 7, 63, 0, 0
+github/python/jax/jax/lax.py,"reduce_shape_rule( operand , init_value , jaxpr , consts , dimensions )", 2, 71, 0, 0
+github/python/jax/jax/lax.py,"reduce_translation_rule( c , operand , init_value , jaxpr , consts , dimensions )", 3, 80, 0, 0
+github/python/jax/jax/lax.py,"_reduction_computation( c , jaxpr , consts , init_value )", 3, 64, 2, 0
+github/python/jax/jax/lax.py,"reduce_sum_shape_rule( operand , axes , input_shape )", 4, 77, 40, 0
+github/python/jax/jax/lax.py,"reduce_sum_translation_rule( c , operand , axes , input_shape )", 6, 68, 18, 0
+github/python/jax/jax/lax.py,"reduce_sum_transpose_rule( cotangent , input_shape , axes )", 5, 79, 2, 0
+github/python/jax/jax/lax.py,"reduce_chooser_shape_rule( operand , axes )", 2, 48, 2, 0
+github/python/jax/jax/lax.py,"reduce_chooser_translation_rule( prim , identity , c , operand , axes )", 5, 73, 18, 0
+github/python/jax/jax/lax.py,"reduce_chooser_jvp_rule( g , ans , operand , axes )", 9, 81, 2, 0
+github/python/jax/jax/lax.py,"reduce_window_shape_rule( operand , init_value , jaxpr , consts , window_dimensions , window_strides , padding )", 2, 74, 29, 0
+github/python/jax/jax/lax.py,"reduce_window_translation_rule( c , operand , init_value , jaxpr , consts , window_dimensions , window_strides , padding )", 2, 80, 35, 0
+github/python/jax/jax/lax.py,"reduce_window_sum_shape_rule( operand , window_dimensions , window_strides , padding , input_shape )", 2, 77, 0, 0
+github/python/jax/jax/lax.py,"reduce_window_sum_translation_rule( c , operand , window_dimensions , window_strides , padding , input_shape )", 2, 78, 39, 0
+github/python/jax/jax/lax.py,"reduce_window_sum_transpose_rule( cotangent , window_dimensions , window_strides , padding , input_shape )", 2, 76, 37, 0
+github/python/jax/jax/lax.py,"reduce_window_chooser_translation_rule( prim , identity , c , operand , window_dimensions , window_strides , padding )", 2, 77, 4, 0
+github/python/jax/jax/lax.py,"reduce_window_chooser_jvp_rule( prim , g , operand , window_dimensions , window_strides , padding )", 2, 72, 0, 0
+github/python/jax/jax/lax.py,"common_reduce_window_shape_rule( operand , window_dimensions , window_strides , padding )", 2, 80, 0, 0
+github/python/jax/jax/lax.py,"reduce_window_shape_tuple( operand_shape , window_dimensions , window_strides , padding )", 2, 80, 0, 0
+github/python/jax/jax/lax.py,"select_and_scatter_shape_rule( operand , source , init_value , select_jaxpr , select_consts , scatter_jaxpr , scatter_consts , window_dimensions , window_strides , padding )", 3, 77, 4, 0
+github/python/jax/jax/lax.py,"select_and_scatter_translation( operand , source , init_value , select_jaxpr , select_consts , scatter_jaxpr , scatter_consts , window_dimensions , window_strides , padding )", 3, 81, 35, 0
+github/python/jax/jax/lax.py,"select_and_scatter_add_shape_rule( source , operand , select_prim , window_dimensions , window_strides , padding )", 2, 79, 4, 0
+github/python/jax/jax/lax.py,"select_and_scatter_add_translation( c , source , operand , select_prim , window_dimensions , window_strides , padding )", 3, 72, 4, 0
+github/python/jax/jax/lax.py,"select_and_scatter_add_transpose( t , source , operand , select_prim , window_dimensions , window_strides , padding )", 3, 72, 4, 0
+github/python/jax/jax/lax.py,"select_and_gather_add_shape_rule( tangents , operand , select_prim , window_dimensions , window_strides , padding )", 2, 81, 4, 0
+github/python/jax/jax/lax.py,"select_and_gather_add_translation( c , tangents , operand , select_prim , window_dimensions , window_strides , padding )", 3, 74, 4, 0
+github/python/jax/jax/lax.py,"select_and_gather_add_transpose( t , tangents , operand , select_prim , window_dimensions , window_strides , padding )", 3, 74, 4, 0
+github/python/jax/jax/lax.py,"sort_jvp_rule( g , operand , dimension )", 3, 49, 2, 0
+github/python/jax/jax/lax.py,"sort_key_val_abstract_eval( keys , values , dimension )", 2, 57, 0, 0
+github/python/jax/jax/lax.py,"sort_key_val_impl( keys , values , dimension )", 4, 79, 2, 0
+github/python/jax/jax/lax.py,"sort_key_val_jvp( primals , tangents , dimension )", 24, 81, 2, 0
+github/python/jax/jax/lax.py,"sort_key_val_transpose_rule( t , keys , values , dimension )", 9, 78, 6, 0
+github/python/jax/jax/lax.py,"while_loop_abstract_eval( init_val , opaque_params )", 3, 55, 0, 0
+github/python/jax/jax/lax.py,"while_loop_translation_rule( c , init_val , opaque_params )", 6, 80, 2, 0
+github/python/jax/jax/lax.py,"_dilate_shape( shape , dilation )", 7, 76, 2, 0
+github/python/jax/jax/lax.py,"padtype_to_pads( in_shape , window_shape , window_strides , padding )", 23, 81, 4, 0
+github/python/jax/jax/lax.py,"_check_same_dtypes( name , ignore_fp_precision , * dtypes )", 17, 81, 2, 0
+github/python/jax/jax/lax.py,"_check_conv_shapes( name , lhs_shape , rhs_shape , window_strides )", 19, 81, 2, 0
+github/python/jax/jax/lax.py,"conv_shape_tuple( lhs_shape , rhs_shape , strides , pads )", 14, 81, 2, 0
+github/python/jax/jax/lax.py,"conv_general_shape_tuple( lhs_shape , rhs_shape , window_strides , padding , dimension_numbers )", 2, 76, 0, 0
+github/python/jax/jax/lax.py,"_check_shapelike( fun_name , arg_name , obj )", 18, 81, 2, 0
+github/python/jax/jax/lax.py,"conv_general_permutations.getperm( spec , charpair )", 5, 79, 4, 0
+github/python/jax/jax/lax.py,"conv_general_permutations( dimension_numbers )", 27, 80, 2, 0
+github/python/jax/jax/lax.py,"_dynamic_slice_indices( operand , start_indices )", 4, 77, 4, 0
+github/python/jax/jax/lax.py,"ranges_like( * xs )", 6, 38, 4, 0
+github/python/jax/jax/lax.py,"remaining( original , * removed_lists )", 3, 53, 2, 0
+github/python/jax/jax/lax.py,"_charswap( a , b , s )", 2, 46, 2, 0
+github/python/jax/jax/lax.py,"_get_sdims( dimension_numbers )", 8, 81, 2, 0
+github/python/jax/jax/lax.py,"_conv_general_proto( dimension_numbers )", 14, 64, 2, 0
+github/python/jax/jax/lax.py,"_conv_general_vjp_lhs_padding( in_shape , window_dimensions , window_strides , out_shape , padding , lhs_dilation , rhs_dilation )", 3, 69, 4, 0
+github/python/jax/jax/lax.py,"_conv_general_vjp_rhs_padding( in_shape , window_dimensions , window_strides , out_shape , padding , lhs_dilation , rhs_dilation )", 3, 69, 4, 0
+github/python/jax/jax/lax.py,"_balanced_eq( x , z , y )", 3, 58, 2, 0
+github/python/jax/jax/lax.py,"_eq_meet( a , b )", 9, 55, 4, 0
+github/python/jax/jax/lax.py,"maybe_tracer_tuple_to_abstract_tuple( tup )", 9, 84, 4, 0
+github/python/jax/jax/lax.py,"subvals( lst , replace )", 5, 27, 0, 0
+github/python/jax/jax/lax.py,"_abstractify( x )", 7, 72, 2, 0
+github/python/jax/jax/lax_reference.py,"conj( x )", 2, 55, 2, 0
+github/python/jax/jax/lax_reference.py,"complex( x , y )", 2, 54, 2, 0
+github/python/jax/jax/lax_reference.py,"div( lhs , rhs )", 8, 61, 4, 0
+github/python/jax/jax/lax_reference.py,"rem( lhs , rhs )", 2, 67, 2, 0
+github/python/jax/jax/lax_reference.py,"convert_element_type( operand , dtype )", 2, 43, 2, 0
+github/python/jax/jax/lax_reference.py,"bitcast_convert_type( operand , dtype )", 2, 42, 0, 0
+github/python/jax/jax/lax_reference.py,"clamp( min , operand , max )", 2, 58, 2, 0
+github/python/jax/jax/lax_reference.py,"concatenate( operands , dimension )", 2, 51, 2, 0
+github/python/jax/jax/lax_reference.py,"conv( lhs , rhs , window_strides , padding )", 3, 80, 2, 0
+github/python/jax/jax/lax_reference.py,"conv_with_general_padding( lhs , rhs , window_strides , padding , lhs_dilation , rhs_dilation )", 2, 68, 4, 0
+github/python/jax/jax/lax_reference.py,"conv_general_dilated( lhs , rhs , window_strides , padding , lhs_dilation , rhs_dilation , dimension_numbers )", 2, 74, 0, 0
+github/python/jax/jax/lax_reference.py,"dot_general( lhs , rhs , dimension_numbers )", 28, 81, 2, 0
+github/python/jax/jax/lax_reference.py,"broadcast( operand , sizes )", 2, 63, 2, 0
+github/python/jax/jax/lax_reference.py,"broadcast_in_dim( operand , shape , broadcast_dimensions )", 4, 64, 2, 0
+github/python/jax/jax/lax_reference.py,"reshape( operand , new_sizes , dimensions = None )", 4, 68, 2, 0
+github/python/jax/jax/lax_reference.py,"pad( operand , padding_value , padding_config )", 11, 77, 21, 0
+github/python/jax/jax/lax_reference.py,"rev( operand , dimensions )", 5, 73, 2, 0
+github/python/jax/jax/lax_reference.py,"slice( operand , start_indices , limit_indices , strides = None )", 5, 101, 0, 0
+github/python/jax/jax/lax_reference.py,"dynamic_slice( operand , start_indices , slice_sizes )", 7, 69, 2, 0
+github/python/jax/jax/lax_reference.py,"dynamic_update_slice( operand , update , start_indices )", 5, 84, 2, 0
+github/python/jax/jax/lax_reference.py,"reduce( operand , init_value , computation , dimensions )", 3, 95, 0, 0
+github/python/jax/jax/lax_reference.py,"reduce_window( operand , init_value , computation , window_dimensions , window_strides , padding )", 2, 71, 0, 0
+github/python/jax/jax/lax_reference.py,"sort_key_val( keys , values , dimension = - 1 )", 4, 61, 2, 0
+github/python/jax/jax/lax_reference.py,"_conv( lhs , rhs , window_strides , pads )", 5, 63, 6, 0
+github/python/jax/jax/lax_reference.py,"padtype_to_pads( in_shape , filter_shape , window_strides , padding )", 9, 81, 4, 0
+github/python/jax/jax/lax_reference.py,"_conv_view( lhs , rhs_shape , window_strides , pads , pad_value )", 30, 78, 2, 0
+github/python/jax/jax/lax_reference.py,"_pad( arr , pads , pad_value )", 6, 80, 2, 0
+github/python/jax/jax/lax_reference.py,"_dilate( operand , factors )", 10, 73, 2, 0
+github/python/jax/jax/lax_reference.py,"_conv_general_permutations( dimension_numbers )", 13, 81, 14, 0
+github/python/jax/jax/lax_reference.py,"_make_reducer( py_binop , init_val )", 12, 76, 2, 0
+github/python/jax/jax/lax_reference.py,"_get_max_identity( dt )", 2, 77, 2, 0
+github/python/jax/jax/lax_reference.py,"_get_min_identity( dt )", 2, 76, 2, 0
+github/python/jax/jax/lax_reference.py,"_identity_getter( op )", 2, 61, 2, 0
+github/python/jax/jax/lax_reference.py,"_reducer_from_pyfunc.reducer( operand , axis = 0 )", 8, 70, 4, 0
+github/python/jax/jax/lax_reference.py,"_reducer_from_pyfunc( py_binop , init_val )", 10, 70, 4, 0
+github/python/jax/jax/linear_util.py,"thunk.f_memoized( )", 5, 67, 6, 0
+github/python/jax/jax/linear_util.py,"thunk( f )", 9, 67, 6, 0
+github/python/jax/jax/linear_util.py,"store( self , val )", 3, 38, 4, 0
+github/python/jax/jax/linear_util.py,"val( self )", 4, 42, 6, 0
+github/python/jax/jax/linear_util.py,"__nonzero__( self )", 2, 33, 4, 0
+github/python/jax/jax/linear_util.py,"staged.f_partial( * rest )", 4, 38, 4, 0
+github/python/jax/jax/linear_util.py,"staged( f , * init_args )", 9, 46, 2, 0
+github/python/jax/jax/linear_util.py,"__init__( self , f , transforms , kwargs )", 4, 45, 2, 0
+github/python/jax/jax/linear_util.py,"wrap( self , * transformation )", 2, 79, 4, 0
+github/python/jax/jax/linear_util.py,"populate_stores( self , other )", 5, 74, 55, 0
+github/python/jax/jax/linear_util.py,"call_wrapped( self , * args )", 18, 53, 4, 0
+github/python/jax/jax/linear_util.py,"__repr__.transform_to_str( x )", 3, 71, 6, 0
+github/python/jax/jax/linear_util.py,"__repr__( self )", 6, 106, 4, 0
+github/python/jax/jax/linear_util.py,"hashable_payload( self )", 4, 83, 12, 0
+github/python/jax/jax/linear_util.py,"__hash__( self )", 2, 41, 4, 0
+github/python/jax/jax/linear_util.py,"__eq__( self , other )", 2, 63, 4, 0
+github/python/jax/jax/linear_util.py,"transformation( gen , fun , * transformation_args )", 2, 52, 0, 0
+github/python/jax/jax/linear_util.py,"transformation_with_aux( gen , fun , * transformation_args )", 4, 66, 2, 0
+github/python/jax/jax/linear_util.py,"fun_name( f )", 5, 22, 4, 0
+github/python/jax/jax/linear_util.py,"wrap_init( f , kwargs = { } )", 2, 35, 2, 0
+github/python/jax/jax/linear_util.py,"memoize.memoized_fun( f , * args )", 9, 32, 6, 0
+github/python/jax/jax/linear_util.py,"memoize( call )", 13, 32, 6, 0
+github/python/jax/jax/pprint_util.py,"__init__( self , lines )", 2, 29, 2, 0
+github/python/jax/jax/pprint_util.py,"indent( self , indent )", 3, 59, 24, 0
+github/python/jax/jax/pprint_util.py,"__add__( self , rhs )", 2, 47, 4, 0
+github/python/jax/jax/pprint_util.py,"__rshift__( self , rhs )", 10, 62, 4, 0
+github/python/jax/jax/pprint_util.py,"__str__( self )", 2, 74, 4, 0
+github/python/jax/jax/pprint_util.py,"pp( s )", 2, 66, 2, 0
+github/python/jax/jax/pprint_util.py,"hcat( ps )", 2, 41, 2, 0
+github/python/jax/jax/pprint_util.py,"vcat( ps )", 5, 42, 4, 0
+github/python/jax/jax/pprint_util.py,"pp_kv_pairs( kv_pairs )", 6, 73, 4, 0
+github/python/jax/jax/pprint_util.py,"print_list( xs )", 2, 32, 2, 0
+github/python/jax/jax/random.py,"__init__( self , seed )", 20, 77, 6, 0
+github/python/jax/jax/random.py,"from_keypair( cls , keypair )", 5, 76, 4, 0
+github/python/jax/jax/random.py,"_make_rotate_left._rotate_left( x , d )", 4, 60, 4, 0
+github/python/jax/jax/random.py,"_make_rotate_left( dtype )", 10, 65, 4, 0
+github/python/jax/jax/random.py,"_bit_stats( bits )", 3, 83, 2, 0
+github/python/jax/jax/random.py,"threefry_2x32.apply_round( v , rot )", 6, 34, 4, 0
+github/python/jax/jax/random.py,"threefry_2x32( keypair , count )", 65, 82, 2, 0
+github/python/jax/jax/random.py,"split( key , num = 2 )", 15, 81, 2, 0
+github/python/jax/jax/random.py,"_random_bits( key , bit_width , shape )", 14, 80, 4, 0
+github/python/jax/jax/random.py,"uniform( key , shape , dtype = onp . float32 , minval = 0 . , maxval = 1 . )", 38, 81, 2, 0
+github/python/jax/jax/random.py,"randint( key , shape , minval , maxval , dtype = onp . int32 )", 46, 81, 2, 0
+github/python/jax/jax/random.py,"shuffle( key , x , axis = 0 )", 34, 81, 2, 0
+github/python/jax/jax/random.py,"normal( key , shape , dtype = onp . float32 )", 15, 78, 4, 0
+github/python/jax/jax/random.py,"bernoulli( key , mean = onp . float32 ( 0 . 5 )", 19, 79, 4, 0
+github/python/jax/jax/test_util.py,"numpy_eq( x , y )", 7, 76, 2, 0
+github/python/jax/jax/test_util.py,"numpy_close( a , b , atol = ATOL , rtol = RTOL , equal_nan = False )", 7, 76, 2, 0
+github/python/jax/jax/test_util.py,"check_eq( xs , ys )", 3, 54, 2, 0
+github/python/jax/jax/test_util.py,"check_close( xs , ys , atol = ATOL , rtol = RTOL )", 3, 79, 2, 0
+github/python/jax/jax/test_util.py,"inner_prod( xs , ys )", 3, 63, 2, 0
+github/python/jax/jax/test_util.py,"scalar_mul( xs , a )", 2, 69, 2, 0
+github/python/jax/jax/test_util.py,"rand_like( rng , x )", 8, 62, 2, 0
+github/python/jax/jax/test_util.py,"numerical_jvp( f , primals , tangents , eps = EPS )", 5, 50, 0, 0
+github/python/jax/jax/test_util.py,"check_jvp( f , f_jvp , args , atol = ATOL , rtol = RTOL , eps = EPS )", 8, 62, 0, 0
+github/python/jax/jax/test_util.py,"check_vjp( f , f_vjp , args , atol = ATOL , rtol = RTOL , eps = EPS )", 12, 62, 0, 0
+github/python/jax/jax/test_util.py,"skip_on_devices.skip_on_devices.skip.test_method_wrapper( self , * args , ** kwargs )", 7, 73, 12, 0
+github/python/jax/jax/test_util.py,"skip_on_devices.skip( test_method )", 10, 73, 12, 0
+github/python/jax/jax/test_util.py,"skip_on_devices( * disabled_devices )", 13, 74, 2, 0
+github/python/jax/jax/test_util.py,"skip_on_flag.skip_on_flag.skip.test_method_wrapper( self , * args , ** kwargs )", 8, 71, 8, 0
+github/python/jax/jax/test_util.py,"skip_on_flag.skip( test_method )", 11, 71, 8, 0
+github/python/jax/jax/test_util.py,"skip_on_flag( flag_name , skip_value )", 14, 74, 2, 0
+github/python/jax/jax/test_util.py,"format_test_name_suffix( opname , shapes , dtypes )", 4, 73, 2, 0
+github/python/jax/jax/test_util.py,"__len__( self )", 2, 21, 2, 0
+github/python/jax/jax/test_util.py,"_dims_of_shape( shape )", 3, 54, 2, 0
+github/python/jax/jax/test_util.py,"_cast_to_shape( value , shape , dtype )", 8, 80, 4, 0
+github/python/jax/jax/test_util.py,"format_shape_dtype_string( shape , dtype )", 10, 51, 4, 0
+github/python/jax/jax/test_util.py,"_rand_dtype( rand , shape , dtype , scale = 1 . , post = lambda x : x )", 22, 80, 4, 0
+github/python/jax/jax/test_util.py,"rand_default( )", 3, 46, 2, 0
+github/python/jax/jax/test_util.py,"rand_nonzero( )", 4, 57, 2, 0
+github/python/jax/jax/test_util.py,"rand_positive( )", 4, 56, 2, 0
+github/python/jax/jax/test_util.py,"rand_small( )", 3, 49, 2, 0
+github/python/jax/jax/test_util.py,"rand_not_small( )", 4, 58, 2, 0
+github/python/jax/jax/test_util.py,"rand_small_positive( )", 3, 48, 2, 0
+github/python/jax/jax/test_util.py,"rand_some_equal.post( x )", 3, 45, 4, 0
+github/python/jax/jax/test_util.py,"rand_some_equal( )", 9, 60, 2, 0
+github/python/jax/jax/test_util.py,"rand_some_inf.rand( shape , dtype )", 15, 72, 4, 0
+github/python/jax/jax/test_util.py,"rand_some_inf( )", 22, 76, 2, 0
+github/python/jax/jax/test_util.py,"rand_some_zero.rand( shape , dtype )", 9, 72, 4, 0
+github/python/jax/jax/test_util.py,"rand_some_zero( )", 16, 72, 4, 0
+github/python/jax/jax/test_util.py,"rand_bool.generator( shape , dtype )", 2, 80, 4, 0
+github/python/jax/jax/test_util.py,"rand_bool( )", 5, 80, 4, 0
+github/python/jax/jax/test_util.py,"check_raises( thunk , err_type , msg )", 6, 65, 4, 0
+github/python/jax/jax/test_util.py,"check_raises_regexp( thunk , err_type , pattern )", 6, 70, 4, 0
+github/python/jax/jax/test_util.py,"cases_from_list( xs )", 4, 46, 2, 0
+github/python/jax/jax/test_util.py,"cases_from_gens( * gens )", 6, 75, 6, 0
+github/python/jax/jax/test_util.py,"assertArraysAllClose( self , x , y , check_dtypes , atol = None , rtol = None )", 19, 80, 4, 0
+github/python/jax/jax/test_util.py,"assertDtypesMatch( self , x , y )", 3, 67, 6, 0
+github/python/jax/jax/test_util.py,"assertAllClose( self , x , y , check_dtypes , atol = None , rtol = None )", 14, 80, 4, 0
+github/python/jax/jax/test_util.py,"_CompileAndCheck( self , fun , args_maker , check_dtypes , rtol = None , atol = None )", 2, 60, 2, 0
+github/python/jax/jax/test_util.py,"wrapped_fun( * args )", 3, 50, 6, 0
+github/python/jax/jax/test_util.py,"_CheckAgainstNumpy( self , lax_op , numpy_reference_op , args_maker , check_dtypes = False , tol = 1e - 5 )", 2, 71, 2, 0
+github/python/jax/jax/tree_util.py,"tree_map( f , tree )", 8, 62, 4, 0
+github/python/jax/jax/tree_util.py,"tree_multimap( f , tree , * rest )", 16, 81, 8, 0
+github/python/jax/jax/tree_util.py,"tree_reduce( f , tree )", 3, 31, 2, 0
+github/python/jax/jax/tree_util.py,"tree_all( tree )", 3, 31, 2, 0
+github/python/jax/jax/tree_util.py,"process_pytree( process_node , tree )", 2, 54, 2, 0
+github/python/jax/jax/tree_util.py,"walk_pytree( f_node , f_leaf , tree )", 10, 76, 4, 0
+github/python/jax/jax/tree_util.py,"build_tree( treedef , xs )", 7, 72, 4, 0
+github/python/jax/jax/tree_util.py,"tree_unflatten( xs , treedef )", 7, 72, 4, 0
+github/python/jax/jax/tree_util.py,"tree_structure( tree )", 3, 49, 2, 0
+github/python/jax/jax/tree_util.py,"__init__( self , node_type , node_data , children )", 4, 54, 2, 0
+github/python/jax/jax/tree_util.py,"__repr__( self )", 8, 73, 37, 0
+github/python/jax/jax/tree_util.py,"__hash__( self )", 2, 72, 4, 0
+github/python/jax/jax/tree_util.py,"__eq__( self , other )", 4, 50, 4, 0
+github/python/jax/jax/tree_util.py,"__ne__( self , other )", 2, 29, 4, 0
+github/python/jax/jax/tree_util.py,"__repr__( self )", 2, 22, 2, 0
+github/python/jax/jax/tree_util.py,"dict_to_iterable( xs )", 3, 40, 2, 0
+github/python/jax/jax/tree_util.py,"__init__( self , name , to_iterable , from_iterable )", 4, 56, 2, 0
+github/python/jax/jax/tree_util.py,"register_pytree_node( py_type , to_iterable , from_iterable )", 3, 75, 2, 0
+github/python/jax/jax/util.py,"safe_zip( * args )", 5, 77, 4, 0
+github/python/jax/jax/util.py,"safe_map( f , * args )", 6, 77, 4, 0
+github/python/jax/jax/util.py,"unzip2( xys )", 7, 30, 2, 0
+github/python/jax/jax/util.py,"unzip3( xyzs )", 9, 41, 2, 0
+github/python/jax/jax/util.py,"concatenate( xs )", 2, 42, 2, 0
+github/python/jax/jax/util.py,"partial( fun , * args , ** kwargs )", 5, 52, 2, 0
+github/python/jax/jax/util.py,"__get__( self , instance , owner )", 6, 66, 21, 0
+github/python/jax/jax/util.py,"curry( f )", 2, 29, 2, 0
+github/python/jax/jax/util.py,"toposort( end_node )", 23, 40, 6, 0
+github/python/jax/jax/util.py,"split_merge.merge( new_lhs , new_rhs )", 12, 31, 2, 0
+github/python/jax/jax/util.py,"split_merge( predicate , xs )", 18, 48, 2, 0
+github/python/jax/jax/util.py,"memoize.memoized_fun( * args , ** kwargs )", 12, 59, 4, 0
+github/python/jax/jax/util.py,"memoize( fun )", 15, 59, 4, 0
+github/python/jax/jax/util.py,"prod( xs )", 2, 38, 2, 0
+github/python/jax/jax/util.py,"__init__( self , val )", 2, 27, 2, 0
+github/python/jax/jax/util.py,"__hash__( self )", 2, 24, 4, 0
+github/python/jax/jax/util.py,"__eq__( self , other )", 2, 33, 4, 0
+github/python/jax/jax/experimental/lapax.py,"cholesky( a , block_size = 1 )", 3, 55, 2, 0
+github/python/jax/jax/experimental/lapax.py,"_cholesky.solve( a , b )", 2, 78, 4, 0
+github/python/jax/jax/experimental/lapax.py,"_cholesky( a )", 17, 79, 2, 0
+github/python/jax/jax/experimental/lapax.py,"solve_triangular( a , b , left_side , lower , trans_a , block_size = 1 )", 5, 69, 0, 0
+github/python/jax/jax/experimental/lapax.py,"_solve_triangular_right.solve( a , b )", 2, 67, 4, 0
+github/python/jax/jax/experimental/lapax.py,"_solve_triangular_right( a , b , left_side , lower , trans_a )", 39, 79, 2, 0
+github/python/jax/jax/experimental/lapax.py,"_solve_triangular_left( a , b , left_side , lower , trans_a )", 32, 80, 2, 0
+github/python/jax/jax/experimental/lapax.py,"full_like( x , val )", 2, 58, 2, 0
+github/python/jax/jax/experimental/lapax.py,"sqrt( x )", 2, 78, 2, 0
+github/python/jax/jax/experimental/lapax.py,"_matrix_transpose( ndarray )", 4, 42, 2, 0
+github/python/jax/jax/experimental/lapax.py,"_make_infix_op( fun )", 2, 80, 2, 0
+github/python/jax/jax/experimental/lapax.py,"__init__( self , ndarray , block_size = 1 )", 5, 67, 4, 0
+github/python/jax/jax/experimental/lapax.py,"__getitem__( self , idx )", 2, 79, 4, 0
+github/python/jax/jax/experimental/lapax.py,"__setitem__( self , idx , val )", 2, 72, 4, 0
+github/python/jax/jax/experimental/lapax.py,"bview( self , block_size )", 2, 60, 4, 0
+github/python/jax/jax/experimental/lapax.py,"_canonical_idx( shape , idx_elt , axis , block_size = 1 )", 20, 70, 4, 0
+github/python/jax/jax/experimental/lapax.py,"_matrix_put( ndarray , idx , val , block_size = 1 )", 13, 70, 2, 0
+github/python/jax/jax/experimental/lapax.py,"_matrix_take( ndarray , idx , block_size = 1 )", 14, 70, 2, 0
+github/python/jax/jax/experimental/minmax.py,"optimizer.optimizer.tree_opt_maker.fmapped_init_fun( x0_tree )", 2, 62, 6, 0
+github/python/jax/jax/experimental/minmax.py,"optimizer.optimizer.tree_opt_maker.fmapped_update_fun( i , grad_tree , state_tree )", 3, 63, 6, 0
+github/python/jax/jax/experimental/minmax.py,"optimizer.tree_opt_maker( * args , ** kwargs )", 13, 63, 6, 0
+github/python/jax/jax/experimental/minmax.py,"optimizer( opt_maker )", 17, 76, 2, 0
+github/python/jax/jax/experimental/minmax.py,"iterate( state_tree )", 3, 61, 2, 0
+github/python/jax/jax/experimental/minmax.py,"sgd.init_fun( x0 )", 2, 20, 2, 0
+github/python/jax/jax/experimental/minmax.py,"sgd.update_fun( i , g , x )", 2, 35, 4, 0
+github/python/jax/jax/experimental/minmax.py,"sgd( step_size )", 16, 80, 4, 0
+github/python/jax/jax/experimental/minmax.py,"momentum.init_fun( x0 )", 3, 27, 4, 0
+github/python/jax/jax/experimental/minmax.py,"momentum.update_fun( i , g , x , velocity )", 4, 49, 4, 0
+github/python/jax/jax/experimental/minmax.py,"momentum( step_size , mass )", 19, 80, 4, 0
+github/python/jax/jax/experimental/minmax.py,"rmsprop.init_fun( x0 )", 3, 35, 4, 0
+github/python/jax/jax/experimental/minmax.py,"rmsprop.update_fun( i , g , x , avg_sq_grad )", 4, 60, 4, 0
+github/python/jax/jax/experimental/minmax.py,"rmsprop( step_size , gamma = 0 . 9 , eps = 1e - 8 )", 19, 80, 4, 0
+github/python/jax/jax/experimental/minmax.py,"adam.init_fun( x0 )", 4, 27, 4, 0
+github/python/jax/jax/experimental/minmax.py,"adam.update_fun( i , g , x , m , v )", 7, 64, 4, 0
+github/python/jax/jax/experimental/minmax.py,"adam( step_size , b1 = 0 . 9 , b2 = 0 . 999 , eps = 1e - 8 )", 29, 81, 4, 0
+github/python/jax/jax/experimental/minmax.py,"constant.schedule( i )", 2, 21, 4, 0
+github/python/jax/jax/experimental/minmax.py,"constant( step_size )", 4, 25, 0, 0
+github/python/jax/jax/experimental/minmax.py,"exponential_decay.schedule( i )", 2, 55, 4, 0
+github/python/jax/jax/experimental/minmax.py,"exponential_decay( step_size , decay_steps , decay_rate )", 4, 59, 0, 0
+github/python/jax/jax/experimental/minmax.py,"inverse_time_decay.schedule( i )", 2, 70, 6, 0
+github/python/jax/jax/experimental/minmax.py,"inverse_time_decay.schedule( i )", 2, 60, 6, 0
+github/python/jax/jax/experimental/minmax.py,"inverse_time_decay( step_size , decay_steps , decay_rate , staircase = False )", 8, 77, 0, 0
+github/python/jax/jax/experimental/minmax.py,"piecewise_constant.schedule( i )", 2, 42, 4, 0
+github/python/jax/jax/experimental/minmax.py,"piecewise_constant( boundaries , values )", 11, 80, 4, 0
+github/python/jax/jax/experimental/minmax.py,"make_schedule( scalar_or_schedule_fun )", 7, 50, 4, 0
+github/python/jax/jax/experimental/stax.py,"logsoftmax( x , axis = - 1 )", 3, 80, 2, 0
+github/python/jax/jax/experimental/stax.py,"fastvar( x , axis , keepdims )", 3, 77, 2, 0
+github/python/jax/jax/experimental/stax.py,"randn.init( shape )", 2, 66, 4, 0
+github/python/jax/jax/experimental/stax.py,"randn( stddev = 1e - 2 , rng = npr )", 5, 66, 4, 0
+github/python/jax/jax/experimental/stax.py,"glorot.init( shape )", 5, 63, 4, 0
+github/python/jax/jax/experimental/stax.py,"glorot( out_dim = 0 , in_dim = 1 , scale = onp . sqrt ( 2 )", 8, 71, 2, 0
+github/python/jax/jax/experimental/stax.py,"Dense.init_fun( input_shape )", 4, 66, 4, 0
+github/python/jax/jax/experimental/stax.py,"Dense.apply_fun( params , inputs , rng = None )", 3, 43, 2, 0
+github/python/jax/jax/experimental/stax.py,"Dense( out_dim , W_init = glorot ( )", 10, 72, 2, 0
+github/python/jax/jax/experimental/stax.py,"GeneralConv( dimension_numbers , out_chan , filter_shape , strides = None , padding = 'VALID' , W_init = None , b_init = randn ( 1e - 6 )", 2, 81, 16, 0
+github/python/jax/jax/experimental/stax.py,"init_fun( input_shape )", 11, 74, 4, 0
+github/python/jax/jax/experimental/stax.py,"apply_fun( params , inputs , rng = None )", 4, 75, 4, 0
+github/python/jax/jax/experimental/stax.py,"BatchNorm( axis = ( 0 , 1 , 2 )", 2, 69, 0, 0
+github/python/jax/jax/experimental/stax.py,"init_fun( input_shape )", 5, 71, 4, 0
+github/python/jax/jax/experimental/stax.py,"apply_fun( params , x , rng = None )", 8, 81, 4, 0
+github/python/jax/jax/experimental/stax.py,"_elemwise_no_params( fun , ** kwargs )", 4, 69, 2, 0
+github/python/jax/jax/experimental/stax.py,"_pooling_layer._pooling_layer.PoolingLayer.init_fun( input_shape )", 3, 85, 6, 0
+github/python/jax/jax/experimental/stax.py,"_pooling_layer._pooling_layer.PoolingLayer.apply_fun( params , inputs , rng = None )", 3, 81, 6, 0
+github/python/jax/jax/experimental/stax.py,"_pooling_layer.PoolingLayer( window_shape , strides = None , padding = 'VALID' )", 13, 85, 6, 0
+github/python/jax/jax/experimental/stax.py,"_pooling_layer( reducer , init_val , rescaler = None )", 15, 85, 6, 0
+github/python/jax/jax/experimental/stax.py,"_normalize_by_window_size.rescale( outputs , inputs )", 4, 79, 4, 0
+github/python/jax/jax/experimental/stax.py,"_normalize_by_window_size( dims , strides , padding )", 6, 79, 4, 0
+github/python/jax/jax/experimental/stax.py,"Flatten.init_fun( input_shape )", 3, 70, 4, 0
+github/python/jax/jax/experimental/stax.py,"Flatten.apply_fun( params , inputs , rng = None )", 2, 53, 4, 0
+github/python/jax/jax/experimental/stax.py,"Flatten( )", 8, 76, 2, 0
+github/python/jax/jax/experimental/stax.py,"Identity( )", 5, 59, 2, 0
+github/python/jax/jax/experimental/stax.py,"FanOut( num )", 5, 62, 2, 0
+github/python/jax/jax/experimental/stax.py,"FanInSum( )", 5, 60, 2, 0
+github/python/jax/jax/experimental/stax.py,"Dropout.init_fun( input_shape )", 2, 29, 2, 0
+github/python/jax/jax/experimental/stax.py,"Dropout.apply_fun( params , inputs , rng )", 6, 55, 6, 0
+github/python/jax/jax/experimental/stax.py,"Dropout( rate , mode = 'train' )", 11, 73, 2, 0
+github/python/jax/jax/experimental/stax.py,"serial.init_fun( input_shape )", 6, 49, 6, 0
+github/python/jax/jax/experimental/stax.py,"serial.apply_fun( params , inputs , rng = None )", 5, 80, 4, 0
+github/python/jax/jax/experimental/stax.py,"serial( * layers )", 24, 80, 4, 0
+github/python/jax/jax/experimental/stax.py,"parallel.init_fun( input_shape )", 2, 78, 4, 0
+github/python/jax/jax/experimental/stax.py,"parallel.apply_fun( params , inputs , rng = None )", 3, 80, 4, 0
+github/python/jax/jax/experimental/stax.py,"parallel( * layers )", 23, 80, 4, 0
+github/python/jax/jax/experimental/stax.py,"shape_dependent.init_fun( input_shape )", 2, 51, 4, 0
+github/python/jax/jax/experimental/stax.py,"shape_dependent.apply_fun( params , inputs , rng = None )", 2, 60, 4, 0
+github/python/jax/jax/experimental/stax.py,"shape_dependent( make_layer )", 17, 81, 4, 0
+github/python/jax/jax/interpreters/ad.py,"jvp( fun )", 2, 35, 2, 0
+github/python/jax/jax/interpreters/ad.py,"jvpfun( primals , tangents )", 6, 62, 4, 0
+github/python/jax/jax/interpreters/ad.py,"jvp_subtrace( master , primals , tangents )", 9, 66, 2, 0
+github/python/jax/jax/interpreters/ad.py,"pack_output( * args )", 3, 24, 0, 0
+github/python/jax/jax/interpreters/ad.py,"linearize( traceable , * primals )", 10, 77, 14, 0
+github/python/jax/jax/interpreters/ad.py,"vjp.vjp_( ct )", 5, 71, 4, 0
+github/python/jax/jax/interpreters/ad.py,"vjp( traceable , primals )", 9, 71, 4, 0
+github/python/jax/jax/interpreters/ad.py,"ignore_consts( ct , pval )", 10, 58, 4, 0
+github/python/jax/jax/interpreters/ad.py,"unpair_pval( pval )", 8, 48, 4, 0
+github/python/jax/jax/interpreters/ad.py,"backward_pass.write_cotangent( v , ct )", 4, 69, 6, 0
+github/python/jax/jax/interpreters/ad.py,"backward_pass.read_cotangent( v )", 2, 31, 4, 0
+github/python/jax/jax/interpreters/ad.py,"backward_pass( jaxpr , consts , freevar_vals , cotangent_in )", 43, 85, 6, 0
+github/python/jax/jax/interpreters/ad.py,"get_primitive_transpose( p )", 6, 78, 6, 0
+github/python/jax/jax/interpreters/ad.py,"pure( self , val )", 2, 38, 4, 0
+github/python/jax/jax/interpreters/ad.py,"lift( self , val )", 2, 38, 4, 0
+github/python/jax/jax/interpreters/ad.py,"sublift( self , val )", 2, 52, 4, 0
+github/python/jax/jax/interpreters/ad.py,"process_primitive( self , primitive , tracers , params )", 11, 71, 10, 0
+github/python/jax/jax/interpreters/ad.py,"process_call( self , call_primitive , f , tracers , params )", 8, 75, 4, 0
+github/python/jax/jax/interpreters/ad.py,"post_process_call.todo( x )", 3, 56, 6, 0
+github/python/jax/jax/interpreters/ad.py,"post_process_call( self , _ , out_tracer )", 8, 86, 4, 0
+github/python/jax/jax/interpreters/ad.py,"join( self , xt , yt )", 28, 73, 4, 0
+github/python/jax/jax/interpreters/ad.py,"pack( self , tracers )", 4, 58, 4, 0
+github/python/jax/jax/interpreters/ad.py,"__init__( self , trace , primal , tangent )", 4, 46, 2, 0
+github/python/jax/jax/interpreters/ad.py,"aval( self )", 3, 38, 4, 0
+github/python/jax/jax/interpreters/ad.py,"unpack( self )", 6, 69, 4, 0
+github/python/jax/jax/interpreters/ad.py,"full_lower( self )", 5, 42, 6, 0
+github/python/jax/jax/interpreters/ad.py,"deflinear( primitive , transpose_rule )", 3, 78, 2, 0
+github/python/jax/jax/interpreters/ad.py,"linear_jvp( primitive , primals , tangents , ** params )", 7, 57, 4, 0
+github/python/jax/jax/interpreters/ad.py,"linear_transpose( transpose_rule , cotangent , * args , ** kwargs )", 2, 76, 2, 0
+github/python/jax/jax/interpreters/ad.py,"defjvp( primitive , * jvprules )", 3, 73, 2, 0
+github/python/jax/jax/interpreters/ad.py,"standard_jvp( jvprules , primitive , primals , tangents , ** params )", 5, 85, 2, 0
+github/python/jax/jax/interpreters/ad.py,"defjvp2( primitive , * jvprules )", 3, 74, 2, 0
+github/python/jax/jax/interpreters/ad.py,"standard_jvp2( jvprules , primitive , primals , tangents , ** params )", 5, 94, 2, 0
+github/python/jax/jax/interpreters/ad.py,"add_tangents( x , y )", 7, 29, 4, 0
+github/python/jax/jax/interpreters/ad.py,"defbilinear_broadcasting( bcast , prim , lhs_rule , rhs_rule )", 6, 79, 2, 0
+github/python/jax/jax/interpreters/ad.py,"bilinear_transpose( lhs_rule , rhs_rule , cotangent , x , y , ** kwargs )", 8, 74, 4, 0
+github/python/jax/jax/interpreters/ad.py,"defjvp_zero( primitive )", 3, 59, 2, 0
+github/python/jax/jax/interpreters/ad.py,"zero_jvp( primitive , primals , tangents , ** params )", 2, 54, 0, 0
+github/python/jax/jax/interpreters/ad.py,"instantiate_zeros( example , tangent )", 7, 58, 4, 0
+github/python/jax/jax/interpreters/ad.py,"traceable( in_tree_def , new_primals , new_tangents )", 5, 70, 2, 0
+github/python/jax/jax/interpreters/ad.py,"transposed_fun( jaxpr , in_tree_def , args )", 6, 74, 2, 0
+github/python/jax/jax/interpreters/ad.py,"call_transpose( primitive , params , jaxpr , consts , freevar_vals , args , ct )", 13, 87, 2, 0
+github/python/jax/jax/interpreters/batching.py,"batch( fun , in_vals , in_dims , out_dim_target )", 9, 78, 4, 0
+github/python/jax/jax/interpreters/batching.py,"batch_transform( vals , dims )", 9, 62, 4, 0
+github/python/jax/jax/interpreters/batching.py,"batch_subtrace( master , dims , * vals )", 6, 59, 2, 0
+github/python/jax/jax/interpreters/batching.py,"__init__( self , trace , val , batch_dim )", 4, 45, 2, 0
+github/python/jax/jax/interpreters/batching.py,"aval( self )", 3, 68, 4, 0
+github/python/jax/jax/interpreters/batching.py,"unpack( self )", 11, 71, 4, 0
+github/python/jax/jax/interpreters/batching.py,"full_lower( self )", 5, 39, 6, 0
+github/python/jax/jax/interpreters/batching.py,"pure( self , val )", 2, 40, 4, 0
+github/python/jax/jax/interpreters/batching.py,"lift( self , val )", 2, 40, 4, 0
+github/python/jax/jax/interpreters/batching.py,"sublift( self , val )", 2, 53, 4, 0
+github/python/jax/jax/interpreters/batching.py,"process_primitive( self , primitive , tracers , params )", 8, 71, 6, 0
+github/python/jax/jax/interpreters/batching.py,"process_call( self , call_primitive , f , tracers , params )", 8, 63, 4, 0
+github/python/jax/jax/interpreters/batching.py,"post_process_call( self , _ , out_tracer )", 2, 54, 4, 0
+github/python/jax/jax/interpreters/batching.py,"pack( self , tracers )", 4, 52, 4, 0
+github/python/jax/jax/interpreters/batching.py,"get_aval( x )", 5, 35, 4, 0
+github/python/jax/jax/interpreters/batching.py,"shaped_aval( x )", 5, 75, 4, 0
+github/python/jax/jax/interpreters/batching.py,"raise_to_shaped( aval )", 7, 53, 4, 0
+github/python/jax/jax/interpreters/batching.py,"remove_batch_dim_from_aval( bdim , aval )", 16, 81, 6, 0
+github/python/jax/jax/interpreters/batching.py,"shaped_jaxtuple( xs )", 2, 45, 2, 0
+github/python/jax/jax/interpreters/batching.py,"get_primitive_batcher( p )", 6, 60, 8, 0
+github/python/jax/jax/interpreters/batching.py,"defvectorized( prim )", 2, 63, 2, 0
+github/python/jax/jax/interpreters/batching.py,"vectorized_batcher( prim , batched_args , batch_dims , ** params )", 3, 66, 0, 0
+github/python/jax/jax/interpreters/batching.py,"defbroadcasting( prim )", 2, 62, 2, 0
+github/python/jax/jax/interpreters/batching.py,"broadcast_batcher( prim , batched_args , batch_dims , ** params )", 5, 80, 2, 0
+github/python/jax/jax/interpreters/batching.py,"defreducer( prim )", 2, 60, 2, 0
+github/python/jax/jax/interpreters/batching.py,"reducer_batcher( prim , batched_args , batch_dims , axes , ** kwargs )", 8, 74, 2, 0
+github/python/jax/jax/interpreters/batching.py,"add_batched( batched_args , batch_dims )", 7, 46, 4, 0
+github/python/jax/jax/interpreters/batching.py,"bdim_at_front( x , bdim , broadcast_size = 1 )", 5, 62, 4, 0
+github/python/jax/jax/interpreters/batching.py,"move_dim_to_front( x , dim )", 7, 75, 4, 0
+github/python/jax/jax/interpreters/batching.py,"handle_scalar_broadcasting( nd , x , bdim )", 5, 53, 4, 0
+github/python/jax/jax/interpreters/batching.py,"dimsize( dim , x )", 9, 60, 4, 0
+github/python/jax/jax/interpreters/batching.py,"moveaxis( sz , dst , src , x )", 24, 59, 6, 0
+github/python/jax/jax/interpreters/batching.py,"broadcast( x , sz )", 6, 53, 4, 0
+github/python/jax/jax/interpreters/partial_eval.py,"pure( self , val )", 2, 31, 4, 0
+github/python/jax/jax/interpreters/partial_eval.py,"lift( self , val )", 2, 31, 4, 0
+github/python/jax/jax/interpreters/partial_eval.py,"sublift( self , val )", 2, 53, 4, 0
+github/python/jax/jax/interpreters/partial_eval.py,"new_const( self , val )", 4, 66, 4, 0
+github/python/jax/jax/interpreters/partial_eval.py,"new_instantiated_const( self , val )", 2, 79, 4, 0
+github/python/jax/jax/interpreters/partial_eval.py,"new_arg( self , pval )", 3, 52, 4, 0
+github/python/jax/jax/interpreters/partial_eval.py,"instantiate_const( self , tracer )", 10, 85, 6, 0
+github/python/jax/jax/interpreters/partial_eval.py,"process_primitive( self , primitive , tracers , params )", 6, 64, 4, 0
+github/python/jax/jax/interpreters/partial_eval.py,"pack( self , tracers )", 4, 62, 4, 0
+github/python/jax/jax/interpreters/partial_eval.py,"process_call( self , call_primitive , f , tracers , params )", 10, 84, 4, 0
+github/python/jax/jax/interpreters/partial_eval.py,"post_process_call.todo( x )", 8, 77, 6, 0
+github/python/jax/jax/interpreters/partial_eval.py,"post_process_call( self , call_primitive , out_tracer )", 15, 77, 6, 0
+github/python/jax/jax/interpreters/partial_eval.py,"partial_eval( f , trace , pvs )", 3, 45, 2, 0
+github/python/jax/jax/interpreters/partial_eval.py,"partial_eval_wrapper( avals , * consts , ** kwargs )", 5, 80, 2, 0
+github/python/jax/jax/interpreters/partial_eval.py,"__init__( self , trace , pval , recipe )", 8, 45, 6, 0
+github/python/jax/jax/interpreters/partial_eval.py,"__repr__( self )", 2, 57, 4, 0
+github/python/jax/jax/interpreters/partial_eval.py,"aval( self )", 3, 39, 4, 0
+github/python/jax/jax/interpreters/partial_eval.py,"parents( self )", 7, 49, 4, 0
+github/python/jax/jax/interpreters/partial_eval.py,"ispure( self )", 3, 22, 4, 0
+github/python/jax/jax/interpreters/partial_eval.py,"full_lower( self )", 6, 36, 6, 0
+github/python/jax/jax/interpreters/partial_eval.py,"unpack.child_tracer( i , pval , c )", 3, 78, 8, 0
+github/python/jax/jax/interpreters/partial_eval.py,"unpack( self )", 16, 78, 8, 0
+github/python/jax/jax/interpreters/partial_eval.py,"__new__( cls , xs )", 6, 72, 8, 0
+github/python/jax/jax/interpreters/partial_eval.py,"def_abstract_eval( primitive , abstract_eval )", 2, 49, 0, 0
+github/python/jax/jax/interpreters/partial_eval.py,"abstract_eval_unimplemented( primitive , * args , ** kwargs )", 3, 75, 2, 0
+github/python/jax/jax/interpreters/partial_eval.py,"merge_pvals( val , pval )", 10, 55, 4, 0
+github/python/jax/jax/interpreters/partial_eval.py,"as_abstract_val( pv )", 7, 53, 4, 0
+github/python/jax/jax/interpreters/partial_eval.py,"partial_val_aval( pv , const )", 9, 59, 4, 0
+github/python/jax/jax/interpreters/partial_eval.py,"pack_pvals( pvals )", 9, 57, 2, 0
+github/python/jax/jax/interpreters/partial_eval.py,"abstractify( x )", 2, 51, 2, 0
+github/python/jax/jax/interpreters/partial_eval.py,"trace_unwrapped_to_jaxpr( fun , pvals , ** kwargs )", 2, 60, 2, 0
+github/python/jax/jax/interpreters/partial_eval.py,"trace_to_jaxpr( fun , pvals , ** kwargs )", 9, 71, 4, 0
+github/python/jax/jax/interpreters/partial_eval.py,"trace_to_subjaxpr( master , pvals , ** kwargs )", 10, 66, 2, 0
+github/python/jax/jax/interpreters/partial_eval.py,"eqn_tracer_to_var( var , outvars , eqn )", 7, 67, 2, 0
+github/python/jax/jax/interpreters/partial_eval.py,"tracers_to_jaxpr( in_tracers , out_tracer )", 39, 69, 2, 0
+github/python/jax/jax/interpreters/partial_eval.py,"gensym( suffix )", 3, 44, 2, 0
+github/python/jax/jax/interpreters/partial_eval.py,"__init__( self , count , suffix )", 3, 37, 2, 0
+github/python/jax/jax/interpreters/partial_eval.py,"__repr__( self )", 9, 35, 6, 0
+github/python/jax/jax/interpreters/partial_eval.py,"eqn_parents( eqn )", 3, 73, 2, 0
+github/python/jax/jax/interpreters/partial_eval.py,"eval_jaxpr_raw.read( v )", 2, 18, 4, 0
+github/python/jax/jax/interpreters/partial_eval.py,"eval_jaxpr_raw.write( v , val )", 2, 21, 2, 0
+github/python/jax/jax/interpreters/partial_eval.py,"eval_jaxpr_raw( jaxpr , consts , freevar_vals , * args )", 26, 79, 50, 0
+github/python/jax/jax/interpreters/partial_eval.py,"compiled_call_impl( fun , * args , ** kwargs )", 8, 84, 4, 0
+github/python/jax/jax/interpreters/xla.py,"apply_primitive( prim , * args , ** kwargs )", 4, 72, 2, 0
+github/python/jax/jax/interpreters/xla.py,"xla_primitive_callable( prim , * abstract_args , ** kwargs )", 7, 74, 2, 0
+github/python/jax/jax/interpreters/xla.py,"primitive_computation( prim , * shapes , ** kwargs )", 10, 71, 4, 0
+github/python/jax/jax/interpreters/xla.py,"aval_from_xla_shape( shape )", 2, 63, 2, 0
+github/python/jax/jax/interpreters/xla.py,"execute_compiled_primitive( compiled , result_handler , * args )", 3, 76, 2, 0
+github/python/jax/jax/interpreters/xla.py,"device_put( x )", 5, 70, 4, 0
+github/python/jax/jax/interpreters/xla.py,"result_handler.handle_result( device_buffer )", 2, 55, 6, 0
+github/python/jax/jax/interpreters/xla.py,"result_handler.handle_result( device_buffer )", 2, 68, 6, 0
+github/python/jax/jax/interpreters/xla.py,"result_handler.handle_result( device_buffer )", 3, 76, 6, 0
+github/python/jax/jax/interpreters/xla.py,"result_handler( result_shape )", 15, 76, 6, 0
+github/python/jax/jax/interpreters/xla.py,"xla_shape_to_result_shape( xla_shape )", 7, 81, 4, 0
+github/python/jax/jax/interpreters/xla.py,"compile_jaxpr( jaxpr , const_vals , * abstract_args )", 5, 77, 2, 0
+github/python/jax/jax/interpreters/xla.py,"jaxpr_computation.read( v )", 2, 18, 4, 0
+github/python/jax/jax/interpreters/xla.py,"jaxpr_computation.write( v , node )", 3, 28, 4, 0
+github/python/jax/jax/interpreters/xla.py,"jaxpr_computation( jaxpr , const_vals , freevar_shapes , * arg_shapes )", 32, 82, 4, 0
+github/python/jax/jax/interpreters/xla.py,"xla_destructure( c , ans )", 3, 66, 2, 0
+github/python/jax/jax/interpreters/xla.py,"unit_constant( c , val )", 3, 33, 2, 0
+github/python/jax/jax/interpreters/xla.py,"translation_rule( p )", 6, 67, 8, 0
+github/python/jax/jax/interpreters/xla.py,"zeros_like_translation_rule( c , x )", 4, 71, 2, 0
+github/python/jax/jax/interpreters/xla.py,"canonicalize_pyval_dtype( x )", 6, 60, 4, 0
+github/python/jax/jax/interpreters/xla.py,"canonicalize_tuple_dtype( tup )", 2, 54, 2, 0
+github/python/jax/jax/interpreters/xla.py,"canonicalize_ndarray_dtype( x )", 2, 67, 2, 0
+github/python/jax/jax/interpreters/xla.py,"abstractify( x )", 5, 75, 4, 0
+github/python/jax/jax/interpreters/xla.py,"abstractify_tuple( tup )", 2, 53, 2, 0
+github/python/jax/jax/interpreters/xla.py,"__init__( self , device_buffer )", 2, 39, 4, 0
+github/python/jax/jax/interpreters/xla.py,"forward_method( attrname , self , fun , * args )", 2, 48, 0, 0
+github/python/jax/jax/interpreters/xla.py,"__init__( self , device_buffer , shape , dtype , ndim , size )", 7, 63, 2, 0
+github/python/jax/jax/interpreters/xla.py,"_value( self )", 15, 81, 8, 0
+github/python/jax/jax/interpreters/xla.py,"copy( self )", 3, 73, 4, 0
+github/python/jax/jax/interpreters/xla.py,"__repr__( self )", 3, 70, 4, 0
+github/python/jax/jax/interpreters/xla.py,"__len__( self )", 5, 72, 6, 0
+github/python/jax/jax/interpreters/xla.py,"__iter__( self )", 5, 75, 6, 0
+github/python/jax/jax/interpreters/xla.py,"__reversed__( self )", 5, 66, 6, 0
+github/python/jax/jax/interpreters/xla.py,"__format__( self , format_spec )", 6, 69, 4, 0
+github/python/jax/jax/interpreters/xla.py,"__hash__( self )", 6, 79, 4, 0
+github/python/jax/jax/interpreters/xla.py,"xla_shape( x )", 8, 60, 6, 0
+github/python/jax/jax/interpreters/xla.py,"flatten_fun( in_trees , * flat_args )", 8, 76, 2, 0
+github/python/jax/jax/interpreters/xla.py,"tree_flatten( maybe_tree )", 8, 77, 4, 0
+github/python/jax/jax/interpreters/xla.py,"__repr__( self )", 2, 22, 2, 0
+github/python/jax/jax/interpreters/xla.py,"build_tree( xs , tree_spec )", 7, 69, 4, 0
+github/python/jax/jax/interpreters/xla.py,"xla_call_impl( fun , * args )", 12, 65, 2, 0
+github/python/jax/jax/interpreters/xla.py,"xla_callable( fun , * abstract_args )", 9, 84, 4, 0
+github/python/jax/jax/interpreters/xla.py,"execute_compiled( compiled , pval , handle_result , * args )", 4, 71, 2, 0
+github/python/jax/jax/lib/xla_bridge.py,"_hlo_path( path , name )", 7, 68, 22, 0
+github/python/jax/jax/lib/xla_bridge.py,"get_compile_options( )", 22, 75, 4, 0
+github/python/jax/jax/lib/xla_bridge.py,"memoize.__missing__( self , key )", 3, 34, 6, 0
+github/python/jax/jax/lib/xla_bridge.py,"memoize( func )", 6, 34, 6, 0
+github/python/jax/jax/lib/xla_bridge.py,"memoize_thunk( func )", 3, 79, 2, 0
+github/python/jax/jax/lib/xla_bridge.py,"get_xla_client( )", 4, 50, 25, 0
+github/python/jax/jax/lib/xla_bridge.py,"_get_xla_client( backend_name , platform_name , replica_count )", 23, 78, 4, 0
+github/python/jax/jax/lib/xla_bridge.py,"get_replica_count( )", 2, 46, 2, 0
+github/python/jax/jax/lib/xla_bridge.py,"_get_backend( )", 3, 78, 2, 0
+github/python/jax/jax/lib/xla_bridge.py,"device_put( pyval )", 4, 80, 2, 0
+github/python/jax/jax/lib/xla_bridge.py,"dtype_to_etype( dtype )", 3, 78, 2, 0
+github/python/jax/jax/lib/xla_bridge.py,"canonicalize_dtype( dtype )", 7, 81, 2, 0
+github/python/jax/jax/lib/xla_bridge.py,"supported_numpy_dtypes( )", 2, 75, 2, 0
+github/python/jax/jax/lib/xla_bridge.py,"canonicalize_shape( shape )", 9, 80, 2, 0
+github/python/jax/jax/lib/xla_bridge.py,"normalize_to_xla_dtypes( val )", 7, 76, 4, 0
+github/python/jax/jax/lib/xla_bridge.py,"shape_of( value )", 10, 75, 4, 0
+github/python/jax/jax/lib/xla_bridge.py,"infeed_put( replica_id , pyval )", 4, 46, 2, 0
+github/python/jax/jax/lib/xla_bridge.py,"Build( self , * args , ** kwargs )", 3, 58, 4, 0
+github/python/jax/jax/lib/xla_bridge.py,"Parameter( self , value , name = None , parameter_num = None )", 3, 71, 4, 0
+github/python/jax/jax/lib/xla_bridge.py,"NumpyArrayConstant( self , value )", 3, 78, 4, 0
+github/python/jax/jax/lib/xla_bridge.py,"ConstantLike( self , example_value , value )", 3, 71, 4, 0
+github/python/jax/jax/lib/xla_bridge.py,"Constant( self , py_val )", 14, 79, 6, 0
+github/python/jax/jax/lib/xla_bridge.py,"get_jax_computation_builder_class( )", 4, 65, 2, 0
+github/python/jax/jax/lib/xla_bridge.py,"make_computation_builder( name )", 2, 51, 2, 0
+github/python/jax/jax/lib/xla_bridge.py,"register_constant_handler( type_ , handler_fun )", 2, 51, 0, 0
+github/python/jax/jax/lib/xla_bridge.py,"_ndarray_constant_handler( c , val )", 29, 79, 2, 0
+github/python/jax/jax/numpy/lax_numpy.py,"__instancecheck__( self , instance )", 5, 57, 6, 0
+github/python/jax/jax/numpy/lax_numpy.py,"_promote_shapes( * args )", 9, 78, 2, 0
+github/python/jax/jax/numpy/lax_numpy.py,"_broadcast_shapes( * shapes )", 11, 79, 2, 0
+github/python/jax/jax/numpy/lax_numpy.py,"_promote_dtypes( * args )", 10, 80, 2, 0
+github/python/jax/jax/numpy/lax_numpy.py,"_promote_to_result_dtype( op , * args )", 4, 80, 2, 0
+github/python/jax/jax/numpy/lax_numpy.py,"_result_dtype( op , * args )", 4, 76, 2, 0
+github/python/jax/jax/numpy/lax_numpy.py,"_check_arraylike( fun_name , * args )", 7, 81, 2, 0
+github/python/jax/jax/numpy/lax_numpy.py,"_promote_args( fun_name , * args )", 4, 80, 2, 0
+github/python/jax/jax/numpy/lax_numpy.py,"_promote_args_like( op , * args )", 4, 80, 2, 0
+github/python/jax/jax/numpy/lax_numpy.py,"_constant_like( x , const )", 2, 43, 2, 0
+github/python/jax/jax/numpy/lax_numpy.py,"_wraps.wrap( op )", 6, 33, 6, 0
+github/python/jax/jax/numpy/lax_numpy.py,"_wraps( fun )", 14, 64, 2, 0
+github/python/jax/jax/numpy/lax_numpy.py,"_one_to_one_op( numpy_fn , lax_fn , promote_to_result_dtype = False )", 7, 81, 4, 0
+github/python/jax/jax/numpy/lax_numpy.py,"_logical_op.op( * args )", 5, 78, 4, 0
+github/python/jax/jax/numpy/lax_numpy.py,"_logical_op( np_op , bitwise_op )", 8, 78, 4, 0
+github/python/jax/jax/numpy/lax_numpy.py,"true_divide( x1 , x2 )", 5, 61, 2, 0
+github/python/jax/jax/numpy/lax_numpy.py,"divide( x1 , x2 )", 8, 81, 2, 0
+github/python/jax/jax/numpy/lax_numpy.py,"floor_divide( x1 , x2 )", 9, 79, 4, 0
+github/python/jax/jax/numpy/lax_numpy.py,"divmod( x1 , x2 )", 6, 51, 4, 0
+github/python/jax/jax/numpy/lax_numpy.py,"_float_divmod( x1 , x2 )", 10, 65, 2, 0
+github/python/jax/jax/numpy/lax_numpy.py,"logaddexp( x1 , x2 )", 5, 77, 2, 0
+github/python/jax/jax/numpy/lax_numpy.py,"remainder( x1 , x2 )", 3, 51, 2, 0
+github/python/jax/jax/numpy/lax_numpy.py,"sqrt( x )", 3, 45, 2, 0
+github/python/jax/jax/numpy/lax_numpy.py,"transpose( x , axis = None )", 3, 61, 2, 0
+github/python/jax/jax/numpy/lax_numpy.py,"sinh( x )", 3, 81, 2, 0
+github/python/jax/jax/numpy/lax_numpy.py,"cosh( x )", 3, 81, 2, 0
+github/python/jax/jax/numpy/lax_numpy.py,"sin( x )", 3, 44, 2, 0
+github/python/jax/jax/numpy/lax_numpy.py,"cos( x )", 3, 44, 2, 0
+github/python/jax/jax/numpy/lax_numpy.py,"conjugate( x )", 2, 47, 2, 0
+github/python/jax/jax/numpy/lax_numpy.py,"imag( x )", 2, 47, 2, 0
+github/python/jax/jax/numpy/lax_numpy.py,"real( x )", 2, 47, 2, 0
+github/python/jax/jax/numpy/lax_numpy.py,"angle( x )", 5, 47, 4, 0
+github/python/jax/jax/numpy/lax_numpy.py,"reshape( a , newshape , order = "C" )", 13, 81, 4, 0
+github/python/jax/jax/numpy/lax_numpy.py,"ravel( a , order = "C" )", 4, 70, 4, 0
+github/python/jax/jax/numpy/lax_numpy.py,"squeeze( a , axis = None )", 10, 57, 4, 0
+github/python/jax/jax/numpy/lax_numpy.py,"expand_dims( a , axis )", 4, 75, 2, 0
+github/python/jax/jax/numpy/lax_numpy.py,"swapaxes( a , axis1 , axis2 )", 4, 54, 2, 0
+github/python/jax/jax/numpy/lax_numpy.py,"moveaxis( a , source , destination )", 10, 65, 4, 0
+github/python/jax/jax/numpy/lax_numpy.py,"isclose( a , b , rtol = 1e - 05 , atol = 1e - 08 )", 6, 58, 16, 0
+github/python/jax/jax/numpy/lax_numpy.py,"where( condition , x = None , y = None )", 7, 69, 4, 0
+github/python/jax/jax/numpy/lax_numpy.py,"broadcast_arrays( * args )", 8, 77, 4, 0
+github/python/jax/jax/numpy/lax_numpy.py,"broadcast_to( arr , shape )", 19, 78, 4, 0
+github/python/jax/jax/numpy/lax_numpy.py,"split( ary , indices_or_sections , axis = 0 )", 8, 81, 2, 0
+github/python/jax/jax/numpy/lax_numpy.py,"clip( a , a_min = None , a_max = None )", 8, 65, 2, 0
+github/python/jax/jax/numpy/lax_numpy.py,"_dtype_info( dtype )", 5, 67, 2, 0
+github/python/jax/jax/numpy/lax_numpy.py,"round( a , decimals = 0 )", 9, 56, 2, 0
+github/python/jax/jax/numpy/lax_numpy.py,"_make_reduction.reduction( a , axis = None , dtype = None , out = None , keepdims = False )", 16, 81, 6, 0
+github/python/jax/jax/numpy/lax_numpy.py,"_make_reduction( np_fun , op , init_val )", 22, 81, 2, 0
+github/python/jax/jax/numpy/lax_numpy.py,"_reduction_dims( a , axis )", 9, 79, 4, 0
+github/python/jax/jax/numpy/lax_numpy.py,"_reduction_init_val( a , init_val )", 8, 74, 4, 0
+github/python/jax/jax/numpy/lax_numpy.py,"mean( a , axis = None , keepdims = False )", 9, 54, 2, 0
+github/python/jax/jax/numpy/lax_numpy.py,"var( a , axis = None , keepdims = False , ddof = 0 )", 7, 68, 2, 0
+github/python/jax/jax/numpy/lax_numpy.py,"std( a , axis = None , keepdims = False , ddof = 0 )", 2, 47, 0, 0
+github/python/jax/jax/numpy/lax_numpy.py,"allclose( a , b , rtol = 1e - 05 , atol = 1e - 08 )", 2, 44, 0, 0
+github/python/jax/jax/numpy/lax_numpy.py,"stack( arrays )", 5, 76, 2, 0
+github/python/jax/jax/numpy/lax_numpy.py,"concatenate( arrays , axis = 0 )", 4, 75, 2, 0
+github/python/jax/jax/numpy/lax_numpy.py,"vstack( tup )", 2, 59, 2, 0
+github/python/jax/jax/numpy/lax_numpy.py,"hstack( tup )", 5, 38, 2, 0
+github/python/jax/jax/numpy/lax_numpy.py,"column_stack( tup )", 8, 33, 6, 0
+github/python/jax/jax/numpy/lax_numpy.py,"atleast_1d( * arys )", 6, 53, 4, 0
+github/python/jax/jax/numpy/lax_numpy.py,"atleast_2d( * arys )", 6, 58, 4, 0
+github/python/jax/jax/numpy/lax_numpy.py,"array( object , dtype = None , copy = True , order = "K" , ndmin = 0 )", 26, 80, 4, 0
+github/python/jax/jax/numpy/lax_numpy.py,"zeros_like( x , dtype = None )", 2, 46, 2, 0
+github/python/jax/jax/numpy/lax_numpy.py,"ones_like( x , dtype = None )", 2, 45, 2, 0
+github/python/jax/jax/numpy/lax_numpy.py,"full( shape , fill_value , dtype = None )", 4, 61, 4, 0
+github/python/jax/jax/numpy/lax_numpy.py,"zeros( shape , dtype = onp . dtype ( "float64" )", 4, 62, 2, 0
+github/python/jax/jax/numpy/lax_numpy.py,"ones( shape , dtype = onp . dtype ( "float64" )", 4, 61, 2, 0
+github/python/jax/jax/numpy/lax_numpy.py,"repeat( a , repeats , axis = None )", 26, 81, 2, 0
+github/python/jax/jax/numpy/lax_numpy.py,"dot( a , b )", 15, 74, 2, 0
+github/python/jax/jax/numpy/lax_numpy.py,"matmul( a , b )", 21, 68, 2, 0
+github/python/jax/jax/numpy/lax_numpy.py,"vdot( a , b )", 4, 53, 2, 0
+github/python/jax/jax/numpy/lax_numpy.py,"argmax( a , axis = None )", 5, 34, 2, 0
+github/python/jax/jax/numpy/lax_numpy.py,"argmin( a , axis = None )", 5, 34, 2, 0
+github/python/jax/jax/numpy/lax_numpy.py,"_argminmax( op , a , axis )", 7, 79, 2, 0
+github/python/jax/jax/numpy/lax_numpy.py,"_not_implemented.wrapped( * args , ** kwargs )", 2, 73, 4, 0
+github/python/jax/jax/numpy/lax_numpy.py,"_not_implemented( fun )", 4, 73, 4, 0
+github/python/jax/jax/numpy/lax_numpy.py,"_rewriting_take( arr , idx , axis = 0 )", 97, 106, 2, 0
+github/python/jax/jax/numpy/lax_numpy.py,"_is_slice_none( idx )", 4, 71, 4, 0
+github/python/jax/jax/numpy/lax_numpy.py,"_is_advanced_int_indexer( idx )", 10, 86, 2, 0
+github/python/jax/jax/numpy/lax_numpy.py,"_is_advanced_int_indexer_without_slices( idx )", 8, 81, 2, 0
+github/python/jax/jax/numpy/lax_numpy.py,"_is_int( x )", 5, 77, 2, 0
+github/python/jax/jax/numpy/lax_numpy.py,"_canonicalize_tuple_index( arr , idx )", 18, 81, 2, 0
+github/python/jax/jax/numpy/lax_numpy.py,"_static_idx( idx , size )", 13, 79, 2, 0
+github/python/jax/jax/numpy/lax_numpy.py,"_swap_args( f )", 2, 30, 2, 0
+github/python/jax/jax/scipy/misc.py,"logsumexp( a , axis = None , b = None , keepdims = False , return_sign = False )", 11, 80, 4, 0
+github/python/jax/jax/scipy/stats/norm.py,"logpdf( x , loc = 0 , scale = 1 )", 7, 79, 2, 0
+github/python/jax/tests/api_test.py,"test_grad_argnums.f( x , y , z , flag = False )", 3, 41, 6, 0
+github/python/jax/tests/api_test.py,"test_grad_argnums( self )", 8, 75, 4, 0
+github/python/jax/tests/api_test.py,"test_jit_static_args.f( x , y , z , flag = False , flag2 = False )", 4, 45, 4, 0
+github/python/jax/tests/api_test.py,"test_jit_static_args( self )", 30, 53, 4, 0
+github/python/jax/tests/api_test.py,"test_grad_of_jit.f( x )", 3, 24, 6, 0
+github/python/jax/tests/api_test.py,"test_grad_of_jit( self )", 12, 31, 4, 0
+github/python/jax/tests/api_test.py,"test_jit_of_grad.f( x )", 3, 24, 6, 0
+github/python/jax/tests/api_test.py,"test_jit_of_grad( self )", 13, 30, 2, 0
+github/python/jax/tests/api_test.py,"test_bad_input.f( x )", 2, 15, 6, 0
+github/python/jax/tests/api_test.py,"test_bad_input( self )", 9, 81, 21, 0
+github/python/jax/tests/api_test.py,"test_grad_tuple_output( self )", 3, 76, 21, 0
+github/python/jax/tests/api_test.py,"test_grad_unit_output( self )", 3, 76, 21, 0
+github/python/jax/tests/api_test.py,"test_grad_nonscalar_output( self )", 3, 76, 21, 0
+github/python/jax/tests/api_test.py,"test_unwrapped_numpy.f( x )", 2, 24, 6, 0
+github/python/jax/tests/api_test.py,"test_unwrapped_numpy( self )", 8, 74, 21, 0
+github/python/jax/tests/api_test.py,"test_binop_mismatch.f( x , y )", 2, 19, 6, 0
+github/python/jax/tests/api_test.py,"test_binop_mismatch( self )", 7, 75, 21, 0
+github/python/jax/tests/api_test.py,"test_dot_mismatch.f( x , y )", 2, 26, 6, 0
+github/python/jax/tests/api_test.py,"test_dot_mismatch( self )", 7, 72, 21, 0
+github/python/jax/tests/api_test.py,"test_switch_value_jit.f( x )", 6, 18, 8, 0
+github/python/jax/tests/api_test.py,"test_switch_value_jit( self )", 11, 81, 4, 0
+github/python/jax/tests/api_test.py,"test_range_err.f( x , n )", 4, 25, 6, 0
+github/python/jax/tests/api_test.py,"test_range_err( self )", 11, 68, 8, 0
+github/python/jax/tests/api_test.py,"test_casts( self )", 7, 73, 4, 0
+github/python/jax/tests/api_test.py,"test_unimplemented_interpreter_rules.foo( x )", 2, 27, 6, 0
+github/python/jax/tests/api_test.py,"test_unimplemented_interpreter_rules( self )", 24, 84, 21, 0
+github/python/jax/tests/api_test.py,"test_device_put_and_get( self )", 19, 58, 4, 0
+github/python/jax/tests/batching_test.py,"testConstantFunction( self )", 4, 59, 4, 0
+github/python/jax/tests/batching_test.py,"testNestedBatchingMatMat.matvec( A , b )", 2, 52, 6, 0
+github/python/jax/tests/batching_test.py,"testNestedBatchingMatMat.matmat( A , B )", 2, 63, 6, 0
+github/python/jax/tests/batching_test.py,"testNestedBatchingMatMat.pv_like( x )", 3, 59, 6, 0
+github/python/jax/tests/batching_test.py,"testNestedBatchingMatMat.make_jaxpr( fun , example_args )", 3, 71, 6, 0
+github/python/jax/tests/batching_test.py,"testNestedBatchingMatMat( self )", 26, 71, 6, 0
+github/python/jax/tests/batching_test.py,"testPerExampleGradients.predict( params , inputs )", 5, 40, 8, 0
+github/python/jax/tests/batching_test.py,"testPerExampleGradients.loss( params , data )", 4, 48, 6, 0
+github/python/jax/tests/batching_test.py,"testPerExampleGradients( self )", 35, 66, 14, 0
+github/python/jax/tests/batching_test.py,"testJacobians.jacbwd( f , x )", 5, 69, 6, 0
+github/python/jax/tests/batching_test.py,"testJacobians.jacfwd( f , x )", 5, 69, 6, 0
+github/python/jax/tests/batching_test.py,"testJacobians( self )", 21, 72, 4, 0
+github/python/jax/tests/batching_test.py,"testBatchOfCompile.f( x )", 3, 24, 6, 0
+github/python/jax/tests/batching_test.py,"testBatchOfCompile( self )", 14, 77, 4, 0
+github/python/jax/tests/batching_test.py,"testSliceLax( self )", 8, 63, 4, 0
+github/python/jax/tests/batching_test.py,"testSliceNumpy( self )", 8, 63, 4, 0
+github/python/jax/tests/batching_test.py,"testNpMaximum( self )", 8, 63, 4, 0
+github/python/jax/tests/batching_test.py,"testNpGtrThan( self )", 7, 62, 4, 0
+github/python/jax/tests/batching_test.py,"testNpMaximumPerExampleGrad( self )", 18, 68, 6, 0
+github/python/jax/tests/batching_test.py,"testDotGeneral( self )", 32, 87, 4, 0
+github/python/jax/tests/batching_test.py,"testDot.vecvec( a , b )", 7, 54, 8, 0
+github/python/jax/tests/batching_test.py,"testDot( self )", 14, 67, 4, 0
+github/python/jax/tests/core_test.py,"call( f , * args )", 2, 23, 2, 0
+github/python/jax/tests/core_test.py,"simple_fun( x , y )", 2, 23, 2, 0
+github/python/jax/tests/core_test.py,"simple_fun_fanout( x , y )", 2, 29, 0, 0
+github/python/jax/tests/core_test.py,"fun_with_call( x )", 2, 25, 2, 0
+github/python/jax/tests/core_test.py,"fun_with_nested_calls.fun_with_nested_calls.f.g( z )", 2, 34, 6, 0
+github/python/jax/tests/core_test.py,"fun_with_nested_calls.f( y )", 8, 37, 4, 0
+github/python/jax/tests/core_test.py,"fun_with_nested_calls( x )", 11, 37, 4, 0
+github/python/jax/tests/core_test.py,"error.f( * args )", 2, 17, 4, 0
+github/python/jax/tests/core_test.py,"error( * args )", 4, 18, 0, 0
+github/python/jax/tests/core_test.py,"fun_with_nested_calls_2.fun_with_nested_calls_2.bar.baz( w )", 5, 58, 6, 0
+github/python/jax/tests/core_test.py,"fun_with_nested_calls_2.bar( y )", 9, 67, 6, 0
+github/python/jax/tests/core_test.py,"fun_with_nested_calls_2( x )", 11, 67, 6, 0
+github/python/jax/tests/core_test.py,"fun_call_jitted.g( z )", 2, 17, 4, 0
+github/python/jax/tests/core_test.py,"fun_call_jitted( x )", 6, 24, 0, 0
+github/python/jax/tests/core_test.py,"fun_with_two_calls( x )", 2, 43, 2, 0
+github/python/jax/tests/core_test.py,"fun_with_call_closure.foo( y , z )", 2, 35, 4, 0
+github/python/jax/tests/core_test.py,"fun_with_call_closure( x )", 5, 37, 2, 0
+github/python/jax/tests/core_test.py,"product_io_fun( x , y )", 5, 41, 2, 0
+github/python/jax/tests/core_test.py,"jvp_unlinearized( f , primals , tangents )", 3, 44, 0, 0
+github/python/jax/tests/core_test.py,"fwd_deriv.df( x )", 2, 35, 4, 0
+github/python/jax/tests/core_test.py,"fwd_deriv( f )", 5, 35, 4, 0
+github/python/jax/tests/core_test.py,"check_trace_eval( f , pvals , vals , expected_out_pval )", 8, 80, 6, 0
+github/python/jax/tests/core_test.py,"DISABLED_test_pack_unpack.foo( x )", 4, 33, 6, 0
+github/python/jax/tests/core_test.py,"DISABLED_test_pack_unpack( self )", 9, 79, 4, 0
+github/python/jax/tests/core_test.py,"DISABLED_test_tup_add.foo( x )", 2, 43, 6, 0
+github/python/jax/tests/core_test.py,"DISABLED_test_tup_add( self )", 7, 73, 4, 0
+github/python/jax/tests/core_test.py,"test_tree_multimap( self )", 13, 44, 4, 0
+github/python/jax/tests/core_test.py,"DIABLED_test_print_jaxpr_compound( self )", 4, 79, 4, 0
+github/python/jax/tests/core_test.py,"test_tree_flatten( self )", 3, 50, 4, 0
+github/python/jax/tests/core_test.py,"test_tree_unflatten( self )", 7, 58, 4, 0
+github/python/jax/tests/core_test.py,"test_jit( self , f , args )", 2, 42, 4, 0
+github/python/jax/tests/core_test.py,"test_jvp( self , f , args )", 2, 44, 4, 0
+github/python/jax/tests/core_test.py,"test_jvp_zeros.test_jvp_zeros.foo.bar( y )", 3, 35, 8, 0
+github/python/jax/tests/core_test.py,"test_jvp_zeros.foo( x )", 5, 42, 6, 0
+github/python/jax/tests/core_test.py,"test_jvp_zeros( self )", 8, 42, 6, 0
+github/python/jax/tests/core_test.py,"test_dynamic_subfun_context.test_dynamic_subfun_context.foo.bar( y )", 2, 41, 8, 0
+github/python/jax/tests/core_test.py,"test_dynamic_subfun_context.foo( x )", 4, 41, 8, 0
+github/python/jax/tests/core_test.py,"test_dynamic_subfun_context( self )", 7, 41, 2, 0
+github/python/jax/tests/core_test.py,"DISABLED_test_nested_grad.DISABLED_test_nested_grad.foo.bar( y )", 2, 29, 8, 0
+github/python/jax/tests/core_test.py,"DISABLED_test_nested_grad.foo( x )", 6, 29, 8, 0
+github/python/jax/tests/core_test.py,"DISABLED_test_nested_grad( self )", 9, 52, 4, 0
+github/python/jax/tests/core_test.py,"test_nested.test_nested.foo.test_nested.test_nested.foo.bar.baz( w )", 3, 62, 10, 0
+github/python/jax/tests/core_test.py,"test_nested.test_nested.foo.bar( y )", 6, 62, 10, 0
+github/python/jax/tests/core_test.py,"test_nested.foo( x )", 9, 62, 10, 0
+github/python/jax/tests/core_test.py,"test_nested( self )", 12, 62, 10, 0
+github/python/jax/tests/core_test.py,"test_jvp_linearized( self , f , args )", 2, 57, 4, 0
+github/python/jax/tests/core_test.py,"test_vjp( self , f , args )", 2, 44, 4, 0
+github/python/jax/tests/core_test.py,"test_jvp_closure.test_jvp_closure.foo.bar( y )", 2, 33, 8, 0
+github/python/jax/tests/core_test.py,"test_jvp_closure.foo( x )", 4, 41, 6, 0
+github/python/jax/tests/core_test.py,"test_jvp_closure( self )", 7, 41, 6, 0
+github/python/jax/tests/core_test.py,"test_jit_closure.test_jit_closure.foo.bar( y )", 2, 21, 8, 0
+github/python/jax/tests/core_test.py,"test_jit_closure.foo( x )", 5, 22, 6, 0
+github/python/jax/tests/core_test.py,"test_jit_closure( self )", 7, 50, 4, 0
+github/python/jax/tests/core_test.py,"test_simple_trace.foo( x )", 2, 35, 6, 0
+github/python/jax/tests/core_test.py,"test_simple_trace( self )", 5, 72, 4, 0
+github/python/jax/tests/core_test.py,"test_nullary_trace.foo( )", 2, 17, 6, 0
+github/python/jax/tests/core_test.py,"test_nullary_trace( self )", 4, 47, 4, 0
+github/python/jax/tests/core_test.py,"test_simple_jit.foo( x )", 5, 24, 6, 0
+github/python/jax/tests/core_test.py,"test_simple_jit( self )", 19, 58, 4, 0
+github/python/jax/tests/core_test.py,"test_product_jit.foo( x , tup )", 4, 30, 6, 0
+github/python/jax/tests/core_test.py,"test_product_jit( self )", 15, 47, 4, 0
+github/python/jax/tests/core_test.py,"test_jvp_2( self )", 8, 31, 4, 0
+github/python/jax/tests/generated_fun_test.py,"gen_fun_and_types( size )", 4, 73, 2, 0
+github/python/jax/tests/generated_fun_test.py,"gen_function( size , in_types )", 29, 77, 6, 0
+github/python/jax/tests/generated_fun_test.py,"eval_fun.read( v )", 2, 18, 4, 0
+github/python/jax/tests/generated_fun_test.py,"eval_fun.write( v , x )", 2, 19, 2, 0
+github/python/jax/tests/generated_fun_test.py,"eval_fun( fun , * args )", 13, 40, 2, 0
+github/python/jax/tests/generated_fun_test.py,"maybe_jit( f , num_args )", 3, 47, 2, 0
+github/python/jax/tests/generated_fun_test.py,"fresh_var( ty )", 2, 32, 2, 0
+github/python/jax/tests/generated_fun_test.py,"gen_array_type( size )", 3, 38, 2, 0
+github/python/jax/tests/generated_fun_test.py,"gen_array_val( array_type )", 3, 46, 2, 0
+github/python/jax/tests/generated_fun_test.py,"gen_neg( size , t )", 2, 27, 2, 0
+github/python/jax/tests/generated_fun_test.py,"gen_trig( size , t )", 3, 32, 2, 0
+github/python/jax/tests/generated_fun_test.py,"gen_binop.unify_and_binop( x , y )", 3, 29, 2, 0
+github/python/jax/tests/generated_fun_test.py,"gen_binop( size , t1 , t2 )", 9, 52, 2, 0
+github/python/jax/tests/generated_fun_test.py,"thin( xs , p )", 2, 43, 2, 0
+github/python/jax/tests/generated_fun_test.py,"gen_broadcasting_unifier( t1 , t2 )", 3, 38, 0, 0
+github/python/jax/tests/generated_fun_test.py,"wrap_singleton( f )", 2, 31, 2, 0
+github/python/jax/tests/generated_fun_test.py,"gen_nonneg_int( size )", 2, 27, 2, 0
+github/python/jax/tests/generated_fun_test.py,"choice( xs , weights = None )", 12, 68, 2, 0
+github/python/jax/tests/generated_fun_test.py,"weighted_choice( weighted_choices )", 3, 46, 2, 0
+github/python/jax/tests/generated_fun_test.py,"gen_sized_subset( xs , size )", 2, 43, 2, 0
+github/python/jax/tests/generated_fun_test.py,"gen_subset( xs )", 5, 56, 2, 0
+github/python/jax/tests/generated_fun_test.py,"gen_vals( vs )", 2, 48, 2, 0
+github/python/jax/tests/generated_fun_test.py,"inner_prod( xs , ys )", 4, 49, 2, 0
+github/python/jax/tests/generated_fun_test.py,"jvp_fd.eval_eps( eps )", 3, 51, 17, 0
+github/python/jax/tests/generated_fun_test.py,"jvp_fd( fun , args , tangents )", 11, 80, 2, 0
+github/python/jax/tests/generated_fun_test.py,"check_all_close( xs , ys , tol = 1e - 3 )", 3, 39, 0, 0
+github/python/jax/tests/generated_fun_test.py,"check_close( x , y , tol = 1e - 3 )", 6, 72, 2, 0
+github/python/jax/tests/generated_fun_test.py,"partial_argnums.f_( * dyn_args )", 5, 46, 4, 0
+github/python/jax/tests/generated_fun_test.py,"partial_argnums( f , args , dyn_argnums )", 10, 81, 2, 0
+github/python/jax/tests/generated_fun_test.py,"testJitIsIdentity( self , fun )", 11, 64, 4, 0
+github/python/jax/tests/generated_fun_test.py,"testJVPMatchesFD( self , fun )", 11, 56, 4, 0
+github/python/jax/tests/generated_fun_test.py,"vjp_matches_fd( self , fun )", 15, 60, 4, 0
+github/python/jax/tests/lapax_test.py,"testSolveLowerTriangularVec.check( fun , lhs , rhs )", 6, 59, 6, 0
+github/python/jax/tests/lapax_test.py,"testSolveLowerTriangularVec( self )", 20, 60, 4, 0
+github/python/jax/tests/lapax_test.py,"testSolveLowerTriangularMat.check( fun , lhs , rhs )", 6, 59, 6, 0
+github/python/jax/tests/lapax_test.py,"testSolveLowerTriangularMat( self )", 20, 60, 4, 0
+github/python/jax/tests/lapax_test.py,"testSolveLowerTriangularBroadcasting.check( fun , lhs , rhs )", 6, 59, 6, 0
+github/python/jax/tests/lapax_test.py,"testSolveLowerTriangularBroadcasting( self )", 20, 60, 4, 0
+github/python/jax/tests/lapax_test.py,"testCholeskyMat.check( fun , arr )", 6, 59, 6, 0
+github/python/jax/tests/lapax_test.py,"testCholeskyMat( self )", 16, 59, 6, 0
+github/python/jax/tests/lapax_test.py,"testBlockedCholeskyMat.check( fun , arr )", 6, 59, 6, 0
+github/python/jax/tests/lapax_test.py,"testBlockedCholeskyMat( self )", 18, 59, 6, 0
+github/python/jax/tests/lapax_test.py,"testSolveTriangular( self , lower , left_side , transpose_a , lhs_shape , rhs_shape , dtype , rng )", 2, 74, 2, 0
+github/python/jax/tests/lapax_test.py,"testSolveTriangularBlocked( self , lower , left_side , transpose_a , lhs_shape , rhs_shape , dtype , rng )", 2, 81, 2, 0
+github/python/jax/tests/lax_numpy_indexing_test.py,"check_grads( f , args , order , atol = None , rtol = None , eps = None )", 8, 65, 0, 0
+github/python/jax/tests/lax_numpy_indexing_test.py,"testStaticIndexing( self , shape , dtype , rng , indexer )", 4, 62, 4, 0
+github/python/jax/tests/lax_numpy_indexing_test.py,"testStaticIndexingGrads( self , shape , dtype , rng , indexer )", 5, 65, 2, 0
+github/python/jax/tests/lax_numpy_indexing_test.py,"_ReplaceSlicesWithTuples( self , idx )", 15, 81, 4, 0
+github/python/jax/tests/lax_numpy_indexing_test.py,"testDynamicIndexingWithSlicesErrors.fun( x , unpacked_indexer )", 3, 47, 6, 0
+github/python/jax/tests/lax_numpy_indexing_test.py,"testDynamicIndexingWithSlicesErrors( self , shape , dtype , rng , indexer )", 10, 77, 2, 0
+github/python/jax/tests/lax_numpy_indexing_test.py,"testDynamicIndexingWithIntegers.fun( x , unpacked_indexer )", 3, 47, 6, 0
+github/python/jax/tests/lax_numpy_indexing_test.py,"testDynamicIndexingWithIntegers( self , shape , dtype , rng , indexer )", 9, 76, 4, 0
+github/python/jax/tests/lax_numpy_indexing_test.py,"DISABLED_testDynamicIndexingWithIntegersGrads.fun( unpacked_indexer , x )", 3, 47, 6, 0
+github/python/jax/tests/lax_numpy_indexing_test.py,"DISABLED_testDynamicIndexingWithIntegersGrads( self , shape , dtype , rng , indexer )", 12, 87, 2, 0
+github/python/jax/tests/lax_numpy_indexing_test.py,"testAdvancedIntegerIndexing( self , shape , dtype , rng , indexer )", 4, 69, 2, 0
+github/python/jax/tests/lax_numpy_indexing_test.py,"testAdvancedIntegerIndexingGrads( self , shape , dtype , rng , indexer )", 5, 74, 2, 0
+github/python/jax/tests/lax_numpy_indexing_test.py,"testMixedAdvancedIntegerIndexing.fun( x , indexer_with_dummies )", 3, 74, 6, 0
+github/python/jax/tests/lax_numpy_indexing_test.py,"testMixedAdvancedIntegerIndexing( self , shape , dtype , rng , indexer )", 12, 74, 2, 0
+github/python/jax/tests/lax_numpy_indexing_test.py,"testAdvancedIndexingManually( self )", 27, 80, 4, 0
+github/python/jax/tests/lax_numpy_indexing_test.py,"testUnpacking.foo( x )", 3, 23, 6, 0
+github/python/jax/tests/lax_numpy_indexing_test.py,"testUnpacking( self )", 12, 51, 4, 0
+github/python/jax/tests/lax_numpy_test.py,"op_record( name , nargs , dtypes , rng , diff_modes , test_name = None )", 3, 69, 0, 0
+github/python/jax/tests/lax_numpy_test.py,"_dtypes_are_compatible_for_bitwise_ops( args )", 14, 77, 2, 0
+github/python/jax/tests/lax_numpy_test.py,"_GetArgsMaker( self , rng , shapes , dtypes )", 2, 79, 4, 0
+github/python/jax/tests/lax_numpy_test.py,"testOp( self , onp_op , lnp_op , rng , shapes , dtypes )", 4, 75, 4, 0
+github/python/jax/tests/lax_numpy_test.py,"testBitwiseOp( self , onp_op , lnp_op , rng , shapes , dtypes )", 7, 75, 4, 0
+github/python/jax/tests/lax_numpy_test.py,"testReducer( self , onp_op , lnp_op , rng , shape , dtype , axis , keepdims )", 6, 77, 4, 0
+github/python/jax/tests/lax_numpy_test.py,"testArgMinMax.onp_fun( array_to_reduce )", 2, 43, 6, 0
+github/python/jax/tests/lax_numpy_test.py,"testArgMinMax.lnp_fun( array_to_reduce )", 2, 43, 6, 0
+github/python/jax/tests/lax_numpy_test.py,"testArgMinMax( self , onp_op , lnp_op , rng , shape , dtype , axis )", 11, 77, 4, 0
+github/python/jax/tests/lax_numpy_test.py,"testDot( self , lhs_shape , lhs_dtype , rhs_shape , rhs_dtype , rng )", 4, 80, 4, 0
+github/python/jax/tests/lax_numpy_test.py,"testMatmul( self , lhs_shape , lhs_dtype , rhs_shape , rhs_dtype , rng )", 5, 80, 4, 0
+github/python/jax/tests/lax_numpy_test.py,"testClipStaticBounds( self , shape , dtype , a_min , a_max , rng )", 6, 77, 4, 0
+github/python/jax/tests/lax_numpy_test.py,"testRoundStaticDecimals( self , shape , dtype , decimals , rng )", 6, 77, 4, 0
+github/python/jax/tests/lax_numpy_test.py,"testConcatenate.args_maker( )", 2, 73, 6, 0
+github/python/jax/tests/lax_numpy_test.py,"testConcatenate( self , axis , base_shape , dtypes , rng )", 12, 80, 4, 0
+github/python/jax/tests/lax_numpy_test.py,"testRepeat( self , axis , shape , dtype , repeats , rng )", 8, 77, 4, 0
+github/python/jax/tests/lax_numpy_test.py,"testStack( self , shape , dtypes , rng )", 3, 81, 4, 0
+github/python/jax/tests/lax_numpy_test.py,"testFull( self , shape , fill_value_dtype , out_dtype , rng )", 6, 78, 4, 0
+github/python/jax/tests/lax_numpy_test.py,"testSplitStaticInt( self , shape , num_sections , axis , dtype , rng )", 6, 77, 4, 0
+github/python/jax/tests/lax_numpy_test.py,"testReshape( self , arg_shape , out_shape , dtype , rng )", 6, 77, 4, 0
+github/python/jax/tests/lax_numpy_test.py,"testExpandDimsStaticDim( self , arg_shape , dtype , dim , rng )", 6, 77, 4, 0
+github/python/jax/tests/lax_numpy_test.py,"testSwapAxesStaticAxes( self , arg_shape , dtype , ax1 , ax2 , rng )", 6, 77, 4, 0
+github/python/jax/tests/lax_numpy_test.py,"testSqueeze( self , arg_shape , dtype , ax , rng )", 6, 77, 4, 0
+github/python/jax/tests/lax_numpy_test.py,"testArray( self , arg )", 4, 81, 4, 0
+github/python/jax/tests/lax_numpy_test.py,"testArrayAsarrayMethod.__asarray__( self , dtype = None )", 2, 41, 6, 0
+github/python/jax/tests/lax_numpy_test.py,"testArrayAsarrayMethod( self )", 7, 41, 6, 0
+github/python/jax/tests/lax_numpy_test.py,"testAllClose.same( list1 , list2 )", 4, 71, 6, 0
+github/python/jax/tests/lax_numpy_test.py,"testAllClose( self )", 19, 71, 6, 0
+github/python/jax/tests/lax_numpy_test.py,"DISABLED_testOnesBroadcastingConstantHandler.fun( x )", 16, 81, 6, 0
+github/python/jax/tests/lax_numpy_test.py,"DISABLED_testOnesBroadcastingConstantHandler( self )", 23, 81, 6, 0
+github/python/jax/tests/lax_numpy_test.py,"testZeroStridesConstantHandler.fun( x )", 2, 23, 6, 0
+github/python/jax/tests/lax_numpy_test.py,"testZeroStridesConstantHandler( self )", 10, 66, 4, 0
+github/python/jax/tests/lax_numpy_test.py,"testIsInstanceNdarrayDuringTracing.f( x )", 3, 44, 6, 0
+github/python/jax/tests/lax_numpy_test.py,"testIsInstanceNdarrayDuringTracing( self )", 9, 48, 2, 0
+github/python/jax/tests/lax_numpy_test.py,"testNonArrayErrorMessage.g( x , y )", 2, 27, 6, 0
+github/python/jax/tests/lax_numpy_test.py,"testNonArrayErrorMessage.f( x , y )", 2, 27, 6, 0
+github/python/jax/tests/lax_numpy_test.py,"testNonArrayErrorMessage( self )", 14, 59, 4, 0
+github/python/jax/tests/lax_numpy_test.py,"testAbstractionErrorMessage.f( x , n )", 4, 25, 6, 0
+github/python/jax/tests/lax_numpy_test.py,"testAbstractionErrorMessage.g( x )", 5, 21, 8, 0
+github/python/jax/tests/lax_numpy_test.py,"testAbstractionErrorMessage( self )", 18, 51, 4, 0
+github/python/jax/tests/lax_numpy_test.py,"DISABLED_testTracingPrimitiveWithNoTranslationErrorMessage( self )", 9, 72, 2, 0
+github/python/jax/tests/lax_numpy_test.py,"DISABLED_testRavel( self )", 5, 78, 4, 0
+github/python/jax/tests/lax_scipy_test.py,"op_record( name , nargs , dtypes , rng , diff_modes , test_name = None )", 3, 69, 0, 0
+github/python/jax/tests/lax_scipy_test.py,"_GetArgsMaker( self , rng , shapes , dtypes )", 2, 79, 4, 0
+github/python/jax/tests/lax_scipy_test.py,"testLogSumExp.scipy_fun( array_to_reduce )", 2, 74, 6, 0
+github/python/jax/tests/lax_scipy_test.py,"testLogSumExp.lax_fun( array_to_reduce )", 2, 74, 6, 0
+github/python/jax/tests/lax_scipy_test.py,"testLogSumExp( self , rng , shape , dtype , axis , keepdims )", 11, 79, 4, 0
+github/python/jax/tests/lax_scipy_test.py,"testScipySpecialFun( self , scipy_op , lax_op , rng , shapes , dtypes , modes )", 12, 80, 4, 0
+github/python/jax/tests/lax_scipy_test.py,"testNormLogPdfThreeArgs.args_maker( )", 4, 47, 6, 0
+github/python/jax/tests/lax_scipy_test.py,"testNormLogPdfThreeArgs( self , rng , shapes , dtypes )", 10, 79, 4, 0
+github/python/jax/tests/lax_scipy_test.py,"testNormLogPdfTwoArgs.args_maker( )", 2, 44, 6, 0
+github/python/jax/tests/lax_scipy_test.py,"testNormLogPdfTwoArgs( self , rng , shapes , dtypes )", 9, 79, 4, 0
+github/python/jax/tests/lax_test.py,"num_float_bits( dtype )", 2, 62, 2, 0
+github/python/jax/tests/lax_test.py,"op_record( op , nargs , dtypes , rng , tol = 1e - 5 )", 2, 49, 0, 0
+github/python/jax/tests/lax_test.py,"testOp( self , op , rng , shapes , dtype )", 3, 65, 4, 0
+github/python/jax/tests/lax_test.py,"testOpAgainstNumpy( self , op , rng , shapes , dtype , tol )", 4, 65, 4, 0
+github/python/jax/tests/lax_test.py,"testConvertElementType( self , from_dtype , to_dtype , rng )", 4, 63, 2, 0
+github/python/jax/tests/lax_test.py,"testConvertElementTypeAgainstNumpy( self , from_dtype , to_dtype , rng )", 5, 75, 2, 0
+github/python/jax/tests/lax_test.py,"testBitcastConvertType( self , from_dtype , to_dtype , rng )", 4, 63, 2, 0
+github/python/jax/tests/lax_test.py,"testBitcastConvertTypeAgainstNumpy( self , from_dtype , to_dtype , rng )", 5, 75, 2, 0
+github/python/jax/tests/lax_test.py,"testClamp( self , min_shape , operand_shape , max_shape , dtype , rng )", 4, 72, 2, 0
+github/python/jax/tests/lax_test.py,"testClampAgainstNumpy( self , min_shape , operand_shape , max_shape , dtype , rng )", 2, 78, 2, 0
+github/python/jax/tests/lax_test.py,"testConcatenate( self , dim , base_shape , dtype , num_arrs , rng )", 6, 79, 14, 0
+github/python/jax/tests/lax_test.py,"testConcatenateAgainstNumpy( self , dim , base_shape , dtype , num_arrs , rng )", 7, 80, 2, 0
+github/python/jax/tests/lax_test.py,"testConv.fun( lhs , rhs )", 2, 50, 6, 0
+github/python/jax/tests/lax_test.py,"testConv( self , lhs_shape , rhs_shape , dtype , strides , padding , rng )", 7, 74, 2, 0
+github/python/jax/tests/lax_test.py,"testConvAgainstNumpy( self , lhs_shape , rhs_shape , dtype , strides , padding , rng )", 2, 80, 2, 0
+github/python/jax/tests/lax_test.py,"testConvWithGeneralPadding( self , lhs_shape , rhs_shape , dtype , strides , padding , lhs_dilation , rhs_dilation , rng )", 2, 77, 2, 0
+github/python/jax/tests/lax_test.py,"fun( lhs , rhs )", 3, 66, 10, 0
+github/python/jax/tests/lax_test.py,"DISABLED_testConvWithGeneralPaddingAgainstNumpy( self , lhs_shape , rhs_shape , dtype , strides , padding , lhs_dilation , rhs_dilation , rng )", 3, 73, 6, 0
+github/python/jax/tests/lax_test.py,"fun( lhs , rhs )", 3, 66, 10, 0
+github/python/jax/tests/lax_test.py,"numpy_fun( lhs , rhs )", 3, 66, 10, 0
+github/python/jax/tests/lax_test.py,"testConvGeneralDilated( self , lhs_shape , rhs_shape , dtype , strides , padding , lhs_dilation , rhs_dilation , dimension_numbers , perms , rng )", 3, 73, 2, 0
+github/python/jax/tests/lax_test.py,"args_maker( )", 3, 62, 6, 0
+github/python/jax/tests/lax_test.py,"fun( lhs , rhs )", 4, 66, 10, 0
+github/python/jax/tests/lax_test.py,"testDot( self , lhs_shape , rhs_shape , dtype , rng )", 3, 72, 4, 0
+github/python/jax/tests/lax_test.py,"testDotAgainstNumpy( self , lhs_shape , rhs_shape , dtype , rng )", 3, 72, 4, 0
+github/python/jax/tests/lax_test.py,"testDotGeneralContractOnly( self , lhs_shape , rhs_shape , dtype , lhs_contracting , rhs_contracting , rng )", 2, 73, 33, 0
+github/python/jax/tests/lax_test.py,"fun( lhs , rhs )", 2, 58, 6, 0
+github/python/jax/tests/lax_test.py,"testDotGeneralContractAndBatch( self , lhs_shape , rhs_shape , dtype , dimension_numbers , rng )", 2, 72, 2, 0
+github/python/jax/tests/lax_test.py,"fun( lhs , rhs )", 2, 58, 6, 0
+github/python/jax/tests/lax_test.py,"testDotGeneralAgainstNumpy( self , lhs_shape , rhs_shape , dtype , dimension_numbers , rng )", 2, 68, 2, 0
+github/python/jax/tests/lax_test.py,"testBroadcast( self , shape , dtype , broadcast_sizes , rng )", 4, 63, 2, 0
+github/python/jax/tests/lax_test.py,"testBroadcastAgainstNumpy( self , shape , dtype , broadcast_sizes , rng )", 5, 75, 2, 0
+github/python/jax/tests/lax_test.py,"testBroadcastInDim( self , inshape , dtype , outshape , dimensions , rng )", 4, 75, 2, 0
+github/python/jax/tests/lax_test.py,"testBroadcastInDimAgainstNumpy( self , inshape , dtype , outshape , dimensions , rng )", 2, 69, 2, 0
+github/python/jax/tests/lax_test.py,"testReshape( self , arg_shape , out_shape , dtype , rng )", 4, 61, 4, 0
+github/python/jax/tests/lax_test.py,"testReshapeAgainstNumpy( self , arg_shape , out_shape , dtype , rng )", 5, 71, 2, 0
+github/python/jax/tests/lax_test.py,"testPad( self , shape , dtype , pads , rng )", 4, 70, 4, 0
+github/python/jax/tests/lax_test.py,"testPadAgainstNumpy( self , shape , dtype , pads , rng )", 5, 73, 4, 0
+github/python/jax/tests/lax_test.py,"testReverse( self )", 11, 73, 4, 0
+github/python/jax/tests/lax_test.py,"testSelect.args_maker( )", 3, 69, 6, 0
+github/python/jax/tests/lax_test.py,"testSelect( self , pred_shape , arg_shape , arg_dtype , rng )", 7, 76, 4, 0
+github/python/jax/tests/lax_test.py,"testSelectAgainstNumpy.args_maker( )", 3, 69, 6, 0
+github/python/jax/tests/lax_test.py,"testSelectAgainstNumpy( self , pred_shape , arg_shape , arg_dtype , rng )", 7, 81, 4, 0
+github/python/jax/tests/lax_test.py,"testSlice( self , shape , dtype , starts , limits , strides , rng )", 4, 67, 2, 0
+github/python/jax/tests/lax_test.py,"testSliceAgainstNumpy( self , shape , dtype , starts , limits , strides , rng )", 2, 64, 2, 0
+github/python/jax/tests/lax_test.py,"testDynamicSlice( self , shape , dtype , start_indices , size_indices , rng )", 4, 78, 2, 0
+github/python/jax/tests/lax_test.py,"testDynamicSliceAgainstNumpy( self , shape , dtype , start_indices , size_indices , rng )", 2, 70, 2, 0
+github/python/jax/tests/lax_test.py,"testDynamicUpdateSlice( self , shape , dtype , start_indices , update_shape , rng )", 2, 78, 2, 0
+github/python/jax/tests/lax_test.py,"args_maker( )", 3, 59, 6, 0
+github/python/jax/tests/lax_test.py,"testDynamicUpdateSliceAgainstNumpy( self , shape , dtype , start_indices , update_shape , rng )", 2, 76, 2, 0
+github/python/jax/tests/lax_test.py,"args_maker( )", 3, 59, 6, 0
+github/python/jax/tests/lax_test.py,"testTranspose( self , shape , dtype , perm , rng )", 4, 61, 4, 0
+github/python/jax/tests/lax_test.py,"testTransposeAgainstNumpy( self , shape , dtype , perm , rng )", 5, 64, 2, 0
+github/python/jax/tests/lax_test.py,"testReduce( self , op , init_val , shape , dtype , dims , rng )", 11, 78, 4, 0
+github/python/jax/tests/lax_test.py,"testReduceWindow.fun( operand , init_val )", 2, 78, 6, 0
+github/python/jax/tests/lax_test.py,"testReduceWindow.fun( operand )", 2, 78, 6, 0
+github/python/jax/tests/lax_test.py,"testReduceWindow( self , op , init_val , dtype , padding , rng )", 36, 78, 6, 0
+github/python/jax/tests/lax_test.py,"testSort( self , shape , dtype , axis , rng )", 8, 68, 4, 0
+github/python/jax/tests/lax_test.py,"testSortAgainstNumpy( self , shape , dtype , axis , rng )", 9, 68, 4, 0
+github/python/jax/tests/lax_test.py,"testSortKeyVal.args_maker( )", 5, 74, 6, 0
+github/python/jax/tests/lax_test.py,"testSortKeyVal( self , shape , key_dtype , val_dtype , axis , rng )", 17, 81, 4, 0
+github/python/jax/tests/lax_test.py,"testSortKeyValAgainstNumpy.args_maker( )", 5, 74, 6, 0
+github/python/jax/tests/lax_test.py,"testSortKeyValAgainstNumpy( self , shape , key_dtype , val_dtype , axis , rng )", 18, 81, 4, 0
+github/python/jax/tests/lax_test.py,"testWhileWithTuple.loop_cond( state )", 3, 32, 6, 0
+github/python/jax/tests/lax_test.py,"testWhileWithTuple.loop_body( state )", 3, 50, 6, 0
+github/python/jax/tests/lax_test.py,"testWhileWithTuple.loop( init )", 4, 64, 6, 0
+github/python/jax/tests/lax_test.py,"testWhileWithTuple( self )", 22, 64, 6, 0
+github/python/jax/tests/lax_test.py,"testNestedWhile.testNestedWhile.outer_loop.cond_fun( state )", 3, 30, 8, 0
+github/python/jax/tests/lax_test.py,"testNestedWhile.testNestedWhile.outer_loop.body_fun( state )", 3, 58, 8, 0
+github/python/jax/tests/lax_test.py,"testNestedWhile.outer_loop( num )", 12, 66, 6, 0
+github/python/jax/tests/lax_test.py,"testNestedWhile.testNestedWhile.inner_loop.cond_fun( state )", 3, 28, 8, 0
+github/python/jax/tests/lax_test.py,"testNestedWhile.testNestedWhile.inner_loop.body_fun( state )", 3, 53, 8, 0
+github/python/jax/tests/lax_test.py,"testNestedWhile.inner_loop( i , count )", 12, 67, 4, 0
+github/python/jax/tests/lax_test.py,"testNestedWhile( self )", 35, 67, 4, 0
+github/python/jax/tests/lax_test.py,"testNestedWhileWithDynamicUpdateSlice.update_entry( arr , val , i , j )", 3, 56, 6, 0
+github/python/jax/tests/lax_test.py,"testNestedWhileWithDynamicUpdateSlice.testNestedWhileWithDynamicUpdateSlice.outer_loop.cond_fun( state )", 3, 30, 8, 0
+github/python/jax/tests/lax_test.py,"testNestedWhileWithDynamicUpdateSlice.testNestedWhileWithDynamicUpdateSlice.outer_loop.body_fun( state )", 3, 66, 8, 0
+github/python/jax/tests/lax_test.py,"testNestedWhileWithDynamicUpdateSlice.outer_loop( arr )", 14, 67, 6, 0
+github/python/jax/tests/lax_test.py,"testNestedWhileWithDynamicUpdateSlice.testNestedWhileWithDynamicUpdateSlice.inner_loop.cond_fun( state )", 3, 28, 8, 0
+github/python/jax/tests/lax_test.py,"testNestedWhileWithDynamicUpdateSlice.testNestedWhileWithDynamicUpdateSlice.inner_loop.body_fun( state )", 6, 63, 8, 0
+github/python/jax/tests/lax_test.py,"testNestedWhileWithDynamicUpdateSlice.inner_loop( i , arr , out )", 16, 70, 4, 0
+github/python/jax/tests/lax_test.py,"testNestedWhileWithDynamicUpdateSlice( self )", 44, 76, 4, 0
+github/python/jax/tests/lax_test.py,"testLoopWithConjunctionCondition.testLoopWithConjunctionCondition.sum_first_n.cond_fun( state )", 3, 72, 8, 0
+github/python/jax/tests/lax_test.py,"testLoopWithConjunctionCondition.testLoopWithConjunctionCondition.sum_first_n.body_fun( state )", 4, 64, 8, 0
+github/python/jax/tests/lax_test.py,"testLoopWithConjunctionCondition.sum_first_n( arr , num )", 13, 72, 8, 0
+github/python/jax/tests/lax_test.py,"testLoopWithConjunctionCondition( self )", 23, 78, 6, 0
+github/python/jax/tests/lax_test.py,"testForiLoopBasic.testForiLoopBasic.count.body_fun( i , tot )", 2, 31, 8, 0
+github/python/jax/tests/lax_test.py,"testForiLoopBasic.count( num )", 4, 48, 6, 0
+github/python/jax/tests/lax_test.py,"testForiLoopBasic( self )", 14, 48, 6, 0
+github/python/jax/tests/lax_test.py,"testForiLoopTupleState.testForiLoopTupleState.sum_first_n.body_fun( i , state )", 4, 59, 8, 0
+github/python/jax/tests/lax_test.py,"testForiLoopTupleState.sum_first_n( arr , num )", 10, 72, 6, 0
+github/python/jax/tests/lax_test.py,"testForiLoopTupleState( self )", 20, 78, 6, 0
+github/python/jax/tests/lax_test.py,"testForiLoopDictState.testForiLoopDictState.sum_first_n.body_fun( i , state )", 4, 60, 8, 0
+github/python/jax/tests/lax_test.py,"testForiLoopDictState.sum_first_n( arr , num )", 9, 81, 6, 0
+github/python/jax/tests/lax_test.py,"testForiLoopDictState( self )", 19, 81, 6, 0
+github/python/jax/tests/lax_test.py,"testForiLoopEmptyTupleInState.testForiLoopEmptyTupleInState.sum_first_n.body_fun( i , state )", 4, 59, 8, 0
+github/python/jax/tests/lax_test.py,"testForiLoopEmptyTupleInState.sum_first_n( arr , num )", 9, 83, 6, 0
+github/python/jax/tests/lax_test.py,"testForiLoopEmptyTupleInState( self )", 19, 83, 6, 0
+github/python/jax/tests/lax_test.py,"testBatchMatMul( self , lhs_shape , rhs_shape , dtype , rng )", 3, 74, 4, 0
+github/python/jax/tests/lax_test.py,"testCollapse.collapse_first_two( x )", 2, 35, 6, 0
+github/python/jax/tests/lax_test.py,"testCollapse( self )", 10, 77, 4, 0
+github/python/jax/tests/lax_test.py,"testIndexTake( self , shape , dtype , idxs , axes , rng )", 5, 67, 4, 0
+github/python/jax/tests/lax_test.py,"testIndexUntake( self , dst_shape , dtype , idxs , axes , rng )", 7, 81, 4, 0
+github/python/jax/tests/lax_test.py,"check_grads( f , args , order , atol = None , rtol = None , eps = None )", 8, 65, 0, 0
+github/python/jax/tests/lax_test.py,"check_grads_bilinear( f , args , order , atol = None , rtol = None )", 6, 76, 2, 0
+github/python/jax/tests/lax_test.py,"testOpGrad( self , op , rng , shapes , dtype , order )", 9, 76, 8, 0
+github/python/jax/tests/lax_test.py,"testConvertElementTypeGrad( self , from_dtype , to_dtype , rng )", 4, 75, 4, 0
+github/python/jax/tests/lax_test.py,"testClampGrad( self , min_shape , operand_shape , max_shape , dtype , rng )", 6, 76, 2, 0
+github/python/jax/tests/lax_test.py,"testConcatenateGrad( self , dim , base_shape , dtype , num_arrs , rng )", 7, 79, 14, 0
+github/python/jax/tests/lax_test.py,"testConvGrad( self , lhs_shape , rhs_shape , dtype , strides , padding , rng )", 5, 78, 2, 0
+github/python/jax/tests/lax_test.py,"testConvWithGeneralPaddingGrad( self , lhs_shape , rhs_shape , dtype , strides , padding , lhs_dil , rhs_dil , rng )", 2, 81, 2, 0
+github/python/jax/tests/lax_test.py,"testConvGeneralDilatedGrad( self , lhs_shape , rhs_shape , dtype , strides , padding , lhs_dil , rhs_dil , dimension_numbers , perms , rng )", 3, 79, 33, 0
+github/python/jax/tests/lax_test.py,"testDotGrad( self , lhs_shape , rhs_shape , dtype , rng )", 5, 75, 4, 0
+github/python/jax/tests/lax_test.py,"testDotGeneralContractAndBatchGrads( self , lhs_shape , rhs_shape , dtype , dimension_numbers , rng )", 2, 77, 2, 0
+github/python/jax/tests/lax_test.py,"testBroadcastGrad( self , shape , dtype , broadcast_sizes , rng )", 5, 67, 2, 0
+github/python/jax/tests/lax_test.py,"testBroadcastInDimGrad( self , inshape , dtype , outshape , dimensions , rng )", 5, 79, 2, 0
+github/python/jax/tests/lax_test.py,"testReshapeGrad( self , arg_shape , out_shape , dtype , rng )", 5, 63, 2, 0
+github/python/jax/tests/lax_test.py,"testPadGrad( self , shape , dtype , pads , rng )", 11, 79, 4, 0
+github/python/jax/tests/lax_test.py,"testReverseGrad( self )", 8, 68, 4, 0
+github/python/jax/tests/lax_test.py,"testSelectGrad( self , pred_shape , arg_shape , dtype , rng )", 7, 75, 4, 0
+github/python/jax/tests/lax_test.py,"testSliceGrad( self , shape , dtype , starts , limits , strides , rng )", 5, 71, 2, 0
+github/python/jax/tests/lax_test.py,"testDynamicSliceGrad( self , shape , dtype , start_indices , size_indices , rng )", 2, 76, 2, 0
+github/python/jax/tests/lax_test.py,"testDynamicUpdateSliceGrad( self , shape , dtype , start_indices , update_shape , rng )", 2, 68, 2, 0
+github/python/jax/tests/lax_test.py,"testTransposeGrad( self , shape , dtype , perm , rng )", 5, 57, 4, 0
+github/python/jax/tests/lax_test.py,"testReduceGrad( self , op , init_val , shape , dtype , dims , rng )", 6, 69, 4, 0
+github/python/jax/tests/lax_test.py,"testReduceWindowGrad.fun( operand )", 2, 78, 6, 0
+github/python/jax/tests/lax_test.py,"testReduceWindowGrad( self , op , init_val , dtype , padding , rng )", 35, 78, 6, 0
+github/python/jax/tests/lax_test.py,"testSortGrad( self , shape , dtype , axis , rng )", 5, 56, 4, 0
+github/python/jax/tests/lax_test.py,"testSortKeyValGrad.args_maker( )", 5, 74, 6, 0
+github/python/jax/tests/lax_test.py,"testSortKeyValGrad( self , shape , key_dtype , val_dtype , axis , rng )", 14, 81, 4, 0
+github/python/jax/tests/lax_test.py,"testIndexTakeGrad( self , shape , dtype , idxs , axes , rng )", 5, 62, 2, 0
+github/python/jax/tests/lax_test.py,"testIndexUntakeGrad( self , dst_shape , dtype , idxs , axes , rng )", 9, 75, 4, 0
+github/python/jax/tests/minmax_test.py,"_CheckOptimizer( self , optimizer , loss , x0 , num_steps , * args , ** kwargs )", 3, 78, 2, 0
+github/python/jax/tests/minmax_test.py,"_CheckFuns( self , optimizer , loss , x0 , * args )", 4, 68, 4, 0
+github/python/jax/tests/minmax_test.py,"_CheckRun.op( infeed , x0 )", 3, 74, 6, 0
+github/python/jax/tests/minmax_test.py,"_CheckRun( self , optimizer , loss , x0 , num_steps , * args , ** kwargs )", 18, 74, 6, 0
+github/python/jax/tests/minmax_test.py,"testSgdScalar.loss( x , _ )", 5, 69, 4, 0
+github/python/jax/tests/minmax_test.py,"testSgdVector.loss( x , _ )", 5, 69, 4, 0
+github/python/jax/tests/minmax_test.py,"testSgdNestedTuple.loss( xyz , _ )", 3, 50, 6, 0
+github/python/jax/tests/minmax_test.py,"testSgdNestedTuple( self )", 8, 69, 4, 0
+github/python/jax/tests/minmax_test.py,"testMomentumVector.loss( x , _ )", 6, 80, 4, 0
+github/python/jax/tests/minmax_test.py,"testRmspropVector.loss( x , _ )", 5, 73, 4, 0
+github/python/jax/tests/minmax_test.py,"testAdamVector.loss( x , _ )", 5, 70, 4, 0
+github/python/jax/tests/minmax_test.py,"testSgdClosure.loss( y , x , _ )", 7, 71, 4, 0
+github/python/jax/tests/minmax_test.py,"testSgdVectorExponentialDecaySchedule.loss( x , _ )", 5, 73, 4, 0
+github/python/jax/tests/minmax_test.py,"testSgdVectorInverseTimeDecaySchedule.loss( x , _ )", 5, 73, 4, 0
+github/python/jax/tests/minmax_test.py,"testAdamVectorInverseTimeDecaySchedule.loss( x , _ )", 5, 74, 4, 0
+github/python/jax/tests/minmax_test.py,"testMomentumVectorInverseTimeDecayStaircaseSchedule.loss( x , _ )", 6, 81, 4, 0
+github/python/jax/tests/minmax_test.py,"testRmspropVectorPiecewiseConstantSchedule.loss( x , _ )", 5, 77, 4, 0
+github/python/jax/tests/minmax_test.py,"testTracedStepSize.update( opt_state , step_size )", 5, 44, 6, 0
+github/python/jax/tests/minmax_test.py,"testTracedStepSize( self )", 17, 44, 6, 0
+github/python/jax/tests/random_test.py,"_CheckCollisions( self , samples , nbits )", 8, 81, 4, 0
+github/python/jax/tests/random_test.py,"_CheckKolmogorovSmirnovCDF( self , samples , cdf )", 4, 81, 4, 0
+github/python/jax/tests/random_test.py,"testNumpyAndXLAAgreeOnFloatEndianness( self , dtype )", 9, 78, 8, 0
+github/python/jax/tests/random_test.py,"testThreefry2x32.result_to_hex( result )", 2, 64, 6, 0
+github/python/jax/tests/random_test.py,"testThreefry2x32( self )", 21, 145, 4, 0
+github/python/jax/tests/random_test.py,"testRngUniform( self , dtype )", 11, 74, 6, 0
+github/python/jax/tests/random_test.py,"testRngRandint( self , dtype )", 15, 80, 6, 0
+github/python/jax/tests/random_test.py,"testNormal( self , dtype )", 10, 71, 6, 0
+github/python/jax/tests/random_test.py,"testShuffle( self , dtype )", 13, 61, 4, 0
+github/python/jax/tests/stax_test.py,"_CheckShapeAgreement( test_case , init_fun , apply_fun , input_shape )", 6, 75, 2, 0
+github/python/jax/tests/stax_test.py,"testRandnInitShape( self , shape )", 3, 39, 2, 0
+github/python/jax/tests/stax_test.py,"testGlorotInitShape( self , shape )", 3, 40, 2, 0
+github/python/jax/tests/stax_test.py,"testConvShape( self , channels , filter_shape , padding , strides , input_shape )", 2, 68, 2, 0
+github/python/jax/tests/stax_test.py,"testDenseShape( self , out_dim , input_shape )", 3, 65, 4, 0
+github/python/jax/tests/stax_test.py,"testReluShape( self , input_shape )", 3, 65, 4, 0
+github/python/jax/tests/stax_test.py,"testPoolingShape( self , window_shape , padding , strides , input_shape )", 4, 75, 2, 0
+github/python/jax/tests/stax_test.py,"testFlattenShape( self , input_shape )", 3, 65, 4, 0
+github/python/jax/tests/stax_test.py,"testSerialComposeLayersShape( self , input_shape , spec )", 3, 65, 4, 0
+github/python/jax/tests/stax_test.py,"testDropoutShape( self , input_shape )", 3, 65, 4, 0

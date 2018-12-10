@@ -1,0 +1,388 @@
+File, Function, Length, Total Width, Leading Space(s), Leading Tab(s)
+github/python/walle-web/migrations/env.py,"run_migrations_offline( )", 17, 65, 4, 0
+github/python/walle-web/migrations/env.py,"run_migrations_online.process_revision_directives( context , revision , directives )", 6, 68, 4, 0
+github/python/walle-web/migrations/env.py,"run_migrations_online( )", 36, 79, 4, 0
+github/python/walle-web/migrations/versions/2bca06a823a0_init_walle_database.py,"upgrade( )", 16, 67, 4, 0
+github/python/walle-web/migrations/versions/2bca06a823a0_init_walle_database.py,"create_environments( )", 11, 102, 14, 0
+github/python/walle-web/migrations/versions/2bca06a823a0_init_walle_database.py,"create_menus( )", 18, 102, 14, 0
+github/python/walle-web/migrations/versions/2bca06a823a0_init_walle_database.py,"init_menus( )", 11, 140, 12, 0
+github/python/walle-web/migrations/versions/2bca06a823a0_init_walle_database.py,"create_projects( )", 35, 102, 14, 0
+github/python/walle-web/migrations/versions/2bca06a823a0_init_walle_database.py,"create_records( )", 18, 102, 14, 0
+github/python/walle-web/migrations/versions/2bca06a823a0_init_walle_database.py,"create_servers( )", 12, 102, 14, 0
+github/python/walle-web/migrations/versions/2bca06a823a0_init_walle_database.py,"create_spaces( )", 11, 102, 14, 0
+github/python/walle-web/migrations/versions/2bca06a823a0_init_walle_database.py,"init_spaces( )", 4, 77, 12, 0
+github/python/walle-web/migrations/versions/2bca06a823a0_init_walle_database.py,"create_tasks( )", 22, 102, 14, 0
+github/python/walle-web/migrations/versions/2bca06a823a0_init_walle_database.py,"create_users( )", 17, 102, 14, 0
+github/python/walle-web/migrations/versions/2bca06a823a0_init_walle_database.py,"init_users( )", 8, 209, 12, 0
+github/python/walle-web/migrations/versions/2bca06a823a0_init_walle_database.py,"create_members( )", 13, 102, 14, 0
+github/python/walle-web/migrations/versions/2bca06a823a0_init_walle_database.py,"init_members( )", 7, 90, 12, 0
+github/python/walle-web/migrations/versions/2bca06a823a0_init_walle_database.py,"downgrade( )", 10, 34, 4, 0
+github/python/walle-web/tests/conftest.py,"app( )", 11, 43, 4, 0
+github/python/walle-web/tests/conftest.py,"client( app )", 6, 77, 4, 0
+github/python/walle-web/tests/conftest.py,"testapp( app )", 4, 25, 4, 0
+github/python/walle-web/tests/conftest.py,"db( app )", 11, 37, 4, 0
+github/python/walle-web/tests/conftest.py,"user( db )", 5, 32, 4, 0
+github/python/walle-web/tests/factories.py,"init_vars( self , data )", 6, 55, 12, 0
+github/python/walle-web/tests/test_00_base.py,"test_get_by_id( self )", 3, 30, 4, 0
+github/python/walle-web/tests/test_00_base.py,"from_data( self )", 2, 25, 4, 0
+github/python/walle-web/tests/test_00_base.py,"test_add( self )", 479, 55, 20, 0
+github/python/walle-web/tests/test_00_base.py,"test_add_super( self )", 5, 102, 8, 0
+github/python/walle-web/tests/test_00_base.py,"test_add_owner( self )", 5, 102, 8, 0
+github/python/walle-web/tests/test_00_base.py,"test_base_fetch( self )", 2, 35, 8, 0
+github/python/walle-web/tests/test_00_base.py,"test_login_super( self , user , testapp , client , db )", 9, 80, 8, 0
+github/python/walle-web/tests/test_00_base.py,"test_base_create_space( self , user , testapp , client , db )", 9, 76, 8, 0
+github/python/walle-web/tests/test_00_login.py,"test_fetch( self )", 2, 35, 8, 0
+github/python/walle-web/tests/test_00_login.py,"test_login( self , user , testapp , client , db )", 9, 80, 8, 0
+github/python/walle-web/tests/test_01_api_environment.py,"test_init( self , user , testapp , client , db )", 4, 52, 4, 0
+github/python/walle-web/tests/test_01_api_environment.py,"test_create( self , user , testapp , client , db )", 21, 76, 8, 0
+github/python/walle-web/tests/test_01_api_environment.py,"test_one( self , user , testapp , client , db )", 8, 76, 8, 0
+github/python/walle-web/tests/test_01_api_environment.py,"test_get_list_page_size( self , user , testapp , client )", 16, 91, 8, 0
+github/python/walle-web/tests/test_01_api_environment.py,"test_get_list_query( self , user , testapp , client )", 16, 91, 8, 0
+github/python/walle-web/tests/test_01_api_environment.py,"test_get_update( self , user , testapp , client )", 14, 95, 8, 0
+github/python/walle-web/tests/test_01_api_environment.py,"test_get_remove( self , user , testapp , client )", 14, 81, 8, 0
+github/python/walle-web/tests/test_02_api_role.py,"test_get_list_page_size( self , user , testapp , client )", 14, 91, 8, 0
+github/python/walle-web/tests/test_03_api_user.py,"test_create( self , user , testapp , client , db )", 32, 81, 8, 0
+github/python/walle-web/tests/test_03_api_user.py,"test_one( self , user , testapp , client , db )", 8, 77, 8, 0
+github/python/walle-web/tests/test_03_api_user.py,"test_get_list_page_size( self , user , testapp , client )", 16, 91, 8, 0
+github/python/walle-web/tests/test_03_api_user.py,"test_get_list_query( self , user , testapp , client )", 16, 91, 8, 0
+github/python/walle-web/tests/test_03_api_user.py,"test_get_update( self , user , testapp , client )", 16, 97, 8, 0
+github/python/walle-web/tests/test_03_api_user.py,"test_get_remove( self , user , testapp , client )", 14, 82, 8, 0
+github/python/walle-web/tests/test_04_api_passport.py,"test_login( self , user , testapp , client , db )", 21, 86, 8, 0
+github/python/walle-web/tests/test_05_api_space.py,"test_get_update_default_space( self , user , testapp , client )", 9, 89, 16, 0
+github/python/walle-web/tests/test_05_api_space.py,"test_create( self , user , testapp , client , db )", 19, 78, 8, 0
+github/python/walle-web/tests/test_05_api_space.py,"test_one( self , user , testapp , client , db )", 6, 84, 8, 0
+github/python/walle-web/tests/test_05_api_space.py,"test_get_update( self , user , testapp , client )", 24, 105, 8, 0
+github/python/walle-web/tests/test_05_api_space.py,"compare_member_req_resp( self , request , response )", 5, 73, 20, 0
+github/python/walle-web/tests/test_06_api_server.py,"test_create( self , user , testapp , client , db )", 21, 79, 8, 0
+github/python/walle-web/tests/test_06_api_server.py,"test_one( self , user , testapp , client , db )", 8, 79, 8, 0
+github/python/walle-web/tests/test_06_api_server.py,"test_get_list_page_size( self , user , testapp , client )", 16, 91, 8, 0
+github/python/walle-web/tests/test_06_api_server.py,"test_get_list_query( self , user , testapp , client )", 16, 91, 8, 0
+github/python/walle-web/tests/test_06_api_server.py,"test_get_update( self , user , testapp , client )", 14, 101, 8, 0
+github/python/walle-web/tests/test_06_api_server.py,"test_get_remove( self , user , testapp , client )", 14, 84, 8, 0
+github/python/walle-web/tests/test_07_api_project.py,"test_init( self , user , testapp , client , db )", 5, 52, 4, 0
+github/python/walle-web/tests/test_07_api_project.py,"test_create( self , user , testapp , client , db )", 16, 107, 8, 0
+github/python/walle-web/tests/test_07_api_project.py,"test_one( self , user , testapp , client , db )", 8, 80, 8, 0
+github/python/walle-web/tests/test_07_api_project.py,"test_get_list_page_size( self , user , testapp , client )", 16, 91, 8, 0
+github/python/walle-web/tests/test_07_api_project.py,"test_get_list_query( self , user , testapp , client )", 16, 91, 8, 0
+github/python/walle-web/tests/test_07_api_project.py,"test_get_update( self , user , testapp , client )", 12, 115, 8, 0
+github/python/walle-web/tests/test_07_api_project.py,"test_get_update_members( self , user , testapp , client )", 28, 93, 26, 0
+github/python/walle-web/tests/test_07_api_project.py,"test_get_remove( self , user , testapp , client )", 14, 85, 8, 0
+github/python/walle-web/tests/test_07_api_project.py,"get_list_ids( self , projectOrigin )", 4, 80, 8, 0
+github/python/walle-web/tests/test_07_api_project.py,"project_compare_req_resp( self , req_obj , resp )", 14, 55, 4, 0
+github/python/walle-web/tests/test_07_api_project.py,"project_compare_in( self , req_obj , resp_obj )", 4, 103, 12, 0
+github/python/walle-web/tests/test_07_api_project.py,"compare_member_req_resp( self , request , response )", 5, 73, 20, 0
+github/python/walle-web/tests/test_07_api_project.py,"compare_member_req_resp_without_key( self , request , response )", 5, 73, 20, 0
+github/python/walle-web/tests/test_08_api_task.py,"test_create( self , user , testapp , client , db )", 17, 77, 8, 0
+github/python/walle-web/tests/test_08_api_task.py,"test_one( self , user , testapp , client , db )", 8, 77, 8, 0
+github/python/walle-web/tests/test_08_api_task.py,"test_get_list_page_size( self , user , testapp , client )", 16, 91, 8, 0
+github/python/walle-web/tests/test_08_api_task.py,"test_get_list_query( self , user , testapp , client )", 16, 91, 8, 0
+github/python/walle-web/tests/test_08_api_task.py,"test_get_update( self , user , testapp , client )", 12, 109, 8, 0
+github/python/walle-web/tests/test_08_api_task.py,"test_get_update_audit( self , user , testapp , client )", 7, 85, 8, 0
+github/python/walle-web/tests/test_08_api_task.py,"test_get_update_reject( self , user , testapp , client )", 7, 86, 8, 0
+github/python/walle-web/tests/test_08_api_task.py,"test_get_remove( self , user , testapp , client )", 14, 82, 8, 0
+github/python/walle-web/tests/test_config.py,"test_test_config( )", 5, 41, 4, 0
+github/python/walle-web/tests/test_forms.py,"test_validate_success( self , user )", 8, 82, 8, 0
+github/python/walle-web/tests/test_functional.py,"test_can_log_in_returns_200( self , user , testapp , client )", 11, 66, 4, 0
+github/python/walle-web/tests/test_models.py,"test_get_by_id( self )", 3, 30, 4, 0
+github/python/walle-web/tests/test_models.py,"test_add( self )", 3, 59, 8, 0
+github/python/walle-web/tests/utils.py,"response_success( response )", 4, 113, 4, 0
+github/python/walle-web/tests/utils.py,"response_error( response , code = None )", 4, 113, 4, 0
+github/python/walle-web/tests/utils.py,"compare_req_resp( req_obj , resp )", 4, 39, 4, 0
+github/python/walle-web/tests/utils.py,"compare_in( req_obj , resp_obj )", 4, 99, 8, 0
+github/python/walle-web/tests/utils.py,"resp_json( resp )", 2, 51, 4, 0
+github/python/walle-web/walle/app.py,"create_app.before_request( )", 3, 26, 4, 0
+github/python/walle-web/walle/app.py,"create_app.shutdown_session( exception = None )", 4, 44, 8, 0
+github/python/walle-web/walle/app.py,"create_app.index( )", 2, 48, 8, 0
+github/python/walle-web/walle/app.py,"create_app( config_object = ProdConfig )", 40, 102, 4, 0
+github/python/walle-web/walle/app.py,"register_extensions.load_user( user_id )", 4, 44, 8, 0
+github/python/walle-web/walle/app.py,"register_extensions.unauthorized( )", 3, 59, 8, 0
+github/python/walle-web/walle/app.py,"register_extensions( app )", 25, 59, 8, 0
+github/python/walle-web/walle/app.py,"register_blueprints( app )", 19, 168, 4, 0
+github/python/walle-web/walle/app.py,"register_errorhandlers.render_error( error )", 4, 76, 8, 0
+github/python/walle-web/walle/app.py,"register_errorhandlers.render_errors( )", 5, 72, 8, 0
+github/python/walle-web/walle/app.py,"register_errorhandlers( app )", 10, 76, 8, 0
+github/python/walle-web/walle/app.py,"register_shellcontext.shell_context( )", 6, 37, 8, 0
+github/python/walle-web/walle/app.py,"register_shellcontext( app )", 11, 47, 4, 0
+github/python/walle-web/walle/app.py,"register_commands( app )", 6, 40, 4, 0
+github/python/walle-web/walle/app.py,"register_logging( app )", 26, 101, 12, 0
+github/python/walle-web/walle/app.py,"register_socketio( app )", 7, 80, 4, 0
+github/python/walle-web/walle/app.py,"filter( self , record )", 12, 59, 8, 0
+github/python/walle-web/walle/commands.py,"test( )", 5, 47, 4, 0
+github/python/walle-web/walle/commands.py,"lint.execute_tool( description , * args )", 7, 73, 8, 0
+github/python/walle-web/walle/commands.py,"lint( fix_imports )", 20, 76, 8, 0
+github/python/walle-web/walle/commands.py,"clean( )", 11, 79, 4, 0
+github/python/walle-web/walle/commands.py,"urls( url , order )", 57, 72, 8, 0
+github/python/walle-web/walle/api/access.py,"get( self , access_id = None )", 8, 66, 8, 0
+github/python/walle-web/walle/api/access.py,"list( self )", 11, 50, 8, 0
+github/python/walle-web/walle/api/access.py,"item( self , access_id )", 11, 50, 8, 0
+github/python/walle-web/walle/api/access.py,"post( self )", 17, 90, 8, 0
+github/python/walle-web/walle/api/access.py,"put( self , access_id )", 19, 85, 12, 0
+github/python/walle-web/walle/api/access.py,"delete( self , access_id )", 13, 47, 8, 0
+github/python/walle-web/walle/api/api.py,"__init__( self )", 2, 24, 4, 0
+github/python/walle-web/walle/api/api.py,"render_json( code = 0 , message = '' , data = [ ] )", 2, 71, 8, 0
+github/python/walle-web/walle/api/api.py,"json( code = 0 , message = None , data = [ ] )", 12, 65, 12, 0
+github/python/walle-web/walle/api/api.py,"list_json( list , count , table = { } , code = 0 , message = '' , enable_create = False )", 4, 124, 8, 0
+github/python/walle-web/walle/api/api.py,"__init__( self )", 3, 88, 12, 0
+github/python/walle-web/walle/api/api.py,"get( self , * args , ** kwargs )", 4, 36, 4, 0
+github/python/walle-web/walle/api/api.py,"delete( self , * args , ** kwargs )", 8, 87, 8, 0
+github/python/walle-web/walle/api/api.py,"put( self , * args , ** kwargs )", 8, 87, 8, 0
+github/python/walle-web/walle/api/api.py,"post( self , * args , ** kwargs )", 9, 37, 4, 0
+github/python/walle-web/walle/api/api.py,"validator( self )", 6, 84, 8, 0
+github/python/walle-web/walle/api/api.py,"is_super.is_enable( * args , ** kwargs )", 6, 91, 12, 0
+github/python/walle-web/walle/api/api.py,"is_super( func )", 10, 91, 12, 0
+github/python/walle-web/walle/api/api.py,"is_master.is_enable( * args , ** kwargs )", 6, 91, 12, 0
+github/python/walle-web/walle/api/api.py,"is_master( func )", 10, 91, 12, 0
+github/python/walle-web/walle/api/api.py,"get( self )", 7, 36, 8, 0
+github/python/walle-web/walle/api/deploy.py,"get( self , task_id = None )", 8, 43, 8, 0
+github/python/walle-web/walle/api/deploy.py,"post( self )", 18, 49, 8, 0
+github/python/walle-web/walle/api/environment.py,"get( self , env_id = None )", 10, 60, 8, 0
+github/python/walle-web/walle/api/environment.py,"list( self )", 24, 148, 8, 0
+github/python/walle-web/walle/api/environment.py,"item( self , env_id )", 13, 48, 8, 0
+github/python/walle-web/walle/api/environment.py,"post( self )", 19, 86, 12, 0
+github/python/walle-web/walle/api/environment.py,"put( self , env_id )", 17, 83, 12, 0
+github/python/walle-web/walle/api/environment.py,"delete( self , env_id )", 13, 48, 8, 0
+github/python/walle-web/walle/api/general.py,"get( self , action )", 12, 62, 12, 0
+github/python/walle-web/walle/api/general.py,"post( self , action )", 8, 36, 8, 0
+github/python/walle-web/walle/api/general.py,"menu( self )", 21, 99, 8, 0
+github/python/walle-web/walle/api/general.py,"mail( self )", 6, 117, 8, 0
+github/python/walle-web/walle/api/general.py,"websocket( self , task_id = None )", 9, 46, 8, 0
+github/python/walle-web/walle/api/group.py,"get( self , group_id = None )", 10, 64, 8, 0
+github/python/walle-web/walle/api/group.py,"list( self )", 28, 105, 8, 0
+github/python/walle-web/walle/api/group.py,"item( self , group_id )", 14, 55, 8, 0
+github/python/walle-web/walle/api/group.py,"put( self , group_id )", 27, 77, 12, 0
+github/python/walle-web/walle/api/group.py,"delete( self , group_id )", 14, 44, 8, 0
+github/python/walle-web/walle/api/passport.py,"post( self , action )", 13, 62, 12, 0
+github/python/walle-web/walle/api/passport.py,"login( self )", 17, 78, 12, 0
+github/python/walle-web/walle/api/passport.py,"logout( self )", 3, 34, 8, 0
+github/python/walle-web/walle/api/project.py,"get( self , action = None , project_id = None )", 10, 68, 8, 0
+github/python/walle-web/walle/api/project.py,"list( self )", 17, 109, 8, 0
+github/python/walle-web/walle/api/project.py,"item( self , project_id )", 16, 113, 8, 0
+github/python/walle-web/walle/api/project.py,"post( self )", 20, 66, 12, 0
+github/python/walle-web/walle/api/project.py,"put( self , project_id , action = None )", 22, 78, 12, 0
+github/python/walle-web/walle/api/project.py,"delete( self , project_id )", 13, 52, 8, 0
+github/python/walle-web/walle/api/project.py,"members( self , project_id , members )", 15, 81, 8, 0
+github/python/walle-web/walle/api/repo.py,"get( self , action , commit = None )", 15, 62, 12, 0
+github/python/walle-web/walle/api/repo.py,"tags( self , project_id = None )", 13, 51, 8, 0
+github/python/walle-web/walle/api/repo.py,"branches( self , project_id = None )", 12, 45, 8, 0
+github/python/walle-web/walle/api/repo.py,"commits( self , project_id )", 14, 48, 8, 0
+github/python/walle-web/walle/api/role.py,"get( self )", 9, 59, 8, 0
+github/python/walle-web/walle/api/server.py,"get( self , id = None )", 10, 52, 8, 0
+github/python/walle-web/walle/api/server.py,"list( self )", 14, 110, 8, 0
+github/python/walle-web/walle/api/server.py,"item( self , id )", 13, 50, 8, 0
+github/python/walle-web/walle/api/server.py,"post( self )", 19, 74, 12, 0
+github/python/walle-web/walle/api/server.py,"put( self , id )", 18, 74, 12, 0
+github/python/walle-web/walle/api/server.py,"delete( self , id )", 13, 44, 8, 0
+github/python/walle-web/walle/api/space.py,"get( self , space_id = None , action = None )", 16, 62, 12, 0
+github/python/walle-web/walle/api/space.py,"list( self , space_id = None )", 14, 105, 8, 0
+github/python/walle-web/walle/api/space.py,"item( self , space_id )", 13, 49, 8, 0
+github/python/walle-web/walle/api/space.py,"post( self )", 27, 68, 8, 0
+github/python/walle-web/walle/api/space.py,"put( self , space_id , action = None )", 16, 62, 12, 0
+github/python/walle-web/walle/api/space.py,"update( self , space_id )", 17, 105, 16, 0
+github/python/walle-web/walle/api/space.py,"delete( self , space_id )", 13, 46, 8, 0
+github/python/walle-web/walle/api/space.py,"switch( self , space_id )", 8, 43, 8, 0
+github/python/walle-web/walle/api/space.py,"member( self , space_id )", 7, 103, 8, 0
+github/python/walle-web/walle/api/space.py,"members( self , space_id )", 7, 103, 8, 0
+github/python/walle-web/walle/api/task.py,"get( self , task_id = None )", 9, 62, 8, 0
+github/python/walle-web/walle/api/task.py,"list( self )", 13, 136, 8, 0
+github/python/walle-web/walle/api/task.py,"item( self , task_id )", 12, 48, 8, 0
+github/python/walle-web/walle/api/task.py,"post( self )", 20, 68, 8, 0
+github/python/walle-web/walle/api/task.py,"put( self , task_id , action = None )", 16, 66, 16, 0
+github/python/walle-web/walle/api/task.py,"update( self , task_id )", 11, 66, 12, 0
+github/python/walle-web/walle/api/task.py,"delete( self , task_id )", 12, 44, 8, 0
+github/python/walle-web/walle/api/task.py,"audit( self , task_id )", 9, 61, 8, 0
+github/python/walle-web/walle/api/task.py,"reject( self , task_id )", 9, 63, 8, 0
+github/python/walle-web/walle/api/user.py,"get( self , user_id = None , method = None )", 10, 62, 8, 0
+github/python/walle-web/walle/api/user.py,"list( self )", 24, 132, 8, 0
+github/python/walle-web/walle/api/user.py,"item( self , user_id )", 12, 49, 8, 0
+github/python/walle-web/walle/api/user.py,"post( self , user_id = None , action = None )", 17, 69, 12, 0
+github/python/walle-web/walle/api/user.py,"put( self , user_id , action = None )", 23, 91, 12, 0
+github/python/walle-web/walle/api/user.py,"delete( self , user_id )", 13, 46, 8, 0
+github/python/walle-web/walle/api/user.py,"table( filter = { } )", 24, 45, 16, 0
+github/python/walle-web/walle/api/user.py,"avatar( self , user_id )", 18, 79, 8, 0
+github/python/walle-web/walle/api/user.py,"block( self , user_id )", 4, 52, 8, 0
+github/python/walle-web/walle/api/user.py,"active( self , user_id )", 4, 51, 8, 0
+github/python/walle-web/walle/form/environment.py,"set_env_id( self , env_id )", 2, 34, 4, 0
+github/python/walle-web/walle/form/environment.py,"validate_env_name( self , field )", 5, 72, 8, 0
+github/python/walle-web/walle/form/environment.py,"validate_status( self , field )", 3, 57, 8, 0
+github/python/walle-web/walle/form/group.py,"set_group_id( self , group_id )", 2, 38, 4, 0
+github/python/walle-web/walle/form/group.py,"validate_user_ids( self , field )", 11, 88, 8, 0
+github/python/walle-web/walle/form/group.py,"validate_group_name( self , field )", 5, 94, 8, 0
+github/python/walle-web/walle/form/group.py,"validate_members( self , field )", 2, 39, 4, 0
+github/python/walle-web/walle/form/project.py,"set_id( self , id )", 2, 26, 4, 0
+github/python/walle-web/walle/form/project.py,"validate_name( self , field )", 5, 71, 8, 0
+github/python/walle-web/walle/form/project.py,"form2dict( self )", 33, 97, 12, 0
+github/python/walle-web/walle/form/server.py,"set_id( self , id )", 2, 26, 4, 0
+github/python/walle-web/walle/form/server.py,"validate_name( self , field )", 5, 70, 8, 0
+github/python/walle-web/walle/form/space.py,"set_id( self , id )", 2, 26, 4, 0
+github/python/walle-web/walle/form/space.py,"validate_name( self , field )", 5, 68, 8, 0
+github/python/walle-web/walle/form/space.py,"form2dict( self )", 8, 71, 12, 0
+github/python/walle-web/walle/form/task.py,"set_id( self , id )", 2, 26, 4, 0
+github/python/walle-web/walle/form/task.py,"form2dict( self )", 22, 132, 8, 0
+github/python/walle-web/walle/form/user.py,"validate_email( self , field )", 3, 68, 12, 0
+github/python/walle-web/walle/form/user.py,"form2dict( self )", 7, 68, 12, 0
+github/python/walle-web/walle/form/user.py,"validate_password( self , field )", 3, 101, 8, 0
+github/python/walle-web/walle/model/database.py,"parse_operator._change_type( cls , field , value )", 15, 47, 12, 0
+github/python/walle-web/walle/model/database.py,"parse_operator( cls , filter_name_dict )", 37, 67, 24, 0
+github/python/walle-web/walle/model/database.py,"create( cls , ** kwargs )", 4, 60, 8, 0
+github/python/walle-web/walle/model/database.py,"create_from_dict( cls , d )", 5, 60, 8, 0
+github/python/walle-web/walle/model/database.py,"update( self , commit = True , ** kwargs )", 5, 50, 8, 0
+github/python/walle-web/walle/model/database.py,"save( self , commit = True )", 10, 43, 16, 0
+github/python/walle-web/walle/model/database.py,"delete( self , commit = True )", 9, 51, 8, 0
+github/python/walle-web/walle/model/database.py,"to_dict( self , fields_list = None )", 12, 61, 12, 0
+github/python/walle-web/walle/model/database.py,"create_or_update( cls , query_dict , update_dict = None )", 10, 73, 8, 0
+github/python/walle-web/walle/model/database.py,"query_paginate( cls , page = 1 , limit = 20 , fields = None , order_by_list = [ ( 'id' , 'desc' )", 2, 91, 4, 0
+github/python/walle-web/walle/model/database.py,"dump_schema( cls , items , fields , schema_class )", 15, 77, 12, 0
+github/python/walle-web/walle/model/database.py,"query_paginate_and_dump_schema( cls , page = 1 , limit = 20 , fields = None , order_by_list = None , filter_name_dict = None , schema_class = None )", 4, 75, 4, 0
+github/python/walle-web/walle/model/database.py,"__repr__( self )", 2, 39, 8, 0
+github/python/walle-web/walle/model/database.py,"column_name_set( self )", 2, 71, 8, 0
+github/python/walle-web/walle/model/database.py,"get_common_fields( cls , fields = None )", 8, 66, 16, 0
+github/python/walle-web/walle/model/database.py,"get_by_id( cls , record_id )", 8, 76, 16, 0
+github/python/walle-web/walle/model/database.py,"reference_col( tablename , nullable = False , pk_name = 'id' , ** kwargs )", 11, 70, 0, 0
+github/python/walle-web/walle/model/environment.py,"list( self , page = 0 , size = 10 , kw = None , space_id = None )", 27, 106, 8, 0
+github/python/walle-web/walle/model/environment.py,"item( self , env_id = None )", 8, 117, 8, 0
+github/python/walle-web/walle/model/environment.py,"add( self , env_name , space_id )", 11, 90, 8, 0
+github/python/walle-web/walle/model/environment.py,"update( self , env_name , status , env_id = None )", 8, 68, 8, 0
+github/python/walle-web/walle/model/environment.py,"remove( self , env_id = None )", 10, 80, 8, 0
+github/python/walle-web/walle/model/environment.py,"to_json( self )", 11, 73, 12, 0
+github/python/walle-web/walle/model/environment.py,"enable( self )", 9, 64, 12, 0
+github/python/walle-web/walle/model/member.py,"spaces( self , user_id = None )", 22, 100, 8, 0
+github/python/walle-web/walle/model/member.py,"projects( self , user_id = None , space_id = None )", 22, 64, 12, 0
+github/python/walle-web/walle/model/member.py,"project_master( self )", 11, 68, 8, 0
+github/python/walle-web/walle/model/member.py,"update_group( self , members , group_name = None )", 38, 107, 8, 0
+github/python/walle-web/walle/model/member.py,"update_project( self , project_id , members , group_name = None )", 38, 97, 8, 0
+github/python/walle-web/walle/model/member.py,"members( self , group_id = None , project_id = None , page = 0 , size = 10 , kw = None )", 34, 117, 12, 0
+github/python/walle-web/walle/model/member.py,"member( self , user_id , role , group_id = None , project_id = None )", 29, 107, 12, 0
+github/python/walle-web/walle/model/member.py,"remove( self , group_id = None , user_id = None , project_id = None )", 18, 103, 12, 0
+github/python/walle-web/walle/model/member.py,"to_json( self )", 9, 73, 12, 0
+github/python/walle-web/walle/model/menu.py,"menu( self , role )", 29, 65, 20, 0
+github/python/walle-web/walle/model/menu.py,"to_json( self )", 15, 73, 12, 0
+github/python/walle-web/walle/model/project.py,"list( self , page = 0 , size = 10 , kw = None , space_id = None , environment_id = None )", 40, 102, 8, 0
+github/python/walle-web/walle/model/project.py,"item( self , id = None )", 17, 108, 8, 0
+github/python/walle-web/walle/model/project.py,"add( self , * args , ** kwargs )", 10, 62, 8, 0
+github/python/walle-web/walle/model/project.py,"update( self , * args , ** kwargs )", 6, 63, 8, 0
+github/python/walle-web/walle/model/project.py,"remove( self , role_id = None )", 12, 88, 8, 0
+github/python/walle-web/walle/model/project.py,"to_json( self )", 35, 93, 12, 0
+github/python/walle-web/walle/model/project.py,"enable( self )", 9, 103, 12, 0
+github/python/walle-web/walle/model/record.py,"save_record( self , stage , sequence , user_id , task_id , status , host , user , command , success = None , error = None )", 8, 117, 4, 0
+github/python/walle-web/walle/model/record.py,"fetch( self , task_id )", 3, 90, 8, 0
+github/python/walle-web/walle/model/record.py,"logs( cls , host , command , status , stage , sequence , success , error , * args , ** kwargs )", 10, 92, 4, 0
+github/python/walle-web/walle/model/record.py,"to_json( self )", 16, 73, 12, 0
+github/python/walle-web/walle/model/role.py,"list( cls )", 9, 56, 12, 0
+github/python/walle-web/walle/model/role.py,"item( cls , role_id )", 2, 28, 4, 0
+github/python/walle-web/walle/model/role.py,"menu_url( cls , url )", 6, 90, 8, 0
+github/python/walle-web/walle/model/server.py,"list( self , page = 0 , size = 10 , kw = None )", 18, 83, 8, 0
+github/python/walle-web/walle/model/server.py,"item( self , id = None )", 9, 107, 8, 0
+github/python/walle-web/walle/model/server.py,"add( self , name , host )", 11, 81, 8, 0
+github/python/walle-web/walle/model/server.py,"update( self , name , host , id = None )", 14, 62, 8, 0
+github/python/walle-web/walle/model/server.py,"remove( self , id = None )", 12, 75, 8, 0
+github/python/walle-web/walle/model/server.py,"fetch_by_id( cls , ids = None )", 12, 66, 8, 0
+github/python/walle-web/walle/model/server.py,"to_json( self )", 10, 73, 12, 0
+github/python/walle-web/walle/model/server.py,"enable( self )", 9, 64, 12, 0
+github/python/walle-web/walle/model/space.py,"list( self , page = 0 , size = 10 , kw = None )", 20, 100, 8, 0
+github/python/walle-web/walle/model/space.py,"item( self , id = None )", 17, 78, 8, 0
+github/python/walle-web/walle/model/space.py,"add( self , * args , ** kwargs )", 10, 62, 8, 0
+github/python/walle-web/walle/model/space.py,"update( self , * args , ** kwargs )", 6, 62, 8, 0
+github/python/walle-web/walle/model/space.py,"remove( self , space_id = None )", 12, 87, 8, 0
+github/python/walle-web/walle/model/space.py,"to_json( self , uid2name = None )", 14, 104, 12, 0
+github/python/walle-web/walle/model/space.py,"enable( self )", 9, 99, 12, 0
+github/python/walle-web/walle/model/tag.py,"list( self )", 6, 107, 8, 0
+github/python/walle-web/walle/model/tag.py,"remove( self , tag_id )", 8, 83, 8, 0
+github/python/walle-web/walle/model/tag.py,"to_json( self )", 14, 73, 12, 0
+github/python/walle-web/walle/model/task.py,"table_name( self )", 2, 34, 8, 0
+github/python/walle-web/walle/model/task.py,"list( self , page = 0 , size = 10 , space_id = None , kw = None )", 39, 97, 8, 0
+github/python/walle-web/walle/model/task.py,"item( self , id = None )", 17, 105, 8, 0
+github/python/walle-web/walle/model/task.py,"add( self , * args , ** kwargs )", 12, 62, 8, 0
+github/python/walle-web/walle/model/task.py,"update( self , * args , ** kwargs )", 6, 62, 8, 0
+github/python/walle-web/walle/model/task.py,"remove( self , id = None )", 11, 75, 8, 0
+github/python/walle-web/walle/model/task.py,"to_json( self )", 27, 102, 12, 0
+github/python/walle-web/walle/model/task.py,"enable( self )", 10, 203, 12, 0
+github/python/walle-web/walle/model/user.py,"add( self , * args , ** kwargs )", 7, 36, 4, 0
+github/python/walle-web/walle/model/user.py,"item( self , user_id = None )", 8, 110, 8, 0
+github/python/walle-web/walle/model/user.py,"update( self , * args , ** kwargs )", 6, 62, 8, 0
+github/python/walle-web/walle/model/user.py,"update_avatar( self , avatar )", 4, 51, 8, 0
+github/python/walle-web/walle/model/user.py,"update_name_pwd( self , username , password = None )", 10, 62, 8, 0
+github/python/walle-web/walle/model/user.py,"block_active( self , status )", 5, 56, 8, 0
+github/python/walle-web/walle/model/user.py,"remove( self )", 11, 80, 8, 0
+github/python/walle-web/walle/model/user.py,"verify_password( self , password )", 9, 60, 8, 0
+github/python/walle-web/walle/model/user.py,"get_password( self , password )", 3, 48, 8, 0
+github/python/walle-web/walle/model/user.py,"general_password( self , password )", 8, 57, 8, 0
+github/python/walle-web/walle/model/user.py,"is_authenticated( self )", 2, 32, 4, 0
+github/python/walle-web/walle/model/user.py,"is_active( self )", 2, 25, 4, 0
+github/python/walle-web/walle/model/user.py,"is_anonymous( self )", 2, 28, 4, 0
+github/python/walle-web/walle/model/user.py,"get_id( self )", 5, 48, 12, 0
+github/python/walle-web/walle/model/user.py,"list( self , uids = [ ] , page = 0 , size = 10 , space_id = None , kw = None )", 17, 117, 12, 0
+github/python/walle-web/walle/model/user.py,"has_spaces( self )", 3, 53, 8, 0
+github/python/walle-web/walle/model/user.py,"space_id( self )", 2, 35, 8, 0
+github/python/walle-web/walle/model/user.py,"fresh_session( cls )", 32, 65, 8, 0
+github/python/walle-web/walle/model/user.py,"avatar_url( cls , avatar )", 3, 64, 8, 0
+github/python/walle-web/walle/model/user.py,"fetch_by_uid( cls , uids = None )", 12, 116, 8, 0
+github/python/walle-web/walle/model/user.py,"uid2name( cls , data )", 15, 60, 8, 0
+github/python/walle-web/walle/model/user.py,"to_json( self )", 19, 73, 12, 0
+github/python/walle-web/walle/model/user.py,"enable( self )", 9, 64, 12, 0
+github/python/walle-web/walle/service/deployer.py,"__init__( self , task_id = None , project_id = None , console = False )", 25, 79, 8, 0
+github/python/walle-web/walle/service/deployer.py,"config( self )", 2, 139, 8, 0
+github/python/walle-web/walle/service/deployer.py,"start( self )", 3, 87, 8, 0
+github/python/walle-web/walle/service/deployer.py,"prev_deploy( self )", 41, 65, 12, 0
+github/python/walle-web/walle/service/deployer.py,"deploy( self )", 43, 106, 12, 0
+github/python/walle-web/walle/service/deployer.py,"post_deploy( self )", 27, 90, 12, 0
+github/python/walle-web/walle/service/deployer.py,"prev_release( self , waller )", 36, 93, 28, 0
+github/python/walle-web/walle/service/deployer.py,"release( self , waller )", 26, 110, 12, 0
+github/python/walle-web/walle/service/deployer.py,"release_untar( self , waller )", 10, 64, 12, 0
+github/python/walle-web/walle/service/deployer.py,"post_release( self , waller )", 17, 61, 12, 0
+github/python/walle-web/walle/service/deployer.py,"post_release_service( self , waller )", 9, 61, 12, 0
+github/python/walle-web/walle/service/deployer.py,"list_tag( self )", 11, 96, 12, 0
+github/python/walle-web/walle/service/deployer.py,"list_branch( self )", 25, 129, 12, 0
+github/python/walle-web/walle/service/deployer.py,"list_commit( self , branch )", 26, 67, 12, 0
+github/python/walle-web/walle/service/deployer.py,"init_repo( self )", 19, 100, 16, 0
+github/python/walle-web/walle/service/deployer.py,"end( self , success = True )", 3, 80, 8, 0
+github/python/walle-web/walle/service/deployer.py,"walle_deploy( self )", 20, 102, 16, 0
+github/python/walle-web/walle/service/deployer.py,"test( self )", 44, 87, 8, 0
+github/python/walle-web/walle/service/emails.py,"_render_email( filename , ** kwargs )", 12, 73, 4, 0
+github/python/walle-web/walle/service/emails.py,"send_email( recipient , subject , html_message , text_message )", 21, 185, 8, 0
+github/python/walle-web/walle/service/emails.py,"get_primary_user_email( user )", 10, 78, 50, 0
+github/python/walle-web/walle/service/emails.py,"send_confirm_email_email( user , user_email , confirm_email_link )", 19, 96, 4, 0
+github/python/walle-web/walle/service/emails.py,"send_registered_email( user , confirm_email_link )", 19, 73, 0, 0
+github/python/walle-web/walle/service/emails.py,"public_send_registered_email( user , require_email_confirmation = True )", 9, 85, 4, 0
+github/python/walle-web/walle/service/error.py,"__init__( self , code , message = None )", 8, 62, 8, 0
+github/python/walle-web/walle/service/error.py,"render_error( self )", 12, 69, 12, 0
+github/python/walle-web/walle/service/tokens.py,"__init__( self )", 15, 75, 8, 0
+github/python/walle-web/walle/service/tokens.py,"encrypt_id( self , id )", 10, 62, 8, 0
+github/python/walle-web/walle/service/tokens.py,"decrypt_id( self , encrypted_id )", 17, 75, 12, 0
+github/python/walle-web/walle/service/tokens.py,"generate_token( self , id )", 5, 76, 8, 0
+github/python/walle-web/walle/service/tokens.py,"verify_token( self , token , expiration_in_seconds )", 19, 76, 12, 0
+github/python/walle-web/walle/service/utils.py,"flash_errors( form , category = 'warning' )", 5, 88, 12, 0
+github/python/walle-web/walle/service/utils.py,"date_str_to_obj( ymd )", 2, 42, 4, 0
+github/python/walle-web/walle/service/utils.py,"datetime_str_to_obj( ymd_his )", 2, 59, 4, 0
+github/python/walle-web/walle/service/utils.py,"detailtrace( )", 13, 70, 8, 0
+github/python/walle-web/walle/service/utils.py,"color_clean( text_with_color )", 11, 83, 4, 0
+github/python/walle-web/walle/service/waller.py,"run( self , command , wenv = None , sudo = False , ** kwargs )", 86, 116, 16, 0
+github/python/walle-web/walle/service/waller.py,"sudo( self , command , wenv = None , ** kwargs )", 2, 65, 8, 0
+github/python/walle-web/walle/service/waller.py,"get( self , remote , local = None , wenv = None )", 2, 77, 8, 0
+github/python/walle-web/walle/service/waller.py,"put( self , local , remote = None , wenv = None , * args , ** kwargs )", 2, 94, 8, 0
+github/python/walle-web/walle/service/waller.py,"sync( self , wtype , remote = None , local = None , wenv = None )", 58, 111, 12, 0
+github/python/walle-web/walle/service/websocket.py,"__init__( self , namespace , room = None , app = None )", 4, 65, 8, 0
+github/python/walle-web/walle/service/websocket.py,"init_app( self , app )", 2, 29, 4, 0
+github/python/walle-web/walle/service/websocket.py,"on_connect( self )", 2, 26, 4, 0
+github/python/walle-web/walle/service/websocket.py,"on_open( self , message )", 9, 95, 8, 0
+github/python/walle-web/walle/service/websocket.py,"on_deploy( self , message )", 11, 97, 12, 0
+github/python/walle-web/walle/service/websocket.py,"on_ping( self , message )", 4, 145, 8, 0
+github/python/walle-web/walle/service/websocket.py,"on_logs( self , message )", 3, 41, 8, 0
+github/python/walle-web/walle/service/websocket.py,"logs( self , task )", 6, 86, 8, 0
+github/python/walle-web/walle/service/rbac/access.py,"__init__( self )", 2, 24, 4, 0
+github/python/walle-web/walle/service/rbac/access.py,"is_login( )", 4, 63, 8, 0
+github/python/walle-web/walle/service/rbac/access.py,"is_allow( action , controller , module = None )", 5, 71, 8, 0
+github/python/walle-web/walle/service/rbac/access.py,"resource( action , controller , module = None )", 2, 66, 8, 0
+github/python/walle-web/walle/service/rbac/passport.py,"load_user( user_id )", 10, 68, 4, 0
+github/python/walle-web/walle/service/rbac/role.py,"__init__( self , app = None )", 3, 34, 4, 0
+github/python/walle-web/walle/service/rbac/role.py,"init_app( self , app )", 2, 29, 4, 0
+github/python/walle-web/walle/service/rbac/role.py,"gte_develop_or_uid.decorator( * args , ** kwargs )", 5, 60, 12, 0
+github/python/walle-web/walle/service/rbac/role.py,"gte_develop_or_uid( self , func )", 10, 60, 12, 0
+github/python/walle-web/walle/service/rbac/role.py,"is_gte_develop_or_uid( self , uid = None )", 8, 64, 8, 0
+github/python/walle-web/walle/service/rbac/role.py,"list_enable( self , list , access_level )", 23, 63, 8, 0
+github/python/walle-web/walle/service/rbac/role.py,"enable_uid( self , uid )", 8, 38, 8, 0
+github/python/walle-web/walle/service/rbac/role.py,"role_upper_owner( self , role = None )", 8, 56, 8, 0
+github/python/walle-web/walle/service/rbac/role.py,"role_upper_master( self , role = None )", 8, 56, 8, 0
+github/python/walle-web/walle/service/rbac/role.py,"role_upper_developer( self , role = None )", 8, 56, 8, 0
+github/python/walle-web/walle/service/rbac/role.py,"role_upper_report( self , role = None )", 8, 56, 8, 0
+github/python/walle-web/walle/service/rbac/role.py,"role_upper( self , role_standard , role_upper = None )", 11, 76, 8, 0
+github/python/walle-web/walle/service/rbac/role.py,"compare_role( self , role_low , role_high )", 15, 58, 12, 0

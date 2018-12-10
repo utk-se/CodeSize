@@ -1,0 +1,437 @@
+File, Function, Length, Total Width, Leading Space(s), Leading Tab(s)
+github/python/loguru/docs/conf.py,"setup( app )", 3, 44, 4, 0
+github/python/loguru/loguru/_datetime.py,"__format__.get( m )", 5, 34, 16, 0
+github/python/loguru/loguru/_datetime.py,"__format__( self , spec )", 60, 87, 8, 0
+github/python/loguru/loguru/_datetime.py,"now( )", 5, 73, 4, 0
+github/python/loguru/loguru/_defaults.py,"env( key , type_ , default = None )", 23, 93, 16, 0
+github/python/loguru/loguru/_file_sink.py,"__init__( self )", 2, 30, 8, 0
+github/python/loguru/loguru/_file_sink.py,"__format__( self , spec )", 4, 46, 8, 0
+github/python/loguru/loguru/_file_sink.py,"__init__( self , path , * , rotation = None , retention = None , compression = None , delay = False , mode = "a" , buffering = 1 , encoding = None , ** kwargs", 12, 26, 8, 0
+github/python/loguru/loguru/_file_sink.py,"setup_write_function( self )", 7, 45, 12, 0
+github/python/loguru/loguru/_file_sink.py,"delayed_write( self , message )", 4, 52, 8, 0
+github/python/loguru/loguru/_file_sink.py,"rotating_write( self , message )", 6, 55, 8, 0
+github/python/loguru/loguru/_file_sink.py,"initialize_file( self , * , rename_existing )", 18, 76, 12, 0
+github/python/loguru/loguru/_file_sink.py,"format_path( self )", 3, 67, 8, 0
+github/python/loguru/loguru/_file_sink.py,"make_glob_pattern( path )", 9, 92, 8, 0
+github/python/loguru/loguru/_file_sink.py,"make_rotation_function.make_rotation_function.make_from_size.rotation_function( message , file )", 3, 64, 16, 0
+github/python/loguru/loguru/_file_sink.py,"make_rotation_function.make_from_size( size_limit )", 6, 64, 16, 0
+github/python/loguru/loguru/_file_sink.py,"make_rotation_function.make_rotation_function.make_from_time.rotation_function( message , file )", 8, 74, 16, 0
+github/python/loguru/loguru/_file_sink.py,"make_rotation_function.make_from_time( step_forward , time_init = None )", 22, 74, 16, 0
+github/python/loguru/loguru/_file_sink.py,"make_rotation_function.next_day( t )", 5, 56, 24, 0
+github/python/loguru/loguru/_file_sink.py,"make_rotation_function.next_day( t )", 2, 54, 16, 0
+github/python/loguru/loguru/_file_sink.py,"make_rotation_function.add_interval( t )", 2, 36, 16, 0
+github/python/loguru/loguru/_file_sink.py,"make_rotation_function( self , rotation )", 79, 92, 16, 0
+github/python/loguru/loguru/_file_sink.py,"make_retention_function.make_retention_function.make_from_filter.retention_function( logs )", 3, 46, 16, 0
+github/python/loguru/loguru/_file_sink.py,"make_retention_function.make_from_filter( filter_logs )", 6, 46, 16, 0
+github/python/loguru/loguru/_file_sink.py,"make_retention_function.key_log( log )", 2, 53, 16, 0
+github/python/loguru/loguru/_file_sink.py,"make_retention_function.filter_logs( logs )", 2, 61, 16, 0
+github/python/loguru/loguru/_file_sink.py,"make_retention_function.filter_logs( logs )", 3, 85, 16, 0
+github/python/loguru/loguru/_file_sink.py,"make_retention_function( self , retention )", 38, 94, 16, 0
+github/python/loguru/loguru/_file_sink.py,"make_compression_function.make_compression_function.make_compress_generic.compress( path_in , path_out )", 4, 68, 20, 0
+github/python/loguru/loguru/_file_sink.py,"make_compression_function.make_compress_generic( opener , ** kwargs )", 7, 68, 20, 0
+github/python/loguru/loguru/_file_sink.py,"make_compression_function.make_compression_function.make_compress_archive.compress( path_in , path_out )", 3, 68, 16, 0
+github/python/loguru/loguru/_file_sink.py,"make_compression_function.make_compress_archive( mode )", 8, 68, 16, 0
+github/python/loguru/loguru/_file_sink.py,"make_compression_function.make_compression_function.make_compress_zipped.compress( path_in , path_out )", 3, 97, 16, 0
+github/python/loguru/loguru/_file_sink.py,"make_compression_function.make_compress_zipped( )", 8, 97, 16, 0
+github/python/loguru/loguru/_file_sink.py,"make_compression_function.compression_function( path_in )", 10, 88, 20, 0
+github/python/loguru/loguru/_file_sink.py,"make_compression_function( self , compression )", 85, 98, 16, 0
+github/python/loguru/loguru/_file_sink.py,"stop( self )", 2, 64, 8, 0
+github/python/loguru/loguru/_file_sink.py,"terminate( self , * , teardown )", 14, 85, 12, 0
+github/python/loguru/loguru/_get_frame.py,"get_frame_fallback( n )", 8, 46, 8, 0
+github/python/loguru/loguru/_get_frame.py,"get_get_frame_function( )", 6, 39, 8, 0
+github/python/loguru/loguru/_handler.py,"__init__( self , * , writer , stopper , levelno , formatter , is_formatter_dynamic , filter_ , colorize , serialize , backtrace , catch , enqueue , encoding , colors = [ ]", 16, 30, 8, 0
+github/python/loguru/loguru/_handler.py,"serialize_record( text , record )", 25, 100, 16, 0
+github/python/loguru/loguru/_handler.py,"make_ansimarkup( color )", 5, 68, 8, 0
+github/python/loguru/loguru/_handler.py,"decolorize_format( format_ )", 3, 41, 8, 0
+github/python/loguru/loguru/_handler.py,"colorize_format( format_ , color )", 3, 44, 8, 0
+github/python/loguru/loguru/_handler.py,"update_format( self , color )", 4, 97, 8, 0
+github/python/loguru/loguru/_handler.py,"format_message_only( format_ , message )", 21, 91, 8, 0
+github/python/loguru/loguru/_handler.py,"handle_error( self , record = None )", 23, 73, 12, 0
+github/python/loguru/loguru/_handler.py,"emit( self , record , level_color , ansi_message , raw )", 61, 99, 20, 0
+github/python/loguru/loguru/_handler.py,"queued_writer( self )", 13, 55, 12, 0
+github/python/loguru/loguru/_handler.py,"stop( self )", 5, 33, 12, 0
+github/python/loguru/loguru/_logger.py,"__init__( self , extra , exception , record , lazy , ansi , raw , depth )", 8, 74, 4, 0
+github/python/loguru/loguru/_logger.py,"start( self , sink , * , level = _defaults . LOGURU_LEVEL , format = _defaults . LOGURU_FORMAT , filter = _defaults . LOGURU_FILTER , colorize = _defaults . LOGURU_COLORIZE , serialize = _defaults . LOGURU_SERIALIZE , backtrace = _defaults . LOGURU_BACKTRACE , enqueue = _defaults . LOGURU_ENQUEUE , catch = _defaults . LOGURU_CATCH , ** kwargs", 13, 46, 8, 0
+github/python/loguru/loguru/_logger.py,"write( m )", 2, 53, 20, 0
+github/python/loguru/loguru/_logger.py,"writer( m )", 3, 35, 20, 0
+github/python/loguru/loguru/_logger.py,"stopper( )", 2, 32, 20, 0
+github/python/loguru/loguru/_logger.py,"writer( m )", 16, 75, 20, 0
+github/python/loguru/loguru/_logger.py,"writer( m )", 2, 45, 20, 0
+github/python/loguru/loguru/_logger.py,"stopper( )", 2, 28, 16, 0
+github/python/loguru/loguru/_logger.py,"filter_func( r )", 2, 60, 16, 0
+github/python/loguru/loguru/_logger.py,"stop( self , handler_id = None )", 31, 98, 12, 0
+github/python/loguru/loguru/_logger.py,"catch( self , exception = Exception , * , level = "ERROR" , reraise = False , message = "An error has been caught in function '{record[function]}', " "process '{record[process].name}' ({record[process].id}), " "thread '{record[thread].name}' ({record[thread].id}):"", 9, 78, 8, 0
+github/python/loguru/loguru/_logger.py,"__init__( self , as_decorator )", 2, 50, 16, 0
+github/python/loguru/loguru/_logger.py,"__enter__( self_ )", 2, 34, 12, 0
+github/python/loguru/loguru/_logger.py,"__exit__( self_ , type_ , value , traceback_ )", 26, 67, 16, 0
+github/python/loguru/loguru/_logger.py,"__call__.catch_wrapper( * args , ** kwargs )", 3, 57, 24, 0
+github/python/loguru/loguru/_logger.py,"__call__( self_ , function )", 9, 57, 24, 0
+github/python/loguru/loguru/_logger.py,"opt( self , * , exception = None , record = False , lazy = False , ansi = False , raw = False , depth = 0 )", 67, 101, 12, 0
+github/python/loguru/loguru/_logger.py,"bind( _self , ** kwargs )", 43, 100, 12, 0
+github/python/loguru/loguru/_logger.py,"level( self , name , no = None , color = None , icon = None )", 88, 101, 8, 0
+github/python/loguru/loguru/_logger.py,"disable( self , name )", 19, 94, 8, 0
+github/python/loguru/loguru/_logger.py,"enable( self , name )", 20, 94, 8, 0
+github/python/loguru/loguru/_logger.py,"configure( self , * , handlers = None , levels = None , extra = None , activation = None )", 62, 101, 12, 0
+github/python/loguru/loguru/_logger.py,"_change_activation.key_sort( x )", 2, 39, 16, 0
+github/python/loguru/loguru/_logger.py,"_change_activation( self , name , status )", 25, 101, 12, 0
+github/python/loguru/loguru/_logger.py,"parse.cast_function( groups )", 4, 61, 24, 0
+github/python/loguru/loguru/_logger.py,"parse( file , pattern , * , cast = { } , chunk = 2 ** 16 )", 92, 101, 12, 0
+github/python/loguru/loguru/_logger.py,"_find_iter( fileobj , regex , chunk )", 16, 51, 12, 0
+github/python/loguru/loguru/_logger.py,"_make_log_function.log_function( _self , _message , * args , ** kwargs )", 90, 85, 20, 0
+github/python/loguru/loguru/_logger.py,"_make_log_function( level , decorated = False )", 112, 95, 8, 0
+github/python/loguru/loguru/_logger.py,"log( _self , _level , _message , * args , ** kwargs )", 11, 82, 8, 0
+github/python/loguru/loguru/_logger.py,"exception( _self , _message , * args , ** kwargs )", 11, 89, 8, 0
+github/python/loguru/loguru/_recattrs.py,"__init__( self , exception , decorated )", 16, 92, 12, 0
+github/python/loguru/loguru/_recattrs.py,"__reduce__( self )", 4, 81, 8, 0
+github/python/loguru/loguru/_recattrs.py,"_extend_traceback( self , tb , decorated )", 28, 96, 12, 0
+github/python/loguru/loguru/_recattrs.py,"_make_catch_traceback( self , frame , lasti , lineno , next_ )", 25, 100, 12, 0
+github/python/loguru/loguru/_recattrs.py,"_format_catch_point.replace( match )", 2, 97, 12, 0
+github/python/loguru/loguru/_recattrs.py,"_format_catch_point( self , error )", 7, 97, 12, 0
+github/python/loguru/loguru/_recattrs.py,"format_exception( self , backtrace , colored , encoding )", 15, 85, 8, 0
+github/python/loguru/loguru/_string_parsers.py,"parse_size( size )", 22, 77, 8, 0
+github/python/loguru/loguru/_string_parsers.py,"parse_duration( duration )", 35, 89, 12, 0
+github/python/loguru/loguru/_string_parsers.py,"parse_frequency.hourly( t )", 3, 65, 12, 0
+github/python/loguru/loguru/_string_parsers.py,"parse_frequency.daily( t )", 3, 73, 12, 0
+github/python/loguru/loguru/_string_parsers.py,"parse_frequency.weekly( t )", 3, 73, 12, 0
+github/python/loguru/loguru/_string_parsers.py,"parse_frequency.monthly( t )", 6, 96, 12, 0
+github/python/loguru/loguru/_string_parsers.py,"parse_frequency.yearly( t )", 3, 96, 12, 0
+github/python/loguru/loguru/_string_parsers.py,"parse_frequency( frequency )", 43, 96, 12, 0
+github/python/loguru/loguru/_string_parsers.py,"parse_day( day )", 15, 101, 12, 0
+github/python/loguru/loguru/_string_parsers.py,"parse_time( time )", 27, 76, 4, 0
+github/python/loguru/loguru/_string_parsers.py,"parse_daytime( daytime )", 28, 83, 8, 0
+github/python/loguru/tests/conftest.py,"reset_logger.reset( )", 12, 72, 8, 0
+github/python/loguru/tests/conftest.py,"reset_logger( )", 17, 72, 8, 0
+github/python/loguru/tests/conftest.py,"writer.w( message )", 2, 34, 8, 0
+github/python/loguru/tests/conftest.py,"writer( )", 9, 40, 4, 0
+github/python/loguru/tests/conftest.py,"pyexec.pyexec( code , import_loguru = False , * , pyfile = None )", 18, 59, 4, 0
+github/python/loguru/tests/conftest.py,"pyexec( tmpdir )", 30, 78, 4, 0
+github/python/loguru/tests/conftest.py,"monkeypatch_date.monkeypatch_date.monkeypatch_date.patched_now( tz = None )", 2, 34, 8, 0
+github/python/loguru/tests/conftest.py,"monkeypatch_date.monkeypatch_date.monkeypatch_date.patched_localtime( t )", 2, 34, 8, 0
+github/python/loguru/tests/conftest.py,"monkeypatch_date.monkeypatch_date( year , month , day , hour , minute , second , microsecond , zone = "UTC" , offset = 0 )", 12, 101, 4, 0
+github/python/loguru/tests/conftest.py,"monkeypatch_date( monkeypatch )", 15, 101, 4, 0
+github/python/loguru/tests/conftest.py,"make_logging_logger.make_logging_logger( name , handler , fmt = "%(message)s" , level = "DEBUG" )", 10, 78, 4, 0
+github/python/loguru/tests/conftest.py,"make_logging_logger( )", 13, 78, 4, 0
+github/python/loguru/tests/test_activation.py,"test_disable( writer , name , should_log )", 10, 45, 4, 0
+github/python/loguru/tests/test_activation.py,"test_enable( writer , name , should_log )", 11, 45, 4, 0
+github/python/loguru/tests/test_activation.py,"test_log_before_enable( writer )", 8, 45, 4, 0
+github/python/loguru/tests/test_activation.py,"test_log_before_disable( writer )", 8, 45, 4, 0
+github/python/loguru/tests/test_activation.py,"test_multiple_activations( )", 28, 45, 4, 0
+github/python/loguru/tests/test_activation.py,"test_invalid_enable_name( name )", 3, 36, 0, 0
+github/python/loguru/tests/test_activation.py,"test_invalid_disable_name( name )", 3, 37, 0, 0
+github/python/loguru/tests/test_bind.py,"test_bind_after_start( writer )", 6, 56, 4, 0
+github/python/loguru/tests/test_bind.py,"test_bind_before_start( writer )", 6, 56, 4, 0
+github/python/loguru/tests/test_bind.py,"test_start_using_bound( writer )", 8, 62, 4, 0
+github/python/loguru/tests/test_bind.py,"test_not_override_parent_logger( writer )", 9, 56, 4, 0
+github/python/loguru/tests/test_bind.py,"test_override_previous_bound( writer )", 4, 56, 4, 0
+github/python/loguru/tests/test_bind.py,"test_no_conflict( writer )", 11, 56, 4, 0
+github/python/loguru/tests/test_bind.py,"test_bind_and_add_level( writer , using_bound )", 13, 58, 4, 0
+github/python/loguru/tests/test_bind.py,"test_override_configured( writer )", 9, 57, 4, 0
+github/python/loguru/tests/test_catch_wrapper.py,"test_decorator.c( a , b )", 2, 21, 8, 0
+github/python/loguru/tests/test_catch_wrapper.py,"test_decorator.c( a , b = 0 )", 2, 23, 8, 0
+github/python/loguru/tests/test_catch_wrapper.py,"test_decorator( writer , use_parentheses )", 15, 55, 4, 0
+github/python/loguru/tests/test_catch_wrapper.py,"test_context_manager( writer )", 7, 55, 4, 0
+github/python/loguru/tests/test_catch_wrapper.py,"test_function.a( )", 2, 18, 12, 0
+github/python/loguru/tests/test_catch_wrapper.py,"test_function( writer )", 10, 59, 8, 0
+github/python/loguru/tests/test_catch_wrapper.py,"test_with_backtrace.c( )", 4, 14, 8, 0
+github/python/loguru/tests/test_catch_wrapper.py,"test_with_backtrace( writer )", 26, 56, 4, 0
+github/python/loguru/tests/test_catch_wrapper.py,"test_exception.a( )", 2, 22, 16, 0
+github/python/loguru/tests/test_catch_wrapper.py,"test_exception.a( )", 2, 22, 16, 0
+github/python/loguru/tests/test_catch_wrapper.py,"test_exception.a( )", 3, 56, 16, 0
+github/python/loguru/tests/test_catch_wrapper.py,"test_exception.a( )", 2, 22, 16, 0
+github/python/loguru/tests/test_catch_wrapper.py,"test_exception.a( )", 2, 22, 16, 0
+github/python/loguru/tests/test_catch_wrapper.py,"test_exception.a( )", 3, 46, 16, 0
+github/python/loguru/tests/test_catch_wrapper.py,"test_exception( writer , exception , should_raise , keyword , wrap_mode )", 37, 73, 0, 0
+github/python/loguru/tests/test_catch_wrapper.py,"test_message.a( )", 2, 18, 12, 0
+github/python/loguru/tests/test_catch_wrapper.py,"test_message.a( )", 2, 18, 12, 0
+github/python/loguru/tests/test_catch_wrapper.py,"test_message( writer , wrap_mode )", 19, 52, 4, 0
+github/python/loguru/tests/test_catch_wrapper.py,"test_level.a( )", 2, 18, 12, 0
+github/python/loguru/tests/test_catch_wrapper.py,"test_level.a( )", 2, 18, 12, 0
+github/python/loguru/tests/test_catch_wrapper.py,"test_level.a( )", 3, 44, 12, 0
+github/python/loguru/tests/test_catch_wrapper.py,"test_level( writer , wrap_mode , level , expected )", 20, 61, 4, 0
+github/python/loguru/tests/test_catch_wrapper.py,"test_reraise.a( )", 2, 18, 12, 0
+github/python/loguru/tests/test_catch_wrapper.py,"test_reraise.a( )", 2, 18, 12, 0
+github/python/loguru/tests/test_catch_wrapper.py,"test_reraise.a( )", 3, 45, 12, 0
+github/python/loguru/tests/test_catch_wrapper.py,"test_reraise( writer , wrap_mode )", 20, 55, 4, 0
+github/python/loguru/tests/test_catch_wrapper.py,"test_not_raising.a( )", 2, 34, 12, 0
+github/python/loguru/tests/test_catch_wrapper.py,"test_not_raising.a( )", 2, 34, 12, 0
+github/python/loguru/tests/test_catch_wrapper.py,"test_not_raising( writer , wrap_mode )", 19, 45, 4, 0
+github/python/loguru/tests/test_catch_wrapper.py,"test_formatting( tmpdir , pyexec , wrap_mode , format , expected_dec , expected_ctx )", 47, 101, 4, 0
+github/python/loguru/tests/test_catch_wrapper.py,"test_returnwriter.a( x )", 2, 27, 12, 0
+github/python/loguru/tests/test_catch_wrapper.py,"test_returnwriter.a( x )", 2, 27, 12, 0
+github/python/loguru/tests/test_catch_wrapper.py,"test_returnwriter.a( x )", 3, 33, 12, 0
+github/python/loguru/tests/test_catch_wrapper.py,"test_returnwriter( writer , wrap_mode )", 21, 45, 4, 0
+github/python/loguru/tests/test_configure.py,"test_handlers( capsys , tmpdir )", 16, 68, 8, 0
+github/python/loguru/tests/test_configure.py,"test_levels( writer )", 14, 82, 4, 0
+github/python/loguru/tests/test_configure.py,"test_extra( writer )", 12, 57, 4, 0
+github/python/loguru/tests/test_configure.py,"test_activation( writer )", 12, 45, 4, 0
+github/python/loguru/tests/test_configure.py,"test_dict_unpacking( writer )", 14, 100, 8, 0
+github/python/loguru/tests/test_configure.py,"test_returned_ids( capsys )", 24, 53, 8, 0
+github/python/loguru/tests/test_configure.py,"test_dont_reset_by_default( writer )", 10, 64, 4, 0
+github/python/loguru/tests/test_configure.py,"test_reset_previous_handlers( writer )", 8, 45, 4, 0
+github/python/loguru/tests/test_configure.py,"test_reset_previous_extra( writer )", 8, 59, 4, 0
+github/python/loguru/tests/test_configure.py,"test_dont_reset_previous_levels( writer )", 10, 53, 4, 0
+github/python/loguru/tests/test_configure.py,"test_configure_before_bind( writer )", 15, 67, 4, 0
+github/python/loguru/tests/test_configure.py,"test_configure_after_bind( writer )", 15, 67, 4, 0
+github/python/loguru/tests/test_datetime.py,"format_tester.test_log( fmt )", 5, 44, 8, 0
+github/python/loguru/tests/test_datetime.py,"format_tester.test_file( fmt )", 6, 39, 8, 0
+github/python/loguru/tests/test_datetime.py,"format_tester.format_tester( fmt )", 3, 51, 8, 0
+github/python/loguru/tests/test_datetime.py,"format_tester( request , writer , tmpdir )", 22, 51, 8, 0
+github/python/loguru/tests/test_datetime.py,"test_formatting( format_tester , monkeypatch_date , time_format , date , expected )", 3, 83, 0, 0
+github/python/loguru/tests/test_defaults.py,"test_string( value , monkeypatch )", 4, 37, 0, 0
+github/python/loguru/tests/test_defaults.py,"test_bool_positive( value , monkeypatch )", 4, 44, 0, 0
+github/python/loguru/tests/test_defaults.py,"test_bool_negative( value , monkeypatch )", 4, 44, 0, 0
+github/python/loguru/tests/test_defaults.py,"test_int( monkeypatch )", 4, 34, 4, 0
+github/python/loguru/tests/test_defaults.py,"test_invalid_int( value , monkeypatch )", 5, 42, 0, 0
+github/python/loguru/tests/test_defaults.py,"test_invalid_bool( value , monkeypatch )", 5, 43, 0, 0
+github/python/loguru/tests/test_emit_errors.py,"broken_sink( m )", 2, 20, 0, 0
+github/python/loguru/tests/test_emit_errors.py,"test_no_sys_stderr( capsys , monkeypatch )", 7, 45, 0, 0
+github/python/loguru/tests/test_emit_errors.py,"test_broken_sys_stderr.broken_write( * args , ** kwargs )", 2, 39, 4, 0
+github/python/loguru/tests/test_emit_errors.py,"test_broken_sys_stderr( capsys , monkeypatch )", 10, 59, 4, 0
+github/python/loguru/tests/test_emit_errors.py,"test_encoding_error.sink( m )", 2, 64, 8, 0
+github/python/loguru/tests/test_emit_errors.py,"test_encoding_error( capsys )", 16, 110, 4, 0
+github/python/loguru/tests/test_emit_errors.py,"test_unprintable_record.__repr__( self )", 2, 39, 12, 0
+github/python/loguru/tests/test_emit_errors.py,"test_unprintable_record( writer , capsys )", 19, 66, 4, 0
+github/python/loguru/tests/test_emit_errors.py,"test_enqueue_broken_sink( monkeypatch )", 7, 102, 4, 0
+github/python/loguru/tests/test_exceptions.py,"compare_outputs.compare_outputs( with_loguru , without_loguru , caught_scope_index , caught_trace_index = 0 )", 32, 96, 4, 0
+github/python/loguru/tests/test_exceptions.py,"compare_outputs( tmpdir , pyexec )", 36, 96, 4, 0
+github/python/loguru/tests/test_exceptions.py,"compare.compare( template , caught_scope_index , caught_trace_index = 0 , * , disabled = [ ] )", 39, 93, 8, 0
+github/python/loguru/tests/test_exceptions.py,"compare( compare_outputs , request )", 46, 94, 4, 0
+github/python/loguru/tests/test_exceptions.py,"test_func( compare )", 13, 25, 4, 0
+github/python/loguru/tests/test_exceptions.py,"test_nested( compare )", 18, 26, 0, 0
+github/python/loguru/tests/test_exceptions.py,"test_chaining_first( compare )", 16, 34, 0, 0
+github/python/loguru/tests/test_exceptions.py,"test_chaining_second( compare )", 17, 35, 0, 0
+github/python/loguru/tests/test_exceptions.py,"test_chaining_third( compare )", 17, 34, 0, 0
+github/python/loguru/tests/test_exceptions.py,"test_tail_recursion( compare , rec )", 13, 39, 0, 0
+github/python/loguru/tests/test_exceptions.py,"test_head_recursion( compare , rec )", 14, 39, 0, 0
+github/python/loguru/tests/test_exceptions.py,"test_chained_exception_direct( compare )", 19, 44, 0, 0
+github/python/loguru/tests/test_exceptions.py,"test_chained_exception_indirect( compare )", 19, 46, 0, 0
+github/python/loguru/tests/test_exceptions.py,"test_suppressed_exception_direct( compare )", 22, 47, 0, 0
+github/python/loguru/tests/test_exceptions.py,"test_suppressed_exception_indirect( compare )", 22, 49, 0, 0
+github/python/loguru/tests/test_exceptions.py,"test_arguments_exception( compare )", 15, 39, 0, 0
+github/python/loguru/tests/test_exceptions.py,"test_double_wrapping( compare )", 20, 35, 0, 0
+github/python/loguru/tests/test_exceptions.py,"test_raising_recursion.f( n )", 7, 37, 16, 0
+github/python/loguru/tests/test_exceptions.py,"test_raising_recursion.f( n )", 4, 25, 16, 0
+github/python/loguru/tests/test_exceptions.py,"test_raising_recursion.f( n )", 5, 43, 12, 0
+github/python/loguru/tests/test_exceptions.py,"test_raising_recursion( writer , rec , catch_mode )", 42, 108, 4, 0
+github/python/loguru/tests/test_exceptions.py,"test_carret_not_masked.f( n )", 3, 17, 8, 0
+github/python/loguru/tests/test_exceptions.py,"test_carret_not_masked( writer )", 13, 65, 4, 0
+github/python/loguru/tests/test_exceptions.py,"test_postprocess_colorize( writer , pyexec , tmpdir )", 18, 79, 4, 0
+github/python/loguru/tests/test_exceptions.py,"test_frame_values_backward.a( n )", 2, 14, 4, 0
+github/python/loguru/tests/test_exceptions.py,"test_frame_values_backward.b( n )", 2, 17, 8, 0
+github/python/loguru/tests/test_exceptions.py,"test_frame_values_backward.c( n )", 2, 17, 8, 0
+github/python/loguru/tests/test_exceptions.py,"test_frame_values_backward( writer )", 28, 66, 4, 0
+github/python/loguru/tests/test_exceptions.py,"test_frame_values_forward.a( n )", 2, 14, 4, 0
+github/python/loguru/tests/test_exceptions.py,"test_frame_values_forward.b( n )", 2, 17, 8, 0
+github/python/loguru/tests/test_exceptions.py,"test_frame_values_forward.c( n )", 2, 17, 8, 0
+github/python/loguru/tests/test_exceptions.py,"test_frame_values_forward( writer )", 28, 66, 4, 0
+github/python/loguru/tests/test_exceptions.py,"test_no_exception( writer )", 6, 78, 4, 0
+github/python/loguru/tests/test_exceptions.py,"test_enqueue_exception( writer )", 11, 105, 4, 0
+github/python/loguru/tests/test_exceptions.py,"test_enqueue_with_other_handlers.check_tb_sink( message )", 5, 48, 8, 0
+github/python/loguru/tests/test_exceptions.py,"test_enqueue_with_other_handlers( writer )", 20, 72, 4, 0
+github/python/loguru/tests/test_exceptions.py,"test_no_tb( writer , backtrace )", 13, 82, 4, 0
+github/python/loguru/tests/test_filesink_compression.py,"test_compression_ext( tmpdir , compression )", 6, 71, 4, 0
+github/python/loguru/tests/test_filesink_compression.py,"test_delayed( tmpdir )", 7, 76, 4, 0
+github/python/loguru/tests/test_filesink_compression.py,"test_delayed_early_stop( tmpdir )", 4, 76, 4, 0
+github/python/loguru/tests/test_filesink_compression.py,"test_compression_function.compress( file )", 2, 40, 8, 0
+github/python/loguru/tests/test_filesink_compression.py,"test_compression_function( tmpdir )", 9, 68, 4, 0
+github/python/loguru/tests/test_filesink_compression.py,"test_compression_at_rotation( tmpdir , mode )", 7, 87, 4, 0
+github/python/loguru/tests/test_filesink_compression.py,"test_compression_at_stop_without_rotation( tmpdir , mode )", 7, 75, 4, 0
+github/python/loguru/tests/test_filesink_compression.py,"test_no_compression_at_stop_with_rotation( tmpdir , mode )", 7, 94, 4, 0
+github/python/loguru/tests/test_filesink_compression.py,"test_rename_existing_before_compression( monkeypatch_date , tmpdir )", 11, 85, 4, 0
+github/python/loguru/tests/test_filesink_compression.py,"test_invalid_compression( compression )", 3, 58, 8, 0
+github/python/loguru/tests/test_filesink_compression.py,"test_gzip_module_unavailable( ext , monkeypatch )", 4, 52, 0, 0
+github/python/loguru/tests/test_filesink_compression.py,"test_bz2_module_unavailable( ext , monkeypatch )", 4, 51, 0, 0
+github/python/loguru/tests/test_filesink_compression.py,"test_lzma_module_unavailable( ext , monkeypatch )", 4, 52, 0, 0
+github/python/loguru/tests/test_filesink_compression.py,"test_tarfile_module_unavailable( ext , monkeypatch )", 4, 55, 0, 0
+github/python/loguru/tests/test_filesink_compression.py,"test_zipfile_module_unavailable( ext , monkeypatch )", 4, 55, 0, 0
+github/python/loguru/tests/test_filesink_retention.py,"test_retention_time( monkeypatch_date , tmpdir , retention )", 16, 123, 4, 0
+github/python/loguru/tests/test_filesink_retention.py,"test_retention_count( tmpdir , retention )", 11, 59, 4, 0
+github/python/loguru/tests/test_filesink_retention.py,"test_delayed( tmpdir )", 9, 71, 4, 0
+github/python/loguru/tests/test_filesink_retention.py,"test_delayed_early_stop( tmpdir )", 8, 71, 4, 0
+github/python/loguru/tests/test_filesink_retention.py,"test_retention_function.func( logs )", 3, 41, 12, 0
+github/python/loguru/tests/test_filesink_retention.py,"test_retention_function( tmpdir )", 15, 62, 4, 0
+github/python/loguru/tests/test_filesink_retention.py,"test_managed_files( tmpdir )", 10, 87, 4, 0
+github/python/loguru/tests/test_filesink_retention.py,"test_not_managed_files( tmpdir )", 10, 83, 4, 0
+github/python/loguru/tests/test_filesink_retention.py,"test_manage_formatted_files( monkeypatch_date , tmpdir )", 24, 97, 4, 0
+github/python/loguru/tests/test_filesink_retention.py,"test_manage_file_without_extension( tmpdir )", 11, 48, 0, 0
+github/python/loguru/tests/test_filesink_retention.py,"test_manage_formatted_files_without_extension( tmpdir )", 10, 62, 4, 0
+github/python/loguru/tests/test_filesink_retention.py,"test_retention_at_rotation( tmpdir , mode )", 9, 78, 4, 0
+github/python/loguru/tests/test_filesink_retention.py,"test_retention_at_stop_without_rotation( tmpdir , mode )", 6, 70, 4, 0
+github/python/loguru/tests/test_filesink_retention.py,"test_no_retention_at_stop_with_rotation( tmpdir , mode )", 6, 89, 4, 0
+github/python/loguru/tests/test_filesink_retention.py,"test_no_renaming( tmpdir )", 7, 80, 4, 0
+github/python/loguru/tests/test_filesink_retention.py,"test_invalid_retention( retention )", 3, 54, 8, 0
+github/python/loguru/tests/test_filesink_rotation.py,"test_renaming( monkeypatch_date , tmpdir )", 13, 78, 4, 0
+github/python/loguru/tests/test_filesink_rotation.py,"test_no_renaming( monkeypatch_date , tmpdir )", 14, 85, 4, 0
+github/python/loguru/tests/test_filesink_rotation.py,"test_delayed( monkeypatch_date , tmpdir )", 9, 90, 4, 0
+github/python/loguru/tests/test_filesink_rotation.py,"test_delayed_early_stop( monkeypatch_date , tmpdir )", 6, 90, 4, 0
+github/python/loguru/tests/test_filesink_rotation.py,"test_size_rotation( monkeypatch_date , tmpdir , size )", 22, 83, 4, 0
+github/python/loguru/tests/test_filesink_rotation.py,"test_time_rotation( monkeypatch_date , tmpdir , when , hours )", 17, 109, 4, 0
+github/python/loguru/tests/test_filesink_rotation.py,"test_time_rotation_dst( monkeypatch_date , tmpdir )", 16, 102, 4, 0
+github/python/loguru/tests/test_filesink_rotation.py,"test_function_rotation( monkeypatch_date , tmpdir )", 17, 102, 4, 0
+github/python/loguru/tests/test_filesink_rotation.py,"test_rotation_at_stop( monkeypatch_date , tmpdir , mode )", 8, 107, 4, 0
+github/python/loguru/tests/test_filesink_rotation.py,"test_no_rotation_at_stop( tmpdir , mode )", 7, 95, 4, 0
+github/python/loguru/tests/test_filesink_rotation.py,"test_invalid_rotation( rotation )", 3, 52, 8, 0
+github/python/loguru/tests/test_formatting.py,"test_log_formatters( format , validator , writer , use_log_function )", 12, 70, 0, 0
+github/python/loguru/tests/test_formatting.py,"test_file_formatters( tmpdir , format , validator , part )", 25, 59, 0, 0
+github/python/loguru/tests/test_formatting.py,"test_log_formatting( writer , message , args , kwargs , expected , use_log_function )", 9, 84, 0, 0
+github/python/loguru/tests/test_formatting.py,"test_extra_formatting( writer )", 5, 79, 4, 0
+github/python/loguru/tests/test_formatting.py,"test_invalid_color_markup( writer )", 3, 74, 8, 0
+github/python/loguru/tests/test_get_frame.py,"test_with_sys_getframe( monkeypatch )", 4, 65, 4, 0
+github/python/loguru/tests/test_get_frame.py,"test_without_sys_getframe( monkeypatch )", 3, 94, 4, 0
+github/python/loguru/tests/test_get_frame.py,"test_get_frame_fallback.a( )", 4, 58, 8, 0
+github/python/loguru/tests/test_get_frame.py,"test_get_frame_fallback.b( )", 3, 58, 8, 0
+github/python/loguru/tests/test_get_frame.py,"test_get_frame_fallback( )", 16, 58, 8, 0
+github/python/loguru/tests/test_interception.py,"emit( self , record )", 2, 96, 8, 0
+github/python/loguru/tests/test_interception.py,"test_formatting( writer , make_logging_logger )", 12, 147, 4, 0
+github/python/loguru/tests/test_interception.py,"test_intercept( writer , make_logging_logger )", 11, 67, 4, 0
+github/python/loguru/tests/test_interception.py,"test_start_before_intercept( writer , make_logging_logger )", 8, 67, 4, 0
+github/python/loguru/tests/test_interception.py,"test_stop_interception( writer , make_logging_logger )", 10, 57, 0, 0
+github/python/loguru/tests/test_interception.py,"test_intercept_too_low( writer , make_logging_logger )", 7, 88, 4, 0
+github/python/loguru/tests/test_interception.py,"test_multiple_intercept( writer , make_logging_logger )", 11, 73, 4, 0
+github/python/loguru/tests/test_interception.py,"test_exception( writer , make_logging_logger )", 13, 88, 4, 0
+github/python/loguru/tests/test_interception.py,"test_log_level( writer , make_logging_logger )", 8, 73, 4, 0
+github/python/loguru/tests/test_levels.py,"test_log_int_level( writer )", 5, 91, 4, 0
+github/python/loguru/tests/test_levels.py,"test_log_str_level( writer )", 5, 91, 4, 0
+github/python/loguru/tests/test_levels.py,"test_add_level( writer )", 11, 118, 4, 0
+github/python/loguru/tests/test_levels.py,"test_add_level_after_start( writer , colorize , expected )", 5, 122, 4, 0
+github/python/loguru/tests/test_levels.py,"test_add_level_then_log_with_int_value( writer )", 7, 98, 4, 0
+github/python/loguru/tests/test_levels.py,"test_add_malicious_level( writer )", 11, 103, 4, 0
+github/python/loguru/tests/test_levels.py,"test_add_existing_level( writer )", 13, 118, 4, 0
+github/python/loguru/tests/test_levels.py,"test_edit_level( writer )", 18, 119, 4, 0
+github/python/loguru/tests/test_levels.py,"test_edit_existing_level( writer )", 5, 116, 4, 0
+github/python/loguru/tests/test_levels.py,"test_get_level( )", 4, 40, 4, 0
+github/python/loguru/tests/test_levels.py,"test_get_existing_level( )", 2, 62, 4, 0
+github/python/loguru/tests/test_levels.py,"test_start_custom_level( writer )", 8, 117, 4, 0
+github/python/loguru/tests/test_levels.py,"test_updating_min_level( writer )", 14, 58, 8, 0
+github/python/loguru/tests/test_levels.py,"test_log_invalid_level( writer , level )", 4, 43, 0, 0
+github/python/loguru/tests/test_levels.py,"test_add_invalid_level_name( level_name )", 3, 45, 0, 0
+github/python/loguru/tests/test_levels.py,"test_add_invalid_level_value( level_value )", 3, 47, 0, 0
+github/python/loguru/tests/test_levels.py,"test_get_invalid_level( level )", 3, 36, 4, 0
+github/python/loguru/tests/test_levels.py,"test_edit_invalid_level( level )", 3, 38, 8, 0
+github/python/loguru/tests/test_opt.py,"test_record( writer )", 8, 76, 4, 0
+github/python/loguru/tests/test_opt.py,"test_exception_boolean( writer )", 12, 81, 8, 0
+github/python/loguru/tests/test_opt.py,"test_exception_exc_info( writer )", 14, 62, 4, 0
+github/python/loguru/tests/test_opt.py,"test_exception_class( writer )", 14, 62, 4, 0
+github/python/loguru/tests/test_opt.py,"test_exception_log_funcion( writer )", 12, 62, 4, 0
+github/python/loguru/tests/test_opt.py,"test_lazy.laziness( )", 4, 25, 8, 0
+github/python/loguru/tests/test_opt.py,"test_lazy( writer )", 30, 73, 4, 0
+github/python/loguru/tests/test_opt.py,"test_depth.a( )", 4, 46, 8, 0
+github/python/loguru/tests/test_opt.py,"test_depth( writer )", 12, 85, 4, 0
+github/python/loguru/tests/test_opt.py,"test_ansi( writer )", 6, 77, 4, 0
+github/python/loguru/tests/test_opt.py,"test_ansi_not_colorize( writer )", 4, 78, 4, 0
+github/python/loguru/tests/test_opt.py,"test_ansi_dont_color_unrelated( writer )", 4, 81, 4, 0
+github/python/loguru/tests/test_opt.py,"test_ansi_with_record( writer )", 5, 93, 4, 0
+github/python/loguru/tests/test_opt.py,"test_ansi_nested( writer )", 4, 99, 4, 0
+github/python/loguru/tests/test_opt.py,"test_ansi_raising( writer , message )", 4, 84, 4, 0
+github/python/loguru/tests/test_opt.py,"test_ansi_with_args( writer )", 4, 76, 4, 0
+github/python/loguru/tests/test_opt.py,"test_ansi_with_level( writer )", 5, 75, 4, 0
+github/python/loguru/tests/test_opt.py,"test_ansi_double_message( writer )", 4, 111, 4, 0
+github/python/loguru/tests/test_opt.py,"test_ansi_with_dynamic_formatter_colorized( writer )", 4, 81, 4, 0
+github/python/loguru/tests/test_opt.py,"test_ansi_with_dynamic_formatter_decolorized( writer )", 4, 82, 4, 0
+github/python/loguru/tests/test_opt.py,"test_ansi_with_format_specs( writer )", 5, 75, 4, 0
+github/python/loguru/tests/test_opt.py,"test_ansi_with_message_specs( writer )", 6, 94, 4, 0
+github/python/loguru/tests/test_opt.py,"test_raw( writer )", 5, 52, 4, 0
+github/python/loguru/tests/test_opt.py,"test_raw_with_format_function( writer )", 4, 71, 4, 0
+github/python/loguru/tests/test_opt.py,"test_raw_with_ansi_colorized( writer )", 4, 87, 4, 0
+github/python/loguru/tests/test_opt.py,"test_raw_with_ansi_decolorized( writer )", 4, 87, 4, 0
+github/python/loguru/tests/test_opt.py,"test_raw_with_record( writer )", 4, 77, 4, 0
+github/python/loguru/tests/test_opt.py,"test_keep_extra( writer )", 7, 49, 4, 0
+github/python/loguru/tests/test_opt.py,"test_before_bind( writer )", 4, 70, 4, 0
+github/python/loguru/tests/test_parse.py,"fileobj( )", 3, 36, 4, 0
+github/python/loguru/tests/test_parse.py,"test_parse_file( tmpdir )", 5, 70, 4, 0
+github/python/loguru/tests/test_parse.py,"test_parse_fileobj( tmpdir )", 5, 75, 4, 0
+github/python/loguru/tests/test_parse.py,"test_parse_pathlib( tmpdir )", 5, 85, 4, 0
+github/python/loguru/tests/test_parse.py,"test_parse_string_pattern( fileobj )", 3, 62, 4, 0
+github/python/loguru/tests/test_parse.py,"test_parse_regex_pattern( fileobj )", 4, 62, 4, 0
+github/python/loguru/tests/test_parse.py,"test_parse_multiline_pattern( fileobj )", 3, 77, 4, 0
+github/python/loguru/tests/test_parse.py,"test_parse_without_group( fileobj )", 3, 53, 4, 0
+github/python/loguru/tests/test_parse.py,"test_parse_bytes( )", 4, 71, 8, 0
+github/python/loguru/tests/test_parse.py,"test_chunk( fileobj , chunk )", 3, 76, 4, 0
+github/python/loguru/tests/test_parse.py,"test_positive_lookbehind_pattern( )", 6, 60, 8, 0
+github/python/loguru/tests/test_parse.py,"test_greedy_pattern( )", 6, 61, 8, 0
+github/python/loguru/tests/test_parse.py,"test_cast_dict( tmpdir )", 7, 96, 4, 0
+github/python/loguru/tests/test_parse.py,"test_cast_function.caster( groups )", 4, 80, 8, 0
+github/python/loguru/tests/test_parse.py,"test_cast_function( tmpdir )", 12, 84, 4, 0
+github/python/loguru/tests/test_parse.py,"test_cast_with_irrelevant_arg( tmpdir )", 7, 58, 4, 0
+github/python/loguru/tests/test_parse.py,"test_cast_with_irrelevant_value( tmpdir )", 7, 58, 4, 0
+github/python/loguru/tests/test_parse.py,"test_invalid_file( file )", 3, 45, 8, 0
+github/python/loguru/tests/test_parse.py,"test_invalid_pattern( fileobj , pattern )", 3, 45, 8, 0
+github/python/loguru/tests/test_parse.py,"test_invalid_cast( fileobj , cast )", 3, 59, 8, 0
+github/python/loguru/tests/test_propagation.py,"emit( self , record )", 2, 54, 8, 0
+github/python/loguru/tests/test_propagation.py,"test_formatting( make_logging_logger , capsys )", 10, 140, 4, 0
+github/python/loguru/tests/test_propagation.py,"test_propagate( make_logging_logger , capsys )", 14, 77, 4, 0
+github/python/loguru/tests/test_propagation.py,"test_stop_propagation( make_logging_logger , capsys )", 16, 77, 4, 0
+github/python/loguru/tests/test_propagation.py,"test_propagate_too_high( make_logging_logger , capsys )", 11, 99, 4, 0
+github/python/loguru/tests/test_propagation.py,"test_exception( make_logging_logger , capsys , use_opt )", 18, 77, 4, 0
+github/python/loguru/tests/test_standard_handler.py,"test_stream_handler( capsys )", 9, 64, 4, 0
+github/python/loguru/tests/test_standard_handler.py,"test_file_handler( tmpdir )", 8, 56, 4, 0
+github/python/loguru/tests/test_standard_handler.py,"test_null_handler( capsys )", 8, 35, 4, 0
+github/python/loguru/tests/test_start_options.py,"__init__( self , tty )", 3, 29, 4, 0
+github/python/loguru/tests/test_start_options.py,"write( self , m )", 2, 24, 4, 0
+github/python/loguru/tests/test_start_options.py,"isatty( self )", 2, 24, 8, 0
+github/python/loguru/tests/test_start_options.py,"flush( self )", 2, 21, 4, 0
+github/python/loguru/tests/test_start_options.py,"test_level( level , function , should_output , writer )", 5, 61, 4, 0
+github/python/loguru/tests/test_start_options.py,"test_format( message , format , expected , writer )", 4, 52, 0, 0
+github/python/loguru/tests/test_start_options.py,"test_progressive_format.formatter( record )", 5, 43, 8, 0
+github/python/loguru/tests/test_start_options.py,"test_progressive_format( writer )", 14, 71, 4, 0
+github/python/loguru/tests/test_start_options.py,"test_function_format_without_exception( writer )", 7, 57, 4, 0
+github/python/loguru/tests/test_start_options.py,"test_function_format_with_exception( writer )", 9, 68, 4, 0
+github/python/loguru/tests/test_start_options.py,"test_filter( filter , should_output , writer )", 5, 61, 4, 0
+github/python/loguru/tests/test_start_options.py,"test_colorize( message , format , expected , colorize , writer )", 4, 64, 0, 0
+github/python/loguru/tests/test_start_options.py,"test_colorize_stream_linux( monkeypatch , colorize , tty )", 15, 78, 4, 0
+github/python/loguru/tests/test_start_options.py,"test_auto_colorize_stream_windows( monkeypatch , colorize , tty )", 12, 77, 4, 0
+github/python/loguru/tests/test_start_options.py,"test_auto_colorize_bugged_stream.bugged( * a , ** k )", 2, 27, 8, 0
+github/python/loguru/tests/test_start_options.py,"test_auto_colorize_bugged_stream( monkeypatch , colorize , tty )", 18, 79, 4, 0
+github/python/loguru/tests/test_start_options.py,"test_backtrace( writer )", 19, 62, 4, 0
+github/python/loguru/tests/test_start_options.py,"test_serialize.sink( message )", 4, 52, 8, 0
+github/python/loguru/tests/test_start_options.py,"test_serialize( with_exception )", 19, 72, 4, 0
+github/python/loguru/tests/test_start_options.py,"test_enqueue.sink( message )", 3, 26, 8, 0
+github/python/loguru/tests/test_start_options.py,"test_enqueue( with_exception )", 24, 66, 8, 0
+github/python/loguru/tests/test_start_options.py,"test_catch.sink( msg )", 2, 20, 8, 0
+github/python/loguru/tests/test_start_options.py,"test_catch( )", 7, 43, 4, 0
+github/python/loguru/tests/test_start_options.py,"test_function_with_kwargs.function( message , kw2 , kw1 )", 2, 46, 8, 0
+github/python/loguru/tests/test_start_options.py,"test_function_with_kwargs( )", 9, 65, 4, 0
+github/python/loguru/tests/test_start_options.py,"test_class_with_kwargs.__init__( self , kw2 , kw1 )", 2, 39, 12, 0
+github/python/loguru/tests/test_start_options.py,"test_class_with_kwargs.write( self , m )", 2, 37, 12, 0
+github/python/loguru/tests/test_start_options.py,"test_class_with_kwargs( )", 13, 63, 4, 0
+github/python/loguru/tests/test_start_options.py,"test_file_object_with_kwargs.__init__( self )", 2, 28, 8, 0
+github/python/loguru/tests/test_start_options.py,"test_file_object_with_kwargs.write( self , m , kw2 , kw1 )", 2, 44, 12, 0
+github/python/loguru/tests/test_start_options.py,"test_file_object_with_kwargs( )", 12, 63, 4, 0
+github/python/loguru/tests/test_start_options.py,"test_file_mode_a( tmpdir )", 6, 64, 4, 0
+github/python/loguru/tests/test_start_options.py,"test_file_mode_w( tmpdir )", 6, 64, 4, 0
+github/python/loguru/tests/test_start_options.py,"test_file_buffering( tmpdir )", 7, 68, 4, 0
+github/python/loguru/tests/test_start_options.py,"test_file_not_delayed( tmpdir )", 7, 67, 4, 0
+github/python/loguru/tests/test_start_options.py,"test_file_delayed( tmpdir )", 6, 66, 4, 0
+github/python/loguru/tests/test_start_options.py,"test_invalid_function_kwargs.function( message , a = "Y" )", 2, 34, 4, 0
+github/python/loguru/tests/test_start_options.py,"test_invalid_function_kwargs( )", 7, 47, 4, 0
+github/python/loguru/tests/test_start_options.py,"test_invalid_class_kwargs( )", 6, 42, 8, 0
+github/python/loguru/tests/test_start_options.py,"test_invalid_file_object_kwargs.__init__( self )", 2, 28, 8, 0
+github/python/loguru/tests/test_start_options.py,"test_invalid_file_object_kwargs.write( self , m )", 2, 28, 8, 0
+github/python/loguru/tests/test_start_options.py,"test_invalid_file_object_kwargs( )", 12, 76, 4, 0
+github/python/loguru/tests/test_start_options.py,"test_invalid_file_kwargs( )", 3, 43, 8, 0
+github/python/loguru/tests/test_start_options.py,"test_invalid_level( writer , level )", 3, 42, 8, 0
+github/python/loguru/tests/test_start_options.py,"test_invalid_format( writer , format )", 3, 44, 8, 0
+github/python/loguru/tests/test_start_options.py,"test_invalid_filter( writer , filter )", 3, 44, 8, 0
+github/python/loguru/tests/test_start_sinks.py,"log( sink , rep = 1 )", 7, 55, 4, 0
+github/python/loguru/tests/test_start_sinks.py,"test_stdout_sink( rep , capsys )", 5, 35, 0, 0
+github/python/loguru/tests/test_start_sinks.py,"test_stderr_sink( rep , capsys )", 5, 35, 0, 0
+github/python/loguru/tests/test_start_sinks.py,"test_devnull( rep )", 2, 25, 4, 0
+github/python/loguru/tests/test_start_sinks.py,"test_file_sink( rep , sink_from_path , tmpdir )", 6, 49, 0, 0
+github/python/loguru/tests/test_start_sinks.py,"test_file_sink_folder_creation( rep , tmpdir )", 4, 79, 4, 0
+github/python/loguru/tests/test_start_sinks.py,"test_function_sink( rep )", 5, 53, 4, 0
+github/python/loguru/tests/test_start_sinks.py,"test_class_sink.write( self , m )", 3, 42, 8, 0
+github/python/loguru/tests/test_start_sinks.py,"test_file_object_sink.write( self , m )", 4, 42, 8, 0
+github/python/loguru/tests/test_start_sinks.py,"test_standard_handler_sink.emit( self , record )", 2, 51, 12, 0
+github/python/loguru/tests/test_start_sinks.py,"test_standard_handler_sink( rep )", 8, 51, 12, 0
+github/python/loguru/tests/test_start_sinks.py,"test_flush.flush( self )", 3, 49, 8, 0
+github/python/loguru/tests/test_start_sinks.py,"test_invalid_sink( sink )", 3, 36, 4, 0
+github/python/loguru/tests/test_stop.py,"test_stop_all( tmpdir , writer , capsys )", 25, 55, 4, 0
+github/python/loguru/tests/test_stop.py,"test_stop_simple( writer )", 6, 49, 4, 0
+github/python/loguru/tests/test_stop.py,"test_stop_enqueue( writer )", 7, 63, 4, 0
+github/python/loguru/tests/test_stop.py,"test_stop_enqueue_filesink( tmpdir )", 5, 80, 4, 0
+github/python/loguru/tests/test_stop.py,"test_stop_atexit( pyexec , enqueue )", 10, 61, 4, 0
+github/python/loguru/tests/test_stop.py,"test_stop_invalid( writer )", 5, 36, 4, 0
+github/python/loguru/tests/test_threading.py,"test_safe.non_safe_sink( msg )", 8, 28, 4, 0
+github/python/loguru/tests/test_threading.py,"test_safe.first_thread( )", 6, 42, 8, 0
+github/python/loguru/tests/test_threading.py,"test_safe.second_thread( )", 7, 43, 8, 0
+github/python/loguru/tests/test_threading.py,"test_safe( capsys )", 43, 74, 4, 0
