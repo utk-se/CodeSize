@@ -72,7 +72,7 @@ def printfilescsv(lfiles, widths):
     :return:
     """
     i = 0
-    print("File, Function, Total Width, Leading Space(s), Leading Tabs")
+    print("File, Function, Total Width, Leading Space(s), Leading Tab(s)")
     for lfile in lfiles:
         for func in lfile.function_list:
             print("{},\"{}\",{}, {}".format(lfile.filename,
