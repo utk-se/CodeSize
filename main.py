@@ -3,13 +3,17 @@ import argparse
 import os
 import re
 
+
 class Width:
-    def __init__(self, total_width, leadingwhitespace):
+    def __init__(self, total_width, leading_space, leading_tab):
         self.total_width = total_width
-        self.leadingwhitespace = leadingwhitespace
+        self.leading_space = leading_space
+        self.leading_tab = leading_tab
 
     total_width = 0
-    leadingwhitespace = 0
+    leading_space = 0
+    leading_tab = 0
+
 
 def parsearg():
     """
@@ -53,7 +57,8 @@ def printfiles(lfiles, widths):
             print("         Start: {}".format(func.start_line))
             print("         Ends: {}".format(func.start_line + func.length - 1))
             print("         Width: {}".format(widths[i].total_width))
-            print("         Leading Whitespace: {}".format(widths[i].leadingwhitespace))
+            print("         Leading Space(s): {}".format(widths[i].leading_space))
+            print("         Leading Tab(s): {}".format(widths[i].leading_tab))
             i = i + 1
 
 
@@ -64,13 +69,14 @@ def printfilescsv(lfiles, widths):
     :return:
     """
     i = 0
-    print("File, Function, Total Width, Leading Whitespace (tabs / spaces)")
+    print("File, Function, Total Width, Leading Space(s), Leading Tabs")
     for lfile in lfiles:
         for func in lfile.function_list:
-            print("{},\"{}\",{}, {}".format(lfile.filename, 
-											func.long_name,
-											widths[i].total_width, 
-											widths[i].leadingwhitespace))
+            print("{},\"{}\",{}, {}".format(lfile.filename,
+                                            func.long_name,
+                                            widths[i].total_width,
+                                            widths[i].leading_space,
+                                            widths[i].leading_tab))
             i = i + 1
 
 
@@ -87,14 +93,16 @@ def getmaximumwidth(lfiles):
             file = open(lfile.filename, "r")
             for i, line in enumerate(file):
                 # line.replace("\t", "    ")
-                if func.start_line-2 < i < (func.start_line + func.length - 1):
+                if func.start_line - 2 < i < (func.start_line + func.length - 1):
                     if len(line) > width.total_width:
                         total_width = len(line)
-                        leadingwhitespace = len(re.match(r"\s*", line).group())
-                        width = Width(total_width, leadingwhitespace)
+                        leading_space = total_width - len(line.lstrip(' '))
+                        leading_tab = total_width - len(line.lstrip()) - leading_space
+                        # leading_space = len(re.match(r"\s*", line).group())
+                        # print(len(re.match(r"\t*", line).group()))
+                        width = Width(total_width, leading_space, leading_tab)
             widths.append(width)
     return widths
-
 
 
 def main():
