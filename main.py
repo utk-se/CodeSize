@@ -1,3 +1,5 @@
+ #!/usr/bin/env python
+
 import lizard
 import argparse
 import os
