@@ -1,7 +1,6 @@
 import lizard
 import argparse
 import os
-import re
 
 
 class Width:
@@ -92,14 +91,12 @@ def getmaximumwidth(lfiles):
             width = Width
             file = open(lfile.filename, "r")
             for i, line in enumerate(file):
-                # line.replace("\t", "    ")
                 if func.start_line - 2 < i < (func.start_line + func.length - 1):
                     if len(line) > width.total_width:
                         total_width = len(line)
-                        leading_space = total_width - len(line.lstrip(' '))
-                        leading_tab = total_width - len(line.lstrip()) - leading_space
-                        # leading_space = len(re.match(r"\s*", line).group())
-                        # print(len(re.match(r"\t*", line).group()))
+                        line_beginning = line.lstrip()
+                        leading_space = line_beginning.count(' ')
+                        leading_tab = line_beginning.count('\t')
                         width = Width(total_width, leading_space, leading_tab)
             widths.append(width)
     return widths
