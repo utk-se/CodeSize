@@ -46,6 +46,7 @@ def usageerror():
 def printfiles(lfiles, widths):
     """
     Prints the relevant contents of the files out
+    :param widths:
     :param lfiles:
     :return:
     """
@@ -67,6 +68,7 @@ def printfilescsv(lfiles, widths):
     """
     Prints the relevant contents of the file out in csv form
     :param lfiles:
+    :param widths:
     :return:
     """
     i = 0
@@ -85,7 +87,7 @@ def getmaximumwidth(lfiles):
     """
     Expects a list of files (as a lizard files) and will return the maximum width for each function
     :param lfiles:
-    :return:
+    :return widths:
     """
     widths = []
     for lfile in lfiles:
@@ -98,11 +100,14 @@ def getmaximumwidth(lfiles):
                     if total_width > width.total_width:
                         # Get the leading whitespace width total
                         leading_length = total_width - len(line.lstrip())
+
                         # Now that we've got the leading length, get the beginning characters
                         line_beginning = line[:leading_length]
+
                         # Get the leading spaces and tabs
                         leading_space = line_beginning.count(' ')
                         leading_tab = line_beginning.count('\t')
+
                         width = Width(total_width, leading_space, leading_tab)
             widths.append(width)
     return widths
