@@ -15,12 +15,31 @@ Python:
 	tensorflow/models - 45,704 stars
 		https://github.com/tensorflow/models
 
+	google-research/bert - 9,148 stars
+		https://github.com/google-research/bert
+
+	OpenMined/PySyft - 2,380 stars
+		https://github.com/OpenMined/PySyft
+
+	donnemartin/system-design-primer - 53,200 stars
+		https://github.com/donnemartin/system-design-primer
+
+	TheAlgorithms/Python - 19,131 stars
+		https://github.com/TheAlgorithms/Python
+
+	rg3/youtube-dl - 44,694 stars
+		https://github.com/rg3/youtube-dl
+
+
 JavaScript:
 
 	MrRio/jsPDF - 13,715 stars
 		https://github.com/MrRio/jsPDF
 
+
 Java:
 	
 	alibaba/arthas - 7,173 stars
 		https://github.com/alibaba/arthas
+
+
