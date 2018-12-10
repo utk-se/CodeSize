@@ -75,7 +75,7 @@ def printfilescsv(lfiles, widths):
     print("File, Function, Total Width, Leading Space(s), Leading Tab(s)")
     for lfile in lfiles:
         for func in lfile.function_list:
-            print("{},\"{}\",{}, {}".format(lfile.filename,
+            print("{},\"{}\",{}, {}, {}".format(lfile.filename,
                                             func.long_name,
                                             widths[i].total_width,
                                             widths[i].leading_space,
