@@ -1,17 +1,26 @@
 Python:
 	
-	google/jax
+	google/jax - 1,350 stars
 		https://github.com/google/jax
 
-	Delgan/loguru
+	Delgan/loguru - 849 stars
 		https://github.com/Delgan/loguru
+
+	meulo/walle-web - 4,605 stars
+		https://github.com/meolu/walle-web
+
+	satwikkansal/wtfpython - 11,248 stars
+		https://github.com/satwikkansal/wtfpython
+
+	tensorflow/models - 45,704 stars
+		https://github.com/tensorflow/models
 
 JavaScript:
 
-	MrRio/jsPDF
+	MrRio/jsPDF - 13,715 stars
 		https://github.com/MrRio/jsPDF
 
 Java:
 	
-	alibaba/arthas
+	alibaba/arthas - 7,173 stars
 		https://github.com/alibaba/arthas
