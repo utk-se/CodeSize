@@ -1,11 +1,134 @@
-Python:
-	
+All repos downloaded from 16:49:51 - 17:34:01
 
-JavaScript:
+CPP:
 
+	bitcoin:
+		9133227298ad97bbb10c44ac038f614c0bd7f7c7
+
+	caffe:
+		99bd99795dcdf0b1d3086a8d67ab1782a8a08383
+
+	electron:
+		0431833866e61a43e214e8844874448c357763c5
+
+	nw.js:
+		7080e1fe6238a2c955b011f59b9ced107fe04ccb
+
+	opencv:
+		e058febaad38d03963ae8799d1881d0657cb3ed5
+
+	pytorch:
+		656b565a0f53d9f24547b060bd27aa67ebb89b88
+
+	rethinkdb-legacy:
+		99cd0219a9058ac6e5004444077d9cd729294ea2
+
+	swift:
+		b2052b84984b9bd35d8275000c5cab40bbda7fc9
+
+	tensorflow:
+		b37a329a6fc4aaf94767ebf5158689a3ee233b89
+
+	x64dgb:
+		e5c838c2766656e8a32c275bb6f387a202d88c37
 
 Java:
 	
+	elasticsearch:
+		733a6d34c1d08f3a1c50fc5a283733cc994b4343
 
-C++:
+	guava:
+		a7e1c180907c597b73373d347fbcfe124f1d77b6
+
+	interviews:
+		8097e71d9710acad3f1ba7d7546a001362d10605
+
+	java-design-patterns:
+		0fa18d91c6763d37d2949479ec17646daf115822
+	
+	MPAndroidChart:
+		aea2ff3417e30d6d4b1ce7e777cbd8bc83e1c95d
+
+	okhttp:
+		b78fa98389a7ddbbe5869e3af2eefd7de179c77e
+
+	retrofit:
+		ee72ada9bb9d227f133786a866606c019c349064
+
+	RxJava:
+		bc40695e4073ee806de460947958d4c6edca632b
+
+	spring-boot:
+		ddabfe3fcc81ce71d44412e7c2c28f327d5a7d1b
+
+	spring-framework:
+		aab421167bcde87fcb19f1a4b0693624ae85b2ae
+
+JavaScript:
+
+	angular:
+		9ae51d751b3803d610652687b6a63f98f825a592
+
+	atom:
+		61e7017b66b6892ac9db19a9606b82103d2027ed
+
+	axios:
+		75c8b3f146aaa8a71f7dca0263686fb1799f8f31
+
+	create-react-app:
+		45bc6280d109b7e353ffaa497a0352c9d040c36d
+	
+	d3:
+		3e2bbb506b536fdf13bfdf6a106d1c16b4859666
+	
+	Font-Awesome:
+		1975bba5c4ade236c02bf2e5f9551160ee85109d
+	
+	freeCodeCamp:
+		36bed4f57cd45309a0c829ce2652e2034a5efb02
+
+	jquery:
+		9cb162f6b62b6d4403060a0f0d2065d3ae96bbcc
+
+	node:
+		8f4b924f4a7b37bd16ddff65329c8e96fc5f0f2d
+
+	react:
+		4a1072194fcef2da1aae2510886c274736017fbd
+
+Python:
+	
+	ansible:
+		ef3b75afcdf8eb1e3209ecebc0ea2d8b90c4768b
+
+	awesome-machine-learning:
+		a4470f6e2e72ae93d32cbf284da072c6c921bf76
+
+	awesome-python:
+		246e0576505a1fc91ea9b04d85f1d47843d504d6
+
+	django:
+		a394289b58b1773c4959ed768fdb325c91b2b589
+
+	httpie:
+		c591a3810dcbfe541aa17326c40bbce35444fcd2
+
+	keras:
+		88af7d0c97497b5c3a198ee9416b2accfbc72c36
+
+	public-apis:
+		b72386aedb6326db990e247eadd9206f51def1c8
+
+	requests:
+		5c1f72e80a7d7ac129631ea5b0c34c7876bc6ed7
+
+	system-design-primer:
+		02c0827a4e199498e268c6cbba27eb6fe5072d9c
+	
+	thefuck:
+		7bc619385b85fa09da2aaca4076ba35955de3538
+
+	youtube-dl:
+		c984196cf1c9eb34725091e07a4f094b7eea1d4f
+
 

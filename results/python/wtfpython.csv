@@ -1,5 +1,0 @@
-File, Function, Length, Total Width, Leading Space(s), Leading Tab(s)
-github/python/wtfpython/mixed_tabs_and_spaces.py,"square( x )", 5, 105, 0, 1
-github/python/wtfpython/wtfpython-pypi/wtf_python/main.py,"fetch_updated_doc( )", 9, 64, 8, 0
-github/python/wtfpython/wtfpython-pypi/wtf_python/main.py,"render_doc( )", 4, 36, 4, 0
-github/python/wtfpython/wtfpython-pypi/wtf_python/main.py,"load_and_read( )", 3, 24, 4, 0

@@ -88,6 +88,9 @@ git clone https://github.com/spring-projects/spring-boot.git
 # 30,936 stars
 git clone https://github.com/kdn251/interviews.git
 
+# 30,677 stars
+git clone https://github.com/square/retrofit.git
+
 # 30,079 stars
 git clone https://github.com/square/okhttp.git
 
