@@ -1,0 +1,1102 @@
+File, Function, Total Width, Leading Space(s), Leading Tab(s)
+repos/javascript/freeCodeCamp/client/gatsby-node.js,"onCreateNode { node , actions , getNode } )",78, 4, 0
+repos/javascript/freeCodeCamp/client/gatsby-ssr.js,"e n )",6847, 4, 0
+repos/javascript/freeCodeCamp/client/gatsby-ssr.js,"function r )",6847, 4, 0
+repos/javascript/freeCodeCamp/client/gatsby-ssr.js,"function r , e , o )",6847, 4, 0
+repos/javascript/freeCodeCamp/client/gatsby-ssr.js,"function )",6847, 4, 0
+repos/javascript/freeCodeCamp/client/gatsby-ssr.js,"n r )",6847, 4, 0
+repos/javascript/freeCodeCamp/client/gatsby-ssr.js,"this.shimId )",6847, 4, 0
+repos/javascript/freeCodeCamp/client/gatsby-ssr.js,"t r , e )",6847, 4, 0
+repos/javascript/freeCodeCamp/client/gatsby-ssr.js,"function )",6847, 4, 0
+repos/javascript/freeCodeCamp/client/gatsby-ssr.js,"a r , e )",6847, 4, 0
+repos/javascript/freeCodeCamp/client/gatsby-ssr.js,"function )",6847, 4, 0
+repos/javascript/freeCodeCamp/client/gatsby-ssr.js,"l r )",6847, 4, 0
+repos/javascript/freeCodeCamp/client/gatsby-ssr.js,"c r , e )",6847, 4, 0
+repos/javascript/freeCodeCamp/client/gatsby-ssr.js,"p r )",6847, 4, 0
+repos/javascript/freeCodeCamp/client/gatsby-ssr.js,"l )",6847, 4, 0
+repos/javascript/freeCodeCamp/client/gatsby-ssr.js,"function )",6847, 4, 0
+repos/javascript/freeCodeCamp/client/gatsby-ssr.js,"t.prototype.loadFull r , e , o , t , a )",6847, 4, 0
+repos/javascript/freeCodeCamp/client/gatsby-ssr.js,"e )",6847, 4, 0
+repos/javascript/freeCodeCamp/client/gatsby-ssr.js,"r._rollbar_wrapped )",6847, 4, 0
+repos/javascript/freeCodeCamp/client/gatsby-ssr.js,"t.prototype.wrap r , e , o )",6847, 4, 0
+repos/javascript/freeCodeCamp/client/gatsby-ssr.js,"function r , e , o )",6847, 4, 0
+repos/javascript/freeCodeCamp/client/gatsby-ssr.js,"a )",6847, 4, 0
+repos/javascript/freeCodeCamp/client/gatsby-ssr.js,"o r , e , o )",6847, 4, 0
+repos/javascript/freeCodeCamp/client/gatsby-ssr.js,"n r , e , o , n )",6847, 4, 0
+repos/javascript/freeCodeCamp/client/gatsby-ssr.js,"n r )",6847, 4, 0
+repos/javascript/freeCodeCamp/client/gatsby-ssr.js,"t r , e , o )",6847, 4, 0
+repos/javascript/freeCodeCamp/client/gatsby-ssr.js,"a r , e , o )",6847, 4, 0
+repos/javascript/freeCodeCamp/client/gatsby-ssr.js,"t e , o , t )",6847, 4, 0
+repos/javascript/freeCodeCamp/client/gatsby-ssr.js,"l r , e , o )",6847, 4, 0
+repos/javascript/freeCodeCamp/client/gatsby-ssr.js,"l r , e , o )",6847, 4, 0
+repos/javascript/freeCodeCamp/client/gatsby-ssr.js,"function r , e )",6847, 4, 0
+repos/javascript/freeCodeCamp/client/gatsby-ssr.js,"o r , e )",6847, 4, 0
+repos/javascript/freeCodeCamp/client/gatsby-ssr.js,"function )",6847, 4, 0
+repos/javascript/freeCodeCamp/client/gatsby-ssr.js,"e r )",6847, 4, 0
+repos/javascript/freeCodeCamp/client/gatsby-ssr.js,"n r )",6847, 4, 0
+repos/javascript/freeCodeCamp/client/gatsby-ssr.js,"o.prototype._swapAndProcessMessages r , e )",6847, 4, 0
+repos/javascript/freeCodeCamp/client/gatsby-ssr.js,"function r , e )",6847, 4, 0
+repos/javascript/freeCodeCamp/client/gatsby-ssr.js,"l r )",6847, 4, 0
+repos/javascript/freeCodeCamp/client/gatsby-ssr.js,"function e )",6847, 4, 0
+repos/javascript/freeCodeCamp/client/gatsby-ssr.js,"r.exports r )",6847, 4, 0
+repos/javascript/freeCodeCamp/client/gatsby-ssr.js,"function r , e )",6847, 4, 0
+repos/javascript/freeCodeCamp/client/plugins/fcc-source-news/gatsby-node.js,"handleError err , client , reject )",46, 2, 0
+repos/javascript/freeCodeCamp/client/plugins/fcc-source-news/gatsby-node.js,"function err , client )",74, 8, 0
+repos/javascript/freeCodeCamp/client/plugins/fcc-source-news/gatsby-node.js,"sourceChallengesSourceNodes { actions , reporter } , pluginOptions )",74, 8, 0
+repos/javascript/freeCodeCamp/client/plugins/fcc-source-news/create-news-node.js,"createNewsNode article )",53, 6, 0
+repos/javascript/freeCodeCamp/client/plugins/fcc-create-nav-data/gatsby-node.js,"createNavDataOnCreateNode { actions , node } )",79, 0, 0
+repos/javascript/freeCodeCamp/client/plugins/fcc-create-nav-data/create-navigation-node.js,"withGuidePrefix str )",73, 2, 0
+repos/javascript/freeCodeCamp/client/plugins/fcc-create-nav-data/create-navigation-node.js,"*global*",73, 2, 0
+repos/javascript/freeCodeCamp/client/plugins/fcc-create-nav-data/create-navigation-node.js,"*global*",73, 2, 0
+repos/javascript/freeCodeCamp/client/plugins/fcc-source-challenges/gatsby-node.js,"if typeof curriculumPath !== 'string' )",80, 4, 0
+repos/javascript/freeCodeCamp/client/plugins/fcc-source-challenges/gatsby-node.js,"sourceAndCreateNodes )",79, 12, 0
+repos/javascript/freeCodeCamp/client/plugins/fcc-source-challenges/gatsby-node.js,"if typeof onSourceChange !== 'function' )",80, 4, 0
+repos/javascript/freeCodeCamp/client/plugins/fcc-source-challenges/create-Challenge-nodes.js,"createChallengeNode challenge , reporter )",65, 4, 0
+repos/javascript/freeCodeCamp/client/plugins/gatsby-remark-fcc-forum-emoji/index.js,"markdownToHTML node )",36, 2, 0
+repos/javascript/freeCodeCamp/client/plugins/gatsby-remark-fcc-forum-emoji/index.js,"forumEmojiPlugin { markdownAST } )",76, 6, 0
+repos/javascript/freeCodeCamp/client/plugins/gatsby-remark-node-identity/gatsby-node.js,"remarkNodeIdentityOnCreateNode { node , reporter , actions } , { predicate , identity } )",80, 6, 0
+repos/javascript/freeCodeCamp/client/utils/infoLog.js,"info str , colour = 'red' )",54, 0, 0
+repos/javascript/freeCodeCamp/client/utils/buildChallenges.js,"replaceChallengeNode fullFilePath )",66, 4, 0
+repos/javascript/freeCodeCamp/client/utils/buildChallenges.js,"buildChallenges )",81, 6, 0
+repos/javascript/freeCodeCamp/client/utils/buildChallenges.js,"prepareChallenge challenge )",61, 2, 0
+repos/javascript/freeCodeCamp/client/utils/titleify.js,"titleCase word )",48, 2, 0
+repos/javascript/freeCodeCamp/client/utils/titleify.js,"prototyper str )",62, 12, 0
+repos/javascript/freeCodeCamp/client/utils/titleify.js,"titleify str , triedPrototyper )",79, 2, 0
+repos/javascript/freeCodeCamp/client/utils/stateManagement.js,"createTypes types = [ ] , ns = 'annon' )",56, 0, 0
+repos/javascript/freeCodeCamp/client/utils/index.js,"dasherize name )",47, 0, 0
+repos/javascript/freeCodeCamp/client/utils/index.js,"nameify str )",70, 2, 0
+repos/javascript/freeCodeCamp/client/utils/index.js,"unDasherize name )",56, 6, 0
+repos/javascript/freeCodeCamp/client/utils/index.js,"isBrowser )",43, 0, 0
+repos/javascript/freeCodeCamp/client/utils/blockNameify.js,"blockNameify phrase )",61, 2, 0
+repos/javascript/freeCodeCamp/client/utils/readDir.js,"readDir dir )",52, 4, 0
+repos/javascript/freeCodeCamp/client/src/html.js,"*global*",76, 12, 0
+repos/javascript/freeCodeCamp/client/src/html.js,"*global*",76, 12, 0
+repos/javascript/freeCodeCamp/client/src/client-only-routes/ShowUnsubscribed.js,"ShowUnsubscribed { unsubscribeId } )",78, 16, 0
+repos/javascript/freeCodeCamp/client/src/client-only-routes/ShowUnsubscribed.js,"*global*",78, 16, 0
+repos/javascript/freeCodeCamp/client/src/templates/News/NewsApp.js,"NewsApp )",69, 8, 0
+repos/javascript/freeCodeCamp/client/src/templates/News/components/BannerWide.js,"BannerWide )",80, 10, 0
+repos/javascript/freeCodeCamp/client/src/templates/News/components/ArticleMeta.js,"pluralise singular , count )",49, 2, 0
+repos/javascript/freeCodeCamp/client/src/templates/News/components/ArticleMeta.js,"getTimeString pubDate )",67, 4, 0
+repos/javascript/freeCodeCamp/client/src/templates/News/components/ArticleMeta.js,"ArticleMeta { article : { viewCount , author , meta , firstPublishedDate } } )",78, 10, 0
+repos/javascript/freeCodeCamp/client/src/templates/News/ShowArticle/index.js,"*global*",78, 4, 0
+repos/javascript/freeCodeCamp/client/src/templates/News/ShowArticle/index.js,"*global*",78, 4, 0
+repos/javascript/freeCodeCamp/client/src/templates/News/ShowArticle/index.js,"*global*",78, 4, 0
+repos/javascript/freeCodeCamp/client/src/templates/News/ShowArticle/index.js,"*global*",78, 4, 0
+repos/javascript/freeCodeCamp/client/src/templates/News/ShowArticle/index.js,"*global*",78, 4, 0
+repos/javascript/freeCodeCamp/client/src/templates/News/ShowArticle/index.js,"*global*",78, 4, 0
+repos/javascript/freeCodeCamp/client/src/templates/News/ShowArticle/index.js,"*global*",78, 4, 0
+repos/javascript/freeCodeCamp/client/src/templates/News/ShowArticle/components/Author.js,"Author { article } )",48, 6, 0
+repos/javascript/freeCodeCamp/client/src/templates/News/redux/shortId-saga.js,"fetchArticleByIdSaga { payload } )",58, 4, 0
+repos/javascript/freeCodeCamp/client/src/templates/News/redux/shortId-saga.js,"createShortIdSaga types )",66, 2, 0
+repos/javascript/freeCodeCamp/client/src/templates/Introduction/SuperBlockIntro.js,"SuperBlockIntroductionPage { data : { markdownRemark } } )",68, 0, 0
+repos/javascript/freeCodeCamp/client/src/templates/Introduction/Intro.js,"renderMenuItems { edges = [ ] } )",78, 2, 0
+repos/javascript/freeCodeCamp/client/src/templates/Introduction/Intro.js,"IntroductionPage { data : { markdownRemark , allChallengeNode } } )",81, 8, 0
+repos/javascript/freeCodeCamp/client/src/templates/Challenges/project/Show.js,"*global*",76, 4, 0
+repos/javascript/freeCodeCamp/client/src/templates/Challenges/project/Show.js,"*global*",76, 4, 0
+repos/javascript/freeCodeCamp/client/src/templates/Challenges/project/Side-Panel.js,"SidePanel { title , description , isCompleted } )",73, 0, 0
+repos/javascript/freeCodeCamp/client/src/templates/Challenges/classic/Show.js,"*global*",79, 0, 0
+repos/javascript/freeCodeCamp/client/src/templates/Challenges/classic/Show.js,"*global*",79, 0, 0
+repos/javascript/freeCodeCamp/client/src/templates/Challenges/components/Test-Suite.js,"getAccessibleText err , pass , text )",52, 2, 0
+repos/javascript/freeCodeCamp/client/src/templates/Challenges/components/Test-Suite.js,"TestSuite { tests } )",68, 8, 0
+repos/javascript/freeCodeCamp/client/src/templates/Challenges/components/CompletionModal.js,"mapDispatchToProps dispatch )",58, 6, 0
+repos/javascript/freeCodeCamp/client/src/templates/Challenges/components/Challenge-Description.js,"ChallengeDescription { description , instructions , section } )",72, 0, 0
+repos/javascript/freeCodeCamp/client/src/templates/Challenges/components/Challenge-Description.js,"*global*",72, 0, 0
+repos/javascript/freeCodeCamp/client/src/templates/Challenges/components/ResetModal.js,"withActions ... fns )",40, 2, 0
+repos/javascript/freeCodeCamp/client/src/templates/Challenges/components/ResetModal.js,"ResetModal { reset , close , isOpen } )",78, 8, 0
+repos/javascript/freeCodeCamp/client/src/templates/Challenges/components/icons/Initial.js,"Initial props )",80, 14, 0
+repos/javascript/freeCodeCamp/client/src/templates/Challenges/components/icons/Fail.js,"RedFail )",48, 10, 0
+repos/javascript/freeCodeCamp/client/src/templates/Challenges/components/icons/GreenPass.js,"GreenPass props )",50, 12, 0
+repos/javascript/freeCodeCamp/client/src/templates/Challenges/components/icons/GreenNotCompleted.js,"GreenNotCompleted props )",50, 6, 0
+repos/javascript/freeCodeCamp/client/src/templates/Challenges/rechallenge/throwers.js,"_checkForComments { contents } )",78, 8, 0
+repos/javascript/freeCodeCamp/client/src/templates/Challenges/rechallenge/throwers.js,"function { contents } )",70, 8, 0
+repos/javascript/freeCodeCamp/client/src/templates/Challenges/rechallenge/throwers.js,"function { contents } )",76, 8, 0
+repos/javascript/freeCodeCamp/client/src/templates/Challenges/rechallenge/throwers.js,"function { contents } )",71, 10, 0
+repos/javascript/freeCodeCamp/client/src/templates/Challenges/rechallenge/throwers.js,"function { contents } )",78, 8, 0
+repos/javascript/freeCodeCamp/client/src/templates/Challenges/rechallenge/transformers.js,"transformWrappedPoly source )",73, 6, 0
+repos/javascript/freeCodeCamp/client/src/templates/Challenges/rechallenge/transformers.js,"tryTransform wrap = identity )",73, 6, 0
+repos/javascript/freeCodeCamp/client/src/templates/Challenges/rechallenge/builders.js,"*global*",81, 0, 0
+repos/javascript/freeCodeCamp/client/src/templates/Challenges/utils/build.js,"filterJSIfDisabled state )",54, 2, 0
+repos/javascript/freeCodeCamp/client/src/templates/Challenges/utils/build.js,"buildFromFiles state )",68, 2, 0
+repos/javascript/freeCodeCamp/client/src/templates/Challenges/utils/build.js,"buildJSFromFiles files )",69, 2, 0
+repos/javascript/freeCodeCamp/client/src/templates/Challenges/utils/build.js,"buildBackendChallenge state )",47, 0, 0
+repos/javascript/freeCodeCamp/client/src/templates/Challenges/utils/polyvinyl.js,"castToObservable maybe )",42, 0, 0
+repos/javascript/freeCodeCamp/client/src/templates/Challenges/utils/polyvinyl.js,"createFileStream files = [ ] )",47, 0, 0
+repos/javascript/freeCodeCamp/client/src/templates/Challenges/utils/polyvinyl.js,"pipe project )",77, 6, 0
+repos/javascript/freeCodeCamp/client/src/templates/Challenges/utils/polyvinyl.js,"createPoly { name , ext , contents , history , ... rest } = { } )",81, 2, 0
+repos/javascript/freeCodeCamp/client/src/templates/Challenges/utils/polyvinyl.js,"isPoly poly )",41, 4, 0
+repos/javascript/freeCodeCamp/client/src/templates/Challenges/utils/polyvinyl.js,"checkPoly poly )",55, 4, 0
+repos/javascript/freeCodeCamp/client/src/templates/Challenges/utils/polyvinyl.js,"isEmpty poly )",32, 0, 0
+repos/javascript/freeCodeCamp/client/src/templates/Challenges/utils/polyvinyl.js,"setContent contents , poly )",45, 0, 0
+repos/javascript/freeCodeCamp/client/src/templates/Challenges/utils/polyvinyl.js,"setExt ext , poly )",53, 2, 0
+repos/javascript/freeCodeCamp/client/src/templates/Challenges/utils/polyvinyl.js,"setName name , poly )",53, 2, 0
+repos/javascript/freeCodeCamp/client/src/templates/Challenges/utils/polyvinyl.js,"setError error , poly )",50, 4, 0
+repos/javascript/freeCodeCamp/client/src/templates/Challenges/utils/polyvinyl.js,"clearHeadTail poly )",38, 0, 0
+repos/javascript/freeCodeCamp/client/src/templates/Challenges/utils/polyvinyl.js,"appendToTail tail , poly )",43, 0, 0
+repos/javascript/freeCodeCamp/client/src/templates/Challenges/utils/polyvinyl.js,"compileHeadTail padding = '' , poly )",65, 6, 0
+repos/javascript/freeCodeCamp/client/src/templates/Challenges/utils/polyvinyl.js,"transformContents wrap , poly )",61, 2, 0
+repos/javascript/freeCodeCamp/client/src/templates/Challenges/utils/polyvinyl.js,"transformHeadTailAndContents wrap , poly )",59, 0, 0
+repos/javascript/freeCodeCamp/client/src/templates/Challenges/utils/polyvinyl.js,"testContents predicate , poly )",48, 0, 0
+repos/javascript/freeCodeCamp/client/src/templates/Challenges/utils/polyvinyl.js,"updateFileFromSpec spec , poly )",54, 2, 0
+repos/javascript/freeCodeCamp/client/src/templates/Challenges/utils/ajax-stream.js,"getXMLHttpRequest )",74, 6, 0
+repos/javascript/freeCodeCamp/client/src/templates/Challenges/utils/ajax-stream.js,"getCORSRequest )",62, 4, 0
+repos/javascript/freeCodeCamp/client/src/templates/Challenges/utils/ajax-stream.js,"parseXhrResponse responseType , xhr )",70, 12, 0
+repos/javascript/freeCodeCamp/client/src/templates/Challenges/utils/ajax-stream.js,"normalizeAjaxSuccessEvent e , xhr , settings )",80, 4, 0
+repos/javascript/freeCodeCamp/client/src/templates/Challenges/utils/ajax-stream.js,"createNormalizeAjaxErrorEvent options )",50, 0, 0
+repos/javascript/freeCodeCamp/client/src/templates/Challenges/utils/ajax-stream.js,"createXHR )",72, 6, 0
+repos/javascript/freeCodeCamp/client/src/templates/Challenges/utils/ajax-stream.js,"processResponse xhr , e )",79, 6, 0
+repos/javascript/freeCodeCamp/client/src/templates/Challenges/utils/ajax-stream.js,"xhr.onload e )",50, 12, 0
+repos/javascript/freeCodeCamp/client/src/templates/Challenges/utils/ajax-stream.js,"xhr.onprogress e )",47, 12, 0
+repos/javascript/freeCodeCamp/client/src/templates/Challenges/utils/ajax-stream.js,"xhr.onerror e )",59, 10, 0
+repos/javascript/freeCodeCamp/client/src/templates/Challenges/utils/ajax-stream.js,"xhr.onabort e )",59, 10, 0
+repos/javascript/freeCodeCamp/client/src/templates/Challenges/utils/ajax-stream.js,"xhr.onreadystatechange e )",47, 8, 0
+repos/javascript/freeCodeCamp/client/src/templates/Challenges/utils/ajax-stream.js,"function )",45, 6, 0
+repos/javascript/freeCodeCamp/client/src/templates/Challenges/utils/ajax-stream.js,"function observer )",81, 6, 0
+repos/javascript/freeCodeCamp/client/src/templates/Challenges/utils/ajax-stream.js,"$ options )",81, 6, 0
+repos/javascript/freeCodeCamp/client/src/templates/Challenges/utils/ajax-stream.js,"$ url , body )",47, 2, 0
+repos/javascript/freeCodeCamp/client/src/templates/Challenges/utils/ajax-stream.js,"$ url , body )",62, 4, 0
+repos/javascript/freeCodeCamp/client/src/templates/Challenges/utils/ajax-stream.js,"$ url )",30, 2, 0
+repos/javascript/freeCodeCamp/client/src/templates/Challenges/utils/ajax-stream.js,"$ url )",62, 4, 0
+repos/javascript/freeCodeCamp/client/src/templates/Challenges/utils/index.js,"createGuideUrl slug = '' )",44, 0, 0
+repos/javascript/freeCodeCamp/client/src/templates/Challenges/utils/index.js,"isGoodXHRStatus status )",46, 2, 0
+repos/javascript/freeCodeCamp/client/src/templates/Challenges/utils/frame.js,"proxyConsole ... args )",60, 2, 0
+repos/javascript/freeCodeCamp/client/src/templates/Challenges/utils/frame.js,"writeToFrame content , frame )",40, 0, 0
+repos/javascript/freeCodeCamp/client/src/templates/Challenges/utils/postUpdate$.js,"$ { endpoint , payload } )",61, 0, 0
+repos/javascript/freeCodeCamp/client/src/templates/Challenges/utils/get-words.js,"randomItem arr )",54, 2, 0
+repos/javascript/freeCodeCamp/client/src/templates/Challenges/utils/get-words.js,"randomPhrase )",36, 2, 0
+repos/javascript/freeCodeCamp/client/src/templates/Challenges/utils/get-words.js,"randomVerb )",34, 2, 0
+repos/javascript/freeCodeCamp/client/src/templates/Challenges/utils/get-words.js,"randomCompliment )",40, 2, 0
+repos/javascript/freeCodeCamp/client/src/templates/Challenges/utils/fetch-and-cache.js,"fetchScript { src , cacheBreaker = false , crossDomain = true } = { } )",81, 4, 0
+repos/javascript/freeCodeCamp/client/src/templates/Challenges/utils/fetch-and-cache.js,"createFetchScript )",81, 4, 0
+repos/javascript/freeCodeCamp/client/src/templates/Challenges/utils/fetch-and-cache.js,"*global*",81, 4, 0
+repos/javascript/freeCodeCamp/client/src/templates/Challenges/redux/completion-epic.js,"postChallenge update , username )",50, 2, 0
+repos/javascript/freeCodeCamp/client/src/templates/Challenges/redux/completion-epic.js,"submitModern type , state )",73, 2, 0
+repos/javascript/freeCodeCamp/client/src/templates/Challenges/redux/completion-epic.js,"submitProject type , state )",69, 2, 0
+repos/javascript/freeCodeCamp/client/src/templates/Challenges/redux/completion-epic.js,"submitBackendChallenge type , state )",75, 6, 0
+repos/javascript/freeCodeCamp/client/src/templates/Challenges/redux/completion-epic.js,"shouldShowDonate state )",74, 2, 0
+repos/javascript/freeCodeCamp/client/src/templates/Challenges/redux/completion-epic.js,"completionEpic action $ , state $ )",76, 10, 0
+repos/javascript/freeCodeCamp/client/src/templates/Challenges/redux/create-question-epic.js,"filesToMarkdown files = { } )",73, 4, 0
+repos/javascript/freeCodeCamp/client/src/templates/Challenges/redux/create-question-epic.js,"createQuestionEpic action $ , state $ , { window } )",78, 6, 0
+repos/javascript/freeCodeCamp/client/src/templates/Challenges/redux/challenge-modal-epic.js,"challengeModalEpic action $ )",77, 6, 0
+repos/javascript/freeCodeCamp/client/src/templates/Challenges/redux/code-lock-epic.js,"codeLockEpic action $ )",66, 2, 0
+repos/javascript/freeCodeCamp/client/src/templates/Challenges/redux/code-storage-epic.js,"getCode id )",30, 2, 0
+repos/javascript/freeCodeCamp/client/src/templates/Challenges/redux/code-storage-epic.js,"getLegacyCode legacy )",51, 2, 0
+repos/javascript/freeCodeCamp/client/src/templates/Challenges/redux/code-storage-epic.js,"legacyToFile code , files , key )",52, 4, 0
+repos/javascript/freeCodeCamp/client/src/templates/Challenges/redux/code-storage-epic.js,"isFilesAllPoly files )",34, 4, 0
+repos/javascript/freeCodeCamp/client/src/templates/Challenges/redux/code-storage-epic.js,"clearCodeEpic action $ , state $ )",58, 6, 0
+repos/javascript/freeCodeCamp/client/src/templates/Challenges/redux/code-storage-epic.js,"saveCodeEpic action $ , state $ )",55, 4, 0
+repos/javascript/freeCodeCamp/client/src/templates/Challenges/redux/code-storage-epic.js,"loadCodeEpic action $ , state $ )",69, 10, 0
+repos/javascript/freeCodeCamp/client/src/templates/Challenges/redux/current-challenge-epic.js,"currentChallengeEpic action $ , state $ )",76, 6, 0
+repos/javascript/freeCodeCamp/client/src/templates/Challenges/redux/id-to-name-map-saga.js,"fetchIdToNameMapSaga )",49, 4, 0
+repos/javascript/freeCodeCamp/client/src/templates/Challenges/redux/id-to-name-map-saga.js,"createIdToNameMapSaga types )",60, 4, 0
+repos/javascript/freeCodeCamp/client/src/templates/Challenges/redux/execute-challenge-epic.js,"updateMainEpic action $ , state $ , { document } )",69, 6, 0
+repos/javascript/freeCodeCamp/client/src/templates/Challenges/redux/execute-challenge-epic.js,"executeChallengeEpic action $ , state $ , { document } )",76, 6, 0
+repos/javascript/freeCodeCamp/client/src/templates/Challenges/redux/execute-challenge-saga.js,"ExecuteChallengeSaga )",69, 4, 0
+repos/javascript/freeCodeCamp/client/src/templates/Challenges/redux/execute-challenge-saga.js,"ExecuteJSChallengeSaga tests )",68, 6, 0
+repos/javascript/freeCodeCamp/client/src/templates/Challenges/redux/execute-challenge-saga.js,"createExecuteChallengeSaga types )",69, 2, 0
+repos/javascript/freeCodeCamp/client/src/client/frame-runner.js,"isPromise value )",47, 6, 0
+repos/javascript/freeCodeCamp/client/src/client/frame-runner.js,"function prop )",74, 8, 0
+repos/javascript/freeCodeCamp/client/src/client/frame-runner.js,"runOneTest { text , testString } )",77, 12, 0
+repos/javascript/freeCodeCamp/client/src/client/frame-runner.js,"runTests tests = [ ] )",77, 12, 0
+repos/javascript/freeCodeCamp/client/src/client/frame-runner.js,"function )",77, 12, 0
+repos/javascript/freeCodeCamp/client/src/client/workers/test-evaluator.js,"proxyConsole ... args )",52, 0, 0
+repos/javascript/freeCodeCamp/client/src/pages/n.js,"NewsReferalLinkRouter )",52, 6, 0
+repos/javascript/freeCodeCamp/client/src/pages/software-resources-for-nonprofits.js,"SoftwareResourcesForNonProfits )",80, 18, 0
+repos/javascript/freeCodeCamp/client/src/pages/settings.js,"Settings )",40, 6, 0
+repos/javascript/freeCodeCamp/client/src/pages/user.js,"User )",54, 6, 0
+repos/javascript/freeCodeCamp/client/src/pages/news.js,"NewsIndexPage props )",50, 2, 0
+repos/javascript/freeCodeCamp/client/src/pages/index.js,"*global*",81, 14, 0
+repos/javascript/freeCodeCamp/client/src/pages/academic-honesty.js,"AcademicHonesty )",67, 10, 0
+repos/javascript/freeCodeCamp/client/src/pages/welcome.js,"Welcome { fetchState : { pending , complete } , isSignedIn , user : { acceptedPrivacyTerms , name = '' , completedChallengeCount : completedChallenges = 0 , completedProjectCount = 0 , completedCertCount = 0 , completedLegacyCertCount : completedLegacyCerts = 0 , isDonating } , activeDonations } )",81, 14, 0
+repos/javascript/freeCodeCamp/client/src/pages/guide.js,"Index )",79, 10, 0
+repos/javascript/freeCodeCamp/client/src/components/Supporters.js,"Supporters { isDonating , activeDonations } )",90, 14, 0
+repos/javascript/freeCodeCamp/client/src/components/profile/Profile.js,"TakeMeToTheChallenges )",58, 6, 0
+repos/javascript/freeCodeCamp/client/src/components/profile/Profile.js,"renderIsLocked username )",80, 14, 0
+repos/javascript/freeCodeCamp/client/src/components/profile/Profile.js,"renderSettingsButton )",37, 14, 0
+repos/javascript/freeCodeCamp/client/src/components/profile/Profile.js,"Profile { user , isSessionUser } )",79, 8, 0
+repos/javascript/freeCodeCamp/client/src/components/profile/components/HeatMap.js,"HeatMap { calendar , streak } )",74, 10, 0
+repos/javascript/freeCodeCamp/client/src/components/profile/components/TimeLine.js,"*global*",79, 16, 0
+repos/javascript/freeCodeCamp/client/src/components/profile/components/Camper.js,"pluralise word , condition )",40, 2, 0
+repos/javascript/freeCodeCamp/client/src/components/profile/components/Camper.js,"joinArray array )",56, 2, 0
+repos/javascript/freeCodeCamp/client/src/components/profile/components/SocialIcons.js,"LinkedInIcon linkedIn )",66, 4, 0
+repos/javascript/freeCodeCamp/client/src/components/profile/components/SocialIcons.js,"GithubIcon ghURL )",63, 4, 0
+repos/javascript/freeCodeCamp/client/src/components/profile/components/SocialIcons.js,"WebsiteIcon website )",65, 4, 0
+repos/javascript/freeCodeCamp/client/src/components/profile/components/SocialIcons.js,"TwitterIcon handle )",64, 4, 0
+repos/javascript/freeCodeCamp/client/src/components/profile/components/SocialIcons.js,"SocialIcons props )",75, 6, 0
+repos/javascript/freeCodeCamp/client/src/components/profile/components/Portfolio.js,"Portfolio { portfolio = [ ] } )",67, 6, 0
+repos/javascript/freeCodeCamp/client/src/components/profile/components/Portfolio.js,"*global*",67, 6, 0
+repos/javascript/freeCodeCamp/client/src/components/settings/Theme.js,"ThemeSettings { currentTheme , toggleNightMode } )",75, 0, 0
+repos/javascript/freeCodeCamp/client/src/components/settings/Email.js,"UpdateEmailButton )",65, 4, 0
+repos/javascript/freeCodeCamp/client/src/components/settings/SectionHeader.js,"SectionHeader { children } )",50, 6, 0
+repos/javascript/freeCodeCamp/client/src/components/settings/SolutionViewer.js,"SolutionViewer { files , solution = '// The solution is not available for this project' } )",77, 8, 0
+repos/javascript/freeCodeCamp/client/src/components/settings/Portfolio.js,"createEmptyPortfolio )",34, 0, 0
+repos/javascript/freeCodeCamp/client/src/components/settings/Portfolio.js,"createFindById id )",30, 0, 0
+repos/javascript/freeCodeCamp/client/src/components/settings/Honesty.js,"*global*",80, 12, 0
+repos/javascript/freeCodeCamp/client/src/components/settings/ToggleSetting.js,"ToggleSetting { action , explain , flag , flagName , toggleFlag , ... restProps } )",69, 10, 0
+repos/javascript/freeCodeCamp/client/src/components/layouts/Default.js,"*global*",80, 4, 0
+repos/javascript/freeCodeCamp/client/src/components/layouts/Learn.js,"LearnLayout { children } )",55, 8, 0
+repos/javascript/freeCodeCamp/client/src/components/layouts/components/guide/SideNav.js,"parentFilter node )",60, 2, 0
+repos/javascript/freeCodeCamp/client/src/components/layouts/components/guide/NavItem.js,"NavItem props )",80, 6, 0
+repos/javascript/freeCodeCamp/client/src/components/icons/Caret.js,"Caret )",79, 10, 0
+repos/javascript/freeCodeCamp/client/src/components/Map/components/SuperBlock.js,"mapDispatchToProps dispatch )",40, 0, 0
+repos/javascript/freeCodeCamp/client/src/components/Map/components/SuperBlock.js,"createSuperBlockTitle str )",50, 4, 0
+repos/javascript/freeCodeCamp/client/src/components/helpers/ToggleButton.js,"getActiveClass condition )",46, 2, 0
+repos/javascript/freeCodeCamp/client/src/components/helpers/ToggleButton.js,"ToggleButton { name , onChange , value , onLabel = 'On' , offLabel = 'Off' } )",58, 6, 0
+repos/javascript/freeCodeCamp/client/src/components/helpers/CurrentChallengeLink.js,"CurrentChallengeLink { children , hardGoTo } )",74, 4, 0
+repos/javascript/freeCodeCamp/client/src/components/helpers/FullWidthRow.js,"FullWidthRow { children } )",40, 6, 0
+repos/javascript/freeCodeCamp/client/src/components/helpers/SkeletonSprite.js,"SkeletonSprite )",61, 6, 0
+repos/javascript/freeCodeCamp/client/src/components/helpers/ButtonSpacer.js,"ButtonSpacer )",73, 2, 0
+repos/javascript/freeCodeCamp/client/src/components/helpers/SlimWidthRow.js,"SlimWidthRow { children , ... restProps } )",52, 0, 0
+repos/javascript/freeCodeCamp/client/src/components/helpers/Loader.js,"Loader )",55, 2, 0
+repos/javascript/freeCodeCamp/client/src/components/helpers/form/BlockSaveWrapper.js,"BlockSaveWrapper { children , ... restProps } )",56, 0, 0
+repos/javascript/freeCodeCamp/client/src/components/helpers/form/BlockSaveButton.js,"BlockSaveButton { children , ... restProps } )",55, 0, 0
+repos/javascript/freeCodeCamp/client/src/components/Donation/components/DonateCompletion.js,"DonateCompletion { close , processing , reset , success , error = null } )",81, 0, 0
+repos/javascript/freeCodeCamp/client/src/components/Donation/components/DonateCompletion.js,"*global*",81, 0, 0
+repos/javascript/freeCodeCamp/client/src/components/Donation/components/DonateCompletion.js,"*global*",81, 0, 0
+repos/javascript/freeCodeCamp/client/src/components/FourOhFour/index.js,"*global*",79, 16, 0
+repos/javascript/freeCodeCamp/client/src/components/Flash/index.js,"createDismissHandler fn , id )",40, 0, 0
+repos/javascript/freeCodeCamp/client/src/components/Flash/index.js,"Flash { messages , onClose } )",60, 6, 0
+repos/javascript/freeCodeCamp/client/src/components/Header/index.js,"Header { disableSettings } )",60, 12, 0
+repos/javascript/freeCodeCamp/client/src/components/Header/components/NavLogo.js,"NavLogo )",53, 12, 0
+repos/javascript/freeCodeCamp/client/src/components/Header/components/UserState.js,"UserState props )",62, 2, 0
+repos/javascript/freeCodeCamp/client/src/components/Header/components/SignedIn.js,"SignedIn { picture } )",49, 6, 0
+repos/javascript/freeCodeCamp/client/src/components/formHelpers/Form.js,"DynamicForm { errors , fields , handleSubmit , fields : { _meta : { allPristine } } , buttonText , enableSubmit , hideButton , id , options , submit } )",71, 6, 0
+repos/javascript/freeCodeCamp/client/src/components/formHelpers/Form.js,"*global*",71, 6, 0
+repos/javascript/freeCodeCamp/client/src/components/formHelpers/Form.js,"Form props )",38, 0, 0
+repos/javascript/freeCodeCamp/client/src/components/formHelpers/BlockSaveWrapper.js,"BlockSaveWrapper { children } )",46, 2, 0
+repos/javascript/freeCodeCamp/client/src/components/formHelpers/BlockSaveButton.js,"BlockSaveButton props )",69, 4, 0
+repos/javascript/freeCodeCamp/client/src/components/formHelpers/index.js,"callIfDefined fn )",47, 2, 0
+repos/javascript/freeCodeCamp/client/src/components/formHelpers/index.js,"formatUrl url )",78, 2, 0
+repos/javascript/freeCodeCamp/client/src/components/formHelpers/index.js,"isValidURL data )",50, 2, 0
+repos/javascript/freeCodeCamp/client/src/components/formHelpers/index.js,"makeOptional validator )",47, 2, 0
+repos/javascript/freeCodeCamp/client/src/components/formHelpers/index.js,"makeRequired validator )",48, 2, 0
+repos/javascript/freeCodeCamp/client/src/components/formHelpers/index.js,"createFormValidator fieldValidators )",68, 8, 0
+repos/javascript/freeCodeCamp/client/src/components/formHelpers/index.js,"getValidationState field )",67, 2, 0
+repos/javascript/freeCodeCamp/client/src/components/OfflineWarning/OfflineWarning.js,"OfflineWarning { isOnline , isSignedIn } )",58, 6, 0
+repos/javascript/freeCodeCamp/client/src/utils/createTypes.js,"createTypes types = [ ] , ns = 'annon' )",56, 0, 0
+repos/javascript/freeCodeCamp/client/src/utils/report-error.js,"reportClientSideError e , message = 'Unhandled error' )",72, 0, 0
+repos/javascript/freeCodeCamp/client/src/utils/ajax.js,"get path )",38, 2, 0
+repos/javascript/freeCodeCamp/client/src/utils/ajax.js,"post path , body )",45, 2, 0
+repos/javascript/freeCodeCamp/client/src/utils/ajax.js,"put path , body )",44, 2, 0
+repos/javascript/freeCodeCamp/client/src/utils/ajax.js,"getSessionUser )",40, 2, 0
+repos/javascript/freeCodeCamp/client/src/utils/ajax.js,"getIdToNameMap )",48, 2, 0
+repos/javascript/freeCodeCamp/client/src/utils/ajax.js,"getUserProfile username )",68, 2, 0
+repos/javascript/freeCodeCamp/client/src/utils/ajax.js,"getShowCert username , cert )",59, 2, 0
+repos/javascript/freeCodeCamp/client/src/utils/ajax.js,"getArticleById shortId )",42, 0, 0
+repos/javascript/freeCodeCamp/client/src/utils/ajax.js,"getFeaturedList skip = 0 )",52, 8, 0
+repos/javascript/freeCodeCamp/client/src/utils/ajax.js,"postPopularityEvent event )",45, 0, 0
+repos/javascript/freeCodeCamp/client/src/utils/ajax.js,"postReportUser body )",42, 2, 0
+repos/javascript/freeCodeCamp/client/src/utils/ajax.js,"putUpdateMyAbout values )",49, 2, 0
+repos/javascript/freeCodeCamp/client/src/utils/ajax.js,"putUpdateMyUsername username )",51, 2, 0
+repos/javascript/freeCodeCamp/client/src/utils/ajax.js,"putUpdateMyProfileUI profileUI )",53, 2, 0
+repos/javascript/freeCodeCamp/client/src/utils/ajax.js,"putUpdateUserFlag update )",44, 0, 0
+repos/javascript/freeCodeCamp/client/src/utils/ajax.js,"putUserAcceptsTerms quincyEmails )",57, 2, 0
+repos/javascript/freeCodeCamp/client/src/utils/ajax.js,"putUserUpdateEmail email )",45, 2, 0
+repos/javascript/freeCodeCamp/client/src/utils/ajax.js,"putVerifyCert superBlock )",53, 2, 0
+repos/javascript/freeCodeCamp/client/src/utils/handled-error.js,"isHandledError err )",39, 2, 0
+repos/javascript/freeCodeCamp/client/src/utils/handled-error.js,"unwrapHandledError err )",67, 2, 0
+repos/javascript/freeCodeCamp/client/src/utils/handled-error.js,"wrapHandledError err , { type , message , redirectTo } )",71, 0, 0
+repos/javascript/freeCodeCamp/client/src/utils/handled-error.js,"handle400Error e , options = { redirectTo : '/welcome' } )",74, 0, 0
+repos/javascript/freeCodeCamp/client/src/utils/handled-error.js,"handle500Error e , options = { redirectTo : '/welcome' } , _reportClientSideError = reportClientSideError )",74, 2, 0
+repos/javascript/freeCodeCamp/client/src/utils/handled-error.js,"handleAPIError e , options , _reportClientSideError = reportClientSideError )",78, 4, 0
+repos/javascript/freeCodeCamp/client/src/utils/get-words.js,"randomItem arr )",54, 2, 0
+repos/javascript/freeCodeCamp/client/src/utils/get-words.js,"randomQuote )",47, 2, 0
+repos/javascript/freeCodeCamp/client/src/utils/get-words.js,"randomPhrase )",36, 2, 0
+repos/javascript/freeCodeCamp/client/src/utils/get-words.js,"randomVerb )",34, 2, 0
+repos/javascript/freeCodeCamp/client/src/utils/get-words.js,"randomCompliment )",40, 2, 0
+repos/javascript/freeCodeCamp/client/src/redux/update-complete-epic.js,"updateCompleteEpic action $ , state $ )",62, 0, 0
+repos/javascript/freeCodeCamp/client/src/redux/fetch-user-saga.js,"fetchSessionUser )",74, 6, 0
+repos/javascript/freeCodeCamp/client/src/redux/fetch-user-saga.js,"fetchOtherUser { payload : maybeUser } )",73, 6, 0
+repos/javascript/freeCodeCamp/client/src/redux/fetch-user-saga.js,"createFetchUserSaga types )",57, 4, 0
+repos/javascript/freeCodeCamp/client/src/redux/error-saga.js,"errorHandlerSaga { payload : error } )",72, 2, 0
+repos/javascript/freeCodeCamp/client/src/redux/hard-go-to-epic.js,"hardGoToEpic action $ , _ , { location } )",65, 0, 0
+repos/javascript/freeCodeCamp/client/src/redux/app-mount-saga.js,"parseMessagesSaga )",76, 2, 0
+repos/javascript/freeCodeCamp/client/src/redux/app-mount-saga.js,"createAppMountSaga types )",57, 2, 0
+repos/javascript/freeCodeCamp/client/src/redux/rootSaga.js,"rootSaga )",38, 0, 0
+repos/javascript/freeCodeCamp/client/src/redux/show-cert-saga.js,"getShowCertSaga { payload : { username , certName : cert } } )",72, 4, 0
+repos/javascript/freeCodeCamp/client/src/redux/show-cert-saga.js,"createShowCertSaga types )",55, 2, 0
+repos/javascript/freeCodeCamp/client/src/redux/index.js,"spreadThePayloadOnUser state , payload )",50, 0, 0
+repos/javascript/freeCodeCamp/client/src/redux/failed-updates-epic.js,"delay time = 0 , fn )",31, 0, 0
+repos/javascript/freeCodeCamp/client/src/redux/failed-updates-epic.js,"failedUpdateEpic action $ , state $ )",80, 18, 0
+repos/javascript/freeCodeCamp/client/src/redux/report-user-saga.js,"reportUserSaga { payload } )",68, 4, 0
+repos/javascript/freeCodeCamp/client/src/redux/report-user-saga.js,"acceptCompleteSaga )",33, 0, 0
+repos/javascript/freeCodeCamp/client/src/redux/report-user-saga.js,"createReportUserSaga types )",60, 4, 0
+repos/javascript/freeCodeCamp/client/src/redux/accept-terms-saga.js,"acceptTermsSaga { payload : quincyEmails } )",78, 4, 0
+repos/javascript/freeCodeCamp/client/src/redux/accept-terms-saga.js,"acceptCompleteSaga )",36, 2, 0
+repos/javascript/freeCodeCamp/client/src/redux/accept-terms-saga.js,"createAcceptTermsSaga types )",61, 4, 0
+repos/javascript/freeCodeCamp/client/src/redux/night-mode-saga.js,"setTheme currentTheme = defaultTheme , theme )",75, 2, 0
+repos/javascript/freeCodeCamp/client/src/redux/night-mode-saga.js,"updateLocalThemeSaga { payload : { user , theme } } )",62, 0, 0
+repos/javascript/freeCodeCamp/client/src/redux/night-mode-saga.js,"createNightModeSaga types )",66, 4, 0
+repos/javascript/freeCodeCamp/client/src/redux/settings/update-email-saga.js,"updateMyEmailSaga { payload : email = '' } )",70, 4, 0
+repos/javascript/freeCodeCamp/client/src/redux/settings/update-email-saga.js,"createUpdateMyEmailSaga types )",62, 2, 0
+repos/javascript/freeCodeCamp/client/src/redux/settings/settings-sagas.js,"submitNewAboutSaga { payload } )",70, 4, 0
+repos/javascript/freeCodeCamp/client/src/redux/settings/settings-sagas.js,"submitNewUsernameSaga { payload : username } )",74, 4, 0
+repos/javascript/freeCodeCamp/client/src/redux/settings/settings-sagas.js,"sumbitProfileUISaga { payload } )",74, 4, 0
+repos/javascript/freeCodeCamp/client/src/redux/settings/settings-sagas.js,"updateUserFlagSaga { payload : update } )",73, 4, 0
+repos/javascript/freeCodeCamp/client/src/redux/settings/settings-sagas.js,"validateUsernameSaga { payload } )",49, 4, 0
+repos/javascript/freeCodeCamp/client/src/redux/settings/settings-sagas.js,"verifyCertificationSaga { payload } )",72, 4, 0
+repos/javascript/freeCodeCamp/client/src/redux/settings/settings-sagas.js,"createSettingsSagas types )",64, 4, 0
+repos/javascript/freeCodeCamp/client/src/analytics/gtag.js,"gtag )",38, 4, 0
+repos/javascript/freeCodeCamp/client/src/analytics/gtag.js,"callback )",51, 4, 0
+repos/javascript/freeCodeCamp/client/src/analytics/gtag.js,"gtagReportConversion url )",52, 6, 0
+repos/javascript/freeCodeCamp/api-server/development-entry.js,"nodemonRestart files )",55, 0, 0
+repos/javascript/freeCodeCamp/api-server/pm2Start.js,"function )",59, 6, 0
+repos/javascript/freeCodeCamp/api-server/pm2Start.js,"function )",59, 6, 0
+repos/javascript/freeCodeCamp/api-server/server/server.js,"function )",58, 2, 0
+repos/javascript/freeCodeCamp/api-server/server/server.js,"function )",58, 2, 0
+repos/javascript/freeCodeCamp/api-server/server/passport-providers.js,"*global*",54, 0, 0
+repos/javascript/freeCodeCamp/api-server/server/component-passport.js,"getCompletedCertCount user )",58, 2, 0
+repos/javascript/freeCodeCamp/api-server/server/component-passport.js,"getLegacyCertCount user )",70, 2, 0
+repos/javascript/freeCodeCamp/api-server/server/component-passport.js,"function err , [ { points = 1 } = { } ] )",71, 12, 0
+repos/javascript/freeCodeCamp/api-server/server/component-passport.js,"passportInit noSession )",79, 2, 0
+repos/javascript/freeCodeCamp/api-server/server/component-passport.js,"function strategy )",63, 6, 0
+repos/javascript/freeCodeCamp/api-server/server/component-passport.js,"setupPassport app )",81, 2, 0
+repos/javascript/freeCodeCamp/api-server/server/rss/medium.js,"getExtract str )",48, 2, 0
+repos/javascript/freeCodeCamp/api-server/server/rss/medium.js,"addResponsiveClass str )",63, 2, 0
+repos/javascript/freeCodeCamp/api-server/server/rss/medium.js,"getMediumFeed )",80, 10, 0
+repos/javascript/freeCodeCamp/api-server/server/rss/index.js,"waitForReady )",62, 8, 0
+repos/javascript/freeCodeCamp/api-server/server/rss/lybsyn.js,"getLybsynFeed )",81, 8, 0
+repos/javascript/freeCodeCamp/api-server/server/middlewares/passport-login.js,"$ ... args )",63, 2, 0
+repos/javascript/freeCodeCamp/api-server/server/middlewares/passport-login.js,"passportLogin )",42, 0, 0
+repos/javascript/freeCodeCamp/api-server/server/middlewares/add-return-to.js,"function req , res , next )",62, 4, 0
+repos/javascript/freeCodeCamp/api-server/server/middlewares/add-return-to.js,"addReturnToUrl )",62, 4, 0
+repos/javascript/freeCodeCamp/api-server/server/middlewares/privacy-terms-notice.js,"function req , res , next )",56, 6, 0
+repos/javascript/freeCodeCamp/api-server/server/middlewares/privacy-terms-notice.js,"privacyTermsNotAcceptedNotice )",58, 0, 0
+repos/javascript/freeCodeCamp/api-server/server/middlewares/jwt-authorization.js,"authorizeByJWT req , res , next )",81, 4, 0
+repos/javascript/freeCodeCamp/api-server/server/middlewares/email-not-verified-notice.js,"*global*",80, 2, 0
+repos/javascript/freeCodeCamp/api-server/server/middlewares/csurf.js,"csrf req , res , next )",58, 4, 0
+repos/javascript/freeCodeCamp/api-server/server/middlewares/csurf.js,"function )",58, 4, 0
+repos/javascript/freeCodeCamp/api-server/server/middlewares/constant-headers.js,"function req , res , next )",55, 6, 0
+repos/javascript/freeCodeCamp/api-server/server/middlewares/constant-headers.js,"constantHeaders )",55, 6, 0
+repos/javascript/freeCodeCamp/api-server/server/middlewares/csp.js,"csp )",76, 6, 0
+repos/javascript/freeCodeCamp/api-server/server/middlewares/validator.js,"function )",73, 10, 0
+repos/javascript/freeCodeCamp/api-server/server/middlewares/error-handlers.js,"function err , req , res , next )",79, 6, 0
+repos/javascript/freeCodeCamp/api-server/server/middlewares/error-handlers.js,"prodErrorHandler )",79, 6, 0
+repos/javascript/freeCodeCamp/api-server/server/middlewares/error-handlers.js,"*global*",79, 6, 0
+repos/javascript/freeCodeCamp/api-server/server/middlewares/sessions.js,"sessionsMiddleware )",55, 4, 0
+repos/javascript/freeCodeCamp/api-server/server/middlewares/flash-cheaters.js,"function req , res , next )",66, 10, 0
+repos/javascript/freeCodeCamp/api-server/server/middlewares/flash-cheaters.js,"flashCheaters )",66, 10, 0
+repos/javascript/freeCodeCamp/api-server/server/middlewares/error-reporter.js,"reportError err )",47, 2, 0
+repos/javascript/freeCodeCamp/api-server/server/middlewares/error-reporter.js,"errrorReporter )",77, 2, 0
+repos/javascript/freeCodeCamp/api-server/server/middlewares/express-extensions.js,"expressExtensions req , res , next )",71, 10, 0
+repos/javascript/freeCodeCamp/api-server/server/middlewares/express-extensions.js,"function )",71, 10, 0
+repos/javascript/freeCodeCamp/api-server/server/services/mapUi.js,"readMapUi req , resource , _ , config , cb )",78, 14, 0
+repos/javascript/freeCodeCamp/api-server/server/services/mapUi.js,"mapUiService app )",78, 14, 0
+repos/javascript/freeCodeCamp/api-server/server/services/user.js,"readUserService req , resource , params , config , cb )",72, 10, 0
+repos/javascript/freeCodeCamp/api-server/server/services/user.js,"userServices )",72, 10, 0
+repos/javascript/freeCodeCamp/api-server/server/services/challenge.js,"readChallengesForBlock req , resource , { dashedName , blockName } = { } , config , cb )",73, 10, 0
+repos/javascript/freeCodeCamp/api-server/server/services/challenge.js,"getChallengesForBlock app )",73, 10, 0
+repos/javascript/freeCodeCamp/api-server/server/boot/a-increase-listeners.js,"increaseListers app )",50, 2, 0
+repos/javascript/freeCodeCamp/api-server/server/boot/a-extend-built-ins.js,"extendEmail app )",65, 2, 0
+repos/javascript/freeCodeCamp/api-server/server/boot/certificate.js,"bootCertificate app )",78, 2, 0
+repos/javascript/freeCodeCamp/api-server/server/boot/certificate.js,"ifNoSuperBlock404 req , res , next )",56, 2, 0
+repos/javascript/freeCodeCamp/api-server/server/boot/certificate.js,"createCertTypeIds app )",81, 4, 0
+repos/javascript/freeCodeCamp/api-server/server/boot/certificate.js,"isCertified ids , completedChallenges = [ ] )",77, 4, 0
+repos/javascript/freeCodeCamp/api-server/server/boot/certificate.js,"$ id , Challenge )",51, 2, 0
+repos/javascript/freeCodeCamp/api-server/server/boot/certificate.js,"sendCertifiedEmail { email = '' , name , username , isRespWebDesignCert , isFrontEndLibsCert , isJsAlgoDataStructCert , isDataVisCert , isApisMicroservicesCert , isInfosecQaCert } , send $ )",47, 6, 0
+repos/javascript/freeCodeCamp/api-server/server/boot/certificate.js,"getUserIsCertMap user )",37, 4, 0
+repos/javascript/freeCodeCamp/api-server/server/boot/certificate.js,"verifyCert req , res , next )",76, 12, 0
+repos/javascript/freeCodeCamp/api-server/server/boot/certificate.js,"createVerifyCert certTypeIds , app )",76, 12, 0
+repos/javascript/freeCodeCamp/api-server/server/boot/certificate.js,"$ username , fields )",51, 2, 0
+repos/javascript/freeCodeCamp/api-server/server/boot/certificate.js,"showCert req , res , next )",82, 14, 0
+repos/javascript/freeCodeCamp/api-server/server/boot/certificate.js,"createShowCert app )",82, 14, 0
+repos/javascript/freeCodeCamp/api-server/server/boot/sitemap.js,"getCachedObservable app , modelName , nameProp , blockProp , map )",73, 0, 0
+repos/javascript/freeCodeCamp/api-server/server/boot/sitemap.js,"sitemap req , res , next )",57, 4, 0
+repos/javascript/freeCodeCamp/api-server/server/boot/sitemap.js,"sitemapRouter app )",80, 2, 0
+repos/javascript/freeCodeCamp/api-server/server/boot/z-a-react.js,"reactSubRouter app )",80, 2, 0
+repos/javascript/freeCodeCamp/api-server/server/boot/status.js,"bootStatus app )",66, 2, 0
+repos/javascript/freeCodeCamp/api-server/server/boot/commit.js,"*global*",81, 16, 0
+repos/javascript/freeCodeCamp/api-server/server/boot/restApi.js,"mountRestApi app )",47, 2, 0
+repos/javascript/freeCodeCamp/api-server/server/boot/settings.js,"settingsController app )",69, 2, 0
+repos/javascript/freeCodeCamp/api-server/server/boot/settings.js,"refetchCompletedChallenges req , res , next )",80, 4, 0
+repos/javascript/freeCodeCamp/api-server/server/boot/settings.js,"updateMyEmail req , res , next )",56, 4, 0
+repos/javascript/freeCodeCamp/api-server/server/boot/settings.js,"updateMyCurrentChallenge req , res , next )",55, 6, 0
+repos/javascript/freeCodeCamp/api-server/server/boot/settings.js,"updateMyTheme req , res , next )",75, 6, 0
+repos/javascript/freeCodeCamp/api-server/server/boot/settings.js,"updateMyPortfolio req , res , next )",61, 2, 0
+repos/javascript/freeCodeCamp/api-server/server/boot/settings.js,"updateMyProfileUI req , res , next )",45, 0, 0
+repos/javascript/freeCodeCamp/api-server/server/boot/settings.js,"updateMyProjects req , res , next )",56, 4, 0
+repos/javascript/freeCodeCamp/api-server/server/boot/settings.js,"updateMyAbout req , res , next )",45, 4, 0
+repos/javascript/freeCodeCamp/api-server/server/boot/settings.js,"updateMyUsername req , res , next )",75, 8, 0
+repos/javascript/freeCodeCamp/api-server/server/boot/settings.js,"createUpdateMyUsername app )",75, 8, 0
+repos/javascript/freeCodeCamp/api-server/server/boot/settings.js,"updateUserFlag req , res , next )",72, 2, 0
+repos/javascript/freeCodeCamp/api-server/server/boot/user.js,"bootUser app )",74, 2, 0
+repos/javascript/freeCodeCamp/api-server/server/boot/user.js,"getSessionUser req , res , next )",73, 8, 0
+repos/javascript/freeCodeCamp/api-server/server/boot/user.js,"createReadSessionUser app )",73, 8, 0
+repos/javascript/freeCodeCamp/api-server/server/boot/user.js,"getAccount req , res )",39, 2, 0
+repos/javascript/freeCodeCamp/api-server/server/boot/user.js,"function err )",79, 10, 0
+repos/javascript/freeCodeCamp/api-server/server/boot/user.js,"function err , identities )",79, 10, 0
+repos/javascript/freeCodeCamp/api-server/server/boot/authentication.js,"getPasswordlessAuth req , res , next )",80, 16, 0
+repos/javascript/freeCodeCamp/api-server/server/boot/explorer.js,"function )",69, 8, 0
+repos/javascript/freeCodeCamp/api-server/server/boot/explorer.js,"function )",61, 4, 0
+repos/javascript/freeCodeCamp/api-server/server/boot/explorer.js,"mountLoopBackExplorer app )",75, 4, 0
+repos/javascript/freeCodeCamp/api-server/server/boot/challenge.js,"*global*",81, 6, 0
+repos/javascript/freeCodeCamp/api-server/server/boot/challenge.js,"*global*",81, 6, 0
+repos/javascript/freeCodeCamp/api-server/server/boot/challenge.js,"*global*",81, 6, 0
+repos/javascript/freeCodeCamp/api-server/server/boot/challenge.js,"backendChallengeCompleted req , res , next )",72, 14, 0
+repos/javascript/freeCodeCamp/api-server/server/boot/challenge.js,"redirectToCurrentChallenge req , res , next )",78, 4, 0
+repos/javascript/freeCodeCamp/api-server/server/boot/news.js,"newsBoot app )",55, 2, 0
+repos/javascript/freeCodeCamp/api-server/server/boot/news.js,"shortLinkHandler req , res , next )",78, 4, 0
+repos/javascript/freeCodeCamp/api-server/server/boot/news.js,"createShortLinkHandler app )",78, 4, 0
+repos/javascript/freeCodeCamp/api-server/server/boot/news.js,"*global*",78, 4, 0
+repos/javascript/freeCodeCamp/api-server/server/boot/t-wiki.js,"showForum req , res )",39, 6, 0
+repos/javascript/freeCodeCamp/api-server/server/boot/t-wiki.js,"module.exports app )",39, 6, 0
+repos/javascript/freeCodeCamp/api-server/server/boot/donate.js,"function resolve )",75, 6, 0
+repos/javascript/freeCodeCamp/api-server/server/boot/donate.js,"connectToStripe )",75, 6, 0
+repos/javascript/freeCodeCamp/api-server/server/boot/randomAPIs.js,"theFastestWebPageOnTheInternet req , res )",67, 4, 0
+repos/javascript/freeCodeCamp/api-server/server/boot/randomAPIs.js,"bootcampCalculator req , res )",47, 6, 0
+repos/javascript/freeCodeCamp/api-server/server/boot/randomAPIs.js,"nonprofits req , res )",52, 6, 0
+repos/javascript/freeCodeCamp/api-server/server/boot/randomAPIs.js,"unsubscribeDepricated req , res )",73, 6, 0
+repos/javascript/freeCodeCamp/api-server/server/boot/randomAPIs.js,"unsubscribeById req , res , next )",74, 8, 0
+repos/javascript/freeCodeCamp/api-server/server/boot/randomAPIs.js,"unsubscribed req , res )",43, 4, 0
+repos/javascript/freeCodeCamp/api-server/server/boot/randomAPIs.js,"unsubscribedWithId req , res )",50, 4, 0
+repos/javascript/freeCodeCamp/api-server/server/boot/randomAPIs.js,"resubscribe req , res , next )",78, 12, 0
+repos/javascript/freeCodeCamp/api-server/server/boot/randomAPIs.js,"function err , status2 , issues )",65, 16, 0
+repos/javascript/freeCodeCamp/api-server/server/boot/randomAPIs.js,"function err , status1 , pulls )",65, 16, 0
+repos/javascript/freeCodeCamp/api-server/server/boot/randomAPIs.js,"githubCalls req , res , next )",65, 16, 0
+repos/javascript/freeCodeCamp/api-server/server/boot/randomAPIs.js,"module.exports app )",78, 12, 0
+repos/javascript/freeCodeCamp/api-server/server/boot/z-not-found.js,"function req , res )",66, 6, 0
+repos/javascript/freeCodeCamp/api-server/server/models/donation.js,"cleanUp )",51, 6, 0
+repos/javascript/freeCodeCamp/api-server/server/models/donation.js,"seedTheCache )",67, 6, 0
+repos/javascript/freeCodeCamp/api-server/server/models/donation.js,"setupCacheUpdateInterval )",78, 12, 0
+repos/javascript/freeCodeCamp/api-server/server/models/donation.js,"$ )",58, 4, 0
+repos/javascript/freeCodeCamp/api-server/server/models/donation.js,"function Donation )",80, 4, 0
+repos/javascript/freeCodeCamp/api-server/server/models/auth-token.js,"function AuthToken )",65, 4, 0
+repos/javascript/freeCodeCamp/api-server/server/models/about.js,"getActiveUsers )",72, 4, 0
+repos/javascript/freeCodeCamp/api-server/server/models/about.js,"module.exports About )",72, 4, 0
+repos/javascript/freeCodeCamp/api-server/server/utils/middleware.js,"function req , res , next )",75, 4, 0
+repos/javascript/freeCodeCamp/api-server/server/utils/middleware.js,"ifNoUserRedirectTo url , message , type = 'errors' )",75, 4, 0
+repos/javascript/freeCodeCamp/api-server/server/utils/middleware.js,"function req , res , next )",43, 4, 0
+repos/javascript/freeCodeCamp/api-server/server/utils/middleware.js,"ifNoUserSend sendThis )",43, 4, 0
+repos/javascript/freeCodeCamp/api-server/server/utils/middleware.js,"ifNoUser401 req , res , next )",46, 0, 0
+repos/javascript/freeCodeCamp/api-server/server/utils/middleware.js,"ifNotVerifiedRedirectToUpdateEmail req , res , next )",69, 0, 0
+repos/javascript/freeCodeCamp/api-server/server/utils/middleware.js,"ifUserRedirectTo path = ` $ { homeLocation } /welcome`, status) {
+  status = status === 302 ? 302 : 301;
+  return (req, res, next) => {
+    if (req.user) {
+      return res.status(status).redirect(path);
+    }
+    return next();
+  };
+}
+
+/ / for use with express - validator error formatter export const createValidatorErrorHandler = ( ... args )",78, 0, 0
+repos/javascript/freeCodeCamp/api-server/server/utils/rx.js,"function err , savedInstance )",56, 4, 0
+repos/javascript/freeCodeCamp/api-server/server/utils/rx.js,"function observer )",60, 4, 0
+repos/javascript/freeCodeCamp/api-server/server/utils/rx.js,"saveInstance instance )",60, 4, 0
+repos/javascript/freeCodeCamp/api-server/server/utils/rx.js,"observeQuery Model , methodName , query )",74, 2, 0
+repos/javascript/freeCodeCamp/api-server/server/utils/rx.js,"observeMethod context , methodName )",71, 2, 0
+repos/javascript/freeCodeCamp/api-server/server/utils/rx.js,"timeCache time , unit )",71, 4, 0
+repos/javascript/freeCodeCamp/api-server/server/utils/url-utils.js,"getEmailSender )",63, 2, 0
+repos/javascript/freeCodeCamp/api-server/server/utils/url-utils.js,"getPort )",42, 2, 0
+repos/javascript/freeCodeCamp/api-server/server/utils/url-utils.js,"getProtocol )",35, 2, 0
+repos/javascript/freeCodeCamp/api-server/server/utils/url-utils.js,"getHost )",68, 2, 0
+repos/javascript/freeCodeCamp/api-server/server/utils/url-utils.js,"getServerFullURL )",37, 0, 0
+repos/javascript/freeCodeCamp/api-server/server/utils/date-utils.js,"dayCount [ head , tail ] , timezone = 'UTC' )",59, 0, 0
+repos/javascript/freeCodeCamp/api-server/server/utils/publicUserProps.js,"normaliseUserFields user )",81, 4, 0
+repos/javascript/freeCodeCamp/api-server/server/utils/publicUserProps.js,"getProgress progressTimestamps , timezone = 'EST' )",75, 2, 0
+repos/javascript/freeCodeCamp/api-server/server/utils/cookieConfig.js,"createCookieConfig req )",53, 4, 0
+repos/javascript/freeCodeCamp/api-server/server/utils/auth.js,"getUsernameFromProvider provider , profile )",61, 0, 0
+repos/javascript/freeCodeCamp/api-server/server/utils/auth.js,"createUserUpdatesFromProfile provider , profile )",66, 0, 0
+repos/javascript/freeCodeCamp/api-server/server/utils/auth.js,"createProfileAttributesFromGithub profile )",54, 0, 0
+repos/javascript/freeCodeCamp/api-server/server/utils/auth.js,"getSocialProvider provider )",46, 0, 0
+repos/javascript/freeCodeCamp/api-server/server/utils/getDynamicPropsForUser.js,"getCompletedCertCount user )",56, 2, 0
+repos/javascript/freeCodeCamp/api-server/server/utils/getDynamicPropsForUser.js,"getLegacyCertCount user )",56, 2, 0
+repos/javascript/freeCodeCamp/api-server/server/utils/getDynamicPropsForUser.js,"function err , [ { points = 1 } = { } ] )",73, 6, 0
+repos/javascript/freeCodeCamp/api-server/server/utils/getDynamicPropsForUser.js,"populateUser db , user )",73, 6, 0
+repos/javascript/freeCodeCamp/api-server/server/utils/user-stats.test.js,"function )",81, 6, 0
+repos/javascript/freeCodeCamp/api-server/server/utils/user-stats.test.js,"function )",80, 4, 0
+repos/javascript/freeCodeCamp/api-server/server/utils/commit.js,"$ user )",81, 8, 0
+repos/javascript/freeCodeCamp/api-server/server/utils/create-handled-error.js,"isHandledError err )",38, 0, 0
+repos/javascript/freeCodeCamp/api-server/server/utils/create-handled-error.js,"unwrapHandledError err )",42, 0, 0
+repos/javascript/freeCodeCamp/api-server/server/utils/create-handled-error.js,"wrapHandledError err , { type , message , redirectTo , status = 200 } )",62, 2, 0
+repos/javascript/freeCodeCamp/api-server/server/utils/index.js,"dasherize name )",47, 0, 0
+repos/javascript/freeCodeCamp/api-server/server/utils/index.js,"nameify str )",42, 0, 0
+repos/javascript/freeCodeCamp/api-server/server/utils/index.js,"unDasherize name )",54, 4, 0
+repos/javascript/freeCodeCamp/api-server/server/utils/index.js,"addPlaceholderImage name )",67, 0, 0
+repos/javascript/freeCodeCamp/api-server/server/utils/map.js,"_cachedMap { Block , Challenge } )",77, 2, 0
+repos/javascript/freeCodeCamp/api-server/server/utils/map.js,"getChallengeById map , id )",67, 10, 0
+repos/javascript/freeCodeCamp/api-server/server/utils/map.js,"getChallengeInfo map )",40, 0, 0
+repos/javascript/freeCodeCamp/api-server/server/utils/map.js,"loadComingSoonOrBetaChallenge { isComingSoon , isBeta : challengeIsBeta } )",64, 2, 0
+repos/javascript/freeCodeCamp/api-server/server/utils/map.js,"getChallenge challengeDashedName , blockDashedName , map )",72, 12, 0
+repos/javascript/freeCodeCamp/api-server/server/utils/map.js,"getBlockForChallenge map , challenge )",71, 2, 0
+repos/javascript/freeCodeCamp/api-server/server/utils/map.js,"getChallengeByDashedName dashedName , map )",60, 0, 0
+repos/javascript/freeCodeCamp/api-server/server/utils/in-memory-cache.js,"isPromiseLike thing )",54, 2, 0
+repos/javascript/freeCodeCamp/api-server/server/utils/in-memory-cache.js,"InMemoryCache initialValue , reportError )",72, 8, 0
+repos/javascript/freeCodeCamp/api-server/server/utils/about.js,"createActiveUsers )",78, 4, 0
+repos/javascript/freeCodeCamp/api-server/server/utils/user-stats.js,"prepUniqueDaysByHours cals , tz = 'UTC' )",61, 10, 0
+repos/javascript/freeCodeCamp/api-server/server/utils/user-stats.js,"calcCurrentStreak cals , tz = 'UTC' )",54, 0, 0
+repos/javascript/freeCodeCamp/api-server/server/utils/user-stats.js,"calcLongestStreak cals , tz = 'UTC' )",78, 4, 0
+repos/javascript/freeCodeCamp/api-server/server/utils/cast-to-observable.js,"castToObservable maybe )",50, 0, 0
+repos/javascript/freeCodeCamp/api-server/common/models/User-Identity.js,"UserIdent.login _provider , authScheme , profile , credentials , options , cb )",80, 4, 0
+repos/javascript/freeCodeCamp/api-server/common/models/User-Identity.js,"function UserIdent )",80, 4, 0
+repos/javascript/freeCodeCamp/api-server/common/models/promo.js,"function { count = 0 } = { } )",47, 10, 0
+repos/javascript/freeCodeCamp/api-server/common/models/promo.js,"function promo )",66, 8, 0
+repos/javascript/freeCodeCamp/api-server/common/models/promo.js,"getButton id , code , type = 'isNot' )",67, 2, 0
+repos/javascript/freeCodeCamp/api-server/common/models/promo.js,"promo Promo )",67, 2, 0
+repos/javascript/freeCodeCamp/api-server/common/models/article.js,"module.exports Article )",80, 4, 0
+repos/javascript/freeCodeCamp/api-server/common/models/user.js,"destroyAll id , Model )",79, 2, 0
+repos/javascript/freeCodeCamp/api-server/common/models/user.js,"buildCompletedChallengesUpdate completedChallenges , project )",81, 2, 0
+repos/javascript/freeCodeCamp/api-server/common/models/user.js,"isTheSame val1 , val2 )",33, 0, 0
+repos/javascript/freeCodeCamp/api-server/common/models/user.js,"getAboutProfile { username , githubProfile : github , progressTimestamps = [ ] , bio } )",46, 4, 0
+repos/javascript/freeCodeCamp/api-server/common/models/user.js,"nextTick fn )",31, 2, 0
+repos/javascript/freeCodeCamp/api-server/common/models/user.js,"getWaitPeriod ttl )",78, 4, 0
+repos/javascript/freeCodeCamp/api-server/common/models/user.js,"getWaitMessage ttl )",64, 4, 0
+repos/javascript/freeCodeCamp/api-server/common/models/User-Credential.js,"UserCredential.link userId , _provider , authScheme , profile , credentials , options = { } , cb )",79, 10, 0
+repos/javascript/freeCodeCamp/api-server/common/models/User-Credential.js,"module.exports UserCredential )",79, 10, 0
+repos/javascript/freeCodeCamp/api-server/common/models/challenge.js,"getIdToNameMap cb )",57, 8, 0
+repos/javascript/freeCodeCamp/api-server/common/models/challenge.js,"function Challenge )",78, 4, 0
+repos/javascript/freeCodeCamp/api-server/common/models/block.js,"function Block )",58, 6, 0
+repos/javascript/freeCodeCamp/api-server/common/models/popularity.js,"module.exports Popularity )",81, 4, 0
+repos/javascript/freeCodeCamp/api-server/common/utils/wait-for-epics.js,"waitForEpics epicMiddleware )",55, 0, 0
+repos/javascript/freeCodeCamp/api-server/common/utils/polyvinyl.js,"createFileStream files = [ ] )",47, 0, 0
+repos/javascript/freeCodeCamp/api-server/common/utils/polyvinyl.js,"pipe project )",68, 4, 0
+repos/javascript/freeCodeCamp/api-server/common/utils/polyvinyl.js,"createPoly { name , ext , contents , history , ... rest } = { } )",64, 4, 0
+repos/javascript/freeCodeCamp/api-server/common/utils/polyvinyl.js,"isPoly poly )",41, 4, 0
+repos/javascript/freeCodeCamp/api-server/common/utils/polyvinyl.js,"checkPoly poly )",55, 4, 0
+repos/javascript/freeCodeCamp/api-server/common/utils/polyvinyl.js,"isEmpty poly )",32, 0, 0
+repos/javascript/freeCodeCamp/api-server/common/utils/polyvinyl.js,"setContent contents , poly )",45, 0, 0
+repos/javascript/freeCodeCamp/api-server/common/utils/polyvinyl.js,"setExt ext , poly )",55, 2, 0
+repos/javascript/freeCodeCamp/api-server/common/utils/polyvinyl.js,"setName name , poly )",55, 2, 0
+repos/javascript/freeCodeCamp/api-server/common/utils/polyvinyl.js,"setError error , poly )",50, 4, 0
+repos/javascript/freeCodeCamp/api-server/common/utils/polyvinyl.js,"clearHeadTail poly )",38, 0, 0
+repos/javascript/freeCodeCamp/api-server/common/utils/polyvinyl.js,"appendToTail tail , poly )",43, 0, 0
+repos/javascript/freeCodeCamp/api-server/common/utils/polyvinyl.js,"compileHeadTail padding = '' , poly )",65, 4, 0
+repos/javascript/freeCodeCamp/api-server/common/utils/polyvinyl.js,"transformContents wrap , poly )",61, 2, 0
+repos/javascript/freeCodeCamp/api-server/common/utils/polyvinyl.js,"transformHeadTailAndContents wrap , poly )",59, 0, 0
+repos/javascript/freeCodeCamp/api-server/common/utils/polyvinyl.js,"testContents predicate , poly )",48, 0, 0
+repos/javascript/freeCodeCamp/api-server/common/utils/polyvinyl.js,"updateFileFromSpec spec , poly )",54, 2, 0
+repos/javascript/freeCodeCamp/api-server/common/utils/empty-protector.js,"protect block )",55, 2, 0
+repos/javascript/freeCodeCamp/api-server/common/utils/jsonp$.js,"destroy element )",30, 2, 0
+repos/javascript/freeCodeCamp/api-server/common/utils/jsonp$.js,"] data )",52, 4, 0
+repos/javascript/freeCodeCamp/api-server/common/utils/jsonp$.js,"handler e )",71, 6, 0
+repos/javascript/freeCodeCamp/api-server/common/utils/jsonp$.js,"function o )",79, 4, 0
+repos/javascript/freeCodeCamp/api-server/common/utils/jsonp$.js,"$ options )",79, 4, 0
+repos/javascript/freeCodeCamp/api-server/common/utils/ajax-stream.js,"getXMLHttpRequest )",74, 6, 0
+repos/javascript/freeCodeCamp/api-server/common/utils/ajax-stream.js,"getCORSRequest )",62, 4, 0
+repos/javascript/freeCodeCamp/api-server/common/utils/ajax-stream.js,"parseXhrResponse responseType , xhr )",68, 6, 0
+repos/javascript/freeCodeCamp/api-server/common/utils/ajax-stream.js,"normalizeAjaxSuccessEvent e , xhr , settings )",80, 4, 0
+repos/javascript/freeCodeCamp/api-server/common/utils/ajax-stream.js,"normalizeAjaxErrorEvent e , xhr , type )",49, 0, 0
+repos/javascript/freeCodeCamp/api-server/common/utils/ajax-stream.js,"createXHR )",72, 6, 0
+repos/javascript/freeCodeCamp/api-server/common/utils/ajax-stream.js,"processResponse xhr , e )",79, 6, 0
+repos/javascript/freeCodeCamp/api-server/common/utils/ajax-stream.js,"xhr.onload e )",53, 12, 0
+repos/javascript/freeCodeCamp/api-server/common/utils/ajax-stream.js,"xhr.onprogress e )",49, 12, 0
+repos/javascript/freeCodeCamp/api-server/common/utils/ajax-stream.js,"xhr.onerror e )",61, 10, 0
+repos/javascript/freeCodeCamp/api-server/common/utils/ajax-stream.js,"xhr.onabort e )",61, 10, 0
+repos/javascript/freeCodeCamp/api-server/common/utils/ajax-stream.js,"xhr.onreadystatechange e )",47, 8, 0
+repos/javascript/freeCodeCamp/api-server/common/utils/ajax-stream.js,"function )",60, 6, 0
+repos/javascript/freeCodeCamp/api-server/common/utils/ajax-stream.js,"function observer )",79, 6, 0
+repos/javascript/freeCodeCamp/api-server/common/utils/ajax-stream.js,"$ options )",79, 6, 0
+repos/javascript/freeCodeCamp/api-server/common/utils/ajax-stream.js,"$ url , body )",47, 2, 0
+repos/javascript/freeCodeCamp/api-server/common/utils/ajax-stream.js,"$ url , body )",62, 4, 0
+repos/javascript/freeCodeCamp/api-server/common/utils/ajax-stream.js,"$ url )",30, 2, 0
+repos/javascript/freeCodeCamp/api-server/common/utils/ajax-stream.js,"$ url )",62, 4, 0
+repos/javascript/freeCodeCamp/api-server/common/utils/index.js,"dashify str )",36, 4, 0
+repos/javascript/freeCodeCamp/api-server/common/utils/map.js,"checkMapData { entities : { challenge , block , superBlock } , result : { superBlocks } } )",58, 6, 0
+repos/javascript/freeCodeCamp/api-server/common/utils/map.js,"getFirstChallenge { entities : { superBlock , block , challenge } , result : { superBlocks } } )",46, 2, 0
+repos/javascript/freeCodeCamp/api-server/common/utils/map.js,"createNameIdMap { challenge } )",49, 0, 0
+repos/javascript/freeCodeCamp/api-server/common/utils/map.js,"addNameIdMap { entities , ... rest } )",54, 0, 0
+repos/javascript/freeCodeCamp/api-server/public/js/calculator.js,"function data )",53, 2, 0
+repos/javascript/freeCodeCamp/api-server/public/js/calculator.js,"function txt )",98, 4, 0
+repos/javascript/freeCodeCamp/api-server/public/js/calculator.js,"function )",55, 6, 0
+repos/javascript/freeCodeCamp/api-server/public/js/calculator.js,"function )",98, 4, 0
+repos/javascript/freeCodeCamp/api-server/public/js/calculator.js,"function )",63, 6, 0
+repos/javascript/freeCodeCamp/api-server/public/js/calculator.js,"function txt )",116, 6, 0
+repos/javascript/freeCodeCamp/api-server/public/js/calculator.js,"function camp )",134, 8, 0
+repos/javascript/freeCodeCamp/api-server/public/js/calculator.js,"function a , b )",37, 4, 0
+repos/javascript/freeCodeCamp/api-server/public/js/calculator.js,"function elem )",45, 6, 0
+repos/javascript/freeCodeCamp/api-server/public/js/calculator.js,"function camp )",45, 6, 0
+repos/javascript/freeCodeCamp/api-server/public/js/calculator.js,"function d )",53, 4, 0
+repos/javascript/freeCodeCamp/api-server/public/js/calculator.js,"function a , b )",56, 10, 0
+repos/javascript/freeCodeCamp/api-server/public/js/calculator.js,"function camp )",56, 10, 0
+repos/javascript/freeCodeCamp/api-server/public/js/calculator.js,"function a , b )",34, 6, 0
+repos/javascript/freeCodeCamp/api-server/public/js/calculator.js,"function d )",43, 6, 0
+repos/javascript/freeCodeCamp/api-server/public/js/calculator.js,"function d )",55, 8, 0
+repos/javascript/freeCodeCamp/api-server/public/js/calculator.js,"function d )",27, 6, 0
+repos/javascript/freeCodeCamp/api-server/public/js/calculator.js,"function d )",36, 6, 0
+repos/javascript/freeCodeCamp/api-server/public/js/calculator.js,"function d )",38, 6, 0
+repos/javascript/freeCodeCamp/api-server/public/js/calculator.js,"function d )",37, 6, 0
+repos/javascript/freeCodeCamp/api-server/public/js/calculator.js,"function d , i )",31, 6, 0
+repos/javascript/freeCodeCamp/api-server/public/js/calculator.js,"function d )",32, 6, 0
+repos/javascript/freeCodeCamp/api-server/public/js/calculator.js,"function d )",40, 8, 0
+repos/javascript/freeCodeCamp/api-server/public/js/calculator.js,"function )",55, 8, 0
+repos/javascript/freeCodeCamp/api-server/public/js/calculator.js,"function )",57, 4, 0
+repos/javascript/freeCodeCamp/api-server/public/js/calculator.js,"function )",53, 4, 0
+repos/javascript/freeCodeCamp/api-server/public/js/calculator.js,"change )",51, 6, 0
+repos/javascript/freeCodeCamp/api-server/public/js/calculator.js,"function d , i )",33, 8, 0
+repos/javascript/freeCodeCamp/api-server/public/js/calculator.js,"function d )",42, 10, 0
+repos/javascript/freeCodeCamp/api-server/public/js/calculator.js,"function d )",35, 10, 0
+repos/javascript/freeCodeCamp/api-server/public/js/calculator.js,"transitionGrouped )",46, 8, 0
+repos/javascript/freeCodeCamp/api-server/public/js/calculator.js,"function d , i )",33, 8, 0
+repos/javascript/freeCodeCamp/api-server/public/js/calculator.js,"function d )",34, 8, 0
+repos/javascript/freeCodeCamp/api-server/public/js/calculator.js,"function d )",35, 10, 0
+repos/javascript/freeCodeCamp/api-server/public/js/calculator.js,"transitionStacked )",46, 8, 0
+repos/javascript/freeCodeCamp/api-server/public/js/calculator.js,"function )",39, 6, 0
+repos/javascript/freeCodeCamp/api-server/public/js/calculator.js,"removePopovers )",39, 6, 0
+repos/javascript/freeCodeCamp/api-server/public/js/calculator.js,"content )",61, 12, 0
+repos/javascript/freeCodeCamp/api-server/public/js/calculator.js,"showPopover d )",61, 12, 0
+repos/javascript/freeCodeCamp/api-server/public/js/calculator.js,"function d , i )",70, 8, 0
+repos/javascript/freeCodeCamp/api-server/public/js/calculator.js,"function d )",27, 6, 0
+repos/javascript/freeCodeCamp/api-server/public/js/calculator.js,"function )",134, 8, 0
+repos/javascript/freeCodeCamp/api-server/public/js/calculator.js,"function )",134, 8, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fa-brands.js,"PRODUCTION )",42, 4, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fa-brands.js,"function n )",313, 0, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fa-brands.js,"function n )",42, 0, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fa-brands.js,"bunker fn )",23, 4, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fa-brands.js,"function target )",63, 6, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fa-brands.js,"function acc , iconName )",72, 2, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fa-brands.js,"define prefix , icons )",89, 4, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fa-brands.js,"function )",24, 2, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fa-brands.js,"function )",11185, 2, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome-all.min.js,"e )",799369, 0, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome-all.min.js,"function c )",799369, 0, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome-all.min.js,"function c )",799369, 0, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome-all.min.js,"function c )",799369, 0, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome-all.min.js,"function c )",799369, 0, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome-all.min.js,"function c , l )",799369, 0, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome-all.min.js,"c l , v )",799369, 0, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome-all.min.js,"function )",799369, 0, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome-all.min.js,"function )",799369, 0, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome-all.min.js,"e )",799369, 0, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome-all.min.js,"function c )",799369, 0, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome-all.min.js,"function c )",799369, 0, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome-all.min.js,"function c )",799369, 0, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome-all.min.js,"function c )",799369, 0, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome-all.min.js,"function c , l )",799369, 0, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome-all.min.js,"c l , v )",799369, 0, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome-all.min.js,"function )",799369, 0, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome-all.min.js,"function )",799369, 0, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome-all.min.js,"e )",799369, 0, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome-all.min.js,"function c )",799369, 0, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome-all.min.js,"function c )",799369, 0, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome-all.min.js,"function c )",799369, 0, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome-all.min.js,"function c )",799369, 0, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome-all.min.js,"function c , l )",799369, 0, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome-all.min.js,"c l , v )",799369, 0, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome-all.min.js,"function )",799369, 0, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome-all.min.js,"function )",799369, 0, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome-all.min.js,"c )",799369, 0, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome-all.min.js,"o )",799369, 0, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome-all.min.js,"function c )",799369, 0, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome-all.min.js,"function c )",799369, 0, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome-all.min.js,"w c , l )",799369, 0, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome-all.min.js,"v c , l )",799369, 0, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome-all.min.js,"function c , l , h )",799369, 0, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome-all.min.js,"y )",799369, 0, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome-all.min.js,"function c )",799369, 0, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome-all.min.js,"k c )",799369, 0, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome-all.min.js,"function c )",799369, 0, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome-all.min.js,"} c )",799369, 0, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome-all.min.js,"function c )",799369, 0, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome-all.min.js,"j l )",799369, 0, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome-all.min.js,"function c )",799369, 0, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome-all.min.js,"c )",799369, 0, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome-all.min.js,"T c )",799369, 0, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome-all.min.js,"R c )",799369, 0, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome-all.min.js,"B )",799369, 0, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome-all.min.js,"D c )",799369, 0, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome-all.min.js,"function c )",799369, 0, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome-all.min.js,"X c )",799369, 0, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome-all.min.js,"Y c , l )",799369, 0, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome-all.min.js,"U c )",799369, 0, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome-all.min.js,"function c , l )",799369, 0, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome-all.min.js,"K h )",799369, 0, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome-all.min.js,"G c )",799369, 0, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome-all.min.js,"J c )",799369, 0, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome-all.min.js,"Z c )",799369, 0, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome-all.min.js,"$ c )",799369, 0, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome-all.min.js,"cc c )",799369, 0, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome-all.min.js,"lc c )",799369, 0, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome-all.min.js,"zc )",799369, 0, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome-all.min.js,"ac c )",799369, 0, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome-all.min.js,"function )",799369, 0, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome-all.min.js,"begin c )",799369, 0, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome-all.min.js,"function c , l , h , v )",799369, 0, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome-all.min.js,"tc c , l , h , v )",799369, 0, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome-all.min.js,"function c , l , h )",799369, 0, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome-all.min.js,"c v )",799369, 0, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome-all.min.js,"function c , l , h )",799369, 0, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome-all.min.js,"function c )",799369, 0, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome-all.min.js,"function l , c , h )",799369, 0, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome-all.min.js,"function c , l )",799369, 0, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome-all.min.js,"nc )",799369, 0, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome-all.min.js,"oc )",799369, 0, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome-all.min.js,"function c , l )",799369, 0, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome-all.min.js,"Cc c )",799369, 0, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome-all.min.js,"Lc c , l , h )",799369, 0, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome-all.min.js,"function c , l )",799369, 0, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome-all.min.js,"not : root )",799369, 0, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome-all.min.js,"not [ "+g+" ] )",799369, 0, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fa-brands.min.js,"m )",340734, 0, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fa-brands.min.js,"function c )",340734, 0, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fa-brands.min.js,"function c )",340734, 0, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fa-brands.min.js,"function c )",340734, 0, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fa-brands.min.js,"function c )",340734, 0, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fa-brands.min.js,"function c , z )",340734, 0, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fa-brands.min.js,"c z , h )",340734, 0, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fa-brands.min.js,"function )",340734, 0, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fa-brands.min.js,"function )",340734, 0, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome-all.js,"PRODUCTION )",42, 4, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome-all.js,"function n )",313, 0, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome-all.js,"function n )",42, 0, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome-all.js,"bunker fn )",23, 4, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome-all.js,"function target )",63, 6, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome-all.js,"function acc , iconName )",72, 2, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome-all.js,"define prefix , icons )",89, 4, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome-all.js,"function )",24, 2, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome-all.js,"function )",11185, 2, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome-all.js,"PRODUCTION )",42, 4, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome-all.js,"function n )",313, 0, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome-all.js,"function n )",42, 0, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome-all.js,"bunker fn )",23, 4, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome-all.js,"function target )",63, 6, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome-all.js,"function acc , iconName )",72, 2, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome-all.js,"define prefix , icons )",89, 4, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome-all.js,"function )",24, 2, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome-all.js,"function )",2984, 2, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome-all.js,"PRODUCTION )",42, 4, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome-all.js,"function n )",313, 0, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome-all.js,"function n )",42, 0, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome-all.js,"bunker fn )",23, 4, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome-all.js,"function target )",63, 6, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome-all.js,"function acc , iconName )",72, 2, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome-all.js,"define prefix , icons )",89, 4, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome-all.js,"function )",24, 2, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome-all.js,"function )",2984, 2, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome-all.js,"noop )",31, 0, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome-all.js,"PRODUCTION )",42, 4, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome-all.js,"function n )",313, 0, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome-all.js,"function n )",42, 0, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome-all.js,"classCallCheck instance , Constructor )",62, 4, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome-all.js,"defineProperties target , props )",65, 6, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome-all.js,"function Constructor , protoProps , staticProps )",73, 4, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome-all.js,"createClass )",73, 4, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome-all.js,"function target )",63, 6, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome-all.js,"toConsumableArray arr )",85, 4, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome-all.js,"function k )",62, 4, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome-all.js,"} k )",34, 4, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome-all.js,"function configKey )",65, 4, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome-all.js,"update newConfig )",88, 6, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome-all.js,"auto value )",28, 4, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome-all.js,"function fn )",32, 2, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome-all.js,"listener )",62, 2, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome-all.js,"domready fn )",51, 2, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome-all.js,"isReserved name )",42, 2, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome-all.js,"bunker fn )",23, 4, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome-all.js,"insertCss css )",55, 2, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome-all.js,"nextUniqueId )",26, 0, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome-all.js,"toArray obj )",49, 2, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome-all.js,"function i )",79, 4, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome-all.js,"classArray node )",79, 4, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome-all.js,"getIconName familyPrefix , cls )",77, 2, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome-all.js,"htmlEscape str )",135, 2, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome-all.js,"function acc , attributeName )",88, 4, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome-all.js,"joinAttributes attributes )",88, 4, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome-all.js,"function acc , styleName )",70, 2, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome-all.js,"joinStyles styles )",70, 2, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome-all.js,"transformIsMeaningful transform )",229, 2, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome-all.js,"transformForSvg _ref )",145, 2, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome-all.js,"transformForCss _ref2 )",133, 2, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome-all.js,"makeIconMasking _ref )",166, 2, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome-all.js,"makeIconStandard _ref )",110, 4, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome-all.js,"asIcon _ref )",101, 6, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome-all.js,"asSymbol _ref )",91, 2, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome-all.js,"reduce )",62, 1, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome-all.js,"if prefix === 'fas' )",26, 2, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome-all.js,"Library )",35, 4, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome-all.js,"function key )",93, 8, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome-all.js,"add )",100, 6, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome-all.js,"reset )",30, 4, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome-all.js,"function key )",56, 8, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome-all.js,"_pullDefinitions additions , definition )",117, 6, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome-all.js,"Library )",117, 6, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome-all.js,"prepIcon icon )",82, 4, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome-all.js,"ensureCss )",28, 2, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome-all.js,"function a )",45, 6, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome-all.js,"get )",45, 6, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome-all.js,"get )",53, 6, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome-all.js,"apiObject val , abstractCreator )",53, 6, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome-all.js,"findIconDefinition params )",120, 2, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome-all.js,"function maybeIconDefinition )",129, 4, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome-all.js,"resolveIcons next )",129, 4, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome-all.js,"noAuto )",33, 0, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome-all.js,"function )",89, 10, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome-all.js,"i2svg )",89, 4, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome-all.js,"$1 )",39, 2, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome-all.js,"transform transformString )",51, 2, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome-all.js,"function )",97, 8, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome-all.js,"function iconDefinition )",97, 8, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome-all.js,"function )",91, 8, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome-all.js,"text content )",96, 6, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome-all.js,"function a )",54, 6, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome-all.js,"function args )",54, 6, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome-all.js,"function )",62, 6, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome-all.js,"layer assembler )",62, 6, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome-all.js,"autoReplace )",74, 2, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome-all.js,"function )",79, 6, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome-all.js,"addPack prefix , icons )",86, 6, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome-all.js,"addShims shims )",99, 6, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome-all.js,"bootstrap )",99, 6, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome-all.js,"get )",24, 2, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome-all.js,"set newConfig )",33, 2, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fa-regular.min.js,"m )",80334, 0, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fa-regular.min.js,"function c )",80334, 0, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fa-regular.min.js,"function c )",80334, 0, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fa-regular.min.js,"function c )",80334, 0, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fa-regular.min.js,"function c )",80334, 0, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fa-regular.min.js,"function c , h )",80334, 0, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fa-regular.min.js,"c h , z )",80334, 0, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fa-regular.min.js,"function )",80334, 0, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fa-regular.min.js,"function )",80334, 0, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fa-solid.js,"PRODUCTION )",42, 4, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fa-solid.js,"function n )",313, 0, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fa-solid.js,"function n )",42, 0, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fa-solid.js,"bunker fn )",23, 4, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fa-solid.js,"function target )",63, 6, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fa-solid.js,"function acc , iconName )",72, 2, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fa-solid.js,"define prefix , icons )",89, 4, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fa-solid.js,"function )",24, 2, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fa-solid.js,"function )",2984, 2, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome.js,"noop )",31, 0, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome.js,"PRODUCTION )",42, 4, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome.js,"function n )",313, 0, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome.js,"function n )",42, 0, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome.js,"classCallCheck instance , Constructor )",62, 4, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome.js,"defineProperties target , props )",65, 6, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome.js,"function Constructor , protoProps , staticProps )",73, 4, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome.js,"createClass )",73, 4, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome.js,"function target )",63, 6, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome.js,"toConsumableArray arr )",85, 4, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome.js,"function k )",62, 4, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome.js,"} k )",34, 4, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome.js,"function configKey )",65, 4, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome.js,"update newConfig )",88, 6, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome.js,"auto value )",28, 4, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome.js,"function fn )",32, 2, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome.js,"listener )",62, 2, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome.js,"domready fn )",51, 2, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome.js,"isReserved name )",42, 2, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome.js,"bunker fn )",23, 4, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome.js,"insertCss css )",55, 2, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome.js,"nextUniqueId )",26, 0, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome.js,"toArray obj )",49, 2, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome.js,"function i )",79, 4, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome.js,"classArray node )",79, 4, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome.js,"getIconName familyPrefix , cls )",77, 2, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome.js,"htmlEscape str )",135, 2, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome.js,"function acc , attributeName )",88, 4, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome.js,"joinAttributes attributes )",88, 4, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome.js,"function acc , styleName )",70, 2, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome.js,"joinStyles styles )",70, 2, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome.js,"transformIsMeaningful transform )",229, 2, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome.js,"transformForSvg _ref )",145, 2, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome.js,"transformForCss _ref2 )",133, 2, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome.js,"makeIconMasking _ref )",166, 2, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome.js,"makeIconStandard _ref )",110, 4, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome.js,"asIcon _ref )",101, 6, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome.js,"asSymbol _ref )",91, 2, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome.js,"reduce )",62, 1, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome.js,"if prefix === 'fas' )",26, 2, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome.js,"Library )",35, 4, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome.js,"function key )",93, 8, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome.js,"add )",100, 6, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome.js,"reset )",30, 4, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome.js,"function key )",56, 8, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome.js,"_pullDefinitions additions , definition )",117, 6, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome.js,"Library )",117, 6, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome.js,"prepIcon icon )",82, 4, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome.js,"ensureCss )",28, 2, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome.js,"function a )",45, 6, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome.js,"get )",45, 6, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome.js,"get )",53, 6, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome.js,"apiObject val , abstractCreator )",53, 6, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome.js,"findIconDefinition params )",120, 2, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome.js,"function maybeIconDefinition )",129, 4, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome.js,"resolveIcons next )",129, 4, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome.js,"noAuto )",33, 0, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome.js,"function )",89, 10, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome.js,"i2svg )",89, 4, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome.js,"$1 )",39, 2, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome.js,"transform transformString )",51, 2, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome.js,"function )",97, 8, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome.js,"function iconDefinition )",97, 8, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome.js,"function )",91, 8, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome.js,"text content )",96, 6, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome.js,"function a )",54, 6, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome.js,"function args )",54, 6, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome.js,"function )",62, 6, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome.js,"layer assembler )",62, 6, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome.js,"autoReplace )",74, 2, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome.js,"function )",79, 6, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome.js,"addPack prefix , icons )",86, 6, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome.js,"addShims shims )",99, 6, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome.js,"bootstrap )",99, 6, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome.js,"get )",24, 2, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome.js,"set newConfig )",33, 2, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fa-solid.min.js,"H )",350963, 0, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fa-solid.min.js,"function c )",350963, 0, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fa-solid.min.js,"function c )",350963, 0, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fa-solid.min.js,"function c )",350963, 0, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fa-solid.min.js,"function c )",350963, 0, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fa-solid.min.js,"function c , h )",350963, 0, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fa-solid.min.js,"c h , l )",350963, 0, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fa-solid.min.js,"function )",350963, 0, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fa-solid.min.js,"function )",350963, 0, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome.min.js,"t )",27341, 0, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome.min.js,"v )",27341, 0, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome.min.js,"function t )",27341, 0, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome.min.js,"function t )",27341, 0, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome.min.js,"N t , e )",27341, 0, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome.min.js,"i t , e )",27341, 0, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome.min.js,"function t , e , n )",27341, 0, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome.min.js,"A )",27341, 0, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome.min.js,"function t )",27341, 0, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome.min.js,"M t )",27341, 0, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome.min.js,"function t )",27341, 0, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome.min.js,"} t )",27341, 0, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome.min.js,"function t )",27341, 0, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome.min.js,"P e )",27341, 0, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome.min.js,"function t )",27341, 0, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome.min.js,"t )",27341, 0, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome.min.js,"I t )",27341, 0, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome.min.js,"D t )",27341, 0, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome.min.js,"X )",27341, 0, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome.min.js,"Y t )",27341, 0, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome.min.js,"function t )",27341, 0, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome.min.js,"U t )",27341, 0, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome.min.js,"V t , e )",27341, 0, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome.min.js,"q t )",27341, 0, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome.min.js,"function t , e )",27341, 0, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome.min.js,"K n )",27341, 0, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome.min.js,"G t )",27341, 0, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome.min.js,"J t )",27341, 0, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome.min.js,"Z t )",27341, 0, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome.min.js,"$ t )",27341, 0, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome.min.js,"tt t )",27341, 0, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome.min.js,"et t )",27341, 0, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome.min.js,"rt )",27341, 0, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome.min.js,"st t )",27341, 0, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome.min.js,"function )",27341, 0, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome.min.js,"begin t )",27341, 0, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome.min.js,"function t , e , n , i )",27341, 0, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome.min.js,"lt t , e , n , i )",27341, 0, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome.min.js,"function t , e , n )",27341, 0, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome.min.js,"t i )",27341, 0, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome.min.js,"function t , e , n )",27341, 0, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome.min.js,"function t )",27341, 0, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome.min.js,"function e , t , n )",27341, 0, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome.min.js,"function t , e )",27341, 0, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome.min.js,"ht )",27341, 0, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome.min.js,"vt )",27341, 0, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome.min.js,"function t , e )",27341, 0, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome.min.js,"bt t )",27341, 0, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome.min.js,"yt t , e , n )",27341, 0, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome.min.js,"function t , e )",27341, 0, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome.min.js,"not : root )",27341, 0, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fontawesome.min.js,"not [ "+C+" ] )",27341, 0, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fa-regular.js,"PRODUCTION )",42, 4, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fa-regular.js,"function n )",313, 0, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fa-regular.js,"function n )",42, 0, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fa-regular.js,"bunker fn )",23, 4, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fa-regular.js,"function target )",63, 6, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fa-regular.js,"function acc , iconName )",72, 2, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fa-regular.js,"define prefix , icons )",89, 4, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fa-regular.js,"function )",24, 2, 0
+repos/javascript/freeCodeCamp/api-server/public/js/lib/fontawesome/fa-regular.js,"function )",2984, 2, 0
+repos/javascript/freeCodeCamp/tools/scripts/createRedirects.js,"createRedirects locations )",74, 4, 0
+repos/javascript/freeCodeCamp/tools/scripts/start-develop.js,"cleanUp )",59, 4, 0
+repos/javascript/freeCodeCamp/tools/scripts/seed/createPathMigrationMap.js,"createPathMigrationMap curriculum )",71, 6, 0
+repos/javascript/freeCodeCamp/tools/scripts/seed/seedNewsArticles.js,"handleError err , client )",53, 6, 0
+repos/javascript/freeCodeCamp/tools/scripts/seed/seedNewsArticles.js,"function err , client )",58, 6, 0
+repos/javascript/freeCodeCamp/tools/scripts/seed/seedNewsArticles.js,"stubArticles numberOfArticles = 1 )",76, 2, 0
+repos/javascript/freeCodeCamp/tools/scripts/seed/seedNewsArticles.js,"generateArticle )",81, 2, 0
+repos/javascript/freeCodeCamp/tools/scripts/seed/seedChallenges.js,"handleError err , client )",53, 6, 0
+repos/javascript/freeCodeCamp/tools/scripts/seed/seedChallenges.js,"function err , client )",70, 10, 0
+repos/javascript/freeCodeCamp/tools/scripts/ci/md-testing-utils.js,"checkGuideFile file )",78, 6, 0
+repos/javascript/freeCodeCamp/tools/scripts/ci/md-testing-utils.js,"checkDirName dirName , fullPath )",79, 0, 0
+repos/javascript/freeCodeCamp/tools/scripts/ci/md-testing-utils.js,"checkGuideFileName fileName , fullPath )",71, 10, 0
+repos/javascript/freeCodeCamp/tools/scripts/ci/md-testing-utils.js,"checkFrontmatter { fullPath , stat } , options = { validator ( )",54, 0, 0
+repos/javascript/freeCodeCamp/tools/scripts/ci/md-testing-utils.js,"*global*",81, 0, 0
+repos/javascript/freeCodeCamp/tools/scripts/ci/md-testing-utils.js,"*global*",81, 0, 0
+repos/javascript/freeCodeCamp/tools/scripts/ci/md-testing-utils.js,"extractLangFromFileName { path : relativePath } )",59, 0, 0
+repos/javascript/freeCodeCamp/tools/scripts/ci/ensure-challenge-formatting.js,"isChallengeParseable file )",52, 2, 0
+repos/javascript/freeCodeCamp/tools/challenge-md-parser/challengeSeed-to-data.js,"defaultFile lang )",29, 0, 0
+repos/javascript/freeCodeCamp/tools/challenge-md-parser/challengeSeed-to-data.js,"createCodeGetter key , regEx , seeds )",62, 4, 0
+repos/javascript/freeCodeCamp/tools/challenge-md-parser/challengeSeed-to-data.js,"visitor node )",77, 8, 0
+repos/javascript/freeCodeCamp/tools/challenge-md-parser/challengeSeed-to-data.js,"transformer tree , file )",77, 8, 0
+repos/javascript/freeCodeCamp/tools/challenge-md-parser/challengeSeed-to-data.js,"createPlugin )",77, 8, 0
+repos/javascript/freeCodeCamp/tools/challenge-md-parser/solution-to-data.js,"visitor node )",55, 8, 0
+repos/javascript/freeCodeCamp/tools/challenge-md-parser/solution-to-data.js,"transformer tree , file )",55, 8, 0
+repos/javascript/freeCodeCamp/tools/challenge-md-parser/solution-to-data.js,"createPlugin )",55, 8, 0
+repos/javascript/freeCodeCamp/tools/challenge-md-parser/tests-to-data.js,"visitor node )",40, 8, 0
+repos/javascript/freeCodeCamp/tools/challenge-md-parser/tests-to-data.js,"transformer tree , file )",40, 8, 0
+repos/javascript/freeCodeCamp/tools/challenge-md-parser/tests-to-data.js,"plugin )",40, 8, 0
+repos/javascript/freeCodeCamp/tools/challenge-md-parser/text-to-data.js,"visitor node )",46, 8, 0
+repos/javascript/freeCodeCamp/tools/challenge-md-parser/text-to-data.js,"transformer tree , file )",46, 8, 0
+repos/javascript/freeCodeCamp/tools/challenge-md-parser/text-to-data.js,"textToData sectionIds )",79, 4, 0
+repos/javascript/freeCodeCamp/tools/challenge-md-parser/frontmatter-to-data.js,"visitor node )",52, 6, 0
+repos/javascript/freeCodeCamp/tools/challenge-md-parser/frontmatter-to-data.js,"transformer tree , file )",52, 6, 0
+repos/javascript/freeCodeCamp/tools/challenge-md-parser/frontmatter-to-data.js,"plugin )",52, 6, 0
+repos/javascript/freeCodeCamp/tools/challenge-md-parser/index.js,"function err , file )",66, 4, 0
+repos/javascript/freeCodeCamp/tools/challenge-md-parser/index.js,"parseMarkdown file )",66, 4, 0
+repos/javascript/freeCodeCamp/tools/translation/translate-guide-old.js,"*global*",125, 12, 0
+repos/javascript/freeCodeCamp/tools/translation/translate-guide-old.js,"function err , file )",54, 6, 0
+repos/javascript/freeCodeCamp/tools/translation/translate-guide-old.js,"mdToHtml file )",54, 6, 0
+repos/javascript/freeCodeCamp/tools/translation/translate-guide-old.js,"function err , file )",58, 8, 0
+repos/javascript/freeCodeCamp/tools/translation/translate-guide-old.js,"htmlToMd file )",58, 8, 0
+repos/javascript/freeCodeCamp/tools/translation/translate-guide.js,"*global*",117, 2, 0
+repos/javascript/freeCodeCamp/curriculum/unpack.js,"createUnpackedBundle )",75, 4, 0
+repos/javascript/freeCodeCamp/curriculum/unpack.js,"promiseToDelete filePath )",63, 4, 0
+repos/javascript/freeCodeCamp/curriculum/unpack.js,"cleanUnpackedDir unpackedChallengeBlockDir )",63, 4, 0
+repos/javascript/freeCodeCamp/curriculum/unpack.js,"unpackChallengeBlock challengeBlock )",71, 4, 0
+repos/javascript/freeCodeCamp/curriculum/unpackedChallenge.js,"removeLeadingEmptyLines array )",76, 6, 0
+repos/javascript/freeCodeCamp/curriculum/unpackedChallenge.js,"endOfFile )",37, 6, 0
+repos/javascript/freeCodeCamp/curriculum/unpackedChallenge.js,"nextLine )",40, 6, 0
+repos/javascript/freeCodeCamp/curriculum/unpackedChallenge.js,"pushParagraph )",55, 8, 0
+repos/javascript/freeCodeCamp/curriculum/unpackedChallenge.js,"readDescription )",69, 6, 0
+repos/javascript/freeCodeCamp/curriculum/unpackedChallenge.js,"readTranslations )",68, 6, 0
+repos/javascript/freeCodeCamp/curriculum/unpackedChallenge.js,"readFiles )",61, 6, 0
+repos/javascript/freeCodeCamp/curriculum/unpackedChallenge.js,"readProperty )",66, 6, 0
+repos/javascript/freeCodeCamp/curriculum/unpackedChallenge.js,"readProperties )",72, 14, 0
+repos/javascript/freeCodeCamp/curriculum/unpackedChallenge.js,"*global*",81, 8, 0
+repos/javascript/freeCodeCamp/curriculum/unpackedChallenge.js,"function t )",77, 6, 0
+repos/javascript/freeCodeCamp/curriculum/unpackedChallenge.js,"*global*",81, 8, 0
+repos/javascript/freeCodeCamp/curriculum/unpackedChallenge.js,"*global*",81, 8, 0
+repos/javascript/freeCodeCamp/curriculum/lib.js,"validateLang lang )",66, 2, 0
+repos/javascript/freeCodeCamp/curriculum/lib.js,"getCurriculum lang )",65, 2, 0
+repos/javascript/freeCodeCamp/curriculum/utils.js,"dasherize name )",47, 0, 0
+repos/javascript/freeCodeCamp/curriculum/gulpfile.js,"generateCurriculum done )",62, 6, 0
+repos/javascript/freeCodeCamp/curriculum/gulpfile.js,"watchFiles )",65, 2, 0
+repos/javascript/freeCodeCamp/curriculum/getChallenges.js,"getChallengesDirForLang lang )",73, 2, 0
+repos/javascript/freeCodeCamp/curriculum/getChallenges.js,"*global*",73, 2, 0
+repos/javascript/freeCodeCamp/curriculum/getChallenges.js,"superBlockInfoFromPath filePath )",49, 2, 0
+repos/javascript/freeCodeCamp/curriculum/getChallenges.js,"superBlockInfoFromFullPath fullFilePath )",66, 2, 0
+repos/javascript/freeCodeCamp/curriculum/getChallenges.js,"superBlockInfo fileName )",59, 2, 0
+repos/javascript/freeCodeCamp/curriculum/getChallenges.js,"getBlockNameFromPath filePath )",46, 2, 0
+repos/javascript/freeCodeCamp/curriculum/getChallenges.js,"getBlockNameFromFullPath fullFilePath )",60, 2, 0
+repos/javascript/freeCodeCamp/curriculum/md-translation.js,"translateChallenge file )",120, 0, 0
+repos/javascript/freeCodeCamp/curriculum/md-translation.js,"*global*",120, 0, 0
+repos/javascript/freeCodeCamp/curriculum/index.js,"function )",68, 2, 0
+repos/javascript/freeCodeCamp/curriculum/index.js,"function word )",43, 16, 0
+repos/javascript/freeCodeCamp/curriculum/index.js,"function challenge , index )",78, 12, 0
+repos/javascript/freeCodeCamp/curriculum/index.js,"function challengeSpec )",78, 12, 0
+repos/javascript/freeCodeCamp/curriculum/index.js,"function challenges )",57, 6, 0
+repos/javascript/freeCodeCamp/curriculum/index.js,"function err )",34, 4, 0
+repos/javascript/freeCodeCamp/curriculum/index.js,"function )",39, 6, 0
+repos/javascript/freeCodeCamp/curriculum/repack.js,"directoriesIn parentDir )",78, 4, 0
+repos/javascript/freeCodeCamp/curriculum/unpacked.js,"function t )",35, 2, 0
+repos/javascript/freeCodeCamp/curriculum/test/test-challenges.js,"Mocha.Runner.prototype.fail test , err )",59, 4, 0
+repos/javascript/freeCodeCamp/curriculum/test/test-challenges.js,"function )",75, 6, 0
+repos/javascript/freeCodeCamp/curriculum/test/test-challenges.js,"function )",31, 8, 0
+repos/javascript/freeCodeCamp/curriculum/test/test-challenges.js,"function )",55, 10, 0
+repos/javascript/freeCodeCamp/curriculum/test/test-challenges.js,"function )",73, 14, 0
+repos/javascript/freeCodeCamp/curriculum/test/test-challenges.js,"function )",73, 14, 0
+repos/javascript/freeCodeCamp/curriculum/test/test-challenges.js,"function test )",45, 12, 0
+repos/javascript/freeCodeCamp/curriculum/test/test-challenges.js,"function )",78, 8, 0
+repos/javascript/freeCodeCamp/curriculum/test/test-challenges.js,"function )",49, 16, 0
+repos/javascript/freeCodeCamp/curriculum/test/test-challenges.js,"function )",65, 12, 0
+repos/javascript/freeCodeCamp/curriculum/test/test-challenges.js,"function )",69, 8, 0
+repos/javascript/freeCodeCamp/curriculum/test/test-challenges.js,"function )",78, 8, 0
+repos/javascript/freeCodeCamp/curriculum/test/test-challenges.js,"function )",78, 8, 0
+repos/javascript/freeCodeCamp/curriculum/test/test-challenges.js,"function )",78, 8, 0
+repos/javascript/freeCodeCamp/curriculum/test/test-challenges.js,"function prop )",72, 6, 0
+repos/javascript/freeCodeCamp/curriculum/test/test-challenges.js,"transformSass solution )",81, 0, 0
+repos/javascript/freeCodeCamp/curriculum/schema/challengeSchema.js,"validateChallenge challenge )",68, 0, 0

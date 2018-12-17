@@ -1,0 +1,252 @@
+File, Function, Total Width, Leading Space(s), Leading Tab(s)
+repos/javascript/create-react-app/test/fixtures/mjs-support/src/App.js,"*global*",72, 8, 0
+repos/javascript/create-react-app/test/fixtures/webpack-message-formatting/src/FooExport.js,"foo )",24, 0, 0
+repos/javascript/create-react-app/test/fixtures/webpack-message-formatting/src/AppLintWarning.js,"foo )",18, 0, 0
+repos/javascript/create-react-app/test/fixtures/webpack-message-formatting/src/AppLintError.js,"foo )",17, 0, 0
+repos/javascript/create-react-app/test/fixtures/__shared__/util/scripts.js,"stripYarn output )",71, 4, 0
+repos/javascript/create-react-app/test/fixtures/__shared__/util/scripts.js,"execaSafe ... args )",46, 4, 0
+repos/javascript/create-react-app/tasks/screencast-start.js,"main cli )",75, 4, 0
+repos/javascript/create-react-app/tasks/compile-lockfile.js,"*global*",103, 2, 0
+repos/javascript/create-react-app/tasks/compile-lockfile.js,"*global*",103, 2, 0
+repos/javascript/create-react-app/tasks/cra.js,"*global*",81, 6, 0
+repos/javascript/create-react-app/tasks/cra.js,"*global*",81, 6, 0
+repos/javascript/create-react-app/tasks/cra.js,"*global*",81, 6, 0
+repos/javascript/create-react-app/tasks/cra.js,"*global*",81, 6, 0
+repos/javascript/create-react-app/tasks/cra.js,"*global*",81, 6, 0
+repos/javascript/create-react-app/tasks/cra.js,"*global*",81, 6, 0
+repos/javascript/create-react-app/tasks/cra.js,"*global*",81, 6, 0
+repos/javascript/create-react-app/tasks/cra.js,"*global*",81, 6, 0
+repos/javascript/create-react-app/tasks/cra.js,"*global*",81, 6, 0
+repos/javascript/create-react-app/tasks/cra.js,"*global*",81, 6, 0
+repos/javascript/create-react-app/tasks/cra.js,"*global*",81, 6, 0
+repos/javascript/create-react-app/tasks/screencast.js,"*global*",74, 4, 0
+repos/javascript/create-react-app/tasks/screencast.js,"cut frames , { start , end } )",52, 2, 0
+repos/javascript/create-react-app/tasks/screencast.js,"replace frames , replacements )",78, 4, 0
+repos/javascript/create-react-app/packages/react-scripts/fixtures/kitchensink/src/App.js,"*global*",86, 4, 0
+repos/javascript/create-react-app/packages/react-scripts/fixtures/kitchensink/src/features/syntax/ArraySpread.js,"load users )",26, 4, 0
+repos/javascript/create-react-app/packages/react-scripts/fixtures/kitchensink/src/features/syntax/CustomInterpolation.js,"load )",26, 4, 0
+repos/javascript/create-react-app/packages/react-scripts/fixtures/kitchensink/src/features/syntax/RestParameters.js,"load { id = 0 , ... rest } )",37, 0, 0
+repos/javascript/create-react-app/packages/react-scripts/fixtures/kitchensink/src/features/syntax/DefaultParameters.js,"load id = 0 )",31, 4, 0
+repos/javascript/create-react-app/packages/react-scripts/fixtures/kitchensink/src/features/syntax/ObjectSpread.js,"load baseUser )",39, 4, 0
+repos/javascript/create-react-app/packages/react-scripts/fixtures/kitchensink/src/features/syntax/ObjectDestructuring.js,"load )",26, 4, 0
+repos/javascript/create-react-app/packages/react-scripts/fixtures/kitchensink/src/features/syntax/RestAndDefault.js,"load { id , ... rest } = { id : 0 , user : { id : 42 , name : '42' } } )",75, 0, 0
+repos/javascript/create-react-app/packages/react-scripts/fixtures/kitchensink/src/features/syntax/ArrayDestructuring.js,"load )",51, 2, 0
+repos/javascript/create-react-app/packages/react-scripts/fixtures/kitchensink/src/features/syntax/DestructuringAndAwait.js,"load )",28, 6, 0
+repos/javascript/create-react-app/packages/react-scripts/fixtures/kitchensink/src/features/syntax/TemplateInterpolation.js,"load name )",33, 4, 0
+repos/javascript/create-react-app/packages/react-scripts/fixtures/kitchensink/src/features/syntax/Promises.js,"load )",27, 2, 0
+repos/javascript/create-react-app/packages/react-scripts/fixtures/kitchensink/src/features/syntax/Generators.js,"load limit )",30, 4, 0
+repos/javascript/create-react-app/packages/react-scripts/fixtures/kitchensink/src/features/syntax/ComputedProperties.js,"load prefix )",40, 4, 0
+repos/javascript/create-react-app/packages/react-scripts/fixtures/kitchensink/src/features/syntax/AsyncAwait.js,"load )",26, 4, 0
+repos/javascript/create-react-app/packages/react-scripts/fixtures/kitchensink/src/subfolder/lol.js,"module.exports )",30, 0, 0
+repos/javascript/create-react-app/packages/react-scripts/config/webpack.config.js,"module.exports webpackEnv )",119, 6, 0
+repos/javascript/create-react-app/packages/react-scripts/config/webpack.config.js,"*global*",119, 6, 0
+repos/javascript/create-react-app/packages/react-scripts/config/webpackDevServer.config.js,"module.exports proxy , allowedHost )",93, 4, 0
+repos/javascript/create-react-app/packages/react-scripts/config/env.js,"getClientEnvironment publicUrl )",80, 8, 0
+repos/javascript/create-react-app/packages/react-scripts/scripts/build.js,"build previousFileSizes )",79, 12, 0
+repos/javascript/create-react-app/packages/react-scripts/scripts/build.js,"copyPublicFolder )",49, 2, 0
+repos/javascript/create-react-app/packages/react-scripts/scripts/start.js,"function )",35, 6, 0
+repos/javascript/create-react-app/packages/react-scripts/scripts/start.js,"function sig )",50, 4, 0
+repos/javascript/create-react-app/packages/react-scripts/scripts/eject.js,"getGitStatus )",54, 4, 0
+repos/javascript/create-react-app/packages/react-scripts/scripts/eject.js,"verifyAbsent file )",87, 12, 0
+repos/javascript/create-react-app/packages/react-scripts/scripts/test.js,"isInGitRepository )",74, 4, 0
+repos/javascript/create-react-app/packages/react-scripts/scripts/test.js,"isInMercurialRepository )",54, 4, 0
+repos/javascript/create-react-app/packages/react-scripts/scripts/test.js,"resolveJestDefaultEnvironment name )",47, 0, 0
+repos/javascript/create-react-app/packages/react-scripts/scripts/init.js,"isInGitRepository )",74, 4, 0
+repos/javascript/create-react-app/packages/react-scripts/scripts/init.js,"isInMercurialRepository )",54, 4, 0
+repos/javascript/create-react-app/packages/react-scripts/scripts/init.js,"tryGitInit appPath )",71, 4, 0
+repos/javascript/create-react-app/packages/react-scripts/scripts/init.js,"module.exports appPath , appName , verbose , originalDirectory , template )",83, 2, 0
+repos/javascript/create-react-app/packages/react-scripts/scripts/init.js,"isReactInstalled appPackage )",54, 2, 0
+repos/javascript/create-react-app/packages/react-scripts/scripts/utils/verifyTypeScriptSetup.js,"writeJson fileName , object )",72, 2, 0
+repos/javascript/create-react-app/packages/react-scripts/scripts/utils/verifyTypeScriptSetup.js,"verifyNoTypeScript )",74, 2, 0
+repos/javascript/create-react-app/packages/react-scripts/scripts/utils/verifyTypeScriptSetup.js,"verifyTypeScriptSetup )",85, 8, 0
+repos/javascript/create-react-app/packages/react-scripts/scripts/utils/verifyTypeScriptSetup.js,"*global*",85, 8, 0
+repos/javascript/create-react-app/packages/react-scripts/scripts/utils/verifyPackageTree.js,"verifyPackageTree )",133, 12, 0
+repos/javascript/create-react-app/packages/react-scripts/scripts/utils/verifyPackageTree.js,"*global*",133, 12, 0
+repos/javascript/create-react-app/packages/react-scripts/scripts/utils/createJestConfig.js,"*global*",89, 4, 0
+repos/javascript/create-react-app/packages/react-scripts/template/src/serviceWorker.js,"register config )",94, 8, 0
+repos/javascript/create-react-app/packages/react-scripts/template/src/serviceWorker.js,"*global*",94, 8, 0
+repos/javascript/create-react-app/packages/react-scripts/template/src/serviceWorker.js,"registerValidSW swUrl , config )",80, 14, 0
+repos/javascript/create-react-app/packages/react-scripts/template/src/serviceWorker.js,"checkValidServiceWorker swUrl , config )",81, 6, 0
+repos/javascript/create-react-app/packages/react-scripts/template/src/serviceWorker.js,"unregister )",57, 4, 0
+repos/javascript/create-react-app/packages/react-scripts/bin/react-scripts.js,"*global*",87, 6, 0
+repos/javascript/create-react-app/packages/babel-plugin-named-asset-import/index.js,"generateNewSourcePath loaderMap , moduleName , sourcePath )",70, 2, 0
+repos/javascript/create-react-app/packages/babel-plugin-named-asset-import/index.js,"replaceMatchingSpecifiers path , loaderMap , callback )",68, 4, 0
+repos/javascript/create-react-app/packages/babel-plugin-named-asset-import/index.js,"namedAssetImportPlugin { types : t } )",81, 14, 0
+repos/javascript/create-react-app/packages/react-error-overlay/build.js,"build config , name , callback )",71, 6, 0
+repos/javascript/create-react-app/packages/react-error-overlay/build.js,"runBuildSteps )",67, 6, 0
+repos/javascript/create-react-app/packages/react-error-overlay/build.js,"function )",36, 2, 0
+repos/javascript/create-react-app/packages/react-error-overlay/build.js,"setupWatch )",45, 4, 0
+repos/javascript/create-react-app/packages/react-error-overlay/src/listenToRuntimeErrors.js,"stopListening )",36, 2, 0
+repos/javascript/create-react-app/packages/react-error-overlay/src/listenToRuntimeErrors.js,"listenToRuntimeErrors crash : ErrorRecord = > void , filename : string = '/static/js/bundle.js' )",73, 2, 0
+repos/javascript/create-react-app/packages/react-error-overlay/src/index.js,"setEditorHandler handler : EditorHandler | null )",66, 0, 0
+repos/javascript/create-react-app/packages/react-error-overlay/src/index.js,"reportBuildError error : string )",50, 0, 0
+repos/javascript/create-react-app/packages/react-error-overlay/src/index.js,"reportRuntimeError error : Error , options ? : RuntimeReportingOption = { } )",55, 2, 0
+repos/javascript/create-react-app/packages/react-error-overlay/src/index.js,"dismissBuildError )",38, 0, 0
+repos/javascript/create-react-app/packages/react-error-overlay/src/index.js,"startReportingRuntimeErrors options : RuntimeReportingOptions )",81, 8, 0
+repos/javascript/create-react-app/packages/react-error-overlay/src/index.js,"dismissRuntimeErrors )",41, 0, 0
+repos/javascript/create-react-app/packages/react-error-overlay/src/index.js,"stopReportingRuntimeErrors )",48, 4, 0
+repos/javascript/create-react-app/packages/react-error-overlay/src/index.js,"loadingIframe.onload )",73, 6, 0
+repos/javascript/create-react-app/packages/react-error-overlay/src/index.js,"update )",74, 2, 0
+repos/javascript/create-react-app/packages/react-error-overlay/src/index.js,"updateIframeContent )",58, 2, 0
+repos/javascript/create-react-app/packages/react-error-overlay/src/index.js,"iframeReady )",82, 0, 0
+repos/javascript/create-react-app/packages/react-error-overlay/src/iframeScript.js,"render { currentBuildError , currentRuntimeErrorRecords , dismissRuntimeErrors , editorHandler , } )",50, 8, 0
+repos/javascript/create-react-app/packages/react-error-overlay/src/iframeScript.js,"updateContent errorOverlayProps )",67, 0, 0
+repos/javascript/create-react-app/packages/react-error-overlay/src/components/NavigationBar.js,"NavigationBar props : NavigationBarPropsType )",63, 2, 0
+repos/javascript/create-react-app/packages/react-error-overlay/src/components/Footer.js,"Footer props : FooterPropsType )",42, 0, 0
+repos/javascript/create-react-app/packages/react-error-overlay/src/components/Header.js,"Header props : HeaderPropType )",60, 2, 0
+repos/javascript/create-react-app/packages/react-error-overlay/src/components/CloseButton.js,"CloseButton { close } : { | close : CloseCallback | } )",62, 0, 0
+repos/javascript/create-react-app/packages/react-error-overlay/src/components/CodeBlock.js,"CodeBlock props : CodeBlockPropsType )",69, 2, 0
+repos/javascript/create-react-app/packages/react-error-overlay/src/utils/getLinesAround.js,"getLinesAround line : number , count : number , lines : string [ ] | string )",78, 4, 0
+repos/javascript/create-react-app/packages/react-error-overlay/src/utils/getStackFrames.js,"getStackFrames error : Error , unhandledRejection : boolean = false , contextSize : number = 3 )",81, 8, 0
+repos/javascript/create-react-app/packages/react-error-overlay/src/utils/isBultinErrorName.js,"isBultinErrorName errorName : ? string )",49, 0, 0
+repos/javascript/create-react-app/packages/react-error-overlay/src/utils/mapper.js,"map frames : StackFrame [ ] , contextLines : number = 3 )",78, 10, 0
+repos/javascript/create-react-app/packages/react-error-overlay/src/utils/generateAnsiHTML.js,"generateAnsiHTML txt : string )",78, 8, 0
+repos/javascript/create-react-app/packages/react-error-overlay/src/utils/unmapper.js,"count search : string , string : string )",78, 4, 0
+repos/javascript/create-react-app/packages/react-error-overlay/src/utils/unmapper.js,"unmap _fileUri : string | { uri : string , contents : string } , frames : StackFrame [ ] , contextLines : number = 3 )",80, 6, 0
+repos/javascript/create-react-app/packages/react-error-overlay/src/utils/getSourceMap.js,"extractSourceMapUrl fileUri : string , fileContents : string )",81, 4, 0
+repos/javascript/create-react-app/packages/react-error-overlay/src/utils/getSourceMap.js,"getSourceMap fileUri : string , fileContents : string )",73, 8, 0
+repos/javascript/create-react-app/packages/react-error-overlay/src/utils/parser.js,"extractLocation token : string )",68, 0, 0
+repos/javascript/create-react-app/packages/react-error-overlay/src/utils/parser.js,"parseStack stack : string [ ] )",81, 8, 0
+repos/javascript/create-react-app/packages/react-error-overlay/src/utils/parser.js,"parseError error : Error | string | string [ ] )",77, 2, 0
+repos/javascript/create-react-app/packages/react-error-overlay/src/utils/warnings.js,"stripInlineStacktrace message : string )",58, 0, 0
+repos/javascript/create-react-app/packages/react-error-overlay/src/utils/warnings.js,"massage warning : string , frames : ReactFrame [ ] )",40, 0, 0
+repos/javascript/create-react-app/packages/react-error-overlay/src/utils/isInternalFile.js,"isInternalFile sourceFileName : ? string , fileName : ? string )",70, 0, 0
+repos/javascript/create-react-app/packages/react-error-overlay/src/utils/parseCompileError.js,"parseCompileError message : string )",78, 2, 0
+repos/javascript/create-react-app/packages/react-error-overlay/src/utils/dom/absolutifyCaret.js,"removeNextBr parent , component : ? Element )",74, 2, 0
+repos/javascript/create-react-app/packages/react-error-overlay/src/utils/dom/absolutifyCaret.js,"absolutifyCaret component : Node )",53, 2, 0
+repos/javascript/create-react-app/packages/react-error-overlay/src/utils/dom/css.js,"getHead document : Document )",68, 2, 0
+repos/javascript/create-react-app/packages/react-error-overlay/src/utils/dom/css.js,"injectCss document : Document , css : string )",62, 0, 0
+repos/javascript/create-react-app/packages/react-error-overlay/src/utils/dom/css.js,"removeCss document : Document , ref : number )",54, 0, 0
+repos/javascript/create-react-app/packages/react-error-overlay/src/utils/dom/css.js,"applyStyles element : HTMLElement , styles : Object )",61, 0, 0
+repos/javascript/create-react-app/packages/react-error-overlay/src/effects/stackTraceLimit.js,"registerStackTraceLimit limit : number = MAX_STACK_LENGTH )",69, 0, 0
+repos/javascript/create-react-app/packages/react-error-overlay/src/effects/stackTraceLimit.js,"unregisterStackTraceLimit )",67, 4, 0
+repos/javascript/create-react-app/packages/react-error-overlay/src/effects/unhandledRejection.js,"rejectionHandler callback : ErrorCallback , e : PromiseRejectionEvent )",58, 2, 0
+repos/javascript/create-react-app/packages/react-error-overlay/src/effects/unhandledRejection.js,"registerUnhandledRejection target : EventTarget , callback : ErrorCallback )",72, 2, 0
+repos/javascript/create-react-app/packages/react-error-overlay/src/effects/unhandledRejection.js,"unregisterUnhandledRejection target : EventTarget )",75, 2, 0
+repos/javascript/create-react-app/packages/react-error-overlay/src/effects/unhandledError.js,"errorHandler callback : ErrorCallback , e : Event )",65, 0, 0
+repos/javascript/create-react-app/packages/react-error-overlay/src/effects/unhandledError.js,"registerUnhandledError target : EventTarget , callback : ErrorCallback )",80, 0, 0
+repos/javascript/create-react-app/packages/react-error-overlay/src/effects/unhandledError.js,"unregisterUnhandledError target : EventTarget )",58, 2, 0
+repos/javascript/create-react-app/packages/react-error-overlay/src/effects/proxyConsole.js,"function )",34, 10, 0
+repos/javascript/create-react-app/packages/react-error-overlay/src/effects/proxyConsole.js,"__stack_frame_overlay_proxy_console__ )",76, 12, 0
+repos/javascript/create-react-app/packages/react-error-overlay/src/effects/proxyConsole.js,"proxyConsole type : string , callback : ConsoleProxyCallback )",76, 12, 0
+repos/javascript/create-react-app/packages/react-error-overlay/src/containers/StackTrace.js,"*global*",79, 4, 0
+repos/javascript/create-react-app/packages/react-error-overlay/src/containers/StackTrace.js,"*global*",79, 4, 0
+repos/javascript/create-react-app/packages/react-error-overlay/src/containers/StackFrameCodeBlock.js,"function e )",54, 6, 0
+repos/javascript/create-react-app/packages/react-error-overlay/src/containers/StackFrameCodeBlock.js,"function e )",41, 6, 0
+repos/javascript/create-react-app/packages/react-error-overlay/src/containers/StackFrameCodeBlock.js,"StackFrameCodeBlock props : Exact < StackFrameCodeBlockPropsType > )",75, 0, 0
+repos/javascript/create-react-app/packages/react-error-overlay/src/containers/RuntimeErrorContainer.js,"*global*",115, 10, 0
+repos/javascript/create-react-app/packages/react-error-overlay/src/containers/RuntimeError.js,"RuntimeError { errorRecord , editorHandler } : Props )",81, 4, 0
+repos/javascript/create-react-app/packages/react-dev-utils/eslintFormatter.js,"isError message )",49, 2, 0
+repos/javascript/create-react-app/packages/react-dev-utils/eslintFormatter.js,"formatter results )",70, 6, 0
+repos/javascript/create-react-app/packages/react-dev-utils/noopServiceWorkerMiddleware.js,"noopServiceWorkerMiddleware req , res , next )",87, 0, 0
+repos/javascript/create-react-app/packages/react-dev-utils/noopServiceWorkerMiddleware.js,"createNoopServiceWorkerMiddleware )",87, 0, 0
+repos/javascript/create-react-app/packages/react-dev-utils/launchEditor.js,"isTerminalEditor editor )",36, 0, 0
+repos/javascript/create-react-app/packages/react-dev-utils/launchEditor.js,"function errorCode )",63, 6, 0
+repos/javascript/create-react-app/packages/react-dev-utils/launchEditor.js,"function error )",48, 4, 0
+repos/javascript/create-react-app/packages/react-dev-utils/launchEditor.js,"*global*",7287, 0, 0
+repos/javascript/create-react-app/packages/react-dev-utils/FileSizeReporter.js,"canReadAsset asset )",52, 4, 0
+repos/javascript/create-react-app/packages/react-dev-utils/FileSizeReporter.js,"printFileSizesAfterBuild webpackStats , previousSizeMap , buildFolder , maxBundleGzipSize , maxChunkGzipSize )",80, 6, 0
+repos/javascript/create-react-app/packages/react-dev-utils/FileSizeReporter.js,"removeFileNameHash buildFolder , fileName )",71, 2, 0
+repos/javascript/create-react-app/packages/react-dev-utils/FileSizeReporter.js,"*global*",80, 6, 0
+repos/javascript/create-react-app/packages/react-dev-utils/FileSizeReporter.js,"measureFileSizesBeforeBuild buildFolder )",76, 8, 0
+repos/javascript/create-react-app/packages/react-dev-utils/FileSizeReporter.js,"*global*",80, 6, 0
+repos/javascript/create-react-app/packages/react-dev-utils/printBuildError.js,"printBuildError err )",74, 10, 0
+repos/javascript/create-react-app/packages/react-dev-utils/WebpackDevServerUtils.js,"prepareUrls protocol , host , port )",85, 8, 0
+repos/javascript/create-react-app/packages/react-dev-utils/WebpackDevServerUtils.js,"printInstructions appName , urls , useYarn )",74, 2, 0
+repos/javascript/create-react-app/packages/react-dev-utils/WebpackDevServerUtils.js,"createCompiler webpack , config , appName , urls , useYarn )",87, 4, 0
+repos/javascript/create-react-app/packages/react-dev-utils/WebpackDevServerUtils.js,"resolveLoopback proxy )",74, 2, 0
+repos/javascript/create-react-app/packages/react-dev-utils/WebpackDevServerUtils.js,"onProxyError proxy )",100, 6, 0
+repos/javascript/create-react-app/packages/react-dev-utils/WebpackDevServerUtils.js,"mayProxy pathname )",78, 4, 0
+repos/javascript/create-react-app/packages/react-dev-utils/WebpackDevServerUtils.js,"context pathname , req )",60, 12, 0
+repos/javascript/create-react-app/packages/react-dev-utils/WebpackDevServerUtils.js,"prepareProxy proxy , appPublicFolder )",98, 8, 0
+repos/javascript/create-react-app/packages/react-dev-utils/WebpackDevServerUtils.js,"choosePort host , defaultPort )",85, 12, 0
+repos/javascript/create-react-app/packages/react-dev-utils/ignoredFiles.js,"ignoredFiles appSrc )",58, 6, 0
+repos/javascript/create-react-app/packages/react-dev-utils/clearConsole.js,"clearConsole )",77, 4, 0
+repos/javascript/create-react-app/packages/react-dev-utils/getCacheIdentifier.js,"getCacheIdentifier environment , packages )",75, 2, 0
+repos/javascript/create-react-app/packages/react-dev-utils/getCSSModuleLocalIdent.js,"getLocalIdent context , localIdentName , localName , options )",127, 2, 0
+repos/javascript/create-react-app/packages/react-dev-utils/webpackHotDevClient.js,"editorHandler errorLocation )",70, 0, 0
+repos/javascript/create-react-app/packages/react-dev-utils/webpackHotDevClient.js,"onError )",28, 4, 0
+repos/javascript/create-react-app/packages/react-dev-utils/webpackHotDevClient.js,"function )",47, 4, 0
+repos/javascript/create-react-app/packages/react-dev-utils/webpackHotDevClient.js,"connection.onclose )",81, 6, 0
+repos/javascript/create-react-app/packages/react-dev-utils/webpackHotDevClient.js,"clearOutdatedErrors )",79, 2, 0
+repos/javascript/create-react-app/packages/react-dev-utils/webpackHotDevClient.js,"onHotUpdateSuccess )",61, 6, 0
+repos/javascript/create-react-app/packages/react-dev-utils/webpackHotDevClient.js,"handleSuccess )",61, 6, 0
+repos/javascript/create-react-app/packages/react-dev-utils/webpackHotDevClient.js,"printWarnings )",80, 4, 0
+repos/javascript/create-react-app/packages/react-dev-utils/webpackHotDevClient.js,"onSuccessfulHotUpdate )",63, 6, 0
+repos/javascript/create-react-app/packages/react-dev-utils/webpackHotDevClient.js,"handleWarnings warnings )",80, 4, 0
+repos/javascript/create-react-app/packages/react-dev-utils/webpackHotDevClient.js,"handleErrors errors )",79, 2, 0
+repos/javascript/create-react-app/packages/react-dev-utils/webpackHotDevClient.js,"handleAvailableHash hash )",41, 2, 0
+repos/javascript/create-react-app/packages/react-dev-utils/webpackHotDevClient.js,"connection.onmessage e )",59, 6, 0
+repos/javascript/create-react-app/packages/react-dev-utils/webpackHotDevClient.js,"isUpdateAvailable )",62, 2, 0
+repos/javascript/create-react-app/packages/react-dev-utils/webpackHotDevClient.js,"canApplyUpdates )",41, 2, 0
+repos/javascript/create-react-app/packages/react-dev-utils/webpackHotDevClient.js,"handleApplyUpdates err , updatedModules )",70, 6, 0
+repos/javascript/create-react-app/packages/react-dev-utils/webpackHotDevClient.js,"function updatedModules )",50, 8, 0
+repos/javascript/create-react-app/packages/react-dev-utils/webpackHotDevClient.js,"function err )",39, 8, 0
+repos/javascript/create-react-app/packages/react-dev-utils/webpackHotDevClient.js,"tryApplyUpdates onHotUpdateSuccess )",75, 2, 0
+repos/javascript/create-react-app/packages/react-dev-utils/getProcessForPort.js,"isProcessAReactApp processCommand )",79, 2, 0
+repos/javascript/create-react-app/packages/react-dev-utils/getProcessForPort.js,"getProcessIdOnPort port )",74, 2, 0
+repos/javascript/create-react-app/packages/react-dev-utils/getProcessForPort.js,"getPackageNameInDirectory directory )",65, 2, 0
+repos/javascript/create-react-app/packages/react-dev-utils/getProcessForPort.js,"getProcessCommand processId , processDirectory )",69, 4, 0
+repos/javascript/create-react-app/packages/react-dev-utils/getProcessForPort.js,"getDirectoryOfProcessById processId )",71, 6, 0
+repos/javascript/create-react-app/packages/react-dev-utils/getProcessForPort.js,"getProcessForPort port )",59, 4, 0
+repos/javascript/create-react-app/packages/react-dev-utils/printHostingInstructions.js,"printHostingInstructions appPackage , publicUrl , publicPath , buildFolder , useYarn )",78, 4, 0
+repos/javascript/create-react-app/packages/react-dev-utils/printHostingInstructions.js,"printBaseMessage buildFolder , hostingLocation )",81, 2, 0
+repos/javascript/create-react-app/packages/react-dev-utils/printHostingInstructions.js,"printStaticServerInstructions buildFolder , useYarn )",63, 0, 0
+repos/javascript/create-react-app/packages/react-dev-utils/browsersHelper.js,"shouldSetBrowsers isInteractive )",77, 2, 0
+repos/javascript/create-react-app/packages/react-dev-utils/browsersHelper.js,"checkBrowsers dir , isInteractive , retry = true )",77, 10, 0
+repos/javascript/create-react-app/packages/react-dev-utils/formatWebpackMessages.js,"isLikelyASyntaxError message )",59, 2, 0
+repos/javascript/create-react-app/packages/react-dev-utils/formatWebpackMessages.js,"formatMessage message , isError )",89, 4, 0
+repos/javascript/create-react-app/packages/react-dev-utils/formatWebpackMessages.js,"function message )",62, 2, 0
+repos/javascript/create-react-app/packages/react-dev-utils/formatWebpackMessages.js,"function message )",66, 2, 0
+repos/javascript/create-react-app/packages/react-dev-utils/formatWebpackMessages.js,"formatWebpackMessages json )",75, 2, 0
+repos/javascript/create-react-app/packages/react-dev-utils/checkRequiredFiles.js,"checkRequiredFiles files )",69, 4, 0
+repos/javascript/create-react-app/packages/react-dev-utils/typescriptFormatter.js,"formatter message , useColors )",81, 2, 0
+repos/javascript/create-react-app/packages/react-dev-utils/openBrowser.js,"getBrowserEnv )",68, 2, 0
+repos/javascript/create-react-app/packages/react-dev-utils/openBrowser.js,"executeNodeScript scriptPath , url )",79, 6, 0
+repos/javascript/create-react-app/packages/react-dev-utils/openBrowser.js,"startBrowserProcess browser , url )",92, 2, 0
+repos/javascript/create-react-app/packages/react-dev-utils/openBrowser.js,"openBrowser url )",71, 6, 0
+repos/javascript/create-react-app/packages/react-dev-utils/errorOverlayMiddleware.js,"launchEditorMiddleware req , res , next )",66, 6, 0
+repos/javascript/create-react-app/packages/react-dev-utils/errorOverlayMiddleware.js,"createLaunchEditorMiddleware )",66, 6, 0
+repos/javascript/create-react-app/packages/react-dev-utils/evalSourceMapMiddleware.js,"base64SourceMap source )",77, 2, 0
+repos/javascript/create-react-app/packages/react-dev-utils/evalSourceMapMiddleware.js,"getSourceById server , id )",74, 2, 0
+repos/javascript/create-react-app/packages/react-dev-utils/evalSourceMapMiddleware.js,"*global*",78, 6, 0
+repos/javascript/create-react-app/packages/babel-preset-react-app/dependencies.js,"module.exports api , opts )",151, 10, 0
+repos/javascript/create-react-app/packages/babel-preset-react-app/create.js,"module.exports api , opts , env )",151, 10, 0
+repos/javascript/create-react-app/packages/babel-preset-react-app/webpack-overrides.js,"module.exports )",84, 6, 0
+repos/javascript/create-react-app/packages/babel-preset-react-app/index.js,"module.exports api , opts )",82, 2, 0
+repos/javascript/create-react-app/packages/babel-preset-react-app/test.js,"module.exports api , opts )",71, 2, 0
+repos/javascript/create-react-app/packages/babel-preset-react-app/prod.js,"module.exports api , opts )",77, 2, 0
+repos/javascript/create-react-app/packages/babel-preset-react-app/dev.js,"module.exports api , opts )",78, 2, 0
+repos/javascript/create-react-app/packages/create-react-app/createReactApp.js,"printValidationResults results )",49, 6, 0
+repos/javascript/create-react-app/packages/create-react-app/createReactApp.js,"createApp name , verbose , version , useNpm , usePnp , useTypescript , template )",120, 6, 0
+repos/javascript/create-react-app/packages/create-react-app/createReactApp.js,"shouldUseYarn )",56, 4, 0
+repos/javascript/create-react-app/packages/create-react-app/createReactApp.js,"install root , useYarn , usePnp , dependencies , verbose , isOnline )",77, 6, 0
+repos/javascript/create-react-app/packages/create-react-app/createReactApp.js,"extractStream stream , dest )",44, 2, 0
+repos/javascript/create-react-app/packages/create-react-app/createReactApp.js,"getPackageName installPackage )",106, 8, 0
+repos/javascript/create-react-app/packages/create-react-app/createReactApp.js,"checkNpmVersion )",49, 4, 0
+repos/javascript/create-react-app/packages/create-react-app/createReactApp.js,"checkYarnVersion )",77, 4, 0
+repos/javascript/create-react-app/packages/create-react-app/createReactApp.js,"checkNodeVersion packageName )",70, 2, 0
+repos/javascript/create-react-app/packages/create-react-app/createReactApp.js,"checkAppName appName )",79, 10, 0
+repos/javascript/create-react-app/packages/create-react-app/createReactApp.js,"makeCaretRange dependencies , name )",79, 6, 0
+repos/javascript/create-react-app/packages/create-react-app/createReactApp.js,"setCaretRangeForRuntimeDeps packageName )",80, 2, 0
+repos/javascript/create-react-app/packages/create-react-app/createReactApp.js,"isSafeToCreateProjectIn root , name )",81, 6, 0
+repos/javascript/create-react-app/packages/create-react-app/createReactApp.js,"getProxy )",62, 6, 0
+repos/javascript/create-react-app/packages/create-react-app/createReactApp.js,"checkThatNpmCanReadCwd )",119, 10, 0
+repos/javascript/create-react-app/packages/create-react-app/createReactApp.js,"checkIfOnline useYarn )",78, 8, 0
+repos/javascript/create-react-app/packages/create-react-app/createReactApp.js,"executeNodeScript { cwd , args } , data , source )",59, 6, 0
+repos/javascript/create-react-app/docusaurus/website/pages/en/index.js,"*global*",232, 10, 0
+repos/javascript/create-react-app/docusaurus/website/pages/en/index.js,"docUrl doc , language )",78, 2, 0
+repos/javascript/create-react-app/docusaurus/website/pages/en/index.js,"*global*",232, 10, 0
+repos/javascript/create-react-app/docusaurus/website/pages/en/index.js,"*global*",232, 10, 0
+repos/javascript/create-react-app/docusaurus/website/pages/en/index.js,"*global*",232, 10, 0
+repos/javascript/create-react-app/docusaurus/website/pages/en/index.js,"*global*",232, 10, 0
+repos/javascript/create-react-app/docusaurus/website/pages/en/index.js,"*global*",232, 10, 0
+repos/javascript/create-react-app/docusaurus/website/pages/en/index.js,"*global*",232, 10, 0
+repos/javascript/create-react-app/docusaurus/website/pages/en/index.js,"*global*",232, 10, 0
+repos/javascript/create-react-app/docusaurus/website/pages/en/index.js,"*global*",232, 10, 0
+repos/javascript/create-react-app/docusaurus/website/pages/en/index.js,"*global*",232, 10, 0
+repos/javascript/create-react-app/docusaurus/website/pages/en/index.js,"*global*",232, 10, 0
+repos/javascript/create-react-app/docusaurus/website/pages/en/index.js,"*global*",232, 10, 0
+repos/javascript/create-react-app/docusaurus/website/pages/en/index.js,"*global*",232, 10, 0
+repos/javascript/create-react-app/docusaurus/website/pages/en/index.js,"*global*",232, 10, 0
+repos/javascript/create-react-app/docusaurus/website/core/Footer.js,"*global*",83, 4, 0

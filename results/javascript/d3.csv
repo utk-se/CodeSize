@@ -1,0 +1,10 @@
+File, Function, Total Width, Leading Space(s), Leading Tab(s)
+repos/javascript/d3/rollup.node.js,"function bundle )",43, 2, 0
+repos/javascript/d3/rollup.node.js,"function error )",68, 4, 0
+repos/javascript/d3/rollup.node.js,"function resolve , reject )",68, 4, 0
+repos/javascript/d3/rollup.node.js,"function result )",124, 2, 0
+repos/javascript/d3/rollup.node.js,"abort error )",30, 2, 0
+repos/javascript/d3/test/d3-test.js,"function test )",62, 2, 0
+repos/javascript/d3/test/d3-test.js,"function test )",68, 0, 0
+repos/javascript/d3/test/test-exports.js,"function test )",74, 8, 0
+repos/javascript/d3/test/test-exports.js,"module.exports moduleName )",74, 8, 0

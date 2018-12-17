@@ -1,0 +1,1199 @@
+File, Function, Total Width, Leading Space(s), Leading Tab(s)
+repos/javascript/atom/benchmarks/text-editor-long-lines.bench.js,"timeout duration )",65, 2, 0
+repos/javascript/atom/benchmarks/text-editor-large-file-construction.bench.js,"timeout duration )",65, 2, 0
+repos/javascript/atom/spec/text-editor-element-spec.js,"buildTextEditorElement options = { } )",63, 4, 0
+repos/javascript/atom/spec/text-editor-element-spec.js,"function )",64, 4, 0
+repos/javascript/atom/spec/command-registry-spec.js,"function event )",64, 6, 0
+repos/javascript/atom/spec/command-registry-spec.js,"function event )",59, 6, 0
+repos/javascript/atom/spec/command-registry-spec.js,"function event )",61, 6, 0
+repos/javascript/atom/spec/command-registry-spec.js,"listener )",30, 6, 0
+repos/javascript/atom/spec/command-registry-spec.js,"function event )",64, 6, 0
+repos/javascript/atom/spec/native-watcher-registry-spec.js,"findRootDirectory )",43, 4, 0
+repos/javascript/atom/spec/native-watcher-registry-spec.js,"absolute ... parts )",77, 2, 0
+repos/javascript/atom/spec/native-watcher-registry-spec.js,"parts fullPath )",66, 2, 0
+repos/javascript/atom/spec/native-watcher-registry-spec.js,"function )",89, 4, 0
+repos/javascript/atom/spec/native-watcher-registry-spec.js,"function )",100, 2, 0
+repos/javascript/atom/spec/native-watcher-registry-spec.js,"function )",83, 2, 0
+repos/javascript/atom/spec/native-watcher-registry-spec.js,"function )",88, 2, 0
+repos/javascript/atom/spec/native-watcher-registry-spec.js,"function )",94, 4, 0
+repos/javascript/atom/spec/native-watcher-registry-spec.js,"function )",91, 6, 0
+repos/javascript/atom/spec/native-watcher-registry-spec.js,"function )",92, 4, 0
+repos/javascript/atom/spec/native-watcher-registry-spec.js,"function )",101, 6, 0
+repos/javascript/atom/spec/native-watcher-registry-spec.js,"function )",101, 6, 0
+repos/javascript/atom/spec/native-watcher-registry-spec.js,"function )",101, 6, 0
+repos/javascript/atom/spec/config-spec.js,"atom.config.saveCallback settings )",53, 4, 0
+repos/javascript/atom/spec/text-editor-registry-spec.js,"function )",91, 4, 0
+repos/javascript/atom/spec/text-editor-registry-spec.js,"function )",26, 2, 0
+repos/javascript/atom/spec/text-editor-registry-spec.js,"function )",73, 4, 0
+repos/javascript/atom/spec/text-editor-registry-spec.js,"function )",76, 4, 0
+repos/javascript/atom/spec/text-editor-registry-spec.js,"function )",76, 4, 0
+repos/javascript/atom/spec/text-editor-registry-spec.js,"function )",93, 4, 0
+repos/javascript/atom/spec/text-editor-registry-spec.js,"function )",93, 4, 0
+repos/javascript/atom/spec/text-editor-registry-spec.js,"function )",107, 4, 0
+repos/javascript/atom/spec/text-editor-registry-spec.js,"function )",107, 4, 0
+repos/javascript/atom/spec/text-editor-registry-spec.js,"function )",115, 4, 0
+repos/javascript/atom/spec/text-editor-registry-spec.js,"function )",97, 4, 0
+repos/javascript/atom/spec/text-editor-registry-spec.js,"function )",86, 4, 0
+repos/javascript/atom/spec/text-editor-registry-spec.js,"function )",122, 4, 0
+repos/javascript/atom/spec/text-editor-registry-spec.js,"function )",116, 4, 0
+repos/javascript/atom/spec/text-editor-registry-spec.js,"function )",124, 4, 0
+repos/javascript/atom/spec/text-editor-registry-spec.js,"function )",68, 4, 0
+repos/javascript/atom/spec/text-editor-registry-spec.js,"function )",70, 4, 0
+repos/javascript/atom/spec/text-editor-registry-spec.js,"function )",90, 4, 0
+repos/javascript/atom/spec/text-editor-registry-spec.js,"function )",91, 4, 0
+repos/javascript/atom/spec/text-editor-registry-spec.js,"function )",93, 6, 0
+repos/javascript/atom/spec/text-editor-registry-spec.js,"function )",93, 6, 0
+repos/javascript/atom/spec/text-editor-registry-spec.js,"function )",101, 6, 0
+repos/javascript/atom/spec/text-editor-registry-spec.js,"function )",101, 6, 0
+repos/javascript/atom/spec/text-editor-registry-spec.js,"function )",80, 4, 0
+repos/javascript/atom/spec/text-editor-registry-spec.js,"function )",87, 4, 0
+repos/javascript/atom/spec/text-editor-registry-spec.js,"function )",101, 4, 0
+repos/javascript/atom/spec/text-editor-registry-spec.js,"function )",83, 4, 0
+repos/javascript/atom/spec/text-editor-registry-spec.js,"function )",78, 6, 0
+repos/javascript/atom/spec/text-editor-registry-spec.js,"function )",87, 4, 0
+repos/javascript/atom/spec/text-editor-registry-spec.js,"function )",80, 4, 0
+repos/javascript/atom/spec/text-editor-registry-spec.js,"function )",83, 4, 0
+repos/javascript/atom/spec/text-editor-registry-spec.js,"function )",108, 4, 0
+repos/javascript/atom/spec/text-editor-registry-spec.js,"function )",96, 4, 0
+repos/javascript/atom/spec/text-editor-registry-spec.js,"function )",81, 4, 0
+repos/javascript/atom/spec/text-editor-registry-spec.js,"function )",82, 4, 0
+repos/javascript/atom/spec/text-editor-registry-spec.js,"function )",91, 4, 0
+repos/javascript/atom/spec/text-editor-registry-spec.js,"function )",107, 4, 0
+repos/javascript/atom/spec/text-editor-registry-spec.js,"function )",82, 4, 0
+repos/javascript/atom/spec/text-editor-registry-spec.js,"function )",78, 4, 0
+repos/javascript/atom/spec/text-editor-registry-spec.js,"function )",61, 6, 0
+repos/javascript/atom/spec/text-editor-registry-spec.js,"function )",68, 4, 0
+repos/javascript/atom/spec/text-editor-registry-spec.js,"function )",124, 4, 0
+repos/javascript/atom/spec/text-editor-registry-spec.js,"function )",124, 4, 0
+repos/javascript/atom/spec/text-editor-registry-spec.js,"getSubscriptionCount editor )",61, 4, 0
+repos/javascript/atom/spec/text-editor-registry-spec.js,"retainedEditorCount registry )",69, 2, 0
+repos/javascript/atom/spec/workspace-element-spec.js,"function )",94, 6, 0
+repos/javascript/atom/spec/workspace-element-spec.js,"function )",94, 6, 0
+repos/javascript/atom/spec/workspace-element-spec.js,"function )",70, 10, 0
+repos/javascript/atom/spec/workspace-element-spec.js,"function )",73, 10, 0
+repos/javascript/atom/spec/workspace-element-spec.js,"function )",73, 10, 0
+repos/javascript/atom/spec/workspace-element-spec.js,"function )",70, 10, 0
+repos/javascript/atom/spec/workspace-element-spec.js,"function )",73, 10, 0
+repos/javascript/atom/spec/workspace-element-spec.js,"function )",73, 10, 0
+repos/javascript/atom/spec/workspace-element-spec.js,"function )",71, 10, 0
+repos/javascript/atom/spec/workspace-element-spec.js,"function )",73, 10, 0
+repos/javascript/atom/spec/workspace-element-spec.js,"function )",82, 6, 0
+repos/javascript/atom/spec/workspace-element-spec.js,"function )",72, 10, 0
+repos/javascript/atom/spec/workspace-element-spec.js,"function )",73, 10, 0
+repos/javascript/atom/spec/workspace-element-spec.js,"function )",83, 6, 0
+repos/javascript/atom/spec/workspace-element-spec.js,"function )",73, 8, 0
+repos/javascript/atom/spec/workspace-element-spec.js,"function )",65, 10, 0
+repos/javascript/atom/spec/workspace-element-spec.js,"function )",86, 8, 0
+repos/javascript/atom/spec/workspace-element-spec.js,"function )",86, 8, 0
+repos/javascript/atom/spec/workspace-element-spec.js,"function )",75, 8, 0
+repos/javascript/atom/spec/workspace-element-spec.js,"function )",70, 8, 0
+repos/javascript/atom/spec/workspace-element-spec.js,"function )",86, 8, 0
+repos/javascript/atom/spec/workspace-element-spec.js,"function )",86, 8, 0
+repos/javascript/atom/spec/workspace-element-spec.js,"function )",78, 8, 0
+repos/javascript/atom/spec/workspace-element-spec.js,"function )",70, 8, 0
+repos/javascript/atom/spec/workspace-element-spec.js,"function )",86, 8, 0
+repos/javascript/atom/spec/workspace-element-spec.js,"function )",86, 8, 0
+repos/javascript/atom/spec/workspace-element-spec.js,"function )",79, 8, 0
+repos/javascript/atom/spec/workspace-element-spec.js,"function )",70, 8, 0
+repos/javascript/atom/spec/workspace-element-spec.js,"function )",86, 8, 0
+repos/javascript/atom/spec/workspace-element-spec.js,"function )",86, 8, 0
+repos/javascript/atom/spec/workspace-element-spec.js,"function )",98, 10, 0
+repos/javascript/atom/spec/workspace-element-spec.js,"function )",97, 10, 0
+repos/javascript/atom/spec/workspace-element-spec.js,"function )",98, 2, 0
+repos/javascript/atom/spec/workspace-element-spec.js,"moveMouse coordinates )",69, 6, 0
+repos/javascript/atom/spec/workspace-element-spec.js,"expectToggleButtonHidden dock )",96, 6, 0
+repos/javascript/atom/spec/workspace-element-spec.js,"expectToggleButtonVisible dock , iconClass )",92, 6, 0
+repos/javascript/atom/spec/gutter-container-spec.js,"function )",87, 6, 0
+repos/javascript/atom/spec/async-spec-helpers.js,"beforeEach fn )",37, 4, 0
+repos/javascript/atom/spec/async-spec-helpers.js,"afterEach fn )",37, 4, 0
+repos/javascript/atom/spec/async-spec-helpers.js,"conditionPromise condition , description = 'anonymous condition' )",83, 0, 0
+repos/javascript/atom/spec/async-spec-helpers.js,"timeoutPromise timeout )",40, 4, 0
+repos/javascript/atom/spec/async-spec-helpers.js,"waitsForPromise fn )",55, 2, 0
+repos/javascript/atom/spec/async-spec-helpers.js,"emitterEventPromise emitter , event , timeout = 15000 )",66, 6, 0
+repos/javascript/atom/spec/async-spec-helpers.js,"function ... args )",46, 4, 0
+repos/javascript/atom/spec/async-spec-helpers.js,"promisify original )",46, 4, 0
+repos/javascript/atom/spec/async-spec-helpers.js,"promisifySome obj , fnNames )",44, 4, 0
+repos/javascript/atom/spec/text-mate-language-mode-spec.js,"function )",137, 6, 0
+repos/javascript/atom/spec/text-mate-language-mode-spec.js,"function )",137, 6, 0
+repos/javascript/atom/spec/text-mate-language-mode-spec.js,"function )",164, 6, 0
+repos/javascript/atom/spec/text-mate-language-mode-spec.js,"simulateFold ranges )",46, 6, 0
+repos/javascript/atom/spec/text-mate-language-mode-spec.js,"fullyTokenize languageMode )",53, 4, 0
+repos/javascript/atom/spec/git-repository-spec.js,"copyRepository )",89, 2, 0
+repos/javascript/atom/spec/selection-spec.js,"sort items )",117, 6, 0
+repos/javascript/atom/spec/text-editor-component-spec.js,"value )",27, 6, 0
+repos/javascript/atom/spec/text-editor-component-spec.js,"checkScrollContainerLeft component )",133, 8, 0
+repos/javascript/atom/spec/text-editor-component-spec.js,"attachFakeWindow component )",108, 6, 0
+repos/javascript/atom/spec/text-editor-component-spec.js,"checkScrollContainerLeft )",133, 8, 0
+repos/javascript/atom/spec/text-editor-component-spec.js,"createBlockDecorationAtScreenRow editor , screenRow , { height , margin , marginTop , marginBottom , position , invalidate } )",132, 4, 0
+repos/javascript/atom/spec/text-editor-component-spec.js,"assertTilesAreSizedAndPositionedCorrectly component , tiles )",110, 8, 0
+repos/javascript/atom/spec/text-editor-component-spec.js,"assertLinesAreAlignedWithLineNumbers component )",102, 8, 0
+repos/javascript/atom/spec/text-editor-component-spec.js,"textContentOnRowMatchingSelector component , row , selector )",89, 6, 0
+repos/javascript/atom/spec/text-editor-component-spec.js,"getNextAnimationFramePromise )",70, 6, 0
+repos/javascript/atom/spec/text-editor-component-spec.js,"buildEditor params = { } )",166, 2, 0
+repos/javascript/atom/spec/text-editor-component-spec.js,"buildComponent params = { } )",74, 4, 0
+repos/javascript/atom/spec/text-editor-component-spec.js,"getEditorWidthInBaseCharacters component )",93, 2, 0
+repos/javascript/atom/spec/text-editor-component-spec.js,"setEditorHeightInLines component , heightInLines )",84, 2, 0
+repos/javascript/atom/spec/text-editor-component-spec.js,"setEditorWidthInCharacters component , widthInCharacters )",75, 0, 0
+repos/javascript/atom/spec/text-editor-component-spec.js,"verifyCursorPosition component , cursorNode , row , column )",97, 2, 0
+repos/javascript/atom/spec/text-editor-component-spec.js,"clientTopForLine component , row )",74, 2, 0
+repos/javascript/atom/spec/text-editor-component-spec.js,"clientLeftForCharacter component , row , column )",80, 4, 0
+repos/javascript/atom/spec/text-editor-component-spec.js,"clientPositionForCharacter component , row , column )",63, 0, 0
+repos/javascript/atom/spec/text-editor-component-spec.js,"lineNumberNodeForScreenRow component , row )",85, 2, 0
+repos/javascript/atom/spec/text-editor-component-spec.js,"lineNodeForScreenRow component , row )",83, 2, 0
+repos/javascript/atom/spec/text-editor-component-spec.js,"textNodesForScreenRow component , row )",77, 2, 0
+repos/javascript/atom/spec/text-editor-component-spec.js,"setScrollTop component , scrollTop )",47, 0, 0
+repos/javascript/atom/spec/text-editor-component-spec.js,"setScrollLeft component , scrollLeft )",49, 0, 0
+repos/javascript/atom/spec/text-editor-component-spec.js,"getHorizontalScrollbarHeight component )",61, 2, 0
+repos/javascript/atom/spec/text-editor-component-spec.js,"getVerticalScrollbarWidth component )",59, 2, 0
+repos/javascript/atom/spec/text-editor-component-spec.js,"assertDocumentFocused )",73, 4, 0
+repos/javascript/atom/spec/text-editor-component-spec.js,"getElementHeight element )",73, 4, 0
+repos/javascript/atom/spec/text-editor-component-spec.js,"getNextTickPromise )",61, 2, 0
+repos/javascript/atom/spec/text-editor-component-spec.js,"queryOnScreenLineNumberElements element )",74, 2, 0
+repos/javascript/atom/spec/text-editor-component-spec.js,"queryOnScreenLineElements element )",90, 2, 0
+repos/javascript/atom/spec/update-process-env-spec.js,"function )",47, 4, 0
+repos/javascript/atom/spec/update-process-env-spec.js,"function )",47, 4, 0
+repos/javascript/atom/spec/update-process-env-spec.js,"function )",156, 6, 0
+repos/javascript/atom/spec/update-process-env-spec.js,"function )",130, 6, 0
+repos/javascript/atom/spec/update-process-env-spec.js,"function )",129, 8, 0
+repos/javascript/atom/spec/update-process-env-spec.js,"function )",154, 6, 0
+repos/javascript/atom/spec/update-process-env-spec.js,"function )",183, 6, 0
+repos/javascript/atom/spec/update-process-env-spec.js,"function )",76, 4, 0
+repos/javascript/atom/spec/update-process-env-spec.js,"function )",183, 6, 0
+repos/javascript/atom/spec/update-process-env-spec.js,"function )",104, 6, 0
+repos/javascript/atom/spec/update-process-env-spec.js,"function )",104, 6, 0
+repos/javascript/atom/spec/update-process-env-spec.js,"function )",104, 6, 0
+repos/javascript/atom/spec/update-process-env-spec.js,"function )",104, 6, 0
+repos/javascript/atom/spec/update-process-env-spec.js,"function )",60, 6, 0
+repos/javascript/atom/spec/update-process-env-spec.js,"function )",60, 6, 0
+repos/javascript/atom/spec/update-process-env-spec.js,"function )",90, 6, 0
+repos/javascript/atom/spec/update-process-env-spec.js,"function )",121, 8, 0
+repos/javascript/atom/spec/update-process-env-spec.js,"function )",77, 6, 0
+repos/javascript/atom/spec/update-process-env-spec.js,"function )",121, 8, 0
+repos/javascript/atom/spec/update-process-env-spec.js,"function )",121, 8, 0
+repos/javascript/atom/spec/update-process-env-spec.js,"function )",183, 6, 0
+repos/javascript/atom/spec/path-watcher-spec.js,"function )",37, 4, 0
+repos/javascript/atom/spec/path-watcher-spec.js,"function )",32, 2, 0
+repos/javascript/atom/spec/path-watcher-spec.js,"waitForChanges watcher , ... fileNames )",52, 2, 0
+repos/javascript/atom/spec/path-watcher-spec.js,"function )",94, 4, 0
+repos/javascript/atom/spec/path-watcher-spec.js,"function )",138, 4, 0
+repos/javascript/atom/spec/path-watcher-spec.js,"function )",96, 4, 0
+repos/javascript/atom/spec/path-watcher-spec.js,"function )",94, 4, 0
+repos/javascript/atom/spec/path-watcher-spec.js,"function )",105, 4, 0
+repos/javascript/atom/spec/path-watcher-spec.js,"function )",102, 4, 0
+repos/javascript/atom/spec/path-watcher-spec.js,"function )",138, 4, 0
+repos/javascript/atom/spec/path-watcher-spec.js,"function )",138, 4, 0
+repos/javascript/atom/spec/pane-spec.js,"paneParams params )",53, 6, 0
+repos/javascript/atom/spec/pane-spec.js,"function { item } )",51, 8, 0
+repos/javascript/atom/spec/pane-spec.js,"function { item } )",54, 8, 0
+repos/javascript/atom/spec/pane-spec.js,"function item )",60, 6, 0
+repos/javascript/atom/spec/pane-spec.js,"function item )",63, 8, 0
+repos/javascript/atom/spec/pane-spec.js,"function notification )",97, 10, 0
+repos/javascript/atom/spec/pane-spec.js,"function notification )",97, 10, 0
+repos/javascript/atom/spec/pane-spec.js,"function notification )",97, 10, 0
+repos/javascript/atom/spec/config-file-spec.js,"writeFileSync filePath , content , seconds = 2 )",58, 0, 0
+repos/javascript/atom/spec/tooltip-manager-spec.js,"hover element , fn )",51, 4, 0
+repos/javascript/atom/spec/tooltip-manager-spec.js,"function )",90, 4, 0
+repos/javascript/atom/spec/tooltip-manager-spec.js,"function )",73, 10, 0
+repos/javascript/atom/spec/tooltip-manager-spec.js,"function )",75, 12, 0
+repos/javascript/atom/spec/tooltip-manager-spec.js,"function )",75, 12, 0
+repos/javascript/atom/spec/tooltip-manager-spec.js,"function )",75, 12, 0
+repos/javascript/atom/spec/tooltip-manager-spec.js,"function )",75, 12, 0
+repos/javascript/atom/spec/tooltip-manager-spec.js,"function )",73, 10, 0
+repos/javascript/atom/spec/tooltip-manager-spec.js,"function )",73, 10, 0
+repos/javascript/atom/spec/tooltip-manager-spec.js,"createElement className )",43, 2, 0
+repos/javascript/atom/spec/tooltip-manager-spec.js,"mouseEnter element )",73, 2, 0
+repos/javascript/atom/spec/tooltip-manager-spec.js,"mouseLeave element )",73, 2, 0
+repos/javascript/atom/spec/application-delegate-spec.js,"function )",102, 4, 0
+repos/javascript/atom/spec/application-delegate-spec.js,"function )",102, 4, 0
+repos/javascript/atom/spec/application-delegate-spec.js,"function )",102, 4, 0
+repos/javascript/atom/spec/grammar-registry-spec.js,"module.exports )",56, 10, 0
+repos/javascript/atom/spec/grammar-registry-spec.js,"module.exports )",56, 10, 0
+repos/javascript/atom/spec/grammar-registry-spec.js,"retainedBufferCount grammarRegistry )",52, 2, 0
+repos/javascript/atom/spec/grammar-registry-spec.js,"subscriptionCount grammarRegistry )",56, 2, 0
+repos/javascript/atom/spec/theme-manager-spec.js,"function )",47, 4, 0
+repos/javascript/atom/spec/theme-manager-spec.js,"function )",27, 8, 0
+repos/javascript/atom/spec/theme-manager-spec.js,"function )",58, 4, 0
+repos/javascript/atom/spec/theme-manager-spec.js,"function )",37, 6, 0
+repos/javascript/atom/spec/theme-manager-spec.js,"function )",53, 6, 0
+repos/javascript/atom/spec/theme-manager-spec.js,"function )",55, 10, 0
+repos/javascript/atom/spec/theme-manager-spec.js,"function )",60, 8, 0
+repos/javascript/atom/spec/theme-manager-spec.js,"function )",60, 8, 0
+repos/javascript/atom/spec/theme-manager-spec.js,"function )",92, 6, 0
+repos/javascript/atom/spec/theme-manager-spec.js,"function )",97, 6, 0
+repos/javascript/atom/spec/theme-manager-spec.js,"function )",78, 4, 0
+repos/javascript/atom/spec/theme-manager-spec.js,"function )",97, 6, 0
+repos/javascript/atom/spec/theme-manager-spec.js,"function )",45, 8, 0
+repos/javascript/atom/spec/theme-manager-spec.js,"function )",73, 8, 0
+repos/javascript/atom/spec/theme-manager-spec.js,"function )",114, 8, 0
+repos/javascript/atom/spec/theme-manager-spec.js,"function )",121, 8, 0
+repos/javascript/atom/spec/theme-manager-spec.js,"function )",82, 8, 0
+repos/javascript/atom/spec/theme-manager-spec.js,"function )",81, 8, 0
+repos/javascript/atom/spec/theme-manager-spec.js,"function )",121, 8, 0
+repos/javascript/atom/spec/theme-manager-spec.js,"function )",99, 8, 0
+repos/javascript/atom/spec/theme-manager-spec.js,"function )",82, 8, 0
+repos/javascript/atom/spec/theme-manager-spec.js,"function )",99, 8, 0
+repos/javascript/atom/spec/theme-manager-spec.js,"function )",121, 8, 0
+repos/javascript/atom/spec/theme-manager-spec.js,"function )",107, 6, 0
+repos/javascript/atom/spec/theme-manager-spec.js,"function )",107, 6, 0
+repos/javascript/atom/spec/theme-manager-spec.js,"function )",109, 6, 0
+repos/javascript/atom/spec/theme-manager-spec.js,"function )",113, 6, 0
+repos/javascript/atom/spec/theme-manager-spec.js,"function )",128, 4, 0
+repos/javascript/atom/spec/theme-manager-spec.js,"function )",128, 4, 0
+repos/javascript/atom/spec/theme-manager-spec.js,"function )",107, 6, 0
+repos/javascript/atom/spec/theme-manager-spec.js,"function )",120, 6, 0
+repos/javascript/atom/spec/theme-manager-spec.js,"function )",128, 4, 0
+repos/javascript/atom/spec/theme-manager-spec.js,"function )",79, 6, 0
+repos/javascript/atom/spec/theme-manager-spec.js,"function )",105, 8, 0
+repos/javascript/atom/spec/theme-manager-spec.js,"function )",105, 8, 0
+repos/javascript/atom/spec/theme-manager-spec.js,"function )",120, 10, 0
+repos/javascript/atom/spec/theme-manager-spec.js,"function )",120, 10, 0
+repos/javascript/atom/spec/theme-manager-spec.js,"function )",120, 10, 0
+repos/javascript/atom/spec/theme-manager-spec.js,"function )",86, 6, 0
+repos/javascript/atom/spec/theme-manager-spec.js,"function )",124, 10, 0
+repos/javascript/atom/spec/theme-manager-spec.js,"function )",95, 10, 0
+repos/javascript/atom/spec/theme-manager-spec.js,"function )",95, 10, 0
+repos/javascript/atom/spec/theme-manager-spec.js,"function )",124, 10, 0
+repos/javascript/atom/spec/theme-manager-spec.js,"function )",124, 10, 0
+repos/javascript/atom/spec/theme-manager-spec.js,"function )",77, 8, 0
+repos/javascript/atom/spec/theme-manager-spec.js,"function )",87, 8, 0
+repos/javascript/atom/spec/theme-manager-spec.js,"function )",107, 8, 0
+repos/javascript/atom/spec/theme-manager-spec.js,"function )",107, 8, 0
+repos/javascript/atom/spec/theme-manager-spec.js,"function event )",67, 8, 0
+repos/javascript/atom/spec/theme-manager-spec.js,"function )",87, 8, 0
+repos/javascript/atom/spec/theme-manager-spec.js,"function )",68, 8, 0
+repos/javascript/atom/spec/theme-manager-spec.js,"function )",87, 8, 0
+repos/javascript/atom/spec/theme-manager-spec.js,"function )",130, 6, 0
+repos/javascript/atom/spec/theme-manager-spec.js,"function )",130, 6, 0
+repos/javascript/atom/spec/theme-manager-spec.js,"function )",130, 6, 0
+repos/javascript/atom/spec/theme-manager-spec.js,"function )",130, 6, 0
+repos/javascript/atom/spec/theme-manager-spec.js,"function )",91, 6, 0
+repos/javascript/atom/spec/theme-manager-spec.js,"function )",90, 4, 0
+repos/javascript/atom/spec/theme-manager-spec.js,"function )",91, 6, 0
+repos/javascript/atom/spec/theme-manager-spec.js,"function )",78, 8, 0
+repos/javascript/atom/spec/theme-manager-spec.js,"function )",67, 8, 0
+repos/javascript/atom/spec/theme-manager-spec.js,"function )",90, 4, 0
+repos/javascript/atom/spec/theme-manager-spec.js,"function )",87, 8, 0
+repos/javascript/atom/spec/theme-manager-spec.js,"function )",69, 6, 0
+repos/javascript/atom/spec/theme-manager-spec.js,"function )",94, 4, 0
+repos/javascript/atom/spec/theme-manager-spec.js,"function )",83, 8, 0
+repos/javascript/atom/spec/theme-manager-spec.js,"function )",67, 8, 0
+repos/javascript/atom/spec/theme-manager-spec.js,"function )",83, 8, 0
+repos/javascript/atom/spec/theme-manager-spec.js,"function )",83, 8, 0
+repos/javascript/atom/spec/theme-manager-spec.js,"function )",67, 8, 0
+repos/javascript/atom/spec/theme-manager-spec.js,"function )",85, 4, 0
+repos/javascript/atom/spec/theme-manager-spec.js,"function )",94, 4, 0
+repos/javascript/atom/spec/theme-manager-spec.js,"*global*",130, 6, 0
+repos/javascript/atom/spec/theme-manager-spec.js,"getAbsolutePath directory , relativePath )",53, 0, 0
+repos/javascript/atom/spec/panel-container-element-spec.js,"createPanel )",48, 12, 0
+repos/javascript/atom/spec/atom-environment-spec.js,"function key )",105, 10, 0
+repos/javascript/atom/spec/text-editor-spec.js,"sort items )",43, 12, 0
+repos/javascript/atom/spec/text-editor-spec.js,"sort items )",43, 12, 0
+repos/javascript/atom/spec/text-editor-spec.js,"sort items )",43, 12, 0
+repos/javascript/atom/spec/text-editor-spec.js,"nosort items )",43, 12, 0
+repos/javascript/atom/spec/text-editor-spec.js,"quicksort )",44, 12, 0
+repos/javascript/atom/spec/text-editor-spec.js,"paragraphBufferRangeForRow row )",73, 10, 0
+repos/javascript/atom/spec/text-editor-spec.js,"function cursor )",50, 8, 0
+repos/javascript/atom/spec/text-editor-spec.js,"function position )",110, 8, 0
+repos/javascript/atom/spec/text-editor-spec.js,"copyText text , { startColumn , textEditor } = { } )",106, 10, 0
+repos/javascript/atom/spec/text-editor-spec.js,"function { text , cancel } )",62, 10, 0
+repos/javascript/atom/spec/text-editor-spec.js,"quicksort )",127, 12, 0
+repos/javascript/atom/spec/text-editor-spec.js,"foo )",27, 10, 0
+repos/javascript/atom/spec/text-editor-spec.js,"*global*",287, 14, 0
+repos/javascript/atom/spec/text-editor-spec.js,"quicksort )",123, 8, 0
+repos/javascript/atom/spec/text-editor-spec.js,"sort items )",124, 8, 0
+repos/javascript/atom/spec/text-editor-spec.js,"*global*",287, 14, 0
+repos/javascript/atom/spec/text-editor-spec.js,"convertToHardTabs buffer )",60, 2, 0
+repos/javascript/atom/spec/package-manager-spec.js,"createTestElement className )",50, 4, 0
+repos/javascript/atom/spec/workspace-spec.js,"simulateReload )",71, 6, 0
+repos/javascript/atom/spec/workspace-spec.js,"clearEvents )",40, 8, 0
+repos/javascript/atom/spec/workspace-spec.js,"TestItemElement )",71, 4, 0
+repos/javascript/atom/spec/workspace-spec.js,"Ctor )",60, 4, 0
+repos/javascript/atom/spec/workspace-spec.js,"TestItemElement.prototype.initialize model )",96, 4, 0
+repos/javascript/atom/spec/workspace-spec.js,"TestItemElement.prototype.getModel )",75, 4, 0
+repos/javascript/atom/spec/workspace-spec.js,"escapeStringRegex string )",55, 2, 0
+repos/javascript/atom/spec/fixtures/sample.js,"sort items )",66, 6, 0
+repos/javascript/atom/spec/fixtures/sample.js,"quicksort )",66, 6, 0
+repos/javascript/atom/spec/fixtures/sample-with-comments.js,"sort items )",72, 2, 0
+repos/javascript/atom/spec/fixtures/sample-with-comments.js,"quicksort )",72, 2, 0
+repos/javascript/atom/spec/fixtures/sample-with-many-folds.js,"f3 )",16, 0, 0
+repos/javascript/atom/spec/fixtures/sample-with-many-folds.js,"f8 )",16, 0, 0
+repos/javascript/atom/spec/fixtures/git/repo-with-submodules/You-Dont-Need-jQuery/karma.conf.js,"module.exports config )",121, 4, 0
+repos/javascript/atom/spec/fixtures/git/repo-with-submodules/You-Dont-Need-jQuery/test/query.spec.js,"function $el , i )",47, 6, 0
+repos/javascript/atom/spec/fixtures/git/repo-with-submodules/You-Dont-Need-jQuery/test/query.spec.js,"function $el , i )",47, 6, 0
+repos/javascript/atom/spec/fixtures/git/repo-with-submodules/You-Dont-Need-jQuery/test/query.spec.js,"function $el , i )",47, 6, 0
+repos/javascript/atom/spec/fixtures/git/repo-with-submodules/You-Dont-Need-jQuery/test/query.spec.js,"function $el , i )",47, 6, 0
+repos/javascript/atom/spec/fixtures/babel/invalid.js,"hello )",44, 0, 0
+repos/javascript/atom/spec/fixtures/native-cache/file-3.js,"module.exports )",43, 0, 0
+repos/javascript/atom/spec/fixtures/native-cache/file-1.js,"module.exports )",43, 0, 0
+repos/javascript/atom/spec/fixtures/native-cache/file-4.js,"module.exports )",49, 0, 0
+repos/javascript/atom/spec/fixtures/native-cache/file-2.js,"module.exports )",43, 0, 0
+repos/javascript/atom/spec/fixtures/packages/package-with-directory-provider/index.js,"exports.provideDirectoryProvider )",69, 4, 0
+repos/javascript/atom/spec/fixtures/packages/package-with-eval-time-api-calls/index.js,"function state )",60, 0, 0
+repos/javascript/atom/spec/fixtures/packages/package-with-eval-time-api-calls/index.js,"exports.activate )",34, 0, 0
+repos/javascript/atom/spec/fixtures/packages/package-with-url-main/index.js,"initialize )",41, 0, 0
+repos/javascript/atom/spec/helpers/random.js,"getRandomBufferRange random , buffer )",80, 0, 0
+repos/javascript/atom/spec/helpers/random.js,"buildRandomLines random , maxLines )",74, 0, 0
+repos/javascript/atom/spec/helpers/random.js,"buildRandomLine random )",66, 6, 0
+repos/javascript/atom/spec/main-process/atom-application.test.js,"getProjectDirectories )",123, 10, 0
+repos/javascript/atom/spec/main-process/atom-application.test.js,"function )",117, 8, 0
+repos/javascript/atom/spec/main-process/atom-application.test.js,"buildAtomApplication params = { } )",64, 4, 0
+repos/javascript/atom/spec/main-process/atom-application.test.js,"focusWindow window )",91, 4, 0
+repos/javascript/atom/spec/main-process/atom-application.test.js,"electron.app.quit )",79, 6, 0
+repos/javascript/atom/spec/main-process/atom-application.test.js,"mockElectronAppQuit )",79, 6, 0
+repos/javascript/atom/spec/main-process/atom-application.test.js,"mockElectronShowMessageBox { response } )",70, 4, 0
+repos/javascript/atom/spec/main-process/atom-application.test.js,"makeTempDir name )",49, 4, 0
+repos/javascript/atom/spec/main-process/atom-application.test.js,"receiveResult event , result )",70, 8, 0
+repos/javascript/atom/spec/main-process/atom-application.test.js,"sendBackToMainProcess result )",71, 10, 0
+repos/javascript/atom/spec/main-process/atom-application.test.js,"evalInWebContents webContents , source , ... args )",83, 8, 0
+repos/javascript/atom/spec/main-process/atom-application.test.js,"getTreeViewRootDirectories atomWindow )",94, 4, 0
+repos/javascript/atom/spec/main-process/atom-application.test.js,"clearElectronSession )",76, 8, 0
+repos/javascript/atom/spec/main-process/atom-application.test.js,"function )",144, 4, 0
+repos/javascript/atom/spec/main-process/mocha-test-runner.js,"module.exports testPaths )",60, 6, 0
+repos/javascript/atom/script/config.js,"getChannel version )",75, 4, 0
+repos/javascript/atom/script/config.js,"getAppName channel )",108, 4, 0
+repos/javascript/atom/script/config.js,"computeAppVersion version )",97, 4, 0
+repos/javascript/atom/script/config.js,"getApmBinPath )",91, 2, 0
+repos/javascript/atom/script/config.js,"getNpmBinPath external = false )",105, 2, 0
+repos/javascript/atom/script/lib/expand-glob-paths.js,"module.exports globPaths )",115, 2, 0
+repos/javascript/atom/script/lib/expand-glob-paths.js,"expandGlobPath globPath )",44, 2, 0
+repos/javascript/atom/script/lib/run-apm-install.js,"module.exports packagePath , ci , stdioOptions )",77, 2, 0
+repos/javascript/atom/script/lib/spawn-sync.js,"module.exports )",92, 4, 0
+repos/javascript/atom/script/lib/copy-assets.js,"module.exports )",132, 2, 0
+repos/javascript/atom/script/lib/copy-assets.js,"computeDestinationPath srcPath )",73, 2, 0
+repos/javascript/atom/script/lib/transpile-babel-paths.js,"module.exports )",74, 2, 0
+repos/javascript/atom/script/lib/transpile-babel-paths.js,"getPathsToTranspile )",118, 6, 0
+repos/javascript/atom/script/lib/transpile-babel-paths.js,"transpileBabelPath path )",84, 2, 0
+repos/javascript/atom/script/lib/delete-msbuild-from-path.js,"function p )",133, 10, 0
+repos/javascript/atom/script/lib/delete-msbuild-from-path.js,"module.exports )",133, 10, 0
+repos/javascript/atom/script/lib/clean-caches.js,"module.exports )",57, 4, 0
+repos/javascript/atom/script/lib/generate-metadata.js,"module.exports )",110, 2, 0
+repos/javascript/atom/script/lib/generate-metadata.js,"checkDeprecatedPackagesMetadata )",85, 6, 0
+repos/javascript/atom/script/lib/package-application.js,"module.exports )",105, 4, 0
+repos/javascript/atom/script/lib/package-application.js,"copyNonASARResources packagedAppPath , bundledResourcesPath )",155, 4, 0
+repos/javascript/atom/script/lib/package-application.js,"setAtomHelperVersion packagedAppPath )",135, 2, 0
+repos/javascript/atom/script/lib/package-application.js,"chmodNodeFiles packagedAppPath )",97, 2, 0
+repos/javascript/atom/script/lib/package-application.js,"buildAsarUnpackGlobExpression )",60, 4, 0
+repos/javascript/atom/script/lib/package-application.js,"getAppName )",39, 2, 0
+repos/javascript/atom/script/lib/package-application.js,"getIcon )",105, 6, 0
+repos/javascript/atom/script/lib/package-application.js,"runPackager options )",100, 8, 0
+repos/javascript/atom/script/lib/package-application.js,"renamePackagedAppDir packageOutputDirPath )",116, 4, 0
+repos/javascript/atom/script/lib/generate-startup-snapshot.js,"module.exports packagedAppPath )",151, 8, 0
+repos/javascript/atom/script/lib/download-file-from-github.js,"module.exports downloadURL , destinationPath )",88, 4, 0
+repos/javascript/atom/script/lib/lint-less-paths.js,"module.exports )",78, 10, 0
+repos/javascript/atom/script/lib/kill-running-atom-instances.js,"module.exports )",89, 4, 0
+repos/javascript/atom/script/lib/get-license-text.js,"module.exports )",108, 4, 0
+repos/javascript/atom/script/lib/lint-coffee-script-paths.js,"module.exports )",111, 8, 0
+repos/javascript/atom/script/lib/upload-to-s3.js,"listExistingAssetsForDirectory directory )",77, 4, 0
+repos/javascript/atom/script/lib/upload-to-s3.js,"deleteExistingAssets existingAssets )",81, 6, 0
+repos/javascript/atom/script/lib/upload-to-s3.js,"function promise , asset )",65, 8, 0
+repos/javascript/atom/script/lib/upload-to-s3.js,"uploadAssets assets , directory )",65, 8, 0
+repos/javascript/atom/script/lib/upload-to-s3.js,"uploadAsset directory , assetPath )",56, 8, 0
+repos/javascript/atom/script/lib/upload-to-s3.js,"module.exports s3Key , s3Secret , s3Bucket , directory , assets )",81, 6, 0
+repos/javascript/atom/script/lib/create-debian-package.js,"module.exports packagedAppPath )",130, 2, 0
+repos/javascript/atom/script/lib/install-script-dependencies.js,"module.exports ci )",51, 4, 0
+repos/javascript/atom/script/lib/transpile-cson-paths.js,"module.exports )",73, 2, 0
+repos/javascript/atom/script/lib/transpile-cson-paths.js,"getPathsToTranspile )",120, 6, 0
+repos/javascript/atom/script/lib/transpile-cson-paths.js,"transpileCsonPath csonPath )",108, 2, 0
+repos/javascript/atom/script/lib/prebuild-less-cache.js,"saveIntoSnapshotAuxiliaryData absoluteFilePath , content )",104, 4, 0
+repos/javascript/atom/script/lib/prebuild-less-cache.js,"cacheCompiledCSS lessCache , lessFilePath , importFallbackVariables )",81, 2, 0
+repos/javascript/atom/script/lib/prebuild-less-cache.js,"module.exports )",134, 8, 0
+repos/javascript/atom/script/lib/dependencies-fingerprint.js,"write )",82, 4, 0
+repos/javascript/atom/script/lib/dependencies-fingerprint.js,"read )",94, 4, 0
+repos/javascript/atom/script/lib/dependencies-fingerprint.js,"isOutdated )",64, 4, 0
+repos/javascript/atom/script/lib/dependencies-fingerprint.js,"compute )",103, 4, 0
+repos/javascript/atom/script/lib/verify-machine-requirements.js,"module.exports )",38, 2, 0
+repos/javascript/atom/script/lib/verify-machine-requirements.js,"verifyNode )",115, 4, 0
+repos/javascript/atom/script/lib/verify-machine-requirements.js,"verifyNpm )",102, 2, 0
+repos/javascript/atom/script/lib/verify-machine-requirements.js,"verifyPython )",140, 2, 0
+repos/javascript/atom/script/lib/generate-api-docs.js,"module.exports )",78, 2, 0
+repos/javascript/atom/script/lib/generate-api-docs.js,"getAPIDocsForDependencies )",95, 2, 0
+repos/javascript/atom/script/lib/generate-api-docs.js,"sortObjectByKey object )",52, 2, 0
+repos/javascript/atom/script/lib/upload-linux-packages.js,"uploadDebPackage version , filePath )",74, 4, 0
+repos/javascript/atom/script/lib/upload-linux-packages.js,"uploadRpmPackage version , filePath )",56, 2, 0
+repos/javascript/atom/script/lib/upload-linux-packages.js,"uploadPackage packageDetails )",61, 4, 0
+repos/javascript/atom/script/lib/upload-linux-packages.js,"uploadToPackageCloud packageDetails )",122, 10, 0
+repos/javascript/atom/script/lib/upload-linux-packages.js,"removePackageIfExists { version , type , arch , fileName , distroName , distroVersion , releaseSuffix } )",204, 10, 0
+repos/javascript/atom/script/lib/upload-linux-packages.js,"function packageRepoName , apiToken , version , artifacts )",204, 10, 0
+repos/javascript/atom/script/lib/upload-linux-packages.js,"*global*",204, 10, 0
+repos/javascript/atom/script/lib/upload-linux-packages.js,"*global*",204, 10, 0
+repos/javascript/atom/script/lib/code-sign-on-windows.js,"signFile fileToSign )",179, 6, 0
+repos/javascript/atom/script/lib/code-sign-on-windows.js,"module.exports filesToSign )",179, 6, 0
+repos/javascript/atom/script/lib/transpile-coffee-script-paths.js,"module.exports )",81, 2, 0
+repos/javascript/atom/script/lib/transpile-coffee-script-paths.js,"getPathsToTranspile )",122, 6, 0
+repos/javascript/atom/script/lib/transpile-coffee-script-paths.js,"transpileCoffeeScriptPath coffeePath )",92, 2, 0
+repos/javascript/atom/script/lib/lint-java-script-paths.js,"module.exports )",125, 14, 0
+repos/javascript/atom/script/lib/transpile-peg-js-paths.js,"module.exports )",75, 2, 0
+repos/javascript/atom/script/lib/transpile-peg-js-paths.js,"getPathsToTranspile )",136, 4, 0
+repos/javascript/atom/script/lib/transpile-peg-js-paths.js,"transpilePegJsPath pegJsPath )",90, 2, 0
+repos/javascript/atom/script/lib/install-apm.js,"module.exports ci )",58, 2, 0
+repos/javascript/atom/script/lib/compress-artifacts.js,"module.exports packagedAppPath )",89, 4, 0
+repos/javascript/atom/script/lib/compress-artifacts.js,"getArchiveName )",83, 4, 0
+repos/javascript/atom/script/lib/compress-artifacts.js,"getLinuxArchiveArch )",34, 0, 0
+repos/javascript/atom/script/lib/compress-artifacts.js,"compress inputDirPath , outputArchivePath )",83, 2, 0
+repos/javascript/atom/script/lib/code-sign-on-mac.js,"module.exports packagedAppPath )",134, 4, 0
+repos/javascript/atom/script/lib/generate-module-cache.js,"module.exports )",110, 2, 0
+repos/javascript/atom/script/lib/transpile-packages-with-custom-transpiler-paths.js,"module.exports )",122, 6, 0
+repos/javascript/atom/script/lib/transpile-packages-with-custom-transpiler-paths.js,"transpilePath path )",84, 2, 0
+repos/javascript/atom/script/lib/install-application.js,"install installationDirPath , packagedAppFileName , packagedAppPath )",102, 4, 0
+repos/javascript/atom/script/lib/install-application.js,"findBaseIconThemeDirPath )",79, 4, 0
+repos/javascript/atom/script/lib/install-application.js,"module.exports packagedAppPath , installDir )",148, 6, 0
+repos/javascript/atom/script/lib/clean-dependencies.js,"module.exports )",84, 2, 0
+repos/javascript/atom/script/lib/dump-symbols.js,"module.exports )",105, 4, 0
+repos/javascript/atom/script/lib/dump-symbols.js,"function error , content )",87, 10, 0
+repos/javascript/atom/script/lib/dump-symbols.js,"function resolve , reject )",87, 10, 0
+repos/javascript/atom/script/lib/dump-symbols.js,"dumpSymbol binaryPath )",87, 10, 0
+repos/javascript/atom/script/lib/clean-output-directory.js,"module.exports )",54, 4, 0
+repos/javascript/atom/script/lib/handle-tilde.js,"module.exports aPath )",96, 6, 0
+repos/javascript/atom/script/lib/backup-node-modules.js,"stubRestoreNodeModules )",57, 4, 0
+repos/javascript/atom/script/lib/backup-node-modules.js,"restoreNodeModules )",110, 6, 0
+repos/javascript/atom/script/lib/backup-node-modules.js,"module.exports packagePath )",110, 6, 0
+repos/javascript/atom/script/lib/read-files.js,"module.exports paths )",42, 2, 0
+repos/javascript/atom/script/lib/read-files.js,"readFile path )",52, 4, 0
+repos/javascript/atom/script/lib/create-rpm-package.js,"module.exports packagedAppPath )",136, 2, 0
+repos/javascript/atom/script/lib/check-chromedriver-version.js,"module.exports )",133, 4, 0
+repos/javascript/atom/script/lib/include-path-in-packaged-app.js,"module.exports filePath )",87, 2, 0
+repos/javascript/atom/script/lib/include-path-in-packaged-app.js,"escapeRegExp string )",56, 2, 0
+repos/javascript/atom/script/vsts/get-release-version.js,"getReleaseVersion )",122, 2, 0
+repos/javascript/atom/script/vsts/windows-run.js,"downloadX86Node )",124, 4, 0
+repos/javascript/atom/script/vsts/windows-run.js,"runScriptForBuildArch )",154, 4, 0
+repos/javascript/atom/packages/grammar-selector/spec/grammar-selector-spec.js,"getTooltipText element )",56, 2, 0
+repos/javascript/atom/packages/grammar-selector/spec/async-spec-helpers.js,"function )",52, 6, 0
+repos/javascript/atom/packages/grammar-selector/spec/async-spec-helpers.js,"beforeEach fn )",52, 6, 0
+repos/javascript/atom/packages/grammar-selector/spec/async-spec-helpers.js,"function )",51, 6, 0
+repos/javascript/atom/packages/grammar-selector/spec/async-spec-helpers.js,"afterEach fn )",51, 6, 0
+repos/javascript/atom/packages/grammar-selector/spec/async-spec-helpers.js,"function )",48, 8, 0
+repos/javascript/atom/packages/grammar-selector/spec/async-spec-helpers.js,"] description , fn )",48, 8, 0
+repos/javascript/atom/packages/grammar-selector/spec/async-spec-helpers.js,"function name )",58, 0, 0
+repos/javascript/atom/packages/grammar-selector/spec/async-spec-helpers.js,"waitsForPromise message , promise )",47, 6, 0
+repos/javascript/atom/packages/line-ending-selector/lib/status-bar-item.js,"lineEndingName lineEndings )",40, 0, 0
+repos/javascript/atom/packages/line-ending-selector/lib/status-bar-item.js,"lineEndingDescription lineEndings )",47, 0, 0
+repos/javascript/atom/packages/line-ending-selector/lib/main.js,"activate )",82, 12, 0
+repos/javascript/atom/packages/line-ending-selector/lib/main.js,"deactivate )",32, 0, 0
+repos/javascript/atom/packages/line-ending-selector/lib/main.js,"consumeStatusBar statusBar )",77, 6, 0
+repos/javascript/atom/packages/line-ending-selector/lib/main.js,"getDefaultLineEnding )",72, 6, 0
+repos/javascript/atom/packages/line-ending-selector/lib/main.js,"getLineEndings buffer )",60, 6, 0
+repos/javascript/atom/packages/line-ending-selector/lib/main.js,"setLineEnding item , lineEnding )",75, 4, 0
+repos/javascript/atom/packages/line-ending-selector/spec/line-ending-selector-spec.js,"getTooltipText element )",56, 2, 0
+repos/javascript/atom/packages/deprecation-cop/lib/deprecation-cop-view.js,"*global*",133, 10, 0
+repos/javascript/atom/packages/dev-live-reload/spec/async-spec-helpers.js,"function )",37, 4, 0
+repos/javascript/atom/packages/dev-live-reload/spec/async-spec-helpers.js,"beforeEach fn )",37, 4, 0
+repos/javascript/atom/packages/dev-live-reload/spec/async-spec-helpers.js,"function )",37, 4, 0
+repos/javascript/atom/packages/dev-live-reload/spec/async-spec-helpers.js,"afterEach fn )",37, 4, 0
+repos/javascript/atom/packages/dev-live-reload/spec/async-spec-helpers.js,"function )",44, 4, 0
+repos/javascript/atom/packages/dev-live-reload/spec/async-spec-helpers.js,"] description , fn )",54, 2, 0
+repos/javascript/atom/packages/dev-live-reload/spec/async-spec-helpers.js,"function name )",57, 0, 0
+repos/javascript/atom/packages/dev-live-reload/spec/async-spec-helpers.js,"conditionPromise condition , description = 'anonymous condition' )",90, 0, 0
+repos/javascript/atom/packages/dev-live-reload/spec/async-spec-helpers.js,"function resolve )",42, 2, 0
+repos/javascript/atom/packages/dev-live-reload/spec/async-spec-helpers.js,"timeoutPromise timeout )",43, 0, 0
+repos/javascript/atom/packages/dev-live-reload/spec/async-spec-helpers.js,"function error )",47, 6, 0
+repos/javascript/atom/packages/dev-live-reload/spec/async-spec-helpers.js,"function done )",63, 2, 0
+repos/javascript/atom/packages/dev-live-reload/spec/async-spec-helpers.js,"waitsForPromise fn )",63, 2, 0
+repos/javascript/atom/packages/dev-live-reload/spec/async-spec-helpers.js,"emitterEventPromise emitter , event , timeout = 15000 )",72, 0, 0
+repos/javascript/atom/packages/dev-live-reload/spec/async-spec-helpers.js,"function ... args )",46, 4, 0
+repos/javascript/atom/packages/dev-live-reload/spec/async-spec-helpers.js,"promisify original )",46, 4, 0
+repos/javascript/atom/packages/dev-live-reload/spec/async-spec-helpers.js,"promisifySome obj , fnNames )",47, 0, 0
+repos/javascript/atom/packages/git-diff/lib/helpers.js,"exports.repositoryForPath goalPath )",76, 4, 0
+repos/javascript/atom/packages/git-diff/spec/fixtures/working-dir/sample.js,"sort items )",66, 6, 0
+repos/javascript/atom/packages/git-diff/spec/fixtures/working-dir/sample.js,"quicksort )",66, 6, 0
+repos/javascript/atom/packages/one-light-ui/lib/main.js,"setFontSize currentFontSize )",47, 2, 0
+repos/javascript/atom/packages/one-light-ui/lib/main.js,"unsetFontSize )",28, 0, 0
+repos/javascript/atom/packages/one-light-ui/lib/main.js,"setTabSizing tabSizing )",77, 2, 0
+repos/javascript/atom/packages/one-light-ui/lib/main.js,"unsetTabSizing )",55, 2, 0
+repos/javascript/atom/packages/one-light-ui/lib/main.js,"setTabCloseButton tabCloseButton )",69, 4, 0
+repos/javascript/atom/packages/one-light-ui/lib/main.js,"unsetTabCloseButton )",62, 2, 0
+repos/javascript/atom/packages/one-light-ui/lib/main.js,"setHideDockButtons hideDockButtons )",67, 4, 0
+repos/javascript/atom/packages/one-light-ui/lib/main.js,"unsetHideDockButtons )",58, 2, 0
+repos/javascript/atom/packages/one-light-ui/lib/main.js,"setStickyHeaders stickyHeaders )",69, 4, 0
+repos/javascript/atom/packages/one-light-ui/lib/main.js,"unsetStickyHeaders )",60, 2, 0
+repos/javascript/atom/packages/about/spec/about-status-bar-spec.js,"function )",101, 6, 0
+repos/javascript/atom/packages/about/spec/about-status-bar-spec.js,"function )",101, 6, 0
+repos/javascript/atom/packages/about/spec/about-status-bar-spec.js,"function )",73, 8, 0
+repos/javascript/atom/packages/about/spec/update-view-spec.js,"function )",127, 10, 0
+repos/javascript/atom/packages/about/spec/helpers/async-spec-helpers.js,"function )",37, 4, 0
+repos/javascript/atom/packages/about/spec/helpers/async-spec-helpers.js,"beforeEach fn )",37, 4, 0
+repos/javascript/atom/packages/about/spec/helpers/async-spec-helpers.js,"function )",37, 4, 0
+repos/javascript/atom/packages/about/spec/helpers/async-spec-helpers.js,"afterEach fn )",37, 4, 0
+repos/javascript/atom/packages/about/spec/helpers/async-spec-helpers.js,"function )",44, 4, 0
+repos/javascript/atom/packages/about/spec/helpers/async-spec-helpers.js,"] description , fn )",54, 2, 0
+repos/javascript/atom/packages/about/spec/helpers/async-spec-helpers.js,"function name )",57, 0, 0
+repos/javascript/atom/packages/about/spec/helpers/async-spec-helpers.js,"conditionPromise condition )",56, 6, 0
+repos/javascript/atom/packages/about/spec/helpers/async-spec-helpers.js,"function resolve )",42, 2, 0
+repos/javascript/atom/packages/about/spec/helpers/async-spec-helpers.js,"timeoutPromise timeout )",43, 0, 0
+repos/javascript/atom/packages/about/spec/helpers/async-spec-helpers.js,"function error )",47, 6, 0
+repos/javascript/atom/packages/about/spec/helpers/async-spec-helpers.js,"function done )",63, 2, 0
+repos/javascript/atom/packages/about/spec/helpers/async-spec-helpers.js,"waitsForPromise fn )",63, 2, 0
+repos/javascript/atom/packages/go-to-line/spec/fixtures/sample.js,"sort items )",66, 6, 0
+repos/javascript/atom/packages/go-to-line/spec/fixtures/sample.js,"quicksort )",66, 6, 0
+repos/javascript/atom/packages/go-to-line/spec/fixtures/sample.js,"merge left , right )",66, 4, 0
+repos/javascript/atom/packages/go-to-line/spec/fixtures/sample.js,"swap items , firstIndex , secondIndex )",56, 2, 0
+repos/javascript/atom/packages/go-to-line/spec/fixtures/sample.js,"bubbleSort items )",56, 2, 0
+repos/javascript/atom/packages/one-dark-ui/lib/main.js,"setFontSize currentFontSize )",47, 2, 0
+repos/javascript/atom/packages/one-dark-ui/lib/main.js,"unsetFontSize )",28, 0, 0
+repos/javascript/atom/packages/one-dark-ui/lib/main.js,"setTabSizing tabSizing )",77, 2, 0
+repos/javascript/atom/packages/one-dark-ui/lib/main.js,"unsetTabSizing )",55, 2, 0
+repos/javascript/atom/packages/one-dark-ui/lib/main.js,"setTabCloseButton tabCloseButton )",69, 4, 0
+repos/javascript/atom/packages/one-dark-ui/lib/main.js,"unsetTabCloseButton )",62, 2, 0
+repos/javascript/atom/packages/one-dark-ui/lib/main.js,"setHideDockButtons hideDockButtons )",67, 4, 0
+repos/javascript/atom/packages/one-dark-ui/lib/main.js,"unsetHideDockButtons )",58, 2, 0
+repos/javascript/atom/packages/one-dark-ui/lib/main.js,"setStickyHeaders stickyHeaders )",69, 4, 0
+repos/javascript/atom/packages/one-dark-ui/lib/main.js,"unsetStickyHeaders )",60, 2, 0
+repos/javascript/atom/packages/incompatible-packages/lib/main.js,"activate )",56, 6, 0
+repos/javascript/atom/packages/incompatible-packages/lib/main.js,"deactivate )",32, 0, 0
+repos/javascript/atom/packages/incompatible-packages/lib/main.js,"consumeStatusBar statusBar )",73, 6, 0
+repos/javascript/atom/packages/incompatible-packages/lib/main.js,"deserializeIncompatiblePackagesComponent )",85, 2, 0
+repos/javascript/atom/packages/incompatible-packages/lib/main.js,"createIcon count )",65, 2, 0
+repos/javascript/atom/packages/incompatible-packages/spec/incompatible-packages-component-spec.js,"rebuild )",73, 10, 0
+repos/javascript/atom/packages/incompatible-packages/spec/incompatible-packages-component-spec.js,"].getBuildFailureOutput )",58, 8, 0
+repos/javascript/atom/packages/incompatible-packages/spec/incompatible-packages-spec.js,"findStatusBar )",62, 2, 0
+repos/javascript/atom/packages/link/spec/async-spec-helpers.js,"function )",37, 4, 0
+repos/javascript/atom/packages/link/spec/async-spec-helpers.js,"beforeEach fn )",37, 4, 0
+repos/javascript/atom/packages/link/spec/async-spec-helpers.js,"function )",37, 4, 0
+repos/javascript/atom/packages/link/spec/async-spec-helpers.js,"afterEach fn )",37, 4, 0
+repos/javascript/atom/packages/link/spec/async-spec-helpers.js,"function )",44, 4, 0
+repos/javascript/atom/packages/link/spec/async-spec-helpers.js,"] description , fn )",54, 2, 0
+repos/javascript/atom/packages/link/spec/async-spec-helpers.js,"function name )",57, 0, 0
+repos/javascript/atom/packages/link/spec/async-spec-helpers.js,"conditionPromise condition , description = 'anonymous condition' )",90, 0, 0
+repos/javascript/atom/packages/link/spec/async-spec-helpers.js,"function resolve )",42, 2, 0
+repos/javascript/atom/packages/link/spec/async-spec-helpers.js,"timeoutPromise timeout )",43, 0, 0
+repos/javascript/atom/packages/link/spec/async-spec-helpers.js,"function error )",47, 6, 0
+repos/javascript/atom/packages/link/spec/async-spec-helpers.js,"function done )",63, 2, 0
+repos/javascript/atom/packages/link/spec/async-spec-helpers.js,"waitsForPromise fn )",63, 2, 0
+repos/javascript/atom/packages/link/spec/async-spec-helpers.js,"emitterEventPromise emitter , event , timeout = 15000 )",72, 0, 0
+repos/javascript/atom/packages/link/spec/async-spec-helpers.js,"function ... args )",46, 4, 0
+repos/javascript/atom/packages/link/spec/async-spec-helpers.js,"promisify original )",46, 4, 0
+repos/javascript/atom/packages/link/spec/async-spec-helpers.js,"promisifySome obj , fnNames )",47, 0, 0
+repos/javascript/atom/packages/dalek/lib/dalek.js,"function error , realpath )",53, 6, 0
+repos/javascript/atom/packages/dalek/test/dalek.test.js,"function )",187, 6, 0
+repos/javascript/atom/packages/dalek/test/dalek.test.js,"function )",28, 4, 0
+repos/javascript/atom/packages/dalek/test/dalek.test.js,"function )",72, 6, 0
+repos/javascript/atom/packages/dalek/test/dalek.test.js,"function )",31, 6, 0
+repos/javascript/atom/packages/dalek/test/dalek.test.js,"function )",61, 6, 0
+repos/javascript/atom/packages/dalek/test/dalek.test.js,"function )",61, 6, 0
+repos/javascript/atom/packages/dalek/test/dalek.test.js,"function )",102, 8, 0
+repos/javascript/atom/packages/dalek/test/dalek.test.js,"function )",79, 6, 0
+repos/javascript/atom/packages/dalek/test/dalek.test.js,"function )",102, 8, 0
+repos/javascript/atom/packages/dalek/test/dalek.test.js,"function )",187, 6, 0
+repos/javascript/atom/packages/dalek/test/dalek.test.js,"function )",187, 6, 0
+repos/javascript/atom/packages/exception-reporting/lib/reporter.js,"reportWithoutPrivateMetadata )",47, 4, 0
+repos/javascript/atom/packages/exception-reporting/lib/reporter.js,"reportWithPrivateMetadata )",47, 6, 0
+repos/javascript/atom/packages/exception-reporting/lib/reporter.js,"*global*",184, 6, 0
+repos/javascript/atom/packages/exception-reporting/lib/main.js,"getReporter )",43, 4, 0
+repos/javascript/atom/static/index.js,"function error , promise )",87, 8, 0
+repos/javascript/atom/static/index.js,"Module.prototype.require module )",156, 6, 0
+repos/javascript/atom/static/index.js,"setupAtomHome )",99, 4, 0
+repos/javascript/atom/src/package.js,"function )",113, 12, 0
+repos/javascript/atom/src/coffee-script.js,"exports.shouldCompile )",38, 0, 0
+repos/javascript/atom/src/coffee-script.js,"exports.getCachePath sourceCode )",47, 0, 0
+repos/javascript/atom/src/ipc-helpers.js,"exports.on emitter , eventName , callback )",75, 2, 0
+repos/javascript/atom/src/ipc-helpers.js,"exports.call channel , ... args )",76, 2, 0
+repos/javascript/atom/src/ipc-helpers.js,"exports.respondTo channel , callback )",83, 2, 0
+repos/javascript/atom/src/electron-shims.js,"path.dirname path )",66, 4, 0
+repos/javascript/atom/src/electron-shims.js,"path.extname path )",66, 4, 0
+repos/javascript/atom/src/electron-shims.js,"path.basename path , ext )",84, 2, 0
+repos/javascript/atom/src/electron-shims.js,"electron.ipcRenderer.sendChannel )",80, 2, 0
+repos/javascript/atom/src/electron-shims.js,"electron.remote.require moduleName )",99, 6, 0
+repos/javascript/atom/src/menu-sort-helpers.js,"splitArray arr , predicate )",39, 0, 0
+repos/javascript/atom/src/menu-sort-helpers.js,"joinArrays arrays , joiner )",39, 0, 0
+repos/javascript/atom/src/menu-sort-helpers.js,"indexOfGroupContainingCommand groups , command , ignoreGroup )",72, 0, 0
+repos/javascript/atom/src/menu-sort-helpers.js,"visit id )",76, 6, 0
+repos/javascript/atom/src/menu-sort-helpers.js,"sortTopologically originalOrder , edgesById )",76, 6, 0
+repos/javascript/atom/src/menu-sort-helpers.js,"attemptToMergeAGroup groups )",76, 8, 0
+repos/javascript/atom/src/menu-sort-helpers.js,"mergeGroups groups )",48, 4, 0
+repos/javascript/atom/src/menu-sort-helpers.js,"sortItemsInGroup group )",76, 2, 0
+repos/javascript/atom/src/menu-sort-helpers.js,"findEdgesInGroup groups , i , edges )",73, 8, 0
+repos/javascript/atom/src/menu-sort-helpers.js,"sortGroups groups )",69, 2, 0
+repos/javascript/atom/src/menu-sort-helpers.js,"isSeparator item )",35, 2, 0
+repos/javascript/atom/src/menu-sort-helpers.js,"sortMenuItems menuItems )",81, 2, 0
+repos/javascript/atom/src/path-watcher.js,"watchPath rootPath , options , eventCallback )",85, 2, 0
+repos/javascript/atom/src/path-watcher.js,"stopAllWatchers )",55, 2, 0
+repos/javascript/atom/src/path-watcher.js,"watchPath.printWatchers )",45, 2, 0
+repos/javascript/atom/src/path-watcher.js,"watchPath.getRegistry )",51, 2, 0
+repos/javascript/atom/src/path-watcher.js,"watchPath.status )",46, 2, 0
+repos/javascript/atom/src/path-watcher.js,"watchPath.configure ... args )",43, 0, 0
+repos/javascript/atom/src/history-manager.js,"arrayEquivalent a , b )",42, 2, 0
+repos/javascript/atom/src/babel.js,"function prefix )",74, 0, 0
+repos/javascript/atom/src/babel.js,"function prefix )",43, 2, 0
+repos/javascript/atom/src/babel.js,"exports.shouldCompile sourceCode )",50, 2, 0
+repos/javascript/atom/src/babel.js,"exports.getCachePath sourceCode )",114, 4, 0
+repos/javascript/atom/src/babel.js,"noop )",30, 4, 0
+repos/javascript/atom/src/initialize-benchmark-window.js,"global.atom.menu.sendToBrowserProcess )",60, 4, 0
+repos/javascript/atom/src/initialize-benchmark-window.js,"console.log ... args )",47, 8, 0
+repos/javascript/atom/src/initialize-benchmark-window.js,"console.warn ... args )",47, 8, 0
+repos/javascript/atom/src/initialize-benchmark-window.js,"console.error ... args )",47, 8, 0
+repos/javascript/atom/src/initialize-benchmark-window.js,"function )",109, 8, 0
+repos/javascript/atom/src/initialize-benchmark-window.js,"exitWithStatusCode statusCode )",43, 0, 0
+repos/javascript/atom/src/window.js,"window.measure description , fn )",46, 0, 0
+repos/javascript/atom/src/window.js,"function )",44, 2, 0
+repos/javascript/atom/src/window.js,"window.profile description , fn )",46, 0, 0
+repos/javascript/atom/src/text-editor.js,"*global*",175, 2, 0
+repos/javascript/atom/src/text-editor.js,"*global*",175, 2, 0
+repos/javascript/atom/src/text-editor.js,"*global*",175, 2, 0
+repos/javascript/atom/src/text-editor.js,"*global*",175, 2, 0
+repos/javascript/atom/src/text-editor.js,"*global*",175, 2, 0
+repos/javascript/atom/src/text-editor.js,"*global*",175, 2, 0
+repos/javascript/atom/src/text-editor.js,"*global*",175, 2, 0
+repos/javascript/atom/src/text-editor.js,"*global*",175, 2, 0
+repos/javascript/atom/src/text-editor.js,"*global*",175, 2, 0
+repos/javascript/atom/src/text-editor.js,"*global*",175, 2, 0
+repos/javascript/atom/src/text-editor.js,"*global*",175, 2, 0
+repos/javascript/atom/src/text-editor.js,"*global*",175, 2, 0
+repos/javascript/atom/src/text-editor.js,"*global*",175, 2, 0
+repos/javascript/atom/src/text-editor.js,"*global*",175, 2, 0
+repos/javascript/atom/src/text-editor.js,"*global*",175, 2, 0
+repos/javascript/atom/src/text-editor.js,"columnForIndentLevel line , indentLevel , tabLength )",63, 0, 0
+repos/javascript/atom/src/text-editor.js,"columnRangeForStartDelimiter line , delimiter )",60, 2, 0
+repos/javascript/atom/src/text-editor.js,"columnRangeForEndDelimiter line , delimiter )",69, 2, 0
+repos/javascript/atom/src/application-delegate.js,"function event , path )",61, 4, 0
+repos/javascript/atom/src/tree-sitter-grammar.js,"matcherForSpec spec )",60, 4, 0
+repos/javascript/atom/src/tree-sitter-grammar.js,"normalizeFoldSpecification spec )",57, 2, 0
+repos/javascript/atom/src/tree-sitter-grammar.js,"buildRegex value )",71, 2, 0
+repos/javascript/atom/src/text-editor-component.js,"scaleMouseDragAutoscrollDelta delta )",49, 0, 0
+repos/javascript/atom/src/text-editor-component.js,"*global*",151, 6, 0
+repos/javascript/atom/src/text-editor-component.js,"*global*",151, 6, 0
+repos/javascript/atom/src/text-editor-component.js,"*global*",151, 6, 0
+repos/javascript/atom/src/text-editor-component.js,"*global*",151, 6, 0
+repos/javascript/atom/src/text-editor-component.js,"*global*",151, 6, 0
+repos/javascript/atom/src/text-editor-component.js,"*global*",151, 6, 0
+repos/javascript/atom/src/text-editor-component.js,"*global*",151, 6, 0
+repos/javascript/atom/src/text-editor-component.js,"*global*",151, 6, 0
+repos/javascript/atom/src/text-editor-component.js,"*global*",151, 6, 0
+repos/javascript/atom/src/text-editor-component.js,"*global*",151, 6, 0
+repos/javascript/atom/src/text-editor-component.js,"*global*",151, 6, 0
+repos/javascript/atom/src/text-editor-component.js,"*global*",151, 6, 0
+repos/javascript/atom/src/text-editor-component.js,"*global*",151, 6, 0
+repos/javascript/atom/src/text-editor-component.js,"*global*",151, 6, 0
+repos/javascript/atom/src/text-editor-component.js,"*global*",151, 6, 0
+repos/javascript/atom/src/text-editor-component.js,"*global*",151, 6, 0
+repos/javascript/atom/src/text-editor-component.js,"*global*",151, 6, 0
+repos/javascript/atom/src/text-editor-component.js,"*global*",151, 6, 0
+repos/javascript/atom/src/text-editor-component.js,"*global*",151, 6, 0
+repos/javascript/atom/src/text-editor-component.js,"*global*",151, 6, 0
+repos/javascript/atom/src/text-editor-component.js,"*global*",151, 6, 0
+repos/javascript/atom/src/text-editor-component.js,"*global*",151, 6, 0
+repos/javascript/atom/src/text-editor-component.js,"*global*",151, 6, 0
+repos/javascript/atom/src/text-editor-component.js,"*global*",151, 6, 0
+repos/javascript/atom/src/text-editor-component.js,"*global*",151, 6, 0
+repos/javascript/atom/src/text-editor-component.js,"*global*",151, 6, 0
+repos/javascript/atom/src/text-editor-component.js,"*global*",151, 6, 0
+repos/javascript/atom/src/text-editor-component.js,"*global*",151, 6, 0
+repos/javascript/atom/src/text-editor-component.js,"*global*",151, 6, 0
+repos/javascript/atom/src/text-editor-component.js,"*global*",151, 6, 0
+repos/javascript/atom/src/text-editor-component.js,"*global*",151, 6, 0
+repos/javascript/atom/src/text-editor-component.js,"*global*",151, 6, 0
+repos/javascript/atom/src/text-editor-component.js,"*global*",151, 6, 0
+repos/javascript/atom/src/text-editor-component.js,"*global*",151, 6, 0
+repos/javascript/atom/src/text-editor-component.js,"*global*",151, 6, 0
+repos/javascript/atom/src/text-editor-component.js,"*global*",151, 6, 0
+repos/javascript/atom/src/text-editor-component.js,"*global*",151, 6, 0
+repos/javascript/atom/src/text-editor-component.js,"*global*",151, 6, 0
+repos/javascript/atom/src/text-editor-component.js,"*global*",151, 6, 0
+repos/javascript/atom/src/text-editor-component.js,"*global*",151, 6, 0
+repos/javascript/atom/src/text-editor-component.js,"*global*",151, 6, 0
+repos/javascript/atom/src/text-editor-component.js,"*global*",151, 6, 0
+repos/javascript/atom/src/text-editor-component.js,"*global*",151, 6, 0
+repos/javascript/atom/src/text-editor-component.js,"*global*",151, 6, 0
+repos/javascript/atom/src/text-editor-component.js,"*global*",151, 6, 0
+repos/javascript/atom/src/text-editor-component.js,"*global*",151, 6, 0
+repos/javascript/atom/src/text-editor-component.js,"*global*",151, 6, 0
+repos/javascript/atom/src/text-editor-component.js,"*global*",151, 6, 0
+repos/javascript/atom/src/text-editor-component.js,"*global*",151, 6, 0
+repos/javascript/atom/src/text-editor-component.js,"*global*",151, 6, 0
+repos/javascript/atom/src/text-editor-component.js,"*global*",151, 6, 0
+repos/javascript/atom/src/text-editor-component.js,"*global*",151, 6, 0
+repos/javascript/atom/src/text-editor-component.js,"*global*",151, 6, 0
+repos/javascript/atom/src/text-editor-component.js,"*global*",151, 6, 0
+repos/javascript/atom/src/text-editor-component.js,"*global*",151, 6, 0
+repos/javascript/atom/src/text-editor-component.js,"*global*",151, 6, 0
+repos/javascript/atom/src/text-editor-component.js,"*global*",151, 6, 0
+repos/javascript/atom/src/text-editor-component.js,"*global*",151, 6, 0
+repos/javascript/atom/src/text-editor-component.js,"*global*",151, 6, 0
+repos/javascript/atom/src/text-editor-component.js,"*global*",151, 6, 0
+repos/javascript/atom/src/text-editor-component.js,"*global*",151, 6, 0
+repos/javascript/atom/src/text-editor-component.js,"*global*",151, 6, 0
+repos/javascript/atom/src/text-editor-component.js,"*global*",151, 6, 0
+repos/javascript/atom/src/text-editor-component.js,"*global*",151, 6, 0
+repos/javascript/atom/src/text-editor-component.js,"*global*",151, 6, 0
+repos/javascript/atom/src/text-editor-component.js,"*global*",151, 6, 0
+repos/javascript/atom/src/text-editor-component.js,"*global*",151, 6, 0
+repos/javascript/atom/src/text-editor-component.js,"*global*",151, 6, 0
+repos/javascript/atom/src/text-editor-component.js,"*global*",151, 6, 0
+repos/javascript/atom/src/text-editor-component.js,"*global*",151, 6, 0
+repos/javascript/atom/src/text-editor-component.js,"*global*",151, 6, 0
+repos/javascript/atom/src/text-editor-component.js,"*global*",151, 6, 0
+repos/javascript/atom/src/text-editor-component.js,"*global*",151, 6, 0
+repos/javascript/atom/src/text-editor-component.js,"*global*",151, 6, 0
+repos/javascript/atom/src/text-editor-component.js,"*global*",151, 6, 0
+repos/javascript/atom/src/text-editor-component.js,"*global*",151, 6, 0
+repos/javascript/atom/src/text-editor-component.js,"*global*",151, 6, 0
+repos/javascript/atom/src/text-editor-component.js,"*global*",151, 6, 0
+repos/javascript/atom/src/text-editor-component.js,"*global*",151, 6, 0
+repos/javascript/atom/src/text-editor-component.js,"*global*",151, 6, 0
+repos/javascript/atom/src/text-editor-component.js,"*global*",151, 6, 0
+repos/javascript/atom/src/text-editor-component.js,"*global*",151, 6, 0
+repos/javascript/atom/src/text-editor-component.js,"*global*",151, 6, 0
+repos/javascript/atom/src/text-editor-component.js,"*global*",151, 6, 0
+repos/javascript/atom/src/text-editor-component.js,"*global*",151, 6, 0
+repos/javascript/atom/src/text-editor-component.js,"*global*",151, 6, 0
+repos/javascript/atom/src/text-editor-component.js,"*global*",151, 6, 0
+repos/javascript/atom/src/text-editor-component.js,"*global*",151, 6, 0
+repos/javascript/atom/src/text-editor-component.js,"*global*",151, 6, 0
+repos/javascript/atom/src/text-editor-component.js,"*global*",151, 6, 0
+repos/javascript/atom/src/text-editor-component.js,"*global*",151, 6, 0
+repos/javascript/atom/src/text-editor-component.js,"*global*",151, 6, 0
+repos/javascript/atom/src/text-editor-component.js,"*global*",151, 6, 0
+repos/javascript/atom/src/text-editor-component.js,"*global*",151, 6, 0
+repos/javascript/atom/src/text-editor-component.js,"*global*",151, 6, 0
+repos/javascript/atom/src/text-editor-component.js,"*global*",151, 6, 0
+repos/javascript/atom/src/text-editor-component.js,"*global*",151, 6, 0
+repos/javascript/atom/src/text-editor-component.js,"*global*",151, 6, 0
+repos/javascript/atom/src/text-editor-component.js,"*global*",151, 6, 0
+repos/javascript/atom/src/text-editor-component.js,"*global*",151, 6, 0
+repos/javascript/atom/src/text-editor-component.js,"clientRectForRange textNode , startIndex , endIndex )",73, 2, 0
+repos/javascript/atom/src/text-editor-component.js,"textDecorationsEqual oldDecorations , newDecorations )",88, 6, 0
+repos/javascript/atom/src/text-editor-component.js,"arraysEqual a , b )",56, 2, 0
+repos/javascript/atom/src/text-editor-component.js,"objectsEqual a , b )",42, 6, 0
+repos/javascript/atom/src/text-editor-component.js,"constrainRangeToRows range , startRow , endRow )",63, 2, 0
+repos/javascript/atom/src/text-editor-component.js,"later )",47, 6, 0
+repos/javascript/atom/src/text-editor-component.js,"function )",52, 4, 0
+repos/javascript/atom/src/text-editor-component.js,"debounce fn , wait )",52, 4, 0
+repos/javascript/atom/src/text-editor-component.js,"*global*",151, 6, 0
+repos/javascript/atom/src/text-editor-component.js,"*global*",151, 6, 0
+repos/javascript/atom/src/text-editor-component.js,"*global*",151, 6, 0
+repos/javascript/atom/src/text-editor-component.js,"*global*",151, 6, 0
+repos/javascript/atom/src/text-editor-component.js,"*global*",151, 6, 0
+repos/javascript/atom/src/text-editor-component.js,"roundToPhysicalPixelBoundary virtualPixelPosition )",106, 2, 0
+repos/javascript/atom/src/text-editor-component.js,"ceilToPhysicalPixelBoundary virtualPixelPosition )",105, 2, 0
+repos/javascript/atom/src/dock.js,"getWidthOrHeight location )",74, 2, 0
+repos/javascript/atom/src/dock.js,"getPreferredSize item , location )",59, 6, 0
+repos/javascript/atom/src/dock.js,"getIconName location , visible )",78, 4, 0
+repos/javascript/atom/src/dock.js,"rectContainsPoint rect , point )",43, 0, 0
+repos/javascript/atom/src/dock.js,"isItemAllowed item , location )",66, 2, 0
+repos/javascript/atom/src/tree-sitter-language-mode.js,"*global*",122, 10, 0
+repos/javascript/atom/src/tree-sitter-language-mode.js,"*global*",122, 10, 0
+repos/javascript/atom/src/tree-sitter-language-mode.js,"*global*",122, 10, 0
+repos/javascript/atom/src/tree-sitter-language-mode.js,"*global*",122, 10, 0
+repos/javascript/atom/src/tree-sitter-language-mode.js,"*global*",122, 10, 0
+repos/javascript/atom/src/tree-sitter-language-mode.js,"*global*",122, 10, 0
+repos/javascript/atom/src/tree-sitter-language-mode.js,"*global*",122, 10, 0
+repos/javascript/atom/src/tree-sitter-language-mode.js,"*global*",122, 10, 0
+repos/javascript/atom/src/tree-sitter-language-mode.js,"*global*",122, 10, 0
+repos/javascript/atom/src/tree-sitter-language-mode.js,"*global*",122, 10, 0
+repos/javascript/atom/src/tree-sitter-language-mode.js,"*global*",122, 10, 0
+repos/javascript/atom/src/tree-sitter-language-mode.js,"*global*",122, 10, 0
+repos/javascript/atom/src/tree-sitter-language-mode.js,"*global*",122, 10, 0
+repos/javascript/atom/src/tree-sitter-language-mode.js,"*global*",122, 10, 0
+repos/javascript/atom/src/tree-sitter-language-mode.js,"*global*",122, 10, 0
+repos/javascript/atom/src/tree-sitter-language-mode.js,"*global*",122, 10, 0
+repos/javascript/atom/src/tree-sitter-language-mode.js,"*global*",122, 10, 0
+repos/javascript/atom/src/tree-sitter-language-mode.js,"*global*",122, 10, 0
+repos/javascript/atom/src/tree-sitter-language-mode.js,"*global*",122, 10, 0
+repos/javascript/atom/src/grammar-registry.js,"getGrammarSelectionContent buffer )",47, 0, 0
+repos/javascript/atom/src/compile-cache.js,"exports.addTranspilerConfigForPath packagePath , packageName , packageMeta , config )",105, 2, 0
+repos/javascript/atom/src/compile-cache.js,"exports.removeTranspilerConfigForPath packagePath )",74, 2, 0
+repos/javascript/atom/src/compile-cache.js,"exports.setAtomHomeDirectory atomHome )",108, 2, 0
+repos/javascript/atom/src/compile-cache.js,"exports.setCacheDirectory directory )",51, 0, 0
+repos/javascript/atom/src/compile-cache.js,"exports.getCacheDirectory )",42, 0, 0
+repos/javascript/atom/src/compile-cache.js,"exports.addPathToCache filePath , atomHome )",62, 6, 0
+repos/javascript/atom/src/compile-cache.js,"exports.getCacheStats )",38, 0, 0
+repos/javascript/atom/src/compile-cache.js,"function extension )",56, 2, 0
+repos/javascript/atom/src/compile-cache.js,"exports.resetCacheStats )",56, 2, 0
+repos/javascript/atom/src/compile-cache.js,"compileFileAtPath compiler , filePath , extension )",64, 4, 0
+repos/javascript/atom/src/compile-cache.js,"readCachedJavaScript relativeCachePath )",63, 2, 0
+repos/javascript/atom/src/compile-cache.js,"writeCachedJavaScript relativeCachePath , code )",63, 2, 0
+repos/javascript/atom/src/compile-cache.js,"retrieveSourceMap filePath )",89, 8, 0
+repos/javascript/atom/src/compile-cache.js,"prepareStackTraceWithRawStackAssignment error , frames )",69, 2, 0
+repos/javascript/atom/src/compile-cache.js,"get )",53, 6, 0
+repos/javascript/atom/src/compile-cache.js,"function )",63, 8, 0
+repos/javascript/atom/src/compile-cache.js,"set newValue )",63, 8, 0
+repos/javascript/atom/src/compile-cache.js,"Error.prototype.getRawStack )",86, 2, 0
+repos/javascript/atom/src/compile-cache.js,"value module , filePath )",68, 8, 0
+repos/javascript/atom/src/compile-cache.js,"function extension )",68, 8, 0
+repos/javascript/atom/src/compile-cache.js,"exports.install resourcesPath , nodeRequire )",89, 8, 0
+repos/javascript/atom/src/file-system-blob-store.js,"dump key , getBufferByKey )",78, 6, 0
+repos/javascript/atom/src/selectors.js,"parse selector )",45, 4, 0
+repos/javascript/atom/src/selectors.js,"matcherForSelector selector )",48, 2, 0
+repos/javascript/atom/src/selectors.js,"selectorMatchesAnyScope selector , scopes )",64, 2, 0
+repos/javascript/atom/src/text-editor-registry.js,"shouldEditorUseSoftTabs editor , tabType , softTabs )",63, 0, 0
+repos/javascript/atom/src/text-editor-registry.js,"noop )",20, 0, 0
+repos/javascript/atom/src/workspace.js,"onPathsSearched searcher , numberOfPathsSearched )",78, 8, 0
+repos/javascript/atom/src/workspace.js,"onPathsSearched )",39, 6, 0
+repos/javascript/atom/src/workspace.js,"onSuccess )",38, 6, 0
+repos/javascript/atom/src/workspace.js,"onFailure )",62, 8, 0
+repos/javascript/atom/src/native-compile-cache.js,"computeHash contents )",74, 2, 0
+repos/javascript/atom/src/native-compile-cache.js,"require path )",40, 8, 0
+repos/javascript/atom/src/native-compile-cache.js,"require.resolve request )",60, 8, 0
+repos/javascript/atom/src/native-compile-cache.js,"Module.prototype._compile content , filename )",103, 6, 0
+repos/javascript/atom/src/core-uri-handlers.js,"getLineColNumber numStr )",40, 2, 0
+repos/javascript/atom/src/core-uri-handlers.js,"openFile atom , { query } )",45, 4, 0
+repos/javascript/atom/src/core-uri-handlers.js,"windowShouldOpenFile { query } )",45, 2, 0
+repos/javascript/atom/src/core-uri-handlers.js,"coreURIHandler parsed )",46, 4, 0
+repos/javascript/atom/src/update-process-env.js,"updateProcessEnv launchEnv )",100, 6, 0
+repos/javascript/atom/src/update-process-env.js,"shouldGetEnvFromShell env )",112, 2, 0
+repos/javascript/atom/src/update-process-env.js,"getEnvFromShell env )",146, 4, 0
+repos/javascript/atom/src/pane.js,"promisify callback )",39, 4, 0
+repos/javascript/atom/src/package-manager.js,"function )",52, 8, 0
+repos/javascript/atom/src/menu-helpers.js,"addItemToMenu item , menu )",84, 2, 0
+repos/javascript/atom/src/menu-helpers.js,"merge menu , item , itemSpecificity = Infinity )",90, 2, 0
+repos/javascript/atom/src/menu-helpers.js,"unmerge menu , item )",75, 2, 0
+repos/javascript/atom/src/menu-helpers.js,"findMatchingItemIndex menu , { type , label , submenu } )",66, 0, 0
+repos/javascript/atom/src/menu-helpers.js,"normalizeLabel label )",73, 2, 0
+repos/javascript/atom/src/menu-helpers.js,"cloneMenuItem item )",79, 4, 0
+repos/javascript/atom/src/menu-helpers.js,"acceleratorForKeystroke keystroke )",47, 0, 0
+repos/javascript/atom/src/color.js,"parseColor colorString )",62, 2, 0
+repos/javascript/atom/src/color.js,"parseAlpha alphaString )",60, 2, 0
+repos/javascript/atom/src/color.js,"numberToHexString number )",39, 2, 0
+repos/javascript/atom/src/window-event-handler.js,"function )",56, 4, 0
+repos/javascript/atom/src/window-event-handler.js,"function )",56, 4, 0
+repos/javascript/atom/src/window-event-handler.js,"function element , tabIndex )",67, 6, 0
+repos/javascript/atom/src/window-event-handler.js,"function element , tabIndex )",71, 6, 0
+repos/javascript/atom/src/theme-manager.js,"*global*",139, 4, 0
+repos/javascript/atom/src/theme-manager.js,"*global*",139, 4, 0
+repos/javascript/atom/src/theme-manager.js,"*global*",139, 4, 0
+repos/javascript/atom/src/theme-manager.js,"*global*",139, 4, 0
+repos/javascript/atom/src/style-manager.js,"transformDeprecatedShadowDOMSelectors css , context )",132, 6, 0
+repos/javascript/atom/src/null-grammar.js,"noop )",20, 0, 0
+repos/javascript/atom/src/delegated-listener.js,"preventDefault )",42, 12, 0
+repos/javascript/atom/src/delegated-listener.js,"preventDefault )",38, 8, 0
+repos/javascript/atom/src/delegated-listener.js,"innerHandler event )",72, 8, 0
+repos/javascript/atom/src/delegated-listener.js,"function )",57, 4, 0
+repos/javascript/atom/src/delegated-listener.js,"listen element , eventName , selector , handler )",72, 8, 0
+repos/javascript/atom/src/task-bootstrap.js,"global.attachEvent )",38, 2, 0
+repos/javascript/atom/src/task-bootstrap.js,"setupGlobals )",65, 4, 0
+repos/javascript/atom/src/task-bootstrap.js,"async )",61, 6, 0
+repos/javascript/atom/src/task-bootstrap.js,"function { event , args } = { } )",67, 4, 0
+repos/javascript/atom/src/task-bootstrap.js,"handleEvents )",86, 2, 0
+repos/javascript/atom/src/task-bootstrap.js,"function )",92, 4, 0
+repos/javascript/atom/src/task-bootstrap.js,"setupDeprecations )",92, 4, 0
+repos/javascript/atom/src/tooltip-manager.js,"hideTooltip )",45, 6, 0
+repos/javascript/atom/src/tooltip-manager.js,"humanizeKeystrokes keystroke )",73, 2, 0
+repos/javascript/atom/src/tooltip-manager.js,"getKeystroke bindings )",90, 4, 0
+repos/javascript/atom/src/decoration-manager.js,"function decoration )",69, 6, 0
+repos/javascript/atom/src/decoration-manager.js,"function decoration )",54, 10, 0
+repos/javascript/atom/src/workspace-element.js,"distance pointA , pointB )",56, 6, 0
+repos/javascript/atom/src/workspace-element.js,"isTab element )",77, 4, 0
+repos/javascript/atom/src/syntax-scope-map.js,"setTableDefaults table , allowWildcardSelector )",69, 2, 0
+repos/javascript/atom/src/syntax-scope-map.js,"mergeTable table , defaultTable , mergeIndices = true )",65, 0, 0
+repos/javascript/atom/src/syntax-scope-map.js,"rejectSelector selector )",60, 2, 0
+repos/javascript/atom/src/crash-reporter-start.js,"module.exports extra )",48, 4, 0
+repos/javascript/atom/src/tooltip.js,"Tooltip element , options , viewRegistry )",58, 0, 0
+repos/javascript/atom/src/tooltip.js,"Tooltip.prototype.init element , options )",116, 4, 0
+repos/javascript/atom/src/tooltip.js,"Tooltip.prototype.startObservingMutations )",74, 4, 0
+repos/javascript/atom/src/tooltip.js,"Tooltip.prototype.stopObservingMutations )",57, 0, 0
+repos/javascript/atom/src/tooltip.js,"function )",45, 2, 0
+repos/javascript/atom/src/tooltip.js,"Tooltip.prototype.handleMutations )",50, 0, 0
+repos/javascript/atom/src/tooltip.js,"Tooltip.prototype.getDefaults )",46, 0, 0
+repos/javascript/atom/src/tooltip.js,"Tooltip.prototype.getOptions options )",60, 2, 0
+repos/javascript/atom/src/tooltip.js,"Tooltip.prototype.getDelegateOptions )",65, 4, 0
+repos/javascript/atom/src/tooltip.js,"function )",46, 4, 0
+repos/javascript/atom/src/tooltip.js,"Tooltip.prototype.enter event )",87, 2, 0
+repos/javascript/atom/src/tooltip.js,"Tooltip.prototype.isInStateTrue )",48, 0, 0
+repos/javascript/atom/src/tooltip.js,"function )",47, 4, 0
+repos/javascript/atom/src/tooltip.js,"Tooltip.prototype.leave event )",74, 2, 0
+repos/javascript/atom/src/tooltip.js,"Tooltip.prototype.show )",99, 6, 0
+repos/javascript/atom/src/tooltip.js,"Tooltip.prototype.applyPlacement offset , placement )",109, 2, 0
+repos/javascript/atom/src/tooltip.js,"Tooltip.prototype.replaceArrow delta , dimension , isVertical )",75, 0, 0
+repos/javascript/atom/src/tooltip.js,"Tooltip.prototype.setContent )",71, 2, 0
+repos/javascript/atom/src/tooltip.js,"function )",32, 6, 0
+repos/javascript/atom/src/tooltip.js,"Tooltip.prototype.hide callback )",84, 4, 0
+repos/javascript/atom/src/tooltip.js,"Tooltip.prototype.fixTitle )",116, 2, 0
+repos/javascript/atom/src/tooltip.js,"Tooltip.prototype.hasContent )",46, 2, 0
+repos/javascript/atom/src/tooltip.js,"Tooltip.prototype.getCalculatedOffset placement , pos , actualWidth , actualHeight )",117, 7, 0
+repos/javascript/atom/src/tooltip.js,"*global*",124, 2, 0
+repos/javascript/atom/src/tooltip.js,"extend )",58, 4, 0
+repos/javascript/atom/src/command-registry.js,"extractDescriptor name , listener )",91, 6, 0
+repos/javascript/atom/src/command-registry.js,"extractDidDispatch listener )",74, 2, 0
+repos/javascript/atom/src/decoration.js,"translateDecorationParamsOldToNew decorationParams )",72, 0, 0
+repos/javascript/atom/src/module-cache.js,"loadDependencies modulePath , rootPath , rootMetadata , moduleCache )",150, 4, 0
+repos/javascript/atom/src/module-cache.js,"onFile childPath )",76, 6, 0
+repos/javascript/atom/src/module-cache.js,"loadFolderCompatibility modulePath , rootPath , rootMetadata , moduleCache )",150, 4, 0
+repos/javascript/atom/src/module-cache.js,"onFile filePath )",124, 4, 0
+repos/javascript/atom/src/module-cache.js,"onDirectory childPath )",123, 8, 0
+repos/javascript/atom/src/module-cache.js,"loadExtensions modulePath , rootPath , rootMetadata , moduleCache )",124, 4, 0
+repos/javascript/atom/src/module-cache.js,"satisfies version , rawRange )",49, 2, 0
+repos/javascript/atom/src/module-cache.js,"resolveFilePath relativePath , parentModule )",106, 4, 0
+repos/javascript/atom/src/module-cache.js,"resolveModulePath relativePath , parentModule )",85, 2, 0
+repos/javascript/atom/src/module-cache.js,"registerBuiltins devMode )",113, 2, 0
+repos/javascript/atom/src/module-cache.js,"exports.create modulePath )",73, 2, 0
+repos/javascript/atom/src/module-cache.js,"Module._resolveFilename relativePath , parentModule )",79, 4, 0
+repos/javascript/atom/src/module-cache.js,"exports.register { resourcePath , devMode } = { } )",79, 4, 0
+repos/javascript/atom/src/module-cache.js,"exports.add directoryPath , metadata )",112, 6, 0
+repos/javascript/atom/src/project.js,"function buffer )",85, 10, 0
+repos/javascript/atom/src/protocol-handler-installer.js,"function )",35, 8, 0
+repos/javascript/atom/src/typescript.js,"exports.shouldCompile )",38, 0, 0
+repos/javascript/atom/src/typescript.js,"exports.getCachePath sourceCode )",99, 4, 0
+repos/javascript/atom/src/atom-environment.js,"pushFolderToOpen folder )",53, 6, 0
+repos/javascript/atom/src/atom-environment.js,"Promise.prototype.done callback )",98, 2, 0
+repos/javascript/atom/src/native-watcher-registry.js,"absolute ... parts )",81, 2, 0
+repos/javascript/atom/src/main-process/start.js,"function error = { } )",58, 2, 0
+repos/javascript/atom/src/main-process/start.js,"function error = { } )",59, 2, 0
+repos/javascript/atom/src/main-process/start.js,"function )",102, 6, 0
+repos/javascript/atom/src/main-process/start.js,"addPathToOpen event , pathToOpen )",47, 2, 0
+repos/javascript/atom/src/main-process/start.js,"addUrlToOpen event , urlToOpen )",45, 2, 0
+repos/javascript/atom/src/main-process/start.js,"function )",109, 4, 0
+repos/javascript/atom/src/main-process/start.js,"start resourcePath , devResourcePath , startTime )",109, 4, 0
+repos/javascript/atom/src/main-process/start.js,"handleStartupEventWithSquirrel )",65, 2, 0
+repos/javascript/atom/src/main-process/start.js,"getConfig )",79, 2, 0
+repos/javascript/atom/src/main-process/start.js,"normalizeDriveLetterName filePath )",93, 4, 0
+repos/javascript/atom/src/main-process/spawner.js,"exports.spawn command , args , callback )",85, 2, 0
+repos/javascript/atom/src/main-process/main.js,"isAtomRepoPath repoPath )",60, 2, 0
+repos/javascript/atom/src/main-process/parse-command-line.js,"parseCommandLine processArgs )",133, 2, 0
+repos/javascript/atom/src/main-process/parse-command-line.js,"*global*",133, 2, 0
+repos/javascript/atom/src/main-process/parse-command-line.js,"*global*",133, 2, 0
+repos/javascript/atom/src/main-process/parse-command-line.js,"*global*",133, 2, 0
+repos/javascript/atom/src/main-process/parse-command-line.js,"*global*",133, 2, 0
+repos/javascript/atom/src/main-process/parse-command-line.js,"*global*",133, 2, 0
+repos/javascript/atom/src/main-process/parse-command-line.js,"*global*",133, 2, 0
+repos/javascript/atom/src/main-process/parse-command-line.js,"*global*",133, 2, 0
+repos/javascript/atom/src/main-process/parse-command-line.js,"*global*",133, 2, 0
+repos/javascript/atom/src/main-process/parse-command-line.js,"*global*",133, 2, 0
+repos/javascript/atom/src/main-process/parse-command-line.js,"*global*",133, 2, 0
+repos/javascript/atom/src/main-process/auto-updater-win32.js,"function error , stdout )",84, 4, 0
+repos/javascript/atom/src/main-process/atom-application.js,"function )",48, 6, 0
+repos/javascript/atom/src/main-process/atom-application.js,"timeoutHandler )",112, 10, 0
+repos/javascript/atom/src/main-process/win-powershell.js,"spawnPowershell args , callback )",82, 2, 0
+repos/javascript/atom/src/main-process/win-powershell.js,"function error , stdout )",107, 2, 0
+repos/javascript/atom/src/main-process/file-recovery-service.js,"*global*",144, 12, 0
+repos/javascript/atom/vendor/jasmine.js,"jasmine.unimplementedMethod_ )",44, 0, 0
+repos/javascript/atom/vendor/jasmine.js,"getGlobal )",25, 2, 0
+repos/javascript/atom/vendor/jasmine.js,"jasmine.getGlobal )",33, 0, 0
+repos/javascript/atom/vendor/jasmine.js,"function )",46, 6, 0
+repos/javascript/atom/vendor/jasmine.js,"jasmine.bindOriginal_ base , name )",47, 0, 0
+repos/javascript/atom/vendor/jasmine.js,"jasmine.MessageResult values )",49, 2, 0
+repos/javascript/atom/vendor/jasmine.js,"jasmine.MessageResult.prototype.toString )",56, 0, 0
+repos/javascript/atom/vendor/jasmine.js,"jasmine.ExpectationResult params )",60, 2, 0
+repos/javascript/atom/vendor/jasmine.js,"jasmine.ExpectationResult.prototype.toString )",61, 0, 0
+repos/javascript/atom/vendor/jasmine.js,"jasmine.ExpectationResult.prototype.passed )",59, 0, 0
+repos/javascript/atom/vendor/jasmine.js,"jasmine.getEnv )",76, 2, 0
+repos/javascript/atom/vendor/jasmine.js,"jasmine.isArray_ value )",39, 2, 0
+repos/javascript/atom/vendor/jasmine.js,"jasmine.isString_ value )",40, 2, 0
+repos/javascript/atom/vendor/jasmine.js,"jasmine.isNumber_ value )",40, 2, 0
+repos/javascript/atom/vendor/jasmine.js,"jasmine.isA_ typeName , value )",81, 2, 0
+repos/javascript/atom/vendor/jasmine.js,"jasmine.pp value )",63, 2, 0
+repos/javascript/atom/vendor/jasmine.js,"jasmine.isDomNode obj )",36, 0, 0
+repos/javascript/atom/vendor/jasmine.js,"jasmine.any clazz )",42, 2, 0
+repos/javascript/atom/vendor/jasmine.js,"jasmine.objectContaining sample )",58, 4, 0
+repos/javascript/atom/vendor/jasmine.js,"this.plan )",27, 2, 0
+repos/javascript/atom/vendor/jasmine.js,"jasmine.Spy name )",69, 3, 0
+repos/javascript/atom/vendor/jasmine.js,"jasmine.Spy.prototype.andCallThrough )",52, 0, 0
+repos/javascript/atom/vendor/jasmine.js,"this.plan )",27, 2, 0
+repos/javascript/atom/vendor/jasmine.js,"jasmine.Spy.prototype.andReturn value )",52, 0, 0
+repos/javascript/atom/vendor/jasmine.js,"this.plan )",27, 2, 0
+repos/javascript/atom/vendor/jasmine.js,"jasmine.Spy.prototype.andThrow exceptionMsg )",58, 0, 0
+repos/javascript/atom/vendor/jasmine.js,"jasmine.Spy.prototype.andCallFake fakeFunc )",57, 0, 0
+repos/javascript/atom/vendor/jasmine.js,"jasmine.Spy.prototype.reset )",43, 0, 0
+repos/javascript/atom/vendor/jasmine.js,"spyObj )",52, 4, 0
+repos/javascript/atom/vendor/jasmine.js,"jasmine.createSpy name )",52, 4, 0
+repos/javascript/atom/vendor/jasmine.js,"jasmine.isSpy putativeSpy )",43, 2, 0
+repos/javascript/atom/vendor/jasmine.js,"jasmine.createSpyObj baseName , methodNames )",100, 4, 0
+repos/javascript/atom/vendor/jasmine.js,"jasmine.log )",43, 2, 0
+repos/javascript/atom/vendor/jasmine.js,"spyOn obj , methodName )",62, 2, 0
+repos/javascript/atom/vendor/jasmine.js,"it desc , func )",42, 2, 0
+repos/javascript/atom/vendor/jasmine.js,"xit desc , func )",43, 2, 0
+repos/javascript/atom/vendor/jasmine.js,"expect actual )",54, 2, 0
+repos/javascript/atom/vendor/jasmine.js,"runs func )",43, 2, 0
+repos/javascript/atom/vendor/jasmine.js,"waits timeout )",47, 2, 0
+repos/javascript/atom/vendor/jasmine.js,"waitsFor latchFunction , optional_timeoutMessage , optional_timeout )",88, 2, 0
+repos/javascript/atom/vendor/jasmine.js,"beforeEach beforeEachFunction )",51, 2, 0
+repos/javascript/atom/vendor/jasmine.js,"afterEach afterEachFunction )",49, 2, 0
+repos/javascript/atom/vendor/jasmine.js,"describe description , specDefinitions )",66, 2, 0
+repos/javascript/atom/vendor/jasmine.js,"xdescribe description , specDefinitions )",67, 2, 0
+repos/javascript/atom/vendor/jasmine.js,"tryIt f )",22, 2, 0
+repos/javascript/atom/vendor/jasmine.js,"function )",52, 4, 0
+repos/javascript/atom/vendor/jasmine.js,"function )",54, 6, 0
+repos/javascript/atom/vendor/jasmine.js,"function )",50, 6, 0
+repos/javascript/atom/vendor/jasmine.js,"function )",53, 6, 0
+repos/javascript/atom/vendor/jasmine.js,"function )",79, 0, 0
+repos/javascript/atom/vendor/jasmine.js,"subclass )",30, 2, 0
+repos/javascript/atom/vendor/jasmine.js,"jasmine.util.inherit childClass , parentClass )",59, 0, 0
+repos/javascript/atom/vendor/jasmine.js,"jasmine.util.formatException e )",84, 2, 0
+repos/javascript/atom/vendor/jasmine.js,"jasmine.util.htmlEscape str )",42, 0, 0
+repos/javascript/atom/vendor/jasmine.js,"jasmine.util.argsToArray args )",67, 2, 0
+repos/javascript/atom/vendor/jasmine.js,"jasmine.util.extend destination , source )",73, 2, 0
+repos/javascript/atom/vendor/jasmine.js,"this.specFilter )",33, 2, 0
+repos/javascript/atom/vendor/jasmine.js,"this.matchersClass )",45, 4, 0
+repos/javascript/atom/vendor/jasmine.js,"jasmine.Env )",78, 2, 0
+repos/javascript/atom/vendor/jasmine.js,"jasmine.Env.prototype.version )",46, 0, 0
+repos/javascript/atom/vendor/jasmine.js,"jasmine.Env.prototype.versionString )",81, 2, 0
+repos/javascript/atom/vendor/jasmine.js,"jasmine.Env.prototype.nextSpecId )",49, 0, 0
+repos/javascript/atom/vendor/jasmine.js,"jasmine.Env.prototype.nextSuiteId )",50, 0, 0
+repos/javascript/atom/vendor/jasmine.js,"jasmine.Env.prototype.addReporter reporter )",57, 0, 0
+repos/javascript/atom/vendor/jasmine.js,"jasmine.Env.prototype.execute )",45, 0, 0
+repos/javascript/atom/vendor/jasmine.js,"function )",64, 4, 0
+repos/javascript/atom/vendor/jasmine.js,"jasmine.Env.prototype.describe description , specDefinitions )",88, 2, 0
+repos/javascript/atom/vendor/jasmine.js,"jasmine.Env.prototype.beforeEach beforeEachFunction )",66, 0, 0
+repos/javascript/atom/vendor/jasmine.js,"jasmine.Env.prototype.currentRunner )",52, 0, 0
+repos/javascript/atom/vendor/jasmine.js,"jasmine.Env.prototype.afterEach afterEachFunction )",64, 0, 0
+repos/javascript/atom/vendor/jasmine.js,"execute )",26, 4, 0
+repos/javascript/atom/vendor/jasmine.js,"jasmine.Env.prototype.xdescribe desc , specDefinitions )",68, 0, 0
+repos/javascript/atom/vendor/jasmine.js,"jasmine.Env.prototype.it description , func )",69, 2, 0
+repos/javascript/atom/vendor/jasmine.js,"runs )",23, 4, 0
+repos/javascript/atom/vendor/jasmine.js,"jasmine.Env.prototype.xit desc , func )",51, 0, 0
+repos/javascript/atom/vendor/jasmine.js,"jasmine.Env.prototype.compareRegExps_ a , b , mismatchKeys , mismatchValues )",132, 4, 0
+repos/javascript/atom/vendor/jasmine.js,"hasKey obj , keyName )",63, 4, 0
+repos/javascript/atom/vendor/jasmine.js,"jasmine.Env.prototype.compareObjects_ a , b , mismatchKeys , mismatchValues )",261, 6, 0
+repos/javascript/atom/vendor/jasmine.js,"jasmine.Env.prototype.equals_ a , b , mismatchKeys , mismatchValues )",88, 2, 0
+repos/javascript/atom/vendor/jasmine.js,"jasmine.Env.prototype.contains_ haystack , needle )",63, 0, 0
+repos/javascript/atom/vendor/jasmine.js,"jasmine.Env.prototype.addEqualityTester equalityTester )",69, 0, 0
+repos/javascript/atom/vendor/jasmine.js,"jasmine.Reporter )",32, 0, 0
+repos/javascript/atom/vendor/jasmine.js,"jasmine.Reporter.prototype.reportRunnerStarting runner )",69, 0, 0
+repos/javascript/atom/vendor/jasmine.js,"jasmine.Reporter.prototype.reportRunnerResults runner )",68, 0, 0
+repos/javascript/atom/vendor/jasmine.js,"jasmine.Reporter.prototype.reportSuiteResults suite )",66, 0, 0
+repos/javascript/atom/vendor/jasmine.js,"jasmine.Reporter.prototype.reportSpecStarting spec )",65, 0, 0
+repos/javascript/atom/vendor/jasmine.js,"jasmine.Reporter.prototype.reportSpecResults spec )",64, 0, 0
+repos/javascript/atom/vendor/jasmine.js,"jasmine.Reporter.prototype.log str )",49, 0, 0
+repos/javascript/atom/vendor/jasmine.js,"jasmine.Block env , func , spec )",44, 0, 0
+repos/javascript/atom/vendor/jasmine.js,"jasmine.Block.prototype.execute onComplete )",57, 0, 0
+repos/javascript/atom/vendor/jasmine.js,"jasmine.JsApiReporter )",37, 0, 0
+repos/javascript/atom/vendor/jasmine.js,"jasmine.JsApiReporter.prototype.reportRunnerStarting runner )",74, 0, 0
+repos/javascript/atom/vendor/jasmine.js,"jasmine.JsApiReporter.prototype.suites )",54, 0, 0
+repos/javascript/atom/vendor/jasmine.js,"jasmine.JsApiReporter.prototype.summarize_ suiteOrSpec )",69, 0, 0
+repos/javascript/atom/vendor/jasmine.js,"jasmine.JsApiReporter.prototype.results )",55, 0, 0
+repos/javascript/atom/vendor/jasmine.js,"jasmine.JsApiReporter.prototype.resultsForSpec specId )",68, 0, 0
+repos/javascript/atom/vendor/jasmine.js,"jasmine.JsApiReporter.prototype.reportRunnerResults runner )",73, 0, 0
+repos/javascript/atom/vendor/jasmine.js,"jasmine.JsApiReporter.prototype.reportSuiteResults suite )",71, 0, 0
+repos/javascript/atom/vendor/jasmine.js,"jasmine.JsApiReporter.prototype.reportSpecResults spec )",69, 0, 0
+repos/javascript/atom/vendor/jasmine.js,"jasmine.JsApiReporter.prototype.log str )",54, 0, 0
+repos/javascript/atom/vendor/jasmine.js,"jasmine.JsApiReporter.prototype.resultsForSpecs specIds )",69, 0, 0
+repos/javascript/atom/vendor/jasmine.js,"jasmine.JsApiReporter.prototype.summarizeResult_ result )",111, 8, 0
+repos/javascript/atom/vendor/jasmine.js,"jasmine.Matchers env , actual , spec , opt_isNot )",60, 0, 0
+repos/javascript/atom/vendor/jasmine.js,"jasmine.Matchers.pp str )",101, 2, 0
+repos/javascript/atom/vendor/jasmine.js,"jasmine.Matchers.prototype.report result , failing_message , details )",117, 2, 0
+repos/javascript/atom/vendor/jasmine.js,"jasmine.Matchers.wrapInto_ prototype , matchersClass )",89, 4, 0
+repos/javascript/atom/vendor/jasmine.js,"function s )",110, 8, 0
+repos/javascript/atom/vendor/jasmine.js,"function )",110, 8, 0
+repos/javascript/atom/vendor/jasmine.js,"jasmine.Matchers.matcherFn_ matcherName , matcherFunction )",110, 8, 0
+repos/javascript/atom/vendor/jasmine.js,"jasmine.Matchers.prototype.toBe expected )",55, 0, 0
+repos/javascript/atom/vendor/jasmine.js,"jasmine.Matchers.prototype.toNotBe expected )",58, 0, 0
+repos/javascript/atom/vendor/jasmine.js,"jasmine.Matchers.prototype.toEqual expected )",58, 0, 0
+repos/javascript/atom/vendor/jasmine.js,"jasmine.Matchers.prototype.toNotEqual expected )",61, 0, 0
+repos/javascript/atom/vendor/jasmine.js,"jasmine.Matchers.prototype.toMatch expected )",58, 0, 0
+repos/javascript/atom/vendor/jasmine.js,"jasmine.Matchers.prototype.toNotMatch expected )",61, 0, 0
+repos/javascript/atom/vendor/jasmine.js,"jasmine.Matchers.prototype.toBeDefined )",54, 0, 0
+repos/javascript/atom/vendor/jasmine.js,"jasmine.Matchers.prototype.toBeUndefined )",56, 0, 0
+repos/javascript/atom/vendor/jasmine.js,"jasmine.Matchers.prototype.toBeNull )",51, 0, 0
+repos/javascript/atom/vendor/jasmine.js,"this.message )",68, 0, 2
+repos/javascript/atom/vendor/jasmine.js,"jasmine.Matchers.prototype.toBeNaN )",68, 0, 2
+repos/javascript/atom/vendor/jasmine.js,"jasmine.Matchers.prototype.toBeTruthy )",53, 0, 0
+repos/javascript/atom/vendor/jasmine.js,"jasmine.Matchers.prototype.toBeFalsy )",52, 0, 0
+repos/javascript/atom/vendor/jasmine.js,"this.message )",75, 6, 0
+repos/javascript/atom/vendor/jasmine.js,"jasmine.Matchers.prototype.toHaveBeenCalled )",91, 4, 0
+repos/javascript/atom/vendor/jasmine.js,"this.message )",76, 6, 0
+repos/javascript/atom/vendor/jasmine.js,"jasmine.Matchers.prototype.wasNotCalled )",81, 4, 0
+repos/javascript/atom/vendor/jasmine.js,"this.message )",213, 6, 0
+repos/javascript/atom/vendor/jasmine.js,"jasmine.Matchers.prototype.toHaveBeenCalledWith )",213, 6, 0
+repos/javascript/atom/vendor/jasmine.js,"this.message )",95, 6, 0
+repos/javascript/atom/vendor/jasmine.js,"jasmine.Matchers.prototype.wasNotCalledWith )",95, 6, 0
+repos/javascript/atom/vendor/jasmine.js,"jasmine.Matchers.prototype.toContain expected )",60, 0, 0
+repos/javascript/atom/vendor/jasmine.js,"jasmine.Matchers.prototype.toNotContain expected )",63, 0, 0
+repos/javascript/atom/vendor/jasmine.js,"jasmine.Matchers.prototype.toBeLessThan expected )",63, 0, 0
+repos/javascript/atom/vendor/jasmine.js,"jasmine.Matchers.prototype.toBeGreaterThan expected )",66, 0, 0
+repos/javascript/atom/vendor/jasmine.js,"jasmine.Matchers.prototype.toBeCloseTo expected , precision )",303, 6, 0
+repos/javascript/atom/vendor/jasmine.js,"jasmine.NestedResults.prototype.rollupCounts result )",66, 0, 0
+repos/javascript/atom/vendor/jasmine.js,"jasmine.NestedResults.prototype.log values )",57, 0, 0
+repos/javascript/atom/vendor/jasmine.js,"jasmine.NestedResults.prototype.getItems )",56, 0, 0
+repos/javascript/atom/vendor/jasmine.js,"jasmine.NestedResults.prototype.addResult result )",63, 0, 0
+repos/javascript/atom/vendor/jasmine.js,"jasmine.NestedResults.prototype.passed )",54, 0, 0
+repos/javascript/atom/vendor/jasmine.js,"jasmine.PrettyPrinter )",37, 0, 0
+repos/javascript/atom/vendor/jasmine.js,"jasmine.PrettyPrinter.prototype.format value )",103, 6, 0
+repos/javascript/atom/vendor/jasmine.js,"jasmine.PrettyPrinter.prototype.iterateObject obj , fn )",97, 4, 0
+repos/javascript/atom/vendor/jasmine.js,"jasmine.StringPrettyPrinter )",43, 0, 0
+repos/javascript/atom/vendor/jasmine.js,"jasmine.StringPrettyPrinter.prototype.emitScalar value )",69, 0, 0
+repos/javascript/atom/vendor/jasmine.js,"jasmine.StringPrettyPrinter.prototype.emitString value )",69, 0, 0
+repos/javascript/atom/vendor/jasmine.js,"jasmine.StringPrettyPrinter.prototype.emitArray array )",68, 0, 0
+repos/javascript/atom/vendor/jasmine.js,"function property , isGetter )",57, 2, 0
+repos/javascript/atom/vendor/jasmine.js,"jasmine.StringPrettyPrinter.prototype.emitObject obj )",67, 0, 0
+repos/javascript/atom/vendor/jasmine.js,"jasmine.StringPrettyPrinter.prototype.append value )",65, 0, 0
+repos/javascript/atom/vendor/jasmine.js,"jasmine.Queue env )",76, 2, 0
+repos/javascript/atom/vendor/jasmine.js,"jasmine.Queue.prototype.addBefore block , ensure )",62, 0, 0
+repos/javascript/atom/vendor/jasmine.js,"jasmine.Queue.prototype.add block , ensure )",56, 0, 0
+repos/javascript/atom/vendor/jasmine.js,"jasmine.Queue.prototype.insertNext block , ensure )",66, 2, 0
+repos/javascript/atom/vendor/jasmine.js,"jasmine.Queue.prototype.start onComplete )",55, 0, 0
+repos/javascript/atom/vendor/jasmine.js,"jasmine.Queue.prototype.isRunning )",49, 0, 0
+repos/javascript/atom/vendor/jasmine.js,"function )",43, 10, 0
+repos/javascript/atom/vendor/jasmine.js,"onComplete )",94, 8, 0
+repos/javascript/atom/vendor/jasmine.js,"jasmine.Queue.prototype.next_ )",94, 8, 0
+repos/javascript/atom/vendor/jasmine.js,"jasmine.Queue.prototype.results )",51, 6, 0
+repos/javascript/atom/vendor/jasmine.js,"jasmine.Runner env )",39, 2, 0
+repos/javascript/atom/vendor/jasmine.js,"function )",33, 2, 0
+repos/javascript/atom/vendor/jasmine.js,"jasmine.Runner.prototype.execute )",50, 4, 0
+repos/javascript/atom/vendor/jasmine.js,"jasmine.Runner.prototype.beforeEach beforeEachFunction )",69, 0, 0
+repos/javascript/atom/vendor/jasmine.js,"jasmine.Runner.prototype.afterEach afterEachFunction )",67, 0, 0
+repos/javascript/atom/vendor/jasmine.js,"jasmine.Runner.prototype.finishCallback )",55, 0, 0
+repos/javascript/atom/vendor/jasmine.js,"jasmine.Runner.prototype.addSuite suite )",54, 0, 0
+repos/javascript/atom/vendor/jasmine.js,"jasmine.Runner.prototype.add block )",49, 0, 0
+repos/javascript/atom/vendor/jasmine.js,"jasmine.Runner.prototype.specs )",47, 0, 0
+repos/javascript/atom/vendor/jasmine.js,"jasmine.Runner.prototype.suites )",47, 0, 0
+repos/javascript/atom/vendor/jasmine.js,"jasmine.Runner.prototype.topLevelSuites )",55, 0, 0
+repos/javascript/atom/vendor/jasmine.js,"jasmine.Runner.prototype.results )",48, 0, 0
+repos/javascript/atom/vendor/jasmine.js,"jasmine.Spec env , suite , description )",54, 2, 0
+repos/javascript/atom/vendor/jasmine.js,"jasmine.Spec.prototype.getFullName )",66, 2, 0
+repos/javascript/atom/vendor/jasmine.js,"jasmine.Spec.prototype.results )",46, 0, 0
+repos/javascript/atom/vendor/jasmine.js,"jasmine.Spec.prototype.log )",42, 0, 0
+repos/javascript/atom/vendor/jasmine.js,"jasmine.Spec.prototype.runs func )",55, 2, 0
+repos/javascript/atom/vendor/jasmine.js,"jasmine.Spec.prototype.addToQueue block )",55, 0, 0
+repos/javascript/atom/vendor/jasmine.js,"jasmine.Spec.prototype.addMatcherResult result )",61, 0, 0
+repos/javascript/atom/vendor/jasmine.js,"jasmine.Spec.prototype.expect actual )",79, 2, 0
+repos/javascript/atom/vendor/jasmine.js,"jasmine.Spec.prototype.waits timeout )",67, 2, 0
+repos/javascript/atom/vendor/jasmine.js,"jasmine.Spec.prototype.waitsFor latchFunction , optional_timeoutMessage , optional_timeout )",125, 2, 0
+repos/javascript/atom/vendor/jasmine.js,"jasmine.Spec.prototype.fail e )",64, 4, 0
+repos/javascript/atom/vendor/jasmine.js,"jasmine.Spec.prototype.getMatchersClass_ )",56, 0, 0
+repos/javascript/atom/vendor/jasmine.js,"newMatchersClass )",38, 2, 0
+repos/javascript/atom/vendor/jasmine.js,"jasmine.Spec.prototype.addMatchers matchersPrototype )",67, 0, 0
+repos/javascript/atom/vendor/jasmine.js,"jasmine.Spec.prototype.finishCallback )",53, 0, 0
+repos/javascript/atom/vendor/jasmine.js,"jasmine.Spec.prototype.finish onComplete )",55, 0, 0
+repos/javascript/atom/vendor/jasmine.js,"jasmine.Spec.prototype.after doAfter )",70, 4, 0
+repos/javascript/atom/vendor/jasmine.js,"function )",33, 2, 0
+repos/javascript/atom/vendor/jasmine.js,"jasmine.Spec.prototype.execute onComplete )",56, 0, 0
+repos/javascript/atom/vendor/jasmine.js,"jasmine.Spec.prototype.addBeforesAndAftersToQueue )",85, 4, 0
+repos/javascript/atom/vendor/jasmine.js,"jasmine.Spec.prototype.explodes )",57, 2, 0
+repos/javascript/atom/vendor/jasmine.js,"jasmine.Spec.prototype.spyOn obj , methodName , ignoreMethodDoesntExist )",84, 0, 0
+repos/javascript/atom/vendor/jasmine.js,"jasmine.Spec.prototype.removeAllSpies )",53, 0, 0
+repos/javascript/atom/vendor/jasmine.js,"jasmine.Suite env , description , specDefinitions , parentSuite )",75, 0, 0
+repos/javascript/atom/vendor/jasmine.js,"jasmine.Suite.prototype.getFullName )",97, 2, 0
+repos/javascript/atom/vendor/jasmine.js,"jasmine.Suite.prototype.finish onComplete )",56, 0, 0
+repos/javascript/atom/vendor/jasmine.js,"jasmine.Suite.prototype.beforeEach beforeEachFunction )",68, 0, 0
+repos/javascript/atom/vendor/jasmine.js,"jasmine.Suite.prototype.afterEach afterEachFunction )",66, 0, 0
+repos/javascript/atom/vendor/jasmine.js,"jasmine.Suite.prototype.results )",47, 0, 0
+repos/javascript/atom/vendor/jasmine.js,"jasmine.Suite.prototype.add suiteOrSpec )",54, 0, 0
+repos/javascript/atom/vendor/jasmine.js,"jasmine.Suite.prototype.specs )",45, 0, 0
+repos/javascript/atom/vendor/jasmine.js,"jasmine.Suite.prototype.suites )",46, 0, 0
+repos/javascript/atom/vendor/jasmine.js,"jasmine.Suite.prototype.children )",48, 0, 0
+repos/javascript/atom/vendor/jasmine.js,"function )",33, 2, 0
+repos/javascript/atom/vendor/jasmine.js,"jasmine.Suite.prototype.execute onComplete )",57, 0, 0
+repos/javascript/atom/vendor/jasmine.js,"jasmine.WaitsBlock env , timeout , spec )",52, 0, 0
+repos/javascript/atom/vendor/jasmine.js,"function )",36, 2, 0
+repos/javascript/atom/vendor/jasmine.js,"jasmine.WaitsBlock.prototype.execute onComplete )",80, 4, 0
+repos/javascript/atom/vendor/jasmine.js,"jasmine.WaitsForBlock env , timeout , latchFunction , message , spec )",79, 0, 0
+repos/javascript/atom/vendor/jasmine.js,"function )",49, 4, 0
+repos/javascript/atom/vendor/jasmine.js,"jasmine.WaitsForBlock.prototype.execute onComplete )",118, 4, 0
+repos/javascript/atom/vendor/jasmine.js,"function )",118, 4, 0
+repos/javascript/atom/vendor/jasmine.js,"jasmine.WaitsForBlock.prototype.waitForExplicitCompletion onComplete )",131, 2, 0
+repos/javascript/atom/vendor/jasmine.js,"jasmine.WaitsForBlock.MultiCompletion count , env , onComplete , timeoutHandle )",90, 0, 0
+repos/javascript/atom/vendor/jasmine.js,"jasmine.WaitsForBlock.MultiCompletion.prototype.attemptCompletion )",81, 0, 0
+repos/javascript/atom/vendor/jasmine.js,"function )",39, 4, 0
+repos/javascript/atom/vendor/jasmine.js,"jasmine.WaitsForBlock.MultiCompletion.prototype.buildCompletionFunction i )",88, 0, 0
+repos/javascript/atom/vendor/jasmine-jquery.js,"jasmine.JQuery )",31, 0, 0
+repos/javascript/atom/vendor/jasmine-jquery.js,"jasmine.JQuery.browserTagCaseIndependentHtml html )",64, 0, 0
+repos/javascript/atom/vendor/jasmine-jquery.js,"jasmine.JQuery.elementToString element )",53, 0, 0
+repos/javascript/atom/vendor/jasmine-jquery.js,"toHaveClass className )",55, 6, 0
+repos/javascript/atom/vendor/jasmine-jquery.js,"toBeVisible )",77, 6, 0
+repos/javascript/atom/vendor/jasmine-jquery.js,"toBeHidden )",77, 6, 0
+repos/javascript/atom/vendor/jasmine-jquery.js,"toBeSelected )",46, 4, 0
+repos/javascript/atom/vendor/jasmine-jquery.js,"toBeChecked )",46, 4, 0
+repos/javascript/atom/vendor/jasmine-jquery.js,"toBeEmpty )",46, 4, 0
+repos/javascript/atom/vendor/jasmine-jquery.js,"toExist )",46, 4, 0
+repos/javascript/atom/vendor/jasmine-jquery.js,"toHaveAttr attributeName , expectedAttributeValue )",69, 6, 0
+repos/javascript/atom/vendor/jasmine-jquery.js,"toHaveId id )",50, 6, 0
+repos/javascript/atom/vendor/jasmine-jquery.js,"toHaveHtml html )",76, 4, 0
+repos/javascript/atom/vendor/jasmine-jquery.js,"toHaveText text )",51, 4, 0
+repos/javascript/atom/vendor/jasmine-jquery.js,"toHaveValue value )",46, 4, 0
+repos/javascript/atom/vendor/jasmine-jquery.js,"toHaveData key , expectedValue )",75, 6, 0
+repos/javascript/atom/vendor/jasmine-jquery.js,"toMatchSelector selector )",46, 4, 0
+repos/javascript/atom/vendor/jasmine-jquery.js,"toContain contained )",52, 8, 0
+repos/javascript/atom/vendor/jasmine-jquery.js,"toBeDisabled selector )",46, 4, 0
+repos/javascript/atom/vendor/jasmine-jquery.js,"toHandle eventName )",50, 4, 0
+repos/javascript/atom/vendor/jasmine-jquery.js,"toHandleWith eventName , eventHandler )",54, 4, 0
+repos/javascript/atom/vendor/jasmine-jquery.js,"hasProperty actualValue , expectedValue )",57, 0, 0
+repos/javascript/atom/vendor/jasmine-jquery.js,"] )",83, 4, 0
+repos/javascript/atom/vendor/jasmine-jquery.js,"bindMatcher methodName )",83, 4, 0
+repos/javascript/atom/vendor/jasmine-jquery.js,"function )",49, 2, 0
