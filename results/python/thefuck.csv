@@ -1,0 +1,1268 @@
+File, Function, Total Width, Leading Space(s), Leading Tab(s)
+repos/python/thefuck/release.py,"get_new_setup_py_lines( )",76, 12, 0
+repos/python/thefuck/fastentrypoints.py,"get_args( cls , dist , header = None )",80, 16, 0
+repos/python/thefuck/fastentrypoints.py,"main( )",72, 16, 0
+repos/python/thefuck/tests/test_conf.py,"load_source( mocker )",52, 4, 0
+repos/python/thefuck/tests/test_conf.py,"test_settings_defaults( load_source , settings )",52, 4, 0
+repos/python/thefuck/tests/test_conf.py,"test_from_file( self , load_source , settings )",67, 40, 0
+repos/python/thefuck/tests/test_conf.py,"test_from_file_with_DEFAULT( self , load_source , settings )",78, 8, 0
+repos/python/thefuck/tests/test_conf.py,"test_from_env( self , os_environ , settings )",83, 27, 0
+repos/python/thefuck/tests/test_conf.py,"test_from_env_with_DEFAULT( self , os_environ , settings )",72, 8, 0
+repos/python/thefuck/tests/test_conf.py,"test_settings_from_args( settings )",59, 4, 0
+repos/python/thefuck/tests/test_conf.py,"test_ignore_if_exists( self , settings )",81, 8, 0
+repos/python/thefuck/tests/test_conf.py,"test_create_if_doesnt_exists( self , settings )",86, 16, 0
+repos/python/thefuck/tests/test_conf.py,"test_get_user_dir_path( mocker , os_environ , settings , legacy_dir_exists , xdg_config_home , result )",76, 0, 0
+repos/python/thefuck/tests/test_utils.py,"test_default_settings( settings , override , old , new )",57, 0, 0
+repos/python/thefuck/tests/test_utils.py,"test_memoize( )",33, 4, 0
+repos/python/thefuck/tests/test_utils.py,"test_no_memoize( )",30, 4, 0
+repos/python/thefuck/tests/test_utils.py,"test_when_can_match( self )",70, 8, 0
+repos/python/thefuck/tests/test_utils.py,"test_when_cant_match( self )",66, 8, 0
+repos/python/thefuck/tests/test_utils.py,"test_without_fallback( self )",60, 27, 0
+repos/python/thefuck/tests/test_utils.py,"test_call_with_n( self , difflib_mock )",49, 8, 0
+repos/python/thefuck/tests/test_utils.py,"test_call_without_n( self , difflib_mock , settings )",81, 8, 0
+repos/python/thefuck/tests/test_utils.py,"get_aliases( mocker )",66, 17, 0
+repos/python/thefuck/tests/test_utils.py,"test_get_all_executables( )",42, 4, 0
+repos/python/thefuck/tests/test_utils.py,"test_replace_argument( args , result )",45, 4, 0
+repos/python/thefuck/tests/test_utils.py,"test_get_all_matched_commands( stderr , result )",60, 4, 0
+repos/python/thefuck/tests/test_utils.py,"test_is_app( script , names , result )",57, 4, 0
+repos/python/thefuck/tests/test_utils.py,"test_for_app.match( command )",24, 4, 0
+repos/python/thefuck/tests/test_utils.py,"test_for_app( script , names , result )",48, 4, 0
+repos/python/thefuck/tests/test_utils.py,"shelve.__init__( self , path )",38, 12, 0
+repos/python/thefuck/tests/test_utils.py,"shelve.__setitem__( self , k , v )",41, 12, 0
+repos/python/thefuck/tests/test_utils.py,"shelve.__getitem__( self , k )",38, 12, 0
+repos/python/thefuck/tests/test_utils.py,"shelve.get( self , k , v = None )",39, 16, 0
+repos/python/thefuck/tests/test_utils.py,"shelve.close( self )",29, 12, 0
+repos/python/thefuck/tests/test_utils.py,"shelve( self , mocker )",80, 8, 0
+repos/python/thefuck/tests/test_utils.py,"enable_cache( self , monkeypatch , shelve )",67, 8, 0
+repos/python/thefuck/tests/test_utils.py,"mtime( self , mocker )",71, 8, 0
+repos/python/thefuck/tests/test_utils.py,"fn.fn( )",26, 12, 0
+repos/python/thefuck/tests/test_utils.py,"fn( self )",28, 8, 0
+repos/python/thefuck/tests/test_utils.py,"key( self , monkeypatch )",60, 8, 0
+repos/python/thefuck/tests/test_utils.py,"test_with_blank_cache( self , shelve , fn , key )",63, 8, 0
+repos/python/thefuck/tests/test_utils.py,"test_with_filled_cache( self , shelve , fn , key )",65, 8, 0
+repos/python/thefuck/tests/test_utils.py,"test_when_etag_changed( self , shelve , fn , key )",67, 8, 0
+repos/python/thefuck/tests/test_utils.py,"fail_on_warning( self )",39, 8, 0
+repos/python/thefuck/tests/test_utils.py,"history( self , mocker )",79, 42, 0
+repos/python/thefuck/tests/test_utils.py,"alias( self , mocker )",55, 8, 0
+repos/python/thefuck/tests/test_utils.py,"bins( self , mocker )",77, 8, 0
+repos/python/thefuck/tests/test_utils.py,"test_get_valid_history_without_current( self , script , result )",70, 4, 0
+repos/python/thefuck/tests/test_types.py,"test_equality( self )",59, 16, 0
+repos/python/thefuck/tests/test_types.py,"test_hashable( self )",79, 16, 0
+repos/python/thefuck/tests/test_types.py,"test_representable( self )",85, 15, 0
+repos/python/thefuck/tests/test_types.py,"test_run( self , capsys , settings , script , printed , override_settings )",78, 4, 0
+repos/python/thefuck/tests/test_types.py,"test_from_path( self , mocker )",71, 16, 0
+repos/python/thefuck/tests/test_types.py,"test_is_enabled( self , settings , rules , exclude_rules , rule , is_enabled )",81, 4, 0
+repos/python/thefuck/tests/test_types.py,"test_isnt_match( self )",55, 8, 0
+repos/python/thefuck/tests/test_types.py,"test_is_match( self )",55, 8, 0
+repos/python/thefuck/tests/test_types.py,"test_isnt_match_when_rule_failed( self , capsys )",76, 8, 0
+repos/python/thefuck/tests/test_types.py,"test_get_corrected_commands_with_rule_returns_list( self )",80, 8, 0
+repos/python/thefuck/tests/test_types.py,"test_get_corrected_commands_with_rule_returns_command( self )",71, 8, 0
+repos/python/thefuck/tests/test_types.py,"Popen( self , monkeypatch )",73, 8, 0
+repos/python/thefuck/tests/test_types.py,"prepare( self , monkeypatch )",73, 8, 0
+repos/python/thefuck/tests/test_types.py,"test_from_script_calls( self , Popen , settings , os_environ )",67, 4, 0
+repos/python/thefuck/tests/test_types.py,"test_from_script( self , script , result )",68, 12, 0
+repos/python/thefuck/tests/test_logs.py,"test_color( settings )",38, 4, 0
+repos/python/thefuck/tests/test_logs.py,"test_debug( capsys , settings , debug , stderr )",49, 0, 0
+repos/python/thefuck/tests/test_argument_parser.py,"_args( ** override )",61, 12, 0
+repos/python/thefuck/tests/test_argument_parser.py,"test_parse( argv , result )",48, 4, 0
+repos/python/thefuck/tests/test_readme.py,"test_readme( source_root )",71, 20, 0
+repos/python/thefuck/tests/test_ui.py,"patch_get_key.patch( vals )",70, 8, 0
+repos/python/thefuck/tests/test_ui.py,"patch_get_key( monkeypatch )",70, 8, 0
+repos/python/thefuck/tests/test_ui.py,"test_read_actions( patch_get_key )",62, 16, 0
+repos/python/thefuck/tests/test_ui.py,"test_command_selector( )",51, 4, 0
+repos/python/thefuck/tests/test_ui.py,"commands_with_side_effect( self )",62, 8, 0
+repos/python/thefuck/tests/test_ui.py,"commands( self )",51, 8, 0
+repos/python/thefuck/tests/test_ui.py,"test_without_commands( self , capsys )",63, 8, 0
+repos/python/thefuck/tests/test_ui.py,"test_without_confirmation( self , capsys , commands , settings )",77, 8, 0
+repos/python/thefuck/tests/test_ui.py,"test_without_confirmation_with_side_effects( self , capsys , commands_with_side_effect , settings )",64, 12, 0
+repos/python/thefuck/tests/test_ui.py,"test_with_confirmation( self , capsys , patch_get_key , commands )",79, 12, 0
+repos/python/thefuck/tests/test_ui.py,"test_with_confirmation_abort( self , capsys , patch_get_key , commands )",88, 12, 0
+repos/python/thefuck/tests/test_ui.py,"test_with_confirmation_with_side_effct( self , capsys , patch_get_key , commands_with_side_effect )",76, 4, 0
+repos/python/thefuck/tests/test_ui.py,"test_with_confirmation_select_second( self , capsys , patch_get_key , commands )",85, 4, 0
+repos/python/thefuck/tests/conftest.py,"pytest_addoption( parser )",79, 4, 0
+repos/python/thefuck/tests/conftest.py,"no_memoize( monkeypatch )",64, 4, 0
+repos/python/thefuck/tests/conftest.py,"settings._reset_settings( )",53, 8, 0
+repos/python/thefuck/tests/conftest.py,"settings( request )",53, 8, 0
+repos/python/thefuck/tests/conftest.py,"no_colors( settings )",30, 4, 0
+repos/python/thefuck/tests/conftest.py,"no_cache( monkeypatch )",62, 4, 0
+repos/python/thefuck/tests/conftest.py,"functional( request )",67, 12, 0
+repos/python/thefuck/tests/conftest.py,"source_root( )",50, 4, 0
+repos/python/thefuck/tests/conftest.py,"set_shell._set( cls )",59, 8, 0
+repos/python/thefuck/tests/conftest.py,"set_shell( monkeypatch )",59, 8, 0
+repos/python/thefuck/tests/conftest.py,"os_environ( monkeypatch )",43, 4, 0
+repos/python/thefuck/tests/test_corrector.py,"glob( self , mocker )",79, 21, 0
+repos/python/thefuck/tests/test_corrector.py,"load_source( self , monkeypatch )",57, 8, 0
+repos/python/thefuck/tests/test_corrector.py,"_compare_names( self , rules , names )",53, 8, 0
+repos/python/thefuck/tests/test_corrector.py,"test_get_rules( self , glob , settings , paths , conf_rules , exclude_rules , loaded_rules )",79, 4, 0
+repos/python/thefuck/tests/test_corrector.py,"test_get_corrected_commands( mocker )",78, 18, 0
+repos/python/thefuck/tests/test_corrector.py,"test_organize_commands( )",83, 4, 0
+repos/python/thefuck/tests/utils.py,"__init__( self , name = '' , match = lambda * _ : True , get_new_command = lambda * _ : '' , enabled_by_default = True , side_effect = None , priority = DEFAULT_PRIORITY , requires_output = True )",55, 4, 0
+repos/python/thefuck/tests/utils.py,"__init__( self , script = '' , side_effect = None , priority = DEFAULT_PRIORITY )",80, 4, 0
+repos/python/thefuck/tests/entrypoints/test_alias.py,"test_get_alias( monkeypatch , mocker , py2 , enable_experimental_instant_mode , which , is_instant )",53, 19, 0
+repos/python/thefuck/tests/entrypoints/test_not_configured.py,"usage_tracker( mocker )",85, 8, 0
+repos/python/thefuck/tests/entrypoints/test_not_configured.py,"usage_tracker_io( usage_tracker )",46, 17, 0
+repos/python/thefuck/tests/entrypoints/test_not_configured.py,"usage_tracker_exists( usage_tracker )",45, 17, 0
+repos/python/thefuck/tests/entrypoints/test_not_configured.py,"_assert_tracker_updated( usage_tracker_io , pid )",52, 0, 0
+repos/python/thefuck/tests/entrypoints/test_not_configured.py,"_change_tracker( usage_tracker_io , pid )",44, 0, 0
+repos/python/thefuck/tests/entrypoints/test_not_configured.py,"shell_pid( mocker )",77, 4, 0
+repos/python/thefuck/tests/entrypoints/test_not_configured.py,"shell( mocker )",69, 4, 0
+repos/python/thefuck/tests/entrypoints/test_not_configured.py,"shell_config( mocker )",72, 4, 0
+repos/python/thefuck/tests/entrypoints/test_not_configured.py,"logs( mocker )",67, 4, 0
+repos/python/thefuck/tests/entrypoints/test_not_configured.py,"test_for_generic_shell( shell , logs )",53, 4, 0
+repos/python/thefuck/tests/entrypoints/test_not_configured.py,"test_on_first_run( usage_tracker_io , usage_tracker_exists , shell_pid , logs )",80, 0, 0
+repos/python/thefuck/tests/entrypoints/test_not_configured.py,"test_on_run_after_other_commands( usage_tracker_io , shell_pid , shell , logs )",80, 0, 0
+repos/python/thefuck/tests/entrypoints/test_not_configured.py,"test_on_first_run_from_current_shell( usage_tracker_io , shell_pid , shell , logs )",70, 0, 0
+repos/python/thefuck/tests/entrypoints/test_not_configured.py,"test_when_cant_configure_automatically( shell_pid , shell , logs )",68, 0, 0
+repos/python/thefuck/tests/entrypoints/test_not_configured.py,"test_when_already_configured( usage_tracker_io , shell_pid , shell , shell_config , logs )",62, 0, 0
+repos/python/thefuck/tests/entrypoints/test_not_configured.py,"test_when_successfully_configured( usage_tracker_io , shell_pid , shell , shell_config , logs )",67, 0, 0
+repos/python/thefuck/tests/entrypoints/test_fix_command.py,"test_from_force_command_argument( self )",65, 8, 0
+repos/python/thefuck/tests/entrypoints/test_fix_command.py,"test_from_command_argument( self , os_environ )",54, 4, 0
+repos/python/thefuck/tests/entrypoints/test_fix_command.py,"test_from_history( self , os_environ , history , result )",62, 4, 0
+repos/python/thefuck/tests/rules/test_docker_not_command.py,"docker_help( mocker )",80, 4, 0
+repos/python/thefuck/tests/rules/test_docker_not_command.py,"output( cmd )",55, 4, 0
+repos/python/thefuck/tests/rules/test_docker_not_command.py,"test_match( )",55, 4, 0
+repos/python/thefuck/tests/rules/test_docker_not_command.py,"test_not_match( script , output )",46, 4, 0
+repos/python/thefuck/tests/rules/test_docker_not_command.py,"test_get_new_command( wrong , fixed )",78, 4, 0
+repos/python/thefuck/tests/rules/test_sl_ls.py,"test_match( )",40, 4, 0
+repos/python/thefuck/tests/rules/test_sl_ls.py,"test_get_new_command( )",54, 4, 0
+repos/python/thefuck/tests/rules/test_apt_upgrade.py,"test_match( )",70, 4, 0
+repos/python/thefuck/tests/rules/test_apt_upgrade.py,"test_not_match( command )",30, 4, 0
+repos/python/thefuck/tests/rules/test_apt_upgrade.py,"test_get_new_command( )",87, 4, 0
+repos/python/thefuck/tests/rules/test_git_rm_staged.py,"output( target )",88, 4, 0
+repos/python/thefuck/tests/rules/test_git_rm_staged.py,"test_match( output , script , target )",42, 4, 0
+repos/python/thefuck/tests/rules/test_git_rm_staged.py,"test_not_match( script )",42, 4, 0
+repos/python/thefuck/tests/rules/test_git_rm_staged.py,"test_get_new_command( output , script , target , new_command )",67, 4, 0
+repos/python/thefuck/tests/rules/test_git_pull_clone.py,"test_match( command )",26, 4, 0
+repos/python/thefuck/tests/rules/test_git_pull_clone.py,"test_get_new_command( command , output )",46, 4, 0
+repos/python/thefuck/tests/rules/test_git_add_force.py,"output( )",81, 4, 0
+repos/python/thefuck/tests/rules/test_git_add_force.py,"test_match( output )",55, 4, 0
+repos/python/thefuck/tests/rules/test_git_add_force.py,"test_get_new_command( output )",66, 4, 0
+repos/python/thefuck/tests/rules/test_ifconfig_device_not_found.py,"ifconfig( mocker )",68, 8, 0
+repos/python/thefuck/tests/rules/test_ifconfig_device_not_found.py,"test_match( script , output )",42, 4, 0
+repos/python/thefuck/tests/rules/test_ifconfig_device_not_found.py,"test_not_match( script , output )",46, 4, 0
+repos/python/thefuck/tests/rules/test_ifconfig_device_not_found.py,"test_get_new_comman( script , result )",49, 8, 0
+repos/python/thefuck/tests/rules/test_heroku_multiple_apps.py,"test_match( cmd )",58, 8, 0
+repos/python/thefuck/tests/rules/test_heroku_multiple_apps.py,"test_not_match( script , output )",46, 4, 0
+repos/python/thefuck/tests/rules/test_heroku_multiple_apps.py,"test_get_new_command( cmd , result )",63, 4, 0
+repos/python/thefuck/tests/rules/test_man.py,"test_match( command )",26, 4, 0
+repos/python/thefuck/tests/rules/test_man.py,"test_not_match( command )",30, 4, 0
+repos/python/thefuck/tests/rules/test_man.py,"test_get_new_command( command , new_command )",51, 4, 0
+repos/python/thefuck/tests/rules/test_git_merge_unrelated.py,"test_match( )",54, 4, 0
+repos/python/thefuck/tests/rules/test_git_merge_unrelated.py,"test_get_new_command( command , new_command )",51, 4, 0
+repos/python/thefuck/tests/rules/test_git_diff_staged.py,"test_match( command )",26, 4, 0
+repos/python/thefuck/tests/rules/test_git_diff_staged.py,"test_not_match( command )",30, 4, 0
+repos/python/thefuck/tests/rules/test_git_diff_staged.py,"test_get_new_command( command , new_command )",51, 4, 0
+repos/python/thefuck/tests/rules/test_python_execute.py,"test_match( command )",26, 4, 0
+repos/python/thefuck/tests/rules/test_python_execute.py,"test_get_new_command( command , new_command )",51, 4, 0
+repos/python/thefuck/tests/rules/test_brew_reinstall.py,"test_match( )",54, 4, 0
+repos/python/thefuck/tests/rules/test_brew_reinstall.py,"test_not_match( script )",42, 4, 0
+repos/python/thefuck/tests/rules/test_brew_reinstall.py,"test_get_new_command( script , formula )",54, 4, 0
+repos/python/thefuck/tests/rules/test_git_remote_delete.py,"test_match( )",55, 4, 0
+repos/python/thefuck/tests/rules/test_git_remote_delete.py,"test_not_match( command )",30, 4, 0
+repos/python/thefuck/tests/rules/test_git_remote_delete.py,"test_get_new_command( command , new_command )",51, 4, 0
+repos/python/thefuck/tests/rules/test_cd_mkdir.py,"test_match( command )",26, 4, 0
+repos/python/thefuck/tests/rules/test_cd_mkdir.py,"test_not_match( command )",30, 4, 0
+repos/python/thefuck/tests/rules/test_cd_mkdir.py,"test_get_new_command( command , new_command )",51, 4, 0
+repos/python/thefuck/tests/rules/test_git_add.py,"path_exists( mocker )",61, 4, 0
+repos/python/thefuck/tests/rules/test_git_add.py,"output( target )",54, 4, 0
+repos/python/thefuck/tests/rules/test_git_add.py,"test_match( output , script , target )",42, 4, 0
+repos/python/thefuck/tests/rules/test_git_add.py,"test_not_match( path_exists , output , script , target , exists )",65, 0, 0
+repos/python/thefuck/tests/rules/test_git_add.py,"test_get_new_command( output , script , target , new_command )",67, 4, 0
+repos/python/thefuck/tests/rules/test_prove_recursively.py,"isdir( mocker )",58, 4, 0
+repos/python/thefuck/tests/rules/test_prove_recursively.py,"test_match( isdir , script , output )",39, 0, 0
+repos/python/thefuck/tests/rules/test_prove_recursively.py,"test_not_match( isdir , script , output , isdir_result )",57, 0, 0
+repos/python/thefuck/tests/rules/test_prove_recursively.py,"test_get_new_command( before , after )",45, 4, 0
+repos/python/thefuck/tests/rules/test_npm_wrong_command.py,"test_match( script )",42, 4, 0
+repos/python/thefuck/tests/rules/test_npm_wrong_command.py,"test_not_match( script , output )",46, 4, 0
+repos/python/thefuck/tests/rules/test_npm_wrong_command.py,"test_get_new_command( script , result )",62, 4, 0
+repos/python/thefuck/tests/rules/test_php_s.py,"test_match( command )",26, 4, 0
+repos/python/thefuck/tests/rules/test_php_s.py,"test_not_match( command )",30, 4, 0
+repos/python/thefuck/tests/rules/test_php_s.py,"test_get_new_command( command , new_command )",51, 4, 0
+repos/python/thefuck/tests/rules/test_scm_correction.py,"get_actual_scm_mock( mocker )",72, 4, 0
+repos/python/thefuck/tests/rules/test_scm_correction.py,"test_match( get_actual_scm_mock , script , output , actual_scm )",65, 0, 0
+repos/python/thefuck/tests/rules/test_scm_correction.py,"test_not_match( get_actual_scm_mock , script , output , actual_scm )",69, 0, 0
+repos/python/thefuck/tests/rules/test_scm_correction.py,"test_get_new_command( get_actual_scm_mock , script , actual_scm , result )",75, 0, 0
+repos/python/thefuck/tests/rules/test_apt_list_upgradable.py,"test_match( )",59, 4, 0
+repos/python/thefuck/tests/rules/test_apt_list_upgradable.py,"test_not_match( command )",30, 4, 0
+repos/python/thefuck/tests/rules/test_apt_list_upgradable.py,"test_get_new_command( )",76, 4, 0
+repos/python/thefuck/tests/rules/test_ssh_known_host.py,"ssh_error.reset( path )",51, 16, 0
+repos/python/thefuck/tests/rules/test_ssh_known_host.py,"ssh_error.known_hosts( path )",36, 8, 0
+repos/python/thefuck/tests/rules/test_ssh_known_host.py,"ssh_error( tmpdir )",79, 4, 0
+repos/python/thefuck/tests/rules/test_ssh_known_host.py,"test_match( ssh_error )",63, 4, 0
+repos/python/thefuck/tests/rules/test_ssh_known_host.py,"test_side_effect( ssh_error )",88, 4, 0
+repos/python/thefuck/tests/rules/test_ssh_known_host.py,"test_get_new_command( ssh_error , monkeypatch )",82, 4, 0
+repos/python/thefuck/tests/rules/test_brew_uninstall.py,"output( )",85, 4, 0
+repos/python/thefuck/tests/rules/test_brew_uninstall.py,"new_command( formula )",55, 4, 0
+repos/python/thefuck/tests/rules/test_brew_uninstall.py,"test_match( output , script )",42, 4, 0
+repos/python/thefuck/tests/rules/test_brew_uninstall.py,"test_not_match( script )",84, 4, 0
+repos/python/thefuck/tests/rules/test_brew_uninstall.py,"test_get_new_command( output , new_command , script , formula )",67, 4, 0
+repos/python/thefuck/tests/rules/test_gradle_not_task.py,"tasks( mocker )",63, 4, 0
+repos/python/thefuck/tests/rules/test_gradle_not_task.py,"test_match( command )",26, 4, 0
+repos/python/thefuck/tests/rules/test_gradle_not_task.py,"test_not_match( command )",30, 4, 0
+repos/python/thefuck/tests/rules/test_gradle_not_task.py,"test_get_new_command( command , result )",49, 4, 0
+repos/python/thefuck/tests/rules/test_git_bisect_usage.py,"output( )",64, 12, 0
+repos/python/thefuck/tests/rules/test_git_bisect_usage.py,"test_match( output , script )",42, 4, 0
+repos/python/thefuck/tests/rules/test_git_bisect_usage.py,"test_not_match( script )",42, 4, 0
+repos/python/thefuck/tests/rules/test_git_bisect_usage.py,"test_get_new_command( output , script , new_cmd )",63, 4, 0
+repos/python/thefuck/tests/rules/test_mkdir_p.py,"test_match( command )",26, 4, 0
+repos/python/thefuck/tests/rules/test_mkdir_p.py,"test_not_match( command )",30, 4, 0
+repos/python/thefuck/tests/rules/test_mkdir_p.py,"test_get_new_command( command , new_command )",51, 4, 0
+repos/python/thefuck/tests/rules/test_gulp_not_task.py,"output( task )",73, 0, 0
+repos/python/thefuck/tests/rules/test_gulp_not_task.py,"test_match( )",55, 4, 0
+repos/python/thefuck/tests/rules/test_gulp_not_task.py,"test_not_march( script , stdout )",46, 4, 0
+repos/python/thefuck/tests/rules/test_gulp_not_task.py,"test_get_new_command( mocker )",70, 4, 0
+repos/python/thefuck/tests/rules/test_git_push.py,"output( branch_name )",67, 4, 0
+repos/python/thefuck/tests/rules/test_git_push.py,"output_bitbucket( )",92, 0, 0
+repos/python/thefuck/tests/rules/test_git_push.py,"test_match( output , script , branch_name )",45, 0, 0
+repos/python/thefuck/tests/rules/test_git_push.py,"test_match_bitbucket( output_bitbucket )",67, 4, 0
+repos/python/thefuck/tests/rules/test_git_push.py,"test_not_match( output , script , branch_name )",49, 0, 0
+repos/python/thefuck/tests/rules/test_git_push.py,"test_get_new_command( output , script , branch_name , new_command )",68, 0, 0
+repos/python/thefuck/tests/rules/test_git_rebase_no_changes.py,"output( )",78, 0, 0
+repos/python/thefuck/tests/rules/test_git_rebase_no_changes.py,"test_match( output )",59, 4, 0
+repos/python/thefuck/tests/rules/test_git_rebase_no_changes.py,"test_get_new_command( output )",73, 4, 0
+repos/python/thefuck/tests/rules/test_git_push_force.py,"test_match( command )",26, 4, 0
+repos/python/thefuck/tests/rules/test_git_push_force.py,"test_not_match( command )",30, 4, 0
+repos/python/thefuck/tests/rules/test_git_push_force.py,"test_get_new_command( command , output )",46, 4, 0
+repos/python/thefuck/tests/rules/test_dry.py,"test_match( command )",26, 4, 0
+repos/python/thefuck/tests/rules/test_dry.py,"test_get_new_command( command , new_command )",51, 4, 0
+repos/python/thefuck/tests/rules/test_gradle_wrapper.py,"exists( mocker )",71, 4, 0
+repos/python/thefuck/tests/rules/test_gradle_wrapper.py,"test_match( mocker , command )",74, 4, 0
+repos/python/thefuck/tests/rules/test_gradle_wrapper.py,"test_not_match( mocker , exists , command , gradlew , which )",75, 4, 0
+repos/python/thefuck/tests/rules/test_gradle_wrapper.py,"test_get_new_command( script , result )",46, 4, 0
+repos/python/thefuck/tests/rules/test_switch_lang.py,"test_match( command )",38, 4, 0
+repos/python/thefuck/tests/rules/test_switch_lang.py,"test_not_match( command )",42, 4, 0
+repos/python/thefuck/tests/rules/test_switch_lang.py,"test_get_new_command( command , new_command )",63, 4, 0
+repos/python/thefuck/tests/rules/test_apt_get.py,"test_match( mocker , command , packages )",67, 4, 0
+repos/python/thefuck/tests/rules/test_apt_get.py,"test_not_match( mocker , command , packages , which )",68, 4, 0
+repos/python/thefuck/tests/rules/test_apt_get.py,"test_get_new_command( mocker , command , new_command , packages )",66, 0, 0
+repos/python/thefuck/tests/rules/test_tmux.py,"tmux_ambiguous( )",70, 11, 0
+repos/python/thefuck/tests/rules/test_tmux.py,"test_match( tmux_ambiguous )",55, 4, 0
+repos/python/thefuck/tests/rules/test_tmux.py,"test_get_new_command( tmux_ambiguous )",70, 8, 0
+repos/python/thefuck/tests/rules/test_django_south_ghost.py,"output( )",108, 2, 0
+repos/python/thefuck/tests/rules/test_django_south_ghost.py,"test_match( output )",62, 4, 0
+repos/python/thefuck/tests/rules/test_django_south_ghost.py,"test_get_new_command( )",69, 4, 0
+repos/python/thefuck/tests/rules/test_git_commit_amend.py,"test_match( output , script )",42, 4, 0
+repos/python/thefuck/tests/rules/test_git_commit_amend.py,"test_not_match( script )",42, 4, 0
+repos/python/thefuck/tests/rules/test_git_commit_amend.py,"test_get_new_command( script )",72, 4, 0
+repos/python/thefuck/tests/rules/test_go_run.py,"test_match( command )",26, 4, 0
+repos/python/thefuck/tests/rules/test_go_run.py,"test_get_new_command( command , new_command )",51, 4, 0
+repos/python/thefuck/tests/rules/test_ls_lah.py,"test_match( )",56, 4, 0
+repos/python/thefuck/tests/rules/test_ls_lah.py,"test_get_new_command( )",75, 4, 0
+repos/python/thefuck/tests/rules/test_brew_link.py,"output( )",71, 12, 0
+repos/python/thefuck/tests/rules/test_brew_link.py,"new_command( formula )",64, 4, 0
+repos/python/thefuck/tests/rules/test_brew_link.py,"test_match( output , script )",42, 4, 0
+repos/python/thefuck/tests/rules/test_brew_link.py,"test_not_match( script )",42, 4, 0
+repos/python/thefuck/tests/rules/test_brew_link.py,"test_get_new_command( output , new_command , script , formula )",67, 4, 0
+repos/python/thefuck/tests/rules/test_react_native_command_unrecognized.py,"test_match( command )",26, 4, 0
+repos/python/thefuck/tests/rules/test_react_native_command_unrecognized.py,"test_not_match( command )",30, 4, 0
+repos/python/thefuck/tests/rules/test_react_native_command_unrecognized.py,"test_get_new_command( mocker , command , result )",65, 8, 0
+repos/python/thefuck/tests/rules/test_history.py,"history_without_current( mocker )",67, 8, 0
+repos/python/thefuck/tests/rules/test_history.py,"test_match( script )",38, 4, 0
+repos/python/thefuck/tests/rules/test_history.py,"test_not_match( script )",42, 4, 0
+repos/python/thefuck/tests/rules/test_history.py,"test_get_new_command( script , result )",58, 4, 0
+repos/python/thefuck/tests/rules/test_yarn_command_replaced.py,"test_match( command )",26, 4, 0
+repos/python/thefuck/tests/rules/test_yarn_command_replaced.py,"test_not_match( command )",30, 4, 0
+repos/python/thefuck/tests/rules/test_yarn_command_replaced.py,"test_get_new_command( command , new_command )",51, 4, 0
+repos/python/thefuck/tests/rules/test_git_push_without_commits.py,"test_match( command )",26, 4, 0
+repos/python/thefuck/tests/rules/test_git_push_without_commits.py,"test_get_new_command( command , result )",46, 4, 0
+repos/python/thefuck/tests/rules/test_dirty_untar.py,"tar_error.tar_error.fixture.reset( path )",56, 12, 0
+repos/python/thefuck/tests/rules/test_dirty_untar.py,"tar_error.fixture( filename )",70, 8, 0
+repos/python/thefuck/tests/rules/test_dirty_untar.py,"tar_error( tmpdir )",70, 8, 0
+repos/python/thefuck/tests/rules/test_dirty_untar.py,"test_match( ext , tar_error , filename , unquoted , quoted , script , fixed )",75, 0, 0
+repos/python/thefuck/tests/rules/test_dirty_untar.py,"test_side_effect( ext , tar_error , filename , unquoted , quoted , script , fixed )",81, 0, 0
+repos/python/thefuck/tests/rules/test_dirty_untar.py,"test_get_new_command( ext , tar_error , filename , unquoted , quoted , script , fixed )",85, 0, 0
+repos/python/thefuck/tests/rules/test_git_branch_delete.py,"output( )",67, 0, 0
+repos/python/thefuck/tests/rules/test_git_branch_delete.py,"test_match( output )",58, 4, 0
+repos/python/thefuck/tests/rules/test_git_branch_delete.py,"test_get_new_command( output )",69, 4, 0
+repos/python/thefuck/tests/rules/test_git_pull_unstaged_changes.py,"output( )",90, 4, 0
+repos/python/thefuck/tests/rules/test_git_pull_unstaged_changes.py,"test_match( output )",46, 4, 0
+repos/python/thefuck/tests/rules/test_git_pull_unstaged_changes.py,"test_get_new_command( output )",57, 4, 0
+repos/python/thefuck/tests/rules/test_git_diff_no_index.py,"test_match( command )",26, 4, 0
+repos/python/thefuck/tests/rules/test_git_diff_no_index.py,"test_not_match( command )",30, 4, 0
+repos/python/thefuck/tests/rules/test_git_diff_no_index.py,"test_get_new_command( command , new_command )",51, 4, 0
+repos/python/thefuck/tests/rules/test_git_stash.py,"test_match( command )",26, 4, 0
+repos/python/thefuck/tests/rules/test_git_stash.py,"test_not_match( command )",30, 4, 0
+repos/python/thefuck/tests/rules/test_git_stash.py,"test_get_new_command( command , new_command )",51, 4, 0
+repos/python/thefuck/tests/rules/test_git_push_different_branch_names.py,"error_msg( localbranch , remotebranch )",48, 4, 0
+repos/python/thefuck/tests/rules/test_git_push_different_branch_names.py,"test_match( )",63, 4, 0
+repos/python/thefuck/tests/rules/test_git_push_different_branch_names.py,"test_not_match( command )",30, 4, 0
+repos/python/thefuck/tests/rules/test_git_push_different_branch_names.py,"test_get_new_command( )",80, 4, 0
+repos/python/thefuck/tests/rules/test_sed_unterminated_s.py,"sed_unterminated_s( )",69, 4, 0
+repos/python/thefuck/tests/rules/test_sed_unterminated_s.py,"test_match( sed_unterminated_s )",79, 4, 0
+repos/python/thefuck/tests/rules/test_sed_unterminated_s.py,"test_get_new_command( sed_unterminated_s )",90, 4, 0
+repos/python/thefuck/tests/rules/test_ag_literal.py,"output( )",79, 4, 0
+repos/python/thefuck/tests/rules/test_ag_literal.py,"test_match( script , output )",42, 4, 0
+repos/python/thefuck/tests/rules/test_ag_literal.py,"test_not_match( script )",42, 4, 0
+repos/python/thefuck/tests/rules/test_ag_literal.py,"test_get_new_command( script , new_cmd , output )",65, 4, 0
+repos/python/thefuck/tests/rules/test_mvn_no_command.py,"test_match( command )",26, 4, 0
+repos/python/thefuck/tests/rules/test_mvn_no_command.py,"test_not_match( command )",30, 4, 0
+repos/python/thefuck/tests/rules/test_mvn_no_command.py,"test_get_new_command( command , new_command )",51, 4, 0
+repos/python/thefuck/tests/rules/test_git_remote_seturl_add.py,"test_match( command )",26, 4, 0
+repos/python/thefuck/tests/rules/test_git_remote_seturl_add.py,"test_not_match( command )",30, 4, 0
+repos/python/thefuck/tests/rules/test_git_remote_seturl_add.py,"test_get_new_command( command , new_command )",51, 4, 0
+repos/python/thefuck/tests/rules/test_fix_alt_space.py,"test_match( )",75, 4, 0
+repos/python/thefuck/tests/rules/test_fix_alt_space.py,"test_get_new_command( )",63, 4, 0
+repos/python/thefuck/tests/rules/test_port_already_in_use.py,"lsof( mocker )",68, 4, 0
+repos/python/thefuck/tests/rules/test_port_already_in_use.py,"test_match( command )",26, 4, 0
+repos/python/thefuck/tests/rules/test_port_already_in_use.py,"test_not_match( lsof , command , lsof_output )",52, 4, 0
+repos/python/thefuck/tests/rules/test_port_already_in_use.py,"test_get_new_command( command )",61, 4, 0
+repos/python/thefuck/tests/rules/test_git_checkout.py,"did_not_match( target , did_you_forget = False )",68, 8, 0
+repos/python/thefuck/tests/rules/test_git_checkout.py,"git_branch( mocker , branches )",49, 4, 0
+repos/python/thefuck/tests/rules/test_git_checkout.py,"test_match( command )",26, 4, 0
+repos/python/thefuck/tests/rules/test_git_checkout.py,"test_not_match( command )",30, 4, 0
+repos/python/thefuck/tests/rules/test_git_checkout.py,"test_get_branches( branches , branch_list , git_branch )",58, 0, 0
+repos/python/thefuck/tests/rules/test_git_checkout.py,"test_get_new_command( branches , command , new_command , git_branch )",70, 0, 0
+repos/python/thefuck/tests/rules/test_workon_doesnt_exists.py,"envs( mocker )",68, 8, 0
+repos/python/thefuck/tests/rules/test_workon_doesnt_exists.py,"test_match( script )",38, 4, 0
+repos/python/thefuck/tests/rules/test_workon_doesnt_exists.py,"test_not_match( script )",42, 4, 0
+repos/python/thefuck/tests/rules/test_workon_doesnt_exists.py,"test_get_new_command( script , result )",61, 4, 0
+repos/python/thefuck/tests/rules/test_brew_install.py,"brew_no_available_formula( )",63, 4, 0
+repos/python/thefuck/tests/rules/test_brew_install.py,"brew_install_no_argument( )",58, 4, 0
+repos/python/thefuck/tests/rules/test_brew_install.py,"brew_already_installed( )",54, 4, 0
+repos/python/thefuck/tests/rules/test_brew_install.py,"_is_not_okay_to_test( )",50, 4, 0
+repos/python/thefuck/tests/rules/test_brew_install.py,"test_match( brew_no_available_formula , brew_already_installed , brew_install_no_argument )",66, 0, 0
+repos/python/thefuck/tests/rules/test_brew_install.py,"test_get_new_command( brew_no_available_formula )",64, 4, 0
+repos/python/thefuck/tests/rules/test_tsuru_login.py,"test_match( command )",26, 4, 0
+repos/python/thefuck/tests/rules/test_tsuru_login.py,"test_not_match( command )",30, 4, 0
+repos/python/thefuck/tests/rules/test_tsuru_login.py,"test_get_new_command( command , new_command )",51, 4, 0
+repos/python/thefuck/tests/rules/test_pacman.py,"test_match( command )",26, 4, 0
+repos/python/thefuck/tests/rules/test_pacman.py,"test_match_mocked( subp_mock , command , return_value )",57, 0, 0
+repos/python/thefuck/tests/rules/test_pacman.py,"test_not_match( command )",30, 4, 0
+repos/python/thefuck/tests/rules/test_pacman.py,"test_get_new_command( command , new_command , mocker )",56, 0, 0
+repos/python/thefuck/tests/rules/test_pacman.py,"test_get_new_command_mocked( subp_mock , command , new_command , return_value )",80, 0, 0
+repos/python/thefuck/tests/rules/test_open.py,"output( script )",75, 4, 0
+repos/python/thefuck/tests/rules/test_open.py,"test_is_arg_url( script )",43, 4, 0
+repos/python/thefuck/tests/rules/test_open.py,"test_not_is_arg_url( script )",47, 4, 0
+repos/python/thefuck/tests/rules/test_open.py,"test_match( script , output )",42, 4, 0
+repos/python/thefuck/tests/rules/test_open.py,"test_get_new_command( script , new_command , output )",67, 4, 0
+repos/python/thefuck/tests/rules/test_git_help_aliased.py,"test_match( script , output )",42, 4, 0
+repos/python/thefuck/tests/rules/test_git_help_aliased.py,"test_not_match( script , output )",46, 4, 0
+repos/python/thefuck/tests/rules/test_git_help_aliased.py,"test_get_new_command( script , output , new_command )",67, 4, 0
+repos/python/thefuck/tests/rules/test_npm_run_script.py,"run_script( mocker )",59, 4, 0
+repos/python/thefuck/tests/rules/test_npm_run_script.py,"test_match( script )",38, 4, 0
+repos/python/thefuck/tests/rules/test_npm_run_script.py,"test_not_match( run_script , command , run_script_out )",57, 0, 0
+repos/python/thefuck/tests/rules/test_npm_run_script.py,"test_get_new_command( script , result )",46, 4, 0
+repos/python/thefuck/tests/rules/test_grunt_task_not_found.py,"grunt_help( mocker )",69, 4, 0
+repos/python/thefuck/tests/rules/test_grunt_task_not_found.py,"test_match( command )",26, 4, 0
+repos/python/thefuck/tests/rules/test_grunt_task_not_found.py,"test_not_match( command )",30, 4, 0
+repos/python/thefuck/tests/rules/test_grunt_task_not_found.py,"test_get_new_command( command , result )",46, 4, 0
+repos/python/thefuck/tests/rules/test_git_pull.py,"output( )",76, 0, 0
+repos/python/thefuck/tests/rules/test_git_pull.py,"test_match( output )",46, 4, 0
+repos/python/thefuck/tests/rules/test_git_pull.py,"test_get_new_command( output )",80, 12, 0
+repos/python/thefuck/tests/rules/test_cd_parent.py,"test_match( )",61, 4, 0
+repos/python/thefuck/tests/rules/test_cd_parent.py,"test_get_new_command( )",59, 4, 0
+repos/python/thefuck/tests/rules/test_path_from_history.py,"history( mocker )",77, 8, 0
+repos/python/thefuck/tests/rules/test_path_from_history.py,"path_exists( mocker )",72, 4, 0
+repos/python/thefuck/tests/rules/test_path_from_history.py,"test_match( script , output )",42, 4, 0
+repos/python/thefuck/tests/rules/test_path_from_history.py,"test_not_match( script , output )",46, 4, 0
+repos/python/thefuck/tests/rules/test_path_from_history.py,"test_get_new_command( script , output , result )",59, 4, 0
+repos/python/thefuck/tests/rules/test_git_not_command.py,"git_not_command( )",67, 4, 0
+repos/python/thefuck/tests/rules/test_git_not_command.py,"git_not_command_one_of_this( )",64, 4, 0
+repos/python/thefuck/tests/rules/test_git_not_command.py,"git_not_command_closest( )",66, 4, 0
+repos/python/thefuck/tests/rules/test_git_not_command.py,"git_command( )",22, 4, 0
+repos/python/thefuck/tests/rules/test_git_not_command.py,"test_match( git_not_command , git_command , git_not_command_one_of_this )",75, 0, 0
+repos/python/thefuck/tests/rules/test_git_not_command.py,"test_get_new_command( git_not_command , git_not_command_one_of_this , git_not_command_closest )",71, 0, 0
+repos/python/thefuck/tests/rules/test_dirty_unzip.py,"zip_error.zip_error.zip_error_inner.reset( path )",56, 12, 0
+repos/python/thefuck/tests/rules/test_dirty_unzip.py,"zip_error.zip_error_inner( filename )",63, 8, 0
+repos/python/thefuck/tests/rules/test_dirty_unzip.py,"zip_error( tmpdir )",63, 8, 0
+repos/python/thefuck/tests/rules/test_dirty_unzip.py,"test_match( zip_error , script , filename )",45, 0, 0
+repos/python/thefuck/tests/rules/test_dirty_unzip.py,"test_side_effect( zip_error , script , filename )",51, 0, 0
+repos/python/thefuck/tests/rules/test_dirty_unzip.py,"test_get_new_command( zip_error , script , fixed , filename )",62, 0, 0
+repos/python/thefuck/tests/rules/test_yarn_command_not_found.py,"yarn_help( mocker )",71, 4, 0
+repos/python/thefuck/tests/rules/test_yarn_command_not_found.py,"test_match( command )",26, 4, 0
+repos/python/thefuck/tests/rules/test_yarn_command_not_found.py,"test_not_match( command )",30, 4, 0
+repos/python/thefuck/tests/rules/test_yarn_command_not_found.py,"test_get_new_command( command , result )",45, 4, 0
+repos/python/thefuck/tests/rules/test_fab_command_not_found.py,"test_match( command )",26, 4, 0
+repos/python/thefuck/tests/rules/test_fab_command_not_found.py,"test_not_match( command )",30, 4, 0
+repos/python/thefuck/tests/rules/test_fab_command_not_found.py,"test_get_new_command( script , result )",46, 4, 0
+repos/python/thefuck/tests/rules/test_brew_unknown_command.py,"brew_unknown_cmd( )",46, 4, 0
+repos/python/thefuck/tests/rules/test_brew_unknown_command.py,"brew_unknown_cmd2( )",48, 4, 0
+repos/python/thefuck/tests/rules/test_brew_unknown_command.py,"test_match( brew_unknown_cmd )",57, 4, 0
+repos/python/thefuck/tests/rules/test_brew_unknown_command.py,"test_get_new_command( brew_unknown_cmd , brew_unknown_cmd2 )",70, 4, 0
+repos/python/thefuck/tests/rules/test_yarn_help.py,"test_match( command )",26, 4, 0
+repos/python/thefuck/tests/rules/test_yarn_help.py,"test_get_new_command( command , url )",57, 4, 0
+repos/python/thefuck/tests/rules/test_gem_unknown_command.py,"gem_help_commands( mocker )",66, 4, 0
+repos/python/thefuck/tests/rules/test_gem_unknown_command.py,"test_match( script , command )",58, 4, 0
+repos/python/thefuck/tests/rules/test_gem_unknown_command.py,"test_not_match( script , output )",46, 4, 0
+repos/python/thefuck/tests/rules/test_gem_unknown_command.py,"test_get_new_command( script , output , result )",59, 4, 0
+repos/python/thefuck/tests/rules/test_git_rm_recursive.py,"output( target )",76, 4, 0
+repos/python/thefuck/tests/rules/test_git_rm_recursive.py,"test_match( output , script , target )",42, 4, 0
+repos/python/thefuck/tests/rules/test_git_rm_recursive.py,"test_not_match( script )",42, 4, 0
+repos/python/thefuck/tests/rules/test_git_rm_recursive.py,"test_get_new_command( output , script , target , new_command )",67, 4, 0
+repos/python/thefuck/tests/rules/test_az_cli.py,"test_match( command )",26, 4, 0
+repos/python/thefuck/tests/rules/test_az_cli.py,"test_not_match( )",61, 4, 0
+repos/python/thefuck/tests/rules/test_az_cli.py,"test_get_new_command( command , result )",46, 4, 0
+repos/python/thefuck/tests/rules/test_ls_all.py,"test_match( )",49, 4, 0
+repos/python/thefuck/tests/rules/test_ls_all.py,"test_get_new_command( )",77, 4, 0
+repos/python/thefuck/tests/rules/test_no_command.py,"get_all_executables( mocker )",65, 4, 0
+repos/python/thefuck/tests/rules/test_no_command.py,"history_without_current( mocker )",70, 8, 0
+repos/python/thefuck/tests/rules/test_no_command.py,"test_match( mocker , script , output )",70, 4, 0
+repos/python/thefuck/tests/rules/test_no_command.py,"test_not_match( mocker , script , output , which )",71, 4, 0
+repos/python/thefuck/tests/rules/test_no_command.py,"test_get_new_command( script , result )",58, 4, 0
+repos/python/thefuck/tests/rules/test_git_rebase_merge_dir.py,"output( )",85, 12, 0
+repos/python/thefuck/tests/rules/test_git_rebase_merge_dir.py,"test_match( output , script )",42, 4, 0
+repos/python/thefuck/tests/rules/test_git_rebase_merge_dir.py,"test_not_match( script )",42, 4, 0
+repos/python/thefuck/tests/rules/test_git_rebase_merge_dir.py,"test_get_new_command( output , script , result )",62, 4, 0
+repos/python/thefuck/tests/rules/test_pacman_not_found.py,"test_match( command )",26, 4, 0
+repos/python/thefuck/tests/rules/test_pacman_not_found.py,"test_match_mocked( subp_mock , command )",61, 4, 0
+repos/python/thefuck/tests/rules/test_pacman_not_found.py,"test_get_new_command( command , fixed )",45, 4, 0
+repos/python/thefuck/tests/rules/test_pacman_not_found.py,"test_get_new_command_mocked( subp_mock , command , fixed )",61, 4, 0
+repos/python/thefuck/tests/rules/test_javac.py,"test_match( command )",26, 4, 0
+repos/python/thefuck/tests/rules/test_javac.py,"test_get_new_command( command , new_command )",51, 4, 0
+repos/python/thefuck/tests/rules/test_sudo_command_from_user_path.py,"which( mocker )",75, 4, 0
+repos/python/thefuck/tests/rules/test_sudo_command_from_user_path.py,"test_match( script , output )",42, 4, 0
+repos/python/thefuck/tests/rules/test_sudo_command_from_user_path.py,"test_not_match( which , script , output , which_result )",57, 0, 0
+repos/python/thefuck/tests/rules/test_sudo_command_from_user_path.py,"test_get_new_command( script , output , result )",62, 4, 0
+repos/python/thefuck/tests/rules/test_mercurial.py,"test_match( command )",26, 4, 0
+repos/python/thefuck/tests/rules/test_mercurial.py,"test_not_match( command )",30, 4, 0
+repos/python/thefuck/tests/rules/test_mercurial.py,"test_extract_possibilities( command , possibilities )",59, 4, 0
+repos/python/thefuck/tests/rules/test_mercurial.py,"test_get_new_command( command , new_command )",51, 4, 0
+repos/python/thefuck/tests/rules/test_remove_trailing_cedilla.py,"test_match( command )",26, 4, 0
+repos/python/thefuck/tests/rules/test_remove_trailing_cedilla.py,"test_get_new_command( command , new_command )",51, 4, 0
+repos/python/thefuck/tests/rules/test_git_merge.py,"test_match( )",54, 4, 0
+repos/python/thefuck/tests/rules/test_git_merge.py,"test_get_new_command( command , new_command )",51, 4, 0
+repos/python/thefuck/tests/rules/test_pip_unknown_command.py,"pip_unknown_cmd( )",78, 4, 0
+repos/python/thefuck/tests/rules/test_pip_unknown_command.py,"pip_unknown_cmd_without_recommend( )",44, 4, 0
+repos/python/thefuck/tests/rules/test_pip_unknown_command.py,"test_match( pip_unknown_cmd , pip_unknown_cmd_without_recommend )",68, 0, 0
+repos/python/thefuck/tests/rules/test_pip_unknown_command.py,"test_get_new_command( pip_unknown_cmd )",70, 35, 0
+repos/python/thefuck/tests/rules/test_ln_no_hard_link.py,"test_match( script , output )",52, 4, 0
+repos/python/thefuck/tests/rules/test_ln_no_hard_link.py,"test_not_match( script , output )",38, 4, 0
+repos/python/thefuck/tests/rules/test_ln_no_hard_link.py,"test_get_new_command( script , result )",46, 4, 0
+repos/python/thefuck/tests/rules/test_git_stash_pop.py,"output( )",97, 4, 0
+repos/python/thefuck/tests/rules/test_git_stash_pop.py,"test_match( output )",51, 4, 0
+repos/python/thefuck/tests/rules/test_git_stash_pop.py,"test_get_new_command( output )",67, 12, 0
+repos/python/thefuck/tests/rules/test_git_flag_after_filename.py,"test_match( command )",26, 4, 0
+repos/python/thefuck/tests/rules/test_git_flag_after_filename.py,"test_not_match( command )",30, 4, 0
+repos/python/thefuck/tests/rules/test_git_flag_after_filename.py,"test_get_new_command( command , result )",46, 4, 0
+repos/python/thefuck/tests/rules/test_git_rm_local_modifications.py,"output( target )",81, 12, 0
+repos/python/thefuck/tests/rules/test_git_rm_local_modifications.py,"test_match( output , script , target )",42, 4, 0
+repos/python/thefuck/tests/rules/test_git_rm_local_modifications.py,"test_not_match( script )",42, 4, 0
+repos/python/thefuck/tests/rules/test_git_rm_local_modifications.py,"test_get_new_command( output , script , target , new_command )",67, 4, 0
+repos/python/thefuck/tests/rules/test_unknown_command.py,"test_match( command )",26, 4, 0
+repos/python/thefuck/tests/rules/test_unknown_command.py,"test_not_match( command )",30, 4, 0
+repos/python/thefuck/tests/rules/test_unknown_command.py,"test_get_new_command( command , new_command )",51, 4, 0
+repos/python/thefuck/tests/rules/test_touch.py,"output( is_bsd )",69, 4, 0
+repos/python/thefuck/tests/rules/test_touch.py,"test_match( script , is_bsd )",46, 4, 0
+repos/python/thefuck/tests/rules/test_touch.py,"test_not_match( command )",30, 4, 0
+repos/python/thefuck/tests/rules/test_touch.py,"test_get_new_command( script , is_bsd )",60, 4, 0
+repos/python/thefuck/tests/rules/test_git_branch_list.py,"test_match( )",49, 4, 0
+repos/python/thefuck/tests/rules/test_git_branch_list.py,"test_not_match( )",52, 4, 0
+repos/python/thefuck/tests/rules/test_git_branch_list.py,"test_get_new_command( )",66, 12, 0
+repos/python/thefuck/tests/rules/test_npm_missing_script.py,"run_script( mocker )",59, 4, 0
+repos/python/thefuck/tests/rules/test_npm_missing_script.py,"test_match( command )",26, 4, 0
+repos/python/thefuck/tests/rules/test_npm_missing_script.py,"test_not_match( command )",30, 4, 0
+repos/python/thefuck/tests/rules/test_npm_missing_script.py,"test_get_new_command( script , output , result )",50, 0, 0
+repos/python/thefuck/tests/rules/test_rm_dir.py,"test_match( command )",26, 4, 0
+repos/python/thefuck/tests/rules/test_rm_dir.py,"test_not_match( command )",30, 4, 0
+repos/python/thefuck/tests/rules/test_rm_dir.py,"test_get_new_command( command , new_command )",51, 4, 0
+repos/python/thefuck/tests/rules/test_git_push_pull.py,"test_match( command )",26, 4, 0
+repos/python/thefuck/tests/rules/test_git_push_pull.py,"test_not_match( command )",30, 4, 0
+repos/python/thefuck/tests/rules/test_git_push_pull.py,"test_get_new_command( command , output )",46, 4, 0
+repos/python/thefuck/tests/rules/test_chmod_x.py,"file_exists( mocker )",61, 4, 0
+repos/python/thefuck/tests/rules/test_chmod_x.py,"file_access( mocker )",57, 4, 0
+repos/python/thefuck/tests/rules/test_chmod_x.py,"test_match( script , output )",42, 4, 0
+repos/python/thefuck/tests/rules/test_chmod_x.py,"test_not_match( file_exists , file_access , script , output , exists , callable )",80, 0, 0
+repos/python/thefuck/tests/rules/test_chmod_x.py,"test_get_new_command( script , result )",58, 4, 0
+repos/python/thefuck/tests/rules/test_rm_root.py,"test_match( )",64, 4, 0
+repos/python/thefuck/tests/rules/test_rm_root.py,"test_not_match( command )",30, 4, 0
+repos/python/thefuck/tests/rules/test_rm_root.py,"test_get_new_command( )",53, 4, 0
+repos/python/thefuck/tests/rules/test_tsuru_not_command.py,"test_match( command )",26, 4, 0
+repos/python/thefuck/tests/rules/test_tsuru_not_command.py,"test_not_match( command )",30, 4, 0
+repos/python/thefuck/tests/rules/test_tsuru_not_command.py,"test_get_new_command( command , new_commands )",52, 4, 0
+repos/python/thefuck/tests/rules/test_cat_dir.py,"isdir( mocker )",48, 4, 0
+repos/python/thefuck/tests/rules/test_cat_dir.py,"test_match( command , isdir )",32, 0, 0
+repos/python/thefuck/tests/rules/test_cat_dir.py,"test_not_match( command , isdir )",36, 0, 0
+repos/python/thefuck/tests/rules/test_cat_dir.py,"test_get_new_command( command , new_command )",51, 4, 0
+repos/python/thefuck/tests/rules/test_no_such_file.py,"test_match( command )",26, 4, 0
+repos/python/thefuck/tests/rules/test_no_such_file.py,"test_not_match( command )",30, 4, 0
+repos/python/thefuck/tests/rules/test_no_such_file.py,"test_get_new_command( command , new_command )",51, 4, 0
+repos/python/thefuck/tests/rules/test_cp_omitting_directory.py,"test_match( script , output )",42, 4, 0
+repos/python/thefuck/tests/rules/test_cp_omitting_directory.py,"test_not_match( script , output )",46, 4, 0
+repos/python/thefuck/tests/rules/test_cp_omitting_directory.py,"test_get_new_command( )",65, 4, 0
+repos/python/thefuck/tests/rules/test_has_exists_script.py,"test_match( )",69, 8, 0
+repos/python/thefuck/tests/rules/test_has_exists_script.py,"test_get_new_command( )",74, 4, 0
+repos/python/thefuck/tests/rules/test_missing_space_before_subcommand.py,"all_executables( mocker )",77, 8, 0
+repos/python/thefuck/tests/rules/test_missing_space_before_subcommand.py,"test_match( script )",38, 4, 0
+repos/python/thefuck/tests/rules/test_missing_space_before_subcommand.py,"test_not_match( script )",42, 4, 0
+repos/python/thefuck/tests/rules/test_missing_space_before_subcommand.py,"test_get_new_command( script , result )",58, 4, 0
+repos/python/thefuck/tests/rules/test_apt_get_search.py,"test_match( )",52, 4, 0
+repos/python/thefuck/tests/rules/test_apt_get_search.py,"test_not_match( command )",30, 4, 0
+repos/python/thefuck/tests/rules/test_apt_get_search.py,"test_get_new_command( )",69, 4, 0
+repos/python/thefuck/tests/rules/test_cargo_no_command.py,"test_match( command )",26, 4, 0
+repos/python/thefuck/tests/rules/test_cargo_no_command.py,"test_get_new_command( command , new_command )",51, 4, 0
+repos/python/thefuck/tests/rules/test_dnf_no_such_command.py,"invalid_command( command )",71, 0, 0
+repos/python/thefuck/tests/rules/test_dnf_no_such_command.py,"test_match( output )",41, 4, 0
+repos/python/thefuck/tests/rules/test_dnf_no_such_command.py,"test_not_match( script , output )",46, 4, 0
+repos/python/thefuck/tests/rules/test_dnf_no_such_command.py,"set_help._set_text( text )",49, 8, 0
+repos/python/thefuck/tests/rules/test_dnf_no_such_command.py,"set_help( mocker )",49, 8, 0
+repos/python/thefuck/tests/rules/test_dnf_no_such_command.py,"test_get_operations( set_help )",47, 4, 0
+repos/python/thefuck/tests/rules/test_dnf_no_such_command.py,"test_get_new_command( set_help , output , script , result )",62, 4, 0
+repos/python/thefuck/tests/rules/test_grep_arguments_order.py,"os_path( monkeypatch )",75, 4, 0
+repos/python/thefuck/tests/rules/test_grep_arguments_order.py,"test_match( script , file )",48, 4, 0
+repos/python/thefuck/tests/rules/test_grep_arguments_order.py,"test_not_match( script , output )",46, 4, 0
+repos/python/thefuck/tests/rules/test_grep_arguments_order.py,"test_get_new_command( script , output , result )",62, 4, 0
+repos/python/thefuck/tests/rules/test_mvn_unknown_lifecycle_phase.py,"test_match( command )",26, 4, 0
+repos/python/thefuck/tests/rules/test_mvn_unknown_lifecycle_phase.py,"test_not_match( command )",30, 4, 0
+repos/python/thefuck/tests/rules/test_mvn_unknown_lifecycle_phase.py,"test_get_new_command( command , new_command )",51, 4, 0
+repos/python/thefuck/tests/rules/test_apt_invalid_operation.py,"test_match( script , output )",42, 4, 0
+repos/python/thefuck/tests/rules/test_apt_invalid_operation.py,"test_not_match( script , output )",46, 4, 0
+repos/python/thefuck/tests/rules/test_apt_invalid_operation.py,"set_help._set_text( text )",49, 8, 0
+repos/python/thefuck/tests/rules/test_apt_invalid_operation.py,"set_help( mocker )",49, 8, 0
+repos/python/thefuck/tests/rules/test_apt_invalid_operation.py,"test_get_operations( set_help , app , help_text , operations )",63, 0, 0
+repos/python/thefuck/tests/rules/test_apt_invalid_operation.py,"test_get_new_command( set_help , output , script , help_text , result )",71, 0, 0
+repos/python/thefuck/tests/rules/test_yarn_alias.py,"test_match( command )",26, 4, 0
+repos/python/thefuck/tests/rules/test_yarn_alias.py,"test_get_new_command( command , new_command )",51, 4, 0
+repos/python/thefuck/tests/rules/test_java.py,"test_match( command )",26, 4, 0
+repos/python/thefuck/tests/rules/test_java.py,"test_get_new_command( command , new_command )",51, 4, 0
+repos/python/thefuck/tests/rules/test_quotation_marks.py,"test_match( command )",26, 4, 0
+repos/python/thefuck/tests/rules/test_quotation_marks.py,"test_get_new_command( command , new_command )",51, 4, 0
+repos/python/thefuck/tests/rules/test_vagrant_up.py,"test_match( command )",26, 4, 0
+repos/python/thefuck/tests/rules/test_vagrant_up.py,"test_not_match( command )",30, 4, 0
+repos/python/thefuck/tests/rules/test_vagrant_up.py,"test_get_new_command( command , new_command )",51, 4, 0
+repos/python/thefuck/tests/rules/test_composer_not_command.py,"composer_not_command( )",62, 4, 0
+repos/python/thefuck/tests/rules/test_composer_not_command.py,"composer_not_command_one_of_this( )",62, 4, 0
+repos/python/thefuck/tests/rules/test_composer_not_command.py,"test_match( composer_not_command , composer_not_command_one_of_this )",72, 0, 0
+repos/python/thefuck/tests/rules/test_composer_not_command.py,"test_get_new_command( composer_not_command , composer_not_command_one_of_this )",82, 0, 0
+repos/python/thefuck/tests/rules/test_systemctl.py,"test_match( )",145, 4, 0
+repos/python/thefuck/tests/rules/test_systemctl.py,"test_get_new_command( )",102, 4, 0
+repos/python/thefuck/tests/rules/test_git_pull_uncommitted_changes.py,"output( )",76, 4, 0
+repos/python/thefuck/tests/rules/test_git_pull_uncommitted_changes.py,"test_match( output )",46, 4, 0
+repos/python/thefuck/tests/rules/test_git_pull_uncommitted_changes.py,"test_get_new_command( output )",57, 4, 0
+repos/python/thefuck/tests/rules/test_git_branch_exists.py,"output( src_branch_name )",80, 4, 0
+repos/python/thefuck/tests/rules/test_git_branch_exists.py,"new_command( branch_name )",73, 8, 0
+repos/python/thefuck/tests/rules/test_git_branch_exists.py,"test_match( output , script , branch_name )",45, 0, 0
+repos/python/thefuck/tests/rules/test_git_branch_exists.py,"test_not_match( script )",42, 4, 0
+repos/python/thefuck/tests/rules/test_git_branch_exists.py,"test_get_new_command( output , new_command , script , src_branch_name , branch_name )",85, 0, 0
+repos/python/thefuck/tests/rules/test_ln_s_order.py,"file_exists( mocker )",61, 4, 0
+repos/python/thefuck/tests/rules/test_ln_s_order.py,"test_not_match( file_exists , script , output , exists )",57, 0, 0
+repos/python/thefuck/tests/rules/test_ln_s_order.py,"test_match( script , result )",62, 4, 0
+repos/python/thefuck/tests/rules/test_git_fix_stash.py,"test_match( wrong )",48, 4, 0
+repos/python/thefuck/tests/rules/test_git_fix_stash.py,"test_not_match( )",52, 4, 0
+repos/python/thefuck/tests/rules/test_git_fix_stash.py,"test_get_new_command( wrong , fixed )",67, 4, 0
+repos/python/thefuck/tests/rules/test_grep_recursive.py,"test_match( )",69, 4, 0
+repos/python/thefuck/tests/rules/test_grep_recursive.py,"test_get_new_command( )",77, 4, 0
+repos/python/thefuck/tests/rules/test_long_form_help.py,"test_match( output )",45, 4, 0
+repos/python/thefuck/tests/rules/test_long_form_help.py,"test_not_match( )",38, 4, 0
+repos/python/thefuck/tests/rules/test_long_form_help.py,"test_get_new_command( before , after )",57, 4, 0
+repos/python/thefuck/tests/rules/test_django_south_merge.py,"output( )",116, 1, 0
+repos/python/thefuck/tests/rules/test_django_south_merge.py,"test_match( output )",62, 4, 0
+repos/python/thefuck/tests/rules/test_django_south_merge.py,"test_get_new_command( )",69, 4, 0
+repos/python/thefuck/tests/rules/test_brew_update_formula.py,"test_match( )",53, 4, 0
+repos/python/thefuck/tests/rules/test_brew_update_formula.py,"test_not_match( script )",42, 4, 0
+repos/python/thefuck/tests/rules/test_brew_update_formula.py,"test_get_new_command( script , formula )",52, 4, 0
+repos/python/thefuck/tests/rules/test_man_no_space.py,"test_match( )",67, 4, 0
+repos/python/thefuck/tests/rules/test_man_no_space.py,"test_get_new_command( )",65, 4, 0
+repos/python/thefuck/tests/rules/test_git_two_dashes.py,"test_match( command )",26, 4, 0
+repos/python/thefuck/tests/rules/test_git_two_dashes.py,"test_not_match( command )",30, 4, 0
+repos/python/thefuck/tests/rules/test_git_two_dashes.py,"test_get_new_command( command , output )",46, 4, 0
+repos/python/thefuck/tests/rules/test_lein_not_task.py,"is_not_task( )",52, 4, 0
+repos/python/thefuck/tests/rules/test_lein_not_task.py,"test_match( is_not_task )",51, 4, 0
+repos/python/thefuck/tests/rules/test_lein_not_task.py,"test_get_new_command( is_not_task )",69, 4, 0
+repos/python/thefuck/tests/rules/test_sudo.py,"test_match( output )",38, 4, 0
+repos/python/thefuck/tests/rules/test_sudo.py,"test_not_match( )",62, 4, 0
+repos/python/thefuck/tests/rules/test_sudo.py,"test_get_new_command( before , after )",57, 4, 0
+repos/python/thefuck/tests/rules/test_adb_unknown_command.py,"output( )",90, 33, 0
+repos/python/thefuck/tests/rules/test_adb_unknown_command.py,"test_match( output , script )",42, 4, 0
+repos/python/thefuck/tests/rules/test_adb_unknown_command.py,"test_not_match( script )",42, 4, 0
+repos/python/thefuck/tests/rules/test_adb_unknown_command.py,"test_get_new_command( script , output , new_command )",67, 4, 0
+repos/python/thefuck/tests/rules/test_aws_cli.py,"test_match( command )",26, 4, 0
+repos/python/thefuck/tests/rules/test_aws_cli.py,"test_not_match( )",70, 4, 0
+repos/python/thefuck/tests/rules/test_aws_cli.py,"test_get_new_command( command , result )",46, 4, 0
+repos/python/thefuck/tests/rules/test_git_tag_force.py,"output( )",51, 4, 0
+repos/python/thefuck/tests/rules/test_git_tag_force.py,"test_match( output )",51, 4, 0
+repos/python/thefuck/tests/rules/test_git_tag_force.py,"test_get_new_command( output )",62, 4, 0
+repos/python/thefuck/tests/rules/test_whois.py,"test_match( command )",26, 4, 0
+repos/python/thefuck/tests/rules/test_whois.py,"test_not_match( )",43, 4, 0
+repos/python/thefuck/tests/rules/test_whois.py,"test_get_new_command( command , new_command )",51, 4, 0
+repos/python/thefuck/tests/rules/test_hostscli.py,"test_match( command )",26, 4, 0
+repos/python/thefuck/tests/rules/test_hostscli.py,"test_get_new_command( command , result )",46, 4, 0
+repos/python/thefuck/tests/rules/test_heroku_not_command.py,"test_match( cmd )",58, 8, 0
+repos/python/thefuck/tests/rules/test_heroku_not_command.py,"test_not_match( script , output )",46, 4, 0
+repos/python/thefuck/tests/rules/test_heroku_not_command.py,"test_get_new_command( cmd , result )",63, 4, 0
+repos/python/thefuck/tests/rules/test_cd_correction.py,"test_match( command )",26, 4, 0
+repos/python/thefuck/tests/rules/test_cd_correction.py,"test_not_match( command )",30, 4, 0
+repos/python/thefuck/tests/rules/test_brew_cask_dependency.py,"test_match( )",52, 4, 0
+repos/python/thefuck/tests/rules/test_brew_cask_dependency.py,"test_not_match( script , output )",38, 4, 0
+repos/python/thefuck/tests/rules/test_brew_cask_dependency.py,"test_get_new_command( before , after )",45, 4, 0
+repos/python/thefuck/tests/rules/test_unsudo.py,"test_match( output )",45, 4, 0
+repos/python/thefuck/tests/rules/test_unsudo.py,"test_not_match( )",81, 4, 0
+repos/python/thefuck/tests/rules/test_unsudo.py,"test_get_new_command( before , after )",57, 4, 0
+repos/python/thefuck/tests/rules/test_python_command.py,"test_match( )",58, 4, 0
+repos/python/thefuck/tests/rules/test_python_command.py,"test_get_new_command( )",59, 4, 0
+repos/python/thefuck/tests/rules/test_fix_file.py,"test_match( mocker , monkeypatch , test )",54, 4, 0
+repos/python/thefuck/tests/rules/test_fix_file.py,"test_no_editor( mocker , monkeypatch , test )",54, 4, 0
+repos/python/thefuck/tests/rules/test_fix_file.py,"test_not_file( mocker , monkeypatch , test )",55, 4, 0
+repos/python/thefuck/tests/rules/test_fix_file.py,"test_get_new_command( mocker , monkeypatch , test )",54, 4, 0
+repos/python/thefuck/tests/rules/test_fix_file.py,"test_get_new_command_with_settings( mocker , monkeypatch , test , settings )",92, 16, 0
+repos/python/thefuck/tests/specific/test_git.py,"test_git_support.fn( command )",30, 8, 0
+repos/python/thefuck/tests/specific/test_git.py,"test_git_support( called , command , output )",50, 4, 0
+repos/python/thefuck/tests/specific/test_git.py,"test_git_support_match.fn( command )",21, 4, 0
+repos/python/thefuck/tests/specific/test_git.py,"test_git_support_match( command , is_git )",46, 4, 0
+repos/python/thefuck/tests/specific/test_npm.py,"test_get_scripts( mocker )",63, 4, 0
+repos/python/thefuck/tests/specific/test_sudo.py,"test_sudo_support.fn( command )",46, 8, 0
+repos/python/thefuck/tests/specific/test_sudo.py,"test_sudo_support( return_value , command , called , result )",62, 0, 0
+repos/python/thefuck/tests/output_readers/test_rerun.py,"setup_method( self , test_method )",69, 8, 0
+repos/python/thefuck/tests/output_readers/test_rerun.py,"teardown_method( self , test_method )",44, 4, 0
+repos/python/thefuck/tests/output_readers/test_rerun.py,"test_get_output( self , popen_mock , wait_output_mock )",69, 8, 0
+repos/python/thefuck/tests/output_readers/test_rerun.py,"test_wait_output_is_slow( self , settings )",80, 8, 0
+repos/python/thefuck/tests/output_readers/test_rerun.py,"test_wait_output_is_not_slow( self , settings )",75, 8, 0
+repos/python/thefuck/tests/output_readers/test_rerun.py,"test_wait_output_timeout( self , kill_process_mock )",66, 8, 0
+repos/python/thefuck/tests/output_readers/test_rerun.py,"test_wait_output_timeout_children( self , kill_process_mock )",68, 4, 0
+repos/python/thefuck/tests/output_readers/test_rerun.py,"test_kill_process( self )",44, 8, 0
+repos/python/thefuck/tests/output_readers/test_rerun.py,"test_kill_process_access_denied( self , logs_mock )",58, 4, 0
+repos/python/thefuck/tests/functional/plots.py,"_set_confirmation( proc , require )",77, 8, 0
+repos/python/thefuck/tests/functional/plots.py,"with_confirmation( proc , TIMEOUT )",71, 4, 0
+repos/python/thefuck/tests/functional/plots.py,"history_changed( proc , TIMEOUT , to )",40, 0, 0
+repos/python/thefuck/tests/functional/plots.py,"history_not_changed( proc , TIMEOUT )",44, 4, 0
+repos/python/thefuck/tests/functional/plots.py,"select_command_with_arrows( proc , TIMEOUT )",69, 4, 0
+repos/python/thefuck/tests/functional/plots.py,"refuse_with_confirmation( proc , TIMEOUT )",69, 4, 0
+repos/python/thefuck/tests/functional/plots.py,"without_confirmation( proc , TIMEOUT )",72, 4, 0
+repos/python/thefuck/tests/functional/plots.py,"how_to_configure( proc , TIMEOUT )",61, 4, 0
+repos/python/thefuck/tests/functional/test_fish.py,"proc( request , spawnu , TIMEOUT )",67, 4, 0
+repos/python/thefuck/tests/functional/test_fish.py,"test_with_confirmation( proc , TIMEOUT )",43, 0, 0
+repos/python/thefuck/tests/functional/test_fish.py,"test_select_command_with_arrows( proc , TIMEOUT )",52, 0, 0
+repos/python/thefuck/tests/functional/test_fish.py,"test_refuse_with_confirmation( proc , TIMEOUT )",50, 0, 0
+repos/python/thefuck/tests/functional/test_fish.py,"test_without_confirmation( proc , TIMEOUT )",46, 0, 0
+repos/python/thefuck/tests/functional/test_bash.py,"proc( request , spawnu , TIMEOUT )",72, 8, 0
+repos/python/thefuck/tests/functional/test_bash.py,"test_with_confirmation( proc , TIMEOUT )",49, 4, 0
+repos/python/thefuck/tests/functional/test_bash.py,"test_select_command_with_arrows( proc , TIMEOUT )",52, 0, 0
+repos/python/thefuck/tests/functional/test_bash.py,"test_refuse_with_confirmation( proc , TIMEOUT )",50, 0, 0
+repos/python/thefuck/tests/functional/test_bash.py,"test_without_confirmation( proc , TIMEOUT )",49, 4, 0
+repos/python/thefuck/tests/functional/test_bash.py,"test_how_to_configure_alias( proc , TIMEOUT )",48, 0, 0
+repos/python/thefuck/tests/functional/test_zsh.py,"proc( request , spawnu , TIMEOUT )",72, 8, 0
+repos/python/thefuck/tests/functional/test_zsh.py,"test_with_confirmation( proc , TIMEOUT )",49, 4, 0
+repos/python/thefuck/tests/functional/test_zsh.py,"test_select_command_with_arrows( proc , TIMEOUT )",52, 0, 0
+repos/python/thefuck/tests/functional/test_zsh.py,"test_refuse_with_confirmation( proc , TIMEOUT )",50, 0, 0
+repos/python/thefuck/tests/functional/test_zsh.py,"test_without_confirmation( proc , TIMEOUT )",49, 4, 0
+repos/python/thefuck/tests/functional/test_zsh.py,"test_how_to_configure_alias( proc , TIMEOUT )",48, 0, 0
+repos/python/thefuck/tests/functional/test_tcsh.py,"proc( request , spawnu , TIMEOUT )",61, 4, 0
+repos/python/thefuck/tests/functional/test_tcsh.py,"test_with_confirmation( proc , TIMEOUT )",43, 0, 0
+repos/python/thefuck/tests/functional/test_tcsh.py,"test_select_command_with_arrows( proc , TIMEOUT )",52, 0, 0
+repos/python/thefuck/tests/functional/test_tcsh.py,"test_refuse_with_confirmation( proc , TIMEOUT )",50, 0, 0
+repos/python/thefuck/tests/functional/test_tcsh.py,"test_without_confirmation( proc , TIMEOUT )",46, 0, 0
+repos/python/thefuck/tests/shells/test_generic.py,"shell( self )",25, 8, 0
+repos/python/thefuck/tests/shells/test_generic.py,"test_from_shell( self , shell )",48, 8, 0
+repos/python/thefuck/tests/shells/test_generic.py,"test_to_shell( self , shell )",46, 8, 0
+repos/python/thefuck/tests/shells/test_generic.py,"test_and_( self , shell )",52, 8, 0
+repos/python/thefuck/tests/shells/test_generic.py,"test_or_( self , shell )",51, 8, 0
+repos/python/thefuck/tests/shells/test_generic.py,"test_get_aliases( self , shell )",41, 8, 0
+repos/python/thefuck/tests/shells/test_generic.py,"test_app_alias( self , shell )",75, 8, 0
+repos/python/thefuck/tests/shells/test_generic.py,"test_get_history( self , history_lines , shell )",72, 8, 0
+repos/python/thefuck/tests/shells/test_generic.py,"test_split_command( self , shell )",71, 8, 0
+repos/python/thefuck/tests/shells/test_generic.py,"test_how_to_configure( self , shell )",48, 8, 0
+repos/python/thefuck/tests/shells/test_fish.py,"shell( self )",22, 8, 0
+repos/python/thefuck/tests/shells/test_fish.py,"Popen( self , mocker )",88, 13, 0
+repos/python/thefuck/tests/shells/test_fish.py,"test_get_overridden_aliases( self , shell , os_environ , key , value )",79, 8, 0
+repos/python/thefuck/tests/shells/test_fish.py,"test_from_shell( self , before , after , shell )",53, 4, 0
+repos/python/thefuck/tests/shells/test_fish.py,"test_to_shell( self , shell )",46, 8, 0
+repos/python/thefuck/tests/shells/test_fish.py,"test_and_( self , shell )",58, 8, 0
+repos/python/thefuck/tests/shells/test_fish.py,"test_or_( self , shell )",56, 8, 0
+repos/python/thefuck/tests/shells/test_fish.py,"test_get_aliases( self , shell )",86, 39, 0
+repos/python/thefuck/tests/shells/test_fish.py,"test_app_alias( self , shell )",75, 8, 0
+repos/python/thefuck/tests/shells/test_fish.py,"test_app_alias_alter_history( self , settings , shell )",71, 8, 0
+repos/python/thefuck/tests/shells/test_fish.py,"test_get_history( self , history_lines , shell )",59, 23, 0
+repos/python/thefuck/tests/shells/test_fish.py,"test_put_to_history( self , entry , entry_utf8 , builtins_open , mocker , shell )",84, 4, 0
+repos/python/thefuck/tests/shells/test_fish.py,"test_how_to_configure( self , shell , config_exists )",68, 8, 0
+repos/python/thefuck/tests/shells/test_fish.py,"test_how_to_configure_when_config_not_found( self , shell , config_exists )",68, 52, 0
+repos/python/thefuck/tests/shells/test_fish.py,"test_info( self , shell , Popen )",64, 8, 0
+repos/python/thefuck/tests/shells/test_bash.py,"shell( self )",22, 8, 0
+repos/python/thefuck/tests/shells/test_bash.py,"shell_aliases( self )",60, 12, 0
+repos/python/thefuck/tests/shells/test_bash.py,"test_from_shell( self , before , after , shell )",53, 4, 0
+repos/python/thefuck/tests/shells/test_bash.py,"test_to_shell( self , shell )",46, 8, 0
+repos/python/thefuck/tests/shells/test_bash.py,"test_and_( self , shell )",52, 8, 0
+repos/python/thefuck/tests/shells/test_bash.py,"test_or_( self , shell )",51, 8, 0
+repos/python/thefuck/tests/shells/test_bash.py,"test_get_aliases( self , shell )",79, 8, 0
+repos/python/thefuck/tests/shells/test_bash.py,"test_app_alias( self , shell )",61, 8, 0
+repos/python/thefuck/tests/shells/test_bash.py,"test_app_alias_variables_correctly_set( self , shell )",61, 4, 0
+repos/python/thefuck/tests/shells/test_bash.py,"test_get_history( self , history_lines , shell )",57, 8, 0
+repos/python/thefuck/tests/shells/test_bash.py,"test_split_command( self , shell )",61, 8, 0
+repos/python/thefuck/tests/shells/test_bash.py,"test_how_to_configure( self , shell , config_exists )",68, 8, 0
+repos/python/thefuck/tests/shells/test_bash.py,"test_how_to_configure_when_config_not_found( self , shell , config_exists )",68, 52, 0
+repos/python/thefuck/tests/shells/test_bash.py,"test_info( self , shell , mocker )",64, 8, 0
+repos/python/thefuck/tests/shells/conftest.py,"builtins_open( mocker )",51, 4, 0
+repos/python/thefuck/tests/shells/conftest.py,"isfile( mocker )",61, 4, 0
+repos/python/thefuck/tests/shells/conftest.py,"history_lines.aux( lines )",57, 12, 0
+repos/python/thefuck/tests/shells/conftest.py,"history_lines( mocker )",57, 12, 0
+repos/python/thefuck/tests/shells/conftest.py,"config_exists( mocker )",60, 4, 0
+repos/python/thefuck/tests/shells/test_powershell.py,"shell( self )",28, 8, 0
+repos/python/thefuck/tests/shells/test_powershell.py,"test_and_( self , shell )",58, 8, 0
+repos/python/thefuck/tests/shells/test_powershell.py,"test_app_alias( self , shell )",58, 8, 0
+repos/python/thefuck/tests/shells/test_powershell.py,"test_how_to_configure( self , shell )",72, 8, 0
+repos/python/thefuck/tests/shells/test_zsh.py,"shell( self )",21, 4, 0
+repos/python/thefuck/tests/shells/test_zsh.py,"shell_aliases( self )",66, 12, 0
+repos/python/thefuck/tests/shells/test_zsh.py,"test_from_shell( self , before , after , shell )",53, 4, 0
+repos/python/thefuck/tests/shells/test_zsh.py,"test_to_shell( self , shell )",46, 8, 0
+repos/python/thefuck/tests/shells/test_zsh.py,"test_and_( self , shell )",52, 8, 0
+repos/python/thefuck/tests/shells/test_zsh.py,"test_or_( self , shell )",51, 8, 0
+repos/python/thefuck/tests/shells/test_zsh.py,"test_get_aliases( self , shell )",64, 12, 0
+repos/python/thefuck/tests/shells/test_zsh.py,"test_app_alias( self , shell )",61, 8, 0
+repos/python/thefuck/tests/shells/test_zsh.py,"test_app_alias_variables_correctly_set( self , shell )",61, 4, 0
+repos/python/thefuck/tests/shells/test_zsh.py,"test_get_history( self , history_lines , shell )",66, 8, 0
+repos/python/thefuck/tests/shells/test_zsh.py,"test_how_to_configure( self , shell , config_exists )",68, 8, 0
+repos/python/thefuck/tests/shells/test_zsh.py,"test_how_to_configure_when_config_not_found( self , shell , config_exists )",68, 52, 0
+repos/python/thefuck/tests/shells/test_zsh.py,"test_info( self , shell , mocker )",64, 8, 0
+repos/python/thefuck/tests/shells/test_tcsh.py,"shell( self )",22, 8, 0
+repos/python/thefuck/tests/shells/test_tcsh.py,"Popen( self , mocker )",57, 8, 0
+repos/python/thefuck/tests/shells/test_tcsh.py,"test_from_shell( self , before , after , shell )",53, 4, 0
+repos/python/thefuck/tests/shells/test_tcsh.py,"test_to_shell( self , shell )",46, 8, 0
+repos/python/thefuck/tests/shells/test_tcsh.py,"test_and_( self , shell )",52, 8, 0
+repos/python/thefuck/tests/shells/test_tcsh.py,"test_or_( self , shell )",51, 8, 0
+repos/python/thefuck/tests/shells/test_tcsh.py,"test_get_aliases( self , shell )",79, 8, 0
+repos/python/thefuck/tests/shells/test_tcsh.py,"test_app_alias( self , shell )",65, 8, 0
+repos/python/thefuck/tests/shells/test_tcsh.py,"test_get_history( self , history_lines , shell )",57, 8, 0
+repos/python/thefuck/tests/shells/test_tcsh.py,"test_how_to_configure( self , shell , config_exists )",68, 8, 0
+repos/python/thefuck/tests/shells/test_tcsh.py,"test_how_to_configure_when_config_not_found( self , shell , config_exists )",68, 52, 0
+repos/python/thefuck/thefuck/argument_parser.py,"__init__( self )",70, 8, 0
+repos/python/thefuck/thefuck/argument_parser.py,"_add_arguments( self )",75, 12, 0
+repos/python/thefuck/thefuck/argument_parser.py,"_add_conflicting_arguments( self )",64, 8, 0
+repos/python/thefuck/thefuck/argument_parser.py,"_prepare_arguments( self , argv )",76, 8, 0
+repos/python/thefuck/thefuck/argument_parser.py,"parse( self , argv )",54, 8, 0
+repos/python/thefuck/thefuck/argument_parser.py,"print_usage( self )",45, 8, 0
+repos/python/thefuck/thefuck/argument_parser.py,"print_help( self )",44, 8, 0
+repos/python/thefuck/thefuck/types.py,"__init__( self , script , output )",50, 8, 0
+repos/python/thefuck/thefuck/types.py,"stdout( self )",73, 8, 0
+repos/python/thefuck/thefuck/types.py,"stderr( self )",73, 8, 0
+repos/python/thefuck/thefuck/types.py,"script_parts( self )",82, 16, 0
+repos/python/thefuck/thefuck/types.py,"__eq__( self , other )",78, 12, 0
+repos/python/thefuck/thefuck/types.py,"__repr__( self )",56, 8, 0
+repos/python/thefuck/thefuck/types.py,"update( self , ** kwargs )",53, 8, 0
+repos/python/thefuck/thefuck/types.py,"from_raw_script( cls , raw_script )",70, 8, 0
+repos/python/thefuck/thefuck/types.py,"__init__( self , name , match , get_new_command , enabled_by_default , side_effect , priority , requires_output )",53, 4, 0
+repos/python/thefuck/thefuck/types.py,"__eq__( self , other )",72, 20, 0
+repos/python/thefuck/thefuck/types.py,"__repr__( self )",64, 8, 0
+repos/python/thefuck/thefuck/types.py,"from_path( cls , path )",74, 12, 0
+repos/python/thefuck/thefuck/types.py,"is_enabled( self )",72, 8, 0
+repos/python/thefuck/thefuck/types.py,"is_match( self , command )",73, 12, 0
+repos/python/thefuck/thefuck/types.py,"get_corrected_commands( self , command )",69, 35, 0
+repos/python/thefuck/thefuck/types.py,"__init__( self , script , side_effect , priority )",57, 8, 0
+repos/python/thefuck/thefuck/types.py,"__eq__( self , other )",58, 12, 0
+repos/python/thefuck/thefuck/types.py,"__hash__( self )",58, 8, 0
+repos/python/thefuck/thefuck/types.py,"__repr__( self )",83, 8, 0
+repos/python/thefuck/thefuck/types.py,"_get_script( self )",76, 8, 0
+repos/python/thefuck/thefuck/types.py,"run( self , old_cmd )",76, 8, 0
+repos/python/thefuck/thefuck/ui.py,"read_actions( )",66, 8, 0
+repos/python/thefuck/thefuck/ui.py,"__init__( self , commands )",71, 8, 0
+repos/python/thefuck/thefuck/ui.py,"_realise( self )",55, 12, 0
+repos/python/thefuck/thefuck/ui.py,"next( self )",62, 8, 0
+repos/python/thefuck/thefuck/ui.py,"previous( self )",62, 8, 0
+repos/python/thefuck/thefuck/ui.py,"value( self )",51, 8, 0
+repos/python/thefuck/thefuck/ui.py,"select_command( corrected_commands )",71, 4, 0
+repos/python/thefuck/thefuck/corrector.py,"get_loaded_rules( rules_paths )",40, 12, 0
+repos/python/thefuck/thefuck/corrector.py,"get_rules_import_paths( )",68, 8, 0
+repos/python/thefuck/thefuck/corrector.py,"get_rules( )",60, 4, 0
+repos/python/thefuck/thefuck/corrector.py,"organize_commands( corrected_commands )",84, 8, 0
+repos/python/thefuck/thefuck/corrector.py,"get_corrected_commands( command )",68, 4, 0
+repos/python/thefuck/thefuck/logs.py,"color( color_ )",59, 4, 0
+repos/python/thefuck/thefuck/logs.py,"warn( title )",62, 4, 0
+repos/python/thefuck/thefuck/logs.py,"exception( title , exc_info )",65, 8, 0
+repos/python/thefuck/thefuck/logs.py,"rule_failed( rule , exc_info )",54, 4, 0
+repos/python/thefuck/thefuck/logs.py,"failed( msg )",52, 4, 0
+repos/python/thefuck/thefuck/logs.py,"show_corrected_command( corrected_command )",82, 8, 0
+repos/python/thefuck/thefuck/logs.py,"confirm_text( corrected_command )",84, 12, 0
+repos/python/thefuck/thefuck/logs.py,"debug( msg )",70, 8, 0
+repos/python/thefuck/thefuck/logs.py,"debug_time( msg )",68, 8, 0
+repos/python/thefuck/thefuck/logs.py,"how_to_configure_alias( configuration_details )",81, 12, 0
+repos/python/thefuck/thefuck/logs.py,"already_configured( configuration_details )",68, 8, 0
+repos/python/thefuck/thefuck/logs.py,"configured_successfully( configuration_details )",62, 8, 0
+repos/python/thefuck/thefuck/logs.py,"version( thefuck_version , python_version , shell_info )",72, 8, 0
+repos/python/thefuck/thefuck/const.py,"__init__( self , name )",30, 4, 0
+repos/python/thefuck/thefuck/const.py,"__repr__( self )",49, 8, 0
+repos/python/thefuck/thefuck/conf.py,"__getattr__( self , item )",33, 4, 0
+repos/python/thefuck/thefuck/conf.py,"__setattr__( self , key , value )",39, 4, 0
+repos/python/thefuck/thefuck/conf.py,"init( self , args = None )",71, 8, 0
+repos/python/thefuck/thefuck/conf.py,"_init_settings_file( self )",73, 20, 0
+repos/python/thefuck/thefuck/conf.py,"_get_user_dir_path( self )",76, 12, 0
+repos/python/thefuck/thefuck/conf.py,"_setup_user_dir( self )",72, 8, 0
+repos/python/thefuck/thefuck/conf.py,"_settings_from_file( self )",74, 12, 0
+repos/python/thefuck/thefuck/conf.py,"_rules_from_env( self , val )",90, 12, 0
+repos/python/thefuck/thefuck/conf.py,"_priority_from_env( self , val )",49, 16, 0
+repos/python/thefuck/thefuck/conf.py,"_val_from_env( self , env , attr )",76, 8, 0
+repos/python/thefuck/thefuck/conf.py,"_settings_from_env( self )",59, 16, 0
+repos/python/thefuck/thefuck/conf.py,"_settings_from_args( self , args )",61, 12, 0
+repos/python/thefuck/thefuck/utils.py,"memoize.wrapper( * args , ** kwargs )",53, 12, 0
+repos/python/thefuck/thefuck/utils.py,"memoize( fn )",53, 12, 0
+repos/python/thefuck/thefuck/utils.py,"which.is_exe( fpath )",71, 12, 0
+repos/python/thefuck/thefuck/utils.py,"which( program )",71, 12, 0
+repos/python/thefuck/thefuck/utils.py,"default_settings._default_settings( fn , command )",40, 4, 0
+repos/python/thefuck/thefuck/utils.py,"default_settings( params )",60, 4, 0
+repos/python/thefuck/thefuck/utils.py,"get_closest( word , possibilities , cutoff = 0 . 6 , fallback_to_first = True )",76, 8, 0
+repos/python/thefuck/thefuck/utils.py,"get_close_matches( word , possibilities , n = None , cutoff = 0 . 6 )",72, 4, 0
+repos/python/thefuck/thefuck/utils.py,"get_all_executables._safe( fn , fallback )",29, 4, 0
+repos/python/thefuck/thefuck/utils.py,"get_all_executables( )",70, 15, 0
+repos/python/thefuck/thefuck/utils.py,"replace_argument( script , from_ , to )",86, 4, 0
+repos/python/thefuck/thefuck/utils.py,"eager( fn , * args , ** kwargs )",37, 4, 0
+repos/python/thefuck/thefuck/utils.py,"get_all_matched_commands( stderr , separator = 'Did you mean' )",64, 0, 0
+repos/python/thefuck/thefuck/utils.py,"replace_command( command , broken , matched )",70, 4, 0
+repos/python/thefuck/thefuck/utils.py,"is_app( command , * app_names , ** kwargs )",89, 8, 0
+repos/python/thefuck/thefuck/utils.py,"for_app._for_app( fn , command )",50, 8, 0
+repos/python/thefuck/thefuck/utils.py,"for_app( * app_names , ** kwargs )",65, 4, 0
+repos/python/thefuck/thefuck/utils.py,"__init__( self )",24, 4, 0
+repos/python/thefuck/thefuck/utils.py,"_init_db( self )",62, 12, 0
+repos/python/thefuck/thefuck/utils.py,"_setup_db( self )",68, 8, 0
+repos/python/thefuck/thefuck/utils.py,"_get_cache_dir( self )",76, 8, 0
+repos/python/thefuck/thefuck/utils.py,"_get_mtime( self , path )",47, 12, 0
+repos/python/thefuck/thefuck/utils.py,"_get_key( self , fn , depends_on , args , kwargs )",57, 8, 0
+repos/python/thefuck/thefuck/utils.py,"get_value( self , fn , depends_on , args , kwargs )",70, 8, 0
+repos/python/thefuck/thefuck/utils.py,"cache.cache.cache_decorator.wrapper( * args , ** kwargs )",70, 16, 0
+repos/python/thefuck/thefuck/utils.py,"cache.cache_decorator( fn )",70, 16, 0
+repos/python/thefuck/thefuck/utils.py,"cache( * depends_on )",76, 4, 0
+repos/python/thefuck/thefuck/utils.py,"get_installation_info( )",47, 4, 0
+repos/python/thefuck/thefuck/utils.py,"get_alias( )",46, 4, 0
+repos/python/thefuck/thefuck/utils.py,"get_valid_history_without_current._not_corrected( history , tf_alias )",78, 8, 0
+repos/python/thefuck/thefuck/utils.py,"get_valid_history_without_current( command )",78, 8, 0
+repos/python/thefuck/thefuck/utils.py,"format_raw_script( raw_script )",69, 8, 0
+repos/python/thefuck/thefuck/entrypoints/shell_logger.py,"_read( f , fd )",69, 8, 0
+repos/python/thefuck/thefuck/entrypoints/shell_logger.py,"_set_pty_size( master_fd )",66, 4, 0
+repos/python/thefuck/thefuck/entrypoints/shell_logger.py,"_spawn( shell , master_read )",72, 4, 0
+repos/python/thefuck/thefuck/entrypoints/shell_logger.py,"shell_logger( output )",86, 4, 0
+repos/python/thefuck/thefuck/entrypoints/main.py,"main( )",68, 12, 0
+repos/python/thefuck/thefuck/entrypoints/fix_command.py,"_get_raw_command( known_args )",71, 12, 0
+repos/python/thefuck/thefuck/entrypoints/fix_command.py,"fix_command( known_args )",80, 4, 0
+repos/python/thefuck/thefuck/entrypoints/not_configured.py,"_get_shell_pid( )",38, 4, 0
+repos/python/thefuck/thefuck/entrypoints/not_configured.py,"_get_not_configured_usage_tracker_path( )",85, 4, 0
+repos/python/thefuck/thefuck/entrypoints/not_configured.py,"_record_first_run( )",73, 4, 0
+repos/python/thefuck/thefuck/entrypoints/not_configured.py,"_get_previous_command( )",34, 4, 0
+repos/python/thefuck/thefuck/entrypoints/not_configured.py,"_is_second_run( )",77, 12, 0
+repos/python/thefuck/thefuck/entrypoints/not_configured.py,"_is_already_configured( configuration_details )",68, 8, 0
+repos/python/thefuck/thefuck/entrypoints/not_configured.py,"_configure( configuration_details )",58, 8, 0
+repos/python/thefuck/thefuck/entrypoints/not_configured.py,"main( )",79, 4, 0
+repos/python/thefuck/thefuck/entrypoints/alias.py,"_get_alias( known_args )",71, 8, 0
+repos/python/thefuck/thefuck/entrypoints/alias.py,"print_alias( known_args )",34, 4, 0
+repos/python/thefuck/thefuck/system/win32.py,"init_output( )",33, 4, 0
+repos/python/thefuck/thefuck/system/win32.py,"get_key( )",72, 8, 0
+repos/python/thefuck/thefuck/system/win32.py,"open_command( arg )",33, 4, 0
+repos/python/thefuck/thefuck/system/win32.py,"_expanduser( self )",57, 4, 0
+repos/python/thefuck/thefuck/system/unix.py,"getch( )",54, 8, 0
+repos/python/thefuck/thefuck/system/unix.py,"get_key( )",38, 16, 0
+repos/python/thefuck/thefuck/system/unix.py,"open_command( arg )",36, 4, 0
+repos/python/thefuck/thefuck/system/unix.py,"_expanduser( self )",57, 4, 0
+repos/python/thefuck/thefuck/rules/ssh_known_hosts.py,"match( command )",102, 8, 0
+repos/python/thefuck/thefuck/rules/ssh_known_hosts.py,"get_new_command( command )",30, 0, 0
+repos/python/thefuck/thefuck/rules/ssh_known_hosts.py,"side_effect( old_cmd , command )",84, 8, 0
+repos/python/thefuck/thefuck/rules/cargo.py,"match( command )",37, 4, 0
+repos/python/thefuck/thefuck/rules/cargo.py,"get_new_command( command )",30, 0, 0
+repos/python/thefuck/thefuck/rules/grep_arguments_order.py,"_get_actual_file( parts )",56, 8, 0
+repos/python/thefuck/thefuck/rules/grep_arguments_order.py,"match( command )",61, 4, 0
+repos/python/thefuck/thefuck/rules/grep_arguments_order.py,"get_new_command( command )",57, 4, 0
+repos/python/thefuck/thefuck/rules/git_two_dashes.py,"match( command )",59, 12, 0
+repos/python/thefuck/thefuck/rules/git_two_dashes.py,"get_new_command( command )",56, 4, 0
+repos/python/thefuck/thefuck/rules/apt_get.py,"_get_executable( command )",42, 4, 0
+repos/python/thefuck/thefuck/rules/apt_get.py,"get_package( executable )",65, 8, 0
+repos/python/thefuck/thefuck/rules/apt_get.py,"match( command )",75, 4, 0
+repos/python/thefuck/thefuck/rules/apt_get.py,"get_new_command( command )",59, 4, 0
+repos/python/thefuck/thefuck/rules/path_from_history.py,"_get_destination( command )",52, 8, 0
+repos/python/thefuck/thefuck/rules/path_from_history.py,"match( command )",43, 4, 0
+repos/python/thefuck/thefuck/rules/path_from_history.py,"_get_all_absolute_paths_from_history( command )",63, 12, 0
+repos/python/thefuck/thefuck/rules/path_from_history.py,"get_new_command( command )",64, 4, 0
+repos/python/thefuck/thefuck/rules/has_exists_script.py,"match( command )",78, 4, 0
+repos/python/thefuck/thefuck/rules/has_exists_script.py,"get_new_command( command )",42, 4, 0
+repos/python/thefuck/thefuck/rules/git_rm_staged.py,"match( command )",94, 12, 0
+repos/python/thefuck/thefuck/rules/git_rm_staged.py,"get_new_command( command )",50, 4, 0
+repos/python/thefuck/thefuck/rules/cd_mkdir.py,"match( command )",67, 12, 0
+repos/python/thefuck/thefuck/rules/cd_mkdir.py,"get_new_command( command )",53, 4, 0
+repos/python/thefuck/thefuck/rules/rm_root.py,"match( command )",59, 12, 0
+repos/python/thefuck/thefuck/rules/rm_root.py,"get_new_command( command )",59, 4, 0
+repos/python/thefuck/thefuck/rules/rm_dir.py,"match( command )",60, 12, 0
+repos/python/thefuck/thefuck/rules/rm_dir.py,"get_new_command( command )",76, 4, 0
+repos/python/thefuck/thefuck/rules/test.py.py,"match( command )",73, 4, 0
+repos/python/thefuck/thefuck/rules/test.py.py,"get_new_command( command )",30, 0, 0
+repos/python/thefuck/thefuck/rules/dirty_untar.py,"_is_tar_extract( cmd )",42, 4, 0
+repos/python/thefuck/thefuck/rules/dirty_untar.py,"_tar_file( cmd )",51, 16, 0
+repos/python/thefuck/thefuck/rules/dirty_untar.py,"match( command )",61, 12, 0
+repos/python/thefuck/thefuck/rules/dirty_untar.py,"get_new_command( command )",60, 4, 0
+repos/python/thefuck/thefuck/rules/dirty_untar.py,"side_effect( old_cmd , command )",79, 16, 0
+repos/python/thefuck/thefuck/rules/apt_list_upgradable.py,"match( command )",72, 4, 0
+repos/python/thefuck/thefuck/rules/apt_list_upgradable.py,"get_new_command( command )",35, 4, 0
+repos/python/thefuck/thefuck/rules/git_bisect_usage.py,"match( command )",51, 12, 0
+repos/python/thefuck/thefuck/rules/git_bisect_usage.py,"get_new_command( command )",77, 4, 0
+repos/python/thefuck/thefuck/rules/git_push_different_branch_names.py,"match( command )",118, 4, 0
+repos/python/thefuck/thefuck/rules/git_push_different_branch_names.py,"get_new_command( command )",87, 4, 0
+repos/python/thefuck/thefuck/rules/scm_correction.py,"_get_actual_scm( )",42, 4, 0
+repos/python/thefuck/thefuck/rules/scm_correction.py,"match( command )",59, 4, 0
+repos/python/thefuck/thefuck/rules/scm_correction.py,"get_new_command( command )",55, 4, 0
+repos/python/thefuck/thefuck/rules/history.py,"match( command )",78, 33, 0
+repos/python/thefuck/thefuck/rules/history.py,"get_new_command( command )",67, 23, 0
+repos/python/thefuck/thefuck/rules/brew_install.py,"_get_formulas( )",66, 8, 0
+repos/python/thefuck/thefuck/rules/brew_install.py,"_get_similar_formula( formula_name )",67, 4, 0
+repos/python/thefuck/thefuck/rules/brew_install.py,"match( command )",74, 8, 0
+repos/python/thefuck/thefuck/rules/brew_install.py,"get_new_command( command )",80, 4, 0
+repos/python/thefuck/thefuck/rules/unsudo.py,"match( command )",67, 4, 0
+repos/python/thefuck/thefuck/rules/unsudo.py,"get_new_command( command )",46, 4, 0
+repos/python/thefuck/thefuck/rules/ln_s_order.py,"_get_destination( script_parts )",76, 4, 0
+repos/python/thefuck/thefuck/rules/ln_s_order.py,"match( command )",72, 12, 0
+repos/python/thefuck/thefuck/rules/ln_s_order.py,"get_new_command( command )",57, 4, 0
+repos/python/thefuck/thefuck/rules/git_help_aliased.py,"match( command )",76, 4, 0
+repos/python/thefuck/thefuck/rules/git_help_aliased.py,"get_new_command( command )",80, 4, 0
+repos/python/thefuck/thefuck/rules/missing_space_before_subcommand.py,"_get_executable( script_part )",47, 8, 0
+repos/python/thefuck/thefuck/rules/missing_space_before_subcommand.py,"match( command )",65, 4, 0
+repos/python/thefuck/thefuck/rules/missing_space_before_subcommand.py,"get_new_command( command )",76, 4, 0
+repos/python/thefuck/thefuck/rules/git_tag_force.py,"match( command )",52, 12, 0
+repos/python/thefuck/thefuck/rules/git_tag_force.py,"get_new_command( command )",66, 4, 0
+repos/python/thefuck/thefuck/rules/pacman_not_found.py,"match( command )",69, 17, 0
+repos/python/thefuck/thefuck/rules/pacman_not_found.py,"get_new_command( command )",59, 4, 0
+repos/python/thefuck/thefuck/rules/unknown_command.py,"match( command )",81, 4, 0
+repos/python/thefuck/thefuck/rules/unknown_command.py,"get_new_command( command )",78, 4, 0
+repos/python/thefuck/thefuck/rules/gem_unknown_command.py,"match( command )",70, 4, 0
+repos/python/thefuck/thefuck/rules/gem_unknown_command.py,"_get_unknown_command( command )",67, 4, 0
+repos/python/thefuck/thefuck/rules/gem_unknown_command.py,"_get_all_commands( )",57, 4, 0
+repos/python/thefuck/thefuck/rules/gem_unknown_command.py,"get_new_command( command )",67, 4, 0
+repos/python/thefuck/thefuck/rules/git_rm_local_modifications.py,"match( command )",87, 12, 0
+repos/python/thefuck/thefuck/rules/git_rm_local_modifications.py,"get_new_command( command )",50, 4, 0
+repos/python/thefuck/thefuck/rules/prove_recursively.py,"_is_recursive( part )",77, 4, 0
+repos/python/thefuck/thefuck/rules/prove_recursively.py,"_isdir( part )",60, 4, 0
+repos/python/thefuck/thefuck/rules/prove_recursively.py,"match( command )",78, 8, 0
+repos/python/thefuck/thefuck/rules/prove_recursively.py,"get_new_command( command )",36, 4, 0
+repos/python/thefuck/thefuck/rules/git_rebase_merge_dir.py,"match( command )",92, 12, 0
+repos/python/thefuck/thefuck/rules/git_rebase_merge_dir.py,"get_new_command( command )",88, 4, 0
+repos/python/thefuck/thefuck/rules/git_fix_stash.py,"match( command )",63, 4, 0
+repos/python/thefuck/thefuck/rules/git_fix_stash.py,"get_new_command( command )",82, 4, 0
+repos/python/thefuck/thefuck/rules/gradle_wrapper.py,"match( command )",47, 4, 0
+repos/python/thefuck/thefuck/rules/gradle_wrapper.py,"get_new_command( command )",70, 4, 0
+repos/python/thefuck/thefuck/rules/composer_not_command.py,"match( command )",73, 13, 0
+repos/python/thefuck/thefuck/rules/composer_not_command.py,"get_new_command( command )",96, 8, 0
+repos/python/thefuck/thefuck/rules/python_command.py,"match( command )",58, 12, 0
+repos/python/thefuck/thefuck/rules/python_command.py,"get_new_command( command )",38, 4, 0
+repos/python/thefuck/thefuck/rules/hostscli.py,"match( command )",38, 4, 0
+repos/python/thefuck/thefuck/rules/hostscli.py,"get_new_command( command )",76, 4, 0
+repos/python/thefuck/thefuck/rules/mvn_unknown_lifecycle_phase.py,"_get_failed_lifecycle( command )",66, 4, 0
+repos/python/thefuck/thefuck/rules/mvn_unknown_lifecycle_phase.py,"_getavailable_lifecycles( command )",79, 8, 0
+repos/python/thefuck/thefuck/rules/mvn_unknown_lifecycle_phase.py,"match( command )",61, 4, 0
+repos/python/thefuck/thefuck/rules/mvn_unknown_lifecycle_phase.py,"get_new_command( command )",87, 8, 0
+repos/python/thefuck/thefuck/rules/javac.py,"match( command )",48, 4, 0
+repos/python/thefuck/thefuck/rules/javac.py,"get_new_command( command )",36, 4, 0
+repos/python/thefuck/thefuck/rules/gradle_no_task.py,"match( command )",41, 4, 0
+repos/python/thefuck/thefuck/rules/gradle_no_task.py,"_get_all_tasks( gradle )",89, 8, 0
+repos/python/thefuck/thefuck/rules/gradle_no_task.py,"get_new_command( command )",59, 4, 0
+repos/python/thefuck/thefuck/rules/react_native_command_unrecognized.py,"match( command )",68, 4, 0
+repos/python/thefuck/thefuck/rules/react_native_command_unrecognized.py,"_get_commands( )",58, 4, 0
+repos/python/thefuck/thefuck/rules/react_native_command_unrecognized.py,"get_new_command( command )",68, 4, 0
+repos/python/thefuck/thefuck/rules/npm_run_script.py,"match( command )",80, 12, 0
+repos/python/thefuck/thefuck/rules/npm_run_script.py,"get_new_command( command )",36, 4, 0
+repos/python/thefuck/thefuck/rules/fix_alt_space.py,"match( command )",58, 4, 0
+repos/python/thefuck/thefuck/rules/fix_alt_space.py,"get_new_command( command )",45, 4, 0
+repos/python/thefuck/thefuck/rules/long_form_help.py,"match( command )",64, 4, 0
+repos/python/thefuck/thefuck/rules/long_form_help.py,"get_new_command( command )",64, 8, 0
+repos/python/thefuck/thefuck/rules/sudo.py,"match( command )",104, 4, 0
+repos/python/thefuck/thefuck/rules/sudo.py,"get_new_command( command )",110, 8, 0
+repos/python/thefuck/thefuck/rules/git_not_command.py,"match( command )",73, 4, 0
+repos/python/thefuck/thefuck/rules/git_not_command.py,"get_new_command( command )",101, 4, 0
+repos/python/thefuck/thefuck/rules/git_branch_delete.py,"match( command )",75, 12, 0
+repos/python/thefuck/thefuck/rules/git_branch_delete.py,"get_new_command( command )",56, 4, 0
+repos/python/thefuck/thefuck/rules/ls_lah.py,"match( command )",65, 4, 0
+repos/python/thefuck/thefuck/rules/ls_lah.py,"get_new_command( command )",38, 4, 0
+repos/python/thefuck/thefuck/rules/git_rebase_no_changes.py,"match( command )",76, 8, 0
+repos/python/thefuck/thefuck/rules/git_rebase_no_changes.py,"get_new_command( command )",31, 4, 0
+repos/python/thefuck/thefuck/rules/git_rm_recursive.py,"match( command )",62, 12, 0
+repos/python/thefuck/thefuck/rules/git_rm_recursive.py,"get_new_command( command )",44, 4, 0
+repos/python/thefuck/thefuck/rules/port_already_in_use.py,"_get_pid_by_port( port )",66, 4, 0
+repos/python/thefuck/thefuck/rules/port_already_in_use.py,"_get_used_port( command )",53, 8, 0
+repos/python/thefuck/thefuck/rules/port_already_in_use.py,"match( command )",43, 4, 0
+repos/python/thefuck/thefuck/rules/port_already_in_use.py,"get_new_command( command )",62, 4, 0
+repos/python/thefuck/thefuck/rules/apt_upgrade.py,"match( command )",101, 4, 0
+repos/python/thefuck/thefuck/rules/apt_upgrade.py,"get_new_command( command )",30, 0, 0
+repos/python/thefuck/thefuck/rules/vagrant_up.py,"match( command )",56, 4, 0
+repos/python/thefuck/thefuck/rules/vagrant_up.py,"get_new_command( command )",78, 8, 0
+repos/python/thefuck/thefuck/rules/brew_uninstall.py,"match( command )",69, 4, 0
+repos/python/thefuck/thefuck/rules/brew_uninstall.py,"get_new_command( command )",44, 4, 0
+repos/python/thefuck/thefuck/rules/adb_unknown_command.py,"match( command )",75, 12, 0
+repos/python/thefuck/thefuck/rules/adb_unknown_command.py,"get_new_command( command )",92, 8, 0
+repos/python/thefuck/thefuck/rules/go_run.py,"match( command )",52, 12, 0
+repos/python/thefuck/thefuck/rules/go_run.py,"get_new_command( command )",34, 4, 0
+repos/python/thefuck/thefuck/rules/tmux.py,"match( command )",51, 4, 0
+repos/python/thefuck/thefuck/rules/tmux.py,"get_new_command( command )",63, 4, 0
+repos/python/thefuck/thefuck/rules/git_stash_pop.py,"match( command )",109, 12, 0
+repos/python/thefuck/thefuck/rules/git_stash_pop.py,"get_new_command( command )",74, 4, 0
+repos/python/thefuck/thefuck/rules/java.py,"match( command )",44, 4, 0
+repos/python/thefuck/thefuck/rules/java.py,"get_new_command( command )",31, 4, 0
+repos/python/thefuck/thefuck/rules/pacman.py,"match( command )",73, 4, 0
+repos/python/thefuck/thefuck/rules/pacman.py,"get_new_command( command )",61, 4, 0
+repos/python/thefuck/thefuck/rules/docker_not_command.py,"match( command )",55, 4, 0
+repos/python/thefuck/thefuck/rules/docker_not_command.py,"get_docker_commands( )",76, 4, 0
+repos/python/thefuck/thefuck/rules/docker_not_command.py,"get_new_command( command )",74, 4, 0
+repos/python/thefuck/thefuck/rules/python_execute.py,"match( command )",46, 4, 0
+repos/python/thefuck/thefuck/rules/python_execute.py,"get_new_command( command )",34, 4, 0
+repos/python/thefuck/thefuck/rules/tsuru_login.py,"match( command )",57, 12, 0
+repos/python/thefuck/thefuck/rules/tsuru_login.py,"get_new_command( command )",53, 4, 0
+repos/python/thefuck/thefuck/rules/man_no_space.py,"match( command )",64, 12, 0
+repos/python/thefuck/thefuck/rules/man_no_space.py,"get_new_command( command )",48, 4, 0
+repos/python/thefuck/thefuck/rules/sl_ls.py,"match( command )",34, 4, 0
+repos/python/thefuck/thefuck/rules/sl_ls.py,"get_new_command( command )",30, 0, 0
+repos/python/thefuck/thefuck/rules/git_diff_no_index.py,"match( command )",53, 4, 0
+repos/python/thefuck/thefuck/rules/git_diff_no_index.py,"get_new_command( command )",71, 4, 0
+repos/python/thefuck/thefuck/rules/git_commit_amend.py,"match( command )",46, 4, 0
+repos/python/thefuck/thefuck/rules/git_commit_amend.py,"get_new_command( command )",32, 4, 0
+repos/python/thefuck/thefuck/rules/whois.py,"match( command )",80, 4, 0
+repos/python/thefuck/thefuck/rules/whois.py,"get_new_command( command )",76, 8, 0
+repos/python/thefuck/thefuck/rules/git_stash.py,"match( command )",80, 4, 0
+repos/python/thefuck/thefuck/rules/git_stash.py,"get_new_command( command )",45, 4, 0
+repos/python/thefuck/thefuck/rules/heroku_multiple_apps.py,"match( command )",91, 4, 0
+repos/python/thefuck/thefuck/rules/heroku_multiple_apps.py,"get_new_command( command )",62, 4, 0
+repos/python/thefuck/thefuck/rules/git_pull.py,"match( command )",73, 4, 0
+repos/python/thefuck/thefuck/rules/git_pull.py,"get_new_command( command )",55, 4, 0
+repos/python/thefuck/thefuck/rules/git_merge_unrelated.py,"match( command )",82, 12, 0
+repos/python/thefuck/thefuck/rules/git_merge_unrelated.py,"get_new_command( command )",59, 4, 0
+repos/python/thefuck/thefuck/rules/quotation_marks.py,"match( command )",61, 4, 0
+repos/python/thefuck/thefuck/rules/quotation_marks.py,"get_new_command( command )",46, 4, 0
+repos/python/thefuck/thefuck/rules/cpp11.py,"match( command )",71, 4, 0
+repos/python/thefuck/thefuck/rules/cpp11.py,"get_new_command( command )",42, 4, 0
+repos/python/thefuck/thefuck/rules/chmod_x.py,"match( command )",65, 12, 0
+repos/python/thefuck/thefuck/rules/chmod_x.py,"get_new_command( command )",59, 8, 0
+repos/python/thefuck/thefuck/rules/remove_trailing_cedilla.py,"match( command )",44, 4, 0
+repos/python/thefuck/thefuck/rules/remove_trailing_cedilla.py,"get_new_command( command )",31, 4, 0
+repos/python/thefuck/thefuck/rules/grunt_task_not_found.py,"match( command )",41, 4, 0
+repos/python/thefuck/thefuck/rules/grunt_task_not_found.py,"_get_all_tasks( )",51, 4, 0
+repos/python/thefuck/thefuck/rules/grunt_task_not_found.py,"get_new_command( command )",69, 4, 0
+repos/python/thefuck/thefuck/rules/sed_unterminated_s.py,"match( command )",56, 4, 0
+repos/python/thefuck/thefuck/rules/sed_unterminated_s.py,"get_new_command( command )",58, 8, 0
+repos/python/thefuck/thefuck/rules/apt_invalid_operation.py,"match( command )",52, 4, 0
+repos/python/thefuck/thefuck/rules/apt_invalid_operation.py,"_parse_apt_operations( help_text_lines )",59, 16, 0
+repos/python/thefuck/thefuck/rules/apt_invalid_operation.py,"_parse_apt_get_and_cache_operations( help_text_lines )",58, 0, 0
+repos/python/thefuck/thefuck/rules/apt_invalid_operation.py,"_get_operations( app )",58, 8, 0
+repos/python/thefuck/thefuck/rules/apt_invalid_operation.py,"get_new_command( command )",67, 4, 0
+repos/python/thefuck/thefuck/rules/cargo_no_command.py,"match( command )",59, 4, 0
+repos/python/thefuck/thefuck/rules/cargo_no_command.py,"get_new_command( command )",67, 4, 0
+repos/python/thefuck/thefuck/rules/aws_cli.py,"match( command )",79, 4, 0
+repos/python/thefuck/thefuck/rules/aws_cli.py,"get_new_command( command )",75, 4, 0
+repos/python/thefuck/thefuck/rules/cd_correction.py,"_get_sub_dirs( parent )",97, 4, 0
+repos/python/thefuck/thefuck/rules/cd_correction.py,"match( command )",67, 12, 0
+repos/python/thefuck/thefuck/rules/cd_correction.py,"get_new_command( command )",97, 8, 0
+repos/python/thefuck/thefuck/rules/git_branch_list.py,"match( command )",67, 12, 0
+repos/python/thefuck/thefuck/rules/git_branch_list.py,"get_new_command( command )",64, 4, 0
+repos/python/thefuck/thefuck/rules/lein_not_task.py,"match( command )",67, 12, 0
+repos/python/thefuck/thefuck/rules/lein_not_task.py,"get_new_command( command )",78, 4, 0
+repos/python/thefuck/thefuck/rules/cd_parent.py,"match( command )",36, 4, 0
+repos/python/thefuck/thefuck/rules/cd_parent.py,"get_new_command( command )",30, 0, 0
+repos/python/thefuck/thefuck/rules/open.py,"is_arg_url( command )",41, 12, 0
+repos/python/thefuck/thefuck/rules/open.py,"match( command )",65, 12, 0
+repos/python/thefuck/thefuck/rules/open.py,"get_new_command( command )",81, 4, 0
+repos/python/thefuck/thefuck/rules/git_push_without_commits.py,"match( command )",63, 4, 0
+repos/python/thefuck/thefuck/rules/git_push_without_commits.py,"get_new_command( command )",46, 4, 0
+repos/python/thefuck/thefuck/rules/git_pull_clone.py,"match( command )",112, 12, 0
+repos/python/thefuck/thefuck/rules/git_pull_clone.py,"get_new_command( command )",61, 4, 0
+repos/python/thefuck/thefuck/rules/git_add_force.py,"match( command )",76, 12, 0
+repos/python/thefuck/thefuck/rules/git_add_force.py,"get_new_command( command )",66, 4, 0
+repos/python/thefuck/thefuck/rules/dry.py,"match( command )",54, 12, 0
+repos/python/thefuck/thefuck/rules/dry.py,"get_new_command( command )",46, 4, 0
+repos/python/thefuck/thefuck/rules/touch.py,"match( command )",57, 4, 0
+repos/python/thefuck/thefuck/rules/touch.py,"get_new_command( command )",68, 8, 0
+repos/python/thefuck/thefuck/rules/cp_omitting_directory.py,"match( command )",72, 4, 0
+repos/python/thefuck/thefuck/rules/cp_omitting_directory.py,"get_new_command( command )",51, 4, 0
+repos/python/thefuck/thefuck/rules/npm_wrong_command.py,"_get_wrong_command( script_parts )",79, 4, 0
+repos/python/thefuck/thefuck/rules/npm_wrong_command.py,"match( command )",63, 12, 0
+repos/python/thefuck/thefuck/rules/npm_wrong_command.py,"_get_available_commands( stdout )",58, 8, 0
+repos/python/thefuck/thefuck/rules/npm_wrong_command.py,"get_new_command( command )",66, 4, 0
+repos/python/thefuck/thefuck/rules/git_remote_seturl_add.py,"match( command )",59, 12, 0
+repos/python/thefuck/thefuck/rules/git_remote_seturl_add.py,"get_new_command( command )",62, 4, 0
+repos/python/thefuck/thefuck/rules/brew_cask_dependency.py,"match( command )",56, 12, 0
+repos/python/thefuck/thefuck/rules/brew_cask_dependency.py,"_get_cask_install_lines( output )",49, 8, 0
+repos/python/thefuck/thefuck/rules/brew_cask_dependency.py,"_get_script_for_brew_cask( output )",57, 4, 0
+repos/python/thefuck/thefuck/rules/brew_cask_dependency.py,"get_new_command( command )",65, 4, 0
+repos/python/thefuck/thefuck/rules/sudo_command_from_user_path.py,"_get_command_name( command )",73, 4, 0
+repos/python/thefuck/thefuck/rules/sudo_command_from_user_path.py,"match( command )",50, 8, 0
+repos/python/thefuck/thefuck/rules/sudo_command_from_user_path.py,"get_new_command( command )",73, 28, 0
+repos/python/thefuck/thefuck/rules/yarn_command_replaced.py,"match( command )",41, 4, 0
+repos/python/thefuck/thefuck/rules/yarn_command_replaced.py,"get_new_command( command )",44, 4, 0
+repos/python/thefuck/thefuck/rules/brew_update_formula.py,"match( command )",76, 12, 0
+repos/python/thefuck/thefuck/rules/brew_update_formula.py,"get_new_command( command )",55, 4, 0
+repos/python/thefuck/thefuck/rules/git_pull_uncommitted_changes.py,"match( command )",71, 17, 0
+repos/python/thefuck/thefuck/rules/git_pull_uncommitted_changes.py,"get_new_command( command )",64, 4, 0
+repos/python/thefuck/thefuck/rules/fab_command_not_found.py,"match( command )",62, 4, 0
+repos/python/thefuck/thefuck/rules/fab_command_not_found.py,"_get_between( content , start , end = None )",45, 12, 0
+repos/python/thefuck/thefuck/rules/fab_command_not_found.py,"get_new_command( command )",58, 8, 0
+repos/python/thefuck/thefuck/rules/yarn_alias.py,"match( command )",44, 4, 0
+repos/python/thefuck/thefuck/rules/yarn_alias.py,"get_new_command( command )",84, 4, 0
+repos/python/thefuck/thefuck/rules/pip_unknown_command.py,"match( command )",52, 12, 0
+repos/python/thefuck/thefuck/rules/pip_unknown_command.py,"get_new_command( command )",77, 4, 0
+repos/python/thefuck/thefuck/rules/brew_unknown_command.py,"_get_brew_commands( brew_path_prefix )",60, 4, 0
+repos/python/thefuck/thefuck/rules/brew_unknown_command.py,"_get_brew_tap_specific_commands( brew_path_prefix )",125, 8, 0
+repos/python/thefuck/thefuck/rules/brew_unknown_command.py,"_is_brew_tap_cmd_naming( name )",61, 4, 0
+repos/python/thefuck/thefuck/rules/brew_unknown_command.py,"_get_directory_names_only( path )",53, 12, 0
+repos/python/thefuck/thefuck/rules/brew_unknown_command.py,"_brew_commands( )",73, 20, 0
+repos/python/thefuck/thefuck/rules/brew_unknown_command.py,"match( command )",69, 8, 0
+repos/python/thefuck/thefuck/rules/brew_unknown_command.py,"get_new_command( command )",66, 4, 0
+repos/python/thefuck/thefuck/rules/git_push_pull.py,"match( command )",64, 12, 0
+repos/python/thefuck/thefuck/rules/git_push_pull.py,"get_new_command( command )",72, 4, 0
+repos/python/thefuck/thefuck/rules/no_command.py,"match( command )",64, 12, 0
+repos/python/thefuck/thefuck/rules/no_command.py,"_get_used_executables( command )",62, 4, 0
+repos/python/thefuck/thefuck/rules/no_command.py,"get_new_command( command )",73, 50, 0
+repos/python/thefuck/thefuck/rules/git_branch_exists.py,"match( command )",56, 4, 0
+repos/python/thefuck/thefuck/rules/git_branch_exists.py,"get_new_command( command )",76, 8, 0
+repos/python/thefuck/thefuck/rules/git_checkout.py,"match( command )",72, 4, 0
+repos/python/thefuck/thefuck/rules/git_checkout.py,"get_branches( )",62, 8, 0
+repos/python/thefuck/thefuck/rules/git_checkout.py,"get_new_command( command )",78, 8, 0
+repos/python/thefuck/thefuck/rules/brew_reinstall.py,"match( command )",54, 12, 0
+repos/python/thefuck/thefuck/rules/brew_reinstall.py,"get_new_command( command )",58, 4, 0
+repos/python/thefuck/thefuck/rules/mercurial.py,"extract_possibilities( command )",81, 4, 0
+repos/python/thefuck/thefuck/rules/mercurial.py,"match( command )",58, 12, 0
+repos/python/thefuck/thefuck/rules/mercurial.py,"get_new_command( command )",54, 4, 0
+repos/python/thefuck/thefuck/rules/switch_lang.py,"_get_matched_layout( command )",80, 4, 0
+repos/python/thefuck/thefuck/rules/switch_lang.py,"_switch( ch , layout )",47, 8, 0
+repos/python/thefuck/thefuck/rules/switch_lang.py,"_switch_command( command , layout )",65, 4, 0
+repos/python/thefuck/thefuck/rules/switch_lang.py,"match( command )",69, 12, 0
+repos/python/thefuck/thefuck/rules/switch_lang.py,"get_new_command( command )",52, 4, 0
+repos/python/thefuck/thefuck/rules/php_s.py,"match( command )",50, 12, 0
+repos/python/thefuck/thefuck/rules/php_s.py,"get_new_command( command )",56, 4, 0
+repos/python/thefuck/thefuck/rules/mvn_no_command.py,"match( command )",75, 4, 0
+repos/python/thefuck/thefuck/rules/mvn_no_command.py,"get_new_command( command )",47, 4, 0
+repos/python/thefuck/thefuck/rules/workon_doesnt_exists.py,"_get_all_environments( )",47, 4, 0
+repos/python/thefuck/thefuck/rules/workon_doesnt_exists.py,"match( command )",72, 12, 0
+repos/python/thefuck/thefuck/rules/workon_doesnt_exists.py,"get_new_command( command )",68, 8, 0
+repos/python/thefuck/thefuck/rules/ag_literal.py,"match( command )",55, 4, 0
+repos/python/thefuck/thefuck/rules/ag_literal.py,"get_new_command( command )",52, 4, 0
+repos/python/thefuck/thefuck/rules/ln_no_hard_link.py,"match( command )",79, 4, 0
+repos/python/thefuck/thefuck/rules/ln_no_hard_link.py,"get_new_command( command )",53, 4, 0
+repos/python/thefuck/thefuck/rules/yarn_command_not_found.py,"match( command )",41, 4, 0
+repos/python/thefuck/thefuck/rules/yarn_command_not_found.py,"_get_all_tasks( )",50, 4, 0
+repos/python/thefuck/thefuck/rules/yarn_command_not_found.py,"get_new_command( command )",79, 8, 0
+repos/python/thefuck/thefuck/rules/grep_recursive.py,"match( command )",54, 4, 0
+repos/python/thefuck/thefuck/rules/grep_recursive.py,"get_new_command( command )",52, 4, 0
+repos/python/thefuck/thefuck/rules/git_add.py,"_get_missing_file( command )",73, 8, 0
+repos/python/thefuck/thefuck/rules/git_add.py,"match( command )",72, 4, 0
+repos/python/thefuck/thefuck/rules/git_add.py,"get_new_command( command )",57, 4, 0
+repos/python/thefuck/thefuck/rules/django_south_merge.py,"match( command )",76, 11, 0
+repos/python/thefuck/thefuck/rules/django_south_merge.py,"get_new_command( command )",48, 4, 0
+repos/python/thefuck/thefuck/rules/ls_all.py,"match( command )",40, 4, 0
+repos/python/thefuck/thefuck/rules/ls_all.py,"get_new_command( command )",61, 4, 0
+repos/python/thefuck/thefuck/rules/yarn_help.py,"match( command )",75, 12, 0
+repos/python/thefuck/thefuck/rules/yarn_help.py,"get_new_command( command )",64, 8, 0
+repos/python/thefuck/thefuck/rules/mkdir_p.py,"match( command )",63, 12, 0
+repos/python/thefuck/thefuck/rules/mkdir_p.py,"get_new_command( command )",67, 4, 0
+repos/python/thefuck/thefuck/rules/dnf_no_such_command.py,"match( command )",55, 4, 0
+repos/python/thefuck/thefuck/rules/dnf_no_such_command.py,"_parse_operations( help_text_lines )",64, 4, 0
+repos/python/thefuck/thefuck/rules/dnf_no_such_command.py,"_get_operations( )",52, 28, 0
+repos/python/thefuck/thefuck/rules/dnf_no_such_command.py,"get_new_command( command )",75, 4, 0
+repos/python/thefuck/thefuck/rules/man.py,"match( command )",20, 0, 0
+repos/python/thefuck/thefuck/rules/man.py,"get_new_command( command )",81, 4, 0
+repos/python/thefuck/thefuck/rules/cat_dir.py,"match( command )",47, 8, 0
+repos/python/thefuck/thefuck/rules/cat_dir.py,"get_new_command( command )",50, 4, 0
+repos/python/thefuck/thefuck/rules/fix_file.py,"_make_pattern( pattern )",63, 4, 0
+repos/python/thefuck/thefuck/rules/fix_file.py,"_search( output )",50, 8, 0
+repos/python/thefuck/thefuck/rules/fix_file.py,"match( command )",35, 4, 0
+repos/python/thefuck/thefuck/rules/fix_file.py,"get_new_command( command )",79, 4, 0
+repos/python/thefuck/thefuck/rules/git_flag_after_filename.py,"match( command )",97, 4, 0
+repos/python/thefuck/thefuck/rules/git_flag_after_filename.py,"get_new_command( command )",79, 4, 0
+repos/python/thefuck/thefuck/rules/git_push.py,"match( command )",61, 12, 0
+repos/python/thefuck/thefuck/rules/git_push.py,"_get_upstream_option_index( command_parts )",53, 8, 0
+repos/python/thefuck/thefuck/rules/git_push.py,"get_new_command( command )",97, 8, 0
+repos/python/thefuck/thefuck/rules/tsuru_not_command.py,"match( command )",75, 4, 0
+repos/python/thefuck/thefuck/rules/tsuru_not_command.py,"get_new_command( command )",72, 4, 0
+repos/python/thefuck/thefuck/rules/ifconfig_device_not_found.py,"match( command )",70, 4, 0
+repos/python/thefuck/thefuck/rules/ifconfig_device_not_found.py,"_get_possible_interfaces( )",72, 4, 0
+repos/python/thefuck/thefuck/rules/ifconfig_device_not_found.py,"get_new_command( command )",68, 4, 0
+repos/python/thefuck/thefuck/rules/git_remote_delete.py,"match( command )",45, 4, 0
+repos/python/thefuck/thefuck/rules/git_remote_delete.py,"get_new_command( command )",58, 4, 0
+repos/python/thefuck/thefuck/rules/git_diff_staged.py,"match( command )",46, 12, 0
+repos/python/thefuck/thefuck/rules/git_diff_staged.py,"get_new_command( command )",69, 4, 0
+repos/python/thefuck/thefuck/rules/brew_link.py,"match( command )",69, 12, 0
+repos/python/thefuck/thefuck/rules/brew_link.py,"get_new_command( command )",44, 4, 0
+repos/python/thefuck/thefuck/rules/dirty_unzip.py,"_is_bad_zip( file )",52, 8, 0
+repos/python/thefuck/thefuck/rules/dirty_unzip.py,"_zip_file( command )",66, 4, 0
+repos/python/thefuck/thefuck/rules/dirty_unzip.py,"match( command )",37, 8, 0
+repos/python/thefuck/thefuck/rules/dirty_unzip.py,"get_new_command( command )",62, 8, 0
+repos/python/thefuck/thefuck/rules/dirty_unzip.py,"side_effect( old_cmd , command )",79, 16, 0
+repos/python/thefuck/thefuck/rules/gulp_not_task.py,"match( command )",55, 4, 0
+repos/python/thefuck/thefuck/rules/gulp_not_task.py,"get_gulp_tasks( )",56, 4, 0
+repos/python/thefuck/thefuck/rules/gulp_not_task.py,"get_new_command( command )",69, 4, 0
+repos/python/thefuck/thefuck/rules/no_such_file.py,"match( command )",47, 8, 0
+repos/python/thefuck/thefuck/rules/no_such_file.py,"get_new_command( command )",56, 12, 0
+repos/python/thefuck/thefuck/rules/heroku_not_command.py,"match( command )",51, 4, 0
+repos/python/thefuck/thefuck/rules/heroku_not_command.py,"get_new_command( command )",72, 4, 0
+repos/python/thefuck/thefuck/rules/git_push_force.py,"match( command )",108, 12, 0
+repos/python/thefuck/thefuck/rules/git_push_force.py,"get_new_command( command )",79, 4, 0
+repos/python/thefuck/thefuck/rules/npm_missing_script.py,"match( command )",72, 4, 0
+repos/python/thefuck/thefuck/rules/npm_missing_script.py,"get_new_command( command )",70, 4, 0
+repos/python/thefuck/thefuck/rules/az_cli.py,"match( command )",83, 4, 0
+repos/python/thefuck/thefuck/rules/az_cli.py,"get_new_command( command )",75, 4, 0
+repos/python/thefuck/thefuck/rules/systemctl.py,"match( command )",75, 4, 0
+repos/python/thefuck/thefuck/rules/systemctl.py,"get_new_command( command )",40, 4, 0
+repos/python/thefuck/thefuck/rules/django_south_ghost.py,"match( command )",69, 11, 0
+repos/python/thefuck/thefuck/rules/django_south_ghost.py,"get_new_command( command )",66, 4, 0
+repos/python/thefuck/thefuck/rules/git_merge.py,"match( command )",66, 12, 0
+repos/python/thefuck/thefuck/rules/git_merge.py,"get_new_command( command )",96, 4, 0
+repos/python/thefuck/thefuck/rules/apt_get_search.py,"match( command )",55, 4, 0
+repos/python/thefuck/thefuck/rules/apt_get_search.py,"get_new_command( command )",60, 4, 0
+repos/python/thefuck/thefuck/specific/archlinux.py,"get_pkgfile( command )",77, 4, 0
+repos/python/thefuck/thefuck/specific/archlinux.py,"archlinux_env( )",48, 4, 0
+repos/python/thefuck/thefuck/specific/npm.py,"get_scripts( )",57, 8, 0
+repos/python/thefuck/thefuck/specific/sudo.py,"sudo_support( fn , command )",60, 4, 0
+repos/python/thefuck/thefuck/specific/git.py,"git_support( fn , command )",79, 29, 0
+repos/python/thefuck/thefuck/specific/brew.py,"get_brew_path_prefix( )",72, 39, 0
+repos/python/thefuck/thefuck/output_readers/shell_logger.py,"_get_socket_path( )",57, 4, 0
+repos/python/thefuck/thefuck/output_readers/shell_logger.py,"is_available( )",56, 4, 0
+repos/python/thefuck/thefuck/output_readers/shell_logger.py,"_get_last_n( n )",50, 4, 0
+repos/python/thefuck/thefuck/output_readers/shell_logger.py,"_get_output_lines( output )",66, 4, 0
+repos/python/thefuck/thefuck/output_readers/shell_logger.py,"get_output( script )",69, 4, 0
+repos/python/thefuck/thefuck/output_readers/read_log.py,"_group_by_calls( log )",63, 8, 0
+repos/python/thefuck/thefuck/output_readers/read_log.py,"_get_script_group_lines( grouped , script )",55, 8, 0
+repos/python/thefuck/thefuck/output_readers/read_log.py,"_get_output_lines( script , log_file )",73, 4, 0
+repos/python/thefuck/thefuck/output_readers/read_log.py,"_skip_old_lines( log_file )",61, 4, 0
+repos/python/thefuck/thefuck/output_readers/read_log.py,"get_output( script )",93, 12, 0
+repos/python/thefuck/thefuck/output_readers/__init__.py,"get_output( script , expanded )",59, 4, 0
+repos/python/thefuck/thefuck/output_readers/rerun.py,"_kill_process( proc )",81, 8, 0
+repos/python/thefuck/thefuck/output_readers/rerun.py,"_wait_output( popen , is_slow )",65, 4, 0
+repos/python/thefuck/thefuck/output_readers/rerun.py,"get_output( script , expanded )",70, 4, 0
+repos/python/thefuck/thefuck/shells/fish.py,"_get_functions( overridden )",76, 4, 0
+repos/python/thefuck/thefuck/shells/fish.py,"_get_aliases( overridden )",77, 12, 0
+repos/python/thefuck/thefuck/shells/fish.py,"_get_overridden_aliases( self )",81, 36, 0
+repos/python/thefuck/thefuck/shells/fish.py,"app_alias( self , alias_name )",79, 8, 0
+repos/python/thefuck/thefuck/shells/fish.py,"get_aliases( self )",52, 8, 0
+repos/python/thefuck/thefuck/shells/fish.py,"_expand_aliases( self , command_script )",79, 12, 0
+repos/python/thefuck/thefuck/shells/fish.py,"_get_history_file_name( self )",65, 8, 0
+repos/python/thefuck/thefuck/shells/fish.py,"_get_history_line( self , command_script )",79, 8, 0
+repos/python/thefuck/thefuck/shells/fish.py,"_script_from_history( self , line )",47, 12, 0
+repos/python/thefuck/thefuck/shells/fish.py,"and_( self , * commands )",40, 8, 0
+repos/python/thefuck/thefuck/shells/fish.py,"or_( self , * commands )",39, 8, 0
+repos/python/thefuck/thefuck/shells/fish.py,"how_to_configure( self )",49, 8, 0
+repos/python/thefuck/thefuck/shells/fish.py,"info( self )",64, 8, 0
+repos/python/thefuck/thefuck/shells/fish.py,"put_to_history( self , command )",67, 12, 0
+repos/python/thefuck/thefuck/shells/fish.py,"_put_to_history( self , command_script )",63, 16, 0
+repos/python/thefuck/thefuck/shells/zsh.py,"app_alias( self , alias_name )",82, 8, 0
+repos/python/thefuck/thefuck/shells/zsh.py,"instant_mode_alias( self , alias_name )",75, 16, 0
+repos/python/thefuck/thefuck/shells/zsh.py,"_parse_alias( self , alias )",73, 8, 0
+repos/python/thefuck/thefuck/shells/zsh.py,"get_aliases( self )",73, 8, 0
+repos/python/thefuck/thefuck/shells/zsh.py,"_get_history_file_name( self )",68, 30, 0
+repos/python/thefuck/thefuck/shells/zsh.py,"_get_history_line( self , command_script )",66, 8, 0
+repos/python/thefuck/thefuck/shells/zsh.py,"_script_from_history( self , line )",42, 4, 0
+repos/python/thefuck/thefuck/shells/zsh.py,"how_to_configure( self )",49, 8, 0
+repos/python/thefuck/thefuck/shells/zsh.py,"info( self )",64, 8, 0
+repos/python/thefuck/thefuck/shells/generic.py,"get_aliases( self )",27, 4, 0
+repos/python/thefuck/thefuck/shells/generic.py,"_expand_aliases( self , command_script )",70, 12, 0
+repos/python/thefuck/thefuck/shells/generic.py,"from_shell( self , command_script )",54, 8, 0
+repos/python/thefuck/thefuck/shells/generic.py,"to_shell( self , command_script )",53, 8, 0
+repos/python/thefuck/thefuck/shells/generic.py,"app_alias( self , alias_name )",74, 8, 0
+repos/python/thefuck/thefuck/shells/generic.py,"instant_mode_alias( self , alias_name )",57, 8, 0
+repos/python/thefuck/thefuck/shells/generic.py,"_get_history_file_name( self )",38, 4, 0
+repos/python/thefuck/thefuck/shells/generic.py,"_get_history_line( self , command_script )",49, 4, 0
+repos/python/thefuck/thefuck/shells/generic.py,"get_history( self )",47, 8, 0
+repos/python/thefuck/thefuck/shells/generic.py,"_get_history_lines( self )",77, 25, 0
+repos/python/thefuck/thefuck/shells/generic.py,"and_( self , * commands )",38, 8, 0
+repos/python/thefuck/thefuck/shells/generic.py,"or_( self , * commands )",38, 8, 0
+repos/python/thefuck/thefuck/shells/generic.py,"how_to_configure( self )",32, 4, 0
+repos/python/thefuck/thefuck/shells/generic.py,"split_command( self , command )",99, 12, 0
+repos/python/thefuck/thefuck/shells/generic.py,"encode_utf8( self , command )",42, 12, 0
+repos/python/thefuck/thefuck/shells/generic.py,"decode_utf8( self , command_parts )",61, 12, 0
+repos/python/thefuck/thefuck/shells/generic.py,"quote( self , s )",62, 8, 0
+repos/python/thefuck/thefuck/shells/generic.py,"_script_from_history( self , line )",42, 4, 0
+repos/python/thefuck/thefuck/shells/generic.py,"put_to_history( self , command )",68, 8, 0
+repos/python/thefuck/thefuck/shells/generic.py,"get_builtin_commands( self )",80, 16, 0
+repos/python/thefuck/thefuck/shells/generic.py,"info( self )",64, 8, 0
+repos/python/thefuck/thefuck/shells/generic.py,"_create_shell_configuration( self , content , path , reload )",74, 12, 0
+repos/python/thefuck/thefuck/shells/__init__.py,"_get_shell_from_env( )",38, 4, 0
+repos/python/thefuck/thefuck/shells/__init__.py,"_get_shell_from_proc( )",45, 4, 0
+repos/python/thefuck/thefuck/shells/bash.py,"app_alias( self , alias_name )",82, 8, 0
+repos/python/thefuck/thefuck/shells/bash.py,"instant_mode_alias( self , alias_name )",75, 16, 0
+repos/python/thefuck/thefuck/shells/bash.py,"_parse_alias( self , alias )",73, 8, 0
+repos/python/thefuck/thefuck/shells/bash.py,"get_aliases( self )",73, 8, 0
+repos/python/thefuck/thefuck/shells/bash.py,"_get_history_file_name( self )",69, 30, 0
+repos/python/thefuck/thefuck/shells/bash.py,"_get_history_line( self , command_script )",49, 4, 0
+repos/python/thefuck/thefuck/shells/bash.py,"how_to_configure( self )",69, 8, 0
+repos/python/thefuck/thefuck/shells/bash.py,"info( self )",64, 8, 0
+repos/python/thefuck/thefuck/shells/tcsh.py,"app_alias( self , alias_name )",77, 8, 0
+repos/python/thefuck/thefuck/shells/tcsh.py,"_parse_alias( self , alias )",43, 8, 0
+repos/python/thefuck/thefuck/shells/tcsh.py,"get_aliases( self )",76, 8, 0
+repos/python/thefuck/thefuck/shells/tcsh.py,"_get_history_file_name( self )",64, 30, 0
+repos/python/thefuck/thefuck/shells/tcsh.py,"_get_history_line( self , command_script )",65, 8, 0
+repos/python/thefuck/thefuck/shells/tcsh.py,"how_to_configure( self )",49, 8, 0
+repos/python/thefuck/thefuck/shells/powershell.py,"app_alias( self , alias_name )",95, 15, 0
+repos/python/thefuck/thefuck/shells/powershell.py,"and_( self , * commands )",67, 8, 0
+repos/python/thefuck/thefuck/shells/powershell.py,"how_to_configure( self )",47, 12, 0

@@ -1,0 +1,608 @@
+File, Function, Total Width, Leading Space(s), Leading Tab(s)
+repos/python/requests/setup.py,"initialize_options( self )",67, 12, 0
+repos/python/requests/setup.py,"finalize_options( self )",43, 8, 0
+repos/python/requests/setup.py,"run_tests( self )",46, 8, 0
+repos/python/requests/tests/test_testserver.py,"test_basic.handler( sock )",36, 12, 0
+repos/python/requests/tests/test_testserver.py,"test_basic( self )",54, 8, 0
+repos/python/requests/tests/test_testserver.py,"test_server_closes( self )",65, 8, 0
+repos/python/requests/tests/test_testserver.py,"test_text_response( self )",64, 12, 0
+repos/python/requests/tests/test_testserver.py,"test_basic_response( self )",71, 8, 0
+repos/python/requests/tests/test_testserver.py,"test_basic_waiting_server( self )",93, 8, 0
+repos/python/requests/tests/test_testserver.py,"test_multiple_requests( self )",85, 8, 0
+repos/python/requests/tests/test_testserver.py,"test_request_recovery( self )",77, 8, 0
+repos/python/requests/tests/test_testserver.py,"test_requests_after_timeout_are_not_received( self )",75, 8, 0
+repos/python/requests/tests/test_testserver.py,"test_request_recovery_with_bigger_timeout( self )",65, 8, 0
+repos/python/requests/tests/test_testserver.py,"test_server_finishes_on_error( self )",85, 8, 0
+repos/python/requests/tests/test_testserver.py,"test_server_finishes_when_no_connections( self )",71, 8, 0
+repos/python/requests/tests/test_utils.py,"test_io_streams( self , stream , value )",80, 8, 0
+repos/python/requests/tests/test_utils.py,"test_super_len_correctly_calculates_len_of_partially_read_file( self )",78, 4, 0
+repos/python/requests/tests/test_utils.py,"test_super_len_handles_files_raising_weird_errors_in_tell.__len__( self )",31, 12, 0
+repos/python/requests/tests/test_utils.py,"test_super_len_handles_files_raising_weird_errors_in_tell.tell( self )",30, 16, 0
+repos/python/requests/tests/test_utils.py,"test_super_len_handles_files_raising_weird_errors_in_tell( self , error )",80, 4, 0
+repos/python/requests/tests/test_utils.py,"test_super_len_tell_ioerror.tell( self )",30, 16, 0
+repos/python/requests/tests/test_utils.py,"test_super_len_tell_ioerror.seek( self , offset , whence )",44, 12, 0
+repos/python/requests/tests/test_utils.py,"test_super_len_tell_ioerror( self , error )",74, 8, 0
+repos/python/requests/tests/test_utils.py,"test_string( self )",38, 8, 0
+repos/python/requests/tests/test_utils.py,"test_file( self , tmpdir , mode , warnings_num , recwarn )",62, 4, 0
+repos/python/requests/tests/test_utils.py,"test_super_len_with__len__( self )",42, 4, 0
+repos/python/requests/tests/test_utils.py,"test_super_len_with_no__len__.__init__( self )",32, 12, 0
+repos/python/requests/tests/test_utils.py,"test_super_len_with_no__len__( self )",45, 4, 0
+repos/python/requests/tests/test_utils.py,"test_super_len_with_tell( self )",41, 8, 0
+repos/python/requests/tests/test_utils.py,"test_super_len_with_fileno( self )",42, 4, 0
+repos/python/requests/tests/test_utils.py,"test_super_len_with_no_matches( self )",74, 8, 0
+repos/python/requests/tests/test_utils.py,"test_valid( self , value , expected )",50, 8, 0
+repos/python/requests/tests/test_utils.py,"test_invalid( self )",40, 8, 0
+repos/python/requests/tests/test_utils.py,"test_valid( self , value , expected )",55, 8, 0
+repos/python/requests/tests/test_utils.py,"test_is_filename( self )",80, 8, 0
+repos/python/requests/tests/test_utils.py,"no_proxy( self , request , monkeypatch )",103, 8, 0
+repos/python/requests/tests/test_utils.py,"test_bypass( self , url )",61, 8, 0
+repos/python/requests/tests/test_utils.py,"test_not_bypass( self , url )",61, 8, 0
+repos/python/requests/tests/test_utils.py,"test_bypass_no_proxy_keyword( self , url )",65, 8, 0
+repos/python/requests/tests/test_utils.py,"test_not_bypass_no_proxy_keyword( self , url , monkeypatch )",75, 8, 0
+repos/python/requests/tests/test_utils.py,"test_valid( self )",42, 8, 0
+repos/python/requests/tests/test_utils.py,"test_invalid( self , value )",42, 8, 0
+repos/python/requests/tests/test_utils.py,"test_valid( self )",47, 8, 0
+repos/python/requests/tests/test_utils.py,"test_invalid( self , value )",40, 8, 0
+repos/python/requests/tests/test_utils.py,"test_valid( self )",67, 8, 0
+repos/python/requests/tests/test_utils.py,"test_invalid( self )",70, 8, 0
+repos/python/requests/tests/test_utils.py,"test_guess_filename_invalid( self , value )",50, 4, 0
+repos/python/requests/tests/test_utils.py,"test_guess_filename_valid( self , value , expected_type )",63, 4, 0
+repos/python/requests/tests/test_utils.py,"test_unzipped_paths_unchanged( self , path )",51, 4, 0
+repos/python/requests/tests/test_utils.py,"test_zipped_paths_extracted( self , tmpdir )",74, 8, 0
+repos/python/requests/tests/test_utils.py,"test_none( self )",51, 8, 0
+repos/python/requests/tests/test_utils.py,"test_pragmas( self , content )",56, 8, 0
+repos/python/requests/tests/test_utils.py,"test_precedence( self )",80, 8, 0
+repos/python/requests/tests/test_utils.py,"test_encoded( self , encoding )",48, 8, 0
+repos/python/requests/tests/test_utils.py,"test_bad_utf_like_encoding( self )",59, 8, 0
+repos/python/requests/tests/test_utils.py,"test_guess_by_bom( self , encoding , expected )",53, 4, 0
+repos/python/requests/tests/test_utils.py,"test_get_auth_from_url( url , auth )",42, 4, 0
+repos/python/requests/tests/test_utils.py,"test_requote_uri_with_unquoted_percents( uri , expected )",64, 4, 0
+repos/python/requests/tests/test_utils.py,"test_unquote_unreserved( uri , expected )",47, 4, 0
+repos/python/requests/tests/test_utils.py,"test_dotted_netmask( mask , expected )",44, 4, 0
+repos/python/requests/tests/test_utils.py,"test_select_proxies( url , expected , proxies )",62, 4, 0
+repos/python/requests/tests/test_utils.py,"test_parse_dict_header( value , expected )",48, 4, 0
+repos/python/requests/tests/test_utils.py,"test__parse_content_type_header( value , expected )",57, 4, 0
+repos/python/requests/tests/test_utils.py,"test_get_encoding_from_headers( value , expected )",56, 4, 0
+repos/python/requests/tests/test_utils.py,"test_iter_slices( value , length )",59, 4, 0
+repos/python/requests/tests/test_utils.py,"test_parse_header_links( value , expected )",49, 4, 0
+repos/python/requests/tests/test_utils.py,"test_prepend_scheme_if_needed( value , expected )",63, 4, 0
+repos/python/requests/tests/test_utils.py,"test_to_native_string( value , expected )",47, 4, 0
+repos/python/requests/tests/test_utils.py,"test_urldefragauth( url , expected )",42, 4, 0
+repos/python/requests/tests/test_utils.py,"test_should_bypass_proxies( url , expected , monkeypatch )",113, 4, 0
+repos/python/requests/tests/test_utils.py,"test_should_bypass_proxies_pass_only_hostname( url , expected , mocker )",80, 4, 0
+repos/python/requests/tests/test_utils.py,"test_add_dict_to_cookiejar( cookiejar )",59, 4, 0
+repos/python/requests/tests/test_utils.py,"test_unicode_is_ascii( value , expected )",47, 4, 0
+repos/python/requests/tests/test_utils.py,"test_should_bypass_proxies_no_proxy( url , expected , monkeypatch )",41, 0, 0
+repos/python/requests/tests/test_utils.py,"test_should_bypass_proxies_win_registry( url , expected , override , monkeypatch )",69, 0, 0
+repos/python/requests/tests/test_utils.py,"Close( self )",25, 8, 0
+repos/python/requests/tests/test_utils.py,"OpenKey( key , subkey )",30, 4, 0
+repos/python/requests/tests/test_utils.py,"QueryValueEx( key , value_name )",81, 16, 0
+repos/python/requests/tests/test_utils.py,"test_set_environ( env_name , value )",82, 4, 0
+repos/python/requests/tests/test_utils.py,"test_set_environ_raises_exception( )",67, 4, 0
+repos/python/requests/tests/compat.py,"u( s )",17, 8, 0
+repos/python/requests/tests/compat.py,"u( s )",42, 8, 0
+repos/python/requests/tests/test_packages.py,"test_can_access_urllib3_attribute( )",41, 0, 0
+repos/python/requests/tests/test_packages.py,"test_can_access_idna_attribute( )",38, 0, 0
+repos/python/requests/tests/test_packages.py,"test_can_access_chardet_attribute( )",41, 0, 0
+repos/python/requests/tests/test_help.py,"test_system_ssl( )",80, 4, 0
+repos/python/requests/tests/test_help.py,"__init__( self , version )",35, 8, 0
+repos/python/requests/tests/test_help.py,"test_idna_without_version_attribute( mocker )",76, 4, 0
+repos/python/requests/tests/test_help.py,"test_idna_with_version_attribute( mocker )",82, 4, 0
+repos/python/requests/tests/test_structures.py,"setup( self )",66, 8, 0
+repos/python/requests/tests/test_structures.py,"test_list( self )",62, 8, 0
+repos/python/requests/tests/test_structures.py,"test_getitem( self , key )",69, 8, 0
+repos/python/requests/tests/test_structures.py,"test_delitem( self , key )",53, 8, 0
+repos/python/requests/tests/test_structures.py,"test_lower_items( self )",98, 8, 0
+repos/python/requests/tests/test_structures.py,"test_repr( self )",84, 8, 0
+repos/python/requests/tests/test_structures.py,"test_copy( self )",54, 8, 0
+repos/python/requests/tests/test_structures.py,"test_instance_equality( self , other , result )",63, 8, 0
+repos/python/requests/tests/test_structures.py,"setup( self )",64, 8, 0
+repos/python/requests/tests/test_structures.py,"test_repr( self )",59, 8, 0
+repos/python/requests/tests/test_structures.py,"test_getitem( self , key , value )",46, 8, 0
+repos/python/requests/tests/test_structures.py,"test_get( self , key , value )",50, 8, 0
+repos/python/requests/tests/test_lowlevel.py,"test_chunked_upload( )",76, 4, 0
+repos/python/requests/tests/test_lowlevel.py,"test_digestauth_401_count_reset_on_redirect.digest_response_handler( sock )",80, 8, 0
+repos/python/requests/tests/test_lowlevel.py,"test_digestauth_401_count_reset_on_redirect( )",85, 16, 0
+repos/python/requests/tests/test_lowlevel.py,"test_digestauth_401_only_sent_once.digest_failed_response_handler( sock )",70, 8, 0
+repos/python/requests/tests/test_lowlevel.py,"test_digestauth_401_only_sent_once( )",86, 4, 0
+repos/python/requests/tests/test_lowlevel.py,"test_digestauth_only_on_4xx.digest_response_handler( sock )",72, 8, 0
+repos/python/requests/tests/test_lowlevel.py,"test_digestauth_only_on_4xx( )",90, 21, 0
+repos/python/requests/tests/test_lowlevel.py,"test_use_proxy_from_environment( httpbin , var , scheme )",81, 4, 0
+repos/python/requests/tests/test_lowlevel.py,"test_redirect_rfc1808_to_non_ascii_location.redirect_resp_handler( sock )",75, 8, 0
+repos/python/requests/tests/test_lowlevel.py,"test_redirect_rfc1808_to_non_ascii_location( )",87, 8, 0
+repos/python/requests/tests/test_lowlevel.py,"test_fragment_not_sent_with_request.response_handler( sock )",56, 8, 0
+repos/python/requests/tests/test_lowlevel.py,"test_fragment_not_sent_with_request( )",87, 8, 0
+repos/python/requests/tests/test_lowlevel.py,"test_fragment_update_on_redirect.response_handler( sock )",55, 12, 0
+repos/python/requests/tests/test_lowlevel.py,"test_fragment_update_on_redirect( )",98, 8, 0
+repos/python/requests/tests/conftest.py,"prepare_url.inner( * suffix )",54, 8, 0
+repos/python/requests/tests/conftest.py,"prepare_url( value )",65, 4, 0
+repos/python/requests/tests/conftest.py,"httpbin( httpbin )",32, 4, 0
+repos/python/requests/tests/conftest.py,"httpbin_secure( httpbin_secure )",39, 4, 0
+repos/python/requests/tests/test_requests.py,"test_entry_points( self )",70, 8, 0
+repos/python/requests/tests/test_requests.py,"test_invalid_url( self , exception , url )",48, 4, 0
+repos/python/requests/tests/test_requests.py,"test_basic_building( self )",45, 8, 0
+repos/python/requests/tests/test_requests.py,"test_no_content_length( self , httpbin , method )",74, 8, 0
+repos/python/requests/tests/test_requests.py,"test_no_body_content_length( self , httpbin , method )",74, 8, 0
+repos/python/requests/tests/test_requests.py,"test_empty_content_length( self , httpbin , method )",83, 8, 0
+repos/python/requests/tests/test_requests.py,"test_override_content_length( self , httpbin )",81, 8, 0
+repos/python/requests/tests/test_requests.py,"test_path_is_not_double_encoded( self )",84, 8, 0
+repos/python/requests/tests/test_requests.py,"test_params_are_added_before_fragment( self , url , expected )",76, 8, 0
+repos/python/requests/tests/test_requests.py,"test_params_original_order_is_preserved_by_default( self )",92, 8, 0
+repos/python/requests/tests/test_requests.py,"test_params_bytes_are_encoded( self )",65, 35, 0
+repos/python/requests/tests/test_requests.py,"test_binary_put( self )",74, 35, 0
+repos/python/requests/tests/test_requests.py,"test_whitespaces_are_removed_from_url( self )",75, 8, 0
+repos/python/requests/tests/test_requests.py,"test_mixed_case_scheme_acceptable( self , httpbin , scheme )",75, 8, 0
+repos/python/requests/tests/test_requests.py,"test_HTTP_200_OK_GET_ALTERNATIVE( self , httpbin )",57, 4, 0
+repos/python/requests/tests/test_requests.py,"test_HTTP_302_ALLOW_REDIRECT_GET( self , httpbin )",57, 4, 0
+repos/python/requests/tests/test_requests.py,"test_HTTP_307_ALLOW_REDIRECT_POST( self , httpbin )",107, 8, 0
+repos/python/requests/tests/test_requests.py,"test_HTTP_307_ALLOW_REDIRECT_POST_WITH_SEEKABLE( self , httpbin )",121, 8, 0
+repos/python/requests/tests/test_requests.py,"test_HTTP_302_TOO_MANY_REDIRECTS( self , httpbin )",86, 12, 0
+repos/python/requests/tests/test_requests.py,"test_HTTP_302_TOO_MANY_REDIRECTS_WITH_PARAMS( self , httpbin )",95, 12, 0
+repos/python/requests/tests/test_requests.py,"test_http_301_changes_post_to_get( self , httpbin )",58, 4, 0
+repos/python/requests/tests/test_requests.py,"test_http_301_doesnt_change_head_to_get( self , httpbin )",74, 8, 0
+repos/python/requests/tests/test_requests.py,"test_http_302_changes_post_to_get( self , httpbin )",58, 4, 0
+repos/python/requests/tests/test_requests.py,"test_http_302_doesnt_change_head_to_get( self , httpbin )",74, 8, 0
+repos/python/requests/tests/test_requests.py,"test_http_303_changes_post_to_get( self , httpbin )",58, 4, 0
+repos/python/requests/tests/test_requests.py,"test_http_303_doesnt_change_head_to_get( self , httpbin )",74, 8, 0
+repos/python/requests/tests/test_requests.py,"test_header_and_body_removal_on_redirect( self , httpbin )",79, 8, 0
+repos/python/requests/tests/test_requests.py,"test_transfer_enc_removal_on_redirect( self , httpbin )",89, 8, 0
+repos/python/requests/tests/test_requests.py,"test_fragment_maintained_on_redirect( self , httpbin )",83, 8, 0
+repos/python/requests/tests/test_requests.py,"test_HTTP_200_OK_GET_WITH_PARAMS( self , httpbin )",63, 8, 0
+repos/python/requests/tests/test_requests.py,"test_HTTP_200_OK_GET_WITH_MIXED_PARAMS( self , httpbin )",93, 8, 0
+repos/python/requests/tests/test_requests.py,"test_set_cookie_on_301( self , httpbin )",47, 4, 0
+repos/python/requests/tests/test_requests.py,"test_cookie_sent_on_redirect( self , httpbin )",72, 8, 0
+repos/python/requests/tests/test_requests.py,"test_cookie_removed_on_expire( self , httpbin )",73, 20, 0
+repos/python/requests/tests/test_requests.py,"test_cookie_quote_wrapped( self , httpbin )",52, 8, 0
+repos/python/requests/tests/test_requests.py,"test_cookie_persists_via_api( self , httpbin )",65, 8, 0
+repos/python/requests/tests/test_requests.py,"test_request_cookie_overrides_session_cookie( self , httpbin )",69, 4, 0
+repos/python/requests/tests/test_requests.py,"test_request_cookies_not_persisted( self , httpbin )",79, 8, 0
+repos/python/requests/tests/test_requests.py,"test_generic_cookiejar_works( self , httpbin )",59, 8, 0
+repos/python/requests/tests/test_requests.py,"test_param_cookiejar_works( self , httpbin )",51, 4, 0
+repos/python/requests/tests/test_requests.py,"test_cookielib_cookiejar_on_redirect( self , httpbin )",89, 8, 0
+repos/python/requests/tests/test_requests.py,"test_requests_in_history_are_not_overridden( self , httpbin )",68, 4, 0
+repos/python/requests/tests/test_requests.py,"test_history_is_always_a_list( self , httpbin )",80, 8, 0
+repos/python/requests/tests/test_requests.py,"test_headers_on_session_with_None_are_not_sent( self , httpbin )",71, 4, 0
+repos/python/requests/tests/test_requests.py,"test_headers_preserve_order( self , httpbin )",71, 8, 0
+repos/python/requests/tests/test_requests.py,"test_user_agent_transfers( self , httpbin , key )",68, 8, 0
+repos/python/requests/tests/test_requests.py,"test_HTTP_200_OK_HEAD( self , httpbin )",46, 4, 0
+repos/python/requests/tests/test_requests.py,"test_HTTP_200_OK_PUT( self , httpbin )",45, 4, 0
+repos/python/requests/tests/test_requests.py,"test_BASICAUTH_TUPLE_HTTP_200_OK_GET( self , httpbin )",61, 4, 0
+repos/python/requests/tests/test_requests.py,"test_set_basicauth( self , httpbin , username , password )",81, 8, 0
+repos/python/requests/tests/test_requests.py,"test_basicauth_encodes_byte_strings( self )",78, 8, 0
+repos/python/requests/tests/test_requests.py,"test_errors( self , url , exception )",43, 4, 0
+repos/python/requests/tests/test_requests.py,"test_proxy_error( self )",108, 8, 0
+repos/python/requests/tests/test_requests.py,"test_proxy_error_on_bad_url( self , httpbin , httpbin_secure )",88, 12, 0
+repos/python/requests/tests/test_requests.py,"test_basicauth_with_netrc.get_netrc_auth_mock( url )",42, 12, 0
+repos/python/requests/tests/test_requests.py,"test_basicauth_with_netrc( self , httpbin )",67, 12, 0
+repos/python/requests/tests/test_requests.py,"test_DIGEST_HTTP_200_OK_GET( self , httpbin )",84, 12, 0
+repos/python/requests/tests/test_requests.py,"test_DIGEST_AUTH_RETURNS_COOKIE( self , httpbin )",75, 12, 0
+repos/python/requests/tests/test_requests.py,"test_DIGEST_AUTH_SETS_SESSION_COOKIES( self , httpbin )",75, 12, 0
+repos/python/requests/tests/test_requests.py,"test_DIGEST_STREAM( self , httpbin )",75, 12, 0
+repos/python/requests/tests/test_requests.py,"test_DIGESTAUTH_WRONG_HTTP_401_GET( self , httpbin )",75, 12, 0
+repos/python/requests/tests/test_requests.py,"test_DIGESTAUTH_QUOTES_QOP_VALUE( self , httpbin )",75, 12, 0
+repos/python/requests/tests/test_requests.py,"test_POSTBIN_GET_POST_FILES( self , httpbin )",62, 8, 0
+repos/python/requests/tests/test_requests.py,"test_invalid_files_input( self , httpbin )",80, 29, 0
+repos/python/requests/tests/test_requests.py,"test_POSTBIN_SEEKED_OBJECT_WITH_NO_ITER.__init__( self , data )",45, 16, 0
+repos/python/requests/tests/test_requests.py,"test_POSTBIN_SEEKED_OBJECT_WITH_NO_ITER.__len__( self )",35, 16, 0
+repos/python/requests/tests/test_requests.py,"test_POSTBIN_SEEKED_OBJECT_WITH_NO_ITER.read( self , size = None )",66, 20, 0
+repos/python/requests/tests/test_requests.py,"test_POSTBIN_SEEKED_OBJECT_WITH_NO_ITER.tell( self )",34, 16, 0
+repos/python/requests/tests/test_requests.py,"test_POSTBIN_SEEKED_OBJECT_WITH_NO_ITER.seek( self , offset , where = 0 )",54, 20, 0
+repos/python/requests/tests/test_requests.py,"test_POSTBIN_SEEKED_OBJECT_WITH_NO_ITER( self , httpbin )",66, 20, 0
+repos/python/requests/tests/test_requests.py,"test_POSTBIN_GET_POST_FILES_WITH_DATA( self , httpbin )",81, 12, 0
+repos/python/requests/tests/test_requests.py,"test_post_with_custom_mapping.__init__( self , * args , ** kwargs )",50, 16, 0
+repos/python/requests/tests/test_requests.py,"test_post_with_custom_mapping.__delitem__( self , key )",40, 12, 0
+repos/python/requests/tests/test_requests.py,"test_post_with_custom_mapping.__getitem__( self , key )",40, 12, 0
+repos/python/requests/tests/test_requests.py,"test_post_with_custom_mapping.__setitem__( self , key , value )",47, 12, 0
+repos/python/requests/tests/test_requests.py,"test_post_with_custom_mapping.__iter__( self )",39, 16, 0
+repos/python/requests/tests/test_requests.py,"test_post_with_custom_mapping.__len__( self )",38, 16, 0
+repos/python/requests/tests/test_requests.py,"test_post_with_custom_mapping( self , httpbin )",70, 8, 0
+repos/python/requests/tests/test_requests.py,"test_conflicting_post_params( self , httpbin )",113, 12, 0
+repos/python/requests/tests/test_requests.py,"test_request_ok_set( self , httpbin )",51, 8, 0
+repos/python/requests/tests/test_requests.py,"test_status_raising( self , httpbin )",59, 8, 0
+repos/python/requests/tests/test_requests.py,"test_decompress_gzip( self , httpbin )",45, 4, 0
+repos/python/requests/tests/test_requests.py,"test_unicode_get( self , httpbin , url , params )",54, 4, 0
+repos/python/requests/tests/test_requests.py,"test_unicode_header_name( self , httpbin )",71, 12, 0
+repos/python/requests/tests/test_requests.py,"test_pyopenssl_redirect( self , httpbin_secure , httpbin_ca_bundle )",80, 8, 0
+repos/python/requests/tests/test_requests.py,"test_invalid_ca_certificate_path( self , httpbin_secure )",124, 8, 0
+repos/python/requests/tests/test_requests.py,"test_invalid_ssl_certificate_files( self , httpbin_secure )",112, 8, 0
+repos/python/requests/tests/test_requests.py,"test_http_with_certificate( self , httpbin )",51, 4, 0
+repos/python/requests/tests/test_requests.py,"test_https_warnings( self , httpbin_secure , httpbin_ca_bundle )",75, 27, 0
+repos/python/requests/tests/test_requests.py,"test_certificate_failure( self , httpbin_secure )",78, 12, 0
+repos/python/requests/tests/test_requests.py,"test_urlencoded_get_query_multivalued_param( self , httpbin )",74, 8, 0
+repos/python/requests/tests/test_requests.py,"test_form_encoded_post_query_multivalued_element( self , httpbin )",73, 4, 0
+repos/python/requests/tests/test_requests.py,"test_different_encodings_dont_break_post( self , httpbin )",72, 12, 0
+repos/python/requests/tests/test_requests.py,"test_unicode_multipart_post( self , httpbin , data )",72, 12, 0
+repos/python/requests/tests/test_requests.py,"test_unicode_multipart_post_fieldnames( self , httpbin )",72, 12, 0
+repos/python/requests/tests/test_requests.py,"test_unicode_method_name( self , httpbin )",64, 12, 0
+repos/python/requests/tests/test_requests.py,"test_unicode_method_name_with_request_object( self , httpbin )",72, 8, 0
+repos/python/requests/tests/test_requests.py,"test_non_prepared_request_error( self )",69, 8, 0
+repos/python/requests/tests/test_requests.py,"test_custom_content_type( self , httpbin )",69, 16, 0
+repos/python/requests/tests/test_requests.py,"test_hook_receives_request_arguments.hook( resp , ** kwargs )",36, 12, 0
+repos/python/requests/tests/test_requests.py,"test_hook_receives_request_arguments( self , httpbin )",73, 8, 0
+repos/python/requests/tests/test_requests.py,"test_session_hooks_are_used_with_no_request_hooks( self , httpbin )",74, 4, 0
+repos/python/requests/tests/test_requests.py,"test_session_hooks_are_overridden_by_request_hooks( self , httpbin )",76, 8, 0
+repos/python/requests/tests/test_requests.py,"test_prepared_request_hook.hook( resp , ** kwargs )",37, 12, 0
+repos/python/requests/tests/test_requests.py,"test_prepared_request_hook( self , httpbin )",75, 8, 0
+repos/python/requests/tests/test_requests.py,"test_prepared_from_session.__call__( self , r )",68, 16, 0
+repos/python/requests/tests/test_requests.py,"test_prepared_from_session( self , httpbin )",68, 16, 0
+repos/python/requests/tests/test_requests.py,"test_prepare_request_with_bytestring_url( self )",63, 8, 0
+repos/python/requests/tests/test_requests.py,"test_request_with_bytestring_host( self , httpbin )",58, 4, 0
+repos/python/requests/tests/test_requests.py,"test_links( self )",77, 21, 0
+repos/python/requests/tests/test_requests.py,"test_cookie_parameters( self )",69, 8, 0
+repos/python/requests/tests/test_requests.py,"test_cookie_as_dict_keeps_len( self )",51, 8, 0
+repos/python/requests/tests/test_requests.py,"test_cookie_as_dict_keeps_items( self )",51, 8, 0
+repos/python/requests/tests/test_requests.py,"test_cookie_as_dict_keys( self )",52, 8, 0
+repos/python/requests/tests/test_requests.py,"test_cookie_as_dict_values( self )",54, 8, 0
+repos/python/requests/tests/test_requests.py,"test_cookie_as_dict_items( self )",53, 8, 0
+repos/python/requests/tests/test_requests.py,"test_cookie_duplicate_names_different_domains( self )",79, 8, 0
+repos/python/requests/tests/test_requests.py,"test_cookie_duplicate_names_raises_cookie_conflict_error( self )",72, 4, 0
+repos/python/requests/tests/test_requests.py,"test_cookie_policy_copy( self )",67, 8, 0
+repos/python/requests/tests/test_requests.py,"test_time_elapsed_blank( self , httpbin )",97, 8, 0
+repos/python/requests/tests/test_requests.py,"test_empty_response_has_content_none( self )",52, 4, 0
+repos/python/requests/tests/test_requests.py,"test_response_is_iterable.read_mock( amt , decode_content = None )",49, 8, 0
+repos/python/requests/tests/test_requests.py,"test_response_is_iterable( self )",49, 8, 0
+repos/python/requests/tests/test_requests.py,"test_response_decode_unicode( self )",80, 8, 0
+repos/python/requests/tests/test_requests.py,"test_response_reason_unicode( self )",60, 8, 0
+repos/python/requests/tests/test_requests.py,"test_response_reason_unicode_fallback( self )",64, 8, 0
+repos/python/requests/tests/test_requests.py,"test_response_chunk_size_type( self )",77, 8, 0
+repos/python/requests/tests/test_requests.py,"test_request_and_response_are_pickleable( self , httpbin )",71, 8, 0
+repos/python/requests/tests/test_requests.py,"test_prepared_request_is_pickleable( self , httpbin )",62, 8, 0
+repos/python/requests/tests/test_requests.py,"test_prepared_request_with_file_is_pickleable( self , httpbin )",70, 4, 0
+repos/python/requests/tests/test_requests.py,"test_prepared_request_with_hook_is_pickleable( self , httpbin )",75, 8, 0
+repos/python/requests/tests/test_requests.py,"test_cannot_send_unprepared_requests( self , httpbin )",61, 4, 0
+repos/python/requests/tests/test_requests.py,"test_http_error( self )",76, 8, 0
+repos/python/requests/tests/test_requests.py,"test_session_pickling( self , httpbin )",52, 8, 0
+repos/python/requests/tests/test_requests.py,"test_fixes_1329( self , httpbin )",70, 8, 0
+repos/python/requests/tests/test_requests.py,"test_uppercase_scheme_redirect( self , httpbin )",70, 8, 0
+repos/python/requests/tests/test_requests.py,"test_transport_adapter_ordering( self )",59, 8, 0
+repos/python/requests/tests/test_requests.py,"test_session_get_adapter_prefix_matching( self )",108, 8, 0
+repos/python/requests/tests/test_requests.py,"test_session_get_adapter_prefix_matching_mixed_case( self )",68, 8, 0
+repos/python/requests/tests/test_requests.py,"test_session_get_adapter_prefix_matching_is_case_insensitive( self )",102, 8, 0
+repos/python/requests/tests/test_requests.py,"test_header_remove_is_case_insensitive( self , httpbin )",63, 4, 0
+repos/python/requests/tests/test_requests.py,"test_params_are_merged_case_sensitive( self , httpbin )",64, 8, 0
+repos/python/requests/tests/test_requests.py,"test_long_authinfo_in_url( self )",79, 12, 0
+repos/python/requests/tests/test_requests.py,"test_header_keys_are_native( self , httpbin )",80, 8, 0
+repos/python/requests/tests/test_requests.py,"test_header_validation( self , httpbin )",81, 8, 0
+repos/python/requests/tests/test_requests.py,"test_header_value_not_str( self , httpbin )",67, 12, 0
+repos/python/requests/tests/test_requests.py,"test_header_no_return_chars( self , httpbin )",79, 8, 0
+repos/python/requests/tests/test_requests.py,"test_header_no_leading_space( self , httpbin )",68, 12, 0
+repos/python/requests/tests/test_requests.py,"test_can_send_objects_with_files( self , httpbin , files )",78, 8, 0
+repos/python/requests/tests/test_requests.py,"test_can_send_file_object_with_non_string_filename( self , httpbin )",75, 4, 0
+repos/python/requests/tests/test_requests.py,"test_autoset_header_values_are_native( self , httpbin )",67, 8, 0
+repos/python/requests/tests/test_requests.py,"test_nonhttp_schemes_dont_check_URLs( self )",90, 12, 0
+repos/python/requests/tests/test_requests.py,"test_auth_is_stripped_on_http_downgrade( self , httpbin , httpbin_secure , httpbin_ca_bundle )",99, 4, 0
+repos/python/requests/tests/test_requests.py,"test_auth_is_retained_for_redirect_on_host( self , httpbin )",71, 8, 0
+repos/python/requests/tests/test_requests.py,"test_should_strip_auth_host_change( self )",92, 8, 0
+repos/python/requests/tests/test_requests.py,"test_should_strip_auth_http_downgrade( self )",88, 8, 0
+repos/python/requests/tests/test_requests.py,"test_should_strip_auth_https_upgrade( self )",96, 8, 0
+repos/python/requests/tests/test_requests.py,"test_should_strip_auth_port_change( self )",98, 8, 0
+repos/python/requests/tests/test_requests.py,"test_should_strip_auth_default_port( self , old_uri , new_uri )",69, 4, 0
+repos/python/requests/tests/test_requests.py,"test_manual_redirect_with_partial_body_read( self , httpbin )",78, 8, 0
+repos/python/requests/tests/test_requests.py,"test_prepare_body_position_non_stream( self )",82, 8, 0
+repos/python/requests/tests/test_requests.py,"test_rewind_body( self )",82, 8, 0
+repos/python/requests/tests/test_requests.py,"test_rewind_partially_read_body( self )",82, 8, 0
+repos/python/requests/tests/test_requests.py,"test_rewind_body_no_seek.__init__( self , data )",38, 12, 0
+repos/python/requests/tests/test_requests.py,"test_rewind_body_no_seek.tell( self )",28, 12, 0
+repos/python/requests/tests/test_requests.py,"test_rewind_body_no_seek.__iter__( self )",32, 12, 0
+repos/python/requests/tests/test_requests.py,"test_rewind_body_no_seek( self )",82, 8, 0
+repos/python/requests/tests/test_requests.py,"test_rewind_body_failed_seek.__init__( self , data )",38, 12, 0
+repos/python/requests/tests/test_requests.py,"test_rewind_body_failed_seek.tell( self )",28, 12, 0
+repos/python/requests/tests/test_requests.py,"test_rewind_body_failed_seek.seek( self , pos , whence = 0 )",43, 12, 0
+repos/python/requests/tests/test_requests.py,"test_rewind_body_failed_seek.__iter__( self )",32, 12, 0
+repos/python/requests/tests/test_requests.py,"test_rewind_body_failed_seek( self )",82, 8, 0
+repos/python/requests/tests/test_requests.py,"test_rewind_body_failed_tell.__init__( self , data )",38, 12, 0
+repos/python/requests/tests/test_requests.py,"test_rewind_body_failed_tell.tell( self )",32, 16, 0
+repos/python/requests/tests/test_requests.py,"test_rewind_body_failed_tell.__iter__( self )",32, 12, 0
+repos/python/requests/tests/test_requests.py,"test_rewind_body_failed_tell( self )",82, 8, 0
+repos/python/requests/tests/test_requests.py,"_patch_adapter_gzipped_redirect.build_response( * args , ** kwargs )",62, 16, 0
+repos/python/requests/tests/test_requests.py,"_patch_adapter_gzipped_redirect( self , session , url )",62, 16, 0
+repos/python/requests/tests/test_requests.py,"test_redirect_with_wrong_gzipped_header( self , httpbin )",64, 4, 0
+repos/python/requests/tests/test_requests.py,"test_basic_auth_str_is_always_native( self , username , password , auth_str )",82, 4, 0
+repos/python/requests/tests/test_requests.py,"test_requests_history_is_saved( self , httpbin )",55, 4, 0
+repos/python/requests/tests/test_requests.py,"test_json_param_post_content_type_works( self , httpbin )",71, 8, 0
+repos/python/requests/tests/test_requests.py,"test_json_param_post_should_not_override_data_param( self , httpbin )",76, 4, 0
+repos/python/requests/tests/test_requests.py,"test_response_iter_lines( self , httpbin )",59, 8, 0
+repos/python/requests/tests/test_requests.py,"test_response_context_manager( self , httpbin )",73, 8, 0
+repos/python/requests/tests/test_requests.py,"test_unconsumed_session_response_closes_connection( self , httpbin )",86, 8, 0
+repos/python/requests/tests/test_requests.py,"test_response_iter_lines_reentrant( self , httpbin )",59, 4, 0
+repos/python/requests/tests/test_requests.py,"test_session_close_proxy_clear( self , mocker )",78, 8, 0
+repos/python/requests/tests/test_requests.py,"test_proxy_auth( self )",72, 8, 0
+repos/python/requests/tests/test_requests.py,"test_proxy_auth_empty_pass( self )",68, 8, 0
+repos/python/requests/tests/test_requests.py,"test_response_json_when_content_is_None( self , httpbin )",64, 4, 0
+repos/python/requests/tests/test_requests.py,"test_response_without_release_conn( self )",78, 8, 0
+repos/python/requests/tests/test_requests.py,"test_empty_stream_with_auth_does_not_set_content_length_header( self , httpbin )",87, 4, 0
+repos/python/requests/tests/test_requests.py,"test_stream_with_auth_does_not_set_transfer_encoding_header( self , httpbin )",86, 8, 0
+repos/python/requests/tests/test_requests.py,"test_chunked_upload_does_not_set_content_length_header( self , httpbin )",79, 4, 0
+repos/python/requests/tests/test_requests.py,"test_custom_redirect_mixin.get_redirect_target( self , resp )",79, 16, 0
+repos/python/requests/tests/test_requests.py,"test_custom_redirect_mixin( self , httpbin )",88, 8, 0
+repos/python/requests/tests/test_requests.py,"test_init( self , cid )",30, 4, 0
+repos/python/requests/tests/test_requests.py,"test_docstring_example( self )",51, 8, 0
+repos/python/requests/tests/test_requests.py,"test_len( self )",56, 8, 0
+repos/python/requests/tests/test_requests.py,"test_getitem( self )",55, 8, 0
+repos/python/requests/tests/test_requests.py,"test_fixes_649( self )",60, 8, 0
+repos/python/requests/tests/test_requests.py,"test_delitem( self )",36, 8, 0
+repos/python/requests/tests/test_requests.py,"test_contains( self )",36, 8, 0
+repos/python/requests/tests/test_requests.py,"test_get( self )",58, 8, 0
+repos/python/requests/tests/test_requests.py,"test_update( self )",64, 8, 0
+repos/python/requests/tests/test_requests.py,"test_update_retains_unchanged( self )",64, 8, 0
+repos/python/requests/tests/test_requests.py,"test_iter( self )",68, 8, 0
+repos/python/requests/tests/test_requests.py,"test_equality( self )",78, 8, 0
+repos/python/requests/tests/test_requests.py,"test_setdefault( self )",71, 8, 0
+repos/python/requests/tests/test_requests.py,"test_lower_items( self )",74, 8, 0
+repos/python/requests/tests/test_requests.py,"test_preserve_key_case( self )",62, 8, 0
+repos/python/requests/tests/test_requests.py,"test_preserve_last_key_case( self )",62, 8, 0
+repos/python/requests/tests/test_requests.py,"test_copy( self )",42, 12, 0
+repos/python/requests/tests/test_requests.py,"test_expires_valid_str( self )",67, 8, 0
+repos/python/requests/tests/test_requests.py,"test_expires_invalid_int( self , value , exception )",69, 8, 0
+repos/python/requests/tests/test_requests.py,"test_expires_none( self )",47, 8, 0
+repos/python/requests/tests/test_requests.py,"test_max_age_valid_int( self )",68, 8, 0
+repos/python/requests/tests/test_requests.py,"test_max_age_invalid_str( self )",59, 8, 0
+repos/python/requests/tests/test_requests.py,"test_stream_timeout( self , httpbin )",59, 12, 0
+repos/python/requests/tests/test_requests.py,"test_invalid_timeout( self , httpbin , timeout , error_text )",66, 4, 0
+repos/python/requests/tests/test_requests.py,"test_none_timeout( self , httpbin , timeout )",80, 8, 0
+repos/python/requests/tests/test_requests.py,"test_read_timeout( self , httpbin , timeout )",63, 12, 0
+repos/python/requests/tests/test_requests.py,"test_connect_timeout( self , timeout )",66, 12, 0
+repos/python/requests/tests/test_requests.py,"test_total_timeout_connect( self , timeout )",66, 12, 0
+repos/python/requests/tests/test_requests.py,"test_encoded_methods( self , httpbin )",68, 8, 0
+repos/python/requests/tests/test_requests.py,"__init__( self , order_of_redirects )",44, 4, 0
+repos/python/requests/tests/test_requests.py,"send( self , * args , ** kwargs )",50, 8, 0
+repos/python/requests/tests/test_requests.py,"build_response( self )",59, 8, 0
+repos/python/requests/tests/test_requests.py,"_build_raw( self )",60, 8, 0
+repos/python/requests/tests/test_requests.py,"test_json_encodes_as_bytes( )",51, 4, 0
+repos/python/requests/tests/test_requests.py,"test_requests_are_updated_each_time( httpbin )",72, 8, 0
+repos/python/requests/tests/test_requests.py,"test_proxy_env_vars_override_default( var , url , proxy )",59, 0, 0
+repos/python/requests/tests/test_requests.py,"test_data_argument_accepts_tuples( data )",67, 4, 0
+repos/python/requests/tests/test_requests.py,"test_prepared_copy( kwargs )",75, 4, 0
+repos/python/requests/tests/test_requests.py,"test_urllib3_retries( httpbin )",54, 4, 0
+repos/python/requests/tests/test_requests.py,"test_urllib3_pool_connection_closed( httpbin )",72, 4, 0
+repos/python/requests/tests/test_requests.py,"test_preparing_url( self , url , expected )",49, 4, 0
+repos/python/requests/tests/test_requests.py,"test_preparing_bad_url( self , url )",60, 8, 0
+repos/python/requests/tests/test_requests.py,"test_redirecting_to_bad_url( self , httpbin , url , exception )",74, 12, 0
+repos/python/requests/tests/test_requests.py,"test_url_mutation( self , input , expected )",76, 8, 0
+repos/python/requests/tests/test_requests.py,"test_parameters_for_nonstandard_schemes( self , input , params , expected )",80, 4, 0
+repos/python/requests/tests/utils.py,"override_environ( ** kwargs )",38, 4, 0
+repos/python/requests/tests/test_hooks.py,"hook( value )",21, 4, 0
+repos/python/requests/tests/test_hooks.py,"test_hooks( hooks_list , result )",87, 4, 0
+repos/python/requests/tests/test_hooks.py,"test_default_hooks( )",53, 4, 0
+repos/python/requests/tests/testserver/server.py,"consume_socket_content( sock , timeout = 0 . 5 )",65, 8, 0
+repos/python/requests/tests/testserver/server.py,"__init__( self , handler = None , host = 'localhost' , port = 0 , requests_to_handle = 1 , wait_to_close_event = None )",112, 4, 0
+repos/python/requests/tests/testserver/server.py,"text_response_server.text_response_handler( sock )",84, 12, 0
+repos/python/requests/tests/testserver/server.py,"text_response_server( cls , text , request_timeout = 0 . 5 , ** kwargs )",84, 12, 0
+repos/python/requests/tests/testserver/server.py,"basic_response_server( cls , ** kwargs )",46, 4, 0
+repos/python/requests/tests/testserver/server.py,"run( self )",71, 16, 0
+repos/python/requests/tests/testserver/server.py,"_create_socket_and_bind( self )",42, 8, 0
+repos/python/requests/tests/testserver/server.py,"_close_server_sock_ignore_errors( self )",48, 4, 0
+repos/python/requests/tests/testserver/server.py,"_handle_requests( self )",56, 12, 0
+repos/python/requests/tests/testserver/server.py,"_accept_connection( self )",93, 12, 0
+repos/python/requests/tests/testserver/server.py,"__enter__( self )",55, 8, 0
+repos/python/requests/tests/testserver/server.py,"__exit__( self , exc_type , exc_value , traceback )",73, 8, 0
+repos/python/requests/requests/structures.py,"__init__( self , data = None , ** kwargs )",45, 4, 0
+repos/python/requests/requests/structures.py,"__setitem__( self , key , value )",67, 8, 0
+repos/python/requests/requests/structures.py,"__getitem__( self , key )",43, 8, 0
+repos/python/requests/requests/structures.py,"__delitem__( self , key )",37, 8, 0
+repos/python/requests/requests/structures.py,"__iter__( self )",76, 8, 0
+repos/python/requests/requests/structures.py,"__len__( self )",32, 8, 0
+repos/python/requests/requests/structures.py,"lower_items( self )",61, 8, 0
+repos/python/requests/requests/structures.py,"__eq__( self , other )",69, 8, 0
+repos/python/requests/requests/structures.py,"copy( self )",57, 8, 0
+repos/python/requests/requests/structures.py,"__repr__( self )",39, 8, 0
+repos/python/requests/requests/structures.py,"__init__( self , name = None )",43, 8, 0
+repos/python/requests/requests/structures.py,"__repr__( self )",47, 8, 0
+repos/python/requests/requests/structures.py,"__getitem__( self , key )",64, 8, 0
+repos/python/requests/requests/structures.py,"get( self , key , default = None )",47, 8, 0
+repos/python/requests/requests/auth.py,"_basic_auth_str( username , password )",76, 12, 0
+repos/python/requests/requests/auth.py,"__call__( self , r )",66, 8, 0
+repos/python/requests/requests/auth.py,"__init__( self , username , password )",44, 4, 0
+repos/python/requests/requests/auth.py,"__eq__( self , other )",63, 12, 0
+repos/python/requests/requests/auth.py,"__ne__( self , other )",33, 8, 0
+repos/python/requests/requests/auth.py,"__call__( self , r )",83, 8, 0
+repos/python/requests/requests/auth.py,"__call__( self , r )",89, 8, 0
+repos/python/requests/requests/auth.py,"__init__( self , username , password )",49, 8, 0
+repos/python/requests/requests/auth.py,"init_per_thread_state( self )",59, 8, 0
+repos/python/requests/requests/auth.py,"build_digest_header.md5_utf8( x )",50, 16, 0
+repos/python/requests/requests/auth.py,"build_digest_header.sha_utf8( x )",51, 16, 0
+repos/python/requests/requests/auth.py,"build_digest_header.sha256_utf8( x )",53, 16, 0
+repos/python/requests/requests/auth.py,"build_digest_header.sha512_utf8( x )",53, 16, 0
+repos/python/requests/requests/auth.py,"build_digest_header( self , method , url )",78, 15, 0
+repos/python/requests/requests/auth.py,"handle_redirect( self , r , ** kwargs )",56, 8, 0
+repos/python/requests/requests/auth.py,"handle_401( self , r , ** kwargs )",86, 12, 0
+repos/python/requests/requests/auth.py,"__call__( self , r )",83, 12, 0
+repos/python/requests/requests/auth.py,"__eq__( self , other )",63, 12, 0
+repos/python/requests/requests/auth.py,"__ne__( self , other )",33, 8, 0
+repos/python/requests/requests/__init__.py,"check_compatibility( urllib3_version , chardet_version )",82, 4, 0
+repos/python/requests/requests/__init__.py,"_check_cryptography( cryptography_version )",102, 8, 0
+repos/python/requests/requests/models.py,"path_url( self )",41, 8, 0
+repos/python/requests/requests/models.py,"_encode_params( data )",80, 8, 0
+repos/python/requests/requests/models.py,"_encode_files( files , data )",97, 8, 0
+repos/python/requests/requests/models.py,"register_hook( self , event , hook )",92, 12, 0
+repos/python/requests/requests/models.py,"deregister_hook( self , event , hook )",56, 8, 0
+repos/python/requests/requests/models.py,"__init__( self , method = None , url = None , headers = None , files = None , data = None , params = None , auth = None , cookies = None , hooks = None , json = None )",74, 12, 0
+repos/python/requests/requests/models.py,"__repr__( self )",48, 8, 0
+repos/python/requests/requests/models.py,"prepare( self )",103, 8, 0
+repos/python/requests/requests/models.py,"__init__( self )",79, 8, 0
+repos/python/requests/requests/models.py,"prepare( self , method = None , url = None , headers = None , files = None , data = None , params = None , auth = None , cookies = None , hooks = None , json = None )",74, 12, 0
+repos/python/requests/requests/models.py,"__repr__( self )",56, 8, 0
+repos/python/requests/requests/models.py,"copy( self )",78, 8, 0
+repos/python/requests/requests/models.py,"prepare_method( self , method )",64, 12, 0
+repos/python/requests/requests/models.py,"_get_idna_encoded_host( host )",65, 12, 0
+repos/python/requests/requests/models.py,"prepare_url( self , url , params )",93, 12, 0
+repos/python/requests/requests/models.py,"prepare_headers( self , headers )",61, 16, 0
+repos/python/requests/requests/models.py,"prepare_body( self , data , files , json = None )",95, 16, 0
+repos/python/requests/requests/models.py,"prepare_content_length( self , body )",96, 8, 0
+repos/python/requests/requests/models.py,"prepare_auth( self , auth , url = '' )",76, 8, 0
+repos/python/requests/requests/models.py,"prepare_cookies( self , cookies )",80, 8, 0
+repos/python/requests/requests/models.py,"prepare_hooks( self , hooks )",75, 8, 0
+repos/python/requests/requests/models.py,"__init__( self )",83, 8, 0
+repos/python/requests/requests/models.py,"__enter__( self )",25, 4, 0
+repos/python/requests/requests/models.py,"__exit__( self , * args )",31, 4, 0
+repos/python/requests/requests/models.py,"__getstate__( self )",76, 8, 0
+repos/python/requests/requests/models.py,"__setstate__( self , state )",49, 8, 0
+repos/python/requests/requests/models.py,"__repr__( self )",54, 8, 0
+repos/python/requests/requests/models.py,"__bool__( self )",77, 8, 0
+repos/python/requests/requests/models.py,"__nonzero__( self )",77, 8, 0
+repos/python/requests/requests/models.py,"__iter__( self )",59, 8, 0
+repos/python/requests/requests/models.py,"ok( self )",79, 8, 0
+repos/python/requests/requests/models.py,"is_redirect( self )",83, 8, 0
+repos/python/requests/requests/models.py,"is_permanent_redirect( self )",120, 8, 0
+repos/python/requests/requests/models.py,"next( self )",99, 8, 0
+repos/python/requests/requests/models.py,"apparent_encoding( self )",70, 8, 0
+repos/python/requests/requests/models.py,"iter_content.generate( )",83, 20, 0
+repos/python/requests/requests/models.py,"iter_content( self , chunk_size = 1 , decode_unicode = False )",97, 12, 0
+repos/python/requests/requests/models.py,"iter_lines( self , chunk_size = ITER_CHUNK_SIZE , decode_unicode = False , delimiter = None )",94, 8, 0
+repos/python/requests/requests/models.py,"content( self )",87, 16, 0
+repos/python/requests/requests/models.py,"text( self )",80, 8, 0
+repos/python/requests/requests/models.py,"json( self , ** kwargs )",79, 12, 0
+repos/python/requests/requests/models.py,"links( self )",71, 8, 0
+repos/python/requests/requests/models.py,"raise_for_status( self )",103, 12, 0
+repos/python/requests/requests/models.py,"close( self )",79, 8, 0
+repos/python/requests/requests/hooks.py,"default_hooks( )",42, 4, 0
+repos/python/requests/requests/hooks.py,"dispatch_hook( key , hooks , hook_data , ** kwargs )",65, 4, 0
+repos/python/requests/requests/cookies.py,"__init__( self , request )",49, 8, 0
+repos/python/requests/requests/cookies.py,"get_type( self )",25, 8, 0
+repos/python/requests/requests/cookies.py,"get_host( self )",44, 8, 0
+repos/python/requests/requests/cookies.py,"get_origin_req_host( self )",35, 4, 0
+repos/python/requests/requests/cookies.py,"get_full_url( self )",78, 8, 0
+repos/python/requests/requests/cookies.py,"is_unverifiable( self )",31, 4, 0
+repos/python/requests/requests/cookies.py,"has_header( self , name )",68, 8, 0
+repos/python/requests/requests/cookies.py,"get_header( self , name , default = None )",79, 8, 0
+repos/python/requests/requests/cookies.py,"add_header( self , key , val )",99, 8, 0
+repos/python/requests/requests/cookies.py,"add_unredirected_header( self , name , value )",52, 4, 0
+repos/python/requests/requests/cookies.py,"get_new_headers( self )",33, 8, 0
+repos/python/requests/requests/cookies.py,"unverifiable( self )",38, 8, 0
+repos/python/requests/requests/cookies.py,"origin_req_host( self )",42, 8, 0
+repos/python/requests/requests/cookies.py,"host( self )",31, 8, 0
+repos/python/requests/requests/cookies.py,"__init__( self , headers )",80, 8, 0
+repos/python/requests/requests/cookies.py,"info( self )",29, 8, 0
+repos/python/requests/requests/cookies.py,"getheaders( self , name )",39, 8, 0
+repos/python/requests/requests/cookies.py,"extract_cookies_to_jar( jar , request , response )",79, 4, 0
+repos/python/requests/requests/cookies.py,"get_cookie_header( jar , request )",84, 4, 0
+repos/python/requests/requests/cookies.py,"remove_cookie_by_name( cookiejar , name , domain = None , path = None )",71, 4, 0
+repos/python/requests/requests/cookies.py,"get( self , name , default = None , domain = None , path = None )",79, 8, 0
+repos/python/requests/requests/cookies.py,"set( self , name , value , ** kwargs )",100, 12, 0
+repos/python/requests/requests/cookies.py,"iterkeys( self )",77, 8, 0
+repos/python/requests/requests/cookies.py,"keys( self )",77, 8, 0
+repos/python/requests/requests/cookies.py,"itervalues( self )",80, 8, 0
+repos/python/requests/requests/cookies.py,"values( self )",80, 8, 0
+repos/python/requests/requests/cookies.py,"iteritems( self )",79, 8, 0
+repos/python/requests/requests/cookies.py,"items( self )",79, 8, 0
+repos/python/requests/requests/cookies.py,"list_domains( self )",65, 8, 0
+repos/python/requests/requests/cookies.py,"list_paths( self )",63, 8, 0
+repos/python/requests/requests/cookies.py,"multiple_domains( self )",71, 12, 0
+repos/python/requests/requests/cookies.py,"get_dict( self , domain = None , path = None )",80, 8, 0
+repos/python/requests/requests/cookies.py,"__contains__( self , name )",69, 12, 0
+repos/python/requests/requests/cookies.py,"__getitem__( self , name )",78, 8, 0
+repos/python/requests/requests/cookies.py,"__setitem__( self , name , value )",80, 8, 0
+repos/python/requests/requests/cookies.py,"__delitem__( self , name )",74, 8, 0
+repos/python/requests/requests/cookies.py,"set_cookie( self , cookie , * args , ** kwargs )",112, 8, 0
+repos/python/requests/requests/cookies.py,"update( self , other )",80, 8, 0
+repos/python/requests/requests/cookies.py,"_find( self , name , domain = None , path = None )",77, 8, 0
+repos/python/requests/requests/cookies.py,"_find_no_duplicates( self , name , domain = None , path = None )",112, 24, 0
+repos/python/requests/requests/cookies.py,"__getstate__( self )",67, 8, 0
+repos/python/requests/requests/cookies.py,"__setstate__( self , state )",67, 8, 0
+repos/python/requests/requests/cookies.py,"copy( self )",55, 8, 0
+repos/python/requests/requests/cookies.py,"get_policy( self )",53, 8, 0
+repos/python/requests/requests/cookies.py,"_copy_cookie_jar( jar )",62, 8, 0
+repos/python/requests/requests/cookies.py,"create_cookie( name , value , ** kwargs )",77, 4, 0
+repos/python/requests/requests/cookies.py,"morsel_to_cookie( morsel )",79, 12, 0
+repos/python/requests/requests/cookies.py,"cookiejar_from_dict( cookie_dict , cookiejar = None , overwrite = True )",77, 16, 0
+repos/python/requests/requests/cookies.py,"merge_cookies( cookiejar , cookies )",64, 4, 0
+repos/python/requests/requests/exceptions.py,"__init__( self , * args , ** kwargs )",81, 8, 0
+repos/python/requests/requests/api.py,"request( method , url , ** kwargs )",137, 4, 0
+repos/python/requests/requests/api.py,"get( url , params = None , ** kwargs )",74, 4, 0
+repos/python/requests/requests/api.py,"options( url , ** kwargs )",66, 4, 0
+repos/python/requests/requests/api.py,"head( url , ** kwargs )",66, 4, 0
+repos/python/requests/requests/api.py,"post( url , data = None , json = None , ** kwargs )",83, 4, 0
+repos/python/requests/requests/api.py,"put( url , data = None , ** kwargs )",83, 4, 0
+repos/python/requests/requests/api.py,"patch( url , data = None , ** kwargs )",83, 4, 0
+repos/python/requests/requests/api.py,"delete( url , ** kwargs )",66, 4, 0
+repos/python/requests/requests/help.py,"_implementation( )",79, 4, 0
+repos/python/requests/requests/help.py,"info( )",74, 12, 0
+repos/python/requests/requests/help.py,"main( )",56, 4, 0
+repos/python/requests/requests/sessions.py,"merge_setting( request_setting , session_setting , dict_class = OrderedDict )",79, 4, 0
+repos/python/requests/requests/sessions.py,"merge_hooks( request_hooks , session_hooks , dict_class = OrderedDict )",74, 4, 0
+repos/python/requests/requests/sessions.py,"get_redirect_target( self , resp )",81, 8, 0
+repos/python/requests/requests/sessions.py,"should_strip_auth( self , old_url , new_url )",86, 16, 0
+repos/python/requests/requests/sessions.py,"resolve_redirects( self , resp , req , stream = False , timeout = None , verify = True , cert = None , proxies = None , yield_requests = False , ** adapter_kwargs )",105, 26, 0
+repos/python/requests/requests/sessions.py,"rebuild_auth( self , prepared_request , response )",93, 8, 0
+repos/python/requests/requests/sessions.py,"rebuild_proxies( self , prepared_request , proxies )",81, 12, 0
+repos/python/requests/requests/sessions.py,"rebuild_method( self , prepared_request , response )",81, 8, 0
+repos/python/requests/requests/sessions.py,"__init__( self )",84, 8, 0
+repos/python/requests/requests/sessions.py,"__enter__( self )",25, 4, 0
+repos/python/requests/requests/sessions.py,"__exit__( self , * args )",31, 4, 0
+repos/python/requests/requests/sessions.py,"prepare_request( self , request )",98, 12, 0
+repos/python/requests/requests/sessions.py,"request( self , method , url , params = None , data = None , headers = None , cookies = None , files = None , auth = None , timeout = None , allow_redirects = True , proxies = None , hooks = None , stream = None , verify = None , cert = None , json = None )",76, 12, 0
+repos/python/requests/requests/sessions.py,"get( self , url , ** kwargs )",70, 8, 0
+repos/python/requests/requests/sessions.py,"options( self , url , ** kwargs )",71, 8, 0
+repos/python/requests/requests/sessions.py,"head( self , url , ** kwargs )",70, 8, 0
+repos/python/requests/requests/sessions.py,"post( self , url , data = None , json = None , ** kwargs )",82, 8, 0
+repos/python/requests/requests/sessions.py,"put( self , url , data = None , ** kwargs )",80, 8, 0
+repos/python/requests/requests/sessions.py,"patch( self , url , data = None , ** kwargs )",80, 8, 0
+repos/python/requests/requests/sessions.py,"delete( self , url , ** kwargs )",70, 8, 0
+repos/python/requests/requests/sessions.py,"send( self , request , ** kwargs )",101, 8, 0
+repos/python/requests/requests/sessions.py,"merge_environment_settings( self , url , proxies , stream , verify , cert )",80, 12, 0
+repos/python/requests/requests/sessions.py,"get_adapter( self , url )",80, 8, 0
+repos/python/requests/requests/sessions.py,"close( self )",58, 8, 0
+repos/python/requests/requests/sessions.py,"mount( self , prefix , adapter )",74, 8, 0
+repos/python/requests/requests/sessions.py,"__getstate__( self )",77, 8, 0
+repos/python/requests/requests/sessions.py,"__setstate__( self , state )",42, 8, 0
+repos/python/requests/requests/sessions.py,"session( )",89, 8, 0
+repos/python/requests/requests/_internal_utils.py,"to_native_string( string , encoding = 'ascii' )",78, 4, 0
+repos/python/requests/requests/_internal_utils.py,"unicode_is_ascii( u_string )",67, 4, 0
+repos/python/requests/requests/adapters.py,"SOCKSProxyManager( * args , ** kwargs )",71, 8, 0
+repos/python/requests/requests/adapters.py,"__init__( self )",44, 8, 0
+repos/python/requests/requests/adapters.py,"send( self , request , stream = False , timeout = None , verify = True , cert = None , proxies = None )",69, 4, 0
+repos/python/requests/requests/adapters.py,"close( self )",48, 8, 0
+repos/python/requests/requests/adapters.py,"__init__( self , pool_connections = DEFAULT_POOLSIZE , pool_maxsize = DEFAULT_POOLSIZE , max_retries = DEFAULT_RETRIES , pool_block = DEFAULT_POOLBLOCK )",77, 17, 0
+repos/python/requests/requests/adapters.py,"__getstate__( self )",76, 8, 0
+repos/python/requests/requests/adapters.py,"__setstate__( self , state )",75, 8, 0
+repos/python/requests/requests/adapters.py,"init_poolmanager( self , connections , maxsize , block = DEFAULT_POOLBLOCK , ** pool_kwargs )",94, 4, 0
+repos/python/requests/requests/adapters.py,"proxy_manager_for( self , proxy , ** proxy_kwargs )",90, 8, 0
+repos/python/requests/requests/adapters.py,"cert_verify( self , conn , url , verify , cert )",87, 12, 0
+repos/python/requests/requests/adapters.py,"build_response( self , req , resp )",98, 8, 0
+repos/python/requests/requests/adapters.py,"get_connection( self , url , proxies = None )",96, 8, 0
+repos/python/requests/requests/adapters.py,"close( self )",76, 8, 0
+repos/python/requests/requests/adapters.py,"request_url( self , request , proxies )",84, 8, 0
+repos/python/requests/requests/adapters.py,"add_headers( self , request , ** kwargs )",90, 8, 0
+repos/python/requests/requests/adapters.py,"proxy_headers( self , proxy )",79, 8, 0
+repos/python/requests/requests/adapters.py,"send( self , request , stream = False , timeout = None , verify = True , cert = None , proxies = None )",109, 8, 0
+repos/python/requests/requests/utils.py,"proxy_bypass_registry( host )",80, 16, 0
+repos/python/requests/requests/utils.py,"proxy_bypass( host )",75, 8, 0
+repos/python/requests/requests/utils.py,"dict_to_sequence( d )",58, 4, 0
+repos/python/requests/requests/utils.py,"super_len( o )",80, 20, 0
+repos/python/requests/requests/utils.py,"get_netrc_auth( url , raise_errors = False )",84, 12, 0
+repos/python/requests/requests/utils.py,"guess_filename( obj )",69, 4, 0
+repos/python/requests/requests/utils.py,"extract_zipped_paths( path )",85, 4, 0
+repos/python/requests/requests/utils.py,"from_key_val_list( value )",72, 8, 0
+repos/python/requests/requests/utils.py,"to_key_val_list( value )",72, 8, 0
+repos/python/requests/requests/utils.py,"parse_list_header( value )",69, 4, 0
+repos/python/requests/requests/utils.py,"parse_dict_header( value )",78, 4, 0
+repos/python/requests/requests/utils.py,"unquote_header_value( value , is_filename = False )",76, 4, 0
+repos/python/requests/requests/utils.py,"dict_from_cookiejar( cj )",57, 4, 0
+repos/python/requests/requests/utils.py,"add_dict_to_cookiejar( cj , cookie_dict )",69, 4, 0
+repos/python/requests/requests/utils.py,"get_encodings_from_content( content )",87, 4, 0
+repos/python/requests/requests/utils.py,"_parse_content_type_header( header )",74, 16, 0
+repos/python/requests/requests/utils.py,"get_encoding_from_headers( headers )",68, 4, 0
+repos/python/requests/requests/utils.py,"stream_decode_response_unicode( iterator , r )",73, 4, 0
+repos/python/requests/requests/utils.py,"iter_slices( string , slice_length )",50, 4, 0
+repos/python/requests/requests/utils.py,"get_unicode_from_response( r )",76, 8, 0
+repos/python/requests/requests/utils.py,"unquote_unreserved( uri )",79, 4, 0
+repos/python/requests/requests/utils.py,"requote_uri( uri )",78, 8, 0
+repos/python/requests/requests/utils.py,"address_in_network( ip , net )",82, 4, 0
+repos/python/requests/requests/utils.py,"dotted_netmask( mask )",58, 4, 0
+repos/python/requests/requests/utils.py,"is_ipv4_address( string_ip )",36, 8, 0
+repos/python/requests/requests/utils.py,"is_valid_cidr( string_network )",63, 4, 0
+repos/python/requests/requests/utils.py,"set_environ( env_name , value )",78, 4, 0
+repos/python/requests/requests/utils.py,"should_bypass_proxies( url , no_proxy )",97, 20, 0
+repos/python/requests/requests/utils.py,"get_environ_proxies( url , no_proxy = None )",54, 4, 0
+repos/python/requests/requests/utils.py,"select_proxy( url , proxies )",79, 4, 0
+repos/python/requests/requests/utils.py,"default_user_agent( name = "python-requests" )",57, 4, 0
+repos/python/requests/requests/utils.py,"default_headers( )",59, 8, 0
+repos/python/requests/requests/utils.py,"parse_header_links( value )",119, 4, 0
+repos/python/requests/requests/utils.py,"guess_json_utf( data )",71, 4, 0
+repos/python/requests/requests/utils.py,"prepend_scheme_if_needed( url , new_scheme )",80, 4, 0
+repos/python/requests/requests/utils.py,"get_auth_from_url( url )",80, 4, 0
+repos/python/requests/requests/utils.py,"check_header_validity( header )",98, 12, 0
+repos/python/requests/requests/utils.py,"urldefragauth( url )",66, 4, 0
+repos/python/requests/requests/utils.py,"rewind_body( prepared_request )",93, 4, 0
+repos/python/requests/requests/status_codes.py,"_init.doc( code )",62, 8, 0
+repos/python/requests/requests/status_codes.py,"_init( )",63, 15, 0
