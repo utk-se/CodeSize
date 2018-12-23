@@ -1,4 +1,4 @@
-File, Function, Total Width, Leading Space(s), Leading Tab(s)
-repos/cpp/nw.js/test/sanity/native-module-buffer/buffer_example.cpp,"buffer_delete_callback( char * data , void * the_vector)",60, 0, 0
-repos/cpp/nw.js/test/sanity/native-module-buffer/buffer_example.cpp,"NAN_METHOD( rotate)",113, 4, 0
-repos/cpp/nw.js/test/sanity/native-module-buffer/buffer_example.cpp,"NAN_MODULE_INIT( Init)",70, 8, 0
+File, Function, Length, Total Width, Leading Space(s), Leading Tab(s)
+repos/cpp/nw.js/test/sanity/native-module-buffer/buffer_example.cpp,"buffer_delete_callback( char * data , void * the_vector)",3, 2, 0, 0
+repos/cpp/nw.js/test/sanity/native-module-buffer/buffer_example.cpp,"NAN_METHOD( rotate)",14, 2, 0, 0
+repos/cpp/nw.js/test/sanity/native-module-buffer/buffer_example.cpp,"NAN_MODULE_INIT( Init)",4, 2, 0, 0

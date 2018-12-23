@@ -1,386 +1,386 @@
-File, Function, Total Width, Leading Space(s), Leading Tab(s)
-repos/python/httpie/setup.py,"finalize_options( self )",46, 12, 0
-repos/python/httpie/setup.py,"run_tests( self )",46, 8, 0
-repos/python/httpie/setup.py,"long_description( )",58, 4, 0
-repos/python/httpie/extras/get-homebrew-formula-vars.py,"get_package_meta( package_name )",74, 4, 0
-repos/python/httpie/extras/get-homebrew-formula-vars.py,"main( )",73, 8, 0
-repos/python/httpie/tests/test_regressions.py,"test_Host_header_overwrite( httpbin )",57, 4, 0
-repos/python/httpie/tests/test_regressions.py,"test_output_devnull( httpbin )",55, 4, 0
-repos/python/httpie/tests/test_cli.py,"test_invalid_items( self )",76, 12, 0
-repos/python/httpie/tests/test_cli.py,"test_escape_separator( self )",62, 8, 0
-repos/python/httpie/tests/test_cli.py,"test_backslash_before_non_special_character_does_not_escape( self , string , key , sep , value )",69, 4, 0
-repos/python/httpie/tests/test_cli.py,"test_escape_longsep( self )",47, 8, 0
-repos/python/httpie/tests/test_cli.py,"test_valid_items( self )",72, 8, 0
-repos/python/httpie/tests/test_cli.py,"test_multiple_file_fields_with_same_field_name( self )",62, 4, 0
-repos/python/httpie/tests/test_cli.py,"test_multiple_text_fields_with_same_field_name( self )",62, 4, 0
-repos/python/httpie/tests/test_cli.py,"test_query_string_params_in_url( self , httpbin )",69, 8, 0
-repos/python/httpie/tests/test_cli.py,"test_query_string_params_items( self , httpbin )",69, 8, 0
-repos/python/httpie/tests/test_cli.py,"test_query_string_params_in_url_and_items_with_duplicates( self , httpbin )",76, 66, 0
-repos/python/httpie/tests/test_cli.py,"test_expand_localhost_shorthand( self )",68, 8, 0
-repos/python/httpie/tests/test_cli.py,"test_expand_localhost_shorthand_with_slash( self )",69, 8, 0
-repos/python/httpie/tests/test_cli.py,"test_expand_localhost_shorthand_with_port( self )",72, 8, 0
-repos/python/httpie/tests/test_cli.py,"test_expand_localhost_shorthand_with_path( self )",73, 8, 0
-repos/python/httpie/tests/test_cli.py,"test_expand_localhost_shorthand_with_port_and_slash( self )",73, 8, 0
-repos/python/httpie/tests/test_cli.py,"test_expand_localhost_shorthand_with_port_and_path( self )",77, 8, 0
-repos/python/httpie/tests/test_cli.py,"test_dont_expand_shorthand_ipv6_as_shorthand( self )",70, 8, 0
-repos/python/httpie/tests/test_cli.py,"test_dont_expand_longer_ipv6_as_shorthand( self )",57, 4, 0
-repos/python/httpie/tests/test_cli.py,"test_dont_expand_full_ipv6_as_shorthand( self )",76, 8, 0
-repos/python/httpie/tests/test_cli.py,"setup_method( self , method )",51, 8, 0
-repos/python/httpie/tests/test_cli.py,"test_guess_when_method_set_and_valid( self )",61, 8, 0
-repos/python/httpie/tests/test_cli.py,"test_guess_when_method_not_set( self )",61, 8, 0
-repos/python/httpie/tests/test_cli.py,"test_guess_when_method_set_but_invalid_and_data_field( self )",69, 4, 0
-repos/python/httpie/tests/test_cli.py,"test_guess_when_method_set_but_invalid_and_header_field( self )",71, 4, 0
-repos/python/httpie/tests/test_cli.py,"test_guess_when_method_set_but_invalid_and_item_exists( self )",77, 12, 0
-repos/python/httpie/tests/test_cli.py,"test_valid_no_options( self , httpbin )",75, 8, 0
-repos/python/httpie/tests/test_cli.py,"test_invalid_no_options( self , httpbin )",62, 8, 0
-repos/python/httpie/tests/test_cli.py,"test_ignore_stdin( self , httpbin )",74, 12, 0
-repos/python/httpie/tests/test_cli.py,"test_ignore_stdin_cannot_prompt_password( self , httpbin )",79, 8, 0
-repos/python/httpie/tests/test_cli.py,"test_invalid_custom_scheme( self )",51, 8, 0
-repos/python/httpie/tests/test_cli.py,"test_invalid_scheme_via_via_default_scheme( self )",60, 12, 0
-repos/python/httpie/tests/test_cli.py,"test_default_scheme( self , httpbin_secure )",73, 8, 0
-repos/python/httpie/tests/test_auth_plugins.py,"basic_auth.inner( r )",44, 8, 0
-repos/python/httpie/tests/test_auth_plugins.py,"basic_auth( header = BASIC_AUTH_HEADER_VALUE )",48, 0, 0
-repos/python/httpie/tests/test_auth_plugins.py,"test_auth_plugin_parse_auth_false.get_auth( self , username = None , password = None )",60, 12, 0
-repos/python/httpie/tests/test_auth_plugins.py,"test_auth_plugin_parse_auth_false( httpbin )",60, 12, 0
-repos/python/httpie/tests/test_auth_plugins.py,"test_auth_plugin_require_auth_false.get_auth( self , username = None , password = None )",58, 8, 0
-repos/python/httpie/tests/test_auth_plugins.py,"test_auth_plugin_require_auth_false( httpbin )",58, 8, 0
-repos/python/httpie/tests/test_auth_plugins.py,"test_auth_plugin_require_auth_false_and_auth_provided.get_auth( self , username = None , password = None )",74, 12, 0
-repos/python/httpie/tests/test_auth_plugins.py,"test_auth_plugin_require_auth_false_and_auth_provided( httpbin )",74, 12, 0
-repos/python/httpie/tests/test_auth_plugins.py,"test_auth_plugin_prompt_password_false.get_auth( self , username = None , password = None )",58, 8, 0
-repos/python/httpie/tests/test_auth_plugins.py,"test_auth_plugin_prompt_password_false( httpbin )",58, 8, 0
-repos/python/httpie/tests/test_httpie.py,"test_debug( )",56, 4, 0
-repos/python/httpie/tests/test_httpie.py,"test_help( )",65, 4, 0
-repos/python/httpie/tests/test_httpie.py,"test_version( )",62, 4, 0
-repos/python/httpie/tests/test_httpie.py,"test_GET( httpbin_both )",43, 4, 0
-repos/python/httpie/tests/test_httpie.py,"test_DELETE( httpbin_both )",49, 4, 0
-repos/python/httpie/tests/test_httpie.py,"test_PUT( httpbin_both )",54, 4, 0
-repos/python/httpie/tests/test_httpie.py,"test_POST_JSON_data( httpbin_both )",56, 4, 0
-repos/python/httpie/tests/test_httpie.py,"test_POST_form( httpbin_both )",66, 4, 0
-repos/python/httpie/tests/test_httpie.py,"test_POST_form_multiple_values( httpbin_both )",77, 4, 0
-repos/python/httpie/tests/test_httpie.py,"test_POST_stdin( httpbin_both )",68, 8, 0
-repos/python/httpie/tests/test_httpie.py,"test_headers( httpbin_both )",58, 4, 0
-repos/python/httpie/tests/test_httpie.py,"test_headers_unset( httpbin_both )",70, 4, 0
-repos/python/httpie/tests/test_httpie.py,"test_unset_host_header( httpbin_both )",66, 4, 0
-repos/python/httpie/tests/test_httpie.py,"test_headers_empty_value( httpbin_both )",69, 4, 0
-repos/python/httpie/tests/test_httpie.py,"test_headers_empty_value_with_value_gives_error( httpbin )",65, 8, 0
-repos/python/httpie/tests/test_httpie.py,"test_json_input_preserve_order( httpbin_both )",60, 8, 0
-repos/python/httpie/tests/test_windows.py,"test_windows_colorized_output( self , httpbin )",54, 4, 0
-repos/python/httpie/tests/test_windows.py,"test_output_file_pretty_not_allowed_on_windows( self , httpbin )",78, 8, 0
-repos/python/httpie/tests/test_uploads.py,"test_non_existent_file_raises_parse_error( self , httpbin )",75, 17, 0
-repos/python/httpie/tests/test_uploads.py,"test_upload_ok( self , httpbin )",71, 8, 0
-repos/python/httpie/tests/test_uploads.py,"test_upload_multiple_fields_with_the_same_name( self , httpbin )",76, 23, 0
-repos/python/httpie/tests/test_uploads.py,"test_request_body_from_file_by_path( self , httpbin )",69, 17, 0
-repos/python/httpie/tests/test_uploads.py,"test_request_body_from_file_by_path_with_explicit_content_type( self , httpbin )",72, 4, 0
-repos/python/httpie/tests/test_uploads.py,"test_request_body_from_file_by_path_no_field_name_allowed( self , httpbin )",67, 4, 0
-repos/python/httpie/tests/test_uploads.py,"test_request_body_from_file_by_path_no_data_items_allowed( self , httpbin )",67, 4, 0
-repos/python/httpie/tests/test_ssl.py,"test_ssl_version( httpbin_secure , ssl_version )",61, 12, 0
-repos/python/httpie/tests/test_ssl.py,"test_cert_and_key( self , httpbin_secure )",49, 4, 0
-repos/python/httpie/tests/test_ssl.py,"test_cert_pem( self , httpbin_secure )",45, 4, 0
-repos/python/httpie/tests/test_ssl.py,"test_cert_file_not_found( self , httpbin_secure )",56, 4, 0
-repos/python/httpie/tests/test_ssl.py,"test_cert_file_invalid( self , httpbin_secure )",54, 4, 0
-repos/python/httpie/tests/test_ssl.py,"test_cert_ok_but_missing_key( self , httpbin_secure )",60, 4, 0
-repos/python/httpie/tests/test_ssl.py,"test_verify_no_OK( self , httpbin_secure )",61, 8, 0
-repos/python/httpie/tests/test_ssl.py,"test_verify_false_OK( self , httpbin_secure , verify_value )",72, 8, 0
-repos/python/httpie/tests/test_ssl.py,"test_verify_custom_ca_bundle_path( self , httpbin_secure_untrusted",43, 4, 0
-repos/python/httpie/tests/test_ssl.py,"test_self_signed_server_cert_by_default_raises_ssl_error( self , httpbin_secure_untrusted",66, 4, 0
-repos/python/httpie/tests/test_ssl.py,"test_verify_custom_ca_bundle_invalid_path( self , httpbin_secure )",76, 12, 0
-repos/python/httpie/tests/test_ssl.py,"test_verify_custom_ca_bundle_invalid_bundle( self , httpbin_secure )",75, 4, 0
-repos/python/httpie/tests/test_output.py,"test_output_option( httpbin , stdout_isatty )",78, 4, 0
-repos/python/httpie/tests/test_output.py,"test_verbose( self , httpbin )",70, 17, 0
-repos/python/httpie/tests/test_output.py,"test_verbose_form( self , httpbin )",71, 8, 0
-repos/python/httpie/tests/test_output.py,"test_verbose_json( self , httpbin )",70, 17, 0
-repos/python/httpie/tests/test_output.py,"test_verbose_implies_all( self , httpbin )",67, 8, 0
-repos/python/httpie/tests/test_output.py,"test_get_lexer( self , mime , explicit_json , body , expected_lexer_name )",78, 4, 0
-repos/python/httpie/tests/test_output.py,"test_get_lexer_not_found( self )",44, 8, 0
-repos/python/httpie/tests/test_output.py,"test_pretty_enabled_by_default( self , httpbin )",55, 4, 0
-repos/python/httpie/tests/test_output.py,"test_pretty_enabled_by_default_unless_stdout_redirected( self , httpbin )",80, 4, 0
-repos/python/httpie/tests/test_output.py,"test_force_pretty( self , httpbin )",73, 8, 0
-repos/python/httpie/tests/test_output.py,"test_force_ugly( self , httpbin )",63, 8, 0
-repos/python/httpie/tests/test_output.py,"test_subtype_based_pygments_lexer_match( self , httpbin )",69, 8, 0
-repos/python/httpie/tests/test_output.py,"test_colors_option( self , httpbin )",53, 17, 0
-repos/python/httpie/tests/test_output.py,"test_format_option( self , httpbin )",53, 17, 0
-repos/python/httpie/tests/test_output.py,"_validate_crlf( self , msg )",76, 12, 0
-repos/python/httpie/tests/test_output.py,"test_CRLF_headers_only( self , httpbin )",59, 8, 0
-repos/python/httpie/tests/test_output.py,"test_CRLF_ugly_response( self , httpbin )",63, 8, 0
-repos/python/httpie/tests/test_output.py,"test_CRLF_formatted_response( self , httpbin )",65, 8, 0
-repos/python/httpie/tests/test_output.py,"test_CRLF_ugly_request( self , httpbin )",77, 8, 0
-repos/python/httpie/tests/test_output.py,"test_CRLF_formatted_request( self , httpbin )",79, 8, 0
-repos/python/httpie/tests/test_sessions.py,"start_session( self , httpbin )",66, 8, 0
-repos/python/httpie/tests/test_sessions.py,"teardown_method( self , method )",39, 4, 0
-repos/python/httpie/tests/test_sessions.py,"env( self )",59, 8, 0
-repos/python/httpie/tests/test_sessions.py,"start_session( self , httpbin )",76, 8, 0
-repos/python/httpie/tests/test_sessions.py,"test_session_created_and_reused( self , httpbin )",75, 8, 0
-repos/python/httpie/tests/test_sessions.py,"test_session_update( self , httpbin )",77, 8, 0
-repos/python/httpie/tests/test_sessions.py,"test_session_read_only( self , httpbin )",77, 18, 0
-repos/python/httpie/tests/test_sessions.py,"test_session_ignored_header_prefixes( self , httpbin )",72, 18, 0
-repos/python/httpie/tests/test_sessions.py,"test_session_by_path( self , httpbin )",77, 8, 0
-repos/python/httpie/tests/test_sessions.py,"test_session_unicode( self , httpbin )",69, 18, 0
-repos/python/httpie/tests/test_sessions.py,"test_session_default_header_value_overwritten( self , httpbin )",78, 8, 0
-repos/python/httpie/tests/test_sessions.py,"test_download_in_session( self , httpbin )",61, 8, 0
-repos/python/httpie/tests/test_redirects.py,"test_follow_all_redirects_shown( httpbin )",63, 4, 0
-repos/python/httpie/tests/test_redirects.py,"test_follow_without_all_redirects_hidden( httpbin , follow_flag )",68, 0, 0
-repos/python/httpie/tests/test_redirects.py,"test_follow_all_output_options_used_for_redirects( httpbin )",64, 0, 0
-repos/python/httpie/tests/test_redirects.py,"test_follow_redirect_output_options( httpbin )",50, 0, 0
-repos/python/httpie/tests/test_redirects.py,"test_max_redirects( httpbin )",75, 4, 0
-repos/python/httpie/tests/conftest.py,"httpbin_add_ca_bundle( monkeypatch )",60, 4, 0
-repos/python/httpie/tests/conftest.py,"httpbin_secure_untrusted( monkeypatch , httpbin_secure )",59, 0, 0
-repos/python/httpie/tests/test_errors.py,"test_error.error( msg , * args , ** kwargs )",37, 4, 0
-repos/python/httpie/tests/test_errors.py,"test_error( get_response )",77, 4, 0
-repos/python/httpie/tests/test_errors.py,"test_error_traceback( get_response )",69, 4, 0
-repos/python/httpie/tests/test_errors.py,"test_timeout.error( msg , * args , ** kwargs )",37, 4, 0
-repos/python/httpie/tests/test_errors.py,"test_timeout( get_response )",77, 4, 0
-repos/python/httpie/tests/test_docs.py,"has_docutils( )",46, 8, 0
-repos/python/httpie/tests/test_docs.py,"rst_filenames( )",75, 4, 0
-repos/python/httpie/tests/test_docs.py,"test_rst_file_syntax( filename )",73, 8, 0
-repos/python/httpie/tests/test_exit_status.py,"test_keyboard_interrupt_during_arg_parsing_exit_status( httpbin )",69, 0, 0
-repos/python/httpie/tests/test_exit_status.py,"test_keyboard_interrupt_in_program_exit_status( httpbin )",66, 8, 0
-repos/python/httpie/tests/test_exit_status.py,"test_ok_response_exits_0( httpbin )",47, 4, 0
-repos/python/httpie/tests/test_exit_status.py,"test_error_response_exits_0_without_check_status( httpbin )",63, 0, 0
-repos/python/httpie/tests/test_exit_status.py,"test_timeout_exit_status( httpbin )",66, 4, 0
-repos/python/httpie/tests/test_exit_status.py,"test_3xx_check_status_exits_3_and_stderr_when_stdout_redirected( httpbin )",69, 0, 0
-repos/python/httpie/tests/test_exit_status.py,"test_3xx_check_status_redirects_allowed_exits_0( httpbin )",62, 0, 0
-repos/python/httpie/tests/test_exit_status.py,"test_4xx_check_status_exits_4( httpbin )",67, 4, 0
-repos/python/httpie/tests/test_exit_status.py,"test_5xx_check_status_exits_5( httpbin )",67, 4, 0
-repos/python/httpie/tests/test_binary.py,"test_binary_stdin( self , httpbin )",74, 12, 0
-repos/python/httpie/tests/test_binary.py,"test_binary_file_path( self , httpbin )",70, 8, 0
-repos/python/httpie/tests/test_binary.py,"test_binary_file_form( self , httpbin )",71, 8, 0
-repos/python/httpie/tests/test_binary.py,"test_binary_suppresses_when_terminal( self , httpbin )",61, 4, 0
-repos/python/httpie/tests/test_binary.py,"test_binary_suppresses_when_not_terminal_but_pretty( self , httpbin )",76, 4, 0
-repos/python/httpie/tests/test_binary.py,"test_binary_included_and_correct_when_suitable( self , httpbin )",71, 4, 0
-repos/python/httpie/tests/test_downloads.py,"__init__( self , url , headers = { } , status_code = 200 )",58, 4, 0
-repos/python/httpie/tests/test_downloads.py,"test_Content_Range_parsing( self )",74, 8, 0
-repos/python/httpie/tests/test_downloads.py,"test_Content_Disposition_parsing( self , header , expected_filename )",78, 8, 0
-repos/python/httpie/tests/test_downloads.py,"test_filename_from_url( self )",51, 12, 0
-repos/python/httpie/tests/test_downloads.py,"test_unique_filename( self , get_filename_max_length , orig_name , unique_on_attempt , expected )",60, 4, 0
-repos/python/httpie/tests/test_downloads.py,"attempts.exists( filename )",56, 16, 0
-repos/python/httpie/tests/test_downloads.py,"attempts( unique_on_attempt = 0 )",64, 12, 0
-repos/python/httpie/tests/test_downloads.py,"test_actual_download( self , httpbin_both , httpbin )",71, 8, 0
-repos/python/httpie/tests/test_downloads.py,"test_download_with_Content_Length( self , httpbin_both )",76, 8, 0
-repos/python/httpie/tests/test_downloads.py,"test_download_no_Content_Length( self , httpbin_both )",76, 8, 0
-repos/python/httpie/tests/test_downloads.py,"test_download_interrupted( self , httpbin_both )",76, 8, 0
-repos/python/httpie/tests/test_config.py,"test_default_options( httpbin )",56, 4, 0
-repos/python/httpie/tests/test_config.py,"test_default_options_overwrite( httpbin )",66, 4, 0
-repos/python/httpie/tests/test_config.py,"test_migrate_implicit_content_type( )",51, 4, 0
-repos/python/httpie/tests/test_config.py,"test_current_version( )",57, 4, 0
-repos/python/httpie/tests/test_stream.py,"test_pretty_redirected_stream( httpbin )",70, 4, 0
-repos/python/httpie/tests/test_stream.py,"test_encoded_stream( httpbin )",66, 8, 0
-repos/python/httpie/tests/test_stream.py,"test_redirected_stream( httpbin )",66, 8, 0
-repos/python/httpie/tests/test_defaults.py,"test_default_headers_case_insensitive( httpbin )",60, 4, 0
-repos/python/httpie/tests/test_defaults.py,"test_implicit_GET( self , httpbin )",42, 4, 0
-repos/python/httpie/tests/test_defaults.py,"test_implicit_GET_with_headers( self , httpbin )",55, 4, 0
-repos/python/httpie/tests/test_defaults.py,"test_implicit_POST_json( self , httpbin )",55, 8, 0
-repos/python/httpie/tests/test_defaults.py,"test_implicit_POST_form( self , httpbin )",61, 8, 0
-repos/python/httpie/tests/test_defaults.py,"test_implicit_POST_stdin( self , httpbin )",63, 12, 0
-repos/python/httpie/tests/test_defaults.py,"test_GET_no_data_no_auto_headers( self , httpbin )",60, 8, 0
-repos/python/httpie/tests/test_defaults.py,"test_POST_no_data_no_auto_headers( self , httpbin )",77, 8, 0
-repos/python/httpie/tests/test_defaults.py,"test_POST_with_data_auto_JSON_headers( self , httpbin )",71, 8, 0
-repos/python/httpie/tests/test_defaults.py,"test_GET_with_data_auto_JSON_headers( self , httpbin )",75, 8, 0
-repos/python/httpie/tests/test_defaults.py,"test_POST_explicit_JSON_auto_JSON_accept( self , httpbin )",71, 8, 0
-repos/python/httpie/tests/test_defaults.py,"test_GET_explicit_JSON_explicit_headers( self , httpbin )",64, 4, 0
-repos/python/httpie/tests/test_defaults.py,"test_POST_form_auto_Content_Type( self , httpbin )",73, 8, 0
-repos/python/httpie/tests/test_defaults.py,"test_POST_form_Content_Type_override( self , httpbin )",61, 4, 0
-repos/python/httpie/tests/test_defaults.py,"test_print_only_body_when_stdout_redirected_by_default( self , httpbin )",79, 4, 0
-repos/python/httpie/tests/test_defaults.py,"test_print_overridable_when_stdout_redirected( self , httpbin )",70, 4, 0
-repos/python/httpie/tests/utils.py,"mk_config_dir( )",56, 4, 0
-repos/python/httpie/tests/utils.py,"add_auth( url , auth )",45, 4, 0
-repos/python/httpie/tests/utils.py,"__init__( self , ** kwargs )",56, 8, 0
-repos/python/httpie/tests/utils.py,"config( self )",66, 8, 0
-repos/python/httpie/tests/utils.py,"cleanup( self )",69, 12, 0
-repos/python/httpie/tests/utils.py,"__del__( self )",27, 12, 0
-repos/python/httpie/tests/utils.py,"json( self )",71, 20, 0
-repos/python/httpie/tests/utils.py,"http.dump_stderr( )",40, 8, 0
-repos/python/httpie/tests/utils.py,"http( * args , ** kwargs )",81, 8, 0
-repos/python/httpie/tests/test_auth.py,"test_basic_auth( httpbin_both )",64, 13, 0
-repos/python/httpie/tests/test_auth.py,"test_digest_auth( httpbin_both , argument_name )",74, 13, 0
-repos/python/httpie/tests/test_auth.py,"test_password_prompt( httpbin )",63, 13, 0
-repos/python/httpie/tests/test_auth.py,"test_credentials_in_url( httpbin_both )",67, 4, 0
-repos/python/httpie/tests/test_auth.py,"test_credentials_in_url_auth_flag_has_priority( httpbin_both )",71, 4, 0
-repos/python/httpie/tests/test_auth.py,"test_only_username_in_url( url )",75, 4, 0
-repos/python/httpie/tests/test_auth.py,"test_missing_auth( httpbin )",47, 8, 0
-repos/python/httpie/tests/test_unicode.py,"test_unicode_headers( httpbin )",61, 4, 0
-repos/python/httpie/tests/test_unicode.py,"test_unicode_headers_verbose( httpbin )",74, 4, 0
-repos/python/httpie/tests/test_unicode.py,"test_unicode_form_item( httpbin )",76, 4, 0
-repos/python/httpie/tests/test_unicode.py,"test_unicode_form_item_verbose( httpbin )",66, 13, 0
-repos/python/httpie/tests/test_unicode.py,"test_unicode_json_item( httpbin )",76, 4, 0
-repos/python/httpie/tests/test_unicode.py,"test_unicode_json_item_verbose( httpbin )",66, 13, 0
-repos/python/httpie/tests/test_unicode.py,"test_unicode_raw_json_item( httpbin )",64, 13, 0
-repos/python/httpie/tests/test_unicode.py,"test_unicode_raw_json_item_verbose( httpbin )",64, 13, 0
-repos/python/httpie/tests/test_unicode.py,"test_unicode_url_query_arg_item( httpbin )",58, 4, 0
-repos/python/httpie/tests/test_unicode.py,"test_unicode_url_query_arg_item_verbose( httpbin )",71, 4, 0
-repos/python/httpie/tests/test_unicode.py,"test_unicode_url( httpbin )",52, 4, 0
-repos/python/httpie/tests/test_unicode.py,"test_unicode_basic_auth( httpbin )",56, 4, 0
-repos/python/httpie/tests/test_unicode.py,"test_unicode_digest_auth( httpbin )",61, 9, 0
-repos/python/httpie/tests/fixtures/__init__.py,"patharg( path )",50, 4, 0
-repos/python/httpie/httpie/downloads.py,"parse_content_range( content_range , resumed_from )",71, 4, 0
-repos/python/httpie/httpie/downloads.py,"filename_from_content_disposition( content_disposition )",73, 4, 0
-repos/python/httpie/httpie/downloads.py,"filename_from_url( url , content_type )",58, 12, 0
-repos/python/httpie/httpie/downloads.py,"trim_filename( filename , max_len )",47, 8, 0
-repos/python/httpie/httpie/downloads.py,"get_filename_max_length( directory )",57, 12, 0
-repos/python/httpie/httpie/downloads.py,"trim_filename_if_needed( filename , directory = '.' , extra = 0 )",63, 0, 0
-repos/python/httpie/httpie/downloads.py,"get_unique_filename( filename , exists = os . path . exists )",76, 8, 0
-repos/python/httpie/httpie/downloads.py,"__init__( self , output_file = None , resume = False , progress_file = sys . stderr )",58, 17, 0
-repos/python/httpie/httpie/downloads.py,"pre_request( self , request_headers )",79, 8, 0
-repos/python/httpie/httpie/downloads.py,"start( self , response )",80, 8, 0
-repos/python/httpie/httpie/downloads.py,"finish( self )",33, 8, 0
-repos/python/httpie/httpie/downloads.py,"failed( self )",39, 8, 0
-repos/python/httpie/httpie/downloads.py,"interrupted( self )",65, 12, 0
-repos/python/httpie/httpie/downloads.py,"chunk_downloaded( self , chunk )",66, 8, 0
-repos/python/httpie/httpie/downloads.py,"__init__( self )",34, 8, 0
-repos/python/httpie/httpie/downloads.py,"started( self , resumed_from = 0 , total_size = None )",59, 8, 0
-repos/python/httpie/httpie/downloads.py,"chunk_downloaded( self , size )",42, 8, 0
-repos/python/httpie/httpie/downloads.py,"has_finished( self )",46, 8, 0
-repos/python/httpie/httpie/downloads.py,"finished( self )",45, 8, 0
-repos/python/httpie/httpie/downloads.py,"__init__( self , status , output , tick = . 1 , update_interval = 1 )",68, 4, 0
-repos/python/httpie/httpie/downloads.py,"stop( self )",43, 8, 0
-repos/python/httpie/httpie/downloads.py,"run( self )",46, 8, 0
-repos/python/httpie/httpie/downloads.py,"report_speed( self )",75, 20, 0
-repos/python/httpie/httpie/downloads.py,"sum_up( self )",74, 8, 0
-repos/python/httpie/httpie/models.py,"__init__( self , orig )",30, 4, 0
-repos/python/httpie/httpie/models.py,"iter_body( self , chunk_size )",48, 8, 0
-repos/python/httpie/httpie/models.py,"iter_lines( self , chunk_size )",79, 8, 0
-repos/python/httpie/httpie/models.py,"headers( self )",57, 8, 0
-repos/python/httpie/httpie/models.py,"encoding( self )",68, 8, 0
-repos/python/httpie/httpie/models.py,"body( self )",56, 8, 0
-repos/python/httpie/httpie/models.py,"content_type( self )",56, 8, 0
-repos/python/httpie/httpie/models.py,"iter_body( self , chunk_size = 1 )",62, 8, 0
-repos/python/httpie/httpie/models.py,"iter_lines( self , chunk_size )",77, 8, 0
-repos/python/httpie/httpie/models.py,"headers( self )",72, 12, 0
-repos/python/httpie/httpie/models.py,"encoding( self )",45, 8, 0
-repos/python/httpie/httpie/models.py,"body( self )",67, 8, 0
-repos/python/httpie/httpie/models.py,"iter_body( self , chunk_size )",37, 4, 0
-repos/python/httpie/httpie/models.py,"iter_lines( self , chunk_size )",38, 4, 0
-repos/python/httpie/httpie/models.py,"headers( self )",74, 16, 0
-repos/python/httpie/httpie/models.py,"encoding( self )",24, 4, 0
-repos/python/httpie/httpie/models.py,"body( self )",80, 12, 0
-repos/python/httpie/httpie/context.py,"__init__( self , ** kwargs )",72, 8, 0
-repos/python/httpie/httpie/context.py,"config( self )",61, 12, 0
-repos/python/httpie/httpie/context.py,"__str__( self )",45, 8, 0
-repos/python/httpie/httpie/context.py,"__repr__( self )",66, 8, 0
-repos/python/httpie/httpie/config.py,"__getattr__( self , item )",33, 4, 0
-repos/python/httpie/httpie/config.py,"_get_path( self )",64, 8, 0
-repos/python/httpie/httpie/config.py,"path( self )",71, 8, 0
-repos/python/httpie/httpie/config.py,"is_new( self )",52, 8, 0
-repos/python/httpie/httpie/config.py,"load( self )",65, 24, 0
-repos/python/httpie/httpie/config.py,"save( self )",76, 12, 0
-repos/python/httpie/httpie/config.py,"delete( self )",40, 12, 0
-repos/python/httpie/httpie/config.py,"__init__( self , directory = DEFAULT_CONFIG_DIR )",54, 4, 0
-repos/python/httpie/httpie/config.py,"load( self )",46, 8, 0
-repos/python/httpie/httpie/config.py,"_get_path( self )",65, 8, 0
-repos/python/httpie/httpie/config.py,"_migrate_implicit_content_type( self )",70, 8, 0
-repos/python/httpie/httpie/core.py,"get_exit_status( http_status , follow = False )",58, 4, 0
-repos/python/httpie/httpie/core.py,"print_debug_info( env )",59, 8, 0
-repos/python/httpie/httpie/core.py,"decode_args( args , stdin_encoding )",43, 4, 0
-repos/python/httpie/httpie/core.py,"program( args , env , log_error )",80, 16, 0
-repos/python/httpie/httpie/core.py,"main.log_error( msg , * args , ** kwargs )",60, 8, 0
-repos/python/httpie/httpie/core.py,"main( args = sys . argv [ 1 : ] , env = Environment ( )",80, 12, 0
-repos/python/httpie/httpie/sessions.py,"get_response( requests_session , session_name , config_dir , args , read_only = False )",53, 17, 0
-repos/python/httpie/httpie/sessions.py,"__init__( self , path , * args , ** kwargs )",55, 8, 0
-repos/python/httpie/httpie/sessions.py,"_get_path( self )",26, 8, 0
-repos/python/httpie/httpie/sessions.py,"update_headers( self , request_headers )",72, 8, 0
-repos/python/httpie/httpie/sessions.py,"headers( self )",31, 8, 0
-repos/python/httpie/httpie/sessions.py,"cookies( self )",64, 16, 0
-repos/python/httpie/httpie/sessions.py,"cookies( self , jar )",73, 8, 0
-repos/python/httpie/httpie/sessions.py,"auth( self )",64, 8, 0
-repos/python/httpie/httpie/sessions.py,"auth( self , auth )",61, 8, 0
-repos/python/httpie/httpie/input.py,"__init__( self , * args , ** kwargs )",68, 8, 0
-repos/python/httpie/httpie/input.py,"parse_args( self , env , args = None , namespace = None )",80, 12, 0
-repos/python/httpie/httpie/input.py,"_print_message( self , message , file = None )",72, 8, 0
-repos/python/httpie/httpie/input.py,"_setup_standard_streams( self )",79, 12, 0
-repos/python/httpie/httpie/input.py,"_process_auth( self )",75, 12, 0
-repos/python/httpie/httpie/input.py,"_apply_no_options( self , no_options )",73, 8, 0
-repos/python/httpie/httpie/input.py,"_body_from_file( self , fd )",74, 12, 0
-repos/python/httpie/httpie/input.py,"_guess_method( self )",79, 8, 0
-repos/python/httpie/httpie/input.py,"_parse_items( self )",79, 8, 0
-repos/python/httpie/httpie/input.py,"_process_output_options.check_options( value , option )",69, 16, 0
-repos/python/httpie/httpie/input.py,"_process_output_options( self )",77, 8, 0
-repos/python/httpie/httpie/input.py,"_process_pretty_options( self )",76, 12, 0
-repos/python/httpie/httpie/input.py,"_validate_download_options( self )",71, 12, 0
-repos/python/httpie/httpie/input.py,"__init__( self , key , value , sep , orig )",47, 4, 0
-repos/python/httpie/httpie/input.py,"__eq__( self , other )",47, 8, 0
-repos/python/httpie/httpie/input.py,"__repr__( self )",35, 8, 0
-repos/python/httpie/httpie/input.py,"__init__( self , error_message )",43, 8, 0
-repos/python/httpie/httpie/input.py,"__call__( self , value )",67, 16, 0
-repos/python/httpie/httpie/input.py,"__init__( self , * separators )",54, 12, 0
-repos/python/httpie/httpie/input.py,"__call__.tokenize( string )",76, 12, 0
-repos/python/httpie/httpie/input.py,"__call__( self , string )",77, 8, 0
-repos/python/httpie/httpie/input.py,"_getpass( self , prompt )",44, 8, 0
-repos/python/httpie/httpie/input.py,"has_password( self )",38, 8, 0
-repos/python/httpie/httpie/input.py,"prompt_password( self , host )",65, 16, 0
-repos/python/httpie/httpie/input.py,"__call__( self , string )",72, 12, 0
-repos/python/httpie/httpie/input.py,"__init__( self , * args , ** kwargs )",72, 16, 0
-repos/python/httpie/httpie/input.py,"__setitem__( self , key , value )",76, 16, 0
-repos/python/httpie/httpie/input.py,"items( self )",66, 8, 0
-repos/python/httpie/httpie/input.py,"get_content_type( filename )",70, 4, 0
-repos/python/httpie/httpie/input.py,"parse_items( items , headers_class = CaseInsensitiveDict , data_class = OrderedDict , files_class = DataDict , params_class = ParamsDict )",51, 16, 0
-repos/python/httpie/httpie/input.py,"readable_file_arg( filename )",67, 8, 0
-repos/python/httpie/httpie/__main__.py,"main( )",42, 8, 0
-repos/python/httpie/httpie/cli.py,"__init__( self , max_help_position = 6 , * args , ** kwargs )",67, 8, 0
-repos/python/httpie/httpie/cli.py,"_split_lines( self , text , width )",45, 8, 0
-repos/python/httpie/httpie/cli.py,"__contains__( self , item )",64, 8, 0
-repos/python/httpie/httpie/cli.py,"__iter__( self )",77, 8, 0
-repos/python/httpie/httpie/utils.py,"load_json_preserve_order( s )",56, 4, 0
-repos/python/httpie/httpie/utils.py,"repr_dict_nice.prepare_dict( d )",48, 12, 0
-repos/python/httpie/httpie/utils.py,"repr_dict_nice( d )",48, 12, 0
-repos/python/httpie/httpie/utils.py,"humanize_bytes( n , precision = 2 )",70, 4, 0
-repos/python/httpie/httpie/client.py,"__init__( self , ssl_version = None , ** kwargs )",58, 8, 0
-repos/python/httpie/httpie/client.py,"init_poolmanager( self , * args , ** kwargs )",73, 8, 0
-repos/python/httpie/httpie/client.py,"get_requests_session( ssl_version )",71, 31, 0
-repos/python/httpie/httpie/client.py,"get_response( args , config_dir )",65, 12, 0
-repos/python/httpie/httpie/client.py,"dump_request( kwargs )",56, 4, 0
-repos/python/httpie/httpie/client.py,"finalize_headers( headers )",74, 16, 0
-repos/python/httpie/httpie/client.py,"get_default_headers( args )",64, 12, 0
-repos/python/httpie/httpie/client.py,"get_requests_kwargs( args , base_headers = None )",73, 12, 0
-repos/python/httpie/httpie/output/processing.py,"is_valid_mime( mime )",40, 4, 0
-repos/python/httpie/httpie/output/processing.py,"get_converter( self , mime )",68, 12, 0
-repos/python/httpie/httpie/output/processing.py,"__init__( self , groups , env = Environment ( )",68, 8, 0
-repos/python/httpie/httpie/output/processing.py,"format_headers( self , headers )",48, 12, 0
-repos/python/httpie/httpie/output/processing.py,"format_body( self , content , mime )",55, 16, 0
-repos/python/httpie/httpie/output/streams.py,"write_stream( stream , outfile , flush )",67, 8, 0
-repos/python/httpie/httpie/output/streams.py,"write_stream_with_colors_win_py3( stream , outfile , flush )",73, 4, 0
-repos/python/httpie/httpie/output/streams.py,"build_output_stream( args , env , request , response , output_options )",75, 4, 0
-repos/python/httpie/httpie/output/streams.py,"get_stream_type( env , args )",67, 12, 0
-repos/python/httpie/httpie/output/streams.py,"__init__( self , msg , with_headers = True , with_body = True , on_body_chunk_downloaded = None )",63, 4, 0
-repos/python/httpie/httpie/output/streams.py,"get_headers( self )",47, 8, 0
-repos/python/httpie/httpie/output/streams.py,"iter_body( self )",56, 8, 0
-repos/python/httpie/httpie/output/streams.py,"__iter__( self )",61, 24, 0
-repos/python/httpie/httpie/output/streams.py,"__init__( self , chunk_size = CHUNK_SIZE , ** kwargs )",57, 4, 0
-repos/python/httpie/httpie/output/streams.py,"iter_body( self )",51, 8, 0
-repos/python/httpie/httpie/output/streams.py,"__init__( self , env = Environment ( )",58, 12, 0
-repos/python/httpie/httpie/output/streams.py,"iter_body( self )",68, 22, 0
-repos/python/httpie/httpie/output/streams.py,"__init__( self , conversion , formatting , ** kwargs )",58, 4, 0
-repos/python/httpie/httpie/output/streams.py,"get_headers( self )",59, 12, 0
-repos/python/httpie/httpie/output/streams.py,"iter_body( self )",73, 20, 0
-repos/python/httpie/httpie/output/streams.py,"process_body( self , chunk )",75, 8, 0
-repos/python/httpie/httpie/output/streams.py,"iter_body( self )",69, 16, 0
-repos/python/httpie/httpie/output/formatters/colors.py,"__init__( self , env , explicit_json = False , color_scheme = DEFAULT_STYLE , ** kwargs )",56, 17, 0
-repos/python/httpie/httpie/output/formatters/colors.py,"format_headers( self , headers )",39, 4, 0
-repos/python/httpie/httpie/output/formatters/colors.py,"format_body( self , body , mime )",52, 8, 0
-repos/python/httpie/httpie/output/formatters/colors.py,"get_lexer_for_body( self , mime , body )",46, 4, 0
-repos/python/httpie/httpie/output/formatters/colors.py,"get_style_class( self , color_scheme )",67, 12, 0
-repos/python/httpie/httpie/output/formatters/colors.py,"get_lexer( mime , explicit_json = False , body = '' )",79, 4, 0
-repos/python/httpie/httpie/output/formatters/json.py,"format_body( self , body , mime )",64, 16, 0
-repos/python/httpie/httpie/output/formatters/headers.py,"format_headers( self , headers )",67, 8, 0
-repos/python/httpie/httpie/plugins/builtin.py,"__call__( self , r )",67, 8, 0
-repos/python/httpie/httpie/plugins/builtin.py,"make_header( username , password )",79, 8, 0
-repos/python/httpie/httpie/plugins/builtin.py,"get_auth( self , username , password )",49, 8, 0
-repos/python/httpie/httpie/plugins/builtin.py,"get_auth( self , username , password )",64, 8, 0
-repos/python/httpie/httpie/plugins/manager.py,"__init__( self )",27, 8, 0
-repos/python/httpie/httpie/plugins/manager.py,"__iter__( self )",35, 8, 0
-repos/python/httpie/httpie/plugins/manager.py,"register( self , * plugins )",41, 12, 0
-repos/python/httpie/httpie/plugins/manager.py,"unregister( self , plugin )",37, 8, 0
-repos/python/httpie/httpie/plugins/manager.py,"load_installed_plugins( self )",68, 12, 0
-repos/python/httpie/httpie/plugins/manager.py,"get_auth_plugins( self )",77, 8, 0
-repos/python/httpie/httpie/plugins/manager.py,"get_auth_plugin_mapping( self )",80, 8, 0
-repos/python/httpie/httpie/plugins/manager.py,"get_auth_plugin( self , auth_type )",57, 8, 0
-repos/python/httpie/httpie/plugins/manager.py,"get_formatters( self )",56, 16, 0
-repos/python/httpie/httpie/plugins/manager.py,"get_formatters_grouped( self )",67, 16, 0
-repos/python/httpie/httpie/plugins/manager.py,"get_converters( self )",56, 16, 0
-repos/python/httpie/httpie/plugins/manager.py,"get_transport_plugins( self )",56, 16, 0
-repos/python/httpie/httpie/plugins/base.py,"get_auth( self , username = None , password = None )",67, 8, 0
-repos/python/httpie/httpie/plugins/base.py,"get_adapter( self )",75, 8, 0
-repos/python/httpie/httpie/plugins/base.py,"__init__( self , mime )",30, 4, 0
-repos/python/httpie/httpie/plugins/base.py,"convert( self , content_bytes )",38, 4, 0
-repos/python/httpie/httpie/plugins/base.py,"supports( cls , mime )",34, 8, 0
-repos/python/httpie/httpie/plugins/base.py,"__init__( self , ** kwargs )",61, 8, 0
-repos/python/httpie/httpie/plugins/base.py,"format_headers( self , headers )",45, 8, 0
-repos/python/httpie/httpie/plugins/base.py,"format_body( self , content , mime )",51, 8, 0
+File, Function, Length, Total Width, Leading Space(s), Leading Tab(s)
+repos/python/httpie/setup.py,"finalize_options( self )",7, 31, 8, 0
+repos/python/httpie/setup.py,"run_tests( self )",3, 46, 8, 0
+repos/python/httpie/setup.py,"long_description( )",3, 24, 4, 0
+repos/python/httpie/extras/get-homebrew-formula-vars.py,"get_package_meta( package_name )",16, 69, 12, 0
+repos/python/httpie/extras/get-homebrew-formula-vars.py,"main( )",16, 18, 8, 0
+repos/python/httpie/tests/test_regressions.py,"test_Host_header_overwrite( httpbin )",11, 41, 4, 0
+repos/python/httpie/tests/test_regressions.py,"test_output_devnull( httpbin )",6, 49, 4, 0
+repos/python/httpie/tests/test_cli.py,"test_invalid_items( self )",4, 76, 12, 0
+repos/python/httpie/tests/test_cli.py,"test_escape_separator( self )",21, 40, 8, 0
+repos/python/httpie/tests/test_cli.py,"test_backslash_before_non_special_character_does_not_escape( self , string , key , sep , value )",2, 44, 4, 0
+repos/python/httpie/tests/test_cli.py,"test_escape_longsep( self )",5, 47, 8, 0
+repos/python/httpie/tests/test_cli.py,"test_valid_items( self )",45, 48, 8, 0
+repos/python/httpie/tests/test_cli.py,"test_multiple_file_fields_with_same_field_name( self )",6, 51, 8, 0
+repos/python/httpie/tests/test_cli.py,"test_multiple_text_fields_with_same_field_name( self )",11, 10, 8, 0
+repos/python/httpie/tests/test_cli.py,"test_query_string_params_in_url( self , httpbin )",7, 40, 8, 0
+repos/python/httpie/tests/test_cli.py,"test_query_string_params_items( self , httpbin )",7, 40, 8, 0
+repos/python/httpie/tests/test_cli.py,"test_query_string_params_in_url_and_items_with_duplicates( self , httpbin )",2, 76, 66, 0
+repos/python/httpie/tests/test_cli.py,"test_expand_localhost_shorthand( self )",3, 46, 8, 0
+repos/python/httpie/tests/test_cli.py,"test_expand_localhost_shorthand_with_slash( self )",3, 47, 8, 0
+repos/python/httpie/tests/test_cli.py,"test_expand_localhost_shorthand_with_port( self )",3, 51, 8, 0
+repos/python/httpie/tests/test_cli.py,"test_expand_localhost_shorthand_with_path( self )",3, 51, 8, 0
+repos/python/httpie/tests/test_cli.py,"test_expand_localhost_shorthand_with_port_and_slash( self )",3, 52, 8, 0
+repos/python/httpie/tests/test_cli.py,"test_expand_localhost_shorthand_with_port_and_path( self )",3, 56, 8, 0
+repos/python/httpie/tests/test_cli.py,"test_dont_expand_shorthand_ipv6_as_shorthand( self )",3, 40, 8, 0
+repos/python/httpie/tests/test_cli.py,"test_dont_expand_longer_ipv6_as_shorthand( self )",6, 53, 8, 0
+repos/python/httpie/tests/test_cli.py,"test_dont_expand_full_ipv6_as_shorthand( self )",6, 76, 8, 0
+repos/python/httpie/tests/test_cli.py,"setup_method( self , method )",2, 51, 8, 0
+repos/python/httpie/tests/test_cli.py,"test_guess_when_method_set_and_valid( self )",14, 44, 8, 0
+repos/python/httpie/tests/test_cli.py,"test_guess_when_method_not_set( self )",13, 44, 8, 0
+repos/python/httpie/tests/test_cli.py,"test_guess_when_method_set_but_invalid_and_data_field( self )",17, 10, 8, 0
+repos/python/httpie/tests/test_cli.py,"test_guess_when_method_set_but_invalid_and_header_field( self )",19, 10, 8, 0
+repos/python/httpie/tests/test_cli.py,"test_guess_when_method_set_but_invalid_and_item_exists( self )",19, 10, 8, 0
+repos/python/httpie/tests/test_cli.py,"test_valid_no_options( self , httpbin )",3, 44, 8, 0
+repos/python/httpie/tests/test_cli.py,"test_invalid_no_options( self , httpbin )",6, 44, 8, 0
+repos/python/httpie/tests/test_cli.py,"test_ignore_stdin( self , httpbin )",8, 63, 8, 0
+repos/python/httpie/tests/test_cli.py,"test_ignore_stdin_cannot_prompt_password( self , httpbin )",5, 52, 8, 0
+repos/python/httpie/tests/test_cli.py,"test_invalid_custom_scheme( self )",5, 42, 8, 0
+repos/python/httpie/tests/test_cli.py,"test_invalid_scheme_via_via_default_scheme( self )",5, 60, 12, 0
+repos/python/httpie/tests/test_cli.py,"test_default_scheme( self , httpbin_secure )",3, 62, 8, 0
+repos/python/httpie/tests/test_auth_plugins.py,"basic_auth.inner( r )",3, 17, 8, 0
+repos/python/httpie/tests/test_auth_plugins.py,"basic_auth( header = BASIC_AUTH_HEADER_VALUE )",7, 17, 4, 0
+repos/python/httpie/tests/test_auth_plugins.py,"test_auth_plugin_parse_auth_false.get_auth( self , username = None , password = None )",5, 45, 12, 0
+repos/python/httpie/tests/test_auth_plugins.py,"test_auth_plugin_parse_auth_false( httpbin )",25, 42, 8, 0
+repos/python/httpie/tests/test_auth_plugins.py,"test_auth_plugin_require_auth_false.get_auth( self , username = None , password = None )",5, 32, 8, 0
+repos/python/httpie/tests/test_auth_plugins.py,"test_auth_plugin_require_auth_false( httpbin )",23, 42, 8, 0
+repos/python/httpie/tests/test_auth_plugins.py,"test_auth_plugin_require_auth_false_and_auth_provided.get_auth( self , username = None , password = None )",5, 32, 12, 0
+repos/python/httpie/tests/test_auth_plugins.py,"test_auth_plugin_require_auth_false_and_auth_provided( httpbin )",25, 42, 8, 0
+repos/python/httpie/tests/test_auth_plugins.py,"test_auth_plugin_prompt_password_false.get_auth( self , username = None , password = None )",5, 32, 8, 0
+repos/python/httpie/tests/test_auth_plugins.py,"test_auth_plugin_prompt_password_false( httpbin )",26, 42, 8, 0
+repos/python/httpie/tests/test_httpie.py,"test_debug( )",4, 56, 4, 0
+repos/python/httpie/tests/test_httpie.py,"test_help( )",4, 65, 4, 0
+repos/python/httpie/tests/test_httpie.py,"test_version( )",5, 62, 4, 0
+repos/python/httpie/tests/test_httpie.py,"test_GET( httpbin_both )",3, 24, 4, 0
+repos/python/httpie/tests/test_httpie.py,"test_DELETE( httpbin_both )",3, 24, 4, 0
+repos/python/httpie/tests/test_httpie.py,"test_PUT( httpbin_both )",4, 42, 4, 0
+repos/python/httpie/tests/test_httpie.py,"test_POST_JSON_data( httpbin_both )",4, 42, 4, 0
+repos/python/httpie/tests/test_httpie.py,"test_POST_form( httpbin_both )",4, 31, 4, 0
+repos/python/httpie/tests/test_httpie.py,"test_POST_form_multiple_values( httpbin_both )",4, 53, 4, 0
+repos/python/httpie/tests/test_httpie.py,"test_POST_stdin( httpbin_both )",6, 29, 4, 0
+repos/python/httpie/tests/test_httpie.py,"test_headers( httpbin_both )",5, 31, 4, 0
+repos/python/httpie/tests/test_httpie.py,"test_headers_unset( httpbin_both )",6, 70, 4, 0
+repos/python/httpie/tests/test_httpie.py,"test_unset_host_header( httpbin_both )",6, 66, 4, 0
+repos/python/httpie/tests/test_httpie.py,"test_headers_empty_value( httpbin_both )",6, 69, 4, 0
+repos/python/httpie/tests/test_httpie.py,"test_headers_empty_value_with_value_gives_error( httpbin )",3, 65, 8, 0
+repos/python/httpie/tests/test_httpie.py,"test_json_input_preserve_order( httpbin_both )",6, 60, 8, 0
+repos/python/httpie/tests/test_windows.py,"test_windows_colorized_output( self , httpbin )",3, 54, 8, 0
+repos/python/httpie/tests/test_windows.py,"test_output_file_pretty_not_allowed_on_windows( self , httpbin )",10, 78, 8, 0
+repos/python/httpie/tests/test_uploads.py,"test_non_existent_file_raises_parse_error( self , httpbin )",4, 75, 17, 0
+repos/python/httpie/tests/test_uploads.py,"test_upload_ok( self , httpbin )",10, 47, 8, 0
+repos/python/httpie/tests/test_uploads.py,"test_upload_multiple_fields_with_the_same_name( self , httpbin )",11, 56, 8, 0
+repos/python/httpie/tests/test_uploads.py,"test_request_body_from_file_by_path( self , httpbin )",6, 51, 8, 0
+repos/python/httpie/tests/test_uploads.py,"test_request_body_from_file_by_path_with_explicit_content_type( self , httpbin )",2, 28, 4, 0
+repos/python/httpie/tests/test_uploads.py,"test_request_body_from_file_by_path_no_field_name_allowed( self , httpbin )",2, 28, 4, 0
+repos/python/httpie/tests/test_uploads.py,"test_request_body_from_file_by_path_no_data_items_allowed( self , httpbin )",2, 28, 4, 0
+repos/python/httpie/tests/test_ssl.py,"test_ssl_version( httpbin_secure , ssl_version )",13, 18, 12, 0
+repos/python/httpie/tests/test_ssl.py,"test_cert_and_key( self , httpbin_secure )",5, 28, 9, 0
+repos/python/httpie/tests/test_ssl.py,"test_cert_pem( self , httpbin_secure )",4, 28, 4, 0
+repos/python/httpie/tests/test_ssl.py,"test_cert_file_not_found( self , httpbin_secure )",6, 55, 8, 0
+repos/python/httpie/tests/test_ssl.py,"test_cert_file_invalid( self , httpbin_secure )",4, 37, 12, 0
+repos/python/httpie/tests/test_ssl.py,"test_cert_ok_but_missing_key( self , httpbin_secure )",4, 40, 12, 0
+repos/python/httpie/tests/test_ssl.py,"test_verify_no_OK( self , httpbin_secure )",3, 28, 8, 0
+repos/python/httpie/tests/test_ssl.py,"test_verify_false_OK( self , httpbin_secure , verify_value )",3, 28, 8, 0
+repos/python/httpie/tests/test_ssl.py,"test_verify_custom_ca_bundle_path( self , httpbin_secure_untrusted",2, 39, 4, 0
+repos/python/httpie/tests/test_ssl.py,"test_self_signed_server_cert_by_default_raises_ssl_error( self , httpbin_secure_untrusted",3, 33, 8, 0
+repos/python/httpie/tests/test_ssl.py,"test_verify_custom_ca_bundle_invalid_path( self , httpbin_secure )",4, 76, 12, 0
+repos/python/httpie/tests/test_ssl.py,"test_verify_custom_ca_bundle_invalid_bundle( self , httpbin_secure )",3, 68, 12, 0
+repos/python/httpie/tests/test_output.py,"test_output_option( httpbin , stdout_isatty )",13, 40, 4, 0
+repos/python/httpie/tests/test_output.py,"test_verbose( self , httpbin )",5, 40, 8, 0
+repos/python/httpie/tests/test_output.py,"test_verbose_form( self , httpbin )",6, 30, 8, 0
+repos/python/httpie/tests/test_output.py,"test_verbose_json( self , httpbin )",5, 35, 8, 0
+repos/python/httpie/tests/test_output.py,"test_verbose_implies_all( self , httpbin )",6, 28, 8, 0
+repos/python/httpie/tests/test_output.py,"test_get_lexer( self , mime , explicit_json , body , expected_lexer_name )",4, 49, 8, 0
+repos/python/httpie/tests/test_output.py,"test_get_lexer_not_found( self )",2, 44, 8, 0
+repos/python/httpie/tests/test_output.py,"test_pretty_enabled_by_default( self , httpbin )",4, 26, 8, 0
+repos/python/httpie/tests/test_output.py,"test_pretty_enabled_by_default_unless_stdout_redirected( self , httpbin )",3, 30, 4, 0
+repos/python/httpie/tests/test_output.py,"test_force_pretty( self , httpbin )",4, 26, 8, 0
+repos/python/httpie/tests/test_output.py,"test_force_ugly( self , httpbin )",3, 30, 8, 0
+repos/python/httpie/tests/test_output.py,"test_subtype_based_pygments_lexer_match( self , httpbin )",9, 26, 8, 0
+repos/python/httpie/tests/test_output.py,"test_colors_option( self , httpbin )",8, 26, 8, 0
+repos/python/httpie/tests/test_output.py,"test_format_option( self , httpbin )",8, 30, 8, 0
+repos/python/httpie/tests/test_output.py,"_validate_crlf( self , msg )",11, 20, 8, 0
+repos/python/httpie/tests/test_output.py,"test_CRLF_headers_only( self , httpbin )",4, 57, 8, 0
+repos/python/httpie/tests/test_output.py,"test_CRLF_ugly_response( self , httpbin )",3, 31, 8, 0
+repos/python/httpie/tests/test_output.py,"test_CRLF_formatted_response( self , httpbin )",4, 31, 8, 0
+repos/python/httpie/tests/test_output.py,"test_CRLF_ugly_request( self , httpbin )",3, 31, 8, 0
+repos/python/httpie/tests/test_output.py,"test_CRLF_formatted_request( self , httpbin )",3, 31, 8, 0
+repos/python/httpie/tests/test_sessions.py,"start_session( self , httpbin )",3, 42, 8, 0
+repos/python/httpie/tests/test_sessions.py,"teardown_method( self , method )",2, 39, 4, 0
+repos/python/httpie/tests/test_sessions.py,"env( self )",10, 59, 8, 0
+repos/python/httpie/tests/test_sessions.py,"start_session( self , httpbin )",12, 29, 9, 0
+repos/python/httpie/tests/test_sessions.py,"test_session_created_and_reused( self , httpbin )",9, 63, 8, 0
+repos/python/httpie/tests/test_sessions.py,"test_session_update( self , httpbin )",22, 56, 16, 0
+repos/python/httpie/tests/test_sessions.py,"test_session_read_only( self , httpbin )",26, 34, 8, 0
+repos/python/httpie/tests/test_sessions.py,"test_session_ignored_header_prefixes( self , httpbin )",12, 63, 8, 0
+repos/python/httpie/tests/test_sessions.py,"test_session_by_path( self , httpbin )",11, 50, 8, 0
+repos/python/httpie/tests/test_sessions.py,"test_session_unicode( self , httpbin )",17, 29, 9, 0
+repos/python/httpie/tests/test_sessions.py,"test_session_default_header_value_overwritten( self , httpbin )",12, 60, 8, 0
+repos/python/httpie/tests/test_sessions.py,"test_download_in_session( self , httpbin )",10, 26, 12, 0
+repos/python/httpie/tests/test_redirects.py,"test_follow_all_redirects_shown( httpbin )",5, 24, 4, 0
+repos/python/httpie/tests/test_redirects.py,"test_follow_without_all_redirects_hidden( httpbin , follow_flag )",4, 24, 0, 0
+repos/python/httpie/tests/test_redirects.py,"test_follow_all_output_options_used_for_redirects( httpbin )",8, 28, 5, 0
+repos/python/httpie/tests/test_redirects.py,"test_follow_redirect_output_options( httpbin )",10, 24, 4, 0
+repos/python/httpie/tests/test_redirects.py,"test_max_redirects( httpbin )",4, 64, 4, 0
+repos/python/httpie/tests/conftest.py,"httpbin_add_ca_bundle( monkeypatch )",8, 60, 4, 0
+repos/python/httpie/tests/conftest.py,"httpbin_secure_untrusted( monkeypatch , httpbin_secure )",8, 26, 4, 0
+repos/python/httpie/tests/test_errors.py,"test_error.error( msg , * args , ** kwargs )",3, 31, 8, 0
+repos/python/httpie/tests/test_errors.py,"test_error( get_response )",14, 33, 8, 0
+repos/python/httpie/tests/test_errors.py,"test_error_traceback( get_response )",6, 66, 8, 0
+repos/python/httpie/tests/test_errors.py,"test_timeout.error( msg , * args , ** kwargs )",3, 31, 8, 0
+repos/python/httpie/tests/test_errors.py,"test_timeout( get_response )",11, 51, 4, 0
+repos/python/httpie/tests/test_docs.py,"has_docutils( )",7, 21, 4, 0
+repos/python/httpie/tests/test_docs.py,"rst_filenames( )",5, 51, 12, 0
+repos/python/httpie/tests/test_docs.py,"test_rst_file_syntax( filename )",8, 49, 4, 0
+repos/python/httpie/tests/test_exit_status.py,"test_keyboard_interrupt_during_arg_parsing_exit_status( httpbin )",5, 56, 8, 0
+repos/python/httpie/tests/test_exit_status.py,"test_keyboard_interrupt_in_program_exit_status( httpbin )",5, 56, 8, 0
+repos/python/httpie/tests/test_exit_status.py,"test_ok_response_exits_0( httpbin )",4, 47, 4, 0
+repos/python/httpie/tests/test_exit_status.py,"test_error_response_exits_0_without_check_status( httpbin )",5, 24, 4, 0
+repos/python/httpie/tests/test_exit_status.py,"test_timeout_exit_status( httpbin )",5, 53, 4, 0
+repos/python/httpie/tests/test_exit_status.py,"test_3xx_check_status_exits_3_and_stderr_when_stdout_redirected( httpbin )",2, 18, 0, 0
+repos/python/httpie/tests/test_exit_status.py,"test_3xx_check_status_redirects_allowed_exits_0( httpbin )",7, 47, 4, 0
+repos/python/httpie/tests/test_exit_status.py,"test_4xx_check_status_exits_4( httpbin )",7, 24, 4, 0
+repos/python/httpie/tests/test_exit_status.py,"test_5xx_check_status_exits_5( httpbin )",5, 54, 4, 0
+repos/python/httpie/tests/test_binary.py,"test_binary_stdin( self , httpbin )",9, 41, 12, 0
+repos/python/httpie/tests/test_binary.py,"test_binary_file_path( self , httpbin )",5, 37, 8, 0
+repos/python/httpie/tests/test_binary.py,"test_binary_file_form( self , httpbin )",5, 51, 8, 0
+repos/python/httpie/tests/test_binary.py,"test_binary_suppresses_when_terminal( self , httpbin )",3, 54, 8, 0
+repos/python/httpie/tests/test_binary.py,"test_binary_suppresses_when_not_terminal_but_pretty( self , httpbin )",4, 54, 8, 0
+repos/python/httpie/tests/test_binary.py,"test_binary_included_and_correct_when_suitable( self , httpbin )",6, 29, 8, 0
+repos/python/httpie/tests/test_downloads.py,"__init__( self , url , headers = { } , status_code = 200 )",4, 39, 8, 0
+repos/python/httpie/tests/test_downloads.py,"test_Content_Range_parsing( self )",23, 72, 8, 0
+repos/python/httpie/tests/test_downloads.py,"test_Content_Disposition_parsing( self , header , expected_filename )",2, 78, 8, 0
+repos/python/httpie/tests/test_downloads.py,"test_filename_from_url( self )",17, 10, 8, 0
+repos/python/httpie/tests/test_downloads.py,"test_unique_filename( self , get_filename_max_length , orig_name , unique_on_attempt , expected )",3, 40, 4, 0
+repos/python/httpie/tests/test_downloads.py,"attempts.exists( filename )",5, 28, 16, 0
+repos/python/httpie/tests/test_downloads.py,"attempts( unique_on_attempt = 0 )",10, 26, 12, 0
+repos/python/httpie/tests/test_downloads.py,"test_actual_download( self , httpbin_both , httpbin )",9, 25, 8, 0
+repos/python/httpie/tests/test_downloads.py,"test_download_with_Content_Length( self , httpbin_both )",13, 42, 8, 0
+repos/python/httpie/tests/test_downloads.py,"test_download_no_Content_Length( self , httpbin_both )",8, 42, 8, 0
+repos/python/httpie/tests/test_downloads.py,"test_download_interrupted( self , httpbin_both )",10, 38, 8, 0
+repos/python/httpie/tests/test_config.py,"test_default_options( httpbin )",6, 44, 4, 0
+repos/python/httpie/tests/test_config.py,"test_default_options_overwrite( httpbin )",6, 44, 4, 0
+repos/python/httpie/tests/test_config.py,"test_migrate_implicit_content_type( )",14, 51, 4, 0
+repos/python/httpie/tests/test_config.py,"test_current_version( )",3, 34, 4, 0
+repos/python/httpie/tests/test_stream.py,"test_pretty_redirected_stream( httpbin )",9, 50, 4, 0
+repos/python/httpie/tests/test_stream.py,"test_encoded_stream( httpbin )",8, 50, 4, 0
+repos/python/httpie/tests/test_stream.py,"test_redirected_stream( httpbin )",10, 33, 4, 0
+repos/python/httpie/tests/test_defaults.py,"test_default_headers_case_insensitive( httpbin )",13, 35, 4, 0
+repos/python/httpie/tests/test_defaults.py,"test_implicit_GET( self , httpbin )",3, 28, 4, 0
+repos/python/httpie/tests/test_defaults.py,"test_implicit_GET_with_headers( self , httpbin )",4, 49, 8, 0
+repos/python/httpie/tests/test_defaults.py,"test_implicit_POST_json( self , httpbin )",4, 52, 8, 0
+repos/python/httpie/tests/test_defaults.py,"test_implicit_POST_form( self , httpbin )",4, 48, 8, 0
+repos/python/httpie/tests/test_defaults.py,"test_implicit_POST_stdin( self , httpbin )",5, 28, 8, 0
+repos/python/httpie/tests/test_defaults.py,"test_GET_no_data_no_auto_headers( self , httpbin )",6, 55, 8, 0
+repos/python/httpie/tests/test_defaults.py,"test_POST_no_data_no_auto_headers( self , httpbin )",6, 60, 8, 0
+repos/python/httpie/tests/test_defaults.py,"test_POST_with_data_auto_JSON_headers( self , httpbin )",5, 71, 8, 0
+repos/python/httpie/tests/test_defaults.py,"test_GET_with_data_auto_JSON_headers( self , httpbin )",6, 71, 8, 0
+repos/python/httpie/tests/test_defaults.py,"test_POST_explicit_JSON_auto_JSON_accept( self , httpbin )",7, 71, 8, 0
+repos/python/httpie/tests/test_defaults.py,"test_GET_explicit_JSON_explicit_headers( self , httpbin )",7, 56, 8, 0
+repos/python/httpie/tests/test_defaults.py,"test_POST_form_auto_Content_Type( self , httpbin )",4, 73, 8, 0
+repos/python/httpie/tests/test_defaults.py,"test_POST_form_Content_Type_override( self , httpbin )",5, 56, 8, 0
+repos/python/httpie/tests/test_defaults.py,"test_print_only_body_when_stdout_redirected_by_default( self , httpbin )",4, 32, 4, 0
+repos/python/httpie/tests/test_defaults.py,"test_print_overridable_when_stdout_redirected( self , httpbin )",4, 28, 4, 0
+repos/python/httpie/tests/utils.py,"mk_config_dir( )",3, 19, 4, 0
+repos/python/httpie/tests/utils.py,"add_auth( url , auth )",3, 45, 4, 0
+repos/python/httpie/tests/utils.py,"__init__( self , ** kwargs )",13, 40, 8, 0
+repos/python/httpie/tests/utils.py,"config( self )",5, 51, 8, 0
+repos/python/httpie/tests/utils.py,"cleanup( self )",5, 36, 12, 0
+repos/python/httpie/tests/utils.py,"__del__( self )",5, 17, 12, 0
+repos/python/httpie/tests/utils.py,"json( self )",29, 26, 9, 0
+repos/python/httpie/tests/utils.py,"http.dump_stderr( )",3, 40, 8, 0
+repos/python/httpie/tests/utils.py,"http( * args , ** kwargs )",113, 22, 8, 0
+repos/python/httpie/tests/test_auth.py,"test_basic_auth( httpbin_both )",5, 61, 4, 0
+repos/python/httpie/tests/test_auth.py,"test_digest_auth( httpbin_both , argument_name )",5, 61, 4, 0
+repos/python/httpie/tests/test_auth.py,"test_password_prompt( httpbin )",5, 61, 4, 0
+repos/python/httpie/tests/test_auth.py,"test_credentials_in_url( httpbin_both )",6, 61, 4, 0
+repos/python/httpie/tests/test_auth.py,"test_credentials_in_url_auth_flag_has_priority( httpbin_both )",8, 61, 4, 0
+repos/python/httpie/tests/test_auth.py,"test_only_username_in_url( url )",9, 36, 4, 0
+repos/python/httpie/tests/test_auth.py,"test_missing_auth( httpbin )",9, 41, 4, 0
+repos/python/httpie/tests/test_unicode.py,"test_unicode_headers( httpbin )",4, 24, 4, 0
+repos/python/httpie/tests/test_unicode.py,"test_unicode_headers_verbose( httpbin )",5, 24, 4, 0
+repos/python/httpie/tests/test_unicode.py,"test_unicode_form_item( httpbin )",4, 47, 4, 0
+repos/python/httpie/tests/test_unicode.py,"test_unicode_form_item_verbose( httpbin )",5, 24, 5, 0
+repos/python/httpie/tests/test_unicode.py,"test_unicode_json_item( httpbin )",4, 47, 4, 0
+repos/python/httpie/tests/test_unicode.py,"test_unicode_json_item_verbose( httpbin )",5, 24, 5, 0
+repos/python/httpie/tests/test_unicode.py,"test_unicode_raw_json_item( httpbin )",5, 60, 4, 0
+repos/python/httpie/tests/test_unicode.py,"test_unicode_raw_json_item_verbose( httpbin )",5, 60, 4, 0
+repos/python/httpie/tests/test_unicode.py,"test_unicode_url_query_arg_item( httpbin )",4, 50, 4, 0
+repos/python/httpie/tests/test_unicode.py,"test_unicode_url_query_arg_item_verbose( httpbin )",4, 24, 4, 0
+repos/python/httpie/tests/test_unicode.py,"test_unicode_url( httpbin )",4, 47, 4, 0
+repos/python/httpie/tests/test_unicode.py,"test_unicode_basic_auth( httpbin )",5, 55, 9, 0
+repos/python/httpie/tests/test_unicode.py,"test_unicode_digest_auth( httpbin )",6, 61, 9, 0
+repos/python/httpie/tests/fixtures/__init__.py,"patharg( path )",7, 40, 4, 0
+repos/python/httpie/httpie/downloads.py,"parse_content_range( content_range , resumed_from )",57, 29, 4, 0
+repos/python/httpie/httpie/downloads.py,"filename_from_content_disposition( content_disposition )",17, 28, 12, 0
+repos/python/httpie/httpie/downloads.py,"filename_from_url( url , content_type )",18, 14, 4, 0
+repos/python/httpie/httpie/downloads.py,"trim_filename( filename , max_len )",9, 20, 5, 0
+repos/python/httpie/httpie/downloads.py,"get_filename_max_length( directory )",13, 19, 5, 0
+repos/python/httpie/httpie/downloads.py,"trim_filename_if_needed( filename , directory = '.' , extra = 0 )",5, 20, 4, 0
+repos/python/httpie/httpie/downloads.py,"get_unique_filename( filename , exists = os . path . exists )",9, 21, 8, 0
+repos/python/httpie/httpie/downloads.py,"__init__( self , output_file = None , resume = False , progress_file = sys . stderr )",2, 58, 17, 0
+repos/python/httpie/httpie/downloads.py,"pre_request( self , request_headers )",17, 48, 16, 0
+repos/python/httpie/httpie/downloads.py,"start( self , response )",72, 41, 8, 0
+repos/python/httpie/httpie/downloads.py,"finish( self )",4, 31, 8, 0
+repos/python/httpie/httpie/downloads.py,"failed( self )",2, 39, 8, 0
+repos/python/httpie/httpie/downloads.py,"interrupted( self )",6, 10, 8, 0
+repos/python/httpie/httpie/downloads.py,"chunk_downloaded( self , chunk )",10, 49, 8, 0
+repos/python/httpie/httpie/downloads.py,"__init__( self )",6, 34, 8, 0
+repos/python/httpie/httpie/downloads.py,"started( self , resumed_from = 0 , total_size = None )",5, 35, 8, 0
+repos/python/httpie/httpie/downloads.py,"chunk_downloaded( self , size )",3, 32, 8, 0
+repos/python/httpie/httpie/downloads.py,"has_finished( self )",2, 46, 8, 0
+repos/python/httpie/httpie/downloads.py,"finished( self )",4, 36, 8, 0
+repos/python/httpie/httpie/downloads.py,"__init__( self , status , output , tick = . 1 , update_interval = 1 )",16, 46, 8, 0
+repos/python/httpie/httpie/downloads.py,"stop( self )",3, 32, 8, 0
+repos/python/httpie/httpie/downloads.py,"run( self )",8, 30, 12, 0
+repos/python/httpie/httpie/downloads.py,"report_speed( self )",53, 37, 29, 0
+repos/python/httpie/httpie/downloads.py,"sum_up( self )",23, 28, 8, 0
+repos/python/httpie/httpie/models.py,"__init__( self , orig )",2, 26, 4, 0
+repos/python/httpie/httpie/models.py,"iter_body( self , chunk_size )",3, 36, 8, 0
+repos/python/httpie/httpie/models.py,"iter_lines( self , chunk_size )",3, 36, 8, 0
+repos/python/httpie/httpie/models.py,"headers( self )",3, 36, 8, 0
+repos/python/httpie/httpie/models.py,"encoding( self )",3, 36, 8, 0
+repos/python/httpie/httpie/models.py,"body( self )",3, 36, 8, 0
+repos/python/httpie/httpie/models.py,"content_type( self )",6, 18, 8, 0
+repos/python/httpie/httpie/models.py,"iter_body( self , chunk_size = 1 )",2, 62, 8, 0
+repos/python/httpie/httpie/models.py,"iter_lines( self , chunk_size )",2, 77, 8, 0
+repos/python/httpie/httpie/models.py,"headers( self )",27, 36, 8, 0
+repos/python/httpie/httpie/models.py,"encoding( self )",2, 45, 8, 0
+repos/python/httpie/httpie/models.py,"body( self )",4, 34, 8, 0
+repos/python/httpie/httpie/models.py,"iter_body( self , chunk_size )",2, 24, 4, 0
+repos/python/httpie/httpie/models.py,"iter_lines( self , chunk_size )",2, 29, 4, 0
+repos/python/httpie/httpie/models.py,"headers( self )",28, 23, 8, 0
+repos/python/httpie/httpie/models.py,"encoding( self )",2, 22, 4, 0
+repos/python/httpie/httpie/models.py,"body( self )",6, 27, 8, 0
+repos/python/httpie/httpie/context.py,"__init__( self , ** kwargs )",22, 59, 16, 0
+repos/python/httpie/httpie/context.py,"config( self )",8, 28, 9, 0
+repos/python/httpie/httpie/context.py,"__str__( self )",10, 10, 8, 0
+repos/python/httpie/httpie/context.py,"__repr__( self )",2, 66, 8, 0
+repos/python/httpie/httpie/config.py,"__getattr__( self , item )",2, 26, 4, 0
+repos/python/httpie/httpie/config.py,"_get_path( self )",3, 36, 8, 0
+repos/python/httpie/httpie/config.py,"path( self )",9, 20, 8, 0
+repos/python/httpie/httpie/config.py,"is_new( self )",2, 52, 8, 0
+repos/python/httpie/httpie/config.py,"load( self )",14, 22, 12, 0
+repos/python/httpie/httpie/config.py,"save( self )",13, 26, 12, 0
+repos/python/httpie/httpie/config.py,"delete( self )",6, 22, 12, 0
+repos/python/httpie/httpie/config.py,"__init__( self , directory = DEFAULT_CONFIG_DIR )",4, 35, 4, 0
+repos/python/httpie/httpie/config.py,"load( self )",3, 46, 8, 0
+repos/python/httpie/httpie/config.py,"_get_path( self )",2, 65, 8, 0
+repos/python/httpie/httpie/config.py,"_migrate_implicit_content_type( self )",11, 24, 12, 0
+repos/python/httpie/httpie/core.py,"get_exit_status( http_status , follow = False )",13, 34, 8, 0
+repos/python/httpie/httpie/core.py,"print_debug_info( env )",11, 27, 4, 0
+repos/python/httpie/httpie/core.py,"decode_args( args , stdin_encoding )",11, 6, 4, 0
+repos/python/httpie/httpie/core.py,"program( args , env , log_error )",95, 37, 8, 0
+repos/python/httpie/httpie/core.py,"main.log_error( msg , * args , ** kwargs )",5, 60, 8, 0
+repos/python/httpie/httpie/core.py,"main( args = sys . argv [ 1 : ] , env = Environment ( )",89, 23, 4, 0
+repos/python/httpie/httpie/sessions.py,"get_response( requests_session , session_name , config_dir , args , read_only = False )",2, 53, 17, 0
+repos/python/httpie/httpie/sessions.py,"__init__( self , path , * args , ** kwargs )",10, 10, 8, 0
+repos/python/httpie/httpie/sessions.py,"_get_path( self )",2, 26, 8, 0
+repos/python/httpie/httpie/sessions.py,"update_headers( self , request_headers )",22, 46, 16, 0
+repos/python/httpie/httpie/sessions.py,"headers( self )",2, 31, 8, 0
+repos/python/httpie/httpie/sessions.py,"cookies( self )",7, 19, 9, 0
+repos/python/httpie/httpie/sessions.py,"cookies( self , jar )",12, 14, 12, 0
+repos/python/httpie/httpie/sessions.py,"auth( self )",27, 46, 8, 0
+repos/python/httpie/httpie/sessions.py,"auth( self , auth )",3, 28, 8, 0
+repos/python/httpie/httpie/input.py,"__init__( self , * args , ** kwargs )",3, 68, 8, 0
+repos/python/httpie/httpie/input.py,"parse_args( self , env , args = None , namespace = None )",36, 25, 8, 0
+repos/python/httpie/httpie/input.py,"_print_message( self , message , file = None )",10, 72, 8, 0
+repos/python/httpie/httpie/input.py,"_setup_standard_streams( self )",32, 43, 12, 0
+repos/python/httpie/httpie/input.py,"_process_auth( self )",53, 18, 16, 0
+repos/python/httpie/httpie/input.py,"_apply_no_options( self , no_options )",25, 48, 12, 0
+repos/python/httpie/httpie/input.py,"_body_from_file( self , fd )",11, 58, 9, 0
+repos/python/httpie/httpie/input.py,"_guess_method( self )",39, 71, 16, 0
+repos/python/httpie/httpie/input.py,"_parse_items( self )",37, 69, 20, 0
+repos/python/httpie/httpie/input.py,"_process_output_options.check_options( value , option )",7, 19, 16, 0
+repos/python/httpie/httpie/input.py,"_process_output_options( self )",38, 68, 16, 0
+repos/python/httpie/httpie/input.py,"_process_pretty_options( self )",10, 64, 12, 0
+repos/python/httpie/httpie/input.py,"_validate_download_options( self )",7, 71, 12, 0
+repos/python/httpie/httpie/input.py,"__init__( self , key , value , sep , orig )",5, 25, 8, 0
+repos/python/httpie/httpie/input.py,"__eq__( self , other )",2, 47, 8, 0
+repos/python/httpie/httpie/input.py,"__repr__( self )",2, 35, 8, 0
+repos/python/httpie/httpie/input.py,"__init__( self , error_message )",2, 43, 8, 0
+repos/python/httpie/httpie/input.py,"__call__( self , value )",6, 21, 9, 0
+repos/python/httpie/httpie/input.py,"__init__( self , * separators )",5, 54, 12, 0
+repos/python/httpie/httpie/input.py,"__call__.tokenize( string )",20, 26, 13, 0
+repos/python/httpie/httpie/input.py,"__call__( self , string )",72, 56, 12, 0
+repos/python/httpie/httpie/input.py,"_getpass( self , prompt )",3, 44, 8, 0
+repos/python/httpie/httpie/input.py,"has_password( self )",2, 38, 8, 0
+repos/python/httpie/httpie/input.py,"prompt_password( self , host )",7, 24, 12, 0
+repos/python/httpie/httpie/input.py,"__call__( self , string )",16, 14, 12, 0
+repos/python/httpie/httpie/input.py,"__init__( self , * args , ** kwargs )",7, 72, 16, 0
+repos/python/httpie/httpie/input.py,"__setitem__( self , key , value )",15, 36, 12, 0
+repos/python/httpie/httpie/input.py,"items( self )",6, 33, 8, 0
+repos/python/httpie/httpie/input.py,"get_content_type( filename )",13, 28, 8, 0
+repos/python/httpie/httpie/input.py,"parse_items( items , headers_class = CaseInsensitiveDict , data_class = OrderedDict , files_class = DataDict , params_class = ParamsDict )",5, 42, 16, 0
+repos/python/httpie/httpie/input.py,"readable_file_arg( filename )",6, 20, 4, 0
+repos/python/httpie/httpie/__main__.py,"main( )",7, 42, 8, 0
+repos/python/httpie/httpie/cli.py,"__init__( self , max_help_position = 6 , * args , ** kwargs )",4, 67, 8, 0
+repos/python/httpie/httpie/cli.py,"_split_lines( self , text , width )",3, 33, 8, 0
+repos/python/httpie/httpie/cli.py,"__contains__( self , item )",2, 64, 8, 0
+repos/python/httpie/httpie/cli.py,"__iter__( self )",2, 77, 8, 0
+repos/python/httpie/httpie/utils.py,"load_json_preserve_order( s )",2, 56, 4, 0
+repos/python/httpie/httpie/utils.py,"repr_dict_nice.prepare_dict( d )",9, 23, 12, 0
+repos/python/httpie/httpie/utils.py,"repr_dict_nice( d )",14, 6, 4, 0
+repos/python/httpie/httpie/utils.py,"humanize_bytes( n , precision = 2 )",44, 55, 4, 0
+repos/python/httpie/httpie/client.py,"__init__( self , ssl_version = None , ** kwargs )",3, 58, 8, 0
+repos/python/httpie/httpie/client.py,"init_poolmanager( self , * args , ** kwargs )",3, 73, 8, 0
+repos/python/httpie/httpie/client.py,"get_requests_session( ssl_version )",11, 28, 5, 0
+repos/python/httpie/httpie/client.py,"get_response( args , config_dir )",25, 20, 4, 0
+repos/python/httpie/httpie/client.py,"dump_request( kwargs )",3, 47, 4, 0
+repos/python/httpie/httpie/client.py,"finalize_headers( headers )",17, 25, 4, 0
+repos/python/httpie/httpie/client.py,"get_default_headers( args )",16, 27, 4, 0
+repos/python/httpie/httpie/client.py,"get_requests_kwargs( args , base_headers = None )",51, 18, 4, 0
+repos/python/httpie/httpie/output/processing.py,"is_valid_mime( mime )",2, 40, 4, 0
+repos/python/httpie/httpie/output/processing.py,"get_converter( self , mime )",5, 49, 12, 0
+repos/python/httpie/httpie/output/processing.py,"__init__( self , groups , env = Environment ( )",14, 51, 20, 0
+repos/python/httpie/httpie/output/processing.py,"format_headers( self , headers )",4, 23, 8, 0
+repos/python/httpie/httpie/output/processing.py,"format_body( self , content , mime )",5, 23, 9, 0
+repos/python/httpie/httpie/output/streams.py,"write_stream( stream , outfile , flush )",12, 28, 12, 0
+repos/python/httpie/httpie/output/streams.py,"write_stream_with_colors_win_py3( stream , outfile , flush )",15, 28, 12, 0
+repos/python/httpie/httpie/output/streams.py,"build_output_stream( args , env , request , response , output_options )",37, 26, 4, 0
+repos/python/httpie/httpie/output/streams.py,"get_stream_type( env , args )",29, 18, 4, 0
+repos/python/httpie/httpie/output/streams.py,"__init__( self , msg , with_headers = True , with_body = True , on_body_chunk_downloaded = None )",2, 49, 4, 0
+repos/python/httpie/httpie/output/streams.py,"get_headers( self )",3, 47, 8, 0
+repos/python/httpie/httpie/output/streams.py,"iter_body( self )",3, 36, 8, 0
+repos/python/httpie/httpie/output/streams.py,"__iter__( self )",16, 32, 17, 0
+repos/python/httpie/httpie/output/streams.py,"__init__( self , chunk_size = CHUNK_SIZE , ** kwargs )",3, 37, 4, 0
+repos/python/httpie/httpie/output/streams.py,"iter_body( self )",2, 51, 8, 0
+repos/python/httpie/httpie/output/streams.py,"__init__( self , env = Environment ( )",13, 57, 8, 0
+repos/python/httpie/httpie/output/streams.py,"iter_body( self )",9, 68, 22, 0
+repos/python/httpie/httpie/output/streams.py,"__init__( self , conversion , formatting , ** kwargs )",5, 56, 8, 0
+repos/python/httpie/httpie/output/streams.py,"get_headers( self )",3, 59, 12, 0
+repos/python/httpie/httpie/output/streams.py,"iter_body( self )",20, 32, 12, 0
+repos/python/httpie/httpie/output/streams.py,"process_body( self , chunk )",7, 61, 8, 0
+repos/python/httpie/httpie/output/streams.py,"iter_body( self )",17, 38, 8, 0
+repos/python/httpie/httpie/output/formatters/colors.py,"__init__( self , env , explicit_json = False , color_scheme = DEFAULT_STYLE , ** kwargs )",2, 56, 17, 0
+repos/python/httpie/httpie/output/formatters/colors.py,"format_headers( self , headers )",6, 18, 8, 0
+repos/python/httpie/httpie/output/formatters/colors.py,"format_body( self , body , mime )",9, 28, 8, 0
+repos/python/httpie/httpie/output/formatters/colors.py,"get_lexer_for_body( self , mime , body )",6, 10, 8, 0
+repos/python/httpie/httpie/output/formatters/colors.py,"get_style_class( self , color_scheme )",5, 37, 12, 0
+repos/python/httpie/httpie/output/formatters/colors.py,"get_lexer( mime , explicit_json = False , body = '' )",45, 17, 4, 0
+repos/python/httpie/httpie/output/formatters/json.py,"format_body( self , body , mime )",22, 20, 8, 0
+repos/python/httpie/httpie/output/formatters/headers.py,"format_headers( self , headers )",9, 48, 8, 0
+repos/python/httpie/httpie/plugins/builtin.py,"__call__( self , r )",10, 17, 8, 0
+repos/python/httpie/httpie/plugins/builtin.py,"make_header( username , password )",4, 34, 8, 0
+repos/python/httpie/httpie/plugins/builtin.py,"get_auth( self , username , password )",2, 49, 8, 0
+repos/python/httpie/httpie/plugins/builtin.py,"get_auth( self , username , password )",2, 64, 8, 0
+repos/python/httpie/httpie/plugins/manager.py,"__init__( self )",2, 27, 8, 0
+repos/python/httpie/httpie/plugins/manager.py,"__iter__( self )",2, 35, 8, 0
+repos/python/httpie/httpie/plugins/manager.py,"register( self , * plugins )",3, 41, 12, 0
+repos/python/httpie/httpie/plugins/manager.py,"unregister( self , plugin )",2, 37, 8, 0
+repos/python/httpie/httpie/plugins/manager.py,"load_installed_plugins( self )",6, 50, 16, 0
+repos/python/httpie/httpie/plugins/manager.py,"get_auth_plugins( self )",2, 77, 8, 0
+repos/python/httpie/httpie/plugins/manager.py,"get_auth_plugin_mapping( self )",2, 80, 8, 0
+repos/python/httpie/httpie/plugins/manager.py,"get_auth_plugin( self , auth_type )",2, 57, 8, 0
+repos/python/httpie/httpie/plugins/manager.py,"get_formatters( self )",3, 56, 16, 0
+repos/python/httpie/httpie/plugins/manager.py,"get_formatters_grouped( self )",7, 22, 9, 0
+repos/python/httpie/httpie/plugins/manager.py,"get_converters( self )",3, 56, 16, 0
+repos/python/httpie/httpie/plugins/manager.py,"get_transport_plugins( self )",3, 56, 16, 0
+repos/python/httpie/httpie/plugins/base.py,"get_auth( self , username = None , password = None )",12, 36, 8, 0
+repos/python/httpie/httpie/plugins/base.py,"get_adapter( self )",7, 36, 8, 0
+repos/python/httpie/httpie/plugins/base.py,"__init__( self , mime )",2, 25, 4, 0
+repos/python/httpie/httpie/plugins/base.py,"convert( self , content_bytes )",2, 34, 4, 0
+repos/python/httpie/httpie/plugins/base.py,"supports( cls , mime )",2, 34, 8, 0
+repos/python/httpie/httpie/plugins/base.py,"__init__( self , ** kwargs )",9, 29, 8, 0
+repos/python/httpie/httpie/plugins/base.py,"format_headers( self , headers )",7, 23, 8, 0
+repos/python/httpie/httpie/plugins/base.py,"format_body( self , content , mime )",8, 23, 8, 0

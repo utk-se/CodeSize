@@ -3,6 +3,7 @@
 import lizard
 import argparse
 import os
+import sys
 
 
 class Width:
@@ -72,11 +73,12 @@ def printfilescsv(lfiles, widths):
     :return:
     """
     i = 0
-    print("File, Function, Total Width, Leading Space(s), Leading Tab(s)")
+    print("File, Function, Length, Total Width, Leading Space(s), Leading Tab(s)")
     for lfile in lfiles:
         for func in lfile.function_list:
-            print("{},\"{}\",{}, {}, {}".format(lfile.filename,
+            print("{},\"{}\",{}, {}, {}, {}".format(lfile.filename,
                                             func.long_name,
+                                            func.length,
                                             widths[i].total_width,
                                             widths[i].leading_space,
                                             widths[i].leading_tab))
@@ -94,21 +96,23 @@ def getmaximumwidth(lfiles):
         for func in lfile.function_list:
             width = Width
             file = open(lfile.filename, "r")
-            for i, line in enumerate(file):
-                if func.start_line - 2 < i < (func.start_line + func.length - 1):
-                    total_width = len(line)
-                    if total_width > width.total_width:
-                        # Get the leading whitespace width total
-                        leading_length = total_width - len(line.lstrip())
-
-                        # Now that we've got the leading length, get the beginning characters
-                        line_beginning = line[:leading_length]
-
-                        # Get the leading spaces and tabs
-                        leading_space = line_beginning.count(' ')
-                        leading_tab = line_beginning.count('\t')
-
-                        width = Width(total_width, leading_space, leading_tab)
+            try:
+                for i, line in enumerate(file):
+                    if func.start_line - 2 < i < (func.start_line + func.length - 1):
+                        total_width = len(line)
+                        if total_width > width.total_width:
+                            # Get the leading whitespace width total
+                            leading_length = total_width - len(line.lstrip())
+    
+                            # Now that we've got the leading length, get the beginning characters
+                            line_beginning = line[:leading_length]
+    
+                            # Get the leading spaces and tabs
+                            leading_space = line_beginning.count(' ')
+                            leading_tab = line_beginning.count('\t')
+                            width = Width(total_width, leading_space, leading_tab)
+            except UnicodeDecodeError:
+                width = Width(999, 999, 999)
             widths.append(width)
     return widths
 
