@@ -101,9 +101,6 @@ Python:
 	ansible:
 		ef3b75afcdf8eb1e3209ecebc0ea2d8b90c4768b
 
-	awesome-machine-learning:
-		a4470f6e2e72ae93d32cbf284da072c6c921bf76
-
 	awesome-python:
 		246e0576505a1fc91ea9b04d85f1d47843d504d6
 
