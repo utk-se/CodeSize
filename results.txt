@@ -1,0 +1,15 @@
+For javascript, all the current numbers are w/o considering ___.min.js files.
+
+The repos that did have this were:
+
+	axios
+	Font-Awesome
+	freeCodeCamp
+	jquery
+	node
+	react
+
+All the results w/ the .min.js files are included in the results folder, though.
+
+There are many javascript repos that still have some sort of minified file, although the
+extension did not reflect it. The results for javascript are a bit scattered.
