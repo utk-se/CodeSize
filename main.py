@@ -76,12 +76,13 @@ def printfilescsv(lfiles, widths):
     print("File, Function, Length, Total Width, Leading Space(s), Leading Tab(s)")
     for lfile in lfiles:
         for func in lfile.function_list:
-            print("{},\"{}\",{}, {}, {}, {}".format(lfile.filename,
-                                            func.long_name.replace("\"", "\'"),
-                                            func.length,
-                                            widths[i].total_width,
-                                            widths[i].leading_space,
-                                            widths[i].leading_tab))
+            if (widths[i].total_width != 999) and (widths[i].leading_space != 999) and (widths[i].leading_tab != 999):
+                print("{},\"{}\",{}, {}, {}, {}".format(lfile.filename,
+                                                func.long_name.replace("\"", "\'"),
+                                               func.length,
+                                               widths[i].total_width,
+                                               widths[i].leading_space,
+                                               widths[i].leading_tab))
             i = i + 1
 
 
@@ -113,6 +114,12 @@ def getmaximumwidth(lfiles):
                             width = Width(total_width, leading_space, leading_tab)
             except UnicodeDecodeError:
                 width = Width(999, 999, 999)
+
+            if(width.total_width > 999):
+                width.total_width = 999
+                width.leading_space = 999
+                width.leading_tab = 999
+
             widths.append(width)
     return widths
 
