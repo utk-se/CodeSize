@@ -1,0 +1,38 @@
+File, Function, Length, Total Width, Leading Space(s), Leading Tab(s)
+repos/javascript/react-spring/rollup.config.js,"createConfig ( entry , out )",29, 61, 6, 0
+repos/javascript/react-spring/rollup.config.js,"createCjs ( entry , out )",29, 61, 6, 0
+repos/javascript/react-spring/src/useChain.js,"useChain ( refs , timeSteps , timeFrame = 1000 )",26, 79, 14, 0
+repos/javascript/react-spring/src/useTransition.js,"useTransition ( input , keyTransform , config )",110, 80, 6, 0
+repos/javascript/react-spring/src/useTransition.js,"cleanUp ( state , filterKey )",12, 75, 6, 0
+repos/javascript/react-spring/src/useTransition.js,"diffItems ( { first , prevProps , ... state } , props )",116, 90, 2, 0
+repos/javascript/react-spring/src/renderprops/targets/universal/index.js,"createInterpolation ( config )",18, 81, 4, 0
+repos/javascript/react-spring/src/renderprops/targets/web/globals.js,"dangerousStyleValue ( name , value , isCustomProperty )",12, 77, 2, 0
+repos/javascript/react-spring/src/renderprops/targets/web/fix-auto.js,"fixAuto ( props , callback )",57, 81, 10, 0
+repos/javascript/react-spring/src/renderprops/addons/Parallax.js,"getScrollType ( horizontal )",3, 49, 2, 0
+repos/javascript/react-spring/src/renderprops/shared/normalizeColors.js,"normalizeColor ( color )",94, 79, 2, 0
+repos/javascript/react-spring/src/renderprops/shared/normalizeColors.js,"hue2rgb ( p , q , t )",8, 54, 2, 0
+repos/javascript/react-spring/src/renderprops/shared/normalizeColors.js,"hslToRgb ( h , s , l )",12, 50, 2, 0
+repos/javascript/react-spring/src/renderprops/shared/normalizeColors.js,"parse255 ( str )",6, 32, 2, 0
+repos/javascript/react-spring/src/renderprops/shared/normalizeColors.js,"parse360 ( str )",4, 43, 2, 0
+repos/javascript/react-spring/src/renderprops/shared/normalizeColors.js,"parse1 ( str )",6, 31, 2, 0
+repos/javascript/react-spring/src/renderprops/shared/normalizeColors.js,"parsePercentage ( str )",7, 49, 2, 0
+repos/javascript/react-spring/src/renderprops/shared/interpolation.js,"colorToRgba ( input )",10, 43, 2, 0
+repos/javascript/react-spring/src/renderprops/shared/interpolation.js,"createInterpolation ( config )",44, 105, 8, 0
+repos/javascript/react-spring/src/renderprops/shared/helpers.js,"usePrevious ( value , initialValue = null )",5, 61, 2, 0
+repos/javascript/react-spring/src/renderprops/shared/helpers.js,"function ( )",6, 67, 4, 0
+repos/javascript/react-spring/src/renderprops/shared/helpers.js,"debounce ( func , delay = 0 )",9, 67, 4, 0
+repos/javascript/react-spring/src/renderprops/shared/helpers.js,"withDefault ( value , defaultValue )",3, 70, 2, 0
+repos/javascript/react-spring/src/renderprops/shared/helpers.js,"toArray ( a )",3, 58, 2, 0
+repos/javascript/react-spring/src/renderprops/shared/helpers.js,"shallowEqual ( a , b )",8, 69, 2, 0
+repos/javascript/react-spring/src/renderprops/shared/helpers.js,"callProp ( obj , ... args )",3, 56, 2, 0
+repos/javascript/react-spring/src/renderprops/shared/helpers.js,"getValues ( object )",3, 49, 2, 0
+repos/javascript/react-spring/src/renderprops/shared/helpers.js,"getForwardProps ( props )",26, 41, 0, 0
+repos/javascript/react-spring/src/renderprops/shared/helpers.js,"interpolateTo ( props )",8, 69, 4, 0
+repos/javascript/react-spring/src/renderprops/shared/helpers.js,"convertToAnimatedValue ( acc , [ name , value ] )",6, 79, 4, 0
+repos/javascript/react-spring/src/renderprops/shared/helpers.js,"convertValues ( props )",7, 54, 2, 0
+repos/javascript/react-spring/src/renderprops/shared/helpers.js,"handleRef ( ref , forward )",11, 82, 6, 0
+repos/javascript/react-spring/src/renderprops/shared/colorMatchers.js,"call ( )",7, 64, 4, 0
+repos/javascript/react-spring/src/renderprops/animated/Interpolation.js,"interpolate ( input , inputMin , inputMax , outputMin , outputMax , easing , extrapolateLeft , extrapolateRight , map )",35, 78, 2, 0
+repos/javascript/react-spring/src/renderprops/animated/Interpolation.js,"findRange ( input , inputRange )",5, 50, 2, 0
+repos/javascript/react-spring/src/renderprops/animated/createAnimatedComponent.js,"createAnimatedComponent ( Component )",84, 79, 6, 0
+repos/javascript/react-spring/src/renderprops/animated/AnimatedValue.js,"findAnimatedStyles ( node , styles )",4, 78, 2, 0

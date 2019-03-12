@@ -1,0 +1,36 @@
+File, Function, Length, Total Width, Leading Space(s), Leading Tab(s)
+repos/python/gpt-2/src/encoder.py,"bytes_to_unicode( )",20, 111, 4, 0
+repos/python/gpt-2/src/encoder.py,"get_pairs( word )",11, 85, 4, 0
+repos/python/gpt-2/src/encoder.py,"__init__( self , encoder , bpe_merges , errors = 'replace' )",11, 113, 8, 0
+repos/python/gpt-2/src/encoder.py,"bpe( self , token )",40, 91, 12, 0
+repos/python/gpt-2/src/encoder.py,"encode( self , text )",6, 99, 12, 0
+repos/python/gpt-2/src/encoder.py,"decode( self , tokens )",4, 99, 8, 0
+repos/python/gpt-2/src/encoder.py,"get_encoder( model_name )",10, 92, 4, 0
+repos/python/gpt-2/src/model.py,"default_hparams( )",8, 23, 0, 0
+repos/python/gpt-2/src/model.py,"shape_list( x )",5, 74, 4, 0
+repos/python/gpt-2/src/model.py,"softmax( x , axis = - 1 )",4, 60, 4, 0
+repos/python/gpt-2/src/model.py,"gelu( x )",2, 73, 4, 0
+repos/python/gpt-2/src/model.py,"norm( x , scope , * , axis = - 1 , epsilon = 1e - 5 )",11, 84, 8, 0
+repos/python/gpt-2/src/model.py,"split_states( x , n )",4, 67, 4, 0
+repos/python/gpt-2/src/model.py,"merge_states( x )",4, 70, 4, 0
+repos/python/gpt-2/src/model.py,"conv1d( x , scope , nf , * , w_init_stdev = 0 . 02 )",7, 109, 8, 0
+repos/python/gpt-2/src/model.py,"attention_mask( nd , ns , * , dtype )",9, 100, 4, 0
+repos/python/gpt-2/src/model.py,"attn.split_heads( x )",3, 81, 8, 0
+repos/python/gpt-2/src/model.py,"attn.merge_heads( x )",3, 59, 8, 0
+repos/python/gpt-2/src/model.py,"attn.mask_attn_weights( w )",7, 107, 8, 0
+repos/python/gpt-2/src/model.py,"attn.multihead_attn( q , k , v )",9, 64, 8, 0
+repos/python/gpt-2/src/model.py,"attn( x , scope , n_state , * , past , hparams )",44, 107, 8, 0
+repos/python/gpt-2/src/model.py,"mlp( x , scope , n_state , * , hparams )",6, 45, 8, 0
+repos/python/gpt-2/src/model.py,"block( x , scope , * , past , hparams )",8, 83, 8, 0
+repos/python/gpt-2/src/model.py,"past_shape( * , hparams , batch_size = None , sequence = None )",2, 104, 4, 0
+repos/python/gpt-2/src/model.py,"expand_tile( value , size )",5, 70, 4, 0
+repos/python/gpt-2/src/model.py,"positions_for( tokens , past_length )",4, 67, 4, 0
+repos/python/gpt-2/src/model.py,"model( hparams , X , past = None , scope = 'model' , reuse = False )",28, 91, 8, 0
+repos/python/gpt-2/src/sample.py,"top_k_logits._top_k( )",8, 62, 12, 0
+repos/python/gpt-2/src/sample.py,"top_k_logits( logits , k )",18, 62, 12, 0
+repos/python/gpt-2/src/sample.py,"sample_sequence.step( hparams , tokens , past = None )",10, 91, 8, 0
+repos/python/gpt-2/src/sample.py,"sample_sequence.body( past , prev , output )",10, 83, 12, 0
+repos/python/gpt-2/src/sample.py,"sample_sequence.cond( * args )",2, 25, 8, 0
+repos/python/gpt-2/src/sample.py,"sample_sequence( * , hparams , length , start_token = None , batch_size = None , context = None , temperature = 1 , top_k = 0 )",55, 114, 0, 0
+repos/python/gpt-2/src/interactive_conditional_samples.py,"interact_model( model_name = '117M' , seed = None , nsamples = 1 , batch_size = 1 , length = None , temperature = 1 , top_k = 0 ,",8, 23, 4, 0
+repos/python/gpt-2/src/generate_unconditional_samples.py,"sample_model( model_name = '117M' , seed = None , nsamples = 0 , batch_size = 1 , length = None , temperature = 1 , top_k = 0 ,",8, 23, 4, 0

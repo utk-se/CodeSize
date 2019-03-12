@@ -1,0 +1,8 @@
+File, Function, Length, Total Width, Leading Space(s), Leading Tab(s)
+repos/python/public-apis/build/validate_links.py,"parse_links( filename )",9, 90, 8, 0
+repos/python/public-apis/build/validate_links.py,"validate_links( links )",17, 78, 8, 0
+repos/python/public-apis/build/validate_format.py,"add_error( line_num , message )",4, 55, 4, 0
+repos/python/public-apis/build/validate_format.py,"check_alphabetical( lines )",22, 110, 12, 0
+repos/python/public-apis/build/validate_format.py,"check_entry( line_num , segments )",51, 111, 8, 0
+repos/python/public-apis/build/validate_format.py,"check_format( filename )",47, 113, 16, 0
+repos/python/public-apis/build/validate_format.py,"main( )",9, 76, 8, 0

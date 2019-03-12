@@ -1,0 +1,699 @@
+File, Function, Length, Total Width, Leading Space(s), Leading Tab(s)
+repos/javascript/30-seconds-of-code/test/collectInto.test.js,"function ( val )",3, 35, 6, 0
+repos/javascript/30-seconds-of-code/test/collectInto.test.js,"function ( reason )",1, 24, 4, 0
+repos/javascript/30-seconds-of-code/test/partialRight.test.js,"greet ( greeting , name )",3, 38, 2, 0
+repos/javascript/30-seconds-of-code/test/functions.test.js,"Foo ( )",4, 20, 2, 0
+repos/javascript/30-seconds-of-code/test/_30s.js,"] ( )",3, 30, 6, 0
+repos/javascript/30-seconds-of-code/test/_30s.js,"function ( ... args )",4, 60, 4, 0
+repos/javascript/30-seconds-of-code/test/_30s.js,"cached ( val )",3, 99, 4, 0
+repos/javascript/30-seconds-of-code/test/_30s.js,"function ( ... args )",5, 33, 4, 0
+repos/javascript/30-seconds-of-code/test/_30s.js,"function ( )",6, 55, 6, 0
+repos/javascript/30-seconds-of-code/test/_30s.js,"function ( )",17, 55, 6, 0
+repos/javascript/30-seconds-of-code/test/sleep.test.js,"sleepyWork ( )",4, 32, 2, 0
+repos/javascript/30-seconds-of-code/test/copyToClipboard.test.js,"document.getSelection ( )",7, 39, 2, 0
+repos/javascript/30-seconds-of-code/test/copyToClipboard.test.js,"document.execCommand ( x )",1, 52, 2, 0
+repos/javascript/30-seconds-of-code/test/copyToClipboard.test.js,"document.getSelection ( )",8, 39, 2, 0
+repos/javascript/30-seconds-of-code/test/copyToClipboard.test.js,"document.execCommand ( x )",1, 52, 2, 0
+repos/javascript/30-seconds-of-code/test/delay.test.js,"function ( text )",3, 33, 6, 0
+repos/javascript/30-seconds-of-code/test/bind.test.js,"greet ( greeting , punctuation )",3, 51, 2, 0
+repos/javascript/30-seconds-of-code/test/functionName.test.js,"f ( x )",3, 16, 0, 0
+repos/javascript/30-seconds-of-code/test/rearg.test.js,"function ( a , b , c )",3, 22, 2, 0
+repos/javascript/30-seconds-of-code/test/partial.test.js,"greet ( greeting , name )",3, 38, 2, 0
+repos/javascript/30-seconds-of-code/dist/_30s.js,"function ( global , factory )",5, 84, 2, 0
+repos/javascript/30-seconds-of-code/dist/_30s.js,"] ( )",3, 32, 8, 0
+repos/javascript/30-seconds-of-code/dist/_30s.js,"function ( ... args )",4, 62, 6, 0
+repos/javascript/30-seconds-of-code/dist/_30s.js,"cached ( val )",3, 101, 6, 0
+repos/javascript/30-seconds-of-code/dist/_30s.js,"function ( ... args )",5, 35, 6, 0
+repos/javascript/30-seconds-of-code/dist/_30s.js,"function ( )",6, 57, 8, 0
+repos/javascript/30-seconds-of-code/dist/_30s.js,"function ( )",17, 57, 8, 0
+repos/javascript/30-seconds-of-code/dist/_30s.js,"function ( exports )",1701, 103, 2, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"function ( global , factory )",5, 84, 2, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"_typeof ( obj )",3, 33, 6, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"_typeof ( obj )",3, 134, 8, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"_typeof ( obj )",13, 134, 8, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"_defineProperty ( obj , key , value )",14, 46, 2, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"function ( sym )",3, 94, 8, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"function ( key )",3, 51, 8, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"_objectSpread ( target )",18, 94, 8, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"_slicedToArray ( arr , i )",3, 88, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"_toArray ( arr )",3, 80, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"_toConsumableArray ( arr )",3, 85, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"_arrayWithoutHoles ( arr )",7, 91, 6, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"_arrayWithHoles ( arr )",3, 40, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"_iterableToArray ( iter )",3, 131, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"_iterableToArrayLimit ( arr , i )",25, 92, 6, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"_nonIterableSpread ( )",3, 76, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"_nonIterableRest ( )",3, 81, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"function ( v )",3, 96, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"CSVToArray ( data )",7, 98, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"function ( obj , title , index )",3, 58, 6, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"function ( v )",6, 77, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"CSVToJSON ( data )",10, 93, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"JSONToFile ( obj , filename )",3, 85, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"function ( acc , key )",3, 114, 8, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"function ( obj )",5, 114, 8, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"JSONtoCSV ( arr , columns )",8, 114, 8, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"RGBToHex ( r , g , b )",3, 69, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"URLJoin ( )",7, 178, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"function ( c )",3, 92, 6, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"UUIDGeneratorBrowser ( )",5, 92, 6, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"function ( c )",3, 81, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"UUIDGeneratorNode ( )",5, 81, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"all ( arr )",4, 90, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"function ( val )",3, 38, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"allEqual ( arr )",5, 42, 2, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"any ( arr )",4, 90, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"approximatelyEqual ( v1 , v2 )",4, 93, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"function ( x )",3, 37, 8, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"function ( v )",5, 37, 8, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"arrayToCSV ( arr )",8, 93, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"function ( item )",3, 98, 6, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"function ( el )",5, 98, 6, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"arrayToHtmlList ( arr , listID )",7, 98, 6, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"function ( )",7, 103, 6, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"ary ( fn , n )",9, 103, 6, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"atob ( str )",3, 58, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"attempt ( fn )",11, 123, 6, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"function ( acc , val )",3, 45, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"average ( )",9, 101, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"fn ( val )",3, 68, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"function ( acc , val )",3, 36, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"averageBy ( arr , fn )",7, 68, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"function ( acc , val , i )",3, 52, 6, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"bifurcate ( arr , filter )",5, 52, 2, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"function ( acc , val , i )",3, 53, 6, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"bifurcateBy ( arr , fn )",5, 53, 6, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"function ( )",7, 103, 6, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"bind ( fn , context )",13, 126, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"] ( )",3, 50, 6, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"function ( fn )",5, 50, 6, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"bindAll ( obj )",11, 120, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"function ( )",7, 103, 6, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"bindKey ( context , fn )",13, 126, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"binomialCoefficient ( n , k )",14, 65, 2, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"bottomVisible ( )",3, 151, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"btoa ( str )",3, 58, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"byteSize ( str )",3, 42, 2, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"function ( context )",3, 48, 6, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"call ( key )",9, 128, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"capitalize ( _ref )",8, 95, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"function ( char )",3, 53, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"capitalizeEveryWord ( str )",5, 64, 2, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"castArray ( val )",3, 45, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"next ( )",4, 37, 6, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"chainAsync ( fns )",11, 46, 2, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"function ( v , i )",3, 51, 6, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"chunk ( arr , size )",7, 51, 6, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"clampNumber ( num , a , b )",3, 68, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"cloneRegExp ( regExp )",3, 52, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"function ( _ )",3, 45, 6, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"coalesce ( )",9, 107, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"function ( )",7, 109, 6, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"coalesceFactory ( valid )",9, 109, 6, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"function ( )",7, 109, 6, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"collectInto ( fn )",9, 109, 6, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"colorize ( )",24, 107, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"compact ( arr )",3, 40, 2, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"compactWhitespace ( str )",3, 60, 2, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"function ( )",3, 46, 8, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"function ( f , g )",5, 46, 8, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"compose ( )",11, 106, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"function ( )",3, 46, 8, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"function ( f , g )",5, 46, 8, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"composeRight ( )",11, 106, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"function ( fn )",3, 80, 6, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"function ( )",9, 109, 6, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"converge ( converger , fns )",11, 109, 6, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"copyToClipboard ( str )",17, 107, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"fn ( val )",3, 68, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"function ( acc , val )",4, 38, 6, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"countBy ( arr , fn )",8, 68, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"function ( a , v )",3, 40, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"countOccurrences ( arr , val )",5, 63, 2, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"function ( )",6, 76, 6, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"counter ( selector , start , end )",15, 93, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"createDirIfNotExists ( dir )",3, 66, 2, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"createElement ( str )",5, 52, 2, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"function ( handler )",3, 61, 8, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"emit ( event , data )",5, 61, 8, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"on ( event , handler )",4, 52, 8, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"function ( h )",3, 65, 8, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"off ( event , handler )",6, 65, 8, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"createEventHub ( )",20, 65, 8, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"currentURL ( )",3, 43, 2, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"curry ( fn )",9, 128, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"dayOfYear ( date )",3, 90, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"function ( )",3, 43, 6, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"function ( )",12, 109, 6, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"debounce ( fn )",16, 109, 6, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"decapitalize ( _ref3 )",8, 95, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"function ( key )",3, 91, 6, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"deepClone ( obj )",7, 143, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"function ( v )",3, 86, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"deepFlatten ( arr )",7, 86, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"function ( prop )",3, 106, 6, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"deepFreeze ( obj )",5, 106, 6, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"function ( val )",3, 87, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"function ( acc , current )",5, 113, 6, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"deepMapKeys ( obj , f )",9, 113, 6, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"defaults ( obj )",7, 128, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"defer ( fn )",7, 128, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"degreesToRads ( deg )",3, 52, 2, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"delay ( fn , wait )",7, 128, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"detectDeviceType ( )",3, 126, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"function ( x )",3, 35, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"difference ( a , b )",6, 47, 2, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"function ( el )",3, 44, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"differenceBy ( a , b , fn )",6, 55, 2, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"function ( b )",3, 42, 6, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"function ( a )",5, 42, 6, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"differenceWith ( arr , val , comp )",7, 65, 2, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"function ( acc , val )",4, 89, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"dig ( obj , target )",6, 89, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"function ( i )",3, 63, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"digitize ( n )",5, 63, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"distance ( x0 , y0 , x1 , y1 )",3, 53, 2, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"drop ( arr )",4, 83, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"dropRight ( arr )",4, 83, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"dropRightWhile ( arr , func )",7, 60, 2, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"dropWhile ( arr , func )",7, 50, 2, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"elementContains ( parent , child )",3, 66, 2, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"elementIsVisibleInViewport ( el )",14, 242, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"expectedScore ( self , opponent )",3, 65, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"newRating ( rating , i )",3, 91, 6, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"elo ( _ref6 )",38, 91, 6, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"function ( k )",3, 37, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"equals ( a , b )",12, 88, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"function ( tag )",9, 52, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"escapeHTML ( str )",11, 52, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"escapeRegExp ( str )",3, 55, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"function ( e , i )",3, 40, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"everyNth ( arr , nth )",5, 47, 2, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"function ( x )",3, 95, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"extendHex ( shortHex )",5, 95, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"function ( )",3, 64, 6, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"factorial ( n )",5, 64, 6, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"function ( acc , val , i )",3, 62, 6, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"fibonacci ( n )",7, 62, 6, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"filterFalsy ( arr )",3, 48, 2, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"function ( i )",3, 52, 6, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"filterNonUnique ( arr )",5, 56, 2, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"function ( x , j )",3, 43, 8, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"function ( v , i )",5, 43, 8, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"filterNonUniqueBy ( arr , fn )",7, 64, 2, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"function ( key )",3, 50, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"findKey ( obj , fn )",5, 50, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"findLast ( arr , fn )",3, 46, 2, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"function ( val , i )",3, 39, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"function ( _ref8 )",7, 44, 6, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"findLastIndex ( arr , fn )",11, 56, 2, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"function ( key )",3, 60, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"findLastKey ( obj , fn )",5, 60, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"function ( a , v )",3, 82, 6, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"flatten ( arr )",6, 87, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"function ( acc , k )",5, 119, 6, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"flattenObject ( obj )",8, 119, 6, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"function ( first )",7, 130, 6, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"flip ( fn )",9, 130, 6, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"forEachRight ( arr , callback )",3, 60, 2, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"function ( key )",3, 53, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"forOwn ( obj , fn )",5, 53, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"function ( key )",3, 63, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"forOwnRight ( obj , fn )",5, 63, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"function ( val )",3, 56, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"function ( _ref10 )",7, 75, 6, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"formatDuration ( ms )",19, 75, 6, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"fromCamelCase ( str )",4, 145, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"functionName ( fn )",3, 49, 2, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"function ( key )",3, 173, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"functions ( obj )",6, 173, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"_gcd ( x , y )",3, 37, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"function ( a , b )",3, 49, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"gcd ( )",13, 106, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"function ( v , i )",3, 40, 6, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"geometricProgression ( end )",9, 87, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"function ( t )",3, 83, 6, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"function ( prev , cur )",3, 39, 6, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"function ( s )",7, 83, 6, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"get ( from )",13, 133, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"getColonTimeFromDate ( date )",3, 67, 2, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"getDaysDiffBetweenDates ( dateInitial , dateFinal )",3, 91, 2, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"function ( img )",3, 89, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"getImages ( el )",9, 103, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"getMeridiemSuffixOfInteger ( num )",3, 120, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"getScrollPosition ( )",7, 89, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"getStyle ( el , ruleName )",3, 51, 2, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"getType ( v )",3, 99, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"function ( a , v )",3, 78, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"getURLParameters ( url )",5, 78, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"fn ( val )",3, 68, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"function ( acc , val , i )",4, 50, 6, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"groupBy ( arr , fn )",8, 68, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"hammingDistance ( num1 , num2 )",3, 65, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"hasClass ( el , className )",3, 52, 2, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"function ( flag )",3, 79, 6, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"hasFlags ( )",9, 108, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"function ( h )",10, 101, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"hashBrowser ( val )",12, 101, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"function ( )",3, 79, 8, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"function ( resolve )",5, 79, 8, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"hashNode ( val )",7, 79, 8, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"head ( arr )",3, 34, 2, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"function ( x )",3, 69, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"hexToRGB ( hex )",9, 263, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"function ( e )",3, 46, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"hide ( )",9, 105, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"request.onload ( )",3, 45, 6, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"request.onerror ( )",3, 36, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"httpGet ( url , callback )",15, 97, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"request.onload ( )",3, 45, 6, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"request.onerror ( )",3, 36, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"httpPost ( url , data , callback )",16, 97, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"httpsRedirect ( )",3, 101, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"hz ( fn )",10, 94, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"inRange ( n , start )",11, 88, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"indentString ( str , count )",4, 90, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"function ( acc , el , i )",3, 69, 6, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"indexOfAll ( arr , val )",5, 69, 6, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"initial ( arr )",3, 40, 2, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"function ( )",5, 26, 6, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"initialize2DArray ( w , h )",10, 88, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"function ( v , i )",3, 31, 6, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"initializeArrayWithRange ( end )",9, 87, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"function ( v , i , arr )",3, 50, 6, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"initializeArrayWithRangeRight ( end )",9, 87, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"initializeArrayWithValues ( n )",4, 85, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"function ( )",3, 95, 6, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"initializeNDArray ( val )",11, 128, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"insertAfter ( el , htmlString )",3, 59, 2, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"insertBefore ( el , htmlString )",3, 61, 2, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"function ( x )",3, 35, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"intersection ( a , b )",6, 51, 2, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"function ( x )",3, 35, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"intersectionBy ( a , b , fn )",6, 59, 2, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"function ( y )",3, 40, 6, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"function ( x )",5, 40, 6, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"intersectionWith ( a , b , comp )",7, 65, 2, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"function ( acc , key )",6, 57, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"invertKeyValues ( obj , fn )",8, 60, 2, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"is ( type , val )",3, 64, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"isAbsoluteURL ( str )",3, 52, 2, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"isAfterDate ( dateA , dateB )",3, 57, 2, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"normalize ( str )",3, 85, 6, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"isAnagram ( str1 , str2 )",7, 85, 6, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"isArrayLike ( obj )",3, 70, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"isBeforeDate ( dateA , dateB )",3, 59, 2, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"isBoolean ( val )",3, 44, 2, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"isBrowser ( )",3, 166, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"isBrowserTabFocused ( )",3, 61, 2, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"isDivisible ( dividend , divisor )",3, 62, 2, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"isDuplexStream ( val )",3, 247, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"isEmpty ( val )",3, 61, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"isEven ( num )",3, 38, 2, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"isFunction ( val )",3, 46, 2, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"isLowerCase ( str )",3, 48, 2, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"isNegativeZero ( val )",3, 54, 2, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"isNil ( val )",3, 46, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"isNull ( val )",3, 38, 2, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"isNumber ( val )",3, 42, 2, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"isObject ( obj )",3, 42, 2, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"isObjectLike ( val )",3, 54, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"isPlainObject ( val )",3, 77, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"isPrime ( num )",9, 47, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"isPrimitive ( val )",3, 48, 2, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"isPromiseLike ( obj )",3, 119, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"isReadableStream ( val )",3, 167, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"isSameDate ( dateA , dateB )",3, 56, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"isSorted ( arr )",30, 170, 6, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"isStream ( val )",3, 88, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"isString ( val )",3, 42, 2, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"isSymbol ( val )",3, 42, 2, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"isTravisCI ( )",3, 59, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"isUndefined ( val )",3, 48, 2, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"isUpperCase ( str )",3, 48, 2, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"isValidJSON ( str )",8, 48, 2, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"isWritableStream ( val )",3, 168, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"function ( acc , val , i )",3, 112, 6, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"join ( arr )",7, 112, 6, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"last ( arr )",3, 34, 2, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"gcd ( x , y )",3, 37, 6, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"_lcm ( x , y )",3, 37, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"function ( a , b )",3, 49, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"lcm ( )",17, 106, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"function ( a , x )",3, 42, 6, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"longestItem ( )",9, 107, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"function ( acc , key )",4, 57, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"lowercaseKeys ( obj )",6, 57, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"function ( x )",3, 64, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"function ( acc , val , i )",3, 63, 6, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"luhnCheck ( num )",11, 64, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"function ( acc , k )",4, 55, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"mapKeys ( obj , fn )",6, 55, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"mapNumRange ( num , inMin , inMax , outMin , outMax )",3, 78, 2, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"function ( acc , val , ind )",3, 76, 6, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"function ( a )",5, 76, 6, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"mapObject ( arr , fn )",7, 76, 6, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"function ( c , i )",3, 47, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"mapString ( str , fn )",5, 48, 2, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"function ( acc , k )",4, 55, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"mapValues ( obj , fn )",6, 55, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"mask ( cc )",5, 88, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"function ( key )",3, 66, 6, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"matches ( obj , source )",5, 66, 6, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"function ( key )",3, 116, 6, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"matchesWith ( obj , source , fn )",5, 116, 6, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"fn ( val )",3, 108, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"maxBy ( arr , fn )",5, 108, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"maxDate ( )",9, 108, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"function ( a , b )",3, 58, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"maxN ( arr )",6, 83, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"function ( a , b )",3, 62, 8, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"median ( arr )",8, 79, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"cached ( val )",3, 101, 6, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"memoize ( fn )",10, 101, 6, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"function ( a , k )",4, 84, 8, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"function ( acc , obj )",6, 84, 8, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"merge ( )",12, 107, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"midpoint ( _ref13 , _ref14 )",11, 53, 2, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"fn ( val )",3, 108, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"minBy ( arr , fn )",5, 108, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"minDate ( )",9, 108, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"function ( a , b )",3, 58, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"minN ( arr )",6, 83, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"function ( fn )",9, 45, 6, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"mostPerformant ( fns )",13, 96, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"function ( )",3, 45, 6, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"negate ( func )",5, 45, 6, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"function ( item )",3, 42, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"function ( item )",5, 39, 6, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"nest ( items )",11, 96, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"nodeListToArray ( nodeList )",3, 61, 2, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"none ( arr )",4, 90, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"function ( )",7, 109, 6, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"nthArg ( n )",9, 109, 6, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"nthElement ( arr )",4, 83, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"function ( a , _ref17 )",7, 46, 6, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"objectFromPairs ( arr )",9, 56, 2, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"function ( k )",3, 47, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"objectToPairs ( obj )",5, 52, 2, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"function ( m )",3, 46, 6, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"function ( mutations )",5, 63, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"observeMutations ( element , callback , options )",16, 81, 2, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"off ( el , evt , fn )",4, 90, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"offset ( arr , _offset )",3, 101, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"function ( k )",3, 50, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"function ( acc , key )",3, 39, 6, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"omit ( obj , arr )",7, 50, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"function ( k )",3, 50, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"function ( acc , key )",3, 39, 6, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"omitBy ( obj , fn )",7, 50, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"delegatorFn ( e )",3, 68, 6, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"on ( el , evt , fn )",10, 87, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"mousemoveHandler ( )",5, 124, 6, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"function ( )",4, 96, 6, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"onUserInputChange ( callback )",15, 124, 6, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"function ( )",10, 109, 6, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"once ( fn )",13, 109, 6, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"function ( acc , prop , i )",12, 97, 10, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"function ( a , b )",14, 97, 10, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"orderBy ( arr , props , orders )",16, 97, 10, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"function ( fn )",3, 37, 6, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"function ( )",9, 109, 6, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"over ( )",15, 109, 6, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"function ( val , i )",3, 78, 6, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"function ( )",9, 109, 6, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"overArgs ( fn , transforms )",11, 109, 6, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"pad ( str , length )",4, 88, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"palindrome ( str )",4, 59, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"function ( v )",3, 45, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"function ( acc , v )",4, 78, 6, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"parseCookie ( str )",8, 78, 6, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"function ( )",7, 109, 6, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"partial ( fn )",13, 132, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"function ( )",7, 109, 6, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"partialRight ( fn )",13, 132, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"function ( acc , val , i , arr )",4, 52, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"partition ( arr , fn )",6, 52, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"function ( acc , v )",3, 62, 6, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"percentile ( arr , val )",5, 62, 6, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"function ( val )",3, 140, 6, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"function ( acc , item , i )",5, 140, 6, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"permutations ( arr )",8, 140, 6, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"function ( acc , curr )",3, 58, 6, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"pick ( obj , arr )",5, 58, 6, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"function ( k )",3, 50, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"function ( acc , key )",3, 39, 6, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"pickBy ( obj , fn )",7, 50, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"function ( p , f )",3, 42, 6, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"function ( arg )",5, 42, 6, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"pipeAsyncFunctions ( )",11, 106, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"function ( )",3, 46, 8, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"function ( f , g )",5, 46, 8, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"pipeFunctions ( )",11, 106, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"_pluralize ( num , word )",4, 99, 6, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"function ( num , word )",3, 65, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"pluralize ( val , word )",13, 99, 6, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"function ( r )",3, 43, 6, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"function ( a , v )",5, 43, 6, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"powerset ( arr )",7, 43, 6, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"function ( prefix )",3, 99, 6, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"prefix ( prop )",8, 99, 6, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"prettyBytes ( num )",9, 97, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"function ( x , i )",3, 29, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"function ( x , i )",3, 29, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"function ( y )",3, 45, 6, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"function ( x )",5, 45, 6, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"primes ( num )",19, 45, 8, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"function ( err , result )",3, 72, 8, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"function ( resolve , reject )",5, 72, 8, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"function ( )",11, 109, 6, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"promisify ( func )",13, 109, 6, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"function ( v , i )",3, 46, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"function ( v )",3, 34, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"pull ( arr )",14, 128, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"function ( v , i )",3, 56, 6, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"function ( v , i )",3, 35, 6, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"function ( v )",3, 34, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"pullAtIndex ( arr , pullArr )",13, 57, 2, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"function ( v , i )",3, 56, 6, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"function ( v , i )",3, 48, 8, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"function ( v )",3, 36, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"pullAtValue ( arr , pullArr )",14, 57, 2, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"function ( val )",3, 82, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"function ( v , i )",3, 46, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"function ( v )",3, 34, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"pullBy ( arr )",19, 128, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"radsToDegrees ( rad )",3, 52, 2, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"randomHexColorCode ( )",4, 62, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"function ( )",3, 64, 6, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"randomIntArrayInRange ( min , max )",8, 83, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"randomIntegerInRange ( min , max )",3, 71, 2, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"randomNumberInRange ( min , max )",3, 69, 2, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"readFileLines ( filename )",3, 67, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"function ( i )",3, 76, 6, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"function ( )",9, 109, 6, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"rearg ( fn , indexes )",11, 109, 6, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"stop ( )",4, 33, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"start ( )",4, 35, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"function ( )",4, 48, 6, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"run ( )",6, 48, 6, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"recordAnimationFrames ( callback )",28, 94, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"redirect ( url )",4, 91, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"function ( res , val , i , arr )",3, 63, 6, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"reduceSuccessive ( arr , fn , acc )",5, 67, 2, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"] ( a , b )",3, 107, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"function ( a , b )",3, 44, 6, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"reduceWhich ( arr )",8, 107, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"function ( acc , key )",4, 47, 6, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"function ( el )",6, 47, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"reducedFilter ( data , keys , fn )",8, 63, 2, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"function ( )",3, 45, 6, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"reject ( pred , array )",5, 46, 2, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"function ( acc , val )",4, 78, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"remove ( arr , func )",6, 78, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"removeNonASCII ( str )",3, 54, 2, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"function ( acc , key )",3, 89, 6, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"renameKeys ( keysMap , obj )",5, 89, 6, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"reverseString ( str )",3, 55, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"round ( n )",4, 101, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"worker.onmessage ( _ref21 )",4, 45, 6, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"worker.onerror ( err )",3, 40, 6, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"function ( res , rej )",10, 45, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"runAsync ( fn )",15, 99, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"function ( p , next )",3, 42, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"runPromisesInSeries ( ps )",5, 63, 2, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"sample ( arr )",3, 56, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"sampleSize ( _ref22 )",16, 83, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"scrollToTop ( )",8, 75, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"function ( hashCode , currentVal )",3, 98, 6, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"sdbm ( str )",6, 98, 6, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"serializeCookie ( name , val )",3, 85, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"setStyle ( el , ruleName , val )",3, 56, 2, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"shallowClone ( obj )",3, 50, 2, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"shank ( arr )",10, 132, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"function ( e )",3, 46, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"show ( )",9, 105, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"shuffle ( _ref25 )",15, 47, 6, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"function ( v )",3, 37, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"similarity ( arr , values )",5, 54, 2, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"size ( val )",3, 184, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"function ( resolve )",3, 44, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"sleep ( ms )",5, 44, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"smoothScroll ( element )",5, 60, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"function ( a , b )",3, 58, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"sortCharactersInString ( str )",5, 70, 2, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"function ( el )",3, 47, 6, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"sortedIndex ( arr , n )",7, 53, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"function ( el )",3, 59, 6, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"sortedIndexBy ( arr , n , fn )",8, 61, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"function ( el )",3, 56, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"sortedLastIndex ( arr , n )",7, 59, 2, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"function ( el )",3, 64, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"sortedLastIndexBy ( arr , n , fn )",8, 67, 2, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"splitLines ( str )",3, 46, 2, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"function ( argsArr )",3, 60, 6, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"spreadOver ( fn )",5, 60, 6, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"function ( item , index )",6, 44, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"function ( a , b )",3, 59, 6, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"function ( _ref28 )",4, 31, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"stableSort ( arr , compare )",13, 59, 6, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"function ( acc , val )",3, 48, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"function ( acc , val )",3, 54, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"function ( acc , val )",3, 53, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"standardDeviation ( arr )",11, 99, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"function ( val )",3, 100, 6, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"function ( acc , letter , i )",5, 100, 6, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"stringPermutations ( str )",8, 100, 6, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"stripHTMLTags ( str )",3, 52, 2, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"function ( acc , val )",3, 53, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"sum ( )",9, 106, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"fn ( val )",3, 68, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"function ( acc , val )",3, 36, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"sumBy ( arr , fn )",7, 68, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"function ( x , i )",3, 64, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"function ( a , b )",3, 32, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"sumPower ( end )",9, 87, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"function ( x )",3, 58, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"function ( x )",3, 58, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"symmetricDifference ( a , b )",9, 65, 2, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"function ( v )",3, 42, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"function ( v )",3, 42, 8, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"function ( x )",3, 58, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"function ( x )",3, 58, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"symmetricDifferenceBy ( a , b , fn )",13, 73, 2, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"function ( b )",3, 42, 6, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"function ( a )",5, 60, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"function ( b )",3, 42, 6, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"function ( a )",5, 60, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"symmetricDifferenceWith ( arr , val , comp )",11, 83, 2, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"tail ( arr )",3, 48, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"take ( arr )",4, 83, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"takeRight ( arr )",4, 83, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"function ( acc , el )",3, 68, 6, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"takeRightWhile ( arr , func )",5, 68, 6, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"takeWhile ( arr , func )",30, 174, 6, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"function ( )",6, 57, 8, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"function ( )",18, 57, 8, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"throttle ( fn , wait )",21, 57, 8, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"timeTaken ( callback )",6, 49, 2, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"times ( n , fn )",6, 97, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"function ( x )",3, 118, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"toCamelCase ( str )",6, 118, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"toCurrency ( n , curr )",7, 104, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"toDecimalMark ( num )",3, 52, 2, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"function ( acc , data , index )",3, 77, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"toHash ( object , key )",5, 77, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"function ( x )",3, 117, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"toKebabCase ( str )",5, 117, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"toOrdinalSuffix ( num )",8, 126, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"toSafeInteger ( num )",3, 98, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"function ( x )",3, 117, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"toSnakeCase ( str )",5, 117, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"function ( x )",3, 110, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"toTitleCase ( str )",5, 110, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"toggleClass ( el , className )",3, 58, 2, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"tomorrow ( )",5, 42, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"function ( a , k )",3, 53, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"transform ( obj , fn , acc )",5, 53, 2, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"triggerEvent ( el , eventType , detail )",5, 68, 2, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"truncateString ( str , num )",3, 83, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"function ( obj )",3, 45, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"truthCheckCollection ( collection , pre )",5, 78, 2, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"function ( val )",3, 28, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"unary ( fn )",5, 35, 2, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"function ( x , y )",3, 47, 10, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"function ( args )",5, 47, 10, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"next ( acc )",7, 47, 10, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"function ( )",16, 109, 6, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"uncurry ( fn )",19, 109, 6, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"function ( tag )",9, 73, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"unescapeHTML ( str )",11, 73, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"function ( v , i )",3, 89, 10, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"function ( acc , k )",10, 89, 10, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"unflattenObject ( obj )",12, 89, 10, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"unfold ( fn , seed )",10, 43, 2, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"union ( a , b )",3, 85, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"function ( x )",3, 102, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"unionBy ( a , b , fn )",6, 102, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"function ( y )",3, 40, 6, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"function ( x )",5, 102, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"unionWith ( a , b , comp )",7, 102, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"uniqueElements ( arr )",3, 54, 2, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"function ( x )",3, 35, 6, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"function ( acc , v )",6, 42, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"uniqueElementsBy ( arr , fn )",8, 62, 2, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"function ( x )",3, 35, 6, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"function ( acc , v )",6, 47, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"uniqueElementsByRight ( arr , fn )",8, 72, 2, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"function ( v )",3, 81, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"function ( v )",3, 58, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"uniqueSymmetricDifference ( a , b )",7, 81, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"untildify ( str )",3, 81, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"function ( v , i )",3, 43, 6, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"function ( acc , val )",5, 44, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"function ( x )",3, 77, 6, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"function ( x )",3, 26, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"unzip ( arr )",13, 77, 6, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"function ( v , i )",3, 43, 6, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"function ( acc , val )",5, 44, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"function ( x )",3, 77, 6, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"function ( x )",3, 29, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"function ( val )",3, 56, 6, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"unzipWith ( arr , fn )",15, 77, 6, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"validateNumber ( n )",3, 67, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"function ( acc , val , i )",3, 75, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"vectorDistance ( )",11, 109, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"function ( x )",3, 40, 6, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"when ( pred , whenTrue )",5, 45, 2, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"function ( v )",3, 37, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"without ( arr )",9, 128, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"words ( str )",4, 101, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"function ( y )",3, 45, 6, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"function ( acc , x )",5, 45, 6, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"xProd ( a , b )",7, 45, 6, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"yesNo ( val )",4, 89, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"function ( x )",3, 86, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"function ( _ , k )",3, 29, 8, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"function ( _ , i )",7, 30, 8, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"zip ( )",18, 109, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"function ( obj , prop , index )",3, 54, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"zipObject ( props , values )",5, 54, 2, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"function ( a )",3, 79, 6, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"function ( a )",3, 79, 6, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"function ( a )",3, 38, 6, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"function ( _ , i )",7, 79, 6, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"zipWith ( )",18, 108, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.es5.js,"function ( exports )",2961, 263, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.esm.js,"] ( )",3, 30, 6, 0
+repos/javascript/30-seconds-of-code/dist/_30s.esm.js,"function ( ... args )",4, 60, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.esm.js,"cached ( val )",3, 99, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.esm.js,"function ( ... args )",5, 33, 4, 0
+repos/javascript/30-seconds-of-code/dist/_30s.esm.js,"function ( )",6, 55, 6, 0
+repos/javascript/30-seconds-of-code/dist/_30s.esm.js,"function ( )",17, 55, 6, 0
+repos/javascript/30-seconds-of-code/scripts/web.js,"function ( err2 )",4, 93, 8, 0
+repos/javascript/30-seconds-of-code/scripts/web.js,"function ( err , result )",10, 93, 8, 0
+repos/javascript/30-seconds-of-code/scripts/build.js,"time ( 'Builder' )",10, 102, 0, 0
+repos/javascript/30-seconds-of-code/scripts/module.js,"getRawSnippetString ( snippetPath , snippet )",3, 67, 2, 0
+repos/javascript/30-seconds-of-code/scripts/module.js,"getCode ( rawSnippetString )",3, 63, 2, 0
+repos/javascript/30-seconds-of-code/scripts/module.js,"doRollup ( )",32, 80, 2, 0
+repos/javascript/30-seconds-of-code/scripts/module.js,"build ( )",92, 80, 4, 0

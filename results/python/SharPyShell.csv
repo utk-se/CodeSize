@@ -1,0 +1,117 @@
+File, Function, Length, Total Width, Leading Space(s), Leading Tab(s)
+repos/python/SharPyShell/SharPyShell.py,"create_generate_parser( subparsers )",53, 108, 8, 0
+repos/python/SharPyShell/SharPyShell.py,"create_interact_parser( subparsers )",73, 160, 8, 0
+repos/python/SharPyShell/core/Generate.py,"__init__( self , password , encryption , obfuscator , endian_type , output )",10, 79, 4, 0
+repos/python/SharPyShell/core/Generate.py,"__get_template_code( self )",12, 80, 8, 0
+repos/python/SharPyShell/core/Generate.py,"__generate_webshell_code_encrypted_dll.xor_file( path , key )",6, 93, 12, 0
+repos/python/SharPyShell/core/Generate.py,"__generate_webshell_code_encrypted_dll.generate_byte_file_string( byte_arr )",3, 59, 12, 0
+repos/python/SharPyShell/core/Generate.py,"__generate_webshell_code_encrypted_dll( self , template_code )",22, 108, 8, 0
+repos/python/SharPyShell/core/Generate.py,"__generate_webshell_code_ulong_compression.get_dll_code( dll_code_path )",4, 58, 12, 0
+repos/python/SharPyShell/core/Generate.py,"__generate_webshell_code_ulong_compression.get_ulong_arrays( dll_code , divisor , endian_type )",16, 84, 16, 0
+repos/python/SharPyShell/core/Generate.py,"__generate_webshell_code_ulong_compression( self , template_code )",35, 106, 8, 0
+repos/python/SharPyShell/core/Generate.py,"generate( self )",13, 102, 12, 0
+repos/python/SharPyShell/core/Request.py,"__parse_custom_header( self , custom_header )",5, 64, 8, 0
+repos/python/SharPyShell/core/Request.py,"__init__( self , url , user_agent , cookies_string = False , custom_header = False , insecure_ssl = 'false' , proxy = False )",21, 119, 4, 0
+repos/python/SharPyShell/core/Request.py,"send_request( self , request )",12, 90, 57, 0
+repos/python/SharPyShell/core/ChannelAES.py,"__init__( self , password )",3, 54, 8, 0
+repos/python/SharPyShell/core/ChannelAES.py,"encrypt( self , plain_data )",6, 91, 8, 0
+repos/python/SharPyShell/core/ChannelAES.py,"decrypt( self , encrypted_data )",5, 67, 8, 0
+repos/python/SharPyShell/core/ChannelXOR.py,"__init__( self , password )",2, 49, 8, 0
+repos/python/SharPyShell/core/ChannelXOR.py,"encrypt( self , plain_data )",5, 89, 8, 0
+repos/python/SharPyShell/core/ChannelXOR.py,"decrypt( self , encrypted_data )",2, 43, 8, 0
+repos/python/SharPyShell/core/Environment.py,"_create_request( self , args )",2, 37, 4, 0
+repos/python/SharPyShell/core/Environment.py,"_create_request( self , args )",6, 80, 12, 0
+repos/python/SharPyShell/core/Environment.py,"_create_request( self , args )",8, 66, 8, 0
+repos/python/SharPyShell/core/Environment.py,"__init__( self , password , channel_enc_mode , request_object )",5, 94, 8, 0
+repos/python/SharPyShell/core/Environment.py,"__get_temp_dir( self )",7, 58, 8, 0
+repos/python/SharPyShell/core/Environment.py,"make_env( self , random_name_dir )",13, 64, 8, 0
+repos/python/SharPyShell/core/Environment.py,"clear_env.format_output( text )",6, 68, 16, 0
+repos/python/SharPyShell/core/Environment.py,"clear_env( self , env_settings )",19, 99, 8, 0
+repos/python/SharPyShell/core/Module.py,"__init__( self , password , channel_enc_mode , module_settings , request_object )",9, 85, 4, 0
+repos/python/SharPyShell/core/Module.py,"_create_request( self , args )",3, 40, 8, 0
+repos/python/SharPyShell/core/Module.py,"_encrypt_request( self , request_clear )",4, 73, 8, 0
+repos/python/SharPyShell/core/Module.py,"_post_request( self , request_encrypted_encoded )",8, 91, 12, 0
+repos/python/SharPyShell/core/Module.py,"_decrypt_response( self , encrypted_response_encoded )",4, 75, 8, 0
+repos/python/SharPyShell/core/Module.py,"_parse_response( self , response )",6, 104, 12, 0
+repos/python/SharPyShell/core/Module.py,"run( self , args )",13, 104, 12, 0
+repos/python/SharPyShell/core/SharPyShellPrompt.py,"__init__( self , password , channel_enc_mode , default_shell , url , user_agent , cookies , custom_headers , insecure_ssl , proxy )",2, 83, 4, 0
+repos/python/SharPyShell/core/SharPyShellPrompt.py,"load_modules( self , request_object )",15, 93, 54, 0
+repos/python/SharPyShell/core/SharPyShellPrompt.py,"precmd( self , line )",4, 43, 12, 0
+repos/python/SharPyShell/core/SharPyShellPrompt.py,"onecmd( self , line )",18, 65, 12, 0
+repos/python/SharPyShell/core/SharPyShellPrompt.py,"onecmd_custom( self , cmd , args )",12, 65, 12, 0
+repos/python/SharPyShell/core/SharPyShellPrompt.py,"postcmd( self , stop , line )",8, 88, 12, 0
+repos/python/SharPyShell/core/SharPyShellPrompt.py,"do_cd( self , arg )",36, 80, 8, 0
+repos/python/SharPyShell/core/SharPyShellPrompt.py,"do_help( self , arg )",17, 96, 16, 0
+repos/python/SharPyShell/core/SharPyShellPrompt.py,"complete_help( self , text , line , start_index , end_index )",6, 104, 8, 0
+repos/python/SharPyShell/core/SharPyShellPrompt.py,"completenames( self , text , * ignored )",4, 103, 8, 0
+repos/python/SharPyShell/core/SharPyShellPrompt.py,"complete( self , text , state )",31, 79, 8, 0
+repos/python/SharPyShell/core/SharPyShellPrompt.py,"default( self , line )",13, 69, 8, 0
+repos/python/SharPyShell/core/SharPyShellPrompt.py,"cmdloop( self , intro = None )",53, 77, 8, 0
+repos/python/SharPyShell/core/SharPyShellPrompt.py,"do_quit( self , args = [ ] )",8, 64, 12, 0
+repos/python/SharPyShell/core/SharPyShellPrompt.py,"do_exit( self , args = [ ] )",3, 32, 4, 0
+repos/python/SharPyShell/utils/prettify.py,"tablify( data , table_border = True )",54, 75, 16, 0
+repos/python/SharPyShell/utils/prettify.py,"shorten( body , keep_header = 0 , keep_trailer = 0 )",23, 71, 8, 0
+repos/python/SharPyShell/utils/minify_code.py,"minify_code( ps_code )",6, 42, 4, 0
+repos/python/SharPyShell/utils/normalize_args.py,"normalize_args( args )",11, 54, 8, 0
+repos/python/SharPyShell/utils/Singleton.py,"__new__( cls , * args , ** kwargs )",4, 86, 12, 0
+repos/python/SharPyShell/utils/random_string.py,"random_generator( )",4, 62, 4, 0
+repos/python/SharPyShell/modules/runas_ps.py,"__gen_powershell_launcher( self , ps_code )",5, 72, 8, 0
+repos/python/SharPyShell/modules/runas_ps.py,"_create_request( self , args )",10, 101, 8, 0
+repos/python/SharPyShell/modules/lateral_psexec.py,"__init__( self , password , channel_enc_mode , module_settings , request_object )",3, 104, 8, 0
+repos/python/SharPyShell/modules/lateral_psexec.py,"__lookup_psexec_binary( self )",12, 114, 12, 0
+repos/python/SharPyShell/modules/lateral_psexec.py,"__run_as_current_user( self , psexec_path , psexec_code_arguments )",6, 93, 8, 0
+repos/python/SharPyShell/modules/lateral_psexec.py,"__run_as( self , psexec_path , psexec_code_arguments , local_user , local_password , local_domain )",7, 107, 8, 0
+repos/python/SharPyShell/modules/lateral_psexec.py,"__parse_run_args( self , args )",13, 110, 8, 0
+repos/python/SharPyShell/modules/lateral_psexec.py,"_create_request( self , args )",13, 113, 50, 0
+repos/python/SharPyShell/modules/lateral_psexec.py,"run( self , args )",19, 119, 16, 0
+repos/python/SharPyShell/modules/invoke_ps_module_as.py,"__init__( self , password , channel_enc_mode , module_settings , request_object )",4, 104, 8, 0
+repos/python/SharPyShell/modules/invoke_ps_module_as.py,"__parse_run_args( self , args )",12, 110, 12, 0
+repos/python/SharPyShell/modules/invoke_ps_module_as.py,"run( self , args )",16, 108, 12, 0
+repos/python/SharPyShell/modules/lateral_wmi.py,"__run_as_current_user( self , wmi_code_arguments )",6, 77, 8, 0
+repos/python/SharPyShell/modules/lateral_wmi.py,"__run_as( self , wmi_code_arguments , local_user , local_password , local_domain )",6, 114, 8, 0
+repos/python/SharPyShell/modules/lateral_wmi.py,"__parse_run_args( self , args )",12, 103, 12, 0
+repos/python/SharPyShell/modules/lateral_wmi.py,"_create_request( self , args )",13, 112, 12, 0
+repos/python/SharPyShell/modules/lateral_wmi.py,"run( self , args )",16, 104, 12, 0
+repos/python/SharPyShell/modules/privesc_powerup.py,"__init__( self , password , channel_enc_mode , module_settings , request_object )",4, 123, 8, 0
+repos/python/SharPyShell/modules/privesc_powerup.py,"__parse_run_args( self , args )",7, 75, 8, 0
+repos/python/SharPyShell/modules/privesc_powerup.py,"run( self , args )",15, 104, 12, 0
+repos/python/SharPyShell/modules/upload.py,"__init_file( self , path )",7, 72, 8, 0
+repos/python/SharPyShell/modules/upload.py,"__parse_run_args( self , args )",10, 98, 12, 0
+repos/python/SharPyShell/modules/upload.py,"_create_request._create_request.split_file_to_array_bytes.chunks( l , n )",3, 46, 16, 0
+repos/python/SharPyShell/modules/upload.py,"_create_request.split_file_to_array_bytes( binary_file , chunk_size_arg )",5, 68, 8, 0
+repos/python/SharPyShell/modules/upload.py,"_create_request.generate_byte_file_string( byte_arr )",2, 80, 12, 0
+repos/python/SharPyShell/modules/upload.py,"_create_request( self , args )",26, 95, 16, 0
+repos/python/SharPyShell/modules/upload.py,"run( self , args )",20, 120, 20, 0
+repos/python/SharPyShell/modules/download.py,"__get_file_size( self , file_path )",7, 72, 8, 0
+repos/python/SharPyShell/modules/download.py,"__write_local_file( self , file_content , output_path , split = False )",9, 74, 4, 0
+repos/python/SharPyShell/modules/download.py,"__parse_run_args( self , args )",12, 106, 12, 0
+repos/python/SharPyShell/modules/download.py,"_create_request( self , args )",18, 110, 20, 0
+repos/python/SharPyShell/modules/download.py,"run( self , args )",24, 115, 26, 0
+repos/python/SharPyShell/modules/net_portscan.py,"__init__( self , password , channel_enc_mode , module_settings , request_object )",4, 117, 8, 0
+repos/python/SharPyShell/modules/net_portscan.py,"__parse_run_args( self , args )",8, 103, 12, 0
+repos/python/SharPyShell/modules/net_portscan.py,"__gen_appended_code( self , hosts , ports , custom_arguments , output_file )",4, 103, 8, 0
+repos/python/SharPyShell/modules/net_portscan.py,"run( self , args )",15, 112, 12, 0
+repos/python/SharPyShell/modules/privesc_juicy_potato.py,"__init__( self , password , channel_enc_mode , module_settings , request_object )",4, 108, 8, 0
+repos/python/SharPyShell/modules/privesc_juicy_potato.py,"__parse_run_args( self , args )",7, 112, 12, 0
+repos/python/SharPyShell/modules/privesc_juicy_potato.py,"__lookup_binary( self )",12, 114, 12, 0
+repos/python/SharPyShell/modules/privesc_juicy_potato.py,"_create_request( self , args )",4, 79, 8, 0
+repos/python/SharPyShell/modules/privesc_juicy_potato.py,"run( self , args )",15, 131, 12, 0
+repos/python/SharPyShell/modules/mimikatz.py,"__init__( self , password , channel_enc_mode , module_settings , request_object )",7, 123, 8, 0
+repos/python/SharPyShell/modules/mimikatz.py,"__parse_run_args( self , args )",8, 125, 8, 0
+repos/python/SharPyShell/modules/mimikatz.py,"__lookup_exe_binary( self )",12, 114, 12, 0
+repos/python/SharPyShell/modules/mimikatz.py,"__run_exe_version( self , username , password , domain , custom_command )",11, 129, 16, 0
+repos/python/SharPyShell/modules/mimikatz.py,"__run_ps_version( self , username , password , domain , custom_command )",7, 128, 12, 0
+repos/python/SharPyShell/modules/mimikatz.py,"run( self , args )",14, 104, 12, 0
+repos/python/SharPyShell/modules/exec_ps.py,"_create_request( self , args )",8, 66, 8, 0
+repos/python/SharPyShell/modules/runas.py,"_parse_run_args( self , args )",11, 97, 12, 0
+repos/python/SharPyShell/modules/runas.py,"_create_request( self , args )",7, 101, 8, 0
+repos/python/SharPyShell/modules/exec_cmd.py,"_create_request( self , args )",4, 66, 8, 0
+repos/python/SharPyShell/modules/invoke_ps_module.py,"__init__( self , password , channel_enc_mode , module_settings , request_object )",4, 104, 8, 0
+repos/python/SharPyShell/modules/invoke_ps_module.py,"__parse_run_args( self , args )",7, 108, 12, 0
+repos/python/SharPyShell/modules/invoke_ps_module.py,"__xor_bytearray( self , byte_array )",4, 52, 12, 0
+repos/python/SharPyShell/modules/invoke_ps_module.py,"__encrypt_ps_file( self , file_path )",5, 68, 12, 0
+repos/python/SharPyShell/modules/invoke_ps_module.py,"_gen_encrypted_module( self , ps_module )",7, 78, 8, 0
+repos/python/SharPyShell/modules/invoke_ps_module.py,"_gen_appended_code( self , appended_code )",17, 115, 12, 0
+repos/python/SharPyShell/modules/invoke_ps_module.py,"_lookup_module( self , ps_module )",18, 115, 16, 0
+repos/python/SharPyShell/modules/invoke_ps_module.py,"_create_request( self , args )",8, 104, 12, 0
+repos/python/SharPyShell/modules/invoke_ps_module.py,"run( self , args )",14, 108, 12, 0

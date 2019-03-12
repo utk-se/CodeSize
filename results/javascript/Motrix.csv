@@ -1,0 +1,93 @@
+File, Function, Length, Total Width, Leading Space(s), Leading Tab(s)
+repos/javascript/Motrix/.electron-vue/build.js,"clean ( )",5, 63, 2, 0
+repos/javascript/Motrix/.electron-vue/build.js,"build ( )",40, 82, 4, 0
+repos/javascript/Motrix/.electron-vue/build.js,"pack ( config )",27, 44, 2, 0
+repos/javascript/Motrix/.electron-vue/build.js,"web ( )",14, 51, 4, 0
+repos/javascript/Motrix/.electron-vue/build.js,"greeting ( )",17, 58, 2, 0
+repos/javascript/Motrix/.electron-vue/dev-runner.js,"logStats ( proc , data )",21, 95, 2, 0
+repos/javascript/Motrix/.electron-vue/dev-runner.js,"startRenderer ( )",38, 110, 6, 0
+repos/javascript/Motrix/.electron-vue/dev-runner.js,"startMain ( )",35, 109, 4, 0
+repos/javascript/Motrix/.electron-vue/dev-runner.js,"startElectron ( )",14, 106, 2, 0
+repos/javascript/Motrix/.electron-vue/dev-runner.js,"electronLog ( data , color )",16, 60, 6, 0
+repos/javascript/Motrix/.electron-vue/dev-runner.js,"greeting ( )",17, 60, 2, 0
+repos/javascript/Motrix/.electron-vue/dev-runner.js,"init ( )",11, 46, 2, 0
+repos/javascript/Motrix/src/renderer/components/Locale/index.js,"getLocaleManager ( )",3, 38, 0, 0
+repos/javascript/Motrix/src/renderer/components/Native/utils.js,"getUserDownloadsPath ( )",3, 42, 0, 0
+repos/javascript/Motrix/src/renderer/components/Native/utils.js,"prettifyDir ( dir )",5, 55, 2, 0
+repos/javascript/Motrix/src/renderer/components/Native/utils.js,"showItemInFolder ( fullPath , { errorMsg } )",10, 60, 0, 0
+repos/javascript/Motrix/src/renderer/components/Native/utils.js,"openItem ( fullPath , { errorMsg } )",10, 52, 0, 0
+repos/javascript/Motrix/src/renderer/components/Native/utils.js,"moveTaskFilesToTrash ( task , messages = { } )",37, 66, 2, 0
+repos/javascript/Motrix/src/renderer/components/Native/utils.js,"openDownloadDock ( path )",6, 42, 0, 0
+repos/javascript/Motrix/src/renderer/components/Native/utils.js,"updateDockBadge ( text )",6, 41, 0, 0
+repos/javascript/Motrix/src/renderer/components/Native/utils.js,"showDownloadSpeedInDock ( downloadSpeed )",7, 67, 2, 0
+repos/javascript/Motrix/src/renderer/components/Native/utils.js,"addToRecentTask ( task )",7, 41, 0, 0
+repos/javascript/Motrix/src/renderer/components/Native/utils.js,"addToRecentTaskByPath ( path )",6, 47, 0, 0
+repos/javascript/Motrix/src/renderer/components/Native/utils.js,"clearRecentTasks ( )",6, 38, 0, 0
+repos/javascript/Motrix/src/renderer/components/Msg/index.js,"install ( Vue , Message , defaultOption = { } )",37, 57, 2, 0
+repos/javascript/Motrix/src/renderer/components/Command/index.js,"showAboutPanel ( )",3, 39, 2, 0
+repos/javascript/Motrix/src/renderer/components/Command/index.js,"showAddTask ( taskType = 'uri' )",3, 52, 2, 0
+repos/javascript/Motrix/src/renderer/components/Command/index.js,"navigateTaskList ( status = 'active' )",3, 48, 0, 0
+repos/javascript/Motrix/src/renderer/components/Command/index.js,"navigatePreferences ( )",3, 39, 2, 0
+repos/javascript/Motrix/src/renderer/components/Command/index.js,"showUnderDevelopmentMessage ( )",3, 56, 2, 0
+repos/javascript/Motrix/src/renderer/components/Command/index.js,"pauseTask ( )",3, 32, 2, 0
+repos/javascript/Motrix/src/renderer/components/Command/index.js,"resumeTask ( )",3, 32, 2, 0
+repos/javascript/Motrix/src/renderer/components/Command/index.js,"deleteTask ( )",3, 32, 2, 0
+repos/javascript/Motrix/src/renderer/components/Command/index.js,"moveTaskUp ( )",3, 32, 2, 0
+repos/javascript/Motrix/src/renderer/components/Command/index.js,"moveTaskDown ( )",3, 32, 2, 0
+repos/javascript/Motrix/src/renderer/components/Command/index.js,"pauseAllTask ( )",3, 38, 2, 0
+repos/javascript/Motrix/src/renderer/components/Command/index.js,"resumeAllTask ( )",3, 39, 2, 0
+repos/javascript/Motrix/src/renderer/pages/index/main.js,"init ( config )",43, 55, 2, 0
+repos/javascript/Motrix/src/shared/utils.js,"bytesToSize ( bytes )",8, 67, 2, 0
+repos/javascript/Motrix/src/shared/utils.js,"calcProgress ( totalLength , completedLength )",10, 62, 0, 0
+repos/javascript/Motrix/src/shared/utils.js,"timeRemaining ( totalLength , completedLength , downloadSpeed )",4, 78, 0, 0
+repos/javascript/Motrix/src/shared/utils.js,"timeFormat ( seconds , { prefix = '' , suffix = '' , i18n } )",31, 75, 0, 0
+repos/javascript/Motrix/src/shared/utils.js,"ellipsis ( str = '' , maxLen = 64 )",13, 51, 0, 0
+repos/javascript/Motrix/src/shared/utils.js,"getTaskName ( task , options = { } )",24, 63, 2, 0
+repos/javascript/Motrix/src/shared/utils.js,"getFileName ( file )",18, 52, 2, 0
+repos/javascript/Motrix/src/shared/utils.js,"getTaskFullPath ( task )",31, 63, 2, 0
+repos/javascript/Motrix/src/shared/utils.js,"isMagnetTask ( task )",4, 40, 2, 0
+repos/javascript/Motrix/src/shared/utils.js,"getTaskUri ( task , btTracker = [ ] )",15, 52, 0, 0
+repos/javascript/Motrix/src/shared/utils.js,"buildMagnetLink ( task , btTracker = [ ] )",20, 57, 0, 0
+repos/javascript/Motrix/src/shared/utils.js,"checkTaskTitleIsEmpty ( task )",10, 63, 2, 0
+repos/javascript/Motrix/src/shared/utils.js,"checkTaskIsBT ( task )",4, 39, 0, 0
+repos/javascript/Motrix/src/shared/utils.js,"isTorrent ( file )",4, 74, 2, 0
+repos/javascript/Motrix/src/shared/utils.js,"getAsBase64 ( file , callback )",9, 81, 4, 0
+repos/javascript/Motrix/src/shared/utils.js,"mergeTaskResult ( response = [ ] )",7, 50, 0, 0
+repos/javascript/Motrix/src/shared/utils.js,"changeKeysCase ( obj , caseConverter )",13, 54, 0, 0
+repos/javascript/Motrix/src/shared/utils.js,"changeKeysToCamelCase ( obj )",3, 46, 0, 0
+repos/javascript/Motrix/src/shared/utils.js,"changeKeysToKebabCase ( obj )",3, 46, 0, 0
+repos/javascript/Motrix/src/shared/utils.js,"validateNumber ( n )",3, 65, 2, 0
+repos/javascript/Motrix/src/shared/utils.js,"fixValue ( obj )",15, 46, 2, 0
+repos/javascript/Motrix/src/shared/utils.js,"separateConfig ( options )",20, 50, 2, 0
+repos/javascript/Motrix/src/shared/utils.js,"compactUndefined ( arr = [ ] )",5, 46, 0, 0
+repos/javascript/Motrix/src/shared/utils.js,"splitTextRows ( text = '' )",3, 55, 2, 0
+repos/javascript/Motrix/src/shared/utils.js,"isAudioOrVideo ( uri = '' )",7, 51, 2, 0
+repos/javascript/Motrix/src/shared/utils.js,"needCheckCopyright ( links = '' )",9, 50, 0, 0
+repos/javascript/Motrix/src/shared/utils.js,"decodeThunderLink ( url = '' )",10, 58, 2, 0
+repos/javascript/Motrix/src/shared/utils.js,"splitTaskLinks ( links = '' )",7, 46, 0, 0
+repos/javascript/Motrix/src/shared/utils.js,"detectResource ( content )",5, 43, 0, 0
+repos/javascript/Motrix/src/shared/locales/index.js,"checkLngIsAvailable ( locale )",3, 64, 2, 0
+repos/javascript/Motrix/src/shared/locales/index.js,"getLanguage ( locale = 'en-US' )",23, 52, 2, 0
+repos/javascript/Motrix/src/main/index.js,"function ( )",6, 75, 4, 0
+repos/javascript/Motrix/src/main/index.js,"_init ( )",39, 75, 4, 0
+repos/javascript/Motrix/src/main/index.js,"init ( )",18, 76, 6, 0
+repos/javascript/Motrix/src/main/core/Engine.js,"parser ( command , args )",6, 41, 6, 0
+repos/javascript/Motrix/src/main/core/Engine.js,"function ( code )",3, 78, 6, 0
+repos/javascript/Motrix/src/main/utils/index.js,"getLogPath ( )",3, 37, 2, 0
+repos/javascript/Motrix/src/main/utils/index.js,"getSessionPath ( )",3, 64, 2, 0
+repos/javascript/Motrix/src/main/utils/index.js,"getUserDataPath ( )",3, 37, 0, 0
+repos/javascript/Motrix/src/main/utils/index.js,"getUserDownloadsPath ( )",3, 42, 0, 0
+repos/javascript/Motrix/src/main/utils/index.js,"getEngineBin ( platform )",4, 83, 2, 0
+repos/javascript/Motrix/src/main/utils/index.js,"transformConfig ( config )",9, 49, 2, 0
+repos/javascript/Motrix/src/main/utils/index.js,"isRunningInDmg ( )",8, 49, 2, 0
+repos/javascript/Motrix/src/main/utils/index.js,"moveAppToApplicationsFolder ( )",14, 52, 6, 0
+repos/javascript/Motrix/src/main/utils/menu.js,"concat ( template , submenu , submenuToAdd )",36, 64, 10, 0
+repos/javascript/Motrix/src/main/utils/menu.js,"merge ( template , item )",17, 57, 6, 0
+repos/javascript/Motrix/src/main/utils/menu.js,"findById ( template , id )",17, 77, 6, 0
+repos/javascript/Motrix/src/main/utils/menu.js,"translateTemplate ( template , keystrokesByCommand )",17, 82, 6, 0
+repos/javascript/Motrix/src/main/utils/menu.js,"handleCommand ( item )",11, 42, 4, 0
+repos/javascript/Motrix/src/main/utils/menu.js,"handleCommandBefore ( item )",9, 65, 2, 0
+repos/javascript/Motrix/src/main/utils/menu.js,"handleCommandAfter ( item )",9, 64, 2, 0
+repos/javascript/Motrix/src/main/utils/menu.js,"acceleratorForCommand ( command , keystrokesByCommand )",26, 64, 0, 0
+repos/javascript/Motrix/src/main/utils/menu.js,"flattenMenuItems ( menu )",12, 68, 8, 0
+repos/javascript/Motrix/src/main/utils/menu.js,"updateStates ( itemsById , visibleStates , enabledStates , checkedStates )",26, 88, 0, 0

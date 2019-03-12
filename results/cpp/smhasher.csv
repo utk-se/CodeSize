@@ -1,0 +1,409 @@
+File, Function, Length, Total Width, Leading Space(s), Leading Tab(s)
+repos/cpp/smhasher/metrohash64.cpp,"metrohash64_1( const uint8_t * key , uint64_t len , uint32_t seed , uint8_t * out)",76, 92, 8, 0
+repos/cpp/smhasher/metrohash64.cpp,"metrohash64_2( const uint8_t * key , uint64_t len , uint32_t seed , uint8_t * out)",75, 92, 8, 0
+repos/cpp/smhasher/lookup3.cpp,"lookup3( const void * key , int length , uint32_t initval)",40, 84, 4, 0
+repos/cpp/smhasher/lookup3.cpp,"lookup3_test( const void * key , int len , uint32_t seed , void * out)",4, 75, 0, 0
+repos/cpp/smhasher/md5.cpp,"md5_starts( md5_context * ctx)",10, 36, 0, 0
+repos/cpp/smhasher/md5.cpp,"md5_process( md5_context * ctx , unsigned char data [ 64 ])",122, 68, 0, 0
+repos/cpp/smhasher/md5.cpp,"md5_update( md5_context * ctx , unsigned char * input , int ilen)",40, 68, 0, 0
+repos/cpp/smhasher/md5.cpp,"md5_finish( md5_context * ctx , unsigned char output [ 16 ])",24, 62, 0, 0
+repos/cpp/smhasher/md5.cpp,"md5( unsigned char * input , int ilen , unsigned char output [ 16 ] , uint32_t seed)",11, 84, 0, 0
+repos/cpp/smhasher/md5.cpp,"md5hash( const void * input , int len , uint32_t seed)",10, 68, 0, 0
+repos/cpp/smhasher/md5.cpp,"md5_32( const void * key , int len , uint32_t seed , void * out)",8, 80, 0, 0
+repos/cpp/smhasher/crc.cpp,"crc32( const void * key , int len , uint32_t seed , void * out)",20, 68, 0, 0
+repos/cpp/smhasher/Types.cpp,"blackhole( uint32_t)",3, 28, 0, 0
+repos/cpp/smhasher/Types.cpp,"whitehole( void)",4, 28, 0, 0
+repos/cpp/smhasher/Types.cpp,"MixVCode( const void * blob , int len)",4, 45, 0, 0
+repos/cpp/smhasher/Types.cpp,"isprime( uint32_t x)",27, 81, 4, 0
+repos/cpp/smhasher/Types.cpp,"GenerateMixingConstants( void)",82, 82, 2, 0
+repos/cpp/smhasher/fasthash.cpp,"mix( uint64_t h)",6, 45, 0, 0
+repos/cpp/smhasher/fasthash.cpp,"fasthash64( const void * buf , size_t len , uint64_t seed)",32, 64, 0, 0
+repos/cpp/smhasher/fasthash.cpp,"fasthash32( const void * buf , size_t len , uint32_t seed)",8, 65, 0, 1
+repos/cpp/smhasher/Spooky.cpp,"SpookyHash::Short( const void * message , size_t length , uint64 * hash1 , uint64 * hash2)",101, 51, 8, 0
+repos/cpp/smhasher/Spooky.cpp,"SpookyHash::Hash128( const void * message , size_t length , uint64 * hash1 , uint64 * hash2)",61, 72, 4, 0
+repos/cpp/smhasher/Spooky.cpp,"SpookyHash::Init( uint64 seed1 , uint64 seed2)",7, 50, 0, 0
+repos/cpp/smhasher/Spooky.cpp,"SpookyHash::Update( const void * message , size_t length)",101, 72, 8, 0
+repos/cpp/smhasher/Spooky.cpp,"SpookyHash::Final( uint64 * hash1 , uint64 * hash2)",45, 71, 8, 0
+repos/cpp/smhasher/metrohash128.cpp,"metrohash128_1( const uint8_t * key , uint64_t len , uint32_t seed , uint8_t * out)",74, 87, 12, 0
+repos/cpp/smhasher/metrohash128.cpp,"metrohash128_2( const uint8_t * key , uint64_t len , uint32_t seed , uint8_t * out)",74, 87, 12, 0
+repos/cpp/smhasher/Hashes.cpp,"BadHash( const void * key , int len , uint32_t seed , void * out)",13, 60, 0, 0
+repos/cpp/smhasher/Hashes.cpp,"sumhash( const void * key , int len , uint32_t seed , void * out)",11, 60, 0, 0
+repos/cpp/smhasher/Hashes.cpp,"sumhash32( const void * key , int len , uint32_t seed , void * out)",11, 62, 0, 0
+repos/cpp/smhasher/Hashes.cpp,"DoNothingHash( const void * , int , uint32_t , void *)",3, 51, 0, 0
+repos/cpp/smhasher/Hashes.cpp,"NoopOAATReadHash( const void * key , int len , uint32_t seed , void * out)",10, 69, 0, 0
+repos/cpp/smhasher/Hashes.cpp,"MurmurOAAT( const void * key , int len , uint32_t seed)",13, 61, 0, 0
+repos/cpp/smhasher/Hashes.cpp,"MurmurOAAT_test( const void * key , int len , uint32_t seed , void * out)",4, 68, 0, 0
+repos/cpp/smhasher/Hashes.cpp,"FNV32a( const void * key , int len , uint32_t seed , void * out)",14, 59, 0, 0
+repos/cpp/smhasher/Hashes.cpp,"FNV32a_YoshimitsuTRIAD( const void * key , int len , uint32_t seed , void * out)",45, 108, 2, 0
+repos/cpp/smhasher/Hashes.cpp,"FNV64a( const void * key , int len , uint32_t seed , void * out)",14, 59, 0, 0
+repos/cpp/smhasher/Hashes.cpp,"x17( const void * key , int len , uint32_t h)",10, 51, 0, 0
+repos/cpp/smhasher/Hashes.cpp,"x17_test( const void * key , int len , uint32_t seed , void * out)",4, 61, 0, 0
+repos/cpp/smhasher/Hashes.cpp,"Bernstein( const void * key , int len , uint32_t seed , void * out)",11, 62, 0, 0
+repos/cpp/smhasher/Hashes.cpp,"sdbm( const void * key , int len , uint32_t hash , void * out)",10, 81, 2, 0
+repos/cpp/smhasher/Hashes.cpp,"JenkinsOOAT( const void * key , int len , uint32_t hash , void * out)",38, 81, 2, 0
+repos/cpp/smhasher/Hashes.cpp,"JenkinsOOAT_perl( const void * key , int len , uint32_t hash , void * out)",14, 74, 0, 0
+repos/cpp/smhasher/Hashes.cpp,"GoodOAAT( const void * key , int len , uint32_t seed , void * out)",27, 69, 2, 0
+repos/cpp/smhasher/Hashes.cpp,"MicroOAAT( const void * key , int len , uint32_t seed , void * out)",19, 69, 0, 0
+repos/cpp/smhasher/Hashes.cpp,"Crap8( const uint8_t * key , uint32_t len , uint32_t seed)",23, 112, 0, 0
+repos/cpp/smhasher/Hashes.cpp,"Crap8_test( const void * key , int len , uint32_t seed , void * out)",4, 63, 0, 0
+repos/cpp/smhasher/Hashes.cpp,"hasshe2_test( const void * input , int len , uint32_t seed , void * out)",12, 67, 0, 0
+repos/cpp/smhasher/Hashes.cpp,"crc32c_hw_test( const void * input , int len , uint32_t seed , void * out)",8, 69, 0, 0
+repos/cpp/smhasher/Hashes.cpp,"crc32c_hw1_test( const void * input , int len , uint32_t seed , void * out)",8, 70, 0, 0
+repos/cpp/smhasher/Hashes.cpp,"crc64c_hw_test( const void * input , int len , uint32_t seed , void * out)",8, 69, 0, 0
+repos/cpp/smhasher/Hashes.cpp,"zlib_crc32_test( const void * input , int len , uint32_t seed , void * out)",8, 70, 0, 0
+repos/cpp/smhasher/Hashes.cpp,"fhtw_test( const void * input , int len , uint32_t seed , void * out)",4, 64, 0, 0
+repos/cpp/smhasher/Hashes.cpp,"siphash_test( const void * input , int len , uint32_t seed , void * out)",11, 80, 2, 0
+repos/cpp/smhasher/Hashes.cpp,"siphash13_test( const void * input , int len , uint32_t seed , void * out)",10, 82, 2, 0
+repos/cpp/smhasher/Hashes.cpp,"halfsiphash_test( const void * input , int len , uint32_t seed , void * out)",10, 84, 2, 0
+repos/cpp/smhasher/Hashes.cpp,"falkhash_test_cxx( const void * input , int len , uint32_t seed , void * out)",10, 72, 0, 0
+repos/cpp/smhasher/FarmTest.cc,"FarmHash32_test( const void * key , int len , uint32_t seed , void * out)",4, 80, 0, 0
+repos/cpp/smhasher/FarmTest.cc,"FarmHash64_test( const void * key , int len , uint32_t seed , void * out)",4, 82, 2, 0
+repos/cpp/smhasher/FarmTest.cc,"FarmHash128_test( const void * key , int len , uint32_t seed , void * out)",6, 81, 0, 0
+repos/cpp/smhasher/Stats.cpp,"chooseK( int n , int k)",15, 42, 4, 0
+repos/cpp/smhasher/Stats.cpp,"chooseUpToK( int n , int k)",11, 36, 0, 0
+repos/cpp/smhasher/Stats.cpp,"calcScore( const int * bins , const int bincount , const int keycount)",26, 78, 0, 0
+repos/cpp/smhasher/Stats.cpp,"plot( double n)",23, 29, 4, 0
+repos/cpp/smhasher/sha1.cpp,"SHA1_Transform( uint32_t state [ 5 ] , const uint8_t buffer [ 64 ])",116, 70, 3, 0
+repos/cpp/smhasher/sha1.cpp,"SHA1_Init( SHA1_CTX * context)",9, 45, 2, 0
+repos/cpp/smhasher/sha1.cpp,"SHA1_Update( SHA1_CTX * context , const uint8_t * data , const size_t len)",19, 77, 0, 0
+repos/cpp/smhasher/sha1.cpp,"SHA1_Final( SHA1_CTX * context , uint8_t digest [ SHA1_DIGEST_SIZE ])",24, 77, 2, 0
+repos/cpp/smhasher/sha1.cpp,"sha1_32a( const void * key , int len , uint32_t seed , void * out)",12, 68, 0, 0
+repos/cpp/smhasher/sha1.cpp,"digest_to_hex( const uint8_t digest [ SHA1_DIGEST_SIZE ] , char * output)",14, 75, 0, 0
+repos/cpp/smhasher/sha1.cpp,"main( int argc , char ** argv)",40, 74, 4, 0
+repos/cpp/smhasher/AvalancheTest.cpp,"PrintAvalancheDiagram( int x , int y , int reps , double scale , int * bins)",29, 80, 0, 0
+repos/cpp/smhasher/AvalancheTest.cpp,"maxBias( std :: vector<int> & counts , int reps)",18, 55, 0, 0
+repos/cpp/smhasher/mum.cc,"mum_hash_test( const void * key , int len , uint32_t seed , void * out)",3, 73, 0, 0
+repos/cpp/smhasher/metrohash128crc.cpp,"metrohash128crc_1( const uint8_t * key , uint64_t len , uint32_t seed , uint8_t * out)",74, 88, 0, 0
+repos/cpp/smhasher/metrohash128crc.cpp,"metrohash128crc_2( const uint8_t * key , uint64_t len , uint32_t seed , uint8_t * out)",74, 88, 0, 0
+repos/cpp/smhasher/Bitslice.cpp,"countbits( slice & v)",13, 39, 2, 0
+repos/cpp/smhasher/Bitslice.cpp,"countxor( slice & a , slice & b)",15, 39, 2, 0
+repos/cpp/smhasher/Bitslice.cpp,"xoreq( slice & a , slice & b)",9, 39, 2, 0
+repos/cpp/smhasher/Bitslice.cpp,"Bitslice( std :: vector<hashtype> & hashes , slice_vec & slices)",26, 69, 0, 0
+repos/cpp/smhasher/Bitslice.cpp,"FactorSlices( slice_vec & slices)",38, 52, 6, 0
+repos/cpp/smhasher/Bitslice.cpp,"foo( void)",7, 18, 0, 0
+repos/cpp/smhasher/metrohash64crc.cpp,"metrohash64crc_1( const uint8_t * key , uint64_t len , uint32_t seed , uint8_t * out)",76, 92, 8, 0
+repos/cpp/smhasher/metrohash64crc.cpp,"metrohash64crc_2( const uint8_t * key , uint64_t len , uint32_t seed , uint8_t * out)",76, 92, 8, 0
+repos/cpp/smhasher/SpookyTest.cpp,"SpookyHash32_test( const void * key , int len , uint32_t seed , void * out)",3, 77, 0, 0
+repos/cpp/smhasher/SpookyTest.cpp,"SpookyHash64_test( const void * key , int len , uint32_t seed , void * out)",3, 77, 0, 0
+repos/cpp/smhasher/SpookyTest.cpp,"SpookyHash128_test( const void * key , int len , uint32_t seed , void * out)",6, 78, 0, 0
+repos/cpp/smhasher/KeysetTest.cpp,"VerificationTest( pfHash hash , const int hashbits , uint32_t expected , bool verbose)",45, 103, 4, 0
+repos/cpp/smhasher/KeysetTest.cpp,"SanityTest( pfHash hash , const int hashbits)",83, 76, 10, 0
+repos/cpp/smhasher/KeysetTest.cpp,"AppendedZeroesTest( pfHash hash , const int hashbits)",40, 60, 0, 0
+repos/cpp/smhasher/KeysetTest.cpp,"TwoBytesKeygen( int maxlen , KeyCallback & c)",60, 86, 2, 0
+repos/cpp/smhasher/KeysetTest.cpp,"DumpCollisionMap( CollisionMap<hashtype,ByteVec> & cmap)",26, 75, 2, 0
+repos/cpp/smhasher/KeysetTest.cpp,"ReportCollisions( pfHash hash)",18, 57, 2, 0
+repos/cpp/smhasher/Bitvec.cpp,"assert( bool)",3, 21, 0, 0
+repos/cpp/smhasher/Bitvec.cpp,"printbits( const void * blob , int len)",22, 48, 2, 0
+repos/cpp/smhasher/Bitvec.cpp,"printbits2( const uint8_t * k , int nbytes)",17, 50, 0, 0
+repos/cpp/smhasher/Bitvec.cpp,"printhex32( const void * blob , int len)",15, 47, 0, 0
+repos/cpp/smhasher/Bitvec.cpp,"printbytes( const void * blob , int len)",13, 47, 0, 0
+repos/cpp/smhasher/Bitvec.cpp,"printbytes2( const void * blob , int len)",9, 48, 0, 0
+repos/cpp/smhasher/Bitvec.cpp,"popcount( uint32_t v)",8, 81, 0, 1
+repos/cpp/smhasher/Bitvec.cpp,"parity( uint32_t v)",7, 38, 0, 1
+repos/cpp/smhasher/Bitvec.cpp,"getbit( const void * block , int len , uint32_t bit)",11, 62, 0, 0
+repos/cpp/smhasher/Bitvec.cpp,"getbit_wrap( const void * block , int len , uint32_t bit)",11, 67, 0, 0
+repos/cpp/smhasher/Bitvec.cpp,"setbit( void * block , int len , uint32_t bit)",9, 52, 0, 0
+repos/cpp/smhasher/Bitvec.cpp,"setbit( void * block , int len , uint32_t bit , uint32_t val)",4, 66, 0, 0
+repos/cpp/smhasher/Bitvec.cpp,"clearbit( void * block , int len , uint32_t bit)",9, 54, 0, 0
+repos/cpp/smhasher/Bitvec.cpp,"flipbit( void * block , int len , uint32_t bit)",9, 53, 0, 0
+repos/cpp/smhasher/Bitvec.cpp,"countbits( uint32_t v)",8, 82, 2, 0
+repos/cpp/smhasher/Bitvec.cpp,"lshift1( void * blob , int len , int c)",9, 45, 0, 0
+repos/cpp/smhasher/Bitvec.cpp,"lshift8( void * blob , int nbytes , int c)",29, 48, 0, 0
+repos/cpp/smhasher/Bitvec.cpp,"lshift32( void * blob , int len , int c)",36, 52, 2, 0
+repos/cpp/smhasher/Bitvec.cpp,"rshift1( void * blob , int len , int c)",9, 45, 0, 0
+repos/cpp/smhasher/Bitvec.cpp,"rshift8( void * blob , int nbytes , int c)",29, 48, 0, 0
+repos/cpp/smhasher/Bitvec.cpp,"rshift32( void * blob , int len , int c)",36, 48, 4, 0
+repos/cpp/smhasher/Bitvec.cpp,"lrot1( void * blob , int len , int c)",13, 45, 4, 0
+repos/cpp/smhasher/Bitvec.cpp,"lrot8( void * blob , int len , int c)",37, 43, 0, 0
+repos/cpp/smhasher/Bitvec.cpp,"lrot32( void * blob , int len , int c)",40, 44, 0, 0
+repos/cpp/smhasher/Bitvec.cpp,"rrot1( void * blob , int len , int c)",13, 43, 0, 0
+repos/cpp/smhasher/Bitvec.cpp,"rrot8( void * blob , int len , int c)",39, 46, 4, 0
+repos/cpp/smhasher/Bitvec.cpp,"rrot32( void * blob , int len , int c)",42, 48, 4, 0
+repos/cpp/smhasher/Bitvec.cpp,"window1( void * blob , int len , int start , int count)",14, 64, 0, 0
+repos/cpp/smhasher/Bitvec.cpp,"window8( void * blob , int len , int start , int count)",31, 64, 0, 0
+repos/cpp/smhasher/Bitvec.cpp,"window32( void * blob , int len , int start , int count)",30, 65, 0, 0
+repos/cpp/smhasher/Bitvec.cpp,"test_shift( void)",38, 64, 6, 0
+repos/cpp/smhasher/Bitvec.cpp,"test_window2( void)",38, 53, 8, 0
+repos/cpp/smhasher/Bitvec.cpp,"test_window( void)",48, 54, 8, 0
+repos/cpp/smhasher/SuperFastHash.cpp,"get16bits( const void * p)",4, 51, 0, 0
+repos/cpp/smhasher/SuperFastHash.cpp,"SuperFastHash( const signed char * data , int len)",44, 61, 0, 0
+repos/cpp/smhasher/SuperFastHash.cpp,"SuperFastHash( const void * key , int len , uint32_t , void * out)",4, 84, 0, 0
+repos/cpp/smhasher/City.cpp,"UNALIGNED_LOAD64( const char * p)",5, 48, 0, 0
+repos/cpp/smhasher/City.cpp,"UNALIGNED_LOAD32( const char * p)",5, 48, 0, 0
+repos/cpp/smhasher/City.cpp,"Fetch64( const char * p)",3, 56, 2, 0
+repos/cpp/smhasher/City.cpp,"Fetch32( const char * p)",3, 56, 2, 0
+repos/cpp/smhasher/City.cpp,"fmix( uint32 h)",9, 29, 0, 0
+repos/cpp/smhasher/City.cpp,"Rotate32( uint32 val , int shift)",4, 70, 2, 0
+repos/cpp/smhasher/City.cpp,"Mur( uint32 a , uint32 h)",9, 58, 2, 0
+repos/cpp/smhasher/City.cpp,"Hash32Len13to24( const char * s , size_t len , uint32 seed)",11, 72, 0, 0
+repos/cpp/smhasher/City.cpp,"Hash32Len0to4( const char * s , size_t len , uint32 seed)",9, 70, 0, 0
+repos/cpp/smhasher/City.cpp,"Hash32Len5to12( const char * s , size_t len , uint32 seed)",7, 71, 0, 0
+repos/cpp/smhasher/City.cpp,"CityHash32WithSeed( const char * s , size_t len , uint32 seed)",68, 82, 8, 0
+repos/cpp/smhasher/City.cpp,"Rotate( uint64 val , int shift)",4, 70, 2, 0
+repos/cpp/smhasher/City.cpp,"RotateByAtLeast1( uint64 val , int shift)",3, 56, 0, 0
+repos/cpp/smhasher/City.cpp,"ShiftMix( uint64 val)",3, 37, 0, 0
+repos/cpp/smhasher/City.cpp,"HashLen16( uint64 u , uint64 v)",3, 46, 0, 0
+repos/cpp/smhasher/City.cpp,"HashLen0to16( const char * s , size_t len)",20, 71, 4, 0
+repos/cpp/smhasher/City.cpp,"HashLen17to32( const char * s , size_t len)",8, 58, 2, 0
+repos/cpp/smhasher/City.cpp,"WeakHashLen32WithSeeds( uint64 w , uint64 x , uint64 y , uint64 z , uint64 a , uint64 b)",10, 66, 4, 0
+repos/cpp/smhasher/City.cpp,"WeakHashLen32WithSeeds( const char * s , uint64 a , uint64 b)",9, 52, 0, 0
+repos/cpp/smhasher/City.cpp,"HashLen33to64( const char * s , size_t len)",22, 62, 2, 0
+repos/cpp/smhasher/City.cpp,"CityHash64( const char * s , size_t len)",37, 80, 2, 0
+repos/cpp/smhasher/City.cpp,"CityHash64WithSeed( const char * s , size_t len , uint64 seed)",3, 68, 0, 0
+repos/cpp/smhasher/City.cpp,"CityHash64WithSeeds( const char * s , size_t len , uint64 seed0 , uint64 seed1)",4, 57, 27, 0
+repos/cpp/smhasher/City.cpp,"CityMurmur( const char * s , size_t len , uint128 seed)",29, 69, 0, 0
+repos/cpp/smhasher/City.cpp,"CityHash128WithSeed( const char * s , size_t len , uint128 seed)",58, 79, 2, 0
+repos/cpp/smhasher/City.cpp,"CityHash128( const char * s , size_t len)",15, 68, 39, 0
+repos/cpp/smhasher/City.cpp,"CityHashCrc256Long( const char * s , size_t len , uint32 seed , uint64 * result)",67, 66, 0, 0
+repos/cpp/smhasher/City.cpp,"CityHashCrc256Short( const char * s , size_t len , uint64 * result)",6, 77, 0, 0
+repos/cpp/smhasher/City.cpp,"CityHashCrc256( const char * s , size_t len , uint64 * result)",7, 65, 0, 0
+repos/cpp/smhasher/City.cpp,"CityHashCrc128WithSeed( const char * s , size_t len , uint128 seed)",12, 74, 0, 0
+repos/cpp/smhasher/City.cpp,"CityHashCrc128( const char * s , size_t len)",9, 52, 0, 0
+repos/cpp/smhasher/SpeedTest.cpp,"CalcMean( std :: vector<double> & v)",13, 44, 0, 0
+repos/cpp/smhasher/SpeedTest.cpp,"CalcMean( std :: vector<double> & v , int a , int b)",13, 58, 0, 0
+repos/cpp/smhasher/SpeedTest.cpp,"CalcStdv( std :: vector<double> & v , int a , int b)",17, 58, 0, 0
+repos/cpp/smhasher/SpeedTest.cpp,"ContainsOutlier( std :: vector<double> & v , size_t len)",25, 61, 0, 0
+repos/cpp/smhasher/SpeedTest.cpp,"FilterOutliers( std :: vector<double> & v)",18, 48, 0, 0
+repos/cpp/smhasher/SpeedTest.cpp,"FilterOutliers2( std :: vector<double> & v)",27, 51, 2, 0
+repos/cpp/smhasher/SpeedTest.cpp,"timehash( pfHash hash , const void * key , int len , int seed)",14, 83, 0, 0
+repos/cpp/smhasher/SpeedTest.cpp,"timehash_small( pfHash hash , const void * key , int len , int seed)",28, 89, 0, 0
+repos/cpp/smhasher/SpeedTest.cpp,"SpeedTest( pfHash hash , uint32_t seed , const int trials , const int blocksize , const int align)",48, 104, 0, 0
+repos/cpp/smhasher/SpeedTest.cpp,"BulkSpeedTest( pfHash hash , uint32_t seed)",23, 115, 2, 0
+repos/cpp/smhasher/SpeedTest.cpp,"TinySpeedTest( pfHash hash , int hashsize , int keysize , uint32_t seed , bool verbose)",11, 93, 0, 0
+repos/cpp/smhasher/Platform.cpp,"testRDTSC( void)",6, 26, 2, 0
+repos/cpp/smhasher/Platform.cpp,"SetAffinity( int cpu)",5, 66, 2, 0
+repos/cpp/smhasher/Platform.cpp,"SetAffinity( int)",15, 73, 0, 0
+repos/cpp/smhasher/MurmurHash1.cpp,"MurmurHash1( const void * key , int len , uint32_t seed)",47, 66, 0, 0
+repos/cpp/smhasher/MurmurHash1.cpp,"MurmurHash1Aligned( const void * key , int len , unsigned int seed)",98, 81, 0, 0
+repos/cpp/smhasher/farmhash.cc,"NAMESPACE_FOR_HASH_FUNCTIONS::Fetch64( const char * p)",5, 48, 0, 0
+repos/cpp/smhasher/farmhash.cc,"NAMESPACE_FOR_HASH_FUNCTIONS::Fetch32( const char * p)",5, 48, 0, 0
+repos/cpp/smhasher/farmhash.cc,"NAMESPACE_FOR_HASH_FUNCTIONS::Bswap32( uint32_t val)",1, 71, 0, 0
+repos/cpp/smhasher/farmhash.cc,"NAMESPACE_FOR_HASH_FUNCTIONS::Bswap64( uint64_t val)",1, 71, 0, 0
+repos/cpp/smhasher/farmhash.cc,"NAMESPACE_FOR_HASH_FUNCTIONS::BasicRotate32( uint32_t val , int shift)",4, 70, 2, 0
+repos/cpp/smhasher/farmhash.cc,"NAMESPACE_FOR_HASH_FUNCTIONS::BasicRotate64( uint64_t val , int shift)",4, 70, 2, 0
+repos/cpp/smhasher/farmhash.cc,"NAMESPACE_FOR_HASH_FUNCTIONS::Rotate32( uint32_t val , int shift)",5, 59, 0, 0
+repos/cpp/smhasher/farmhash.cc,"NAMESPACE_FOR_HASH_FUNCTIONS::Rotate64( uint64_t val , int shift)",5, 59, 0, 0
+repos/cpp/smhasher/farmhash.cc,"NAMESPACE_FOR_HASH_FUNCTIONS::Rotate32( uint32_t val , int shift)",3, 59, 0, 0
+repos/cpp/smhasher/farmhash.cc,"NAMESPACE_FOR_HASH_FUNCTIONS::Rotate64( uint64_t val , int shift)",3, 59, 0, 0
+repos/cpp/smhasher/farmhash.cc,"Fetch128( const char * s)",3, 63, 2, 0
+repos/cpp/smhasher/farmhash.cc,"NAMESPACE_FOR_HASH_FUNCTIONS::fmix( uint32_t h)",9, 40, 0, 0
+repos/cpp/smhasher/farmhash.cc,"NAMESPACE_FOR_HASH_FUNCTIONS::Mur( uint32_t a , uint32_t h)",9, 58, 2, 0
+repos/cpp/smhasher/farmhash.cc,"NAMESPACE_FOR_HASH_FUNCTIONS::DebugTweak( T x)",10, 56, 0, 0
+repos/cpp/smhasher/farmhash.cc,"NAMESPACE_FOR_HASH_FUNCTIONS::DebugTweak( uint128_t x)",10, 48, 0, 0
+repos/cpp/smhasher/farmhash.cc,"farmhashna::ShiftMix( uint64_t val)",3, 48, 0, 0
+repos/cpp/smhasher/farmhash.cc,"farmhashna::HashLen16( uint64_t u , uint64_t v)",3, 59, 0, 0
+repos/cpp/smhasher/farmhash.cc,"farmhashna::HashLen16( uint64_t u , uint64_t v , uint64_t mul)",9, 73, 0, 0
+repos/cpp/smhasher/farmhash.cc,"farmhashna::HashLen0to16( const char * s , size_t len)",24, 77, 4, 0
+repos/cpp/smhasher/farmhash.cc,"farmhashna::HashLen17to32( const char * s , size_t len)",9, 66, 0, 0
+repos/cpp/smhasher/farmhash.cc,"farmhashna::WeakHashLen32WithSeeds( uint64_t w , uint64_t x , uint64_t y , uint64_t z , uint64_t a , uint64_t b)",10, 78, 4, 0
+repos/cpp/smhasher/farmhash.cc,"farmhashna::WeakHashLen32WithSeeds( const char * s , uint64_t a , uint64_t b)",9, 63, 0, 0
+repos/cpp/smhasher/farmhash.cc,"farmhashna::HashLen33to64( const char * s , size_t len)",15, 66, 0, 0
+repos/cpp/smhasher/farmhash.cc,"farmhashna::Hash64( const char * s , size_t len)",54, 76, 2, 0
+repos/cpp/smhasher/farmhash.cc,"farmhashna::Hash64WithSeed( const char * s , size_t len , uint64_t seed)",3, 68, 0, 0
+repos/cpp/smhasher/farmhash.cc,"farmhashna::Hash64WithSeeds( const char * s , size_t len , uint64_t seed0 , uint64_t seed1)",3, 86, 0, 0
+repos/cpp/smhasher/farmhash.cc,"farmhashuo::H( uint64_t x , uint64_t y , uint64_t mul , int r)",6, 72, 0, 0
+repos/cpp/smhasher/farmhash.cc,"farmhashuo::Hash64WithSeeds( const char * s , size_t len , uint64_t seed0 , uint64_t seed1)",90, 83, 2, 0
+repos/cpp/smhasher/farmhash.cc,"farmhashuo::Hash64WithSeed( const char * s , size_t len , uint64_t seed)",4, 68, 0, 0
+repos/cpp/smhasher/farmhash.cc,"farmhashuo::Hash64( const char * s , size_t len)",4, 50, 2, 0
+repos/cpp/smhasher/farmhash.cc,"farmhashxo::H32( const char * s , size_t len , uint64_t mul , uint64_t seed0 = 0 , uint64_t seed1 = 0)",12, 69, 27, 0
+repos/cpp/smhasher/farmhash.cc,"farmhashxo::HashLen33to64( const char * s , size_t len)",7, 66, 0, 0
+repos/cpp/smhasher/farmhash.cc,"farmhashxo::HashLen65to96( const char * s , size_t len)",8, 66, 0, 0
+repos/cpp/smhasher/farmhash.cc,"farmhashxo::Hash64( const char * s , size_t len)",17, 48, 6, 0
+repos/cpp/smhasher/farmhash.cc,"farmhashxo::Hash64WithSeeds( const char * s , size_t len , uint64_t seed0 , uint64_t seed1)",3, 86, 0, 0
+repos/cpp/smhasher/farmhash.cc,"farmhashxo::Hash64WithSeed( const char * s , size_t len , uint64_t seed)",3, 68, 0, 0
+repos/cpp/smhasher/farmhash.cc,"farmhashte::Hash64( const char * s , size_t len)",4, 45, 0, 0
+repos/cpp/smhasher/farmhash.cc,"farmhashte::Hash64WithSeed( const char * s , size_t len , uint64_t seed)",4, 68, 0, 0
+repos/cpp/smhasher/farmhash.cc,"farmhashte::Hash64WithSeeds( const char * s , size_t len , uint64_t seed0 , uint64_t seed1)",5, 59, 25, 0
+repos/cpp/smhasher/farmhash.cc,"farmhashte::Add( __m128i x , __m128i y)",1, 80, 0, 0
+repos/cpp/smhasher/farmhash.cc,"farmhashte::Xor( __m128i x , __m128i y)",1, 80, 0, 0
+repos/cpp/smhasher/farmhash.cc,"farmhashte::Mul( __m128i x , __m128i y)",1, 82, 0, 0
+repos/cpp/smhasher/farmhash.cc,"farmhashte::Shuf( __m128i x , __m128i y)",1, 84, 0, 0
+repos/cpp/smhasher/farmhash.cc,"farmhashte::Hash64Long( const char * s , size_t n , uint64_t seed0 , uint64_t seed1)",176, 84, 4, 0
+repos/cpp/smhasher/farmhash.cc,"farmhashte::Hash64( const char * s , size_t len)",4, 79, 2, 0
+repos/cpp/smhasher/farmhash.cc,"farmhashte::Hash64WithSeed( const char * s , size_t len , uint64_t seed)",4, 68, 0, 0
+repos/cpp/smhasher/farmhash.cc,"farmhashte::Hash64WithSeeds( const char * s , size_t len , uint64_t seed0 , uint64_t seed1)",4, 86, 0, 0
+repos/cpp/smhasher/farmhash.cc,"farmhashnt::Hash32( const char * s , size_t len)",4, 45, 0, 0
+repos/cpp/smhasher/farmhash.cc,"farmhashnt::Hash32WithSeed( const char * s , size_t len , uint32_t seed)",4, 68, 0, 0
+repos/cpp/smhasher/farmhash.cc,"farmhashnt::Hash32( const char * s , size_t len)",3, 60, 2, 0
+repos/cpp/smhasher/farmhash.cc,"farmhashnt::Hash32WithSeed( const char * s , size_t len , uint32_t seed)",3, 74, 2, 0
+repos/cpp/smhasher/farmhash.cc,"farmhashmk::Hash32Len13to24( const char * s , size_t len , uint32_t seed = 0)",16, 87, 0, 0
+repos/cpp/smhasher/farmhash.cc,"farmhashmk::Hash32Len0to4( const char * s , size_t len , uint32_t seed = 0)",10, 85, 0, 0
+repos/cpp/smhasher/farmhash.cc,"farmhashmk::Hash32Len5to12( const char * s , size_t len , uint32_t seed = 0)",7, 86, 0, 0
+repos/cpp/smhasher/farmhash.cc,"farmhashmk::Hash32( const char * s , size_t len)",57, 70, 8, 0
+repos/cpp/smhasher/farmhash.cc,"farmhashmk::Hash32WithSeed( const char * s , size_t len , uint32_t seed)",9, 68, 0, 0
+repos/cpp/smhasher/farmhash.cc,"farmhashsu::Hash32( const char * s , size_t len)",4, 45, 0, 0
+repos/cpp/smhasher/farmhash.cc,"farmhashsu::Hash32WithSeed( const char * s , size_t len , uint32_t seed)",4, 68, 0, 0
+repos/cpp/smhasher/farmhash.cc,"farmhashsu::Add( __m128i x , __m128i y)",1, 80, 0, 0
+repos/cpp/smhasher/farmhash.cc,"farmhashsu::Xor( __m128i x , __m128i y)",1, 80, 0, 0
+repos/cpp/smhasher/farmhash.cc,"farmhashsu::Or( __m128i x , __m128i y)",1, 78, 0, 0
+repos/cpp/smhasher/farmhash.cc,"farmhashsu::Mul( __m128i x , __m128i y)",1, 82, 0, 0
+repos/cpp/smhasher/farmhash.cc,"farmhashsu::Mul5( __m128i x)",1, 79, 0, 0
+repos/cpp/smhasher/farmhash.cc,"farmhashsu::RotateLeft( __m128i x , int c)",4, 53, 0, 0
+repos/cpp/smhasher/farmhash.cc,"farmhashsu::Rol17( __m128i x)",1, 69, 0, 0
+repos/cpp/smhasher/farmhash.cc,"farmhashsu::Rol19( __m128i x)",1, 69, 0, 0
+repos/cpp/smhasher/farmhash.cc,"farmhashsu::Shuffle0321( __m128i x)",3, 74, 2, 0
+repos/cpp/smhasher/farmhash.cc,"farmhashsu::Hash32( const char * s , size_t len)",162, 67, 4, 0
+repos/cpp/smhasher/farmhash.cc,"farmhashsu::Hash32WithSeed( const char * s , size_t len , uint32_t seed)",9, 74, 4, 0
+repos/cpp/smhasher/farmhash.cc,"farmhashsa::Hash32( const char * s , size_t len)",4, 45, 0, 0
+repos/cpp/smhasher/farmhash.cc,"farmhashsa::Hash32WithSeed( const char * s , size_t len , uint32_t seed)",4, 68, 0, 0
+repos/cpp/smhasher/farmhash.cc,"farmhashsa::Add( __m128i x , __m128i y)",1, 80, 0, 0
+repos/cpp/smhasher/farmhash.cc,"farmhashsa::Xor( __m128i x , __m128i y)",1, 80, 0, 0
+repos/cpp/smhasher/farmhash.cc,"farmhashsa::Or( __m128i x , __m128i y)",1, 78, 0, 0
+repos/cpp/smhasher/farmhash.cc,"farmhashsa::Mul( __m128i x , __m128i y)",1, 82, 0, 0
+repos/cpp/smhasher/farmhash.cc,"farmhashsa::Mul5( __m128i x)",1, 79, 0, 0
+repos/cpp/smhasher/farmhash.cc,"farmhashsa::Rotate( __m128i x , int c)",4, 49, 0, 0
+repos/cpp/smhasher/farmhash.cc,"farmhashsa::Rot17( __m128i x)",1, 65, 0, 0
+repos/cpp/smhasher/farmhash.cc,"farmhashsa::Rot19( __m128i x)",1, 65, 0, 0
+repos/cpp/smhasher/farmhash.cc,"farmhashsa::Shuffle0321( __m128i x)",3, 74, 2, 0
+repos/cpp/smhasher/farmhash.cc,"farmhashsa::Hash32( const char * s , size_t len)",152, 67, 4, 0
+repos/cpp/smhasher/farmhash.cc,"farmhashsa::Hash32WithSeed( const char * s , size_t len , uint32_t seed)",9, 74, 4, 0
+repos/cpp/smhasher/farmhash.cc,"farmhashcc::Hash32Len13to24( const char * s , size_t len)",11, 68, 0, 0
+repos/cpp/smhasher/farmhash.cc,"farmhashcc::Hash32Len0to4( const char * s , size_t len)",10, 66, 0, 0
+repos/cpp/smhasher/farmhash.cc,"farmhashcc::Hash32Len5to12( const char * s , size_t len)",7, 67, 0, 0
+repos/cpp/smhasher/farmhash.cc,"farmhashcc::Hash32( const char * s , size_t len)",68, 70, 8, 0
+repos/cpp/smhasher/farmhash.cc,"farmhashcc::Hash32WithSeed( const char * s , size_t len , uint32_t seed)",9, 74, 4, 0
+repos/cpp/smhasher/farmhash.cc,"farmhashcc::ShiftMix( uint64_t val)",3, 48, 0, 0
+repos/cpp/smhasher/farmhash.cc,"farmhashcc::HashLen16( uint64_t u , uint64_t v)",3, 59, 0, 0
+repos/cpp/smhasher/farmhash.cc,"farmhashcc::HashLen16( uint64_t u , uint64_t v , uint64_t mul)",9, 73, 0, 0
+repos/cpp/smhasher/farmhash.cc,"farmhashcc::HashLen0to16( const char * s , size_t len)",24, 77, 4, 0
+repos/cpp/smhasher/farmhash.cc,"farmhashcc::WeakHashLen32WithSeeds( uint64_t w , uint64_t x , uint64_t y , uint64_t z , uint64_t a , uint64_t b)",10, 78, 4, 0
+repos/cpp/smhasher/farmhash.cc,"farmhashcc::WeakHashLen32WithSeeds( const char * s , uint64_t a , uint64_t b)",9, 63, 0, 0
+repos/cpp/smhasher/farmhash.cc,"farmhashcc::CityMurmur( const char * s , size_t len , uint128_t seed)",29, 80, 0, 0
+repos/cpp/smhasher/farmhash.cc,"farmhashcc::CityHash128WithSeed( const char * s , size_t len , uint128_t seed)",62, 79, 2, 0
+repos/cpp/smhasher/farmhash.cc,"farmhashcc::CityHash128( const char * s , size_t len)",6, 68, 26, 0
+repos/cpp/smhasher/farmhash.cc,"farmhashcc::Fingerprint128( const char * s , size_t len)",3, 54, 0, 0
+repos/cpp/smhasher/farmhash.cc,"NAMESPACE_FOR_HASH_FUNCTIONS::Hash32( const char * s , size_t len)",7, 69, 6, 0
+repos/cpp/smhasher/farmhash.cc,"NAMESPACE_FOR_HASH_FUNCTIONS::Hash32WithSeed( const char * s , size_t len , uint32_t seed)",7, 83, 6, 0
+repos/cpp/smhasher/farmhash.cc,"NAMESPACE_FOR_HASH_FUNCTIONS::Hash64( const char * s , size_t len)",6, 45, 0, 0
+repos/cpp/smhasher/farmhash.cc,"NAMESPACE_FOR_HASH_FUNCTIONS::Hash( const char * s , size_t len)",3, 64, 2, 0
+repos/cpp/smhasher/farmhash.cc,"NAMESPACE_FOR_HASH_FUNCTIONS::Hash64WithSeed( const char * s , size_t len , uint64_t seed)",3, 68, 0, 0
+repos/cpp/smhasher/farmhash.cc,"NAMESPACE_FOR_HASH_FUNCTIONS::Hash64WithSeeds( const char * s , size_t len , uint64_t seed0 , uint64_t seed1)",3, 86, 0, 0
+repos/cpp/smhasher/farmhash.cc,"NAMESPACE_FOR_HASH_FUNCTIONS::Hash128( const char * s , size_t len)",3, 57, 2, 0
+repos/cpp/smhasher/farmhash.cc,"NAMESPACE_FOR_HASH_FUNCTIONS::Hash128WithSeed( const char * s , size_t len , uint128_t seed)",3, 71, 0, 0
+repos/cpp/smhasher/farmhash.cc,"NAMESPACE_FOR_HASH_FUNCTIONS::Fingerprint32( const char * s , size_t len)",3, 52, 0, 0
+repos/cpp/smhasher/farmhash.cc,"NAMESPACE_FOR_HASH_FUNCTIONS::Fingerprint64( const char * s , size_t len)",3, 52, 0, 0
+repos/cpp/smhasher/farmhash.cc,"NAMESPACE_FOR_HASH_FUNCTIONS::Fingerprint128( const char * s , size_t len)",3, 54, 0, 0
+repos/cpp/smhasher/farmhash.cc,"Setup()",14, 51, 6, 0
+repos/cpp/smhasher/farmhash.cc,"NoteErrors()",6, 48, 2, 0
+repos/cpp/smhasher/farmhash.cc,"IsNonZero( T x)",3, 51, 0, 0
+repos/cpp/smhasher/farmhash.cc,"IsNonZero<uint128_t>( uint128_t x)",3, 60, 0, 0
+repos/cpp/smhasher/farmhash.cc,"farmhashccTest::CreateSeed( int offset , int salt)",17, 57, 2, 0
+repos/cpp/smhasher/farmhash.cc,"farmhashccTest::Test( int offset , int len = 0)",28, 362, 0, 0
+repos/cpp/smhasher/farmhash.cc,"farmhashccTest::RunTest()",20, 74, 2, 0
+repos/cpp/smhasher/farmhash.cc,"farmhashccTest::Dump( int offset , int len)",6, 269, 0, 0
+repos/cpp/smhasher/farmhash.cc,"main( int argc , char ** argv)",13, 39, 2, 0
+repos/cpp/smhasher/farmhash.cc,"Setup()",14, 51, 6, 0
+repos/cpp/smhasher/farmhash.cc,"NoteErrors()",6, 48, 2, 0
+repos/cpp/smhasher/farmhash.cc,"IsNonZero( T x)",3, 51, 0, 0
+repos/cpp/smhasher/farmhash.cc,"IsNonZero<uint128_t>( uint128_t x)",3, 60, 0, 0
+repos/cpp/smhasher/farmhash.cc,"farmhashmkTest::CreateSeed( int offset , int salt)",17, 57, 2, 0
+repos/cpp/smhasher/farmhash.cc,"farmhashmkTest::Test( int offset , int len = 0)",26, 205, 0, 0
+repos/cpp/smhasher/farmhash.cc,"farmhashmkTest::RunTest()",20, 74, 2, 0
+repos/cpp/smhasher/farmhash.cc,"farmhashmkTest::Dump( int offset , int len)",4, 78, 0, 0
+repos/cpp/smhasher/farmhash.cc,"main( int argc , char ** argv)",13, 39, 2, 0
+repos/cpp/smhasher/farmhash.cc,"Setup()",14, 51, 6, 0
+repos/cpp/smhasher/farmhash.cc,"NoteErrors()",6, 48, 2, 0
+repos/cpp/smhasher/farmhash.cc,"IsNonZero( T x)",3, 51, 0, 0
+repos/cpp/smhasher/farmhash.cc,"IsNonZero<uint128_t>( uint128_t x)",3, 60, 0, 0
+repos/cpp/smhasher/farmhash.cc,"farmhashnaTest::CreateSeed( int offset , int salt)",17, 57, 2, 0
+repos/cpp/smhasher/farmhash.cc,"farmhashnaTest::Test( int offset , int len = 0)",27, 384, 0, 0
+repos/cpp/smhasher/farmhash.cc,"farmhashnaTest::RunTest()",20, 74, 2, 0
+repos/cpp/smhasher/farmhash.cc,"farmhashnaTest::Dump( int offset , int len)",5, 145, 0, 0
+repos/cpp/smhasher/farmhash.cc,"main( int argc , char ** argv)",13, 39, 2, 0
+repos/cpp/smhasher/farmhash.cc,"Setup()",14, 51, 6, 0
+repos/cpp/smhasher/farmhash.cc,"NoteErrors()",6, 48, 2, 0
+repos/cpp/smhasher/farmhash.cc,"IsNonZero( T x)",3, 51, 0, 0
+repos/cpp/smhasher/farmhash.cc,"IsNonZero<uint128_t>( uint128_t x)",3, 60, 0, 0
+repos/cpp/smhasher/farmhash.cc,"farmhashntTest::CreateSeed( int offset , int salt)",17, 57, 2, 0
+repos/cpp/smhasher/farmhash.cc,"farmhashntTest::Test( int offset , int len = 0)",26, 205, 0, 0
+repos/cpp/smhasher/farmhash.cc,"farmhashntTest::RunTest()",20, 74, 2, 0
+repos/cpp/smhasher/farmhash.cc,"farmhashntTest::Dump( int offset , int len)",4, 78, 0, 0
+repos/cpp/smhasher/farmhash.cc,"main( int argc , char ** argv)",13, 39, 2, 0
+repos/cpp/smhasher/farmhash.cc,"Setup()",14, 51, 6, 0
+repos/cpp/smhasher/farmhash.cc,"NoteErrors()",6, 48, 2, 0
+repos/cpp/smhasher/farmhash.cc,"IsNonZero( T x)",3, 51, 0, 0
+repos/cpp/smhasher/farmhash.cc,"IsNonZero<uint128_t>( uint128_t x)",3, 60, 0, 0
+repos/cpp/smhasher/farmhash.cc,"farmhashsaTest::CreateSeed( int offset , int salt)",17, 57, 2, 0
+repos/cpp/smhasher/farmhash.cc,"farmhashsaTest::Test( int offset , int len = 0)",26, 205, 0, 0
+repos/cpp/smhasher/farmhash.cc,"farmhashsaTest::RunTest()",20, 74, 2, 0
+repos/cpp/smhasher/farmhash.cc,"farmhashsaTest::Dump( int offset , int len)",4, 78, 0, 0
+repos/cpp/smhasher/farmhash.cc,"main( int argc , char ** argv)",13, 39, 2, 0
+repos/cpp/smhasher/farmhash.cc,"Setup()",14, 51, 6, 0
+repos/cpp/smhasher/farmhash.cc,"NoteErrors()",6, 48, 2, 0
+repos/cpp/smhasher/farmhash.cc,"IsNonZero( T x)",3, 51, 0, 0
+repos/cpp/smhasher/farmhash.cc,"IsNonZero<uint128_t>( uint128_t x)",3, 60, 0, 0
+repos/cpp/smhasher/farmhash.cc,"farmhashsuTest::CreateSeed( int offset , int salt)",17, 57, 2, 0
+repos/cpp/smhasher/farmhash.cc,"farmhashsuTest::Test( int offset , int len = 0)",26, 205, 0, 0
+repos/cpp/smhasher/farmhash.cc,"farmhashsuTest::RunTest()",20, 74, 2, 0
+repos/cpp/smhasher/farmhash.cc,"farmhashsuTest::Dump( int offset , int len)",4, 78, 0, 0
+repos/cpp/smhasher/farmhash.cc,"main( int argc , char ** argv)",13, 39, 2, 0
+repos/cpp/smhasher/farmhash.cc,"Setup()",14, 51, 6, 0
+repos/cpp/smhasher/farmhash.cc,"NoteErrors()",6, 48, 2, 0
+repos/cpp/smhasher/farmhash.cc,"IsNonZero( T x)",3, 51, 0, 0
+repos/cpp/smhasher/farmhash.cc,"IsNonZero<uint128_t>( uint128_t x)",3, 60, 0, 0
+repos/cpp/smhasher/farmhash.cc,"farmhashteTest::CreateSeed( int offset , int salt)",17, 57, 2, 0
+repos/cpp/smhasher/farmhash.cc,"farmhashteTest::Test( int offset , int len = 0)",27, 384, 0, 0
+repos/cpp/smhasher/farmhash.cc,"farmhashteTest::RunTest()",20, 74, 2, 0
+repos/cpp/smhasher/farmhash.cc,"farmhashteTest::Dump( int offset , int len)",5, 145, 0, 0
+repos/cpp/smhasher/farmhash.cc,"main( int argc , char ** argv)",13, 39, 2, 0
+repos/cpp/smhasher/farmhash.cc,"Setup()",14, 51, 6, 0
+repos/cpp/smhasher/farmhash.cc,"NoteErrors()",6, 48, 2, 0
+repos/cpp/smhasher/farmhash.cc,"IsNonZero( T x)",3, 51, 0, 0
+repos/cpp/smhasher/farmhash.cc,"IsNonZero<uint128_t>( uint128_t x)",3, 60, 0, 0
+repos/cpp/smhasher/farmhash.cc,"farmhashuoTest::CreateSeed( int offset , int salt)",17, 57, 2, 0
+repos/cpp/smhasher/farmhash.cc,"farmhashuoTest::Test( int offset , int len = 0)",26, 361, 0, 0
+repos/cpp/smhasher/farmhash.cc,"farmhashuoTest::RunTest()",20, 74, 2, 0
+repos/cpp/smhasher/farmhash.cc,"farmhashuoTest::Dump( int offset , int len)",4, 136, 0, 0
+repos/cpp/smhasher/farmhash.cc,"main( int argc , char ** argv)",13, 39, 2, 0
+repos/cpp/smhasher/farmhash.cc,"Setup()",14, 51, 6, 0
+repos/cpp/smhasher/farmhash.cc,"NoteErrors()",6, 48, 2, 0
+repos/cpp/smhasher/farmhash.cc,"IsNonZero( T x)",3, 51, 0, 0
+repos/cpp/smhasher/farmhash.cc,"IsNonZero<uint128_t>( uint128_t x)",3, 60, 0, 0
+repos/cpp/smhasher/farmhash.cc,"farmhashxoTest::CreateSeed( int offset , int salt)",17, 57, 2, 0
+repos/cpp/smhasher/farmhash.cc,"farmhashxoTest::Test( int offset , int len = 0)",27, 384, 0, 0
+repos/cpp/smhasher/farmhash.cc,"farmhashxoTest::RunTest()",20, 74, 2, 0
+repos/cpp/smhasher/farmhash.cc,"farmhashxoTest::Dump( int offset , int len)",5, 145, 0, 0
+repos/cpp/smhasher/farmhash.cc,"main( int argc , char ** argv)",13, 39, 2, 0
+repos/cpp/smhasher/MurmurHash2.cpp,"MurmurHash2( const void * key , int len , uint32_t seed)",50, 66, 0, 0
+repos/cpp/smhasher/MurmurHash2.cpp,"MurmurHash64A( const void * key , int len , uint64_t seed)",42, 68, 0, 0
+repos/cpp/smhasher/MurmurHash2.cpp,"MurmurHash64B( const void * key , int len , uint64_t seed)",50, 68, 0, 0
+repos/cpp/smhasher/MurmurHash2.cpp,"MurmurHash2A( const void * key , int len , uint32_t seed)",38, 67, 0, 0
+repos/cpp/smhasher/MurmurHash2.cpp,"CMurmurHash2A::Begin( uint32_t seed = 0)",7, 35, 2, 0
+repos/cpp/smhasher/MurmurHash2.cpp,"CMurmurHash2A::Add( const unsigned char * data , int len)",18, 51, 2, 0
+repos/cpp/smhasher/MurmurHash2.cpp,"CMurmurHash2A::End( void)",11, 28, 4, 0
+repos/cpp/smhasher/MurmurHash2.cpp,"CMurmurHash2A::MixTail( const unsigned char * & data , int & len)",17, 59, 2, 0
+repos/cpp/smhasher/MurmurHash2.cpp,"MurmurHashNeutral2( const void * key , int len , uint32_t seed)",43, 73, 0, 0
+repos/cpp/smhasher/MurmurHash2.cpp,"MurmurHashAligned2( const void * key , int len , uint32_t seed)",127, 73, 0, 0
+repos/cpp/smhasher/MurmurHash3.cpp,"rotl32( uint32_t x , int8_t r)",4, 48, 0, 0
+repos/cpp/smhasher/MurmurHash3.cpp,"rotl64( uint64_t x , int8_t r)",4, 48, 0, 0
+repos/cpp/smhasher/MurmurHash3.cpp,"getblock32( const uint32_t * p , int i)",4, 63, 0, 0
+repos/cpp/smhasher/MurmurHash3.cpp,"getblock64( const uint64_t * p , int i)",4, 63, 0, 0
+repos/cpp/smhasher/MurmurHash3.cpp,"fmix32( uint32_t h)",10, 44, 0, 0
+repos/cpp/smhasher/MurmurHash3.cpp,"fmix64( uint64_t k)",10, 44, 0, 0
+repos/cpp/smhasher/MurmurHash3.cpp,"MurmurHash3_x86_32( const void * key , int len , uint32_t seed , void * out)",53, 66, 2, 0
+repos/cpp/smhasher/MurmurHash3.cpp,"MurmurHash3_x86_128( const void * key , const int len , uint32_t seed , void * out)",102, 67, 2, 0
+repos/cpp/smhasher/MurmurHash3.cpp,"MurmurHash3_x64_128( const void * key , const int len , const uint32_t seed , void * out)",78, 62, 2, 0
+repos/cpp/smhasher/CityTest.cpp,"CityHash32_test( const void * key , int len , uint32_t seed , void * out)",4, 78, 0, 0
+repos/cpp/smhasher/CityTest.cpp,"CityHash64_test( const void * key , int len , uint32_t seed , void * out)",4, 78, 0, 0
+repos/cpp/smhasher/CityTest.cpp,"CityHash128_test( const void * key , int len , uint32_t seed , void * out)",8, 79, 0, 0
+repos/cpp/smhasher/CityTest.cpp,"CityHashCrc128_test( const void * key , int len , uint32_t seed , void * out)",8, 82, 0, 0
+repos/cpp/smhasher/main.cpp,"findHash( const char * name)",9, 66, 2, 0
+repos/cpp/smhasher/main.cpp,"SelfTest( void)",26, 83, 6, 0
+repos/cpp/smhasher/main.cpp,"test( hashfunc<hashtype> hash , HashInfo * info)",399, 120, 4, 0
+repos/cpp/smhasher/main.cpp,"VerifyHash( const void * key , int len , uint32_t seed , void * out)",9, 77, 2, 0
+repos/cpp/smhasher/main.cpp,"testHash( const char * name)",35, 85, 6, 0
+repos/cpp/smhasher/main.cpp,"strndup( char const * s , size_t n)",11, 46, 0, 0
+repos/cpp/smhasher/main.cpp,"main( int argc , char ** argv)",78, 128, 2, 0
+repos/cpp/smhasher/farmhash-c-test.cc,"farmhash32_c_test( const void * key , int len , uint32_t seed , void * out)",3, 82, 0, 0
+repos/cpp/smhasher/farmhash-c-test.cc,"farmhash64_c_test( const void * key , int len , uint32_t seed , void * out)",3, 88, 2, 0
+repos/cpp/smhasher/farmhash-c-test.cc,"farmhash128_c_test( const void * key , int len , uint32_t seed , void * out)",5, 83, 0, 0
+repos/cpp/smhasher/crc32c.cpp,"append_trivial( uint32_t crc , buffer input , size_t length)",10, 74, 0, 0
+repos/cpp/smhasher/crc32c.cpp,"append_adler_table( uint32_t crci , buffer input , size_t length)",32, 79, 0, 0
+repos/cpp/smhasher/crc32c.cpp,"append_table( uint32_t crci , buffer input , size_t length)",73, 73, 0, 0
+repos/cpp/smhasher/crc32c.cpp,"shift_crc( uint32_t shift_table [ ] [ 256 ] , uint32_t crc)",7, 76, 0, 0
+repos/cpp/smhasher/crc32c.cpp,"append_hw( uint32_t crc , buffer buf , size_t len)",138, 101, 12, 0
+repos/cpp/smhasher/crc32c.cpp,"detect_hw()",6, 39, 4, 0
+repos/cpp/smhasher/crc32c.cpp,"crc32c_append( uint32_t crc , buffer input , size_t length)",7, 88, 0, 0
+repos/cpp/smhasher/crc32c.cpp,"benchmark( const char * name , uint32_t(*function)(uint32_t,buffer,size_t) , buffer input , int * offsets , int * lengths , uint32_t * crcs)",31, 144, 0, 0
+repos/cpp/smhasher/crc32c.cpp,"compare_crcs( const char * leftName , uint32_t * left , const char * rightName , uint32_t * right , int count)",9, 133, 12, 0
+repos/cpp/smhasher/crc32c.cpp,"crc32c_unittest()",34, 124, 4, 0

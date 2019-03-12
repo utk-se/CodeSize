@@ -1,0 +1,502 @@
+File, Function, Length, Total Width, Leading Space(s), Leading Tab(s)
+repos/javascript/storybook/__mocks__/fs.js,"__setMockFiles ( newMockFiles )",3, 40, 0, 0
+repos/javascript/storybook/app/svelte/standalone.js,"buildStandalone ( options )",3, 43, 2, 0
+repos/javascript/storybook/app/svelte/src/server/framework-preset-svelte.js,"webpack ( config )",21, 61, 6, 0
+repos/javascript/storybook/app/svelte/src/client/preview/render.js,"cleanUpPreviousStory ( )",8, 34, 0, 0
+repos/javascript/storybook/app/svelte/src/client/preview/render.js,"mountView ( { Component , target , data , on , Wrapper , WrapperData } )",28, 76, 0, 0
+repos/javascript/storybook/app/svelte/src/client/preview/render.js,"render ( { storyFn , selectedKind , selectedStory , showMain , showError , } )",42, 102, 6, 0
+repos/javascript/storybook/app/riot/standalone.js,"buildStandalone ( options )",3, 43, 2, 0
+repos/javascript/storybook/app/riot/src/server/framework-preset-riot.js,"webpack ( config )",26, 60, 8, 0
+repos/javascript/storybook/app/riot/src/client/preview/compileStageFunctions.js,"asCompiledCode ( text )",6, 47, 4, 0
+repos/javascript/storybook/app/riot/src/client/preview/compileStageFunctions.js,"compileNow ( tag2 , text )",4, 45, 2, 0
+repos/javascript/storybook/app/riot/src/client/preview/compileStageFunctions.js,"getRidOfRiotNoise ( compiled )",3, 85, 2, 0
+repos/javascript/storybook/app/riot/src/client/preview/compileStageFunctions.js,"setConstructor ( compiledSourceCode , constructor )",3, 97, 2, 0
+repos/javascript/storybook/app/riot/src/client/preview/render.js,"renderMain ( { storyFn , selectedKind , selectedStory , showMain = ( )",5, 37, 0, 0
+repos/javascript/storybook/app/riot/src/client/preview/render.js,"*global*",31, 118, 6, 0
+repos/javascript/storybook/app/riot/src/client/preview/render.js,"*global*",31, 118, 6, 0
+repos/javascript/storybook/app/riot/src/client/preview/rendering/compiledButUnmounted.js,"renderCompiledButUnmounted ( component )",3, 64, 0, 0
+repos/javascript/storybook/app/riot/src/client/preview/rendering/stringified.js,"guessRootName ( stringified )",12, 95, 2, 0
+repos/javascript/storybook/app/riot/src/client/preview/rendering/stringified.js,"compileText ( code , rootName )",13, 96, 4, 0
+repos/javascript/storybook/app/riot/src/client/preview/rendering/stringified.js,"renderStringified ( { tags , template = `<${(tags[0] || []).boundAs || guessRootName(tags[0] || '')}/>` , tagConstructor , } )",24, 106, 2, 0
+repos/javascript/storybook/app/riot/src/client/preview/rendering/raw.js,"renderRaw ( sourceCode )",10, 86, 6, 0
+repos/javascript/storybook/app/riot/src/client/preview/rendering/index.js,"render ( component )",20, 43, 4, 0
+repos/javascript/storybook/app/mithril/standalone.js,"buildStandalone ( options )",3, 43, 2, 0
+repos/javascript/storybook/app/mithril/src/server/framework-preset-mithril.js,"babelDefault ( config )",6, 88, 4, 0
+repos/javascript/storybook/app/mithril/src/client/preview/render.js,"renderMain ( { storyFn , selectedKind , selectedStory , showMain , showError , } )",25, 101, 6, 0
+repos/javascript/storybook/app/react-native/src/server/config.js,"removeReactHmre ( presets )",6, 47, 2, 0
+repos/javascript/storybook/app/react-native/src/server/config.js,"loadBabelConfig ( babelConfigPath )",30, 80, 2, 0
+repos/javascript/storybook/app/react-native/src/server/config.js,"function ( configType , baseConfig , projectDir , configDir )",85, 88, 2, 0
+repos/javascript/storybook/app/react-native/src/server/middleware.js,"getMiddleware ( configDir )",11, 75, 4, 0
+repos/javascript/storybook/app/react-native/src/server/middleware.js,"function ( options )",39, 93, 2, 0
+repos/javascript/storybook/app/react-native/src/server/config/utils.js,"loadEnv ( options = { } )",23, 88, 4, 0
+repos/javascript/storybook/app/react-native/src/manager/components/PreviewHelp.js,"*global*",59, 106, 6, 0
+repos/javascript/storybook/app/react-native/src/manager/components/PreviewHelp.js,"*global*",59, 106, 6, 0
+repos/javascript/storybook/app/react-native/src/manager/components/PreviewHelp.js,"*global*",59, 106, 6, 0
+repos/javascript/storybook/app/react-native/src/manager/components/PreviewHelp.js,"*global*",59, 106, 6, 0
+repos/javascript/storybook/app/react-native/src/manager/components/PreviewHelp.js,"*global*",59, 106, 6, 0
+repos/javascript/storybook/app/react-native/src/manager/components/PreviewHelp.js,"*global*",59, 106, 6, 0
+repos/javascript/storybook/app/react-native/src/manager/components/PreviewHelp.js,"*global*",59, 106, 6, 0
+repos/javascript/storybook/app/react-native/src/manager/components/PreviewHelp.js,"*global*",59, 106, 6, 0
+repos/javascript/storybook/app/react-native/src/manager/components/PreviewHelp.js,"*global*",59, 106, 6, 0
+repos/javascript/storybook/app/react-native/src/preview/components/OnDeviceUI/animation.js,"getNavigatorPanelPosition ( animatedValue , previewWidth )",15, 73, 0, 0
+repos/javascript/storybook/app/react-native/src/preview/components/OnDeviceUI/animation.js,"getAddonPanelPosition ( animatedValue , previewWidth )",15, 82, 12, 0
+repos/javascript/storybook/app/react-native/src/preview/components/OnDeviceUI/animation.js,"getPreviewPosition ( animatedValue , previewWidth , previewHeight , slideBetweenAnimation )",26, 89, 10, 0
+repos/javascript/storybook/app/react-native/src/preview/components/OnDeviceUI/animation.js,"getPreviewScale ( animatedValue , slideBetweenAnimation )",12, 98, 10, 0
+repos/javascript/storybook/app/marko/standalone.js,"buildStandalone ( options )",3, 43, 2, 0
+repos/javascript/storybook/app/marko/src/server/framework-preset-marko.js,"webpack ( config )",22, 60, 6, 0
+repos/javascript/storybook/app/marko/src/client/preview/render.js,"renderMain ( { storyFn , selectedKind , selectedStory , showMain , showError , } )",29, 112, 8, 0
+repos/javascript/storybook/app/vue/standalone.js,"buildStandalone ( options )",3, 43, 2, 0
+repos/javascript/storybook/app/vue/src/server/framework-preset-vue.js,"webpack ( config )",25, 58, 6, 0
+repos/javascript/storybook/app/vue/src/server/framework-preset-vue.js,"babelDefault ( config )",6, 71, 4, 0
+repos/javascript/storybook/app/vue/src/client/preview/util.js,"resolveDefault ( { type , default : def } )",8, 69, 4, 0
+repos/javascript/storybook/app/vue/src/client/preview/util.js,"extractProps ( component )",5, 63, 4, 0
+repos/javascript/storybook/app/vue/src/client/preview/render.js,"render ( { storyFn , selectedKind , selectedStory , showMain , showError , showException , forceRender , } )",37, 152, 8, 0
+repos/javascript/storybook/app/vue/src/client/preview/index.js,"prepare ( rawStory , innerStory )",31, 93, 4, 0
+repos/javascript/storybook/app/vue/src/client/preview/index.js,"decorateStory ( getStory , decorators )",30, 83, 12, 0
+repos/javascript/storybook/app/polymer/standalone.js,"buildStandalone ( options )",3, 43, 2, 0
+repos/javascript/storybook/app/polymer/src/server/framework-preset-polymer.js,"webpack ( config )",26, 96, 6, 0
+repos/javascript/storybook/app/polymer/src/client/preview/render.js,"renderMain ( { storyFn , selectedKind , selectedStory , showMain , showError , forceRender , } )",39, 104, 8, 0
+repos/javascript/storybook/app/angular/standalone.js,"buildStandalone ( options )",3, 43, 2, 0
+repos/javascript/storybook/app/angular/src/server/angular-cli_config.js,"getTsConfigOptions ( tsConfigPath )",22, 75, 4, 0
+repos/javascript/storybook/app/angular/src/server/angular-cli_config.js,"getAngularCliWebpackConfigOptions ( dirToSearch )",46, 75, 2, 0
+repos/javascript/storybook/app/angular/src/server/angular-cli_config.js,"applyAngularCliWebpackConfig ( baseConfig , cliWebpackConfigOptions )",69, 194, 8, 0
+repos/javascript/storybook/app/angular/src/server/create-fork-ts-checker-plugin.js,"function ( tsLoaderOptions )",11, 74, 2, 0
+repos/javascript/storybook/app/angular/src/server/angular-cli_utils.js,"isDirectory ( assetPath )",7, 49, 4, 0
+repos/javascript/storybook/app/angular/src/server/angular-cli_utils.js,"getAssetsParts ( resolvedAssetPath , assetPath )",13, 77, 4, 0
+repos/javascript/storybook/app/angular/src/server/angular-cli_utils.js,"isStylingRule ( rule )",13, 72, 2, 0
+repos/javascript/storybook/app/angular/src/server/angular-cli_utils.js,"filterOutStylingRules ( config )",3, 67, 2, 0
+repos/javascript/storybook/app/angular/src/server/angular-cli_utils.js,"isBuildAngularInstalled ( )",8, 54, 4, 0
+repos/javascript/storybook/app/angular/src/server/angular-cli_utils.js,"getAngularCliParts ( cliWebpackConfigOptions )",13, 116, 2, 0
+repos/javascript/storybook/app/angular/src/server/angular-cli_utils.js,"normalizeAssetPatterns ( assetPatterns , dirToSearch , sourceRoot )",25, 84, 4, 0
+repos/javascript/storybook/app/angular/src/server/framework-preset-angular-cli.js,"webpackFinal ( config )",10, 74, 2, 0
+repos/javascript/storybook/app/angular/src/server/ts_config.js,"resolveTsConfig ( tsConfigPath )",9, 48, 2, 0
+repos/javascript/storybook/app/angular/src/server/ts_config.js,"function ( configDir )",12, 84, 2, 0
+repos/javascript/storybook/app/angular/src/server/framework-preset-angular.js,"webpack ( config , { configDir } )",48, 84, 6, 0
+repos/javascript/storybook/app/angular/src/client/preview/render.js,"render ( { storyFn , showMain } )",4, 56, 0, 0
+repos/javascript/storybook/app/html/standalone.js,"buildStandalone ( options )",3, 43, 2, 0
+repos/javascript/storybook/app/html/src/server/framework-preset-html.js,"webpack ( config )",19, 54, 14, 0
+repos/javascript/storybook/app/html/src/client/preview/render.js,"renderMain ( { storyFn , selectedKind , selectedStory , showMain , showError , forceRender , } )",30, 111, 6, 0
+repos/javascript/storybook/app/preact/standalone.js,"buildStandalone ( options )",3, 43, 2, 0
+repos/javascript/storybook/app/preact/src/server/framework-preset-preact.js,"babelDefault ( config )",9, 79, 6, 0
+repos/javascript/storybook/app/preact/src/client/preview/render.js,"renderMain ( { storyFn , selectedKind , selectedStory , showMain , showError , } )",27, 100, 6, 0
+repos/javascript/storybook/app/ember/standalone.js,"buildStandalone ( options )",3, 43, 2, 0
+repos/javascript/storybook/app/ember/src/server/framework-preset-babel-ember.js,"babel ( config )",13, 82, 4, 0
+repos/javascript/storybook/app/ember/src/client/preview/render.js,"render ( options , el )",35, 71, 6, 0
+repos/javascript/storybook/app/ember/src/client/preview/render.js,"renderMain ( { storyFn , selectedKind , selectedStory , showMain , showError , } )",26, 99, 6, 0
+repos/javascript/storybook/app/react/standalone.js,"buildStandalone ( options )",3, 43, 2, 0
+repos/javascript/storybook/app/react/src/server/framework-preset-cra.js,"webpackFinal ( config , { configDir } )",10, 81, 4, 0
+repos/javascript/storybook/app/react/src/server/framework-preset-cra.js,"babelDefault ( config )",22, 70, 14, 0
+repos/javascript/storybook/app/react/src/server/framework-preset-react.js,"babelDefault ( config )",15, 74, 6, 0
+repos/javascript/storybook/app/react/src/server/cra-config.js,"getReactScriptsPath ( { noCache } = { } )",17, 70, 2, 0
+repos/javascript/storybook/app/react/src/server/cra-config.js,"isReactScriptsInstalled ( requiredVersion = '2.0.0' )",9, 88, 4, 0
+repos/javascript/storybook/app/react/src/server/cra-config.js,"mergePlugins ( basePlugins , additionalPlugins )",10, 98, 6, 0
+repos/javascript/storybook/app/react/src/server/cra-config.js,"getCraWebpackConfig ( mode )",21, 94, 4, 0
+repos/javascript/storybook/app/react/src/server/cra-config.js,"applyCRAWebpackConfig ( baseConfig , configDir )",39, 83, 2, 0
+repos/javascript/storybook/app/react/src/server/framework-preset-react-docgen.js,"babel ( config )",20, 80, 2, 0
+repos/javascript/storybook/app/react/src/client/preview/render.js,"render ( node , el )",6, 92, 4, 0
+repos/javascript/storybook/app/react/src/client/preview/render.js,"renderMain ( { storyFn , selectedKind , selectedStory , showMain , showError , forceRender , } )",43, 105, 6, 0
+repos/javascript/storybook/app/react/src/client/preview/element_check.test.js,"*global*",87, 93, 2, 0
+repos/javascript/storybook/addons/options/src/index.js,"emitOptions ( options )",14, 110, 6, 0
+repos/javascript/storybook/addons/centered/src/html.js,"getOrCreate ( id , style )",13, 52, 2, 0
+repos/javascript/storybook/addons/centered/src/html.js,"getInnerDiv ( )",3, 51, 2, 0
+repos/javascript/storybook/addons/centered/src/html.js,"getWrapperDiv ( )",3, 48, 2, 0
+repos/javascript/storybook/addons/centered/src/html.js,"function ( storyFn )",18, 40, 2, 0
+repos/javascript/storybook/addons/centered/src/mithril.js,"function ( storyFn )",9, 60, 8, 0
+repos/javascript/storybook/addons/centered/src/ember.js,"appendTo ( el )",3, 50, 2, 0
+repos/javascript/storybook/addons/centered/src/ember.js,"function ( storyFn )",22, 56, 2, 0
+repos/javascript/storybook/addons/centered/src/react.js,"function ( storyFn )",7, 55, 6, 0
+repos/javascript/storybook/addons/centered/src/preact.js,"function ( storyFn )",7, 55, 6, 0
+repos/javascript/storybook/addons/centered/src/angular.js,"getComponentSelector ( component )",4, 51, 2, 0
+repos/javascript/storybook/addons/centered/src/angular.js,"getTemplate ( metadata )",18, 63, 4, 0
+repos/javascript/storybook/addons/centered/src/angular.js,"getModuleMetadata ( metadata )",18, 74, 6, 0
+repos/javascript/storybook/addons/centered/src/angular.js,"function ( metadataFn )",13, 49, 4, 0
+repos/javascript/storybook/addons/centered/src/vue.js,"function ( )",14, 34, 8, 0
+repos/javascript/storybook/addons/centered/src/svelte.js,"function ( storyFn )",5, 101, 2, 0
+repos/javascript/storybook/addons/centered/src/helpers/json2CSS.js,"jsonToCss ( jsonStyles )",9, 48, 0, 0
+repos/javascript/storybook/addons/ondevice-knobs/src/index.js,"register ( )",10, 90, 6, 0
+repos/javascript/storybook/addons/ondevice-knobs/src/types/Array.js,"formatArray ( value , separator )",6, 41, 0, 0
+repos/javascript/storybook/addons/info/src/index.js,"addInfo ( storyFn , context , infoOptions )",47, 98, 6, 0
+repos/javascript/storybook/addons/info/src/index.js,"setDefaults ( newDefaults )",6, 123, 4, 0
+repos/javascript/storybook/addons/info/src/index.test.js,"*global*",112, 100, 4, 0
+repos/javascript/storybook/addons/info/src/components/PropTable.js,"PropTable ( props )",59, 98, 2, 0
+repos/javascript/storybook/addons/info/src/components/Node.js,"getData ( element )",32, 60, 4, 0
+repos/javascript/storybook/addons/info/src/components/Node.js,"Node ( props )",125, 78, 2, 0
+repos/javascript/storybook/addons/info/src/components/Props.js,"Props ( props )",65, 79, 8, 0
+repos/javascript/storybook/addons/info/src/components/PropVal.js,"indent ( breakIntoNewLines , level , isBlock )",11, 53, 0, 0
+repos/javascript/storybook/addons/info/src/components/PropVal.js,"PreviewArray ( { val , level , maxPropArrayLength , maxPropStringLength , maxPropsIntoLine , valueStyles , } )",43, 59, 2, 0
+repos/javascript/storybook/addons/info/src/components/PropVal.js,"PreviewObject ( { val , level , maxPropObjectKeys , maxPropStringLength , maxPropsIntoLine , valueStyles , } )",49, 61, 2, 0
+repos/javascript/storybook/addons/info/src/components/PropVal.js,"PropVal ( props )",68, 79, 4, 0
+repos/javascript/storybook/addons/info/src/components/makeTableComponent.js,"makeTableComponent ( Component )",19, 99, 4, 0
+repos/javascript/storybook/addons/info/src/components/markdown/code.js,"Blockquote ( { children } )",9, 60, 2, 0
+repos/javascript/storybook/addons/info/src/components/markdown/htags.js,"H1 ( { id , children } )",14, 39, 0, 0
+repos/javascript/storybook/addons/info/src/components/markdown/htags.js,"H2 ( { id , children } )",13, 39, 0, 0
+repos/javascript/storybook/addons/info/src/components/markdown/htags.js,"H3 ( { id , children } )",14, 39, 0, 0
+repos/javascript/storybook/addons/info/src/components/markdown/htags.js,"H4 ( { id , children } )",13, 39, 0, 0
+repos/javascript/storybook/addons/info/src/components/markdown/htags.js,"H5 ( { id , children } )",13, 39, 0, 0
+repos/javascript/storybook/addons/info/src/components/markdown/htags.js,"H6 ( { id , children } )",13, 39, 0, 0
+repos/javascript/storybook/addons/info/src/components/markdown/text.js,"P ( { children } )",11, 51, 2, 0
+repos/javascript/storybook/addons/info/src/components/markdown/text.js,"LI ( { children } )",6, 44, 2, 0
+repos/javascript/storybook/addons/info/src/components/markdown/text.js,"UL ( { children } )",6, 44, 2, 0
+repos/javascript/storybook/addons/info/src/components/markdown/text.js,"A ( { href , children } )",10, 76, 4, 0
+repos/javascript/storybook/addons/info/src/components/markdown/pre/copy.js,"copy ( str )",12, 50, 2, 0
+repos/javascript/storybook/addons/info/src/components/markdown/pre/copyButton.js,"CopyButton ( { onClick , toggled } )",27, 47, 8, 0
+repos/javascript/storybook/addons/info/src/components/PropTable/index.js,"PropTable ( props )",59, 98, 2, 0
+repos/javascript/storybook/addons/storyshots/storyshots-core/.storybook/config.js,"loadStories ( )",4, 49, 2, 0
+repos/javascript/storybook/addons/storyshots/storyshots-core/.storybook/configTest.js,"loadStories ( )",5, 49, 2, 0
+repos/javascript/storybook/addons/storyshots/storyshots-core/src/test-bodies.js,"match ( tree )",11, 62, 6, 0
+repos/javascript/storybook/addons/storyshots/storyshots-core/src/test-bodies.js,"shallowSnapshot ( { story , context , renderShallowTree , options = { } } )",4, 87, 0, 0
+repos/javascript/storybook/addons/storyshots/storyshots-core/src/api/integrityTestTemplate.js,"integrityTest ( integrityOptions , stories2snapsConverter )",18, 95, 8, 0
+repos/javascript/storybook/addons/storyshots/storyshots-core/src/api/index.js,"callTestMethodGlobals ( testMethod )",7, 52, 4, 0
+repos/javascript/storybook/addons/storyshots/storyshots-core/src/api/index.js,"testStorySnapshots ( options = { } )",64, 90, 2, 0
+repos/javascript/storybook/addons/storyshots/storyshots-core/src/api/ensureOptionsDefaults.js,"getIntegrityOptions ( { integrityOptions } )",15, 61, 4, 0
+repos/javascript/storybook/addons/storyshots/storyshots-core/src/api/ensureOptionsDefaults.js,"ensureOptionsDefaults ( options )",26, 70, 4, 0
+repos/javascript/storybook/addons/storyshots/storyshots-core/src/api/snapshotsTestsTemplate.js,"snapshotTest ( { item , asyncJest , framework , testMethod , testMethodParams } )",23, 86, 0, 0
+repos/javascript/storybook/addons/storyshots/storyshots-core/src/api/snapshotsTestsTemplate.js,"snapshotTestSuite ( { item , suite , ... restParams } )",12, 61, 0, 0
+repos/javascript/storybook/addons/storyshots/storyshots-core/src/api/snapshotsTestsTemplate.js,"snapshotsTests ( { data , snapshotSerializers , ... restParams } )",12, 72, 0, 0
+repos/javascript/storybook/addons/storyshots/storyshots-core/src/frameworks/hasDependency.js,"hasDependency ( name )",7, 67, 4, 0
+repos/javascript/storybook/addons/storyshots/storyshots-core/src/frameworks/configure.js,"getConfigPathParts ( configPath )",9, 56, 2, 0
+repos/javascript/storybook/addons/storyshots/storyshots-core/src/frameworks/configure.js,"configure ( options )",12, 68, 2, 0
+repos/javascript/storybook/addons/storyshots/storyshots-core/src/frameworks/frameworkLoader.js,"getLoaders ( )",9, 62, 4, 0
+repos/javascript/storybook/addons/storyshots/storyshots-core/src/frameworks/frameworkLoader.js,"loadFramework ( options )",11, 81, 2, 0
+repos/javascript/storybook/addons/storyshots/storyshots-core/src/frameworks/svelte/renderTree.js,"getRenderedTree ( story )",14, 66, 2, 0
+repos/javascript/storybook/addons/storyshots/storyshots-core/src/frameworks/svelte/loader.js,"test ( options )",5, 97, 4, 0
+repos/javascript/storybook/addons/storyshots/storyshots-core/src/frameworks/svelte/loader.js,"load ( options )",17, 71, 6, 0
+repos/javascript/storybook/addons/storyshots/storyshots-core/src/frameworks/riot/renderTree.js,"bootstrapADocumentAndReturnANode ( )",7, 53, 2, 0
+repos/javascript/storybook/addons/storyshots/storyshots-core/src/frameworks/riot/renderTree.js,"makeSureThatResultIsRenderedSomehow ( { context , result , rootElement } )",9, 81, 0, 0
+repos/javascript/storybook/addons/storyshots/storyshots-core/src/frameworks/riot/renderTree.js,"getRenderedTree ( story , context )",9, 73, 2, 0
+repos/javascript/storybook/addons/storyshots/storyshots-core/src/frameworks/riot/loader.js,"mockRiotToIncludeCompiler ( )",3, 66, 2, 0
+repos/javascript/storybook/addons/storyshots/storyshots-core/src/frameworks/riot/loader.js,"test ( options )",3, 99, 2, 0
+repos/javascript/storybook/addons/storyshots/storyshots-core/src/frameworks/riot/loader.js,"load ( options )",18, 69, 6, 0
+repos/javascript/storybook/addons/storyshots/storyshots-core/src/frameworks/vue/renderTree.js,"getRenderedTree ( story )",11, 36, 2, 0
+repos/javascript/storybook/addons/storyshots/storyshots-core/src/frameworks/vue/loader.js,"mockVueToIncludeCompiler ( )",3, 75, 2, 0
+repos/javascript/storybook/addons/storyshots/storyshots-core/src/frameworks/vue/loader.js,"test ( options )",3, 97, 2, 0
+repos/javascript/storybook/addons/storyshots/storyshots-core/src/frameworks/vue/loader.js,"load ( options )",18, 68, 6, 0
+repos/javascript/storybook/addons/storyshots/storyshots-core/src/frameworks/angular/renderTree.js,"getRenderedTree ( story )",26, 69, 2, 0
+repos/javascript/storybook/addons/storyshots/storyshots-core/src/frameworks/angular/loader.js,"setupAngularJestPreset ( )",11, 116, 2, 0
+repos/javascript/storybook/addons/storyshots/storyshots-core/src/frameworks/angular/loader.js,"test ( options )",5, 99, 4, 0
+repos/javascript/storybook/addons/storyshots/storyshots-core/src/frameworks/angular/loader.js,"load ( options )",17, 72, 6, 0
+repos/javascript/storybook/addons/storyshots/storyshots-core/src/frameworks/rn/loader.js,"test ( options )",6, 69, 4, 0
+repos/javascript/storybook/addons/storyshots/storyshots-core/src/frameworks/rn/loader.js,"configure ( options , storybook )",11, 56, 2, 0
+repos/javascript/storybook/addons/storyshots/storyshots-core/src/frameworks/rn/loader.js,"load ( options )",12, 70, 2, 0
+repos/javascript/storybook/addons/storyshots/storyshots-core/src/frameworks/html/renderTree.js,"getRenderedTree ( story )",16, 53, 2, 0
+repos/javascript/storybook/addons/storyshots/storyshots-core/src/frameworks/html/loader.js,"test ( options )",3, 39, 2, 0
+repos/javascript/storybook/addons/storyshots/storyshots-core/src/frameworks/html/loader.js,"load ( options )",17, 69, 6, 0
+repos/javascript/storybook/addons/storyshots/storyshots-core/src/frameworks/preact/renderTree.js,"getRenderedTree ( story , context , { renderer , ... rendererOptions } )",7, 77, 0, 0
+repos/javascript/storybook/addons/storyshots/storyshots-core/src/frameworks/preact/loader.js,"test ( options )",5, 97, 4, 0
+repos/javascript/storybook/addons/storyshots/storyshots-core/src/frameworks/preact/loader.js,"load ( options )",17, 71, 6, 0
+repos/javascript/storybook/addons/storyshots/storyshots-core/src/frameworks/react/renderShallowTree.js,"getRenderedTree ( story , context , { renderer , serializer } )",6, 69, 0, 0
+repos/javascript/storybook/addons/storyshots/storyshots-core/src/frameworks/react/renderTree.js,"getRenderedTree ( story , context , { renderer , ... rendererOptions } )",7, 77, 0, 0
+repos/javascript/storybook/addons/storyshots/storyshots-core/src/frameworks/react/loader.js,"test ( options )",3, 101, 2, 0
+repos/javascript/storybook/addons/storyshots/storyshots-core/src/frameworks/react/loader.js,"load ( options )",13, 77, 4, 0
+repos/javascript/storybook/addons/knobs/src/index.js,"knob ( name , optionsParam )",3, 43, 0, 0
+repos/javascript/storybook/addons/knobs/src/index.js,"text ( name , value , groupId )",3, 63, 2, 0
+repos/javascript/storybook/addons/knobs/src/index.js,"boolean ( name , value , groupId )",3, 66, 2, 0
+repos/javascript/storybook/addons/knobs/src/index.js,"number ( name , value , options = { } , groupId )",23, 61, 0, 0
+repos/javascript/storybook/addons/knobs/src/index.js,"color ( name , value , groupId )",3, 64, 2, 0
+repos/javascript/storybook/addons/knobs/src/index.js,"object ( name , value , groupId )",3, 65, 2, 0
+repos/javascript/storybook/addons/knobs/src/index.js,"select ( name , options , value , groupId )",3, 90, 2, 0
+repos/javascript/storybook/addons/knobs/src/index.js,"radios ( name , options , value , groupId )",3, 74, 2, 0
+repos/javascript/storybook/addons/knobs/src/index.js,"array ( name , value , separator = ',' , groupId )",3, 75, 2, 0
+repos/javascript/storybook/addons/knobs/src/index.js,"date ( name , value = new Date ( )",4, 75, 2, 0
+repos/javascript/storybook/addons/knobs/src/index.js,"button ( name , callback , groupId )",3, 85, 2, 0
+repos/javascript/storybook/addons/knobs/src/index.js,"files ( name , accept , value = [ ] )",3, 63, 2, 0
+repos/javascript/storybook/addons/knobs/src/index.js,"optionsKnob ( name , valuesObj , value , optionsObj , groupId )",3, 98, 2, 0
+repos/javascript/storybook/addons/knobs/src/registerKnobs.js,"forceReRender ( )",3, 45, 2, 0
+repos/javascript/storybook/addons/knobs/src/registerKnobs.js,"setPaneKnobs ( timestamp = + new Date ( )",4, 63, 2, 0
+repos/javascript/storybook/addons/knobs/src/registerKnobs.js,"knobChanged ( change )",7, 71, 2, 0
+repos/javascript/storybook/addons/knobs/src/registerKnobs.js,"knobClicked ( clicked )",5, 51, 2, 0
+repos/javascript/storybook/addons/knobs/src/registerKnobs.js,"resetKnobs ( )",5, 24, 0, 0
+repos/javascript/storybook/addons/knobs/src/registerKnobs.js,"resetKnobsAndForceReRender ( )",7, 40, 0, 0
+repos/javascript/storybook/addons/knobs/src/registerKnobs.js,"disconnectCallbacks ( )",8, 61, 2, 0
+repos/javascript/storybook/addons/knobs/src/registerKnobs.js,"connectCallbacks ( )",10, 49, 2, 0
+repos/javascript/storybook/addons/knobs/src/registerKnobs.js,"registerKnobs ( )",3, 69, 2, 0
+repos/javascript/storybook/addons/knobs/src/components/types/Files.js,"fileReaderPromise ( file )",7, 62, 4, 0
+repos/javascript/storybook/addons/knobs/src/components/types/Array.js,"formatArray ( value , separator )",6, 41, 0, 0
+repos/javascript/storybook/addons/links/src/index.js,"LinkTo ( )",11, 57, 6, 0
+repos/javascript/storybook/addons/graphql/src/preview.js,"getDefautlFetcher ( url )",7, 60, 4, 0
+repos/javascript/storybook/addons/graphql/src/preview.js,"reIndentQuery ( query )",5, 74, 2, 0
+repos/javascript/storybook/addons/graphql/src/preview.js,"setupGraphiQL ( config )",11, 75, 8, 0
+repos/javascript/storybook/addons/graphql/src/components/FullScreen/index.js,"FullScreen ( { children } )",3, 54, 2, 0
+repos/javascript/storybook/addons/events/src/manager.js,"register ( )",10, 90, 6, 0
+repos/javascript/storybook/addons/events/src/components/Event.js,"getJSONFromString ( str )",7, 34, 0, 0
+repos/javascript/storybook/addons/storysource/src/preview.js,"setStorySource ( context , source , locationsMap )",9, 62, 2, 0
+repos/javascript/storybook/addons/storysource/src/preview.js,"withStorySource ( source , locationsMap = { } )",6, 61, 0, 0
+repos/javascript/storybook/addons/storysource/src/manager.js,"register ( )",12, 77, 8, 0
+repos/javascript/storybook/addons/storysource/src/loader/generate-helpers.js,"isUglyComment ( comment , uglyCommentsRegex )",3, 63, 2, 0
+repos/javascript/storybook/addons/storysource/src/loader/generate-helpers.js,"generateSourceWithoutUglyComments ( source , { comments , uglyCommentsRegex } )",19, 86, 0, 0
+repos/javascript/storybook/addons/storysource/src/loader/generate-helpers.js,"prettifyCode ( source , { prettierConfig , parser , filepath } )",24, 70, 0, 0
+repos/javascript/storybook/addons/storysource/src/loader/generate-helpers.js,"generateSourceWithDecorators ( source , decorator , parserType )",16, 78, 0, 0
+repos/javascript/storybook/addons/storysource/src/loader/generate-helpers.js,"generateSourceWithoutDecorators ( source , parserType )",12, 70, 0, 0
+repos/javascript/storybook/addons/storysource/src/loader/generate-helpers.js,"generateAddsMap ( source , parserType )",6, 54, 0, 0
+repos/javascript/storybook/addons/storysource/src/loader/generate-helpers.js,"generateStorySource ( { source , ... options } )",8, 73, 2, 0
+repos/javascript/storybook/addons/storysource/src/loader/index.js,"transform ( source )",22, 95, 2, 0
+repos/javascript/storybook/addons/storysource/src/loader/traverse-helpers.js,"splitSTORYOF ( ast , source )",17, 67, 8, 0
+repos/javascript/storybook/addons/storysource/src/loader/traverse-helpers.js,"findAddsMap ( ast )",16, 46, 6, 0
+repos/javascript/storybook/addons/storysource/src/loader/parse-helpers.js,"pushParts ( source , parts , from , to )",7, 46, 0, 0
+repos/javascript/storybook/addons/storysource/src/loader/parse-helpers.js,"getKindFromStoryOfNode ( object )",20, 82, 2, 0
+repos/javascript/storybook/addons/storysource/src/loader/parse-helpers.js,"findRelatedKind ( object )",11, 48, 2, 0
+repos/javascript/storybook/addons/storysource/src/loader/parse-helpers.js,"patchNode ( node )",17, 101, 2, 0
+repos/javascript/storybook/addons/storysource/src/loader/parse-helpers.js,"handleADD ( node , parent , adds )",37, 90, 2, 0
+repos/javascript/storybook/addons/storysource/src/loader/parse-helpers.js,"handleSTORYOF ( node , parts , source , lastIndex )",9, 78, 2, 0
+repos/javascript/storybook/addons/storysource/src/loader/inject-decorator.js,"extendOptions ( source , comments , filepath , options )",9, 62, 0, 0
+repos/javascript/storybook/addons/storysource/src/loader/inject-decorator.js,"inject ( source , decorator , filepath , options = { } )",25, 95, 2, 0
+repos/javascript/storybook/addons/storysource/src/loader/parsers/parser-flow.js,"parse ( source )",3, 47, 2, 0
+repos/javascript/storybook/addons/storysource/src/loader/parsers/parser-ts.js,"parse ( source )",3, 51, 2, 0
+repos/javascript/storybook/addons/storysource/src/loader/parsers/index.js,"getParser ( type )",18, 64, 2, 0
+repos/javascript/storybook/addons/storysource/src/loader/parsers/parser-js.js,"parse ( source )",3, 46, 2, 0
+repos/javascript/storybook/examples-native/crna-kitchen-sink/storybook/stories/CenterView/index.js,"CenterView ( { children } )",3, 53, 2, 0
+repos/javascript/storybook/examples-native/crna-kitchen-sink/storybook/stories/Button/index.android.js,"Button ( { onPress , children } )",3, 90, 2, 0
+repos/javascript/storybook/examples-native/crna-kitchen-sink/storybook/stories/Button/index.ios.js,"Button ( { onPress , children } )",3, 80, 2, 0
+repos/javascript/storybook/docs/.gatsby-context.js,"function ( )",4, 176, 6, 0
+repos/javascript/storybook/docs/.gatsby-context.js,"module.exports ( callback )",10, 176, 2, 0
+repos/javascript/storybook/docs/gatsby-node.js,"pagesToSitemap ( pages )",9, 33, 0, 0
+repos/javascript/storybook/docs/gatsby-node.js,"getVersionData ( distTag )",10, 67, 2, 0
+repos/javascript/storybook/docs/gatsby-node.js,"generateVersionsFile ( )",6, 79, 2, 0
+repos/javascript/storybook/docs/gatsby-node.js,"generateSitemap ( pages )",8, 75, 2, 0
+repos/javascript/storybook/docs/.storybook/config.js,"loadStories ( )",3, 29, 2, 0
+repos/javascript/storybook/docs/src/new-components/basics/ListItem.js,"ListItem ( { loading , left , title , center , right , active , disabled , href , onClick , LinkWrapper , ... props } )",36, 54, 4, 0
+repos/javascript/storybook/docs/src/new-components/basics/Icon.js,"Icon ( { icon , ... props } )",7, 72, 4, 0
+repos/javascript/storybook/docs/src/new-components/basics/Link.js,"Link ( { isGatsby , isButton , withArrow , containsIcon , children , ... props } )",18, 100, 0, 0
+repos/javascript/storybook/docs/src/new-components/basics/tooltip/Tooltip.js,"Tooltip ( { placement , hasChrome , children , arrowProps , tooltipRef , arrowRef , ... props } )",16, 98, 4, 0
+repos/javascript/storybook/docs/src/new-components/basics/tooltip/WithTooltip.js,"WithTooltip ( { svg , trigger , closeOnClick , placement , modifiers , hasChrome , tooltip , children , tooltipShown , onVisibilityChange , ... props } )",50, 71, 8, 0
+repos/javascript/storybook/docs/src/new-components/basics/tooltip/TooltipNote.js,"TooltipNote ( { note } )",3, 48, 0, 0
+repos/javascript/storybook/docs/src/new-components/basics/tooltip/TooltipLinkList.js,"TooltipLinkList ( { links , LinkWrapper } )",18, 84, 6, 0
+repos/javascript/storybook/docs/src/new-components/basics/tooltip/TooltipMessage.js,"TooltipMessage ( { title , desc , links } )",19, 59, 10, 0
+repos/javascript/storybook/docs/src/new-components/layout/Header.js,"Header ( { ... props } )",47, 101, 14, 0
+repos/javascript/storybook/docs/src/new-components/lib/StoryLinkWrapper.js,"StoryLinkWrapper ( { href , passHref , children } )",11, 73, 0, 0
+repos/javascript/storybook/examples/cra-ts-kitchen-sink/.storybook/config.js,"loadStories ( )",5, 73, 2, 0
+repos/javascript/storybook/examples/cra-kitchen-sink/.storybook/config.js,"loadStories ( )",8, 79, 2, 0
+repos/javascript/storybook/examples/cra-kitchen-sink/src/components/LifecycleLogger.js,"log ( name )",3, 43, 2, 0
+repos/javascript/storybook/examples/vue-kitchen-sink/.storybook/config.js,"loadStories ( )",6, 73, 2, 0
+repos/javascript/storybook/examples/ember-cli/ember-cli-build.js,"build ( defaults )",20, 67, 2, 0
+repos/javascript/storybook/examples/ember-cli/config/environment.js,"buildEnvironment ( environment )",49, 78, 8, 0
+repos/javascript/storybook/examples/ember-cli/.storybook/config.js,"loadStories ( )",6, 69, 2, 0
+repos/javascript/storybook/examples/svelte-kitchen-sink/.storybook/config.js,"loadStories ( )",7, 73, 2, 0
+repos/javascript/storybook/examples/html-kitchen-sink/.storybook/config.js,"loadStories ( )",5, 49, 2, 0
+repos/javascript/storybook/examples/riot-kitchen-sink/.storybook/config.js,"loadStories ( )",6, 73, 2, 0
+repos/javascript/storybook/examples/polymer-cli/.storybook/config.js,"loadStories ( )",6, 73, 2, 0
+repos/javascript/storybook/examples/marko-cli/.storybook/config.js,"loadStories ( )",8, 79, 2, 0
+repos/javascript/storybook/examples/mithril-kitchen-sink/.storybook/config.js,"loadStories ( )",4, 73, 2, 0
+repos/javascript/storybook/examples/mithril-kitchen-sink/src/Welcome.js,"*global*",139, 99, 8, 0
+repos/javascript/storybook/examples/official-storybook/head-warning.js,"addHeadWarning ( id , text )",11, 67, 4, 0
+repos/javascript/storybook/examples/official-storybook/config.js,"importAll ( context )",47, 120, 2, 0
+repos/javascript/storybook/examples/official-storybook/config.js,"loadStories ( )",11, 77, 2, 0
+repos/javascript/storybook/examples/official-storybook/components/addon-a11y/Button.js,"Button ( { content , disabled , contrast } )",14, 51, 0, 0
+repos/javascript/storybook/examples/official-storybook/components/addon-a11y/Form/Row.js,"Row ( { label , input } )",8, 33, 0, 0
+repos/javascript/storybook/examples/official-storybook/components/addon-a11y/Form/Label.js,"Label ( { id , content } )",7, 46, 4, 0
+repos/javascript/storybook/examples/official-storybook/components/addon-a11y/Form/Input.js,"Input ( { id , value , type , placeholder } )",3, 80, 2, 0
+repos/javascript/storybook/examples/official-storybook/stories/addon-knobs.stories.js,": ( )",1, 28, 8, 0
+repos/javascript/storybook/examples/official-storybook/stories/addon-actions.stories.js,"A ( )",1, 20, 4, 0
+repos/javascript/storybook/examples/official-storybook/stories/addon-actions.stories.js,"B ( )",1, 20, 4, 0
+repos/javascript/storybook/examples/preact-kitchen-sink/src/Welcome.js,"*global*",141, 100, 6, 0
+repos/javascript/storybook/examples/preact-kitchen-sink/src/Welcome.js,"*global*",141, 100, 6, 0
+repos/javascript/storybook/scripts/jest-ts-babel.js,"transform ( src , path , config , transformOptions )",7, 83, 0, 0
+repos/javascript/storybook/scripts/compile-ts.js,"getCommand ( watch )",11, 74, 2, 0
+repos/javascript/storybook/scripts/compile-ts.js,"handleExit ( code , errorCallback )",9, 64, 4, 0
+repos/javascript/storybook/scripts/compile-ts.js,"tscfy ( options = { } )",22, 72, 2, 0
+repos/javascript/storybook/scripts/prepare.js,"getPackageJson ( )",6, 71, 2, 0
+repos/javascript/storybook/scripts/prepare.js,"removeDist ( )",3, 27, 2, 0
+repos/javascript/storybook/scripts/prepare.js,"removeTsFromDist ( )",11, 78, 2, 0
+repos/javascript/storybook/scripts/prepare.js,"logError ( type , packageJson )",5, 93, 4, 0
+repos/javascript/storybook/scripts/compile-js.js,"getCommand ( watch )",17, 130, 4, 0
+repos/javascript/storybook/scripts/compile-js.js,"handleExit ( code , errorCallback )",9, 64, 4, 0
+repos/javascript/storybook/scripts/compile-js.js,"babelify ( options = { } )",15, 67, 2, 0
+repos/javascript/storybook/lib/ui/src/index.js,"renderStorybookUI ( domNode , provider )",7, 72, 4, 0
+repos/javascript/storybook/lib/ui/src/settings/shortcuts.js,"toShortcutState ( shortcutKeys )",7, 98, 6, 0
+repos/javascript/storybook/lib/ui/src/core/layout.js,"*global*",208, 106, 6, 0
+repos/javascript/storybook/lib/ui/src/core/addons.js,"ensurePanel ( panels , selectedPanel , currentPanel )",12, 67, 0, 0
+repos/javascript/storybook/lib/ui/src/core/stories.test.js,"createMockStore ( )",9, 57, 4, 0
+repos/javascript/storybook/lib/ui/src/core/stories.js,"addItem ( acc , item )",11, 75, 10, 0
+repos/javascript/storybook/lib/ui/src/core/store.js,"get ( storage )",4, 51, 2, 0
+repos/javascript/storybook/lib/ui/src/core/store.js,"set ( storage , value )",3, 68, 2, 0
+repos/javascript/storybook/lib/ui/src/core/store.js,"update ( storage , patch )",5, 44, 2, 0
+repos/javascript/storybook/lib/ui/src/core/shortcuts.js,"focusInInput ( event )",6, 62, 8, 0
+repos/javascript/storybook/lib/ui/src/core/shortcuts.js,"initShortcuts ( { store } )",222, 91, 6, 0
+repos/javascript/storybook/lib/ui/src/core/versions.test.js,"createMockStore ( )",9, 57, 4, 0
+repos/javascript/storybook/lib/ui/src/core/versions.js,"fetchLatestVersion ( )",4, 77, 2, 0
+repos/javascript/storybook/lib/ui/src/core/versions.js,"init ( { api : { versionUpdateAvailable , getLatestVersion , addNotification } } )",35, 96, 2, 0
+repos/javascript/storybook/lib/ui/src/core/versions.js,"function ( { store } )",86, 96, 2, 0
+repos/javascript/storybook/lib/ui/src/core/shortcuts.test.js,"createMockStore ( )",9, 57, 4, 0
+repos/javascript/storybook/lib/ui/src/core/url.js,"function ( { store , navigate , location , path : initialPath } )",39, 87, 2, 0
+repos/javascript/storybook/lib/ui/src/core/notifications.js,"function ( { store } )",27, 86, 6, 0
+repos/javascript/storybook/lib/ui/src/components/sidebar/SidebarItem.js,"SidebarItem ( { name , depth , isComponent , isLeaf , isExpanded , isSelected , loading , ... props } )",27, 85, 6, 0
+repos/javascript/storybook/lib/ui/src/components/sidebar/ListItemIcon.js,"ListItemIcon ( { icon , imgSrc } )",9, 57, 0, 0
+repos/javascript/storybook/lib/ui/src/components/notifications/item.stories.js,"buildExample ( notification )",5, 72, 2, 0
+repos/javascript/storybook/lib/ui/src/components/notifications/item.js,"NotificationItem ( { notification : { content , link } } )",7, 80, 0, 0
+repos/javascript/storybook/lib/ui/src/components/notifications/notifications.js,"NotificationList ( { notifications , placement } )",9, 79, 8, 0
+repos/javascript/storybook/lib/core/src/server/presets.js,"interopRequireDefault ( filePath )",9, 92, 4, 0
+repos/javascript/storybook/lib/core/src/server/presets.js,"loadPreset ( preset )",21, 71, 4, 0
+repos/javascript/storybook/lib/core/src/server/presets.js,"loadPresets ( presets )",11, 67, 2, 0
+repos/javascript/storybook/lib/core/src/server/presets.js,"applyPresets ( presets , extension , config , args )",25, 85, 8, 0
+repos/javascript/storybook/lib/core/src/server/presets.js,"getPresets ( presets )",8, 60, 6, 0
+repos/javascript/storybook/lib/core/src/server/standalone.js,"build ( options = { } , frameworkOptions = { } )",22, 74, 2, 0
+repos/javascript/storybook/lib/core/src/server/presets.test.js,"wrapPreset ( basePresets )",6, 81, 4, 0
+repos/javascript/storybook/lib/core/src/server/presets.test.js,"mockPreset ( name , mockPresetObject )",3, 62, 2, 0
+repos/javascript/storybook/lib/core/src/server/presets.test.js,"testPresets ( )",5, 43, 6, 0
+repos/javascript/storybook/lib/core/src/server/presets.test.js,"testPresets ( )",4, 35, 4, 0
+repos/javascript/storybook/lib/core/src/server/presets.test.js,"testPresets ( )",4, 35, 4, 0
+repos/javascript/storybook/lib/core/src/server/presets.test.js,"testPresets ( )",4, 35, 4, 0
+repos/javascript/storybook/lib/core/src/server/presets.test.js,"testPresets ( )",4, 35, 4, 0
+repos/javascript/storybook/lib/core/src/server/presets.test.js,"testPresets ( )",4, 35, 4, 0
+repos/javascript/storybook/lib/core/src/server/presets.test.js,"testPresets ( )",4, 35, 4, 0
+repos/javascript/storybook/lib/core/src/server/presets.test.js,"testPresets ( )",4, 35, 4, 0
+repos/javascript/storybook/lib/core/src/server/build-static.js,"compileManager ( managerConfig , managerStartTime )",31, 93, 6, 0
+repos/javascript/storybook/lib/core/src/server/build-static.js,"watchPreview ( previewConfig )",19, 57, 10, 0
+repos/javascript/storybook/lib/core/src/server/build-static.js,"compilePreview ( previewConfig , previewStartTime )",30, 93, 6, 0
+repos/javascript/storybook/lib/core/src/server/build-static.js,"copyAllStaticFiles ( staticDir , outputDir )",16, 88, 10, 0
+repos/javascript/storybook/lib/core/src/server/build-static.js,"buildManager ( configType , outputDir , configDir )",14, 67, 4, 0
+repos/javascript/storybook/lib/core/src/server/build-static.js,"buildPreview ( configType , outputDir , packageJson , options )",22, 78, 4, 0
+repos/javascript/storybook/lib/core/src/server/build-static.js,"prepareFilesStructure ( outputDir , defaultFavIcon )",14, 60, 0, 0
+repos/javascript/storybook/lib/core/src/server/build-static.js,"buildStaticStandalone ( options )",22, 67, 2, 0
+repos/javascript/storybook/lib/core/src/server/build-static.js,"buildStatic ( { packageJson , ... loadOptions } )",11, 86, 4, 0
+repos/javascript/storybook/lib/core/src/server/dev-server.js,"function ( options )",133, 96, 2, 0
+repos/javascript/storybook/lib/core/src/server/config.js,"getPreviewWebpackConfig ( options , presets )",6, 78, 2, 0
+repos/javascript/storybook/lib/core/src/server/build-dev.js,"getServer ( app , options )",23, 86, 4, 0
+repos/javascript/storybook/lib/core/src/server/build-dev.js,"applyStatic ( app , options )",32, 88, 10, 0
+repos/javascript/storybook/lib/core/src/server/build-dev.js,"listenToServer ( server , listenAddr )",19, 61, 2, 0
+repos/javascript/storybook/lib/core/src/server/build-dev.js,"createUpdateMessage ( updateInfo , version )",19, 101, 10, 0
+repos/javascript/storybook/lib/core/src/server/build-dev.js,"outputStartupInformation ( options )",60, 91, 4, 0
+repos/javascript/storybook/lib/core/src/server/build-dev.js,"outputStats ( previewStats , managerStats )",5, 88, 2, 0
+repos/javascript/storybook/lib/core/src/server/build-dev.js,"openInBrowser ( address )",9, 90, 6, 0
+repos/javascript/storybook/lib/core/src/server/build-dev.js,"buildDevStandalone ( options )",98, 85, 4, 0
+repos/javascript/storybook/lib/core/src/server/build-dev.js,"buildDev ( { packageJson , ... loadOptions } )",10, 80, 4, 0
+repos/javascript/storybook/lib/core/src/server/config/utils.js,"loadEnv ( options = { } )",35, 87, 4, 0
+repos/javascript/storybook/lib/core/src/server/utils/load-custom-babel-config.js,"removeReactHmre ( presets )",6, 47, 2, 0
+repos/javascript/storybook/lib/core/src/server/utils/load-custom-babel-config.js,"loadFromPath ( babelConfigPath )",31, 80, 2, 0
+repos/javascript/storybook/lib/core/src/server/utils/load-custom-babel-config.js,"isBabelLoader8 ( )",7, 76, 2, 0
+repos/javascript/storybook/lib/core/src/server/utils/load-custom-babel-config.js,"function ( configDir , getDefaultConfig )",14, 80, 4, 0
+repos/javascript/storybook/lib/core/src/server/utils/load-custom-addons-file.js,"loadCustomAddons ( { configDir } )",10, 91, 2, 0
+repos/javascript/storybook/lib/core/src/server/utils/interpret-files.js,"sortExtensions ( )",8, 44, 6, 0
+repos/javascript/storybook/lib/core/src/server/utils/interpret-files.js,"getInterpretedFile ( pathToFile )",5, 50, 4, 0
+repos/javascript/storybook/lib/core/src/server/utils/interpret-files.js,"getInterpretedFileWithExt ( pathToFile )",8, 56, 0, 0
+repos/javascript/storybook/lib/core/src/server/utils/middleware.js,"getMiddleware ( configDir )",11, 75, 4, 0
+repos/javascript/storybook/lib/core/src/server/utils/load-custom-config-file.js,"loadConfigFiles ( { configDir } )",9, 85, 2, 0
+repos/javascript/storybook/lib/core/src/server/utils/merge-webpack-config.js,"plugins ( { plugins : defaultPlugins = [ ] } , { plugins : customPlugins = [ ] } )",3, 86, 0, 0
+repos/javascript/storybook/lib/core/src/server/utils/merge-webpack-config.js,"rules ( { rules : defaultRules = [ ] } , { rules : customRules = [ ] } )",3, 76, 0, 0
+repos/javascript/storybook/lib/core/src/server/utils/merge-webpack-config.js,"extensions ( { extensions : defaultExtensions = [ ] } , { extensions : customExtensions = [ ] } )",3, 101, 0, 0
+repos/javascript/storybook/lib/core/src/server/utils/merge-webpack-config.js,"alias ( { alias : defaultAlias = { } } , { alias : customAlias = { } } )",6, 76, 0, 0
+repos/javascript/storybook/lib/core/src/server/utils/merge-webpack-config.js,"module ( { module : defaultModule = { } } , { module : customModule = { } } )",7, 81, 0, 0
+repos/javascript/storybook/lib/core/src/server/utils/merge-webpack-config.js,"resolve ( { resolve : defaultResolve = { } } , { resolve : customResolve = { } } )",8, 86, 0, 0
+repos/javascript/storybook/lib/core/src/server/utils/merge-webpack-config.js,"optimization ( { optimization : defaultOptimization = { } } , { optimization : customOptimization = { } } )",9, 46, 2, 0
+repos/javascript/storybook/lib/core/src/server/utils/merge-webpack-config.js,"mergeConfigs ( config , customConfig )",13, 69, 4, 0
+repos/javascript/storybook/lib/core/src/server/utils/template.js,"getPreviewBodyHtml ( )",3, 98, 2, 0
+repos/javascript/storybook/lib/core/src/server/utils/template.js,"getPreviewHeadHtml ( configDirPath , interpolations )",15, 73, 2, 0
+repos/javascript/storybook/lib/core/src/server/utils/template.js,"getManagerHeadHtml ( configDirPath , interpolations )",15, 71, 2, 0
+repos/javascript/storybook/lib/core/src/server/utils/server-require.js,"registerCompiler ( moduleDescriptor )",39, 73, 4, 0
+repos/javascript/storybook/lib/core/src/server/utils/server-require.js,"interopRequireDefault ( filePath )",9, 92, 4, 0
+repos/javascript/storybook/lib/core/src/server/utils/server-require.js,"getCandidate ( paths )",11, 59, 4, 0
+repos/javascript/storybook/lib/core/src/server/utils/server-require.js,"serverRequire ( filePath )",22, 99, 2, 0
+repos/javascript/storybook/lib/core/src/server/cli/prod.js,"getCLI ( packageJson )",25, 100, 4, 0
+repos/javascript/storybook/lib/core/src/server/cli/dev.js,"getCLI ( packageJson )",67, 116, 6, 0
+repos/javascript/storybook/lib/core/src/server/cli/utils.js,"parseList ( str )",3, 33, 0, 0
+repos/javascript/storybook/lib/core/src/server/cli/utils.js,"getEnvConfig ( program , configEnv )",9, 63, 6, 0
+repos/javascript/storybook/lib/core/src/server/manager/manager-preset.js,"managerWebpack ( _ , options )",3, 51, 0, 0
+repos/javascript/storybook/lib/core/src/server/manager/manager-preset.js,"managerEntries ( _ , options )",14, 70, 2, 0
+repos/javascript/storybook/lib/core/src/server/manager/manager-preset.js,"addons ( _ , options )",3, 43, 0, 0
+repos/javascript/storybook/lib/core/src/server/manager/manager-config.js,"getManagerWebpackConfig ( options , presets )",6, 85, 2, 0
+repos/javascript/storybook/lib/core/src/server/common/babel.js,"createProdPresets ( )",11, 46, 6, 0
+repos/javascript/storybook/lib/core/src/server/common/custom-presets.js,"loadCustomPresets ( { configDir } )",4, 69, 2, 0
+repos/javascript/storybook/lib/core/src/server/preview/base-webpack.config.js,"createDefaultWebpackConfig ( storybookBaseConfig )",51, 92, 10, 0
+repos/javascript/storybook/lib/core/src/server/preview/custom-webpack-preset.js,"createFinalDefaultConfig ( presets , config , options )",4, 68, 0, 0
+repos/javascript/storybook/lib/core/src/server/preview/custom-webpack-preset.js,"webpack ( config , options )",22, 87, 2, 0
+repos/javascript/storybook/lib/core/src/server/preview/entries.js,"createPreviewEntry ( options )",14, 90, 2, 0
+repos/javascript/storybook/lib/core/src/client/preview/start.js,"showMain ( )",6, 53, 2, 0
+repos/javascript/storybook/lib/core/src/client/preview/start.js,"showNopreview ( )",6, 50, 2, 0
+repos/javascript/storybook/lib/core/src/client/preview/start.js,"showErrorDisplay ( { message , stack } )",8, 66, 2, 0
+repos/javascript/storybook/lib/core/src/client/preview/start.js,"showError ( { title , description } )",7, 74, 2, 0
+repos/javascript/storybook/lib/core/src/client/preview/start.js,"showException ( exception )",7, 73, 2, 0
+repos/javascript/storybook/lib/core/src/client/preview/start.js,"focusInInput ( event )",6, 58, 4, 0
+repos/javascript/storybook/lib/core/src/client/preview/start.js,"start ( render , { decorateStory } = { } )",112, 94, 6, 0
+repos/javascript/storybook/lib/cli/test/fixtures/react_babelrc_js/.storybook/config.js,"loadStories ( )",3, 49, 2, 0
+repos/javascript/storybook/lib/cli/test/fixtures/meteor/client/main.js,"helloOnCreated ( )",4, 53, 0, 0
+repos/javascript/storybook/lib/cli/test/fixtures/angular-cli-v6/src/karma.conf.js,"module.exports ( config )",28, 81, 6, 0
+repos/javascript/storybook/lib/cli/test/fixtures/angular-cli-v7/src/karma.conf.js,"module.exports ( config )",28, 81, 6, 0
+repos/javascript/storybook/lib/cli/test/fixtures/react_babelrc/.storybook/config.js,"loadStories ( )",3, 49, 2, 0
+repos/javascript/storybook/lib/cli/test/fixtures/ember-cli/ember-cli-build.js,"module.exports ( defaults )",20, 67, 2, 0
+repos/javascript/storybook/lib/cli/test/fixtures/ember-cli/config/environment.js,"module.exports ( environment )",49, 78, 8, 0
+repos/javascript/storybook/lib/cli/test/fixtures/react_babel_pkg_json/.storybook/config.js,"loadStories ( )",3, 49, 2, 0
+repos/javascript/storybook/lib/cli/test/fixtures/update_package_organisations/.storybook/config.js,"loadStories ( )",3, 25, 0, 0
+repos/javascript/storybook/lib/cli/test/fixtures/update_package_organisations/src/registerServiceWorker.js,"register ( )",24, 93, 6, 0
+repos/javascript/storybook/lib/cli/test/fixtures/update_package_organisations/src/registerServiceWorker.js,"registerValidSW ( swUrl )",28, 74, 14, 0
+repos/javascript/storybook/lib/cli/test/fixtures/update_package_organisations/src/registerServiceWorker.js,"checkValidServiceWorker ( swUrl )",26, 81, 6, 0
+repos/javascript/storybook/lib/cli/test/fixtures/update_package_organisations/src/registerServiceWorker.js,"unregister ( )",7, 57, 4, 0
+repos/javascript/storybook/lib/cli/test/fixtures/react_babel_custom_preset/.storybook/config.js,"loadStories ( )",3, 49, 2, 0
+repos/javascript/storybook/lib/cli/test/fixtures/react_scripts_v2/src/serviceWorker.js,"register ( config )",33, 94, 8, 0
+repos/javascript/storybook/lib/cli/test/fixtures/react_scripts_v2/src/serviceWorker.js,"registerValidSW ( swUrl , config )",43, 80, 14, 0
+repos/javascript/storybook/lib/cli/test/fixtures/react_scripts_v2/src/serviceWorker.js,"checkValidServiceWorker ( swUrl , config )",27, 81, 6, 0
+repos/javascript/storybook/lib/cli/test/fixtures/react_scripts_v2/src/serviceWorker.js,"unregister ( )",7, 57, 4, 0
+repos/javascript/storybook/lib/cli/test/fixtures/react_project/index.js,"Welcome ( props )",3, 41, 0, 0
+repos/javascript/storybook/lib/cli/test/fixtures/react_scripts_v2_forked/src/serviceWorker.js,"register ( config )",33, 94, 8, 0
+repos/javascript/storybook/lib/cli/test/fixtures/react_scripts_v2_forked/src/serviceWorker.js,"registerValidSW ( swUrl , config )",43, 80, 14, 0
+repos/javascript/storybook/lib/cli/test/fixtures/react_scripts_v2_forked/src/serviceWorker.js,"checkValidServiceWorker ( swUrl , config )",27, 81, 6, 0
+repos/javascript/storybook/lib/cli/test/fixtures/react_scripts_v2_forked/src/serviceWorker.js,"unregister ( )",7, 57, 4, 0
+repos/javascript/storybook/lib/cli/test/fixtures/react_babel_config_js/.storybook/config.js,"loadStories ( )",3, 49, 2, 0
+repos/javascript/storybook/lib/cli/test/fixtures/react_scripts/src/registerServiceWorker.js,"register ( )",24, 93, 6, 0
+repos/javascript/storybook/lib/cli/test/fixtures/react_scripts/src/registerServiceWorker.js,"registerValidSW ( swUrl )",28, 74, 14, 0
+repos/javascript/storybook/lib/cli/test/fixtures/react_scripts/src/registerServiceWorker.js,"checkValidServiceWorker ( swUrl )",26, 81, 6, 0
+repos/javascript/storybook/lib/cli/test/fixtures/react_scripts/src/registerServiceWorker.js,"unregister ( )",7, 57, 4, 0
+repos/javascript/storybook/lib/cli/lib/npm_init.js,"npmInit ( )",15, 60, 4, 0
+repos/javascript/storybook/lib/cli/lib/add.js,"add ( addonName , options )",17, 87, 6, 0
+repos/javascript/storybook/lib/cli/lib/has_yarn.js,"hasYarn ( )",9, 98, 2, 0
+repos/javascript/storybook/lib/cli/lib/helpers.js,"getVersion ( npmOptions , packageName , constraint )",27, 86, 4, 0
+repos/javascript/storybook/lib/cli/lib/helpers.js,"getVersions ( npmOptions , ... packageNames )",3, 92, 2, 0
+repos/javascript/storybook/lib/cli/lib/helpers.js,"getPackageJson ( )",9, 64, 2, 0
+repos/javascript/storybook/lib/cli/lib/helpers.js,"getBowerJson ( )",9, 62, 2, 0
+repos/javascript/storybook/lib/cli/lib/helpers.js,"getAngularJson ( )",9, 64, 2, 0
+repos/javascript/storybook/lib/cli/lib/helpers.js,"getAngularAppTsConfigPath ( )",10, 94, 2, 0
+repos/javascript/storybook/lib/cli/lib/helpers.js,"getAngularAppTsConfigJson ( )",10, 69, 2, 0
+repos/javascript/storybook/lib/cli/lib/helpers.js,"writeAngularAppTsConfig ( tsConfigJson )",7, 67, 4, 0
+repos/javascript/storybook/lib/cli/lib/helpers.js,"writePackageJson ( packageJson )",6, 63, 2, 0
+repos/javascript/storybook/lib/cli/lib/helpers.js,"writeBabelRc ( babelRc )",6, 59, 2, 0
+repos/javascript/storybook/lib/cli/lib/helpers.js,"commandLog ( message )",22, 57, 6, 0
+repos/javascript/storybook/lib/cli/lib/helpers.js,"paddedLog ( message )",8, 37, 0, 0
+repos/javascript/storybook/lib/cli/lib/helpers.js,"getChars ( char , amount )",8, 43, 2, 0
+repos/javascript/storybook/lib/cli/lib/helpers.js,"codeLog ( codeLines , leftPadAmount )",18, 83, 6, 0
+repos/javascript/storybook/lib/cli/lib/helpers.js,"installDeps ( options )",20, 66, 4, 0
+repos/javascript/storybook/lib/cli/lib/helpers.js,"installBabel ( npmOptions , packageJson )",30, 99, 4, 0
+repos/javascript/storybook/lib/cli/lib/helpers.js,"addToDevDependenciesIfNotPresent ( packageJson , name , packageVersion )",5, 86, 0, 0
+repos/javascript/storybook/lib/cli/lib/detect.js,"detectFramework ( dependencies )",110, 91, 4, 0
+repos/javascript/storybook/lib/cli/lib/detect.js,"isStorybookInstalled ( dependencies , force )",25, 87, 10, 0
+repos/javascript/storybook/lib/cli/lib/detect.js,"detect ( options )",23, 89, 2, 0
+repos/javascript/storybook/lib/cli/lib/initiate.js,"function ( options , pkg )",40, 101, 8, 0
+repos/javascript/storybook/lib/cli/lib/latest_version.js,"latestVersion ( npmOptions , packageName , constraint )",52, 88, 6, 0
+repos/javascript/storybook/lib/cli/generators/UPDATE_PACKAGE_ORGANIZATIONS/index.js,"updatePackage ( devDependencies , oldName , newName , npmOptions )",6, 78, 0, 0
+repos/javascript/storybook/lib/cli/generators/UPDATE_PACKAGE_ORGANIZATIONS/index.js,"updatePackageJson ( npmOptions )",28, 95, 4, 0
+repos/javascript/storybook/lib/cli/generators/UPDATE_PACKAGE_ORGANIZATIONS/index.js,"updateSourceCode ( parser )",17, 98, 4, 0
+repos/javascript/storybook/lib/cli/generators/WEBPACK_REACT/template/.storybook/config.js,"loadStories ( )",3, 49, 2, 0
+repos/javascript/storybook/lib/cli/generators/RIOT/template/.storybook/config.js,"loadStories ( )",3, 49, 2, 0
+repos/javascript/storybook/lib/cli/generators/MITHRIL/template/.storybook/config.js,"loadStories ( )",3, 49, 2, 0
+repos/javascript/storybook/lib/cli/generators/MITHRIL/template/stories/Welcome.js,"*global*",180, 99, 8, 0
+repos/javascript/storybook/lib/cli/generators/METEOR/template/.storybook/config.js,"loadStories ( )",3, 49, 2, 0
+repos/javascript/storybook/lib/cli/generators/MARKO/template/.storybook/config.js,"loadStories ( )",3, 49, 2, 0
+repos/javascript/storybook/lib/cli/generators/VUE/template/.storybook/config.js,"loadStories ( )",3, 49, 2, 0
+repos/javascript/storybook/lib/cli/generators/POLYMER/template/.storybook/config.js,"loadStories ( )",3, 49, 2, 0
+repos/javascript/storybook/lib/cli/generators/ANGULAR/index.js,"addDependencies ( npmOptions )",33, 76, 2, 0
+repos/javascript/storybook/lib/cli/generators/ANGULAR/index.js,"editAngularAppTsConfig ( )",15, 52, 2, 0
+repos/javascript/storybook/lib/cli/generators/ANGULAR/template/.storybook/config.js,"loadStories ( )",3, 49, 2, 0
+repos/javascript/storybook/lib/cli/generators/HTML/template/.storybook/config.js,"loadStories ( )",3, 49, 2, 0
+repos/javascript/storybook/lib/cli/generators/PREACT/template/.storybook/config.js,"loadStories ( )",3, 49, 2, 0
+repos/javascript/storybook/lib/cli/generators/PREACT/template/stories/Welcome.js,"*global*",130, 100, 6, 0
+repos/javascript/storybook/lib/cli/generators/PREACT/template/stories/Welcome.js,"*global*",130, 100, 6, 0
+repos/javascript/storybook/lib/cli/generators/REACT_NATIVE/template/storybook/stories/CenterView/index.js,"CenterView ( { children } )",3, 53, 2, 0
+repos/javascript/storybook/lib/cli/generators/REACT_NATIVE/template/storybook/stories/Button/index.android.js,"Button ( { onPress , children } )",3, 90, 2, 0
+repos/javascript/storybook/lib/cli/generators/REACT_NATIVE/template/storybook/stories/Button/index.ios.js,"Button ( { onPress , children } )",3, 80, 2, 0
+repos/javascript/storybook/lib/cli/generators/SFC_VUE/template/.storybook/config.js,"loadStories ( )",3, 49, 2, 0
+repos/javascript/storybook/lib/cli/generators/EMBER/template/.storybook/config.js,"loadStories ( )",3, 49, 2, 0
+repos/javascript/storybook/lib/cli/generators/REACT/template/.storybook/config.js,"loadStories ( )",3, 49, 2, 0
+repos/javascript/storybook/lib/cli/generators/REACT_SCRIPTS/template/.storybook/config.js,"loadStories ( )",3, 29, 2, 0
+repos/javascript/storybook/lib/components/src/StoryLinkWrapper.js,"StoryLinkWrapper ( { href , passHref , children } )",11, 73, 0, 0
+repos/javascript/storybook/lib/components/src/tabs/tabs.stories.js,"fibonacci ( num , memo = { } )",12, 67, 2, 0
+repos/javascript/storybook/lib/components/src/tooltip/Tooltip.js,"Tooltip ( { placement , hasChrome , children , arrowProps , tooltipRef , arrowRef , color , ... props } )",17, 100, 4, 0
+repos/javascript/storybook/lib/components/src/tooltip/ListItem.js,"ListItem ( { loading , left , title , center , right , active , disabled , href , onClick , LinkWrapper , ... rest } )",29, 73, 10, 0
+repos/javascript/storybook/lib/components/src/tooltip/TooltipNote.js,"TooltipNote ( { note } )",3, 48, 0, 0
+repos/javascript/storybook/lib/components/src/tooltip/TooltipMessage.js,"TooltipMessage ( { title , desc , links } )",19, 59, 10, 0
+repos/javascript/storybook/lib/components/src/Button/Button.js,"Button ( { isLink , children , ... props } )",6, 63, 2, 0
+repos/javascript/storybook/lib/components/src/typography/link/link.js,"Link ( { cancel , children , onClick , withArrow , containsIcon , className , ... rest } )",10, 96, 4, 0
+repos/javascript/storybook/lib/components/src/icon/icon.js,"Icon ( { icon , ... props } )",7, 45, 4, 0
+repos/javascript/storybook/lib/components/src/Badge/Badge.js,"Badge ( { ... props } )",3, 38, 2, 0
+repos/javascript/storybook/lib/client-api/src/pathToId.js,"pathToId ( path )",7, 75, 4, 0
+repos/javascript/storybook/lib/client-api/src/story_store.js,"getId ( )",4, 19, 0, 0
+repos/javascript/storybook/lib/codemod/src/transforms/update-addon-info.js,"transformer ( file , api )",90, 101, 8, 0
+repos/javascript/storybook/lib/codemod/src/transforms/update-organisation-name.js,"transformer ( file , api )",48, 88, 2, 0
+repos/javascript/storybook/lib/codemod/src/transforms/move-buildin-addons.js,"transformer ( file , api )",29, 101, 4, 0

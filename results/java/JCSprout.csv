@@ -1,0 +1,265 @@
+File, Function, Length, Total Width, Leading Space(s), Leading Tab(s)
+repos/java/JCSprout/src/test/java/com/crossoverjie/proxy/JDKProxyTest.java,"JDKProxyTest::test()",5, 136, 8, 0
+repos/java/JCSprout/src/test/java/com/crossoverjie/proxy/JDKProxyTest.java,"JDKProxyTest::clazzTest()",13, 100, 12, 0
+repos/java/JCSprout/src/test/java/com/crossoverjie/actual/LRUMapTest.java,"LRUMapTest::put()",14, 56, 8, 0
+repos/java/JCSprout/src/test/java/com/crossoverjie/actual/LRUMapTest.java,"LRUMapTest::put2()",14, 56, 8, 0
+repos/java/JCSprout/src/test/java/com/crossoverjie/actual/LRUMapTest.java,"LRUMapTest::put3()",15, 56, 8, 0
+repos/java/JCSprout/src/test/java/com/crossoverjie/actual/LRUMapTest.java,"LRUMapTest::put4()",12, 56, 8, 0
+repos/java/JCSprout/src/test/java/com/crossoverjie/actual/LRUMapTest.java,"LRUMapTest::get()",14, 56, 8, 0
+repos/java/JCSprout/src/test/java/com/crossoverjie/actual/LRUMapTest.java,"LRUMapTest::get2()",14, 56, 8, 0
+repos/java/JCSprout/src/test/java/com/crossoverjie/actual/LRUMapTest.java,"LRUMapTest::get3()",14, 56, 8, 0
+repos/java/JCSprout/src/test/java/com/crossoverjie/actual/LRUMapTest.java,"LRUMapTest::get4()",20, 54, 8, 0
+repos/java/JCSprout/src/test/java/com/crossoverjie/actual/LRULinkedMapTest.java,"LRULinkedMapTest::put()",16, 72, 12, 0
+repos/java/JCSprout/src/test/java/com/crossoverjie/actual/LRULinkedMapTest.java,"LRULinkedMapTest::put2()",17, 72, 12, 0
+repos/java/JCSprout/src/test/java/com/crossoverjie/actual/LRULinkedMapTest.java,"LRULinkedMapTest::get()",17, 72, 12, 0
+repos/java/JCSprout/src/test/java/com/crossoverjie/actual/AbstractMapTest.java,"AbstractMapTest::test()",11, 52, 8, 0
+repos/java/JCSprout/src/test/java/com/crossoverjie/actual/AbstractMapTest.java,"AbstractMapTest::main( String [ ] args)",12, 52, 8, 0
+repos/java/JCSprout/src/test/java/com/crossoverjie/algorithm/LinkLoopTest.java,"LinkLoopTest::isLoop()",12, 55, 8, 0
+repos/java/JCSprout/src/test/java/com/crossoverjie/algorithm/LinkLoopTest.java,"LinkLoopTest::isLoop2()",13, 55, 8, 0
+repos/java/JCSprout/src/test/java/com/crossoverjie/algorithm/LinkLoopTest.java,"LinkLoopTest::isLoop3()",11, 55, 8, 0
+repos/java/JCSprout/src/test/java/com/crossoverjie/algorithm/MergeTwoSortedListsTest.java,"MergeTwoSortedListsTest::setUp()",3, 57, 8, 0
+repos/java/JCSprout/src/test/java/com/crossoverjie/algorithm/MergeTwoSortedListsTest.java,"MergeTwoSortedListsTest::mergeTwoLists()",34, 71, 8, 0
+repos/java/JCSprout/src/test/java/com/crossoverjie/algorithm/MergeTwoSortedListsTest.java,"MergeTwoSortedListsTest::mergeTwoLists2()",15, 73, 8, 0
+repos/java/JCSprout/src/test/java/com/crossoverjie/algorithm/MergeTwoSortedListsTest.java,"MergeTwoSortedListsTest::mergeTwoLists3()",23, 73, 8, 0
+repos/java/JCSprout/src/test/java/com/crossoverjie/algorithm/TwoStackQueueTest.java,"TwoStackQueueTest::queue()",25, 76, 8, 0
+repos/java/JCSprout/src/test/java/com/crossoverjie/algorithm/HappyNumTest.java,"HappyNumTest::isHappy()",5, 46, 8, 0
+repos/java/JCSprout/src/test/java/com/crossoverjie/algorithm/HappyNumTest.java,"HappyNumTest::isHappy2()",5, 46, 4, 0
+repos/java/JCSprout/src/test/java/com/crossoverjie/algorithm/HappyNumTest.java,"HappyNumTest::isHappy3()",5, 47, 8, 0
+repos/java/JCSprout/src/test/java/com/crossoverjie/algorithm/ReverseNodeTest.java,"ReverseNodeTest::reverseNode1()",9, 64, 8, 0
+repos/java/JCSprout/src/test/java/com/crossoverjie/algorithm/ReverseNodeTest.java,"ReverseNodeTest::reverseNode12()",7, 54, 8, 0
+repos/java/JCSprout/src/test/java/com/crossoverjie/algorithm/ReverseNodeTest.java,"ReverseNodeTest::reverseNode13()",7, 54, 8, 0
+repos/java/JCSprout/src/test/java/com/crossoverjie/algorithm/ReverseNodeTest.java,"ReverseNodeTest::reverseHead21()",10, 54, 8, 0
+repos/java/JCSprout/src/test/java/com/crossoverjie/algorithm/ReverseNodeTest.java,"ReverseNodeTest::recNodeTest31()",9, 54, 8, 0
+repos/java/JCSprout/src/test/java/com/crossoverjie/algorithm/BinaryNodeTest.java,"BinaryNodeTest::test1()",10, 45, 8, 0
+repos/java/JCSprout/src/test/java/com/crossoverjie/algorithm/TwoSumTest.java,"TwoSumTest::getTwo1()",7, 53, 8, 0
+repos/java/JCSprout/src/test/java/com/crossoverjie/algorithm/TwoSumTest.java,"TwoSumTest::getTwo2()",7, 52, 8, 0
+repos/java/JCSprout/src/test/java/com/crossoverjie/algorithm/BinaryNodeTravelTest.java,"BinaryNodeTravelTest::levelIterator()",13, 70, 8, 0
+repos/java/JCSprout/src/test/java/com/crossoverjie/algorithm/BloomFiltersTest.java,"BloomFiltersTest::guavaTest()",18, 58, 8, 0
+repos/java/JCSprout/src/test/java/com/crossoverjie/algorithm/BloomFiltersTest.java,"BloomFiltersTest::hashMapTest()",14, 57, 8, 0
+repos/java/JCSprout/src/test/java/com/crossoverjie/algorithm/BloomFiltersTest.java,"BloomFiltersTest::bloomFilterTest()",14, 62, 8, 0
+repos/java/JCSprout/src/test/java/com/crossoverjie/algorithm/LinkedListMergeSortTest.java,"LinkedListMergeSortTest::constructorOutputVoid()",7, 75, 4, 0
+repos/java/JCSprout/src/test/java/com/crossoverjie/algorithm/LinkedListMergeSortTest.java,"LinkedListMergeSortTest::mergeListNotNull()",17, 94, 4, 0
+repos/java/JCSprout/src/test/java/com/crossoverjie/algorithm/LinkedListMergeSortTest.java,"LinkedListMergeSortTest::mergeListInputNotNullNotNullOutputNotNull2()",18, 95, 4, 0
+repos/java/JCSprout/src/test/java/com/crossoverjie/algorithm/LinkedListMergeSortTest.java,"LinkedListMergeSortTest::mergeListInputRightNull()",16, 93, 4, 0
+repos/java/JCSprout/src/test/java/com/crossoverjie/algorithm/LinkedListMergeSortTest.java,"LinkedListMergeSortTest::mergeListInputLeftNull()",16, 84, 4, 0
+repos/java/JCSprout/src/test/java/com/crossoverjie/algorithm/LinkedListMergeSortTest.java,"LinkedListMergeSortTest::mergeListInputNull()",13, 84, 4, 0
+repos/java/JCSprout/src/test/java/com/crossoverjie/algorithm/LinkedListMergeSortTest.java,"LinkedListMergeSortTest::mergeSortLength2()",19, 95, 4, 0
+repos/java/JCSprout/src/test/java/com/crossoverjie/algorithm/LinkedListMergeSortTest.java,"LinkedListMergeSortTest::mergeSortInputNull()",13, 86, 4, 0
+repos/java/JCSprout/src/test/java/com/crossoverjie/algorithm/LinkedListMergeSortTest.java,"LinkedListMergeSortTest::mainInput0OutputVoid()",10, 64, 4, 0
+repos/java/JCSprout/src/test/java/com/crossoverjie/red/RedPacketTest.java,"RedPacketTest::right()",11, 73, 8, 0
+repos/java/JCSprout/src/test/java/com/crossoverjie/red/RedPacketTest.java,"RedPacketTest::right_()",11, 71, 8, 0
+repos/java/JCSprout/src/test/java/com/crossoverjie/red/RedPacketTest.java,"RedPacketTest::right__()",11, 71, 8, 0
+repos/java/JCSprout/src/test/java/com/crossoverjie/kafka/KafkaTest.java,"KafkaTest::consumer()",25, 154, 16, 0
+repos/java/JCSprout/src/test/java/com/crossoverjie/kafka/KafkaTest.java,"KafkaTest::threadConsumer()",27, 101, 8, 0
+repos/java/JCSprout/src/test/java/com/crossoverjie/kafka/KafkaTest.java,"KafkaTest::Consumer::Consumer( TopicPartition topicPartition , Properties props , String name)",7, 87, 8, 0
+repos/java/JCSprout/src/test/java/com/crossoverjie/kafka/KafkaTest.java,"KafkaTest::Consumer::run()",10, 204, 20, 0
+repos/java/JCSprout/src/main/java/com/crossoverjie/Application.java,"Application::main( String [ ] args)",5, 62, 4, 0
+repos/java/JCSprout/src/main/java/com/crossoverjie/design/pattern/factorymethod/CatFactory.java,"CatFactory::createAnimal()",3, 35, 4, 0
+repos/java/JCSprout/src/main/java/com/crossoverjie/design/pattern/factorymethod/FishFactory.java,"FishFactory::createAnimal()",3, 35, 4, 0
+repos/java/JCSprout/src/main/java/com/crossoverjie/design/pattern/factorymethod/Main.java,"Main::main( String [ ] args)",6, 51, 8, 0
+repos/java/JCSprout/src/main/java/com/crossoverjie/design/pattern/factorymethod/Fish.java,"Fish::desc()",3, 62, 8, 0
+repos/java/JCSprout/src/main/java/com/crossoverjie/design/pattern/factorymethod/Cat.java,"Cat::desc()",3, 61, 8, 0
+repos/java/JCSprout/src/main/java/com/crossoverjie/design/pattern/factorymethod/Animal.java,"Animal::getName()",3, 30, 4, 0
+repos/java/JCSprout/src/main/java/com/crossoverjie/design/pattern/factorymethod/Animal.java,"Animal::setName( String name)",3, 39, 4, 0
+repos/java/JCSprout/src/main/java/com/crossoverjie/design/pattern/chainofresponsibility/MsgProcessChain.java,"MsgProcessChain::addChain( Process process)",4, 54, 4, 0
+repos/java/JCSprout/src/main/java/com/crossoverjie/design/pattern/chainofresponsibility/MsgProcessChain.java,"MsgProcessChain::process( String msg)",5, 39, 8, 0
+repos/java/JCSprout/src/main/java/com/crossoverjie/design/pattern/chainofresponsibility/Main.java,"Main::main( String [ ] args)",10, 54, 8, 0
+repos/java/JCSprout/src/main/java/com/crossoverjie/design/pattern/chainofresponsibility/impl/CopyrightProcess.java,"CopyrightProcess::doProcess( String msg)",3, 42, 8, 0
+repos/java/JCSprout/src/main/java/com/crossoverjie/design/pattern/chainofresponsibility/impl/TypoProcess.java,"TypoProcess::doProcess( String msg)",3, 43, 8, 0
+repos/java/JCSprout/src/main/java/com/crossoverjie/design/pattern/chainofresponsibility/impl/SensitiveWordProcess.java,"SensitiveWordProcess::doProcess( String msg)",3, 43, 8, 0
+repos/java/JCSprout/src/main/java/com/crossoverjie/proxy/jdk/CustomizeHandle.java,"CustomizeHandle::CustomizeHandle( Class clazz)",9, 55, 12, 0
+repos/java/JCSprout/src/main/java/com/crossoverjie/proxy/jdk/CustomizeHandle.java,"CustomizeHandle::invoke( Object proxy , Method method , Object [ ] args)",9, 88, 4, 0
+repos/java/JCSprout/src/main/java/com/crossoverjie/proxy/jdk/CustomizeHandle.java,"CustomizeHandle::before()",3, 38, 8, 0
+repos/java/JCSprout/src/main/java/com/crossoverjie/proxy/jdk/CustomizeHandle.java,"CustomizeHandle::after()",3, 37, 8, 0
+repos/java/JCSprout/src/main/java/com/crossoverjie/proxy/jdk/impl/ISubjectImpl.java,"ISubjectImpl::execute()",3, 45, 8, 0
+repos/java/JCSprout/src/main/java/com/crossoverjie/proxy/cglib/RealSubjectIntercept.java,"RealSubjectIntercept::intercept( Object o , Method method , Object [ ] objects , MethodProxy methodProxy)",8, 115, 4, 0
+repos/java/JCSprout/src/main/java/com/crossoverjie/proxy/cglib/RealSubject.java,"RealSubject::exec()",3, 34, 8, 0
+repos/java/JCSprout/src/main/java/com/crossoverjie/guava/CacheLoaderTest.java,"CacheLoaderTest::init()",21, 140, 24, 0
+repos/java/JCSprout/src/main/java/com/crossoverjie/guava/CacheLoaderTest.java,"CacheLoaderTest::checkAlert( Integer integer)",18, 88, 12, 0
+repos/java/JCSprout/src/main/java/com/crossoverjie/guava/CacheLoaderTest.java,"CacheLoaderTest::main( String [ ] args)",21, 74, 16, 0
+repos/java/JCSprout/src/main/java/com/crossoverjie/guava/callback/Notifier.java,"Notifier::execute( Caller caller , String msg)",10, 81, 4, 0
+repos/java/JCSprout/src/main/java/com/crossoverjie/guava/callback/Main.java,"Main::main( String [ ] args)",15, 60, 8, 0
+repos/java/JCSprout/src/main/java/com/crossoverjie/guava/callback/Caller.java,"Caller::call()",18, 60, 20, 0
+repos/java/JCSprout/src/main/java/com/crossoverjie/guava/callback/Caller.java,"Caller::getNotifier()",3, 36, 4, 0
+repos/java/JCSprout/src/main/java/com/crossoverjie/guava/callback/Caller.java,"Caller::setNotifier( Notifier notifier)",3, 49, 4, 0
+repos/java/JCSprout/src/main/java/com/crossoverjie/guava/callback/Caller.java,"Caller::getCallBackListener()",3, 52, 4, 0
+repos/java/JCSprout/src/main/java/com/crossoverjie/guava/callback/Caller.java,"Caller::setCallBackListener( CallBackListener callBackListener)",3, 73, 4, 0
+repos/java/JCSprout/src/main/java/com/crossoverjie/guava/callback/Caller.java,"Caller::getQuestion()",3, 34, 4, 0
+repos/java/JCSprout/src/main/java/com/crossoverjie/guava/callback/Caller.java,"Caller::setQuestion( String question)",3, 47, 4, 0
+repos/java/JCSprout/src/main/java/com/crossoverjie/guava/callback/Caller.java,"Caller::toString()",7, 57, 16, 0
+repos/java/JCSprout/src/main/java/com/crossoverjie/actual/ThreadCommunication.java,"ThreadCommunication::main( String [ ] args)",7, 62, 4, 0
+repos/java/JCSprout/src/main/java/com/crossoverjie/actual/ThreadCommunication.java,"ThreadCommunication::cyclicBarrier()",48, 61, 8, 0
+repos/java/JCSprout/src/main/java/com/crossoverjie/actual/ThreadCommunication.java,"ThreadCommunication::countDownLatch()",25, 69, 8, 0
+repos/java/JCSprout/src/main/java/com/crossoverjie/actual/ThreadCommunication.java,"ThreadCommunication::executorService()",32, 105, 8, 0
+repos/java/JCSprout/src/main/java/com/crossoverjie/actual/ThreadCommunication.java,"ThreadCommunication::join()",35, 61, 4, 0
+repos/java/JCSprout/src/main/java/com/crossoverjie/actual/ThreadCommunication.java,"ThreadCommunication::piped()",49, 59, 24, 0
+repos/java/JCSprout/src/main/java/com/crossoverjie/actual/LRULinkedMap.java,"LRULinkedMap<K,V>::LRULinkedMap( int cacheSize)",14, 68, 12, 0
+repos/java/JCSprout/src/main/java/com/crossoverjie/actual/LRULinkedMap.java,"LRULinkedMap<K,V>::put( K key , V value)",3, 36, 4, 0
+repos/java/JCSprout/src/main/java/com/crossoverjie/actual/LRULinkedMap.java,"LRULinkedMap<K,V>::get( K key)",3, 35, 8, 0
+repos/java/JCSprout/src/main/java/com/crossoverjie/actual/LRULinkedMap.java,"LRULinkedMap<K,V>::getAll()",3, 68, 8, 0
+repos/java/JCSprout/src/main/java/com/crossoverjie/actual/TwoThreadWaitNotify.java,"TwoThreadWaitNotify::main( String [ ] args)",13, 67, 8, 0
+repos/java/JCSprout/src/main/java/com/crossoverjie/actual/TwoThreadWaitNotify.java,"TwoThreadWaitNotify::OuNum::OuNum( TwoThreadWaitNotify number)",3, 51, 8, 0
+repos/java/JCSprout/src/main/java/com/crossoverjie/actual/TwoThreadWaitNotify.java,"TwoThreadWaitNotify::OuNum::run()",23, 103, 24, 0
+repos/java/JCSprout/src/main/java/com/crossoverjie/actual/TwoThreadWaitNotify.java,"TwoThreadWaitNotify::JiNum::JiNum( TwoThreadWaitNotify number)",3, 51, 8, 0
+repos/java/JCSprout/src/main/java/com/crossoverjie/actual/TwoThreadWaitNotify.java,"TwoThreadWaitNotify::JiNum::run()",21, 103, 24, 0
+repos/java/JCSprout/src/main/java/com/crossoverjie/actual/FourThreadPrinter.java,"FourThreadPrinter::FourThreadPrinter( String name , int currentType)",4, 61, 4, 0
+repos/java/JCSprout/src/main/java/com/crossoverjie/actual/FourThreadPrinter.java,"FourThreadPrinter::run()",14, 70, 20, 0
+repos/java/JCSprout/src/main/java/com/crossoverjie/actual/FourThreadPrinter.java,"FourThreadPrinter::updateCondition()",13, 68, 8, 0
+repos/java/JCSprout/src/main/java/com/crossoverjie/actual/FourThreadPrinter.java,"FourThreadPrinter::main( String [ ] args)",10, 52, 8, 0
+repos/java/JCSprout/src/main/java/com/crossoverjie/actual/TwoThread.java,"TwoThread::main( String [ ] args)",13, 54, 8, 0
+repos/java/JCSprout/src/main/java/com/crossoverjie/actual/TwoThread.java,"TwoThread::OuNum::OuNum( TwoThread number)",3, 41, 8, 0
+repos/java/JCSprout/src/main/java/com/crossoverjie/actual/TwoThread.java,"TwoThread::OuNum::run()",17, 101, 24, 0
+repos/java/JCSprout/src/main/java/com/crossoverjie/actual/TwoThread.java,"TwoThread::JiNum::JiNum( TwoThread number)",3, 41, 8, 0
+repos/java/JCSprout/src/main/java/com/crossoverjie/actual/TwoThread.java,"TwoThread::JiNum::run()",17, 101, 24, 0
+repos/java/JCSprout/src/main/java/com/crossoverjie/actual/ReadFile.java,"ReadFile::main( String [ ] args)",14, 48, 12, 0
+repos/java/JCSprout/src/main/java/com/crossoverjie/actual/ReadFile.java,"ReadFile::sortAndFindKeyWords( File file)",27, 76, 4, 0
+repos/java/JCSprout/src/main/java/com/crossoverjie/actual/ReadFile.java,"ReadFile::SortString::getKey()",3, 33, 8, 0
+repos/java/JCSprout/src/main/java/com/crossoverjie/actual/ReadFile.java,"ReadFile::SortString::setKey( String key)",3, 41, 8, 0
+repos/java/JCSprout/src/main/java/com/crossoverjie/actual/ReadFile.java,"ReadFile::SortString::getCount()",3, 36, 8, 0
+repos/java/JCSprout/src/main/java/com/crossoverjie/actual/ReadFile.java,"ReadFile::SortString::setCount( Integer count)",3, 46, 8, 0
+repos/java/JCSprout/src/main/java/com/crossoverjie/actual/ReadFile.java,"ReadFile::SortString::compareTo( SortString o)",7, 48, 12, 0
+repos/java/JCSprout/src/main/java/com/crossoverjie/actual/ReadFile.java,"ReadFile::SortString::toString()",6, 43, 20, 0
+repos/java/JCSprout/src/main/java/com/crossoverjie/actual/TwoThreadNonBlocking.java,"TwoThreadNonBlocking::TwoThreadNonBlocking( int start , int end , String name)",5, 68, 4, 0
+repos/java/JCSprout/src/main/java/com/crossoverjie/actual/TwoThreadNonBlocking.java,"TwoThreadNonBlocking::run()",11, 58, 16, 0
+repos/java/JCSprout/src/main/java/com/crossoverjie/actual/TwoThreadNonBlocking.java,"TwoThreadNonBlocking::main( String [ ] args)",4, 68, 8, 0
+repos/java/JCSprout/src/main/java/com/crossoverjie/actual/Search.java,"Search::main( String [ ] args)",91, 73, 4, 0
+repos/java/JCSprout/src/main/java/com/crossoverjie/actual/Search.java,"Search::search( String keyWord)",40, 71, 16, 0
+repos/java/JCSprout/src/main/java/com/crossoverjie/actual/Search.java,"Search::addWord( String word)",3, 45, 4, 0
+repos/java/JCSprout/src/main/java/com/crossoverjie/actual/LRUAbstractMap.java,"LRUAbstractMap::LRUAbstractMap()",9, 41, 8, 0
+repos/java/JCSprout/src/main/java/com/crossoverjie/actual/LRUAbstractMap.java,"LRUAbstractMap::executeCheckTime()",10, 102, 16, 0
+repos/java/JCSprout/src/main/java/com/crossoverjie/actual/LRUAbstractMap.java,"LRUAbstractMap::entrySet()",3, 35, 4, 0
+repos/java/JCSprout/src/main/java/com/crossoverjie/actual/LRUAbstractMap.java,"LRUAbstractMap::put( Object key , Object value)",44, 65, 20, 0
+repos/java/JCSprout/src/main/java/com/crossoverjie/actual/LRUAbstractMap.java,"LRUAbstractMap::get( Object key)",35, 71, 16, 0
+repos/java/JCSprout/src/main/java/com/crossoverjie/actual/LRUAbstractMap.java,"LRUAbstractMap::remove( Object key)",39, 52, 16, 0
+repos/java/JCSprout/src/main/java/com/crossoverjie/actual/LRUAbstractMap.java,"LRUAbstractMap::sizeUp()",23, 59, 16, 0
+repos/java/JCSprout/src/main/java/com/crossoverjie/actual/LRUAbstractMap.java,"LRUAbstractMap::sizeDown()",8, 38, 8, 0
+repos/java/JCSprout/src/main/java/com/crossoverjie/actual/LRUAbstractMap.java,"LRUAbstractMap::size()",3, 28, 8, 0
+repos/java/JCSprout/src/main/java/com/crossoverjie/actual/LRUAbstractMap.java,"LRUAbstractMap::Node::Node( Node pre , Node next , Object key , Object val)",7, 66, 8, 0
+repos/java/JCSprout/src/main/java/com/crossoverjie/actual/LRUAbstractMap.java,"LRUAbstractMap::Node::setUpdateTime( Long updateTime)",3, 53, 8, 0
+repos/java/JCSprout/src/main/java/com/crossoverjie/actual/LRUAbstractMap.java,"LRUAbstractMap::Node::getUpdateTime()",3, 38, 8, 0
+repos/java/JCSprout/src/main/java/com/crossoverjie/actual/LRUAbstractMap.java,"LRUAbstractMap::Node::toString()",6, 37, 20, 0
+repos/java/JCSprout/src/main/java/com/crossoverjie/actual/LRUAbstractMap.java,"LRUAbstractMap::hash( Object key)",4, 70, 8, 0
+repos/java/JCSprout/src/main/java/com/crossoverjie/actual/LRUAbstractMap.java,"LRUAbstractMap::lruCallback()",3, 37, 8, 0
+repos/java/JCSprout/src/main/java/com/crossoverjie/actual/LRUAbstractMap.java,"LRUAbstractMap::CheckTimeThread::run()",17, 83, 20, 0
+repos/java/JCSprout/src/main/java/com/crossoverjie/actual/LRUMap.java,"LRUMap<K,V>::LRUMap( int cacheSize)",18, 36, 8, 0
+repos/java/JCSprout/src/main/java/com/crossoverjie/actual/LRUMap.java,"LRUMap<K,V>::put( K key , V value)",6, 38, 4, 0
+repos/java/JCSprout/src/main/java/com/crossoverjie/actual/LRUMap.java,"LRUMap<K,V>::get( K key)",9, 40, 8, 0
+repos/java/JCSprout/src/main/java/com/crossoverjie/actual/LRUMap.java,"LRUMap<K,V>::moveToHead( Node<K,V> node)",28, 59, 8, 0
+repos/java/JCSprout/src/main/java/com/crossoverjie/actual/LRUMap.java,"LRUMap<K,V>::getNode( K key)",13, 44, 12, 0
+repos/java/JCSprout/src/main/java/com/crossoverjie/actual/LRUMap.java,"LRUMap<K,V>::addNode( K key , V value)",14, 50, 8, 0
+repos/java/JCSprout/src/main/java/com/crossoverjie/actual/LRUMap.java,"LRUMap<K,V>::addHead( Node<K,V> node)",15, 44, 4, 0
+repos/java/JCSprout/src/main/java/com/crossoverjie/actual/LRUMap.java,"LRUMap<K,V>::delTail()",11, 42, 8, 0
+repos/java/JCSprout/src/main/java/com/crossoverjie/actual/LRUMap.java,"LRUMap<K,V>::Node<K,V>::Node( K key , V value)",4, 38, 8, 0
+repos/java/JCSprout/src/main/java/com/crossoverjie/actual/LRUMap.java,"LRUMap<K,V>::Node<K,V>::Node()",2, 24, 8, 0
+repos/java/JCSprout/src/main/java/com/crossoverjie/actual/LRUMap.java,"LRUMap<K,V>::Node<K,V>::getKey()",3, 28, 8, 0
+repos/java/JCSprout/src/main/java/com/crossoverjie/actual/LRUMap.java,"LRUMap<K,V>::Node<K,V>::setKey( K key)",3, 36, 8, 0
+repos/java/JCSprout/src/main/java/com/crossoverjie/actual/LRUMap.java,"LRUMap<K,V>::Node<K,V>::getValue()",3, 30, 8, 0
+repos/java/JCSprout/src/main/java/com/crossoverjie/actual/LRUMap.java,"LRUMap<K,V>::Node<K,V>::setValue( V value)",3, 40, 8, 0
+repos/java/JCSprout/src/main/java/com/crossoverjie/actual/LRUMap.java,"LRUMap<K,V>::toString()",14, 49, 8, 0
+repos/java/JCSprout/src/main/java/com/crossoverjie/basic/HashMapTest.java,"HashMapTest::main( String [ ] args)",26, 88, 8, 0
+repos/java/JCSprout/src/main/java/com/crossoverjie/basic/StringTest.java,"StringTest::main( String [ ] args)",25, 97, 4, 0
+repos/java/JCSprout/src/main/java/com/crossoverjie/algorithm/MergeTwoSortedLists.java,"MergeTwoSortedLists::mergeTwoLists( ListNode l1 , ListNode l2)",24, 62, 4, 0
+repos/java/JCSprout/src/main/java/com/crossoverjie/algorithm/MergeTwoSortedLists.java,"MergeTwoSortedLists::ListNode::ListNode( int val)",3, 30, 12, 0
+repos/java/JCSprout/src/main/java/com/crossoverjie/algorithm/MergeTwoSortedLists.java,"MergeTwoSortedLists::ListNode::toString()",6, 49, 20, 0
+repos/java/JCSprout/src/main/java/com/crossoverjie/algorithm/BinaryNodeTravel.java,"BinaryNodeTravel::BinaryNodeTravel()",2, 32, 4, 0
+repos/java/JCSprout/src/main/java/com/crossoverjie/algorithm/BinaryNodeTravel.java,"BinaryNodeTravel::BinaryNodeTravel( Object data , BinaryNodeTravel left , BinaryNodeTravel right)",5, 90, 4, 0
+repos/java/JCSprout/src/main/java/com/crossoverjie/algorithm/BinaryNodeTravel.java,"BinaryNodeTravel::getData()",3, 30, 4, 0
+repos/java/JCSprout/src/main/java/com/crossoverjie/algorithm/BinaryNodeTravel.java,"BinaryNodeTravel::setData( Object data)",3, 39, 4, 0
+repos/java/JCSprout/src/main/java/com/crossoverjie/algorithm/BinaryNodeTravel.java,"BinaryNodeTravel::getLeft()",3, 40, 4, 0
+repos/java/JCSprout/src/main/java/com/crossoverjie/algorithm/BinaryNodeTravel.java,"BinaryNodeTravel::setLeft( BinaryNodeTravel left)",3, 49, 4, 0
+repos/java/JCSprout/src/main/java/com/crossoverjie/algorithm/BinaryNodeTravel.java,"BinaryNodeTravel::getRight()",3, 41, 4, 0
+repos/java/JCSprout/src/main/java/com/crossoverjie/algorithm/BinaryNodeTravel.java,"BinaryNodeTravel::setRight( BinaryNodeTravel right)",3, 51, 4, 0
+repos/java/JCSprout/src/main/java/com/crossoverjie/algorithm/BinaryNodeTravel.java,"BinaryNodeTravel::createNode()",16, 71, 8, 0
+repos/java/JCSprout/src/main/java/com/crossoverjie/algorithm/BinaryNodeTravel.java,"BinaryNodeTravel::toString()",7, 37, 16, 0
+repos/java/JCSprout/src/main/java/com/crossoverjie/algorithm/BinaryNodeTravel.java,"BinaryNodeTravel::levelIterator( BinaryNodeTravel node)",31, 66, 4, 0
+repos/java/JCSprout/src/main/java/com/crossoverjie/algorithm/BinaryNode.java,"BinaryNode::BinaryNode()",2, 26, 4, 0
+repos/java/JCSprout/src/main/java/com/crossoverjie/algorithm/BinaryNode.java,"BinaryNode::BinaryNode( Object data , BinaryNode left , BinaryNode right)",5, 72, 4, 0
+repos/java/JCSprout/src/main/java/com/crossoverjie/algorithm/BinaryNode.java,"BinaryNode::getData()",3, 30, 4, 0
+repos/java/JCSprout/src/main/java/com/crossoverjie/algorithm/BinaryNode.java,"BinaryNode::setData( Object data)",3, 39, 4, 0
+repos/java/JCSprout/src/main/java/com/crossoverjie/algorithm/BinaryNode.java,"BinaryNode::getLeft()",3, 34, 4, 0
+repos/java/JCSprout/src/main/java/com/crossoverjie/algorithm/BinaryNode.java,"BinaryNode::setLeft( BinaryNode left)",3, 43, 4, 0
+repos/java/JCSprout/src/main/java/com/crossoverjie/algorithm/BinaryNode.java,"BinaryNode::getRight()",3, 35, 4, 0
+repos/java/JCSprout/src/main/java/com/crossoverjie/algorithm/BinaryNode.java,"BinaryNode::setRight( BinaryNode right)",3, 45, 4, 0
+repos/java/JCSprout/src/main/java/com/crossoverjie/algorithm/BinaryNode.java,"BinaryNode::createNode()",14, 59, 8, 0
+repos/java/JCSprout/src/main/java/com/crossoverjie/algorithm/BinaryNode.java,"BinaryNode::toString()",7, 37, 16, 0
+repos/java/JCSprout/src/main/java/com/crossoverjie/algorithm/BinaryNode.java,"BinaryNode::levelIterator( BinaryNode node)",19, 60, 8, 0
+repos/java/JCSprout/src/main/java/com/crossoverjie/algorithm/TwoStackQueue.java,"TwoStackQueue<T>::appendTail( T t)",3, 33, 4, 0
+repos/java/JCSprout/src/main/java/com/crossoverjie/algorithm/TwoStackQueue.java,"TwoStackQueue<T>::deleteHead()",12, 40, 16, 0
+repos/java/JCSprout/src/main/java/com/crossoverjie/algorithm/TwoStackQueue.java,"TwoStackQueue<T>::getSize()",3, 43, 8, 0
+repos/java/JCSprout/src/main/java/com/crossoverjie/algorithm/LinkLoop.java,"LinkLoop::Node::Node( Object data , Node next)",4, 46, 8, 0
+repos/java/JCSprout/src/main/java/com/crossoverjie/algorithm/LinkLoop.java,"LinkLoop::Node::Node( Object data)",3, 35, 8, 0
+repos/java/JCSprout/src/main/java/com/crossoverjie/algorithm/LinkLoop.java,"LinkLoop::isLoop( Node node)",28, 41, 12, 0
+repos/java/JCSprout/src/main/java/com/crossoverjie/algorithm/HappyNum.java,"HappyNum::isHappy( int number)",18, 65, 16, 0
+repos/java/JCSprout/src/main/java/com/crossoverjie/algorithm/HappyNum.java,"HappyNum::main( String [ ] args)",9, 45, 4, 0
+repos/java/JCSprout/src/main/java/com/crossoverjie/algorithm/ArrayKShift.java,"ArrayKShift::arrayKShift( int [ ] array , int k)",46, 65, 8, 0
+repos/java/JCSprout/src/main/java/com/crossoverjie/algorithm/ArrayKShift.java,"ArrayKShift::main( String [ ] args)",10, 47, 8, 0
+repos/java/JCSprout/src/main/java/com/crossoverjie/algorithm/BloomFilters.java,"BloomFilters::BloomFilters( int arraySize)",4, 41, 4, 0
+repos/java/JCSprout/src/main/java/com/crossoverjie/algorithm/BloomFilters.java,"BloomFilters::add( String key)",10, 39, 8, 0
+repos/java/JCSprout/src/main/java/com/crossoverjie/algorithm/BloomFilters.java,"BloomFilters::check( String key)",23, 53, 8, 0
+repos/java/JCSprout/src/main/java/com/crossoverjie/algorithm/BloomFilters.java,"BloomFilters::hashcode_1( String key)",8, 46, 12, 0
+repos/java/JCSprout/src/main/java/com/crossoverjie/algorithm/BloomFilters.java,"BloomFilters::hashcode_2( String data)",13, 50, 8, 0
+repos/java/JCSprout/src/main/java/com/crossoverjie/algorithm/BloomFilters.java,"BloomFilters::hashcode_3( String key)",12, 55, 8, 0
+repos/java/JCSprout/src/main/java/com/crossoverjie/algorithm/BloomFilters.java,"BloomFilters::main( String [ ] args)",31, 60, 8, 0
+repos/java/JCSprout/src/main/java/com/crossoverjie/algorithm/LinkedListMergeSort.java,"LinkedListMergeSort::Node::Node()",2, 24, 8, 0
+repos/java/JCSprout/src/main/java/com/crossoverjie/algorithm/LinkedListMergeSort.java,"LinkedListMergeSort::Node::Node( int e , Node next)",4, 40, 8, 0
+repos/java/JCSprout/src/main/java/com/crossoverjie/algorithm/LinkedListMergeSort.java,"LinkedListMergeSort::mergeSort( Node first , int length)",36, 75, 13, 0
+repos/java/JCSprout/src/main/java/com/crossoverjie/algorithm/LinkedListMergeSort.java,"LinkedListMergeSort::mergeList( Node left , Node right)",31, 56, 9, 0
+repos/java/JCSprout/src/main/java/com/crossoverjie/algorithm/LinkedListMergeSort.java,"LinkedListMergeSort::main( String [ ] args)",34, 75, 56, 0
+repos/java/JCSprout/src/main/java/com/crossoverjie/algorithm/TwoArray.java,"TwoArray::main( String [ ] args)",18, 45, 4, 0
+repos/java/JCSprout/src/main/java/com/crossoverjie/algorithm/ReverseNode.java,"ReverseNode::reverseNode1( Node node)",21, 58, 12, 0
+repos/java/JCSprout/src/main/java/com/crossoverjie/algorithm/ReverseNode.java,"ReverseNode::reverseNode( Node head)",31, 44, 12, 0
+repos/java/JCSprout/src/main/java/com/crossoverjie/algorithm/ReverseNode.java,"ReverseNode::recNode( Node node)",11, 45, 8, 0
+repos/java/JCSprout/src/main/java/com/crossoverjie/algorithm/ReverseNode.java,"ReverseNode::Node<T>::Node( T value , Node<T> next)",4, 46, 8, 0
+repos/java/JCSprout/src/main/java/com/crossoverjie/algorithm/TwoSum.java,"TwoSum::getTwo1( int [ ] nums , int target)",15, 54, 12, 0
+repos/java/JCSprout/src/main/java/com/crossoverjie/algorithm/TwoSum.java,"TwoSum::getTwo2( int [ ] nums , int target)",12, 57, 16, 0
+repos/java/JCSprout/src/main/java/com/crossoverjie/oom/heap/MetaSpaceOOM.java,"MetaSpaceOOM::main( String [ ] args)",15, 127, 16, 0
+repos/java/JCSprout/src/main/java/com/crossoverjie/oom/heap/HeapOOM.java,"HeapOOM::main( String [ ] args)",6, 50, 8, 0
+repos/java/JCSprout/src/main/java/com/crossoverjie/classloader/Main.java,"Main::main( String [ ] args)",3, 45, 4, 0
+repos/java/JCSprout/src/main/java/com/crossoverjie/red/RedPacket.java,"RedPacket::splitRedPacket( int money , int count)",24, 79, 12, 0
+repos/java/JCSprout/src/main/java/com/crossoverjie/red/RedPacket.java,"RedPacket::randomRedPacket( int totalMoney , int minMoney , int maxMoney , int count)",40, 89, 4, 0
+repos/java/JCSprout/src/main/java/com/crossoverjie/red/RedPacket.java,"RedPacket::checkMoney( int lastMoney , int count)",12, 55, 4, 0
+repos/java/JCSprout/src/main/java/com/crossoverjie/red/RedPacket.java,"RedPacket::main( String [ ] args)",11, 73, 8, 0
+repos/java/JCSprout/src/main/java/com/crossoverjie/concurrent/Volatile.java,"Volatile::run()",5, 70, 8, 0
+repos/java/JCSprout/src/main/java/com/crossoverjie/concurrent/Volatile.java,"Volatile::main( String [ ] args)",26, 73, 4, 0
+repos/java/JCSprout/src/main/java/com/crossoverjie/concurrent/Volatile.java,"Volatile::stopThread()",3, 31, 4, 0
+repos/java/JCSprout/src/main/java/com/crossoverjie/concurrent/ThreadState.java,"ThreadState::main( String [ ] args)",6, 61, 8, 0
+repos/java/JCSprout/src/main/java/com/crossoverjie/concurrent/ThreadState.java,"ThreadState::TimeWaiting::run()",9, 51, 16, 0
+repos/java/JCSprout/src/main/java/com/crossoverjie/concurrent/ThreadState.java,"ThreadState::Waiting::run()",11, 55, 20, 0
+repos/java/JCSprout/src/main/java/com/crossoverjie/concurrent/ThreadState.java,"ThreadState::Blocked::run()",11, 55, 20, 0
+repos/java/JCSprout/src/main/java/com/crossoverjie/concurrent/Singleton.java,"Singleton::Singleton()",2, 26, 4, 0
+repos/java/JCSprout/src/main/java/com/crossoverjie/concurrent/Singleton.java,"Singleton::getInstance()",11, 49, 20, 0
+repos/java/JCSprout/src/main/java/com/crossoverjie/concurrent/StopThread.java,"StopThread::run()",10, 76, 12, 0
+repos/java/JCSprout/src/main/java/com/crossoverjie/concurrent/StopThread.java,"StopThread::main( String [ ] args)",9, 73, 4, 0
+repos/java/JCSprout/src/main/java/com/crossoverjie/concurrent/VolatileInc.java,"VolatileInc::run()",6, 40, 12, 0
+repos/java/JCSprout/src/main/java/com/crossoverjie/concurrent/VolatileInc.java,"VolatileInc::main( String [ ] args)",17, 73, 4, 0
+repos/java/JCSprout/src/main/java/com/crossoverjie/disruptor/LongEvent.java,"LongEvent::set( long value)",3, 34, 4, 0
+repos/java/JCSprout/src/main/java/com/crossoverjie/disruptor/LongEvent.java,"LongEvent::getValue()",3, 29, 4, 0
+repos/java/JCSprout/src/main/java/com/crossoverjie/disruptor/LongEvent.java,"LongEvent::setValue( long value)",3, 39, 4, 0
+repos/java/JCSprout/src/main/java/com/crossoverjie/disruptor/LongEventProducer.java,"LongEventProducer::LongEventProducer( RingBuffer<LongEvent> ringBuffer)",3, 65, 4, 0
+repos/java/JCSprout/src/main/java/com/crossoverjie/disruptor/LongEventProducer.java,"LongEventProducer::onData( long bb)",14, 90, 12, 0
+repos/java/JCSprout/src/main/java/com/crossoverjie/disruptor/LongEventFactory.java,"LongEventFactory::newInstance()",3, 37, 4, 0
+repos/java/JCSprout/src/main/java/com/crossoverjie/disruptor/LongEventMain.java,"LongEventMain::main( String [ ] args)",59, 122, 8, 0
+repos/java/JCSprout/src/main/java/com/crossoverjie/disruptor/LongEventMain.java,"LongEventMain::Work::Work( LongEventProducer producer , long bb)",4, 58, 8, 0
+repos/java/JCSprout/src/main/java/com/crossoverjie/disruptor/LongEventMain.java,"LongEventMain::Work::run()",3, 33, 12, 0
+repos/java/JCSprout/src/main/java/com/crossoverjie/disruptor/LongEventHandler.java,"LongEventHandler::onEvent( LongEvent event , long sequence , boolean endOfBatch)",4, 106, 4, 0
+repos/java/JCSprout/src/main/java/com/crossoverjie/gc/MinorGC.java,"MinorGC::main( String [ ] args)",10, 45, 4, 0
+repos/java/JCSprout/src/main/java/com/crossoverjie/hystrix/CommandTest.java,"CommandTest::main( String [ ] args)",19, 62, 4, 0
+repos/java/JCSprout/src/main/java/com/crossoverjie/hystrix/CommandOrder.java,"CommandOrder::CommandOrder( String orderName)",23, 125, 32, 0
+repos/java/JCSprout/src/main/java/com/crossoverjie/hystrix/CommandOrder.java,"CommandOrder::run()",7, 50, 8, 0
+repos/java/JCSprout/src/main/java/com/crossoverjie/hystrix/CommandUser.java,"CommandUser::CommandUser( String userName)",24, 125, 32, 0
+repos/java/JCSprout/src/main/java/com/crossoverjie/hystrix/CommandUser.java,"CommandUser::run()",7, 48, 8, 0
+repos/java/JCSprout/src/main/java/com/crossoverjie/thread/ThreadExceptionTest.java,"ThreadExceptionTest::main( String [ ] args)",24, 73, 4, 0
+repos/java/JCSprout/src/main/java/com/crossoverjie/thread/ThreadExceptionTest.java,"ThreadExceptionTest::Run1::run()",20, 65, 16, 0
+repos/java/JCSprout/src/main/java/com/crossoverjie/thread/ThreadExceptionTest.java,"ThreadExceptionTest::Run2::Run2()",3, 38, 12, 0
+repos/java/JCSprout/src/main/java/com/crossoverjie/thread/ThreadExceptionTest.java,"ThreadExceptionTest::Run2::run()",3, 41, 12, 0
+repos/java/JCSprout/src/main/java/com/crossoverjie/synchronize/Synchronize.java,"Synchronize::main( String [ ] args)",5, 47, 12, 0
+repos/java/JCSprout/src/main/java/com/crossoverjie/spring/LifeCycleConfig.java,"LifeCycleConfig::create()",5, 66, 8, 0
+repos/java/JCSprout/src/main/java/com/crossoverjie/spring/SpringLifeCycle.java,"SpringLifeCycle::start()",3, 46, 8, 0
+repos/java/JCSprout/src/main/java/com/crossoverjie/spring/SpringLifeCycle.java,"SpringLifeCycle::destroy()",3, 48, 8, 0
+repos/java/JCSprout/src/main/java/com/crossoverjie/spring/aware/SpringLifeCycleAware.java,"SpringLifeCycleAware::setApplicationContext( ApplicationContext applicationContext)",4, 101, 4, 0
+repos/java/JCSprout/src/main/java/com/crossoverjie/spring/processor/SpringLifeCycleProcessor.java,"SpringLifeCycleProcessor::postProcessBeforeInitialization( Object bean , String beanName)",6, 104, 4, 0
+repos/java/JCSprout/src/main/java/com/crossoverjie/spring/processor/SpringLifeCycleProcessor.java,"SpringLifeCycleProcessor::postProcessAfterInitialization( Object bean , String beanName)",6, 103, 4, 0
+repos/java/JCSprout/src/main/java/com/crossoverjie/spring/annotation/AnnotationBean.java,"AnnotationBean::start()",3, 45, 8, 0
+repos/java/JCSprout/src/main/java/com/crossoverjie/spring/annotation/AnnotationBean.java,"AnnotationBean::destroy()",3, 47, 8, 0
+repos/java/JCSprout/src/main/java/com/crossoverjie/spring/service/SpringLifeCycleService.java,"SpringLifeCycleService::afterPropertiesSet()",3, 56, 4, 0
+repos/java/JCSprout/src/main/java/com/crossoverjie/spring/service/SpringLifeCycleService.java,"SpringLifeCycleService::destroy()",3, 55, 8, 0

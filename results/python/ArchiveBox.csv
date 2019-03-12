@@ -1,0 +1,84 @@
+File, Function, Length, Total Width, Leading Space(s), Leading Tab(s)
+repos/python/ArchiveBox/archivebox/peekable.py,"__init__( self , iterable )",3, 34, 4, 0
+repos/python/ArchiveBox/archivebox/peekable.py,"__iter__( self )",2, 24, 4, 0
+repos/python/ArchiveBox/archivebox/peekable.py,"__bool__( self )",6, 30, 8, 0
+repos/python/ArchiveBox/archivebox/peekable.py,"__nonzero__( self )",3, 37, 8, 0
+repos/python/ArchiveBox/archivebox/peekable.py,"peek( self , default = _marker )",13, 77, 8, 0
+repos/python/ArchiveBox/archivebox/peekable.py,"prepend( self , * items )",26, 76, 8, 0
+repos/python/ArchiveBox/archivebox/peekable.py,"__next__( self )",5, 41, 12, 0
+repos/python/ArchiveBox/archivebox/peekable.py,"_get_slice( self , index )",25, 77, 8, 0
+repos/python/ArchiveBox/archivebox/peekable.py,"__getitem__( self , index )",11, 72, 12, 0
+repos/python/ArchiveBox/archivebox/index.py,"write_links_index( out_dir , links )",17, 72, 4, 0
+repos/python/ArchiveBox/archivebox/index.py,"write_json_links_index( out_dir , links )",20, 56, 8, 0
+repos/python/ArchiveBox/archivebox/index.py,"parse_json_links_index( out_dir )",10, 79, 4, 0
+repos/python/ArchiveBox/archivebox/index.py,"write_html_links_index( out_dir , links )",37, 90, 4, 0
+repos/python/ArchiveBox/archivebox/index.py,"patch_index_title_hack( link_url , new_title )",16, 70, 4, 0
+repos/python/ArchiveBox/archivebox/index.py,"write_link_index( out_dir , link )",4, 54, 4, 0
+repos/python/ArchiveBox/archivebox/index.py,"write_json_link_index( out_dir , link )",12, 58, 4, 0
+repos/python/ArchiveBox/archivebox/index.py,"parse_json_link_index( out_dir )",9, 63, 8, 0
+repos/python/ArchiveBox/archivebox/index.py,"write_html_link_index( out_dir , link )",16, 91, 4, 0
+repos/python/ArchiveBox/archivebox/util.py,"check_link_structure( link )",6, 71, 4, 0
+repos/python/ArchiveBox/archivebox/util.py,"check_links_structure( links )",5, 71, 4, 0
+repos/python/ArchiveBox/archivebox/util.py,"check_dependencies( )",60, 139, 8, 0
+repos/python/ArchiveBox/archivebox/util.py,"check_url_parsing( )",22, 84, 4, 0
+repos/python/ArchiveBox/archivebox/util.py,"save_stdin_source( raw_text )",12, 77, 4, 0
+repos/python/ArchiveBox/archivebox/util.py,"save_remote_source( url , timeout = TIMEOUT )",36, 84, 4, 0
+repos/python/ArchiveBox/archivebox/util.py,"fetch_page_title( url , timeout = 10 , progress = SHOW_PROGRESS )",20, 70, 8, 0
+repos/python/ArchiveBox/archivebox/util.py,"wget_output_path( link , look_in = None )",31, 81, 4, 0
+repos/python/ArchiveBox/archivebox/util.py,"str_between( string , start , end = None )",8, 55, 4, 0
+repos/python/ArchiveBox/archivebox/util.py,"pretty_path( path )",3, 85, 4, 0
+repos/python/ArchiveBox/archivebox/util.py,"print_error_hints( cmd , pwd , err = None , hints = None , prefix = '        ' )",23, 93, 8, 0
+repos/python/ArchiveBox/archivebox/util.py,"merge_links( a , b )",21, 122, 4, 0
+repos/python/ArchiveBox/archivebox/util.py,"get_link_type( link )",18, 103, 4, 0
+repos/python/ArchiveBox/archivebox/util.py,"derived_link_info( link )",47, 108, 8, 0
+repos/python/ArchiveBox/archivebox/util.py,"progress.progress_bar( seconds , prefix )",36, 104, 8, 0
+repos/python/ArchiveBox/archivebox/util.py,"progress.end( )",13, 108, 8, 0
+repos/python/ArchiveBox/archivebox/util.py,"progress( seconds = TIMEOUT , prefix = '' )",63, 108, 8, 0
+repos/python/ArchiveBox/archivebox/util.py,"download_url( url , timeout = TIMEOUT )",12, 64, 4, 0
+repos/python/ArchiveBox/archivebox/util.py,"chmod_file( path , cwd = '.' , permissions = OUTPUT_PERMISSIONS , timeout = 30 )",10, 114, 4, 0
+repos/python/ArchiveBox/archivebox/util.py,"run( * popenargs , input = None , capture_output = False , timeout = None , check = False , ** kwargs )",34, 92, 0, 0
+repos/python/ArchiveBox/archivebox/purge.py,"cleanup_index( regexes : List [ str ] , proceed : bool , delete : bool )",43, 76, 0, 0
+repos/python/ArchiveBox/archivebox/links.py,"validate_links( links )",36, 95, 4, 0
+repos/python/ArchiveBox/archivebox/links.py,"archivable_links( links )",7, 93, 8, 0
+repos/python/ArchiveBox/archivebox/links.py,"uniquefied_links( sorted_links )",24, 96, 4, 0
+repos/python/ArchiveBox/archivebox/links.py,"sorted_links( links )",3, 79, 4, 0
+repos/python/ArchiveBox/archivebox/links.py,"links_after_timestamp( links , timestamp = None )",11, 82, 12, 0
+repos/python/ArchiveBox/archivebox/links.py,"lowest_uniq_timestamp( used_timestamps , timestamp )",16, 91, 4, 0
+repos/python/ArchiveBox/archivebox/archive_methods.py,"load_link_index( link_dir , link )",17, 67, 4, 0
+repos/python/ArchiveBox/archivebox/archive_methods.py,"archive_link( link_dir , link , overwrite = True )",28, 97, 4, 0
+repos/python/ArchiveBox/archivebox/archive_methods.py,"print_link_status_line( link_dir , link , is_new )",10, 94, 4, 0
+repos/python/ArchiveBox/archivebox/archive_methods.py,"attach_result_to_link.attach_result_to_link.decorator.timed_fetch_func( link_dir , link , overwrite = False , ** kwargs )",41, 87, 12, 0
+repos/python/ArchiveBox/archivebox/archive_methods.py,"attach_result_to_link.decorator( fetch_func )",44, 87, 12, 0
+repos/python/ArchiveBox/archivebox/archive_methods.py,"attach_result_to_link( method )",51, 87, 12, 0
+repos/python/ArchiveBox/archivebox/archive_methods.py,"fetch_wget( link_dir , link , requisites = FETCH_WGET_REQUISITES , warc = FETCH_WARC , timeout = TIMEOUT )",70, 134, 8, 0
+repos/python/ArchiveBox/archivebox/archive_methods.py,"fetch_pdf( link_dir , link , timeout = TIMEOUT , user_data_dir = CHROME_USER_DATA_DIR )",35, 100, 8, 0
+repos/python/ArchiveBox/archivebox/archive_methods.py,"fetch_screenshot( link_dir , link , timeout = TIMEOUT , user_data_dir = CHROME_USER_DATA_DIR , resolution = RESOLUTION )",37, 114, 0, 0
+repos/python/ArchiveBox/archivebox/archive_methods.py,"fetch_dom( link_dir , link , timeout = TIMEOUT , user_data_dir = CHROME_USER_DATA_DIR )",36, 84, 0, 0
+repos/python/ArchiveBox/archivebox/archive_methods.py,"parse_archive_dot_org_response( response )",15, 76, 4, 0
+repos/python/ArchiveBox/archivebox/archive_methods.py,"archive_dot_org( link_dir , link , timeout = TIMEOUT )",57, 198, 8, 0
+repos/python/ArchiveBox/archivebox/archive_methods.py,"fetch_favicon( link_dir , link , timeout = TIMEOUT )",31, 84, 8, 0
+repos/python/ArchiveBox/archivebox/archive_methods.py,"fetch_title( link_dir , link , timeout = TIMEOUT )",28, 103, 8, 0
+repos/python/ArchiveBox/archivebox/archive_methods.py,"fetch_media( link_dir , link , timeout = MEDIA_TIMEOUT , overwrite = False )",61, 96, 16, 0
+repos/python/ArchiveBox/archivebox/archive_methods.py,"fetch_git( link_dir , link , timeout = TIMEOUT )",46, 86, 8, 0
+repos/python/ArchiveBox/archivebox/archive_methods.py,"chrome_headless( binary = CHROME_BINARY , user_data_dir = CHROME_USER_DATA_DIR )",10, 88, 4, 0
+repos/python/ArchiveBox/archivebox/archive.py,"print_help( )",9, 70, 4, 0
+repos/python/ArchiveBox/archivebox/archive.py,"load_links( archive_path = OUTPUT_DIR , import_path = None )",27, 90, 4, 0
+repos/python/ArchiveBox/archivebox/archive.py,"update_archive( archive_path , links , source = None , resume = None , append = True )",70, 113, 8, 0
+repos/python/ArchiveBox/archivebox/parse.py,"parse_links( path )",26, 111, 16, 0
+repos/python/ArchiveBox/archivebox/parse.py,"parse_pocket_html_export( html_file )",21, 155, 12, 0
+repos/python/ArchiveBox/archivebox/parse.py,"parse_pinboard_json_export( json_file )",34, 265, 8, 0
+repos/python/ArchiveBox/archivebox/parse.py,"parse_rss_export.get_row( key )",2, 84, 12, 0
+repos/python/ArchiveBox/archivebox/parse.py,"parse_rss_export( rss_file )",37, 84, 12, 0
+repos/python/ArchiveBox/archivebox/parse.py,"parse_shaarli_rss_export.get_row( key )",2, 91, 12, 0
+repos/python/ArchiveBox/archivebox/parse.py,"parse_shaarli_rss_export( rss_file )",38, 169, 8, 0
+repos/python/ArchiveBox/archivebox/parse.py,"parse_netscape_html_export( html_file )",24, 203, 8, 0
+repos/python/ArchiveBox/archivebox/parse.py,"parse_pinboard_rss_export( rss_file )",29, 78, 8, 0
+repos/python/ArchiveBox/archivebox/parse.py,"parse_medium_rss_export( rss_file )",22, 69, 8, 0
+repos/python/ArchiveBox/archivebox/parse.py,"parse_plain_text_export( text_file )",20, 66, 20, 0
+repos/python/ArchiveBox/archivebox/tests/tests.py,"__init__( self , output_dir : str )",2, 41, 4, 0
+repos/python/ArchiveBox/archivebox/tests/tests.py,"run( self , links , env = None , env_defaults = None )",28, 68, 16, 0
+repos/python/ArchiveBox/archivebox/tests/tests.py,"setup( self )",5, 54, 8, 0
+repos/python/ArchiveBox/archivebox/tests/tests.py,"teardown( self )",2, 24, 4, 0
+repos/python/ArchiveBox/archivebox/tests/tests.py,"output_dir( self )",2, 30, 8, 0
+repos/python/ArchiveBox/archivebox/tests/tests.py,"test_fetch_favicon_false( self )",8, 40, 4, 0
+repos/python/ArchiveBox/archivebox/tests/tests.py,"test_3000_links( self )",15, 136, 8, 0

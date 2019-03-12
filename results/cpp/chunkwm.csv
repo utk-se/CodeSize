@@ -1,0 +1,400 @@
+File, Function, Length, Total Width, Leading Space(s), Leading Tab(s)
+repos/cpp/chunkwm/src/core/callback.cpp,"WORK_QUEUE_CALLBACK( PluginWorkCallback)",6, 46, 4, 0
+repos/cpp/chunkwm/src/core/callback.cpp,"ChunkwmBroadcast( const char * PluginName , const char * EventName , void * PluginData , size_t Size)",25, 93, 0, 0
+repos/cpp/chunkwm/src/core/callback.cpp,"CHUNKWM_CALLBACK( Callback_ChunkWM_PluginBroadcast)",37, 68, 20, 0
+repos/cpp/chunkwm/src/core/callback.cpp,"BeginCallbackThreads( int Count)",13, 96, 4, 0
+repos/cpp/chunkwm/src/core/callback.cpp,"CHUNKWM_CALLBACK( Callback_ChunkWM_PluginLoad)",7, 60, 4, 0
+repos/cpp/chunkwm/src/core/callback.cpp,"CHUNKWM_CALLBACK( Callback_ChunkWM_PluginUnload)",7, 62, 4, 0
+repos/cpp/chunkwm/src/core/callback.cpp,"CHUNKWM_CALLBACK( Callback_ChunkWM_PluginCommand)",19, 94, 8, 0
+repos/cpp/chunkwm/src/core/callback.cpp,"CHUNKWM_CALLBACK( Callback_ChunkWM_ApplicationLaunched)",22, 119, 4, 0
+repos/cpp/chunkwm/src/core/callback.cpp,"CHUNKWM_CALLBACK( Callback_ChunkWM_ApplicationTerminated)",18, 87, 8, 0
+repos/cpp/chunkwm/src/core/callback.cpp,"CHUNKWM_CALLBACK( Callback_ChunkWM_ApplicationActivated)",17, 92, 4, 0
+repos/cpp/chunkwm/src/core/callback.cpp,"CHUNKWM_CALLBACK( Callback_ChunkWM_ApplicationDeactivated)",17, 92, 4, 0
+repos/cpp/chunkwm/src/core/callback.cpp,"CHUNKWM_CALLBACK( Callback_ChunkWM_ApplicationVisible)",17, 92, 4, 0
+repos/cpp/chunkwm/src/core/callback.cpp,"CHUNKWM_CALLBACK( Callback_ChunkWM_ApplicationHidden)",17, 92, 4, 0
+repos/cpp/chunkwm/src/core/callback.cpp,"CHUNKWM_CALLBACK( Callback_ChunkWM_SpaceChanged)",18, 94, 5, 0
+repos/cpp/chunkwm/src/core/callback.cpp,"CHUNKWM_CALLBACK( Callback_ChunkWM_DisplayAdded)",14, 73, 4, 0
+repos/cpp/chunkwm/src/core/callback.cpp,"CHUNKWM_CALLBACK( Callback_ChunkWM_DisplayRemoved)",14, 74, 4, 0
+repos/cpp/chunkwm/src/core/callback.cpp,"CHUNKWM_CALLBACK( Callback_ChunkWM_DisplayMoved)",14, 73, 4, 0
+repos/cpp/chunkwm/src/core/callback.cpp,"CHUNKWM_CALLBACK( Callback_ChunkWM_DisplayResized)",14, 78, 4, 0
+repos/cpp/chunkwm/src/core/callback.cpp,"CHUNKWM_CALLBACK( Callback_ChunkWM_DisplayChanged)",18, 94, 5, 0
+repos/cpp/chunkwm/src/core/callback.cpp,"CHUNKWM_CALLBACK( Callback_ChunkWM_WindowCreated)",24, 131, 8, 0
+repos/cpp/chunkwm/src/core/callback.cpp,"CHUNKWM_CALLBACK( Callback_ChunkWM_WindowDestroyed)",13, 108, 4, 0
+repos/cpp/chunkwm/src/core/callback.cpp,"CHUNKWM_CALLBACK( Callback_ChunkWM_WindowFocused)",25, 114, 12, 0
+repos/cpp/chunkwm/src/core/callback.cpp,"CHUNKWM_CALLBACK( Callback_ChunkWM_WindowMoved)",20, 108, 8, 0
+repos/cpp/chunkwm/src/core/callback.cpp,"CHUNKWM_CALLBACK( Callback_ChunkWM_WindowResized)",21, 110, 8, 0
+repos/cpp/chunkwm/src/core/callback.cpp,"CHUNKWM_CALLBACK( Callback_ChunkWM_WindowMinimized)",20, 112, 8, 0
+repos/cpp/chunkwm/src/core/callback.cpp,"CHUNKWM_CALLBACK( Callback_ChunkWM_WindowDeminimized)",40, 114, 8, 0
+repos/cpp/chunkwm/src/core/callback.cpp,"CHUNKWM_CALLBACK( Callback_ChunkWM_WindowSheetCreated)",24, 137, 8, 0
+repos/cpp/chunkwm/src/core/callback.cpp,"CHUNKWM_CALLBACK( Callback_ChunkWM_WindowTitleChanged)",20, 116, 8, 0
+repos/cpp/chunkwm/src/core/state.cpp,"SystemWideElement()",11, 49, 8, 0
+repos/cpp/chunkwm/src/core/state.cpp,"GetWindowByID( uint32_t Id)",9, 70, 4, 0
+repos/cpp/chunkwm/src/core/state.cpp,"AddWindowToCollection( macos_window * Window)",48, 164, 8, 0
+repos/cpp/chunkwm/src/core/state.cpp,"RemoveWindowFromCollection( macos_window * Window)",12, 113, 4, 0
+repos/cpp/chunkwm/src/core/state.cpp,"UpdateWindowTitle( macos_window * Window)",8, 53, 4, 0
+repos/cpp/chunkwm/src/core/state.cpp,"AddApplicationWindowsToCollection( macos_application * Application)",25, 119, 12, 0
+repos/cpp/chunkwm/src/core/state.cpp,"GetApplicationFromPID( pid_t PID)",11, 58, 4, 0
+repos/cpp/chunkwm/src/core/state.cpp,"AddApplication( macos_application * Application)",7, 71, 4, 0
+repos/cpp/chunkwm/src/core/state.cpp,"OBSERVER_CALLBACK( ApplicationCallback)",100, 105, 9, 0
+repos/cpp/chunkwm/src/core/state.cpp,"ConstructAndAddApplicationDispatch( macos_application * Application , carbon_application_details * Info , float Delay)",48, 153, 12, 0
+repos/cpp/chunkwm/src/core/state.cpp,"ConstructAndAddApplication( carbon_application_details * Info)",9, 105, 4, 0
+repos/cpp/chunkwm/src/core/state.cpp,"RemoveAndDestroyApplication( macos_application * Application)",9, 71, 4, 0
+repos/cpp/chunkwm/src/core/state.cpp,"UpdateWindowCollection()",7, 95, 4, 0
+repos/cpp/chunkwm/src/core/state.cpp,"InitState()",20, 101, 8, 0
+repos/cpp/chunkwm/src/core/cvar.cpp,"_FindCVar( const char * Name)",5, 50, 4, 0
+repos/cpp/chunkwm/src/core/cvar.cpp,"_CreateCVar( const char * Name , char * Value)",9, 47, 4, 0
+repos/cpp/chunkwm/src/core/cvar.cpp,"BeginCVars()",5, 54, 4, 0
+repos/cpp/chunkwm/src/core/cvar.cpp,"EndCVars()",13, 68, 4, 0
+repos/cpp/chunkwm/src/core/cvar.cpp,"UpdateCVarAPI( const char * Name , char * Value)",14, 50, 0, 0
+repos/cpp/chunkwm/src/core/cvar.cpp,"AcquireCVarAPI( const char * Name)",8, 46, 4, 0
+repos/cpp/chunkwm/src/core/cvar.cpp,"FindCVarAPI( const char * Name)",7, 38, 4, 0
+repos/cpp/chunkwm/src/core/plugin.cpp,"VerifyPluginFormat( plugin_details * Info)",10, 46, 4, 0
+repos/cpp/chunkwm/src/core/plugin.cpp,"VerifyPluginABI( plugin_details * Info)",5, 68, 4, 0
+repos/cpp/chunkwm/src/core/plugin.cpp,"PrintPluginDetails( plugin_details * Info)",13, 41, 0, 0
+repos/cpp/chunkwm/src/core/plugin.cpp,"BeginPluginList( chunkwm_plugin_export Export)",5, 59, 0, 0
+repos/cpp/chunkwm/src/core/plugin.cpp,"EndPluginList( chunkwm_plugin_export Export)",4, 49, 0, 0
+repos/cpp/chunkwm/src/core/plugin.cpp,"SubscribeToEvent( plugin * Plugin , chunkwm_plugin_export Export)",11, 63, 0, 0
+repos/cpp/chunkwm/src/core/plugin.cpp,"UnsubscribeFromEvent( plugin * Plugin , chunkwm_plugin_export Export)",11, 67, 0, 0
+repos/cpp/chunkwm/src/core/plugin.cpp,"HookPlugin( loaded_plugin * LoadedPlugin)",15, 75, 12, 0
+repos/cpp/chunkwm/src/core/plugin.cpp,"UnhookPlugin( loaded_plugin * LoadedPlugin)",14, 75, 12, 0
+repos/cpp/chunkwm/src/core/plugin.cpp,"StoreLoadedPlugin( loaded_plugin * LoadedPlugin)",6, 58, 4, 0
+repos/cpp/chunkwm/src/core/plugin.cpp,"RemoveLoadedPlugin( const char * Filename)",15, 63, 4, 0
+repos/cpp/chunkwm/src/core/plugin.cpp,"IsPluginLoaded( const char * Filename)",7, 71, 4, 0
+repos/cpp/chunkwm/src/core/plugin.cpp,"GetPluginFromFilename( const char * Filename)",18, 76, 4, 0
+repos/cpp/chunkwm/src/core/plugin.cpp,"BeginLoadedPluginList()",5, 44, 0, 0
+repos/cpp/chunkwm/src/core/plugin.cpp,"EndLoadedPluginList()",4, 45, 4, 0
+repos/cpp/chunkwm/src/core/plugin.cpp,"LoadPlugin( const char * Absolutepath , const char * Filename)",71, 113, 8, 0
+repos/cpp/chunkwm/src/core/plugin.cpp,"UnloadPlugin( const char * Absolutepath , const char * Filename)",41, 91, 9, 0
+repos/cpp/chunkwm/src/core/plugin.cpp,"BeginPlugins()",10, 65, 4, 0
+repos/cpp/chunkwm/src/core/plugin.cpp,"DestroyPluginFS( plugin_fs * PluginFS)",5, 42, 0, 0
+repos/cpp/chunkwm/src/core/config.cpp,"StringEquals( const char * A , const char * B)",4, 43, 0, 0
+repos/cpp/chunkwm/src/core/config.cpp,"PluginFilenameFromAbsolutepath( char * Absolutepath)",14, 62, 8, 0
+repos/cpp/chunkwm/src/core/config.cpp,"PluginAbsolutepathFromDirectory( char * Filename , char * Directory)",20, 78, 8, 0
+repos/cpp/chunkwm/src/core/config.cpp,"PopulatePluginPath( const char ** Message , plugin_fs * PluginFs)",26, 77, 8, 0
+repos/cpp/chunkwm/src/core/config.cpp,"ChunkwmDaemonDelegate( const char * Message , chunkwm_delegate * Delegate)",22, 78, 8, 0
+repos/cpp/chunkwm/src/core/config.cpp,"HandleCore( chunkwm_delegate * Delegate)",76, 109, 8, 0
+repos/cpp/chunkwm/src/core/config.cpp,"ValidToken( token * Token)",5, 37, 4, 0
+repos/cpp/chunkwm/src/core/config.cpp,"SetCVar( const char ** Message)",18, 118, 12, 0
+repos/cpp/chunkwm/src/core/config.cpp,"GetCVar( const char ** Message , int SockFD)",14, 66, 8, 0
+repos/cpp/chunkwm/src/core/config.cpp,"HandleCVar( chunkwm_delegate * Delegate , const char ** Message)",13, 107, 8, 0
+repos/cpp/chunkwm/src/core/config.cpp,"DAEMON_CALLBACK( DaemonCallback)",16, 88, 4, 0
+repos/cpp/chunkwm/src/core/wqueue.cpp,"DoNextWorkQueueEntry( work_queue * Queue)",17, 100, 8, 0
+repos/cpp/chunkwm/src/core/wqueue.cpp,"AddWorkQueueEntry( work_queue * Queue , work_queue_callback * Callback , void * Data)",14, 88, 4, 0
+repos/cpp/chunkwm/src/core/wqueue.cpp,"WorkQueueThreadProc( void * Data)",14, 77, 16, 0
+repos/cpp/chunkwm/src/core/wqueue.cpp,"CompleteWorkQueue( work_queue * Queue)",9, 59, 4, 0
+repos/cpp/chunkwm/src/core/hotloader.cpp,"PerformIOOperation( const char * Op , char * Filename)",11, 67, 8, 0
+repos/cpp/chunkwm/src/core/hotloader.cpp,"HOTLOADER_CALLBACK( HotloadPluginCallback)",13, 80, 8, 0
+repos/cpp/chunkwm/src/core/hotloader.cpp,"HotloadPlugins( hotloader * Hotloader , hotloader_callback Callback)",12, 123, 12, 0
+repos/cpp/chunkwm/src/core/dispatch/display.cpp,"DisplayCallback( CGDirectDisplayID DisplayId , CGDisplayChangeSummaryFlags Flags , void * Reference)",17, 97, 0, 0
+repos/cpp/chunkwm/src/core/dispatch/display.cpp,"BeginDisplayHandler()",5, 85, 4, 0
+repos/cpp/chunkwm/src/core/dispatch/display.cpp,"EndDisplayHandler()",5, 83, 4, 0
+repos/cpp/chunkwm/src/core/dispatch/event.cpp,"AddEvent( chunk_event Event)",12, 47, 8, 0
+repos/cpp/chunkwm/src/core/dispatch/event.cpp,"ProcessEventQueue( void *)",29, 94, 12, 0
+repos/cpp/chunkwm/src/core/dispatch/event.cpp,"BeginEventLoop()",25, 99, 4, 0
+repos/cpp/chunkwm/src/core/dispatch/event.cpp,"EndEventLoop()",5, 44, 4, 0
+repos/cpp/chunkwm/src/core/dispatch/event.cpp,"StartEventLoop()",7, 75, 8, 0
+repos/cpp/chunkwm/src/core/dispatch/event.cpp,"StopEventLoop()",7, 46, 8, 0
+repos/cpp/chunkwm/src/core/dispatch/carbon.cpp,"psn_hash::operator ( )( const ProcessSerialNumber & PSN) const",7, 85, 4, 0
+repos/cpp/chunkwm/src/core/dispatch/carbon.cpp,"operator ==( const ProcessSerialNumber & Lhs , const ProcessSerialNumber & Rhs)",7, 48, 0, 0
+repos/cpp/chunkwm/src/core/dispatch/carbon.cpp,"SearchCarbonApplicationDetailsCache( ProcessSerialNumber PSN)",11, 73, 4, 0
+repos/cpp/chunkwm/src/core/dispatch/carbon.cpp,"PrintCarbonApplicationDetails( carbon_application_details * Info)",11, 98, 10, 0
+repos/cpp/chunkwm/src/core/dispatch/carbon.cpp,"IsProcessInteractive( carbon_application_details * Info)",5, 109, 4, 0
+repos/cpp/chunkwm/src/core/dispatch/carbon.cpp,"CacheRunningProcesses()",9, 79, 8, 0
+repos/cpp/chunkwm/src/core/dispatch/carbon.cpp,"CarbonApplicationEventHandler( EventHandlerCallRef HandlerCallRef , EventRef Event , void * Refcon)",48, 109, 12, 0
+repos/cpp/chunkwm/src/core/dispatch/carbon.cpp,"BeginCarbonEventHandler( carbon_event_handler * Carbon)",18, 78, 4, 0
+repos/cpp/chunkwm/src/core/dispatch/carbon.cpp,"EndCarbonEventHandler( carbon_event_handler * Carbon)",4, 60, 4, 0
+repos/cpp/chunkwm/src/plugins/ffm/plugin.cpp,"IsWindowLevelAllowed( int WindowLevel)",17, 61, 4, 0
+repos/cpp/chunkwm/src/plugins/ffm/plugin.cpp,"FocusFollowsMouse( CGEventRef Event)",41, 114, 4, 0
+repos/cpp/chunkwm/src/plugins/ffm/plugin.cpp,"ShouldProcessEvent( CGEventRef Event)",8, 86, 4, 0
+repos/cpp/chunkwm/src/plugins/ffm/plugin.cpp,"EVENTTAP_CALLBACK( EventTapCallback)",22, 61, 8, 0
+repos/cpp/chunkwm/src/plugins/ffm/plugin.cpp,"ApplicationActivatedHandler( void * Data)",10, 72, 4, 0
+repos/cpp/chunkwm/src/plugins/ffm/plugin.cpp,"WindowFocusedHandler( void * Data)",5, 50, 4, 0
+repos/cpp/chunkwm/src/plugins/ffm/plugin.cpp,"TilingWindowFloatHandler( void * Data)",6, 48, 4, 0
+repos/cpp/chunkwm/src/plugins/ffm/plugin.cpp,"SetMouseModifier( const char * Mod)",20, 69, 4, 0
+repos/cpp/chunkwm/src/plugins/ffm/plugin.cpp,"PLUGIN_MAIN_FUNC( PluginMain)",14, 69, 4, 0
+repos/cpp/chunkwm/src/plugins/ffm/plugin.cpp,"PLUGIN_BOOL_FUNC( PluginInit)",20, 79, 8, 0
+repos/cpp/chunkwm/src/plugins/ffm/plugin.cpp,"PLUGIN_VOID_FUNC( PluginDeInit)",5, 34, 4, 0
+repos/cpp/chunkwm/src/plugins/template/plugin.cpp,"StringsAreEqual( const char * A , const char * B)",5, 46, 0, 0
+repos/cpp/chunkwm/src/plugins/template/plugin.cpp,"PLUGIN_MAIN_FUNC( PluginMain)",12, 81, 4, 0
+repos/cpp/chunkwm/src/plugins/template/plugin.cpp,"PLUGIN_BOOL_FUNC( PluginInit)",5, 29, 0, 0
+repos/cpp/chunkwm/src/plugins/template/plugin.cpp,"PLUGIN_VOID_FUNC( PluginDeInit)",3, 31, 0, 0
+repos/cpp/chunkwm/src/plugins/tiling/mouse.cpp,"IsMouseMoveInProgress()",5, 60, 12, 0
+repos/cpp/chunkwm/src/plugins/tiling/mouse.cpp,"IsMouseResizeInProgress()",5, 62, 12, 0
+repos/cpp/chunkwm/src/plugins/tiling/mouse.cpp,"IsMouseActionInProgress()",4, 49, 4, 0
+repos/cpp/chunkwm/src/plugins/tiling/mouse.cpp,"CgEventFlagsToMouseBindingFlags( uint32_t Flags)",10, 113, 4, 0
+repos/cpp/chunkwm/src/plugins/tiling/mouse.cpp,"MatchMouseBinding( mouse_binding * Binding , uint32_t Flags , uint32_t Button)",7, 75, 0, 0
+repos/cpp/chunkwm/src/plugins/tiling/mouse.cpp,"CreateResizeBorder( node * Node , macos_window * Window)",14, 118, 4, 0
+repos/cpp/chunkwm/src/plugins/tiling/mouse.cpp,"CreateResizeBorders( node * Node)",11, 67, 4, 0
+repos/cpp/chunkwm/src/plugins/tiling/mouse.cpp,"UpdateResizeBorders()",13, 122, 8, 0
+repos/cpp/chunkwm/src/plugins/tiling/mouse.cpp,"FreeResizeBorders()",8, 61, 8, 0
+repos/cpp/chunkwm/src/plugins/tiling/mouse.cpp,"BeginFloatingWindow( virtual_space * VirtualSpace , drag_mode DragMode)",51, 106, 4, 0
+repos/cpp/chunkwm/src/plugins/tiling/mouse.cpp,"BeginTiledWindow( macos_space * Space , virtual_space * VirtualSpace , drag_mode DragMode)",73, 128, 17, 0
+repos/cpp/chunkwm/src/plugins/tiling/mouse.cpp,"MouseMoveWindowBegin()",22, 72, 4, 0
+repos/cpp/chunkwm/src/plugins/tiling/mouse.cpp,"MouseMoveWindowTick()",53, 130, 16, 0
+repos/cpp/chunkwm/src/plugins/tiling/mouse.cpp,"MouseMoveWindowEnd()",22, 71, 12, 0
+repos/cpp/chunkwm/src/plugins/tiling/mouse.cpp,"MouseResizeWindowBegin()",22, 74, 4, 0
+repos/cpp/chunkwm/src/plugins/tiling/mouse.cpp,"MouseResizeWindowTick()",141, 103, 16, 0
+repos/cpp/chunkwm/src/plugins/tiling/mouse.cpp,"MouseResizeWindowEnd()",21, 91, 12, 0
+repos/cpp/chunkwm/src/plugins/tiling/mouse.cpp,"EVENTTAP_CALLBACK( EventTapCallback)",49, 93, 12, 0
+repos/cpp/chunkwm/src/plugins/tiling/mouse.cpp,"ParseMouseBinding( mouse_binding * MouseBinding , const char * BindSym)",28, 68, 0, 0
+repos/cpp/chunkwm/src/plugins/tiling/mouse.cpp,"BindMouseMoveAction( const char * BindSym)",5, 46, 0, 0
+repos/cpp/chunkwm/src/plugins/tiling/mouse.cpp,"BindMouseResizeAction( const char * BindSym)",5, 48, 0, 0
+repos/cpp/chunkwm/src/plugins/tiling/node.cpp,"AssignNodeIds( uint32_t ExistingId , uint32_t NewId , bool SpawnLeft)",12, 76, 0, 0
+repos/cpp/chunkwm/src/plugins/tiling/node.cpp,"OptimalSplitMode( node * Node)",6, 74, 4, 0
+repos/cpp/chunkwm/src/plugins/tiling/node.cpp,"NodeSplitFromString( char * Value)",9, 71, 4, 0
+repos/cpp/chunkwm/src/plugins/tiling/node.cpp,"CreateRootNode( uint32_t WindowId , macos_space * Space , virtual_space * VirtualSpace)",12, 89, 0, 0
+repos/cpp/chunkwm/src/plugins/tiling/node.cpp,"CreateLeafNode( node * Parent , uint32_t WindowId , region_type Type , macos_space * Space , virtual_space * VirtualSpace)",14, 72, 0, 0
+repos/cpp/chunkwm/src/plugins/tiling/node.cpp,"CreateLeafNodePair( node * Parent , uint32_t ExistingWindowId , uint32_t SpawnedWindowId , node_split Split , macos_space * Space , virtual_space * VirtualSpace)",19, 98, 8, 0
+repos/cpp/chunkwm/src/plugins/tiling/node.cpp,"CreateLeafNodePairPreselect( node * Parent , uint32_t ExistingWindowId , uint32_t SpawnedWindowId , macos_space * Space , virtual_space * VirtualSpace)",18, 109, 4, 0
+repos/cpp/chunkwm/src/plugins/tiling/node.cpp,"CenterWindowInRegion( macos_window * Window , region Region)",21, 75, 4, 0
+repos/cpp/chunkwm/src/plugins/tiling/node.cpp,"ResizeWindowToRegionSize( node * Node , bool Center)",23, 99, 4, 0
+repos/cpp/chunkwm/src/plugins/tiling/node.cpp,"ResizeWindowToRegionSize( node * Node)",4, 42, 0, 0
+repos/cpp/chunkwm/src/plugins/tiling/node.cpp,"ResizeWindowToExternalRegionSize( node * Node , region Region , bool Center)",28, 96, 9, 0
+repos/cpp/chunkwm/src/plugins/tiling/node.cpp,"ResizeWindowToExternalRegionSize( node * Node , region Region)",4, 65, 0, 0
+repos/cpp/chunkwm/src/plugins/tiling/node.cpp,"ApplyNodeRegionWithPotentialZoom( node * Node , virtual_space * VirtualSpace)",20, 80, 12, 0
+repos/cpp/chunkwm/src/plugins/tiling/node.cpp,"ApplyNodeRegion( node * Node , virtual_space_mode VirtualSpaceMode , bool Center)",14, 83, 0, 0
+repos/cpp/chunkwm/src/plugins/tiling/node.cpp,"ApplyNodeRegion( node * Node , virtual_space_mode VirtualSpaceMode)",4, 70, 0, 0
+repos/cpp/chunkwm/src/plugins/tiling/node.cpp,"ConstrainWindowToRegion( macos_window * Window)",66, 102, 4, 0
+repos/cpp/chunkwm/src/plugins/tiling/node.cpp,"FreePreselectNode( virtual_space * VirtualSpace)",7, 58, 4, 0
+repos/cpp/chunkwm/src/plugins/tiling/node.cpp,"FreeNodeTree( node * Node , virtual_space_mode VirtualSpaceMode)",12, 67, 0, 0
+repos/cpp/chunkwm/src/plugins/tiling/node.cpp,"FreeNode( node * Node)",4, 26, 0, 0
+repos/cpp/chunkwm/src/plugins/tiling/node.cpp,"IsRightChild( node * Node)",5, 63, 4, 0
+repos/cpp/chunkwm/src/plugins/tiling/node.cpp,"IsLeftChild( node * Node)",5, 62, 4, 0
+repos/cpp/chunkwm/src/plugins/tiling/node.cpp,"IsNodeInTree( node * Tree , node * Node)",7, 70, 19, 0
+repos/cpp/chunkwm/src/plugins/tiling/node.cpp,"IsLeafNode( node * Node)",5, 47, 4, 0
+repos/cpp/chunkwm/src/plugins/tiling/node.cpp,"GetFirstLeafNode( node * Tree)",9, 50, 4, 0
+repos/cpp/chunkwm/src/plugins/tiling/node.cpp,"GetLastLeafNode( node * Tree)",9, 74, 4, 0
+repos/cpp/chunkwm/src/plugins/tiling/node.cpp,"GetBiggestLeafNode( node * Tree)",13, 92, 4, 0
+repos/cpp/chunkwm/src/plugins/tiling/node.cpp,"GetFirstMinDepthLeafNode( node * Tree)",24, 46, 5, 0
+repos/cpp/chunkwm/src/plugins/tiling/node.cpp,"GetFirstMinDepthPseudoLeafNode( node * Tree)",19, 73, 8, 0
+repos/cpp/chunkwm/src/plugins/tiling/node.cpp,"GetPrevLeafNode( node * Node)",22, 45, 8, 0
+repos/cpp/chunkwm/src/plugins/tiling/node.cpp,"GetNextLeafNode( node * Node)",22, 44, 12, 0
+repos/cpp/chunkwm/src/plugins/tiling/node.cpp,"GetLowestCommonAncestor( node * A , node * B)",19, 52, 8, 0
+repos/cpp/chunkwm/src/plugins/tiling/node.cpp,"EqualizeNodeTree( node * Tree)",26, 86, 8, 0
+repos/cpp/chunkwm/src/plugins/tiling/node.cpp,"GetNodeWithId( node * Tree , uint32_t WindowId , virtual_space_mode VirtualSpaceMode)",15, 88, 0, 0
+repos/cpp/chunkwm/src/plugins/tiling/node.cpp,"SwapNodeIds( node * A , node * B)",6, 35, 0, 0
+repos/cpp/chunkwm/src/plugins/tiling/node.cpp,"GetNodeForPoint( node * Node , CGPoint * Point)",16, 72, 12, 0
+repos/cpp/chunkwm/src/plugins/tiling/node.cpp,"ChainSerializedNode( serialized_node * Root , const char * NodeType , node * Node)",13, 91, 4, 0
+repos/cpp/chunkwm/src/plugins/tiling/node.cpp,"ChainSerializedNode( serialized_node * Root , const char * NodeType)",11, 91, 4, 0
+repos/cpp/chunkwm/src/plugins/tiling/node.cpp,"DestroySerializedNode( serialized_node * Node)",9, 45, 0, 0
+repos/cpp/chunkwm/src/plugins/tiling/node.cpp,"SerializeRootNode( node * Node , const char * NodeType , serialized_node * SerializedNode)",14, 85, 0, 0
+repos/cpp/chunkwm/src/plugins/tiling/node.cpp,"SerializeNodeToBuffer( node * Node)",40, 62, 8, 0
+repos/cpp/chunkwm/src/plugins/tiling/node.cpp,"DeserializeNodeFromBuffer( char * Buffer)",80, 89, 12, 0
+repos/cpp/chunkwm/src/plugins/tiling/config.cpp,"BuildArguments( const char * Message , int * Count)",19, 71, 8, 0
+repos/cpp/chunkwm/src/plugins/tiling/config.cpp,"FreeArguments( int Count , char ** Args)",7, 50, 4, 0
+repos/cpp/chunkwm/src/plugins/tiling/config.cpp,"FreeCommandChain( command * Chain)",10, 39, 8, 0
+repos/cpp/chunkwm/src/plugins/tiling/config.cpp,"ConstructCommand( char Flag , char * Arg)",10, 60, 4, 0
+repos/cpp/chunkwm/src/plugins/tiling/config.cpp,"WindowCommandDispatch( char Flag)",19, 52, 4, 0
+repos/cpp/chunkwm/src/plugins/tiling/config.cpp,"ParseWindowCommand( const char * Message , command * Chain)",179, 128, 12, 0
+repos/cpp/chunkwm/src/plugins/tiling/config.cpp,"SpaceCommandDispatch( char Flag)",20, 52, 4, 0
+repos/cpp/chunkwm/src/plugins/tiling/config.cpp,"ParseSpaceCommand( const char * Message , command * Chain)",147, 110, 16, 0
+repos/cpp/chunkwm/src/plugins/tiling/config.cpp,"MonitorCommandDispatch( char Flag)",9, 52, 4, 0
+repos/cpp/chunkwm/src/plugins/tiling/config.cpp,"ParseMonitorCommand( const char * Message , command * Chain)",42, 110, 16, 0
+repos/cpp/chunkwm/src/plugins/tiling/config.cpp,"QueryCommandDispatch( char Flag)",14, 53, 4, 0
+repos/cpp/chunkwm/src/plugins/tiling/config.cpp,"ParseQueryCommand( const char * Message , command * Chain)",100, 110, 16, 0
+repos/cpp/chunkwm/src/plugins/tiling/config.cpp,"ParseRuleCommand( const char * Message , window_rule * Rule)",101, 103, 8, 0
+repos/cpp/chunkwm/src/plugins/tiling/config.cpp,"CommandCallback( int SockFD , const char * Type , const char * Message)",64, 105, 16, 0
+repos/cpp/chunkwm/src/plugins/tiling/controller.cpp,"GetActiveSpace( macos_window * Window)",12, 59, 8, 0
+repos/cpp/chunkwm/src/plugins/tiling/controller.cpp,"GetActiveSpace()",5, 47, 4, 0
+repos/cpp/chunkwm/src/plugins/tiling/controller.cpp,"IsCursorInRegion( region * Region)",9, 62, 19, 0
+repos/cpp/chunkwm/src/plugins/tiling/controller.cpp,"CenterMouseInRegion( region * Region)",8, 70, 37, 0
+repos/cpp/chunkwm/src/plugins/tiling/controller.cpp,"CenterMouseInWindowRef( AXUIElementRef WindowRef)",5, 67, 4, 0
+repos/cpp/chunkwm/src/plugins/tiling/controller.cpp,"CenterMouseInRegionAndClick( region * Region)",30, 97, 8, 0
+repos/cpp/chunkwm/src/plugins/tiling/controller.cpp,"CenterMouseInWindow( macos_window * Window)",8, 53, 22, 0
+repos/cpp/chunkwm/src/plugins/tiling/controller.cpp,"DirectionFromString( char * Direction)",8, 68, 4, 0
+repos/cpp/chunkwm/src/plugins/tiling/controller.cpp,"WrapMonitorEdge( macos_space * Space , int Direction , float * X1 , float * X2 , float * Y1 , float * Y2)",14, 76, 4, 0
+repos/cpp/chunkwm/src/plugins/tiling/controller.cpp,"GetWindowDistance( macos_space * Space , float X1 , float Y1 , float X2 , float Y2 , char * Op , bool Wrap)",36, 76, 4, 0
+repos/cpp/chunkwm/src/plugins/tiling/controller.cpp,"WindowIsInDirection( char * Op , float X1 , float Y1 , float W1 , float H1 , float X2 , float Y2 , float W2 , float H2)",20, 76, 4, 0
+repos/cpp/chunkwm/src/plugins/tiling/controller.cpp,"FindClosestWindow( macos_space * Space , virtual_space * VirtualSpace , macos_window * Match , macos_window ** ClosestWindow , char * Direction , bool Wrap)",35, 89, 8, 0
+repos/cpp/chunkwm/src/plugins/tiling/controller.cpp,"FindClosestFullscreenWindow( macos_space * Space , macos_window * Match , macos_window ** ClosestWindow , char * Direction , bool Wrap)",44, 96, 32, 0
+repos/cpp/chunkwm/src/plugins/tiling/controller.cpp,"FindWindowUndirected( macos_space * Space , virtual_space * VirtualSpace , node * WindowNode , macos_window ** ClosestWindow , char * Direction , bool WrapMonitor)",39, 70, 0, 0
+repos/cpp/chunkwm/src/plugins/tiling/controller.cpp,"CloseWindow( char * Unused)",7, 47, 4, 0
+repos/cpp/chunkwm/src/plugins/tiling/controller.cpp,"FocusWindow( macos_window * Window)",9, 93, 4, 0
+repos/cpp/chunkwm/src/plugins/tiling/controller.cpp,"FocusWindowInFullscreenSpace( macos_space * Space , char * Direction)",15, 94, 4, 0
+repos/cpp/chunkwm/src/plugins/tiling/controller.cpp,"FocusWindowNoFocus( char * Direction)",57, 80, 4, 0
+repos/cpp/chunkwm/src/plugins/tiling/controller.cpp,"FocusWindowFocus( char * Direction , macos_window * Window)",103, 119, 16, 0
+repos/cpp/chunkwm/src/plugins/tiling/controller.cpp,"FocusWindow( char * Direction)",17, 51, 4, 0
+repos/cpp/chunkwm/src/plugins/tiling/controller.cpp,"SwapWindow( char * Direction)",81, 104, 8, 0
+repos/cpp/chunkwm/src/plugins/tiling/controller.cpp,"WarpWindow( char * Direction)",93, 104, 8, 0
+repos/cpp/chunkwm/src/plugins/tiling/controller.cpp,"TemporaryRatio( char * Ratio)",6, 50, 4, 0
+repos/cpp/chunkwm/src/plugins/tiling/controller.cpp,"ExtendedDockSetWindowAlpha( uint32_t WindowId , float Value , float Duration)",10, 83, 8, 0
+repos/cpp/chunkwm/src/plugins/tiling/controller.cpp,"ExtendedDockSetWindowAlpha( uint32_t WindowId , float Value)",10, 65, 8, 0
+repos/cpp/chunkwm/src/plugins/tiling/controller.cpp,"EnableWindowFading( uint32_t FocusedWindowId)",15, 74, 4, 0
+repos/cpp/chunkwm/src/plugins/tiling/controller.cpp,"DisableWindowFading()",12, 74, 4, 0
+repos/cpp/chunkwm/src/plugins/tiling/controller.cpp,"ExtendedDockSetWindowPosition( uint32_t WindowId , int X , int Y)",10, 68, 0, 0
+repos/cpp/chunkwm/src/plugins/tiling/controller.cpp,"ExtendedDockSetWindowLevel( macos_window * Window , int WindowLevelKey)",10, 76, 8, 0
+repos/cpp/chunkwm/src/plugins/tiling/controller.cpp,"ExtendedDockSetWindowSticky( macos_window * Window , int Value)",10, 68, 8, 0
+repos/cpp/chunkwm/src/plugins/tiling/controller.cpp,"FloatWindow( macos_window * Window)",9, 73, 8, 0
+repos/cpp/chunkwm/src/plugins/tiling/controller.cpp,"UnfloatWindow( macos_window * Window)",9, 69, 8, 0
+repos/cpp/chunkwm/src/plugins/tiling/controller.cpp,"ToggleWindowFade()",13, 55, 4, 0
+repos/cpp/chunkwm/src/plugins/tiling/controller.cpp,"ToggleWindowFloat()",15, 47, 4, 0
+repos/cpp/chunkwm/src/plugins/tiling/controller.cpp,"ToggleWindowSticky()",25, 52, 8, 0
+repos/cpp/chunkwm/src/plugins/tiling/controller.cpp,"ToggleWindowNativeFullscreen()",20, 90, 8, 0
+repos/cpp/chunkwm/src/plugins/tiling/controller.cpp,"ToggleWindowFullscreenZoom()",61, 78, 4, 0
+repos/cpp/chunkwm/src/plugins/tiling/controller.cpp,"ToggleWindowParentZoom()",61, 78, 4, 0
+repos/cpp/chunkwm/src/plugins/tiling/controller.cpp,"ToggleWindowSplitMode()",48, 78, 4, 0
+repos/cpp/chunkwm/src/plugins/tiling/controller.cpp,"ToggleWindow( char * Type)",10, 88, 4, 0
+repos/cpp/chunkwm/src/plugins/tiling/controller.cpp,"UseInsertionPoint( char * Direction)",115, 103, 4, 0
+repos/cpp/chunkwm/src/plugins/tiling/controller.cpp,"RotateBSPTree( node * Node , char * Degrees)",21, 84, 8, 0
+repos/cpp/chunkwm/src/plugins/tiling/controller.cpp,"RotateWindowTree( char * Degrees)",27, 79, 4, 0
+repos/cpp/chunkwm/src/plugins/tiling/controller.cpp,"MirrorBSPTree( node * Tree , node_split Axis)",14, 56, 8, 0
+repos/cpp/chunkwm/src/plugins/tiling/controller.cpp,"MirrorWindowTree( char * Direction)",32, 82, 8, 0
+repos/cpp/chunkwm/src/plugins/tiling/controller.cpp,"AdjustWindowRatio( char * Direction)",68, 100, 4, 0
+repos/cpp/chunkwm/src/plugins/tiling/controller.cpp,"ActivateSpaceLayout( char * Layout)",42, 83, 4, 0
+repos/cpp/chunkwm/src/plugins/tiling/controller.cpp,"ToggleSpace( char * Op)",35, 87, 12, 0
+repos/cpp/chunkwm/src/plugins/tiling/controller.cpp,"AdjustSpacePadding( char * Op)",48, 83, 8, 0
+repos/cpp/chunkwm/src/plugins/tiling/controller.cpp,"AdjustSpaceGap( char * Op)",40, 83, 8, 0
+repos/cpp/chunkwm/src/plugins/tiling/controller.cpp,"NormalizeWindowRect( AXUIElementRef WindowRef , CFStringRef SourceMonitor , CFStringRef DestinationMonitor)",28, 105, 0, 0
+repos/cpp/chunkwm/src/plugins/tiling/controller.cpp,"SendWindowToDesktop( macos_window * Window , char * Op)",119, 108, 14, 0
+repos/cpp/chunkwm/src/plugins/tiling/controller.cpp,"SendWindowToDesktop( char * Op)",7, 47, 4, 0
+repos/cpp/chunkwm/src/plugins/tiling/controller.cpp,"SendWindowToMonitor( macos_window * Window , char * Op)",116, 108, 14, 0
+repos/cpp/chunkwm/src/plugins/tiling/controller.cpp,"SendWindowToMonitor( char * Op)",7, 47, 4, 0
+repos/cpp/chunkwm/src/plugins/tiling/controller.cpp,"FocusMonitor( unsigned MonitorId)",42, 92, 8, 0
+repos/cpp/chunkwm/src/plugins/tiling/controller.cpp,"FocusMonitor( char * Op)",66, 108, 14, 0
+repos/cpp/chunkwm/src/plugins/tiling/controller.cpp,"GridLayout( macos_window * Window , char * Op)",33, 111, 8, 0
+repos/cpp/chunkwm/src/plugins/tiling/controller.cpp,"GridLayout( char * Op)",5, 47, 4, 0
+repos/cpp/chunkwm/src/plugins/tiling/controller.cpp,"EqualizeWindowTree( char * Unused)",27, 78, 4, 0
+repos/cpp/chunkwm/src/plugins/tiling/controller.cpp,"SerializeDesktop( char * Op)",38, 78, 4, 0
+repos/cpp/chunkwm/src/plugins/tiling/controller.cpp,"DeserializeDesktop( char * Op)",37, 76, 8, 0
+repos/cpp/chunkwm/src/plugins/tiling/controller.cpp,"CurrentDesktopId( unsigned * DesktopId , unsigned * Arrangement , bool IncludeFullscreenSpaces)",8, 96, 8, 0
+repos/cpp/chunkwm/src/plugins/tiling/controller.cpp,"FocusDesktop( char * Op)",65, 113, 4, 0
+repos/cpp/chunkwm/src/plugins/tiling/controller.cpp,"CreateDesktop( char * Unused)",18, 56, 8, 0
+repos/cpp/chunkwm/src/plugins/tiling/controller.cpp,"DestroyDesktop( char * Unused)",23, 84, 4, 0
+repos/cpp/chunkwm/src/plugins/tiling/controller.cpp,"QueryFocusedWindowFloat( int SockFD)",14, 87, 8, 0
+repos/cpp/chunkwm/src/plugins/tiling/controller.cpp,"QueryFocusedWindowId( int SockFD)",14, 62, 8, 0
+repos/cpp/chunkwm/src/plugins/tiling/controller.cpp,"QueryFocusedWindowOwner( int SockFD)",14, 71, 8, 0
+repos/cpp/chunkwm/src/plugins/tiling/controller.cpp,"QueryFocusedWindowName( int SockFD)",14, 64, 8, 0
+repos/cpp/chunkwm/src/plugins/tiling/controller.cpp,"QueryFocusedWindowTag( int SockFD)",14, 90, 8, 0
+repos/cpp/chunkwm/src/plugins/tiling/controller.cpp,"QueryWindowDetails( uint32_t WindowId , int SockFD)",36, 86, 8, 0
+repos/cpp/chunkwm/src/plugins/tiling/controller.cpp,"QueryWindow( char * Op , int SockFD)",17, 51, 4, 0
+repos/cpp/chunkwm/src/plugins/tiling/controller.cpp,"QueryFocusedDesktop( int SockFD)",22, 71, 4, 0
+repos/cpp/chunkwm/src/plugins/tiling/controller.cpp,"QueryFocusedSpaceUuid( int SockFD)",21, 59, 4, 0
+repos/cpp/chunkwm/src/plugins/tiling/controller.cpp,"QueryFocusedVirtualSpaceMode( int SockFD)",21, 90, 4, 0
+repos/cpp/chunkwm/src/plugins/tiling/controller.cpp,"QueryWindowsForActiveSpace( int SockFD)",37, 130, 12, 0
+repos/cpp/chunkwm/src/plugins/tiling/controller.cpp,"QueryMonocleDesktopWindowCount( int SockFD)",27, 55, 4, 0
+repos/cpp/chunkwm/src/plugins/tiling/controller.cpp,"QueryMonocleDesktopWindowIndex( int SockFD)",39, 92, 12, 0
+repos/cpp/chunkwm/src/plugins/tiling/controller.cpp,"QueryDesktop( char * Op , int SockFD)",16, 52, 4, 0
+repos/cpp/chunkwm/src/plugins/tiling/controller.cpp,"QueryFocusedMonitor( int SockFD)",22, 71, 4, 0
+repos/cpp/chunkwm/src/plugins/tiling/controller.cpp,"QueryMonitorCount( int SockFD)",6, 67, 4, 0
+repos/cpp/chunkwm/src/plugins/tiling/controller.cpp,"QueryMonitor( char * Op , int SockFD)",8, 44, 4, 0
+repos/cpp/chunkwm/src/plugins/tiling/controller.cpp,"QueryWindowsForDesktop( char * Op , int SockFD)",45, 130, 12, 0
+repos/cpp/chunkwm/src/plugins/tiling/controller.cpp,"QueryDesktopsForMonitor( char * Op , int SockFD)",39, 84, 4, 0
+repos/cpp/chunkwm/src/plugins/tiling/controller.cpp,"QueryMonitorForDesktop( char * Op , int SockFD)",14, 84, 4, 0
+repos/cpp/chunkwm/src/plugins/tiling/region.cpp,"CGRectToRegion( CGRect Rect)",7, 73, 22, 0
+repos/cpp/chunkwm/src/plugins/tiling/region.cpp,"RoundPreselRegion( region Region , CGPoint Position , CGSize Size)",32, 71, 0, 0
+repos/cpp/chunkwm/src/plugins/tiling/region.cpp,"ConstrainRegion( CFStringRef DisplayRef , region * Region)",73, 96, 12, 0
+repos/cpp/chunkwm/src/plugins/tiling/region.cpp,"FullscreenRegion( CFStringRef DisplayRef , virtual_space * VirtualSpace)",15, 77, 0, 0
+repos/cpp/chunkwm/src/plugins/tiling/region.cpp,"LeftVerticalRegion( node * Node , virtual_space * VirtualSpace)",19, 60, 0, 0
+repos/cpp/chunkwm/src/plugins/tiling/region.cpp,"RightVerticalRegion( node * Node , virtual_space * VirtualSpace)",20, 61, 0, 0
+repos/cpp/chunkwm/src/plugins/tiling/region.cpp,"UpperHorizontalRegion( node * Node , virtual_space * VirtualSpace)",19, 63, 0, 0
+repos/cpp/chunkwm/src/plugins/tiling/region.cpp,"LowerHorizontalRegion( node * Node , virtual_space * VirtualSpace)",20, 63, 0, 0
+repos/cpp/chunkwm/src/plugins/tiling/region.cpp,"CreateNodeRegion( node * Node , region_type Type , macos_space * Space , virtual_space * VirtualSpace)",19, 101, 0, 0
+repos/cpp/chunkwm/src/plugins/tiling/region.cpp,"CreatePreselectRegion( preselect_node * Preselect , region_type Type , macos_space * Space , virtual_space * VirtualSpace)",19, 121, 0, 0
+repos/cpp/chunkwm/src/plugins/tiling/region.cpp,"CreateNodeRegionPair( node * Left , node * Right , node_split Split , macos_space * Space , virtual_space * VirtualSpace)",11, 113, 0, 0
+repos/cpp/chunkwm/src/plugins/tiling/region.cpp,"ResizeNodeRegion( node * Node , macos_space * Space , virtual_space * VirtualSpace)",10, 86, 8, 0
+repos/cpp/chunkwm/src/plugins/tiling/region.cpp,"CreateNodeRegionRecursive( node * Node , bool Optimal , macos_space * Space , virtual_space * VirtualSpace)",17, 106, 0, 0
+repos/cpp/chunkwm/src/plugins/tiling/vspace.cpp,"VirtualSpaceModeFromString( char * Value)",10, 81, 4, 0
+repos/cpp/chunkwm/src/plugins/tiling/vspace.cpp,"GetVirtualSpaceConfig( unsigned SpaceIndex)",34, 102, 38, 0
+repos/cpp/chunkwm/src/plugins/tiling/vspace.cpp,"CreateAndInitVirtualSpace( macos_space * Space)",24, 83, 4, 0
+repos/cpp/chunkwm/src/plugins/tiling/vspace.cpp,"ShouldDeserializeVirtualSpace( virtual_space * VirtualSpace)",7, 64, 0, 0
+repos/cpp/chunkwm/src/plugins/tiling/vspace.cpp,"VirtualSpaceHasFlags( virtual_space * VirtualSpace , uint32_t Flag)",5, 70, 0, 0
+repos/cpp/chunkwm/src/plugins/tiling/vspace.cpp,"VirtualSpaceAddFlags( virtual_space * VirtualSpace , uint32_t Flag)",4, 70, 0, 0
+repos/cpp/chunkwm/src/plugins/tiling/vspace.cpp,"VirtualSpaceClearFlags( virtual_space * VirtualSpace , uint32_t Flag)",4, 72, 0, 0
+repos/cpp/chunkwm/src/plugins/tiling/vspace.cpp,"AcquireVirtualSpace( macos_space * Space)",21, 61, 4, 0
+repos/cpp/chunkwm/src/plugins/tiling/vspace.cpp,"ReleaseVirtualSpace( virtual_space * VirtualSpace)",4, 54, 0, 0
+repos/cpp/chunkwm/src/plugins/tiling/vspace.cpp,"BeginVirtualSpaces()",4, 62, 4, 0
+repos/cpp/chunkwm/src/plugins/tiling/vspace.cpp,"EndVirtualSpaces()",17, 93, 4, 0
+repos/cpp/chunkwm/src/plugins/tiling/vspace.cpp,"VirtualSpaceRecreateRegions( macos_space * Space , virtual_space * VirtualSpace)",7, 82, 0, 0
+repos/cpp/chunkwm/src/plugins/tiling/vspace.cpp,"VirtualSpaceUpdateRegions( virtual_space * VirtualSpace)",5, 79, 4, 0
+repos/cpp/chunkwm/src/plugins/tiling/rule.cpp,"RegexMatchPattern( regex_t * Regex , const char * Match , const char * Pattern)",12, 93, 8, 0
+repos/cpp/chunkwm/src/plugins/tiling/rule.cpp,"ApplyWindowRuleState( macos_window * Window , window_rule * Rule)",42, 111, 8, 0
+repos/cpp/chunkwm/src/plugins/tiling/rule.cpp,"ApplyWindowRuleDesktop( macos_window * Window , window_rule * Rule)",11, 64, 0, 0
+repos/cpp/chunkwm/src/plugins/tiling/rule.cpp,"ApplyWindowRuleMonitor( macos_window * Window , window_rule * Rule)",11, 64, 0, 0
+repos/cpp/chunkwm/src/plugins/tiling/rule.cpp,"ApplyWindowRuleLevel( macos_window * Window , window_rule * Rule)",7, 62, 0, 0
+repos/cpp/chunkwm/src/plugins/tiling/rule.cpp,"ApplyWindowRuleAlpha( macos_window * Window , window_rule * Rule)",8, 62, 0, 0
+repos/cpp/chunkwm/src/plugins/tiling/rule.cpp,"ApplyWindowRuleGridLayout( macos_window * Window , window_rule * Rule)",4, 67, 0, 0
+repos/cpp/chunkwm/src/plugins/tiling/rule.cpp,"ApplyWindowRule( macos_window * Window , window_rule * Rule)",37, 77, 8, 0
+repos/cpp/chunkwm/src/plugins/tiling/rule.cpp,"ApplyRulesForWindow( macos_window * Window)",7, 66, 4, 0
+repos/cpp/chunkwm/src/plugins/tiling/rule.cpp,"ApplyRulesForWindowOnTitleChanged( macos_window * Window)",9, 66, 4, 0
+repos/cpp/chunkwm/src/plugins/tiling/rule.cpp,"ApplyRuleToExistingWindows( window_rule * Rule)",8, 80, 4, 0
+repos/cpp/chunkwm/src/plugins/tiling/rule.cpp,"AddWindowRule( window_rule * Rule)",7, 71, 4, 0
+repos/cpp/chunkwm/src/plugins/tiling/rule.cpp,"FreeWindowRule( window_rule * Rule)",14, 52, 4, 0
+repos/cpp/chunkwm/src/plugins/tiling/rule.cpp,"FreeWindowRules()",9, 66, 4, 0
+repos/cpp/chunkwm/src/common/misc/carbon.cpp,"BeginCarbonApplicationDetails( ProcessSerialNumber PSN)",16, 114, 4, 0
+repos/cpp/chunkwm/src/common/misc/carbon.cpp,"EndCarbonApplicationDetails( carbon_application_details * Info)",10, 67, 0, 0
+repos/cpp/chunkwm/src/common/config/tokenize.cpp,"TokenEquals( token Token , const char * Match)",12, 63, 4, 0
+repos/cpp/chunkwm/src/common/config/tokenize.cpp,"TokenToString( token Token)",7, 54, 4, 0
+repos/cpp/chunkwm/src/common/config/tokenize.cpp,"TokenToFloat( token Token)",8, 41, 4, 0
+repos/cpp/chunkwm/src/common/config/tokenize.cpp,"TokenToInt( token Token)",8, 41, 4, 0
+repos/cpp/chunkwm/src/common/config/tokenize.cpp,"TokenToUnsigned( token Token)",8, 41, 4, 0
+repos/cpp/chunkwm/src/common/config/tokenize.cpp,"TokenIsDigit( token Token)",9, 66, 8, 0
+repos/cpp/chunkwm/src/common/config/tokenize.cpp,"IsWhiteSpace( char C)",7, 34, 19, 0
+repos/cpp/chunkwm/src/common/config/tokenize.cpp,"GetToken( const char ** Data)",32, 69, 4, 0
+repos/cpp/chunkwm/src/common/config/cvar.cpp,"BeginCVars( chunkwm_api * API)",4, 34, 0, 0
+repos/cpp/chunkwm/src/common/config/cvar.cpp,"CVarExists( const char * Name)",4, 39, 4, 0
+repos/cpp/chunkwm/src/common/config/cvar.cpp,"UpdateCVar( const char * Name , int Value)",8, 45, 0, 0
+repos/cpp/chunkwm/src/common/config/cvar.cpp,"UpdateCVar( const char * Name , unsigned Value)",8, 50, 0, 0
+repos/cpp/chunkwm/src/common/config/cvar.cpp,"UpdateCVar( const char * Name , float Value)",8, 47, 0, 0
+repos/cpp/chunkwm/src/common/config/cvar.cpp,"UpdateCVar( const char * Name , char * Value)",4, 47, 0, 0
+repos/cpp/chunkwm/src/common/config/cvar.cpp,"CreateCVar( const char * Name , int Value)",5, 45, 0, 0
+repos/cpp/chunkwm/src/common/config/cvar.cpp,"CreateCVar( const char * Name , unsigned Value)",5, 50, 0, 0
+repos/cpp/chunkwm/src/common/config/cvar.cpp,"CreateCVar( const char * Name , float Value)",5, 47, 0, 0
+repos/cpp/chunkwm/src/common/config/cvar.cpp,"CreateCVar( const char * Name , char * Value)",5, 47, 0, 0
+repos/cpp/chunkwm/src/common/config/cvar.cpp,"CVarIntegerValue( const char * Name)",9, 50, 4, 0
+repos/cpp/chunkwm/src/common/config/cvar.cpp,"CVarUnsignedValue( const char * Name)",9, 50, 4, 0
+repos/cpp/chunkwm/src/common/config/cvar.cpp,"CVarFloatingPointValue( const char * Name)",9, 50, 4, 0
+repos/cpp/chunkwm/src/common/config/cvar.cpp,"CVarStringValue( const char * Name)",4, 42, 4, 0
+repos/cpp/chunkwm/src/common/dispatch/cgeventtap.cpp,"IsEventTapEnabled( event_tap * EventTap)",5, 79, 4, 0
+repos/cpp/chunkwm/src/common/dispatch/cgeventtap.cpp,"BeginEventTap( event_tap * EventTap , eventtap_callback * Callback)",19, 96, 8, 0
+repos/cpp/chunkwm/src/common/dispatch/cgeventtap.cpp,"EndEventTap( event_tap * EventTap)",11, 99, 8, 0
+repos/cpp/chunkwm/src/common/ipc/daemon.cpp,"ReadFromSocket( int SockFD)",15, 46, 4, 0
+repos/cpp/chunkwm/src/common/ipc/daemon.cpp,"WriteToSocket( const char * Message , int SockFD)",4, 52, 0, 0
+repos/cpp/chunkwm/src/common/ipc/daemon.cpp,"CloseSocket( int SockFD)",5, 33, 4, 0
+repos/cpp/chunkwm/src/common/ipc/daemon.cpp,"HandleConnection( void *)",18, 84, 8, 0
+repos/cpp/chunkwm/src/common/ipc/daemon.cpp,"ConnectToDaemon( int * SockFD , int Port)",17, 89, 4, 0
+repos/cpp/chunkwm/src/common/ipc/daemon.cpp,"StartDaemon( int Port , daemon_callback * Callback)",32, 89, 4, 0
+repos/cpp/chunkwm/src/common/ipc/daemon.cpp,"StopDaemon()",8, 35, 8, 0
+repos/cpp/chunkwm/src/common/accessibility/window.cpp,"AXLibConstructWindow( macos_application * Application , AXUIElementRef WindowRef)",32, 93, 0, 0
+repos/cpp/chunkwm/src/common/accessibility/window.cpp,"AXLibCopyWindow( macos_window * Window)",27, 74, 4, 0
+repos/cpp/chunkwm/src/common/accessibility/window.cpp,"AXLibIsWindowStandard( macos_window * Window)",6, 93, 19, 0
+repos/cpp/chunkwm/src/common/accessibility/window.cpp,"AXLibWindowHasRole( macos_window * Window , CFTypeRef Role)",6, 76, 4, 0
+repos/cpp/chunkwm/src/common/accessibility/window.cpp,"AXLibWindowListForApplication( macos_application * Application)",21, 101, 4, 0
+repos/cpp/chunkwm/src/common/accessibility/window.cpp,"AXLibDestroyWindow( macos_window * Window)",11, 55, 4, 0
+repos/cpp/chunkwm/src/common/accessibility/observer.cpp,"AXLibConstructObserver( macos_application * Application , ObserverCallback Callback)",8, 87, 0, 0
+repos/cpp/chunkwm/src/common/accessibility/observer.cpp,"AXLibStartObserver( macos_observer * Observer)",13, 76, 33, 0
+repos/cpp/chunkwm/src/common/accessibility/observer.cpp,"AXLibAddObserverNotification( macos_observer * Observer , AXUIElementRef Ref , CFStringRef Notification , void * Reference)",9, 83, 0, 0
+repos/cpp/chunkwm/src/common/accessibility/observer.cpp,"AXLibRemoveObserverNotification( macos_observer * Observer , AXUIElementRef Ref , CFStringRef Notification)",7, 109, 0, 0
+repos/cpp/chunkwm/src/common/accessibility/observer.cpp,"AXLibStopObserver( macos_observer * Observer)",7, 74, 4, 0
+repos/cpp/chunkwm/src/common/accessibility/observer.cpp,"AXLibDestroyObserver( macos_observer * Observer)",12, 52, 0, 0
+repos/cpp/chunkwm/src/common/accessibility/element.cpp,"AXLibAXErrorToString( AXError Error)",21, 115, 4, 0
+repos/cpp/chunkwm/src/common/accessibility/element.cpp,"CopyCFStringToC( CFStringRef String)",17, 82, 4, 0
+repos/cpp/chunkwm/src/common/accessibility/element.cpp,"AXLibGetCursorPos()",7, 48, 4, 0
+repos/cpp/chunkwm/src/common/accessibility/element.cpp,"AXLibGetWindowProperty( AXUIElementRef WindowRef , CFStringRef Property)",14, 82, 4, 0
+repos/cpp/chunkwm/src/common/accessibility/element.cpp,"AXLibSetWindowProperty( AXUIElementRef WindowRef , CFStringRef Property , CFTypeRef Value)",7, 96, 0, 0
+repos/cpp/chunkwm/src/common/accessibility/element.cpp,"AXLibGetFocusedWindow( AXUIElementRef ApplicationRef)",5, 95, 4, 0
+repos/cpp/chunkwm/src/common/accessibility/element.cpp,"AXLibSetFocusedWindow( AXUIElementRef WindowRef)",9, 91, 4, 0
+repos/cpp/chunkwm/src/common/accessibility/element.cpp,"AXLibGetFocusedApplication()",8, 46, 4, 0
+repos/cpp/chunkwm/src/common/accessibility/element.cpp,"AXLibSetFocusedApplication( ProcessSerialNumber PSN)",4, 71, 4, 0
+repos/cpp/chunkwm/src/common/accessibility/element.cpp,"AXLibSetFocusedApplication( pid_t PID)",6, 43, 0, 0
+repos/cpp/chunkwm/src/common/accessibility/element.cpp,"AXLibIsWindowMinimized( AXUIElementRef WindowRef)",14, 98, 4, 0
+repos/cpp/chunkwm/src/common/accessibility/element.cpp,"AXLibIsWindowMovable( AXUIElementRef WindowRef)",13, 94, 4, 0
+repos/cpp/chunkwm/src/common/accessibility/element.cpp,"AXLibIsWindowFullscreen( AXUIElementRef WindowRef)",14, 99, 4, 0
+repos/cpp/chunkwm/src/common/accessibility/element.cpp,"AXLibIsWindowResizable( AXUIElementRef WindowRef)",13, 90, 4, 0
+repos/cpp/chunkwm/src/common/accessibility/element.cpp,"AXLibSetWindowPosition( AXUIElementRef WindowRef , float X , float Y)",15, 96, 4, 0
+repos/cpp/chunkwm/src/common/accessibility/element.cpp,"AXLibSetWindowSize( AXUIElementRef WindowRef , float Width , float Height)",15, 97, 4, 0
+repos/cpp/chunkwm/src/common/accessibility/element.cpp,"AXLibCloseWindow( AXUIElementRef WindowRef)",8, 107, 4, 0
+repos/cpp/chunkwm/src/common/accessibility/element.cpp,"AXLibSetWindowFullscreen( AXUIElementRef WindowRef , bool Fullscreen)",10, 86, 4, 0
+repos/cpp/chunkwm/src/common/accessibility/element.cpp,"AXLibGetWindowID( AXUIElementRef WindowRef)",7, 52, 0, 0
+repos/cpp/chunkwm/src/common/accessibility/element.cpp,"AXLibGetWindowTitle( AXUIElementRef WindowRef)",21, 101, 4, 0
+repos/cpp/chunkwm/src/common/accessibility/element.cpp,"AXLibGetWindowRect( AXUIElementRef WindowRef)",6, 86, 4, 0
+repos/cpp/chunkwm/src/common/accessibility/element.cpp,"AXLibGetWindowPosition( AXUIElementRef WindowRef)",13, 100, 4, 0
+repos/cpp/chunkwm/src/common/accessibility/element.cpp,"AXLibGetWindowSize( AXUIElementRef WindowRef)",13, 97, 4, 0
+repos/cpp/chunkwm/src/common/accessibility/element.cpp,"AXLibGetWindowRole( AXUIElementRef WindowRef , CFStringRef * Role)",7, 79, 4, 0
+repos/cpp/chunkwm/src/common/accessibility/element.cpp,"AXLibGetWindowSubrole( AXUIElementRef WindowRef , CFStringRef * Subrole)",7, 85, 4, 0
+repos/cpp/chunkwm/src/common/accessibility/element.cpp,"AXLibGetWindowAtPoint( CGPoint Point , pid_t * WindowPid)",33, 105, 4, 0
+repos/cpp/chunkwm/src/common/accessibility/application.cpp,"AXNotificationFromEnum( int Type)",21, 82, 4, 0
+repos/cpp/chunkwm/src/common/accessibility/application.cpp,"AXLibAddApplicationObserver( macos_application * Application , ObserverCallback Callback)",28, 102, 12, 0
+repos/cpp/chunkwm/src/common/accessibility/application.cpp,"AXLibRunningProcesses( uint32_t ProcessFlags)",37, 93, 12, 0
+repos/cpp/chunkwm/src/common/accessibility/application.cpp,"AXLibConstructFocusedApplication()",13, 82, 4, 0
+repos/cpp/chunkwm/src/common/accessibility/application.cpp,"AXLibConstructApplication( ProcessSerialNumber PSN , pid_t PID , char * Name)",12, 94, 4, 0
+repos/cpp/chunkwm/src/common/accessibility/application.cpp,"AXLibDestroyApplication( macos_application * Application)",12, 61, 0, 0

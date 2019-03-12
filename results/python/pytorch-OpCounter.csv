@@ -1,0 +1,20 @@
+File, Function, Length, Total Width, Leading Space(s), Leading Tab(s)
+repos/python/pytorch-OpCounter/dot.py,"make_dot.size_to_str( size )",2, 64, 8, 0
+repos/python/pytorch-OpCounter/dot.py,"make_dot.add_nodes( var )",63, 84, 16, 0
+repos/python/pytorch-OpCounter/dot.py,"make_dot( var , params = None )",158, 99, 4, 0
+repos/python/pytorch-OpCounter/dot.py,"replace( name , scope )",2, 41, 4, 0
+repos/python/pytorch-OpCounter/dot.py,"parse( graph )",33, 72, 8, 0
+repos/python/pytorch-OpCounter/dot.py,"make_dot_from_trace( trace )",35, 97, 8, 0
+repos/python/pytorch-OpCounter/dot.py,"resize_graph( dot , size_per_element = 0 . 15 , min_size = 12 )",11, 67, 4, 0
+repos/python/pytorch-OpCounter/thop/count_hooks.py,"count_conv2d( m , x , y )",24, 56, 0, 1
+repos/python/pytorch-OpCounter/thop/count_hooks.py,"count_convtranspose2d( m , x , y )",26, 56, 0, 1
+repos/python/pytorch-OpCounter/thop/count_hooks.py,"count_bn( m , x , y )",8, 46, 0, 1
+repos/python/pytorch-OpCounter/thop/count_hooks.py,"count_relu( m , x , y )",7, 46, 0, 1
+repos/python/pytorch-OpCounter/thop/count_hooks.py,"count_softmax( m , x , y )",11, 62, 0, 1
+repos/python/pytorch-OpCounter/thop/count_hooks.py,"count_maxpool( m , x , y )",6, 56, 0, 1
+repos/python/pytorch-OpCounter/thop/count_hooks.py,"count_adap_maxpool( m , x , y )",7, 92, 0, 1
+repos/python/pytorch-OpCounter/thop/count_hooks.py,"count_avgpool( m , x , y )",8, 55, 0, 1
+repos/python/pytorch-OpCounter/thop/count_hooks.py,"count_adap_avgpool( m , x , y )",9, 92, 0, 1
+repos/python/pytorch-OpCounter/thop/count_hooks.py,"count_linear( m , x , y )",8, 52, 0, 1
+repos/python/pytorch-OpCounter/thop/utils.py,"profile.add_hooks( m )",24, 66, 12, 0
+repos/python/pytorch-OpCounter/thop/utils.py,"profile( model , input_size , custom_ops = { } , device = 'cpu' )",53, 68, 8, 0

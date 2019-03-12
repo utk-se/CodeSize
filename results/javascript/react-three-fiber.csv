@@ -1,0 +1,148 @@
+File, Function, Length, Total Width, Leading Space(s), Leading Tab(s)
+repos/javascript/react-three-fiber/rollup.config.js,"createConfig ( entry , out )",20, 107, 6, 0
+repos/javascript/react-three-fiber/examples/resources/controls/OrbitControls.js,"this.getPolarAngle ( )",3, 36, 2, 0
+repos/javascript/react-three-fiber/examples/resources/controls/OrbitControls.js,"this.getAzimuthalAngle ( )",3, 40, 2, 0
+repos/javascript/react-three-fiber/examples/resources/controls/OrbitControls.js,"this.saveState ( )",5, 48, 4, 0
+repos/javascript/react-three-fiber/examples/resources/controls/OrbitControls.js,"this.reset ( )",12, 48, 4, 0
+repos/javascript/react-three-fiber/examples/resources/controls/OrbitControls.js,"update ( )",76, 106, 6, 0
+repos/javascript/react-three-fiber/examples/resources/controls/OrbitControls.js,"function ( )",87, 106, 6, 0
+repos/javascript/react-three-fiber/examples/resources/controls/OrbitControls.js,"this.dispose ( )",16, 80, 4, 0
+repos/javascript/react-three-fiber/examples/resources/controls/OrbitControls.js,"getAutoRotationAngle ( )",3, 61, 4, 0
+repos/javascript/react-three-fiber/examples/resources/controls/OrbitControls.js,"getZoomScale ( )",3, 43, 4, 0
+repos/javascript/react-three-fiber/examples/resources/controls/OrbitControls.js,"rotateLeft ( angle )",3, 34, 4, 0
+repos/javascript/react-three-fiber/examples/resources/controls/OrbitControls.js,"rotateUp ( angle )",3, 32, 4, 0
+repos/javascript/react-three-fiber/examples/resources/controls/OrbitControls.js,"panLeft ( distance , objectMatrix )",6, 77, 6, 0
+repos/javascript/react-three-fiber/examples/resources/controls/OrbitControls.js,"function ( )",10, 77, 6, 0
+repos/javascript/react-three-fiber/examples/resources/controls/OrbitControls.js,"panUp ( distance , objectMatrix )",12, 52, 4, 0
+repos/javascript/react-three-fiber/examples/resources/controls/OrbitControls.js,"function ( )",16, 52, 4, 0
+repos/javascript/react-three-fiber/examples/resources/controls/OrbitControls.js,"pan ( deltaX , deltaY )",31, 106, 10, 0
+repos/javascript/react-three-fiber/examples/resources/controls/OrbitControls.js,"function ( )",35, 106, 10, 0
+repos/javascript/react-three-fiber/examples/resources/controls/OrbitControls.js,"dollyIn ( dollyScale )",12, 107, 6, 0
+repos/javascript/react-three-fiber/examples/resources/controls/OrbitControls.js,"dollyOut ( dollyScale )",12, 107, 6, 0
+repos/javascript/react-three-fiber/examples/resources/controls/OrbitControls.js,"handleMouseDownRotate ( event )",5, 50, 4, 0
+repos/javascript/react-three-fiber/examples/resources/controls/OrbitControls.js,"handleMouseDownDolly ( event )",5, 49, 4, 0
+repos/javascript/react-three-fiber/examples/resources/controls/OrbitControls.js,"handleMouseDownPan ( event )",5, 47, 4, 0
+repos/javascript/react-three-fiber/examples/resources/controls/OrbitControls.js,"handleMouseMoveRotate ( event )",17, 91, 4, 0
+repos/javascript/react-three-fiber/examples/resources/controls/OrbitControls.js,"handleMouseMoveDolly ( event )",17, 48, 4, 0
+repos/javascript/react-three-fiber/examples/resources/controls/OrbitControls.js,"handleMouseMovePan ( event )",13, 73, 4, 0
+repos/javascript/react-three-fiber/examples/resources/controls/OrbitControls.js,"handleMouseUp ( event )",3, 39, 4, 0
+repos/javascript/react-three-fiber/examples/resources/controls/OrbitControls.js,"handleMouseWheel ( event )",11, 42, 4, 0
+repos/javascript/react-three-fiber/examples/resources/controls/OrbitControls.js,"handleKeyDown ( event )",34, 59, 6, 0
+repos/javascript/react-three-fiber/examples/resources/controls/OrbitControls.js,"handleTouchStartRotate ( event )",5, 68, 4, 0
+repos/javascript/react-three-fiber/examples/resources/controls/OrbitControls.js,"handleTouchStartDollyPan ( event )",19, 70, 6, 0
+repos/javascript/react-three-fiber/examples/resources/controls/OrbitControls.js,"handleTouchMoveRotate ( event )",17, 91, 4, 0
+repos/javascript/react-three-fiber/examples/resources/controls/OrbitControls.js,"handleTouchMoveDollyPan ( event )",33, 78, 6, 0
+repos/javascript/react-three-fiber/examples/resources/controls/OrbitControls.js,"handleTouchEnd ( event )",3, 39, 4, 0
+repos/javascript/react-three-fiber/examples/resources/controls/OrbitControls.js,"onMouseDown ( event )",56, 71, 4, 0
+repos/javascript/react-three-fiber/examples/resources/controls/OrbitControls.js,"onMouseMove ( event )",28, 49, 8, 0
+repos/javascript/react-three-fiber/examples/resources/controls/OrbitControls.js,"onMouseUp ( event )",12, 66, 4, 0
+repos/javascript/react-three-fiber/examples/resources/controls/OrbitControls.js,"onMouseWheel ( event )",13, 115, 4, 0
+repos/javascript/react-three-fiber/examples/resources/controls/OrbitControls.js,"onKeyDown ( event )",5, 99, 4, 0
+repos/javascript/react-three-fiber/examples/resources/controls/OrbitControls.js,"onTouchStart ( event )",32, 76, 8, 0
+repos/javascript/react-three-fiber/examples/resources/controls/OrbitControls.js,"onTouchMove ( event )",27, 76, 8, 0
+repos/javascript/react-three-fiber/examples/resources/controls/OrbitControls.js,"onTouchEnd ( event )",9, 40, 4, 0
+repos/javascript/react-three-fiber/examples/resources/controls/OrbitControls.js,"onContextMenu ( event )",5, 40, 4, 0
+repos/javascript/react-three-fiber/examples/resources/controls/OrbitControls.js,"OrbitControls ( object , domElement )",770, 115, 4, 0
+repos/javascript/react-three-fiber/examples/resources/controls/OrbitControls.js,"get ( )",4, 79, 6, 0
+repos/javascript/react-three-fiber/examples/resources/controls/OrbitControls.js,"get ( )",4, 97, 6, 0
+repos/javascript/react-three-fiber/examples/resources/controls/OrbitControls.js,"set ( value )",4, 97, 6, 0
+repos/javascript/react-three-fiber/examples/resources/controls/OrbitControls.js,"get ( )",4, 101, 6, 0
+repos/javascript/react-three-fiber/examples/resources/controls/OrbitControls.js,"set ( value )",4, 101, 6, 0
+repos/javascript/react-three-fiber/examples/resources/controls/OrbitControls.js,"get ( )",4, 95, 6, 0
+repos/javascript/react-three-fiber/examples/resources/controls/OrbitControls.js,"set ( value )",4, 95, 6, 0
+repos/javascript/react-three-fiber/examples/resources/controls/OrbitControls.js,"get ( )",4, 97, 6, 0
+repos/javascript/react-three-fiber/examples/resources/controls/OrbitControls.js,"set ( value )",4, 97, 6, 0
+repos/javascript/react-three-fiber/examples/resources/controls/OrbitControls.js,"get ( )",4, 106, 6, 0
+repos/javascript/react-three-fiber/examples/resources/controls/OrbitControls.js,"set ( value )",4, 106, 6, 0
+repos/javascript/react-three-fiber/examples/resources/controls/OrbitControls.js,"get ( )",4, 111, 6, 0
+repos/javascript/react-three-fiber/examples/resources/controls/OrbitControls.js,"set ( value )",4, 111, 6, 0
+repos/javascript/react-three-fiber/examples/resources/postprocessing/GlitchPass.js,"GlitchPass ( dt_size )",19, 99, 2, 0
+repos/javascript/react-three-fiber/examples/resources/postprocessing/GlitchPass.js,"render ( renderer , writeBuffer , readBuffer , deltaTime , maskActive )",23, 81, 6, 0
+repos/javascript/react-three-fiber/examples/resources/postprocessing/GlitchPass.js,"generateHeightmap ( dt_size )",15, 84, 4, 0
+repos/javascript/react-three-fiber/examples/resources/postprocessing/WaterPass.js,"WaterPass ( dt_size )",20, 94, 2, 0
+repos/javascript/react-three-fiber/examples/resources/postprocessing/WaterPass.js,"render ( renderer , writeBuffer , readBuffer , deltaTime , maskActive )",17, 79, 2, 0
+repos/javascript/react-three-fiber/examples/resources/postprocessing/Pass.js,"Pass ( )",13, 86, 2, 0
+repos/javascript/react-three-fiber/examples/resources/postprocessing/Pass.js,"setSize ( width , height )",1, 39, 2, 0
+repos/javascript/react-three-fiber/examples/resources/postprocessing/Pass.js,"render ( renderer , writeBuffer , readBuffer , deltaTime , maskActive )",3, 80, 4, 0
+repos/javascript/react-three-fiber/examples/resources/postprocessing/AfterimagePass.js,"AfterimagePass ( damp )",47, 109, 2, 0
+repos/javascript/react-three-fiber/examples/resources/postprocessing/AfterimagePass.js,"render ( renderer , writeBuffer , readBuffer )",23, 58, 4, 0
+repos/javascript/react-three-fiber/examples/resources/postprocessing/MaskPass.js,"MaskPass ( scene , camera )",11, 41, 0, 0
+repos/javascript/react-three-fiber/examples/resources/postprocessing/MaskPass.js,"render ( renderer , writeBuffer , readBuffer , deltaTime , maskActive )",51, 83, 4, 0
+repos/javascript/react-three-fiber/examples/resources/postprocessing/MaskPass.js,"ClearMaskPass ( )",5, 33, 0, 0
+repos/javascript/react-three-fiber/examples/resources/postprocessing/MaskPass.js,"render ( renderer , writeBuffer , readBuffer , deltaTime , maskActive )",3, 79, 2, 0
+repos/javascript/react-three-fiber/examples/resources/postprocessing/EffectComposer.js,"EffectComposer ( renderer , renderTarget )",33, 78, 4, 0
+repos/javascript/react-three-fiber/examples/resources/postprocessing/EffectComposer.js,"swapBuffers ( )",5, 39, 4, 0
+repos/javascript/react-three-fiber/examples/resources/postprocessing/EffectComposer.js,"addPass ( pass )",5, 65, 4, 0
+repos/javascript/react-three-fiber/examples/resources/postprocessing/EffectComposer.js,"insertPass ( pass , index )",3, 39, 4, 0
+repos/javascript/react-three-fiber/examples/resources/postprocessing/EffectComposer.js,"render ( deltaTime )",36, 92, 10, 0
+repos/javascript/react-three-fiber/examples/resources/postprocessing/EffectComposer.js,"reset ( renderTarget )",13, 67, 6, 0
+repos/javascript/react-three-fiber/examples/resources/postprocessing/EffectComposer.js,"setSize ( width , height )",7, 51, 4, 0
+repos/javascript/react-three-fiber/examples/resources/postprocessing/ShaderPass.js,"ShaderPass ( shader , textureID )",27, 68, 2, 0
+repos/javascript/react-three-fiber/examples/resources/postprocessing/ShaderPass.js,"render ( renderer , writeBuffer , readBuffer , deltaTime , maskActive )",16, 79, 2, 0
+repos/javascript/react-three-fiber/examples/resources/postprocessing/RenderPass.js,"RenderPass ( scene , camera , overrideMaterial , clearColor , clearAlpha )",15, 85, 0, 0
+repos/javascript/react-three-fiber/examples/resources/postprocessing/RenderPass.js,"render ( renderer , writeBuffer , readBuffer , deltaTime , maskActive )",32, 120, 4, 0
+repos/javascript/react-three-fiber/examples/resources/loaders/SVGLoader.js,"SVGLoader ( manager )",3, 73, 2, 0
+repos/javascript/react-three-fiber/examples/resources/loaders/SVGLoader.js,"function ( text )",3, 34, 8, 0
+repos/javascript/react-three-fiber/examples/resources/loaders/SVGLoader.js,"load ( url , onLoad , onProgress , onError )",14, 53, 2, 0
+repos/javascript/react-three-fiber/examples/resources/loaders/SVGLoader.js,"setPath ( value )",4, 29, 2, 0
+repos/javascript/react-three-fiber/examples/resources/loaders/SVGLoader.js,"parseNode ( node , style )",70, 92, 10, 0
+repos/javascript/react-three-fiber/examples/resources/loaders/SVGLoader.js,"parsePathNode ( node , style )",332, 100, 14, 0
+repos/javascript/react-three-fiber/examples/resources/loaders/SVGLoader.js,"parseArcCommand ( path , rx , ry , x_axis_rotation , large_arc_flag , sweep_flag , start , end )",48, 117, 6, 0
+repos/javascript/react-three-fiber/examples/resources/loaders/SVGLoader.js,"svgAngle ( ux , uy , vx , vy )",7, 121, 6, 0
+repos/javascript/react-three-fiber/examples/resources/loaders/SVGLoader.js,"parseRectNode ( node , style )",29, 102, 6, 0
+repos/javascript/react-three-fiber/examples/resources/loaders/SVGLoader.js,"iterator ( match , a , b )",12, 39, 6, 0
+repos/javascript/react-three-fiber/examples/resources/loaders/SVGLoader.js,"parsePolygonNode ( node , style )",27, 59, 6, 0
+repos/javascript/react-three-fiber/examples/resources/loaders/SVGLoader.js,"iterator ( match , a , b )",12, 39, 6, 0
+repos/javascript/react-three-fiber/examples/resources/loaders/SVGLoader.js,"parsePolylineNode ( node , style )",27, 59, 6, 0
+repos/javascript/react-three-fiber/examples/resources/loaders/SVGLoader.js,"parseCircleNode ( node , style )",14, 50, 6, 0
+repos/javascript/react-three-fiber/examples/resources/loaders/SVGLoader.js,"parseEllipseNode ( node , style )",15, 55, 6, 0
+repos/javascript/react-three-fiber/examples/resources/loaders/SVGLoader.js,"parseLineNode ( node , style )",13, 51, 6, 0
+repos/javascript/react-three-fiber/examples/resources/loaders/SVGLoader.js,"parseStyle ( node , style )",8, 76, 6, 0
+repos/javascript/react-three-fiber/examples/resources/loaders/SVGLoader.js,"isVisible ( style )",3, 67, 6, 0
+repos/javascript/react-three-fiber/examples/resources/loaders/SVGLoader.js,"getReflection ( a , b )",3, 35, 4, 0
+repos/javascript/react-three-fiber/examples/resources/loaders/SVGLoader.js,"parseFloats ( string )",22, 63, 8, 0
+repos/javascript/react-three-fiber/examples/resources/loaders/SVGLoader.js,"getNodeTransform ( node )",18, 75, 10, 0
+repos/javascript/react-three-fiber/examples/resources/loaders/SVGLoader.js,"parseTransformNode ( node )",99, 106, 16, 0
+repos/javascript/react-three-fiber/examples/resources/loaders/SVGLoader.js,"transfVec2 ( v2 )",5, 50, 8, 0
+repos/javascript/react-three-fiber/examples/resources/loaders/SVGLoader.js,"transformPath ( path , m )",49, 105, 14, 0
+repos/javascript/react-three-fiber/examples/resources/loaders/SVGLoader.js,"isTransformRotated ( m )",3, 56, 6, 0
+repos/javascript/react-three-fiber/examples/resources/loaders/SVGLoader.js,"getTransformScaleX ( m )",4, 54, 6, 0
+repos/javascript/react-three-fiber/examples/resources/loaders/SVGLoader.js,"getTransformScaleY ( m )",4, 54, 6, 0
+repos/javascript/react-three-fiber/examples/resources/loaders/SVGLoader.js,"parse ( text )",864, 133, 5, 0
+repos/javascript/react-three-fiber/examples/components/Scroll.js,"Image ( { url , opacity , scale , ... props } )",19, 79, 6, 0
+repos/javascript/react-three-fiber/examples/components/Scroll.js,"Text ( { children , position , opacity , color = 'white' , fontSize = 410 } )",27, 173, 4, 0
+repos/javascript/react-three-fiber/examples/components/Scroll.js,"Background ( { color } )",10, 81, 6, 0
+repos/javascript/react-three-fiber/examples/components/Scroll.js,"Stars ( { position } )",25, 99, 6, 0
+repos/javascript/react-three-fiber/examples/components/Scroll.js,"Images ( { top , mouse , scrollMax } )",15, 83, 8, 0
+repos/javascript/react-three-fiber/examples/components/Scroll.js,"Scene ( { top , mouse } )",24, 120, 6, 0
+repos/javascript/react-three-fiber/examples/components/Scroll.js,"Main ( )",19, 115, 2, 0
+repos/javascript/react-three-fiber/examples/components/Tina.js,"App ( )",27, 110, 6, 0
+repos/javascript/react-three-fiber/examples/components/Stars.js,"Thing ( )",31, 91, 4, 0
+repos/javascript/react-three-fiber/examples/components/Stars.js,"Stars ( )",28, 114, 4, 0
+repos/javascript/react-three-fiber/examples/components/Stars.js,"App ( )",12, 75, 8, 0
+repos/javascript/react-three-fiber/examples/components/MultiScene.js,"Content ( )",13, 94, 2, 0
+repos/javascript/react-three-fiber/examples/components/MultiScene.js,"HeadsUpDisplay ( )",13, 106, 2, 0
+repos/javascript/react-three-fiber/examples/components/MultiScene.js,"Main ( )",23, 66, 10, 0
+repos/javascript/react-three-fiber/examples/components/MultiScene.js,"App ( )",7, 47, 4, 0
+repos/javascript/react-three-fiber/examples/components/Hud.js,"Main ( { camera } )",31, 91, 2, 0
+repos/javascript/react-three-fiber/examples/components/Hud.js,"Hud ( { camera } )",15, 106, 2, 0
+repos/javascript/react-three-fiber/examples/components/Hud.js,"Content ( )",26, 119, 10, 0
+repos/javascript/react-three-fiber/examples/components/Hud.js,"App ( )",7, 47, 4, 0
+repos/javascript/react-three-fiber/examples/components/FontWater.js,"Text ( { children , size = 1 , letterSpacing = 0 . 01 , color = '#000000' } )",28, 84, 4, 0
+repos/javascript/react-three-fiber/examples/components/FontWater.js,"Main ( { camera } )",30, 91, 2, 0
+repos/javascript/react-three-fiber/examples/components/FontWater.js,"Hud ( { camera } )",15, 106, 2, 0
+repos/javascript/react-three-fiber/examples/components/FontWater.js,"Content ( )",26, 119, 10, 0
+repos/javascript/react-three-fiber/examples/components/FontWater.js,"App ( )",7, 47, 4, 0
+repos/javascript/react-three-fiber/src/hooks.js,"useRender ( fn , takeOverRenderloop )",14, 84, 2, 0
+repos/javascript/react-three-fiber/src/hooks.js,"useThree ( fn )",4, 59, 2, 0
+repos/javascript/react-three-fiber/src/hooks.js,"useCamera ( instance , ... args )",14, 51, 4, 0
+repos/javascript/react-three-fiber/src/hooks.js,"useSelection ( )",1, 34, 0, 0
+repos/javascript/react-three-fiber/src/reconciler.js,"applyProps ( instance , newProps , oldProps = { } , interpolateArray = false , container )",46, 116, 2, 0
+repos/javascript/react-three-fiber/src/reconciler.js,"createInstance ( type , { args = [ ] , ... props } , container )",11, 80, 2, 0
+repos/javascript/react-three-fiber/src/reconciler.js,"appendChild ( parentInstance , child )",15, 82, 6, 0
+repos/javascript/react-three-fiber/src/reconciler.js,"removeChild ( parentInstance , child )",18, 104, 8, 0
+repos/javascript/react-three-fiber/src/reconciler.js,"insertBefore ( parentInstance , child , beforeChild )",15, 93, 6, 0
+repos/javascript/react-three-fiber/src/reconciler.js,"render ( element , container )",9, 59, 2, 0
+repos/javascript/react-three-fiber/src/reconciler.js,"unmountComponentAtNode ( container )",4, 86, 2, 0
+repos/javascript/react-three-fiber/src/canvas.js,"useMeasure ( )",10, 87, 2, 0
+repos/javascript/react-three-fiber/src/canvas.js,"renderLoop ( )",10, 77, 10, 0

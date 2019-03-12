@@ -1,0 +1,527 @@
+File, Function, Length, Total Width, Leading Space(s), Leading Tab(s)
+repos/cpp/simdjson/benchmark/minifiercompetition.cpp,"rapidstringmeInsitu( char * json)",12, 46, 0, 0
+repos/cpp/simdjson/benchmark/minifiercompetition.cpp,"rapidstringme( char * json)",12, 42, 4, 0
+repos/cpp/simdjson/benchmark/minifiercompetition.cpp,"main( int argc , char * argv [ ])",113, 231, 2, 0
+repos/cpp/simdjson/benchmark/statisticalmodel.cpp,"count_nonasciibytes( const uint8_t * input , size_t length)",7, 66, 0, 0
+repos/cpp/simdjson/benchmark/statisticalmodel.cpp,"count_backslash( const uint8_t * input , size_t length)",7, 62, 0, 0
+repos/cpp/simdjson/benchmark/statisticalmodel.cpp,"simdjson_computestats( const std :: string_view & p)",67, 99, 2, 0
+repos/cpp/simdjson/benchmark/statisticalmodel.cpp,"main( int argc , char * argv [ ])",92, 83, 6, 0
+repos/cpp/simdjson/benchmark/parse.cpp,"main( int argc , char * argv [ ])",233, 81, 2, 0
+repos/cpp/simdjson/benchmark/parseandstatcompetition.cpp,"stat_equal( const stat_t & s1 , const stat_t & s2)",7, 81, 9, 0
+repos/cpp/simdjson/benchmark/parseandstatcompetition.cpp,"print_stat( const stat_t & s)",9, 80, 2, 0
+repos/cpp/simdjson/benchmark/parseandstatcompetition.cpp,"simdjson_computestats( const std :: string_view & p)",57, 58, 0, 0
+repos/cpp/simdjson/benchmark/parseandstatcompetition.cpp,"sajson_traverse( stat_t & stats , const sajson :: value & node)",40, 65, 0, 0
+repos/cpp/simdjson/benchmark/parseandstatcompetition.cpp,"sasjon_computestats( const std :: string_view & p)",20, 73, 25, 0
+repos/cpp/simdjson/benchmark/parseandstatcompetition.cpp,"rapid_traverse( stat_t & stats , const rapidjson :: Value & v)",35, 77, 4, 0
+repos/cpp/simdjson/benchmark/parseandstatcompetition.cpp,"rapid_computestats( const std :: string_view & p)",21, 55, 0, 0
+repos/cpp/simdjson/benchmark/parseandstatcompetition.cpp,"main( int argc , char * argv [ ])",75, 82, 4, 0
+repos/cpp/simdjson/benchmark/parsingcompetition.cpp,"on_json_error( void * , const fastjson :: ErrorContext & ec)",3, 63, 0, 0
+repos/cpp/simdjson/benchmark/parsingcompetition.cpp,"fastjson_parse( const char * input)",6, 79, 2, 0
+repos/cpp/simdjson/benchmark/parsingcompetition.cpp,"main( int argc , char * argv [ ])",203, 230, 6, 0
+repos/cpp/simdjson/benchmark/distinctuseridcompetition.cpp,"equals( const char * s1 , const char * s2)",1, 76, 0, 0
+repos/cpp/simdjson/benchmark/distinctuseridcompetition.cpp,"remove_duplicates( vector<int64_t> & v)",5, 47, 2, 0
+repos/cpp/simdjson/benchmark/distinctuseridcompetition.cpp,"print_vec( vector<int64_t> & v)",6, 37, 0, 0
+repos/cpp/simdjson/benchmark/distinctuseridcompetition.cpp,"simdjson_traverse( std :: vector<int64_t> & answer , ParsedJson :: iterator & i)",41, 80, 0, 0
+repos/cpp/simdjson/benchmark/distinctuseridcompetition.cpp,"simdjson_computestats( const std :: string_view & p)",12, 72, 0, 0
+repos/cpp/simdjson/benchmark/distinctuseridcompetition.cpp,"sajson_traverse( std :: vector<int64_t> & answer , const sajson :: value & node)",47, 81, 14, 0
+repos/cpp/simdjson/benchmark/distinctuseridcompetition.cpp,"sasjon_computestats( const std :: string_view & p)",14, 73, 25, 0
+repos/cpp/simdjson/benchmark/distinctuseridcompetition.cpp,"rapid_traverse( std :: vector<int64_t> & answer , const rapidjson :: Value & v)",37, 79, 0, 0
+repos/cpp/simdjson/benchmark/distinctuseridcompetition.cpp,"rapid_computestats( const std :: string_view & p)",15, 69, 0, 0
+repos/cpp/simdjson/benchmark/distinctuseridcompetition.cpp,"main( int argc , char * argv [ ])",78, 82, 4, 0
+repos/cpp/simdjson/tools/minify.cpp,"main( int argc , char * argv [ ])",17, 74, 8, 0
+repos/cpp/simdjson/tools/json2json.cpp,"compute_dump( ParsedJson :: iterator & pjh)",33, 55, 4, 0
+repos/cpp/simdjson/tools/json2json.cpp,"main( int argc , char * argv [ ])",68, 88, 4, 0
+repos/cpp/simdjson/tools/jsonstats.cpp,"count_nonasciibytes( const uint8_t * input , size_t length)",7, 66, 0, 0
+repos/cpp/simdjson/tools/jsonstats.cpp,"count_backslash( const uint8_t * input , size_t length)",7, 62, 0, 0
+repos/cpp/simdjson/tools/jsonstats.cpp,"simdjson_computestats( const std :: string_view & p)",66, 105, 2, 0
+repos/cpp/simdjson/tools/jsonstats.cpp,"main( int argc , char * argv [ ])",32, 186, 2, 0
+repos/cpp/simdjson/tests/singleheadertest.cpp,"main()",18, 58, 2, 0
+repos/cpp/simdjson/tests/allparserscheckfile.cpp,"on_json_error( void * , const fastjson :: ErrorContext & ec)",3, 64, 0, 0
+repos/cpp/simdjson/tests/allparserscheckfile.cpp,"fastjson_parse( const char * input)",5, 86, 2, 0
+repos/cpp/simdjson/tests/allparserscheckfile.cpp,"main( int argc , char * argv [ ])",107, 127, 2, 0
+repos/cpp/simdjson/tests/numberparsingcheck.cpp,"startsWith( const char * pre , const char * str)",4, 52, 0, 0
+repos/cpp/simdjson/tests/numberparsingcheck.cpp,"is_in_bad_list( const char * buf)",7, 74, 2, 0
+repos/cpp/simdjson/tests/numberparsingcheck.cpp,"foundInvalidNumber( const uint8_t * buf)",14, 80, 10, 0
+repos/cpp/simdjson/tests/numberparsingcheck.cpp,"foundInteger( int64_t result , const uint8_t * buf)",10, 78, 4, 0
+repos/cpp/simdjson/tests/numberparsingcheck.cpp,"foundFloat( double result , const uint8_t * buf)",25, 103, 4, 0
+repos/cpp/simdjson/tests/numberparsingcheck.cpp,"hasExtension( const char * filename , const char * extension)",4, 72, 0, 0
+repos/cpp/simdjson/tests/numberparsingcheck.cpp,"validate( const char * dirname)",68, 81, 2, 0
+repos/cpp/simdjson/tests/numberparsingcheck.cpp,"main( int argc , char * argv [ ])",20, 145, 8, 0
+repos/cpp/simdjson/tests/stringparsingcheck.cpp,"read_hex( const char * p , unsigned & u)",20, 58, 0, 0
+repos/cpp/simdjson/tests/stringparsingcheck.cpp,"write_utf8( unsigned codepoint , char * & end)",18, 64, 0, 0
+repos/cpp/simdjson/tests/stringparsingcheck.cpp,"parse_string( const char * p , char * output , char ** end)",136, 68, 0, 0
+repos/cpp/simdjson/tests/stringparsingcheck.cpp,"foundBadString( const uint8_t * buf)",10, 76, 4, 0
+repos/cpp/simdjson/tests/stringparsingcheck.cpp,"print_hex( const char * s , size_t len)",5, 44, 0, 0
+repos/cpp/simdjson/tests/stringparsingcheck.cpp,"print_cmp_hex( const char * s1 , const char * s2 , size_t len)",5, 65, 0, 0
+repos/cpp/simdjson/tests/stringparsingcheck.cpp,"foundString( const uint8_t * buf , const uint8_t * parsed_begin , const uint8_t * parsed_end)",54, 78, 4, 0
+repos/cpp/simdjson/tests/stringparsingcheck.cpp,"hasExtension( const char * filename , const char * extension)",4, 72, 0, 0
+repos/cpp/simdjson/tests/stringparsingcheck.cpp,"startsWith( const char * pre , const char * str)",4, 67, 2, 0
+repos/cpp/simdjson/tests/stringparsingcheck.cpp,"validate( const char * dirname)",80, 81, 2, 0
+repos/cpp/simdjson/tests/stringparsingcheck.cpp,"main( int argc , char * argv [ ])",20, 145, 8, 0
+repos/cpp/simdjson/tests/jsoncheck.cpp,"hasExtension( const char * filename , const char * extension)",4, 72, 0, 0
+repos/cpp/simdjson/tests/jsoncheck.cpp,"startsWith( const char * pre , const char * str)",4, 67, 2, 0
+repos/cpp/simdjson/tests/jsoncheck.cpp,"contains( const char * pre , const char * str)",3, 50, 0, 0
+repos/cpp/simdjson/tests/jsoncheck.cpp,"validate( const char * dirname)",82, 122, 10, 0
+repos/cpp/simdjson/tests/jsoncheck.cpp,"main( int argc , char * argv [ ])",18, 100, 8, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::getDecimalPoint()",8, 43, 2, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::codePointToUTF8( unsigned int cp)",27, 66, 2, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::uintToString( LargestUInt value , char * & current)",7, 78, 4, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::fixNumericLocale( Iter begin , Iter end)",8, 71, 0, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::fixNumericLocaleInput( Iter begin , Iter end)",11, 76, 0, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::fixZerosInTheEnd( Iter begin , Iter end)",12, 71, 0, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::Features::all()",1, 40, 0, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::Features::strictMode()",8, 50, 2, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::Reader::containsNewLine( Reader :: Location begin , Reader :: Location end)",6, 77, 0, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::Reader::Reader()",2, 79, 4, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::Reader::Reader( const Features & features)",4, 81, 6, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::Reader::parse( const std :: string & document , Value & root , bool collectComments)",8, 54, 2, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::Reader::parse( std :: istream & is , Value & root , bool collectComments)",12, 76, 2, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::Reader::parse( const char * beginDoc , const char * endDoc , Value & root , bool collectComments)",40, 81, 6, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::Reader::readValue()",76, 81, 2, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::Reader::skipCommentTokens( Token & token)",9, 47, 0, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::Reader::readToken( Token & token)",70, 40, 4, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::Reader::skipSpaces()",9, 57, 4, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::Reader::match( Location pattern , int patternLength)",10, 58, 0, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::Reader::readComment()",22, 74, 4, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::Reader::normalizeEOL( Reader :: Location begin , Reader :: Location end)",18, 76, 0, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::Reader::addComment( Location begin , Location end , CommentPlacement placement)",12, 55, 2, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::Reader::readCStyleComment()",8, 38, 4, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::Reader::readCppStyleComment()",15, 63, 6, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::Reader::readNumber()",21, 58, 2, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::Reader::readString()",11, 29, 2, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::Reader::readObject( Token & token)",55, 80, 4, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::Reader::readArray( Token & token)",37, 75, 6, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::Reader::decodeNumber( Token & token)",9, 56, 2, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::Reader::decodeNumber( Token & token , Value & decoded)",42, 78, 2, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::Reader::decodeDouble( Token & token)",9, 56, 2, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::Reader::decodeDouble( Token & token , Value & decoded)",10, 79, 8, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::Reader::decodeString( Token & token)",10, 56, 2, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::Reader::decodeString( Token & token , String & decoded)",52, 76, 8, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::Reader::decodeUnicodeCodePoint( Token & token , Location & current , Location end , unsigned int & unicode)",26, 81, 10, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::Reader::decodeUnicodeEscapeSequence( Token & token , Location & current , Location end , unsigned int & ret_unicode)",26, 80, 10, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::Reader::addError( const String & message , Token & token , Location extra)",8, 77, 0, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::Reader::recoverFromError( TokenType skipUntilToken)",12, 72, 4, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::Reader::addErrorAndRecover( const String & message , Token & token , TokenType skipUntilToken)",6, 60, 32, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::Reader::currentValue()",1, 58, 0, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::Reader::getNextChar()",5, 37, 0, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::Reader::getLocationLineAndColumn( Location location , int & line , int & column) const",22, 59, 38, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::Reader::getLocationLineAndColumn( Location location) const",7, 80, 2, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::Reader::getFormatedErrorMessages() const",3, 50, 0, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::Reader::getFormattedErrorMessages() const",12, 78, 10, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::Reader::getStructuredErrors() const",11, 75, 0, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::Reader::pushError( const Value & value , const String & message)",15, 74, 2, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::Reader::pushError( const Value & value , const String & message , const Value & extra)",18, 76, 2, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::Reader::good() const",1, 54, 0, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::OurFeatures::all()",1, 46, 0, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::OurReader::containsNewLine( OurReader :: Location begin , OurReader :: Location end)",7, 59, 0, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::OurReader::OurReader( OurFeatures const & features)",4, 81, 6, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::OurReader::parse( const char * beginDoc , const char * endDoc , Value & root , bool collectComments)",47, 81, 6, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::OurReader::readValue()",90, 78, 4, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::OurReader::skipCommentTokens( Token & token)",9, 50, 0, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::OurReader::readToken( Token & token)",99, 65, 6, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::OurReader::skipSpaces()",9, 57, 4, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::OurReader::match( Location pattern , int patternLength)",10, 61, 0, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::OurReader::readComment()",22, 74, 4, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::OurReader::normalizeEOL( OurReader :: Location begin , OurReader :: Location end)",19, 58, 0, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::OurReader::addComment( Location begin , Location end , CommentPlacement placement)",12, 57, 27, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::OurReader::readCStyleComment()",8, 38, 0, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::OurReader::readCppStyleComment()",15, 63, 6, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::OurReader::readNumber( bool checkInf)",26, 58, 2, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::OurReader::readString()",11, 31, 0, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::OurReader::readStringSingleQuote()",11, 42, 0, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::OurReader::readObject( Token & token)",61, 80, 4, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::OurReader::readArray( Token & token)",37, 75, 6, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::OurReader::decodeNumber( Token & token)",9, 56, 2, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::OurReader::decodeNumber( Token & token , Value & decoded)",40, 78, 2, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::OurReader::decodeDouble( Token & token)",9, 56, 2, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::OurReader::decodeDouble( Token & token , Value & decoded)",36, 115, 2, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::OurReader::decodeString( Token & token)",10, 56, 2, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::OurReader::decodeString( Token & token , String & decoded)",52, 76, 8, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::OurReader::decodeUnicodeCodePoint( Token & token , Location & current , Location end , unsigned int & unicode)",26, 81, 10, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::OurReader::decodeUnicodeEscapeSequence( Token & token , Location & current , Location end , unsigned int & ret_unicode)",26, 80, 10, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::OurReader::addError( const String & message , Token & token , Location extra)",8, 80, 0, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::OurReader::recoverFromError( TokenType skipUntilToken)",12, 72, 4, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::OurReader::addErrorAndRecover( const String & message , Token & token , TokenType skipUntilToken)",6, 63, 35, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::OurReader::currentValue()",1, 61, 0, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::OurReader::getNextChar()",5, 43, 0, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::OurReader::getLocationLineAndColumn( Location location , int & line , int & column) const",22, 62, 41, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::OurReader::getLocationLineAndColumn( Location location) const",7, 80, 2, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::OurReader::getFormattedErrorMessages() const",12, 78, 10, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::OurReader::getStructuredErrors() const",11, 81, 0, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::OurReader::pushError( const Value & value , const String & message)",15, 74, 2, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::OurReader::pushError( const Value & value , const String & message , const Value & extra)",18, 76, 2, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::OurReader::good() const",1, 57, 0, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::OurCharReader::OurCharReader( bool collectComments , OurFeatures const & features)",2, 67, 2, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::OurCharReader::parse( char const * beginDoc , char const * endDoc , Value * root , String * errs)",10, 72, 4, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::CharReaderBuilder::CharReaderBuilder()",1, 68, 0, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::CharReaderBuilder::newCharReader() const",19, 75, 2, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::getValidReaderKeys( std :: set<String> * valid_keys)",13, 63, 0, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::CharReaderBuilder::validate( Json :: Value * invalid) const",17, 65, 4, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::CharReaderBuilder::operator [ ]( const String & key)",3, 58, 0, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::CharReaderBuilder::strictMode( Json :: Value * settings)",13, 60, 0, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::CharReaderBuilder::setDefaults( Json :: Value * settings)",14, 61, 0, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::parseFromStream( CharReader :: Factory const & fact , IStream & sin , Value * root , String * errs)",13, 58, 2, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::operator > >( IStream & sin , Value & root)",9, 51, 2, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::ValueIteratorBase::ValueIteratorBase()",1, 55, 0, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::ValueIteratorBase::ValueIteratorBase( const Value :: ObjectValues :: iterator & current)",3, 50, 4, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::ValueIteratorBase::deref() const",1, 69, 0, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::ValueIteratorBase::increment()",1, 52, 0, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::ValueIteratorBase::decrement()",1, 52, 0, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::ValueIteratorBase::computeDistance( const SelfType & other) const",26, 81, 2, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::ValueIteratorBase::isEqual( const SelfType & other) const",6, 63, 0, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::ValueIteratorBase::copy( const SelfType & other)",4, 54, 0, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::ValueIteratorBase::key() const",9, 72, 4, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::ValueIteratorBase::index() const",6, 54, 2, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::ValueIteratorBase::name() const",8, 41, 0, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::ValueIteratorBase::memberName() const",4, 52, 0, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::ValueIteratorBase::memberName( char const ** end) const",9, 68, 0, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::ValueConstIterator::ValueConstIterator( const Value :: ObjectValues :: iterator & current)",3, 50, 4, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::ValueConstIterator::ValueConstIterator( ValueIterator const & other)",2, 67, 0, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::ValueConstIterator::operator =( const ValueIteratorBase & other)",5, 44, 0, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::ValueIterator::ValueIterator( const Value :: ObjectValues :: iterator & current)",2, 75, 0, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::ValueIterator::ValueIterator( const ValueConstIterator & other)",4, 75, 2, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::ValueIterator::operator =( const SelfType & other)",4, 65, 0, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"msvc_pre1900_c99_vsnprintf( char * outBuf , size_t size , const char * format , va_list ap)",11, 63, 4, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"msvc_pre1900_c99_snprintf( char * outBuf , size_t size , const char * format , ...)",10, 74, 2, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::Value::nullSingleton()",4, 38, 0, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::InRange( double d , T min , U max)",6, 76, 2, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::integerToDouble( Json :: UInt64 value)",4, 59, 0, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::integerToDouble( T value)",3, 70, 0, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::InRange( double d , T min , U max)",3, 65, 2, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::duplicateStringValue( const char * value , size_t length)",15, 78, 2, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::duplicateAndPrefixStringValue( const char * value , unsigned int length)",20, 81, 2, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::decodePrefixedString( bool isPrefixed , char const * prefixed , unsigned * length , char const ** value)",12, 62, 40, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::releasePrefixedStringValue( char * value)",8, 61, 0, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::releaseStringValue( char * value , unsigned length)",6, 70, 0, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::releasePrefixedStringValue( char * value)",1, 76, 0, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::releaseStringValue( char * value , unsigned)",1, 78, 0, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::Exception::Exception( String msg)",1, 59, 0, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::Exception::~Exception()",1, 44, 0, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::Exception::what() const",1, 78, 0, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::RuntimeError::RuntimeError( String const & msg)",1, 66, 0, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::LogicError::LogicError( String const & msg)",1, 62, 0, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::throwRuntimeError( String const & msg)",3, 61, 0, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::throwLogicError( String const & msg)",3, 59, 0, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::Value::CommentInfo::~CommentInfo()",4, 38, 4, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::Value::CommentInfo::setComment( const char * text , size_t len)",12, 68, 0, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::Value::CZString::CZString( ArrayIndex index)",1, 79, 0, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::Value::CZString::CZString( char const * str , unsigned length , DuplicationPolicy allocate)",8, 54, 26, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::Value::CZString::CZString( const CZString & other)",15, 77, 2, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::Value::CZString::CZString( CZString && other)",4, 49, 4, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::Value::CZString::~CZString()",9, 80, 47, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::Value::CZString::swap( CZString & other)",4, 46, 0, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::Value::CZString::operator =( const CZString & other)",5, 69, 0, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::Value::CZString::operator =( CZString && other)",6, 64, 0, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::Value::CZString::operator <( const CZString & other) const",16, 63, 0, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::Value::CZString::operator ==( const CZString & other) const",13, 64, 0, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::Value::CZString::index() const",1, 61, 0, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::Value::CZString::data() const",1, 60, 0, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::Value::CZString::length() const",1, 70, 0, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::Value::CZString::isStaticString() const",3, 47, 0, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::Value::Value( ValueType type)",28, 79, 4, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::Value::Value( Int value)",4, 26, 0, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::Value::Value( UInt value)",4, 27, 0, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::Value::Value( Int64 value)",4, 28, 0, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::Value::Value( UInt64 value)",4, 29, 0, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::Value::Value( double value)",4, 29, 0, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::Value::Value( const char * value)",7, 65, 22, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::Value::Value( const char * begin , const char * end)",5, 80, 6, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::Value::Value( const String & value)",5, 60, 6, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::Value::Value( const StaticString & value)",4, 53, 2, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::Value::Value( const CppTL :: ConstString & value)",5, 53, 6, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::Value::Value( bool value)",4, 27, 0, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::Value::Value( const Value & other)",4, 35, 0, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::Value::Value( Value && other)",4, 30, 0, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::Value::~Value()",5, 22, 2, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::Value::operator =( const Value & other)",4, 46, 0, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::Value::operator =( Value && other)",4, 41, 0, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::Value::swapPayload( Value & other)",4, 40, 0, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::Value::copyPayload( const Value & other)",4, 46, 0, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::Value::swap( Value & other)",6, 41, 2, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::Value::copy( const Value & other)",5, 39, 0, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::Value::type() const",3, 52, 2, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::Value::compare( const Value & other) const",7, 47, 0, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::Value::operator <( const Value & other) const",51, 80, 4, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::Value::operator <=( const Value & other) const",1, 78, 0, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::Value::operator >=( const Value & other) const",1, 78, 0, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::Value::operator >( const Value & other) const",1, 74, 0, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::Value::operator ==( const Value & other) const",41, 80, 4, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::Value::operator !=( const Value & other) const",1, 79, 0, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::Value::asCString() const",11, 77, 2, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::Value::getCStringLength() const",11, 77, 2, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::Value::getString( char const ** begin , char const ** end) const",11, 75, 2, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::Value::asString() const",25, 79, 4, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::Value::asConstString() const",6, 67, 2, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::Value::asInt() const",21, 66, 4, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::Value::asUInt() const",21, 68, 4, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::Value::asInt64() const",20, 70, 4, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::Value::asUInt64() const",20, 71, 4, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::Value::asLargestInt() const",7, 41, 0, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::Value::asLargestUInt() const",7, 43, 0, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::Value::asDouble() const",21, 60, 2, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::Value::asFloat() const",22, 72, 4, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::Value::asBool() const",18, 58, 2, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::Value::isConvertibleTo( ValueType other) const",32, 77, 11, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::Value::size() const",22, 64, 6, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::Value::empty() const",6, 43, 2, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::Value::operator bool() const",1, 51, 0, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::Value::clear()",15, 74, 22, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::Value::resize( ArrayIndex newSize)",17, 72, 22, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::Value::operator [ ]( ArrayIndex index)",15, 70, 6, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::Value::operator [ ]( int index)",6, 74, 6, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::Value::operator [ ]( ArrayIndex index) const",12, 75, 6, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::Value::operator [ ]( int index) const",6, 80, 6, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::Value::initBasic( ValueType type , bool allocated)",7, 56, 0, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::Value::dupPayload( const Value & other)",31, 76, 6, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::Value::releasePayload()",20, 50, 6, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::Value::dupMeta( const Value & other)",15, 75, 4, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::Value::resolveReference( const char * key)",17, 69, 2, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::Value::resolveReference( char const * key , char const * end)",17, 75, 6, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::Value::get( ArrayIndex index , const Value & defaultValue) const",4, 70, 0, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::Value::isValidIndex( ArrayIndex index) const",1, 76, 0, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::Value::find( char const * begin , char const * end) const",13, 73, 22, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::Value::operator [ ]( const char * key) const",6, 56, 0, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::Value::operator [ ]( const String & key) const",6, 68, 2, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::Value::operator [ ]( const char * key)",3, 51, 2, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::Value::operator [ ]( const String & key)",3, 66, 2, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::Value::operator [ ]( const StaticString & key)",3, 52, 0, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::Value::operator [ ]( const CppTL :: ConstString & key)",3, 58, 0, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::Value::operator [ ]( CppTL :: ConstString const & key) const",6, 70, 0, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::Value::append( const Value & value)",1, 77, 0, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::Value::append( Value && value)",3, 45, 2, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::Value::get( char const * begin , char const * end , Value const & defaultValue) const",6, 52, 17, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::Value::get( char const * key , Value const & defaultValue) const",3, 69, 0, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::Value::get( String const & key , Value const & defaultValue) const",3, 71, 0, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::Value::removeMember( const char * begin , const char * end , Value * removed)",18, 79, 0, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::Value::removeMember( const char * key , Value * removed)",3, 60, 0, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::Value::removeMember( String const & key , Value * removed)",3, 71, 2, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::Value::removeMember( const char * key)",9, 79, 22, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::Value::removeMember( const String & key)",1, 75, 0, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::Value::removeIndex( ArrayIndex index , Value * removed)",23, 64, 2, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::Value::get( const CppTL :: ConstString & key , const Value & defaultValue) const",4, 58, 2, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::Value::isMember( char const * begin , char const * end) const",4, 65, 0, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::Value::isMember( char const * key) const",3, 46, 0, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::Value::isMember( String const & key) const",3, 58, 2, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::Value::isMember( const CppTL :: ConstString & key) const",3, 60, 0, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::Value::getMemberNames() const",15, 73, 4, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::IsIntegral( double d)",4, 41, 2, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::Value::isNull() const",1, 59, 0, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::Value::isBool() const",1, 62, 0, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::Value::isInt() const",18, 63, 4, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::Value::isUInt() const",22, 81, 4, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::Value::isInt64() const",19, 76, 4, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::Value::isUInt64() const",19, 77, 4, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::Value::isIntegral() const",21, 77, 4, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::Value::isDouble() const",3, 75, 2, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::Value::isNumeric() const",1, 53, 0, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::Value::isString() const",1, 63, 0, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::Value::isArray() const",1, 61, 0, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::Value::isObject() const",1, 63, 0, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::Value::setComment( const char * comment , size_t len , CommentPlacement placement)",11, 60, 4, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::Value::setComment( const char * comment , CommentPlacement placement)",3, 74, 0, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::Value::setComment( const String & comment , CommentPlacement placement)",3, 76, 0, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::Value::hasComment( CommentPlacement placement) const",3, 75, 2, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::Value::getComment( CommentPlacement placement) const",5, 61, 0, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::Value::setOffsetStart( ptrdiff_t start)",1, 64, 0, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::Value::setOffsetLimit( ptrdiff_t limit)",1, 64, 0, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::Value::getOffsetStart() const",1, 59, 0, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::Value::getOffsetLimit() const",1, 59, 0, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::Value::toStyledString() const",9, 60, 2, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::Value::begin() const",12, 51, 6, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::Value::end() const",12, 49, 6, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::Value::begin()",12, 45, 6, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::Value::end()",12, 43, 6, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::PathArgument::PathArgument()",1, 41, 0, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::PathArgument::PathArgument( ArrayIndex index)",2, 49, 4, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::PathArgument::PathArgument( const char * key)",2, 45, 4, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::PathArgument::PathArgument( const String & key)",2, 53, 4, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::Path::Path( const String & path , const PathArgument & a1 , const PathArgument & a2 , const PathArgument & a3 , const PathArgument & a4 , const PathArgument & a5)",15, 37, 11, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::Path::makePath( const String & path , const InArgs & in)",30, 80, 8, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::Path::addPathInArg( const String & , const InArgs & in , InArgs :: const_iterator & itInArg , PathArgument :: Kind kind)",12, 57, 24, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::Path::invalidPath( const String & , int)",3, 67, 0, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::Path::resolve( const Value & root) const",24, 80, 8, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::Path::resolve( const Value & root , const Value & defaultValue) const",17, 74, 0, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::Path::make( Value & root) const",17, 55, 8, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::valueToString( LargestInt value)",15, 66, 4, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::valueToString( LargestUInt value)",7, 43, 2, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::valueToString( Int value)",1, 77, 0, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::valueToString( UInt value)",1, 79, 0, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::valueToString( double value , bool useSpecialFloats , unsigned int precision , PrecisionType precisionType)",44, 81, 2, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::valueToString( double value , unsigned int precision , PrecisionType precisionType)",5, 64, 2, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::valueToString( bool value)",1, 70, 0, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::isAnyCharRequiredQuoting( char const * s , size_t n)",11, 64, 0, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::utf8ToCodepoint( const char * & s , const char * e)",50, 81, 30, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::toHex16Bit( unsigned int x)",10, 43, 0, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::valueToQuotedStringN( const char * value , unsigned length)",68, 80, 4, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::valueToQuotedString( const char * value)",3, 80, 2, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::FastWriter::enableYAMLCompatibility()",1, 81, 0, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::FastWriter::dropNullPlaceholders()",1, 74, 0, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::FastWriter::omitEndingLineFeed()",1, 70, 0, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::FastWriter::write( const Value & root)",7, 46, 0, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::FastWriter::writeValue( const Value & value)",53, 80, 6, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::StyledWriter::write( const Value & root)",10, 48, 0, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::StyledWriter::writeValue( const Value & value)",59, 78, 6, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::StyledWriter::writeArrayValue( const Value & value)",42, 57, 0, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::StyledWriter::isMultilineArray( const Value & value)",26, 75, 6, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::StyledWriter::pushValue( const String & value)",6, 52, 0, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::StyledWriter::writeIndent()",10, 51, 4, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::StyledWriter::writeWithIndent( const String & value)",4, 58, 0, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::StyledWriter::indent()",1, 75, 0, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::StyledWriter::unindent()",4, 60, 2, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::StyledWriter::writeCommentBeforeValue( const Value & root)",18, 78, 4, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::StyledWriter::writeCommentAfterValueOnSameLine( const Value & root)",10, 73, 0, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::StyledWriter::hasCommentForValue( const Value & value)",5, 60, 0, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::StyledStreamWriter::StyledStreamWriter( String indentation)",3, 64, 4, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::StyledStreamWriter::write( OStream & out , const Value & root)",14, 66, 0, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::StyledStreamWriter::writeValue( const Value & value)",59, 78, 6, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::StyledStreamWriter::writeArrayValue( const Value & value)",45, 63, 0, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::StyledStreamWriter::isMultilineArray( const Value & value)",26, 75, 6, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::StyledStreamWriter::pushValue( const String & value)",6, 58, 0, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::StyledStreamWriter::writeIndent()",7, 70, 2, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::StyledStreamWriter::writeWithIndent( const String & value)",6, 64, 0, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::StyledStreamWriter::indent()",1, 69, 0, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::StyledStreamWriter::unindent()",4, 68, 2, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::StyledStreamWriter::writeCommentBeforeValue( const Value & root)",17, 78, 4, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::StyledStreamWriter::writeCommentAfterValueOnSameLine( const Value & root)",10, 79, 0, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::StyledStreamWriter::hasCommentForValue( const Value & value)",5, 66, 0, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::BuiltStyledStreamWriter::BuiltStyledStreamWriter( String indentation , CommentStyle :: Enum cs , String colonSymbol , String nullSymbol , String endingLineFeedSymbol , bool useSpecialFloats , unsigned int precision , PrecisionType precisionType)",14, 80, 6, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::BuiltStyledStreamWriter::write( Value const & root , OStream * sout)",15, 71, 0, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::BuiltStyledStreamWriter::writeValue( Value const & value)",61, 78, 6, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::BuiltStyledStreamWriter::writeArrayValue( Value const & value)",49, 78, 4, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::BuiltStyledStreamWriter::isMultilineArray( Value const & value)",26, 75, 6, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::BuiltStyledStreamWriter::pushValue( String const & value)",6, 63, 0, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::BuiltStyledStreamWriter::writeIndent()",11, 70, 2, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::BuiltStyledStreamWriter::writeWithIndent( String const & value)",6, 69, 0, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::BuiltStyledStreamWriter::indent()",1, 74, 0, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::BuiltStyledStreamWriter::unindent()",4, 68, 2, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::BuiltStyledStreamWriter::writeCommentBeforeValue( Value const & root)",19, 78, 4, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::BuiltStyledStreamWriter::writeCommentAfterValueOnSameLine( Value const & root)",12, 64, 0, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::BuiltStyledStreamWriter::hasCommentForValue( const Value & value)",5, 71, 0, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::StreamWriter::StreamWriter()",1, 49, 0, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::StreamWriterBuilder::StreamWriterBuilder()",1, 72, 0, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::StreamWriterBuilder::newStreamWriter() const",41, 79, 2, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::getValidWriterKeys( std :: set<String> * valid_keys)",10, 63, 0, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::StreamWriterBuilder::validate( Json :: Value * invalid) const",17, 65, 0, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::StreamWriterBuilder::operator [ ]( const String & key)",3, 60, 0, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::StreamWriterBuilder::setDefaults( Json :: Value * settings)",11, 63, 0, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::writeString( StreamWriter :: Factory const & factory , Value const & root)",6, 78, 0, 0
+repos/cpp/simdjson/dependencies/jsoncppdist/jsoncpp.cpp,"Json::operator < <( OStream & sout , Value const & root)",6, 59, 2, 0
+repos/cpp/simdjson/scripts/transitions/generatetransitions.cpp,"main()",18, 71, 2, 0
+repos/cpp/simdjson/singleheader/amalgamation_demo.cpp,"main( int argc , char * argv [ ])",11, 58, 2, 0
+repos/cpp/simdjson/singleheader/simdjson.cpp,"allocate_padded_buffer( size_t length)",8, 74, 4, 0
+repos/cpp/simdjson/singleheader/simdjson.cpp,"get_corpus( const std :: string & filename)",21, 62, 6, 0
+repos/cpp/simdjson/singleheader/simdjson.cpp,"jsonminify( const unsigned char * bytes , size_t howmany , unsigned char * out)",19, 62, 0, 0
+repos/cpp/simdjson/singleheader/simdjson.cpp,"cmp_mask_against_input_mini( __m256i input_lo , __m256i input_hi , __m256i mask)",8, 80, 0, 0
+repos/cpp/simdjson/singleheader/simdjson.cpp,"jsonminify( const uint8_t * buf , size_t len , uint8_t * out)",173, 208, 6, 0
+repos/cpp/simdjson/singleheader/simdjson.cpp,"json_parse( const uint8_t * buf , size_t len , ParsedJson & pj , bool reallocifneeded)",30, 127, 2, 0
+repos/cpp/simdjson/singleheader/simdjson.cpp,"build_parsed_json( const uint8_t * buf , size_t len , bool reallocifneeded)",12, 85, 0, 0
+repos/cpp/simdjson/singleheader/simdjson.cpp,"check_utf8( __m256i input_lo , __m256i input_hi , __m256i & has_error , struct avx_processed_utf_bytes & previous)",18, 81, 2, 0
+repos/cpp/simdjson/singleheader/simdjson.cpp,"cmp_mask_against_input( __m256i input_lo , __m256i input_hi , __m256i mask)",8, 80, 46, 0
+repos/cpp/simdjson/singleheader/simdjson.cpp,"find_odd_backslash_sequences( __m256i input_lo , __m256i input_hi , uint64_t & prev_iter_ends_odd_backslash)",33, 77, 37, 0
+repos/cpp/simdjson/singleheader/simdjson.cpp,"find_quote_mask_and_bits( __m256i input_lo , __m256i input_hi , uint64_t odd_ends , uint64_t & prev_iter_inside_quote , uint64_t & quote_bits)",16, 76, 2, 0
+repos/cpp/simdjson/singleheader/simdjson.cpp,"find_whitespace_and_structurals( const __m256i input_lo , __m256i input_hi , uint64_t & whitespace , uint64_t & structurals)",51, 81, 6, 0
+repos/cpp/simdjson/singleheader/simdjson.cpp,"flatten_bits( uint32_t * base_ptr , uint32_t & base , uint32_t idx , uint64_t bits)",25, 81, 4, 0
+repos/cpp/simdjson/singleheader/simdjson.cpp,"finalize_structurals( uint64_t structurals , uint64_t whitespace , uint64_t quote_mask , uint64_t quote_bits , uint64_t & prev_iter_ends_pseudo_pred)",33, 79, 2, 0
+repos/cpp/simdjson/singleheader/simdjson.cpp,"find_structural_bits( const uint8_t * buf , size_t len , ParsedJson & pj)",148, 81, 2, 0
+repos/cpp/simdjson/singleheader/simdjson.cpp,"find_structural_bits( const char * buf , size_t len , ParsedJson & pj)",3, 80, 2, 0
+repos/cpp/simdjson/singleheader/simdjson.cpp,"is_valid_true_atom( const uint8_t * loc)",10, 83, 2, 0
+repos/cpp/simdjson/singleheader/simdjson.cpp,"is_valid_false_atom( const uint8_t * loc)",10, 83, 2, 0
+repos/cpp/simdjson/singleheader/simdjson.cpp,"is_valid_null_atom( const uint8_t * loc)",10, 83, 2, 0
+repos/cpp/simdjson/singleheader/simdjson.cpp,"unified_machine( const uint8_t * buf , size_t len , ParsedJson & pj)",451, 138, 2, 0
+repos/cpp/simdjson/singleheader/simdjson.cpp,"unified_machine( const char * buf , size_t len , ParsedJson & pj)",3, 74, 2, 0
+repos/cpp/simdjson/singleheader/simdjson.cpp,"ParsedJson::ParsedJson()",3, 86, 8, 0
+repos/cpp/simdjson/singleheader/simdjson.cpp,"ParsedJson::~ParsedJson()",3, 28, 0, 0
+repos/cpp/simdjson/singleheader/simdjson.cpp,"ParsedJson::ParsedJson( ParsedJson && p)",21, 56, 4, 0
+repos/cpp/simdjson/singleheader/simdjson.cpp,"ParsedJson::allocateCapacity( size_t len , size_t maxdepth)",41, 111, 8, 0
+repos/cpp/simdjson/singleheader/simdjson.cpp,"ParsedJson::isValid() const",3, 35, 0, 0
+repos/cpp/simdjson/singleheader/simdjson.cpp,"ParsedJson::deallocate()",12, 38, 4, 0
+repos/cpp/simdjson/singleheader/simdjson.cpp,"ParsedJson::init()",5, 41, 4, 0
+repos/cpp/simdjson/singleheader/simdjson.cpp,"ParsedJson::printjson( std :: ostream & os)",113, 81, 10, 0
+repos/cpp/simdjson/singleheader/simdjson.cpp,"ParsedJson::dump_raw_tape( std :: ostream & os)",78, 104, 8, 0
+repos/cpp/simdjson/singleheader/simdjson.cpp,"ParsedJson::iterator::iterator( ParsedJson & pj_)",21, 120, 0, 0
+repos/cpp/simdjson/singleheader/simdjson.cpp,"ParsedJson::iterator::~iterator()",3, 36, 0, 0
+repos/cpp/simdjson/singleheader/simdjson.cpp,"ParsedJson::iterator::iterator( const iterator & o)",11, 84, 8, 0
+repos/cpp/simdjson/singleheader/simdjson.cpp,"ParsedJson::iterator::iterator( iterator && o)",6, 64, 6, 0
+repos/cpp/simdjson/singleheader/simdjson.cpp,"ParsedJson::iterator::isOk() const",3, 42, 0, 0
+repos/cpp/simdjson/singleheader/simdjson.cpp,"ParsedJson::iterator::get_tape_location() const",3, 57, 0, 0
+repos/cpp/simdjson/singleheader/simdjson.cpp,"ParsedJson::iterator::get_tape_length() const",3, 55, 0, 0
+repos/cpp/simdjson/singleheader/simdjson.cpp,"ParsedJson::iterator::get_depth() const",3, 49, 0, 0
+repos/cpp/simdjson/singleheader/simdjson.cpp,"ParsedJson::iterator::get_scope_type() const",3, 55, 0, 0
+repos/cpp/simdjson/singleheader/simdjson.cpp,"ParsedJson::iterator::move_forward()",27, 68, 8, 0
+repos/cpp/simdjson/singleheader/simdjson.cpp,"ParsedJson::iterator::get_type() const",3, 50, 0, 0
+repos/cpp/simdjson/singleheader/simdjson.cpp,"ParsedJson::iterator::get_integer() const",5, 81, 4, 0
+repos/cpp/simdjson/singleheader/simdjson.cpp,"ParsedJson::iterator::get_double() const",7, 83, 4, 0
+repos/cpp/simdjson/singleheader/simdjson.cpp,"ParsedJson::iterator::get_string() const",3, 92, 4, 0
+repos/cpp/simdjson/singleheader/simdjson.cpp,"ParsedJson::iterator::is_object_or_array() const",3, 56, 0, 0
+repos/cpp/simdjson/singleheader/simdjson.cpp,"ParsedJson::iterator::is_object() const",3, 47, 0, 0
+repos/cpp/simdjson/singleheader/simdjson.cpp,"ParsedJson::iterator::is_array() const",3, 46, 0, 0
+repos/cpp/simdjson/singleheader/simdjson.cpp,"ParsedJson::iterator::is_string() const",3, 47, 0, 0
+repos/cpp/simdjson/singleheader/simdjson.cpp,"ParsedJson::iterator::is_integer() const",3, 48, 0, 0
+repos/cpp/simdjson/singleheader/simdjson.cpp,"ParsedJson::iterator::is_double() const",3, 47, 0, 0
+repos/cpp/simdjson/singleheader/simdjson.cpp,"ParsedJson::iterator::is_object_or_array( uint8_t type)",3, 62, 0, 0
+repos/cpp/simdjson/singleheader/simdjson.cpp,"ParsedJson::iterator::move_to_key( const char * key)",13, 59, 0, 0
+repos/cpp/simdjson/singleheader/simdjson.cpp,"ParsedJson::iterator::next()",31, 77, 4, 0
+repos/cpp/simdjson/singleheader/simdjson.cpp,"ParsedJson::iterator::prev()",18, 72, 4, 0
+repos/cpp/simdjson/singleheader/simdjson.cpp,"ParsedJson::iterator::up()",12, 53, 4, 0
+repos/cpp/simdjson/singleheader/simdjson.cpp,"ParsedJson::iterator::down()",18, 58, 4, 0
+repos/cpp/simdjson/singleheader/simdjson.cpp,"ParsedJson::iterator::to_start_scope()",5, 49, 4, 0
+repos/cpp/simdjson/singleheader/simdjson.cpp,"ParsedJson::iterator::print( std :: ostream & os , bool escape_strings) const",39, 80, 0, 0
+repos/cpp/simdjson/src/stage1_find_marks.cpp,"check_utf8( __m256i input_lo , __m256i input_hi , __m256i & has_error , struct avx_processed_utf_bytes & previous)",18, 81, 2, 0
+repos/cpp/simdjson/src/stage1_find_marks.cpp,"cmp_mask_against_input( __m256i input_lo , __m256i input_hi , __m256i mask)",8, 80, 46, 0
+repos/cpp/simdjson/src/stage1_find_marks.cpp,"find_odd_backslash_sequences( __m256i input_lo , __m256i input_hi , uint64_t & prev_iter_ends_odd_backslash)",33, 77, 37, 0
+repos/cpp/simdjson/src/stage1_find_marks.cpp,"find_quote_mask_and_bits( __m256i input_lo , __m256i input_hi , uint64_t odd_ends , uint64_t & prev_iter_inside_quote , uint64_t & quote_bits)",16, 76, 2, 0
+repos/cpp/simdjson/src/stage1_find_marks.cpp,"find_whitespace_and_structurals( const __m256i input_lo , __m256i input_hi , uint64_t & whitespace , uint64_t & structurals)",51, 81, 6, 0
+repos/cpp/simdjson/src/stage1_find_marks.cpp,"flatten_bits( uint32_t * base_ptr , uint32_t & base , uint32_t idx , uint64_t bits)",25, 81, 4, 0
+repos/cpp/simdjson/src/stage1_find_marks.cpp,"finalize_structurals( uint64_t structurals , uint64_t whitespace , uint64_t quote_mask , uint64_t quote_bits , uint64_t & prev_iter_ends_pseudo_pred)",33, 79, 2, 0
+repos/cpp/simdjson/src/stage1_find_marks.cpp,"find_structural_bits( const uint8_t * buf , size_t len , ParsedJson & pj)",148, 81, 2, 0
+repos/cpp/simdjson/src/stage1_find_marks.cpp,"find_structural_bits( const char * buf , size_t len , ParsedJson & pj)",3, 80, 2, 0
+repos/cpp/simdjson/src/stage2_build_tape.cpp,"is_valid_true_atom( const uint8_t * loc)",10, 83, 2, 0
+repos/cpp/simdjson/src/stage2_build_tape.cpp,"is_valid_false_atom( const uint8_t * loc)",10, 83, 2, 0
+repos/cpp/simdjson/src/stage2_build_tape.cpp,"is_valid_null_atom( const uint8_t * loc)",10, 83, 2, 0
+repos/cpp/simdjson/src/stage2_build_tape.cpp,"unified_machine( const uint8_t * buf , size_t len , ParsedJson & pj)",451, 138, 2, 0
+repos/cpp/simdjson/src/stage2_build_tape.cpp,"unified_machine( const char * buf , size_t len , ParsedJson & pj)",3, 74, 2, 0
+repos/cpp/simdjson/src/jsonminifier.cpp,"jsonminify( const unsigned char * bytes , size_t howmany , unsigned char * out)",19, 62, 0, 0
+repos/cpp/simdjson/src/jsonminifier.cpp,"cmp_mask_against_input_mini( __m256i input_lo , __m256i input_hi , __m256i mask)",8, 80, 0, 0
+repos/cpp/simdjson/src/jsonminifier.cpp,"jsonminify( const uint8_t * buf , size_t len , uint8_t * out)",173, 208, 6, 0
+repos/cpp/simdjson/src/parsedjsoniterator.cpp,"ParsedJson::iterator::iterator( ParsedJson & pj_)",21, 120, 0, 0
+repos/cpp/simdjson/src/parsedjsoniterator.cpp,"ParsedJson::iterator::~iterator()",3, 36, 0, 0
+repos/cpp/simdjson/src/parsedjsoniterator.cpp,"ParsedJson::iterator::iterator( const iterator & o)",11, 84, 8, 0
+repos/cpp/simdjson/src/parsedjsoniterator.cpp,"ParsedJson::iterator::iterator( iterator && o)",6, 64, 6, 0
+repos/cpp/simdjson/src/parsedjsoniterator.cpp,"ParsedJson::iterator::isOk() const",3, 42, 0, 0
+repos/cpp/simdjson/src/parsedjsoniterator.cpp,"ParsedJson::iterator::get_tape_location() const",3, 57, 0, 0
+repos/cpp/simdjson/src/parsedjsoniterator.cpp,"ParsedJson::iterator::get_tape_length() const",3, 55, 0, 0
+repos/cpp/simdjson/src/parsedjsoniterator.cpp,"ParsedJson::iterator::get_depth() const",3, 49, 0, 0
+repos/cpp/simdjson/src/parsedjsoniterator.cpp,"ParsedJson::iterator::get_scope_type() const",3, 55, 0, 0
+repos/cpp/simdjson/src/parsedjsoniterator.cpp,"ParsedJson::iterator::move_forward()",27, 68, 8, 0
+repos/cpp/simdjson/src/parsedjsoniterator.cpp,"ParsedJson::iterator::get_type() const",3, 50, 0, 0
+repos/cpp/simdjson/src/parsedjsoniterator.cpp,"ParsedJson::iterator::get_integer() const",5, 81, 4, 0
+repos/cpp/simdjson/src/parsedjsoniterator.cpp,"ParsedJson::iterator::get_double() const",7, 83, 4, 0
+repos/cpp/simdjson/src/parsedjsoniterator.cpp,"ParsedJson::iterator::get_string() const",3, 92, 4, 0
+repos/cpp/simdjson/src/parsedjsoniterator.cpp,"ParsedJson::iterator::is_object_or_array() const",3, 56, 0, 0
+repos/cpp/simdjson/src/parsedjsoniterator.cpp,"ParsedJson::iterator::is_object() const",3, 47, 0, 0
+repos/cpp/simdjson/src/parsedjsoniterator.cpp,"ParsedJson::iterator::is_array() const",3, 46, 0, 0
+repos/cpp/simdjson/src/parsedjsoniterator.cpp,"ParsedJson::iterator::is_string() const",3, 47, 0, 0
+repos/cpp/simdjson/src/parsedjsoniterator.cpp,"ParsedJson::iterator::is_integer() const",3, 48, 0, 0
+repos/cpp/simdjson/src/parsedjsoniterator.cpp,"ParsedJson::iterator::is_double() const",3, 47, 0, 0
+repos/cpp/simdjson/src/parsedjsoniterator.cpp,"ParsedJson::iterator::is_object_or_array( uint8_t type)",3, 62, 0, 0
+repos/cpp/simdjson/src/parsedjsoniterator.cpp,"ParsedJson::iterator::move_to_key( const char * key)",13, 59, 0, 0
+repos/cpp/simdjson/src/parsedjsoniterator.cpp,"ParsedJson::iterator::next()",31, 77, 4, 0
+repos/cpp/simdjson/src/parsedjsoniterator.cpp,"ParsedJson::iterator::prev()",18, 72, 4, 0
+repos/cpp/simdjson/src/parsedjsoniterator.cpp,"ParsedJson::iterator::up()",12, 53, 4, 0
+repos/cpp/simdjson/src/parsedjsoniterator.cpp,"ParsedJson::iterator::down()",18, 58, 4, 0
+repos/cpp/simdjson/src/parsedjsoniterator.cpp,"ParsedJson::iterator::to_start_scope()",5, 49, 4, 0
+repos/cpp/simdjson/src/parsedjsoniterator.cpp,"ParsedJson::iterator::print( std :: ostream & os , bool escape_strings) const",39, 80, 0, 0
+repos/cpp/simdjson/src/parsedjson.cpp,"ParsedJson::ParsedJson()",3, 86, 8, 0
+repos/cpp/simdjson/src/parsedjson.cpp,"ParsedJson::~ParsedJson()",3, 28, 0, 0
+repos/cpp/simdjson/src/parsedjson.cpp,"ParsedJson::ParsedJson( ParsedJson && p)",21, 56, 4, 0
+repos/cpp/simdjson/src/parsedjson.cpp,"ParsedJson::allocateCapacity( size_t len , size_t maxdepth)",41, 111, 8, 0
+repos/cpp/simdjson/src/parsedjson.cpp,"ParsedJson::isValid() const",3, 35, 0, 0
+repos/cpp/simdjson/src/parsedjson.cpp,"ParsedJson::deallocate()",12, 38, 4, 0
+repos/cpp/simdjson/src/parsedjson.cpp,"ParsedJson::init()",5, 41, 4, 0
+repos/cpp/simdjson/src/parsedjson.cpp,"ParsedJson::printjson( std :: ostream & os)",113, 81, 10, 0
+repos/cpp/simdjson/src/parsedjson.cpp,"ParsedJson::dump_raw_tape( std :: ostream & os)",78, 104, 8, 0
+repos/cpp/simdjson/src/jsonparser.cpp,"json_parse( const uint8_t * buf , size_t len , ParsedJson & pj , bool reallocifneeded)",30, 127, 2, 0
+repos/cpp/simdjson/src/jsonparser.cpp,"build_parsed_json( const uint8_t * buf , size_t len , bool reallocifneeded)",12, 85, 0, 0
+repos/cpp/simdjson/src/simdjson.cpp,"simdjson::errorMsg( const int errorCode)",3, 61, 0, 0
+repos/cpp/simdjson/src/jsonioutil.cpp,"allocate_padded_buffer( size_t length)",8, 74, 4, 0
+repos/cpp/simdjson/src/jsonioutil.cpp,"get_corpus( const std :: string & filename)",21, 62, 6, 0

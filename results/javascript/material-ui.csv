@@ -1,0 +1,1498 @@
+File, Function, Length, Total Width, Leading Space(s), Leading Tab(s)
+repos/javascript/material-ui/next.config.js,"traverse ( pages2 , userLanguage )",17, 70, 6, 0
+repos/javascript/material-ui/dangerfile.js,"git ( args )",11, 44, 2, 0
+repos/javascript/material-ui/dangerfile.js,"cleanup ( )",3, 49, 2, 0
+repos/javascript/material-ui/dangerfile.js,"createComparisonFilter ( parsedThreshold , gzipThreshold )",9, 67, 6, 0
+repos/javascript/material-ui/dangerfile.js,"isPackageComparison ( comparisonEntry )",4, 48, 0, 0
+repos/javascript/material-ui/dangerfile.js,"addPercent ( change , goodEmoji = '' , badEmooji = ':small_red_triangle:' )",7, 82, 0, 0
+repos/javascript/material-ui/dangerfile.js,"generateMDTable ( headers , body )",14, 84, 2, 0
+repos/javascript/material-ui/dangerfile.js,"generateEmphasizedChange ( [ bundle , { parsed , gzip } ] )",7, 83, 2, 0
+repos/javascript/material-ui/dangerfile.js,"run ( )",70, 90, 2, 0
+repos/javascript/material-ui/babel.config.js,"resolvePath ( sourcePath , currentFile , opts )",8, 71, 4, 0
+repos/javascript/material-ui/test/karma.conf.js,"setKarmaConfig ( config )",121, 75, 6, 0
+repos/javascript/material-ui/test/utils/createDOM.js,"createDOM ( )",27, 66, 2, 0
+repos/javascript/material-ui/test/utils/consoleError.js,"consoleError ( )",7, 54, 4, 0
+repos/javascript/material-ui/test/utils/rerender.js,"componentDidUpdate ( )",6, 71, 4, 0
+repos/javascript/material-ui/test/utils/rerender.js,"createComponentDidUpdate ( instance )",8, 71, 4, 0
+repos/javascript/material-ui/test/regressions/TestViewer.js,"TestViewer ( props )",5, 57, 2, 0
+repos/javascript/material-ui/test/regressions/tests/RadioGroup/RadioGroupWithLabelRequired.js,"RadioGroupWithLabelRequired ( )",11, 75, 8, 0
+repos/javascript/material-ui/test/regressions/tests/RadioGroup/SimpleRadioGroup.js,"SimpleRadioGroup ( )",10, 75, 8, 0
+repos/javascript/material-ui/test/regressions/tests/RadioGroup/RadioGroupWithLabel.js,"RadioGroupWithLabel ( )",11, 75, 8, 0
+repos/javascript/material-ui/test/regressions/tests/RadioGroup/RadioGroupWithLabelError.js,"RadioGroupWithLabelError ( )",11, 75, 8, 0
+repos/javascript/material-ui/test/regressions/tests/Paper/SimplePaper.js,"SimplePaper ( )",9, 44, 6, 0
+repos/javascript/material-ui/test/regressions/tests/Tabs/SimpleTabs.js,"SimpleTabs ( props )",43, 83, 8, 0
+repos/javascript/material-ui/test/regressions/tests/Tabs/AdvancedTabs.js,"AdvancedTabs ( props )",48, 93, 8, 0
+repos/javascript/material-ui/test/regressions/tests/ListSubheader/PrimaryListSubheader.js,"PrimaryListSubheader ( )",3, 63, 2, 0
+repos/javascript/material-ui/test/regressions/tests/ListSubheader/SimpleListSubheader.js,"SimpleListSubheader ( )",3, 48, 0, 0
+repos/javascript/material-ui/test/regressions/tests/ListSubheader/InsetListSubheader.js,"InsetListSubheader ( )",3, 53, 2, 0
+repos/javascript/material-ui/test/regressions/tests/Tooltip/PositionedTooltips.js,"PositionedTooltips ( props )",65, 78, 8, 0
+repos/javascript/material-ui/test/regressions/tests/Input/InputLabels.js,"InputLabels ( props )",19, 56, 6, 0
+repos/javascript/material-ui/test/regressions/tests/Input/InputSearch.js,"InputSearch ( )",3, 61, 2, 0
+repos/javascript/material-ui/test/regressions/tests/Chip/DeletableAvatarChip.js,"DeletableAvatarChip ( )",3, 89, 2, 0
+repos/javascript/material-ui/test/regressions/tests/TextField/TextFieldError.js,"TextFieldError ( )",8, 58, 6, 0
+repos/javascript/material-ui/test/regressions/tests/TextField/TextFieldMultiline.js,"TextFieldMultiline ( )",3, 76, 2, 0
+repos/javascript/material-ui/test/regressions/tests/TextField/TextFieldRequired.js,"TextFieldRequired ( )",8, 61, 6, 0
+repos/javascript/material-ui/test/regressions/tests/TextField/TextFieldMargin.js,"TextFieldMargin ( )",8, 83, 6, 0
+repos/javascript/material-ui/test/regressions/tests/Dialog/AlertDialog.js,"AlertDialog ( )",22, 97, 10, 0
+repos/javascript/material-ui/test/regressions/tests/SpeedDial/Directions.js,"SimpleSpeedDial ( props )",23, 92, 10, 0
+repos/javascript/material-ui/test/regressions/tests/SpeedDial/Directions.js,"Directions ( { classes } )",17, 75, 4, 0
+repos/javascript/material-ui/test/regressions/tests/Button/MultilineButton.js,"MultilineButton ( )",11, 61, 8, 0
+repos/javascript/material-ui/test/regressions/tests/Table/DenseCheckboxTable.js,"createData ( name , calories , fat , carbs , protein )",4, 59, 0, 0
+repos/javascript/material-ui/test/regressions/tests/Table/DenseCheckboxTable.js,"DenseCheckboxTable ( props )",40, 75, 14, 0
+repos/javascript/material-ui/test/regressions/tests/List/IconListItem.js,"IconListItem ( )",30, 69, 8, 0
+repos/javascript/material-ui/test/regressions/tests/List/PrimaryActionCheckboxListItem.js,"PrimaryActionCheckboxListItem ( )",35, 58, 0, 0
+repos/javascript/material-ui/test/regressions/tests/List/AvatarListItem.js,"AvatarListItem ( )",32, 66, 10, 0
+repos/javascript/material-ui/test/regressions/tests/List/SecondaryActionCheckboxListItem.js,"SecondaryActionCheckboxListItem ( )",26, 60, 0, 0
+repos/javascript/material-ui/test/regressions/tests/List/SimpleListItem.js,"SimpleListItem ( )",21, 65, 8, 0
+repos/javascript/material-ui/test/regressions/tests/Menu/SimpleMenuList.js,"SimpleMenuList ( )",11, 49, 8, 0
+repos/javascript/material-ui/test/regressions/tests/Select/SelectOverflow.js,"SelectOverflow ( )",10, 50, 4, 0
+repos/javascript/material-ui/test/regressions/tests/Select/SelectAlignment.js,"SelectAlignment ( )",29, 68, 8, 0
+repos/javascript/material-ui/test/regressions/tests/LinearProgress/BufferLinearProgress.js,"DeterminateLinearProgress ( )",12, 54, 0, 0
+repos/javascript/material-ui/test/regressions/tests/LinearProgress/DeterminateLinearProgress.js,"DeterminateLinearProgress ( )",11, 54, 0, 0
+repos/javascript/material-ui/test/regressions/tests/Grid/AutoGrid.js,"AutoGrid ( props )",30, 56, 10, 0
+repos/javascript/material-ui/test/regressions/tests/Grid/StressGrid.js,"StressGrid ( props )",42, 90, 8, 0
+repos/javascript/material-ui/test/regressions/tests/Grid/SimpleGrid.js,"SimpleGrid ( props )",31, 57, 10, 0
+repos/javascript/material-ui/docs/scripts/buildApi.js,"ensureExists ( pat , mask , cb )",13, 67, 8, 0
+repos/javascript/material-ui/docs/scripts/buildApi.js,"exit ( error )",4, 28, 2, 0
+repos/javascript/material-ui/docs/scripts/buildApi.js,"getInheritance ( src )",29, 82, 6, 0
+repos/javascript/material-ui/docs/scripts/buildApi.js,"buildDocs ( options )",53, 97, 2, 0
+repos/javascript/material-ui/docs/scripts/buildApi.js,"*global*",207, 97, 2, 0
+repos/javascript/material-ui/docs/scripts/buildApi.js,"run ( )",16, 75, 2, 0
+repos/javascript/material-ui/docs/scripts/formattedTSDemos.js,"getUnstagedGitFiles ( )",11, 57, 2, 0
+repos/javascript/material-ui/docs/scripts/formattedTSDemos.js,"fixBabelGeneratorIssues ( source )",3, 70, 2, 0
+repos/javascript/material-ui/docs/scripts/buildServiceWorker.js,"prepend ( file , string )",4, 52, 2, 0
+repos/javascript/material-ui/docs/scripts/buildServiceWorker.js,"run ( )",14, 58, 2, 0
+repos/javascript/material-ui/docs/scripts/i18n.js,"run ( )",30, 92, 4, 0
+repos/javascript/material-ui/docs/src/server.js,"run ( )",61, 88, 8, 0
+repos/javascript/material-ui/docs/src/modules/utils/textToHash.js,"makeUnique ( hash , unique , i = 1 )",10, 54, 2, 0
+repos/javascript/material-ui/docs/src/modules/utils/textToHash.js,"textToHash ( text , unique = { } )",14, 74, 8, 0
+repos/javascript/material-ui/docs/src/modules/utils/generateMarkdown.js,"normalizePath ( path )",3, 59, 2, 0
+repos/javascript/material-ui/docs/src/modules/utils/generateMarkdown.js,"generateHeader ( reactAPI )",3, 85, 2, 0
+repos/javascript/material-ui/docs/src/modules/utils/generateMarkdown.js,"getDeprecatedInfo ( type )",15, 89, 6, 0
+repos/javascript/material-ui/docs/src/modules/utils/generateMarkdown.js,"getChained ( type )",29, 100, 10, 0
+repos/javascript/material-ui/docs/src/modules/utils/generateMarkdown.js,"escapeCell ( value )",7, 48, 2, 0
+repos/javascript/material-ui/docs/src/modules/utils/compose.js,"compose ( ... funcs )",3, 73, 2, 0
+repos/javascript/material-ui/docs/src/modules/utils/loadScript.js,"loadScript ( src , position )",8, 52, 0, 0
+repos/javascript/material-ui/docs/src/modules/utils/mapTranslations.js,"mapTranslations ( req , ext )",13, 69, 4, 0
+repos/javascript/material-ui/docs/src/modules/utils/getDemoConfig.js,"jsDemo ( demoData )",15, 60, 0, 0
+repos/javascript/material-ui/docs/src/modules/utils/getDemoConfig.js,"tsDemo ( demoData )",31, 85, 4, 0
+repos/javascript/material-ui/docs/src/modules/utils/getDemoConfig.js,"getLanguageConfig ( demoData )",11, 75, 6, 0
+repos/javascript/material-ui/docs/src/modules/utils/getDemoConfig.js,"getDemo ( demoData )",25, 94, 2, 0
+repos/javascript/material-ui/docs/src/modules/utils/helpers.js,"titleize ( string )",11, 63, 4, 0
+repos/javascript/material-ui/docs/src/modules/utils/helpers.js,"pageToTitle ( page )",17, 50, 2, 0
+repos/javascript/material-ui/docs/src/modules/utils/helpers.js,"pageToTitleI18n ( page , t )",3, 84, 2, 0
+repos/javascript/material-ui/docs/src/modules/utils/helpers.js,"addTypeDeps ( deps )",18, 87, 6, 0
+repos/javascript/material-ui/docs/src/modules/utils/helpers.js,"getDependencies ( raw , options = { } )",40, 92, 6, 0
+repos/javascript/material-ui/docs/src/modules/utils/helpers.js,"getCookie ( name )",4, 71, 2, 0
+repos/javascript/material-ui/docs/src/modules/utils/helpers.js,"pathnameToLanguage ( pathname )",15, 95, 2, 0
+repos/javascript/material-ui/docs/src/modules/utils/find.js,"findPagesMarkdown ( directory = path . resolve ( __dirname , '../../../src/pages' )",39, 61, 2, 0
+repos/javascript/material-ui/docs/src/modules/utils/find.js,"findComponents ( directory , components = [ ] )",22, 54, 0, 0
+repos/javascript/material-ui/docs/src/modules/utils/find.js,"findPages ( options = { } , directory = path . resolve ( __dirname , '../../../../pages' )",57, 78, 2, 0
+repos/javascript/material-ui/docs/src/modules/utils/parseMarkdown.js,"getHeaders ( markdown )",27, 72, 2, 0
+repos/javascript/material-ui/docs/src/modules/utils/parseMarkdown.js,"getContents ( markdown )",6, 74, 4, 0
+repos/javascript/material-ui/docs/src/modules/utils/parseMarkdown.js,"getTitle ( markdown )",9, 50, 4, 0
+repos/javascript/material-ui/docs/src/modules/utils/parseMarkdown.js,"getDescription ( markdown )",9, 56, 4, 0
+repos/javascript/material-ui/docs/src/modules/styles/getPageContext.js,"getTheme ( uiTheme )",14, 77, 4, 0
+repos/javascript/material-ui/docs/src/modules/styles/getPageContext.js,"createPageContext ( )",13, 80, 4, 0
+repos/javascript/material-ui/docs/src/modules/styles/getPageContext.js,"updatePageContext ( uiTheme )",8, 45, 0, 0
+repos/javascript/material-ui/docs/src/modules/styles/getPageContext.js,"getPageContext ( )",14, 80, 2, 0
+repos/javascript/material-ui/docs/src/modules/components/prism.js,"setPrismTheme ( theme )",3, 39, 0, 0
+repos/javascript/material-ui/docs/src/modules/components/AppDrawer.js,"renderNavItems ( { pages , ... params } )",11, 72, 8, 0
+repos/javascript/material-ui/docs/src/modules/components/AppDrawer.js,"reduceChildRoutes ( { props , activePage , items , page , depth , t } )",31, 99, 6, 0
+repos/javascript/material-ui/docs/src/modules/components/AppDrawer.js,"AppDrawer ( props )",59, 99, 10, 0
+repos/javascript/material-ui/docs/src/modules/components/HomeSteps.js,"HomeSteps ( props )",98, 101, 10, 0
+repos/javascript/material-ui/docs/src/modules/components/Link.js,"NextComposed ( props )",9, 55, 4, 0
+repos/javascript/material-ui/docs/src/modules/components/Link.js,"Link ( props )",25, 80, 2, 0
+repos/javascript/material-ui/docs/src/modules/components/GoogleAnalytics.js,"handleClick ( event )",21, 76, 4, 0
+repos/javascript/material-ui/docs/src/modules/components/AppWrapper.js,"themeSideEffect ( reduxTheme )",4, 78, 2, 0
+repos/javascript/material-ui/docs/src/modules/components/AppWrapper.js,"listenInstalledStateChange ( )",12, 74, 8, 0
+repos/javascript/material-ui/docs/src/modules/components/AppWrapper.js,"forcePageReload ( registration )",39, 86, 2, 0
+repos/javascript/material-ui/docs/src/modules/components/AppWrapper.js,"registerServiceWorker ( )",12, 75, 4, 0
+repos/javascript/material-ui/docs/src/modules/components/MarkdownElement.js,"lex ( src )",8, 49, 0, 0
+repos/javascript/material-ui/docs/src/modules/components/MarkdownElement.js,"MarkdownElement ( props )",16, 80, 2, 0
+repos/javascript/material-ui/docs/src/modules/components/AppTableOfContents.js,"setRenderer ( itemsCollector , unique )",22, 80, 6, 0
+repos/javascript/material-ui/docs/src/modules/components/AppTableOfContents.js,"getItemsServer ( contents , itemsCollector )",4, 52, 0, 0
+repos/javascript/material-ui/docs/src/modules/components/AppTableOfContents.js,"getItemsClient ( items )",20, 53, 10, 0
+repos/javascript/material-ui/docs/src/modules/components/AppTableOfContents.js,"useThrottledOnScroll ( callback , delay )",18, 97, 2, 0
+repos/javascript/material-ui/docs/src/modules/components/AppTableOfContents.js,"AppTableOfContents ( props )",115, 89, 10, 0
+repos/javascript/material-ui/docs/src/modules/components/HomeQuickWord.js,"HomeQuickWord ( props )",26, 76, 2, 0
+repos/javascript/material-ui/docs/src/modules/components/Demo.js,"compress ( object )",6, 59, 2, 0
+repos/javascript/material-ui/docs/src/modules/components/Demo.js,"addHiddenInput ( form , name , value )",7, 49, 2, 0
+repos/javascript/material-ui/docs/src/modules/components/HomeBackers.js,"HomeBackers ( props )",13, 95, 10, 0
+repos/javascript/material-ui/docs/src/modules/components/PageTitle.js,"PageTitle ( props )",11, 56, 2, 0
+repos/javascript/material-ui/docs/src/modules/components/AppSearch.js,"loadDependencies ( )",16, 65, 4, 0
+repos/javascript/material-ui/docs/src/modules/components/AppSearch.js,"initDocsearch ( userLanguage )",35, 86, 6, 0
+repos/javascript/material-ui/docs/src/modules/components/EditPage.js,"EditPage ( props )",23, 88, 2, 0
+repos/javascript/material-ui/docs/src/modules/components/MarkdownDocsContents.js,"MarkdownDocsContents ( props )",37, 80, 2, 0
+repos/javascript/material-ui/docs/src/modules/components/Ad.js,"getAdblock ( classes , t )",18, 69, 4, 0
+repos/javascript/material-ui/docs/src/modules/components/MarkdownLinks.js,"handleEvent ( event , as )",32, 84, 4, 0
+repos/javascript/material-ui/docs/src/modules/components/MarkdownLinks.js,"handleClick ( event )",15, 67, 2, 0
+repos/javascript/material-ui/docs/src/modules/components/HomeFooter.js,"HomeFooter ( props )",79, 87, 18, 0
+repos/javascript/material-ui/docs/src/modules/components/AppTheme.js,"AppTheme ( props )",26, 71, 2, 0
+repos/javascript/material-ui/docs/src/modules/components/DemoLanguages.js,"renderedCodeVariant ( )",9, 65, 4, 0
+repos/javascript/material-ui/docs/src/modules/components/DemoLanguages.js,"DemoLanguages ( props )",56, 92, 2, 0
+repos/javascript/material-ui/docs/src/modules/components/AppContent.js,"AppContent ( props )",5, 76, 2, 0
+repos/javascript/material-ui/docs/src/modules/components/MarkdownDocs.js,"MarkdownDocs ( props )",128, 101, 16, 0
+repos/javascript/material-ui/docs/src/modules/components/Notifications.js,"getLastSeenNotification ( )",4, 50, 2, 0
+repos/javascript/material-ui/docs/src/modules/components/Notifications.js,"getMessages ( )",15, 96, 8, 0
+repos/javascript/material-ui/docs/src/modules/components/Head.js,"Head ( props )",35, 93, 8, 0
+repos/javascript/material-ui/docs/src/modules/redux/themeReducer.js,"themeReducer ( state = themeInitialState , action )",9, 59, 0, 0
+repos/javascript/material-ui/docs/src/modules/redux/initRedux.js,"create ( initialState )",27, 63, 4, 0
+repos/javascript/material-ui/docs/src/modules/redux/initRedux.js,"initRedux ( initialState )",14, 80, 2, 0
+repos/javascript/material-ui/docs/src/modules/redux/optionsReducer.js,"getPath ( obj , path )",7, 92, 2, 0
+repos/javascript/material-ui/docs/src/modules/redux/optionsReducer.js,"optionsReducer ( state = { } , action )",18, 52, 4, 0
+repos/javascript/material-ui/docs/src/pages/customization/overrides/InlineStyle.js,"InlineStyle ( )",3, 54, 2, 0
+repos/javascript/material-ui/docs/src/pages/customization/overrides/ClassNames.js,"ClassNames ( props )",9, 66, 4, 0
+repos/javascript/material-ui/docs/src/pages/customization/overrides/Component.js,"Component ( )",3, 45, 2, 0
+repos/javascript/material-ui/docs/src/pages/customization/overrides/ClassesState.js,"ClassesState ( props )",14, 69, 8, 0
+repos/javascript/material-ui/docs/src/pages/customization/overrides/ClassesShorthand.js,"ClassesShorthand ( )",3, 57, 2, 0
+repos/javascript/material-ui/docs/src/pages/customization/overrides/ClassesNesting.js,"ClassesNesting ( props )",14, 76, 8, 0
+repos/javascript/material-ui/docs/src/pages/customization/themes/ThemeNesting.js,"ThemeNesting ( )",10, 41, 6, 0
+repos/javascript/material-ui/docs/src/pages/customization/themes/Palette.js,"Palette ( )",8, 51, 6, 0
+repos/javascript/material-ui/docs/src/pages/customization/themes/TypographyTheme.js,"TypographyTheme ( props )",18, 62, 6, 0
+repos/javascript/material-ui/docs/src/pages/customization/themes/CustomStyles.js,"CustomStyles ( )",7, 34, 4, 0
+repos/javascript/material-ui/docs/src/pages/customization/themes/OverridesCss.js,"OverridesCss ( )",7, 37, 6, 0
+repos/javascript/material-ui/docs/src/pages/customization/themes/WithTheme.js,"WithTheme ( props )",25, 93, 6, 0
+repos/javascript/material-ui/docs/src/pages/customization/themes/ThemeNestingExtend.js,"ThemeNestingExtend ( )",23, 54, 8, 0
+repos/javascript/material-ui/docs/src/pages/customization/themes/OverridesProperties.js,"OverridesProperties ( )",7, 44, 6, 0
+repos/javascript/material-ui/docs/src/pages/customization/themes/DarkTheme.js,"DarkTheme ( )",7, 34, 4, 0
+repos/javascript/material-ui/docs/src/pages/customization/themes/FontSizeTheme.js,"FontSizeTheme ( )",7, 37, 6, 0
+repos/javascript/material-ui/docs/src/pages/layout/use-media-query/SimpleMediaQuery.js,"SimpleMediaQuery ( )",5, 65, 2, 0
+repos/javascript/material-ui/docs/src/pages/layout/use-media-query/ServerSide.js,"MyComponent ( )",5, 72, 2, 0
+repos/javascript/material-ui/docs/src/pages/layout/use-media-query/ServerSide.js,"ServerSide ( )",18, 96, 6, 0
+repos/javascript/material-ui/docs/src/pages/layout/use-media-query/ThemeHelper.js,"MyComponent ( )",6, 74, 2, 0
+repos/javascript/material-ui/docs/src/pages/layout/use-media-query/ThemeHelper.js,"ThemeHelper ( )",7, 40, 0, 0
+repos/javascript/material-ui/docs/src/pages/layout/use-media-query/UseWidth.js,"MyComponent ( )",12, 68, 4, 0
+repos/javascript/material-ui/docs/src/pages/layout/use-media-query/UseWidth.js,"UseWidth ( )",7, 37, 0, 0
+repos/javascript/material-ui/docs/src/pages/layout/hidden/GridIntegration.js,"GridIntegration ( props )",38, 58, 12, 0
+repos/javascript/material-ui/docs/src/pages/layout/hidden/BreakpointOnly.js,"BreakpointOnly ( props )",20, 80, 6, 0
+repos/javascript/material-ui/docs/src/pages/layout/hidden/BreakpointDown.js,"BreakpointDown ( props )",26, 80, 6, 0
+repos/javascript/material-ui/docs/src/pages/layout/hidden/BreakpointUp.js,"BreakpointUp ( props )",26, 80, 6, 0
+repos/javascript/material-ui/docs/src/pages/layout/breakpoints/MediaQuery.js,"MediaQuery ( props )",11, 69, 6, 0
+repos/javascript/material-ui/docs/src/pages/layout/breakpoints/WithWidth.js,"WithWidth ( props )",10, 57, 6, 0
+repos/javascript/material-ui/docs/src/pages/layout/grid/AutoGrid.js,"AutoGrid ( props )",30, 56, 10, 0
+repos/javascript/material-ui/docs/src/pages/layout/grid/FullWidthGrid.js,"FullWidthGrid ( props )",31, 62, 10, 0
+repos/javascript/material-ui/docs/src/pages/layout/grid/NestedGrid.js,"FormRow ( props )",17, 54, 8, 0
+repos/javascript/material-ui/docs/src/pages/layout/grid/NestedGrid.js,"NestedGrid ( props )",19, 50, 8, 0
+repos/javascript/material-ui/docs/src/pages/layout/grid/CSSGrid.js,"CSSGrid ( props )",55, 56, 10, 0
+repos/javascript/material-ui/docs/src/pages/layout/grid/AutoGridNoWrap.js,"AutoGridNoWrap ( props )",38, 54, 12, 0
+repos/javascript/material-ui/docs/src/pages/layout/grid/ComplexGrid.js,"ComplexGrid ( props )",33, 98, 14, 0
+repos/javascript/material-ui/docs/src/pages/layout/grid/CenteredGrid.js,"CenteredGrid ( props )",31, 57, 10, 0
+repos/javascript/material-ui/docs/src/pages/lab/layout/FixedContainer.js,"FixedContainer ( )",12, 90, 8, 0
+repos/javascript/material-ui/docs/src/pages/lab/layout/SimpleContainer.js,"SimpleContainer ( )",12, 90, 8, 0
+repos/javascript/material-ui/docs/src/pages/lab/slider/CustomValueReducerSlider.js,"roundToStep ( number )",3, 45, 4, 0
+repos/javascript/material-ui/docs/src/pages/lab/slider/CustomValueReducerSlider.js,"valueReducer ( rawValue , props , event )",24, 93, 8, 0
+repos/javascript/material-ui/docs/src/pages/lab/slider/DisabledSlider.js,"DisabledSlider ( props )",11, 65, 6, 0
+repos/javascript/material-ui/docs/src/pages/versions/LatestVersions.js,"LatestVersions ( props )",60, 74, 16, 0
+repos/javascript/material-ui/docs/src/pages/versions/StableVersions.js,"getBranches ( )",13, 100, 6, 0
+repos/javascript/material-ui/docs/src/pages/utils/popper/PopperPopupState.js,"PopperPopupState ( props )",24, 101, 18, 0
+repos/javascript/material-ui/docs/src/pages/utils/popper/MinimalPopper.js,"handleClick ( event )",3, 56, 4, 0
+repos/javascript/material-ui/docs/src/pages/utils/popper/MinimalPopper.js,"MinimalPopper ( )",21, 73, 6, 0
+repos/javascript/material-ui/docs/src/pages/utils/popper/SimplePopper.js,"handleClick ( event )",3, 56, 4, 0
+repos/javascript/material-ui/docs/src/pages/utils/popper/SimplePopper.js,"SimplePopper ( )",28, 97, 14, 0
+repos/javascript/material-ui/docs/src/pages/utils/no-ssr/SimpleNoSsr.js,"SimpleNoSsr ( props )",16, 82, 8, 0
+repos/javascript/material-ui/docs/src/pages/utils/popover/PopoverPopupState.js,"PopoverPopupState ( props )",28, 96, 12, 0
+repos/javascript/material-ui/docs/src/pages/utils/popover/SimplePopover.js,"handleClick ( event )",3, 38, 4, 0
+repos/javascript/material-ui/docs/src/pages/utils/popover/SimplePopover.js,"handleClose ( )",3, 27, 2, 0
+repos/javascript/material-ui/docs/src/pages/utils/popover/SimplePopover.js,"SimplePopover ( )",39, 92, 8, 0
+repos/javascript/material-ui/docs/src/pages/utils/modal/SimpleModal.js,"rand ( )",3, 46, 2, 0
+repos/javascript/material-ui/docs/src/pages/utils/modal/SimpleModal.js,"getModalStyle ( )",10, 49, 4, 0
+repos/javascript/material-ui/docs/src/pages/style/color/ColorDemo.js,"ColorDemo ( props )",59, 99, 8, 0
+repos/javascript/material-ui/docs/src/pages/style/color/Color.js,"getColorBlock ( classes , theme , colorName , colorValue , colorTitle )",33, 76, 0, 0
+repos/javascript/material-ui/docs/src/pages/style/color/Color.js,"getColorGroup ( options )",20, 99, 2, 0
+repos/javascript/material-ui/docs/src/pages/style/color/Color.js,"Color ( props )",24, 41, 6, 0
+repos/javascript/material-ui/docs/src/pages/style/links/ButtonLink.js,"ButtonLink ( )",13, 39, 0, 0
+repos/javascript/material-ui/docs/src/pages/style/links/Links.js,"Links ( props )",17, 68, 6, 0
+repos/javascript/material-ui/docs/src/pages/style/icons/Icons.js,"Icons ( props )",24, 82, 6, 0
+repos/javascript/material-ui/docs/src/pages/style/icons/SvgIcons.js,"HomeIcon ( props )",7, 55, 6, 0
+repos/javascript/material-ui/docs/src/pages/style/icons/SvgIcons.js,"SvgIcons ( props )",29, 88, 6, 0
+repos/javascript/material-ui/docs/src/pages/style/icons/SvgMaterialIcons.js,"SvgMaterialIcons ( props )",50, 63, 8, 0
+repos/javascript/material-ui/docs/src/pages/style/typography/Types.js,"Types ( props )",51, 101, 8, 0
+repos/javascript/material-ui/docs/src/pages/style/typography/TypographyTheme.js,"TypographyTheme ( props )",3, 101, 2, 0
+repos/javascript/material-ui/docs/src/pages/css-in-js/basics/AdaptingHook.js,"MyButton ( props )",5, 57, 2, 0
+repos/javascript/material-ui/docs/src/pages/css-in-js/basics/AdaptingHook.js,"AdaptingHook ( )",10, 45, 6, 0
+repos/javascript/material-ui/docs/src/pages/css-in-js/basics/StressTest.js,"handleBackgroundColorChange ( event )",3, 48, 2, 0
+repos/javascript/material-ui/docs/src/pages/css-in-js/basics/StressTest.js,"handleColorChange ( event )",3, 38, 2, 0
+repos/javascript/material-ui/docs/src/pages/css-in-js/basics/StressTest.js,"StressTest ( )",36, 89, 12, 0
+repos/javascript/material-ui/docs/src/pages/css-in-js/basics/Hook.js,"Hook ( )",4, 57, 2, 0
+repos/javascript/material-ui/docs/src/pages/css-in-js/basics/AdaptingHOC.js,"MyButtonRaw ( props )",4, 57, 2, 0
+repos/javascript/material-ui/docs/src/pages/css-in-js/basics/AdaptingHOC.js,"AdaptingHOC ( )",10, 45, 6, 0
+repos/javascript/material-ui/docs/src/pages/css-in-js/basics/StyledComponents.js,"StyledComponents ( )",3, 49, 2, 0
+repos/javascript/material-ui/docs/src/pages/css-in-js/basics/AdaptingStyledComponents.js,"AdaptingStyledComponents ( )",10, 45, 6, 0
+repos/javascript/material-ui/docs/src/pages/css-in-js/basics/HigherOrderComponent.js,"HigherOrderComponent ( props )",4, 75, 2, 0
+repos/javascript/material-ui/docs/src/pages/css-in-js/advanced/ThemeNesting.js,"DeepChild ( )",5, 66, 2, 0
+repos/javascript/material-ui/docs/src/pages/css-in-js/advanced/ThemeNesting.js,"Theme ( )",25, 76, 12, 0
+repos/javascript/material-ui/docs/src/pages/css-in-js/advanced/UseTheme.js,"DeepChild ( )",5, 56, 2, 0
+repos/javascript/material-ui/docs/src/pages/css-in-js/advanced/UseTheme.js,"UseTheme ( )",11, 24, 8, 0
+repos/javascript/material-ui/docs/src/pages/css-in-js/advanced/WithTheme.js,"DeepChildRaw ( props )",3, 62, 2, 0
+repos/javascript/material-ui/docs/src/pages/css-in-js/advanced/WithTheme.js,"WithTheme ( )",11, 24, 8, 0
+repos/javascript/material-ui/docs/src/pages/css-in-js/advanced/Theming.js,"DeepChild ( )",5, 60, 2, 0
+repos/javascript/material-ui/docs/src/pages/css-in-js/advanced/Theming.js,"Theming ( )",11, 72, 8, 0
+repos/javascript/material-ui/docs/src/pages/css-in-js/advanced/GlobalCss.js,"GlobalCss ( )",9, 55, 6, 0
+repos/javascript/material-ui/docs/src/pages/css-in-js/advanced/HybridGlobalCss.js,"HybridCss ( )",9, 49, 4, 0
+repos/javascript/material-ui/docs/src/pages/css-in-js/advanced/StringTemplates.js,"Child ( )",4, 69, 2, 0
+repos/javascript/material-ui/docs/src/pages/css-in-js/advanced/StringTemplates.js,"StringTemplates ( )",7, 31, 4, 0
+repos/javascript/material-ui/docs/src/pages/system/basics/JSS.js,"JSS ( )",7, 54, 4, 0
+repos/javascript/material-ui/docs/src/pages/system/basics/Demo.js,"Demo ( )",18, 81, 10, 0
+repos/javascript/material-ui/docs/src/pages/system/basics/Emotion.js,"Emotion ( )",9, 56, 6, 0
+repos/javascript/material-ui/docs/src/pages/system/basics/Variant.js,"Variant ( )",19, 56, 10, 0
+repos/javascript/material-ui/docs/src/pages/system/basics/CssProp.js,"CssProp ( )",11, 97, 8, 0
+repos/javascript/material-ui/docs/src/pages/system/basics/RealWorld.js,"RealWorld ( )",25, 100, 12, 0
+repos/javascript/material-ui/docs/src/pages/system/basics/StyledComponents.js,"StyledComponents ( )",9, 56, 6, 0
+repos/javascript/material-ui/docs/src/pages/system/shadows/Demo.js,"Height ( )",42, 50, 8, 0
+repos/javascript/material-ui/docs/src/pages/system/borders/BorderSubtractive.js,"BorderSubtractive ( )",21, 38, 4, 0
+repos/javascript/material-ui/docs/src/pages/system/borders/BorderRadius.js,"BorderRadius ( )",15, 46, 6, 0
+repos/javascript/material-ui/docs/src/pages/system/borders/BorderAdditive.js,"BorderAdditive ( )",21, 38, 4, 0
+repos/javascript/material-ui/docs/src/pages/system/borders/BorderColor.js,"BorderColor ( )",21, 47, 6, 0
+repos/javascript/material-ui/docs/src/pages/system/sizing/Height.js,"Height ( )",18, 89, 6, 0
+repos/javascript/material-ui/docs/src/pages/system/sizing/Values.js,"Values ( )",18, 60, 6, 0
+repos/javascript/material-ui/docs/src/pages/system/sizing/Width.js,"Width ( )",21, 59, 6, 0
+repos/javascript/material-ui/docs/src/pages/system/flexbox/Order.js,"Order ( )",17, 60, 6, 0
+repos/javascript/material-ui/docs/src/pages/system/flexbox/FlexGrow.js,"FlexGrow ( )",17, 60, 6, 0
+repos/javascript/material-ui/docs/src/pages/system/flexbox/AlignContent.js,"AlignContnet ( )",68, 45, 8, 0
+repos/javascript/material-ui/docs/src/pages/system/flexbox/JustifyContent.js,"JustifyContent ( )",39, 94, 6, 0
+repos/javascript/material-ui/docs/src/pages/system/flexbox/FlexDirection.js,"FlexDirection ( )",28, 94, 6, 0
+repos/javascript/material-ui/docs/src/pages/system/flexbox/Display.js,"Display ( )",9, 60, 6, 0
+repos/javascript/material-ui/docs/src/pages/system/flexbox/FlexShrink.js,"FlexShrink ( )",17, 60, 6, 0
+repos/javascript/material-ui/docs/src/pages/system/flexbox/AlignItems.js,"AlignItems ( )",60, 39, 8, 0
+repos/javascript/material-ui/docs/src/pages/system/flexbox/AlignSelf.js,"AlignSelf ( )",24, 60, 8, 0
+repos/javascript/material-ui/docs/src/pages/system/flexbox/FlexWrap.js,"FlexWrap ( )",54, 39, 8, 0
+repos/javascript/material-ui/docs/src/pages/system/spacing/Demo.js,"Color ( )",15, 45, 6, 0
+repos/javascript/material-ui/docs/src/pages/system/spacing/HorizontalCentering.js,"HorizontalCentering ( )",9, 55, 6, 0
+repos/javascript/material-ui/docs/src/pages/system/typography/FontFamily.js,"FontFamily ( )",12, 64, 6, 0
+repos/javascript/material-ui/docs/src/pages/system/typography/TextAlignment.js,"TextAlignment ( )",19, 97, 8, 0
+repos/javascript/material-ui/docs/src/pages/system/typography/FontWeight.js,"FontWeight ( )",18, 49, 6, 0
+repos/javascript/material-ui/docs/src/pages/system/typography/FontSize.js,"FontSize ( )",15, 41, 6, 0
+repos/javascript/material-ui/docs/src/pages/system/positions/ZIndex.js,"ZIndex ( )",32, 67, 6, 0
+repos/javascript/material-ui/docs/src/pages/system/display/Hiding.js,"Hiding ( )",12, 56, 6, 0
+repos/javascript/material-ui/docs/src/pages/system/display/Block.js,"Block ( )",12, 84, 6, 0
+repos/javascript/material-ui/docs/src/pages/system/display/Inline.js,"Inline ( )",12, 84, 6, 0
+repos/javascript/material-ui/docs/src/pages/system/display/Print.js,"Print ( )",12, 54, 6, 0
+repos/javascript/material-ui/docs/src/pages/system/palette/Color.js,"Color ( )",13, 55, 6, 0
+repos/javascript/material-ui/docs/src/pages/system/palette/BackgroundColor.js,"Background ( )",27, 80, 6, 0
+repos/javascript/material-ui/docs/src/pages/getting-started/usage/Usage.js,"Usage ( )",14, 94, 6, 0
+repos/javascript/material-ui/docs/src/pages/getting-started/page-layout-examples/PageLayoutExamples.js,"layouts ( t )",76, 126, 8, 0
+repos/javascript/material-ui/docs/src/pages/getting-started/page-layout-examples/PageLayoutExamples.js,"PageLayoutExamples ( props )",33, 87, 14, 0
+repos/javascript/material-ui/docs/src/pages/getting-started/page-layout-examples/sign-up/SignUp.js,"SignIn ( props )",89, 99, 16, 0
+repos/javascript/material-ui/docs/src/pages/getting-started/page-layout-examples/sticky-footer/StickyFooter.js,"StickyFooter ( props )",24, 87, 10, 0
+repos/javascript/material-ui/docs/src/pages/getting-started/page-layout-examples/checkout/Review.js,"Review ( props )",50, 77, 12, 0
+repos/javascript/material-ui/docs/src/pages/getting-started/page-layout-examples/checkout/AddressForm.js,"AddressForm ( )",89, 88, 10, 0
+repos/javascript/material-ui/docs/src/pages/getting-started/page-layout-examples/checkout/PaymentForm.js,"PaymentForm ( )",35, 81, 12, 0
+repos/javascript/material-ui/docs/src/pages/getting-started/page-layout-examples/checkout/Checkout.js,"getStepContent ( step )",12, 39, 6, 0
+repos/javascript/material-ui/docs/src/pages/getting-started/page-layout-examples/blog/Blog.js,"Blog ( props )",166, 100, 18, 0
+repos/javascript/material-ui/docs/src/pages/getting-started/page-layout-examples/blog/Markdown.js,"Markdown ( props )",3, 57, 2, 0
+repos/javascript/material-ui/docs/src/pages/getting-started/page-layout-examples/dashboard/SimpleLineChart.js,"SimpleLineChart ( )",16, 88, 8, 0
+repos/javascript/material-ui/docs/src/pages/getting-started/page-layout-examples/dashboard/SimpleTable.js,"createData ( name , calories , fat , carbs , protein )",4, 59, 0, 0
+repos/javascript/material-ui/docs/src/pages/getting-started/page-layout-examples/dashboard/SimpleTable.js,"SimpleTable ( props )",32, 64, 14, 0
+repos/javascript/material-ui/docs/src/pages/getting-started/page-layout-examples/sign-in-side/SignInSide.js,"SignInSide ( props )",69, 79, 6, 0
+repos/javascript/material-ui/docs/src/pages/getting-started/page-layout-examples/sign-in/SignIn.js,"SignIn ( props )",66, 68, 12, 0
+repos/javascript/material-ui/docs/src/pages/getting-started/page-layout-examples/album/Album.js,"Album ( props )",88, 101, 12, 0
+repos/javascript/material-ui/docs/src/pages/getting-started/page-layout-examples/pricing/Pricing.js,"Pricing ( props )",104, 98, 10, 0
+repos/javascript/material-ui/docs/src/pages/guides/interoperability/EmotionStyled.js,"EmotionStyled ( )",10, 45, 8, 0
+repos/javascript/material-ui/docs/src/pages/guides/interoperability/EmotionCSS.js,"EmotionCSS ( )",20, 72, 10, 0
+repos/javascript/material-ui/docs/src/pages/guides/interoperability/StyledComponentsPriority.js,"StyledComponentsPriority ( )",10, 55, 8, 0
+repos/javascript/material-ui/docs/src/pages/guides/interoperability/StyledComponentsTheme.js,"StyledComponentsTheme ( )",9, 55, 8, 0
+repos/javascript/material-ui/docs/src/pages/guides/interoperability/StyledComponentsDeep.js,"StyledComponentsDeep ( )",10, 74, 8, 0
+repos/javascript/material-ui/docs/src/pages/guides/interoperability/EmotionDeep.js,"EmotionDeep ( )",10, 64, 8, 0
+repos/javascript/material-ui/docs/src/pages/guides/interoperability/EmotionTheme.js,"EmotionTheme ( )",9, 45, 8, 0
+repos/javascript/material-ui/docs/src/pages/guides/interoperability/StyledComponents.js,"StyledComponents ( )",10, 55, 8, 0
+repos/javascript/material-ui/docs/src/pages/guides/interoperability/StyledComponentsPortal.js,"handleClick ( event )",3, 38, 4, 0
+repos/javascript/material-ui/docs/src/pages/guides/interoperability/StyledComponentsPortal.js,"handleClose ( )",3, 27, 2, 0
+repos/javascript/material-ui/docs/src/pages/guides/interoperability/StyledComponentsPortal.js,"StyledComponentsPortal ( )",44, 62, 8, 0
+repos/javascript/material-ui/docs/src/pages/guides/composition/ComponentProperty.js,"ListItemLinkShorthand ( props )",10, 49, 6, 0
+repos/javascript/material-ui/docs/src/pages/guides/composition/ComponentProperty.js,"ComponentProperty ( props )",29, 87, 14, 0
+repos/javascript/material-ui/docs/src/pages/guides/composition/Composition.js,"Composition ( )",12, 41, 8, 0
+repos/javascript/material-ui/docs/src/pages/guides/right-to-left/RtlOptOut.js,"RtlOptOut ( props )",10, 59, 6, 0
+repos/javascript/material-ui/docs/src/pages/guides/right-to-left/Direction.js,"Direction ( )",10, 49, 8, 0
+repos/javascript/material-ui/docs/src/pages/discover-more/languages/Languages.js,"Languages ( )",31, 78, 20, 0
+repos/javascript/material-ui/docs/src/pages/discover-more/team/Team.js,"Group ( props )",61, 81, 20, 0
+repos/javascript/material-ui/docs/src/pages/discover-more/team/Team.js,"Team ( props )",29, 85, 8, 0
+repos/javascript/material-ui/docs/src/pages/discover-more/showcase/Showcase.js,"stableSort ( array , cmp )",9, 64, 2, 0
+repos/javascript/material-ui/docs/src/pages/discover-more/showcase/Showcase.js,"sortNumeric ( a , b )",9, 38, 2, 0
+repos/javascript/material-ui/docs/src/pages/discover-more/showcase/Showcase.js,"sortFactory ( key )",11, 38, 2, 0
+repos/javascript/material-ui/docs/src/pages/discover-more/showcase/Showcase.js,"handleChangeSort ( event )",3, 45, 4, 0
+repos/javascript/material-ui/docs/src/pages/discover-more/showcase/Showcase.js,"Showcase ( props )",64, 99, 6, 0
+repos/javascript/material-ui/docs/src/pages/premium-themes/PremiumThemes.js,"themes ( t )",76, 101, 8, 0
+repos/javascript/material-ui/docs/src/pages/premium-themes/PremiumThemes.js,"PremiumThemes ( props )",60, 88, 16, 0
+repos/javascript/material-ui/docs/src/pages/premium-themes/instapaper/pages/instapaper/Profile.js,"ProfilePage ( )",144, 167, 16, 0
+repos/javascript/material-ui/docs/src/pages/premium-themes/tweeper/components/tweeper/Tweet.js,"Tweet ( )",97, 98, 16, 0
+repos/javascript/material-ui/docs/src/pages/premium-themes/tweeper/components/tweeper/TrackWho.js,"TrackWho ( )",23, 69, 12, 0
+repos/javascript/material-ui/docs/src/pages/premium-themes/tweeper/components/tweeper/AccordingWhom.js,"AccordingWhom ( )",23, 72, 4, 0
+repos/javascript/material-ui/docs/src/pages/premium-themes/tweeper/components/tweeper/PopularNow.js,"PopularNow ( )",29, 66, 4, 0
+repos/javascript/material-ui/docs/src/pages/premium-themes/tweeper/pages/tweeper/Profile.js,"Profile ( )",79, 169, 22, 0
+repos/javascript/material-ui/docs/src/pages/premium-themes/paperbase/Header.js,"Header ( props )",87, 98, 14, 0
+repos/javascript/material-ui/docs/src/pages/premium-themes/paperbase/Navigator.js,"Navigator ( props )",61, 90, 8, 0
+repos/javascript/material-ui/docs/src/pages/premium-themes/paperbase/Content.js,"Content ( props )",42, 93, 6, 0
+repos/javascript/material-ui/docs/src/pages/premium-themes/onepirate/Terms.js,"Terms ( )",14, 78, 8, 0
+repos/javascript/material-ui/docs/src/pages/premium-themes/onepirate/Home.js,"Index ( )",14, 29, 6, 0
+repos/javascript/material-ui/docs/src/pages/premium-themes/onepirate/Privacy.js,"Privacy ( )",14, 78, 8, 0
+repos/javascript/material-ui/docs/src/pages/premium-themes/onepirate/modules/withRoot.js,"WithRoot ( props )",10, 97, 8, 0
+repos/javascript/material-ui/docs/src/pages/premium-themes/onepirate/modules/withRoot.js,"withRoot ( Component )",14, 97, 8, 0
+repos/javascript/material-ui/docs/src/pages/premium-themes/onepirate/modules/form/RFTextField.js,"RFTextField ( props )",24, 57, 6, 0
+repos/javascript/material-ui/docs/src/pages/premium-themes/onepirate/modules/form/validation.js,"email ( value )",3, 67, 2, 0
+repos/javascript/material-ui/docs/src/pages/premium-themes/onepirate/modules/form/validation.js,"isDirty ( value )",3, 31, 2, 0
+repos/javascript/material-ui/docs/src/pages/premium-themes/onepirate/modules/form/validation.js,"required ( requiredFields , values )",9, 73, 6, 0
+repos/javascript/material-ui/docs/src/pages/premium-themes/onepirate/modules/form/FormFeedback.js,"FormFeedback ( props )",13, 88, 8, 0
+repos/javascript/material-ui/docs/src/pages/premium-themes/onepirate/modules/form/FormButton.js,"FormButton ( props )",4, 99, 2, 0
+repos/javascript/material-ui/docs/src/pages/premium-themes/onepirate/modules/form/defer.js,"defer ( Component )",17, 73, 6, 0
+repos/javascript/material-ui/docs/src/pages/premium-themes/onepirate/modules/components/Paper.js,"Paper ( props )",17, 71, 2, 0
+repos/javascript/material-ui/docs/src/pages/premium-themes/onepirate/modules/components/Snackbar.js,"Transition ( props )",3, 48, 2, 0
+repos/javascript/material-ui/docs/src/pages/premium-themes/onepirate/modules/components/Snackbar.js,"Snackbar ( props )",37, 63, 6, 0
+repos/javascript/material-ui/docs/src/pages/premium-themes/onepirate/modules/components/Typography.js,"Typography ( props )",12, 90, 8, 0
+repos/javascript/material-ui/docs/src/pages/premium-themes/onepirate/modules/components/AppBar.js,"AppBar ( props )",3, 67, 2, 0
+repos/javascript/material-ui/docs/src/pages/premium-themes/onepirate/modules/components/TextField.js,"TextField ( props )",49, 82, 6, 0
+repos/javascript/material-ui/docs/src/pages/premium-themes/onepirate/modules/components/Button.js,"Button ( props )",3, 35, 2, 0
+repos/javascript/material-ui/docs/src/pages/premium-themes/onepirate/modules/components/Toolbar.js,"Toolbar ( props )",3, 36, 2, 0
+repos/javascript/material-ui/docs/src/pages/premium-themes/onepirate/modules/components/LayoutBody.js,"round ( value )",3, 40, 2, 0
+repos/javascript/material-ui/docs/src/pages/premium-themes/onepirate/modules/components/LayoutBody.js,"LayoutBody ( props )",34, 62, 10, 0
+repos/javascript/material-ui/docs/src/pages/premium-themes/onepirate/modules/components/Markdown.js,"Markdown ( props )",3, 57, 2, 0
+repos/javascript/material-ui/docs/src/pages/premium-themes/onepirate/modules/views/ProductSmokingHero.js,"ProductSmokingHero ( props )",17, 96, 6, 0
+repos/javascript/material-ui/docs/src/pages/premium-themes/onepirate/modules/views/AppAppBar.js,"AppAppBar ( props )",42, 73, 14, 0
+repos/javascript/material-ui/docs/src/pages/premium-themes/onepirate/modules/views/AppForm.js,"AppForm ( props )",11, 60, 8, 0
+repos/javascript/material-ui/docs/src/pages/premium-themes/onepirate/modules/views/ProductHero.js,"ProductHero ( props )",30, 92, 10, 0
+repos/javascript/material-ui/docs/src/pages/premium-themes/onepirate/modules/views/ProductHowItWorks.js,"ProductHowItWorks ( props )",73, 95, 18, 0
+repos/javascript/material-ui/docs/src/pages/premium-themes/onepirate/modules/views/ProductHeroLayout.js,"ProductHeroLayout ( props )",26, 74, 8, 0
+repos/javascript/material-ui/docs/src/pages/premium-themes/onepirate/modules/views/ProductCategories.js,"ProductCategories ( props )",98, 104, 8, 0
+repos/javascript/material-ui/docs/src/pages/premium-themes/onepirate/modules/views/AppFooter.js,"AppFooter ( props )",83, 94, 18, 0
+repos/javascript/material-ui/docs/src/pages/premium-themes/onepirate/modules/views/ProductValues.js,"ProductValues ( props )",65, 93, 16, 0
+repos/javascript/material-ui/docs/src/pages/demos/paper/PaperSheet.js,"PaperSheet ( props )",16, 85, 10, 0
+repos/javascript/material-ui/docs/src/pages/demos/tabs/ScrollableTabsButtonAuto.js,"TabContainer ( props )",7, 60, 4, 0
+repos/javascript/material-ui/docs/src/pages/demos/tabs/ScrollableTabsButtonAuto.js,"handleChange ( event , newValue )",3, 43, 2, 0
+repos/javascript/material-ui/docs/src/pages/demos/tabs/ScrollableTabsButtonAuto.js,"ScrollableTabsButtonAuto ( )",38, 63, 6, 0
+repos/javascript/material-ui/docs/src/pages/demos/tabs/FullWidthTabs.js,"TabContainer ( { children , dir } )",7, 70, 4, 0
+repos/javascript/material-ui/docs/src/pages/demos/tabs/FullWidthTabs.js,"handleChange ( event , newValue )",3, 43, 2, 0
+repos/javascript/material-ui/docs/src/pages/demos/tabs/FullWidthTabs.js,"handleChangeIndex ( index )",3, 38, 2, 0
+repos/javascript/material-ui/docs/src/pages/demos/tabs/FullWidthTabs.js,"FullWidthTabs ( )",40, 70, 8, 0
+repos/javascript/material-ui/docs/src/pages/demos/tabs/IconLabelTabs.js,"handleChange ( event , newValue )",3, 43, 2, 0
+repos/javascript/material-ui/docs/src/pages/demos/tabs/IconLabelTabs.js,"IconLabelTabs ( )",24, 58, 8, 0
+repos/javascript/material-ui/docs/src/pages/demos/tabs/ScrollableTabsButtonForce.js,"TabContainer ( props )",7, 60, 4, 0
+repos/javascript/material-ui/docs/src/pages/demos/tabs/ScrollableTabsButtonForce.js,"handleChange ( event , newValue )",3, 43, 2, 0
+repos/javascript/material-ui/docs/src/pages/demos/tabs/ScrollableTabsButtonForce.js,"ScrollableTabsButtonForce ( )",38, 63, 6, 0
+repos/javascript/material-ui/docs/src/pages/demos/tabs/IconTabs.js,"handleChange ( event , newValue )",3, 43, 2, 0
+repos/javascript/material-ui/docs/src/pages/demos/tabs/IconTabs.js,"IconTabs ( )",24, 47, 2, 0
+repos/javascript/material-ui/docs/src/pages/demos/tabs/ScrollableTabsButtonPrevent.js,"TabContainer ( props )",7, 60, 4, 0
+repos/javascript/material-ui/docs/src/pages/demos/tabs/ScrollableTabsButtonPrevent.js,"handleChange ( event , newValue )",3, 43, 2, 0
+repos/javascript/material-ui/docs/src/pages/demos/tabs/ScrollableTabsButtonPrevent.js,"ScrollableTabsButtonPrevent ( )",31, 94, 8, 0
+repos/javascript/material-ui/docs/src/pages/demos/tabs/TabsWrappedLabel.js,"TabContainer ( props )",7, 60, 4, 0
+repos/javascript/material-ui/docs/src/pages/demos/tabs/TabsWrappedLabel.js,"handleChange ( event , newValue )",3, 43, 2, 0
+repos/javascript/material-ui/docs/src/pages/demos/tabs/TabsWrappedLabel.js,"TabsWrappedLabel ( )",23, 93, 10, 0
+repos/javascript/material-ui/docs/src/pages/demos/tabs/NavTabs.js,"TabContainer ( props )",7, 60, 4, 0
+repos/javascript/material-ui/docs/src/pages/demos/tabs/NavTabs.js,"LinkTab ( props )",3, 85, 2, 0
+repos/javascript/material-ui/docs/src/pages/demos/tabs/NavTabs.js,"handleChange ( event , newValue )",3, 43, 2, 0
+repos/javascript/material-ui/docs/src/pages/demos/tabs/NavTabs.js,"NavTabs ( )",25, 75, 10, 0
+repos/javascript/material-ui/docs/src/pages/demos/tabs/SimpleTabs.js,"TabContainer ( props )",7, 60, 4, 0
+repos/javascript/material-ui/docs/src/pages/demos/tabs/SimpleTabs.js,"handleChange ( event , newValue )",3, 43, 2, 0
+repos/javascript/material-ui/docs/src/pages/demos/tabs/SimpleTabs.js,"SimpleTabs ( )",23, 63, 6, 0
+repos/javascript/material-ui/docs/src/pages/demos/tabs/CenteredTabs.js,"handleChange ( event , newValue )",3, 43, 2, 0
+repos/javascript/material-ui/docs/src/pages/demos/tabs/CenteredTabs.js,"CenteredTabs ( )",24, 47, 2, 0
+repos/javascript/material-ui/docs/src/pages/demos/tabs/DisabledTabs.js,"handleChange ( event , newValue )",3, 43, 2, 0
+repos/javascript/material-ui/docs/src/pages/demos/tabs/DisabledTabs.js,"DisabledTabs ( )",17, 96, 6, 0
+repos/javascript/material-ui/docs/src/pages/demos/tabs/CustomizedTabs.js,"handleChange ( event , newValue )",3, 43, 2, 0
+repos/javascript/material-ui/docs/src/pages/demos/tabs/CustomizedTabs.js,"CustomizedTabs ( )",43, 99, 6, 0
+repos/javascript/material-ui/docs/src/pages/demos/bottom-navigation/LabelBottomNavigation.js,"handleChange ( event , newValue )",3, 43, 2, 0
+repos/javascript/material-ui/docs/src/pages/demos/bottom-navigation/LabelBottomNavigation.js,"LabelBottomNavigation ( )",17, 93, 6, 0
+repos/javascript/material-ui/docs/src/pages/demos/bottom-navigation/SimpleBottomNavigation.js,"SimpleBottomNavigation ( )",19, 75, 6, 0
+repos/javascript/material-ui/docs/src/pages/demos/tables/CustomizedTable.js,"createData ( name , calories , fat , carbs , protein )",4, 59, 0, 0
+repos/javascript/material-ui/docs/src/pages/demos/tables/CustomizedTable.js,"CustomizedTable ( props )",32, 78, 14, 0
+repos/javascript/material-ui/docs/src/pages/demos/tables/ReactVirtualizedTable.js,"createData ( dessert , calories , fat , carbs , protein )",4, 62, 0, 0
+repos/javascript/material-ui/docs/src/pages/demos/tables/ReactVirtualizedTable.js,"ReactVirtualizedTable ( )",43, 51, 4, 0
+repos/javascript/material-ui/docs/src/pages/demos/tables/EnhancedTable.js,"createData ( name , calories , fat , carbs , protein )",4, 63, 2, 0
+repos/javascript/material-ui/docs/src/pages/demos/tables/EnhancedTable.js,"desc ( a , b , orderBy )",9, 33, 2, 0
+repos/javascript/material-ui/docs/src/pages/demos/tables/EnhancedTable.js,"stableSort ( array , cmp )",9, 64, 2, 0
+repos/javascript/material-ui/docs/src/pages/demos/tables/EnhancedTable.js,"getSorting ( order , orderBy )",3, 92, 2, 0
+repos/javascript/material-ui/docs/src/pages/demos/tables/EnhancedTable.js,"EnhancedTableHead ( props )",39, 92, 2, 0
+repos/javascript/material-ui/docs/src/pages/demos/tables/EnhancedTable.js,"handleRequestSort ( event , property )",5, 61, 4, 0
+repos/javascript/material-ui/docs/src/pages/demos/tables/EnhancedTable.js,"handleSelectAllClick ( event )",8, 48, 6, 0
+repos/javascript/material-ui/docs/src/pages/demos/tables/EnhancedTable.js,"handleClick ( event , id )",19, 63, 6, 0
+repos/javascript/material-ui/docs/src/pages/demos/tables/EnhancedTable.js,"handleChangePage ( event , newPage )",3, 46, 2, 0
+repos/javascript/material-ui/docs/src/pages/demos/tables/EnhancedTable.js,"handleChangeRowsPerPage ( event )",3, 44, 2, 0
+repos/javascript/material-ui/docs/src/pages/demos/tables/EnhancedTable.js,"handleChangeDense ( event )",3, 38, 2, 0
+repos/javascript/material-ui/docs/src/pages/demos/tables/EnhancedTable.js,"EnhancedTable ( )",152, 91, 2, 0
+repos/javascript/material-ui/docs/src/pages/demos/tables/SpanningTable.js,"ccyFormat ( num )",3, 30, 2, 0
+repos/javascript/material-ui/docs/src/pages/demos/tables/SpanningTable.js,"priceRow ( qty , unit )",3, 31, 0, 0
+repos/javascript/material-ui/docs/src/pages/demos/tables/SpanningTable.js,"createRow ( id , desc , qty , unit )",4, 42, 0, 0
+repos/javascript/material-ui/docs/src/pages/demos/tables/SpanningTable.js,"subtotal ( items )",3, 73, 2, 0
+repos/javascript/material-ui/docs/src/pages/demos/tables/SpanningTable.js,"SpanningTable ( props )",41, 86, 12, 0
+repos/javascript/material-ui/docs/src/pages/demos/tables/DenseTable.js,"createData ( name , calories , fat , carbs , protein )",4, 59, 0, 0
+repos/javascript/material-ui/docs/src/pages/demos/tables/DenseTable.js,"DenseTable ( props )",34, 68, 16, 0
+repos/javascript/material-ui/docs/src/pages/demos/tables/SimpleTable.js,"createData ( name , calories , fat , carbs , protein )",4, 59, 0, 0
+repos/javascript/material-ui/docs/src/pages/demos/tables/SimpleTable.js,"SimpleTable ( props )",32, 66, 14, 0
+repos/javascript/material-ui/docs/src/pages/demos/tables/CustomPaginationActionsTable.js,"handleFirstPageButtonClick ( event )",3, 47, 2, 0
+repos/javascript/material-ui/docs/src/pages/demos/tables/CustomPaginationActionsTable.js,"handleBackButtonClick ( event )",3, 42, 2, 0
+repos/javascript/material-ui/docs/src/pages/demos/tables/CustomPaginationActionsTable.js,"handleNextButtonClick ( event )",3, 42, 2, 0
+repos/javascript/material-ui/docs/src/pages/demos/tables/CustomPaginationActionsTable.js,"handleLastPageButtonClick ( event )",3, 74, 4, 0
+repos/javascript/material-ui/docs/src/pages/demos/tables/CustomPaginationActionsTable.js,"TablePaginationActions ( props )",50, 100, 6, 0
+repos/javascript/material-ui/docs/src/pages/demos/tables/CustomPaginationActionsTable.js,"createData ( name , calories , fat )",4, 47, 2, 0
+repos/javascript/material-ui/docs/src/pages/demos/tables/CustomPaginationActionsTable.js,"handleChangePage ( event , newPage )",3, 46, 2, 0
+repos/javascript/material-ui/docs/src/pages/demos/tables/CustomPaginationActionsTable.js,"handleChangeRowsPerPage ( event )",3, 54, 4, 0
+repos/javascript/material-ui/docs/src/pages/demos/tables/CustomPaginationActionsTable.js,"CustomPaginationActionsTable ( )",74, 91, 2, 0
+repos/javascript/material-ui/docs/src/pages/demos/buttons/IconLabelButtons.js,"IconLabelButtons ( props )",28, 93, 8, 0
+repos/javascript/material-ui/docs/src/pages/demos/buttons/FloatingActionButtonZoom.hooks.js,"TabContainer ( props )",9, 70, 4, 0
+repos/javascript/material-ui/docs/src/pages/demos/buttons/FloatingActionButtonZoom.hooks.js,"handleChange ( event , newValue )",3, 43, 2, 0
+repos/javascript/material-ui/docs/src/pages/demos/buttons/FloatingActionButtonZoom.hooks.js,"handleChangeIndex ( index )",3, 38, 2, 0
+repos/javascript/material-ui/docs/src/pages/demos/buttons/FloatingActionButtonZoom.hooks.js,"FloatingActionButtonZoom ( )",78, 83, 12, 0
+repos/javascript/material-ui/docs/src/pages/demos/buttons/OutlinedButtons.js,"OutlinedButtons ( props )",37, 86, 6, 0
+repos/javascript/material-ui/docs/src/pages/demos/buttons/TextButtons.js,"TextButtons ( props )",32, 63, 6, 0
+repos/javascript/material-ui/docs/src/pages/demos/buttons/ButtonBases.js,"ButtonBases ( props )",38, 55, 10, 0
+repos/javascript/material-ui/docs/src/pages/demos/buttons/FloatingActionButtonZoom.js,"TabContainer ( props )",9, 70, 4, 0
+repos/javascript/material-ui/docs/src/pages/demos/buttons/FloatingActionButtons.js,"FloatingActionButtons ( props )",20, 75, 6, 0
+repos/javascript/material-ui/docs/src/pages/demos/buttons/ButtonSizes.js,"ButtonSizes ( props )",91, 94, 8, 0
+repos/javascript/material-ui/docs/src/pages/demos/buttons/ContainedButtons.js,"ContainedButtons ( props )",34, 89, 6, 0
+repos/javascript/material-ui/docs/src/pages/demos/buttons/IconButtons.js,"IconButtons ( props )",25, 96, 6, 0
+repos/javascript/material-ui/docs/src/pages/demos/buttons/CustomizedButtons.js,"CustomizedButtons ( props )",24, 101, 6, 0
+repos/javascript/material-ui/docs/src/pages/demos/autocomplete/IntegrationAutosuggest.js,"renderInputComponent ( inputProps )",19, 70, 2, 0
+repos/javascript/material-ui/docs/src/pages/demos/autocomplete/IntegrationAutosuggest.js,"renderSuggestion ( suggestion , { query , isHighlighted } )",16, 84, 10, 0
+repos/javascript/material-ui/docs/src/pages/demos/autocomplete/IntegrationAutosuggest.js,"getSuggestions ( value )",18, 92, 10, 0
+repos/javascript/material-ui/docs/src/pages/demos/autocomplete/IntegrationAutosuggest.js,"getSuggestionValue ( suggestion )",3, 42, 0, 0
+repos/javascript/material-ui/docs/src/pages/demos/autocomplete/IntegrationReactSelect.js,"NoOptionsMessage ( props )",11, 61, 6, 0
+repos/javascript/material-ui/docs/src/pages/demos/autocomplete/IntegrationReactSelect.js,"inputComponent ( { inputRef , ... props } )",3, 50, 0, 0
+repos/javascript/material-ui/docs/src/pages/demos/autocomplete/IntegrationReactSelect.js,"Control ( props )",17, 54, 10, 0
+repos/javascript/material-ui/docs/src/pages/demos/autocomplete/IntegrationReactSelect.js,"Option ( props )",15, 50, 8, 0
+repos/javascript/material-ui/docs/src/pages/demos/autocomplete/IntegrationReactSelect.js,"Placeholder ( props )",11, 56, 6, 0
+repos/javascript/material-ui/docs/src/pages/demos/autocomplete/IntegrationReactSelect.js,"SingleValue ( props )",7, 89, 4, 0
+repos/javascript/material-ui/docs/src/pages/demos/autocomplete/IntegrationReactSelect.js,"ValueContainer ( props )",3, 91, 2, 0
+repos/javascript/material-ui/docs/src/pages/demos/autocomplete/IntegrationReactSelect.js,"MultiValue ( props )",13, 66, 8, 0
+repos/javascript/material-ui/docs/src/pages/demos/autocomplete/IntegrationReactSelect.js,"Menu ( props )",7, 85, 4, 0
+repos/javascript/material-ui/docs/src/pages/demos/autocomplete/IntegrationReactSelect.js,"handleChangeSingle ( value )",3, 39, 2, 0
+repos/javascript/material-ui/docs/src/pages/demos/autocomplete/IntegrationReactSelect.js,"handleChangeMulti ( value )",3, 38, 2, 0
+repos/javascript/material-ui/docs/src/pages/demos/autocomplete/IntegrationReactSelect.js,"IntegrationReactSelect ( )",57, 56, 10, 0
+repos/javascript/material-ui/docs/src/pages/demos/autocomplete/IntegrationDownshift.js,"renderInput ( inputProps )",17, 61, 2, 0
+repos/javascript/material-ui/docs/src/pages/demos/autocomplete/IntegrationDownshift.js,"renderSuggestion ( { suggestion , index , itemProps , highlightedIndex , selectedItem } )",18, 94, 0, 0
+repos/javascript/material-ui/docs/src/pages/demos/autocomplete/IntegrationDownshift.js,"getSuggestions ( value )",18, 92, 10, 0
+repos/javascript/material-ui/docs/src/pages/demos/autocomplete/IntegrationDownshift.js,"handleKeyDown ( event )",5, 82, 4, 0
+repos/javascript/material-ui/docs/src/pages/demos/autocomplete/IntegrationDownshift.js,"handleInputChange ( event )",3, 39, 4, 0
+repos/javascript/material-ui/docs/src/pages/demos/autocomplete/IntegrationDownshift.js,"handleChange ( item )",8, 52, 6, 0
+repos/javascript/material-ui/docs/src/pages/demos/autocomplete/IntegrationDownshift.js,"DownshiftMultiple ( props )",83, 82, 4, 0
+repos/javascript/material-ui/docs/src/pages/demos/autocomplete/IntegrationDownshift.js,"IntegrationDownshift ( )",89, 94, 18, 0
+repos/javascript/material-ui/docs/src/pages/demos/progress/LinearIndeterminate.js,"LinearIndeterminate ( props )",10, 43, 6, 0
+repos/javascript/material-ui/docs/src/pages/demos/progress/CircularIndeterminate.js,"CircularIndeterminate ( props )",9, 74, 6, 0
+repos/javascript/material-ui/docs/src/pages/demos/progress/CircularStatic.js,"progress ( )",3, 86, 6, 0
+repos/javascript/material-ui/docs/src/pages/demos/progress/CircularStatic.js,"CircularStatic ( )",26, 91, 6, 0
+repos/javascript/material-ui/docs/src/pages/demos/progress/CircularIntegration.js,"handleButtonClick ( )",10, 41, 6, 0
+repos/javascript/material-ui/docs/src/pages/demos/progress/CircularIntegration.js,"CircularIntegration ( )",50, 87, 8, 0
+repos/javascript/material-ui/docs/src/pages/demos/progress/LinearBuffer.js,"tick ( )",3, 26, 6, 0
+repos/javascript/material-ui/docs/src/pages/demos/progress/LinearBuffer.js,"LinearBuffer ( )",39, 99, 6, 0
+repos/javascript/material-ui/docs/src/pages/demos/progress/LinearDeterminate.js,"progress ( )",9, 51, 8, 0
+repos/javascript/material-ui/docs/src/pages/demos/progress/LinearDeterminate.js,"LinearDeterminate ( )",29, 83, 6, 0
+repos/javascript/material-ui/docs/src/pages/demos/progress/LinearQuery.js,"LinearQuery ( props )",10, 59, 6, 0
+repos/javascript/material-ui/docs/src/pages/demos/progress/DelayingAppearance.js,"handleClickLoading ( )",3, 45, 4, 0
+repos/javascript/material-ui/docs/src/pages/demos/progress/DelayingAppearance.js,"handleClickQuery ( )",13, 32, 2, 0
+repos/javascript/material-ui/docs/src/pages/demos/progress/DelayingAppearance.js,"DelayingAppearance ( )",68, 71, 6, 0
+repos/javascript/material-ui/docs/src/pages/demos/progress/CircularUnderLoad.js,"CircularUnderLoad ( )",3, 45, 2, 0
+repos/javascript/material-ui/docs/src/pages/demos/progress/CircularDeterminate.js,"tick ( )",4, 78, 6, 0
+repos/javascript/material-ui/docs/src/pages/demos/progress/CircularDeterminate.js,"CircularDeterminate ( )",28, 95, 6, 0
+repos/javascript/material-ui/docs/src/pages/demos/progress/CustomizedProgress.js,"CustomizedProgress ( props )",30, 80, 6, 0
+repos/javascript/material-ui/docs/src/pages/demos/text-fields/CustomizedInputBase.js,"CustomizedInputBase ( props )",19, 90, 6, 0
+repos/javascript/material-ui/docs/src/pages/demos/text-fields/CustomizedInputs.js,"CustomizedInputs ( props )",83, 93, 8, 0
+repos/javascript/material-ui/docs/src/pages/demos/text-fields/InputAdornments.hooks.js,"InputAdornments ( )",85, 101, 14, 0
+repos/javascript/material-ui/docs/src/pages/demos/text-fields/FilledInputAdornments.hooks.js,"FilledInputAdornments ( )",90, 101, 14, 0
+repos/javascript/material-ui/docs/src/pages/demos/text-fields/TextFields.hooks.js,"TextFields ( )",203, 71, 4, 0
+repos/javascript/material-ui/docs/src/pages/demos/text-fields/InputWithIcon.js,"InputWithIcon ( props )",41, 92, 8, 0
+repos/javascript/material-ui/docs/src/pages/demos/text-fields/OutlinedInputAdornments.hooks.js,"OutlinedInputAdornments ( )",90, 101, 14, 0
+repos/javascript/material-ui/docs/src/pages/demos/text-fields/OutlinedTextFields.hooks.js,"OutlinedTextFields ( )",233, 71, 4, 0
+repos/javascript/material-ui/docs/src/pages/demos/text-fields/FilledTextFields.hooks.js,"FilledTextFields ( )",233, 71, 4, 0
+repos/javascript/material-ui/docs/src/pages/demos/text-fields/Inputs.js,"Inputs ( props )",37, 40, 4, 0
+repos/javascript/material-ui/docs/src/pages/demos/text-fields/FormattedInputs.js,"TextMaskCustom ( props )",15, 97, 6, 0
+repos/javascript/material-ui/docs/src/pages/demos/text-fields/FormattedInputs.js,"NumberFormatCustom ( props )",19, 50, 2, 0
+repos/javascript/material-ui/docs/src/pages/demos/text-fields/FormattedInputs.hooks.js,"TextMaskCustom ( props )",15, 97, 6, 0
+repos/javascript/material-ui/docs/src/pages/demos/text-fields/FormattedInputs.hooks.js,"NumberFormatCustom ( props )",19, 50, 2, 0
+repos/javascript/material-ui/docs/src/pages/demos/text-fields/FormattedInputs.hooks.js,"FormattedInputs ( )",35, 85, 8, 0
+repos/javascript/material-ui/docs/src/pages/demos/lists/AlignItemsList.js,"AlignItemsList ( props )",55, 91, 14, 0
+repos/javascript/material-ui/docs/src/pages/demos/lists/CheckboxListSecondary.js,"CheckboxListSecondary ( )",33, 100, 12, 0
+repos/javascript/material-ui/docs/src/pages/demos/lists/PinnedSubheaderList.js,"PinnedSubheaderList ( props )",20, 74, 8, 0
+repos/javascript/material-ui/docs/src/pages/demos/lists/SwitchListSecondary.js,"SwitchListSecondary ( )",43, 94, 10, 0
+repos/javascript/material-ui/docs/src/pages/demos/lists/SelectedListItem.js,"handleListItemClick ( event , index )",3, 47, 2, 0
+repos/javascript/material-ui/docs/src/pages/demos/lists/SelectedListItem.js,"SelectedListItem ( )",52, 63, 2, 0
+repos/javascript/material-ui/docs/src/pages/demos/lists/SimpleList.js,"ListItemLink ( props )",3, 55, 2, 0
+repos/javascript/material-ui/docs/src/pages/demos/lists/SimpleList.js,"SimpleList ( props )",30, 44, 10, 0
+repos/javascript/material-ui/docs/src/pages/demos/lists/NestedList.js,"handleClick ( )",3, 27, 2, 0
+repos/javascript/material-ui/docs/src/pages/demos/lists/NestedList.js,"NestedList ( )",46, 83, 6, 0
+repos/javascript/material-ui/docs/src/pages/demos/lists/FolderList.js,"FolderList ( props )",25, 70, 8, 0
+repos/javascript/material-ui/docs/src/pages/demos/lists/CheckboxList.js,"CheckboxList ( )",33, 91, 8, 0
+repos/javascript/material-ui/docs/src/pages/demos/lists/InsetList.js,"InsetList ( props )",16, 56, 8, 0
+repos/javascript/material-ui/docs/src/pages/demos/lists/InteractiveList.js,"generate ( element )",7, 34, 4, 0
+repos/javascript/material-ui/docs/src/pages/demos/lists/InteractiveList.js,"InteractiveList ( )",122, 69, 14, 0
+repos/javascript/material-ui/docs/src/pages/demos/chips/Chips.js,"handleDelete ( )",3, 73, 2, 0
+repos/javascript/material-ui/docs/src/pages/demos/chips/Chips.js,"handleClick ( )",3, 66, 2, 0
+repos/javascript/material-ui/docs/src/pages/demos/chips/Chips.js,"Chips ( props )",94, 76, 8, 0
+repos/javascript/material-ui/docs/src/pages/demos/chips/OutlinedChips.js,"handleDelete ( )",3, 73, 2, 0
+repos/javascript/material-ui/docs/src/pages/demos/chips/OutlinedChips.js,"handleClick ( )",3, 66, 2, 0
+repos/javascript/material-ui/docs/src/pages/demos/chips/OutlinedChips.js,"OutlinedChips ( props )",105, 78, 6, 0
+repos/javascript/material-ui/docs/src/pages/demos/chips/ChipsArray.js,"ChipsArray ( )",43, 88, 6, 0
+repos/javascript/material-ui/docs/src/pages/demos/snackbars/PositionedSnackbar.js,"handleClose ( )",3, 41, 4, 0
+repos/javascript/material-ui/docs/src/pages/demos/snackbars/PositionedSnackbar.js,"PositionedSnackbar ( )",40, 101, 6, 0
+repos/javascript/material-ui/docs/src/pages/demos/snackbars/DirectionSnackbar.js,"TransitionLeft ( props )",3, 48, 2, 0
+repos/javascript/material-ui/docs/src/pages/demos/snackbars/DirectionSnackbar.js,"TransitionUp ( props )",3, 46, 2, 0
+repos/javascript/material-ui/docs/src/pages/demos/snackbars/DirectionSnackbar.js,"TransitionRight ( props )",3, 49, 2, 0
+repos/javascript/material-ui/docs/src/pages/demos/snackbars/DirectionSnackbar.js,"TransitionDown ( props )",3, 48, 2, 0
+repos/javascript/material-ui/docs/src/pages/demos/snackbars/LongTextSnackbar.js,"LongTextSnackbar ( props )",29, 96, 6, 0
+repos/javascript/material-ui/docs/src/pages/demos/snackbars/FabIntegrationSnackbar.js,"handleClick ( )",3, 27, 2, 0
+repos/javascript/material-ui/docs/src/pages/demos/snackbars/FabIntegrationSnackbar.js,"handleClose ( )",3, 27, 2, 0
+repos/javascript/material-ui/docs/src/pages/demos/snackbars/FabIntegrationSnackbar.js,"FabIntegrationSnackbar ( )",58, 90, 2, 0
+repos/javascript/material-ui/docs/src/pages/demos/snackbars/FadeSnackbar.js,"handleClick ( )",3, 27, 2, 0
+repos/javascript/material-ui/docs/src/pages/demos/snackbars/FadeSnackbar.js,"handleClose ( )",3, 27, 2, 0
+repos/javascript/material-ui/docs/src/pages/demos/snackbars/FadeSnackbar.js,"FadeSnackbar ( )",26, 71, 6, 0
+repos/javascript/material-ui/docs/src/pages/demos/snackbars/IntegrationNotistack.js,"IntegrationNotistack ( )",7, 36, 4, 0
+repos/javascript/material-ui/docs/src/pages/demos/snackbars/CustomizedSnackbars.js,"MySnackbarContentWrapper ( props )",31, 71, 10, 0
+repos/javascript/material-ui/docs/src/pages/demos/snackbars/CustomizedSnackbars.js,"handleClick ( )",3, 27, 2, 0
+repos/javascript/material-ui/docs/src/pages/demos/snackbars/CustomizedSnackbars.js,"handleClose ( event , reason )",7, 40, 2, 0
+repos/javascript/material-ui/docs/src/pages/demos/snackbars/CustomizedSnackbars.js,"CustomizedSnackbars ( )",59, 64, 6, 0
+repos/javascript/material-ui/docs/src/pages/demos/snackbars/SimpleSnackbar.js,"handleClick ( )",3, 27, 2, 0
+repos/javascript/material-ui/docs/src/pages/demos/snackbars/SimpleSnackbar.js,"handleClose ( event , reason )",7, 40, 2, 0
+repos/javascript/material-ui/docs/src/pages/demos/snackbars/SimpleSnackbar.js,"SimpleSnackbar ( )",49, 83, 10, 0
+repos/javascript/material-ui/docs/src/pages/demos/cards/SimpleCard.js,"SimpleCard ( props )",32, 82, 8, 0
+repos/javascript/material-ui/docs/src/pages/demos/cards/MediaCard.js,"MediaCard ( props )",31, 98, 12, 0
+repos/javascript/material-ui/docs/src/pages/demos/cards/MediaControlCard.js,"MediaControlCard ( props )",34, 82, 12, 0
+repos/javascript/material-ui/docs/src/pages/demos/cards/ImgMediaCard.js,"ImgMediaCard ( props )",34, 98, 12, 0
+repos/javascript/material-ui/docs/src/pages/demos/cards/RecipeReviewCard.js,"handleExpandClick ( )",3, 33, 2, 0
+repos/javascript/material-ui/docs/src/pages/demos/cards/RecipeReviewCard.js,"RecipeReviewCard ( )",83, 101, 12, 0
+repos/javascript/material-ui/docs/src/pages/demos/selects/NativeSelects.js,"NativeSelects ( )",199, 97, 12, 0
+repos/javascript/material-ui/docs/src/pages/demos/selects/SimpleSelect.js,"handleChange ( event )",6, 47, 6, 0
+repos/javascript/material-ui/docs/src/pages/demos/selects/SimpleSelect.js,"SimpleSelect ( )",233, 96, 10, 0
+repos/javascript/material-ui/docs/src/pages/demos/selects/MultipleSelect.js,"getStyles ( name , personName , theme )",8, 46, 0, 0
+repos/javascript/material-ui/docs/src/pages/demos/selects/MultipleSelect.js,"handleChange ( event )",3, 39, 4, 0
+repos/javascript/material-ui/docs/src/pages/demos/selects/MultipleSelect.js,"handleChangeMultiple ( event )",10, 57, 4, 0
+repos/javascript/material-ui/docs/src/pages/demos/selects/MultipleSelect.js,"MultipleSelect ( )",128, 90, 12, 0
+repos/javascript/material-ui/docs/src/pages/demos/selects/DialogSelect.js,"handleClickOpen ( )",3, 40, 4, 0
+repos/javascript/material-ui/docs/src/pages/demos/selects/DialogSelect.js,"handleClose ( )",3, 41, 4, 0
+repos/javascript/material-ui/docs/src/pages/demos/selects/DialogSelect.js,"DialogSelect ( )",69, 97, 6, 0
+repos/javascript/material-ui/docs/src/pages/demos/selects/ControlledOpenSelect.js,"handleChange ( event )",3, 33, 2, 0
+repos/javascript/material-ui/docs/src/pages/demos/selects/ControlledOpenSelect.js,"handleClose ( )",3, 27, 2, 0
+repos/javascript/material-ui/docs/src/pages/demos/selects/ControlledOpenSelect.js,"handleOpen ( )",3, 26, 2, 0
+repos/javascript/material-ui/docs/src/pages/demos/selects/ControlledOpenSelect.js,"ControlledOpenSelect ( )",46, 75, 8, 0
+repos/javascript/material-ui/docs/src/pages/demos/expansion-panels/SimpleExpansionPanel.js,"SimpleExpansionPanel ( props )",46, 101, 12, 0
+repos/javascript/material-ui/docs/src/pages/demos/expansion-panels/ControlledExpansionPanels.js,"ControlledExpansionPanels ( )",80, 101, 12, 0
+repos/javascript/material-ui/docs/src/pages/demos/expansion-panels/DetailedExpansionPanel.js,"DetailedExpansionPanel ( props )",43, 98, 12, 0
+repos/javascript/material-ui/docs/src/pages/demos/dividers/InsetDividers.js,"InsetDividers ( props )",29, 70, 8, 0
+repos/javascript/material-ui/docs/src/pages/demos/dividers/MiddleDividers.js,"MiddleDividers ( props )",42, 100, 10, 0
+repos/javascript/material-ui/docs/src/pages/demos/dividers/ListDividers.js,"ListDividers ( props )",21, 52, 4, 0
+repos/javascript/material-ui/docs/src/pages/demos/dividers/SubheaderDividers.js,"SubheaderDividers ( props )",41, 70, 8, 0
+repos/javascript/material-ui/docs/src/pages/demos/app-bar/BottomAppBar.js,"BottomAppBar ( props )",42, 99, 14, 0
+repos/javascript/material-ui/docs/src/pages/demos/app-bar/SearchAppBar.js,"SearchAppBar ( props )",34, 85, 10, 0
+repos/javascript/material-ui/docs/src/pages/demos/app-bar/PrimarySearchAppBar.hooks.js,"handleProfileMenuOpen ( event )",3, 42, 2, 0
+repos/javascript/material-ui/docs/src/pages/demos/app-bar/PrimarySearchAppBar.hooks.js,"handleMobileMenuClose ( )",3, 37, 2, 0
+repos/javascript/material-ui/docs/src/pages/demos/app-bar/PrimarySearchAppBar.hooks.js,"handleMenuClose ( )",4, 31, 2, 0
+repos/javascript/material-ui/docs/src/pages/demos/app-bar/PrimarySearchAppBar.hooks.js,"handleMobileMenuOpen ( event )",3, 48, 4, 0
+repos/javascript/material-ui/docs/src/pages/demos/app-bar/PrimarySearchAppBar.hooks.js,"PrimarySearchAppBar ( )",132, 93, 12, 0
+repos/javascript/material-ui/docs/src/pages/demos/app-bar/ButtonAppBar.js,"ButtonAppBar ( props )",18, 101, 10, 0
+repos/javascript/material-ui/docs/src/pages/demos/app-bar/DenseAppBar.js,"DenseAppBar ( props )",17, 101, 10, 0
+repos/javascript/material-ui/docs/src/pages/demos/app-bar/SimpleAppBar.js,"SimpleAppBar ( props )",15, 52, 10, 0
+repos/javascript/material-ui/docs/src/pages/demos/app-bar/MenuAppBar.hooks.js,"handleChange ( event )",3, 35, 4, 0
+repos/javascript/material-ui/docs/src/pages/demos/app-bar/MenuAppBar.hooks.js,"handleMenu ( event )",3, 38, 4, 0
+repos/javascript/material-ui/docs/src/pages/demos/app-bar/MenuAppBar.hooks.js,"handleClose ( )",3, 27, 2, 0
+repos/javascript/material-ui/docs/src/pages/demos/app-bar/MenuAppBar.hooks.js,"MenuAppBar ( )",68, 101, 10, 0
+repos/javascript/material-ui/docs/src/pages/demos/selection-controls/RadioButtonsGroup.js,"handleChange ( event )",3, 34, 4, 0
+repos/javascript/material-ui/docs/src/pages/demos/selection-controls/RadioButtonsGroup.js,"RadioButtonsGroup ( )",70, 81, 10, 0
+repos/javascript/material-ui/docs/src/pages/demos/selection-controls/SwitchesGroup.js,"SwitchesGroup ( )",34, 100, 10, 0
+repos/javascript/material-ui/docs/src/pages/demos/selection-controls/Switches.js,"Switches ( )",26, 95, 6, 0
+repos/javascript/material-ui/docs/src/pages/demos/selection-controls/SwitchLabels.js,"SwitchLabels ( )",35, 99, 10, 0
+repos/javascript/material-ui/docs/src/pages/demos/selection-controls/CustomizedSwitches.js,"CustomizedSwitches ( )",49, 58, 4, 0
+repos/javascript/material-ui/docs/src/pages/demos/selection-controls/Checkboxes.js,"Checkboxes ( )",33, 97, 6, 0
+repos/javascript/material-ui/docs/src/pages/demos/selection-controls/RadioButtons.js,"handleChange ( event )",3, 42, 4, 0
+repos/javascript/material-ui/docs/src/pages/demos/selection-controls/RadioButtons.js,"RadioButtons ( )",56, 66, 8, 0
+repos/javascript/material-ui/docs/src/pages/demos/selection-controls/CheckboxesGroup.js,"CheckboxesGroup ( )",60, 98, 12, 0
+repos/javascript/material-ui/docs/src/pages/demos/selection-controls/FormControlLabelPosition.js,"handleChange ( event )",3, 34, 4, 0
+repos/javascript/material-ui/docs/src/pages/demos/selection-controls/FormControlLabelPosition.js,"FormControlLabelPosition ( )",39, 99, 6, 0
+repos/javascript/material-ui/docs/src/pages/demos/selection-controls/CheckboxLabels.js,"CheckboxLabels ( )",77, 101, 10, 0
+repos/javascript/material-ui/docs/src/pages/demos/grid-list/ImageGridList.js,"ImageGridList ( props )",15, 72, 6, 0
+repos/javascript/material-ui/docs/src/pages/demos/grid-list/AdvancedGridList.js,"AdvancedGridList ( props )",26, 98, 10, 0
+repos/javascript/material-ui/docs/src/pages/demos/grid-list/SingleLineGridList.js,"SingleLineGridList ( props )",27, 63, 18, 0
+repos/javascript/material-ui/docs/src/pages/demos/grid-list/TitlebarGridList.js,"TitlebarGridList ( props )",27, 75, 8, 0
+repos/javascript/material-ui/docs/src/pages/demos/menus/SimpleListMenu.hooks.js,"handleClickListItem ( event )",3, 40, 2, 0
+repos/javascript/material-ui/docs/src/pages/demos/menus/SimpleListMenu.hooks.js,"handleMenuItemClick ( event , index )",4, 47, 2, 0
+repos/javascript/material-ui/docs/src/pages/demos/menus/SimpleListMenu.hooks.js,"handleClose ( )",3, 27, 2, 0
+repos/javascript/material-ui/docs/src/pages/demos/menus/SimpleListMenu.hooks.js,"SimpleListMenu ( )",46, 95, 6, 0
+repos/javascript/material-ui/docs/src/pages/demos/menus/LongMenu.hooks.js,"handleClick ( event )",3, 38, 4, 0
+repos/javascript/material-ui/docs/src/pages/demos/menus/LongMenu.hooks.js,"handleClose ( )",3, 27, 2, 0
+repos/javascript/material-ui/docs/src/pages/demos/menus/LongMenu.hooks.js,"LongMenu ( )",43, 86, 10, 0
+repos/javascript/material-ui/docs/src/pages/demos/menus/MenuListComposition.hooks.js,"handleToggle ( )",3, 28, 2, 0
+repos/javascript/material-ui/docs/src/pages/demos/menus/MenuListComposition.hooks.js,"handleClose ( event )",7, 51, 4, 0
+repos/javascript/material-ui/docs/src/pages/demos/menus/MenuListComposition.hooks.js,"MenuListComposition ( )",58, 99, 14, 0
+repos/javascript/material-ui/docs/src/pages/demos/menus/ListItemComposition.js,"ListItemComposition ( props )",28, 92, 10, 0
+repos/javascript/material-ui/docs/src/pages/demos/menus/FadeMenu.hooks.js,"handleClick ( event )",3, 38, 4, 0
+repos/javascript/material-ui/docs/src/pages/demos/menus/FadeMenu.hooks.js,"handleClose ( )",3, 27, 2, 0
+repos/javascript/material-ui/docs/src/pages/demos/menus/FadeMenu.hooks.js,"FadeMenu ( )",31, 101, 6, 0
+repos/javascript/material-ui/docs/src/pages/demos/menus/MenuPopupState.js,"MenuPopupState ( )",17, 68, 10, 0
+repos/javascript/material-ui/docs/src/pages/demos/menus/SimpleMenu.hooks.js,"handleClick ( event )",3, 38, 4, 0
+repos/javascript/material-ui/docs/src/pages/demos/menus/SimpleMenu.hooks.js,"handleClose ( )",3, 27, 2, 0
+repos/javascript/material-ui/docs/src/pages/demos/menus/SimpleMenu.hooks.js,"SimpleMenu ( )",28, 97, 6, 0
+repos/javascript/material-ui/docs/src/pages/demos/menus/TypographyMenu.js,"TypographyMenu ( props )",30, 85, 10, 0
+repos/javascript/material-ui/docs/src/pages/demos/dialogs/ConfirmationDialog.js,"handleEntering ( )",3, 35, 4, 0
+repos/javascript/material-ui/docs/src/pages/demos/dialogs/ConfirmationDialog.js,"handleCancel ( )",3, 32, 4, 0
+repos/javascript/material-ui/docs/src/pages/demos/dialogs/ConfirmationDialog.js,"handleOk ( )",3, 26, 4, 0
+repos/javascript/material-ui/docs/src/pages/demos/dialogs/ConfirmationDialog.js,"handleChange ( event , newValue )",3, 43, 2, 0
+repos/javascript/material-ui/docs/src/pages/demos/dialogs/ConfirmationDialog.js,"ConfirmationDialogRaw ( props )",60, 96, 12, 0
+repos/javascript/material-ui/docs/src/pages/demos/dialogs/ConfirmationDialog.js,"handleClickListItem ( )",3, 35, 2, 0
+repos/javascript/material-ui/docs/src/pages/demos/dialogs/ConfirmationDialog.js,"handleClose ( newValue )",4, 35, 2, 0
+repos/javascript/material-ui/docs/src/pages/demos/dialogs/ConfirmationDialog.js,"ConfirmationDialog ( )",45, 86, 10, 0
+repos/javascript/material-ui/docs/src/pages/demos/dialogs/FormDialog.js,"handleClickOpen ( )",3, 31, 2, 0
+repos/javascript/material-ui/docs/src/pages/demos/dialogs/FormDialog.js,"handleClose ( )",3, 27, 2, 0
+repos/javascript/material-ui/docs/src/pages/demos/dialogs/FormDialog.js,"FormDialog ( )",44, 101, 12, 0
+repos/javascript/material-ui/docs/src/pages/demos/dialogs/FullScreenDialog.js,"Transition ( props )",3, 46, 2, 0
+repos/javascript/material-ui/docs/src/pages/demos/dialogs/FullScreenDialog.js,"handleClickOpen ( )",3, 31, 2, 0
+repos/javascript/material-ui/docs/src/pages/demos/dialogs/FullScreenDialog.js,"handleClose ( )",3, 27, 2, 0
+repos/javascript/material-ui/docs/src/pages/demos/dialogs/FullScreenDialog.js,"FullScreenDialog ( )",44, 95, 12, 0
+repos/javascript/material-ui/docs/src/pages/demos/dialogs/DraggableDialog.js,"PaperComponent ( props )",7, 33, 0, 0
+repos/javascript/material-ui/docs/src/pages/demos/dialogs/AlertDialogSlide.js,"Transition ( props )",3, 46, 2, 0
+repos/javascript/material-ui/docs/src/pages/demos/dialogs/AlertDialogSlide.js,"handleClickOpen ( )",3, 31, 2, 0
+repos/javascript/material-ui/docs/src/pages/demos/dialogs/AlertDialogSlide.js,"handleClose ( )",3, 27, 2, 0
+repos/javascript/material-ui/docs/src/pages/demos/dialogs/AlertDialogSlide.js,"AlertDialogSlide ( )",43, 100, 8, 0
+repos/javascript/material-ui/docs/src/pages/demos/dialogs/SimpleDialog.js,"handleClose ( )",3, 28, 4, 0
+repos/javascript/material-ui/docs/src/pages/demos/dialogs/SimpleDialog.js,"handleListItemClick ( value )",3, 40, 2, 0
+repos/javascript/material-ui/docs/src/pages/demos/dialogs/SimpleDialog.js,"SimpleDialog ( props )",38, 84, 4, 0
+repos/javascript/material-ui/docs/src/pages/demos/dialogs/SimpleDialog.js,"handleClickOpen ( )",3, 31, 2, 0
+repos/javascript/material-ui/docs/src/pages/demos/dialogs/SimpleDialog.js,"SimpleDialogDemo ( )",24, 87, 6, 0
+repos/javascript/material-ui/docs/src/pages/demos/dialogs/AlertDialog.js,"handleClickOpen ( )",3, 31, 2, 0
+repos/javascript/material-ui/docs/src/pages/demos/dialogs/AlertDialog.js,"handleClose ( )",3, 27, 2, 0
+repos/javascript/material-ui/docs/src/pages/demos/dialogs/AlertDialog.js,"AlertDialog ( )",41, 99, 12, 0
+repos/javascript/material-ui/docs/src/pages/demos/dialogs/ScrollDialog.js,"handleClose ( )",3, 27, 2, 0
+repos/javascript/material-ui/docs/src/pages/demos/dialogs/ScrollDialog.js,"ScrollDialog ( )",48, 73, 16, 0
+repos/javascript/material-ui/docs/src/pages/demos/dialogs/ResponsiveDialog.js,"handleClickOpen ( )",3, 31, 2, 0
+repos/javascript/material-ui/docs/src/pages/demos/dialogs/ResponsiveDialog.js,"handleClose ( )",3, 27, 2, 0
+repos/javascript/material-ui/docs/src/pages/demos/dialogs/ResponsiveDialog.js,"ResponsiveDialog ( props )",42, 99, 8, 0
+repos/javascript/material-ui/docs/src/pages/demos/pickers/DatePickers.js,"DatePickers ( props )",18, 52, 4, 0
+repos/javascript/material-ui/docs/src/pages/demos/pickers/TimePickers.js,"TimePickers ( props )",21, 52, 4, 0
+repos/javascript/material-ui/docs/src/pages/demos/pickers/DateAndTimePickers.js,"DateAndTimePickers ( props )",18, 52, 4, 0
+repos/javascript/material-ui/docs/src/pages/demos/avatars/ImageAvatars.js,"ImageAvatars ( props )",9, 98, 6, 0
+repos/javascript/material-ui/docs/src/pages/demos/avatars/LetterAvatars.js,"LetterAvatars ( props )",10, 59, 6, 0
+repos/javascript/material-ui/docs/src/pages/demos/avatars/IconAvatars.js,"IconAvatars ( props )",16, 58, 4, 0
+repos/javascript/material-ui/docs/src/pages/demos/steppers/HorizontalNonLinearStepper.js,"getSteps ( )",3, 77, 2, 0
+repos/javascript/material-ui/docs/src/pages/demos/steppers/HorizontalNonLinearStepper.js,"getStepContent ( step )",12, 61, 6, 0
+repos/javascript/material-ui/docs/src/pages/demos/steppers/HorizontalNonLinearStepper.js,"totalSteps ( )",3, 26, 2, 0
+repos/javascript/material-ui/docs/src/pages/demos/steppers/HorizontalNonLinearStepper.js,"completedSteps ( )",3, 42, 4, 0
+repos/javascript/material-ui/docs/src/pages/demos/steppers/HorizontalNonLinearStepper.js,"isLastStep ( )",3, 44, 4, 0
+repos/javascript/material-ui/docs/src/pages/demos/steppers/HorizontalNonLinearStepper.js,"allStepsCompleted ( )",3, 46, 4, 0
+repos/javascript/material-ui/docs/src/pages/demos/steppers/HorizontalNonLinearStepper.js,"handleNext ( )",12, 71, 6, 0
+repos/javascript/material-ui/docs/src/pages/demos/steppers/HorizontalNonLinearStepper.js,"handleBack ( )",3, 57, 4, 0
+repos/javascript/material-ui/docs/src/pages/demos/steppers/HorizontalNonLinearStepper.js,"handleComplete ( )",6, 37, 4, 0
+repos/javascript/material-ui/docs/src/pages/demos/steppers/HorizontalNonLinearStepper.js,"handleReset ( )",4, 27, 2, 0
+repos/javascript/material-ui/docs/src/pages/demos/steppers/HorizontalNonLinearStepper.js,"HorizontalNonLinearStepper ( )",106, 99, 12, 0
+repos/javascript/material-ui/docs/src/pages/demos/steppers/HorizontalLinearStepper.js,"getSteps ( )",3, 77, 2, 0
+repos/javascript/material-ui/docs/src/pages/demos/steppers/HorizontalLinearStepper.js,"getStepContent ( step )",12, 53, 6, 0
+repos/javascript/material-ui/docs/src/pages/demos/steppers/HorizontalLinearStepper.js,"isStepOptional ( step )",3, 34, 2, 0
+repos/javascript/material-ui/docs/src/pages/demos/steppers/HorizontalLinearStepper.js,"isStepSkipped ( step )",3, 33, 2, 0
+repos/javascript/material-ui/docs/src/pages/demos/steppers/HorizontalLinearStepper.js,"handleNext ( )",10, 57, 4, 0
+repos/javascript/material-ui/docs/src/pages/demos/steppers/HorizontalLinearStepper.js,"handleBack ( )",3, 57, 4, 0
+repos/javascript/material-ui/docs/src/pages/demos/steppers/HorizontalLinearStepper.js,"handleSkip ( )",14, 84, 6, 0
+repos/javascript/material-ui/docs/src/pages/demos/steppers/HorizontalLinearStepper.js,"handleReset ( )",3, 27, 2, 0
+repos/javascript/material-ui/docs/src/pages/demos/steppers/HorizontalLinearStepper.js,"HorizontalLinearStepper ( )",109, 99, 12, 0
+repos/javascript/material-ui/docs/src/pages/demos/steppers/DotsMobileStepper.js,"handleNext ( )",3, 57, 4, 0
+repos/javascript/material-ui/docs/src/pages/demos/steppers/DotsMobileStepper.js,"handleBack ( )",3, 57, 4, 0
+repos/javascript/material-ui/docs/src/pages/demos/steppers/DotsMobileStepper.js,"DotsMobileStepper ( )",35, 87, 10, 0
+repos/javascript/material-ui/docs/src/pages/demos/steppers/HorizontalNonLinearStepperWithError.js,"getSteps ( )",3, 77, 2, 0
+repos/javascript/material-ui/docs/src/pages/demos/steppers/HorizontalNonLinearStepperWithError.js,"getStepContent ( step )",12, 53, 6, 0
+repos/javascript/material-ui/docs/src/pages/demos/steppers/HorizontalNonLinearStepperWithError.js,"isStepOptional ( step )",3, 34, 2, 0
+repos/javascript/material-ui/docs/src/pages/demos/steppers/HorizontalNonLinearStepperWithError.js,"isStepFailed ( step )",3, 32, 2, 0
+repos/javascript/material-ui/docs/src/pages/demos/steppers/HorizontalNonLinearStepperWithError.js,"isStepSkipped ( step )",3, 33, 2, 0
+repos/javascript/material-ui/docs/src/pages/demos/steppers/HorizontalNonLinearStepperWithError.js,"handleNext ( )",10, 57, 4, 0
+repos/javascript/material-ui/docs/src/pages/demos/steppers/HorizontalNonLinearStepperWithError.js,"handleBack ( )",3, 57, 4, 0
+repos/javascript/material-ui/docs/src/pages/demos/steppers/HorizontalNonLinearStepperWithError.js,"handleSkip ( )",14, 84, 6, 0
+repos/javascript/material-ui/docs/src/pages/demos/steppers/HorizontalNonLinearStepperWithError.js,"handleReset ( )",3, 27, 2, 0
+repos/javascript/material-ui/docs/src/pages/demos/steppers/HorizontalNonLinearStepperWithError.js,"HorizontalNonLinearStepperWithError ( )",120, 99, 12, 0
+repos/javascript/material-ui/docs/src/pages/demos/steppers/CustomizedStepper.js,"getSteps ( )",3, 77, 2, 0
+repos/javascript/material-ui/docs/src/pages/demos/steppers/CustomizedStepper.js,"getStepContent ( step )",12, 53, 6, 0
+repos/javascript/material-ui/docs/src/pages/demos/steppers/CustomizedStepper.js,"handleNext ( )",3, 57, 4, 0
+repos/javascript/material-ui/docs/src/pages/demos/steppers/CustomizedStepper.js,"handleBack ( )",3, 57, 4, 0
+repos/javascript/material-ui/docs/src/pages/demos/steppers/CustomizedStepper.js,"handleReset ( )",3, 27, 2, 0
+repos/javascript/material-ui/docs/src/pages/demos/steppers/CustomizedStepper.js,"CustomizedStepper ( )",76, 99, 12, 0
+repos/javascript/material-ui/docs/src/pages/demos/steppers/SwipeableTextMobileStepper.js,"handleNext ( )",3, 57, 4, 0
+repos/javascript/material-ui/docs/src/pages/demos/steppers/SwipeableTextMobileStepper.js,"handleBack ( )",3, 57, 4, 0
+repos/javascript/material-ui/docs/src/pages/demos/steppers/SwipeableTextMobileStepper.js,"handleStepChange ( step )",3, 36, 2, 0
+repos/javascript/material-ui/docs/src/pages/demos/steppers/SwipeableTextMobileStepper.js,"SwipeableTextMobileStepper ( )",57, 92, 10, 0
+repos/javascript/material-ui/docs/src/pages/demos/steppers/HorizontalNonLinearAlternativeLabelStepper.js,"getSteps ( )",3, 77, 2, 0
+repos/javascript/material-ui/docs/src/pages/demos/steppers/HorizontalNonLinearAlternativeLabelStepper.js,"getStepContent ( step )",12, 61, 6, 0
+repos/javascript/material-ui/docs/src/pages/demos/steppers/HorizontalNonLinearAlternativeLabelStepper.js,"totalSteps ( )",3, 30, 4, 0
+repos/javascript/material-ui/docs/src/pages/demos/steppers/HorizontalNonLinearAlternativeLabelStepper.js,"isStepOptional ( step )",3, 34, 2, 0
+repos/javascript/material-ui/docs/src/pages/demos/steppers/HorizontalNonLinearAlternativeLabelStepper.js,"handleSkip ( )",14, 84, 6, 0
+repos/javascript/material-ui/docs/src/pages/demos/steppers/HorizontalNonLinearAlternativeLabelStepper.js,"skippedSteps ( )",3, 28, 2, 0
+repos/javascript/material-ui/docs/src/pages/demos/steppers/HorizontalNonLinearAlternativeLabelStepper.js,"completedSteps ( )",3, 30, 2, 0
+repos/javascript/material-ui/docs/src/pages/demos/steppers/HorizontalNonLinearAlternativeLabelStepper.js,"allStepsCompleted ( )",3, 63, 4, 0
+repos/javascript/material-ui/docs/src/pages/demos/steppers/HorizontalNonLinearAlternativeLabelStepper.js,"isLastStep ( )",3, 44, 4, 0
+repos/javascript/material-ui/docs/src/pages/demos/steppers/HorizontalNonLinearAlternativeLabelStepper.js,"handleNext ( )",12, 71, 6, 0
+repos/javascript/material-ui/docs/src/pages/demos/steppers/HorizontalNonLinearAlternativeLabelStepper.js,"handleBack ( )",3, 57, 4, 0
+repos/javascript/material-ui/docs/src/pages/demos/steppers/HorizontalNonLinearAlternativeLabelStepper.js,"handleComplete ( )",14, 83, 5, 0
+repos/javascript/material-ui/docs/src/pages/demos/steppers/HorizontalNonLinearAlternativeLabelStepper.js,"handleReset ( )",5, 29, 4, 0
+repos/javascript/material-ui/docs/src/pages/demos/steppers/HorizontalNonLinearAlternativeLabelStepper.js,"isStepSkipped ( step )",3, 33, 2, 0
+repos/javascript/material-ui/docs/src/pages/demos/steppers/HorizontalNonLinearAlternativeLabelStepper.js,"isStepComplete ( step )",3, 34, 2, 0
+repos/javascript/material-ui/docs/src/pages/demos/steppers/HorizontalNonLinearAlternativeLabelStepper.js,"HorizontalNonLinearAlternativeLabelStepper ( )",171, 99, 12, 0
+repos/javascript/material-ui/docs/src/pages/demos/steppers/VerticalLinearStepper.js,"getSteps ( )",3, 77, 2, 0
+repos/javascript/material-ui/docs/src/pages/demos/steppers/VerticalLinearStepper.js,"getStepContent ( step )",17, 92, 6, 0
+repos/javascript/material-ui/docs/src/pages/demos/steppers/VerticalLinearStepper.js,"handleNext ( )",3, 57, 4, 0
+repos/javascript/material-ui/docs/src/pages/demos/steppers/VerticalLinearStepper.js,"handleBack ( )",3, 57, 4, 0
+repos/javascript/material-ui/docs/src/pages/demos/steppers/VerticalLinearStepper.js,"handleReset ( )",3, 27, 2, 0
+repos/javascript/material-ui/docs/src/pages/demos/steppers/VerticalLinearStepper.js,"VerticalLinearStepper ( )",59, 78, 10, 0
+repos/javascript/material-ui/docs/src/pages/demos/steppers/HorizontalLinearAlternativeLabelStepper.js,"getSteps ( )",3, 92, 2, 0
+repos/javascript/material-ui/docs/src/pages/demos/steppers/HorizontalLinearAlternativeLabelStepper.js,"getStepContent ( stepIndex )",12, 53, 6, 0
+repos/javascript/material-ui/docs/src/pages/demos/steppers/HorizontalLinearAlternativeLabelStepper.js,"handleNext ( )",3, 57, 4, 0
+repos/javascript/material-ui/docs/src/pages/demos/steppers/HorizontalLinearAlternativeLabelStepper.js,"handleBack ( )",3, 57, 4, 0
+repos/javascript/material-ui/docs/src/pages/demos/steppers/HorizontalLinearAlternativeLabelStepper.js,"handleReset ( )",3, 27, 2, 0
+repos/javascript/material-ui/docs/src/pages/demos/steppers/HorizontalLinearAlternativeLabelStepper.js,"HorizontalLabelPositionBelowStepper ( )",53, 99, 12, 0
+repos/javascript/material-ui/docs/src/pages/demos/steppers/TextMobileStepper.js,"handleNext ( )",3, 57, 4, 0
+repos/javascript/material-ui/docs/src/pages/demos/steppers/TextMobileStepper.js,"handleBack ( )",3, 57, 4, 0
+repos/javascript/material-ui/docs/src/pages/demos/steppers/TextMobileStepper.js,"TextMobileStepper ( )",44, 92, 10, 0
+repos/javascript/material-ui/docs/src/pages/demos/steppers/ProgressMobileStepper.js,"handleNext ( )",3, 57, 4, 0
+repos/javascript/material-ui/docs/src/pages/demos/steppers/ProgressMobileStepper.js,"handleBack ( )",3, 57, 4, 0
+repos/javascript/material-ui/docs/src/pages/demos/steppers/ProgressMobileStepper.js,"ProgressMobileStepper ( )",35, 87, 10, 0
+repos/javascript/material-ui/docs/src/pages/demos/drawers/TemporaryDrawer.js,"TemporaryDrawer ( )",92, 91, 6, 0
+repos/javascript/material-ui/docs/src/pages/demos/drawers/MiniDrawer.js,"handleDrawerOpen ( )",3, 32, 2, 0
+repos/javascript/material-ui/docs/src/pages/demos/drawers/MiniDrawer.js,"handleDrawerClose ( )",3, 33, 2, 0
+repos/javascript/material-ui/docs/src/pages/demos/drawers/MiniDrawer.js,"MiniDrawer ( )",106, 101, 10, 0
+repos/javascript/material-ui/docs/src/pages/demos/drawers/PermanentDrawerRight.js,"PermanentDrawerRight ( props )",70, 101, 10, 0
+repos/javascript/material-ui/docs/src/pages/demos/drawers/PermanentDrawerLeft.js,"PermanentDrawerLeft ( props )",70, 101, 10, 0
+repos/javascript/material-ui/docs/src/pages/demos/drawers/SwipeableTemporaryDrawer.js,"SwipeableTemporaryDrawer ( )",111, 90, 12, 0
+repos/javascript/material-ui/docs/src/pages/demos/drawers/PersistentDrawerRight.js,"handleDrawerOpen ( )",3, 32, 2, 0
+repos/javascript/material-ui/docs/src/pages/demos/drawers/PersistentDrawerRight.js,"handleDrawerClose ( )",3, 33, 2, 0
+repos/javascript/material-ui/docs/src/pages/demos/drawers/PersistentDrawerRight.js,"PersistentDrawerRight ( )",103, 101, 10, 0
+repos/javascript/material-ui/docs/src/pages/demos/drawers/PersistentDrawerLeft.js,"handleDrawerOpen ( )",3, 32, 2, 0
+repos/javascript/material-ui/docs/src/pages/demos/drawers/PersistentDrawerLeft.js,"handleDrawerClose ( )",3, 33, 2, 0
+repos/javascript/material-ui/docs/src/pages/demos/drawers/PersistentDrawerLeft.js,"PersistentDrawerLeft ( )",103, 101, 10, 0
+repos/javascript/material-ui/docs/src/pages/demos/drawers/ClippedDrawer.js,"ClippedDrawer ( props )",68, 101, 10, 0
+repos/javascript/material-ui/docs/src/pages/demos/drawers/ResponsiveDrawer.js,"handleDrawerToggle ( )",3, 34, 2, 0
+repos/javascript/material-ui/docs/src/pages/demos/drawers/ResponsiveDrawer.js,"ResponsiveDrawer ( props )",113, 101, 10, 0
+repos/javascript/material-ui/docs/src/pages/demos/tooltips/PositionedTooltips.js,"PositionedTooltips ( props )",65, 78, 8, 0
+repos/javascript/material-ui/docs/src/pages/demos/tooltips/TriggersTooltips.js,"handleTooltipClose ( )",3, 34, 2, 0
+repos/javascript/material-ui/docs/src/pages/demos/tooltips/TriggersTooltips.js,"handleTooltipOpen ( )",3, 33, 2, 0
+repos/javascript/material-ui/docs/src/pages/demos/tooltips/TriggersTooltips.js,"TriggersTooltips ( )",52, 74, 10, 0
+repos/javascript/material-ui/docs/src/pages/demos/tooltips/TransitionsTooltips.js,"TransitionsTooltips ( )",15, 90, 6, 0
+repos/javascript/material-ui/docs/src/pages/demos/tooltips/CustomizedTooltips.js,"arrowGenerator ( color )",46, 69, 8, 0
+repos/javascript/material-ui/docs/src/pages/demos/tooltips/CustomizedTooltips.js,"CustomizedTooltips ( )",81, 85, 12, 0
+repos/javascript/material-ui/docs/src/pages/demos/tooltips/CustomizedTooltips.js,"*global*",197, 85, 12, 0
+repos/javascript/material-ui/docs/src/pages/demos/tooltips/DelayTooltips.js,"DelayTooltips ( )",7, 60, 4, 0
+repos/javascript/material-ui/docs/src/pages/demos/tooltips/ControlledTooltips.js,"handleTooltipClose ( )",3, 34, 2, 0
+repos/javascript/material-ui/docs/src/pages/demos/tooltips/ControlledTooltips.js,"handleTooltipOpen ( )",3, 33, 2, 0
+repos/javascript/material-ui/docs/src/pages/demos/tooltips/ControlledTooltips.js,"ControlledTooltips ( )",17, 94, 4, 0
+repos/javascript/material-ui/docs/src/pages/demos/tooltips/InteractiveTooltips.js,"InteractiveTooltips ( props )",14, 68, 8, 0
+repos/javascript/material-ui/docs/src/pages/demos/tooltips/VariableWidth.js,"VariableWidth ( { classes } )",15, 76, 6, 0
+repos/javascript/material-ui/docs/src/pages/demos/tooltips/SimpleTooltips.js,"SimpleTooltips ( props )",22, 61, 8, 0
+repos/javascript/material-ui/docs/src/pages/demos/tooltips/DisabledTooltips.js,"DisabledTooltips ( )",9, 59, 4, 0
+repos/javascript/material-ui/docs/src/pages/demos/breadcrumbs/RouterBreadcrumbs.js,"ListItemLink ( props )",13, 71, 8, 0
+repos/javascript/material-ui/docs/src/pages/demos/breadcrumbs/SimpleBreadcrumbs.js,"handleClick ( event )",4, 70, 2, 0
+repos/javascript/material-ui/docs/src/pages/demos/breadcrumbs/SimpleBreadcrumbs.js,"SimpleBreadcrumbs ( props )",37, 93, 10, 0
+repos/javascript/material-ui/docs/src/pages/demos/breadcrumbs/CollapsedBreadcrumbs.js,"handleClick ( event )",4, 70, 2, 0
+repos/javascript/material-ui/docs/src/pages/demos/breadcrumbs/CollapsedBreadcrumbs.js,"CollapsedBreadcrumbs ( props )",23, 62, 8, 0
+repos/javascript/material-ui/docs/src/pages/demos/breadcrumbs/IconBreadcrumbs.js,"handleClick ( event )",4, 70, 2, 0
+repos/javascript/material-ui/docs/src/pages/demos/breadcrumbs/IconBreadcrumbs.js,"IconBreadcrumbs ( props )",26, 87, 8, 0
+repos/javascript/material-ui/docs/src/pages/demos/breadcrumbs/CustomizedBreadcrumbs.js,"handleClick ( event )",4, 70, 2, 0
+repos/javascript/material-ui/docs/src/pages/demos/breadcrumbs/CustomizedBreadcrumbs.js,"CustomBreadcrumb ( props )",4, 54, 2, 0
+repos/javascript/material-ui/docs/src/pages/demos/breadcrumbs/CustomizedBreadcrumbs.js,"CustomizedBreadcrumbs ( props )",28, 90, 8, 0
+repos/javascript/material-ui/docs/src/pages/demos/breadcrumbs/CustomSeparator.js,"handleClick ( event )",4, 70, 2, 0
+repos/javascript/material-ui/docs/src/pages/demos/breadcrumbs/CustomSeparator.js,"CustomSeparator ( props )",43, 96, 8, 0
+repos/javascript/material-ui/docs/src/pages/demos/badges/SimpleBadge.js,"SimpleBadge ( props )",39, 85, 14, 0
+repos/javascript/material-ui/docs/src/pages/demos/badges/BadgeVisibility.js,"handleBadgeVisibility ( )",3, 37, 2, 0
+repos/javascript/material-ui/docs/src/pages/demos/badges/BadgeVisibility.js,"BadgeVisibility ( )",36, 101, 10, 0
+repos/javascript/material-ui/docs/src/pages/demos/badges/DotBadge.js,"DotBadge ( props )",19, 75, 8, 0
+repos/javascript/material-ui/docs/src/pages/demos/badges/CustomizedBadge.js,"CustomizedBadge ( props )",11, 82, 6, 0
+repos/javascript/material-ui/docs/src/pages/demos/badges/BadgeMax.js,"BadgeMax ( props )",17, 87, 6, 0
+repos/javascript/material-ui/examples/create-react-app-with-jss/src/withRoot.js,"WithRoot ( props )",14, 99, 10, 0
+repos/javascript/material-ui/examples/create-react-app-with-jss/src/withRoot.js,"withRoot ( Component )",18, 99, 10, 0
+repos/javascript/material-ui/examples/create-react-app-with-jss/src/serviceWorker.js,"register ( config )",33, 94, 8, 0
+repos/javascript/material-ui/examples/create-react-app-with-jss/src/serviceWorker.js,"registerValidSW ( swUrl , config )",43, 80, 14, 0
+repos/javascript/material-ui/examples/create-react-app-with-jss/src/serviceWorker.js,"checkValidServiceWorker ( swUrl , config )",25, 84, 6, 0
+repos/javascript/material-ui/examples/create-react-app-with-jss/src/serviceWorker.js,"unregister ( )",7, 57, 4, 0
+repos/javascript/material-ui/examples/create-react-app-with-flow/flow-typed/npm/recompose_v0.x.x.js,"> ( defProps : Default )",3, 59, 2, 0
+repos/javascript/material-ui/examples/create-react-app-with-flow/flow-typed/npm/recompose_v0.x.x.js,"> ( propsMapper : ( ( ownerProps : Enhanced )",3, 63, 4, 0
+repos/javascript/material-ui/examples/create-react-app-with-flow/flow-typed/npm/recompose_v0.x.x.js,"| ( ( props : Enhanced )",5, 55, 10, 0
+repos/javascript/material-ui/examples/create-react-app-with-flow/flow-typed/npm/recompose_v0.x.x.js,"> ( contextTypes : CtxTypes )",3, 58, 2, 0
+repos/javascript/material-ui/examples/create-react-app-with-flow/flow-typed/npm/recompose_v0.x.x.js,"> ( shouldMapOrKeys : | ( ( props : Enhanced , nextProps : Enhanced )",6, 64, 2, 0
+repos/javascript/material-ui/examples/create-react-app-with-flow/flow-typed/npm/recompose_v0.x.x.js,"createEventHandler ( )",4, 50, 2, 0
+repos/javascript/material-ui/examples/create-react-app-with-flow/flow-typed/npm/material-ui_v1.x.x.js,"handleEvent ( event : SyntheticUIEvent < > )",22, 73, 2, 0
+repos/javascript/material-ui/examples/create-react-app-with-flow/flow-typed/npm/material-ui_v1.x.x.js,"setTranslateValue ( props : Object , node : HTMLElement | Object )",18, 48, 2, 0
+repos/javascript/material-ui/examples/create-react-app-with-flow/src/withRoot.js,"WithRoot ( props : Object )",11, 97, 8, 0
+repos/javascript/material-ui/examples/create-react-app-with-flow/src/withRoot.js,"withRoot ( Component : ComponentType < * > )",15, 97, 8, 0
+repos/javascript/material-ui/examples/create-react-app-with-flow/src/serviceWorker.js,"register ( config )",33, 94, 8, 0
+repos/javascript/material-ui/examples/create-react-app-with-flow/src/serviceWorker.js,"registerValidSW ( swUrl , config )",43, 80, 14, 0
+repos/javascript/material-ui/examples/create-react-app-with-flow/src/serviceWorker.js,"checkValidServiceWorker ( swUrl , config )",25, 84, 6, 0
+repos/javascript/material-ui/examples/create-react-app-with-flow/src/serviceWorker.js,"unregister ( )",7, 57, 4, 0
+repos/javascript/material-ui/examples/parcel/src/withRoot.js,"WithRoot ( props )",11, 97, 8, 0
+repos/javascript/material-ui/examples/parcel/src/withRoot.js,"withRoot ( Component )",15, 97, 8, 0
+repos/javascript/material-ui/examples/gatsby-next/src/components/Link.js,"Link ( props )",3, 57, 2, 0
+repos/javascript/material-ui/examples/gatsby-next/src/pages/about.js,"About ( props )",20, 67, 6, 0
+repos/javascript/material-ui/examples/gatsby-next/src/pages/index.js,"Index ( )",40, 75, 6, 0
+repos/javascript/material-ui/examples/ssr-next/client.js,"Main ( )",10, 66, 4, 0
+repos/javascript/material-ui/examples/ssr-next/server.js,"renderFullPage ( html , css )",15, 54, 8, 0
+repos/javascript/material-ui/examples/ssr-next/server.js,"handleRender ( req , res )",27, 55, 2, 0
+repos/javascript/material-ui/examples/create-react-app-next/src/withRoot.js,"WithRoot ( props )",11, 97, 8, 0
+repos/javascript/material-ui/examples/create-react-app-next/src/withRoot.js,"withRoot ( Component )",15, 97, 8, 0
+repos/javascript/material-ui/examples/create-react-app-next/src/serviceWorker.js,"register ( config )",33, 94, 8, 0
+repos/javascript/material-ui/examples/create-react-app-next/src/serviceWorker.js,"registerValidSW ( swUrl , config )",43, 80, 14, 0
+repos/javascript/material-ui/examples/create-react-app-next/src/serviceWorker.js,"checkValidServiceWorker ( swUrl , config )",25, 84, 6, 0
+repos/javascript/material-ui/examples/create-react-app-next/src/serviceWorker.js,"unregister ( )",7, 57, 4, 0
+repos/javascript/material-ui/examples/gatsby/gatsby-ssr.js,"replaceRenderer ( { bodyComponent , replaceBodyHTMLString , setHeadComponents } )",18, 89, 4, 0
+repos/javascript/material-ui/examples/gatsby/src/getPageContext.js,"createPageContext ( )",11, 80, 4, 0
+repos/javascript/material-ui/examples/gatsby/src/getPageContext.js,"getPageContext ( )",14, 82, 2, 0
+repos/javascript/material-ui/examples/gatsby/src/withRoot.js,"withRoot ( Component )",35, 101, 12, 0
+repos/javascript/material-ui/examples/gatsby/src/pages/about.js,"About ( props )",20, 67, 6, 0
+repos/javascript/material-ui/examples/ssr/server.js,"renderFullPage ( html , css )",15, 54, 8, 0
+repos/javascript/material-ui/examples/ssr/server.js,"handleRender ( req , res )",36, 82, 4, 0
+repos/javascript/material-ui/examples/nextjs-next/pages/about.js,"About ( props )",20, 67, 6, 0
+repos/javascript/material-ui/examples/nextjs-next/pages/index.js,"Index ( )",41, 75, 6, 0
+repos/javascript/material-ui/examples/nextjs-next/src/getPageContext.js,"createPageContext ( )",11, 80, 4, 0
+repos/javascript/material-ui/examples/nextjs-next/src/getPageContext.js,"getPageContext ( )",14, 82, 2, 0
+repos/javascript/material-ui/examples/nextjs-next/src/Link.js,"NextComposed ( props )",9, 55, 4, 0
+repos/javascript/material-ui/examples/nextjs-next/src/Link.js,"Link ( props )",13, 89, 2, 0
+repos/javascript/material-ui/examples/nextjs/pages/about.js,"About ( props )",22, 52, 6, 0
+repos/javascript/material-ui/examples/nextjs/src/getPageContext.js,"createPageContext ( )",11, 80, 4, 0
+repos/javascript/material-ui/examples/nextjs/src/getPageContext.js,"getPageContext ( )",14, 82, 2, 0
+repos/javascript/material-ui/examples/create-react-app/src/withRoot.js,"WithRoot ( props )",11, 97, 8, 0
+repos/javascript/material-ui/examples/create-react-app/src/withRoot.js,"withRoot ( Component )",15, 97, 8, 0
+repos/javascript/material-ui/examples/create-react-app/src/serviceWorker.js,"register ( config )",33, 94, 8, 0
+repos/javascript/material-ui/examples/create-react-app/src/serviceWorker.js,"registerValidSW ( swUrl , config )",43, 80, 14, 0
+repos/javascript/material-ui/examples/create-react-app/src/serviceWorker.js,"checkValidServiceWorker ( swUrl , config )",25, 84, 6, 0
+repos/javascript/material-ui/examples/create-react-app/src/serviceWorker.js,"unregister ( )",7, 57, 4, 0
+repos/javascript/material-ui/scripts/prettier.js,"runPrettier ( changedFiles )",60, 85, 4, 0
+repos/javascript/material-ui/scripts/prettier.js,"run ( )",13, 53, 6, 0
+repos/javascript/material-ui/scripts/copy-files.js,"includeFileInBuild ( file )",6, 67, 2, 0
+repos/javascript/material-ui/scripts/copy-files.js,"createModulePackages ( { from , to } )",25, 86, 2, 0
+repos/javascript/material-ui/scripts/copy-files.js,"typescriptCopy ( { from , to } )",10, 94, 2, 0
+repos/javascript/material-ui/scripts/copy-files.js,"createPackageFile ( )",19, 95, 2, 0
+repos/javascript/material-ui/scripts/copy-files.js,"prepend ( file , string )",4, 52, 2, 0
+repos/javascript/material-ui/scripts/copy-files.js,"addLicense ( packageData )",26, 68, 2, 0
+repos/javascript/material-ui/scripts/copy-files.js,"run ( )",24, 86, 8, 0
+repos/javascript/material-ui/scripts/listChangedFiles.js,"exec ( command , args )",11, 63, 2, 0
+repos/javascript/material-ui/scripts/listChangedFiles.js,"execGitCmd ( args )",7, 46, 2, 0
+repos/javascript/material-ui/scripts/listChangedFiles.js,"listChangedFiles ( )",6, 82, 2, 0
+repos/javascript/material-ui/scripts/sizeSnapshot/loadComparison.js,"loadCurrentSnapshot ( )",3, 73, 2, 0
+repos/javascript/material-ui/scripts/sizeSnapshot/loadComparison.js,"loadSnapshot ( commitId , ref = 'master' )",4, 101, 2, 0
+repos/javascript/material-ui/scripts/sizeSnapshot/loadComparison.js,"loadComparison ( parrentId , ref )",42, 79, 2, 0
+repos/javascript/material-ui/scripts/sizeSnapshot/create.js,"normalizeRollupSnapshot ( snapshot )",3, 64, 2, 0
+repos/javascript/material-ui/scripts/sizeSnapshot/create.js,"getRollupSize ( snapshotPath )",9, 85, 4, 0
+repos/javascript/material-ui/scripts/sizeSnapshot/create.js,"getWebpackSizes ( )",16, 83, 2, 0
+repos/javascript/material-ui/scripts/sizeSnapshot/create.js,"run ( )",10, 95, 2, 0
+repos/javascript/material-ui/scripts/sizeSnapshot/webpack.config.js,"getSizeLimitBundles ( )",90, 103, 6, 0
+repos/javascript/material-ui/scripts/sizeSnapshot/webpack.config.js,"webpackConfig ( )",30, 94, 8, 0
+repos/javascript/material-ui/packages/material-ui-system/src/borders.js,"getBorder ( value )",7, 64, 2, 0
+repos/javascript/material-ui/packages/material-ui-system/src/merge.js,"merge ( acc , item )",9, 61, 4, 0
+repos/javascript/material-ui/packages/material-ui-system/src/spacing.js,"getTransformer ( theme )",36, 88, 6, 0
+repos/javascript/material-ui/packages/material-ui-system/src/spacing.js,"getValue ( transformer , propValue )",18, 44, 0, 0
+repos/javascript/material-ui/packages/material-ui-system/src/spacing.js,"getStyleFromPropValue ( cssProperties , transformer )",7, 61, 0, 0
+repos/javascript/material-ui/packages/material-ui-system/src/spacing.js,"spacing ( props )",20, 99, 6, 0
+repos/javascript/material-ui/packages/material-ui-system/src/memoize.js,"memoize ( fn )",11, 38, 0, 0
+repos/javascript/material-ui/packages/material-ui-system/src/compose.js,"compose ( ... styles )",40, 85, 2, 0
+repos/javascript/material-ui/packages/material-ui-system/src/style.js,"getPath ( obj , path )",7, 92, 2, 0
+repos/javascript/material-ui/packages/material-ui-system/src/style.js,"style ( options )",49, 77, 2, 0
+repos/javascript/material-ui/packages/material-ui-system/src/spacing.test.js,"it ( 'should support negative values' , ( )",7, 47, 2, 0
+repos/javascript/material-ui/packages/material-ui-system/src/sizing.js,"transform ( value )",3, 49, 2, 0
+repos/javascript/material-ui/packages/material-ui-system/src/breakpoints.js,"handleBreakpoints ( props , propValue , styleFromPropValue )",26, 101, 6, 0
+repos/javascript/material-ui/packages/material-ui-system/src/breakpoints.js,"breakpoints ( styleFunction )",32, 95, 2, 0
+repos/javascript/material-ui/packages/material-ui-system/src/css.js,"omit ( input , fields )",11, 39, 2, 0
+repos/javascript/material-ui/packages/material-ui-system/src/css.js,"css ( styleFunction )",26, 79, 8, 0
+repos/javascript/material-ui/packages/material-ui-styles/src/getStylesCreator.js,"arrayMerge ( destination , source )",3, 43, 0, 0
+repos/javascript/material-ui/packages/material-ui-styles/src/getStylesCreator.js,"getStylesCreator ( stylesOrCreator )",54, 89, 8, 0
+repos/javascript/material-ui/packages/material-ui-styles/src/withStyles.js,"WithStyles ( props , ref )",25, 76, 4, 0
+repos/javascript/material-ui/packages/material-ui-styles/src/createGenerateClassName.js,"safePrefix ( classNamePrefix )",6, 94, 2, 0
+repos/javascript/material-ui/packages/material-ui-styles/src/createGenerateClassName.js,"createGenerateClassName ( options = { } )",49, 95, 6, 0
+repos/javascript/material-ui/packages/material-ui-styles/src/useTheme.js,"useTheme ( )",3, 41, 2, 0
+repos/javascript/material-ui/packages/material-ui-styles/src/indexCounter.js,"increment ( )",13, 61, 6, 0
+repos/javascript/material-ui/packages/material-ui-styles/src/makeStyles.js,"getClasses ( { state , stylesOptions } , classes , Component )",39, 72, 2, 0
+repos/javascript/material-ui/packages/material-ui-styles/src/makeStyles.js,"attach ( { state , theme , stylesOptions , stylesCreator , name } , props )",79, 100, 4, 0
+repos/javascript/material-ui/packages/material-ui-styles/src/makeStyles.js,"update ( { state } , props )",5, 38, 4, 0
+repos/javascript/material-ui/packages/material-ui-styles/src/makeStyles.js,"detach ( { state , theme , stylesOptions , stylesCreator } )",24, 93, 2, 0
+repos/javascript/material-ui/packages/material-ui-styles/src/makeStyles.js,"useSynchronousEffect ( func , values )",26, 63, 4, 0
+repos/javascript/material-ui/packages/material-ui-styles/src/makeStyles.js,"makeStyles ( stylesOrCreator , options = { } )",58, 82, 2, 0
+repos/javascript/material-ui/packages/material-ui-styles/src/ThemeProvider.js,"mergeOuterLocalTheme ( outerTheme , localTheme )",17, 83, 8, 0
+repos/javascript/material-ui/packages/material-ui-styles/src/ThemeProvider.js,"ThemeProvider ( props )",20, 97, 2, 0
+repos/javascript/material-ui/packages/material-ui-styles/src/StylesProvider.js,"StylesProvider ( props )",19, 83, 6, 0
+repos/javascript/material-ui/packages/material-ui-styles/src/getThemeProps.js,"getThemeProps ( params )",20, 125, 2, 0
+repos/javascript/material-ui/packages/material-ui-styles/src/withTheme.js,"WithTheme ( props , ref )",5, 75, 6, 0
+repos/javascript/material-ui/packages/material-ui-styles/src/withTheme.js,"withThemeCreator ( options = { } )",64, 99, 6, 0
+repos/javascript/material-ui/packages/material-ui-styles/src/styled.js,"omit ( input , fields )",11, 39, 2, 0
+repos/javascript/material-ui/packages/material-ui-styles/src/styled.js,"StyledComponent ( props )",34, 64, 10, 0
+repos/javascript/material-ui/packages/material-ui-styles/src/styled.js,"styled ( Component )",94, 100, 10, 0
+repos/javascript/material-ui/packages/material-ui-styles/src/useTheme.test.js,"Test ( )",5, 39, 6, 0
+repos/javascript/material-ui/packages/material-ui-styles/src/StylesProvider.test.js,"Test ( )",4, 51, 2, 0
+repos/javascript/material-ui/packages/material-ui-styles/src/StylesProvider.test.js,"assertRendering ( markup , sheetsRegistry )",9, 87, 6, 0
+repos/javascript/material-ui/packages/material-ui-styles/src/ThemeProvider.test.js,"Test ( )",5, 39, 6, 0
+repos/javascript/material-ui/packages/material-ui-styles/src/ThemeProvider.test.js,"Test ( )",10, 32, 6, 0
+repos/javascript/material-ui/packages/material-ui-styles/src/withTheme.test.js,"Test ( props )",3, 45, 6, 0
+repos/javascript/material-ui/packages/material-ui-styles/src/jssPreset.js,"jssPreset ( )",16, 82, 6, 0
+repos/javascript/material-ui/packages/material-ui-styles/src/createStyles.js,"createStyles ( styles )",3, 47, 0, 0
+repos/javascript/material-ui/packages/material-ui-styles/src/mergeClasses.js,"mergeClasses ( options = { } )",48, 98, 10, 0
+repos/javascript/material-ui/packages/material-ui-styles/src/makeStyles.test.js,"TestComponent ( props )",4, 41, 6, 0
+repos/javascript/material-ui/packages/material-ui-styles/src/makeStyles.test.js,"mountWithProps ( props )",5, 59, 6, 0
+repos/javascript/material-ui/packages/material-ui-styles/src/makeStyles.test.js,"createGetClasses ( styles )",15, 59, 6, 0
+repos/javascript/material-ui/packages/material-ui-styles/src/makeStyles.test.js,"handleBackgroundColorChange ( event )",3, 54, 8, 0
+repos/javascript/material-ui/packages/material-ui-styles/src/makeStyles.test.js,"handleColorChange ( event )",3, 44, 8, 0
+repos/javascript/material-ui/packages/material-ui-docs/src/NProgressBar/NProgressBar.js,"NProgressBar ( props )",8, 31, 0, 0
+repos/javascript/material-ui/packages/material-ui-docs/src/svgIcons/FileDownload.js,"FileDownload ( props )",7, 61, 6, 0
+repos/javascript/material-ui/packages/material-ui-docs/src/svgIcons/LightbulbOutline.js,"LightbulbOutline ( props )",7, 310, 6, 0
+repos/javascript/material-ui/packages/material-ui-docs/src/svgIcons/TypeScript.js,"TypeScript ( props )",7, 559, 6, 0
+repos/javascript/material-ui/packages/material-ui-docs/src/svgIcons/Hooks.js,"Hooks ( props )",7, 266, 6, 0
+repos/javascript/material-ui/packages/material-ui-docs/src/svgIcons/JavaScript.js,"JavaScript ( props )",7, 685, 6, 0
+repos/javascript/material-ui/packages/material-ui-docs/src/svgIcons/GitHub.js,"GitHub ( props )",7, 412, 6, 0
+repos/javascript/material-ui/packages/material-ui-docs/src/svgIcons/Twitter.js,"Twitter ( props )",7, 512, 6, 0
+repos/javascript/material-ui/packages/material-ui-docs/src/svgIcons/LightbulbFull.js,"LightbulbFull ( props )",7, 241, 6, 0
+repos/javascript/material-ui/packages/material-ui/test/umd/run.js,"startServer ( app )",37, 85, 8, 0
+repos/javascript/material-ui/packages/material-ui/test/umd/run.js,"createApp ( )",24, 95, 2, 0
+repos/javascript/material-ui/packages/material-ui/test/umd/run.js,"startBrowser ( )",31, 153, 6, 0
+repos/javascript/material-ui/packages/material-ui/test/umd/run.js,"run ( )",19, 77, 4, 0
+repos/javascript/material-ui/packages/material-ui/test/integration/TableCell.test.js,"mountInTable ( node , Variant )",10, 42, 4, 0
+repos/javascript/material-ui/packages/material-ui/test/integration/MenuList.test.js,"FocusOnMountMenuItem ( props )",11, 43, 6, 0
+repos/javascript/material-ui/packages/material-ui/test/integration/MenuList.test.js,"assertMenuItemTabIndexed ( wrapper , tabIndexed )",16, 62, 8, 0
+repos/javascript/material-ui/packages/material-ui/test/integration/MenuList.test.js,"assertMenuItemFocused ( wrapper , tabIndexed )",10, 78, 6, 0
+repos/javascript/material-ui/packages/material-ui/test/integration/MenuList.test.js,"initializeFocus ( wrapper )",7, 36, 0, 0
+repos/javascript/material-ui/packages/material-ui/src/Paper/Paper.js,"Paper ( props , ref )",26, 72, 4, 0
+repos/javascript/material-ui/packages/material-ui/src/Tabs/Tabs.test.js,"AccessibleTabScrollButton ( props )",3, 70, 2, 0
+repos/javascript/material-ui/packages/material-ui/src/Tabs/TabIndicator.js,"TabIndicator ( props , ref )",11, 86, 6, 0
+repos/javascript/material-ui/packages/material-ui/src/Tabs/TabScrollButton.js,"TabScrollButton ( props , ref )",15, 94, 2, 0
+repos/javascript/material-ui/packages/material-ui/src/ListSubheader/ListSubheader.js,"ListSubheader ( props , ref )",29, 76, 0, 0
+repos/javascript/material-ui/packages/material-ui/src/AppBar/AppBar.js,"AppBar ( props , ref )",24, 77, 2, 0
+repos/javascript/material-ui/packages/material-ui/src/TableFooter/TableFooter.test.js,"mountInTable ( node )",4, 50, 4, 0
+repos/javascript/material-ui/packages/material-ui/src/TableFooter/TableFooter.js,"TableFooter ( props , ref )",9, 83, 6, 0
+repos/javascript/material-ui/packages/material-ui/src/Popper/Popper.js,"flipPlacement ( placement )",20, 99, 2, 0
+repos/javascript/material-ui/packages/material-ui/src/Popper/Popper.js,"getAnchorEl ( anchorEl )",3, 65, 2, 0
+repos/javascript/material-ui/packages/material-ui/src/Drawer/Drawer.js,"isHorizontal ( props )",3, 57, 2, 0
+repos/javascript/material-ui/packages/material-ui/src/Drawer/Drawer.js,"getAnchor ( props )",5, 64, 2, 0
+repos/javascript/material-ui/packages/material-ui/src/Tooltip/Tooltip.test.js,"persist ( )",1, 22, 0, 0
+repos/javascript/material-ui/packages/material-ui/src/test-utils/findOutermostIntrinsic.js,"wrapsIntrinsicElement ( reactWrapper )",3, 54, 0, 0
+repos/javascript/material-ui/packages/material-ui/src/test-utils/findOutermostIntrinsic.js,"findOutermostIntrinsic ( reactWrapper )",3, 86, 2, 0
+repos/javascript/material-ui/packages/material-ui/src/test-utils/createShallow.js,"shallowWithContext ( node , options2 = { } )",22, 80, 2, 0
+repos/javascript/material-ui/packages/material-ui/src/test-utils/createShallow.js,"createShallow ( options1 = { } )",28, 96, 2, 0
+repos/javascript/material-ui/packages/material-ui/src/test-utils/unwrap.js,"unwrap ( component )",3, 44, 0, 0
+repos/javascript/material-ui/packages/material-ui/src/test-utils/createMount.js,"mountWithContext ( node , options2 = { } )",7, 76, 2, 0
+repos/javascript/material-ui/packages/material-ui/src/test-utils/createMount.js,"createMount ( options1 = { } )",24, 80, 2, 0
+repos/javascript/material-ui/packages/material-ui/src/test-utils/createRender.js,"renderWithContext ( node , options2 = { } )",6, 78, 2, 0
+repos/javascript/material-ui/packages/material-ui/src/test-utils/createRender.js,"createRender ( options1 = { } )",12, 78, 2, 0
+repos/javascript/material-ui/packages/material-ui/src/test-utils/getClasses.js,"getClasses ( element )",3, 46, 0, 0
+repos/javascript/material-ui/packages/material-ui/src/test-utils/testRef.js,"assertDOMNode ( node )",4, 31, 0, 0
+repos/javascript/material-ui/packages/material-ui/src/test-utils/testRef.js,"testRef ( element , mount , onRef = assertDOMNode )",5, 92, 2, 0
+repos/javascript/material-ui/packages/material-ui/src/test-utils/until.js,"shallowRecursively ( wrapper , selector , { context , ... other } )",24, 85, 2, 0
+repos/javascript/material-ui/packages/material-ui/src/test-utils/until.js,"until ( selector , options = { } )",3, 82, 2, 0
+repos/javascript/material-ui/packages/material-ui/src/MobileStepper/MobileStepper.js,"MobileStepper ( props , ref )",42, 99, 2, 0
+repos/javascript/material-ui/packages/material-ui/src/Portal/Portal.js,"getContainer ( container , defaultContainer )",4, 73, 2, 0
+repos/javascript/material-ui/packages/material-ui/src/Portal/Portal.js,"getOwnerDocument ( element )",3, 55, 2, 0
+repos/javascript/material-ui/packages/material-ui/src/Radio/Radio.js,"Radio ( props , ref )",18, 72, 8, 0
+repos/javascript/material-ui/packages/material-ui/src/Card/Card.js,"Card ( props , ref )",12, 58, 0, 0
+repos/javascript/material-ui/packages/material-ui/src/Backdrop/Backdrop.js,"Backdrop ( props , ref )",20, 87, 2, 0
+repos/javascript/material-ui/packages/material-ui/src/Slide/Slide.js,"getTranslateValue ( props , node )",42, 76, 2, 0
+repos/javascript/material-ui/packages/material-ui/src/Slide/Slide.js,"setTranslateValue ( props , node )",8, 52, 2, 0
+repos/javascript/material-ui/packages/material-ui/src/Hidden/Hidden.js,"Hidden ( props )",9, 46, 2, 0
+repos/javascript/material-ui/packages/material-ui/src/Hidden/HiddenJs.test.js,"resolvePropName ( upDownOnly , breakpoint )",7, 53, 2, 0
+repos/javascript/material-ui/packages/material-ui/src/Hidden/HiddenJs.test.js,"isHidden ( hiddenBreakpoints , upDownOnly , width )",21, 75, 6, 0
+repos/javascript/material-ui/packages/material-ui/src/Hidden/HiddenJs.test.js,"isVisible ( visibleBreakpoints , upDownOnly , width )",23, 85, 8, 0
+repos/javascript/material-ui/packages/material-ui/src/Hidden/HiddenJs.js,"HiddenJs ( props )",43, 95, 2, 0
+repos/javascript/material-ui/packages/material-ui/src/Hidden/HiddenCss.js,"HiddenCss ( props )",55, 77, 4, 0
+repos/javascript/material-ui/packages/material-ui/src/TableCell/TableCell.test.js,"mountInTable ( node )",13, 32, 2, 0
+repos/javascript/material-ui/packages/material-ui/src/TableCell/TableCell.js,"TableCell ( props , ref )",62, 100, 10, 0
+repos/javascript/material-ui/packages/material-ui/src/TableRow/TableRow.js,"TableRow ( props , ref )",21, 89, 2, 0
+repos/javascript/material-ui/packages/material-ui/src/TableRow/TableRow.test.js,"mountInTable ( node )",8, 42, 4, 0
+repos/javascript/material-ui/packages/material-ui/src/TableHead/TableHead.js,"TableHead ( props , ref )",9, 83, 6, 0
+repos/javascript/material-ui/packages/material-ui/src/TableHead/TableHead.test.js,"mountInTable ( node )",4, 50, 4, 0
+repos/javascript/material-ui/packages/material-ui/src/CardActions/CardActions.js,"CardActions ( props , ref )",17, 95, 6, 0
+repos/javascript/material-ui/packages/material-ui/src/ExpansionPanelActions/ExpansionPanelActions.js,"ExpansionPanelActions ( props , ref )",9, 92, 0, 0
+repos/javascript/material-ui/packages/material-ui/src/Input/Input.js,"Input ( props , ref )",17, 60, 0, 0
+repos/javascript/material-ui/packages/material-ui/src/DialogTitle/DialogTitle.js,"DialogTitle ( props , ref )",9, 88, 6, 0
+repos/javascript/material-ui/packages/material-ui/src/FilledInput/FilledInput.js,"FilledInput ( props , ref )",17, 72, 0, 0
+repos/javascript/material-ui/packages/material-ui/src/StepContent/StepContent.js,"StepContent ( props , ref )",42, 99, 4, 0
+repos/javascript/material-ui/packages/material-ui/src/ButtonBase/ButtonBase.test.js,"getState ( )",3, 49, 6, 0
+repos/javascript/material-ui/packages/material-ui/src/ButtonBase/ButtonBase.test.js,"ButtonBaseRef ( props )",3, 51, 8, 0
+repos/javascript/material-ui/packages/material-ui/src/ButtonBase/focusVisible.js,"findActiveElement ( doc )",7, 96, 2, 0
+repos/javascript/material-ui/packages/material-ui/src/ButtonBase/focusVisible.js,"detectFocusVisible ( instance , element , callback , attempt = 1 )",21, 99, 2, 0
+repos/javascript/material-ui/packages/material-ui/src/ButtonBase/focusVisible.js,"isFocusKey ( event )",4, 49, 2, 0
+repos/javascript/material-ui/packages/material-ui/src/ButtonBase/focusVisible.js,"listenForFocusKeys ( win )",6, 69, 2, 0
+repos/javascript/material-ui/packages/material-ui/src/FormGroup/FormGroup.js,"FormGroup ( props , ref )",19, 68, 0, 0
+repos/javascript/material-ui/packages/material-ui/src/Toolbar/Toolbar.js,"Toolbar ( props , ref )",26, 64, 0, 0
+repos/javascript/material-ui/packages/material-ui/src/Fab/Fab.js,"Fab ( props , ref )",38, 80, 6, 0
+repos/javascript/material-ui/packages/material-ui/src/ListItemSecondaryAction/ListItemSecondaryAction.js,"ListItemSecondaryAction ( props , ref )",9, 96, 0, 0
+repos/javascript/material-ui/packages/material-ui/src/internal/animate.js,"easeInOutSin ( time )",3, 59, 2, 0
+repos/javascript/material-ui/packages/material-ui/src/internal/animate.js,"animate ( prop , element , to , options = { } , cb = ( )",1, 67, 0, 0
+repos/javascript/material-ui/packages/material-ui/src/internal/SwitchBase.test.js,"assertIsChecked ( wrapper )",16, 54, 4, 0
+repos/javascript/material-ui/packages/material-ui/src/internal/SwitchBase.test.js,"assertIsNotChecked ( wrapper )",16, 58, 4, 0
+repos/javascript/material-ui/packages/material-ui/src/internal/SwitchBase.test.js,"setFormControlContext ( muiFormControlContext )",3, 60, 4, 0
+repos/javascript/material-ui/packages/material-ui/src/internal/SwitchBase.test.js,"Provider ( props )",8, 56, 10, 0
+repos/javascript/material-ui/packages/material-ui/src/Checkbox/Checkbox.js,"Checkbox ( props , ref )",38, 72, 8, 0
+repos/javascript/material-ui/packages/material-ui/src/ListItemIcon/ListItemIcon.js,"ListItemIcon ( props , ref )",9, 77, 4, 0
+repos/javascript/material-ui/packages/material-ui/src/Step/Step.js,"Step ( props , ref )",66, 85, 12, 0
+repos/javascript/material-ui/packages/material-ui/src/TextField/TextField.test.js,"findHelperTextWrapper ( )",3, 61, 8, 0
+repos/javascript/material-ui/packages/material-ui/src/TextField/TextField.js,"TextField ( props , ref )",117, 101, 8, 0
+repos/javascript/material-ui/packages/material-ui/src/SwipeableDrawer/SwipeableDrawer.js,"reset ( )",3, 34, 2, 0
+repos/javascript/material-ui/packages/material-ui/src/SwipeableDrawer/SwipeArea.js,"SwipeArea ( props , ref )",14, 88, 6, 0
+repos/javascript/material-ui/packages/material-ui/src/SwipeableDrawer/SwipeableDrawer.test.js,"fireBodyMouseEvent ( name , properties = { } )",9, 53, 0, 0
+repos/javascript/material-ui/packages/material-ui/src/SvgIcon/SvgIcon.js,"SvgIcon ( props , ref )",37, 80, 10, 0
+repos/javascript/material-ui/packages/material-ui/src/InputBase/InputBase.test.js,"setState ( wrapper , state )",3, 54, 4, 0
+repos/javascript/material-ui/packages/material-ui/src/InputBase/InputBase.test.js,"MyInputBase ( props )",5, 52, 8, 0
+repos/javascript/material-ui/packages/material-ui/src/InputBase/InputBase.test.js,"setFormControlContext ( muiFormControlContext )",4, 60, 4, 0
+repos/javascript/material-ui/packages/material-ui/src/InputBase/Textarea.test.js,"assignRefs ( wrapper )",16, 80, 2, 0
+repos/javascript/material-ui/packages/material-ui/src/InputBase/utils.js,"hasValue ( value )",3, 73, 2, 0
+repos/javascript/material-ui/packages/material-ui/src/InputBase/utils.js,"isFilled ( obj , SSR = false )",7, 70, 6, 0
+repos/javascript/material-ui/packages/material-ui/src/InputBase/utils.js,"isAdornedStart ( obj )",3, 38, 0, 0
+repos/javascript/material-ui/packages/material-ui/src/Stepper/Stepper.js,"Stepper ( props , ref )",67, 78, 6, 0
+repos/javascript/material-ui/packages/material-ui/src/utils/ownerDocument.js,"ownerDocument ( node )",3, 51, 2, 0
+repos/javascript/material-ui/packages/material-ui/src/utils/deprecatedPropType.js,"deprecatedPropType ( validator , reason )",19, 71, 2, 0
+repos/javascript/material-ui/packages/material-ui/src/utils/unsupportedProp.js,"unsupportedProp ( props , propName , componentName , location , propFullName )",13, 98, 4, 0
+repos/javascript/material-ui/packages/material-ui/src/utils/withForwardedRef.js,"withForwardedRef ( Component )",13, 82, 4, 0
+repos/javascript/material-ui/packages/material-ui/src/utils/reactHelpers.js,"cloneElementWithClassName ( child , className )",5, 62, 0, 0
+repos/javascript/material-ui/packages/material-ui/src/utils/reactHelpers.js,"cloneChildrenWithClassName ( children , className )",6, 89, 4, 0
+repos/javascript/material-ui/packages/material-ui/src/utils/reactHelpers.js,"isMuiElement ( element , muiNames )",3, 89, 2, 0
+repos/javascript/material-ui/packages/material-ui/src/utils/reactHelpers.js,"setRef ( ref , value )",7, 37, 0, 0
+repos/javascript/material-ui/packages/material-ui/src/utils/helpers.js,"capitalize ( string )",7, 83, 4, 0
+repos/javascript/material-ui/packages/material-ui/src/utils/helpers.js,"contains ( obj , pred )",3, 92, 2, 0
+repos/javascript/material-ui/packages/material-ui/src/utils/helpers.js,"findIndex ( arr , pred )",15, 70, 4, 0
+repos/javascript/material-ui/packages/material-ui/src/utils/helpers.js,"find ( arr , pred )",4, 46, 2, 0
+repos/javascript/material-ui/packages/material-ui/src/utils/helpers.js,"chainedFunction ( ... args )",4, 49, 6, 0
+repos/javascript/material-ui/packages/material-ui/src/utils/helpers.js,"createChainedFunction ( ... funcs )",20, 96, 8, 0
+repos/javascript/material-ui/packages/material-ui/src/utils/ownerWindow.js,"ownerWindow ( node , fallback = window )",4, 56, 2, 0
+repos/javascript/material-ui/packages/material-ui/src/utils/requirePropFactory.js,"requirePropFactory ( componentNameInError )",19, 100, 2, 0
+repos/javascript/material-ui/packages/material-ui/src/MenuItem/MenuItem.js,"MenuItem ( props , ref )",24, 93, 2, 0
+repos/javascript/material-ui/packages/material-ui/src/CardActionArea/CardActionArea.js,"CardActionArea ( props , ref )",15, 83, 2, 0
+repos/javascript/material-ui/packages/material-ui/src/Grow/Grow.js,"getScale ( value )",3, 43, 2, 0
+repos/javascript/material-ui/packages/material-ui/src/DialogActions/DialogActions.js,"DialogActions ( props , ref )",19, 82, 2, 0
+repos/javascript/material-ui/packages/material-ui/src/Tab/Tab.js,"Tab ( props , ref )",58, 56, 0, 0
+repos/javascript/material-ui/packages/material-ui/src/FormLabel/FormLabel.js,"FormLabel ( props , ref )",51, 68, 0, 0
+repos/javascript/material-ui/packages/material-ui/src/FormLabel/FormLabel.test.js,"setFormControlContext ( muiFormControlContext )",3, 60, 4, 0
+repos/javascript/material-ui/packages/material-ui/src/FormLabel/FormLabel.test.js,"Provider ( props )",9, 56, 10, 0
+repos/javascript/material-ui/packages/material-ui/src/SnackbarContent/SnackbarContent.js,"SnackbarContent ( props , ref )",22, 80, 0, 0
+repos/javascript/material-ui/packages/material-ui/src/ExpansionPanelSummary/ExpansionPanelSummary.test.js,"findExpandButton ( wrapper )",3, 68, 4, 0
+repos/javascript/material-ui/packages/material-ui/src/StepButton/StepButton.js,"StepButton ( props , ref )",43, 74, 6, 0
+repos/javascript/material-ui/packages/material-ui/src/ListItemText/ListItemText.js,"ListItemText ( props , ref )",68, 88, 8, 0
+repos/javascript/material-ui/packages/material-ui/src/ListItem/ListItem.js,"ListItem ( props , ref )",87, 100, 10, 0
+repos/javascript/material-ui/packages/material-ui/src/ListItem/MergeListContext.js,"MergeListContext ( props )",17, 101, 10, 0
+repos/javascript/material-ui/packages/material-ui/src/Popover/Popover.js,"getOffsetTop ( rect , vertical )",13, 40, 0, 0
+repos/javascript/material-ui/packages/material-ui/src/Popover/Popover.js,"getOffsetLeft ( rect , horizontal )",13, 43, 0, 0
+repos/javascript/material-ui/packages/material-ui/src/Popover/Popover.js,"getTransformOriginValue ( transformOrigin )",5, 64, 2, 0
+repos/javascript/material-ui/packages/material-ui/src/Popover/Popover.js,"getScrollParent ( parent , child )",10, 42, 0, 0
+repos/javascript/material-ui/packages/material-ui/src/Popover/Popover.js,"getAnchorEl ( anchorEl )",3, 65, 2, 0
+repos/javascript/material-ui/packages/material-ui/src/TableSortLabel/TableSortLabel.js,"TableSortLabel ( props , ref )",29, 91, 10, 0
+repos/javascript/material-ui/packages/material-ui/src/styles/createTypography.js,"round ( value )",3, 40, 2, 0
+repos/javascript/material-ui/packages/material-ui/src/styles/createTypography.js,"createTypography ( palette , typography )",67, 97, 4, 0
+repos/javascript/material-ui/packages/material-ui/src/styles/createPalette.js,"addLightOrDark ( intent , direction , shade , tonalOffset )",11, 65, 0, 0
+repos/javascript/material-ui/packages/material-ui/src/styles/createPalette.js,"getContrastText ( background )",25, 99, 10, 0
+repos/javascript/material-ui/packages/material-ui/src/styles/createPalette.js,"augmentColor ( color , mainShade = 500 , lightShade = 300 , darkShade = 700 )",23, 96, 10, 0
+repos/javascript/material-ui/packages/material-ui/src/styles/createPalette.js,"createPalette ( palette )",116, 181, 2, 0
+repos/javascript/material-ui/packages/material-ui/src/styles/withStyles.js,"withStyles ( stylesOrCreator , options )",6, 53, 2, 0
+repos/javascript/material-ui/packages/material-ui/src/styles/colorManipulator.js,"clamp ( value , min = 0 , max = 1 )",14, 82, 4, 0
+repos/javascript/material-ui/packages/material-ui/src/styles/colorManipulator.js,"convertHexToRGB ( color )",12, 78, 2, 0
+repos/javascript/material-ui/packages/material-ui/src/styles/colorManipulator.js,"intToHex ( c )",4, 47, 4, 0
+repos/javascript/material-ui/packages/material-ui/src/styles/colorManipulator.js,"rgbToHex ( color )",15, 47, 4, 0
+repos/javascript/material-ui/packages/material-ui/src/styles/colorManipulator.js,"decomposeColor ( color )",23, 92, 10, 0
+repos/javascript/material-ui/packages/material-ui/src/styles/colorManipulator.js,"recomposeColor ( color )",16, 66, 4, 0
+repos/javascript/material-ui/packages/material-ui/src/styles/colorManipulator.js,"getContrastRatio ( foreground , background )",14, 99, 4, 0
+repos/javascript/material-ui/packages/material-ui/src/styles/colorManipulator.js,"getLuminance ( color )",17, 85, 4, 0
+repos/javascript/material-ui/packages/material-ui/src/styles/colorManipulator.js,"emphasize ( color , coefficient = 0 . 15 )",3, 95, 2, 0
+repos/javascript/material-ui/packages/material-ui/src/styles/colorManipulator.js,"fade ( color , value )",15, 86, 2, 0
+repos/javascript/material-ui/packages/material-ui/src/styles/colorManipulator.js,"darken ( color , coefficient )",17, 94, 2, 0
+repos/javascript/material-ui/packages/material-ui/src/styles/colorManipulator.js,"lighten ( color , coefficient )",18, 95, 2, 0
+repos/javascript/material-ui/packages/material-ui/src/styles/useTheme.js,"useTheme ( )",3, 51, 2, 0
+repos/javascript/material-ui/packages/material-ui/src/styles/makeStyles.js,"makeStyles ( stylesOrCreator , options = { } )",6, 53, 0, 0
+repos/javascript/material-ui/packages/material-ui/src/styles/createMixins.js,"createMixins ( breakpoints , spacing , mixins )",24, 69, 0, 0
+repos/javascript/material-ui/packages/material-ui/src/styles/createSpacing.js,"createSpacing ( spacingInput = 8 )",65, 90, 2, 0
+repos/javascript/material-ui/packages/material-ui/src/styles/createBreakpoints.js,"up ( key )",4, 71, 4, 0
+repos/javascript/material-ui/packages/material-ui/src/styles/createBreakpoints.js,"down ( key )",12, 85, 4, 0
+repos/javascript/material-ui/packages/material-ui/src/styles/createBreakpoints.js,"between ( start , end )",12, 66, 6, 0
+repos/javascript/material-ui/packages/material-ui/src/styles/createBreakpoints.js,"only ( key )",3, 30, 4, 0
+repos/javascript/material-ui/packages/material-ui/src/styles/createBreakpoints.js,"width ( key )",3, 24, 2, 0
+repos/javascript/material-ui/packages/material-ui/src/styles/createBreakpoints.js,"createBreakpoints ( breakpoints )",66, 85, 4, 0
+repos/javascript/material-ui/packages/material-ui/src/styles/createMuiTheme.js,"createMuiTheme ( options = { } )",87, 95, 4, 0
+repos/javascript/material-ui/packages/material-ui/src/styles/shadows.js,"createShadow ( ... px )",7, 95, 4, 0
+repos/javascript/material-ui/packages/material-ui/src/styles/createStyles.js,"createStyles ( styles )",11, 78, 2, 0
+repos/javascript/material-ui/packages/material-ui/src/TablePagination/TablePagination.test.js,"labelDisplayedRows ( { from , to , count , page } )",8, 63, 6, 0
+repos/javascript/material-ui/packages/material-ui/src/TablePagination/TablePagination.js,"TablePagination ( props , ref )",81, 85, 10, 0
+repos/javascript/material-ui/packages/material-ui/src/GridList/GridList.js,"GridList ( props , ref )",50, 89, 12, 0
+repos/javascript/material-ui/packages/material-ui/src/NativeSelect/NativeSelectInput.js,"NativeSelectInput ( props , ref )",40, 84, 0, 0
+repos/javascript/material-ui/packages/material-ui/src/NativeSelect/NativeSelect.js,"NativeSelect ( props , ref )",34, 95, 4, 0
+repos/javascript/material-ui/packages/material-ui/src/DialogContentText/DialogContentText.js,"DialogContentText ( props , ref )",3, 98, 2, 0
+repos/javascript/material-ui/packages/material-ui/src/CardMedia/CardMedia.js,"CardMedia ( props , ref )",28, 91, 2, 0
+repos/javascript/material-ui/packages/material-ui/src/Button/Button.js,"Button ( props , ref )",50, 84, 6, 0
+repos/javascript/material-ui/packages/material-ui/src/Link/Link.js,"Link ( props , ref )",22, 101, 2, 0
+repos/javascript/material-ui/packages/material-ui/src/OutlinedInput/OutlinedInput.js,"OutlinedInput ( props , ref )",26, 79, 14, 0
+repos/javascript/material-ui/packages/material-ui/src/OutlinedInput/NotchedOutline.js,"NotchedOutline ( props , ref )",42, 83, 8, 0
+repos/javascript/material-ui/packages/material-ui/src/Table/Table.js,"Table ( props , ref )",10, 87, 2, 0
+repos/javascript/material-ui/packages/material-ui/src/InputAdornment/InputAdornment.js,"InputAdornment ( props , ref )",53, 81, 6, 0
+repos/javascript/material-ui/packages/material-ui/src/useMediaQuery/useMediaQueryTheme.js,"useMediaQueryTheme ( query , options )",10, 57, 2, 0
+repos/javascript/material-ui/packages/material-ui/src/useMediaQuery/useMediaQueryTheme.test.js,"MyComponent ( )",5, 64, 6, 0
+repos/javascript/material-ui/packages/material-ui/src/useMediaQuery/useMediaQuery.test.js,"createMatchMedia ( width , listeners )",16, 49, 6, 0
+repos/javascript/material-ui/packages/material-ui/src/useMediaQuery/useMediaQuery.js,"handleMatchesChange ( event )",3, 42, 4, 0
+repos/javascript/material-ui/packages/material-ui/src/useMediaQuery/useMediaQuery.js,"useMediaQuery ( queryInput , options = { } )",35, 83, 2, 0
+repos/javascript/material-ui/packages/material-ui/src/useMediaQuery/useMediaQuery.js,"testReset ( )",3, 30, 0, 0
+repos/javascript/material-ui/packages/material-ui/src/List/List.js,"List ( props , ref )",33, 58, 0, 0
+repos/javascript/material-ui/packages/material-ui/src/Divider/Divider.js,"Divider ( props , ref )",20, 98, 2, 0
+repos/javascript/material-ui/packages/material-ui/src/FormHelperText/FormHelperText.js,"FormHelperText ( props , ref )",42, 89, 4, 0
+repos/javascript/material-ui/packages/material-ui/src/FormHelperText/FormHelperText.test.js,"setFormControlContext ( muiFormControlContext )",3, 60, 4, 0
+repos/javascript/material-ui/packages/material-ui/src/FormHelperText/FormHelperText.test.js,"Provider ( props )",9, 60, 12, 0
+repos/javascript/material-ui/packages/material-ui/src/DialogContent/DialogContent.js,"DialogContent ( props , ref )",19, 76, 0, 0
+repos/javascript/material-ui/packages/material-ui/src/StepLabel/StepLabel.js,"StepLabel ( props , ref )",73, 68, 0, 0
+repos/javascript/material-ui/packages/material-ui/src/Avatar/Avatar.js,"Avatar ( props , ref )",54, 76, 2, 0
+repos/javascript/material-ui/packages/material-ui/src/Typography/Typography.js,"Typography ( props , ref )",42, 85, 4, 0
+repos/javascript/material-ui/packages/material-ui/src/withMobileDialog/withMobileDialog.js,"WithMobileDialog ( props )",3, 87, 4, 0
+repos/javascript/material-ui/packages/material-ui/src/withMobileDialog/withMobileDialog.test.js,"isFullScreen ( breakpoints , width )",19, 75, 8, 0
+repos/javascript/material-ui/packages/material-ui/src/withMobileDialog/withMobileDialog.test.js,"isNotFullScreen ( breakpoints , width )",19, 75, 8, 0
+repos/javascript/material-ui/packages/material-ui/src/Switch/Switch.js,"Switch ( props , ref )",21, 83, 8, 0
+repos/javascript/material-ui/packages/material-ui/src/FormControl/withFormControlContext.js,"withFormControlContext ( Component )",15, 92, 4, 0
+repos/javascript/material-ui/packages/material-ui/src/FormControl/formControlState.js,"formControlState ( { props , states , muiFormControl } )",13, 78, 0, 0
+repos/javascript/material-ui/packages/material-ui/src/FormControl/FormControl.test.js,"setState ( wrapper , state )",3, 56, 4, 0
+repos/javascript/material-ui/packages/material-ui/src/FormControl/FormControl.test.js,"getState ( wrapper )",3, 48, 4, 0
+repos/javascript/material-ui/packages/material-ui/src/RootRef/RootRef.test.js,"TestCase ( props )",4, 77, 6, 0
+repos/javascript/material-ui/packages/material-ui/src/IconButton/IconButton.js,"IconButton ( props , ref )",26, 89, 2, 0
+repos/javascript/material-ui/packages/material-ui/src/IconButton/IconButton.test.js,"IconButtonRef ( props )",3, 51, 8, 0
+repos/javascript/material-ui/packages/material-ui/src/Select/SelectInput.js,"areEqualValues ( a , b )",7, 45, 2, 0
+repos/javascript/material-ui/packages/material-ui/src/Select/Select.js,"Select ( props , ref )",65, 95, 4, 0
+repos/javascript/material-ui/packages/material-ui/src/BottomNavigation/BottomNavigation.js,"BottomNavigation ( props , ref )",42, 93, 8, 0
+repos/javascript/material-ui/packages/material-ui/src/Icon/Icon.js,"Icon ( props , ref )",22, 99, 2, 0
+repos/javascript/material-ui/packages/material-ui/src/ListItemAvatar/ListItemAvatar.js,"ListItemAvatar ( props )",25, 82, 14, 0
+repos/javascript/material-ui/packages/material-ui/src/transitions/utils.js,"getTransitionProps ( props , options )",9, 97, 6, 0
+repos/javascript/material-ui/packages/material-ui/src/Modal/isOverflowing.js,"isBody ( node )",3, 56, 2, 0
+repos/javascript/material-ui/packages/material-ui/src/Modal/isOverflowing.js,"isOverflowing ( container )",16, 76, 2, 0
+repos/javascript/material-ui/packages/material-ui/src/Modal/TrapFocus.js,"TrapFocus ( props )",108, 98, 2, 0
+repos/javascript/material-ui/packages/material-ui/src/Modal/ModalManager.js,"findIndexOf ( data , callback )",11, 39, 0, 0
+repos/javascript/material-ui/packages/material-ui/src/Modal/ModalManager.js,"getPaddingRight ( node )",3, 55, 2, 0
+repos/javascript/material-ui/packages/material-ui/src/Modal/ModalManager.js,"setContainerStyle ( data )",30, 85, 4, 0
+repos/javascript/material-ui/packages/material-ui/src/Modal/ModalManager.js,"removeContainerStyle ( data )",13, 83, 2, 0
+repos/javascript/material-ui/packages/material-ui/src/Modal/Modal.js,"getContainer ( container , defaultContainer )",4, 73, 2, 0
+repos/javascript/material-ui/packages/material-ui/src/Modal/Modal.js,"getHasTransition ( props )",3, 77, 2, 0
+repos/javascript/material-ui/packages/material-ui/src/Modal/manageAriaHidden.js,"isHideable ( node )",3, 86, 2, 0
+repos/javascript/material-ui/packages/material-ui/src/Modal/manageAriaHidden.js,"siblings ( container , mount , currentNode , callback )",9, 62, 4, 0
+repos/javascript/material-ui/packages/material-ui/src/Modal/manageAriaHidden.js,"ariaHidden ( node , show )",7, 46, 4, 0
+repos/javascript/material-ui/packages/material-ui/src/Modal/manageAriaHidden.js,"ariaHiddenSiblings ( container , mountNode , currentNode , show )",3, 79, 2, 0
+repos/javascript/material-ui/packages/material-ui/src/StepIcon/StepIcon.js,"StepIcon ( props , ref )",27, 90, 6, 0
+repos/javascript/material-ui/packages/material-ui/src/InputLabel/InputLabel.js,"InputLabel ( props , ref )",53, 93, 4, 0
+repos/javascript/material-ui/packages/material-ui/src/InputLabel/InputLabel.test.js,"setFormControlContext ( muiFormControlContext )",3, 60, 4, 0
+repos/javascript/material-ui/packages/material-ui/src/InputLabel/InputLabel.test.js,"Provider ( props )",8, 56, 10, 0
+repos/javascript/material-ui/packages/material-ui/src/TableBody/TableBody.js,"TableBody ( props , ref )",9, 83, 6, 0
+repos/javascript/material-ui/packages/material-ui/src/TableBody/TableBody.test.js,"mountInTable ( node )",4, 50, 4, 0
+repos/javascript/material-ui/packages/material-ui/src/CardContent/CardContent.js,"CardContent ( props , ref )",5, 87, 2, 0
+repos/javascript/material-ui/packages/material-ui/src/GridListTileBar/GridListTileBar.js,"GridListTileBar ( props , ref )",47, 81, 2, 0
+repos/javascript/material-ui/packages/material-ui/src/Breadcrumbs/BreadcrumbSeparator.js,"BreadcrumbSeparator ( props )",9, 81, 4, 0
+repos/javascript/material-ui/packages/material-ui/src/Breadcrumbs/BreadcrumbCollapsed.js,"BreadcrumbCollapsed ( props )",8, 49, 6, 0
+repos/javascript/material-ui/packages/material-ui/src/ExpansionPanelDetails/ExpansionPanelDetails.js,"ExpansionPanelDetails ( props , ref )",9, 92, 0, 0
+repos/javascript/material-ui/packages/material-ui/src/StepConnector/StepConnector.js,"StepConnector ( props , ref )",38, 76, 0, 0
+repos/javascript/material-ui/packages/material-ui/src/CardHeader/CardHeader.js,"CardHeader ( props , ref )",57, 83, 4, 0
+repos/javascript/material-ui/packages/material-ui/src/ClickAwayListener/ClickAwayListener.test.js,"fireBodyMouseEvent ( name , properties = { } )",9, 53, 0, 0
+repos/javascript/material-ui/packages/material-ui/src/LinearProgress/LinearProgress.js,"LinearProgress ( props , ref )",71, 101, 2, 0
+repos/javascript/material-ui/packages/material-ui/src/FormControlLabel/FormControlLabel.js,"FormControlLabel ( props , ref )",57, 94, 10, 0
+repos/javascript/material-ui/packages/material-ui/src/FormControlLabel/FormControlLabel.test.js,"setFormControlContext ( muiFormControlContext )",3, 60, 4, 0
+repos/javascript/material-ui/packages/material-ui/src/FormControlLabel/FormControlLabel.test.js,"Provider ( props )",8, 76, 12, 0
+repos/javascript/material-ui/packages/material-ui/src/Grid/Grid.js,"generateGrid ( globalStyles , theme , breakpoint )",44, 114, 4, 0
+repos/javascript/material-ui/packages/material-ui/src/Grid/Grid.js,"generateGutter ( theme , breakpoint )",21, 51, 4, 0
+repos/javascript/material-ui/packages/material-ui/src/Badge/Badge.js,"Badge ( props , ref )",39, 83, 4, 0
+repos/javascript/material-ui/packages/material-ui/src/CircularProgress/CircularProgress.js,"getRelativeValue ( value , min , max )",4, 60, 2, 0
+repos/javascript/material-ui/packages/material-ui/src/CircularProgress/CircularProgress.js,"easeOut ( t )",6, 41, 2, 0
+repos/javascript/material-ui/packages/material-ui/src/CircularProgress/CircularProgress.js,"easeIn ( t )",3, 21, 0, 0
+repos/javascript/material-ui/packages/material-ui/src/CircularProgress/CircularProgress.js,"CircularProgress ( props , ref )",69, 96, 6, 0
+repos/javascript/material-ui/packages/babel-plugin-unwrap-createStyles/src/unwrapCreateStyles.js,"isImportFromStyles ( { source } )",3, 96, 2, 0
+repos/javascript/material-ui/packages/babel-plugin-unwrap-createStyles/src/unwrapCreateStyles.js,"isCreateStylesCall ( { callee } )",3, 42, 0, 0
+repos/javascript/material-ui/packages/babel-plugin-unwrap-createStyles/src/unwrapCreateStyles.js,"isCreateStylesImportSepcifier ( { imported } )",3, 55, 0, 0
+repos/javascript/material-ui/packages/babel-plugin-unwrap-createStyles/src/unwrapCreateStyles.js,"unwrapCallExpression ( expression )",7, 50, 4, 0
+repos/javascript/material-ui/packages/babel-plugin-unwrap-createStyles/src/unwrapCreateStyles.js,"unwrapCreateStyles ( { types : t } )",16, 91, 8, 0
+repos/javascript/material-ui/packages/material-ui-codemod/src/v1.0.0/import-path.js,"transformer ( fileInfo , api , options )",63, 80, 6, 0
+repos/javascript/material-ui/packages/material-ui-codemod/src/v1.0.0/svg-icon-imports.test.js,"trim ( str )",3, 39, 2, 0
+repos/javascript/material-ui/packages/material-ui-codemod/src/v1.0.0/svg-icon-imports.test.js,"read ( fileName )",3, 77, 2, 0
+repos/javascript/material-ui/packages/material-ui-codemod/src/v1.0.0/color-imports.test.js,"trim ( str )",3, 39, 2, 0
+repos/javascript/material-ui/packages/material-ui-codemod/src/v1.0.0/color-imports.test.js,"read ( fileName )",3, 77, 2, 0
+repos/javascript/material-ui/packages/material-ui-codemod/src/v1.0.0/svg-icon-imports.js,"capitalize ( string )",3, 75, 2, 0
+repos/javascript/material-ui/packages/material-ui-codemod/src/v1.0.0/svg-icon-imports.js,"pascalize ( iconName )",6, 31, 0, 0
+repos/javascript/material-ui/packages/material-ui-codemod/src/v1.0.0/svg-icon-imports.js,"transformSVGIconImports ( j , root )",12, 69, 6, 0
+repos/javascript/material-ui/packages/material-ui-codemod/src/v1.0.0/svg-icon-imports.js,"transformer ( fileInfo , api )",8, 55, 0, 0
+repos/javascript/material-ui/packages/material-ui-codemod/src/v1.0.0/color-imports.js,"colorAccent ( colorIdentifier )",4, 75, 2, 0
+repos/javascript/material-ui/packages/material-ui-codemod/src/v1.0.0/color-imports.js,"colorImportPath ( colorPalette )",3, 78, 2, 0
+repos/javascript/material-ui/packages/material-ui-codemod/src/v1.0.0/color-imports.js,"transformMemberExpressions ( identifier , j , root )",21, 87, 12, 0
+repos/javascript/material-ui/packages/material-ui-codemod/src/v1.0.0/color-imports.js,"transformMemberImports ( j , root , importPath , targetPath )",49, 99, 2, 0
+repos/javascript/material-ui/packages/material-ui-codemod/src/v1.0.0/color-imports.js,"transformNamespaceImports ( j , root , importPath , targetPath )",17, 99, 2, 0
+repos/javascript/material-ui/packages/material-ui-codemod/src/v1.0.0/color-imports.js,"transformer ( fileInfo , api , options = { } )",12, 72, 2, 0
+repos/javascript/material-ui/packages/material-ui-codemod/src/v1.0.0/import-path.test.js,"trim ( str )",3, 50, 2, 0
+repos/javascript/material-ui/packages/material-ui-codemod/src/v1.0.0/import-path.test.js,"read ( fileName )",3, 77, 2, 0
+repos/javascript/material-ui/packages/material-ui-codemod/src/v0.15.0/import-path.js,"getPathsBase ( path )",11, 48, 2, 0
+repos/javascript/material-ui/packages/material-ui-codemod/src/v0.15.0/import-path.js,"transformer ( fileInfo , api )",25, 76, 6, 0
+repos/javascript/material-ui/packages/material-ui-codemod/src/v0.15.0/import-path.test.js,"trim ( str )",3, 39, 2, 0
+repos/javascript/material-ui/packages/material-ui-codemod/src/v0.15.0/import-path.test.js,"read ( fileName )",3, 77, 2, 0
+repos/javascript/material-ui/packages/material-ui-icons/builder.js,"getComponentName ( destPath )",10, 68, 4, 0
+repos/javascript/material-ui/packages/material-ui-icons/builder.js,"generateIndex ( options )",11, 74, 6, 0
+repos/javascript/material-ui/packages/material-ui-icons/builder.js,"worker ( { svgPath , options , renameFilter , template } )",59, 87, 4, 0
+repos/javascript/material-ui/packages/material-ui-icons/builder.js,"main ( options )",61, 76, 6, 0
+repos/javascript/material-ui/packages/material-ui-icons/scripts/download.js,"downloadIcon ( icon )",27, 94, 6, 0
+repos/javascript/material-ui/packages/material-ui-icons/scripts/download.js,"run ( )",30, 86, 4, 0
+repos/javascript/material-ui/packages/material-ui-icons/scripts/create-typings.js,"normalizeFileName ( file )",3, 35, 0, 0
+repos/javascript/material-ui/packages/material-ui-icons/scripts/create-typings.js,"createIconTyping ( file )",5, 84, 2, 0
+repos/javascript/material-ui/packages/material-ui-icons/scripts/create-typings.js,"createIndexTyping ( files )",10, 82, 2, 0
+repos/javascript/material-ui/packages/material-ui-icons/scripts/create-typings.js,"run ( )",7, 83, 2, 0
+repos/javascript/material-ui/packages/material-ui-icons/renameFilters/material-design-icons.js,"myDestRewriter ( svgPathObj )",22, 79, 4, 0
+repos/javascript/material-ui/packages/material-ui-icons/renameFilters/default.js,"defaultDestRewriter ( svgPathObj , innerPath , options )",10, 96, 2, 0
+repos/javascript/material-ui/packages/material-ui-icons/src/utils/createSvgIcon.js,"createSvgIcon ( path , displayName )",13, 44, 0, 0
+repos/javascript/material-ui/packages/material-ui-utils/src/exactProp.js,"exactProp ( propTypes )",20, 99, 6, 0
+repos/javascript/material-ui/packages/material-ui-utils/src/chainPropTypes.js,"validate ( ... args )",3, 53, 4, 0
+repos/javascript/material-ui/packages/material-ui-utils/src/chainPropTypes.js,"chainPropTypes ( propType1 , propType2 )",9, 53, 4, 0
+repos/javascript/material-ui/packages/material-ui-utils/src/getDisplayName.js,"getFunctionName ( fn )",5, 49, 2, 0
+repos/javascript/material-ui/packages/material-ui-utils/src/getDisplayName.js,"getFunctionComponentName ( Component , fallback = '' )",3, 92, 2, 0
+repos/javascript/material-ui/packages/material-ui-utils/src/getDisplayName.js,"getWrappedName ( outerType , innerType , wrapperName )",6, 101, 4, 0
+repos/javascript/material-ui/packages/material-ui-utils/src/getDisplayName.js,"getDisplayName ( Component )",24, 74, 8, 0
+repos/javascript/material-ui/packages/material-ui-utils/src/getDisplayName.test.js,"YetAnotherComponent ( )",3, 39, 6, 0
+repos/javascript/material-ui/packages/material-ui-utils/src/getDisplayName.test.js,"Div ( props , ref )",3, 78, 6, 0
+repos/javascript/material-ui/packages/material-ui-utils/src/getDisplayName.test.js,"SomeFunction ( )",3, 32, 6, 0
+repos/javascript/material-ui/packages/material-ui-benchmark/src/core.js,"NakedButton ( props )",3, 46, 2, 0
+repos/javascript/material-ui/packages/material-ui-benchmark/src/server.js,"renderFullPage ( html , css )",14, 51, 8, 0
+repos/javascript/material-ui/packages/material-ui-benchmark/src/server.js,"renderPricing ( req , res )",16, 52, 6, 0
+repos/javascript/material-ui/packages/material-ui-benchmark/src/server.js,"renderBox ( req , res )",18, 57, 8, 0
+repos/javascript/material-ui/packages/material-ui-benchmark/src/server.js,"renderAvatar ( req , res )",16, 52, 6, 0
+repos/javascript/material-ui/packages/material-ui-benchmark/src/server.js,"renderStyledFunction ( req , res )",16, 55, 6, 0
+repos/javascript/material-ui/packages/material-ui-benchmark/src/server.js,"renderStyledBox ( req , res )",15, 57, 8, 0
+repos/javascript/material-ui/packages/material-ui-benchmark/src/server.js,"renderEmotionBox ( req , res )",11, 55, 6, 0
+repos/javascript/material-ui/packages/material-ui-benchmark/src/server.js,"renderSpacing ( req , res )",10, 41, 2, 0
+repos/javascript/material-ui/packages/material-ui-benchmark/src/server.js,"renderPalette ( req , res )",10, 41, 2, 0
+repos/javascript/material-ui/packages/material-ui-benchmark/src/server.js,"renderSystem ( req , res )",20, 63, 6, 0
+repos/javascript/material-ui/packages/material-ui-benchmark/src/styles.js,"HookButton ( props )",4, 71, 2, 0
+repos/javascript/material-ui/packages/material-ui-lab/src/ToggleButtonGroup/isValueSelected.js,"isValueSelected ( value , candidate )",11, 60, 0, 0
+repos/javascript/material-ui/packages/material-ui-lab/src/ToggleButtonGroup/ToggleButtonGroup.test.js,"findButton ( wrapper , value )",3, 67, 4, 0
+repos/javascript/material-ui/packages/material-ui-lab/src/Slider/Slider.test.js,"touchList ( touchArray )",4, 44, 2, 0
+repos/javascript/material-ui/packages/material-ui-lab/src/Slider/Slider.test.js,"findHandle ( wrapper )",6, 95, 4, 0
+repos/javascript/material-ui/packages/material-ui-lab/src/Slider/Slider.test.js,"roundToStep ( number )",3, 51, 10, 0
+repos/javascript/material-ui/packages/material-ui-lab/src/Slider/Slider.test.js,"valueReducer ( rawValue , props , event )",24, 99, 14, 0
+repos/javascript/material-ui/packages/material-ui-lab/src/Slider/Slider.js,"percentToValue ( percent , min , max )",3, 46, 2, 0
+repos/javascript/material-ui/packages/material-ui-lab/src/Slider/Slider.js,"roundToStep ( number , step )",3, 43, 2, 0
+repos/javascript/material-ui/packages/material-ui-lab/src/Slider/Slider.js,"getOffset ( node )",9, 57, 2, 0
+repos/javascript/material-ui/packages/material-ui-lab/src/Slider/Slider.js,"getMousePosition ( event , touchId )",25, 77, 4, 0
+repos/javascript/material-ui/packages/material-ui-lab/src/Slider/Slider.js,"calculatePercent ( node , event , isVertical , isRtl , touchId )",10, 93, 2, 0
+repos/javascript/material-ui/packages/material-ui-lab/src/Slider/Slider.js,"preventPageScrolling ( event )",3, 39, 0, 0
+repos/javascript/material-ui/packages/material-ui-lab/src/Slider/Slider.js,"defaultValueReducer ( rawValue , props )",13, 55, 0, 0
+repos/javascript/material-ui/packages/material-ui-lab/src/utils/clamp.js,"clamp ( value , min = 0 , max = 100 )",3, 59, 0, 0
+repos/javascript/material-ui/packages/material-ui-lab/src/Container/Container.js,"Container ( props )",19, 99, 2, 0
+repos/javascript/material-ui/packages/material-ui-lab/src/SpeedDial/SpeedDial.test.js,"findActionsWrapper ( wrapper )",4, 73, 4, 0
+repos/javascript/material-ui/packages/material-ui-lab/src/SpeedDial/utils.js,"getOrientation ( direction )",9, 55, 2, 0
+repos/javascript/material-ui/packages/material-ui-lab/src/SpeedDial/utils.js,"sameOrientation ( directionA , directionB )",3, 68, 2, 0
+repos/javascript/material-ui/packages/material-ui-lab/src/SpeedDialIcon/SpeedDialIcon.js,"formatIcon ( icon , className )",7, 54, 6, 0
+repos/javascript/material-ui/packages/material-ui-lab/src/SpeedDialIcon/SpeedDialIcon.js,"SpeedDialIcon ( props , ref )",24, 95, 6, 0
+repos/javascript/material-ui/modules/log.js,"serializeErr ( msg )",13, 32, 6, 0
+repos/javascript/material-ui/modules/log.js,"serializeDuration ( msg )",6, 46, 4, 0
+repos/javascript/material-ui/modules/log.js,"handleKey ( key , val )",10, 43, 4, 0
+repos/javascript/material-ui/modules/log.js,"safeCycles ( )",13, 43, 4, 0
+repos/javascript/material-ui/modules/log.js,"fastAndSafeJsonStringify ( object )",14, 56, 6, 0
+repos/javascript/material-ui/modules/log.js,"logMethod ( process , console , type )",62, 72, 8, 0
+repos/javascript/material-ui/modules/handleKillSignals.js,"isShuttingDown ( )",3, 35, 0, 0
+repos/javascript/material-ui/modules/handleKillSignals.js,"shutdown ( signal , origin )",39, 83, 6, 0
+repos/javascript/material-ui/modules/handleKillSignals.js,"addTeardown ( teardown )",3, 40, 0, 0
+repos/javascript/material-ui/modules/handleKillSignals.js,"removeTeardown ( teardown )",4, 45, 2, 0
+repos/javascript/material-ui/modules/handleKillSignals.js,"handleKillSignals ( )",39, 61, 2, 0
+repos/javascript/material-ui/modules/waterfall/waitUntil.js,"waitUntil ( test , options = { } )",15, 80, 2, 0
+repos/javascript/material-ui/modules/waterfall/metric.js,"getImplementation ( )",17, 70, 2, 0
+repos/javascript/material-ui/modules/waterfall/retry.js,"retry ( tryFunction , options = { } )",30, 51, 6, 0
+repos/javascript/material-ui/modules/waterfall/forEach.js,"forEach ( array , iteratee )",6, 49, 4, 0
+repos/javascript/material-ui/modules/waterfall/sleep.js,"sleep ( delay = 0 )",5, 34, 2, 0
+repos/javascript/material-ui/pages/premium-themes.js,"Page ( )",3, 91, 2, 0
+repos/javascript/material-ui/pages/_app.js,"loadDependencies ( )",13, 95, 2, 0
+repos/javascript/material-ui/pages/_app.js,"findActivePage ( currentPages , router )",21, 65, 6, 0
+repos/javascript/material-ui/pages/index.js,"loadDependencies ( )",10, 89, 2, 0
+repos/javascript/material-ui/pages/versions.js,"Page ( )",3, 81, 2, 0
+repos/javascript/material-ui/pages/customization/default-theme.js,"Page ( )",3, 81, 2, 0
+repos/javascript/material-ui/pages/customization/overrides.js,"Page ( )",3, 81, 2, 0
+repos/javascript/material-ui/pages/customization/themes.js,"Page ( )",3, 81, 2, 0
+repos/javascript/material-ui/pages/layout/use-media-query.js,"Page ( )",3, 81, 2, 0
+repos/javascript/material-ui/pages/layout/hidden.js,"Page ( )",3, 81, 2, 0
+repos/javascript/material-ui/pages/layout/grid.js,"Page ( )",3, 81, 2, 0
+repos/javascript/material-ui/pages/layout/breakpoints.js,"Page ( )",3, 81, 2, 0
+repos/javascript/material-ui/pages/layout/basics.js,"Page ( )",3, 81, 2, 0
+repos/javascript/material-ui/pages/lab/layout.js,"Page ( )",3, 81, 2, 0
+repos/javascript/material-ui/pages/lab/about.js,"Page ( )",3, 81, 2, 0
+repos/javascript/material-ui/pages/lab/toggle-button.js,"Page ( )",3, 81, 2, 0
+repos/javascript/material-ui/pages/lab/slider.js,"Page ( )",3, 81, 2, 0
+repos/javascript/material-ui/pages/lab/speed-dial.js,"Page ( )",3, 81, 2, 0
+repos/javascript/material-ui/pages/lab/api/speed-dial-action.js,"Page ( )",3, 47, 2, 0
+repos/javascript/material-ui/pages/lab/api/toggle-button.js,"Page ( )",3, 47, 2, 0
+repos/javascript/material-ui/pages/lab/api/speed-dial-icon.js,"Page ( )",3, 47, 2, 0
+repos/javascript/material-ui/pages/lab/api/slider.js,"Page ( )",3, 47, 2, 0
+repos/javascript/material-ui/pages/lab/api/container.js,"Page ( )",3, 47, 2, 0
+repos/javascript/material-ui/pages/lab/api/toggle-button-group.js,"Page ( )",3, 47, 2, 0
+repos/javascript/material-ui/pages/lab/api/speed-dial.js,"Page ( )",3, 47, 2, 0
+repos/javascript/material-ui/pages/utils/popper.js,"Page ( )",3, 81, 2, 0
+repos/javascript/material-ui/pages/utils/box.js,"Page ( )",3, 81, 2, 0
+repos/javascript/material-ui/pages/utils/portal.js,"Page ( )",3, 81, 2, 0
+repos/javascript/material-ui/pages/utils/no-ssr.js,"Page ( )",3, 81, 2, 0
+repos/javascript/material-ui/pages/utils/popover.js,"Page ( )",3, 81, 2, 0
+repos/javascript/material-ui/pages/utils/transitions.js,"Page ( )",3, 81, 2, 0
+repos/javascript/material-ui/pages/utils/modal.js,"Page ( )",3, 81, 2, 0
+repos/javascript/material-ui/pages/utils/click-away-listener.js,"Page ( )",3, 81, 2, 0
+repos/javascript/material-ui/pages/style/icons.js,"Page ( )",3, 81, 2, 0
+repos/javascript/material-ui/pages/style/links.js,"Page ( )",3, 81, 2, 0
+repos/javascript/material-ui/pages/style/css-baseline.js,"Page ( )",3, 81, 2, 0
+repos/javascript/material-ui/pages/style/typography.js,"Page ( )",3, 81, 2, 0
+repos/javascript/material-ui/pages/style/color.js,"Page ( )",3, 81, 2, 0
+repos/javascript/material-ui/pages/css-in-js/advanced.js,"Page ( )",3, 81, 2, 0
+repos/javascript/material-ui/pages/css-in-js/api.js,"Page ( )",3, 81, 2, 0
+repos/javascript/material-ui/pages/css-in-js/basics.js,"Page ( )",3, 81, 2, 0
+repos/javascript/material-ui/pages/system/borders.js,"Page ( )",3, 81, 2, 0
+repos/javascript/material-ui/pages/system/palette.js,"Page ( )",3, 81, 2, 0
+repos/javascript/material-ui/pages/system/display.js,"Page ( )",3, 81, 2, 0
+repos/javascript/material-ui/pages/system/positions.js,"Page ( )",3, 81, 2, 0
+repos/javascript/material-ui/pages/system/spacing.js,"Page ( )",3, 81, 2, 0
+repos/javascript/material-ui/pages/system/typography.js,"Page ( )",3, 81, 2, 0
+repos/javascript/material-ui/pages/system/flexbox.js,"Page ( )",3, 81, 2, 0
+repos/javascript/material-ui/pages/system/sizing.js,"Page ( )",3, 81, 2, 0
+repos/javascript/material-ui/pages/system/api.js,"Page ( )",3, 81, 2, 0
+repos/javascript/material-ui/pages/system/shadows.js,"Page ( )",3, 81, 2, 0
+repos/javascript/material-ui/pages/system/basics.js,"Page ( )",3, 81, 2, 0
+repos/javascript/material-ui/pages/getting-started/installation.js,"Page ( )",3, 91, 2, 0
+repos/javascript/material-ui/pages/getting-started/faq.js,"Page ( )",3, 81, 2, 0
+repos/javascript/material-ui/pages/getting-started/example-projects.js,"Page ( )",3, 81, 2, 0
+repos/javascript/material-ui/pages/getting-started/usage.js,"Page ( )",3, 81, 2, 0
+repos/javascript/material-ui/pages/getting-started/learn.js,"Page ( )",3, 81, 2, 0
+repos/javascript/material-ui/pages/getting-started/page-layout-examples.js,"Page ( )",3, 81, 2, 0
+repos/javascript/material-ui/pages/getting-started/supported-platforms.js,"Page ( )",3, 81, 2, 0
+repos/javascript/material-ui/pages/getting-started/supported-components.js,"Page ( )",3, 81, 2, 0
+repos/javascript/material-ui/pages/getting-started/page-layout-examples/sign-in-side.js,"Page ( props )",11, 61, 6, 0
+repos/javascript/material-ui/pages/getting-started/page-layout-examples/sign-up.js,"Page ( props )",10, 56, 6, 0
+repos/javascript/material-ui/pages/getting-started/page-layout-examples/blog.js,"Page ( props )",7, 97, 4, 0
+repos/javascript/material-ui/pages/getting-started/page-layout-examples/sign-in.js,"Page ( props )",10, 56, 6, 0
+repos/javascript/material-ui/pages/getting-started/page-layout-examples/dashboard.js,"Page ( props )",11, 58, 6, 0
+repos/javascript/material-ui/pages/getting-started/page-layout-examples/album.js,"Page ( props )",7, 91, 4, 0
+repos/javascript/material-ui/pages/getting-started/page-layout-examples/sticky-footer.js,"Page ( props )",11, 62, 6, 0
+repos/javascript/material-ui/pages/getting-started/page-layout-examples/pricing.js,"Page ( props )",10, 56, 6, 0
+repos/javascript/material-ui/pages/getting-started/page-layout-examples/checkout.js,"Page ( props )",10, 57, 6, 0
+repos/javascript/material-ui/pages/guides/typescript.js,"Page ( )",3, 81, 2, 0
+repos/javascript/material-ui/pages/guides/minimizing-bundle-size.js,"Page ( )",3, 81, 2, 0
+repos/javascript/material-ui/pages/guides/migration-v3.js,"Page ( )",3, 81, 2, 0
+repos/javascript/material-ui/pages/guides/flow.js,"Page ( )",3, 81, 2, 0
+repos/javascript/material-ui/pages/guides/server-rendering.js,"Page ( )",3, 81, 2, 0
+repos/javascript/material-ui/pages/guides/migration-v0x.js,"Page ( )",3, 81, 2, 0
+repos/javascript/material-ui/pages/guides/right-to-left.js,"Page ( )",3, 81, 2, 0
+repos/javascript/material-ui/pages/guides/testing.js,"Page ( )",3, 81, 2, 0
+repos/javascript/material-ui/pages/guides/interoperability.js,"Page ( )",3, 81, 2, 0
+repos/javascript/material-ui/pages/guides/composition.js,"Page ( )",3, 81, 2, 0
+repos/javascript/material-ui/pages/guides/api.js,"Page ( )",3, 81, 2, 0
+repos/javascript/material-ui/pages/discover-more/team.js,"Page ( )",3, 81, 2, 0
+repos/javascript/material-ui/pages/discover-more/roadmap.js,"Page ( )",3, 78, 2, 0
+repos/javascript/material-ui/pages/discover-more/related-projects.js,"Page ( )",3, 81, 2, 0
+repos/javascript/material-ui/pages/discover-more/vision.js,"Page ( )",3, 81, 2, 0
+repos/javascript/material-ui/pages/discover-more/governance.js,"Page ( )",3, 81, 2, 0
+repos/javascript/material-ui/pages/discover-more/languages.js,"Page ( )",3, 81, 2, 0
+repos/javascript/material-ui/pages/discover-more/community.js,"Page ( )",3, 81, 2, 0
+repos/javascript/material-ui/pages/discover-more/showcase.js,"Page ( )",3, 81, 2, 0
+repos/javascript/material-ui/pages/discover-more/changelog.js,"Page ( )",3, 81, 2, 0
+repos/javascript/material-ui/pages/discover-more/backers.js,"Page ( )",3, 88, 2, 0
+repos/javascript/material-ui/pages/api/app-bar.js,"Page ( )",3, 47, 2, 0
+repos/javascript/material-ui/pages/api/popper.js,"Page ( )",3, 47, 2, 0
+repos/javascript/material-ui/pages/api/backdrop.js,"Page ( )",3, 47, 2, 0
+repos/javascript/material-ui/pages/api/icon-button.js,"Page ( )",3, 47, 2, 0
+repos/javascript/material-ui/pages/api/table-row.js,"Page ( )",3, 47, 2, 0
+repos/javascript/material-ui/pages/api/form-label.js,"Page ( )",3, 47, 2, 0
+repos/javascript/material-ui/pages/api/step-button.js,"Page ( )",3, 47, 2, 0
+repos/javascript/material-ui/pages/api/divider.js,"Page ( )",3, 47, 2, 0
+repos/javascript/material-ui/pages/api/grid-list-tile-bar.js,"Page ( )",3, 47, 2, 0
+repos/javascript/material-ui/pages/api/chip.js,"Page ( )",3, 47, 2, 0
+repos/javascript/material-ui/pages/api/grow.js,"Page ( )",3, 47, 2, 0
+repos/javascript/material-ui/pages/api/form-group.js,"Page ( )",3, 47, 2, 0
+repos/javascript/material-ui/pages/api/hidden.js,"Page ( )",3, 47, 2, 0
+repos/javascript/material-ui/pages/api/svg-icon.js,"Page ( )",3, 47, 2, 0
+repos/javascript/material-ui/pages/api/grid-list-tile.js,"Page ( )",3, 47, 2, 0
+repos/javascript/material-ui/pages/api/avatar.js,"Page ( )",3, 47, 2, 0
+repos/javascript/material-ui/pages/api/card-action-area.js,"Page ( )",3, 47, 2, 0
+repos/javascript/material-ui/pages/api/switch.js,"Page ( )",3, 47, 2, 0
+repos/javascript/material-ui/pages/api/badge.js,"Page ( )",3, 47, 2, 0
+repos/javascript/material-ui/pages/api/list-item-secondary-action.js,"Page ( )",3, 47, 2, 0
+repos/javascript/material-ui/pages/api/root-ref.js,"Page ( )",3, 47, 2, 0
+repos/javascript/material-ui/pages/api/tooltip.js,"Page ( )",3, 47, 2, 0
+repos/javascript/material-ui/pages/api/menu-item.js,"Page ( )",3, 47, 2, 0
+repos/javascript/material-ui/pages/api/collapse.js,"Page ( )",3, 47, 2, 0
+repos/javascript/material-ui/pages/api/table-cell.js,"Page ( )",3, 47, 2, 0
+repos/javascript/material-ui/pages/api/paper.js,"Page ( )",3, 47, 2, 0
+repos/javascript/material-ui/pages/api/slide.js,"Page ( )",3, 47, 2, 0
+repos/javascript/material-ui/pages/api/expansion-panel-summary.js,"Page ( )",3, 47, 2, 0
+repos/javascript/material-ui/pages/api/css-baseline.js,"Page ( )",3, 47, 2, 0
+repos/javascript/material-ui/pages/api/expansion-panel-details.js,"Page ( )",3, 47, 2, 0
+repos/javascript/material-ui/pages/api/snackbar.js,"Page ( )",3, 47, 2, 0
+repos/javascript/material-ui/pages/api/typography.js,"Page ( )",3, 47, 2, 0
+repos/javascript/material-ui/pages/api/dialog-actions.js,"Page ( )",3, 47, 2, 0
+repos/javascript/material-ui/pages/api/dialog-title.js,"Page ( )",3, 47, 2, 0
+repos/javascript/material-ui/pages/api/grid.js,"Page ( )",3, 47, 2, 0
+repos/javascript/material-ui/pages/api/stepper.js,"Page ( )",3, 47, 2, 0
+repos/javascript/material-ui/pages/api/snackbar-content.js,"Page ( )",3, 47, 2, 0
+repos/javascript/material-ui/pages/api/card-actions.js,"Page ( )",3, 47, 2, 0
+repos/javascript/material-ui/pages/api/table-sort-label.js,"Page ( )",3, 47, 2, 0
+repos/javascript/material-ui/pages/api/icon.js,"Page ( )",3, 47, 2, 0
+repos/javascript/material-ui/pages/api/form-helper-text.js,"Page ( )",3, 47, 2, 0
+repos/javascript/material-ui/pages/api/link.js,"Page ( )",3, 47, 2, 0
+repos/javascript/material-ui/pages/api/expansion-panel.js,"Page ( )",3, 47, 2, 0
+repos/javascript/material-ui/pages/api/input-label.js,"Page ( )",3, 47, 2, 0
+repos/javascript/material-ui/pages/api/step-label.js,"Page ( )",3, 47, 2, 0
+repos/javascript/material-ui/pages/api/table-body.js,"Page ( )",3, 47, 2, 0
+repos/javascript/material-ui/pages/api/list-item-text.js,"Page ( )",3, 47, 2, 0
+repos/javascript/material-ui/pages/api/dialog.js,"Page ( )",3, 47, 2, 0
+repos/javascript/material-ui/pages/api/tabs.js,"Page ( )",3, 47, 2, 0
+repos/javascript/material-ui/pages/api/circular-progress.js,"Page ( )",3, 47, 2, 0
+repos/javascript/material-ui/pages/api/zoom.js,"Page ( )",3, 47, 2, 0
+repos/javascript/material-ui/pages/api/text-field.js,"Page ( )",3, 47, 2, 0
+repos/javascript/material-ui/pages/api/portal.js,"Page ( )",3, 47, 2, 0
+repos/javascript/material-ui/pages/api/list.js,"Page ( )",3, 47, 2, 0
+repos/javascript/material-ui/pages/api/list-item.js,"Page ( )",3, 47, 2, 0
+repos/javascript/material-ui/pages/api/drawer.js,"Page ( )",3, 47, 2, 0
+repos/javascript/material-ui/pages/api/card-header.js,"Page ( )",3, 47, 2, 0
+repos/javascript/material-ui/pages/api/form-control-label.js,"Page ( )",3, 47, 2, 0
+repos/javascript/material-ui/pages/api/touch-ripple.js,"Page ( )",3, 47, 2, 0
+repos/javascript/material-ui/pages/api/tab.js,"Page ( )",3, 47, 2, 0
+repos/javascript/material-ui/pages/api/fade.js,"Page ( )",3, 47, 2, 0
+repos/javascript/material-ui/pages/api/step-icon.js,"Page ( )",3, 47, 2, 0
+repos/javascript/material-ui/pages/api/filled-input.js,"Page ( )",3, 47, 2, 0
+repos/javascript/material-ui/pages/api/no-ssr.js,"Page ( )",3, 47, 2, 0
+repos/javascript/material-ui/pages/api/native-select.js,"Page ( )",3, 47, 2, 0
+repos/javascript/material-ui/pages/api/popover.js,"Page ( )",3, 47, 2, 0
+repos/javascript/material-ui/pages/api/select.js,"Page ( )",3, 47, 2, 0
+repos/javascript/material-ui/pages/api/table.js,"Page ( )",3, 47, 2, 0
+repos/javascript/material-ui/pages/api/breadcrumbs.js,"Page ( )",3, 47, 2, 0
+repos/javascript/material-ui/pages/api/card-content.js,"Page ( )",3, 47, 2, 0
+repos/javascript/material-ui/pages/api/checkbox.js,"Page ( )",3, 47, 2, 0
+repos/javascript/material-ui/pages/api/grid-list.js,"Page ( )",3, 47, 2, 0
+repos/javascript/material-ui/pages/api/mobile-stepper.js,"Page ( )",3, 47, 2, 0
+repos/javascript/material-ui/pages/api/dialog-content-text.js,"Page ( )",3, 47, 2, 0
+repos/javascript/material-ui/pages/api/bottom-navigation.js,"Page ( )",3, 47, 2, 0
+repos/javascript/material-ui/pages/api/form-control.js,"Page ( )",3, 47, 2, 0
+repos/javascript/material-ui/pages/api/expansion-panel-actions.js,"Page ( )",3, 47, 2, 0
+repos/javascript/material-ui/pages/api/table-footer.js,"Page ( )",3, 47, 2, 0
+repos/javascript/material-ui/pages/api/list-item-avatar.js,"Page ( )",3, 47, 2, 0
+repos/javascript/material-ui/pages/api/dialog-content.js,"Page ( )",3, 47, 2, 0
+repos/javascript/material-ui/pages/api/swipeable-drawer.js,"Page ( )",3, 47, 2, 0
+repos/javascript/material-ui/pages/api/outlined-input.js,"Page ( )",3, 47, 2, 0
+repos/javascript/material-ui/pages/api/list-item-icon.js,"Page ( )",3, 47, 2, 0
+repos/javascript/material-ui/pages/api/button.js,"Page ( )",3, 47, 2, 0
+repos/javascript/material-ui/pages/api/list-subheader.js,"Page ( )",3, 47, 2, 0
+repos/javascript/material-ui/pages/api/toolbar.js,"Page ( )",3, 47, 2, 0
+repos/javascript/material-ui/pages/api/bottom-navigation-action.js,"Page ( )",3, 47, 2, 0
+repos/javascript/material-ui/pages/api/step-connector.js,"Page ( )",3, 47, 2, 0
+repos/javascript/material-ui/pages/api/button-base.js,"Page ( )",3, 47, 2, 0
+repos/javascript/material-ui/pages/api/step.js,"Page ( )",3, 47, 2, 0
+repos/javascript/material-ui/pages/api/menu.js,"Page ( )",3, 47, 2, 0
+repos/javascript/material-ui/pages/api/card-media.js,"Page ( )",3, 47, 2, 0
+repos/javascript/material-ui/pages/api/card.js,"Page ( )",3, 47, 2, 0
+repos/javascript/material-ui/pages/api/table-head.js,"Page ( )",3, 47, 2, 0
+repos/javascript/material-ui/pages/api/radio.js,"Page ( )",3, 47, 2, 0
+repos/javascript/material-ui/pages/api/modal.js,"Page ( )",3, 47, 2, 0
+repos/javascript/material-ui/pages/api/fab.js,"Page ( )",3, 47, 2, 0
+repos/javascript/material-ui/pages/api/input-adornment.js,"Page ( )",3, 47, 2, 0
+repos/javascript/material-ui/pages/api/menu-list.js,"Page ( )",3, 47, 2, 0
+repos/javascript/material-ui/pages/api/step-content.js,"Page ( )",3, 47, 2, 0
+repos/javascript/material-ui/pages/api/linear-progress.js,"Page ( )",3, 47, 2, 0
+repos/javascript/material-ui/pages/api/input.js,"Page ( )",3, 47, 2, 0
+repos/javascript/material-ui/pages/api/table-pagination.js,"Page ( )",3, 47, 2, 0
+repos/javascript/material-ui/pages/api/radio-group.js,"Page ( )",3, 47, 2, 0
+repos/javascript/material-ui/pages/api/click-away-listener.js,"Page ( )",3, 47, 2, 0
+repos/javascript/material-ui/pages/api/input-base.js,"Page ( )",3, 47, 2, 0
+repos/javascript/material-ui/pages/premium-themes/instapaper/index.js,"Page ( )",10, 79, 6, 0
+repos/javascript/material-ui/pages/premium-themes/tweeper/index.js,"Page ( )",11, 73, 8, 0
+repos/javascript/material-ui/pages/premium-themes/paperbase/index.js,"Page ( )",11, 73, 8, 0
+repos/javascript/material-ui/pages/premium-themes/onepirate/forgot-password.js,"Page ( )",7, 85, 4, 0
+repos/javascript/material-ui/pages/premium-themes/onepirate/terms.js,"Page ( )",7, 85, 4, 0
+repos/javascript/material-ui/pages/premium-themes/onepirate/index.js,"Page ( )",7, 85, 4, 0
+repos/javascript/material-ui/pages/premium-themes/onepirate/sign-up.js,"Page ( )",7, 85, 4, 0
+repos/javascript/material-ui/pages/premium-themes/onepirate/sign-in.js,"Page ( )",7, 85, 4, 0
+repos/javascript/material-ui/pages/premium-themes/onepirate/privacy.js,"Page ( )",7, 85, 4, 0
+repos/javascript/material-ui/pages/demos/app-bar.js,"Page ( )",3, 81, 2, 0
+repos/javascript/material-ui/pages/demos/text-fields.js,"Page ( )",3, 81, 2, 0
+repos/javascript/material-ui/pages/demos/cards.js,"Page ( )",3, 81, 2, 0
+repos/javascript/material-ui/pages/demos/expansion-panels.js,"Page ( )",3, 81, 2, 0
+repos/javascript/material-ui/pages/demos/paper.js,"Page ( )",3, 81, 2, 0
+repos/javascript/material-ui/pages/demos/drawers.js,"Page ( )",3, 81, 2, 0
+repos/javascript/material-ui/pages/demos/dividers.js,"Page ( )",3, 81, 2, 0
+repos/javascript/material-ui/pages/demos/chips.js,"Page ( )",3, 81, 2, 0
+repos/javascript/material-ui/pages/demos/tooltips.js,"Page ( )",3, 81, 2, 0
+repos/javascript/material-ui/pages/demos/tabs.js,"Page ( )",3, 81, 2, 0
+repos/javascript/material-ui/pages/demos/lists.js,"Page ( )",3, 81, 2, 0
+repos/javascript/material-ui/pages/demos/autocomplete.js,"Page ( )",3, 81, 2, 0
+repos/javascript/material-ui/pages/demos/avatars.js,"Page ( )",3, 81, 2, 0
+repos/javascript/material-ui/pages/demos/dialogs.js,"Page ( )",3, 81, 2, 0
+repos/javascript/material-ui/pages/demos/menus.js,"Page ( )",3, 81, 2, 0
+repos/javascript/material-ui/pages/demos/progress.js,"Page ( )",3, 81, 2, 0
+repos/javascript/material-ui/pages/demos/breadcrumbs.js,"Page ( )",3, 81, 2, 0
+repos/javascript/material-ui/pages/demos/pickers.js,"Page ( )",3, 81, 2, 0
+repos/javascript/material-ui/pages/demos/grid-list.js,"Page ( )",3, 81, 2, 0
+repos/javascript/material-ui/pages/demos/bottom-navigation.js,"Page ( )",3, 81, 2, 0
+repos/javascript/material-ui/pages/demos/selects.js,"Page ( )",3, 81, 2, 0
+repos/javascript/material-ui/pages/demos/snackbars.js,"Page ( )",3, 81, 2, 0
+repos/javascript/material-ui/pages/demos/steppers.js,"Page ( )",3, 81, 2, 0
+repos/javascript/material-ui/pages/demos/tables.js,"Page ( )",3, 81, 2, 0
+repos/javascript/material-ui/pages/demos/badges.js,"Page ( )",3, 81, 2, 0
+repos/javascript/material-ui/pages/demos/selection-controls.js,"Page ( )",3, 81, 2, 0
+repos/javascript/material-ui/pages/demos/buttons.js,"Page ( )",3, 81, 2, 0

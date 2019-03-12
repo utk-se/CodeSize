@@ -1,0 +1,718 @@
+File, Function, Length, Total Width, Leading Space(s), Leading Tab(s)
+repos/python/pytorch_geometric/benchmark/citation/gcn.py,"__init__( self , dataset )",4, 64, 8, 0
+repos/python/pytorch_geometric/benchmark/citation/gcn.py,"reset_parameters( self )",3, 38, 8, 0
+repos/python/pytorch_geometric/benchmark/citation/gcn.py,"forward( self , data )",6, 65, 8, 0
+repos/python/pytorch_geometric/benchmark/citation/arma.py,"__init__( self , dataset )",16, 39, 12, 0
+repos/python/pytorch_geometric/benchmark/citation/arma.py,"reset_parameters( self )",3, 38, 8, 0
+repos/python/pytorch_geometric/benchmark/citation/arma.py,"forward( self , data )",6, 65, 8, 0
+repos/python/pytorch_geometric/benchmark/citation/appnp.py,"__init__( self , dataset )",5, 62, 8, 0
+repos/python/pytorch_geometric/benchmark/citation/appnp.py,"reset_parameters( self )",3, 37, 8, 0
+repos/python/pytorch_geometric/benchmark/citation/appnp.py,"forward( self , data )",8, 65, 8, 0
+repos/python/pytorch_geometric/benchmark/citation/datasets.py,"get_planetoid_dataset( name , normalize_features = False , transform = None )",12, 77, 4, 0
+repos/python/pytorch_geometric/benchmark/citation/sgc.py,"__init__( self , dataset )",4, 78, 12, 0
+repos/python/pytorch_geometric/benchmark/citation/sgc.py,"reset_parameters( self )",2, 38, 8, 0
+repos/python/pytorch_geometric/benchmark/citation/sgc.py,"forward( self , data )",4, 48, 8, 0
+repos/python/pytorch_geometric/benchmark/citation/statistics.py,"print_dataset( dataset )",9, 71, 4, 0
+repos/python/pytorch_geometric/benchmark/citation/gat.py,"__init__( self , dataset )",12, 38, 12, 0
+repos/python/pytorch_geometric/benchmark/citation/gat.py,"reset_parameters( self )",3, 38, 8, 0
+repos/python/pytorch_geometric/benchmark/citation/gat.py,"forward( self , data )",7, 65, 8, 0
+repos/python/pytorch_geometric/benchmark/citation/cheb.py,"__init__( self , dataset )",4, 80, 8, 0
+repos/python/pytorch_geometric/benchmark/citation/cheb.py,"reset_parameters( self )",3, 38, 8, 0
+repos/python/pytorch_geometric/benchmark/citation/cheb.py,"forward( self , data )",6, 65, 8, 0
+repos/python/pytorch_geometric/benchmark/citation/train_eval.py,"index_to_mask( index , size )",4, 69, 4, 0
+repos/python/pytorch_geometric/benchmark/citation/train_eval.py,"random_planetoid_splits( data , num_classes )",22, 78, 4, 0
+repos/python/pytorch_geometric/benchmark/citation/train_eval.py,"run( dataset , model , runs , epochs , lr , weight_decay , early_stopping , permute_masks = None , logger = None )",9, 28, 8, 0
+repos/python/pytorch_geometric/benchmark/citation/train_eval.py,"train( model , optimizer , data )",7, 69, 4, 0
+repos/python/pytorch_geometric/benchmark/citation/train_eval.py,"evaluate( model , data )",17, 69, 8, 0
+repos/python/pytorch_geometric/benchmark/points/edge_cnn.py,"__init__( self , num_classes )",16, 79, 8, 0
+repos/python/pytorch_geometric/benchmark/points/edge_cnn.py,"forward( self , pos , batch )",16, 56, 8, 0
+repos/python/pytorch_geometric/benchmark/points/datasets.py,"get_dataset( num_points )",20, 77, 4, 0
+repos/python/pytorch_geometric/benchmark/points/spline_cnn.py,"__init__( self , num_classes )",10, 63, 8, 0
+repos/python/pytorch_geometric/benchmark/points/spline_cnn.py,"forward( self , pos , batch )",34, 80, 8, 0
+repos/python/pytorch_geometric/benchmark/points/mpnn.py,"__init__( self , num_classes )",15, 56, 8, 0
+repos/python/pytorch_geometric/benchmark/points/mpnn.py,"forward( self , pos , batch )",30, 62, 8, 0
+repos/python/pytorch_geometric/benchmark/points/point_cnn.py,"__init__( self , num_classes )",14, 71, 12, 0
+repos/python/pytorch_geometric/benchmark/points/point_cnn.py,"forward( self , pos , batch )",21, 56, 8, 0
+repos/python/pytorch_geometric/benchmark/points/point_net.py,"__init__( self , num_classes )",15, 55, 8, 0
+repos/python/pytorch_geometric/benchmark/points/point_net.py,"forward( self , pos , batch )",26, 62, 8, 0
+repos/python/pytorch_geometric/benchmark/points/statistics.py,"print_dataset( train_dataset , test_dataset )",17, 57, 4, 0
+repos/python/pytorch_geometric/benchmark/points/train_eval.py,"run( train_dataset , test_dataset , model , epochs , batch_size , lr , lr_decay_factor , lr_decay_step_size , weight_decay )",2, 68, 0, 0
+repos/python/pytorch_geometric/benchmark/points/train_eval.py,"train( model , optimizer , train_loader , device )",10, 51, 0, 0
+repos/python/pytorch_geometric/benchmark/points/train_eval.py,"test( model , test_loader , device )",11, 53, 8, 0
+repos/python/pytorch_geometric/benchmark/kernel/gcn.py,"__init__( self , dataset , num_layers , hidden )",8, 65, 8, 0
+repos/python/pytorch_geometric/benchmark/kernel/gcn.py,"reset_parameters( self )",6, 38, 8, 0
+repos/python/pytorch_geometric/benchmark/kernel/gcn.py,"forward( self , data )",12, 67, 8, 0
+repos/python/pytorch_geometric/benchmark/kernel/gcn.py,"__repr__( self )",2, 39, 8, 0
+repos/python/pytorch_geometric/benchmark/kernel/set2set.py,"__init__( self , dataset , num_layers , hidden )",9, 60, 8, 0
+repos/python/pytorch_geometric/benchmark/kernel/set2set.py,"reset_parameters( self )",7, 40, 8, 0
+repos/python/pytorch_geometric/benchmark/kernel/set2set.py,"forward( self , data )",10, 67, 8, 0
+repos/python/pytorch_geometric/benchmark/kernel/set2set.py,"__repr__( self )",2, 39, 8, 0
+repos/python/pytorch_geometric/benchmark/kernel/datasets.py,"__init__( self , mean , std )",3, 35, 4, 0
+repos/python/pytorch_geometric/benchmark/kernel/datasets.py,"__call__( self , data )",5, 60, 8, 0
+repos/python/pytorch_geometric/benchmark/kernel/datasets.py,"get_dataset( name , sparse = True )",42, 80, 12, 0
+repos/python/pytorch_geometric/benchmark/kernel/top_k.py,"__init__( self , dataset , num_layers , hidden )",10, 74, 8, 0
+repos/python/pytorch_geometric/benchmark/kernel/top_k.py,"reset_parameters( self )",7, 55, 8, 0
+repos/python/pytorch_geometric/benchmark/kernel/top_k.py,"forward( self , data )",14, 78, 16, 0
+repos/python/pytorch_geometric/benchmark/kernel/top_k.py,"__repr__( self )",2, 39, 8, 0
+repos/python/pytorch_geometric/benchmark/kernel/global_attention.py,"__init__( self , dataset , num_layers , hidden )",9, 60, 8, 0
+repos/python/pytorch_geometric/benchmark/kernel/global_attention.py,"reset_parameters( self )",7, 38, 8, 0
+repos/python/pytorch_geometric/benchmark/kernel/global_attention.py,"forward( self , data )",10, 67, 8, 0
+repos/python/pytorch_geometric/benchmark/kernel/global_attention.py,"__repr__( self )",2, 39, 8, 0
+repos/python/pytorch_geometric/benchmark/kernel/graclus.py,"__init__( self , dataset , num_layers , hidden )",8, 74, 8, 0
+repos/python/pytorch_geometric/benchmark/kernel/graclus.py,"reset_parameters( self )",6, 38, 8, 0
+repos/python/pytorch_geometric/benchmark/kernel/graclus.py,"forward( self , data )",17, 75, 16, 0
+repos/python/pytorch_geometric/benchmark/kernel/graclus.py,"__repr__( self )",2, 39, 8, 0
+repos/python/pytorch_geometric/benchmark/kernel/statistics.py,"print_dataset( dataset )",13, 52, 4, 0
+repos/python/pytorch_geometric/benchmark/kernel/gin.py,"__init__( self , dataset , num_layers , hidden )",25, 65, 8, 0
+repos/python/pytorch_geometric/benchmark/kernel/gin.py,"reset_parameters( self )",6, 38, 8, 0
+repos/python/pytorch_geometric/benchmark/kernel/gin.py,"forward( self , data )",12, 67, 8, 0
+repos/python/pytorch_geometric/benchmark/kernel/gin.py,"__repr__( self )",2, 39, 8, 0
+repos/python/pytorch_geometric/benchmark/kernel/gin.py,"__init__( self , dataset , num_layers , hidden )",25, 65, 8, 0
+repos/python/pytorch_geometric/benchmark/kernel/gin.py,"reset_parameters( self )",6, 38, 8, 0
+repos/python/pytorch_geometric/benchmark/kernel/gin.py,"forward( self , data )",12, 67, 8, 0
+repos/python/pytorch_geometric/benchmark/kernel/gin.py,"__repr__( self )",2, 39, 8, 0
+repos/python/pytorch_geometric/benchmark/kernel/graph_sage.py,"__init__( self , dataset , num_layers , hidden )",8, 65, 8, 0
+repos/python/pytorch_geometric/benchmark/kernel/graph_sage.py,"reset_parameters( self )",6, 38, 8, 0
+repos/python/pytorch_geometric/benchmark/kernel/graph_sage.py,"forward( self , data )",12, 67, 8, 0
+repos/python/pytorch_geometric/benchmark/kernel/graph_sage.py,"__repr__( self )",2, 39, 8, 0
+repos/python/pytorch_geometric/benchmark/kernel/graph_sage.py,"__init__( self , dataset , num_layers , hidden )",8, 60, 8, 0
+repos/python/pytorch_geometric/benchmark/kernel/graph_sage.py,"reset_parameters( self )",6, 38, 8, 0
+repos/python/pytorch_geometric/benchmark/kernel/graph_sage.py,"forward( self , data )",10, 67, 8, 0
+repos/python/pytorch_geometric/benchmark/kernel/graph_sage.py,"__repr__( self )",2, 39, 8, 0
+repos/python/pytorch_geometric/benchmark/kernel/main.py,"logger( info )",5, 75, 4, 0
+repos/python/pytorch_geometric/benchmark/kernel/sort_pool.py,"__init__( self , dataset , num_layers , hidden )",9, 60, 8, 0
+repos/python/pytorch_geometric/benchmark/kernel/sort_pool.py,"reset_parameters( self )",6, 38, 8, 0
+repos/python/pytorch_geometric/benchmark/kernel/sort_pool.py,"forward( self , data )",10, 67, 8, 0
+repos/python/pytorch_geometric/benchmark/kernel/sort_pool.py,"__repr__( self )",2, 39, 8, 0
+repos/python/pytorch_geometric/benchmark/kernel/train_eval.py,"cross_validation_with_val_set( dataset , model , folds , epochs , batch_size , lr , lr_decay_factor , lr_decay_step_size , weight_decay , logger = None )",10, 54, 34, 0
+repos/python/pytorch_geometric/benchmark/kernel/train_eval.py,"k_fold( dataset , folds )",16, 72, 4, 0
+repos/python/pytorch_geometric/benchmark/kernel/train_eval.py,"num_graphs( data )",5, 31, 4, 0
+repos/python/pytorch_geometric/benchmark/kernel/train_eval.py,"train( model , optimizer , loader , device )",13, 53, 8, 0
+repos/python/pytorch_geometric/benchmark/kernel/train_eval.py,"eval_acc( model , loader , device )",10, 57, 8, 0
+repos/python/pytorch_geometric/benchmark/kernel/train_eval.py,"eval_loss( model , loader , device )",10, 73, 8, 0
+repos/python/pytorch_geometric/benchmark/kernel/diff_pool.py,"__init__( self , in_channels , hidden_channels , out_channels )",8, 68, 4, 0
+repos/python/pytorch_geometric/benchmark/kernel/diff_pool.py,"reset_parameters( self )",4, 38, 8, 0
+repos/python/pytorch_geometric/benchmark/kernel/diff_pool.py,"forward( self , x , adj , mask = None , add_loop = True )",4, 57, 4, 0
+repos/python/pytorch_geometric/benchmark/kernel/diff_pool.py,"__init__( self , dataset , num_layers , hidden )",16, 74, 8, 0
+repos/python/pytorch_geometric/benchmark/kernel/diff_pool.py,"reset_parameters( self )",8, 72, 8, 0
+repos/python/pytorch_geometric/benchmark/kernel/diff_pool.py,"forward( self , data )",19, 69, 8, 0
+repos/python/pytorch_geometric/benchmark/kernel/diff_pool.py,"__repr__( self )",2, 39, 8, 0
+repos/python/pytorch_geometric/test/visualization/test_influence.py,"__init__( self , in_channels , out_channels )",4, 57, 8, 0
+repos/python/pytorch_geometric/test/visualization/test_influence.py,"forward( self , x , edge_index )",4, 64, 8, 0
+repos/python/pytorch_geometric/test/visualization/test_influence.py,"test_influence( )",7, 71, 4, 0
+repos/python/pytorch_geometric/test/nn/test_reshape.py,"test_reshape( )",7, 52, 4, 0
+repos/python/pytorch_geometric/test/nn/test_inits.py,"test_inits( )",16, 40, 4, 0
+repos/python/pytorch_geometric/test/nn/test_inits.py,"test_reset( )",11, 58, 4, 0
+repos/python/pytorch_geometric/test/nn/test_meta.py,"test_meta_layer( )",34, 64, 38, 0
+repos/python/pytorch_geometric/test/nn/dense/test_diff_pool.py,"test_dense_diff_pool( )",11, 75, 4, 0
+repos/python/pytorch_geometric/test/nn/dense/test_dense_sage_conv.py,"test_dense_sage_conv( )",32, 77, 4, 0
+repos/python/pytorch_geometric/test/nn/conv/test_gated_graph_conv.py,"test_gcn_conv( )",9, 72, 4, 0
+repos/python/pytorch_geometric/test/nn/conv/test_nn_conv.py,"test_nn_conv( )",11, 75, 4, 0
+repos/python/pytorch_geometric/test/nn/conv/test_cheb_conv.py,"test_cheb_conv( )",11, 80, 4, 0
+repos/python/pytorch_geometric/test/nn/conv/test_arma_conv.py,"test_arma_conv( )",19, 80, 4, 0
+repos/python/pytorch_geometric/test/nn/conv/test_agnn_conv.py,"test_agnn_conv( )",11, 72, 4, 0
+repos/python/pytorch_geometric/test/nn/conv/test_spline_conv.py,"test_spline_conv( )",10, 75, 4, 0
+repos/python/pytorch_geometric/test/nn/conv/test_gmm_conv.py,"test_gmm_conv( )",10, 75, 4, 0
+repos/python/pytorch_geometric/test/nn/conv/test_rgcn_conv.py,"test_rgcn_conv( )",15, 78, 4, 0
+repos/python/pytorch_geometric/test/nn/conv/test_point_conv.py,"test_point_conv( )",19, 76, 4, 0
+repos/python/pytorch_geometric/test/nn/conv/test_sage_conv.py,"test_sage_conv( )",9, 72, 4, 0
+repos/python/pytorch_geometric/test/nn/conv/test_sg_conv.py,"test_sg_conv( )",10, 72, 4, 0
+repos/python/pytorch_geometric/test/nn/conv/test_x_conv.py,"test_x_conv( )",10, 78, 4, 0
+repos/python/pytorch_geometric/test/nn/conv/test_edge_conv.py,"test_edge_conv_conv( )",15, 72, 4, 0
+repos/python/pytorch_geometric/test/nn/conv/test_gin_conv.py,"test_gin_conv( )",17, 72, 4, 0
+repos/python/pytorch_geometric/test/nn/conv/test_appnp.py,"test_appnp( )",10, 72, 4, 0
+repos/python/pytorch_geometric/test/nn/conv/test_gcn_conv.py,"test_gcn_conv( )",11, 80, 4, 0
+repos/python/pytorch_geometric/test/nn/conv/test_gat_conv.py,"test_gat_conv( )",12, 72, 4, 0
+repos/python/pytorch_geometric/test/nn/conv/test_graph_conv.py,"test_gcn_conv( )",9, 72, 4, 0
+repos/python/pytorch_geometric/test/nn/glob/test_set2set.py,"test_set2set( )",23, 72, 4, 0
+repos/python/pytorch_geometric/test/nn/glob/test_sort.py,"test_global_sort_pool( )",22, 76, 4, 0
+repos/python/pytorch_geometric/test/nn/glob/test_sort.py,"test_global_sort_pool_smaller_than_k( )",24, 76, 4, 0
+repos/python/pytorch_geometric/test/nn/glob/test_attention.py,"test_global_attention( )",23, 79, 4, 0
+repos/python/pytorch_geometric/test/nn/glob/test_glob.py,"test_global_pool( )",19, 76, 4, 0
+repos/python/pytorch_geometric/test/nn/pool/test_max_pool.py,"test_max_pool_x( )",11, 74, 4, 0
+repos/python/pytorch_geometric/test/nn/pool/test_max_pool.py,"test_max_pool( )",19, 79, 8, 0
+repos/python/pytorch_geometric/test/nn/pool/test_voxel_grid.py,"test_voxel_grid( )",8, 70, 4, 0
+repos/python/pytorch_geometric/test/nn/pool/test_graclus.py,"test_graclus( )",3, 50, 4, 0
+repos/python/pytorch_geometric/test/nn/pool/test_consecutive.py,"test_consecutive_cluster( )",6, 52, 4, 0
+repos/python/pytorch_geometric/test/nn/pool/test_avg_pool.py,"test_avg_pool_x( )",11, 74, 4, 0
+repos/python/pytorch_geometric/test/nn/pool/test_avg_pool.py,"test_avg_pool( )",19, 79, 8, 0
+repos/python/pytorch_geometric/test/nn/pool/test_topk_pool.py,"test_topk( )",9, 45, 4, 0
+repos/python/pytorch_geometric/test/nn/pool/test_topk_pool.py,"test_filter_adj( )",9, 68, 4, 0
+repos/python/pytorch_geometric/test/nn/pool/test_topk_pool.py,"test_topk_pooling( )",13, 70, 31, 0
+repos/python/pytorch_geometric/test/datasets/test_planetoid.py,"test_citeseer( )",28, 77, 8, 0
+repos/python/pytorch_geometric/test/datasets/test_mutag.py,"test_mutag( )",16, 68, 4, 0
+repos/python/pytorch_geometric/test/datasets/test_enzymes.py,"test_enzymes( )",54, 68, 4, 0
+repos/python/pytorch_geometric/test/utils/test_metric.py,"test_metric( )",12, 74, 4, 0
+repos/python/pytorch_geometric/test/utils/test_repeat.py,"test_repeat( )",6, 61, 4, 0
+repos/python/pytorch_geometric/test/utils/test_grid.py,"test_grid( )",13, 68, 4, 0
+repos/python/pytorch_geometric/test/utils/test_undirected.py,"test_is_undirected( )",10, 61, 4, 0
+repos/python/pytorch_geometric/test/utils/test_undirected.py,"test_to_undirected( )",6, 63, 4, 0
+repos/python/pytorch_geometric/test/utils/test_isolated.py,"test_contains_isolated_nodes( )",10, 80, 4, 0
+repos/python/pytorch_geometric/test/utils/test_sparse.py,"test_dense_to_sparse( )",6, 57, 4, 0
+repos/python/pytorch_geometric/test/utils/test_sparse.py,"test_sparse_to_dense( )",6, 54, 4, 0
+repos/python/pytorch_geometric/test/utils/test_normalized_cut.py,"test_normalized_cut( )",8, 71, 4, 0
+repos/python/pytorch_geometric/test/utils/test_convert.py,"test_to_scipy_sparse_matrix( )",18, 76, 4, 0
+repos/python/pytorch_geometric/test/utils/test_convert.py,"test_to_networkx( )",19, 73, 4, 0
+repos/python/pytorch_geometric/test/utils/test_one_hot.py,"test_one_hot( )",11, 74, 4, 0
+repos/python/pytorch_geometric/test/utils/test_scatter.py,"test_scatter_( )",7, 60, 4, 0
+repos/python/pytorch_geometric/test/utils/test_loop.py,"test_contains_self_loops( )",10, 67, 4, 0
+repos/python/pytorch_geometric/test/utils/test_loop.py,"test_remove_self_loops( )",10, 68, 4, 0
+repos/python/pytorch_geometric/test/utils/test_loop.py,"test_add_self_loops( )",7, 59, 4, 0
+repos/python/pytorch_geometric/test/utils/test_to_dense_batch.py,"test_to_dense_batch( )",12, 74, 4, 0
+repos/python/pytorch_geometric/test/utils/test_softmax.py,"test_softmax( )",6, 44, 4, 0
+repos/python/pytorch_geometric/test/utils/test_degree.py,"test_degree( )",5, 40, 4, 0
+repos/python/pytorch_geometric/test/transforms/test_spherical.py,"test_spherical( )",41, 76, 4, 0
+repos/python/pytorch_geometric/test/transforms/test_random_shear.py,"test_random_shear( )",14, 61, 4, 0
+repos/python/pytorch_geometric/test/transforms/test_face_to_edge.py,"test_face_to_edge( )",11, 72, 4, 0
+repos/python/pytorch_geometric/test/transforms/test_sample_points.py,"test_sample_points( )",13, 71, 4, 0
+repos/python/pytorch_geometric/test/transforms/test_cartesian.py,"test_cartesian( )",21, 76, 4, 0
+repos/python/pytorch_geometric/test/transforms/test_normalize_features.py,"test_normalize_scale( )",9, 68, 4, 0
+repos/python/pytorch_geometric/test/transforms/test_compose.py,"test_compose( )",16, 63, 4, 0
+repos/python/pytorch_geometric/test/transforms/test_distance.py,"test_distance( )",20, 75, 4, 0
+repos/python/pytorch_geometric/test/transforms/test_linear_transformation.py,"test_cartesian( )",12, 65, 36, 0
+repos/python/pytorch_geometric/test/transforms/test_one_hot_degree.py,"test_one_hot_degree( )",19, 73, 4, 0
+repos/python/pytorch_geometric/test/transforms/test_target_indegree.py,"test_target_indegree( )",18, 75, 4, 0
+repos/python/pytorch_geometric/test/transforms/test_normalize_scale.py,"test_normalize_scale( )",10, 61, 4, 0
+repos/python/pytorch_geometric/test/transforms/test_constant.py,"test_constant( )",17, 65, 4, 0
+repos/python/pytorch_geometric/test/transforms/test_random_flip.py,"test_random_flip( )",14, 72, 4, 0
+repos/python/pytorch_geometric/test/transforms/test_polar.py,"test_polar( )",21, 75, 4, 0
+repos/python/pytorch_geometric/test/transforms/test_random_scale.py,"test_random_scale( )",14, 69, 4, 0
+repos/python/pytorch_geometric/test/transforms/test_random_translate.py,"test_random_translate( )",23, 69, 4, 0
+repos/python/pytorch_geometric/test/transforms/test_knn_graph.py,"test_knn_graph( )",14, 75, 4, 0
+repos/python/pytorch_geometric/test/transforms/test_local_cartesian.py,"test_local_cartesian( )",22, 72, 4, 0
+repos/python/pytorch_geometric/test/transforms/test_two_hop.py,"test_two_hop( )",18, 78, 4, 0
+repos/python/pytorch_geometric/test/transforms/test_to_dense.py,"test_to_dense( )",46, 79, 4, 0
+repos/python/pytorch_geometric/test/transforms/test_center.py,"test_center( )",9, 58, 4, 0
+repos/python/pytorch_geometric/test/transforms/test_random_rotate.py,"test_random_rotate( )",35, 76, 52, 0
+repos/python/pytorch_geometric/test/transforms/test_local_degree_profile.py,"test_target_indegree( )",17, 69, 4, 0
+repos/python/pytorch_geometric/test/transforms/test_add_self_loops.py,"test_add_self_loops( )",10, 63, 4, 0
+repos/python/pytorch_geometric/test/transforms/test_radius_graph.py,"test_radius_graph( )",10, 80, 4, 0
+repos/python/pytorch_geometric/test/data/test_data.py,"test_data( )",55, 70, 4, 0
+repos/python/pytorch_geometric/test/data/test_batch.py,"test_batch( )",14, 80, 4, 0
+repos/python/pytorch_geometric/docs/source/conf.py,"setup.skip( app , what , name , obj , skip , options )",9, 51, 4, 0
+repos/python/pytorch_geometric/docs/source/conf.py,"setup( app )",12, 51, 4, 0
+repos/python/pytorch_geometric/torch_geometric/visualization/influence.py,"influence( model , src , * args )",10, 80, 8, 0
+repos/python/pytorch_geometric/torch_geometric/nn/inits.py,"uniform( size , tensor )",4, 42, 8, 0
+repos/python/pytorch_geometric/torch_geometric/nn/inits.py,"glorot( tensor )",4, 64, 4, 0
+repos/python/pytorch_geometric/torch_geometric/nn/inits.py,"zeros( tensor )",3, 29, 8, 0
+repos/python/pytorch_geometric/torch_geometric/nn/inits.py,"ones( tensor )",3, 29, 8, 0
+repos/python/pytorch_geometric/torch_geometric/nn/inits.py,"reset._reset( item )",3, 46, 8, 0
+repos/python/pytorch_geometric/torch_geometric/nn/inits.py,"reset( nn )",11, 69, 8, 0
+repos/python/pytorch_geometric/torch_geometric/nn/reshape.py,"__init__( self , * shape )",3, 40, 8, 0
+repos/python/pytorch_geometric/torch_geometric/nn/reshape.py,"forward( self , x )",4, 32, 8, 0
+repos/python/pytorch_geometric/torch_geometric/nn/reshape.py,"__repr__( self )",3, 72, 31, 0
+repos/python/pytorch_geometric/torch_geometric/nn/data_parallel.py,"__init__( self , module , device_ids = None , output_device = None )",3, 78, 8, 0
+repos/python/pytorch_geometric/torch_geometric/nn/data_parallel.py,"forward( self , data_list )",17, 78, 20, 0
+repos/python/pytorch_geometric/torch_geometric/nn/data_parallel.py,"scatter( self , data_list , device_ids )",16, 79, 16, 0
+repos/python/pytorch_geometric/torch_geometric/nn/meta.py,"__init__( self , edge_model = None , node_model = None , global_model = None )",7, 77, 4, 0
+repos/python/pytorch_geometric/torch_geometric/nn/meta.py,"reset_parameters( self )",4, 75, 8, 0
+repos/python/pytorch_geometric/torch_geometric/nn/meta.py,"forward( self , x , edge_index , edge_attr = None , u = None , batch = None )",14, 74, 4, 0
+repos/python/pytorch_geometric/torch_geometric/nn/meta.py,"__repr__( self )",7, 70, 16, 0
+repos/python/pytorch_geometric/torch_geometric/nn/dense/dense_sage_conv.py,"__init__( self , in_channels , out_channels , normalize = True , bias = True )",13, 78, 4, 0
+repos/python/pytorch_geometric/torch_geometric/nn/dense/dense_sage_conv.py,"reset_parameters( self )",3, 47, 8, 0
+repos/python/pytorch_geometric/torch_geometric/nn/dense/dense_sage_conv.py,"forward( self , x , adj , mask = None , add_loop = True )",39, 80, 12, 0
+repos/python/pytorch_geometric/torch_geometric/nn/dense/dense_sage_conv.py,"__repr__( self )",3, 78, 8, 0
+repos/python/pytorch_geometric/torch_geometric/nn/dense/diff_pool.py,"dense_diff_pool( x , adj , s , mask = None )",57, 79, 12, 0
+repos/python/pytorch_geometric/torch_geometric/nn/conv/spline_conv.py,"__init__( self , in_channels , out_channels , dim , kernel_size , is_open_spline = True , degree = 1 , norm = True , root_weight = True , bias = True )",10, 38, 17, 0
+repos/python/pytorch_geometric/torch_geometric/nn/conv/spline_conv.py,"reset_parameters( self )",5, 54, 8, 0
+repos/python/pytorch_geometric/torch_geometric/nn/conv/spline_conv.py,"forward( self , x , edge_index , pseudo )",15, 80, 20, 0
+repos/python/pytorch_geometric/torch_geometric/nn/conv/spline_conv.py,"__repr__( self )",3, 78, 8, 0
+repos/python/pytorch_geometric/torch_geometric/nn/conv/edge_conv.py,"__init__( self , nn , aggr = 'max' )",5, 41, 8, 0
+repos/python/pytorch_geometric/torch_geometric/nn/conv/edge_conv.py,"reset_parameters( self )",2, 32, 4, 0
+repos/python/pytorch_geometric/torch_geometric/nn/conv/edge_conv.py,"forward( self , x , edge_index )",10, 64, 8, 0
+repos/python/pytorch_geometric/torch_geometric/nn/conv/edge_conv.py,"__repr__( self )",2, 68, 8, 0
+repos/python/pytorch_geometric/torch_geometric/nn/conv/gmm_conv.py,"__init__( self , in_channels , out_channels , dim , bias = True )",12, 73, 8, 0
+repos/python/pytorch_geometric/torch_geometric/nn/conv/gmm_conv.py,"reset_parameters( self )",5, 34, 8, 0
+repos/python/pytorch_geometric/torch_geometric/nn/conv/gmm_conv.py,"forward( self , x , edge_index , pseudo )",18, 77, 8, 0
+repos/python/pytorch_geometric/torch_geometric/nn/conv/gmm_conv.py,"__repr__( self )",3, 78, 8, 0
+repos/python/pytorch_geometric/torch_geometric/nn/conv/janossy.py,"__init__( self , op , num_permutations , bias = True )",7, 57, 4, 0
+repos/python/pytorch_geometric/torch_geometric/nn/conv/janossy.py,"reset_parameters( self )",2, 35, 8, 0
+repos/python/pytorch_geometric/torch_geometric/nn/conv/janossy.py,"forward( self , x , edge_index , * args , ** kwargs )",8, 70, 12, 0
+repos/python/pytorch_geometric/torch_geometric/nn/conv/janossy.py,"__repr__( self )",3, 69, 12, 0
+repos/python/pytorch_geometric/torch_geometric/nn/conv/x_conv.py,"__init__( self , in_channels , out_channels , dim , kernel_size , hidden_channels = None , dilation = 1 , bias = True )",8, 39, 17, 0
+repos/python/pytorch_geometric/torch_geometric/nn/conv/x_conv.py,"reset_parameters( self )",4, 32, 4, 0
+repos/python/pytorch_geometric/torch_geometric/nn/conv/x_conv.py,"forward( self , x , pos , batch = None )",35, 79, 8, 0
+repos/python/pytorch_geometric/torch_geometric/nn/conv/x_conv.py,"__repr__( self )",3, 78, 8, 0
+repos/python/pytorch_geometric/torch_geometric/nn/conv/graph_conv.py,"__init__( self , in_channels , out_channels , aggr = 'add' , bias = True )",11, 74, 4, 0
+repos/python/pytorch_geometric/torch_geometric/nn/conv/graph_conv.py,"reset_parameters( self )",4, 36, 8, 0
+repos/python/pytorch_geometric/torch_geometric/nn/conv/graph_conv.py,"forward( self , x , edge_index )",4, 63, 8, 0
+repos/python/pytorch_geometric/torch_geometric/nn/conv/graph_conv.py,"message( self , h_j )",2, 28, 4, 0
+repos/python/pytorch_geometric/torch_geometric/nn/conv/graph_conv.py,"update( self , aggr_out , x )",2, 38, 8, 0
+repos/python/pytorch_geometric/torch_geometric/nn/conv/graph_conv.py,"__repr__( self )",3, 78, 8, 0
+repos/python/pytorch_geometric/torch_geometric/nn/conv/nn_conv.py,"__init__( self , in_channels , out_channels , nn , aggr = 'add' , root_weight = True , bias = True )",7, 35, 17, 0
+repos/python/pytorch_geometric/torch_geometric/nn/conv/nn_conv.py,"reset_parameters( self )",5, 33, 8, 0
+repos/python/pytorch_geometric/torch_geometric/nn/conv/nn_conv.py,"forward( self , x , edge_index , pseudo )",18, 71, 8, 0
+repos/python/pytorch_geometric/torch_geometric/nn/conv/nn_conv.py,"__repr__( self )",3, 78, 8, 0
+repos/python/pytorch_geometric/torch_geometric/nn/conv/appnp.py,"__init__( self , K , alpha , bias = True )",4, 45, 4, 0
+repos/python/pytorch_geometric/torch_geometric/nn/conv/appnp.py,"forward( self , x , edge_index , edge_weight = None )",12, 66, 12, 0
+repos/python/pytorch_geometric/torch_geometric/nn/conv/appnp.py,"message( self , x_j , norm )",2, 38, 8, 0
+repos/python/pytorch_geometric/torch_geometric/nn/conv/appnp.py,"__repr__( self )",3, 76, 8, 0
+repos/python/pytorch_geometric/torch_geometric/nn/conv/arma_conv.py,"__init__( self , in_channels , out_channels , num_stacks = 1 , num_layers = 1 , shared_weights = False , act = F . relu , dropout = 0 , bias = True )",9, 39, 17, 0
+repos/python/pytorch_geometric/torch_geometric/nn/conv/arma_conv.py,"reset_parameters( self )",8, 35, 12, 0
+repos/python/pytorch_geometric/torch_geometric/nn/conv/arma_conv.py,"forward( self , x , edge_index , edge_weight = None )",40, 71, 8, 0
+repos/python/pytorch_geometric/torch_geometric/nn/conv/arma_conv.py,"__repr__( self )",4, 74, 12, 0
+repos/python/pytorch_geometric/torch_geometric/nn/conv/agnn_conv.py,"__init__( self , requires_grad = True )",11, 56, 12, 0
+repos/python/pytorch_geometric/torch_geometric/nn/conv/agnn_conv.py,"reset_parameters( self )",3, 36, 12, 0
+repos/python/pytorch_geometric/torch_geometric/nn/conv/agnn_conv.py,"propagation_matrix( self , x , edge_index )",13, 74, 8, 0
+repos/python/pytorch_geometric/torch_geometric/nn/conv/agnn_conv.py,"forward( self , x , edge_index )",5, 73, 8, 0
+repos/python/pytorch_geometric/torch_geometric/nn/conv/agnn_conv.py,"__repr__( self )",2, 54, 8, 0
+repos/python/pytorch_geometric/torch_geometric/nn/conv/gin_conv.py,"__init__( self , nn , eps = 0 , train_eps = False )",9, 63, 12, 0
+repos/python/pytorch_geometric/torch_geometric/nn/conv/gin_conv.py,"reset_parameters( self )",3, 46, 8, 0
+repos/python/pytorch_geometric/torch_geometric/nn/conv/gin_conv.py,"forward( self , x , edge_index )",10, 66, 8, 0
+repos/python/pytorch_geometric/torch_geometric/nn/conv/gin_conv.py,"__repr__( self )",2, 68, 8, 0
+repos/python/pytorch_geometric/torch_geometric/nn/conv/gat_conv.py,"__init__( self , in_channels , out_channels , heads = 1 , concat = True , negative_slope = 0 . 2 , dropout = 0 , bias = True )",8, 37, 17, 0
+repos/python/pytorch_geometric/torch_geometric/nn/conv/gat_conv.py,"reset_parameters( self )",4, 32, 4, 0
+repos/python/pytorch_geometric/torch_geometric/nn/conv/gat_conv.py,"forward( self , x , edge_index )",6, 77, 8, 0
+repos/python/pytorch_geometric/torch_geometric/nn/conv/gat_conv.py,"message( self , x_i , x_j , edge_index , num_nodes )",11, 71, 8, 0
+repos/python/pytorch_geometric/torch_geometric/nn/conv/gat_conv.py,"update( self , aggr_out )",9, 73, 12, 0
+repos/python/pytorch_geometric/torch_geometric/nn/conv/gat_conv.py,"__repr__( self )",4, 76, 45, 0
+repos/python/pytorch_geometric/torch_geometric/nn/conv/gcn_conv.py,"__init__( self , in_channels , out_channels , improved = False , bias = True )",15, 78, 4, 0
+repos/python/pytorch_geometric/torch_geometric/nn/conv/gcn_conv.py,"reset_parameters( self )",3, 32, 4, 0
+repos/python/pytorch_geometric/torch_geometric/nn/conv/gcn_conv.py,"norm( edge_index , num_nodes , edge_weight , improved = False , dtype = None )",21, 79, 16, 0
+repos/python/pytorch_geometric/torch_geometric/nn/conv/gcn_conv.py,"forward( self , x , edge_index , edge_weight = None )",7, 79, 40, 0
+repos/python/pytorch_geometric/torch_geometric/nn/conv/gcn_conv.py,"message( self , x_j , norm )",2, 38, 8, 0
+repos/python/pytorch_geometric/torch_geometric/nn/conv/gcn_conv.py,"update( self , aggr_out )",4, 44, 12, 0
+repos/python/pytorch_geometric/torch_geometric/nn/conv/gcn_conv.py,"__repr__( self )",3, 78, 8, 0
+repos/python/pytorch_geometric/torch_geometric/nn/conv/message_passing.py,"__init__( self , aggr = 'add' )",5, 68, 8, 0
+repos/python/pytorch_geometric/torch_geometric/nn/conv/message_passing.py,"propagate( self , aggr , edge_index , size = None , ** kwargs )",41, 80, 12, 0
+repos/python/pytorch_geometric/torch_geometric/nn/conv/message_passing.py,"message( self , x_j )",9, 79, 8, 0
+repos/python/pytorch_geometric/torch_geometric/nn/conv/message_passing.py,"update( self , aggr_out )",8, 78, 8, 0
+repos/python/pytorch_geometric/torch_geometric/nn/conv/sg_conv.py,"__init__( self , in_channels , out_channels , K = 1 , cached = False , bias = True )",2, 69, 4, 0
+repos/python/pytorch_geometric/torch_geometric/nn/conv/sg_conv.py,"reset_parameters( self )",3, 36, 8, 0
+repos/python/pytorch_geometric/torch_geometric/nn/conv/sg_conv.py,"forward( self , x , edge_index , edge_weight = None )",11, 70, 16, 0
+repos/python/pytorch_geometric/torch_geometric/nn/conv/sg_conv.py,"message( self , x_j , norm )",2, 38, 8, 0
+repos/python/pytorch_geometric/torch_geometric/nn/conv/sg_conv.py,"__repr__( self )",4, 78, 41, 0
+repos/python/pytorch_geometric/torch_geometric/nn/conv/cheb_conv.py,"__init__( self , in_channels , out_channels , K , bias = True )",13, 76, 8, 0
+repos/python/pytorch_geometric/torch_geometric/nn/conv/cheb_conv.py,"reset_parameters( self )",4, 54, 8, 0
+repos/python/pytorch_geometric/torch_geometric/nn/conv/cheb_conv.py,"forward( self , x , edge_index , edge_weight = None )",36, 78, 8, 0
+repos/python/pytorch_geometric/torch_geometric/nn/conv/cheb_conv.py,"__repr__( self )",4, 78, 41, 0
+repos/python/pytorch_geometric/torch_geometric/nn/conv/point_conv.py,"__init__( self , local_nn = None , global_nn = None )",7, 55, 4, 0
+repos/python/pytorch_geometric/torch_geometric/nn/conv/point_conv.py,"reset_parameters( self )",3, 32, 4, 0
+repos/python/pytorch_geometric/torch_geometric/nn/conv/point_conv.py,"forward( self , x , pos , edge_index )",22, 71, 8, 0
+repos/python/pytorch_geometric/torch_geometric/nn/conv/point_conv.py,"__repr__( self )",3, 68, 12, 0
+repos/python/pytorch_geometric/torch_geometric/nn/conv/sage_conv.py,"__init__( self , in_channels , out_channels , normalize = True , bias = True )",14, 78, 4, 0
+repos/python/pytorch_geometric/torch_geometric/nn/conv/sage_conv.py,"reset_parameters( self )",4, 35, 8, 0
+repos/python/pytorch_geometric/torch_geometric/nn/conv/sage_conv.py,"forward( self , x , edge_index )",18, 69, 8, 0
+repos/python/pytorch_geometric/torch_geometric/nn/conv/sage_conv.py,"__repr__( self )",3, 78, 8, 0
+repos/python/pytorch_geometric/torch_geometric/nn/conv/gated_graph_conv.py,"__init__( self , out_channels , num_layers , aggr = 'add' , bias = True )",11, 76, 8, 0
+repos/python/pytorch_geometric/torch_geometric/nn/conv/gated_graph_conv.py,"reset_parameters( self )",4, 36, 8, 0
+repos/python/pytorch_geometric/torch_geometric/nn/conv/gated_graph_conv.py,"forward( self , x , edge_index )",15, 73, 12, 0
+repos/python/pytorch_geometric/torch_geometric/nn/conv/gated_graph_conv.py,"__repr__( self )",3, 73, 12, 0
+repos/python/pytorch_geometric/torch_geometric/nn/conv/rgcn_conv.py,"__init__( self , in_channels , out_channels , num_relations , num_bases , bias = True )",6, 32, 17, 0
+repos/python/pytorch_geometric/torch_geometric/nn/conv/rgcn_conv.py,"reset_parameters( self )",6, 49, 8, 0
+repos/python/pytorch_geometric/torch_geometric/nn/conv/rgcn_conv.py,"forward( self , x , edge_index , edge_type , edge_norm = None )",10, 78, 12, 0
+repos/python/pytorch_geometric/torch_geometric/nn/conv/rgcn_conv.py,"message( self , x_j , edge_type , edge_norm )",13, 80, 12, 0
+repos/python/pytorch_geometric/torch_geometric/nn/conv/rgcn_conv.py,"update( self , aggr_out , x )",9, 56, 12, 0
+repos/python/pytorch_geometric/torch_geometric/nn/conv/rgcn_conv.py,"__repr__( self )",4, 74, 12, 0
+repos/python/pytorch_geometric/torch_geometric/nn/glob/attention.py,"__init__( self , gate_nn , nn = None )",6, 48, 8, 0
+repos/python/pytorch_geometric/torch_geometric/nn/glob/attention.py,"reset_parameters( self )",3, 32, 4, 0
+repos/python/pytorch_geometric/torch_geometric/nn/glob/attention.py,"forward( self , x , batch , size = None )",13, 67, 8, 0
+repos/python/pytorch_geometric/torch_geometric/nn/glob/attention.py,"__repr__( self )",3, 71, 8, 0
+repos/python/pytorch_geometric/torch_geometric/nn/glob/set2set.py,"__init__( self , in_channels , processing_steps , num_layers = 1 )",12, 71, 8, 0
+repos/python/pytorch_geometric/torch_geometric/nn/glob/set2set.py,"reset_parameters( self )",2, 37, 8, 0
+repos/python/pytorch_geometric/torch_geometric/nn/glob/set2set.py,"forward( self , x , batch )",17, 75, 8, 0
+repos/python/pytorch_geometric/torch_geometric/nn/glob/set2set.py,"__repr__( self )",3, 78, 8, 0
+repos/python/pytorch_geometric/torch_geometric/nn/glob/sort.py,"global_sort_pool( x , batch , k )",41, 78, 8, 0
+repos/python/pytorch_geometric/torch_geometric/nn/glob/glob.py,"global_add_pool( x , batch , size = None )",21, 79, 12, 0
+repos/python/pytorch_geometric/torch_geometric/nn/glob/glob.py,"global_mean_pool( x , batch , size = None )",21, 79, 12, 0
+repos/python/pytorch_geometric/torch_geometric/nn/glob/glob.py,"global_max_pool( x , batch , size = None )",21, 79, 12, 0
+repos/python/pytorch_geometric/torch_geometric/nn/pool/max_pool.py,"_max_pool_x( cluster , x , size = None )",2, 54, 4, 0
+repos/python/pytorch_geometric/torch_geometric/nn/pool/max_pool.py,"max_pool_x( cluster , x , batch , size = None )",28, 80, 12, 0
+repos/python/pytorch_geometric/torch_geometric/nn/pool/max_pool.py,"max_pool( cluster , data , transform = None )",33, 80, 12, 0
+repos/python/pytorch_geometric/torch_geometric/nn/pool/voxel_grid.py,"voxel_grid( pos , batch , size , start = None , end = None )",38, 79, 4, 0
+repos/python/pytorch_geometric/torch_geometric/nn/pool/topk_pool.py,"topk( x , ratio , batch )",29, 75, 4, 0
+repos/python/pytorch_geometric/torch_geometric/nn/pool/topk_pool.py,"filter_adj( edge_index , edge_attr , perm , num_nodes = None )",16, 73, 4, 0
+repos/python/pytorch_geometric/torch_geometric/nn/pool/topk_pool.py,"__init__( self , in_channels , ratio = 0 . 5 )",9, 62, 8, 0
+repos/python/pytorch_geometric/torch_geometric/nn/pool/topk_pool.py,"reset_parameters( self )",3, 35, 8, 0
+repos/python/pytorch_geometric/torch_geometric/nn/pool/topk_pool.py,"forward( self , x , edge_index , edge_attr = None , batch = None )",16, 66, 4, 0
+repos/python/pytorch_geometric/torch_geometric/nn/pool/topk_pool.py,"__repr__( self )",3, 71, 41, 0
+repos/python/pytorch_geometric/torch_geometric/nn/pool/graclus.py,"graclus( edge_index , weight = None , num_nodes = None )",21, 80, 4, 0
+repos/python/pytorch_geometric/torch_geometric/nn/pool/avg_pool.py,"_avg_pool_x( cluster , x , size = None )",2, 55, 4, 0
+repos/python/pytorch_geometric/torch_geometric/nn/pool/avg_pool.py,"avg_pool_x( cluster , x , batch , size = None )",26, 80, 12, 0
+repos/python/pytorch_geometric/torch_geometric/nn/pool/avg_pool.py,"avg_pool( cluster , data , transform = None )",31, 80, 12, 0
+repos/python/pytorch_geometric/torch_geometric/nn/pool/pool.py,"pool_edge( cluster , edge_index , edge_attr = None )",7, 71, 4, 0
+repos/python/pytorch_geometric/torch_geometric/nn/pool/pool.py,"pool_batch( perm , batch )",2, 29, 0, 0
+repos/python/pytorch_geometric/torch_geometric/nn/pool/pool.py,"pool_pos( cluster , pos )",2, 45, 4, 0
+repos/python/pytorch_geometric/torch_geometric/nn/pool/consecutive.py,"consecutive_cluster( src )",5, 73, 4, 0
+repos/python/pytorch_geometric/torch_geometric/read/npz.py,"read_npz( path )",3, 29, 4, 0
+repos/python/pytorch_geometric/torch_geometric/read/npz.py,"parse_npz( f )",15, 77, 4, 0
+repos/python/pytorch_geometric/torch_geometric/read/txt_array.py,"parse_txt_array( src , sep = None , start = 0 , end = None , dtype = None , device = None )",4, 80, 0, 0
+repos/python/pytorch_geometric/torch_geometric/read/txt_array.py,"read_txt_array( path , sep = None , start = 0 , end = None , dtype = None , device = None )",4, 80, 0, 0
+repos/python/pytorch_geometric/torch_geometric/read/off.py,"parse_off( src )",18, 80, 4, 0
+repos/python/pytorch_geometric/torch_geometric/read/off.py,"face_to_tri( face )",15, 73, 4, 0
+repos/python/pytorch_geometric/torch_geometric/read/off.py,"read_off( path )",4, 40, 8, 0
+repos/python/pytorch_geometric/torch_geometric/read/tu.py,"read_tu_data( folder , prefix )",39, 79, 8, 0
+repos/python/pytorch_geometric/torch_geometric/read/tu.py,"read_file( folder , prefix , name , dtype = None )",3, 62, 4, 0
+repos/python/pytorch_geometric/torch_geometric/read/tu.py,"cat( seq )",4, 76, 4, 0
+repos/python/pytorch_geometric/torch_geometric/read/tu.py,"split( data , batch )",23, 76, 4, 0
+repos/python/pytorch_geometric/torch_geometric/read/ply.py,"read_ply( path )",15, 77, 4, 0
+repos/python/pytorch_geometric/torch_geometric/read/sdf.py,"parse_sdf( src )",20, 76, 4, 0
+repos/python/pytorch_geometric/torch_geometric/read/sdf.py,"read_sdf( path )",3, 35, 8, 0
+repos/python/pytorch_geometric/torch_geometric/read/planetoid.py,"read_planetoid_data( folder , prefix )",39, 79, 8, 0
+repos/python/pytorch_geometric/torch_geometric/read/planetoid.py,"read_file( folder , prefix , name )",18, 70, 4, 0
+repos/python/pytorch_geometric/torch_geometric/read/planetoid.py,"edge_index_from_dict( graph_dict , num_nodes = None )",11, 77, 4, 0
+repos/python/pytorch_geometric/torch_geometric/read/planetoid.py,"sample_mask( index , num_nodes )",4, 57, 4, 0
+repos/python/pytorch_geometric/torch_geometric/datasets/qm9.py,"__init__( self , root , transform = None , pre_transform = None , pre_filter = None )",5, 37, 17, 0
+repos/python/pytorch_geometric/torch_geometric/datasets/qm9.py,"raw_file_names( self )",2, 30, 4, 0
+repos/python/pytorch_geometric/torch_geometric/datasets/qm9.py,"processed_file_names( self )",2, 36, 4, 0
+repos/python/pytorch_geometric/torch_geometric/datasets/qm9.py,"download( self )",4, 57, 8, 0
+repos/python/pytorch_geometric/torch_geometric/datasets/qm9.py,"process( self )",19, 78, 12, 0
+repos/python/pytorch_geometric/torch_geometric/datasets/bitcoin_otc.py,"__init__( self , root , edge_window_size = 10 , transform = None , pre_transform = None )",5, 38, 17, 0
+repos/python/pytorch_geometric/torch_geometric/datasets/bitcoin_otc.py,"raw_file_names( self )",2, 41, 8, 0
+repos/python/pytorch_geometric/torch_geometric/datasets/bitcoin_otc.py,"processed_file_names( self )",2, 36, 4, 0
+repos/python/pytorch_geometric/torch_geometric/datasets/bitcoin_otc.py,"num_nodes( self )",2, 53, 8, 0
+repos/python/pytorch_geometric/torch_geometric/datasets/bitcoin_otc.py,"download( self )",4, 52, 8, 0
+repos/python/pytorch_geometric/torch_geometric/datasets/bitcoin_otc.py,"process( self )",46, 80, 12, 0
+repos/python/pytorch_geometric/torch_geometric/datasets/modelnet.py,"__init__( self , root , name = '10' , train = True , transform = None , pre_transform = None , pre_filter = None )",7, 37, 17, 0
+repos/python/pytorch_geometric/torch_geometric/datasets/modelnet.py,"raw_file_names( self )",5, 69, 12, 0
+repos/python/pytorch_geometric/torch_geometric/datasets/modelnet.py,"processed_file_names( self )",2, 42, 8, 0
+repos/python/pytorch_geometric/torch_geometric/datasets/modelnet.py,"download( self )",6, 69, 8, 0
+repos/python/pytorch_geometric/torch_geometric/datasets/modelnet.py,"process( self )",3, 71, 8, 0
+repos/python/pytorch_geometric/torch_geometric/datasets/modelnet.py,"process_set( self , dataset )",20, 70, 12, 0
+repos/python/pytorch_geometric/torch_geometric/datasets/modelnet.py,"__repr__( self )",2, 80, 8, 0
+repos/python/pytorch_geometric/torch_geometric/datasets/ppi.py,"__init__( self , root , split = 'train' , transform = None , pre_transform = None , pre_filter = None )",6, 37, 17, 0
+repos/python/pytorch_geometric/torch_geometric/datasets/ppi.py,"raw_file_names( self )",4, 74, 8, 0
+repos/python/pytorch_geometric/torch_geometric/datasets/ppi.py,"processed_file_names( self )",2, 49, 8, 0
+repos/python/pytorch_geometric/torch_geometric/datasets/ppi.py,"download( self )",4, 49, 8, 0
+repos/python/pytorch_geometric/torch_geometric/datasets/ppi.py,"process( self )",35, 79, 12, 0
+repos/python/pytorch_geometric/torch_geometric/datasets/karate.py,"__init__( self , transform = None )",14, 73, 8, 0
+repos/python/pytorch_geometric/torch_geometric/datasets/karate.py,"_download( self )",2, 25, 4, 0
+repos/python/pytorch_geometric/torch_geometric/datasets/karate.py,"_process( self )",2, 24, 4, 0
+repos/python/pytorch_geometric/torch_geometric/datasets/karate.py,"__repr__( self )",2, 54, 8, 0
+repos/python/pytorch_geometric/torch_geometric/datasets/faust.py,"__init__( self , root , train = True , transform = None , pre_transform = None , pre_filter = None )",6, 37, 17, 0
+repos/python/pytorch_geometric/torch_geometric/datasets/faust.py,"raw_file_names( self )",2, 31, 8, 0
+repos/python/pytorch_geometric/torch_geometric/datasets/faust.py,"processed_file_names( self )",2, 42, 8, 0
+repos/python/pytorch_geometric/torch_geometric/datasets/faust.py,"download( self )",4, 76, 12, 0
+repos/python/pytorch_geometric/torch_geometric/datasets/faust.py,"process( self )",19, 80, 8, 0
+repos/python/pytorch_geometric/torch_geometric/datasets/cora_full.py,"__init__( self , root , transform = None , pre_transform = None )",3, 71, 8, 0
+repos/python/pytorch_geometric/torch_geometric/datasets/cora_full.py,"raw_file_names( self )",2, 30, 4, 0
+repos/python/pytorch_geometric/torch_geometric/datasets/cora_full.py,"processed_file_names( self )",2, 36, 4, 0
+repos/python/pytorch_geometric/torch_geometric/datasets/cora_full.py,"download( self )",2, 45, 8, 0
+repos/python/pytorch_geometric/torch_geometric/datasets/cora_full.py,"process( self )",5, 80, 8, 0
+repos/python/pytorch_geometric/torch_geometric/datasets/cora_full.py,"__repr__( self )",2, 54, 8, 0
+repos/python/pytorch_geometric/torch_geometric/datasets/qm7.py,"__init__( self , root , transform = None , pre_transform = None , pre_filter = None )",5, 37, 17, 0
+repos/python/pytorch_geometric/torch_geometric/datasets/qm7.py,"raw_file_names( self )",2, 30, 4, 0
+repos/python/pytorch_geometric/torch_geometric/datasets/qm7.py,"processed_file_names( self )",2, 36, 4, 0
+repos/python/pytorch_geometric/torch_geometric/datasets/qm7.py,"download( self )",2, 45, 8, 0
+repos/python/pytorch_geometric/torch_geometric/datasets/qm7.py,"process( self )",21, 73, 12, 0
+repos/python/pytorch_geometric/torch_geometric/datasets/coauthor.py,"__init__( self , root , name , transform = None , pre_transform = None )",5, 72, 4, 0
+repos/python/pytorch_geometric/torch_geometric/datasets/coauthor.py,"raw_file_names( self )",2, 66, 8, 0
+repos/python/pytorch_geometric/torch_geometric/datasets/coauthor.py,"processed_file_names( self )",2, 36, 4, 0
+repos/python/pytorch_geometric/torch_geometric/datasets/coauthor.py,"download( self )",2, 67, 8, 0
+repos/python/pytorch_geometric/torch_geometric/datasets/coauthor.py,"process( self )",5, 80, 8, 0
+repos/python/pytorch_geometric/torch_geometric/datasets/coauthor.py,"__repr__( self )",2, 67, 8, 0
+repos/python/pytorch_geometric/torch_geometric/datasets/pcpnet_dataset.py,"__init__( self , root , category , split = 'train' , transform = None , pre_transform = None , pre_filter = None )",7, 37, 17, 0
+repos/python/pytorch_geometric/torch_geometric/datasets/pcpnet_dataset.py,"raw_file_names( self )",7, 60, 12, 0
+repos/python/pytorch_geometric/torch_geometric/datasets/pcpnet_dataset.py,"processed_file_names( self )",2, 56, 8, 0
+repos/python/pytorch_geometric/torch_geometric/datasets/pcpnet_dataset.py,"download( self )",4, 52, 8, 0
+repos/python/pytorch_geometric/torch_geometric/datasets/pcpnet_dataset.py,"process( self )",24, 74, 12, 0
+repos/python/pytorch_geometric/torch_geometric/datasets/pcpnet_dataset.py,"__repr__( self )",3, 80, 8, 0
+repos/python/pytorch_geometric/torch_geometric/datasets/mnist_superpixels.py,"__init__( self , root , train = True , transform = None , pre_transform = None , pre_filter = None )",6, 37, 17, 0
+repos/python/pytorch_geometric/torch_geometric/datasets/mnist_superpixels.py,"raw_file_names( self )",2, 42, 8, 0
+repos/python/pytorch_geometric/torch_geometric/datasets/mnist_superpixels.py,"processed_file_names( self )",2, 42, 8, 0
+repos/python/pytorch_geometric/torch_geometric/datasets/mnist_superpixels.py,"download( self )",4, 52, 8, 0
+repos/python/pytorch_geometric/torch_geometric/datasets/mnist_superpixels.py,"process( self )",27, 80, 12, 0
+repos/python/pytorch_geometric/torch_geometric/datasets/geometry.py,"__init__( self , root , train = True , transform = None , pre_transform = None , pre_filter = None )",6, 37, 17, 0
+repos/python/pytorch_geometric/torch_geometric/datasets/geometry.py,"raw_file_names( self )",2, 30, 4, 0
+repos/python/pytorch_geometric/torch_geometric/datasets/geometry.py,"processed_file_names( self )",2, 42, 8, 0
+repos/python/pytorch_geometric/torch_geometric/datasets/geometry.py,"download( self )",4, 49, 8, 0
+repos/python/pytorch_geometric/torch_geometric/datasets/geometry.py,"process( self )",3, 71, 8, 0
+repos/python/pytorch_geometric/torch_geometric/datasets/geometry.py,"process_set( self , dataset )",20, 69, 12, 0
+repos/python/pytorch_geometric/torch_geometric/datasets/coma.py,"__init__( self , root , train = True , transform = None , pre_transform = None , pre_filter = None )",6, 37, 17, 0
+repos/python/pytorch_geometric/torch_geometric/datasets/coma.py,"raw_file_names( self )",2, 31, 8, 0
+repos/python/pytorch_geometric/torch_geometric/datasets/coma.py,"processed_file_names( self )",2, 42, 8, 0
+repos/python/pytorch_geometric/torch_geometric/datasets/coma.py,"download( self )",4, 76, 12, 0
+repos/python/pytorch_geometric/torch_geometric/datasets/coma.py,"process( self )",26, 75, 8, 0
+repos/python/pytorch_geometric/torch_geometric/datasets/shapenet.py,"__init__( self , root , category , train = True , transform = None , pre_transform = None , pre_filter = None )",7, 37, 17, 0
+repos/python/pytorch_geometric/torch_geometric/datasets/shapenet.py,"raw_file_names( self )",5, 79, 12, 0
+repos/python/pytorch_geometric/torch_geometric/datasets/shapenet.py,"processed_file_names( self )",3, 65, 8, 0
+repos/python/pytorch_geometric/torch_geometric/datasets/shapenet.py,"download( self )",6, 53, 12, 0
+repos/python/pytorch_geometric/torch_geometric/datasets/shapenet.py,"process( self )",23, 78, 16, 0
+repos/python/pytorch_geometric/torch_geometric/datasets/shapenet.py,"__repr__( self )",3, 70, 44, 0
+repos/python/pytorch_geometric/torch_geometric/datasets/tu_dataset.py,"__init__( self , root , name , transform = None , pre_transform = None , pre_filter = None , use_node_attr = False )",7, 39, 17, 0
+repos/python/pytorch_geometric/torch_geometric/datasets/tu_dataset.py,"num_node_labels( self )",9, 71, 12, 0
+repos/python/pytorch_geometric/torch_geometric/datasets/tu_dataset.py,"num_node_attributes( self )",5, 58, 8, 0
+repos/python/pytorch_geometric/torch_geometric/datasets/tu_dataset.py,"raw_file_names( self )",3, 71, 8, 0
+repos/python/pytorch_geometric/torch_geometric/datasets/tu_dataset.py,"processed_file_names( self )",2, 36, 4, 0
+repos/python/pytorch_geometric/torch_geometric/datasets/tu_dataset.py,"download( self )",6, 80, 8, 0
+repos/python/pytorch_geometric/torch_geometric/datasets/tu_dataset.py,"process( self )",14, 78, 12, 0
+repos/python/pytorch_geometric/torch_geometric/datasets/tu_dataset.py,"__repr__( self )",2, 53, 8, 0
+repos/python/pytorch_geometric/torch_geometric/datasets/entities.py,"__init__( self , root , name , transform = None , pre_transform = None )",5, 72, 4, 0
+repos/python/pytorch_geometric/torch_geometric/datasets/entities.py,"num_relations( self )",2, 52, 8, 0
+repos/python/pytorch_geometric/torch_geometric/datasets/entities.py,"num_classes( self )",2, 50, 8, 0
+repos/python/pytorch_geometric/torch_geometric/datasets/entities.py,"raw_file_names( self )",7, 51, 12, 0
+repos/python/pytorch_geometric/torch_geometric/datasets/entities.py,"processed_file_names( self )",2, 36, 4, 0
+repos/python/pytorch_geometric/torch_geometric/datasets/entities.py,"download( self )",4, 67, 8, 0
+repos/python/pytorch_geometric/torch_geometric/datasets/entities.py,"triples( self , graph , relation = None )",3, 62, 8, 0
+repos/python/pytorch_geometric/torch_geometric/datasets/entities.py,"process.freq( rel )",2, 53, 12, 0
+repos/python/pytorch_geometric/torch_geometric/datasets/entities.py,"process( self )",83, 79, 8, 0
+repos/python/pytorch_geometric/torch_geometric/datasets/entities.py,"__repr__( self )",2, 75, 8, 0
+repos/python/pytorch_geometric/torch_geometric/datasets/planetoid.py,"__init__( self , root , name , transform = None , pre_transform = None )",4, 72, 4, 0
+repos/python/pytorch_geometric/torch_geometric/datasets/planetoid.py,"raw_file_names( self )",3, 79, 8, 0
+repos/python/pytorch_geometric/torch_geometric/datasets/planetoid.py,"processed_file_names( self )",2, 36, 4, 0
+repos/python/pytorch_geometric/torch_geometric/datasets/planetoid.py,"download( self )",3, 71, 12, 0
+repos/python/pytorch_geometric/torch_geometric/datasets/planetoid.py,"process( self )",5, 80, 8, 0
+repos/python/pytorch_geometric/torch_geometric/datasets/planetoid.py,"__repr__( self )",2, 40, 8, 0
+repos/python/pytorch_geometric/torch_geometric/datasets/amazon.py,"__init__( self , root , name , transform = None , pre_transform = None )",5, 72, 4, 0
+repos/python/pytorch_geometric/torch_geometric/datasets/amazon.py,"raw_file_names( self )",2, 61, 8, 0
+repos/python/pytorch_geometric/torch_geometric/datasets/amazon.py,"processed_file_names( self )",2, 36, 4, 0
+repos/python/pytorch_geometric/torch_geometric/datasets/amazon.py,"download( self )",2, 67, 8, 0
+repos/python/pytorch_geometric/torch_geometric/datasets/amazon.py,"process( self )",5, 80, 8, 0
+repos/python/pytorch_geometric/torch_geometric/datasets/amazon.py,"__repr__( self )",2, 80, 8, 0
+repos/python/pytorch_geometric/torch_geometric/utils/grid.py,"grid( height , width , dtype = None , device = None )",18, 77, 4, 0
+repos/python/pytorch_geometric/torch_geometric/utils/grid.py,"grid_index( height , width , device = None )",19, 79, 4, 0
+repos/python/pytorch_geometric/torch_geometric/utils/grid.py,"grid_pos( height , width , dtype = None , device = None )",8, 72, 4, 0
+repos/python/pytorch_geometric/torch_geometric/utils/to_dense_batch.py,"to_dense_batch( x , batch , fill_value = 0 )",34, 80, 4, 0
+repos/python/pytorch_geometric/torch_geometric/utils/convert.py,"to_scipy_sparse_matrix( edge_index , edge_attr = None , num_nodes = None )",22, 78, 4, 0
+repos/python/pytorch_geometric/torch_geometric/utils/convert.py,"to_networkx( edge_index , x = None , edge_attr = None , pos = None , num_nodes = None )",37, 79, 0, 0
+repos/python/pytorch_geometric/torch_geometric/utils/isolated.py,"contains_isolated_nodes( edge_index , num_nodes = None )",14, 78, 4, 0
+repos/python/pytorch_geometric/torch_geometric/utils/degree.py,"degree( index , num_nodes = None , dtype = None )",16, 75, 8, 0
+repos/python/pytorch_geometric/torch_geometric/utils/metric.py,"accuracy( pred , target )",10, 58, 4, 0
+repos/python/pytorch_geometric/torch_geometric/utils/metric.py,"true_positive( pred , target , num_classes )",15, 58, 4, 0
+repos/python/pytorch_geometric/torch_geometric/utils/metric.py,"true_negative( pred , target , num_classes )",15, 58, 4, 0
+repos/python/pytorch_geometric/torch_geometric/utils/metric.py,"false_positive( pred , target , num_classes )",15, 59, 4, 0
+repos/python/pytorch_geometric/torch_geometric/utils/metric.py,"false_negative( pred , target , num_classes )",15, 59, 4, 0
+repos/python/pytorch_geometric/torch_geometric/utils/metric.py,"precision( pred , target , num_classes )",18, 67, 4, 0
+repos/python/pytorch_geometric/torch_geometric/utils/metric.py,"recall( pred , target , num_classes )",18, 67, 4, 0
+repos/python/pytorch_geometric/torch_geometric/utils/metric.py,"f1_score( pred , target , num_classes )",19, 67, 4, 0
+repos/python/pytorch_geometric/torch_geometric/utils/normalized_cut.py,"normalized_cut( edge_index , edge_attr , num_nodes = None )",19, 78, 4, 0
+repos/python/pytorch_geometric/torch_geometric/utils/repeat.py,"repeat( src , length )",10, 72, 8, 0
+repos/python/pytorch_geometric/torch_geometric/utils/scatter.py,"scatter_( name , src , index , dim_size = None )",32, 79, 8, 0
+repos/python/pytorch_geometric/torch_geometric/utils/one_hot.py,"one_hot( src , num_classes = None , dtype = None )",36, 75, 8, 0
+repos/python/pytorch_geometric/torch_geometric/utils/loop.py,"contains_self_loops( edge_index )",12, 78, 4, 0
+repos/python/pytorch_geometric/torch_geometric/utils/loop.py,"remove_self_loops( edge_index , edge_attr = None )",18, 80, 4, 0
+repos/python/pytorch_geometric/torch_geometric/utils/loop.py,"add_self_loops( edge_index , num_nodes = None )",19, 77, 12, 0
+repos/python/pytorch_geometric/torch_geometric/utils/sparse.py,"dense_to_sparse( tensor )",13, 79, 4, 0
+repos/python/pytorch_geometric/torch_geometric/utils/sparse.py,"sparse_to_dense( edge_index , edge_attr , num_nodes = None )",16, 77, 8, 0
+repos/python/pytorch_geometric/torch_geometric/utils/num_nodes.py,"maybe_num_nodes( edge_index , num_nodes = None )",2, 75, 4, 0
+repos/python/pytorch_geometric/torch_geometric/utils/softmax.py,"softmax( src , index , num_nodes = None )",21, 80, 4, 0
+repos/python/pytorch_geometric/torch_geometric/utils/undirected.py,"is_undirected( edge_index , num_nodes = None )",15, 77, 12, 0
+repos/python/pytorch_geometric/torch_geometric/utils/undirected.py,"to_undirected( edge_index , num_nodes = None )",20, 79, 4, 0
+repos/python/pytorch_geometric/torch_geometric/transforms/polar.py,"__init__( self , norm = True , max_value = None , cat = True )",4, 61, 4, 0
+repos/python/pytorch_geometric/torch_geometric/transforms/polar.py,"__call__( self , data )",24, 77, 12, 0
+repos/python/pytorch_geometric/torch_geometric/transforms/polar.py,"__repr__( self )",3, 75, 8, 0
+repos/python/pytorch_geometric/torch_geometric/transforms/knn_graph.py,"__init__( self , k = 6 )",2, 29, 4, 0
+repos/python/pytorch_geometric/torch_geometric/transforms/knn_graph.py,"__call__( self , data )",15, 70, 8, 0
+repos/python/pytorch_geometric/torch_geometric/transforms/knn_graph.py,"__repr__( self )",2, 66, 8, 0
+repos/python/pytorch_geometric/torch_geometric/transforms/normalize_scale.py,"__init__( self )",2, 31, 8, 0
+repos/python/pytorch_geometric/torch_geometric/transforms/normalize_scale.py,"__call__( self , data )",7, 54, 8, 0
+repos/python/pytorch_geometric/torch_geometric/transforms/normalize_scale.py,"__repr__( self )",2, 54, 8, 0
+repos/python/pytorch_geometric/torch_geometric/transforms/radius_graph.py,"__init__( self , r )",2, 27, 4, 0
+repos/python/pytorch_geometric/torch_geometric/transforms/radius_graph.py,"__call__( self , data )",16, 54, 8, 0
+repos/python/pytorch_geometric/torch_geometric/transforms/radius_graph.py,"__repr__( self )",2, 66, 8, 0
+repos/python/pytorch_geometric/torch_geometric/transforms/add_self_loops.py,"__call__( self , data )",9, 61, 8, 0
+repos/python/pytorch_geometric/torch_geometric/transforms/add_self_loops.py,"__repr__( self )",2, 54, 8, 0
+repos/python/pytorch_geometric/torch_geometric/transforms/sample_points.py,"__init__( self , num , remove_faces = True )",3, 48, 4, 0
+repos/python/pytorch_geometric/torch_geometric/transforms/sample_points.py,"__call__( self , data )",24, 80, 8, 0
+repos/python/pytorch_geometric/torch_geometric/transforms/sample_points.py,"__repr__( self )",2, 66, 8, 0
+repos/python/pytorch_geometric/torch_geometric/transforms/compose.py,"__init__( self , transforms )",2, 37, 8, 0
+repos/python/pytorch_geometric/torch_geometric/transforms/compose.py,"__call__( self , data )",4, 34, 8, 0
+repos/python/pytorch_geometric/torch_geometric/transforms/compose.py,"__repr__( self )",3, 79, 8, 0
+repos/python/pytorch_geometric/torch_geometric/transforms/local_degree_profile.py,"__call__( self , data )",23, 77, 8, 0
+repos/python/pytorch_geometric/torch_geometric/transforms/local_degree_profile.py,"__repr__( self )",2, 54, 8, 0
+repos/python/pytorch_geometric/torch_geometric/transforms/random_scale.py,"__init__( self , scales )",3, 70, 8, 0
+repos/python/pytorch_geometric/torch_geometric/transforms/random_scale.py,"__call__( self , data )",4, 45, 8, 0
+repos/python/pytorch_geometric/torch_geometric/transforms/random_scale.py,"__repr__( self )",2, 69, 8, 0
+repos/python/pytorch_geometric/torch_geometric/transforms/center.py,"__call__( self , data )",3, 65, 8, 0
+repos/python/pytorch_geometric/torch_geometric/transforms/center.py,"__repr__( self )",2, 54, 8, 0
+repos/python/pytorch_geometric/torch_geometric/transforms/random_translate.py,"__init__( self , translate )",2, 35, 4, 0
+repos/python/pytorch_geometric/torch_geometric/transforms/random_translate.py,"__call__( self , data )",12, 77, 12, 0
+repos/python/pytorch_geometric/torch_geometric/transforms/random_translate.py,"__repr__( self )",2, 72, 8, 0
+repos/python/pytorch_geometric/torch_geometric/transforms/local_cartesian.py,"__init__( self , cat = True )",2, 34, 4, 0
+repos/python/pytorch_geometric/torch_geometric/transforms/local_cartesian.py,"__call__( self , data )",17, 79, 12, 0
+repos/python/pytorch_geometric/torch_geometric/transforms/local_cartesian.py,"__repr__( self )",2, 54, 8, 0
+repos/python/pytorch_geometric/torch_geometric/transforms/distance.py,"__init__( self , norm = True , max_value = None , cat = True )",4, 61, 4, 0
+repos/python/pytorch_geometric/torch_geometric/transforms/distance.py,"__call__( self , data )",15, 79, 12, 0
+repos/python/pytorch_geometric/torch_geometric/transforms/distance.py,"__repr__( self )",3, 75, 8, 0
+repos/python/pytorch_geometric/torch_geometric/transforms/to_dense.py,"__init__( self , num_nodes = None )",2, 40, 4, 0
+repos/python/pytorch_geometric/torch_geometric/transforms/to_dense.py,"__call__( self , data )",37, 79, 12, 0
+repos/python/pytorch_geometric/torch_geometric/transforms/to_dense.py,"__repr__( self )",6, 70, 12, 0
+repos/python/pytorch_geometric/torch_geometric/transforms/cartesian.py,"__init__( self , norm = True , max_value = None , cat = True )",4, 61, 4, 0
+repos/python/pytorch_geometric/torch_geometric/transforms/cartesian.py,"__call__( self , data )",17, 79, 12, 0
+repos/python/pytorch_geometric/torch_geometric/transforms/cartesian.py,"__repr__( self )",3, 75, 8, 0
+repos/python/pytorch_geometric/torch_geometric/transforms/one_hot_degree.py,"__init__( self , max_degree , cat = True )",3, 46, 4, 0
+repos/python/pytorch_geometric/torch_geometric/transforms/one_hot_degree.py,"__call__( self , data )",12, 61, 12, 0
+repos/python/pytorch_geometric/torch_geometric/transforms/one_hot_degree.py,"__repr__( self )",2, 73, 8, 0
+repos/python/pytorch_geometric/torch_geometric/transforms/linear_transformation.py,"__init__( self , matrix )",8, 80, 12, 0
+repos/python/pytorch_geometric/torch_geometric/transforms/linear_transformation.py,"__call__( self , data )",10, 80, 12, 0
+repos/python/pytorch_geometric/torch_geometric/transforms/linear_transformation.py,"__repr__( self )",2, 78, 8, 0
+repos/python/pytorch_geometric/torch_geometric/transforms/spherical.py,"__init__( self , norm = True , max_value = None , cat = True )",4, 61, 4, 0
+repos/python/pytorch_geometric/torch_geometric/transforms/spherical.py,"__call__( self , data )",27, 77, 12, 0
+repos/python/pytorch_geometric/torch_geometric/transforms/spherical.py,"__repr__( self )",3, 75, 8, 0
+repos/python/pytorch_geometric/torch_geometric/transforms/normalize_features.py,"__call__( self , data )",3, 67, 8, 0
+repos/python/pytorch_geometric/torch_geometric/transforms/normalize_features.py,"__repr__( self )",2, 54, 8, 0
+repos/python/pytorch_geometric/torch_geometric/transforms/constant.py,"__init__( self , value = 1 , cat = True )",3, 43, 4, 0
+repos/python/pytorch_geometric/torch_geometric/transforms/constant.py,"__call__( self , data )",12, 72, 12, 0
+repos/python/pytorch_geometric/torch_geometric/transforms/constant.py,"__repr__( self )",2, 74, 8, 0
+repos/python/pytorch_geometric/torch_geometric/transforms/face_to_edge.py,"__init__( self , remove_faces = True )",2, 43, 4, 0
+repos/python/pytorch_geometric/torch_geometric/transforms/face_to_edge.py,"__call__( self , data )",10, 73, 8, 0
+repos/python/pytorch_geometric/torch_geometric/transforms/face_to_edge.py,"__repr__( self )",2, 54, 8, 0
+repos/python/pytorch_geometric/torch_geometric/transforms/random_shear.py,"__init__( self , shear )",2, 32, 8, 0
+repos/python/pytorch_geometric/torch_geometric/transforms/random_shear.py,"__call__( self , data )",8, 80, 8, 0
+repos/python/pytorch_geometric/torch_geometric/transforms/random_shear.py,"__repr__( self )",2, 68, 8, 0
+repos/python/pytorch_geometric/torch_geometric/transforms/random_flip.py,"__init__( self , axis , p = 0 . 5 )",3, 37, 4, 0
+repos/python/pytorch_geometric/torch_geometric/transforms/random_flip.py,"__call__( self , data )",6, 51, 12, 0
+repos/python/pytorch_geometric/torch_geometric/transforms/random_flip.py,"__repr__( self )",3, 78, 8, 0
+repos/python/pytorch_geometric/torch_geometric/transforms/target_indegree.py,"__init__( self , norm = True , max_value = None , cat = True )",4, 61, 4, 0
+repos/python/pytorch_geometric/torch_geometric/transforms/target_indegree.py,"__call__( self , data )",18, 78, 12, 0
+repos/python/pytorch_geometric/torch_geometric/transforms/target_indegree.py,"__repr__( self )",3, 75, 8, 0
+repos/python/pytorch_geometric/torch_geometric/transforms/two_hop.py,"__call__( self , data )",24, 77, 8, 0
+repos/python/pytorch_geometric/torch_geometric/transforms/two_hop.py,"__repr__( self )",2, 54, 8, 0
+repos/python/pytorch_geometric/torch_geometric/transforms/random_rotate.py,"__init__( self , degrees , axis = 0 )",6, 72, 8, 0
+repos/python/pytorch_geometric/torch_geometric/transforms/random_rotate.py,"__call__( self , data )",14, 68, 16, 0
+repos/python/pytorch_geometric/torch_geometric/transforms/random_rotate.py,"__repr__( self )",3, 79, 8, 0
+repos/python/pytorch_geometric/torch_geometric/data/in_memory_dataset.py,"raw_file_names( self )",4, 79, 8, 0
+repos/python/pytorch_geometric/torch_geometric/data/in_memory_dataset.py,"processed_file_names( self )",4, 75, 8, 0
+repos/python/pytorch_geometric/torch_geometric/data/in_memory_dataset.py,"download( self )",3, 72, 8, 0
+repos/python/pytorch_geometric/torch_geometric/data/in_memory_dataset.py,"process( self )",3, 78, 8, 0
+repos/python/pytorch_geometric/torch_geometric/data/in_memory_dataset.py,"__init__( self , root , transform = None , pre_transform = None , pre_filter = None )",5, 37, 17, 0
+repos/python/pytorch_geometric/torch_geometric/data/in_memory_dataset.py,"num_classes( self )",4, 80, 8, 0
+repos/python/pytorch_geometric/torch_geometric/data/in_memory_dataset.py,"__len__( self )",2, 68, 8, 0
+repos/python/pytorch_geometric/torch_geometric/data/in_memory_dataset.py,"__getitem__( self , idx )",20, 80, 8, 0
+repos/python/pytorch_geometric/torch_geometric/data/in_memory_dataset.py,"shuffle( self )",3, 62, 8, 0
+repos/python/pytorch_geometric/torch_geometric/data/in_memory_dataset.py,"get( self , idx )",9, 69, 52, 0
+repos/python/pytorch_geometric/torch_geometric/data/in_memory_dataset.py,"_indexing( self , index )",5, 76, 8, 0
+repos/python/pytorch_geometric/torch_geometric/data/in_memory_dataset.py,"collate( self , data_list )",21, 79, 12, 0
+repos/python/pytorch_geometric/torch_geometric/data/makedirs.py,"makedirs( path )",6, 56, 8, 0
+repos/python/pytorch_geometric/torch_geometric/data/download.py,"download_url( url , folder , log = True )",22, 78, 8, 0
+repos/python/pytorch_geometric/torch_geometric/data/batch.py,"__init__( self , batch = None , ** kwargs )",3, 46, 4, 0
+repos/python/pytorch_geometric/torch_geometric/data/batch.py,"from_data_list( data_list )",29, 79, 12, 0
+repos/python/pytorch_geometric/torch_geometric/data/batch.py,"cumsum( self , key , item )",11, 80, 12, 0
+repos/python/pytorch_geometric/torch_geometric/data/batch.py,"num_graphs( self )",3, 57, 8, 0
+repos/python/pytorch_geometric/torch_geometric/data/dataset.py,"to_list( x )",4, 70, 4, 0
+repos/python/pytorch_geometric/torch_geometric/data/dataset.py,"files_exist( files )",2, 47, 4, 0
+repos/python/pytorch_geometric/torch_geometric/data/dataset.py,"raw_file_names( self )",4, 79, 8, 0
+repos/python/pytorch_geometric/torch_geometric/data/dataset.py,"processed_file_names( self )",4, 75, 8, 0
+repos/python/pytorch_geometric/torch_geometric/data/dataset.py,"download( self )",3, 72, 8, 0
+repos/python/pytorch_geometric/torch_geometric/data/dataset.py,"process( self )",3, 78, 8, 0
+repos/python/pytorch_geometric/torch_geometric/data/dataset.py,"__len__( self )",3, 54, 8, 0
+repos/python/pytorch_geometric/torch_geometric/data/dataset.py,"get( self , idx )",3, 57, 8, 0
+repos/python/pytorch_geometric/torch_geometric/data/dataset.py,"__init__( self , root , transform = None , pre_transform = None , pre_filter = None )",5, 37, 17, 0
+repos/python/pytorch_geometric/torch_geometric/data/dataset.py,"num_features( self )",3, 69, 8, 0
+repos/python/pytorch_geometric/torch_geometric/data/dataset.py,"raw_paths( self )",4, 68, 8, 0
+repos/python/pytorch_geometric/torch_geometric/data/dataset.py,"processed_paths( self )",5, 67, 8, 0
+repos/python/pytorch_geometric/torch_geometric/data/dataset.py,"_download( self )",6, 60, 8, 0
+repos/python/pytorch_geometric/torch_geometric/data/dataset.py,"_process( self )",10, 66, 8, 0
+repos/python/pytorch_geometric/torch_geometric/data/dataset.py,"__getitem__( self , idx )",6, 80, 8, 0
+repos/python/pytorch_geometric/torch_geometric/data/dataset.py,"__repr__( self )",2, 67, 8, 0
+repos/python/pytorch_geometric/torch_geometric/data/dataloader.py,"__init__( self , dataset , batch_size = 1 , shuffle = True , ** kwargs )",7, 74, 12, 0
+repos/python/pytorch_geometric/torch_geometric/data/dataloader.py,"__init__( self , dataset , batch_size = 1 , shuffle = True , ** kwargs )",7, 71, 4, 0
+repos/python/pytorch_geometric/torch_geometric/data/dataloader.py,"__init__.dense_collate( data_list )",5, 74, 16, 0
+repos/python/pytorch_geometric/torch_geometric/data/dataloader.py,"__init__( self , dataset , batch_size = 1 , shuffle = True , ** kwargs )",9, 78, 12, 0
+repos/python/pytorch_geometric/torch_geometric/data/extract.py,"maybe_log( path , log = True )",3, 34, 8, 0
+repos/python/pytorch_geometric/torch_geometric/data/extract.py,"extract_tar( path , folder , mode = 'r:gz' , log = True )",13, 80, 8, 0
+repos/python/pytorch_geometric/torch_geometric/data/extract.py,"extract_zip( path , folder , log = True )",12, 78, 8, 0
+repos/python/pytorch_geometric/torch_geometric/data/extract.py,"extract_bz2( path , folder , log = True )",5, 80, 8, 0
+repos/python/pytorch_geometric/torch_geometric/data/extract.py,"extract_gz( path , folder , log = True )",5, 80, 8, 0
+repos/python/pytorch_geometric/torch_geometric/data/data.py,"__init__( self , x = None , edge_index = None , edge_attr = None , y = None , pos = None )",6, 34, 17, 0
+repos/python/pytorch_geometric/torch_geometric/data/data.py,"from_dict( dictionary )",6, 63, 8, 0
+repos/python/pytorch_geometric/torch_geometric/data/data.py,"__getitem__( self , key )",3, 58, 8, 0
+repos/python/pytorch_geometric/torch_geometric/data/data.py,"__setitem__( self , key , value )",3, 61, 8, 0
+repos/python/pytorch_geometric/torch_geometric/data/data.py,"keys( self )",3, 78, 8, 0
+repos/python/pytorch_geometric/torch_geometric/data/data.py,"__len__( self )",3, 61, 8, 0
+repos/python/pytorch_geometric/torch_geometric/data/data.py,"__contains__( self , key )",4, 79, 8, 0
+repos/python/pytorch_geometric/torch_geometric/data/data.py,"__iter__( self )",5, 77, 8, 0
+repos/python/pytorch_geometric/torch_geometric/data/data.py,"__call__( self , * keys )",8, 76, 8, 0
+repos/python/pytorch_geometric/torch_geometric/data/data.py,"cat_dim( self , key , value )",13, 80, 12, 0
+repos/python/pytorch_geometric/torch_geometric/data/data.py,"num_nodes( self )",7, 57, 8, 0
+repos/python/pytorch_geometric/torch_geometric/data/data.py,"num_edges( self )",5, 58, 8, 0
+repos/python/pytorch_geometric/torch_geometric/data/data.py,"num_features( self )",3, 69, 8, 0
+repos/python/pytorch_geometric/torch_geometric/data/data.py,"is_coalesced( self )",6, 80, 8, 0
+repos/python/pytorch_geometric/torch_geometric/data/data.py,"contains_isolated_nodes( self )",4, 72, 8, 0
+repos/python/pytorch_geometric/torch_geometric/data/data.py,"contains_self_loops( self )",3, 77, 8, 0
+repos/python/pytorch_geometric/torch_geometric/data/data.py,"is_undirected( self )",3, 67, 8, 0
+repos/python/pytorch_geometric/torch_geometric/data/data.py,"is_directed( self )",3, 65, 8, 0
+repos/python/pytorch_geometric/torch_geometric/data/data.py,"apply( self , func , * keys )",8, 77, 8, 0
+repos/python/pytorch_geometric/torch_geometric/data/data.py,"contiguous( self , * keys )",5, 80, 8, 0
+repos/python/pytorch_geometric/torch_geometric/data/data.py,"to( self , device , * keys )",6, 79, 8, 0
+repos/python/pytorch_geometric/torch_geometric/data/data.py,"clone( self )",2, 63, 8, 0
+repos/python/pytorch_geometric/torch_geometric/data/data.py,"__repr__( self )",3, 78, 8, 0
+repos/python/pytorch_geometric/examples/enzymes_topk_pool.py,"__init__( self )",13, 61, 8, 0
+repos/python/pytorch_geometric/examples/enzymes_topk_pool.py,"forward( self , data )",23, 76, 8, 0
+repos/python/pytorch_geometric/examples/enzymes_topk_pool.py,"train( epoch )",13, 50, 8, 0
+repos/python/pytorch_geometric/examples/enzymes_topk_pool.py,"test( loader )",9, 48, 8, 0
+repos/python/pytorch_geometric/examples/gcn.py,"__init__( self )",4, 71, 8, 0
+repos/python/pytorch_geometric/examples/gcn.py,"forward( self )",6, 49, 8, 0
+repos/python/pytorch_geometric/examples/gcn.py,"train( )",5, 77, 4, 0
+repos/python/pytorch_geometric/examples/gcn.py,"test( )",8, 69, 8, 0
+repos/python/pytorch_geometric/examples/ppi.py,"__init__( self )",9, 73, 8, 0
+repos/python/pytorch_geometric/examples/ppi.py,"forward( self , x , edge_index )",5, 60, 8, 0
+repos/python/pytorch_geometric/examples/ppi.py,"train( )",14, 63, 8, 0
+repos/python/pytorch_geometric/examples/ppi.py,"test( loader )",11, 71, 12, 0
+repos/python/pytorch_geometric/examples/arma.py,"__init__( self )",19, 36, 8, 0
+repos/python/pytorch_geometric/examples/arma.py,"forward( self )",7, 49, 8, 0
+repos/python/pytorch_geometric/examples/arma.py,"train( )",5, 77, 4, 0
+repos/python/pytorch_geometric/examples/arma.py,"test( )",8, 69, 8, 0
+repos/python/pytorch_geometric/examples/infomax.py,"__init__( self , hidden_dim )",4, 62, 8, 0
+repos/python/pytorch_geometric/examples/infomax.py,"forward( self , x , edge_index , corrupt = False )",8, 53, 4, 0
+repos/python/pytorch_geometric/examples/infomax.py,"__init__( self , hidden_dim )",4, 73, 8, 0
+repos/python/pytorch_geometric/examples/infomax.py,"reset_parameters( self )",3, 35, 8, 0
+repos/python/pytorch_geometric/examples/infomax.py,"forward( self , x , summary )",3, 64, 8, 0
+repos/python/pytorch_geometric/examples/infomax.py,"__init__( self , hidden_dim )",5, 55, 8, 0
+repos/python/pytorch_geometric/examples/infomax.py,"forward( self , x , edge_index )",12, 62, 8, 0
+repos/python/pytorch_geometric/examples/infomax.py,"train_infomax( epoch )",12, 59, 8, 0
+repos/python/pytorch_geometric/examples/infomax.py,"__init__( self , hidden_dim )",3, 62, 8, 0
+repos/python/pytorch_geometric/examples/infomax.py,"reset_parameters( self )",2, 36, 8, 0
+repos/python/pytorch_geometric/examples/infomax.py,"forward( self , x , edge_index )",5, 58, 8, 0
+repos/python/pytorch_geometric/examples/infomax.py,"train_classifier( )",9, 72, 4, 0
+repos/python/pytorch_geometric/examples/infomax.py,"test_classifier( )",9, 69, 8, 0
+repos/python/pytorch_geometric/examples/faust.py,"__call__( self , data )",3, 64, 8, 0
+repos/python/pytorch_geometric/examples/faust.py,"norm( x , edge_index )",3, 66, 4, 0
+repos/python/pytorch_geometric/examples/faust.py,"__init__( self )",10, 74, 8, 0
+repos/python/pytorch_geometric/examples/faust.py,"forward( self , data )",12, 72, 8, 0
+repos/python/pytorch_geometric/examples/faust.py,"train( epoch )",11, 62, 8, 0
+repos/python/pytorch_geometric/examples/faust.py,"test( )",8, 55, 4, 0
+repos/python/pytorch_geometric/examples/mnist_graclus.py,"normalized_cut_2d( edge_index , pos )",4, 72, 4, 0
+repos/python/pytorch_geometric/examples/mnist_graclus.py,"__init__( self )",6, 74, 8, 0
+repos/python/pytorch_geometric/examples/mnist_graclus.py,"forward( self , data )",16, 76, 8, 0
+repos/python/pytorch_geometric/examples/mnist_graclus.py,"train( epoch )",16, 51, 8, 0
+repos/python/pytorch_geometric/examples/mnist_graclus.py,"test( )",9, 48, 8, 0
+repos/python/pytorch_geometric/examples/mnist_voxel_grid.py,"__init__( self )",7, 74, 8, 0
+repos/python/pytorch_geometric/examples/mnist_voxel_grid.py,"forward( self , data )",18, 80, 8, 0
+repos/python/pytorch_geometric/examples/mnist_voxel_grid.py,"train( epoch )",16, 51, 8, 0
+repos/python/pytorch_geometric/examples/mnist_voxel_grid.py,"test( )",9, 48, 8, 0
+repos/python/pytorch_geometric/examples/agnn.py,"__init__( self )",6, 62, 8, 0
+repos/python/pytorch_geometric/examples/agnn.py,"forward( self )",8, 54, 8, 0
+repos/python/pytorch_geometric/examples/agnn.py,"train( )",5, 77, 4, 0
+repos/python/pytorch_geometric/examples/agnn.py,"test( )",8, 69, 8, 0
+repos/python/pytorch_geometric/examples/data_parallel.py,"__init__( self )",4, 60, 8, 0
+repos/python/pytorch_geometric/examples/data_parallel.py,"forward( self , data )",7, 66, 8, 0
+repos/python/pytorch_geometric/examples/rgcn.py,"__init__( self )",6, 74, 12, 0
+repos/python/pytorch_geometric/examples/rgcn.py,"forward( self , edge_index , edge_type , edge_norm )",4, 60, 8, 0
+repos/python/pytorch_geometric/examples/rgcn.py,"train( )",6, 65, 4, 0
+repos/python/pytorch_geometric/examples/rgcn.py,"test( )",6, 66, 4, 0
+repos/python/pytorch_geometric/examples/cora.py,"__init__( self )",4, 80, 8, 0
+repos/python/pytorch_geometric/examples/cora.py,"forward( self )",7, 75, 8, 0
+repos/python/pytorch_geometric/examples/cora.py,"train( )",5, 77, 4, 0
+repos/python/pytorch_geometric/examples/cora.py,"test( )",8, 69, 8, 0
+repos/python/pytorch_geometric/examples/qm9_nn_conv.py,"__call__( self , data )",4, 35, 8, 0
+repos/python/pytorch_geometric/examples/qm9_nn_conv.py,"__call__( self , data )",23, 76, 8, 0
+repos/python/pytorch_geometric/examples/qm9_nn_conv.py,"__init__( self )",11, 73, 8, 0
+repos/python/pytorch_geometric/examples/qm9_nn_conv.py,"forward( self , data )",13, 72, 12, 0
+repos/python/pytorch_geometric/examples/qm9_nn_conv.py,"train( epoch )",12, 50, 8, 0
+repos/python/pytorch_geometric/examples/qm9_nn_conv.py,"test( loader )",8, 78, 8, 0
+repos/python/pytorch_geometric/examples/enzymes_diff_pool.py,"__call__( self , data )",2, 43, 8, 0
+repos/python/pytorch_geometric/examples/enzymes_diff_pool.py,"__init__( self , in_channels , hidden_channels , out_channels , normalize = False , add_loop = False , lin = True )",7, 34, 17, 0
+repos/python/pytorch_geometric/examples/enzymes_diff_pool.py,"bn( self , i , x )",7, 56, 8, 0
+repos/python/pytorch_geometric/examples/enzymes_diff_pool.py,"forward( self , x , adj , mask = None )",14, 74, 8, 0
+repos/python/pytorch_geometric/examples/enzymes_diff_pool.py,"__init__( self )",10, 74, 8, 0
+repos/python/pytorch_geometric/examples/enzymes_diff_pool.py,"forward( self , x , adj , mask = None )",12, 55, 8, 0
+repos/python/pytorch_geometric/examples/enzymes_diff_pool.py,"train( epoch )",13, 57, 8, 0
+repos/python/pytorch_geometric/examples/enzymes_diff_pool.py,"test( loader )",9, 67, 8, 0
+repos/python/pytorch_geometric/examples/sgc.py,"__init__( self )",4, 73, 12, 0
+repos/python/pytorch_geometric/examples/sgc.py,"forward( self )",4, 48, 8, 0
+repos/python/pytorch_geometric/examples/sgc.py,"train( )",5, 77, 4, 0
+repos/python/pytorch_geometric/examples/sgc.py,"test( )",8, 69, 8, 0
+repos/python/pytorch_geometric/examples/mutag_gin.py,"__init__( self )",28, 78, 8, 0
+repos/python/pytorch_geometric/examples/mutag_gin.py,"forward( self , x , edge_index , batch )",16, 56, 8, 0
+repos/python/pytorch_geometric/examples/mutag_gin.py,"train( epoch )",17, 60, 8, 0
+repos/python/pytorch_geometric/examples/mutag_gin.py,"test( loader )",10, 60, 8, 0
+repos/python/pytorch_geometric/examples/gat.py,"__init__( self )",4, 76, 8, 0
+repos/python/pytorch_geometric/examples/gat.py,"forward( self )",6, 61, 8, 0
+repos/python/pytorch_geometric/examples/gat.py,"train( )",5, 77, 4, 0
+repos/python/pytorch_geometric/examples/gat.py,"test( )",8, 69, 8, 0
+repos/python/pytorch_geometric/examples/mnist_nn_conv.py,"normalized_cut_2d( edge_index , pos )",4, 72, 4, 0
+repos/python/pytorch_geometric/examples/mnist_nn_conv.py,"__init__( self )",10, 77, 8, 0
+repos/python/pytorch_geometric/examples/mnist_nn_conv.py,"forward( self , data )",15, 76, 8, 0
+repos/python/pytorch_geometric/examples/mnist_nn_conv.py,"train( epoch )",16, 51, 8, 0
+repos/python/pytorch_geometric/examples/mnist_nn_conv.py,"test( )",9, 48, 8, 0

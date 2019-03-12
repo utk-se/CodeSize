@@ -1,0 +1,5 @@
+File, Function, Length, Total Width, Leading Space(s), Leading Tab(s)
+repos/python/ChromeAppHeroes/相关资源/bing/bing.py,"saveImage( response_data )",28, 74, 12, 0
+repos/python/ChromeAppHeroes/相关资源/bing/bing.py,"getAllWebPageInfo( page_number )",25, 162, 12, 0
+repos/python/ChromeAppHeroes/相关资源/bing/bing.py,"getPageNumber( )",8, 83, 4, 0
+repos/python/ChromeAppHeroes/相关资源/bing/bing.py,"main( )",3, 34, 4, 0

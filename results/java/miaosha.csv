@@ -1,0 +1,939 @@
+File, Function, Length, Total Width, Leading Space(s), Leading Tab(s)
+repos/java/miaosha/miaosha-admin/miaosha-common/src/main/java/com/geekq/common/vo/LoginVo.java,"LoginVo::toString()",6, 51, 16, 0
+repos/java/miaosha/miaosha-admin/miaosha-common/src/main/java/com/geekq/common/validator/MobileCheck.java,"required()",5, 42, 4, 0
+repos/java/miaosha/miaosha-admin/miaosha-common/src/main/java/com/geekq/common/validator/MobileCheck.java,"payload()",1, 53, 4, 0
+repos/java/miaosha/miaosha-admin/miaosha-common/src/main/java/com/geekq/common/validator/MobileValidator.java,"MobileValidator::initialize( MobileCheck isMobile)",3, 51, 4, 0
+repos/java/miaosha/miaosha-admin/miaosha-common/src/main/java/com/geekq/common/validator/MobileValidator.java,"MobileValidator::isValid( String value , ConstraintValidatorContext constraintValidatorContext)",11, 98, 4, 0
+repos/java/miaosha/miaosha-admin/miaosha-common/src/main/java/com/geekq/common/enums/MessageStatus.java,"MessageStatus::messageType( String message)",3, 45, 8, 0
+repos/java/miaosha/miaosha-admin/miaosha-common/src/main/java/com/geekq/common/enums/MessageStatus.java,"MessageStatus::getMessage()",3, 37, 8, 0
+repos/java/miaosha/miaosha-admin/miaosha-common/src/main/java/com/geekq/common/enums/MessageStatus.java,"MessageStatus::ContentEnum( int code , String message)",4, 56, 8, 0
+repos/java/miaosha/miaosha-admin/miaosha-common/src/main/java/com/geekq/common/enums/MessageStatus.java,"MessageStatus::getCode()",3, 31, 8, 0
+repos/java/miaosha/miaosha-admin/miaosha-common/src/main/java/com/geekq/common/enums/MessageStatus.java,"MessageStatus::getMessage()",3, 37, 8, 0
+repos/java/miaosha/miaosha-admin/miaosha-common/src/main/java/com/geekq/common/enums/OrderStatusEnum.java,"OrderStatusEnum( int key , String value)",4, 42, 0, 1
+repos/java/miaosha/miaosha-admin/miaosha-common/src/main/java/com/geekq/common/enums/OrderStatusEnum.java,"getName( int key)",8, 60, 0, 2
+repos/java/miaosha/miaosha-admin/miaosha-common/src/main/java/com/geekq/common/enums/OrderStatusEnum.java,"getKey()",3, 23, 0, 1
+repos/java/miaosha/miaosha-admin/miaosha-common/src/main/java/com/geekq/common/enums/OrderStatusEnum.java,"getValue()",3, 28, 0, 1
+repos/java/miaosha/miaosha-admin/miaosha-common/src/main/java/com/geekq/common/enums/YesOrNo.java,"YesOrNo( int value)",3, 22, 0, 1
+repos/java/miaosha/miaosha-admin/miaosha-common/src/main/java/com/geekq/common/enums/YesOrNo.java,"getValue()",3, 25, 0, 1
+repos/java/miaosha/miaosha-admin/miaosha-common/src/main/java/com/geekq/common/enums/SexEnum.java,"SexEnum( int value)",3, 22, 0, 1
+repos/java/miaosha/miaosha-admin/miaosha-common/src/main/java/com/geekq/common/enums/SexEnum.java,"getValue()",3, 25, 0, 1
+repos/java/miaosha/miaosha-admin/miaosha-common/src/main/java/com/geekq/common/enums/ResultStatus.java,"ResultStatus( int code , String message)",4, 53, 4, 0
+repos/java/miaosha/miaosha-admin/miaosha-common/src/main/java/com/geekq/common/enums/ResultStatus.java,"getCode()",3, 27, 4, 0
+repos/java/miaosha/miaosha-admin/miaosha-common/src/main/java/com/geekq/common/enums/ResultStatus.java,"setCode( int code)",3, 36, 4, 0
+repos/java/miaosha/miaosha-admin/miaosha-common/src/main/java/com/geekq/common/enums/ResultStatus.java,"getMessage()",3, 33, 4, 0
+repos/java/miaosha/miaosha-admin/miaosha-common/src/main/java/com/geekq/common/enums/ResultStatus.java,"setMessage( String message)",3, 45, 4, 0
+repos/java/miaosha/miaosha-admin/miaosha-common/src/main/java/com/geekq/common/enums/ResultStatus.java,"getName()",3, 30, 4, 0
+repos/java/miaosha/miaosha-admin/miaosha-common/src/main/java/com/geekq/common/enums/ResultStatus.java,"getOutputName()",3, 36, 4, 0
+repos/java/miaosha/miaosha-admin/miaosha-common/src/main/java/com/geekq/common/enums/ResultStatus.java,"toString()",3, 31, 4, 0
+repos/java/miaosha/miaosha-admin/miaosha-common/src/main/java/com/geekq/common/enums/ResultStatus.java,"ResultStatus( Object ... args)",3, 58, 8, 0
+repos/java/miaosha/miaosha-admin/miaosha-common/src/main/java/com/geekq/common/utils/ValidatorUtil.java,"ValidatorUtil::isMobile( String src)",7, 46, 0, 1
+repos/java/miaosha/miaosha-admin/miaosha-common/src/main/java/com/geekq/common/utils/DateUtil.java,"DateUtil::endOfDay( Date d)",4, 69, 0, 4
+repos/java/miaosha/miaosha-admin/miaosha-common/src/main/java/com/geekq/common/utils/DateUtil.java,"DateUtil::getSecondsBetweenDates( Date d1 , Date d2)",3, 63, 0, 1
+repos/java/miaosha/miaosha-admin/miaosha-common/src/main/java/com/geekq/common/utils/Constanst.java,"Constanst::orderStaus( String name)",3, 33, 8, 0
+repos/java/miaosha/miaosha-admin/miaosha-common/src/main/java/com/geekq/common/utils/Constanst.java,"Constanst::getName()",3, 34, 8, 0
+repos/java/miaosha/miaosha-admin/miaosha-common/src/main/java/com/geekq/common/utils/Constanst.java,"Constanst::setName( String name)",3, 43, 8, 0
+repos/java/miaosha/miaosha-admin/miaosha-common/src/main/java/com/geekq/common/utils/JsonUtils.java,"JsonUtils::objectToJson( Object data)",9, 53, 4, 0
+repos/java/miaosha/miaosha-admin/miaosha-common/src/main/java/com/geekq/common/utils/JsonUtils.java,"JsonUtils::jsonToPojo( String jsonData , Class<T> beanType)",9, 73, 4, 0
+repos/java/miaosha/miaosha-admin/miaosha-common/src/main/java/com/geekq/common/utils/JsonUtils.java,"JsonUtils::jsonToList( String jsonData , Class<T> beanType)",11, 96, 4, 1
+repos/java/miaosha/miaosha-admin/miaosha-common/src/main/java/com/geekq/common/utils/DBContextUtil.java,"DBContextUtil::setDB( String db)",3, 39, 0, 1
+repos/java/miaosha/miaosha-admin/miaosha-common/src/main/java/com/geekq/common/utils/DBContextUtil.java,"DBContextUtil::getDB()",3, 32, 0, 1
+repos/java/miaosha/miaosha-admin/miaosha-common/src/main/java/com/geekq/common/utils/SnowflakeIdWorker.java,"SnowflakeIdWorker::SnowflakeIdWorker( long workerId , long datacenterId)",10, 137, 12, 0
+repos/java/miaosha/miaosha-admin/miaosha-common/src/main/java/com/geekq/common/utils/SnowflakeIdWorker.java,"SnowflakeIdWorker::getOrderId( long workerId , long datacenterId)",4, 69, 4, 0
+repos/java/miaosha/miaosha-admin/miaosha-common/src/main/java/com/geekq/common/utils/SnowflakeIdWorker.java,"SnowflakeIdWorker::nextId()",32, 134, 20, 0
+repos/java/miaosha/miaosha-admin/miaosha-common/src/main/java/com/geekq/common/utils/SnowflakeIdWorker.java,"SnowflakeIdWorker::tilNextMillis( long lastTimestamp)",7, 55, 4, 0
+repos/java/miaosha/miaosha-admin/miaosha-common/src/main/java/com/geekq/common/utils/SnowflakeIdWorker.java,"SnowflakeIdWorker::timeGen()",3, 43, 8, 0
+repos/java/miaosha/miaosha-admin/miaosha-common/src/main/java/com/geekq/common/utils/SnowflakeIdWorker.java,"SnowflakeIdWorker::main( String [ ] args)",8, 66, 8, 0
+repos/java/miaosha/miaosha-admin/miaosha-common/src/main/java/com/geekq/common/utils/MD5/MD5Utils.java,"MD5Utils::getSaltT()",7, 88, 8, 0
+repos/java/miaosha/miaosha-admin/miaosha-common/src/main/java/com/geekq/common/utils/MD5/MD5Utils.java,"MD5Utils::MD5( String keyName)",7, 48, 4, 0
+repos/java/miaosha/miaosha-admin/miaosha-common/src/main/java/com/geekq/common/utils/MD5/MD5Utils.java,"MD5Utils::inputPassFormPass( String inputPass)",4, 118, 8, 0
+repos/java/miaosha/miaosha-admin/miaosha-common/src/main/java/com/geekq/common/utils/MD5/MD5Utils.java,"MD5Utils::formPassFormPass( String inputPass)",4, 117, 8, 0
+repos/java/miaosha/miaosha-admin/miaosha-common/src/main/java/com/geekq/common/utils/MD5/MD5Utils.java,"MD5Utils::formPassToDBPass( String formPass , String salt)",4, 104, 8, 0
+repos/java/miaosha/miaosha-admin/miaosha-common/src/main/java/com/geekq/common/utils/resultbean/ResultGeekQ.java,"ResultGeekQ<T>::ResultGeekQ()",2, 30, 4, 0
+repos/java/miaosha/miaosha-admin/miaosha-common/src/main/java/com/geekq/common/utils/resultbean/ResultGeekQ.java,"ResultGeekQ<T>::ResultGeekQ( ResultStatus status , String message)",3, 65, 4, 0
+repos/java/miaosha/miaosha-admin/miaosha-common/src/main/java/com/geekq/common/utils/resultbean/ResultGeekQ.java,"ResultGeekQ<T>::ResultGeekQ( ResultStatus status)",3, 49, 4, 0
+repos/java/miaosha/miaosha-admin/miaosha-common/src/main/java/com/geekq/common/utils/resultbean/ResultGeekQ.java,"ResultGeekQ<T>::build()",3, 62, 8, 0
+repos/java/miaosha/miaosha-admin/miaosha-common/src/main/java/com/geekq/common/utils/resultbean/ResultGeekQ.java,"ResultGeekQ<T>::build( String message)",3, 63, 8, 0
+repos/java/miaosha/miaosha-admin/miaosha-common/src/main/java/com/geekq/common/utils/resultbean/ResultGeekQ.java,"ResultGeekQ<T>::error( ResultStatus status)",3, 66, 4, 0
+repos/java/miaosha/miaosha-admin/miaosha-common/src/main/java/com/geekq/common/utils/resultbean/ResultGeekQ.java,"ResultGeekQ<T>::getData()",3, 25, 4, 0
+repos/java/miaosha/miaosha-admin/miaosha-common/src/main/java/com/geekq/common/utils/resultbean/ResultGeekQ.java,"ResultGeekQ<T>::setData( T data)",3, 34, 4, 0
+repos/java/miaosha/miaosha-admin/miaosha-common/src/main/java/com/geekq/common/utils/resultbean/ResultGeekQ.java,"ResultGeekQ<T>::getCount()",3, 32, 4, 0
+repos/java/miaosha/miaosha-admin/miaosha-common/src/main/java/com/geekq/common/utils/resultbean/ResultGeekQ.java,"ResultGeekQ<T>::setCount( Integer count)",3, 42, 4, 0
+repos/java/miaosha/miaosha-admin/miaosha-common/src/main/java/com/geekq/common/utils/resultbean/ResultGeekQ.java,"ResultGeekQ<T>::success( T value)",5, 35, 4, 0
+repos/java/miaosha/miaosha-admin/miaosha-common/src/main/java/com/geekq/common/utils/resultbean/ResultJSON.java,"ResultJSON::ResultJSON()",3, 23, 0, 1
+repos/java/miaosha/miaosha-admin/miaosha-common/src/main/java/com/geekq/common/utils/resultbean/ResultJSON.java,"ResultJSON::ResultJSON( Boolean success , String msg)",5, 50, 0, 1
+repos/java/miaosha/miaosha-admin/miaosha-common/src/main/java/com/geekq/common/utils/resultbean/ResultJSON.java,"ResultJSON::ResultJSON( String msg)",4, 33, 0, 1
+repos/java/miaosha/miaosha-admin/miaosha-common/src/main/java/com/geekq/common/utils/resultbean/AbstractResult.java,"AbstractResult::AbstractResult()",1, 24, 4, 0
+repos/java/miaosha/miaosha-admin/miaosha-common/src/main/java/com/geekq/common/utils/resultbean/AbstractResult.java,"AbstractResult::AbstractResult( ResultStatus status , String message)",5, 68, 4, 0
+repos/java/miaosha/miaosha-admin/miaosha-common/src/main/java/com/geekq/common/utils/resultbean/AbstractResult.java,"AbstractResult::AbstractResult( ResultStatus status)",5, 52, 4, 0
+repos/java/miaosha/miaosha-admin/miaosha-common/src/main/java/com/geekq/common/utils/resultbean/AbstractResult.java,"AbstractResult::isSuccess( AbstractResult result)",3, 126, 8, 0
+repos/java/miaosha/miaosha-admin/miaosha-common/src/main/java/com/geekq/common/utils/resultbean/AbstractResult.java,"AbstractResult::withError( ResultStatus status)",4, 59, 4, 0
+repos/java/miaosha/miaosha-admin/miaosha-common/src/main/java/com/geekq/common/utils/resultbean/AbstractResult.java,"AbstractResult::withError( String message)",5, 54, 4, 0
+repos/java/miaosha/miaosha-admin/miaosha-common/src/main/java/com/geekq/common/utils/resultbean/AbstractResult.java,"AbstractResult::withError( int code , String message)",6, 64, 4, 0
+repos/java/miaosha/miaosha-admin/miaosha-common/src/main/java/com/geekq/common/utils/resultbean/AbstractResult.java,"AbstractResult::success()",4, 44, 8, 0
+repos/java/miaosha/miaosha-admin/miaosha-common/src/main/java/com/geekq/common/utils/resultbean/AbstractResult.java,"AbstractResult::getStatus()",3, 38, 4, 0
+repos/java/miaosha/miaosha-admin/miaosha-common/src/main/java/com/geekq/common/utils/resultbean/AbstractResult.java,"AbstractResult::getMessage()",3, 79, 8, 0
+repos/java/miaosha/miaosha-admin/miaosha-common/src/main/java/com/geekq/common/utils/resultbean/AbstractResult.java,"AbstractResult::getCode()",3, 27, 4, 0
+repos/java/miaosha/miaosha-admin/miaosha-common/src/main/java/com/geekq/common/utils/resultbean/AbstractResult.java,"AbstractResult::setCode( int code)",3, 36, 4, 0
+repos/java/miaosha/miaosha-admin/miaosha-common/src/main/java/com/geekq/common/utils/numcal/DecimalFormatUtil.java,"DecimalFormatUtil::amountFormat( BigDecimal number)",4, 72, 0, 2
+repos/java/miaosha/miaosha-admin/miaosha-common/src/main/java/com/geekq/common/utils/numcal/DecimalFormatUtil.java,"DecimalFormatUtil::rateFormat( BigDecimal number)",4, 72, 0, 2
+repos/java/miaosha/miaosha-admin/miaosha-common/src/main/java/com/geekq/common/utils/numcal/DecimalFormatUtil.java,"DecimalFormatUtil::decimalRateFormat( BigDecimal number)",3, 65, 0, 1
+repos/java/miaosha/miaosha-admin/miaosha-common/src/main/java/com/geekq/common/utils/numcal/DecimalFormatUtil.java,"DecimalFormatUtil::monthRateFormat( BigDecimal number)",5, 63, 0, 1
+repos/java/miaosha/miaosha-admin/miaosha-common/src/main/java/com/geekq/common/utils/numcal/DecimalFormatUtil.java,"DecimalFormatUtil::formatBigDecimal( BigDecimal data , int scal)",5, 72, 0, 1
+repos/java/miaosha/miaosha-admin/miaosha-common/src/main/java/com/geekq/common/utils/numcal/CalculatetUtil.java,"CalculatetUtil::getMonthlyRate( BigDecimal yearRate)",6, 68, 0, 2
+repos/java/miaosha/miaosha-admin/miaosha-common/src/main/java/com/geekq/common/utils/numcal/CalculatetUtil.java,"CalculatetUtil::calTotalInterest( int returnType , BigDecimal bidRequestAmount , BigDecimal yearRate , int monthes2Return)",33, 76, 0, 2
+repos/java/miaosha/miaosha-admin/miaosha-common/src/main/java/com/geekq/common/utils/numcal/CalculatetUtil.java,"CalculatetUtil::calMonthlyInterest( int returnType , BigDecimal bidRequestAmount , BigDecimal yearRate , int monthIndex , int monthes2Return)",55, 76, 0, 2
+repos/java/miaosha/miaosha-admin/miaosha-common/src/main/java/com/geekq/common/utils/numcal/CalculatetUtil.java,"CalculatetUtil::calMonthToReturnMoney( int returnType , BigDecimal bidRequestAmount , BigDecimal yearRate , int monthIndex , int monthes2Return)",33, 76, 0, 2
+repos/java/miaosha/miaosha-admin/miaosha-common/src/main/java/com/geekq/common/utils/numcal/CalculatetUtil.java,"CalculatetUtil::calBidInterest( BigDecimal bidRequestAmount , int monthes2Return , BigDecimal yearRate , int returnType , BigDecimal acturalBidAmount)",13, 70, 0, 1
+repos/java/miaosha/miaosha-admin/miaosha-common/src/main/java/com/geekq/common/utils/numcal/CalculatetUtil.java,"CalculatetUtil::calAccountManagementCharge( BigDecimal bidRequestAmount)",8, 57, 0, 2
+repos/java/miaosha/miaosha-admin/miaosha-common/src/main/java/com/geekq/common/utils/numcal/BitStatesUtils.java,"BitStatesUtils::hasState( long states , long value)",3, 59, 0, 1
+repos/java/miaosha/miaosha-admin/miaosha-common/src/main/java/com/geekq/common/utils/numcal/BitStatesUtils.java,"BitStatesUtils::addState( long states , long value)",6, 56, 0, 1
+repos/java/miaosha/miaosha-admin/miaosha-common/src/main/java/com/geekq/common/utils/numcal/BitStatesUtils.java,"BitStatesUtils::removeState( long states , long value)",6, 59, 0, 1
+repos/java/miaosha/miaosha-admin/miaosha-admin-api/src/main/java/com/geekq/admin/entity/Account.java,"Account::getAbstractInfo()",4, 60, 0, 1
+repos/java/miaosha/miaosha-admin/miaosha-admin-api/src/main/java/com/geekq/admin/entity/Account.java,"Account::checkAbstractInfo()",5, 63, 0, 1
+repos/java/miaosha/miaosha-admin/miaosha-admin-api/src/main/java/com/geekq/admin/entity/Account.java,"Account::getTotalAmount()",3, 66, 0, 2
+repos/java/miaosha/miaosha-admin/miaosha-admin-api/src/main/java/com/geekq/admin/entity/Account.java,"Account::addUseableAmount( BigDecimal amount)",3, 53, 0, 2
+repos/java/miaosha/miaosha-admin/miaosha-admin-api/src/main/java/com/geekq/admin/entity/Account.java,"Account::addFreezedAmount( BigDecimal amount)",3, 55, 0, 2
+repos/java/miaosha/miaosha-admin/miaosha-admin-api/src/main/java/com/geekq/admin/entity/Account.java,"Account::empty( Long id)",7, 68, 0, 2
+repos/java/miaosha/miaosha-admin/miaosha-admin-api/src/main/java/com/geekq/admin/entity/Userinfo.java,"Userinfo::empty( Long id)",6, 54, 0, 2
+repos/java/miaosha/miaosha-admin/miaosha-admin-api/src/main/java/com/geekq/admin/entity/Userinfo.java,"Userinfo::addState( Long state)",3, 71, 8, 0
+repos/java/miaosha/miaosha-admin/miaosha-admin-api/src/main/java/com/geekq/admin/entity/Userinfo.java,"Userinfo::removeState( Long state)",3, 74, 8, 0
+repos/java/miaosha/miaosha-admin/miaosha-admin-api/src/main/java/com/geekq/admin/entity/Userinfo.java,"Userinfo::getIsBindPhone()",4, 80, 8, 0
+repos/java/miaosha/miaosha-admin/miaosha-admin-api/src/main/java/com/geekq/admin/entity/Userinfo.java,"Userinfo::getIsBindEmail()",3, 80, 8, 0
+repos/java/miaosha/miaosha-admin/miaosha-admin-api/src/main/java/com/geekq/admin/entity/Userinfo.java,"Userinfo::getBaseInfo()",3, 79, 8, 0
+repos/java/miaosha/miaosha-admin/miaosha-admin-api/src/main/java/com/geekq/admin/entity/Userinfo.java,"Userinfo::getRealAuth()",3, 79, 8, 0
+repos/java/miaosha/miaosha-admin/miaosha-admin-api/src/main/java/com/geekq/admin/entity/Userinfo.java,"Userinfo::getVedioAuth()",3, 80, 8, 0
+repos/java/miaosha/miaosha-admin/miaosha-admin-api/src/main/java/com/geekq/admin/entity/Userinfo.java,"Userinfo::getHasBidRequest()",3, 83, 8, 0
+repos/java/miaosha/miaosha-admin/miaosha-admin-api/src/main/java/com/geekq/admin/entity/Userinfo.java,"Userinfo::getAnonymousRealName()",12, 47, 8, 0
+repos/java/miaosha/miaosha-admin/miaosha-admin-api/src/main/java/com/geekq/admin/entity/Userinfo.java,"Userinfo::getAnonymousRealName( String realName)",12, 65, 4, 0
+repos/java/miaosha/miaosha-admin/miaosha-admin-api/src/main/java/com/geekq/admin/entity/Userinfo.java,"Userinfo::getAnonymousIdNumber( String idNumber)",15, 65, 4, 0
+repos/java/miaosha/miaosha-admin/miaosha-admin-api/src/main/java/com/geekq/admin/entity/Userinfo.java,"Userinfo::getAnonymousPhoneNumber( String phoneNumber)",15, 71, 4, 0
+repos/java/miaosha/miaosha-admin/miaosha-admin-api/src/main/java/com/geekq/admin/entity/Userinfo.java,"Userinfo::getAnonymousCurrentAddress( String currentAddress)",13, 80, 12, 0
+repos/java/miaosha/miaosha-admin/miaosha-admin-api/src/main/java/com/geekq/admin/entity/SystemDictionaryItem.java,"SystemDictionaryItem::getJsonString()",10, 43, 0, 2
+repos/java/miaosha/miaosha-admin/miaosha-admin-api/src/main/java/com/geekq/admin/entity/SystemDictionary.java,"SystemDictionary::getJsonString()",8, 43, 0, 2
+repos/java/miaosha/miaosha-admin/miaosha-admin-api/src/main/java/com/geekq/admin/entity/IpLog.java,"IpLog::getDisplayState()",3, 58, 0, 2
+repos/java/miaosha/miaosha-admin/miaosha-admin-api/src/main/java/com/geekq/admin/entity/IpLog.java,"IpLog::IpLog()",3, 18, 0, 1
+repos/java/miaosha/miaosha-admin/miaosha-admin-api/src/main/java/com/geekq/admin/entity/IpLog.java,"IpLog::IpLog( String username , Date loginTime , String ip , int loginType , Long loginInfoId)",10, 73, 0, 1
+repos/java/miaosha/miaosha-admin/miaosha-admin-api/src/main/java/com/geekq/admin/query/SystemDictionaryQueryObject.java,"SystemDictionaryQueryObject::getKeyword()",3, 58, 0, 2
+repos/java/miaosha/miaosha-admin/miaosha-admin-api/src/main/java/com/geekq/admin/query/PageResult.java,"PageResult::PageResult()",3, 23, 0, 1
+repos/java/miaosha/miaosha-admin/miaosha-admin-api/src/main/java/com/geekq/admin/query/PageResult.java,"PageResult::empty( int pageSize)",3, 58, 0, 2
+repos/java/miaosha/miaosha-admin/miaosha-admin-api/src/main/java/com/geekq/admin/query/PageResult.java,"PageResult::PageResult( Integer totalCount , Integer pageSize , Integer currentPage , List result)",8, 57, 0, 1
+repos/java/miaosha/miaosha-admin/miaosha-admin-api/src/main/java/com/geekq/admin/query/PageResult.java,"PageResult::getTotalPage()",3, 62, 0, 2
+repos/java/miaosha/miaosha-admin/miaosha-admin-api/src/main/java/com/geekq/admin/query/PageResult.java,"PageResult::getPrev()",3, 39, 0, 2
+repos/java/miaosha/miaosha-admin/miaosha-admin-api/src/main/java/com/geekq/admin/query/PageResult.java,"PageResult::getNext()",3, 52, 0, 2
+repos/java/miaosha/miaosha-admin/miaosha-admin-api/src/main/java/com/geekq/admin/query/PageResult.java,"PageResult::getTotalCount()",3, 34, 0, 1
+repos/java/miaosha/miaosha-admin/miaosha-admin-api/src/main/java/com/geekq/admin/query/PageResult.java,"PageResult::getResult()",3, 27, 0, 1
+repos/java/miaosha/miaosha-admin/miaosha-admin-api/src/main/java/com/geekq/admin/query/PageResult.java,"PageResult::getCurrentPage()",3, 35, 0, 1
+repos/java/miaosha/miaosha-admin/miaosha-admin-api/src/main/java/com/geekq/admin/query/PageResult.java,"PageResult::setCurrentPage( Integer currentPage)",3, 51, 0, 1
+repos/java/miaosha/miaosha-admin/miaosha-admin-api/src/main/java/com/geekq/admin/query/PageResult.java,"PageResult::getPageSize()",3, 32, 0, 1
+repos/java/miaosha/miaosha-admin/miaosha-admin-api/src/main/java/com/geekq/admin/query/PageResult.java,"PageResult::setPageSize( Integer pageSize)",3, 45, 0, 1
+repos/java/miaosha/miaosha-admin/miaosha-admin-api/src/main/java/com/geekq/admin/query/IpLogQueryObject.java,"IpLogQueryObject::setBeginDate( Date beginDate)",3, 44, 0, 1
+repos/java/miaosha/miaosha-admin/miaosha-admin-api/src/main/java/com/geekq/admin/query/IpLogQueryObject.java,"IpLogQueryObject::setEndDate( Date endDate)",3, 40, 0, 1
+repos/java/miaosha/miaosha-admin/miaosha-admin-api/src/main/java/com/geekq/admin/query/IpLogQueryObject.java,"IpLogQueryObject::getEndDate()",6, 38, 0, 3
+repos/java/miaosha/miaosha-admin/miaosha-admin-api/src/main/java/com/geekq/admin/query/QueryObject.java,"QueryObject::getStart()",3, 39, 0, 2
+repos/java/miaosha/miaosha-admin/miaosha-admin-api/src/main/java/com/geekq/admin/pojo/OrdersExample.java,"OrdersExample::OrdersExample()",3, 50, 8, 0
+repos/java/miaosha/miaosha-admin/miaosha-admin-api/src/main/java/com/geekq/admin/pojo/OrdersExample.java,"OrdersExample::setOrderByClause( String orderByClause)",3, 57, 4, 0
+repos/java/miaosha/miaosha-admin/miaosha-admin-api/src/main/java/com/geekq/admin/pojo/OrdersExample.java,"OrdersExample::getOrderByClause()",3, 39, 4, 0
+repos/java/miaosha/miaosha-admin/miaosha-admin-api/src/main/java/com/geekq/admin/pojo/OrdersExample.java,"OrdersExample::setDistinct( boolean distinct)",3, 48, 4, 0
+repos/java/miaosha/miaosha-admin/miaosha-admin-api/src/main/java/com/geekq/admin/pojo/OrdersExample.java,"OrdersExample::isDistinct()",3, 34, 4, 0
+repos/java/miaosha/miaosha-admin/miaosha-admin-api/src/main/java/com/geekq/admin/pojo/OrdersExample.java,"OrdersExample::getOredCriteria()",3, 46, 4, 0
+repos/java/miaosha/miaosha-admin/miaosha-admin-api/src/main/java/com/geekq/admin/pojo/OrdersExample.java,"OrdersExample::or( Criteria criteria)",3, 40, 4, 0
+repos/java/miaosha/miaosha-admin/miaosha-admin-api/src/main/java/com/geekq/admin/pojo/OrdersExample.java,"OrdersExample::or()",5, 54, 8, 0
+repos/java/miaosha/miaosha-admin/miaosha-admin-api/src/main/java/com/geekq/admin/pojo/OrdersExample.java,"OrdersExample::createCriteria()",7, 54, 8, 0
+repos/java/miaosha/miaosha-admin/miaosha-admin-api/src/main/java/com/geekq/admin/pojo/OrdersExample.java,"OrdersExample::createCriteriaInternal()",4, 50, 4, 0
+repos/java/miaosha/miaosha-admin/miaosha-admin-api/src/main/java/com/geekq/admin/pojo/OrdersExample.java,"OrdersExample::clear()",5, 30, 8, 0
+repos/java/miaosha/miaosha-admin/miaosha-admin-api/src/main/java/com/geekq/admin/pojo/OrdersExample.java,"OrdersExample::GeneratedCriteria::GeneratedCriteria()",4, 51, 12, 0
+repos/java/miaosha/miaosha-admin/miaosha-admin-api/src/main/java/com/geekq/admin/pojo/OrdersExample.java,"OrdersExample::GeneratedCriteria::isValid()",3, 40, 12, 0
+repos/java/miaosha/miaosha-admin/miaosha-admin-api/src/main/java/com/geekq/admin/pojo/OrdersExample.java,"OrdersExample::GeneratedCriteria::getAllCriteria()",3, 50, 8, 0
+repos/java/miaosha/miaosha-admin/miaosha-admin-api/src/main/java/com/geekq/admin/pojo/OrdersExample.java,"OrdersExample::GeneratedCriteria::getCriteria()",3, 47, 8, 0
+repos/java/miaosha/miaosha-admin/miaosha-admin-api/src/main/java/com/geekq/admin/pojo/OrdersExample.java,"OrdersExample::GeneratedCriteria::addCriterion( String condition)",6, 82, 16, 0
+repos/java/miaosha/miaosha-admin/miaosha-admin-api/src/main/java/com/geekq/admin/pojo/OrdersExample.java,"OrdersExample::GeneratedCriteria::addCriterion( String condition , Object value , String property)",6, 89, 16, 0
+repos/java/miaosha/miaosha-admin/miaosha-admin-api/src/main/java/com/geekq/admin/pojo/OrdersExample.java,"OrdersExample::GeneratedCriteria::addCriterion( String condition , Object value1 , Object value2 , String property)",6, 103, 8, 0
+repos/java/miaosha/miaosha-admin/miaosha-admin-api/src/main/java/com/geekq/admin/pojo/OrdersExample.java,"OrdersExample::GeneratedCriteria::andIdIsNull()",4, 40, 8, 0
+repos/java/miaosha/miaosha-admin/miaosha-admin-api/src/main/java/com/geekq/admin/pojo/OrdersExample.java,"OrdersExample::GeneratedCriteria::andIdIsNotNull()",4, 44, 12, 0
+repos/java/miaosha/miaosha-admin/miaosha-admin-api/src/main/java/com/geekq/admin/pojo/OrdersExample.java,"OrdersExample::GeneratedCriteria::andIdEqualTo( String value)",4, 53, 8, 0
+repos/java/miaosha/miaosha-admin/miaosha-admin-api/src/main/java/com/geekq/admin/pojo/OrdersExample.java,"OrdersExample::GeneratedCriteria::andIdNotEqualTo( String value)",4, 56, 8, 0
+repos/java/miaosha/miaosha-admin/miaosha-admin-api/src/main/java/com/geekq/admin/pojo/OrdersExample.java,"OrdersExample::GeneratedCriteria::andIdGreaterThan( String value)",4, 57, 8, 0
+repos/java/miaosha/miaosha-admin/miaosha-admin-api/src/main/java/com/geekq/admin/pojo/OrdersExample.java,"OrdersExample::GeneratedCriteria::andIdGreaterThanOrEqualTo( String value)",4, 66, 8, 0
+repos/java/miaosha/miaosha-admin/miaosha-admin-api/src/main/java/com/geekq/admin/pojo/OrdersExample.java,"OrdersExample::GeneratedCriteria::andIdLessThan( String value)",4, 54, 8, 0
+repos/java/miaosha/miaosha-admin/miaosha-admin-api/src/main/java/com/geekq/admin/pojo/OrdersExample.java,"OrdersExample::GeneratedCriteria::andIdLessThanOrEqualTo( String value)",4, 63, 8, 0
+repos/java/miaosha/miaosha-admin/miaosha-admin-api/src/main/java/com/geekq/admin/pojo/OrdersExample.java,"OrdersExample::GeneratedCriteria::andIdLike( String value)",4, 50, 8, 0
+repos/java/miaosha/miaosha-admin/miaosha-admin-api/src/main/java/com/geekq/admin/pojo/OrdersExample.java,"OrdersExample::GeneratedCriteria::andIdNotLike( String value)",4, 54, 12, 0
+repos/java/miaosha/miaosha-admin/miaosha-admin-api/src/main/java/com/geekq/admin/pojo/OrdersExample.java,"OrdersExample::GeneratedCriteria::andIdIn( List<String> values)",4, 55, 8, 0
+repos/java/miaosha/miaosha-admin/miaosha-admin-api/src/main/java/com/geekq/admin/pojo/OrdersExample.java,"OrdersExample::GeneratedCriteria::andIdNotIn( List<String> values)",4, 58, 8, 0
+repos/java/miaosha/miaosha-admin/miaosha-admin-api/src/main/java/com/geekq/admin/pojo/OrdersExample.java,"OrdersExample::GeneratedCriteria::andIdBetween( String value1 , String value2)",4, 69, 8, 0
+repos/java/miaosha/miaosha-admin/miaosha-admin-api/src/main/java/com/geekq/admin/pojo/OrdersExample.java,"OrdersExample::GeneratedCriteria::andIdNotBetween( String value1 , String value2)",4, 72, 8, 0
+repos/java/miaosha/miaosha-admin/miaosha-admin-api/src/main/java/com/geekq/admin/pojo/OrdersExample.java,"OrdersExample::GeneratedCriteria::andOrderNumIsNull()",4, 47, 12, 0
+repos/java/miaosha/miaosha-admin/miaosha-admin-api/src/main/java/com/geekq/admin/pojo/OrdersExample.java,"OrdersExample::GeneratedCriteria::andOrderNumIsNotNull()",4, 51, 12, 0
+repos/java/miaosha/miaosha-admin/miaosha-admin-api/src/main/java/com/geekq/admin/pojo/OrdersExample.java,"OrdersExample::GeneratedCriteria::andOrderNumEqualTo( String value)",4, 60, 12, 0
+repos/java/miaosha/miaosha-admin/miaosha-admin-api/src/main/java/com/geekq/admin/pojo/OrdersExample.java,"OrdersExample::GeneratedCriteria::andOrderNumNotEqualTo( String value)",4, 62, 8, 0
+repos/java/miaosha/miaosha-admin/miaosha-admin-api/src/main/java/com/geekq/admin/pojo/OrdersExample.java,"OrdersExample::GeneratedCriteria::andOrderNumGreaterThan( String value)",4, 63, 8, 0
+repos/java/miaosha/miaosha-admin/miaosha-admin-api/src/main/java/com/geekq/admin/pojo/OrdersExample.java,"OrdersExample::GeneratedCriteria::andOrderNumGreaterThanOrEqualTo( String value)",4, 72, 8, 0
+repos/java/miaosha/miaosha-admin/miaosha-admin-api/src/main/java/com/geekq/admin/pojo/OrdersExample.java,"OrdersExample::GeneratedCriteria::andOrderNumLessThan( String value)",4, 60, 8, 0
+repos/java/miaosha/miaosha-admin/miaosha-admin-api/src/main/java/com/geekq/admin/pojo/OrdersExample.java,"OrdersExample::GeneratedCriteria::andOrderNumLessThanOrEqualTo( String value)",4, 69, 8, 0
+repos/java/miaosha/miaosha-admin/miaosha-admin-api/src/main/java/com/geekq/admin/pojo/OrdersExample.java,"OrdersExample::GeneratedCriteria::andOrderNumLike( String value)",4, 63, 12, 0
+repos/java/miaosha/miaosha-admin/miaosha-admin-api/src/main/java/com/geekq/admin/pojo/OrdersExample.java,"OrdersExample::GeneratedCriteria::andOrderNumNotLike( String value)",4, 67, 12, 0
+repos/java/miaosha/miaosha-admin/miaosha-admin-api/src/main/java/com/geekq/admin/pojo/OrdersExample.java,"OrdersExample::GeneratedCriteria::andOrderNumIn( List<String> values)",4, 62, 12, 0
+repos/java/miaosha/miaosha-admin/miaosha-admin-api/src/main/java/com/geekq/admin/pojo/OrdersExample.java,"OrdersExample::GeneratedCriteria::andOrderNumNotIn( List<String> values)",4, 66, 12, 0
+repos/java/miaosha/miaosha-admin/miaosha-admin-api/src/main/java/com/geekq/admin/pojo/OrdersExample.java,"OrdersExample::GeneratedCriteria::andOrderNumBetween( String value1 , String value2)",4, 75, 8, 0
+repos/java/miaosha/miaosha-admin/miaosha-admin-api/src/main/java/com/geekq/admin/pojo/OrdersExample.java,"OrdersExample::GeneratedCriteria::andOrderNumNotBetween( String value1 , String value2)",4, 79, 12, 0
+repos/java/miaosha/miaosha-admin/miaosha-admin-api/src/main/java/com/geekq/admin/pojo/OrdersExample.java,"OrdersExample::GeneratedCriteria::andItemIdIsNull()",4, 45, 12, 0
+repos/java/miaosha/miaosha-admin/miaosha-admin-api/src/main/java/com/geekq/admin/pojo/OrdersExample.java,"OrdersExample::GeneratedCriteria::andItemIdIsNotNull()",4, 49, 12, 0
+repos/java/miaosha/miaosha-admin/miaosha-admin-api/src/main/java/com/geekq/admin/pojo/OrdersExample.java,"OrdersExample::GeneratedCriteria::andItemIdEqualTo( String value)",4, 57, 8, 0
+repos/java/miaosha/miaosha-admin/miaosha-admin-api/src/main/java/com/geekq/admin/pojo/OrdersExample.java,"OrdersExample::GeneratedCriteria::andItemIdNotEqualTo( String value)",4, 60, 8, 0
+repos/java/miaosha/miaosha-admin/miaosha-admin-api/src/main/java/com/geekq/admin/pojo/OrdersExample.java,"OrdersExample::GeneratedCriteria::andItemIdGreaterThan( String value)",4, 61, 8, 0
+repos/java/miaosha/miaosha-admin/miaosha-admin-api/src/main/java/com/geekq/admin/pojo/OrdersExample.java,"OrdersExample::GeneratedCriteria::andItemIdGreaterThanOrEqualTo( String value)",4, 70, 8, 0
+repos/java/miaosha/miaosha-admin/miaosha-admin-api/src/main/java/com/geekq/admin/pojo/OrdersExample.java,"OrdersExample::GeneratedCriteria::andItemIdLessThan( String value)",4, 58, 8, 0
+repos/java/miaosha/miaosha-admin/miaosha-admin-api/src/main/java/com/geekq/admin/pojo/OrdersExample.java,"OrdersExample::GeneratedCriteria::andItemIdLessThanOrEqualTo( String value)",4, 67, 8, 0
+repos/java/miaosha/miaosha-admin/miaosha-admin-api/src/main/java/com/geekq/admin/pojo/OrdersExample.java,"OrdersExample::GeneratedCriteria::andItemIdLike( String value)",4, 59, 12, 0
+repos/java/miaosha/miaosha-admin/miaosha-admin-api/src/main/java/com/geekq/admin/pojo/OrdersExample.java,"OrdersExample::GeneratedCriteria::andItemIdNotLike( String value)",4, 63, 12, 0
+repos/java/miaosha/miaosha-admin/miaosha-admin-api/src/main/java/com/geekq/admin/pojo/OrdersExample.java,"OrdersExample::GeneratedCriteria::andItemIdIn( List<String> values)",4, 59, 8, 0
+repos/java/miaosha/miaosha-admin/miaosha-admin-api/src/main/java/com/geekq/admin/pojo/OrdersExample.java,"OrdersExample::GeneratedCriteria::andItemIdNotIn( List<String> values)",4, 62, 8, 0
+repos/java/miaosha/miaosha-admin/miaosha-admin-api/src/main/java/com/geekq/admin/pojo/OrdersExample.java,"OrdersExample::GeneratedCriteria::andItemIdBetween( String value1 , String value2)",4, 73, 8, 0
+repos/java/miaosha/miaosha-admin/miaosha-admin-api/src/main/java/com/geekq/admin/pojo/OrdersExample.java,"OrdersExample::GeneratedCriteria::andItemIdNotBetween( String value1 , String value2)",4, 76, 8, 0
+repos/java/miaosha/miaosha-admin/miaosha-admin-api/src/main/java/com/geekq/admin/pojo/OrdersExample.java,"OrdersExample::Criteria::Criteria()",3, 31, 8, 0
+repos/java/miaosha/miaosha-admin/miaosha-admin-api/src/main/java/com/geekq/admin/pojo/OrdersExample.java,"OrdersExample::Criterion::getCondition()",3, 39, 8, 0
+repos/java/miaosha/miaosha-admin/miaosha-admin-api/src/main/java/com/geekq/admin/pojo/OrdersExample.java,"OrdersExample::Criterion::getValue()",3, 35, 8, 0
+repos/java/miaosha/miaosha-admin/miaosha-admin-api/src/main/java/com/geekq/admin/pojo/OrdersExample.java,"OrdersExample::Criterion::getSecondValue()",3, 41, 8, 0
+repos/java/miaosha/miaosha-admin/miaosha-admin-api/src/main/java/com/geekq/admin/pojo/OrdersExample.java,"OrdersExample::Criterion::isNoValue()",3, 37, 8, 0
+repos/java/miaosha/miaosha-admin/miaosha-admin-api/src/main/java/com/geekq/admin/pojo/OrdersExample.java,"OrdersExample::Criterion::isSingleValue()",3, 41, 8, 0
+repos/java/miaosha/miaosha-admin/miaosha-admin-api/src/main/java/com/geekq/admin/pojo/OrdersExample.java,"OrdersExample::Criterion::isBetweenValue()",3, 42, 8, 0
+repos/java/miaosha/miaosha-admin/miaosha-admin-api/src/main/java/com/geekq/admin/pojo/OrdersExample.java,"OrdersExample::Criterion::isListValue()",3, 39, 8, 0
+repos/java/miaosha/miaosha-admin/miaosha-admin-api/src/main/java/com/geekq/admin/pojo/OrdersExample.java,"OrdersExample::Criterion::getTypeHandler()",3, 41, 8, 0
+repos/java/miaosha/miaosha-admin/miaosha-admin-api/src/main/java/com/geekq/admin/pojo/OrdersExample.java,"OrdersExample::Criterion::Criterion( String condition)",6, 48, 8, 0
+repos/java/miaosha/miaosha-admin/miaosha-admin-api/src/main/java/com/geekq/admin/pojo/OrdersExample.java,"OrdersExample::Criterion::Criterion( String condition , Object value , String typeHandler)",11, 82, 8, 0
+repos/java/miaosha/miaosha-admin/miaosha-admin-api/src/main/java/com/geekq/admin/pojo/OrdersExample.java,"OrdersExample::Criterion::Criterion( String condition , Object value)",3, 62, 8, 0
+repos/java/miaosha/miaosha-admin/miaosha-admin-api/src/main/java/com/geekq/admin/pojo/OrdersExample.java,"OrdersExample::Criterion::Criterion( String condition , Object value , Object secondValue , String typeHandler)",8, 102, 8, 0
+repos/java/miaosha/miaosha-admin/miaosha-admin-api/src/main/java/com/geekq/admin/pojo/OrdersExample.java,"OrdersExample::Criterion::Criterion( String condition , Object value , Object secondValue)",3, 82, 8, 0
+repos/java/miaosha/miaosha-admin/miaosha-admin-api/src/main/java/com/geekq/admin/pojo/Orders.java,"Orders::getId()",3, 28, 4, 0
+repos/java/miaosha/miaosha-admin/miaosha-admin-api/src/main/java/com/geekq/admin/pojo/Orders.java,"Orders::setId( String id)",3, 49, 8, 0
+repos/java/miaosha/miaosha-admin/miaosha-admin-api/src/main/java/com/geekq/admin/pojo/Orders.java,"Orders::getOrderNum()",3, 34, 4, 0
+repos/java/miaosha/miaosha-admin/miaosha-admin-api/src/main/java/com/geekq/admin/pojo/Orders.java,"Orders::setOrderNum( String orderNum)",3, 67, 8, 0
+repos/java/miaosha/miaosha-admin/miaosha-admin-api/src/main/java/com/geekq/admin/pojo/Orders.java,"Orders::getItemId()",3, 32, 4, 0
+repos/java/miaosha/miaosha-admin/miaosha-admin-api/src/main/java/com/geekq/admin/pojo/Orders.java,"Orders::setItemId( String itemId)",3, 61, 8, 0
+repos/java/miaosha/miaosha-admin/miaosha-admin-service/src/main/java/com/geekq/admin/redis/RedisClient.java,"RedisClient::set( String key , String value)",13, 79, 8, 0
+repos/java/miaosha/miaosha-admin/miaosha-admin-service/src/main/java/com/geekq/admin/redis/RedisClient.java,"RedisClient::set( String key , Object value)",14, 62, 8, 0
+repos/java/miaosha/miaosha-admin/miaosha-admin-service/src/main/java/com/geekq/admin/redis/RedisClient.java,"RedisClient::del( String key)",13, 49, 16, 0
+repos/java/miaosha/miaosha-admin/miaosha-admin-service/src/main/java/com/geekq/admin/redis/RedisClient.java,"RedisClient::get( String key)",13, 49, 16, 0
+repos/java/miaosha/miaosha-admin/miaosha-admin-service/src/main/java/com/geekq/admin/redis/RedisClient.java,"RedisClient::get( String key , Class<T> clazz)",13, 62, 8, 0
+repos/java/miaosha/miaosha-admin/miaosha-admin-service/src/main/java/com/geekq/admin/utils/UserContext.java,"UserContext::requestContextListener()",3, 60, 4, 0
+repos/java/miaosha/miaosha-admin/miaosha-admin-service/src/main/java/com/geekq/admin/utils/UserContext.java,"UserContext::getRequest()",4, 64, 8, 0
+repos/java/miaosha/miaosha-admin/miaosha-admin-service/src/main/java/com/geekq/admin/utils/UserContext.java,"UserContext::removeUser()",4, 38, 4, 0
+repos/java/miaosha/miaosha-admin/miaosha-admin-service/src/main/java/com/geekq/admin/utils/UserContext.java,"UserContext::putLogininfo( Logininfo logininfo)",6, 81, 8, 0
+repos/java/miaosha/miaosha-admin/miaosha-admin-service/src/main/java/com/geekq/admin/utils/UserContext.java,"UserContext::getCurrent()",4, 61, 0, 2
+repos/java/miaosha/miaosha-admin/miaosha-admin-service/src/main/java/com/geekq/admin/service/impl/AccountServiceImpl.java,"AccountServiceImpl::update( Account account)",7, 63, 0, 0
+repos/java/miaosha/miaosha-admin/miaosha-admin-service/src/main/java/com/geekq/admin/service/impl/AccountServiceImpl.java,"AccountServiceImpl::get( Long id)",7, 58, 0, 2
+repos/java/miaosha/miaosha-admin/miaosha-admin-service/src/main/java/com/geekq/admin/service/impl/AccountServiceImpl.java,"AccountServiceImpl::recreateAbstractInfo()",6, 59, 0, 2
+repos/java/miaosha/miaosha-admin/miaosha-admin-service/src/main/java/com/geekq/admin/service/impl/AccountServiceImpl.java,"AccountServiceImpl::listAll()",3, 41, 0, 2
+repos/java/miaosha/miaosha-admin/miaosha-admin-service/src/main/java/com/geekq/admin/service/impl/OrdersServiceImpl.java,"OrdersServiceImpl::getOrder( String orderId)",3, 51, 0, 2
+repos/java/miaosha/miaosha-admin/miaosha-admin-service/src/main/java/com/geekq/admin/service/impl/OrdersServiceImpl.java,"OrdersServiceImpl::createOrder( String itemId)",14, 65, 0, 2
+repos/java/miaosha/miaosha-admin/miaosha-admin-service/src/main/java/com/geekq/admin/service/impl/RedisCache.java,"RedisCache::getResource()",9, 54, 12, 0
+repos/java/miaosha/miaosha-admin/miaosha-admin-service/src/main/java/com/geekq/admin/service/impl/RedisCache.java,"RedisCache::disconnect( Jedis jedis)",3, 42, 4, 0
+repos/java/miaosha/miaosha-admin/miaosha-admin-service/src/main/java/com/geekq/admin/service/impl/RedisCache.java,"RedisCache::returnResource( Jedis jedis)",9, 61, 16, 0
+repos/java/miaosha/miaosha-admin/miaosha-admin-service/src/main/java/com/geekq/admin/service/impl/RedisCache.java,"RedisCache::brokenResource( Jedis jedis)",9, 56, 16, 0
+repos/java/miaosha/miaosha-admin/miaosha-admin-service/src/main/java/com/geekq/admin/service/impl/IpLogServiceImpl.java,"IpLogServiceImpl::query( IpLogQueryObject qo)",9, 76, 0, 3
+repos/java/miaosha/miaosha-admin/miaosha-admin-service/src/main/java/com/geekq/admin/service/impl/IpLogServiceImpl.java,"IpLogServiceImpl::insert( IpLog ipLog)",3, 35, 0, 1
+repos/java/miaosha/miaosha-admin/miaosha-admin-service/src/main/java/com/geekq/admin/service/impl/RedisCacheStorageServiceImpl.java,"RedisCacheStorageServiceImpl::set( String key , Object value)",32, 53, 12, 0
+repos/java/miaosha/miaosha-admin/miaosha-admin-service/src/main/java/com/geekq/admin/service/impl/RedisCacheStorageServiceImpl.java,"RedisCacheStorageServiceImpl::get( String key)",12, 64, 12, 0
+repos/java/miaosha/miaosha-admin/miaosha-admin-service/src/main/java/com/geekq/admin/service/impl/RedisCacheStorageServiceImpl.java,"RedisCacheStorageServiceImpl::stringToBean( String str , Class<T> clazz)",14, 68, 12, 0
+repos/java/miaosha/miaosha-admin/miaosha-admin-service/src/main/java/com/geekq/admin/service/impl/SystemDictionaryUtil.java,"SystemDictionaryUtil::list( String sn)",3, 53, 0, 1
+repos/java/miaosha/miaosha-admin/miaosha-admin-service/src/main/java/com/geekq/admin/service/impl/UserServiceImpl.java,"UserServiceImpl::update( Userinfo userinfo)",7, 65, 0, 2
+repos/java/miaosha/miaosha-admin/miaosha-admin-service/src/main/java/com/geekq/admin/service/impl/UserServiceImpl.java,"UserServiceImpl::get( Long id)",4, 62, 0, 1
+repos/java/miaosha/miaosha-admin/miaosha-admin-service/src/main/java/com/geekq/admin/service/impl/UserServiceImpl.java,"UserServiceImpl::bindPhone( String phoneNumber , String verifyCode)",3, 67, 0, 1
+repos/java/miaosha/miaosha-admin/miaosha-admin-service/src/main/java/com/geekq/admin/service/impl/UserServiceImpl.java,"UserServiceImpl::updateBasicInfo( Userinfo userinfo)",13, 74, 0, 1
+repos/java/miaosha/miaosha-admin/miaosha-admin-service/src/main/java/com/geekq/admin/service/impl/SystemDictionaryServiceImpl.java,"SystemDictionaryServiceImpl::listDics()",3, 45, 0, 2
+repos/java/miaosha/miaosha-admin/miaosha-admin-service/src/main/java/com/geekq/admin/service/impl/SystemDictionaryServiceImpl.java,"SystemDictionaryServiceImpl::queryDic( SystemDictionaryQueryObject qo)",9, 72, 0, 3
+repos/java/miaosha/miaosha-admin/miaosha-admin-service/src/main/java/com/geekq/admin/service/impl/SystemDictionaryServiceImpl.java,"SystemDictionaryServiceImpl::saveOrUpdate( SystemDictionary sd)",7, 55, 0, 3
+repos/java/miaosha/miaosha-admin/miaosha-admin-service/src/main/java/com/geekq/admin/service/impl/SystemDictionaryServiceImpl.java,"SystemDictionaryServiceImpl::queryDicItem( SystemDictionaryQueryObject qo)",10, 71, 0, 3
+repos/java/miaosha/miaosha-admin/miaosha-admin-service/src/main/java/com/geekq/admin/service/impl/SystemDictionaryServiceImpl.java,"SystemDictionaryServiceImpl::saveOrUpdateItem( SystemDictionaryItem item)",7, 61, 0, 3
+repos/java/miaosha/miaosha-admin/miaosha-admin-service/src/main/java/com/geekq/admin/service/impl/SystemDictionaryServiceImpl.java,"SystemDictionaryServiceImpl::queryBySn( String sn)",3, 58, 0, 1
+repos/java/miaosha/miaosha-admin/miaosha-admin-service/src/main/java/com/geekq/admin/service/impl/LogininfoServiceImpl.java,"LogininfoServiceImpl::register( String username , String password)",29, 86, 0, 1
+repos/java/miaosha/miaosha-admin/miaosha-admin-service/src/main/java/com/geekq/admin/service/impl/LogininfoServiceImpl.java,"LogininfoServiceImpl::checkUsername( String name , int userType)",3, 69, 0, 2
+repos/java/miaosha/miaosha-admin/miaosha-admin-service/src/main/java/com/geekq/admin/service/impl/LogininfoServiceImpl.java,"LogininfoServiceImpl::login( String name , String password , int userType , String ip)",23, 97, 0, 3
+repos/java/miaosha/miaosha-admin/miaosha-admin-service/src/main/java/com/geekq/admin/service/impl/LogininfoServiceImpl.java,"LogininfoServiceImpl::hasAdmin()",3, 29, 0, 1
+repos/java/miaosha/miaosha-admin/miaosha-admin-service/src/main/java/com/geekq/admin/service/impl/LogininfoServiceImpl.java,"LogininfoServiceImpl::createDefaultAdmin()",3, 36, 0, 1
+repos/java/miaosha/miaosha-admin/miaosha-admin-service/src/main/java/com/geekq/admin/service/impl/LogininfoServiceImpl.java,"LogininfoServiceImpl::autoComplate( String word , int userType)",3, 76, 0, 1
+repos/java/miaosha/miaosha-admin/miaosha-admin-web/src/main/java/com/geekq/web/controller/RegisterController.java,"RegisterController::register( String username , String password)",11, 67, 4, 0
+repos/java/miaosha/miaosha-admin/miaosha-admin-web/src/main/java/com/geekq/web/controller/RegisterController.java,"RegisterController::checkUsername( String username)",10, 102, 12, 0
+repos/java/miaosha/miaosha-admin/miaosha-admin-web/src/main/java/com/geekq/web/controller/PersonController.java,"PersonController::personal( Model model , HttpServletRequest request)",10, 75, 8, 0
+repos/java/miaosha/miaosha-admin/miaosha-admin-web/src/main/java/com/geekq/web/controller/PayController.java,"PayController::index()",3, 25, 0, 1
+repos/java/miaosha/miaosha-admin/miaosha-admin-web/src/main/java/com/geekq/web/controller/LoginController.java,"LoginController::dologin( HttpServletResponse response , HttpServletRequest request , String username , String password)",14, 89, 8, 0
+repos/java/miaosha/miaosha-admin/miaosha-admin-web/src/main/java/com/geekq/web/service/impl/CulsterServiceImpl.java,"CulsterServiceImpl::doBuyItem( String itemId)",7, 48, 0, 0
+repos/java/miaosha/miaosha-admin/miaosha-admin-web/src/main/java/com/geekq/web/service/impl/CulsterServiceImpl.java,"CulsterServiceImpl::displayBuy( String itemId)",26, 62, 0, 2
+repos/java/miaosha/miaosha-admin/miaosha-admin-web/src/main/java/com/geekq/web/interceptor/LoginInterceptor.java,"LoginInterceptor::preHandle( HttpServletRequest request , HttpServletResponse response , Object handler)",17, 68, 0, 3
+repos/java/miaosha/miaosha-admin/miaosha-admin-web/src/main/java/com/geekq/web/interceptor/AddGlobalUtilInterceptor.java,"AddGlobalUtilInterceptor::postHandle( HttpServletRequest request , HttpServletResponse response , Object handler , ModelAndView modelAndView)",8, 62, 0, 2
+repos/java/miaosha/miaosha-order/miaosha-order-provider/src/test/java/com/geekq/provider/DubboProviderApplicationTests.java,"DubboProviderApplicationTests::contextLoads()",2, 33, 4, 0
+repos/java/miaosha/miaosha-order/miaosha-order-provider/src/main/java/com/geekq/provider/DubboProviderApplication.java,"DubboProviderApplication::main( String [ ] args)",3, 69, 8, 0
+repos/java/miaosha/miaosha-order/miaosha-order-provider/src/main/java/com/geekq/provider/service/impl/GoodsServiceImpl.java,"GoodsServiceImpl::listGoodsVo()",11, 85, 8, 0
+repos/java/miaosha/miaosha-order/miaosha-order-provider/src/main/java/com/geekq/provider/service/impl/GoodsServiceImpl.java,"GoodsServiceImpl::getGoodsVoByGoodsId( long goodsId)",12, 83, 12, 0
+repos/java/miaosha/miaosha-order/miaosha-order-provider/src/main/java/com/geekq/provider/service/impl/GoodsServiceImpl.java,"GoodsServiceImpl::reduceStock( GoodsVoOrder goods)",6, 53, 4, 0
+repos/java/miaosha/miaosha-order/miaosha-order-provider/src/main/java/com/geekq/provider/service/impl/GoodsGroupServiceImpl.java,"GoodsGroupServiceImpl::listGoodsVo()",5, 64, 4, 0
+repos/java/miaosha/miaosha-order/miaosha-order-provider/src/main/java/com/geekq/provider/service/impl/GoodsGroupServiceImpl.java,"GoodsGroupServiceImpl::getGoodsVoByGoodsId( long goodsId)",4, 78, 4, 0
+repos/java/miaosha/miaosha-order/miaosha-order-provider/src/main/java/com/geekq/provider/service/impl/GoodsGroupServiceImpl.java,"GoodsGroupServiceImpl::reduceStock( GoodsVoOrder goods)",4, 53, 4, 0
+repos/java/miaosha/miaosha-order/miaosha-order-api/src/main/java/com/geekq/api/utils/ResultGeekQOrder.java,"ResultGeekQOrder<T>::ResultGeekQOrder()",2, 35, 4, 0
+repos/java/miaosha/miaosha-order/miaosha-order-api/src/main/java/com/geekq/api/utils/ResultGeekQOrder.java,"ResultGeekQOrder<T>::ResultGeekQOrder( ResultStatusOrder status , String message)",3, 75, 4, 0
+repos/java/miaosha/miaosha-order/miaosha-order-api/src/main/java/com/geekq/api/utils/ResultGeekQOrder.java,"ResultGeekQOrder<T>::ResultGeekQOrder( ResultStatusOrder status)",3, 59, 4, 0
+repos/java/miaosha/miaosha-order/miaosha-order-api/src/main/java/com/geekq/api/utils/ResultGeekQOrder.java,"ResultGeekQOrder<T>::build()",3, 78, 8, 0
+repos/java/miaosha/miaosha-order/miaosha-order-api/src/main/java/com/geekq/api/utils/ResultGeekQOrder.java,"ResultGeekQOrder<T>::build( String message)",3, 73, 8, 0
+repos/java/miaosha/miaosha-order/miaosha-order-api/src/main/java/com/geekq/api/utils/ResultGeekQOrder.java,"ResultGeekQOrder<T>::error( ResultStatusOrder status)",3, 76, 4, 0
+repos/java/miaosha/miaosha-order/miaosha-order-api/src/main/java/com/geekq/api/utils/ResultGeekQOrder.java,"ResultGeekQOrder<T>::getData()",3, 25, 4, 0
+repos/java/miaosha/miaosha-order/miaosha-order-api/src/main/java/com/geekq/api/utils/ResultGeekQOrder.java,"ResultGeekQOrder<T>::setData( T data)",3, 34, 4, 0
+repos/java/miaosha/miaosha-order/miaosha-order-api/src/main/java/com/geekq/api/utils/ResultGeekQOrder.java,"ResultGeekQOrder<T>::getCount()",3, 32, 4, 0
+repos/java/miaosha/miaosha-order/miaosha-order-api/src/main/java/com/geekq/api/utils/ResultGeekQOrder.java,"ResultGeekQOrder<T>::setCount( Integer count)",3, 42, 4, 0
+repos/java/miaosha/miaosha-order/miaosha-order-api/src/main/java/com/geekq/api/utils/ResultGeekQOrder.java,"ResultGeekQOrder<T>::success( T value)",5, 35, 4, 0
+repos/java/miaosha/miaosha-order/miaosha-order-api/src/main/java/com/geekq/api/utils/ResultStatusOrder.java,"ResultStatusOrder( int code , String message)",4, 58, 4, 0
+repos/java/miaosha/miaosha-order/miaosha-order-api/src/main/java/com/geekq/api/utils/ResultStatusOrder.java,"getCode()",3, 27, 4, 0
+repos/java/miaosha/miaosha-order/miaosha-order-api/src/main/java/com/geekq/api/utils/ResultStatusOrder.java,"setCode( int code)",3, 36, 4, 0
+repos/java/miaosha/miaosha-order/miaosha-order-api/src/main/java/com/geekq/api/utils/ResultStatusOrder.java,"getMessage()",3, 33, 4, 0
+repos/java/miaosha/miaosha-order/miaosha-order-api/src/main/java/com/geekq/api/utils/ResultStatusOrder.java,"setMessage( String message)",3, 45, 4, 0
+repos/java/miaosha/miaosha-order/miaosha-order-api/src/main/java/com/geekq/api/utils/ResultStatusOrder.java,"getName()",3, 30, 4, 0
+repos/java/miaosha/miaosha-order/miaosha-order-api/src/main/java/com/geekq/api/utils/ResultStatusOrder.java,"getOutputName()",3, 36, 4, 0
+repos/java/miaosha/miaosha-order/miaosha-order-api/src/main/java/com/geekq/api/utils/ResultStatusOrder.java,"toString()",3, 31, 4, 0
+repos/java/miaosha/miaosha-order/miaosha-order-api/src/main/java/com/geekq/api/utils/ResultStatusOrder.java,"ResultStatusOrder( Object ... args)",3, 58, 8, 0
+repos/java/miaosha/miaosha-order/miaosha-order-api/src/main/java/com/geekq/api/utils/AbstractResultOrder.java,"AbstractResultOrder::AbstractResultOrder()",2, 38, 4, 0
+repos/java/miaosha/miaosha-order/miaosha-order-api/src/main/java/com/geekq/api/utils/AbstractResultOrder.java,"AbstractResultOrder::AbstractResultOrder( ResultStatusOrder status , String message)",5, 78, 4, 0
+repos/java/miaosha/miaosha-order/miaosha-order-api/src/main/java/com/geekq/api/utils/AbstractResultOrder.java,"AbstractResultOrder::AbstractResultOrder( ResultStatusOrder status)",5, 62, 4, 0
+repos/java/miaosha/miaosha-order/miaosha-order-api/src/main/java/com/geekq/api/utils/AbstractResultOrder.java,"AbstractResultOrder::isSuccess( AbstractResultOrder result)",3, 136, 8, 0
+repos/java/miaosha/miaosha-order/miaosha-order-api/src/main/java/com/geekq/api/utils/AbstractResultOrder.java,"AbstractResultOrder::withError( ResultStatusOrder status)",4, 69, 4, 0
+repos/java/miaosha/miaosha-order/miaosha-order-api/src/main/java/com/geekq/api/utils/AbstractResultOrder.java,"AbstractResultOrder::withError( String message)",5, 59, 4, 0
+repos/java/miaosha/miaosha-order/miaosha-order-api/src/main/java/com/geekq/api/utils/AbstractResultOrder.java,"AbstractResultOrder::withError( int code , String message)",5, 69, 4, 0
+repos/java/miaosha/miaosha-order/miaosha-order-api/src/main/java/com/geekq/api/utils/AbstractResultOrder.java,"AbstractResultOrder::success()",4, 49, 8, 0
+repos/java/miaosha/miaosha-order/miaosha-order-api/src/main/java/com/geekq/api/utils/AbstractResultOrder.java,"AbstractResultOrder::getStatus()",3, 43, 4, 0
+repos/java/miaosha/miaosha-order/miaosha-order-api/src/main/java/com/geekq/api/utils/AbstractResultOrder.java,"AbstractResultOrder::getMessage()",3, 79, 8, 0
+repos/java/miaosha/miaosha-order/miaosha-order-api/src/main/java/com/geekq/api/utils/AbstractResultOrder.java,"AbstractResultOrder::getCode()",3, 27, 4, 0
+repos/java/miaosha/miaosha-order/miaosha-order-api/src/main/java/com/geekq/api/utils/AbstractResultOrder.java,"AbstractResultOrder::setCode( int code)",3, 36, 4, 0
+repos/java/miaosha/miaosha-order/miaosha-order-api/src/main/java/com/geekq/api/service/GoodsServiceMock.java,"GoodsServiceMock::listGoodsVo()",6, 78, 8, 0
+repos/java/miaosha/miaosha-order/miaosha-order-api/src/main/java/com/geekq/api/service/GoodsServiceMock.java,"GoodsServiceMock::getGoodsVoByGoodsId( long goodsId)",3, 78, 4, 0
+repos/java/miaosha/miaosha-order/miaosha-order-api/src/main/java/com/geekq/api/service/GoodsServiceMock.java,"GoodsServiceMock::reduceStock( GoodsVoOrder goods)",3, 53, 4, 0
+repos/java/miaosha/springboot-dubbo/dubbo-api/src/test/java/com/geekq/dubbo/springboot/AppTest.java,"AppTest::shouldAnswerWithTrue()",4, 39, 4, 0
+repos/java/miaosha/springboot-dubbo/dubbo-api/src/main/java/dto/CapitalTradeOrderDto.java,"CapitalTradeOrderDto::getSelfUserId()",3, 34, 4, 0
+repos/java/miaosha/springboot-dubbo/dubbo-api/src/main/java/dto/CapitalTradeOrderDto.java,"CapitalTradeOrderDto::setSelfUserId( long selfUserId)",3, 49, 4, 0
+repos/java/miaosha/springboot-dubbo/dubbo-api/src/main/java/dto/CapitalTradeOrderDto.java,"CapitalTradeOrderDto::getOppositeUserId()",3, 38, 4, 0
+repos/java/miaosha/springboot-dubbo/dubbo-api/src/main/java/dto/CapitalTradeOrderDto.java,"CapitalTradeOrderDto::setOppositeUserId( long oppositeUserId)",3, 57, 4, 0
+repos/java/miaosha/springboot-dubbo/dubbo-api/src/main/java/dto/CapitalTradeOrderDto.java,"CapitalTradeOrderDto::getOrderTitle()",3, 36, 4, 0
+repos/java/miaosha/springboot-dubbo/dubbo-api/src/main/java/dto/CapitalTradeOrderDto.java,"CapitalTradeOrderDto::setOrderTitle( String orderTitle)",3, 51, 4, 0
+repos/java/miaosha/springboot-dubbo/dubbo-api/src/main/java/dto/CapitalTradeOrderDto.java,"CapitalTradeOrderDto::getMerchantOrderNo()",3, 41, 4, 0
+repos/java/miaosha/springboot-dubbo/dubbo-api/src/main/java/dto/CapitalTradeOrderDto.java,"CapitalTradeOrderDto::setMerchantOrderNo( String merchantOrderNo)",3, 61, 4, 0
+repos/java/miaosha/springboot-dubbo/dubbo-api/src/main/java/dto/CapitalTradeOrderDto.java,"CapitalTradeOrderDto::getAmount()",3, 36, 4, 0
+repos/java/miaosha/springboot-dubbo/dubbo-api/src/main/java/dto/CapitalTradeOrderDto.java,"CapitalTradeOrderDto::setAmount( BigDecimal amount)",3, 47, 4, 0
+repos/java/miaosha/springboot-dubbo/consumer/src/main/java/com/geekq/dubbo/springboot/consumer/ConsumerApplication.java,"ConsumerApplication::main( String [ ] args)",15, 108, 8, 0
+repos/java/miaosha/springboot-dubbo/consumer/src/main/java/com/geekq/dubbo/springboot/consumer/transaction/TransactionConsumer.java,"TransactionConsumer::sendMessage( String message)",13, 79, 0, 0
+repos/java/miaosha/springboot-dubbo/consumer/src/main/java/com/geekq/dubbo/springboot/consumer/transaction/TransactionConsumer.java,"TransactionConsumer::confirmSendMessage( String message)",4, 84, 8, 0
+repos/java/miaosha/springboot-dubbo/consumer/src/main/java/com/geekq/dubbo/springboot/consumer/transaction/TransactionConsumer.java,"TransactionConsumer::cancelSendMessage( String message)",4, 83, 8, 0
+repos/java/miaosha/springboot-dubbo/consumer/src/main/java/com/geekq/dubbo/springboot/consumer/quickstart/QuickstartConsumer.java,"QuickstartConsumer::sendMessage( String message)",4, 61, 8, 0
+repos/java/miaosha/springboot-dubbo/privoder/src/main/java/com/geekq/dubbo/springboot/privoder/PrivoderApplication.java,"PrivoderApplication::main( String [ ] args)",4, 64, 8, 0
+repos/java/miaosha/springboot-dubbo/privoder/src/main/java/com/geekq/dubbo/springboot/privoder/transaction/TransactionServiceImpl.java,"TransactionServiceImpl::sendMessage( String message)",8, 72, 8, 0
+repos/java/miaosha/springboot-dubbo/privoder/src/main/java/com/geekq/dubbo/springboot/privoder/transaction/TransactionServiceImpl.java,"TransactionServiceImpl::isTrueSeats( String seats)",7, 50, 12, 0
+repos/java/miaosha/springboot-dubbo/privoder/src/main/java/com/geekq/dubbo/springboot/privoder/transaction/TransactionServiceImpl.java,"TransactionServiceImpl::isNotSold( String seats)",7, 50, 12, 0
+repos/java/miaosha/springboot-dubbo/privoder/src/main/java/com/geekq/dubbo/springboot/privoder/transaction/TransactionServiceImpl.java,"TransactionServiceImpl::saveOrder( String fieldId , String seats , String seatsNum)",4, 77, 4, 0
+repos/java/miaosha/springboot-dubbo/privoder/src/main/java/com/geekq/dubbo/springboot/privoder/transaction/TransactionServiceImpl.java,"TransactionServiceImpl::confirmSaveOrder( String fieldId , String seats , String seatsNum)",4, 84, 4, 0
+repos/java/miaosha/springboot-dubbo/privoder/src/main/java/com/geekq/dubbo/springboot/privoder/transaction/TransactionServiceImpl.java,"TransactionServiceImpl::cancelSaveOrder( String fieldId , String seats , String seatsNum)",4, 83, 4, 0
+repos/java/miaosha/springboot-dubbo/privoder/src/main/java/com/geekq/dubbo/springboot/privoder/transaction/TransactionServiceImpl.java,"TransactionServiceImpl::confirmSendMessage( String message)",4, 75, 8, 0
+repos/java/miaosha/springboot-dubbo/privoder/src/main/java/com/geekq/dubbo/springboot/privoder/transaction/TransactionServiceImpl.java,"TransactionServiceImpl::cancelSendMessage( String message)",4, 76, 8, 0
+repos/java/miaosha/springboot-dubbo/privoder/src/main/java/com/geekq/dubbo/springboot/privoder/transaction/TransactionServiceImpl.java,"TransactionServiceImpl::confirmIsTrueSeats( String seats)",4, 58, 8, 0
+repos/java/miaosha/springboot-dubbo/privoder/src/main/java/com/geekq/dubbo/springboot/privoder/transaction/TransactionServiceImpl.java,"TransactionServiceImpl::cancelIsTrueSeats( String seats)",4, 57, 8, 0
+repos/java/miaosha/springboot-dubbo/privoder/src/main/java/com/geekq/dubbo/springboot/privoder/transaction/TransactionServiceImpl.java,"TransactionServiceImpl::confirmIsNotSold( String seats)",4, 56, 8, 0
+repos/java/miaosha/springboot-dubbo/privoder/src/main/java/com/geekq/dubbo/springboot/privoder/transaction/TransactionServiceImpl.java,"TransactionServiceImpl::cancelIsNotSold( String seats)",4, 55, 8, 0
+repos/java/miaosha/springboot-dubbo/privoder/src/main/java/com/geekq/dubbo/springboot/privoder/transaction/CapServiceImpl.java,"CapServiceImpl::getCapAccountByUserId( Long userId)",3, 59, 4, 0
+repos/java/miaosha/springboot-dubbo/privoder/src/main/java/com/geekq/dubbo/springboot/privoder/transaction/CapServiceImpl.java,"CapServiceImpl::record( CapitalTradeOrderDto tradeOrderDto)",3, 63, 4, 0
+repos/java/miaosha/springboot-dubbo/privoder/src/main/java/com/geekq/dubbo/springboot/privoder/quickstart/QuickstartServiceImpl.java,"QuickstartServiceImpl::sendMessage( String message)",3, 55, 8, 0
+repos/java/miaosha/springboot-dubbo/privoder/src/main/java/com/geekq/dubbo/springboot/privoder/quickstart/QuickstartServiceImpl.java,"QuickstartServiceImpl::isTrueSeats( String seats)",3, 47, 4, 0
+repos/java/miaosha/springboot-dubbo/privoder/src/main/java/com/geekq/dubbo/springboot/privoder/quickstart/QuickstartServiceImpl.java,"QuickstartServiceImpl::isNotSold( String seats)",3, 45, 4, 0
+repos/java/miaosha/springboot-dubbo/privoder/src/main/java/com/geekq/dubbo/springboot/privoder/quickstart/QuickstartServiceImpl.java,"QuickstartServiceImpl::saveOrder( String fieldId , String seats , String seatsNum)",3, 77, 4, 0
+repos/java/miaosha/springboot-dubbo/src/main/java/com/mooc/jiangzh/dubbo/springboot/springbootdubbo/SpringbootDubboApplication.java,"SpringbootDubboApplication::main( String [ ] args)",3, 71, 8, 0
+repos/java/miaosha/miaosha-2version/miaosha-common/src/main/java/com/geekq/miasha/vo/OrderDetailVo.java,"OrderDetailVo::getGoods()",3, 29, 0, 1
+repos/java/miaosha/miaosha-2version/miaosha-common/src/main/java/com/geekq/miasha/vo/OrderDetailVo.java,"OrderDetailVo::setGoods( GoodsVo goods)",3, 39, 0, 1
+repos/java/miaosha/miaosha-2version/miaosha-common/src/main/java/com/geekq/miasha/vo/OrderDetailVo.java,"OrderDetailVo::getOrder()",3, 31, 0, 1
+repos/java/miaosha/miaosha-2version/miaosha-common/src/main/java/com/geekq/miasha/vo/OrderDetailVo.java,"OrderDetailVo::setOrder( OrderInfo order)",3, 41, 0, 1
+repos/java/miaosha/miaosha-2version/miaosha-common/src/main/java/com/geekq/miasha/vo/LoginVo.java,"LoginVo::getNickname()",3, 34, 4, 0
+repos/java/miaosha/miaosha-2version/miaosha-common/src/main/java/com/geekq/miasha/vo/LoginVo.java,"LoginVo::setNickname( String nickname)",3, 47, 4, 0
+repos/java/miaosha/miaosha-2version/miaosha-common/src/main/java/com/geekq/miasha/vo/LoginVo.java,"LoginVo::getPassword()",3, 34, 4, 0
+repos/java/miaosha/miaosha-2version/miaosha-common/src/main/java/com/geekq/miasha/vo/LoginVo.java,"LoginVo::setPassword( String password)",3, 47, 4, 0
+repos/java/miaosha/miaosha-2version/miaosha-common/src/main/java/com/geekq/miasha/vo/LoginVo.java,"LoginVo::toString()",6, 51, 16, 0
+repos/java/miaosha/miaosha-2version/miaosha-common/src/main/java/com/geekq/miasha/validator/MobileCheck.java,"required()",5, 42, 4, 0
+repos/java/miaosha/miaosha-2version/miaosha-common/src/main/java/com/geekq/miasha/validator/MobileCheck.java,"payload()",1, 53, 4, 0
+repos/java/miaosha/miaosha-2version/miaosha-common/src/main/java/com/geekq/miasha/validator/MobileValidator.java,"MobileValidator::initialize( MobileCheck isMobile)",3, 51, 4, 0
+repos/java/miaosha/miaosha-2version/miaosha-common/src/main/java/com/geekq/miasha/validator/MobileValidator.java,"MobileValidator::isValid( String value , ConstraintValidatorContext constraintValidatorContext)",11, 98, 4, 0
+repos/java/miaosha/miaosha-2version/miaosha-common/src/main/java/com/geekq/miasha/entity/IpLog.java,"IpLog::getDisplayState()",3, 58, 0, 2
+repos/java/miaosha/miaosha-2version/miaosha-common/src/main/java/com/geekq/miasha/entity/IpLog.java,"IpLog::IpLog()",3, 18, 0, 1
+repos/java/miaosha/miaosha-2version/miaosha-common/src/main/java/com/geekq/miasha/entity/IpLog.java,"IpLog::IpLog( String username , Date loginTime , String ip , int loginType , Long loginInfoId)",10, 73, 0, 1
+repos/java/miaosha/miaosha-2version/miaosha-common/src/main/java/com/geekq/miasha/entity/MiaoshaUser.java,"MiaoshaUser::toString()",12, 41, 0, 4
+repos/java/miaosha/miaosha-2version/miaosha-common/src/main/java/com/geekq/miasha/enums/MessageStatus.java,"MessageStatus::messageType( String message)",3, 45, 8, 0
+repos/java/miaosha/miaosha-2version/miaosha-common/src/main/java/com/geekq/miasha/enums/MessageStatus.java,"MessageStatus::getMessage()",3, 37, 8, 0
+repos/java/miaosha/miaosha-2version/miaosha-common/src/main/java/com/geekq/miasha/enums/MessageStatus.java,"MessageStatus::ContentEnum( int code , String message)",4, 56, 8, 0
+repos/java/miaosha/miaosha-2version/miaosha-common/src/main/java/com/geekq/miasha/enums/MessageStatus.java,"MessageStatus::getCode()",3, 31, 8, 0
+repos/java/miaosha/miaosha-2version/miaosha-common/src/main/java/com/geekq/miasha/enums/MessageStatus.java,"MessageStatus::getMessage()",3, 37, 8, 0
+repos/java/miaosha/miaosha-2version/miaosha-common/src/main/java/com/geekq/miasha/enums/OrderStatusEnum.java,"OrderStatusEnum( int key , String value)",4, 42, 0, 1
+repos/java/miaosha/miaosha-2version/miaosha-common/src/main/java/com/geekq/miasha/enums/OrderStatusEnum.java,"getName( int key)",8, 60, 0, 2
+repos/java/miaosha/miaosha-2version/miaosha-common/src/main/java/com/geekq/miasha/enums/OrderStatusEnum.java,"getKey()",3, 23, 0, 1
+repos/java/miaosha/miaosha-2version/miaosha-common/src/main/java/com/geekq/miasha/enums/OrderStatusEnum.java,"getValue()",3, 28, 0, 1
+repos/java/miaosha/miaosha-2version/miaosha-common/src/main/java/com/geekq/miasha/enums/YesOrNo.java,"YesOrNo( int value)",3, 22, 0, 1
+repos/java/miaosha/miaosha-2version/miaosha-common/src/main/java/com/geekq/miasha/enums/YesOrNo.java,"getValue()",3, 25, 0, 1
+repos/java/miaosha/miaosha-2version/miaosha-common/src/main/java/com/geekq/miasha/enums/Constanst.java,"Constanst::orderStaus( String name)",3, 33, 8, 0
+repos/java/miaosha/miaosha-2version/miaosha-common/src/main/java/com/geekq/miasha/enums/Constanst.java,"Constanst::getName()",3, 34, 8, 0
+repos/java/miaosha/miaosha-2version/miaosha-common/src/main/java/com/geekq/miasha/enums/Constanst.java,"Constanst::setName( String name)",3, 43, 8, 0
+repos/java/miaosha/miaosha-2version/miaosha-common/src/main/java/com/geekq/miasha/enums/SexEnum.java,"SexEnum( int value)",3, 22, 0, 1
+repos/java/miaosha/miaosha-2version/miaosha-common/src/main/java/com/geekq/miasha/enums/SexEnum.java,"getValue()",3, 25, 0, 1
+repos/java/miaosha/miaosha-2version/miaosha-common/src/main/java/com/geekq/miasha/enums/enums/MessageStatus.java,"MessageStatus::messageType( String message)",3, 45, 8, 0
+repos/java/miaosha/miaosha-2version/miaosha-common/src/main/java/com/geekq/miasha/enums/enums/MessageStatus.java,"MessageStatus::getMessage()",3, 37, 8, 0
+repos/java/miaosha/miaosha-2version/miaosha-common/src/main/java/com/geekq/miasha/enums/enums/MessageStatus.java,"MessageStatus::ContentEnum( int code , String message)",4, 56, 8, 0
+repos/java/miaosha/miaosha-2version/miaosha-common/src/main/java/com/geekq/miasha/enums/enums/MessageStatus.java,"MessageStatus::getCode()",3, 31, 8, 0
+repos/java/miaosha/miaosha-2version/miaosha-common/src/main/java/com/geekq/miasha/enums/enums/MessageStatus.java,"MessageStatus::getMessage()",3, 37, 8, 0
+repos/java/miaosha/miaosha-2version/miaosha-common/src/main/java/com/geekq/miasha/enums/enums/ResultStatus.java,"ResultStatus( int code , String message)",4, 53, 4, 0
+repos/java/miaosha/miaosha-2version/miaosha-common/src/main/java/com/geekq/miasha/enums/enums/ResultStatus.java,"getCode()",3, 27, 4, 0
+repos/java/miaosha/miaosha-2version/miaosha-common/src/main/java/com/geekq/miasha/enums/enums/ResultStatus.java,"setCode( int code)",3, 36, 4, 0
+repos/java/miaosha/miaosha-2version/miaosha-common/src/main/java/com/geekq/miasha/enums/enums/ResultStatus.java,"getMessage()",3, 33, 4, 0
+repos/java/miaosha/miaosha-2version/miaosha-common/src/main/java/com/geekq/miasha/enums/enums/ResultStatus.java,"setMessage( String message)",3, 45, 4, 0
+repos/java/miaosha/miaosha-2version/miaosha-common/src/main/java/com/geekq/miasha/enums/enums/ResultStatus.java,"getName()",3, 30, 4, 0
+repos/java/miaosha/miaosha-2version/miaosha-common/src/main/java/com/geekq/miasha/enums/enums/ResultStatus.java,"getOutputName()",3, 36, 4, 0
+repos/java/miaosha/miaosha-2version/miaosha-common/src/main/java/com/geekq/miasha/enums/enums/ResultStatus.java,"toString()",3, 31, 4, 0
+repos/java/miaosha/miaosha-2version/miaosha-common/src/main/java/com/geekq/miasha/enums/enums/ResultStatus.java,"ResultStatus( Object ... args)",3, 58, 8, 0
+repos/java/miaosha/miaosha-2version/miaosha-common/src/main/java/com/geekq/miasha/enums/resultbean/ResultGeekQ.java,"ResultGeekQ<T>::ResultGeekQ()",2, 30, 4, 0
+repos/java/miaosha/miaosha-2version/miaosha-common/src/main/java/com/geekq/miasha/enums/resultbean/ResultGeekQ.java,"ResultGeekQ<T>::ResultGeekQ( ResultStatus status , String message)",3, 65, 4, 0
+repos/java/miaosha/miaosha-2version/miaosha-common/src/main/java/com/geekq/miasha/enums/resultbean/ResultGeekQ.java,"ResultGeekQ<T>::ResultGeekQ( ResultStatus status)",3, 49, 4, 0
+repos/java/miaosha/miaosha-2version/miaosha-common/src/main/java/com/geekq/miasha/enums/resultbean/ResultGeekQ.java,"ResultGeekQ<T>::build()",3, 68, 8, 0
+repos/java/miaosha/miaosha-2version/miaosha-common/src/main/java/com/geekq/miasha/enums/resultbean/ResultGeekQ.java,"ResultGeekQ<T>::build( String message)",3, 63, 8, 0
+repos/java/miaosha/miaosha-2version/miaosha-common/src/main/java/com/geekq/miasha/enums/resultbean/ResultGeekQ.java,"ResultGeekQ<T>::error( ResultStatus status)",3, 66, 4, 0
+repos/java/miaosha/miaosha-2version/miaosha-common/src/main/java/com/geekq/miasha/enums/resultbean/ResultGeekQ.java,"ResultGeekQ<T>::getData()",3, 25, 4, 0
+repos/java/miaosha/miaosha-2version/miaosha-common/src/main/java/com/geekq/miasha/enums/resultbean/ResultGeekQ.java,"ResultGeekQ<T>::setData( T data)",3, 34, 4, 0
+repos/java/miaosha/miaosha-2version/miaosha-common/src/main/java/com/geekq/miasha/enums/resultbean/ResultGeekQ.java,"ResultGeekQ<T>::getCount()",3, 32, 4, 0
+repos/java/miaosha/miaosha-2version/miaosha-common/src/main/java/com/geekq/miasha/enums/resultbean/ResultGeekQ.java,"ResultGeekQ<T>::setCount( Integer count)",3, 42, 4, 0
+repos/java/miaosha/miaosha-2version/miaosha-common/src/main/java/com/geekq/miasha/enums/resultbean/ResultGeekQ.java,"ResultGeekQ<T>::success( T value)",5, 35, 4, 0
+repos/java/miaosha/miaosha-2version/miaosha-common/src/main/java/com/geekq/miasha/enums/resultbean/AbstractResult.java,"AbstractResult::AbstractResult()",1, 24, 4, 0
+repos/java/miaosha/miaosha-2version/miaosha-common/src/main/java/com/geekq/miasha/enums/resultbean/AbstractResult.java,"AbstractResult::AbstractResult( ResultStatus status , String message)",5, 68, 4, 0
+repos/java/miaosha/miaosha-2version/miaosha-common/src/main/java/com/geekq/miasha/enums/resultbean/AbstractResult.java,"AbstractResult::AbstractResult( ResultStatus status)",5, 52, 4, 0
+repos/java/miaosha/miaosha-2version/miaosha-common/src/main/java/com/geekq/miasha/enums/resultbean/AbstractResult.java,"AbstractResult::isSuccess( AbstractResult result)",3, 126, 8, 0
+repos/java/miaosha/miaosha-2version/miaosha-common/src/main/java/com/geekq/miasha/enums/resultbean/AbstractResult.java,"AbstractResult::withError( ResultStatus status)",4, 59, 4, 0
+repos/java/miaosha/miaosha-2version/miaosha-common/src/main/java/com/geekq/miasha/enums/resultbean/AbstractResult.java,"AbstractResult::withError( String message)",5, 54, 4, 0
+repos/java/miaosha/miaosha-2version/miaosha-common/src/main/java/com/geekq/miasha/enums/resultbean/AbstractResult.java,"AbstractResult::withError( int code , String message)",5, 64, 4, 0
+repos/java/miaosha/miaosha-2version/miaosha-common/src/main/java/com/geekq/miasha/enums/resultbean/AbstractResult.java,"AbstractResult::success()",4, 44, 8, 0
+repos/java/miaosha/miaosha-2version/miaosha-common/src/main/java/com/geekq/miasha/enums/resultbean/AbstractResult.java,"AbstractResult::getStatus()",3, 38, 4, 0
+repos/java/miaosha/miaosha-2version/miaosha-common/src/main/java/com/geekq/miasha/enums/resultbean/AbstractResult.java,"AbstractResult::getMessage()",3, 79, 8, 0
+repos/java/miaosha/miaosha-2version/miaosha-common/src/main/java/com/geekq/miasha/enums/resultbean/AbstractResult.java,"AbstractResult::getCode()",3, 27, 4, 0
+repos/java/miaosha/miaosha-2version/miaosha-common/src/main/java/com/geekq/miasha/enums/resultbean/AbstractResult.java,"AbstractResult::setCode( int code)",3, 36, 4, 0
+repos/java/miaosha/miaosha-2version/miaosha-common/src/main/java/com/geekq/miasha/utils/MD5Utils.java,"MD5Utils::md5( String src)",3, 43, 4, 0
+repos/java/miaosha/miaosha-2version/miaosha-common/src/main/java/com/geekq/miasha/utils/MD5Utils.java,"MD5Utils::getSaltT()",7, 88, 8, 0
+repos/java/miaosha/miaosha-2version/miaosha-common/src/main/java/com/geekq/miasha/utils/MD5Utils.java,"MD5Utils::MD5( String keyName)",7, 48, 4, 0
+repos/java/miaosha/miaosha-2version/miaosha-common/src/main/java/com/geekq/miasha/utils/MD5Utils.java,"MD5Utils::inputPassFormPass( String inputPass)",4, 118, 8, 0
+repos/java/miaosha/miaosha-2version/miaosha-common/src/main/java/com/geekq/miasha/utils/MD5Utils.java,"MD5Utils::formPassFormPass( String inputPass)",4, 117, 8, 0
+repos/java/miaosha/miaosha-2version/miaosha-common/src/main/java/com/geekq/miasha/utils/MD5Utils.java,"MD5Utils::formPassToDBPass( String formPass , String salt)",4, 104, 8, 0
+repos/java/miaosha/miaosha-2version/miaosha-common/src/main/java/com/geekq/miasha/utils/UserContext2.java,"UserContext2::getRequest()",4, 64, 8, 0
+repos/java/miaosha/miaosha-2version/miaosha-common/src/main/java/com/geekq/miasha/utils/UserContext2.java,"UserContext2::putLogininfo( Logininfo logininfo)",3, 77, 8, 0
+repos/java/miaosha/miaosha-2version/miaosha-common/src/main/java/com/geekq/miasha/utils/UserContext2.java,"UserContext2::getCurrent()",4, 67, 8, 0
+repos/java/miaosha/miaosha-2version/miaosha-common/src/main/java/com/geekq/miasha/utils/ValidatorUtil.java,"ValidatorUtil::isMobile( String src)",7, 46, 0, 1
+repos/java/miaosha/miaosha-2version/miaosha-common/src/main/java/com/geekq/miasha/utils/DateTimeUtils.java,"DateTimeUtils::strToDate( String dateTimeStr , String formatStr)",5, 84, 8, 0
+repos/java/miaosha/miaosha-2version/miaosha-common/src/main/java/com/geekq/miasha/utils/DateTimeUtils.java,"DateTimeUtils::dateToStr( Date date , String formatStr)",7, 64, 4, 0
+repos/java/miaosha/miaosha-2version/miaosha-common/src/main/java/com/geekq/miasha/utils/DateTimeUtils.java,"DateTimeUtils::strToDate( String dateTimeStr)",5, 90, 8, 0
+repos/java/miaosha/miaosha-2version/miaosha-common/src/main/java/com/geekq/miasha/utils/DateTimeUtils.java,"DateTimeUtils::dateToStr( Date date)",7, 51, 8, 0
+repos/java/miaosha/miaosha-2version/miaosha-common/src/main/java/com/geekq/miasha/utils/DateTimeUtils.java,"DateTimeUtils::main( String [ ] args)",5, 98, 8, 0
+repos/java/miaosha/miaosha-2version/miaosha-common/src/main/java/com/geekq/miasha/utils/UserContext.java,"UserContext::setUser( MiaoshaUser user)",3, 48, 0, 1
+repos/java/miaosha/miaosha-2version/miaosha-common/src/main/java/com/geekq/miasha/utils/UserContext.java,"UserContext::getUser()",4, 39, 0, 1
+repos/java/miaosha/miaosha-2version/miaosha-common/src/main/java/com/geekq/miasha/utils/UserContext.java,"UserContext::removeUser()",3, 35, 0, 1
+repos/java/miaosha/miaosha-2version/miaosha-common/src/main/java/com/geekq/miasha/utils/UUIDUtil.java,"UUIDUtil::uuid()",3, 61, 8, 0
+repos/java/miaosha/miaosha-2version/miaosha-common/src/main/java/com/geekq/miasha/utils/SnowflakeIdWorker.java,"SnowflakeIdWorker::SnowflakeIdWorker( long workerId , long datacenterId)",10, 137, 12, 0
+repos/java/miaosha/miaosha-2version/miaosha-common/src/main/java/com/geekq/miasha/utils/SnowflakeIdWorker.java,"SnowflakeIdWorker::getOrderId( long workerId , long datacenterId)",4, 69, 4, 0
+repos/java/miaosha/miaosha-2version/miaosha-common/src/main/java/com/geekq/miasha/utils/SnowflakeIdWorker.java,"SnowflakeIdWorker::nextId()",32, 134, 20, 0
+repos/java/miaosha/miaosha-2version/miaosha-common/src/main/java/com/geekq/miasha/utils/SnowflakeIdWorker.java,"SnowflakeIdWorker::tilNextMillis( long lastTimestamp)",7, 55, 4, 0
+repos/java/miaosha/miaosha-2version/miaosha-common/src/main/java/com/geekq/miasha/utils/SnowflakeIdWorker.java,"SnowflakeIdWorker::timeGen()",3, 43, 8, 0
+repos/java/miaosha/miaosha-2version/miaosha-common/src/main/java/com/geekq/miasha/utils/SnowflakeIdWorker.java,"SnowflakeIdWorker::main( String [ ] args)",8, 66, 8, 0
+repos/java/miaosha/miaosha-2version/miaosha-common/src/main/java/com/geekq/miasha/exception/GlobleException.java,"GlobleException::GlobleException( ResultStatus status)",4, 49, 4, 0
+repos/java/miaosha/miaosha-2version/miaosha-common/src/main/java/com/geekq/miasha/exception/GlobleException.java,"GlobleException::getStatus()",3, 38, 4, 0
+repos/java/miaosha/miaosha-2version/miaosha-common/src/main/java/com/geekq/miasha/exception/GlobleException.java,"GlobleException::setStatus( ResultStatus status)",3, 49, 4, 0
+repos/java/miaosha/miaosha-2version/miaosha-service/src/main/java/com/geekq/miaosha/redis/OrderKey.java,"OrderKey::OrderKey( String prefix)",3, 38, 4, 0
+repos/java/miaosha/miaosha-2version/miaosha-service/src/main/java/com/geekq/miaosha/redis/MiaoShaUserKey.java,"MiaoShaUserKey::MiaoShaUserKey( int expireSeconds , String prefix)",3, 62, 4, 0
+repos/java/miaosha/miaosha-2version/miaosha-service/src/main/java/com/geekq/miaosha/redis/Userkey.java,"Userkey::Userkey( String prefix)",3, 37, 4, 0
+repos/java/miaosha/miaosha-2version/miaosha-service/src/main/java/com/geekq/miaosha/redis/GoodsKey.java,"GoodsKey::GoodsKey( int expireSeconds , String prefix)",3, 54, 0, 1
+repos/java/miaosha/miaosha-2version/miaosha-service/src/main/java/com/geekq/miaosha/redis/RedisConfig.java,"RedisConfig::getHost()",3, 30, 4, 0
+repos/java/miaosha/miaosha-2version/miaosha-service/src/main/java/com/geekq/miaosha/redis/RedisConfig.java,"RedisConfig::setHost( String host)",3, 39, 4, 0
+repos/java/miaosha/miaosha-2version/miaosha-service/src/main/java/com/geekq/miaosha/redis/RedisConfig.java,"RedisConfig::getPort()",3, 27, 4, 0
+repos/java/miaosha/miaosha-2version/miaosha-service/src/main/java/com/geekq/miaosha/redis/RedisConfig.java,"RedisConfig::setPort( int port)",3, 36, 4, 0
+repos/java/miaosha/miaosha-2version/miaosha-service/src/main/java/com/geekq/miaosha/redis/RedisConfig.java,"RedisConfig::getTimeout()",3, 30, 4, 0
+repos/java/miaosha/miaosha-2version/miaosha-service/src/main/java/com/geekq/miaosha/redis/RedisConfig.java,"RedisConfig::setTimeout( int timeout)",3, 42, 4, 0
+repos/java/miaosha/miaosha-2version/miaosha-service/src/main/java/com/geekq/miaosha/redis/RedisConfig.java,"RedisConfig::getPassword()",3, 34, 4, 0
+repos/java/miaosha/miaosha-2version/miaosha-service/src/main/java/com/geekq/miaosha/redis/RedisConfig.java,"RedisConfig::setPassword( String password)",3, 47, 4, 0
+repos/java/miaosha/miaosha-2version/miaosha-service/src/main/java/com/geekq/miaosha/redis/RedisConfig.java,"RedisConfig::getPoolMaxTotal()",3, 35, 4, 0
+repos/java/miaosha/miaosha-2version/miaosha-service/src/main/java/com/geekq/miaosha/redis/RedisConfig.java,"RedisConfig::setPoolMaxTotal( int poolMaxTotal)",3, 52, 4, 0
+repos/java/miaosha/miaosha-2version/miaosha-service/src/main/java/com/geekq/miaosha/redis/RedisConfig.java,"RedisConfig::getPoolMaxIdle()",3, 34, 4, 0
+repos/java/miaosha/miaosha-2version/miaosha-service/src/main/java/com/geekq/miaosha/redis/RedisConfig.java,"RedisConfig::setPoolMaxIdle( int poolMaxIdle)",3, 50, 4, 0
+repos/java/miaosha/miaosha-2version/miaosha-service/src/main/java/com/geekq/miaosha/redis/RedisConfig.java,"RedisConfig::getPoolMaxWait()",3, 34, 4, 0
+repos/java/miaosha/miaosha-2version/miaosha-service/src/main/java/com/geekq/miaosha/redis/RedisConfig.java,"RedisConfig::setPoolMaxWait( int poolMaxWait)",3, 50, 4, 0
+repos/java/miaosha/miaosha-2version/miaosha-service/src/main/java/com/geekq/miaosha/redis/RedissLockUtil.java,"RedissLockUtil::setLocker( DistributedLocker locker)",3, 61, 4, 0
+repos/java/miaosha/miaosha-2version/miaosha-service/src/main/java/com/geekq/miaosha/redis/RedissLockUtil.java,"RedissLockUtil::lock( String lockKey)",3, 46, 4, 0
+repos/java/miaosha/miaosha-2version/miaosha-service/src/main/java/com/geekq/miaosha/redis/RedissLockUtil.java,"RedissLockUtil::unlock( String lockKey)",3, 48, 4, 0
+repos/java/miaosha/miaosha-2version/miaosha-service/src/main/java/com/geekq/miaosha/redis/RedissLockUtil.java,"RedissLockUtil::lock( String lockKey , int timeout)",3, 59, 4, 0
+repos/java/miaosha/miaosha-2version/miaosha-service/src/main/java/com/geekq/miaosha/redis/RedissLockUtil.java,"RedissLockUtil::lock( String lockKey , TimeUnit unit , int timeout)",3, 75, 4, 0
+repos/java/miaosha/miaosha-2version/miaosha-service/src/main/java/com/geekq/miaosha/redis/RedisPoolFactory.java,"RedisPoolFactory::JedisPoolFactory()",9, 89, 0, 2
+repos/java/miaosha/miaosha-2version/miaosha-service/src/main/java/com/geekq/miaosha/redis/BasePrefix.java,"BasePrefix::BasePrefix( int expireSeconds , String prefix)",5, 60, 4, 0
+repos/java/miaosha/miaosha-2version/miaosha-service/src/main/java/com/geekq/miaosha/redis/BasePrefix.java,"BasePrefix::BasePrefix( String prefix)",3, 39, 4, 0
+repos/java/miaosha/miaosha-2version/miaosha-service/src/main/java/com/geekq/miaosha/redis/BasePrefix.java,"BasePrefix::expireSeconds()",3, 44, 4, 0
+repos/java/miaosha/miaosha-2version/miaosha-service/src/main/java/com/geekq/miaosha/redis/BasePrefix.java,"BasePrefix::getPrefix()",4, 55, 8, 0
+repos/java/miaosha/miaosha-2version/miaosha-service/src/main/java/com/geekq/miaosha/redis/MiaoshaKey.java,"MiaoshaKey::MiaoshaKey( int expireSeconds , String prefix)",3, 57, 0, 1
+repos/java/miaosha/miaosha-2version/miaosha-service/src/main/java/com/geekq/miaosha/redis/RedisService.java,"RedisService::setnx( String key , String value)",15, 46, 0, 1
+repos/java/miaosha/miaosha-2version/miaosha-service/src/main/java/com/geekq/miaosha/redis/RedisService.java,"RedisService::expire( String key , int exTime)",14, 44, 0, 1
+repos/java/miaosha/miaosha-2version/miaosha-service/src/main/java/com/geekq/miaosha/redis/RedisService.java,"RedisService::get( KeyPrefix prefix , String key , Class<T> clazz)",13, 66, 0, 1
+repos/java/miaosha/miaosha-2version/miaosha-service/src/main/java/com/geekq/miaosha/redis/RedisService.java,"RedisService::get( String key)",14, 52, 12, 0
+repos/java/miaosha/miaosha-2version/miaosha-service/src/main/java/com/geekq/miaosha/redis/RedisService.java,"RedisService::getset( String key , String value)",14, 52, 4, 0
+repos/java/miaosha/miaosha-2version/miaosha-service/src/main/java/com/geekq/miaosha/redis/RedisService.java,"RedisService::set( KeyPrefix prefix , String key , T value)",21, 65, 0, 1
+repos/java/miaosha/miaosha-2version/miaosha-service/src/main/java/com/geekq/miaosha/redis/RedisService.java,"RedisService::exists( KeyPrefix prefix , String key)",11, 59, 0, 1
+repos/java/miaosha/miaosha-2version/miaosha-service/src/main/java/com/geekq/miaosha/redis/RedisService.java,"RedisService::delete( KeyPrefix prefix , String key)",12, 55, 0, 1
+repos/java/miaosha/miaosha-2version/miaosha-service/src/main/java/com/geekq/miaosha/redis/RedisService.java,"RedisService::incr( KeyPrefix prefix , String key)",11, 54, 0, 1
+repos/java/miaosha/miaosha-2version/miaosha-service/src/main/java/com/geekq/miaosha/redis/RedisService.java,"RedisService::decr( KeyPrefix prefix , String key)",11, 54, 0, 1
+repos/java/miaosha/miaosha-2version/miaosha-service/src/main/java/com/geekq/miaosha/redis/RedisService.java,"RedisService::del( String key)",14, 51, 12, 0
+repos/java/miaosha/miaosha-2version/miaosha-service/src/main/java/com/geekq/miaosha/redis/RedisService.java,"RedisService::delete( KeyPrefix prefix)",22, 52, 0, 2
+repos/java/miaosha/miaosha-2version/miaosha-service/src/main/java/com/geekq/miaosha/redis/RedisService.java,"RedisService::scanKeys( String key)",25, 53, 0, 4
+repos/java/miaosha/miaosha-2version/miaosha-service/src/main/java/com/geekq/miaosha/redis/RedisService.java,"RedisService::beanToString( T value)",15, 57, 0, 2
+repos/java/miaosha/miaosha-2version/miaosha-service/src/main/java/com/geekq/miaosha/redis/RedisService.java,"RedisService::stringToBean( String str , Class<T> clazz)",14, 64, 0, 1
+repos/java/miaosha/miaosha-2version/miaosha-service/src/main/java/com/geekq/miaosha/redis/RedisService.java,"RedisService::returnToPool( Jedis jedis)",5, 42, 0, 1
+repos/java/miaosha/miaosha-2version/miaosha-service/src/main/java/com/geekq/miaosha/redis/redismanager/RedisLimitRateWithLUA.java,"RedisLimitRateWithLUA::main( String [ ] args)",19, 67, 24, 0
+repos/java/miaosha/miaosha-2version/miaosha-service/src/main/java/com/geekq/miaosha/redis/redismanager/RedisLimitRateWithLUA.java,"RedisLimitRateWithLUA::accquire()",25, 85, 24, 0
+repos/java/miaosha/miaosha-2version/miaosha-service/src/main/java/com/geekq/miaosha/redis/redismanager/RedisLock.java,"RedisLock::getLock( String key , int timeOut)",23, 64, 16, 0
+repos/java/miaosha/miaosha-2version/miaosha-service/src/main/java/com/geekq/miaosha/redis/redismanager/RedisLock.java,"RedisLock::releaseLock( String key , String value)",20, 61, 20, 0
+repos/java/miaosha/miaosha-2version/miaosha-service/src/main/java/com/geekq/miaosha/redis/redismanager/RedisManager.java,"RedisManager::getJedis()",6, 59, 8, 0
+repos/java/miaosha/miaosha-2version/miaosha-service/src/main/java/com/geekq/miaosha/redis/redismanager/RedisLua.java,"RedisLua::getLuaLimit()",26, 78, 16, 0
+repos/java/miaosha/miaosha-2version/miaosha-service/src/main/java/com/geekq/miaosha/redis/redismanager/RedisLua.java,"RedisLua::getVistorCount( String key)",22, 66, 16, 0
+repos/java/miaosha/miaosha-2version/miaosha-service/src/main/java/com/geekq/miaosha/redis/redismanager/RedisLua.java,"RedisLua::vistorCount( String key)",19, 71, 20, 0
+repos/java/miaosha/miaosha-2version/miaosha-service/src/main/java/com/geekq/miaosha/redis/redismanager/RedisLua.java,"RedisLua::currentlimitMinute()",30, 85, 24, 0
+repos/java/miaosha/miaosha-2version/miaosha-service/src/main/java/com/geekq/miaosha/rabbitmq/MQConfig.java,"MQConfig::queue()",3, 33, 0, 2
+repos/java/miaosha/miaosha-2version/miaosha-service/src/main/java/com/geekq/miaosha/rabbitmq/MQConfig.java,"MQConfig::topicQueue1()",3, 40, 0, 2
+repos/java/miaosha/miaosha-2version/miaosha-service/src/main/java/com/geekq/miaosha/rabbitmq/MQConfig.java,"MQConfig::topicQueue2()",3, 40, 0, 2
+repos/java/miaosha/miaosha-2version/miaosha-service/src/main/java/com/geekq/miaosha/rabbitmq/MQConfig.java,"MQConfig::topicExchage()",3, 44, 0, 2
+repos/java/miaosha/miaosha-2version/miaosha-service/src/main/java/com/geekq/miaosha/rabbitmq/MQConfig.java,"MQConfig::topicBinding1()",3, 83, 0, 2
+repos/java/miaosha/miaosha-2version/miaosha-service/src/main/java/com/geekq/miaosha/rabbitmq/MQConfig.java,"MQConfig::topicBinding2()",3, 80, 0, 2
+repos/java/miaosha/miaosha-2version/miaosha-service/src/main/java/com/geekq/miaosha/rabbitmq/MQConfig.java,"MQConfig::fanoutExchage()",3, 46, 0, 2
+repos/java/miaosha/miaosha-2version/miaosha-service/src/main/java/com/geekq/miaosha/rabbitmq/MQConfig.java,"MQConfig::FanoutBinding1()",3, 65, 0, 2
+repos/java/miaosha/miaosha-2version/miaosha-service/src/main/java/com/geekq/miaosha/rabbitmq/MQConfig.java,"MQConfig::FanoutBinding2()",3, 65, 0, 2
+repos/java/miaosha/miaosha-2version/miaosha-service/src/main/java/com/geekq/miaosha/rabbitmq/MQConfig.java,"MQConfig::headersExchage()",3, 48, 0, 2
+repos/java/miaosha/miaosha-2version/miaosha-service/src/main/java/com/geekq/miaosha/rabbitmq/MQConfig.java,"MQConfig::headerQueue1()",3, 40, 0, 2
+repos/java/miaosha/miaosha-2version/miaosha-service/src/main/java/com/geekq/miaosha/rabbitmq/MQConfig.java,"MQConfig::headerBinding()",6, 89, 0, 2
+repos/java/miaosha/miaosha-2version/miaosha-service/src/main/java/com/geekq/miaosha/rabbitmq/MiaoshaMessage.java,"MiaoshaMessage::getUser()",3, 32, 0, 1
+repos/java/miaosha/miaosha-2version/miaosha-service/src/main/java/com/geekq/miaosha/rabbitmq/MiaoshaMessage.java,"MiaoshaMessage::setUser( MiaoshaUser user)",3, 41, 0, 1
+repos/java/miaosha/miaosha-2version/miaosha-service/src/main/java/com/geekq/miaosha/rabbitmq/MiaoshaMessage.java,"MiaoshaMessage::getGoodsId()",3, 28, 0, 1
+repos/java/miaosha/miaosha-2version/miaosha-service/src/main/java/com/geekq/miaosha/rabbitmq/MiaoshaMessage.java,"MiaoshaMessage::setGoodsId( long goodsId)",3, 40, 0, 1
+repos/java/miaosha/miaosha-2version/miaosha-service/src/main/java/com/geekq/miaosha/rabbitmq/MQSender.java,"MQSender::sendMiaoshaMessage( MiaoshaMessage mm)",5, 60, 0, 2
+repos/java/miaosha/miaosha-2version/miaosha-service/src/main/java/com/geekq/miaosha/rabbitmq/MQSender.java,"MQSender::sendMessage( MiaoshaMessage mm)",5, 83, 0, 2
+repos/java/miaosha/miaosha-2version/miaosha-service/src/main/java/com/geekq/miaosha/rabbitmq/MQSender.java,"MQSender::sendRegisterMessage( MiaoShaMessageVo miaoShaMessageVo)",6, 83, 0, 0
+repos/java/miaosha/miaosha-2version/miaosha-service/src/main/java/com/geekq/miaosha/rabbitmq/MQReceiver.java,"MQReceiver::receive( String message)",25, 115, 4, 2
+repos/java/miaosha/miaosha-2version/miaosha-service/src/main/java/com/geekq/miaosha/service/GoodsService.java,"GoodsService::listGoodsVo()",3, 37, 0, 1
+repos/java/miaosha/miaosha-2version/miaosha-service/src/main/java/com/geekq/miaosha/service/GoodsService.java,"GoodsService::getGoodsVoByGoodsId( long goodsId)",3, 52, 0, 1
+repos/java/miaosha/miaosha-2version/miaosha-service/src/main/java/com/geekq/miaosha/service/GoodsService.java,"GoodsService::reduceStock( GoodsVo goods)",6, 45, 0, 1
+repos/java/miaosha/miaosha-2version/miaosha-service/src/main/java/com/geekq/miaosha/service/OrderService.java,"OrderService::getMiaoshaOrderByUserIdGoodsId( long userId , long goodsId)",3, 103, 0, 2
+repos/java/miaosha/miaosha-2version/miaosha-service/src/main/java/com/geekq/miaosha/service/OrderService.java,"OrderService::getOrderById( long orderId)",3, 47, 0, 1
+repos/java/miaosha/miaosha-2version/miaosha-service/src/main/java/com/geekq/miaosha/service/OrderService.java,"OrderService::createOrder( MiaoshaUser user , GoodsVoOrder goods)",20, 108, 0, 2
+repos/java/miaosha/miaosha-2version/miaosha-service/src/main/java/com/geekq/miaosha/service/OrderService.java,"OrderService::closeOrder( int hour)",7, 159, 0, 2
+repos/java/miaosha/miaosha-2version/miaosha-service/src/main/java/com/geekq/miaosha/service/MiaoShaUserService.java,"MiaoShaUserService::getNickNameCount( String userName)",5, 83, 6, 0
+repos/java/miaosha/miaosha-2version/miaosha-service/src/main/java/com/geekq/miaosha/service/MiaoShaUserService.java,"MiaoShaUserService::getByToken( HttpServletResponse response , String token)",12, 91, 8, 0
+repos/java/miaosha/miaosha-2version/miaosha-service/src/main/java/com/geekq/miaosha/service/MiaoShaUserService.java,"MiaoShaUserService::getByNickName( String nickName)",13, 107, 8, 0
+repos/java/miaosha/miaosha-2version/miaosha-service/src/main/java/com/geekq/miaosha/service/MiaoShaUserService.java,"MiaoShaUserService::updatePassword( String token , String nickName , String formPass)",17, 85, 8, 0
+repos/java/miaosha/miaosha-2version/miaosha-service/src/main/java/com/geekq/miaosha/service/MiaoShaUserService.java,"MiaoShaUserService::register( String userName , String passWord , HttpServletResponse response , HttpServletRequest request)",31, 91, 12, 0
+repos/java/miaosha/miaosha-2version/miaosha-service/src/main/java/com/geekq/miaosha/service/MiaoShaUserService.java,"MiaoShaUserService::login( HttpServletResponse response , LoginVo loginVo)",23, 75, 4, 0
+repos/java/miaosha/miaosha-2version/miaosha-service/src/main/java/com/geekq/miaosha/service/MiaoShaUserService.java,"MiaoShaUserService::createToken( HttpServletResponse response , LoginVo loginVo)",23, 80, 4, 0
+repos/java/miaosha/miaosha-2version/miaosha-service/src/main/java/com/geekq/miaosha/service/MiaoShaUserService.java,"MiaoShaUserService::addCookie( HttpServletResponse response , String token , MiaoshaUser user)",8, 91, 4, 0
+repos/java/miaosha/miaosha-2version/miaosha-service/src/main/java/com/geekq/miaosha/service/MiaoshaService.java,"MiaoshaService::miaosha( MiaoshaUser user , GoodsVoOrder goods)",12, 66, 0, 1
+repos/java/miaosha/miaosha-2version/miaosha-service/src/main/java/com/geekq/miaosha/service/MiaoshaService.java,"MiaoshaService::getMiaoshaResult( Long userId , long goodsId)",13, 85, 0, 2
+repos/java/miaosha/miaosha-2version/miaosha-service/src/main/java/com/geekq/miaosha/service/MiaoshaService.java,"MiaoshaService::setGoodsOver( Long goodsId)",3, 62, 0, 2
+repos/java/miaosha/miaosha-2version/miaosha-service/src/main/java/com/geekq/miaosha/service/MiaoshaService.java,"MiaoshaService::getGoodsOver( long goodsId)",3, 66, 0, 2
+repos/java/miaosha/miaosha-2version/miaosha-service/src/main/java/com/geekq/miaosha/service/MiaoshaService.java,"MiaoshaService::checkPath( MiaoshaUser user , long goodsId , String path)",7, 116, 0, 2
+repos/java/miaosha/miaosha-2version/miaosha-service/src/main/java/com/geekq/miaosha/service/MiaoshaService.java,"MiaoshaService::createMiaoshaPath( MiaoshaUser user , long goodsId)",8, 90, 0, 2
+repos/java/miaosha/miaosha-2version/miaosha-service/src/main/java/com/geekq/miaosha/service/MiaoshaService.java,"MiaoshaService::createVerifyCode( MiaoshaUser user , long goodsId)",35, 90, 0, 2
+repos/java/miaosha/miaosha-2version/miaosha-service/src/main/java/com/geekq/miaosha/service/MiaoshaService.java,"MiaoshaService::checkVerifyCodeRegister( int verifyCode)",8, 105, 0, 2
+repos/java/miaosha/miaosha-2version/miaosha-service/src/main/java/com/geekq/miaosha/service/MiaoshaService.java,"MiaoshaService::createVerifyCodeRegister()",32, 86, 0, 2
+repos/java/miaosha/miaosha-2version/miaosha-service/src/main/java/com/geekq/miaosha/service/MiaoshaService.java,"MiaoshaService::calc( String exp)",11, 64, 0, 3
+repos/java/miaosha/miaosha-2version/miaosha-service/src/main/java/com/geekq/miaosha/service/MiaoshaService.java,"MiaoshaService::checkVerifyCode( MiaoshaUser user , long goodsId , int verifyCode)",11, 118, 0, 2
+repos/java/miaosha/miaosha-2version/miaosha-service/src/main/java/com/geekq/miaosha/service/MiaoshaService.java,"MiaoshaService::generateVerifyCode( Random rdm)",9, 51, 0, 2
+repos/java/miaosha/miaosha-2version/miaosha-service/src/main/java/com/geekq/miaosha/service/impl/LoginInfoServiceImpl.java,"LoginInfoServiceImpl::checkName()",5, 38, 9, 0
+repos/java/miaosha/miaosha-2version/miaosha-web/src/main/java/com/geekq/miaosha/GeekQMainApplication.java,"GeekQMainApplication::main( String [ ] args)",6, 187, 0, 0
+repos/java/miaosha/miaosha-2version/miaosha-web/src/main/java/com/geekq/miaosha/config/DruidConfig.java,"DruidConfig::druidSverlet()",10, 63, 0, 2
+repos/java/miaosha/miaosha-2version/miaosha-web/src/main/java/com/geekq/miaosha/config/DruidConfig.java,"DruidConfig::druidDataSource()",25, 85, 8, 1
+repos/java/miaosha/miaosha-2version/miaosha-web/src/main/java/com/geekq/miaosha/config/DruidConfig.java,"DruidConfig::getUrl()",3, 26, 0, 1
+repos/java/miaosha/miaosha-2version/miaosha-web/src/main/java/com/geekq/miaosha/config/DruidConfig.java,"DruidConfig::setUrl( String url)",3, 34, 0, 1
+repos/java/miaosha/miaosha-2version/miaosha-web/src/main/java/com/geekq/miaosha/config/DruidConfig.java,"DruidConfig::getUsername()",3, 31, 0, 1
+repos/java/miaosha/miaosha-2version/miaosha-web/src/main/java/com/geekq/miaosha/config/DruidConfig.java,"DruidConfig::setUsername( String username)",3, 44, 0, 1
+repos/java/miaosha/miaosha-2version/miaosha-web/src/main/java/com/geekq/miaosha/config/DruidConfig.java,"DruidConfig::getPassword()",3, 31, 0, 1
+repos/java/miaosha/miaosha-2version/miaosha-web/src/main/java/com/geekq/miaosha/config/DruidConfig.java,"DruidConfig::setPassword( String password)",3, 44, 0, 1
+repos/java/miaosha/miaosha-2version/miaosha-web/src/main/java/com/geekq/miaosha/config/DruidConfig.java,"DruidConfig::getDriverClassName()",3, 38, 0, 1
+repos/java/miaosha/miaosha-2version/miaosha-web/src/main/java/com/geekq/miaosha/config/DruidConfig.java,"DruidConfig::setDriverClassName( String driverClassName)",3, 58, 0, 1
+repos/java/miaosha/miaosha-2version/miaosha-web/src/main/java/com/geekq/miaosha/config/DruidConfig.java,"DruidConfig::getType()",3, 27, 0, 1
+repos/java/miaosha/miaosha-2version/miaosha-web/src/main/java/com/geekq/miaosha/config/DruidConfig.java,"DruidConfig::setType( String type)",3, 36, 0, 1
+repos/java/miaosha/miaosha-2version/miaosha-web/src/main/java/com/geekq/miaosha/config/DruidConfig.java,"DruidConfig::getFilters()",3, 30, 0, 1
+repos/java/miaosha/miaosha-2version/miaosha-web/src/main/java/com/geekq/miaosha/config/DruidConfig.java,"DruidConfig::setFilters( String filters)",3, 42, 0, 1
+repos/java/miaosha/miaosha-2version/miaosha-web/src/main/java/com/geekq/miaosha/config/DruidConfig.java,"DruidConfig::getMaxActive()",3, 29, 0, 1
+repos/java/miaosha/miaosha-2version/miaosha-web/src/main/java/com/geekq/miaosha/config/DruidConfig.java,"DruidConfig::setMaxActive( int maxActive)",3, 43, 0, 1
+repos/java/miaosha/miaosha-2version/miaosha-web/src/main/java/com/geekq/miaosha/config/DruidConfig.java,"DruidConfig::getInitialSize()",3, 31, 0, 1
+repos/java/miaosha/miaosha-2version/miaosha-web/src/main/java/com/geekq/miaosha/config/DruidConfig.java,"DruidConfig::setInitialSize( int initialSize)",3, 47, 0, 1
+repos/java/miaosha/miaosha-2version/miaosha-web/src/main/java/com/geekq/miaosha/config/DruidConfig.java,"DruidConfig::getMinIdle()",3, 27, 0, 1
+repos/java/miaosha/miaosha-2version/miaosha-web/src/main/java/com/geekq/miaosha/config/DruidConfig.java,"DruidConfig::setMinIdle( int minIdle)",3, 39, 0, 1
+repos/java/miaosha/miaosha-2version/miaosha-web/src/main/java/com/geekq/miaosha/config/DruidConfig.java,"DruidConfig::getMaxWait()",3, 28, 0, 1
+repos/java/miaosha/miaosha-2version/miaosha-web/src/main/java/com/geekq/miaosha/config/DruidConfig.java,"DruidConfig::setMaxWait( long maxWait)",3, 40, 0, 1
+repos/java/miaosha/miaosha-2version/miaosha-web/src/main/java/com/geekq/miaosha/config/DruidConfig.java,"DruidConfig::getTimeBetweenEvictionRunsMillis()",3, 50, 0, 1
+repos/java/miaosha/miaosha-2version/miaosha-web/src/main/java/com/geekq/miaosha/config/DruidConfig.java,"DruidConfig::setTimeBetweenEvictionRunsMillis( long timeBetweenEvictionRunsMillis)",3, 84, 0, 1
+repos/java/miaosha/miaosha-2version/miaosha-web/src/main/java/com/geekq/miaosha/config/DruidConfig.java,"DruidConfig::getMinEvictableIdleTimeMillis()",3, 47, 0, 1
+repos/java/miaosha/miaosha-2version/miaosha-web/src/main/java/com/geekq/miaosha/config/DruidConfig.java,"DruidConfig::setMinEvictableIdleTimeMillis( long minEvictableIdleTimeMillis)",3, 78, 0, 1
+repos/java/miaosha/miaosha-2version/miaosha-web/src/main/java/com/geekq/miaosha/config/DruidConfig.java,"DruidConfig::getValidationQuery()",3, 38, 0, 1
+repos/java/miaosha/miaosha-2version/miaosha-web/src/main/java/com/geekq/miaosha/config/DruidConfig.java,"DruidConfig::setValidationQuery( String validationQuery)",3, 58, 0, 1
+repos/java/miaosha/miaosha-2version/miaosha-web/src/main/java/com/geekq/miaosha/config/DruidConfig.java,"DruidConfig::isTestWhileIdle()",3, 36, 0, 1
+repos/java/miaosha/miaosha-2version/miaosha-web/src/main/java/com/geekq/miaosha/config/DruidConfig.java,"DruidConfig::setTestWhileIdle( boolean testWhileIdle)",3, 55, 0, 1
+repos/java/miaosha/miaosha-2version/miaosha-web/src/main/java/com/geekq/miaosha/config/DruidConfig.java,"DruidConfig::isTestOnBorrow()",3, 35, 0, 1
+repos/java/miaosha/miaosha-2version/miaosha-web/src/main/java/com/geekq/miaosha/config/DruidConfig.java,"DruidConfig::setTestOnBorrow( boolean testOnBorrow)",3, 53, 0, 1
+repos/java/miaosha/miaosha-2version/miaosha-web/src/main/java/com/geekq/miaosha/config/DruidConfig.java,"DruidConfig::isTestOnReturn()",3, 35, 0, 1
+repos/java/miaosha/miaosha-2version/miaosha-web/src/main/java/com/geekq/miaosha/config/DruidConfig.java,"DruidConfig::setTestOnReturn( boolean testOnReturn)",3, 53, 0, 1
+repos/java/miaosha/miaosha-2version/miaosha-web/src/main/java/com/geekq/miaosha/config/DruidConfig.java,"DruidConfig::isPoolPreparedStatements()",3, 45, 0, 1
+repos/java/miaosha/miaosha-2version/miaosha-web/src/main/java/com/geekq/miaosha/config/DruidConfig.java,"DruidConfig::setPoolPreparedStatements( boolean poolPreparedStatements)",3, 73, 0, 1
+repos/java/miaosha/miaosha-2version/miaosha-web/src/main/java/com/geekq/miaosha/config/DruidConfig.java,"DruidConfig::getMaxOpenPreparedStatements()",3, 45, 0, 1
+repos/java/miaosha/miaosha-2version/miaosha-web/src/main/java/com/geekq/miaosha/config/DruidConfig.java,"DruidConfig::setMaxOpenPreparedStatements( int maxOpenPreparedStatements)",3, 75, 0, 1
+repos/java/miaosha/miaosha-2version/miaosha-web/src/main/java/com/geekq/miaosha/config/UserArgumentResolver.java,"UserArgumentResolver::supportsParameter( MethodParameter methodParameter)",4, 72, 4, 0
+repos/java/miaosha/miaosha-2version/miaosha-web/src/main/java/com/geekq/miaosha/config/UserArgumentResolver.java,"UserArgumentResolver::resolveArgument( MethodParameter methodParameter , ModelAndViewContainer modelAndViewContainer , NativeWebRequest webRequest , WebDataBinderFactory webDataBinderFactory)",6, 203, 4, 0
+repos/java/miaosha/miaosha-2version/miaosha-web/src/main/java/com/geekq/miaosha/config/WebConfig.java,"WebConfig::addInterceptors( InterceptorRegistry registry)",5, 113, 8, 0
+repos/java/miaosha/miaosha-2version/miaosha-web/src/main/java/com/geekq/miaosha/config/WebConfig.java,"WebConfig::addArgumentResolvers( List<HandlerMethodArgumentResolver> argumentResolvers)",3, 94, 4, 0
+repos/java/miaosha/miaosha-2version/miaosha-web/src/main/java/com/geekq/miaosha/controller/RegisterController.java,"RegisterController::loginIndex( Model model)",8, 73, 0, 0
+repos/java/miaosha/miaosha-2version/miaosha-web/src/main/java/com/geekq/miaosha/controller/RegisterController.java,"RegisterController::register()",3, 30, 4, 0
+repos/java/miaosha/miaosha-2version/miaosha-web/src/main/java/com/geekq/miaosha/controller/RegisterController.java,"RegisterController::checkUsername( String username)",7, 79, 8, 0
+repos/java/miaosha/miaosha-2version/miaosha-web/src/main/java/com/geekq/miaosha/controller/RegisterController.java,"RegisterController::register( @ RequestParam('username') String userName , @ RequestParam('password') String passWord , HttpServletResponse response , HttpServletRequest request)",14, 98, 8, 0
+repos/java/miaosha/miaosha-2version/miaosha-web/src/main/java/com/geekq/miaosha/controller/OrderController.java,"OrderController::info( Model model , MiaoshaUser user , @ RequestParam('orderId') long orderId)",20, 78, 0, 3
+repos/java/miaosha/miaosha-2version/miaosha-web/src/main/java/com/geekq/miaosha/controller/MiaoShaMessageController.java,"MiaoShaMessageController::list( @ RequestParam(value='userid',required=true) String userId , Model model)",11, 120, 0, 0
+repos/java/miaosha/miaosha-2version/miaosha-web/src/main/java/com/geekq/miaosha/controller/MiaoShaMessageController.java,"MiaoShaMessageController::getNewMessage( @ RequestParam(value='userid',required=true) String userId , Model model)",13, 134, 0, 0
+repos/java/miaosha/miaosha-2version/miaosha-web/src/main/java/com/geekq/miaosha/controller/GoodsController.java,"GoodsController::list( HttpServletRequest request , HttpServletResponse response , Model model , MiaoshaUser user)",13, 115, 4, 0
+repos/java/miaosha/miaosha-2version/miaosha-web/src/main/java/com/geekq/miaosha/controller/GoodsController.java,"GoodsController::detail2( HttpServletRequest request , HttpServletResponse response , Model model , MiaoshaUser user , @ PathVariable('goodsId') long goodsId)",54, 116, 8, 0
+repos/java/miaosha/miaosha-2version/miaosha-web/src/main/java/com/geekq/miaosha/controller/GoodsController.java,"GoodsController::detail( HttpServletRequest request , HttpServletResponse response , Model model , MiaoshaUser user , @ PathVariable('goodsId') long goodsId)",36, 134, 4, 0
+repos/java/miaosha/miaosha-2version/miaosha-web/src/main/java/com/geekq/miaosha/controller/BaseController.java,"BaseController::render( HttpServletRequest request , HttpServletResponse response , Model model , String tplName , KeyPrefix prefix , String key)",20, 144, 4, 0
+repos/java/miaosha/miaosha-2version/miaosha-web/src/main/java/com/geekq/miaosha/controller/BaseController.java,"BaseController::out( HttpServletResponse res , String html)",12, 66, 4, 0
+repos/java/miaosha/miaosha-2version/miaosha-web/src/main/java/com/geekq/miaosha/controller/LoginController.java,"LoginController::sayHello()",3, 48, 4, 0
+repos/java/miaosha/miaosha-2version/miaosha-web/src/main/java/com/geekq/miaosha/controller/LoginController.java,"LoginController::tologin( LoginVo loginVo , Model model)",10, 71, 8, 0
+repos/java/miaosha/miaosha-2version/miaosha-web/src/main/java/com/geekq/miaosha/controller/LoginController.java,"LoginController::dologin( HttpServletResponse response , @ Valid LoginVo loginVo)",6, 95, 4, 0
+repos/java/miaosha/miaosha-2version/miaosha-web/src/main/java/com/geekq/miaosha/controller/LoginController.java,"LoginController::createToken( HttpServletResponse response , @ Valid LoginVo loginVo)",5, 86, 4, 0
+repos/java/miaosha/miaosha-2version/miaosha-web/src/main/java/com/geekq/miaosha/controller/MiaoshaController.java,"MiaoshaController::miaosha( Model model , MiaoshaUser user , @ PathVariable('path') String path , @ RequestParam('goodsId') long goodsId)",61, 117, 8, 0
+repos/java/miaosha/miaosha-2version/miaosha-web/src/main/java/com/geekq/miaosha/controller/MiaoshaController.java,"MiaoshaController::miaoshaResult( Model model , MiaoshaUser user , @ RequestParam('goodsId') long goodsId)",12, 105, 8, 0
+repos/java/miaosha/miaosha-2version/miaosha-web/src/main/java/com/geekq/miaosha/controller/MiaoshaController.java,"MiaoshaController::getMiaoshaPath( HttpServletRequest request , MiaoshaUser user , @ RequestParam('goodsId') long goodsId , @ RequestParam(value='verifyCode',defaultValue='0') int verifyCode)",18, 117, 46, 0
+repos/java/miaosha/miaosha-2version/miaosha-web/src/main/java/com/geekq/miaosha/controller/MiaoshaController.java,"MiaoshaController::getMiaoshaVerifyCod( HttpServletResponse response)",16, 81, 12, 0
+repos/java/miaosha/miaosha-2version/miaosha-web/src/main/java/com/geekq/miaosha/controller/MiaoshaController.java,"MiaoshaController::getMiaoshaVerifyCod( HttpServletResponse response , MiaoshaUser user , @ RequestParam('goodsId') long goodsId)",20, 99, 4, 0
+repos/java/miaosha/miaosha-2version/miaosha-web/src/main/java/com/geekq/miaosha/controller/MiaoshaController.java,"MiaoshaController::afterPropertiesSet()",10, 104, 12, 0
+repos/java/miaosha/miaosha-2version/miaosha-web/src/main/java/com/geekq/miaosha/interceptor/GlobalParamAdvice.java,"GlobalParamAdvice::initBinder( WebDataBinder binder)",1, 52, 4, 0
+repos/java/miaosha/miaosha-2version/miaosha-web/src/main/java/com/geekq/miaosha/interceptor/GlobalParamAdvice.java,"GlobalParamAdvice::addAttributes( Model model)",3, 55, 0, 0
+repos/java/miaosha/miaosha-2version/miaosha-web/src/main/java/com/geekq/miaosha/interceptor/LoginInterceptor.java,"LoginInterceptor::preHandle( HttpServletRequest request , HttpServletResponse response , Object handler)",50, 74, 0, 3
+repos/java/miaosha/miaosha-2version/miaosha-web/src/main/java/com/geekq/miaosha/interceptor/LoginInterceptor.java,"LoginInterceptor::afterCompletion( HttpServletRequest request , HttpServletResponse response , Object handler , Exception ex)",4, 136, 0, 1
+repos/java/miaosha/miaosha-2version/miaosha-web/src/main/java/com/geekq/miaosha/interceptor/LoginInterceptor.java,"LoginInterceptor::render( HttpServletResponse response , ResultStatus cm)",8, 86, 0, 1
+repos/java/miaosha/miaosha-2version/miaosha-web/src/main/java/com/geekq/miaosha/interceptor/LoginInterceptor.java,"LoginInterceptor::getUser( HttpServletRequest request , HttpServletResponse response)",9, 89, 0, 1
+repos/java/miaosha/miaosha-2version/miaosha-web/src/main/java/com/geekq/miaosha/interceptor/LoginInterceptor.java,"LoginInterceptor::getCookieValue( HttpServletRequest request , String cookiName)",12, 79, 0, 1
+repos/java/miaosha/miaosha-2version/miaosha-web/src/main/java/com/geekq/miaosha/interceptor/GlobalExceptionHandler.java,"GlobalExceptionHandler::exceptionHandler( Exception e)",19, 62, 4, 0
+repos/java/miaosha/miaosha-2version/miaosha-web/src/main/java/com/geekq/miaosha/interceptor/AccessKey.java,"AccessKey::AccessKey( int expireSeconds , String prefix)",3, 56, 0, 1
+repos/java/miaosha/miaosha-2version/miaosha-web/src/main/java/com/geekq/miaosha/interceptor/AccessKey.java,"AccessKey::withExpire( int expireSeconds)",3, 57, 0, 1
+repos/java/miaosha/src/main/java/com/geekq/miaosha/GeekQMainApplication.java,"GeekQMainApplication::main( String [ ] args)",3, 65, 8, 0
+repos/java/miaosha/src/main/java/com/geekq/miaosha/vo/OrderDetailVo.java,"OrderDetailVo::getGoods()",3, 29, 0, 1
+repos/java/miaosha/src/main/java/com/geekq/miaosha/vo/OrderDetailVo.java,"OrderDetailVo::setGoods( GoodsVo goods)",3, 39, 0, 1
+repos/java/miaosha/src/main/java/com/geekq/miaosha/vo/OrderDetailVo.java,"OrderDetailVo::getOrder()",3, 31, 0, 1
+repos/java/miaosha/src/main/java/com/geekq/miaosha/vo/OrderDetailVo.java,"OrderDetailVo::setOrder( OrderInfo order)",3, 41, 0, 1
+repos/java/miaosha/src/main/java/com/geekq/miaosha/vo/LoginVo.java,"LoginVo::toString()",6, 51, 16, 0
+repos/java/miaosha/src/main/java/com/geekq/miaosha/validator/MobileCheck.java,"required()",5, 42, 4, 0
+repos/java/miaosha/src/main/java/com/geekq/miaosha/validator/MobileCheck.java,"payload()",1, 53, 4, 0
+repos/java/miaosha/src/main/java/com/geekq/miaosha/validator/MobileValidator.java,"MobileValidator::initialize( MobileCheck isMobile)",3, 51, 4, 0
+repos/java/miaosha/src/main/java/com/geekq/miaosha/validator/MobileValidator.java,"MobileValidator::isValid( String value , ConstraintValidatorContext constraintValidatorContext)",11, 98, 4, 0
+repos/java/miaosha/src/main/java/com/geekq/miaosha/access/AccessKey.java,"AccessKey::AccessKey( int expireSeconds , String prefix)",3, 56, 0, 1
+repos/java/miaosha/src/main/java/com/geekq/miaosha/access/AccessKey.java,"AccessKey::withExpire( int expireSeconds)",3, 57, 0, 1
+repos/java/miaosha/src/main/java/com/geekq/miaosha/access/AccessInterceptor.java,"AccessInterceptor::preHandle( HttpServletRequest request , HttpServletResponse response , Object handler)",44, 100, 0, 1
+repos/java/miaosha/src/main/java/com/geekq/miaosha/access/AccessInterceptor.java,"AccessInterceptor::afterCompletion( HttpServletRequest request , HttpServletResponse response , Object handler , Exception ex)",4, 136, 0, 1
+repos/java/miaosha/src/main/java/com/geekq/miaosha/access/AccessInterceptor.java,"AccessInterceptor::render( HttpServletResponse response , ResultStatus cm)",8, 86, 0, 1
+repos/java/miaosha/src/main/java/com/geekq/miaosha/access/AccessInterceptor.java,"AccessInterceptor::getUser( HttpServletRequest request , HttpServletResponse response)",9, 89, 0, 1
+repos/java/miaosha/src/main/java/com/geekq/miaosha/access/AccessInterceptor.java,"AccessInterceptor::getCookieValue( HttpServletRequest request , String cookiName)",12, 79, 0, 1
+repos/java/miaosha/src/main/java/com/geekq/miaosha/access/UserContext.java,"UserContext::setUser( MiaoshaUser user)",3, 48, 0, 1
+repos/java/miaosha/src/main/java/com/geekq/miaosha/access/UserContext.java,"UserContext::getUser()",3, 39, 0, 1
+repos/java/miaosha/src/main/java/com/geekq/miaosha/access/UserContext.java,"UserContext::removeUser()",3, 35, 0, 1
+repos/java/miaosha/src/main/java/com/geekq/miaosha/mybatis/vo/TeacherListVo.java,"TeacherListVo::toString()",8, 45, 16, 0
+repos/java/miaosha/src/main/java/com/geekq/miaosha/mybatis/entity/User.java,"User::toString()",3, 75, 8, 0
+repos/java/miaosha/src/main/java/com/geekq/miaosha/mybatis/controller/UbatisController.java,"UbatisController::testMybatis()",4, 43, 7, 0
+repos/java/miaosha/src/main/java/com/geekq/miaosha/mybatis/controller/UbatisController.java,"UbatisController::testSelectUser()",4, 62, 8, 0
+repos/java/miaosha/src/main/java/com/geekq/miaosha/mybatis/controller/UbatisController.java,"UbatisController::testInsert()",8, 47, 8, 0
+repos/java/miaosha/src/main/java/com/geekq/miaosha/mybatis/controller/UbatisController.java,"UbatisController::testUpdate()",10, 47, 8, 0
+repos/java/miaosha/src/main/java/com/geekq/miaosha/mybatis/controller/UbatisController.java,"UbatisController::testDelete()",4, 45, 8, 0
+repos/java/miaosha/src/main/java/com/geekq/miaosha/mybatis/controller/UbatisController.java,"UbatisController::testTandU()",4, 76, 8, 0
+repos/java/miaosha/src/main/java/com/geekq/miaosha/mybatis/controller/UbatisController.java,"UbatisController::testTandUIn()",8, 82, 8, 0
+repos/java/miaosha/src/main/java/com/geekq/miaosha/mybatis/controller/UbatisController.java,"UbatisController::testAssc()",5, 86, 8, 0
+repos/java/miaosha/src/main/java/com/geekq/miaosha/config/DruidConfig.java,"DruidConfig::druidSverlet()",10, 63, 0, 2
+repos/java/miaosha/src/main/java/com/geekq/miaosha/config/DruidConfig.java,"DruidConfig::druidDataSource()",25, 85, 8, 1
+repos/java/miaosha/src/main/java/com/geekq/miaosha/config/DruidConfig.java,"DruidConfig::getUrl()",3, 26, 0, 1
+repos/java/miaosha/src/main/java/com/geekq/miaosha/config/DruidConfig.java,"DruidConfig::setUrl( String url)",3, 34, 0, 1
+repos/java/miaosha/src/main/java/com/geekq/miaosha/config/DruidConfig.java,"DruidConfig::getUsername()",3, 31, 0, 1
+repos/java/miaosha/src/main/java/com/geekq/miaosha/config/DruidConfig.java,"DruidConfig::setUsername( String username)",3, 44, 0, 1
+repos/java/miaosha/src/main/java/com/geekq/miaosha/config/DruidConfig.java,"DruidConfig::getPassword()",3, 31, 0, 1
+repos/java/miaosha/src/main/java/com/geekq/miaosha/config/DruidConfig.java,"DruidConfig::setPassword( String password)",3, 44, 0, 1
+repos/java/miaosha/src/main/java/com/geekq/miaosha/config/DruidConfig.java,"DruidConfig::getDriverClassName()",3, 38, 0, 1
+repos/java/miaosha/src/main/java/com/geekq/miaosha/config/DruidConfig.java,"DruidConfig::setDriverClassName( String driverClassName)",3, 58, 0, 1
+repos/java/miaosha/src/main/java/com/geekq/miaosha/config/DruidConfig.java,"DruidConfig::getType()",3, 27, 0, 1
+repos/java/miaosha/src/main/java/com/geekq/miaosha/config/DruidConfig.java,"DruidConfig::setType( String type)",3, 36, 0, 1
+repos/java/miaosha/src/main/java/com/geekq/miaosha/config/DruidConfig.java,"DruidConfig::getFilters()",3, 30, 0, 1
+repos/java/miaosha/src/main/java/com/geekq/miaosha/config/DruidConfig.java,"DruidConfig::setFilters( String filters)",3, 42, 0, 1
+repos/java/miaosha/src/main/java/com/geekq/miaosha/config/DruidConfig.java,"DruidConfig::getMaxActive()",3, 29, 0, 1
+repos/java/miaosha/src/main/java/com/geekq/miaosha/config/DruidConfig.java,"DruidConfig::setMaxActive( int maxActive)",3, 43, 0, 1
+repos/java/miaosha/src/main/java/com/geekq/miaosha/config/DruidConfig.java,"DruidConfig::getInitialSize()",3, 31, 0, 1
+repos/java/miaosha/src/main/java/com/geekq/miaosha/config/DruidConfig.java,"DruidConfig::setInitialSize( int initialSize)",3, 47, 0, 1
+repos/java/miaosha/src/main/java/com/geekq/miaosha/config/DruidConfig.java,"DruidConfig::getMinIdle()",3, 27, 0, 1
+repos/java/miaosha/src/main/java/com/geekq/miaosha/config/DruidConfig.java,"DruidConfig::setMinIdle( int minIdle)",3, 39, 0, 1
+repos/java/miaosha/src/main/java/com/geekq/miaosha/config/DruidConfig.java,"DruidConfig::getMaxWait()",3, 28, 0, 1
+repos/java/miaosha/src/main/java/com/geekq/miaosha/config/DruidConfig.java,"DruidConfig::setMaxWait( long maxWait)",3, 40, 0, 1
+repos/java/miaosha/src/main/java/com/geekq/miaosha/config/DruidConfig.java,"DruidConfig::getTimeBetweenEvictionRunsMillis()",3, 50, 0, 1
+repos/java/miaosha/src/main/java/com/geekq/miaosha/config/DruidConfig.java,"DruidConfig::setTimeBetweenEvictionRunsMillis( long timeBetweenEvictionRunsMillis)",3, 84, 0, 1
+repos/java/miaosha/src/main/java/com/geekq/miaosha/config/DruidConfig.java,"DruidConfig::getMinEvictableIdleTimeMillis()",3, 47, 0, 1
+repos/java/miaosha/src/main/java/com/geekq/miaosha/config/DruidConfig.java,"DruidConfig::setMinEvictableIdleTimeMillis( long minEvictableIdleTimeMillis)",3, 78, 0, 1
+repos/java/miaosha/src/main/java/com/geekq/miaosha/config/DruidConfig.java,"DruidConfig::getValidationQuery()",3, 38, 0, 1
+repos/java/miaosha/src/main/java/com/geekq/miaosha/config/DruidConfig.java,"DruidConfig::setValidationQuery( String validationQuery)",3, 58, 0, 1
+repos/java/miaosha/src/main/java/com/geekq/miaosha/config/DruidConfig.java,"DruidConfig::isTestWhileIdle()",3, 36, 0, 1
+repos/java/miaosha/src/main/java/com/geekq/miaosha/config/DruidConfig.java,"DruidConfig::setTestWhileIdle( boolean testWhileIdle)",3, 55, 0, 1
+repos/java/miaosha/src/main/java/com/geekq/miaosha/config/DruidConfig.java,"DruidConfig::isTestOnBorrow()",3, 35, 0, 1
+repos/java/miaosha/src/main/java/com/geekq/miaosha/config/DruidConfig.java,"DruidConfig::setTestOnBorrow( boolean testOnBorrow)",3, 53, 0, 1
+repos/java/miaosha/src/main/java/com/geekq/miaosha/config/DruidConfig.java,"DruidConfig::isTestOnReturn()",3, 35, 0, 1
+repos/java/miaosha/src/main/java/com/geekq/miaosha/config/DruidConfig.java,"DruidConfig::setTestOnReturn( boolean testOnReturn)",3, 53, 0, 1
+repos/java/miaosha/src/main/java/com/geekq/miaosha/config/DruidConfig.java,"DruidConfig::isPoolPreparedStatements()",3, 45, 0, 1
+repos/java/miaosha/src/main/java/com/geekq/miaosha/config/DruidConfig.java,"DruidConfig::setPoolPreparedStatements( boolean poolPreparedStatements)",3, 73, 0, 1
+repos/java/miaosha/src/main/java/com/geekq/miaosha/config/DruidConfig.java,"DruidConfig::getMaxOpenPreparedStatements()",3, 45, 0, 1
+repos/java/miaosha/src/main/java/com/geekq/miaosha/config/DruidConfig.java,"DruidConfig::setMaxOpenPreparedStatements( int maxOpenPreparedStatements)",3, 75, 0, 1
+repos/java/miaosha/src/main/java/com/geekq/miaosha/config/UserArgumentResolver.java,"UserArgumentResolver::supportsParameter( MethodParameter methodParameter)",4, 72, 4, 0
+repos/java/miaosha/src/main/java/com/geekq/miaosha/config/UserArgumentResolver.java,"UserArgumentResolver::resolveArgument( MethodParameter methodParameter , ModelAndViewContainer modelAndViewContainer , NativeWebRequest webRequest , WebDataBinderFactory webDataBinderFactory)",6, 203, 4, 0
+repos/java/miaosha/src/main/java/com/geekq/miaosha/config/WebConfig.java,"WebConfig::addInterceptors( InterceptorRegistry registry)",4, 64, 4, 0
+repos/java/miaosha/src/main/java/com/geekq/miaosha/config/WebConfig.java,"WebConfig::addArgumentResolvers( List<HandlerMethodArgumentResolver> argumentResolvers)",3, 94, 4, 0
+repos/java/miaosha/src/main/java/com/geekq/miaosha/redis/OrderKey.java,"OrderKey::OrderKey( String prefix)",3, 38, 4, 0
+repos/java/miaosha/src/main/java/com/geekq/miaosha/redis/MiaoShaUserKey.java,"MiaoShaUserKey::MiaoShaUserKey( int expireSeconds , String prefix)",3, 62, 4, 0
+repos/java/miaosha/src/main/java/com/geekq/miaosha/redis/Userkey.java,"Userkey::Userkey( String prefix)",3, 37, 4, 0
+repos/java/miaosha/src/main/java/com/geekq/miaosha/redis/GoodsKey.java,"GoodsKey::GoodsKey( int expireSeconds , String prefix)",3, 54, 0, 1
+repos/java/miaosha/src/main/java/com/geekq/miaosha/redis/RedisConfig.java,"RedisConfig::getHost()",3, 30, 4, 0
+repos/java/miaosha/src/main/java/com/geekq/miaosha/redis/RedisConfig.java,"RedisConfig::setHost( String host)",3, 39, 4, 0
+repos/java/miaosha/src/main/java/com/geekq/miaosha/redis/RedisConfig.java,"RedisConfig::getPort()",3, 27, 4, 0
+repos/java/miaosha/src/main/java/com/geekq/miaosha/redis/RedisConfig.java,"RedisConfig::setPort( int port)",3, 36, 4, 0
+repos/java/miaosha/src/main/java/com/geekq/miaosha/redis/RedisConfig.java,"RedisConfig::getTimeout()",3, 30, 4, 0
+repos/java/miaosha/src/main/java/com/geekq/miaosha/redis/RedisConfig.java,"RedisConfig::setTimeout( int timeout)",3, 42, 4, 0
+repos/java/miaosha/src/main/java/com/geekq/miaosha/redis/RedisConfig.java,"RedisConfig::getPassword()",3, 34, 4, 0
+repos/java/miaosha/src/main/java/com/geekq/miaosha/redis/RedisConfig.java,"RedisConfig::setPassword( String password)",3, 47, 4, 0
+repos/java/miaosha/src/main/java/com/geekq/miaosha/redis/RedisConfig.java,"RedisConfig::getPoolMaxTotal()",3, 35, 4, 0
+repos/java/miaosha/src/main/java/com/geekq/miaosha/redis/RedisConfig.java,"RedisConfig::setPoolMaxTotal( int poolMaxTotal)",3, 52, 4, 0
+repos/java/miaosha/src/main/java/com/geekq/miaosha/redis/RedisConfig.java,"RedisConfig::getPoolMaxIdle()",3, 34, 4, 0
+repos/java/miaosha/src/main/java/com/geekq/miaosha/redis/RedisConfig.java,"RedisConfig::setPoolMaxIdle( int poolMaxIdle)",3, 50, 4, 0
+repos/java/miaosha/src/main/java/com/geekq/miaosha/redis/RedisConfig.java,"RedisConfig::getPoolMaxWait()",3, 34, 4, 0
+repos/java/miaosha/src/main/java/com/geekq/miaosha/redis/RedisConfig.java,"RedisConfig::setPoolMaxWait( int poolMaxWait)",3, 50, 4, 0
+repos/java/miaosha/src/main/java/com/geekq/miaosha/redis/RedissLockUtil.java,"RedissLockUtil::setLocker( DistributedLocker locker)",3, 61, 4, 0
+repos/java/miaosha/src/main/java/com/geekq/miaosha/redis/RedissLockUtil.java,"RedissLockUtil::lock( String lockKey)",3, 46, 4, 0
+repos/java/miaosha/src/main/java/com/geekq/miaosha/redis/RedissLockUtil.java,"RedissLockUtil::unlock( String lockKey)",3, 48, 4, 0
+repos/java/miaosha/src/main/java/com/geekq/miaosha/redis/RedissLockUtil.java,"RedissLockUtil::lock( String lockKey , int timeout)",3, 59, 4, 0
+repos/java/miaosha/src/main/java/com/geekq/miaosha/redis/RedissLockUtil.java,"RedissLockUtil::lock( String lockKey , TimeUnit unit , int timeout)",3, 75, 4, 0
+repos/java/miaosha/src/main/java/com/geekq/miaosha/redis/RedisPoolFactory.java,"RedisPoolFactory::JedisPoolFactory()",9, 89, 0, 2
+repos/java/miaosha/src/main/java/com/geekq/miaosha/redis/BasePrefix.java,"BasePrefix::BasePrefix( int expireSeconds , String prefix)",5, 60, 4, 0
+repos/java/miaosha/src/main/java/com/geekq/miaosha/redis/BasePrefix.java,"BasePrefix::BasePrefix( String prefix)",3, 39, 4, 0
+repos/java/miaosha/src/main/java/com/geekq/miaosha/redis/BasePrefix.java,"BasePrefix::expireSeconds()",3, 44, 4, 0
+repos/java/miaosha/src/main/java/com/geekq/miaosha/redis/BasePrefix.java,"BasePrefix::getPrefix()",4, 55, 8, 0
+repos/java/miaosha/src/main/java/com/geekq/miaosha/redis/MiaoshaKey.java,"MiaoshaKey::MiaoshaKey( int expireSeconds , String prefix)",3, 57, 0, 1
+repos/java/miaosha/src/main/java/com/geekq/miaosha/redis/RedisService.java,"RedisService::setnx( String key , String value)",15, 46, 0, 1
+repos/java/miaosha/src/main/java/com/geekq/miaosha/redis/RedisService.java,"RedisService::expire( String key , int exTime)",14, 44, 0, 1
+repos/java/miaosha/src/main/java/com/geekq/miaosha/redis/RedisService.java,"RedisService::get( KeyPrefix prefix , String key , Class<T> clazz)",13, 67, 0, 1
+repos/java/miaosha/src/main/java/com/geekq/miaosha/redis/RedisService.java,"RedisService::get( String key)",14, 52, 12, 0
+repos/java/miaosha/src/main/java/com/geekq/miaosha/redis/RedisService.java,"RedisService::getset( String key , String value)",14, 52, 4, 0
+repos/java/miaosha/src/main/java/com/geekq/miaosha/redis/RedisService.java,"RedisService::set( KeyPrefix prefix , String key , T value)",21, 66, 0, 1
+repos/java/miaosha/src/main/java/com/geekq/miaosha/redis/RedisService.java,"RedisService::exists( KeyPrefix prefix , String key)",11, 59, 0, 1
+repos/java/miaosha/src/main/java/com/geekq/miaosha/redis/RedisService.java,"RedisService::delete( KeyPrefix prefix , String key)",12, 55, 0, 1
+repos/java/miaosha/src/main/java/com/geekq/miaosha/redis/RedisService.java,"RedisService::incr( KeyPrefix prefix , String key)",11, 54, 0, 1
+repos/java/miaosha/src/main/java/com/geekq/miaosha/redis/RedisService.java,"RedisService::decr( KeyPrefix prefix , String key)",11, 54, 0, 1
+repos/java/miaosha/src/main/java/com/geekq/miaosha/redis/RedisService.java,"RedisService::del( String key)",14, 51, 12, 0
+repos/java/miaosha/src/main/java/com/geekq/miaosha/redis/RedisService.java,"RedisService::delete( KeyPrefix prefix)",22, 52, 0, 2
+repos/java/miaosha/src/main/java/com/geekq/miaosha/redis/RedisService.java,"RedisService::scanKeys( String key)",25, 53, 0, 4
+repos/java/miaosha/src/main/java/com/geekq/miaosha/redis/RedisService.java,"RedisService::beanToString( T value)",15, 57, 0, 2
+repos/java/miaosha/src/main/java/com/geekq/miaosha/redis/RedisService.java,"RedisService::stringToBean( String str , Class<T> clazz)",14, 64, 0, 1
+repos/java/miaosha/src/main/java/com/geekq/miaosha/redis/RedisService.java,"RedisService::returnToPool( Jedis jedis)",5, 42, 0, 1
+repos/java/miaosha/src/main/java/com/geekq/miaosha/redis/redismanager/RedisLock.java,"RedisLock::getLock( String key , int timeOut)",23, 64, 16, 0
+repos/java/miaosha/src/main/java/com/geekq/miaosha/redis/redismanager/RedisLock.java,"RedisLock::releaseLock( String key , String value)",20, 61, 20, 0
+repos/java/miaosha/src/main/java/com/geekq/miaosha/redis/redismanager/OptimisticLockTest.java,"OptimisticLockTest::main( String [ ] args)",12, 70, 0, 1
+repos/java/miaosha/src/main/java/com/geekq/miaosha/redis/redismanager/OptimisticLockTest.java,"OptimisticLockTest::printResult()",11, 57, 0, 3
+repos/java/miaosha/src/main/java/com/geekq/miaosha/redis/redismanager/OptimisticLockTest.java,"OptimisticLockTest::initClient()",20, 70, 0, 2
+repos/java/miaosha/src/main/java/com/geekq/miaosha/redis/redismanager/OptimisticLockTest.java,"OptimisticLockTest::initPrduct()",17, 52, 0, 2
+repos/java/miaosha/src/main/java/com/geekq/miaosha/redis/redismanager/OptimisticLockTest.java,"ClientThread::ClientThread( int num)",3, 32, 0, 1
+repos/java/miaosha/src/main/java/com/geekq/miaosha/redis/redismanager/OptimisticLockTest.java,"ClientThread::run()",35, 92, 0, 6
+repos/java/miaosha/src/main/java/com/geekq/miaosha/redis/redismanager/RedisManager.java,"RedisManager::getJedis()",6, 59, 8, 0
+repos/java/miaosha/src/main/java/com/geekq/miaosha/redis/redismanager/RedisLua.java,"RedisLua::getLuaLimit()",26, 78, 16, 0
+repos/java/miaosha/src/main/java/com/geekq/miaosha/redis/redismanager/RedisLua.java,"RedisLua::getVistorCount( String key)",22, 66, 16, 0
+repos/java/miaosha/src/main/java/com/geekq/miaosha/redis/redismanager/RedisLua.java,"RedisLua::vistorCount( String key)",19, 71, 20, 0
+repos/java/miaosha/src/main/java/com/geekq/miaosha/utils/DBUtil.java,"DBUtil::catch( Exception e)",3, 24, 0, 2
+repos/java/miaosha/src/main/java/com/geekq/miaosha/utils/DBUtil.java,"DBUtil::getConn()",8, 76, 0, 2
+repos/java/miaosha/src/main/java/com/geekq/miaosha/utils/HttpUtil.java,"HttpUtil::main( String [ ] args)",30, 73, 0, 7
+repos/java/miaosha/src/main/java/com/geekq/miaosha/utils/MD5Utils.java,"MD5Utils::md5( String key)",3, 47, 4, 0
+repos/java/miaosha/src/main/java/com/geekq/miaosha/utils/MD5Utils.java,"MD5Utils::inputPassFormPass( String inputPass)",4, 105, 8, 0
+repos/java/miaosha/src/main/java/com/geekq/miaosha/utils/MD5Utils.java,"MD5Utils::formPassToDBPass( String formPass , String salt)",4, 104, 8, 0
+repos/java/miaosha/src/main/java/com/geekq/miaosha/utils/MD5Utils.java,"MD5Utils::inputPassToDBPass( String inputPass , String saltDB)",5, 83, 4, 0
+repos/java/miaosha/src/main/java/com/geekq/miaosha/utils/MD5Utils.java,"MD5Utils::main( String [ ] args)",3, 68, 8, 0
+repos/java/miaosha/src/main/java/com/geekq/miaosha/utils/MD5Util.java,"MD5Util::md5( String src)",3, 40, 0, 1
+repos/java/miaosha/src/main/java/com/geekq/miaosha/utils/MD5Util.java,"MD5Util::inputPassToFormPass( String inputPass)",5, 94, 0, 2
+repos/java/miaosha/src/main/java/com/geekq/miaosha/utils/MD5Util.java,"MD5Util::formPassToDBPass( String formPass , String salt)",4, 93, 0, 2
+repos/java/miaosha/src/main/java/com/geekq/miaosha/utils/MD5Util.java,"MD5Util::inputPassToDbPass( String inputPass , String saltDB)",5, 75, 0, 1
+repos/java/miaosha/src/main/java/com/geekq/miaosha/utils/MD5Util.java,"MD5Util::main( String [ ] args)",5, 99, 0, 0
+repos/java/miaosha/src/main/java/com/geekq/miaosha/utils/ValidatorUtil.java,"ValidatorUtil::isMobile( String src)",7, 46, 0, 1
+repos/java/miaosha/src/main/java/com/geekq/miaosha/utils/DateTimeUtils.java,"DateTimeUtils::strToDate( String dateTimeStr , String formatStr)",5, 84, 8, 0
+repos/java/miaosha/src/main/java/com/geekq/miaosha/utils/DateTimeUtils.java,"DateTimeUtils::dateToStr( Date date , String formatStr)",7, 64, 4, 0
+repos/java/miaosha/src/main/java/com/geekq/miaosha/utils/DateTimeUtils.java,"DateTimeUtils::strToDate( String dateTimeStr)",5, 90, 8, 0
+repos/java/miaosha/src/main/java/com/geekq/miaosha/utils/DateTimeUtils.java,"DateTimeUtils::dateToStr( Date date)",7, 51, 8, 0
+repos/java/miaosha/src/main/java/com/geekq/miaosha/utils/DateTimeUtils.java,"DateTimeUtils::main( String [ ] args)",5, 98, 8, 0
+repos/java/miaosha/src/main/java/com/geekq/miaosha/utils/UUIDUtil.java,"UUIDUtil::uuid()",3, 61, 8, 0
+repos/java/miaosha/src/main/java/com/geekq/miaosha/utils/UserUtil.java,"UserUtil::createUser( int count)",75, 120, 0, 2
+repos/java/miaosha/src/main/java/com/geekq/miaosha/utils/UserUtil.java,"UserUtil::main( String [ ] args)",3, 58, 0, 1
+repos/java/miaosha/src/main/java/com/geekq/miaosha/rabbitmq/MQConfig.java,"MQConfig::queue()",3, 33, 0, 2
+repos/java/miaosha/src/main/java/com/geekq/miaosha/rabbitmq/MQConfig.java,"MQConfig::topicQueue1()",3, 40, 0, 2
+repos/java/miaosha/src/main/java/com/geekq/miaosha/rabbitmq/MQConfig.java,"MQConfig::topicQueue2()",3, 40, 0, 2
+repos/java/miaosha/src/main/java/com/geekq/miaosha/rabbitmq/MQConfig.java,"MQConfig::topicExchage()",3, 44, 0, 2
+repos/java/miaosha/src/main/java/com/geekq/miaosha/rabbitmq/MQConfig.java,"MQConfig::topicBinding1()",3, 83, 0, 2
+repos/java/miaosha/src/main/java/com/geekq/miaosha/rabbitmq/MQConfig.java,"MQConfig::topicBinding2()",3, 80, 0, 2
+repos/java/miaosha/src/main/java/com/geekq/miaosha/rabbitmq/MQConfig.java,"MQConfig::fanoutExchage()",3, 46, 0, 2
+repos/java/miaosha/src/main/java/com/geekq/miaosha/rabbitmq/MQConfig.java,"MQConfig::FanoutBinding1()",3, 65, 0, 2
+repos/java/miaosha/src/main/java/com/geekq/miaosha/rabbitmq/MQConfig.java,"MQConfig::FanoutBinding2()",3, 65, 0, 2
+repos/java/miaosha/src/main/java/com/geekq/miaosha/rabbitmq/MQConfig.java,"MQConfig::headersExchage()",3, 48, 0, 2
+repos/java/miaosha/src/main/java/com/geekq/miaosha/rabbitmq/MQConfig.java,"MQConfig::headerQueue1()",3, 40, 0, 2
+repos/java/miaosha/src/main/java/com/geekq/miaosha/rabbitmq/MQConfig.java,"MQConfig::headerBinding()",6, 89, 0, 2
+repos/java/miaosha/src/main/java/com/geekq/miaosha/rabbitmq/MiaoshaMessage.java,"MiaoshaMessage::getUser()",3, 32, 0, 1
+repos/java/miaosha/src/main/java/com/geekq/miaosha/rabbitmq/MiaoshaMessage.java,"MiaoshaMessage::setUser( MiaoshaUser user)",3, 41, 0, 1
+repos/java/miaosha/src/main/java/com/geekq/miaosha/rabbitmq/MiaoshaMessage.java,"MiaoshaMessage::getGoodsId()",3, 28, 0, 1
+repos/java/miaosha/src/main/java/com/geekq/miaosha/rabbitmq/MiaoshaMessage.java,"MiaoshaMessage::setGoodsId( long goodsId)",3, 40, 0, 1
+repos/java/miaosha/src/main/java/com/geekq/miaosha/rabbitmq/MQSender.java,"MQSender::sendMiaoshaMessage( MiaoshaMessage mm)",5, 60, 0, 2
+repos/java/miaosha/src/main/java/com/geekq/miaosha/rabbitmq/MQSender.java,"MQSender::sendMessage( MiaoshaMessage mm)",5, 83, 0, 2
+repos/java/miaosha/src/main/java/com/geekq/miaosha/rabbitmq/MQSender.java,"MQSender::sendRegisterMessage( MiaoShaMessageVo miaoShaMessageVo)",6, 83, 0, 0
+repos/java/miaosha/src/main/java/com/geekq/miaosha/rabbitmq/MQReceiver.java,"MQReceiver::receive( String message)",19, 115, 4, 2
+repos/java/miaosha/src/main/java/com/geekq/miaosha/rabbitmq/MQReceiver.java,"MQReceiver::receiveMiaoShaMessage( Message message , Channel channel)",7, 91, 0, 2
+repos/java/miaosha/src/main/java/com/geekq/miaosha/controller/RegisterController.java,"RegisterController::registerIndex()",3, 35, 4, 0
+repos/java/miaosha/src/main/java/com/geekq/miaosha/controller/RegisterController.java,"RegisterController::register( @ RequestParam('username') String userName , @ RequestParam('password') String passWord , @ RequestParam('verifyCode') String verifyCode , @ RequestParam('salt') String salt , HttpServletResponse response)",22, 106, 40, 0
+repos/java/miaosha/src/main/java/com/geekq/miaosha/controller/OrderController.java,"OrderController::info( Model model , MiaoshaUser user , @ RequestParam('orderId') long orderId)",20, 78, 0, 3
+repos/java/miaosha/src/main/java/com/geekq/miaosha/controller/MiaoShaMessageController.java,"MiaoShaMessageController::list( @ RequestParam(value='userid',required=true) String userId , Model model)",11, 118, 8, 0
+repos/java/miaosha/src/main/java/com/geekq/miaosha/controller/MiaoShaMessageController.java,"MiaoShaMessageController::getNewMessage( @ RequestParam(value='userid',required=true) String userId , Model model)",12, 131, 8, 0
+repos/java/miaosha/src/main/java/com/geekq/miaosha/controller/GoodsController.java,"GoodsController::list( HttpServletRequest request , HttpServletResponse response , Model model , MiaoshaUser user)",6, 114, 4, 0
+repos/java/miaosha/src/main/java/com/geekq/miaosha/controller/GoodsController.java,"GoodsController::detail2( HttpServletRequest request , HttpServletResponse response , Model model , MiaoshaUser user , @ PathVariable('goodsId') long goodsId)",41, 114, 4, 0
+repos/java/miaosha/src/main/java/com/geekq/miaosha/controller/GoodsController.java,"GoodsController::detail( HttpServletRequest request , HttpServletResponse response , Model model , MiaoshaUser user , @ PathVariable('goodsId') long goodsId)",27, 133, 4, 0
+repos/java/miaosha/src/main/java/com/geekq/miaosha/controller/BaseController.java,"BaseController::render( HttpServletRequest request , HttpServletResponse response , Model model , String tplName , KeyPrefix prefix , String key)",20, 144, 4, 0
+repos/java/miaosha/src/main/java/com/geekq/miaosha/controller/BaseController.java,"BaseController::out( HttpServletResponse res , String html)",12, 66, 4, 0
+repos/java/miaosha/src/main/java/com/geekq/miaosha/controller/LoginController.java,"LoginController::tologin( LoginVo loginVo , Model model)",9, 71, 8, 0
+repos/java/miaosha/src/main/java/com/geekq/miaosha/controller/LoginController.java,"LoginController::dologin( HttpServletResponse response , @ Valid LoginVo loginVo)",6, 96, 4, 0
+repos/java/miaosha/src/main/java/com/geekq/miaosha/controller/LoginController.java,"LoginController::createToken( HttpServletResponse response , @ Valid LoginVo loginVo)",5, 86, 4, 0
+repos/java/miaosha/src/main/java/com/geekq/miaosha/controller/MiaoshaController.java,"MiaoshaController::miaosha( Model model , MiaoshaUser user , @ PathVariable('path') String path , @ RequestParam('goodsId') long goodsId)",48, 117, 8, 0
+repos/java/miaosha/src/main/java/com/geekq/miaosha/controller/MiaoshaController.java,"MiaoshaController::miaoshaResult( Model model , MiaoshaUser user , @ RequestParam('goodsId') long goodsId)",12, 105, 8, 0
+repos/java/miaosha/src/main/java/com/geekq/miaosha/controller/MiaoshaController.java,"MiaoshaController::getMiaoshaPath( HttpServletRequest request , MiaoshaUser user , @ RequestParam('goodsId') long goodsId , @ RequestParam(value='verifyCode',defaultValue='0') int verifyCode)",18, 117, 46, 0
+repos/java/miaosha/src/main/java/com/geekq/miaosha/controller/MiaoshaController.java,"MiaoshaController::getMiaoshaVerifyCod( HttpServletResponse response)",16, 81, 12, 0
+repos/java/miaosha/src/main/java/com/geekq/miaosha/controller/MiaoshaController.java,"MiaoshaController::getMiaoshaVerifyCod( HttpServletResponse response , MiaoshaUser user , @ RequestParam('goodsId') long goodsId)",20, 99, 4, 0
+repos/java/miaosha/src/main/java/com/geekq/miaosha/controller/MiaoshaController.java,"MiaoshaController::afterPropertiesSet()",10, 104, 12, 0
+repos/java/miaosha/src/main/java/com/geekq/miaosha/common/Constanst.java,"Constanst::orderStaus( String name)",3, 33, 8, 0
+repos/java/miaosha/src/main/java/com/geekq/miaosha/common/Constanst.java,"Constanst::getName()",3, 34, 8, 0
+repos/java/miaosha/src/main/java/com/geekq/miaosha/common/Constanst.java,"Constanst::setName( String name)",3, 43, 8, 0
+repos/java/miaosha/src/main/java/com/geekq/miaosha/common/SnowflakeIdWorker.java,"SnowflakeIdWorker::SnowflakeIdWorker( long workerId , long datacenterId)",10, 137, 12, 0
+repos/java/miaosha/src/main/java/com/geekq/miaosha/common/SnowflakeIdWorker.java,"SnowflakeIdWorker::getOrderId( long workerId , long datacenterId)",4, 69, 4, 0
+repos/java/miaosha/src/main/java/com/geekq/miaosha/common/SnowflakeIdWorker.java,"SnowflakeIdWorker::nextId()",32, 134, 20, 0
+repos/java/miaosha/src/main/java/com/geekq/miaosha/common/SnowflakeIdWorker.java,"SnowflakeIdWorker::tilNextMillis( long lastTimestamp)",7, 55, 4, 0
+repos/java/miaosha/src/main/java/com/geekq/miaosha/common/SnowflakeIdWorker.java,"SnowflakeIdWorker::timeGen()",3, 43, 8, 0
+repos/java/miaosha/src/main/java/com/geekq/miaosha/common/SnowflakeIdWorker.java,"SnowflakeIdWorker::main( String [ ] args)",8, 66, 8, 0
+repos/java/miaosha/src/main/java/com/geekq/miaosha/common/enums/MessageStatus.java,"MessageStatus::messageType( String message)",3, 45, 8, 0
+repos/java/miaosha/src/main/java/com/geekq/miaosha/common/enums/MessageStatus.java,"MessageStatus::getMessage()",3, 37, 8, 0
+repos/java/miaosha/src/main/java/com/geekq/miaosha/common/enums/MessageStatus.java,"MessageStatus::ContentEnum( int code , String message)",4, 56, 8, 0
+repos/java/miaosha/src/main/java/com/geekq/miaosha/common/enums/MessageStatus.java,"MessageStatus::getCode()",3, 31, 8, 0
+repos/java/miaosha/src/main/java/com/geekq/miaosha/common/enums/MessageStatus.java,"MessageStatus::getMessage()",3, 37, 8, 0
+repos/java/miaosha/src/main/java/com/geekq/miaosha/common/enums/ResultStatus.java,"ResultStatus( int code , String message)",4, 53, 4, 0
+repos/java/miaosha/src/main/java/com/geekq/miaosha/common/enums/ResultStatus.java,"getCode()",3, 27, 4, 0
+repos/java/miaosha/src/main/java/com/geekq/miaosha/common/enums/ResultStatus.java,"setCode( int code)",3, 36, 4, 0
+repos/java/miaosha/src/main/java/com/geekq/miaosha/common/enums/ResultStatus.java,"getMessage()",3, 33, 4, 0
+repos/java/miaosha/src/main/java/com/geekq/miaosha/common/enums/ResultStatus.java,"setMessage( String message)",3, 45, 4, 0
+repos/java/miaosha/src/main/java/com/geekq/miaosha/common/enums/ResultStatus.java,"getName()",3, 30, 4, 0
+repos/java/miaosha/src/main/java/com/geekq/miaosha/common/enums/ResultStatus.java,"getOutputName()",3, 36, 4, 0
+repos/java/miaosha/src/main/java/com/geekq/miaosha/common/enums/ResultStatus.java,"toString()",3, 31, 4, 0
+repos/java/miaosha/src/main/java/com/geekq/miaosha/common/enums/ResultStatus.java,"ResultStatus( Object ... args)",3, 58, 8, 0
+repos/java/miaosha/src/main/java/com/geekq/miaosha/common/resultbean/ResultGeekQ.java,"ResultGeekQ<T>::ResultGeekQ( ResultStatus status , String message)",3, 65, 4, 0
+repos/java/miaosha/src/main/java/com/geekq/miaosha/common/resultbean/ResultGeekQ.java,"ResultGeekQ<T>::ResultGeekQ( ResultStatus status)",3, 49, 4, 0
+repos/java/miaosha/src/main/java/com/geekq/miaosha/common/resultbean/ResultGeekQ.java,"ResultGeekQ<T>::build()",3, 68, 8, 0
+repos/java/miaosha/src/main/java/com/geekq/miaosha/common/resultbean/ResultGeekQ.java,"ResultGeekQ<T>::build( String message)",3, 63, 8, 0
+repos/java/miaosha/src/main/java/com/geekq/miaosha/common/resultbean/ResultGeekQ.java,"ResultGeekQ<T>::error( ResultStatus status)",3, 66, 4, 0
+repos/java/miaosha/src/main/java/com/geekq/miaosha/common/resultbean/ResultGeekQ.java,"ResultGeekQ<T>::getData()",3, 25, 4, 0
+repos/java/miaosha/src/main/java/com/geekq/miaosha/common/resultbean/ResultGeekQ.java,"ResultGeekQ<T>::setData( T data)",3, 34, 4, 0
+repos/java/miaosha/src/main/java/com/geekq/miaosha/common/resultbean/ResultGeekQ.java,"ResultGeekQ<T>::getCount()",3, 32, 4, 0
+repos/java/miaosha/src/main/java/com/geekq/miaosha/common/resultbean/ResultGeekQ.java,"ResultGeekQ<T>::setCount( Integer count)",3, 42, 4, 0
+repos/java/miaosha/src/main/java/com/geekq/miaosha/common/resultbean/ResultGeekQ.java,"ResultGeekQ<T>::success( T value)",5, 35, 4, 0
+repos/java/miaosha/src/main/java/com/geekq/miaosha/common/resultbean/AbstractResult.java,"AbstractResult::AbstractResult( ResultStatus status , String message)",5, 68, 4, 0
+repos/java/miaosha/src/main/java/com/geekq/miaosha/common/resultbean/AbstractResult.java,"AbstractResult::AbstractResult( ResultStatus status)",5, 52, 4, 0
+repos/java/miaosha/src/main/java/com/geekq/miaosha/common/resultbean/AbstractResult.java,"AbstractResult::isSuccess( AbstractResult result)",3, 126, 8, 0
+repos/java/miaosha/src/main/java/com/geekq/miaosha/common/resultbean/AbstractResult.java,"AbstractResult::withError( ResultStatus status)",4, 59, 4, 0
+repos/java/miaosha/src/main/java/com/geekq/miaosha/common/resultbean/AbstractResult.java,"AbstractResult::withError( String message)",5, 54, 4, 0
+repos/java/miaosha/src/main/java/com/geekq/miaosha/common/resultbean/AbstractResult.java,"AbstractResult::withError( int code , String message)",5, 64, 4, 0
+repos/java/miaosha/src/main/java/com/geekq/miaosha/common/resultbean/AbstractResult.java,"AbstractResult::success()",4, 44, 8, 0
+repos/java/miaosha/src/main/java/com/geekq/miaosha/common/resultbean/AbstractResult.java,"AbstractResult::getStatus()",3, 38, 4, 0
+repos/java/miaosha/src/main/java/com/geekq/miaosha/common/resultbean/AbstractResult.java,"AbstractResult::getMessage()",3, 79, 8, 0
+repos/java/miaosha/src/main/java/com/geekq/miaosha/common/resultbean/AbstractResult.java,"AbstractResult::getCode()",3, 27, 4, 0
+repos/java/miaosha/src/main/java/com/geekq/miaosha/common/resultbean/AbstractResult.java,"AbstractResult::setCode( int code)",3, 36, 4, 0
+repos/java/miaosha/src/main/java/com/geekq/miaosha/timeTask/OrderCloseTask.java,"OrderCloseTask::closeOrderTaskv1()",5, 39, 8, 0
+repos/java/miaosha/src/main/java/com/geekq/miaosha/timeTask/OrderCloseTask.java,"OrderCloseTask::closeOrderTaskV3()",25, 135, 12, 0
+repos/java/miaosha/src/main/java/com/geekq/miaosha/timeTask/OrderCloseTask.java,"OrderCloseTask::closeOrder( String lockName)",9, 77, 8, 0
+repos/java/miaosha/src/main/java/com/geekq/miaosha/service/MiaoShaMessageService.java,"MiaoShaMessageService::getmessageUserList( Long userId , Integer status)",3, 88, 4, 0
+repos/java/miaosha/src/main/java/com/geekq/miaosha/service/MiaoShaMessageService.java,"MiaoShaMessageService::insertMs( MiaoShaMessageVo miaoShaMessageVo)",16, 74, 8, 0
+repos/java/miaosha/src/main/java/com/geekq/miaosha/service/UserService.java,"UserService::getById( int id)",3, 31, 0, 1
+repos/java/miaosha/src/main/java/com/geekq/miaosha/service/GoodsService.java,"GoodsService::listGoodsVo()",3, 37, 0, 1
+repos/java/miaosha/src/main/java/com/geekq/miaosha/service/GoodsService.java,"GoodsService::getGoodsVoByGoodsId( long goodsId)",3, 52, 0, 1
+repos/java/miaosha/src/main/java/com/geekq/miaosha/service/GoodsService.java,"GoodsService::reduceStock( GoodsVo goods)",6, 45, 0, 1
+repos/java/miaosha/src/main/java/com/geekq/miaosha/service/OrderService.java,"OrderService::getMiaoshaOrderByUserIdGoodsId( long userId , long goodsId)",3, 103, 0, 2
+repos/java/miaosha/src/main/java/com/geekq/miaosha/service/OrderService.java,"OrderService::getOrderById( long orderId)",3, 47, 0, 1
+repos/java/miaosha/src/main/java/com/geekq/miaosha/service/OrderService.java,"OrderService::createOrder( MiaoshaUser user , GoodsVo goods)",20, 108, 0, 2
+repos/java/miaosha/src/main/java/com/geekq/miaosha/service/OrderService.java,"OrderService::closeOrder( int hour)",7, 156, 0, 2
+repos/java/miaosha/src/main/java/com/geekq/miaosha/service/MiaoShaUserService.java,"MiaoShaUserService::getByToken( HttpServletResponse response , String token)",12, 91, 8, 0
+repos/java/miaosha/src/main/java/com/geekq/miaosha/service/MiaoShaUserService.java,"MiaoShaUserService::getByNickName( String nickName)",13, 107, 8, 0
+repos/java/miaosha/src/main/java/com/geekq/miaosha/service/MiaoShaUserService.java,"MiaoShaUserService::updatePassword( String token , String nickName , String formPass)",17, 85, 8, 0
+repos/java/miaosha/src/main/java/com/geekq/miaosha/service/MiaoShaUserService.java,"MiaoShaUserService::register( HttpServletResponse response , String userName , String passWord , String salt)",36, 110, 4, 0
+repos/java/miaosha/src/main/java/com/geekq/miaosha/service/MiaoShaUserService.java,"MiaoShaUserService::login( HttpServletResponse response , LoginVo loginVo)",23, 75, 4, 0
+repos/java/miaosha/src/main/java/com/geekq/miaosha/service/MiaoShaUserService.java,"MiaoShaUserService::createToken( HttpServletResponse response , LoginVo loginVo)",23, 80, 4, 0
+repos/java/miaosha/src/main/java/com/geekq/miaosha/service/MiaoShaUserService.java,"MiaoShaUserService::addCookie( HttpServletResponse response , String token , MiaoshaUser user)",8, 91, 4, 0
+repos/java/miaosha/src/main/java/com/geekq/miaosha/service/MiaoshaService.java,"MiaoshaService::miaosha( MiaoshaUser user , GoodsVo goods)",11, 61, 0, 1
+repos/java/miaosha/src/main/java/com/geekq/miaosha/service/MiaoshaService.java,"MiaoshaService::getMiaoshaResult( Long userId , long goodsId)",13, 85, 0, 2
+repos/java/miaosha/src/main/java/com/geekq/miaosha/service/MiaoshaService.java,"MiaoshaService::setGoodsOver( Long goodsId)",3, 62, 0, 2
+repos/java/miaosha/src/main/java/com/geekq/miaosha/service/MiaoshaService.java,"MiaoshaService::getGoodsOver( long goodsId)",3, 66, 0, 2
+repos/java/miaosha/src/main/java/com/geekq/miaosha/service/MiaoshaService.java,"MiaoshaService::checkPath( MiaoshaUser user , long goodsId , String path)",7, 116, 0, 2
+repos/java/miaosha/src/main/java/com/geekq/miaosha/service/MiaoshaService.java,"MiaoshaService::createMiaoshaPath( MiaoshaUser user , long goodsId)",8, 90, 0, 2
+repos/java/miaosha/src/main/java/com/geekq/miaosha/service/MiaoshaService.java,"MiaoshaService::createVerifyCode( MiaoshaUser user , long goodsId)",35, 90, 0, 2
+repos/java/miaosha/src/main/java/com/geekq/miaosha/service/MiaoshaService.java,"MiaoshaService::checkVerifyCodeRegister( int verifyCode)",8, 105, 0, 2
+repos/java/miaosha/src/main/java/com/geekq/miaosha/service/MiaoshaService.java,"MiaoshaService::createVerifyCodeRegister()",32, 86, 0, 2
+repos/java/miaosha/src/main/java/com/geekq/miaosha/service/MiaoshaService.java,"MiaoshaService::calc( String exp)",11, 64, 0, 3
+repos/java/miaosha/src/main/java/com/geekq/miaosha/service/MiaoshaService.java,"MiaoshaService::checkVerifyCode( MiaoshaUser user , long goodsId , int verifyCode)",11, 118, 0, 2
+repos/java/miaosha/src/main/java/com/geekq/miaosha/service/MiaoshaService.java,"MiaoshaService::generateVerifyCode( Random rdm)",9, 51, 0, 2
+repos/java/miaosha/src/main/java/com/geekq/miaosha/service/rpchander/RpcCompensateService.java,"RpcCompensateService::recharge()",85, 141, 0, 0
+repos/java/miaosha/src/main/java/com/geekq/miaosha/service/rpchander/vo/PlanOrder.java,"PlanOrder::getId()",3, 26, 4, 0
+repos/java/miaosha/src/main/java/com/geekq/miaosha/service/rpchander/vo/PlanOrder.java,"PlanOrder::setId( Long id)",3, 33, 4, 0
+repos/java/miaosha/src/main/java/com/geekq/miaosha/service/rpchander/vo/PlanOrder.java,"PlanOrder::getCreateTime()",3, 34, 4, 0
+repos/java/miaosha/src/main/java/com/geekq/miaosha/service/rpchander/vo/PlanOrder.java,"PlanOrder::setCreateTime( Date createTime)",3, 49, 4, 0
+repos/java/miaosha/src/main/java/com/geekq/miaosha/service/rpchander/vo/PlanOrder.java,"PlanOrder::getUpdateTime()",3, 34, 4, 0
+repos/java/miaosha/src/main/java/com/geekq/miaosha/service/rpchander/vo/PlanOrder.java,"PlanOrder::setUpdateTime( Date updateTime)",3, 49, 4, 0
+repos/java/miaosha/src/main/java/com/geekq/miaosha/service/rpchander/vo/PlanOrder.java,"PlanOrder::getVersion()",3, 34, 4, 0
+repos/java/miaosha/src/main/java/com/geekq/miaosha/service/rpchander/vo/PlanOrder.java,"PlanOrder::setVersion( Integer version)",3, 46, 4, 0
+repos/java/miaosha/src/main/java/com/geekq/miaosha/service/rpchander/vo/PlanOrder.java,"PlanOrder::getUserId()",3, 33, 4, 0
+repos/java/miaosha/src/main/java/com/geekq/miaosha/service/rpchander/vo/PlanOrder.java,"PlanOrder::setUserId( Integer userId)",3, 44, 4, 0
+repos/java/miaosha/src/main/java/com/geekq/miaosha/service/rpchander/vo/PlanOrder.java,"PlanOrder::getOrderNo()",3, 33, 4, 0
+repos/java/miaosha/src/main/java/com/geekq/miaosha/service/rpchander/vo/PlanOrder.java,"PlanOrder::setOrderNo( String orderNo)",3, 45, 4, 0
+repos/java/miaosha/src/main/java/com/geekq/miaosha/service/rpchander/vo/PlanOrder.java,"PlanOrder::getOrderId()",3, 34, 4, 0
+repos/java/miaosha/src/main/java/com/geekq/miaosha/service/rpchander/vo/PlanOrder.java,"PlanOrder::setOrderId( Integer orderId)",3, 46, 4, 0
+repos/java/miaosha/src/main/java/com/geekq/miaosha/service/rpchander/vo/PlanOrder.java,"PlanOrder::getAccountId()",3, 36, 4, 0
+repos/java/miaosha/src/main/java/com/geekq/miaosha/service/rpchander/vo/PlanOrder.java,"PlanOrder::setAccountId( Integer accountId)",3, 50, 4, 0
+repos/java/miaosha/src/main/java/com/geekq/miaosha/service/rpchander/vo/PlanOrder.java,"PlanOrder::getType()",3, 30, 4, 0
+repos/java/miaosha/src/main/java/com/geekq/miaosha/service/rpchander/vo/PlanOrder.java,"PlanOrder::setType( String type)",3, 39, 4, 0
+repos/java/miaosha/src/main/java/com/geekq/miaosha/service/rpchander/vo/PlanOrder.java,"PlanOrder::getCmbcStatus()",3, 36, 4, 0
+repos/java/miaosha/src/main/java/com/geekq/miaosha/service/rpchander/vo/PlanOrder.java,"PlanOrder::setCmbcStatus( String cmbcStatus)",3, 51, 4, 0
+repos/java/miaosha/src/main/java/com/geekq/miaosha/service/rpchander/vo/PlanOrder.java,"PlanOrder::getParams()",3, 32, 4, 0
+repos/java/miaosha/src/main/java/com/geekq/miaosha/service/rpchander/vo/PlanOrder.java,"PlanOrder::setParams( String params)",3, 43, 4, 0
+repos/java/miaosha/src/main/java/com/geekq/miaosha/service/rpchander/vo/PlanOrder.java,"PlanOrder::getStatus()",3, 32, 4, 0
+repos/java/miaosha/src/main/java/com/geekq/miaosha/service/rpchander/vo/PlanOrder.java,"PlanOrder::setStatus( String status)",3, 43, 4, 0
+repos/java/miaosha/src/main/java/com/geekq/miaosha/service/rpchander/vo/PlanStep.java,"PlanStep::getId()",3, 26, 4, 0
+repos/java/miaosha/src/main/java/com/geekq/miaosha/service/rpchander/vo/PlanStep.java,"PlanStep::setId( Long id)",3, 33, 4, 0
+repos/java/miaosha/src/main/java/com/geekq/miaosha/service/rpchander/vo/PlanStep.java,"PlanStep::getCreateTime()",3, 34, 4, 0
+repos/java/miaosha/src/main/java/com/geekq/miaosha/service/rpchander/vo/PlanStep.java,"PlanStep::setCreateTime( Date createTime)",3, 49, 4, 0
+repos/java/miaosha/src/main/java/com/geekq/miaosha/service/rpchander/vo/PlanStep.java,"PlanStep::getUpdateTime()",3, 34, 4, 0
+repos/java/miaosha/src/main/java/com/geekq/miaosha/service/rpchander/vo/PlanStep.java,"PlanStep::setUpdateTime( Date updateTime)",3, 49, 4, 0
+repos/java/miaosha/src/main/java/com/geekq/miaosha/service/rpchander/vo/PlanStep.java,"PlanStep::getVersion()",3, 34, 4, 0
+repos/java/miaosha/src/main/java/com/geekq/miaosha/service/rpchander/vo/PlanStep.java,"PlanStep::setVersion( Integer version)",3, 46, 4, 0
+repos/java/miaosha/src/main/java/com/geekq/miaosha/service/rpchander/vo/PlanStep.java,"PlanStep::getOrderId()",3, 31, 4, 0
+repos/java/miaosha/src/main/java/com/geekq/miaosha/service/rpchander/vo/PlanStep.java,"PlanStep::setOrderId( Long orderId)",3, 43, 4, 0
+repos/java/miaosha/src/main/java/com/geekq/miaosha/service/rpchander/vo/PlanStep.java,"PlanStep::getStatus()",3, 32, 4, 0
+repos/java/miaosha/src/main/java/com/geekq/miaosha/service/rpchander/vo/PlanStep.java,"PlanStep::setStatus( String status)",3, 61, 8, 0
+repos/java/miaosha/src/main/java/com/geekq/miaosha/service/rpchander/vo/PlanStep.java,"PlanStep::getType()",3, 30, 4, 0
+repos/java/miaosha/src/main/java/com/geekq/miaosha/service/rpchander/vo/PlanStep.java,"PlanStep::setType( String type)",3, 55, 8, 0
+repos/java/miaosha/src/main/java/com/geekq/miaosha/service/rpchander/vo/PlanStep.java,"PlanStep::getPriority()",3, 35, 4, 0
+repos/java/miaosha/src/main/java/com/geekq/miaosha/service/rpchander/vo/PlanStep.java,"PlanStep::setPriority( Integer priority)",3, 48, 4, 0
+repos/java/miaosha/src/main/java/com/geekq/miaosha/service/rpchander/vo/PlanStep.java,"PlanStep::getRetryCount()",3, 37, 4, 0
+repos/java/miaosha/src/main/java/com/geekq/miaosha/service/rpchander/vo/PlanStep.java,"PlanStep::setRetryCount( Integer retryCount)",3, 52, 4, 0
+repos/java/miaosha/src/main/java/com/geekq/miaosha/service/rpchander/vo/PlanStep.java,"PlanStep::getRemark()",3, 32, 4, 0
+repos/java/miaosha/src/main/java/com/geekq/miaosha/service/rpchander/vo/PlanStep.java,"PlanStep::setRemark( String remark)",3, 61, 8, 0
+repos/java/miaosha/src/main/java/com/geekq/miaosha/service/rpchander/enums/PlanStepType.java,"getHandler()",3, 33, 4, 0
+repos/java/miaosha/src/main/java/com/geekq/miaosha/service/rpchander/enums/PlanStepType.java,"setHandler( String handler)",3, 45, 4, 0
+repos/java/miaosha/src/main/java/com/geekq/miaosha/service/rpchander/enums/PlanStepType.java,"getPriority()",3, 31, 4, 0
+repos/java/miaosha/src/main/java/com/geekq/miaosha/service/rpchander/enums/PlanStepType.java,"setPriority( int priority)",3, 44, 4, 0
+repos/java/miaosha/src/main/java/com/geekq/miaosha/service/rpchander/enums/PlanStepType.java,"PlanStepType( int priority , String handler)",4, 49, 4, 0
+repos/java/miaosha/src/main/java/com/geekq/miaosha/domain/MiaoshaUser.java,"MiaoshaUser::toString()",12, 41, 0, 4
+repos/java/miaosha/src/main/java/com/geekq/miaosha/exception/GlobleException.java,"GlobleException::GlobleException( ResultStatus status)",4, 49, 4, 0
+repos/java/miaosha/src/main/java/com/geekq/miaosha/exception/GlobleException.java,"GlobleException::getStatus()",3, 38, 4, 0
+repos/java/miaosha/src/main/java/com/geekq/miaosha/exception/GlobleException.java,"GlobleException::setStatus( ResultStatus status)",3, 49, 4, 0
+repos/java/miaosha/src/main/java/com/geekq/miaosha/exception/GlobleExceptionHandler.java,"GlobleExceptionHandler::exceptionHandler( HttpServletRequest request , Exception e)",19, 91, 4, 0

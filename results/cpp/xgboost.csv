@@ -1,0 +1,697 @@
+File, Function, Length, Total Width, Leading Space(s), Leading Tab(s)
+repos/cpp/xgboost/R-package/src/xgboost_R.cc,"XGCheckNullPtr_R( SEXP handle)",3, 59, 2, 0
+repos/cpp/xgboost/R-package/src/xgboost_R.cc,"_DMatrixFinalizer( SEXP ext)",7, 53, 2, 0
+repos/cpp/xgboost/R-package/src/xgboost_R.cc,"XGDMatrixCreateFromFile_R( SEXP fname , SEXP silent)",11, 88, 2, 0
+repos/cpp/xgboost/R-package/src/xgboost_R.cc,"XGDMatrixCreateFromMat_R( SEXP mat , SEXP missing)",30, 94, 6, 0
+repos/cpp/xgboost/R-package/src/xgboost_R.cc,"XGDMatrixCreateFromCSC_R( SEXP indptr , SEXP indices , SEXP data , SEXP num_row)",34, 78, 2, 0
+repos/cpp/xgboost/R-package/src/xgboost_R.cc,"XGDMatrixSliceDMatrix_R( SEXP handle , SEXP idxset)",18, 65, 2, 0
+repos/cpp/xgboost/R-package/src/xgboost_R.cc,"XGDMatrixSaveBinary_R( SEXP handle , SEXP fname , SEXP silent)",8, 67, 0, 0
+repos/cpp/xgboost/R-package/src/xgboost_R.cc,"XGDMatrixSetInfo_R( SEXP handle , SEXP field , SEXP array)",24, 82, 4, 0
+repos/cpp/xgboost/R-package/src/xgboost_R.cc,"XGDMatrixGetInfo_R( SEXP handle , SEXP field)",17, 62, 2, 0
+repos/cpp/xgboost/R-package/src/xgboost_R.cc,"XGDMatrixNumRow_R( SEXP handle)",7, 65, 2, 0
+repos/cpp/xgboost/R-package/src/xgboost_R.cc,"XGDMatrixNumCol_R( SEXP handle)",7, 65, 2, 0
+repos/cpp/xgboost/R-package/src/xgboost_R.cc,"_BoosterFinalizer( SEXP ext)",5, 53, 2, 0
+repos/cpp/xgboost/R-package/src/xgboost_R.cc,"XGBoosterCreate_R( SEXP dmats)",16, 69, 2, 0
+repos/cpp/xgboost/R-package/src/xgboost_R.cc,"XGBoosterSetParam_R( SEXP handle , SEXP name , SEXP val)",8, 61, 0, 0
+repos/cpp/xgboost/R-package/src/xgboost_R.cc,"XGBoosterUpdateOneIter_R( SEXP handle , SEXP iter , SEXP dtrain)",8, 69, 0, 0
+repos/cpp/xgboost/R-package/src/xgboost_R.cc,"XGBoosterBoostOneIter_R( SEXP handle , SEXP dtrain , SEXP grad , SEXP hess)",18, 79, 0, 0
+repos/cpp/xgboost/R-package/src/xgboost_R.cc,"XGBoosterEvalOneIter_R( SEXP handle , SEXP iter , SEXP dmats , SEXP evnames)",24, 80, 0, 0
+repos/cpp/xgboost/R-package/src/xgboost_R.cc,"XGBoosterPredict_R( SEXP handle , SEXP dmat , SEXP option_mask , SEXP ntree_limit)",18, 86, 0, 0
+repos/cpp/xgboost/R-package/src/xgboost_R.cc,"XGBoosterLoadModel_R( SEXP handle , SEXP fname)",6, 82, 2, 0
+repos/cpp/xgboost/R-package/src/xgboost_R.cc,"XGBoosterSaveModel_R( SEXP handle , SEXP fname)",6, 82, 2, 0
+repos/cpp/xgboost/R-package/src/xgboost_R.cc,"XGBoosterLoadModelFromRaw_R( SEXP handle , SEXP raw)",8, 69, 2, 0
+repos/cpp/xgboost/R-package/src/xgboost_R.cc,"XGBoosterModelToRaw_R( SEXP handle)",14, 76, 2, 0
+repos/cpp/xgboost/R-package/src/xgboost_R.cc,"XGBoosterDumpModel_R( SEXP handle , SEXP fmap , SEXP with_stats , SEXP dump_format)",36, 87, 0, 0
+repos/cpp/xgboost/R-package/src/xgboost_R.cc,"XGBoosterGetAttr_R( SEXP handle , SEXP name)",19, 57, 2, 0
+repos/cpp/xgboost/R-package/src/xgboost_R.cc,"XGBoosterSetAttr_R( SEXP handle , SEXP name , SEXP val)",8, 61, 2, 0
+repos/cpp/xgboost/R-package/src/xgboost_R.cc,"XGBoosterGetAttrNames_R( SEXP handle)",19, 62, 2, 0
+repos/cpp/xgboost/R-package/src/xgboost_custom.cc,"dmlc::CustomLogMessage::Log( const std :: string & msg)",3, 53, 0, 0
+repos/cpp/xgboost/R-package/src/xgboost_custom.cc,"xgboost::ConsoleLogger::~ConsoleLogger()",6, 52, 4, 0
+repos/cpp/xgboost/R-package/src/xgboost_custom.cc,"xgboost::TrackerLogger::~TrackerLogger()",3, 50, 2, 0
+repos/cpp/xgboost/R-package/src/xgboost_custom.cc,"xgboost::common::CheckNAN( double v)",3, 26, 0, 0
+repos/cpp/xgboost/R-package/src/xgboost_custom.cc,"xgboost::common::LogGamma( double v)",3, 28, 0, 0
+repos/cpp/xgboost/R-package/src/xgboost_custom.cc,"xgboost::common::CustomGlobalRandomEngine::seed( CustomGlobalRandomEngine :: result_type val)",3, 81, 0, 0
+repos/cpp/xgboost/R-package/src/xgboost_custom.cc,"xgboost::common::CustomGlobalRandomEngine::operator ( )()",4, 66, 6, 0
+repos/cpp/xgboost/tests/cpp/test_learner.cc,"xgboost::TEST( Learner , Basic)",10, 67, 2, 0
+repos/cpp/xgboost/tests/cpp/test_learner.cc,"xgboost::TEST( Learner , SelectTreeMethod)",33, 80, 2, 0
+repos/cpp/xgboost/tests/cpp/test_learner.cc,"xgboost::TEST( Learner , CheckGroup)",40, 84, 6, 0
+repos/cpp/xgboost/tests/cpp/test_learner.cc,"xgboost::TEST( Learner , SLOW_CheckMultiBatch)",21, 109, 2, 0
+repos/cpp/xgboost/tests/cpp/test_main.cc,"main( int argc , char ** argv)",5, 56, 2, 0
+repos/cpp/xgboost/tests/cpp/helpers.cc,"FileExists( const std :: string & filename)",4, 47, 0, 0
+repos/cpp/xgboost/tests/cpp/helpers.cc,"GetFileSize( const std :: string & filename)",5, 48, 0, 0
+repos/cpp/xgboost/tests/cpp/helpers.cc,"CreateSimpleTestData( const std :: string & filename)",3, 57, 0, 0
+repos/cpp/xgboost/tests/cpp/helpers.cc,"CreateBigTestData( const std :: string & filename , size_t n_entries)",9, 76, 4, 0
+repos/cpp/xgboost/tests/cpp/helpers.cc,"_CheckObjFunction( xgboost :: ObjFunction * obj , std :: vector<xgboost::bst_float> preds , std :: vector<xgboost::bst_float> labels , std :: vector<xgboost::bst_float> weights , xgboost :: MetaInfo info , std :: vector<xgboost::bst_float> out_grad , std :: vector<xgboost::bst_float> out_hess)",22, 75, 6, 0
+repos/cpp/xgboost/tests/cpp/helpers.cc,"CheckObjFunction( xgboost :: ObjFunction * obj , std :: vector<xgboost::bst_float> preds , std :: vector<xgboost::bst_float> labels , std :: vector<xgboost::bst_float> weights , std :: vector<xgboost::bst_float> out_grad , std :: vector<xgboost::bst_float> out_hess)",13, 76, 2, 0
+repos/cpp/xgboost/tests/cpp/helpers.cc,"CheckRankingObjFunction( xgboost :: ObjFunction * obj , std :: vector<xgboost::bst_float> preds , std :: vector<xgboost::bst_float> labels , std :: vector<xgboost::bst_float> weights , std :: vector<xgboost::bst_uint> groups , std :: vector<xgboost::bst_float> out_grad , std :: vector<xgboost::bst_float> out_hess)",15, 76, 2, 0
+repos/cpp/xgboost/tests/cpp/helpers.cc,"GetMetricEval( xgboost :: Metric * metric , xgboost :: HostDeviceVector<xgboost::bst_float> preds , std :: vector<xgboost::bst_float> labels , std :: vector<xgboost::bst_float> weights)",11, 86, 33, 0
+repos/cpp/xgboost/tests/cpp/helpers.cc,"xgboost::IsNear( std :: vector<xgboost::bst_float> :: const_iterator _beg1 , std :: vector<xgboost::bst_float> :: const_iterator _end1 , std :: vector<xgboost::bst_float> :: const_iterator _beg2)",10, 78, 2, 0
+repos/cpp/xgboost/tests/cpp/helpers.cc,"xgboost::SimpleLCG::operator ( )()",4, 47, 0, 0
+repos/cpp/xgboost/tests/cpp/helpers.cc,"xgboost::SimpleLCG::Min() const",3, 46, 0, 0
+repos/cpp/xgboost/tests/cpp/helpers.cc,"xgboost::SimpleLCG::Max() const",3, 46, 0, 0
+repos/cpp/xgboost/tests/cpp/helpers.cc,"xgboost::CreateDMatrix( int rows , int columns , float sparsity , int seed)",21, 77, 49, 0
+repos/cpp/xgboost/tests/cpp/test_logging.cc,"xgboost::TEST( Logging , Basic)",48, 68, 2, 0
+repos/cpp/xgboost/tests/cpp/tree/test_param.cc,"TEST( Param , VectorIOStream)",16, 52, 2, 0
+repos/cpp/xgboost/tests/cpp/tree/test_param.cc,"TEST( Param , VectorStreamRead)",55, 55, 2, 0
+repos/cpp/xgboost/tests/cpp/tree/test_param.cc,"TEST( Param , SplitEntry)",21, 72, 2, 0
+repos/cpp/xgboost/tests/cpp/tree/test_refresh.cc,"xgboost::tree::TEST( Updater , Refresh)",36, 74, 8, 0
+repos/cpp/xgboost/tests/cpp/tree/test_tree_model.cc,"xgboost::TEST( Tree , Load)",76, 81, 2, 0
+repos/cpp/xgboost/tests/cpp/tree/test_quantile_hist.cc,"xgboost::tree::QuantileHistMock::BuilderMock::BuilderMock( const TrainParam & param , std :: unique_ptr<TreeUpdater> pruner , std :: unique_ptr<SplitEvaluator> spliteval)",4, 70, 8, 0
+repos/cpp/xgboost/tests/cpp/tree/test_quantile_hist.cc,"xgboost::tree::QuantileHistMock::BuilderMock::TestInitData( const GHistIndexMatrix & gmat , const std :: vector<GradientPair> & gpair , DMatrix * p_fmat , const RegTree & tree)",61, 80, 6, 0
+repos/cpp/xgboost/tests/cpp/tree/test_quantile_hist.cc,"xgboost::tree::QuantileHistMock::BuilderMock::TestBuildHist( int nid , const GHistIndexMatrix & gmat , const DMatrix & fmat , const RegTree & tree)",36, 78, 12, 0
+repos/cpp/xgboost/tests/cpp/tree/test_quantile_hist.cc,"xgboost::tree::QuantileHistMock::BuilderMock::TestEvaluateSplit( const GHistIndexBlockMatrix & quantile_index_block , const RegTree & tree)",83, 88, 6, 0
+repos/cpp/xgboost/tests/cpp/tree/test_quantile_hist.cc,"xgboost::tree::QuantileHistMock::QuantileHistMock( const std :: vector<std::pair<std::string,std::string>> & args)",11, 75, 12, 0
+repos/cpp/xgboost/tests/cpp/tree/test_quantile_hist.cc,"xgboost::tree::QuantileHistMock::~QuantileHistMock()",1, 39, 2, 0
+repos/cpp/xgboost/tests/cpp/tree/test_quantile_hist.cc,"xgboost::tree::QuantileHistMock::GetNumColumns()",1, 51, 2, 0
+repos/cpp/xgboost/tests/cpp/tree/test_quantile_hist.cc,"xgboost::tree::QuantileHistMock::TestInitData()",14, 76, 10, 0
+repos/cpp/xgboost/tests/cpp/tree/test_quantile_hist.cc,"xgboost::tree::QuantileHistMock::TestBuildHist()",10, 60, 4, 0
+repos/cpp/xgboost/tests/cpp/tree/test_quantile_hist.cc,"xgboost::tree::QuantileHistMock::TestEvaluateSplit()",6, 47, 4, 0
+repos/cpp/xgboost/tests/cpp/tree/test_quantile_hist.cc,"xgboost::tree::TEST( Updater , QuantileHist_InitData)",6, 76, 6, 0
+repos/cpp/xgboost/tests/cpp/tree/test_quantile_hist.cc,"xgboost::tree::TEST( Updater , QuantileHist_BuildHist)",8, 75, 6, 0
+repos/cpp/xgboost/tests/cpp/tree/test_quantile_hist.cc,"xgboost::tree::TEST( Updater , QuantileHist_EvalSplits)",9, 75, 6, 0
+repos/cpp/xgboost/tests/cpp/tree/test_prune.cc,"xgboost::tree::TEST( Updater , Prune)",45, 74, 8, 0
+repos/cpp/xgboost/tests/cpp/linear/test_linear.cc,"TEST( Linear , shotgun)",24, 71, 4, 0
+repos/cpp/xgboost/tests/cpp/linear/test_linear.cc,"TEST( Linear , coordinate)",17, 64, 6, 0
+repos/cpp/xgboost/tests/cpp/objective/test_ranking_obj.cc,"TEST( Objective , PairwiseRankingGPair)",25, 78, 2, 0
+repos/cpp/xgboost/tests/cpp/objective/test_objective.cc,"TEST( Objective , UnknownFunction)",6, 72, 2, 0
+repos/cpp/xgboost/tests/cpp/objective/test_regression_obj.cc,"TEST( Objective , DeclareUnifiedTest(LinearRegressionGPair))",20, 75, 2, 0
+repos/cpp/xgboost/tests/cpp/objective/test_regression_obj.cc,"TEST( Objective , DeclareUnifiedTest(LogisticRegressionGPair))",13, 93, 19, 0
+repos/cpp/xgboost/tests/cpp/objective/test_regression_obj.cc,"TEST( Objective , DeclareUnifiedTest(LogisticRegressionBasic))",27, 86, 2, 0
+repos/cpp/xgboost/tests/cpp/objective/test_regression_obj.cc,"TEST( Objective , DeclareUnifiedTest(LogisticRawGPair))",13, 81, 19, 0
+repos/cpp/xgboost/tests/cpp/objective/test_regression_obj.cc,"TEST( Objective , DeclareUnifiedTest(PoissonRegressionGPair))",19, 78, 2, 0
+repos/cpp/xgboost/tests/cpp/objective/test_regression_obj.cc,"TEST( Objective , DeclareUnifiedTest(PoissonRegressionBasic))",25, 85, 2, 0
+repos/cpp/xgboost/tests/cpp/objective/test_regression_obj.cc,"TEST( Objective , DeclareUnifiedTest(GammaRegressionGPair))",18, 74, 2, 0
+repos/cpp/xgboost/tests/cpp/objective/test_regression_obj.cc,"TEST( Objective , DeclareUnifiedTest(GammaRegressionBasic))",25, 85, 2, 0
+repos/cpp/xgboost/tests/cpp/objective/test_regression_obj.cc,"TEST( Objective , DeclareUnifiedTest(TweedieRegressionGPair))",20, 76, 2, 0
+repos/cpp/xgboost/tests/cpp/objective/test_regression_obj.cc,"TEST( Objective , DeclareUnifiedTest(TweedieRegressionBasic))",25, 85, 2, 0
+repos/cpp/xgboost/tests/cpp/objective/test_regression_obj.cc,"TEST( Objective , CoxRegressionGPair)",13, 82, 19, 0
+repos/cpp/xgboost/tests/cpp/objective/test_multiclass_obj.cc,"TEST( Objective , DeclareUnifiedTest(SoftmaxMultiClassObjGPair))",15, 78, 2, 0
+repos/cpp/xgboost/tests/cpp/objective/test_multiclass_obj.cc,"TEST( Objective , DeclareUnifiedTest(SoftmaxMultiClassBasic))",19, 79, 2, 0
+repos/cpp/xgboost/tests/cpp/objective/test_multiclass_obj.cc,"TEST( Objective , DeclareUnifiedTest(SoftprobMultiClassBasic))",17, 87, 2, 0
+repos/cpp/xgboost/tests/cpp/objective/test_hinge.cc,"TEST( Objective , DeclareUnifiedTest(HingeObj))",22, 77, 2, 0
+repos/cpp/xgboost/tests/cpp/common/test_span.cc,"xgboost::common::TEST( Span , TestStatus)",5, 30, 2, 0
+repos/cpp/xgboost/tests/cpp/common/test_span.cc,"xgboost::common::TEST( Span , DlfConstructors)",34, 35, 4, 0
+repos/cpp/xgboost/tests/cpp/common/test_span.cc,"xgboost::common::TEST( Span , FromNullPtr)",22, 80, 4, 0
+repos/cpp/xgboost/tests/cpp/common/test_span.cc,"xgboost::common::TEST( Span , FromPtrLen)",46, 61, 4, 0
+repos/cpp/xgboost/tests/cpp/common/test_span.cc,"xgboost::common::TEST( Span , FromFirstLast)",46, 49, 4, 0
+repos/cpp/xgboost/tests/cpp/common/test_span.cc,"xgboost::common::BaseClass::operator ( )()",1, 31, 2, 0
+repos/cpp/xgboost/tests/cpp/common/test_span.cc,"xgboost::common::DerivedClass::operator ( )()",1, 31, 2, 0
+repos/cpp/xgboost/tests/cpp/common/test_span.cc,"xgboost::common::TEST( Span , FromOther)",21, 44, 4, 0
+repos/cpp/xgboost/tests/cpp/common/test_span.cc,"xgboost::common::TEST( Span , FromArray)",22, 38, 4, 0
+repos/cpp/xgboost/tests/cpp/common/test_span.cc,"xgboost::common::TEST( Span , FromContainer)",11, 60, 2, 0
+repos/cpp/xgboost/tests/cpp/common/test_span.cc,"xgboost::common::TEST( Span , Assignment)",5, 29, 2, 0
+repos/cpp/xgboost/tests/cpp/common/test_span.cc,"xgboost::common::TEST( SpanIter , Construct)",5, 32, 2, 0
+repos/cpp/xgboost/tests/cpp/common/test_span.cc,"xgboost::common::TEST( SpanIter , Ref)",5, 26, 2, 0
+repos/cpp/xgboost/tests/cpp/common/test_span.cc,"xgboost::common::TEST( SpanIter , Calculate)",5, 32, 2, 0
+repos/cpp/xgboost/tests/cpp/common/test_span.cc,"xgboost::common::TEST( SpanIter , Compare)",5, 30, 2, 0
+repos/cpp/xgboost/tests/cpp/common/test_span.cc,"xgboost::common::TEST( Span , BeginEnd)",5, 27, 2, 0
+repos/cpp/xgboost/tests/cpp/common/test_span.cc,"xgboost::common::TEST( Span , RBeginREnd)",5, 29, 2, 0
+repos/cpp/xgboost/tests/cpp/common/test_span.cc,"xgboost::common::TEST( Span , ElementAccess)",17, 34, 2, 0
+repos/cpp/xgboost/tests/cpp/common/test_span.cc,"xgboost::common::TEST( Span , Obversers)",5, 28, 2, 0
+repos/cpp/xgboost/tests/cpp/common/test_span.cc,"xgboost::common::TEST( Span , FirstLast)",81, 48, 4, 0
+repos/cpp/xgboost/tests/cpp/common/test_span.cc,"xgboost::common::TEST( Span , Subspan)",20, 43, 2, 0
+repos/cpp/xgboost/tests/cpp/common/test_span.cc,"xgboost::common::TEST( Span , Compare)",5, 26, 2, 0
+repos/cpp/xgboost/tests/cpp/common/test_span.cc,"xgboost::common::TEST( Span , AsBytes)",5, 26, 2, 0
+repos/cpp/xgboost/tests/cpp/common/test_span.cc,"xgboost::common::TEST( Span , AsWritableBytes)",5, 34, 2, 0
+repos/cpp/xgboost/tests/cpp/common/test_span.cc,"xgboost::common::TEST( Span , Empty)",23, 73, 4, 0
+repos/cpp/xgboost/tests/cpp/common/test_hist_util.cc,"xgboost::common::HistCutMatrixMock::SearchGroupIndFromBaseRow( std :: vector<bst_uint> const & group_ptr , size_t const base_rowid)",4, 76, 4, 0
+repos/cpp/xgboost/tests/cpp/common/test_hist_util.cc,"xgboost::common::TEST( HistCutMatrix , SearchGroupInd)",29, 82, 2, 0
+repos/cpp/xgboost/tests/cpp/common/test_random.cc,"xgboost::common::TEST( ColumnSampler , Test)",41, 70, 2, 0
+repos/cpp/xgboost/tests/cpp/common/test_compressed_iterator.cc,"xgboost::common::TEST( CompressedIterator , Test)",46, 77, 2, 0
+repos/cpp/xgboost/tests/cpp/common/test_column_matrix.cc,"xgboost::common::TEST( DenseColumn , Test)",16, 64, 8, 0
+repos/cpp/xgboost/tests/cpp/common/test_column_matrix.cc,"xgboost::common::TEST( SparseColumn , Test)",14, 58, 4, 0
+repos/cpp/xgboost/tests/cpp/common/test_column_matrix.cc,"xgboost::common::TEST( DenseColumnWithMissing , Test)",14, 58, 4, 0
+repos/cpp/xgboost/tests/cpp/common/test_common.cc,"xgboost::TEST( GPUSet , Basic)",32, 52, 2, 0
+repos/cpp/xgboost/tests/cpp/common/test_monitor.cc,"xgboost::common::TEST( Monitor , Logging)",24, 80, 2, 0
+repos/cpp/xgboost/tests/cpp/common/test_enum_class_param.cc,"MyParam::DMLC_DECLARE_PARAMETER( MyParam)",10, 36, 2, 0
+repos/cpp/xgboost/tests/cpp/common/test_enum_class_param.cc,"TEST( EnumClassParam , Basic)",28, 54, 2, 0
+repos/cpp/xgboost/tests/cpp/common/test_transform_range.cc,"InitializeRange( Iter _begin , Iter _end)",6, 47, 0, 0
+repos/cpp/xgboost/tests/cpp/common/test_transform_range.cc,"xgboost::common::TestTransformRange::operator ( )( size_t _idx , Span<bst_float> _out , Span<const bst_float> _in)",4, 84, 33, 0
+repos/cpp/xgboost/tests/cpp/common/test_transform_range.cc,"xgboost::common::TEST( Transform , DeclareUnifiedTest(Basic))",20, 70, 2, 0
+repos/cpp/xgboost/tests/cpp/predictor/test_cpu_predictor.cc,"xgboost::TEST( cpu_predictor , Test)",56, 85, 2, 0
+repos/cpp/xgboost/tests/cpp/metric/test_multiclass_metric.cc,"TEST( Metric , MultiClassError)",13, 84, 28, 0
+repos/cpp/xgboost/tests/cpp/metric/test_multiclass_metric.cc,"TEST( Metric , MultiClassLogLoss)",13, 84, 28, 0
+repos/cpp/xgboost/tests/cpp/metric/test_rank_metric.cc,"TEST( Metric , AMS)",17, 70, 2, 0
+repos/cpp/xgboost/tests/cpp/metric/test_rank_metric.cc,"TEST( Metric , AUC)",13, 64, 2, 0
+repos/cpp/xgboost/tests/cpp/metric/test_rank_metric.cc,"TEST( Metric , AUCPR)",22, 82, 20, 0
+repos/cpp/xgboost/tests/cpp/metric/test_rank_metric.cc,"TEST( Metric , Precision)",25, 75, 2, 0
+repos/cpp/xgboost/tests/cpp/metric/test_rank_metric.cc,"TEST( Metric , NDCG)",45, 77, 28, 0
+repos/cpp/xgboost/tests/cpp/metric/test_rank_metric.cc,"TEST( Metric , MAP)",29, 77, 28, 0
+repos/cpp/xgboost/tests/cpp/metric/test_metric.cc,"TEST( Metric , UnknownMetric)",9, 72, 2, 0
+repos/cpp/xgboost/tests/cpp/metric/test_elementwise_metric.cc,"TEST( Metric , DeclareUnifiedTest(RMSE))",12, 64, 2, 0
+repos/cpp/xgboost/tests/cpp/metric/test_elementwise_metric.cc,"TEST( Metric , DeclareUnifiedTest(MAE))",11, 64, 2, 0
+repos/cpp/xgboost/tests/cpp/metric/test_elementwise_metric.cc,"TEST( Metric , DeclareUnifiedTest(LogLoss))",11, 65, 2, 0
+repos/cpp/xgboost/tests/cpp/metric/test_elementwise_metric.cc,"TEST( Metric , DeclareUnifiedTest(Error))",30, 64, 2, 0
+repos/cpp/xgboost/tests/cpp/metric/test_elementwise_metric.cc,"TEST( Metric , DeclareUnifiedTest(PoissionNegLogLik))",11, 73, 2, 0
+repos/cpp/xgboost/tests/cpp/metric/test_elementwise_metric.cc,"TEST( Metric , MGPU_RMSE)",25, 66, 4, 0
+repos/cpp/xgboost/tests/cpp/data/test_simple_csr_source.cc,"TEST( SimpleCSRSource , SaveLoadBinary)",28, 83, 2, 0
+repos/cpp/xgboost/tests/cpp/data/test_data.cc,"xgboost::TEST( SparsePage , PushCSC)",48, 63, 4, 0
+repos/cpp/xgboost/tests/cpp/data/test_metainfo.cc,"TEST( MetaInfo , GetSet)",33, 69, 4, 0
+repos/cpp/xgboost/tests/cpp/data/test_metainfo.cc,"TEST( MetaInfo , SaveLoadBinary)",24, 71, 2, 0
+repos/cpp/xgboost/tests/cpp/data/test_metainfo.cc,"TEST( MetaInfo , LoadQid)",61, 81, 2, 0
+repos/cpp/xgboost/tests/cpp/data/test_simple_dmatrix.cc,"TEST( SimpleDMatrix , MetaInfo)",14, 75, 2, 0
+repos/cpp/xgboost/tests/cpp/data/test_simple_dmatrix.cc,"TEST( SimpleDMatrix , RowAccess)",21, 76, 2, 0
+repos/cpp/xgboost/tests/cpp/data/test_simple_dmatrix.cc,"TEST( SimpleDMatrix , ColAccessWithoutBatches)",21, 75, 2, 0
+repos/cpp/xgboost/tests/cpp/data/test_sparse_page_dmatrix.cc,"TEST( SparsePageDMatrix , MetaInfo)",17, 65, 2, 0
+repos/cpp/xgboost/tests/cpp/data/test_sparse_page_dmatrix.cc,"TEST( SparsePageDMatrix , RowAccess)",25, 61, 2, 0
+repos/cpp/xgboost/tests/cpp/data/test_sparse_page_dmatrix.cc,"TEST( SparsePageDMatrix , ColAccess)",31, 64, 2, 0
+repos/cpp/xgboost/tests/cpp/c_api/test_c_api.cc,"TEST( c_api , XGDMatrixCreateFromMatDT)",26, 66, 2, 0
+repos/cpp/xgboost/tests/cpp/c_api/test_c_api.cc,"TEST( c_api , XGDMatrixCreateFromMat_omp)",33, 81, 31, 0
+repos/cpp/xgboost/plugin/dense_parser/dense_libsvm.cc,"dmlc::data::DensifyParser::DensifyParser( dmlc :: Parser<IndexType> * parser , uint32_t num_col)",3, 67, 2, 0
+repos/cpp/xgboost/plugin/dense_parser/dense_libsvm.cc,"dmlc::data::DensifyParser::BeforeFirst()",3, 32, 2, 0
+repos/cpp/xgboost/plugin/dense_parser/dense_libsvm.cc,"dmlc::data::DensifyParser::Next()",29, 64, 8, 0
+repos/cpp/xgboost/plugin/dense_parser/dense_libsvm.cc,"dmlc::data::DensifyParser::Value() const",3, 60, 2, 0
+repos/cpp/xgboost/plugin/dense_parser/dense_libsvm.cc,"dmlc::data::DensifyParser::BytesRead() const",3, 38, 2, 0
+repos/cpp/xgboost/plugin/dense_parser/dense_libsvm.cc,"dmlc::data::CreateDenseLibSVMParser( const std :: string & path , const std :: map<std::string,std::string> & args , unsigned part_index , unsigned num_parts)",9, 86, 12, 0
+repos/cpp/xgboost/plugin/example/custom_obj.cc,"xgboost::obj::MyLogisticParam::DMLC_DECLARE_PARAMETER( MyLogisticParam)",4, 81, 4, 0
+repos/cpp/xgboost/plugin/example/custom_obj.cc,"xgboost::obj::MyLogistic::Configure( const std :: vector<std::pair<std::string,std::string>> & args)",3, 91, 2, 0
+repos/cpp/xgboost/plugin/example/custom_obj.cc,"xgboost::obj::MyLogistic::GetGradient( const HostDeviceVector<bst_float> & preds , const MetaInfo & info , int iter , HostDeviceVector<GradientPair> * out_gpair)",21, 73, 19, 0
+repos/cpp/xgboost/plugin/example/custom_obj.cc,"xgboost::obj::MyLogistic::DefaultEvalMetric() const",3, 51, 2, 0
+repos/cpp/xgboost/plugin/example/custom_obj.cc,"xgboost::obj::MyLogistic::PredTransform( HostDeviceVector<bst_float> * io_preds)",7, 71, 2, 0
+repos/cpp/xgboost/plugin/example/custom_obj.cc,"xgboost::obj::MyLogistic::ProbToMargin( bst_float base_score) const",4, 64, 2, 0
+repos/cpp/xgboost/plugin/lz4/sparse_page_lz4_format.cc,"xgboost::data::CompressArray::num_chunk() const",4, 53, 4, 0
+repos/cpp/xgboost/plugin/lz4/sparse_page_lz4_format.cc,"xgboost::data::CompressArray::RawBytes() const",3, 47, 4, 0
+repos/cpp/xgboost/plugin/lz4/sparse_page_lz4_format.cc,"xgboost::data::CompressArray::EncodedBytes() const",4, 74, 8, 0
+repos/cpp/xgboost/plugin/lz4/sparse_page_lz4_format.cc,"xgboost::data::CompressArray<DType>::Read( dmlc :: SeekStream * fi)",8, 76, 2, 0
+repos/cpp/xgboost/plugin/lz4/sparse_page_lz4_format.cc,"xgboost::data::CompressArray<DType>::Decompress( int chunk_id)",12, 77, 6, 0
+repos/cpp/xgboost/plugin/lz4/sparse_page_lz4_format.cc,"xgboost::data::CompressArray<DType>::InitCompressChunks( const std :: vector<bst_uint> & chunk_ptr)",9, 64, 4, 0
+repos/cpp/xgboost/plugin/lz4/sparse_page_lz4_format.cc,"xgboost::data::CompressArray<DType>::InitCompressChunks( size_t chunk_size , size_t max_nchunk)",18, 93, 0, 0
+repos/cpp/xgboost/plugin/lz4/sparse_page_lz4_format.cc,"xgboost::data::CompressArray<DType>::Compress( int chunk_id , bool use_hc)",21, 95, 2, 0
+repos/cpp/xgboost/plugin/lz4/sparse_page_lz4_format.cc,"xgboost::data::CompressArray<DType>::Write( dmlc :: Stream * fo)",12, 81, 4, 0
+repos/cpp/xgboost/plugin/lz4/sparse_page_lz4_format.cc,"xgboost::data::SparsePageLZ4Format::SparsePageLZ4Format( bool use_lz4_hc)",7, 71, 4, 0
+repos/cpp/xgboost/plugin/lz4/sparse_page_lz4_format.cc,"xgboost::data::SparsePageLZ4Format::~SparsePageLZ4Format()",11, 90, 19, 0
+repos/cpp/xgboost/plugin/lz4/sparse_page_lz4_format.cc,"xgboost::data::SparsePageLZ4Format::Read( SparsePage * page , dmlc :: SeekStream * fi)",15, 72, 6, 0
+repos/cpp/xgboost/plugin/lz4/sparse_page_lz4_format.cc,"xgboost::data::SparsePageLZ4Format::Read( SparsePage * page , dmlc :: SeekStream * fi , const std :: vector<bst_uint> & sorted_index_set)",29, 82, 12, 0
+repos/cpp/xgboost/plugin/lz4/sparse_page_lz4_format.cc,"xgboost::data::SparsePageLZ4Format::Write( const SparsePage & page , dmlc :: Stream * fo)",44, 85, 6, 0
+repos/cpp/xgboost/plugin/lz4/sparse_page_lz4_format.cc,"xgboost::data::SparsePageLZ4Format::LoadIndexValue( dmlc :: SeekStream * fi)",17, 72, 4, 0
+repos/cpp/xgboost/jvm-packages/xgboost4j/src/native/xgboost4j.cpp,"setHandle( JNIEnv * jenv , jlongArray jhandle , void * handle)",8, 65, 0, 0
+repos/cpp/xgboost/jvm-packages/xgboost4j/src/native/xgboost4j.cpp,"JNI_OnLoad( JavaVM * vm , void * reserved)",4, 46, 0, 0
+repos/cpp/xgboost/jvm-packages/xgboost4j/src/native/xgboost4j.cpp,"XGBoost4jCallbackDataIterNext( DataIterHandle data_handle , XGBCallbackSetData * set_function , DataHolderHandle set_function_handle)",105, 80, 4, 0
+repos/cpp/xgboost/jvm-packages/xgboost4j/src/native/xgboost4j.cpp,"Java_ml_dmlc_xgboost4j_java_XGBoostJNI_XGBGetLastError( JNIEnv * jenv , jclass jcls)",9, 81, 0, 0
+repos/cpp/xgboost/jvm-packages/xgboost4j/src/native/xgboost4j.cpp,"Java_ml_dmlc_xgboost4j_java_XGBoostJNI_XGDMatrixCreateFromDataIter( JNIEnv * jenv , jclass jcls , jobject jiter , jstring jcache_info , jlongArray jout)",15, 90, 0, 0
+repos/cpp/xgboost/jvm-packages/xgboost4j/src/native/xgboost4j.cpp,"Java_ml_dmlc_xgboost4j_java_XGBoostJNI_XGDMatrixCreateFromFile( JNIEnv * jenv , jclass jcls , jstring jfname , jint jsilent , jlongArray jout)",11, 86, 0, 0
+repos/cpp/xgboost/jvm-packages/xgboost4j/src/native/xgboost4j.cpp,"Java_ml_dmlc_xgboost4j_java_XGBoostJNI_XGDMatrixCreateFromCSREx( JNIEnv * jenv , jclass jcls , jlongArray jindptr , jintArray jindices , jfloatArray jdata , jint jcol , jlongArray jout)",16, 153, 2, 0
+repos/cpp/xgboost/jvm-packages/xgboost4j/src/native/xgboost4j.cpp,"Java_ml_dmlc_xgboost4j_java_XGBoostJNI_XGDMatrixCreateFromCSCEx( JNIEnv * jenv , jclass jcls , jlongArray jindptr , jintArray jindices , jfloatArray jdata , jint jrow , jlongArray jout)",18, 153, 2, 0
+repos/cpp/xgboost/jvm-packages/xgboost4j/src/native/xgboost4j.cpp,"Java_ml_dmlc_xgboost4j_java_XGBoostJNI_XGDMatrixCreateFromMat( JNIEnv * jenv , jclass jcls , jfloatArray jdata , jint jnrow , jint jncol , jfloat jmiss , jlongArray jout)",12, 106, 2, 0
+repos/cpp/xgboost/jvm-packages/xgboost4j/src/native/xgboost4j.cpp,"Java_ml_dmlc_xgboost4j_java_XGBoostJNI_XGDMatrixSliceDMatrix( JNIEnv * jenv , jclass jcls , jlong jhandle , jintArray jindexset , jlongArray jout)",15, 88, 2, 0
+repos/cpp/xgboost/jvm-packages/xgboost4j/src/native/xgboost4j.cpp,"Java_ml_dmlc_xgboost4j_java_XGBoostJNI_XGDMatrixFree( JNIEnv * jenv , jclass jcls , jlong jhandle)",6, 76, 0, 0
+repos/cpp/xgboost/jvm-packages/xgboost4j/src/native/xgboost4j.cpp,"Java_ml_dmlc_xgboost4j_java_XGBoostJNI_XGDMatrixSaveBinary( JNIEnv * jenv , jclass jcls , jlong jhandle , jstring jfname , jint jsilent)",8, 82, 0, 0
+repos/cpp/xgboost/jvm-packages/xgboost4j/src/native/xgboost4j.cpp,"Java_ml_dmlc_xgboost4j_java_XGBoostJNI_XGDMatrixSetFloatInfo( JNIEnv * jenv , jclass jcls , jlong jhandle , jstring jfield , jfloatArray jarray)",13, 84, 0, 0
+repos/cpp/xgboost/jvm-packages/xgboost4j/src/native/xgboost4j.cpp,"Java_ml_dmlc_xgboost4j_java_XGBoostJNI_XGDMatrixSetUIntInfo( JNIEnv * jenv , jclass jcls , jlong jhandle , jstring jfield , jintArray jarray)",13, 97, 2, 0
+repos/cpp/xgboost/jvm-packages/xgboost4j/src/native/xgboost4j.cpp,"Java_ml_dmlc_xgboost4j_java_XGBoostJNI_XGDMatrixSetGroup( JNIEnv * jenv , jclass jcls , jlong jhandle , jintArray jarray)",10, 80, 0, 0
+repos/cpp/xgboost/jvm-packages/xgboost4j/src/native/xgboost4j.cpp,"Java_ml_dmlc_xgboost4j_java_XGBoostJNI_XGDMatrixGetFloatInfo( JNIEnv * jenv , jclass jcls , jlong jhandle , jstring jfield , jobjectArray jout)",16, 84, 0, 0
+repos/cpp/xgboost/jvm-packages/xgboost4j/src/native/xgboost4j.cpp,"Java_ml_dmlc_xgboost4j_java_XGBoostJNI_XGDMatrixGetUIntInfo( JNIEnv * jenv , jclass jcls , jlong jhandle , jstring jfield , jobjectArray jout)",15, 95, 2, 0
+repos/cpp/xgboost/jvm-packages/xgboost4j/src/native/xgboost4j.cpp,"Java_ml_dmlc_xgboost4j_java_XGBoostJNI_XGDMatrixNumRow( JNIEnv * jenv , jclass jcls , jlong jhandle , jlongArray jout)",8, 78, 0, 0
+repos/cpp/xgboost/jvm-packages/xgboost4j/src/native/xgboost4j.cpp,"Java_ml_dmlc_xgboost4j_java_XGBoostJNI_XGBoosterCreate( JNIEnv * jenv , jclass jcls , jlongArray jhandles , jlongArray jout)",16, 79, 2, 0
+repos/cpp/xgboost/jvm-packages/xgboost4j/src/native/xgboost4j.cpp,"Java_ml_dmlc_xgboost4j_java_XGBoostJNI_XGBoosterFree( JNIEnv * jenv , jclass jcls , jlong jhandle)",5, 76, 0, 0
+repos/cpp/xgboost/jvm-packages/xgboost4j/src/native/xgboost4j.cpp,"Java_ml_dmlc_xgboost4j_java_XGBoostJNI_XGBoosterSetParam( JNIEnv * jenv , jclass jcls , jlong jhandle , jstring jname , jstring jvalue)",11, 80, 0, 0
+repos/cpp/xgboost/jvm-packages/xgboost4j/src/native/xgboost4j.cpp,"Java_ml_dmlc_xgboost4j_java_XGBoostJNI_XGBoosterUpdateOneIter( JNIEnv * jenv , jclass jcls , jlong jhandle , jint jiter , jlong jdtrain)",6, 85, 0, 0
+repos/cpp/xgboost/jvm-packages/xgboost4j/src/native/xgboost4j.cpp,"Java_ml_dmlc_xgboost4j_java_XGBoostJNI_XGBoosterBoostOneIter( JNIEnv * jenv , jclass jcls , jlong jhandle , jlong jdtrain , jfloatArray jgrad , jfloatArray jhess)",13, 100, 2, 0
+repos/cpp/xgboost/jvm-packages/xgboost4j/src/native/xgboost4j.cpp,"Java_ml_dmlc_xgboost4j_java_XGBoostJNI_XGBoosterEvalOneIter( JNIEnv * jenv , jclass jcls , jlong jhandle , jint jiter , jlongArray jdmats , jobjectArray jevnames , jobjectArray jout)",33, 120, 2, 0
+repos/cpp/xgboost/jvm-packages/xgboost4j/src/native/xgboost4j.cpp,"Java_ml_dmlc_xgboost4j_java_XGBoostJNI_XGBoosterPredict( JNIEnv * jenv , jclass jcls , jlong jhandle , jlong jdmat , jint joption_mask , jint jntree_limit , jobjectArray jout)",15, 119, 2, 0
+repos/cpp/xgboost/jvm-packages/xgboost4j/src/native/xgboost4j.cpp,"Java_ml_dmlc_xgboost4j_java_XGBoostJNI_XGBoosterLoadModel( JNIEnv * jenv , jclass jcls , jlong jhandle , jstring jfname)",9, 81, 0, 0
+repos/cpp/xgboost/jvm-packages/xgboost4j/src/native/xgboost4j.cpp,"Java_ml_dmlc_xgboost4j_java_XGBoostJNI_XGBoosterSaveModel( JNIEnv * jenv , jclass jcls , jlong jhandle , jstring jfname)",9, 81, 0, 0
+repos/cpp/xgboost/jvm-packages/xgboost4j/src/native/xgboost4j.cpp,"Java_ml_dmlc_xgboost4j_java_XGBoostJNI_XGBoosterLoadModelFromBuffer( JNIEnv * jenv , jclass jcls , jlong jhandle , jbyteArray jbytes)",9, 91, 0, 0
+repos/cpp/xgboost/jvm-packages/xgboost4j/src/native/xgboost4j.cpp,"Java_ml_dmlc_xgboost4j_java_XGBoostJNI_XGBoosterGetModelRaw( JNIEnv * jenv , jclass jcls , jlong jhandle , jobjectArray jout)",14, 83, 0, 0
+repos/cpp/xgboost/jvm-packages/xgboost4j/src/native/xgboost4j.cpp,"Java_ml_dmlc_xgboost4j_java_XGBoostJNI_XGBoosterDumpModelEx( JNIEnv * jenv , jclass jcls , jlong jhandle , jstring jfmap , jint jwith_stats , jstring jformat , jobjectArray jout)",20, 116, 2, 0
+repos/cpp/xgboost/jvm-packages/xgboost4j/src/native/xgboost4j.cpp,"Java_ml_dmlc_xgboost4j_java_XGBoostJNI_XGBoosterDumpModelExWithFeatures( JNIEnv * jenv , jclass jcls , jlong jhandle , jobjectArray jfeature_names , jint jwith_stats , jstring jformat , jobjectArray jout)",44, 113, 2, 0
+repos/cpp/xgboost/jvm-packages/xgboost4j/src/native/xgboost4j.cpp,"Java_ml_dmlc_xgboost4j_java_XGBoostJNI_XGBoosterLoadRabitCheckpoint( JNIEnv * jenv , jclass jcls , jlong jhandle , jintArray jout)",9, 91, 0, 0
+repos/cpp/xgboost/jvm-packages/xgboost4j/src/native/xgboost4j.cpp,"Java_ml_dmlc_xgboost4j_java_XGBoostJNI_XGBoosterSaveRabitCheckpoint( JNIEnv * jenv , jclass jcls , jlong jhandle)",5, 91, 0, 0
+repos/cpp/xgboost/jvm-packages/xgboost4j/src/native/xgboost4j.cpp,"Java_ml_dmlc_xgboost4j_java_XGBoostJNI_RabitInit( JNIEnv * jenv , jclass jcls , jobjectArray jargs)",20, 72, 0, 0
+repos/cpp/xgboost/jvm-packages/xgboost4j/src/native/xgboost4j.cpp,"Java_ml_dmlc_xgboost4j_java_XGBoostJNI_RabitFinalize( JNIEnv * jenv , jclass jcls)",5, 76, 0, 0
+repos/cpp/xgboost/jvm-packages/xgboost4j/src/native/xgboost4j.cpp,"Java_ml_dmlc_xgboost4j_java_XGBoostJNI_RabitTrackerPrint( JNIEnv * jenv , jclass jcls , jstring jmsg)",7, 80, 0, 0
+repos/cpp/xgboost/jvm-packages/xgboost4j/src/native/xgboost4j.cpp,"Java_ml_dmlc_xgboost4j_java_XGBoostJNI_RabitGetRank( JNIEnv * jenv , jclass jcls , jintArray jout)",6, 75, 0, 0
+repos/cpp/xgboost/jvm-packages/xgboost4j/src/native/xgboost4j.cpp,"Java_ml_dmlc_xgboost4j_java_XGBoostJNI_RabitGetWorldSize( JNIEnv * jenv , jclass jcls , jintArray jout)",6, 80, 0, 0
+repos/cpp/xgboost/jvm-packages/xgboost4j/src/native/xgboost4j.cpp,"Java_ml_dmlc_xgboost4j_java_XGBoostJNI_RabitVersionNumber( JNIEnv * jenv , jclass jcls , jintArray jout)",6, 81, 0, 0
+repos/cpp/xgboost/jvm-packages/xgboost4j/src/native/xgboost4j.cpp,"Java_ml_dmlc_xgboost4j_java_XGBoostJNI_RabitAllreduce( JNIEnv * jenv , jclass jcls , jobject jsendrecvbuf , jint jcount , jint jenum_dtype , jint jenum_op)",7, 100, 2, 0
+repos/cpp/xgboost/src/learner.cc,"IsFloat( const std :: string & str)",5, 74, 2, 0
+repos/cpp/xgboost/src/learner.cc,"IsInt( const std :: string & str)",5, 74, 2, 0
+repos/cpp/xgboost/src/learner.cc,"RenderParamVal( const std :: string & str)",7, 60, 0, 0
+repos/cpp/xgboost/src/learner.cc,"xgboost::Learner::AllowLazyCheckPoint() const",3, 44, 0, 0
+repos/cpp/xgboost/src/learner.cc,"xgboost::Learner::DumpModel( const FeatureMap & fmap , bool with_stats , std :: string format) const",5, 72, 44, 0
+repos/cpp/xgboost/src/learner.cc,"xgboost::LearnerModelParam::LearnerModelParam()",4, 53, 4, 0
+repos/cpp/xgboost/src/learner.cc,"xgboost::LearnerModelParam::DMLC_DECLARE_PARAMETER( LearnerModelParam)",13, 78, 4, 0
+repos/cpp/xgboost/src/learner.cc,"xgboost::LearnerTrainParam::DMLC_DECLARE_PARAMETER( LearnerTrainParam)",32, 76, 12, 0
+repos/cpp/xgboost/src/learner.cc,"xgboost::LearnerImpl::LearnerImpl( std :: vector<std::shared_ptr<DMatrix>> cache)",6, 70, 2, 0
+repos/cpp/xgboost/src/learner.cc,"xgboost::LearnerImpl::AssertGPUSupport()",5, 68, 4, 0
+repos/cpp/xgboost/src/learner.cc,"xgboost::LearnerImpl::ConfigureUpdaters()",53, 81, 22, 0
+repos/cpp/xgboost/src/learner.cc,"xgboost::LearnerImpl::Configure( const std :: vector<std::pair<std::string,std::string>> & args)",75, 81, 6, 0
+repos/cpp/xgboost/src/learner.cc,"xgboost::LearnerImpl::InitModel()",1, 55, 2, 0
+repos/cpp/xgboost/src/learner.cc,"xgboost::LearnerImpl::Load( dmlc :: Stream * fi)",98, 81, 8, 0
+repos/cpp/xgboost/src/learner.cc,"xgboost::LearnerImpl::Save( dmlc :: Stream * fo) const",56, 82, 10, 0
+repos/cpp/xgboost/src/learner.cc,"xgboost::LearnerImpl::UpdateOneIter( int iter , DMatrix * train)",21, 73, 6, 0
+repos/cpp/xgboost/src/learner.cc,"xgboost::LearnerImpl::BoostOneIter( int iter , DMatrix * train , HostDeviceVector<GradientPair> * in_gpair)",15, 73, 20, 0
+repos/cpp/xgboost/src/learner.cc,"xgboost::LearnerImpl::EvalOneIter( int iter , const std :: vector<DMatrix*> & data_sets , const std :: vector<std::string> & data_names)",22, 81, 26, 0
+repos/cpp/xgboost/src/learner.cc,"xgboost::LearnerImpl::SetAttr( const std :: string & key , const std :: string & value)",4, 76, 2, 0
+repos/cpp/xgboost/src/learner.cc,"xgboost::LearnerImpl::GetAttr( const std :: string & key , std :: string * out) const",6, 74, 2, 0
+repos/cpp/xgboost/src/learner.cc,"xgboost::LearnerImpl::DelAttr( const std :: string & key)",6, 50, 2, 0
+repos/cpp/xgboost/src/learner.cc,"xgboost::LearnerImpl::GetAttrNames() const",8, 59, 2, 0
+repos/cpp/xgboost/src/learner.cc,"xgboost::LearnerImpl::Evaluate( DMatrix * data , std :: string metric)",10, 76, 35, 0
+repos/cpp/xgboost/src/learner.cc,"xgboost::LearnerImpl::Predict( DMatrix * data , bool output_margin , HostDeviceVector<bst_float> * out_preds , unsigned ntree_limit , bool pred_leaf , bool pred_contribs , bool approx_contribs , bool pred_interactions) const",18, 95, 6, 0
+repos/cpp/xgboost/src/learner.cc,"xgboost::LearnerImpl::GetConfigurationArguments() const",3, 89, 2, 0
+repos/cpp/xgboost/src/learner.cc,"xgboost::LearnerImpl::PerformTreeMethodHeuristic( DMatrix * p_train)",99, 88, 21, 0
+repos/cpp/xgboost/src/learner.cc,"xgboost::LearnerImpl::ModelInitialized() const",1, 67, 2, 0
+repos/cpp/xgboost/src/learner.cc,"xgboost::LearnerImpl::LazyInitModel()",30, 85, 6, 0
+repos/cpp/xgboost/src/learner.cc,"xgboost::LearnerImpl::PredictRaw( DMatrix * data , HostDeviceVector<bst_float> * out_preds , unsigned ntree_limit = 0) const",6, 80, 2, 0
+repos/cpp/xgboost/src/learner.cc,"xgboost::LearnerImpl::ValidateDMatrix( DMatrix * p_fmat)",12, 87, 10, 0
+repos/cpp/xgboost/src/learner.cc,"xgboost::Learner::Create( const std :: vector<std::shared_ptr<DMatrix>> & cache_data)",4, 64, 4, 0
+repos/cpp/xgboost/src/cli_main.cc,"xgboost::CLIParam::DMLC_DECLARE_PARAMETER( CLIParam)",47, 83, 8, 0
+repos/cpp/xgboost/src/cli_main.cc,"xgboost::CLIParam::Configure( const std :: vector<std::pair<std::string,std::string>> & _cfg)",24, 89, 2, 0
+repos/cpp/xgboost/src/cli_main.cc,"xgboost::CLITrain( const CLIParam & param)",110, 82, 12, 0
+repos/cpp/xgboost/src/cli_main.cc,"xgboost::CLIDumpModel( const CLIParam & param)",38, 65, 6, 0
+repos/cpp/xgboost/src/cli_main.cc,"xgboost::CLIPredict( const CLIParam & param)",33, 80, 10, 0
+repos/cpp/xgboost/src/cli_main.cc,"xgboost::CLIRunTask( int argc , char * argv [ ])",32, 71, 4, 0
+repos/cpp/xgboost/src/cli_main.cc,"main( int argc , char * argv [ ])",3, 42, 2, 0
+repos/cpp/xgboost/src/logging.cc,"dmlc::CustomLogMessage::Log( const std :: string & msg)",6, 59, 0, 0
+repos/cpp/xgboost/src/logging.cc,"xgboost::ConsoleLogger::~ConsoleLogger()",5, 64, 4, 0
+repos/cpp/xgboost/src/logging.cc,"xgboost::TrackerLogger::~TrackerLogger()",4, 42, 2, 0
+repos/cpp/xgboost/src/logging.cc,"xgboost::ConsoleLogger::ShouldLog( LogVerbosity verbosity)",3, 69, 2, 0
+repos/cpp/xgboost/src/logging.cc,"xgboost::ConsoleLogger::Configure( const std :: map<std::string,std::string> & args)",25, 80, 0, 0
+repos/cpp/xgboost/src/logging.cc,"xgboost::ConsoleLogger::DefaultVerbosity()",3, 64, 0, 0
+repos/cpp/xgboost/src/logging.cc,"xgboost::ConsoleLogger::GlobalVerbosity()",3, 63, 0, 0
+repos/cpp/xgboost/src/logging.cc,"xgboost::ConsoleLogger::ConsoleLogger( LogVerbosity cur_verb)",2, 54, 0, 0
+repos/cpp/xgboost/src/logging.cc,"xgboost::ConsoleLogger::ConsoleLogger( const std :: string & file , int line , LogVerbosity cur_verb)",23, 64, 4, 0
+repos/cpp/xgboost/src/tree/updater_sync.cc,"xgboost::tree::TreeSyncher::Init( const std :: vector<std::pair<std::string,std::string>> & args)",1, 87, 2, 0
+repos/cpp/xgboost/src/tree/updater_sync.cc,"xgboost::tree::TreeSyncher::Update( HostDeviceVector<GradientPair> * gpair , DMatrix * dmat , const std :: vector<RegTree*> & trees)",18, 61, 14, 0
+repos/cpp/xgboost/src/tree/updater_refresh.cc,"xgboost::tree::TreeRefresher::Init( const std :: vector<std::pair<std::string,std::string>> & args)",3, 86, 2, 0
+repos/cpp/xgboost/src/tree/updater_refresh.cc,"xgboost::tree::TreeRefresher::Update( HostDeviceVector<GradientPair> * gpair , DMatrix * p_fmat , const std :: vector<RegTree*> & trees)",70, 83, 4, 0
+repos/cpp/xgboost/src/tree/updater_refresh.cc,"xgboost::tree::TreeRefresher::AddStats( const RegTree & tree , const RegTree :: FVec & feat , const std :: vector<GradientPair> & gpair , const MetaInfo & info , const bst_uint ridx , GradStats * gstats)",16, 86, 6, 0
+repos/cpp/xgboost/src/tree/updater_refresh.cc,"xgboost::tree::TreeRefresher::Refresh( const GradStats * gstats , int nid , RegTree * p_tree)",19, 78, 8, 0
+repos/cpp/xgboost/src/tree/tree_updater.cc,"xgboost::TreeUpdater::Create( const std :: string & name)",7, 77, 2, 0
+repos/cpp/xgboost/src/tree/updater_quantile_hist.cc,"xgboost::tree::QuantileHistMaker::Init( const std :: vector<std::pair<std::string,std::string>> & args)",16, 94, 0, 0
+repos/cpp/xgboost/src/tree/updater_quantile_hist.cc,"xgboost::tree::QuantileHistMaker::Update( HostDeviceVector<GradientPair> * gpair , DMatrix * dmat , const std :: vector<RegTree*> & trees)",28, 76, 4, 0
+repos/cpp/xgboost/src/tree/updater_quantile_hist.cc,"xgboost::tree::QuantileHistMaker::UpdatePredictionCache( const DMatrix * data , HostDeviceVector<bst_float> * out_preds)",9, 61, 4, 0
+repos/cpp/xgboost/src/tree/updater_quantile_hist.cc,"xgboost::tree::QuantileHistMaker::Builder::SyncHistograms( int starting_index , int sync_count , RegTree * p_tree)",15, 99, 2, 0
+repos/cpp/xgboost/src/tree/updater_quantile_hist.cc,"xgboost::tree::QuantileHistMaker::Builder::BuildLocalHistograms( int * starting_index , int * sync_count , const GHistIndexMatrix & gmat , const GHistIndexBlockMatrix & gmatb , RegTree * p_tree , const std :: vector<GradientPair> & gpair_h)",49, 87, 18, 0
+repos/cpp/xgboost/src/tree/updater_quantile_hist.cc,"xgboost::tree::QuantileHistMaker::Builder::BuildNodeStats( const GHistIndexMatrix & gmat , DMatrix * p_fmat , RegTree * p_tree , const std :: vector<GradientPair> & gpair_h)",21, 85, 6, 0
+repos/cpp/xgboost/src/tree/updater_quantile_hist.cc,"xgboost::tree::QuantileHistMaker::Builder::EvaluateSplits( const GHistIndexMatrix & gmat , const ColumnMatrix & column_matrix , DMatrix * p_fmat , RegTree * p_tree , int * num_leaves , int depth , unsigned * timestamp , std :: vector<ExpandEntry> * temp_qexpand_depth)",33, 99, 48, 0
+repos/cpp/xgboost/src/tree/updater_quantile_hist.cc,"xgboost::tree::QuantileHistMaker::Builder::ExpandWithDepthWidth( const GHistIndexMatrix & gmat , const GHistIndexBlockMatrix & gmatb , const ColumnMatrix & column_matrix , DMatrix * p_fmat , RegTree * p_tree , const std :: vector<GradientPair> & gpair_h)",33, 88, 2, 0
+repos/cpp/xgboost/src/tree/updater_quantile_hist.cc,"xgboost::tree::QuantileHistMaker::Builder::ExpandWithLossGuide( const GHistIndexMatrix & gmat , const GHistIndexBlockMatrix & gmatb , const ColumnMatrix & column_matrix , DMatrix * p_fmat , RegTree * p_tree , const std :: vector<GradientPair> & gpair_h)",88, 93, 10, 0
+repos/cpp/xgboost/src/tree/updater_quantile_hist.cc,"xgboost::tree::QuantileHistMaker::Builder::Update( const GHistIndexMatrix & gmat , const GHistIndexBlockMatrix & gmatb , const ColumnMatrix & column_matrix , HostDeviceVector<GradientPair> * gpair , DMatrix * p_fmat , RegTree * p_tree)",32, 81, 4, 0
+repos/cpp/xgboost/src/tree/updater_quantile_hist.cc,"xgboost::tree::QuantileHistMaker::Builder::UpdatePredictionCache( const DMatrix * data , HostDeviceVector<bst_float> * p_out_preds)",40, 85, 2, 0
+repos/cpp/xgboost/src/tree/updater_quantile_hist.cc,"xgboost::tree::QuantileHistMaker::Builder::InitData( const GHistIndexMatrix & gmat , const std :: vector<GradientPair> & gpair , const DMatrix & fmat , const RegTree & tree)",114, 91, 4, 0
+repos/cpp/xgboost/src/tree/updater_quantile_hist.cc,"xgboost::tree::QuantileHistMaker::Builder::EvaluateSplit( const int nid , const GHistIndexMatrix & gmat , const HistCollection & hist , const DMatrix & fmat , const RegTree & tree)",30, 77, 47, 0
+repos/cpp/xgboost/src/tree/updater_quantile_hist.cc,"xgboost::tree::QuantileHistMaker::Builder::ApplySplit( int nid , const GHistIndexMatrix & gmat , const ColumnMatrix & column_matrix , const HistCollection & hist , const DMatrix & fmat , RegTree * p_tree)",55, 86, 6, 0
+repos/cpp/xgboost/src/tree/updater_quantile_hist.cc,"xgboost::tree::QuantileHistMaker::Builder::ApplySplitDenseData( const RowSetCollection :: Elem rowset , const GHistIndexMatrix & gmat , std :: vector<RowSetCollection::Split> * p_row_split_tloc , const Column & column , bst_int split_cond , bool default_left)",61, 81, 8, 0
+repos/cpp/xgboost/src/tree/updater_quantile_hist.cc,"xgboost::tree::QuantileHistMaker::Builder::ApplySplitSparseData( const RowSetCollection :: Elem rowset , const GHistIndexMatrix & gmat , std :: vector<RowSetCollection::Split> * p_row_split_tloc , const Column & column , bst_uint lower_bound , bst_uint upper_bound , bst_int split_cond , bool default_left)",68, 86, 6, 0
+repos/cpp/xgboost/src/tree/updater_quantile_hist.cc,"xgboost::tree::QuantileHistMaker::Builder::InitNewNode( int nid , const GHistIndexMatrix & gmat , const std :: vector<GradientPair> & gpair , const DMatrix & fmat , const RegTree & tree)",48, 88, 12, 0
+repos/cpp/xgboost/src/tree/updater_quantile_hist.cc,"xgboost::tree::QuantileHistMaker::Builder::EnumerateSplit( int d_step , const GHistIndexMatrix & gmat , const GHistRow & hist , const NodeEntry & snode , const MetaInfo & info , SplitEntry * p_best , bst_uint fid , bst_uint nodeID)",73, 78, 48, 0
+repos/cpp/xgboost/src/tree/tree_model.cc,"xgboost::DumpRegTree( std :: stringstream & fo , const RegTree & tree , const FeatureMap & fmap , int nid , int depth , int add_comma , bool with_stats , std :: string format)",141, 100, 8, 0
+repos/cpp/xgboost/src/tree/tree_model.cc,"xgboost::RegTree::DumpModel( const FeatureMap & fmap , bool with_stats , std :: string format) const",9, 67, 4, 0
+repos/cpp/xgboost/src/tree/tree_model.cc,"xgboost::RegTree::FillNodeMeanValues()",10, 64, 2, 0
+repos/cpp/xgboost/src/tree/tree_model.cc,"xgboost::RegTree::FillNodeMeanValue( int nid)",13, 99, 4, 0
+repos/cpp/xgboost/src/tree/tree_model.cc,"xgboost::RegTree::CalculateContributionsApprox( const RegTree :: FVec & feat , unsigned root_id , bst_float * out_contribs) const",26, 85, 4, 0
+repos/cpp/xgboost/src/tree/tree_model.cc,"xgboost::PathElement::PathElement( int i , bst_float z , bst_float o , bst_float w)",2, 71, 4, 0
+repos/cpp/xgboost/src/tree/tree_model.cc,"xgboost::ExtendPath( PathElement * unique_path , unsigned unique_depth , bst_float zero_fraction , bst_float one_fraction , int feature_index)",14, 89, 4, 0
+repos/cpp/xgboost/src/tree/tree_model.cc,"xgboost::UnwindPath( PathElement * unique_path , unsigned unique_depth , unsigned path_index)",25, 93, 31, 0
+repos/cpp/xgboost/src/tree/tree_model.cc,"xgboost::UnwoundPathSum( const PathElement * unique_path , unsigned unique_depth , unsigned path_index)",23, 92, 6, 0
+repos/cpp/xgboost/src/tree/tree_model.cc,"xgboost::RegTree::TreeShap( const RegTree :: FVec & feat , bst_float * phi , unsigned node_index , unsigned unique_depth , PathElement * parent_unique_path , bst_float parent_zero_fraction , bst_float parent_one_fraction , int parent_feature_index , int condition , unsigned condition_feature , bst_float condition_fraction) const",84, 94, 6, 0
+repos/cpp/xgboost/src/tree/tree_model.cc,"xgboost::RegTree::CalculateContributions( const RegTree :: FVec & feat , unsigned root_id , bst_float * out_contribs , int condition , unsigned condition_feature) const",18, 80, 37, 0
+repos/cpp/xgboost/src/tree/updater_prune.cc,"xgboost::tree::TreePruner::TreePruner()",3, 49, 4, 0
+repos/cpp/xgboost/src/tree/updater_prune.cc,"xgboost::tree::TreePruner::Init( const std :: vector<std::pair<std::string,std::string>> & args)",4, 86, 2, 0
+repos/cpp/xgboost/src/tree/updater_prune.cc,"xgboost::tree::TreePruner::Update( HostDeviceVector<GradientPair> * gpair , DMatrix * p_fmat , const std :: vector<RegTree*> & trees)",12, 61, 14, 0
+repos/cpp/xgboost/src/tree/updater_prune.cc,"xgboost::tree::TreePruner::TryPruneLeaf( RegTree & tree , int nid , int depth , int npruned)",14, 89, 2, 0
+repos/cpp/xgboost/src/tree/updater_prune.cc,"xgboost::tree::TreePruner::DoPrune( RegTree & tree)",15, 78, 8, 0
+repos/cpp/xgboost/src/tree/updater_histmaker.cc,"xgboost::tree::HistMaker::Update( HostDeviceVector<GradientPair> * gpair , DMatrix * p_fmat , const std :: vector<RegTree*> & trees)",12, 61, 14, 0
+repos/cpp/xgboost/src/tree/updater_histmaker.cc,"xgboost::tree::HistMaker::HistUnit::HistUnit( const bst_float * cut , GradStats * data , unsigned size)",2, 67, 4, 0
+repos/cpp/xgboost/src/tree/updater_histmaker.cc,"xgboost::tree::HistMaker::HistUnit::Add( bst_float fv , const std :: vector<GradientPair> & gpair , const MetaInfo & info , const bst_uint ridx)",9, 64, 6, 0
+repos/cpp/xgboost/src/tree/updater_histmaker.cc,"xgboost::tree::HistMaker::HistSet::operator [ ]( size_t fid)",5, 48, 22, 0
+repos/cpp/xgboost/src/tree/updater_histmaker.cc,"xgboost::tree::HistMaker::ThreadWSpace::Init( const TrainParam & param , int nthread)",10, 61, 4, 0
+repos/cpp/xgboost/src/tree/updater_histmaker.cc,"xgboost::tree::HistMaker::ThreadWSpace::Aggregate()",9, 66, 6, 0
+repos/cpp/xgboost/src/tree/updater_histmaker.cc,"xgboost::tree::HistMaker::ThreadWSpace::Clear()",3, 48, 6, 0
+repos/cpp/xgboost/src/tree/updater_histmaker.cc,"xgboost::tree::HistMaker::ThreadWSpace::Size() const",3, 33, 4, 0
+repos/cpp/xgboost/src/tree/updater_histmaker.cc,"xgboost::tree::HistMaker::Update( const std :: vector<GradientPair> & gpair , DMatrix * p_fmat , RegTree * p_tree)",28, 84, 6, 0
+repos/cpp/xgboost/src/tree/updater_histmaker.cc,"xgboost::tree::HistMaker::InitWorkSet( DMatrix * p_fmat , const RegTree & tree , std :: vector<bst_uint> * p_fset)",8, 60, 27, 0
+repos/cpp/xgboost/src/tree/updater_histmaker.cc,"xgboost::tree::HistMaker::ResetPositionAfterSplit( DMatrix * p_fmat , const RegTree & tree)",3, 62, 39, 0
+repos/cpp/xgboost/src/tree/updater_histmaker.cc,"xgboost::tree::HistMaker::EnumerateSplit( const HistUnit & hist , const GradStats & node_sum , bst_uint fid , SplitEntry * best , GradStats * left_sum)",37, 96, 10, 0
+repos/cpp/xgboost/src/tree/updater_histmaker.cc,"xgboost::tree::HistMaker::FindSplit( int depth , const std :: vector<GradientPair> & gpair , DMatrix * p_fmat , const std :: vector<bst_uint> & fset , RegTree * p_tree)",53, 98, 6, 0
+repos/cpp/xgboost/src/tree/updater_histmaker.cc,"xgboost::tree::HistMaker::SetStats( RegTree * p_tree , int nid , const GradStats & node_sum)",5, 78, 2, 0
+repos/cpp/xgboost/src/tree/updater_histmaker.cc,"xgboost::tree::CQHistMaker::HistEntry::Add( bst_float fv , const std :: vector<GradientPair> & gpair , const MetaInfo & info , const bst_uint ridx)",8, 71, 6, 0
+repos/cpp/xgboost/src/tree/updater_histmaker.cc,"xgboost::tree::CQHistMaker::HistEntry::Add( bst_float fv , GradientPair gstats)",17, 82, 10, 0
+repos/cpp/xgboost/src/tree/updater_histmaker.cc,"xgboost::tree::CQHistMaker::InitWorkSet( DMatrix * p_fmat , const RegTree & tree , std :: vector<bst_uint> * p_fset)",10, 67, 4, 0
+repos/cpp/xgboost/src/tree/updater_histmaker.cc,"xgboost::tree::CQHistMaker::CreateHist( const std :: vector<GradientPair> & gpair , DMatrix * p_fmat , const std :: vector<bst_uint> & fset , const RegTree & tree)",46, 80, 29, 0
+repos/cpp/xgboost/src/tree/updater_histmaker.cc,"xgboost::tree::CQHistMaker::ResetPositionAfterSplit( DMatrix * p_fmat , const RegTree & tree)",4, 65, 33, 0
+repos/cpp/xgboost/src/tree/updater_histmaker.cc,"xgboost::tree::CQHistMaker::ResetPosAndPropose( const std :: vector<GradientPair> & gpair , DMatrix * p_fmat , const std :: vector<bst_uint> & fset , const RegTree & tree)",106, 93, 6, 0
+repos/cpp/xgboost/src/tree/updater_histmaker.cc,"xgboost::tree::CQHistMaker::UpdateHistCol( const std :: vector<GradientPair> & gpair , const SparsePage :: Inst & col , const MetaInfo & info , const RegTree & tree , const std :: vector<bst_uint> & fset , bst_uint fid_offset , std :: vector<HistEntry> * p_temp)",51, 86, 6, 0
+repos/cpp/xgboost/src/tree/updater_histmaker.cc,"xgboost::tree::CQHistMaker::UpdateSketchCol( const std :: vector<GradientPair> & gpair , const SparsePage :: Inst & col , const RegTree & tree , size_t work_set_size , bst_uint offset , std :: vector<BaseMaker::SketchEntry> * p_temp)",73, 79, 4, 0
+repos/cpp/xgboost/src/tree/updater_histmaker.cc,"xgboost::tree::GlobalProposalHistMaker::ResetPosAndPropose( const std :: vector<GradientPair> & gpair , DMatrix * p_fmat , const std :: vector<bst_uint> & fset , const RegTree & tree)",29, 99, 8, 0
+repos/cpp/xgboost/src/tree/updater_histmaker.cc,"xgboost::tree::GlobalProposalHistMaker::CreateHist( const std :: vector<GradientPair> & gpair , DMatrix * p_fmat , const std :: vector<bst_uint> & fset , const RegTree & tree)",57, 98, 10, 0
+repos/cpp/xgboost/src/tree/updater_skmaker.cc,"xgboost::tree::SketchMaker::Update( HostDeviceVector<GradientPair> * gpair , DMatrix * p_fmat , const std :: vector<RegTree*> & trees)",12, 61, 14, 0
+repos/cpp/xgboost/src/tree/updater_skmaker.cc,"xgboost::tree::SketchMaker::Update( const std :: vector<GradientPair> & gpair , DMatrix * p_fmat , RegTree * p_tree)",35, 84, 6, 0
+repos/cpp/xgboost/src/tree/updater_skmaker.cc,"xgboost::tree::SketchMaker::SKStats::SKStats()",1, 57, 4, 0
+repos/cpp/xgboost/src/tree/updater_skmaker.cc,"xgboost::tree::SketchMaker::SKStats::Add( const GradientPair & gpair)",8, 42, 4, 0
+repos/cpp/xgboost/src/tree/updater_skmaker.cc,"xgboost::tree::SketchMaker::SKStats::CalcGain( const TrainParam & param) const",3, 76, 6, 0
+repos/cpp/xgboost/src/tree/updater_skmaker.cc,"xgboost::tree::SketchMaker::SKStats::SetSubstract( const SKStats & a , const SKStats & b)",5, 67, 4, 0
+repos/cpp/xgboost/src/tree/updater_skmaker.cc,"xgboost::tree::SketchMaker::SKStats::CalcWeight( const TrainParam & param) const",3, 78, 6, 0
+repos/cpp/xgboost/src/tree/updater_skmaker.cc,"xgboost::tree::SketchMaker::SKStats::Add( const SKStats & b)",5, 40, 4, 0
+repos/cpp/xgboost/src/tree/updater_skmaker.cc,"xgboost::tree::SketchMaker::SKStats::Reduce( SKStats & a , const SKStats & b)",3, 75, 4, 0
+repos/cpp/xgboost/src/tree/updater_skmaker.cc,"xgboost::tree::SketchMaker::BuildSketch( const std :: vector<GradientPair> & gpair , DMatrix * p_fmat , const RegTree & tree)",37, 94, 4, 0
+repos/cpp/xgboost/src/tree/updater_skmaker.cc,"xgboost::tree::SketchMaker::UpdateSketchCol( const std :: vector<GradientPair> & gpair , const SparsePage :: Inst & col , const RegTree & tree , const std :: vector<SKStats> & nstats , bst_uint fid , bool col_full , std :: vector<SketchEntry> * p_temp)",77, 96, 8, 0
+repos/cpp/xgboost/src/tree/updater_skmaker.cc,"xgboost::tree::SketchMaker::SyncNodeStats()",11, 63, 4, 0
+repos/cpp/xgboost/src/tree/updater_skmaker.cc,"xgboost::tree::SketchMaker::FindSplit( int depth , const std :: vector<GradientPair> & gpair , DMatrix * p_fmat , RegTree * p_tree)",46, 86, 8, 0
+repos/cpp/xgboost/src/tree/updater_skmaker.cc,"xgboost::tree::SketchMaker::SetStats( int nid , const SKStats & node_sum , RegTree * p_tree)",4, 89, 4, 0
+repos/cpp/xgboost/src/tree/updater_skmaker.cc,"xgboost::tree::SketchMaker::EnumerateSplit( const WXQSketch :: Summary & pos_grad , const WXQSketch :: Summary & neg_grad , const WXQSketch :: Summary & sum_hess , const SKStats & node_sum , bst_uint fid , SplitEntry * best)",69, 83, 4, 0
+repos/cpp/xgboost/src/tree/split_evaluator.cc,"xgboost::tree::SplitEvaluator::Create( const std :: string & name)",15, 92, 2, 0
+repos/cpp/xgboost/src/tree/split_evaluator.cc,"xgboost::tree::SplitEvaluator::Init( const std :: vector<std::pair<std::string,std::string>> & args)",2, 70, 4, 0
+repos/cpp/xgboost/src/tree/split_evaluator.cc,"xgboost::tree::SplitEvaluator::Reset()",1, 32, 0, 0
+repos/cpp/xgboost/src/tree/split_evaluator.cc,"xgboost::tree::SplitEvaluator::AddSplit( bst_uint nodeid , bst_uint leftid , bst_uint rightid , bst_uint featureid , bst_float leftweight , bst_float rightweight)",6, 56, 30, 0
+repos/cpp/xgboost/src/tree/split_evaluator.cc,"xgboost::tree::SplitEvaluator::ComputeSplitScore( bst_uint nodeid , bst_uint featureid , const GradStats & left_stats , const GradStats & right_stats) const",8, 99, 2, 0
+repos/cpp/xgboost/src/tree/split_evaluator.cc,"xgboost::tree::ElasticNetParams::DMLC_DECLARE_PARAMETER( ElasticNetParams)",17, 83, 6, 0
+repos/cpp/xgboost/src/tree/split_evaluator.cc,"xgboost::tree::ElasticNet::ElasticNet( std :: unique_ptr<SplitEvaluator> inner)",5, 74, 6, 0
+repos/cpp/xgboost/src/tree/split_evaluator.cc,"xgboost::tree::ElasticNet::Init( const std :: vector<std::pair<std::string,std::string>> & args)",4, 80, 6, 0
+repos/cpp/xgboost/src/tree/split_evaluator.cc,"xgboost::tree::ElasticNet::GetHostClone() const",6, 50, 2, 0
+repos/cpp/xgboost/src/tree/split_evaluator.cc,"xgboost::tree::ElasticNet::ComputeSplitScore( bst_uint nodeid , bst_uint featureid , const GradStats & left_stats , const GradStats & right_stats , bst_float left_weight , bst_float right_weight) const",9, 70, 29, 0
+repos/cpp/xgboost/src/tree/split_evaluator.cc,"xgboost::tree::ElasticNet::ComputeSplitScore( bst_uint nodeid , bst_uint featureid , const GradStats & left_stats , const GradStats & right_stats) const",6, 81, 4, 0
+repos/cpp/xgboost/src/tree/split_evaluator.cc,"xgboost::tree::ElasticNet::ComputeScore( bst_uint parentID , const GradStats & stats , bst_float weight) const",7, 86, 2, 0
+repos/cpp/xgboost/src/tree/split_evaluator.cc,"xgboost::tree::ElasticNet::ComputeScore( bst_uint parentID , const GradStats & stats) const",7, 87, 6, 0
+repos/cpp/xgboost/src/tree/split_evaluator.cc,"xgboost::tree::ElasticNet::ComputeWeight( bst_uint parentID , const GradStats & stats) const",8, 88, 4, 0
+repos/cpp/xgboost/src/tree/split_evaluator.cc,"xgboost::tree::ElasticNet::ThresholdL1( double g) const",9, 46, 2, 0
+repos/cpp/xgboost/src/tree/split_evaluator.cc,"xgboost::tree::MonotonicConstraintParams::DMLC_DECLARE_PARAMETER( MonotonicConstraintParams)",5, 56, 6, 0
+repos/cpp/xgboost/src/tree/split_evaluator.cc,"xgboost::tree::MonotonicConstraint::MonotonicConstraint( std :: unique_ptr<SplitEvaluator> inner)",6, 76, 6, 0
+repos/cpp/xgboost/src/tree/split_evaluator.cc,"xgboost::tree::MonotonicConstraint::Init( const std :: vector<std::pair<std::string,std::string>> & args)",6, 75, 2, 0
+repos/cpp/xgboost/src/tree/split_evaluator.cc,"xgboost::tree::MonotonicConstraint::Reset()",4, 62, 4, 0
+repos/cpp/xgboost/src/tree/split_evaluator.cc,"xgboost::tree::MonotonicConstraint::GetHostClone() const",12, 92, 6, 0
+repos/cpp/xgboost/src/tree/split_evaluator.cc,"xgboost::tree::MonotonicConstraint::ComputeSplitScore( bst_uint nodeid , bst_uint featureid , const GradStats & left_stats , const GradStats & right_stats , bst_float left_weight , bst_float right_weight) const",19, 78, 6, 0
+repos/cpp/xgboost/src/tree/split_evaluator.cc,"xgboost::tree::MonotonicConstraint::ComputeScore( bst_uint parentID , const GradStats & stats , bst_float weight) const",4, 86, 2, 0
+repos/cpp/xgboost/src/tree/split_evaluator.cc,"xgboost::tree::MonotonicConstraint::ComputeWeight( bst_uint parentID , const GradStats & stats) const",15, 69, 2, 0
+repos/cpp/xgboost/src/tree/split_evaluator.cc,"xgboost::tree::MonotonicConstraint::AddSplit( bst_uint nodeid , bst_uint leftid , bst_uint rightid , bst_uint featureid , bst_float leftweight , bst_float rightweight)",29, 83, 4, 0
+repos/cpp/xgboost/src/tree/split_evaluator.cc,"xgboost::tree::MonotonicConstraint::GetConstraint( bst_uint featureid) const",7, 59, 2, 0
+repos/cpp/xgboost/src/tree/split_evaluator.cc,"xgboost::tree::InteractionConstraintParams::DMLC_DECLARE_PARAMETER( InteractionConstraintParams)",11, 86, 18, 0
+repos/cpp/xgboost/src/tree/split_evaluator.cc,"xgboost::tree::InteractionConstraint::InteractionConstraint( std :: unique_ptr<SplitEvaluator> inner)",6, 78, 6, 0
+repos/cpp/xgboost/src/tree/split_evaluator.cc,"xgboost::tree::InteractionConstraint::Init( const std :: vector<std::pair<std::string,std::string>> & args)",6, 75, 2, 0
+repos/cpp/xgboost/src/tree/split_evaluator.cc,"xgboost::tree::InteractionConstraint::Reset()",28, 97, 4, 0
+repos/cpp/xgboost/src/tree/split_evaluator.cc,"xgboost::tree::InteractionConstraint::GetHostClone() const",12, 76, 6, 0
+repos/cpp/xgboost/src/tree/split_evaluator.cc,"xgboost::tree::InteractionConstraint::ComputeSplitScore( bst_uint nodeid , bst_uint featureid , const GradStats & left_stats , const GradStats & right_stats , bst_float left_weight , bst_float right_weight) const",16, 93, 4, 0
+repos/cpp/xgboost/src/tree/split_evaluator.cc,"xgboost::tree::InteractionConstraint::ComputeScore( bst_uint parentID , const GradStats & stats , bst_float weight) const",4, 86, 2, 0
+repos/cpp/xgboost/src/tree/split_evaluator.cc,"xgboost::tree::InteractionConstraint::ComputeWeight( bst_uint parentID , const GradStats & stats) const",4, 69, 2, 0
+repos/cpp/xgboost/src/tree/split_evaluator.cc,"xgboost::tree::InteractionConstraint::AddSplit( bst_uint nodeid , bst_uint leftid , bst_uint rightid , bst_uint featureid , bst_float leftweight , bst_float rightweight)",50, 99, 4, 0
+repos/cpp/xgboost/src/tree/split_evaluator.cc,"xgboost::tree::InteractionConstraint::CheckInteractionConstraint( bst_uint featureid , bst_uint nodeid) const",5, 86, 2, 0
+repos/cpp/xgboost/src/tree/updater_colmaker.cc,"xgboost::tree::ColMaker::Init( const std :: vector<std::pair<std::string,std::string>> & args)",5, 86, 2, 0
+repos/cpp/xgboost/src/tree/updater_colmaker.cc,"xgboost::tree::ColMaker::Update( HostDeviceVector<GradientPair> * gpair , DMatrix * dmat , const std :: vector<RegTree*> & trees)",15, 70, 8, 0
+repos/cpp/xgboost/src/tree/updater_colmaker.cc,"xgboost::tree::ColMaker::ThreadEntry::ThreadEntry()",1, 55, 4, 0
+repos/cpp/xgboost/src/tree/updater_colmaker.cc,"xgboost::tree::ColMaker::NodeEntry::NodeEntry()",1, 51, 4, 0
+repos/cpp/xgboost/src/tree/updater_colmaker.cc,"xgboost::tree::ColMaker::Builder::Builder( const TrainParam & param , std :: unique_ptr<SplitEvaluator> spliteval)",4, 64, 21, 0
+repos/cpp/xgboost/src/tree/updater_colmaker.cc,"xgboost::tree::ColMaker::Builder::Update( const std :: vector<GradientPair> & gpair , DMatrix * p_fmat , RegTree * p_tree)",39, 85, 8, 0
+repos/cpp/xgboost/src/tree/updater_colmaker.cc,"xgboost::tree::ColMaker::Builder::InitData( const std :: vector<GradientPair> & gpair , const DMatrix & fmat , const RegTree & tree)",54, 81, 29, 0
+repos/cpp/xgboost/src/tree/updater_colmaker.cc,"xgboost::tree::ColMaker::Builder::InitNewNode( const std :: vector<int> & qexpand , const std :: vector<GradientPair> & gpair , const DMatrix & fmat , const RegTree & tree)",38, 88, 12, 0
+repos/cpp/xgboost/src/tree/updater_colmaker.cc,"xgboost::tree::ColMaker::Builder::UpdateQueueExpand( const RegTree & tree , const std :: vector<int> & qexpand , std :: vector<int> * p_newnodes)",11, 67, 34, 0
+repos/cpp/xgboost/src/tree/updater_colmaker.cc,"xgboost::tree::ColMaker::Builder::ParallelFindSplit( const SparsePage :: Inst & col , bst_uint fid , DMatrix * p_fmat , const std :: vector<GradientPair> & gpair)",144, 99, 18, 0
+repos/cpp/xgboost/src/tree/updater_colmaker.cc,"xgboost::tree::ColMaker::Builder::UpdateEnumeration( int nid , GradientPair gstats , bst_float fvalue , int d_step , bst_uint fid , GradStats & c , std :: vector<ThreadEntry> & temp)",36, 95, 34, 0
+repos/cpp/xgboost/src/tree/updater_colmaker.cc,"xgboost::tree::ColMaker::Builder::EnumerateSplitCacheOpt( const Entry * begin , const Entry * end , int d_step , bst_uint fid , const std :: vector<GradientPair> & gpair , std :: vector<ThreadEntry> & temp)",79, 95, 6, 0
+repos/cpp/xgboost/src/tree/updater_colmaker.cc,"xgboost::tree::ColMaker::Builder::EnumerateSplit( const Entry * begin , const Entry * end , int d_step , bst_uint fid , const std :: vector<GradientPair> & gpair , const MetaInfo & info , std :: vector<ThreadEntry> & temp)",83, 98, 10, 0
+repos/cpp/xgboost/src/tree/updater_colmaker.cc,"xgboost::tree::ColMaker::Builder::UpdateSolution( const SparsePage & batch , const std :: vector<int> & feat_set , const std :: vector<GradientPair> & gpair , DMatrix * p_fmat)",37, 96, 6, 0
+repos/cpp/xgboost/src/tree/updater_colmaker.cc,"xgboost::tree::ColMaker::Builder::FindSplit( int depth , const std :: vector<int> & qexpand , const std :: vector<GradientPair> & gpair , DMatrix * p_fmat , RegTree * p_tree)",32, 88, 6, 0
+repos/cpp/xgboost/src/tree/updater_colmaker.cc,"xgboost::tree::ColMaker::Builder::ResetPosition( const std :: vector<int> & qexpand , DMatrix * p_fmat , const RegTree & tree)",31, 87, 12, 0
+repos/cpp/xgboost/src/tree/updater_colmaker.cc,"xgboost::tree::ColMaker::Builder::SyncBestSolution( const std :: vector<int> & qexpand)",8, 69, 4, 0
+repos/cpp/xgboost/src/tree/updater_colmaker.cc,"xgboost::tree::ColMaker::Builder::SetNonDefaultPosition( const std :: vector<int> & qexpand , DMatrix * p_fmat , const RegTree & tree)",33, 85, 6, 0
+repos/cpp/xgboost/src/tree/updater_colmaker.cc,"xgboost::tree::ColMaker::Builder::DecodePosition( bst_uint ridx) const",4, 53, 4, 0
+repos/cpp/xgboost/src/tree/updater_colmaker.cc,"xgboost::tree::ColMaker::Builder::SetEncodePosition( bst_uint ridx , int nid)",7, 60, 4, 0
+repos/cpp/xgboost/src/tree/updater_colmaker.cc,"xgboost::tree::DistColMaker::Init( const std :: vector<std::pair<std::string,std::string>> & args)",7, 86, 2, 0
+repos/cpp/xgboost/src/tree/updater_colmaker.cc,"xgboost::tree::DistColMaker::Update( HostDeviceVector<GradientPair> * gpair , DMatrix * dmat , const std :: vector<RegTree*> & trees)",14, 83, 4, 0
+repos/cpp/xgboost/src/tree/updater_colmaker.cc,"xgboost::tree::DistColMaker::Builder::Builder( const TrainParam & param , std :: unique_ptr<SplitEvaluator> spliteval)",3, 64, 21, 0
+repos/cpp/xgboost/src/tree/updater_colmaker.cc,"xgboost::tree::DistColMaker::Builder::UpdatePosition( DMatrix * p_fmat , const RegTree & tree)",12, 77, 6, 0
+repos/cpp/xgboost/src/tree/updater_colmaker.cc,"xgboost::tree::DistColMaker::Builder::GetLeafPosition() const",3, 48, 4, 0
+repos/cpp/xgboost/src/tree/updater_colmaker.cc,"xgboost::tree::DistColMaker::Builder::SetNonDefaultPosition( const std :: vector<int> & qexpand , DMatrix * p_fmat , const RegTree & tree)",62, 93, 6, 0
+repos/cpp/xgboost/src/tree/updater_colmaker.cc,"xgboost::tree::DistColMaker::Builder::SyncBestSolution( const std :: vector<int> & qexpand)",17, 70, 4, 0
+repos/cpp/xgboost/src/linear/updater_shotgun.cc,"xgboost::linear::ShotgunUpdater::Init( const std :: vector<std::pair<std::string,std::string>> & args)",9, 86, 2, 0
+repos/cpp/xgboost/src/linear/updater_shotgun.cc,"xgboost::linear::ShotgunUpdater::Update( HostDeviceVector<GradientPair> * in_gpair , DMatrix * p_fmat , gbm :: GBLinearModel * model , double sum_instance_weight)",55, 87, 6, 0
+repos/cpp/xgboost/src/linear/updater_coordinate.cc,"xgboost::linear::CoordinateUpdater::Init( const std :: vector<std::pair<std::string,std::string>> & args)",9, 80, 6, 0
+repos/cpp/xgboost/src/linear/updater_coordinate.cc,"xgboost::linear::CoordinateUpdater::Update( HostDeviceVector<GradientPair> * in_gpair , DMatrix * p_fmat , gbm :: GBLinearModel * model , double sum_instance_weight)",30, 86, 8, 0
+repos/cpp/xgboost/src/linear/updater_coordinate.cc,"xgboost::linear::CoordinateUpdater::UpdateFeature( int fidx , int group_idx , std :: vector<GradientPair> * in_gpair , DMatrix * p_fmat , gbm :: GBLinearModel * model)",13, 90, 2, 0
+repos/cpp/xgboost/src/linear/linear_updater.cc,"xgboost::LinearUpdater::Create( const std :: string & name)",7, 79, 2, 0
+repos/cpp/xgboost/src/objective/rank_obj.cc,"xgboost::obj::LambdaRankParam::DMLC_DECLARE_PARAMETER( LambdaRankParam)",7, 80, 4, 0
+repos/cpp/xgboost/src/objective/rank_obj.cc,"xgboost::obj::LambdaRankObj::Configure( const std :: vector<std::pair<std::string,std::string>> & args)",3, 91, 2, 0
+repos/cpp/xgboost/src/objective/rank_obj.cc,"xgboost::obj::LambdaRankObj::GetGradient( const HostDeviceVector<bst_float> & preds , const MetaInfo & info , int iter , HostDeviceVector<GradientPair> * out_gpair)",88, 101, 8, 0
+repos/cpp/xgboost/src/objective/rank_obj.cc,"xgboost::obj::LambdaRankObj::DefaultEvalMetric() const",3, 51, 2, 0
+repos/cpp/xgboost/src/objective/rank_obj.cc,"xgboost::obj::LambdaRankObj::ListEntry::ListEntry( bst_float pred , bst_float label , unsigned rindex)",2, 64, 4, 0
+repos/cpp/xgboost/src/objective/rank_obj.cc,"xgboost::obj::LambdaRankObj::ListEntry::CmpPred( const ListEntry & a , const ListEntry & b)",3, 73, 4, 0
+repos/cpp/xgboost/src/objective/rank_obj.cc,"xgboost::obj::LambdaRankObj::ListEntry::CmpLabel( const ListEntry & a , const ListEntry & b)",3, 74, 4, 0
+repos/cpp/xgboost/src/objective/rank_obj.cc,"xgboost::obj::LambdaRankObj::LambdaPair::LambdaPair( unsigned pos_index , unsigned neg_index)",2, 70, 8, 0
+repos/cpp/xgboost/src/objective/rank_obj.cc,"xgboost::obj::LambdaRankObj::LambdaPair::LambdaPair( unsigned pos_index , unsigned neg_index , bst_float weight)",2, 73, 4, 0
+repos/cpp/xgboost/src/objective/rank_obj.cc,"xgboost::obj::PairwiseRankObj::GetLambdaWeight( const std :: vector<ListEntry> & sorted_list , std :: vector<LambdaPair> * io_pairs)",2, 70, 23, 0
+repos/cpp/xgboost/src/objective/rank_obj.cc,"xgboost::obj::LambdaRankObjNDCG::GetLambdaWeight( const std :: vector<ListEntry> & sorted_list , std :: vector<LambdaPair> * io_pairs)",35, 87, 12, 0
+repos/cpp/xgboost/src/objective/rank_obj.cc,"xgboost::obj::LambdaRankObjNDCG::CalcDCG( const std :: vector<bst_float> & labels)",10, 79, 8, 0
+repos/cpp/xgboost/src/objective/rank_obj.cc,"xgboost::obj::LambdaRankObjMAP::MAPStats::MAPStats( float ap_acc , float ap_acc_miss , float ap_acc_add , float hits)",2, 90, 8, 0
+repos/cpp/xgboost/src/objective/rank_obj.cc,"xgboost::obj::LambdaRankObjMAP::GetLambdaMAP( const std :: vector<ListEntry> & sorted_list , int index1 , int index2 , std :: vector<MAPStats> * p_map_stats)",26, 84, 6, 0
+repos/cpp/xgboost/src/objective/rank_obj.cc,"xgboost::obj::LambdaRankObjMAP::GetMAPStats( const std :: vector<ListEntry> & sorted_list , std :: vector<MAPStats> * p_map_acc)",15, 69, 2, 0
+repos/cpp/xgboost/src/objective/rank_obj.cc,"xgboost::obj::LambdaRankObjMAP::GetLambdaWeight( const std :: vector<ListEntry> & sorted_list , std :: vector<LambdaPair> * io_pairs)",11, 69, 23, 0
+repos/cpp/xgboost/src/objective/objective.cc,"xgboost::ObjFunction::Create( const std :: string & name)",10, 85, 4, 0
+repos/cpp/xgboost/src/common/common.cc,"xgboost::common::GlobalRandom()",3, 48, 2, 0
+repos/cpp/xgboost/src/common/common.cc,"xgboost::AllVisibleImpl::AllVisible()",3, 35, 0, 0
+repos/cpp/xgboost/src/common/host_device_vector.cc,"xgboost::HostDeviceVectorImpl::HostDeviceVectorImpl( size_t size , T v)",1, 89, 2, 0
+repos/cpp/xgboost/src/common/host_device_vector.cc,"xgboost::HostDeviceVectorImpl::HostDeviceVectorImpl( std :: initializer_list<T> init)",1, 90, 2, 0
+repos/cpp/xgboost/src/common/host_device_vector.cc,"xgboost::HostDeviceVectorImpl::HostDeviceVectorImpl( std :: vector<T> init)",1, 101, 2, 0
+repos/cpp/xgboost/src/common/host_device_vector.cc,"xgboost::HostDeviceVector<T>::HostDeviceVector( size_t size , T v , GPUDistribution distribution)",4, 86, 0, 0
+repos/cpp/xgboost/src/common/host_device_vector.cc,"xgboost::HostDeviceVector<T>::HostDeviceVector( std :: initializer_list<T> init , GPUDistribution distribution)",4, 99, 0, 0
+repos/cpp/xgboost/src/common/host_device_vector.cc,"xgboost::HostDeviceVector<T>::HostDeviceVector( const std :: vector<T> & init , GPUDistribution distribution)",4, 96, 0, 0
+repos/cpp/xgboost/src/common/host_device_vector.cc,"xgboost::HostDeviceVector<T>::~HostDeviceVector()",5, 43, 0, 0
+repos/cpp/xgboost/src/common/host_device_vector.cc,"xgboost::HostDeviceVector<T>::HostDeviceVector( const HostDeviceVector<T> & other)",4, 72, 0, 0
+repos/cpp/xgboost/src/common/host_device_vector.cc,"xgboost::HostDeviceVector<T>::operator =( const HostDeviceVector<T> & other)",8, 88, 0, 0
+repos/cpp/xgboost/src/common/host_device_vector.cc,"xgboost::HostDeviceVector<T>::Size() const",1, 75, 0, 0
+repos/cpp/xgboost/src/common/host_device_vector.cc,"xgboost::HostDeviceVector<T>::Devices() const",1, 72, 0, 0
+repos/cpp/xgboost/src/common/host_device_vector.cc,"xgboost::HostDeviceVector<T>::Distribution() const",3, 67, 0, 0
+repos/cpp/xgboost/src/common/host_device_vector.cc,"xgboost::HostDeviceVector<T>::DevicePointer( int device)",1, 70, 0, 0
+repos/cpp/xgboost/src/common/host_device_vector.cc,"xgboost::HostDeviceVector<T>::ConstDevicePointer( int device) const",3, 69, 0, 0
+repos/cpp/xgboost/src/common/host_device_vector.cc,"xgboost::HostDeviceVector<T>::DeviceSpan( int device)",3, 62, 0, 0
+repos/cpp/xgboost/src/common/host_device_vector.cc,"xgboost::HostDeviceVector<T>::ConstDeviceSpan( int device) const",3, 79, 0, 0
+repos/cpp/xgboost/src/common/host_device_vector.cc,"xgboost::HostDeviceVector<T>::HostVector()",1, 77, 0, 0
+repos/cpp/xgboost/src/common/host_device_vector.cc,"xgboost::HostDeviceVector<T>::ConstHostVector() const",3, 69, 0, 0
+repos/cpp/xgboost/src/common/host_device_vector.cc,"xgboost::HostDeviceVector<T>::Resize( size_t new_size , T v)",3, 57, 0, 0
+repos/cpp/xgboost/src/common/host_device_vector.cc,"xgboost::HostDeviceVector<T>::DeviceStart( int device) const",1, 72, 0, 0
+repos/cpp/xgboost/src/common/host_device_vector.cc,"xgboost::HostDeviceVector<T>::DeviceSize( int device) const",1, 71, 0, 0
+repos/cpp/xgboost/src/common/host_device_vector.cc,"xgboost::HostDeviceVector<T>::Fill( T v)",3, 58, 2, 0
+repos/cpp/xgboost/src/common/host_device_vector.cc,"xgboost::HostDeviceVector<T>::Copy( const HostDeviceVector<T> & other)",4, 89, 2, 0
+repos/cpp/xgboost/src/common/host_device_vector.cc,"xgboost::HostDeviceVector<T>::Copy( const std :: vector<T> & other)",4, 63, 2, 0
+repos/cpp/xgboost/src/common/host_device_vector.cc,"xgboost::HostDeviceVector<T>::Copy( std :: initializer_list<T> other)",4, 65, 0, 0
+repos/cpp/xgboost/src/common/host_device_vector.cc,"xgboost::HostDeviceVector<T>::HostCanAccess( GPUAccess access) const",3, 66, 0, 0
+repos/cpp/xgboost/src/common/host_device_vector.cc,"xgboost::HostDeviceVector<T>::DeviceCanAccess( int device , GPUAccess access) const",3, 80, 0, 0
+repos/cpp/xgboost/src/common/host_device_vector.cc,"xgboost::HostDeviceVector<T>::Reshard( const GPUDistribution & distribution) const",1, 81, 0, 0
+repos/cpp/xgboost/src/common/host_device_vector.cc,"xgboost::HostDeviceVector<T>::Reshard( GPUSet devices) const",1, 60, 0, 0
+repos/cpp/xgboost/src/common/hist_util.cc,"xgboost::common::HistCutMatrix::HistCutMatrix()",3, 34, 2, 0
+repos/cpp/xgboost/src/common/hist_util.cc,"xgboost::common::HistCutMatrix::SearchGroupIndFromBaseRow( std :: vector<bst_uint> const & group_ptr , size_t const base_rowid) const",12, 84, 2, 0
+repos/cpp/xgboost/src/common/hist_util.cc,"xgboost::common::HistCutMatrix::Init( DMatrix * p_fmat , uint32_t max_num_bins)",64, 81, 2, 0
+repos/cpp/xgboost/src/common/hist_util.cc,"xgboost::common::HistCutMatrix::Init( std :: vector<WXQSketch> * in_sketchs , uint32_t max_num_bins)",55, 84, 2, 0
+repos/cpp/xgboost/src/common/hist_util.cc,"xgboost::common::HistCutMatrix::GetBinIdx( const Entry & e)",12, 58, 2, 0
+repos/cpp/xgboost/src/common/hist_util.cc,"xgboost::common::GHistIndexMatrix::Init( DMatrix * p_fmat , int max_num_bins)",46, 67, 4, 0
+repos/cpp/xgboost/src/common/hist_util.cc,"xgboost::common::GetConflictCount( const std :: vector<bool> & mark , const Column & column , size_t max_cnt)",25, 91, 6, 0
+repos/cpp/xgboost/src/common/hist_util.cc,"xgboost::common::MarkUsed( std :: vector<bool> * p_mark , const Column & column)",14, 80, 6, 0
+repos/cpp/xgboost/src/common/hist_util.cc,"xgboost::common::FindGroups( const std :: vector<unsigned> & feature_list , const std :: vector<size_t> & feature_nnz , const ColumnMatrix & colmat , size_t nrow , const tree :: TrainParam & param)",62, 87, 4, 0
+repos/cpp/xgboost/src/common/hist_util.cc,"xgboost::common::FastFeatureGrouping( const GHistIndexMatrix & gmat , const ColumnMatrix & colmat , const tree :: TrainParam & param)",53, 88, 2, 0
+repos/cpp/xgboost/src/common/hist_util.cc,"xgboost::common::GHistIndexBlockMatrix::Init( const GHistIndexMatrix & gmat , const ColumnMatrix & colmat , const tree :: TrainParam & param)",63, 99, 4, 0
+repos/cpp/xgboost/src/common/hist_util.cc,"xgboost::common::GHistBuilder::BuildHist( const std :: vector<GradientPair> & gpair , const RowSetCollection :: Elem row_indices , const GHistIndexMatrix & gmat , GHistRow hist)",90, 93, 6, 0
+repos/cpp/xgboost/src/common/hist_util.cc,"xgboost::common::GHistBuilder::BuildBlockHist( const std :: vector<GradientPair> & gpair , const RowSetCollection :: Elem row_indices , const GHistIndexBlockMatrix & gmatb , GHistRow hist)",49, 76, 34, 0
+repos/cpp/xgboost/src/common/hist_util.cc,"xgboost::common::GHistBuilder::SubtractionTrick( GHistRow self , GHistRow sibling , GHistRow parent)",31, 88, 0, 0
+repos/cpp/xgboost/src/gbm/gbm.cc,"xgboost::GradientBooster::Create( const std :: string & name , const std :: vector<std::shared_ptr<DMatrix>> & cache_mats , bst_float base_margin)",10, 81, 2, 0
+repos/cpp/xgboost/src/gbm/gblinear.cc,"xgboost::gbm::GBLinearTrainParam::DMLC_DECLARE_PARAMETER( GBLinearTrainParam)",12, 86, 8, 0
+repos/cpp/xgboost/src/gbm/gblinear.cc,"xgboost::gbm::GBLinear::GBLinear( const std :: vector<std::shared_ptr<DMatrix>> & cache , bst_float base_margin)",13, 73, 2, 0
+repos/cpp/xgboost/src/gbm/gblinear.cc,"xgboost::gbm::GBLinear::Configure( const std :: vector<std::pair<std::string,std::string>> & cfg)",9, 90, 2, 0
+repos/cpp/xgboost/src/gbm/gblinear.cc,"xgboost::gbm::GBLinear::Load( dmlc :: Stream * fi)",3, 41, 2, 0
+repos/cpp/xgboost/src/gbm/gblinear.cc,"xgboost::gbm::GBLinear::Save( dmlc :: Stream * fo) const",3, 47, 2, 0
+repos/cpp/xgboost/src/gbm/gblinear.cc,"xgboost::gbm::GBLinear::DoBoost( DMatrix * p_fmat , HostDeviceVector<GradientPair> * in_gpair , ObjFunction * obj)",15, 73, 6, 0
+repos/cpp/xgboost/src/gbm/gblinear.cc,"xgboost::gbm::GBLinear::PredictBatch( DMatrix * p_fmat , HostDeviceVector<bst_float> * out_preds , unsigned ntree_limit)",18, 74, 8, 0
+repos/cpp/xgboost/src/gbm/gblinear.cc,"xgboost::gbm::GBLinear::PredictInstance( const SparsePage :: Inst & inst , std :: vector<bst_float> * out_preds , unsigned ntree_limit , unsigned root_index)",9, 71, 6, 0
+repos/cpp/xgboost/src/gbm/gblinear.cc,"xgboost::gbm::GBLinear::PredictLeaf( DMatrix * p_fmat , std :: vector<bst_float> * out_preds , unsigned ntree_limit)",5, 72, 4, 0
+repos/cpp/xgboost/src/gbm/gblinear.cc,"xgboost::gbm::GBLinear::PredictContribution( DMatrix * p_fmat , std :: vector<bst_float> * out_contribs , unsigned ntree_limit , bool approximate , int condition = 0 , unsigned condition_feature = 0)",38, 94, 12, 0
+repos/cpp/xgboost/src/gbm/gblinear.cc,"xgboost::gbm::GBLinear::PredictInteractionContributions( DMatrix * p_fmat , std :: vector<bst_float> * out_contribs , unsigned ntree_limit , bool approximate)",10, 91, 5, 0
+repos/cpp/xgboost/src/gbm/gblinear.cc,"xgboost::gbm::GBLinear::DumpModel( const FeatureMap & fmap , bool with_stats , std :: string format) const",5, 74, 37, 0
+repos/cpp/xgboost/src/gbm/gblinear.cc,"xgboost::gbm::GBLinear::PredictBatchInternal( DMatrix * p_fmat , std :: vector<bst_float> * out_preds)",27, 77, 4, 0
+repos/cpp/xgboost/src/gbm/gblinear.cc,"xgboost::gbm::GBLinear::UpdatePredictionCache()",11, 76, 8, 0
+repos/cpp/xgboost/src/gbm/gblinear.cc,"xgboost::gbm::GBLinear::CheckConvergence()",17, 79, 10, 0
+repos/cpp/xgboost/src/gbm/gblinear.cc,"xgboost::gbm::GBLinear::LazySumWeights( DMatrix * p_fmat)",9, 51, 6, 0
+repos/cpp/xgboost/src/gbm/gblinear.cc,"xgboost::gbm::GBLinear::Pred( const SparsePage :: Inst & inst , bst_float * preds , int gid , bst_float base)",9, 76, 2, 0
+repos/cpp/xgboost/src/gbm/gbtree.cc,"xgboost::gbm::GBTreeTrainParam::DMLC_DECLARE_PARAMETER( GBTreeTrainParam)",21, 88, 8, 0
+repos/cpp/xgboost/src/gbm/gbtree.cc,"xgboost::gbm::DartTrainParam::DMLC_DECLARE_PARAMETER( DartTrainParam)",28, 93, 8, 0
+repos/cpp/xgboost/src/gbm/gbtree.cc,"xgboost::gbm::GBTree::GBTree( bst_float base_margin)",1, 66, 2, 0
+repos/cpp/xgboost/src/gbm/gbtree.cc,"xgboost::gbm::GBTree::InitCache( const std :: vector<std::shared_ptr<DMatrix>> & cache)",3, 72, 2, 0
+repos/cpp/xgboost/src/gbm/gbtree.cc,"xgboost::gbm::GBTree::Configure( const std :: vector<std::pair<std::string,std::string>> & cfg)",20, 90, 2, 0
+repos/cpp/xgboost/src/gbm/gbtree.cc,"xgboost::gbm::GBTree::Load( dmlc :: Stream * fi)",7, 84, 39, 0
+repos/cpp/xgboost/src/gbm/gbtree.cc,"xgboost::gbm::GBTree::Save( dmlc :: Stream * fo) const",3, 47, 2, 0
+repos/cpp/xgboost/src/gbm/gbtree.cc,"xgboost::gbm::GBTree::AllowLazyCheckPoint() const",4, 66, 8, 0
+repos/cpp/xgboost/src/gbm/gbtree.cc,"xgboost::gbm::GBTree::DoBoost( DMatrix * p_fmat , HostDeviceVector<GradientPair> * in_gpair , ObjFunction * obj)",35, 82, 6, 0
+repos/cpp/xgboost/src/gbm/gbtree.cc,"xgboost::gbm::GBTree::PredictBatch( DMatrix * p_fmat , HostDeviceVector<bst_float> * out_preds , unsigned ntree_limit)",5, 73, 4, 0
+repos/cpp/xgboost/src/gbm/gbtree.cc,"xgboost::gbm::GBTree::PredictInstance( const SparsePage :: Inst & inst , std :: vector<bst_float> * out_preds , unsigned ntree_limit , unsigned root_index)",7, 57, 4, 0
+repos/cpp/xgboost/src/gbm/gbtree.cc,"xgboost::gbm::GBTree::PredictLeaf( DMatrix * p_fmat , std :: vector<bst_float> * out_preds , unsigned ntree_limit)",5, 69, 4, 0
+repos/cpp/xgboost/src/gbm/gbtree.cc,"xgboost::gbm::GBTree::PredictContribution( DMatrix * p_fmat , std :: vector<bst_float> * out_contribs , unsigned ntree_limit , bool approximate , int condition , unsigned condition_feature)",6, 93, 4, 0
+repos/cpp/xgboost/src/gbm/gbtree.cc,"xgboost::gbm::GBTree::PredictInteractionContributions( DMatrix * p_fmat , std :: vector<bst_float> * out_contribs , unsigned ntree_limit , bool approximate)",6, 90, 39, 0
+repos/cpp/xgboost/src/gbm/gbtree.cc,"xgboost::gbm::GBTree::DumpModel( const FeatureMap & fmap , bool with_stats , std :: string format) const",5, 74, 37, 0
+repos/cpp/xgboost/src/gbm/gbtree.cc,"xgboost::gbm::GBTree::InitUpdater()",10, 74, 6, 0
+repos/cpp/xgboost/src/gbm/gbtree.cc,"xgboost::gbm::GBTree::BoostNewTrees( HostDeviceVector<GradientPair> * gpair , DMatrix * p_fmat , int bst_group , std :: vector<std::unique_ptr<RegTree>> * ret)",29, 75, 28, 0
+repos/cpp/xgboost/src/gbm/gbtree.cc,"xgboost::gbm::GBTree::CommitModel( std :: vector<std::vector<std::unique_ptr<RegTree>>> && new_trees)",8, 80, 2, 0
+repos/cpp/xgboost/src/gbm/gbtree.cc,"xgboost::gbm::Dart::Dart( bst_float base_margin)",1, 64, 2, 0
+repos/cpp/xgboost/src/gbm/gbtree.cc,"xgboost::gbm::Dart::Configure( const std :: vector<std::pair<std::string,std::string>> & cfg)",6, 90, 2, 0
+repos/cpp/xgboost/src/gbm/gbtree.cc,"xgboost::gbm::Dart::Load( dmlc :: Stream * fi)",7, 49, 4, 0
+repos/cpp/xgboost/src/gbm/gbtree.cc,"xgboost::gbm::Dart::Save( dmlc :: Stream * fo) const",6, 47, 2, 0
+repos/cpp/xgboost/src/gbm/gbtree.cc,"xgboost::gbm::Dart::PredictBatch( DMatrix * p_fmat , HostDeviceVector<bst_float> * out_preds , unsigned ntree_limit)",6, 84, 4, 0
+repos/cpp/xgboost/src/gbm/gbtree.cc,"xgboost::gbm::Dart::PredictInstance( const SparsePage :: Inst & inst , std :: vector<bst_float> * out_preds , unsigned ntree_limit , unsigned root_index)",21, 78, 22, 0
+repos/cpp/xgboost/src/gbm/gbtree.cc,"xgboost::gbm::Dart::PredLoopInternal( DMatrix * p_fmat , std :: vector<bst_float> * out_preds , unsigned tree_begin , unsigned ntree_limit , bool init_out_preds)",33, 79, 8, 0
+repos/cpp/xgboost/src/gbm/gbtree.cc,"xgboost::gbm::Dart::PredLoopSpecalize( DMatrix * p_fmat , std :: vector<bst_float> * out_preds , int num_group , unsigned tree_begin , unsigned tree_end)",54, 70, 8, 0
+repos/cpp/xgboost/src/gbm/gbtree.cc,"xgboost::gbm::Dart::CommitModel( std :: vector<std::vector<std::unique_ptr<RegTree>>> && new_trees)",10, 89, 2, 0
+repos/cpp/xgboost/src/gbm/gbtree.cc,"xgboost::gbm::Dart::PredValue( const SparsePage :: Inst & inst , int bst_group , unsigned root_index , RegTree :: FVec * p_feats , unsigned tree_begin , unsigned tree_end)",20, 81, 8, 0
+repos/cpp/xgboost/src/gbm/gbtree.cc,"xgboost::gbm::Dart::DropTrees( unsigned ntree_limit_drop)",44, 101, 10, 0
+repos/cpp/xgboost/src/gbm/gbtree.cc,"xgboost::gbm::Dart::NormalizeTrees( size_t size_new_trees)",32, 61, 4, 0
+repos/cpp/xgboost/src/gbm/gbtree.cc,"xgboost::gbm::Dart::InitThreadTemp( int nthread)",9, 62, 6, 0
+repos/cpp/xgboost/src/predictor/cpu_predictor.cc,"xgboost::predictor::CPUPredictor::PredValue( const SparsePage :: Inst & inst , const std :: vector<std::unique_ptr<RegTree>> & trees , const std :: vector<int> & tree_info , int bst_group , unsigned root_index , RegTree :: FVec * p_feats , unsigned tree_begin , unsigned tree_end)",16, 81, 29, 0
+repos/cpp/xgboost/src/predictor/cpu_predictor.cc,"xgboost::predictor::CPUPredictor::InitThreadTemp( int nthread , int num_feature)",9, 62, 6, 0
+repos/cpp/xgboost/src/predictor/cpu_predictor.cc,"xgboost::predictor::CPUPredictor::PredLoopSpecalize( DMatrix * p_fmat , std :: vector<bst_float> * out_preds , const gbm :: GBTreeModel & model , int num_group , unsigned tree_begin , unsigned tree_end)",51, 81, 30, 0
+repos/cpp/xgboost/src/predictor/cpu_predictor.cc,"xgboost::predictor::CPUPredictor::PredLoopInternal( DMatrix * dmat , std :: vector<bst_float> * out_preds , const gbm :: GBTreeModel & model , int tree_begin , unsigned ntree_limit)",7, 78, 4, 0
+repos/cpp/xgboost/src/predictor/cpu_predictor.cc,"xgboost::predictor::CPUPredictor::PredictFromCache( DMatrix * dmat , HostDeviceVector<bst_float> * out_preds , const gbm :: GBTreeModel & model , unsigned ntree_limit)",19, 76, 8, 0
+repos/cpp/xgboost/src/predictor/cpu_predictor.cc,"xgboost::predictor::CPUPredictor::InitOutPredictions( const MetaInfo & info , HostDeviceVector<bst_float> * out_preds , const gbm :: GBTreeModel & model) const",29, 84, 8, 0
+repos/cpp/xgboost/src/predictor/cpu_predictor.cc,"xgboost::predictor::CPUPredictor::PredictBatch( DMatrix * dmat , HostDeviceVector<bst_float> * out_preds , const gbm :: GBTreeModel & model , int tree_begin , unsigned ntree_limit = 0)",17, 75, 2, 0
+repos/cpp/xgboost/src/predictor/cpu_predictor.cc,"xgboost::predictor::CPUPredictor::UpdatePredictionCache( const gbm :: GBTreeModel & model , std :: vector<std::unique_ptr<TreeUpdater>> * updaters , int num_new_trees)",24, 88, 8, 0
+repos/cpp/xgboost/src/predictor/cpu_predictor.cc,"xgboost::predictor::CPUPredictor::PredictInstance( const SparsePage :: Inst & inst , std :: vector<bst_float> * out_preds , const gbm :: GBTreeModel & model , unsigned ntree_limit , unsigned root_index)",22, 76, 23, 0
+repos/cpp/xgboost/src/predictor/cpu_predictor.cc,"xgboost::predictor::CPUPredictor::PredictLeaf( DMatrix * p_fmat , std :: vector<bst_float> * out_preds , const gbm :: GBTreeModel & model , unsigned ntree_limit)",30, 83, 19, 0
+repos/cpp/xgboost/src/predictor/cpu_predictor.cc,"xgboost::predictor::CPUPredictor::PredictContribution( DMatrix * p_fmat , std :: vector<bst_float> * out_contribs , const gbm :: GBTreeModel & model , unsigned ntree_limit , bool approximate , int condition , unsigned condition_feature)",64, 88, 14, 0
+repos/cpp/xgboost/src/predictor/cpu_predictor.cc,"xgboost::predictor::CPUPredictor::PredictInteractionContributions( DMatrix * p_fmat , std :: vector<bst_float> * out_contribs , const gbm :: GBTreeModel & model , unsigned ntree_limit , bool approximate)",43, 101, 14, 0
+repos/cpp/xgboost/src/predictor/predictor.cc,"xgboost::Predictor::Init( const std :: vector<std::pair<std::string,std::string>> & cfg , const std :: vector<std::shared_ptr<DMatrix>> & cache)",7, 65, 4, 0
+repos/cpp/xgboost/src/predictor/predictor.cc,"xgboost::Predictor::Create( std :: string name)",7, 63, 2, 0
+repos/cpp/xgboost/src/metric/multiclass_metric.cc,"xgboost::metric::EvalMClassBase::Eval( const HostDeviceVector<bst_float> & preds , const MetaInfo & info , bool distributed)",41, 83, 8, 0
+repos/cpp/xgboost/src/metric/multiclass_metric.cc,"xgboost::metric::EvalMClassBase::GetFinal( bst_float esum , bst_float wsum)",3, 69, 2, 0
+repos/cpp/xgboost/src/metric/multiclass_metric.cc,"xgboost::metric::EvalMatchError::Name() const",3, 38, 2, 0
+repos/cpp/xgboost/src/metric/multiclass_metric.cc,"xgboost::metric::EvalMatchError::EvalRow( int label , const bst_float * pred , size_t nclass)",5, 88, 4, 0
+repos/cpp/xgboost/src/metric/multiclass_metric.cc,"xgboost::metric::EvalMultiLogLoss::Name() const",3, 38, 2, 0
+repos/cpp/xgboost/src/metric/multiclass_metric.cc,"xgboost::metric::EvalMultiLogLoss::EvalRow( int label , const bst_float * pred , size_t nclass)",11, 57, 34, 0
+repos/cpp/xgboost/src/metric/metric.cc,"xgboost::Metric::Create( const std :: string & name)",19, 84, 4, 0
+repos/cpp/xgboost/src/metric/rank_metric.cc,"xgboost::metric::EvalAMS::EvalAMS( const char * param)",8, 42, 8, 0
+repos/cpp/xgboost/src/metric/rank_metric.cc,"xgboost::metric::EvalAMS::Eval( const HostDeviceVector<bst_float> & preds , const MetaInfo & info , bool distributed)",45, 92, 8, 0
+repos/cpp/xgboost/src/metric/rank_metric.cc,"xgboost::metric::EvalAMS::Name() const",3, 38, 2, 0
+repos/cpp/xgboost/src/metric/rank_metric.cc,"xgboost::metric::EvalAuc::Eval( const HostDeviceVector<bst_float> & preds , const MetaInfo & info , bool distributed)",66, 95, 4, 0
+repos/cpp/xgboost/src/metric/rank_metric.cc,"xgboost::metric::EvalAuc::Name() const",3, 38, 2, 0
+repos/cpp/xgboost/src/metric/rank_metric.cc,"xgboost::metric::EvalRankList::Eval( const HostDeviceVector<bst_float> & preds , const MetaInfo & info , bool distributed)",42, 95, 4, 0
+repos/cpp/xgboost/src/metric/rank_metric.cc,"xgboost::metric::EvalRankList::Name() const",3, 38, 2, 0
+repos/cpp/xgboost/src/metric/rank_metric.cc,"xgboost::metric::EvalRankList::EvalRankList( const char * name , const char * param)",18, 63, 2, 0
+repos/cpp/xgboost/src/metric/rank_metric.cc,"xgboost::metric::EvalPrecision::EvalPrecision( const char * name)",1, 74, 2, 0
+repos/cpp/xgboost/src/metric/rank_metric.cc,"xgboost::metric::EvalPrecision::EvalMetric( std :: vector<std::pair<bst_float,unsigned>> & rec) const",9, 92, 2, 0
+repos/cpp/xgboost/src/metric/rank_metric.cc,"xgboost::metric::EvalNDCG::EvalNDCG( const char * name)",1, 70, 2, 0
+repos/cpp/xgboost/src/metric/rank_metric.cc,"xgboost::metric::EvalNDCG::CalcDCG( const std :: vector<std::pair<bst_float,unsigned>> & rec) const",10, 92, 2, 0
+repos/cpp/xgboost/src/metric/rank_metric.cc,"xgboost::metric::EvalNDCG::EvalMetric( std :: vector<std::pair<bst_float,unsigned>> & rec) const",14, 103, 2, 0
+repos/cpp/xgboost/src/metric/rank_metric.cc,"xgboost::metric::EvalMAP::EvalMAP( const char * name)",1, 68, 2, 0
+repos/cpp/xgboost/src/metric/rank_metric.cc,"xgboost::metric::EvalMAP::EvalMetric( std :: vector<std::pair<bst_float,unsigned>> & rec) const",23, 92, 2, 0
+repos/cpp/xgboost/src/metric/rank_metric.cc,"xgboost::metric::EvalCox::Eval( const HostDeviceVector<bst_float> & preds , const MetaInfo & info , bool distributed)",39, 100, 4, 0
+repos/cpp/xgboost/src/metric/rank_metric.cc,"xgboost::metric::EvalCox::Name() const",3, 38, 2, 0
+repos/cpp/xgboost/src/metric/rank_metric.cc,"xgboost::metric::EvalAucPR::Eval( const HostDeviceVector<bst_float> & preds , const MetaInfo & info , bool distributed)",80, 96, 8, 0
+repos/cpp/xgboost/src/metric/rank_metric.cc,"xgboost::metric::EvalAucPR::Name() const",1, 56, 2, 0
+repos/cpp/xgboost/src/data/sparse_page_writer.cc,"xgboost::data::SparsePageWriter::SparsePageWriter( const std :: vector<std::string> & name_shards , const std :: vector<std::string> & format_shards , size_t extra_buffer_capacity)",32, 83, 10, 0
+repos/cpp/xgboost/src/data/sparse_page_writer.cc,"xgboost::data::SparsePageWriter::~SparsePageWriter()",10, 46, 4, 0
+repos/cpp/xgboost/src/data/sparse_page_writer.cc,"xgboost::data::SparsePageWriter::PushWrite( std :: shared_ptr<SparsePage> && page)",4, 71, 0, 0
+repos/cpp/xgboost/src/data/sparse_page_writer.cc,"xgboost::data::SparsePageWriter::Alloc( std :: shared_ptr<SparsePage> * out_page)",9, 70, 0, 0
+repos/cpp/xgboost/src/data/data.cc,"xgboost::MetaInfo::Clear()",9, 42, 2, 0
+repos/cpp/xgboost/src/data/data.cc,"xgboost::MetaInfo::SaveBinary( dmlc :: Stream * fo) const",13, 52, 0, 0
+repos/cpp/xgboost/src/data/data.cc,"xgboost::MetaInfo::LoadBinary( dmlc :: Stream * fi)",19, 98, 2, 0
+repos/cpp/xgboost/src/data/data.cc,"xgboost::MetaTryLoadGroup( const std :: string & fname , std :: vector<unsigned> * group)",13, 84, 2, 0
+repos/cpp/xgboost/src/data/data.cc,"xgboost::MetaTryLoadFloatInfo( const std :: string & fname , std :: vector<bst_float> * data)",12, 84, 2, 0
+repos/cpp/xgboost/src/data/data.cc,"xgboost::MetaInfo::SetInfo( const char * key , const void * dptr , DataType dtype , size_t num)",30, 88, 0, 0
+repos/cpp/xgboost/src/data/data.cc,"xgboost::DMatrix::Load( const std :: string & uri , bool silent , bool load_row_split , const std :: string & file_format)",99, 99, 10, 0
+repos/cpp/xgboost/src/data/data.cc,"xgboost::DMatrix::Create( dmlc :: Parser<uint32_t> * parser , const std :: string & cache_prefix)",20, 80, 4, 0
+repos/cpp/xgboost/src/data/data.cc,"xgboost::DMatrix::SaveToLocalFile( const std :: string & fname)",6, 78, 2, 0
+repos/cpp/xgboost/src/data/data.cc,"xgboost::DMatrix::Create( std :: unique_ptr<DataSource> && source , const std :: string & cache_prefix)",13, 73, 4, 0
+repos/cpp/xgboost/src/data/data.cc,"xgboost::data::SparsePageFormat::Create( const std :: string & name)",7, 88, 2, 0
+repos/cpp/xgboost/src/data/data.cc,"xgboost::data::SparsePageFormat::DecideFormat( const std :: string & cache_prefix)",16, 86, 6, 0
+repos/cpp/xgboost/src/data/data.cc,"xgboost::SparsePage::Push( const SparsePage & batch)",16, 60, 2, 0
+repos/cpp/xgboost/src/data/data.cc,"xgboost::SparsePage::Push( const dmlc :: RowBlock<uint32_t> & batch)",16, 85, 4, 0
+repos/cpp/xgboost/src/data/data.cc,"xgboost::SparsePage::PushCSC( const SparsePage & batch)",54, 74, 2, 0
+repos/cpp/xgboost/src/data/sparse_page_source.cc,"GetCacheShards( const std :: string & cache_info)",13, 65, 4, 0
+repos/cpp/xgboost/src/data/sparse_page_source.cc,"xgboost::data::SparsePageSource::SparsePageSource( const std :: string & cache_info , const std :: string & page_type)",36, 87, 4, 0
+repos/cpp/xgboost/src/data/sparse_page_source.cc,"xgboost::data::SparsePageSource::~SparsePageSource()",3, 40, 0, 0
+repos/cpp/xgboost/src/data/sparse_page_source.cc,"xgboost::data::SparsePageSource::Next()",16, 61, 4, 0
+repos/cpp/xgboost/src/data/sparse_page_source.cc,"xgboost::data::SparsePageSource::BeforeFirst()",7, 39, 0, 0
+repos/cpp/xgboost/src/data/sparse_page_source.cc,"xgboost::data::SparsePageSource::Value() const",3, 52, 0, 0
+repos/cpp/xgboost/src/data/sparse_page_source.cc,"xgboost::data::SparsePageSource::CacheExist( const std :: string & cache_info , const std :: string & page_type)",16, 93, 4, 0
+repos/cpp/xgboost/src/data/sparse_page_source.cc,"xgboost::data::SparsePageSource::CreateRowPage( dmlc :: Parser<uint32_t> * src , const std :: string & cache_info)",94, 81, 23, 0
+repos/cpp/xgboost/src/data/sparse_page_source.cc,"xgboost::data::SparsePageSource::CreatePageFromDMatrix( DMatrix * src , const std :: string & cache_info , const std :: string & page_type)",57, 77, 45, 0
+repos/cpp/xgboost/src/data/sparse_page_source.cc,"xgboost::data::SparsePageSource::CreateRowPage( DMatrix * src , const std :: string & cache_info)",5, 63, 30, 0
+repos/cpp/xgboost/src/data/sparse_page_source.cc,"xgboost::data::SparsePageSource::CreateColumnPage( DMatrix * src , const std :: string & cache_info , bool sorted)",6, 75, 2, 0
+repos/cpp/xgboost/src/data/simple_dmatrix.cc,"xgboost::data::SimpleDMatrix::Info()",1, 58, 0, 0
+repos/cpp/xgboost/src/data/simple_dmatrix.cc,"xgboost::data::SimpleDMatrix::Info() const",1, 70, 0, 0
+repos/cpp/xgboost/src/data/simple_dmatrix.cc,"xgboost::data::SimpleDMatrix::GetColDensity( size_t cidx)",14, 69, 2, 0
+repos/cpp/xgboost/src/data/simple_dmatrix.cc,"xgboost::data::SimpleBatchIteratorImpl::SimpleBatchIteratorImpl( SparsePage * page)",1, 70, 2, 0
+repos/cpp/xgboost/src/data/simple_dmatrix.cc,"xgboost::data::SimpleBatchIteratorImpl::operator *() const",4, 49, 2, 0
+repos/cpp/xgboost/src/data/simple_dmatrix.cc,"xgboost::data::SimpleBatchIteratorImpl::operator ++()",1, 50, 2, 0
+repos/cpp/xgboost/src/data/simple_dmatrix.cc,"xgboost::data::SimpleBatchIteratorImpl::AtEnd() const",1, 59, 2, 0
+repos/cpp/xgboost/src/data/simple_dmatrix.cc,"xgboost::data::SimpleBatchIteratorImpl::Clone()",3, 47, 4, 0
+repos/cpp/xgboost/src/data/simple_dmatrix.cc,"xgboost::data::SimpleDMatrix::GetRowBatches()",5, 80, 2, 0
+repos/cpp/xgboost/src/data/simple_dmatrix.cc,"xgboost::data::SimpleDMatrix::GetColumnBatches()",11, 70, 4, 0
+repos/cpp/xgboost/src/data/simple_dmatrix.cc,"xgboost::data::SimpleDMatrix::GetSortedColumnBatches()",12, 77, 6, 0
+repos/cpp/xgboost/src/data/simple_dmatrix.cc,"xgboost::data::SimpleDMatrix::SingleColBlock() const",1, 60, 0, 0
+repos/cpp/xgboost/src/data/sparse_page_dmatrix.cc,"xgboost::data::SparsePageDMatrix::Info()",3, 38, 0, 0
+repos/cpp/xgboost/src/data/sparse_page_dmatrix.cc,"xgboost::data::SparsePageDMatrix::Info() const",3, 50, 0, 0
+repos/cpp/xgboost/src/data/sparse_page_dmatrix.cc,"xgboost::data::SparseBatchIteratorImpl::SparseBatchIteratorImpl( SparsePageSource * source)",3, 81, 2, 0
+repos/cpp/xgboost/src/data/sparse_page_dmatrix.cc,"xgboost::data::SparseBatchIteratorImpl::operator *() const",1, 76, 2, 0
+repos/cpp/xgboost/src/data/sparse_page_dmatrix.cc,"xgboost::data::SparseBatchIteratorImpl::operator ++()",1, 61, 2, 0
+repos/cpp/xgboost/src/data/sparse_page_dmatrix.cc,"xgboost::data::SparseBatchIteratorImpl::AtEnd() const",1, 50, 2, 0
+repos/cpp/xgboost/src/data/sparse_page_dmatrix.cc,"xgboost::data::SparseBatchIteratorImpl::Clone()",3, 47, 4, 0
+repos/cpp/xgboost/src/data/sparse_page_dmatrix.cc,"xgboost::data::SparsePageDMatrix::GetRowBatches()",7, 70, 2, 0
+repos/cpp/xgboost/src/data/sparse_page_dmatrix.cc,"xgboost::data::SparsePageDMatrix::GetSortedColumnBatches()",13, 79, 6, 0
+repos/cpp/xgboost/src/data/sparse_page_dmatrix.cc,"xgboost::data::SparsePageDMatrix::GetColumnBatches()",12, 74, 4, 0
+repos/cpp/xgboost/src/data/sparse_page_dmatrix.cc,"xgboost::data::SparsePageDMatrix::GetColDensity( size_t cidx)",18, 70, 10, 0
+repos/cpp/xgboost/src/data/sparse_page_dmatrix.cc,"xgboost::data::SparsePageDMatrix::SingleColBlock() const",3, 49, 0, 0
+repos/cpp/xgboost/src/data/simple_csr_source.cc,"xgboost::data::SimpleCSRSource::Clear()",4, 32, 0, 0
+repos/cpp/xgboost/src/data/simple_csr_source.cc,"xgboost::data::SimpleCSRSource::CopyFrom( DMatrix * src)",7, 51, 2, 0
+repos/cpp/xgboost/src/data/simple_csr_source.cc,"xgboost::data::SimpleCSRSource::CopyFrom( dmlc :: Parser<uint32_t> * parser)",61, 96, 4, 0
+repos/cpp/xgboost/src/data/simple_csr_source.cc,"xgboost::data::SimpleCSRSource::LoadBinary( dmlc :: Stream * fi)",8, 93, 2, 0
+repos/cpp/xgboost/src/data/simple_csr_source.cc,"xgboost::data::SimpleCSRSource::SaveBinary( dmlc :: Stream * fo) const",7, 59, 0, 0
+repos/cpp/xgboost/src/data/simple_csr_source.cc,"xgboost::data::SimpleCSRSource::BeforeFirst()",3, 38, 0, 0
+repos/cpp/xgboost/src/data/simple_csr_source.cc,"xgboost::data::SimpleCSRSource::Next()",5, 32, 2, 0
+repos/cpp/xgboost/src/data/simple_csr_source.cc,"xgboost::data::SimpleCSRSource::Value() const",3, 51, 0, 0
+repos/cpp/xgboost/src/data/sparse_page_raw_format.cc,"xgboost::data::SparsePageRawFormat::Read( SparsePage * page , dmlc :: SeekStream * fi)",14, 68, 4, 0
+repos/cpp/xgboost/src/data/sparse_page_raw_format.cc,"xgboost::data::SparsePageRawFormat::Read( SparsePage * page , dmlc :: SeekStream * fi , const std :: vector<bst_uint> & sorted_index_set)",49, 85, 8, 0
+repos/cpp/xgboost/src/data/sparse_page_raw_format.cc,"xgboost::data::SparsePageRawFormat::Write( const SparsePage & page , dmlc :: Stream * fo)",10, 77, 6, 0
+repos/cpp/xgboost/src/c_api/c_api.cc,"xgboost::Booster::Booster( const std :: vector<std::shared_ptr<DMatrix>> & cache_mats)",4, 77, 2, 0
+repos/cpp/xgboost/src/c_api/c_api.cc,"xgboost::Booster::learner()",3, 41, 2, 0
+repos/cpp/xgboost/src/c_api/c_api.cc,"xgboost::Booster::SetParam( const std :: string & name , const std :: string & val)",17, 74, 2, 0
+repos/cpp/xgboost/src/c_api/c_api.cc,"xgboost::Booster::LazyInit()",11, 33, 6, 0
+repos/cpp/xgboost/src/c_api/c_api.cc,"xgboost::Booster::LoadSavedParamFromAttr()",18, 76, 10, 0
+repos/cpp/xgboost/src/c_api/c_api.cc,"xgboost::Booster::LoadModel( dmlc :: Stream * fi)",4, 44, 2, 0
+repos/cpp/xgboost/src/c_api/c_api.cc,"xgboost::NativeDataIter::NativeDataIter( DataIterHandle data_handle , XGBCallbackDataIterNext * next_callback)",5, 68, 9, 0
+repos/cpp/xgboost/src/c_api/c_api.cc,"xgboost::NativeDataIter::BeforeFirst()",3, 55, 4, 0
+repos/cpp/xgboost/src/c_api/c_api.cc,"xgboost::NativeDataIter::Next()",11, 42, 12, 0
+repos/cpp/xgboost/src/c_api/c_api.cc,"xgboost::NativeDataIter::Value() const",3, 59, 2, 0
+repos/cpp/xgboost/src/c_api/c_api.cc,"xgboost::NativeDataIter::BytesRead() const",3, 38, 2, 0
+repos/cpp/xgboost/src/c_api/c_api.cc,"xgboost::NativeDataIter::SetData( const XGBoostBatchCSR & batch)",39, 91, 6, 0
+repos/cpp/xgboost/src/c_api/c_api.cc,"xgboost::XGBoostNativeDataIterSetData( void * handle , XGBoostBatchCSR batch)",6, 65, 2, 0
+repos/cpp/xgboost/src/c_api/c_api.cc,"XGBRegisterLogCallback( void(*callback)(const char*))",6, 67, 2, 0
+repos/cpp/xgboost/src/c_api/c_api.cc,"XGDMatrixCreateFromFile( const char * fname , int silent , DMatrixHandle * out)",13, 90, 2, 0
+repos/cpp/xgboost/src/c_api/c_api.cc,"XGDMatrixCreateFromDataIter( void * data_handle , XGBCallbackDataIterNext * callback , const char * cache_info , DMatrixHandle * out)",15, 73, 2, 0
+repos/cpp/xgboost/src/c_api/c_api.cc,"XGDMatrixCreateFromCSREx( const size_t * indptr , const unsigned * indices , const bst_float * data , size_t nindptr , size_t nelem , size_t num_col , DMatrixHandle * out)",40, 80, 8, 0
+repos/cpp/xgboost/src/c_api/c_api.cc,"XGDMatrixCreateFromCSR( const xgboost :: bst_ulong * indptr , const unsigned * indices , const bst_float * data , xgboost :: bst_ulong nindptr , xgboost :: bst_ulong nelem , DMatrixHandle * out)",13, 71, 4, 0
+repos/cpp/xgboost/src/c_api/c_api.cc,"XGDMatrixCreateFromCSCEx( const size_t * col_ptr , const unsigned * indices , const bst_float * data , size_t nindptr , size_t nelem , size_t num_row , DMatrixHandle * out)",55, 84, 4, 0
+repos/cpp/xgboost/src/c_api/c_api.cc,"XGDMatrixCreateFromCSC( const xgboost :: bst_ulong * col_ptr , const unsigned * indices , const bst_float * data , xgboost :: bst_ulong nindptr , xgboost :: bst_ulong nelem , DMatrixHandle * out)",13, 71, 4, 0
+repos/cpp/xgboost/src/c_api/c_api.cc,"XGDMatrixCreateFromMat( const bst_float * data , xgboost :: bst_ulong nrow , xgboost :: bst_ulong ncol , bst_float missing , DMatrixHandle * out)",53, 82, 10, 0
+repos/cpp/xgboost/src/c_api/c_api.cc,"PrefixSum( size_t * x , size_t N)",30, 72, 4, 0
+repos/cpp/xgboost/src/c_api/c_api.cc,"XGDMatrixCreateFromMat_omp( const bst_float * data , xgboost :: bst_ulong nrow , xgboost :: bst_ulong ncol , bst_float missing , DMatrixHandle * out , int nthread)",82, 94, 4, 0
+repos/cpp/xgboost/src/c_api/c_api.cc,"DTGetType( std :: string type_string)",20, 46, 4, 0
+repos/cpp/xgboost/src/c_api/c_api.cc,"DTGetValue( void * column , DTType dt_type , size_t ridx)",38, 75, 6, 0
+repos/cpp/xgboost/src/c_api/c_api.cc,"XGDMatrixCreateFromDT( void ** data , const char ** feature_stypes , xgboost :: bst_ulong nrow , xgboost :: bst_ulong ncol , DMatrixHandle * out , int nthread)",67, 79, 34, 0
+repos/cpp/xgboost/src/c_api/c_api.cc,"XGDMatrixSliceDMatrix( DMatrixHandle handle , const int * idxset , xgboost :: bst_ulong len , DMatrixHandle * out)",58, 78, 2, 0
+repos/cpp/xgboost/src/c_api/c_api.cc,"XGDMatrixFree( DMatrixHandle handle)",6, 57, 2, 0
+repos/cpp/xgboost/src/c_api/c_api.cc,"XGDMatrixSaveBinary( DMatrixHandle handle , const char * fname , int silent)",8, 81, 2, 0
+repos/cpp/xgboost/src/c_api/c_api.cc,"XGDMatrixSetFloatInfo( DMatrixHandle handle , const char * field , const bst_float * info , xgboost :: bst_ulong len)",10, 59, 6, 0
+repos/cpp/xgboost/src/c_api/c_api.cc,"XGDMatrixSetUIntInfo( DMatrixHandle handle , const char * field , const unsigned * info , xgboost :: bst_ulong len)",10, 58, 6, 0
+repos/cpp/xgboost/src/c_api/c_api.cc,"XGDMatrixSetGroup( DMatrixHandle handle , const unsigned * group , xgboost :: bst_ulong len)",14, 63, 2, 0
+repos/cpp/xgboost/src/c_api/c_api.cc,"XGDMatrixGetFloatInfo( const DMatrixHandle handle , const char * field , xgboost :: bst_ulong * out_len , const bst_float ** out_dptr)",21, 88, 2, 0
+repos/cpp/xgboost/src/c_api/c_api.cc,"XGDMatrixGetUIntInfo( const DMatrixHandle handle , const char * field , xgboost :: bst_ulong * out_len , const unsigned ** out_dptr)",17, 88, 2, 0
+repos/cpp/xgboost/src/c_api/c_api.cc,"XGDMatrixNumRow( const DMatrixHandle handle , xgboost :: bst_ulong * out)",8, 79, 6, 0
+repos/cpp/xgboost/src/c_api/c_api.cc,"XGDMatrixNumCol( const DMatrixHandle handle , xgboost :: bst_ulong * out)",8, 79, 6, 0
+repos/cpp/xgboost/src/c_api/c_api.cc,"XGBoosterCreate( const DMatrixHandle dmats [ ] , xgboost :: bst_ulong len , BoosterHandle * out)",11, 71, 4, 0
+repos/cpp/xgboost/src/c_api/c_api.cc,"XGBoosterFree( BoosterHandle handle)",6, 50, 0, 0
+repos/cpp/xgboost/src/c_api/c_api.cc,"XGBoosterSetParam( BoosterHandle handle , const char * name , const char * value)",8, 56, 2, 0
+repos/cpp/xgboost/src/c_api/c_api.cc,"XGBoosterUpdateOneIter( BoosterHandle handle , int iter , DMatrixHandle dtrain)",13, 59, 35, 0
+repos/cpp/xgboost/src/c_api/c_api.cc,"XGBoosterBoostOneIter( BoosterHandle handle , DMatrixHandle dtrain , bst_float * grad , bst_float * hess , xgboost :: bst_ulong len)",21, 67, 2, 0
+repos/cpp/xgboost/src/c_api/c_api.cc,"XGBoosterEvalOneIter( BoosterHandle handle , int iter , DMatrixHandle dmats [ ] , const char * evnames [ ] , xgboost :: bst_ulong len , const char ** out_str)",23, 82, 4, 0
+repos/cpp/xgboost/src/c_api/c_api.cc,"XGBoosterPredict( BoosterHandle handle , DMatrixHandle dmat , int option_mask , unsigned ntree_limit , xgboost :: bst_ulong * len , const bst_float ** out_result)",26, 61, 29, 0
+repos/cpp/xgboost/src/c_api/c_api.cc,"XGBoosterLoadModel( BoosterHandle handle , const char * fname)",7, 74, 0, 0
+repos/cpp/xgboost/src/c_api/c_api.cc,"XGBoosterSaveModel( BoosterHandle handle , const char * fname)",9, 74, 0, 0
+repos/cpp/xgboost/src/c_api/c_api.cc,"XGBoosterLoadModelFromBuffer( BoosterHandle handle , const void * buf , xgboost :: bst_ulong len)",9, 65, 2, 0
+repos/cpp/xgboost/src/c_api/c_api.cc,"XGBoosterGetModelRaw( BoosterHandle handle , xgboost :: bst_ulong * out_len , const char ** out_dptr)",16, 65, 2, 0
+repos/cpp/xgboost/src/c_api/c_api.cc,"XGBoostDumpModelImpl( BoosterHandle handle , const FeatureMap & fmap , int with_stats , const char * format , xgboost :: bst_ulong * len , const char ** * out_models)",19, 87, 2, 0
+repos/cpp/xgboost/src/c_api/c_api.cc,"XGBoosterDumpModel( BoosterHandle handle , const char * fmap , int with_stats , xgboost :: bst_ulong * len , const char ** * out_models)",7, 82, 2, 0
+repos/cpp/xgboost/src/c_api/c_api.cc,"XGBoosterDumpModelEx( BoosterHandle handle , const char * fmap , int with_stats , const char * format , xgboost :: bst_ulong * len , const char ** * out_models)",18, 78, 2, 0
+repos/cpp/xgboost/src/c_api/c_api.cc,"XGBoosterDumpModelWithFeatures( BoosterHandle handle , int fnum , const char ** fname , const char ** ftype , int with_stats , xgboost :: bst_ulong * len , const char ** * out_models)",10, 82, 2, 0
+repos/cpp/xgboost/src/c_api/c_api.cc,"XGBoosterDumpModelExWithFeatures( BoosterHandle handle , int fnum , const char ** fname , const char ** ftype , int with_stats , const char * format , xgboost :: bst_ulong * len , const char ** * out_models)",17, 78, 2, 0
+repos/cpp/xgboost/src/c_api/c_api.cc,"XGBoosterGetAttr( BoosterHandle handle , const char * key , const char ** out , int * success)",17, 65, 2, 0
+repos/cpp/xgboost/src/c_api/c_api.cc,"XGBoosterSetAttr( BoosterHandle handle , const char * key , const char * value)",13, 51, 0, 0
+repos/cpp/xgboost/src/c_api/c_api.cc,"XGBoosterGetAttrNames( BoosterHandle handle , xgboost :: bst_ulong * out_len , const char ** * out)",17, 87, 2, 0
+repos/cpp/xgboost/src/c_api/c_api.cc,"XGBoosterLoadRabitCheckpoint( BoosterHandle handle , int * version)",11, 63, 0, 0
+repos/cpp/xgboost/src/c_api/c_api.cc,"XGBoosterSaveRabitCheckpoint( BoosterHandle handle)",11, 65, 0, 0
+repos/cpp/xgboost/src/c_api/c_api.cc,"QueryBoosterConfigurationArguments( BoosterHandle handle)",6, 59, 0, 0
+repos/cpp/xgboost/src/c_api/c_api_error.cc,"XGBGetLastError()",3, 54, 2, 0
+repos/cpp/xgboost/src/c_api/c_api_error.cc,"XGBAPISetLastError( const char * msg)",3, 45, 2, 0

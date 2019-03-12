@@ -1,0 +1,297 @@
+File, Function, Length, Total Width, Leading Space(s), Leading Tab(s)
+repos/python/awesome-python-login-model/twitter/twitter_scraper.py,"get_tweets.gen_tweets( pages )",59, 103, 16, 0
+repos/python/awesome-python-login-model/twitter/twitter_scraper.py,"get_tweets( user , pages = 25 )",73, 147, 4, 0
+repos/python/awesome-python-login-model/twitter/setup.py,"status( s )",3, 45, 8, 0
+repos/python/awesome-python-login-model/twitter/setup.py,"initialize_options( self )",2, 34, 4, 0
+repos/python/awesome-python-login-model/twitter/setup.py,"finalize_options( self )",2, 32, 4, 0
+repos/python/awesome-python-login-model/twitter/setup.py,"run( self )",14, 87, 8, 0
+repos/python/awesome-python-login-model/guoke/guoke_spider.py,"get_index( offset )",15, 66, 4, 0
+repos/python/awesome-python-login-model/guoke/guoke_spider.py,"get_url( json )",14, 50, 12, 0
+repos/python/awesome-python-login-model/guoke/guoke_spider.py,"get_text( url )",10, 101, 4, 0
+repos/python/awesome-python-login-model/guoke/guoke_spider.py,"save_article( content )",12, 120, 16, 0
+repos/python/awesome-python-login-model/guoke/guoke_spider.py,"main( offset )",8, 32, 8, 0
+repos/python/awesome-python-login-model/163email/163email.py,"login( )",24, 56, 4, 0
+repos/python/awesome-python-login-model/lagou/Lagou.py,"__init__( self )",8, 102, 8, 0
+repos/python/awesome-python-login-model/lagou/Lagou.py,"encryptPwd( self , passwd )",7, 65, 8, 0
+repos/python/awesome-python-login-model/lagou/Lagou.py,"getTokenCode( self )",23, 84, 16, 0
+repos/python/awesome-python-login-model/lagou/Lagou.py,"getCaptcha( self )",18, 105, 8, 0
+repos/python/awesome-python-login-model/lagou/Lagou.py,"login( self , user , passwd , captchaData = None , token_code = None )",29, 110, 12, 0
+repos/python/awesome-python-login-model/baidu/auto_login.py,"login( name , passwd )",18, 112, 4, 0
+repos/python/awesome-python-login-model/baidu/login_direct.py,"_get_runntime( )",9, 71, 4, 0
+repos/python/awesome-python-login-model/baidu/login_direct.py,"get_gid( )",2, 42, 4, 0
+repos/python/awesome-python-login-model/baidu/login_direct.py,"get_callback( )",2, 47, 4, 0
+repos/python/awesome-python-login-model/baidu/login_direct.py,"_get_curtime( )",2, 35, 4, 0
+repos/python/awesome-python-login-model/baidu/login_direct.py,"get_token( gid , callback )",23, 113, 8, 0
+repos/python/awesome-python-login-model/baidu/login_direct.py,"get_rsa_key( token , gid , callback )",18, 107, 4, 0
+repos/python/awesome-python-login-model/baidu/login_direct.py,"encript_password( password , pubkey )",4, 71, 4, 0
+repos/python/awesome-python-login-model/baidu/login_direct.py,"login( token , gid , callback , rsakey , username , password )",57, 107, 14, 0
+repos/python/awesome-python-login-model/bilibili/bilibili.py,"__init__( self , username , password )",10, 57, 8, 0
+repos/python/awesome-python-login-model/bilibili/bilibili.py,"get_button( self )",7, 96, 8, 0
+repos/python/awesome-python-login-model/bilibili/bilibili.py,"get_screenshot( self , button )",15, 69, 8, 0
+repos/python/awesome-python-login-model/bilibili/bilibili.py,"get_position( self , button )",14, 99, 8, 0
+repos/python/awesome-python-login-model/bilibili/bilibili.py,"get_geetest_image( self , button , name1 = 'captcha1.png' , name2 = 'captcha2.png' )",18, 85, 4, 0
+repos/python/awesome-python-login-model/bilibili/bilibili.py,"login( self )",12, 90, 8, 0
+repos/python/awesome-python-login-model/bilibili/bilibili.py,"is_pixel_equal( self , img1 , img2 , x , y )",17, 102, 8, 0
+repos/python/awesome-python-login-model/bilibili/bilibili.py,"get_gap( self , img1 , img2 )",14, 62, 16, 0
+repos/python/awesome-python-login-model/bilibili/bilibili.py,"get_track( self , distance )",28, 48, 12, 0
+repos/python/awesome-python-login-model/bilibili/bilibili.py,"move_button( self , button , track )",13, 86, 12, 0
+repos/python/awesome-python-login-model/bilibili/bilibili.py,"crack( self )",29, 118, 16, 0
+repos/python/awesome-python-login-model/baidu2/baidu.py,"get_gid( )",13, 67, 16, 0
+repos/python/awesome-python-login-model/baidu2/baidu.py,"get_callback( )",11, 53, 4, 0
+repos/python/awesome-python-login-model/baidu2/baidu.py,"get_password( password_input , pubkey )",6, 71, 4, 0
+repos/python/awesome-python-login-model/baidu2/baidu.py,"get_token( )",24, 81, 4, 0
+repos/python/awesome-python-login-model/baidu2/baidu.py,"get_publickey( token )",14, 86, 4, 0
+repos/python/awesome-python-login-model/baidu2/baidu.py,"login( username , password , key )",36, 91, 8, 0
+repos/python/awesome-python-login-model/douban/douban.py,"get_captcha( )",22, 72, 8, 0
+repos/python/awesome-python-login-model/douban/douban.py,"isLogin( )",11, 64, 29, 0
+repos/python/awesome-python-login-model/douban/douban.py,"login( )",15, 64, 4, 0
+repos/python/awesome-python-login-model/jd_login/Method_Second/main.py,"readCookies( )",11, 48, 4, 0
+repos/python/awesome-python-login-model/jd_login/Method_Second/main.py,"writeCookies( cookies )",6, 41, 4, 0
+repos/python/awesome-python-login-model/jd_login/Method_Second/main.py,"closeSW( iApplyNum )",23, 66, 8, 0
+repos/python/awesome-python-login-model/jd_login/Method_Second/main.py,"genekeys( )",20, 65, 4, 0
+repos/python/awesome-python-login-model/jd_login/Method_Second/main.py,"goodJudge( goodName , goodPrice , keys )",25, 42, 0, 0
+repos/python/awesome-python-login-model/jd_login/Method_Second/main.py,"do_try( url )",43, 171, 12, 0
+repos/python/awesome-python-login-model/jd_login/Method_Second/main.py,"get_try( cid , iApplyNum , maxApplyNum , keys )",70, 99, 12, 0
+repos/python/awesome-python-login-model/jd_login/Method_Second/main.py,"trycid( )",18, 63, 4, 0
+repos/python/awesome-python-login-model/jd_login/Method_Second/main.py,"login( )",88, 138, 4, 0
+repos/python/awesome-python-login-model/jd_login/Method_First/Try_selenium.py,"do_try( url )",26, 171, 12, 0
+repos/python/awesome-python-login-model/jd_login/Method_First/Try_selenium.py,"get_try( page )",47, 89, 4, 0
+repos/python/awesome-python-login-model/jd_login/Method_First/Try_selenium.py,"Control_try( total_page )",11, 63, 8, 0
+repos/python/awesome-python-login-model/jd_login/Method_First/Try_selenium.py,"login( )",12, 68, 4, 0
+repos/python/awesome-python-login-model/jd_login/Method_First/Try_selenium.py,"auto_showdown( )",5, 38, 8, 0
+repos/python/awesome-python-login-model/jd_login/Method_First/Try_selenium.py,"deal_file( )",12, 60, 12, 0
+repos/python/awesome-python-login-model/jd_login/Method_First/Try_selenium.py,"check_name( title )",20, 29, 12, 0
+repos/python/awesome-python-login-model/webWeixin/webWeixin.py,"getUUID( )",25, 87, 4, 0
+repos/python/awesome-python-login-model/webWeixin/webWeixin.py,"showQRImage( )",25, 55, 4, 0
+repos/python/awesome-python-login-model/webWeixin/webWeixin.py,"waitForLogin( )",35, 90, 4, 0
+repos/python/awesome-python-login-model/webWeixin/webWeixin.py,"login( )",47, 78, 4, 0
+repos/python/awesome-python-login-model/webWeixin/webWeixin.py,"webwxinit( )",32, 69, 4, 0
+repos/python/awesome-python-login-model/webWeixin/webWeixin.py,"webwxgetcontact( )",33, 121, 20, 0
+repos/python/awesome-python-login-model/webWeixin/webWeixin.py,"main( )",28, 100, 8, 0
+repos/python/awesome-python-login-model/tuchong/tuchong.py,"get_imageID( term , page )",10, 95, 8, 0
+repos/python/awesome-python-login-model/tuchong/tuchong.py,"parse_imgID( imageID )",10, 37, 12, 0
+repos/python/awesome-python-login-model/tuchong/tuchong.py,"get_ImageJPG( id )",10, 77, 12, 0
+repos/python/awesome-python-login-model/tuchong/tuchong.py,"parse_imgURL( html )",9, 98, 8, 0
+repos/python/awesome-python-login-model/tuchong/tuchong.py,"download_image( url )",9, 49, 8, 0
+repos/python/awesome-python-login-model/tuchong/tuchong.py,"save_image( content )",7, 83, 4, 0
+repos/python/awesome-python-login-model/tuchong/tuchong.py,"main( )",4, 32, 4, 0
+repos/python/awesome-python-login-model/lianjia_spider/lianjia.py,"get_list_page_url( city )",26, 136, 8, 0
+repos/python/awesome-python-login-model/lianjia_spider/lianjia.py,"get_valid_ip( )",7, 38, 4, 0
+repos/python/awesome-python-login-model/lianjia_spider/lianjia.py,"get_detail_page_url( page_url )",27, 136, 8, 0
+repos/python/awesome-python-login-model/lianjia_spider/lianjia.py,"detail_page_parser( res )",57, 136, 8, 0
+repos/python/awesome-python-login-model/lianjia_spider/lianjia.py,"save_data( data , filename )",3, 64, 8, 0
+repos/python/awesome-python-login-model/lianjia_spider/lianjia.py,"main( )",24, 90, 12, 0
+repos/python/awesome-python-login-model/lianjia_spider/pic.py,"load_data( )",15, 54, 4, 0
+repos/python/awesome-python-login-model/lianjia_spider/pic.py,"split_data( )",16, 101, 8, 0
+repos/python/awesome-python-login-model/lianjia_spider/pic.py,"data_viewer( )",42, 105, 8, 0
+repos/python/awesome-python-login-model/lianjia_spider/pic.py,"main( )",4, 18, 4, 0
+repos/python/awesome-python-login-model/qsbk/qiushibaike.py,"__init__( self , page_num )",14, 63, 8, 0
+repos/python/awesome-python-login-model/qsbk/qiushibaike.py,"get_page_urls( self )",5, 62, 16, 0
+repos/python/awesome-python-login-model/qsbk/qiushibaike.py,"get_joke_urls( self )",11, 108, 12, 0
+repos/python/awesome-python-login-model/qsbk/qiushibaike.py,"get_joke( self )",9, 73, 12, 0
+repos/python/awesome-python-login-model/qsbk/qiushibaike.py,"download( self )",6, 59, 8, 0
+repos/python/awesome-python-login-model/qsbk/qiushibaike.py,"start( self )",5, 29, 8, 0
+repos/python/awesome-python-login-model/Github/github_login.py,"__init__( self )",16, 140, 12, 0
+repos/python/awesome-python-login-model/Github/github_login.py,"token( self )",7, 78, 8, 0
+repos/python/awesome-python-login-model/Github/github_login.py,"login( self , email , password )",23, 87, 8, 0
+repos/python/awesome-python-login-model/Github/github_login.py,"home( self , html )",10, 68, 8, 0
+repos/python/awesome-python-login-model/Github/github_login.py,"profile( self , html )",10, 76, 8, 0
+repos/python/awesome-python-login-model/Github/github_login.py,"main( self )",5, 51, 8, 0
+repos/python/awesome-python-login-model/Github/github_login2.py,"__init__( self , email , password )",14, 150, 12, 0
+repos/python/awesome-python-login-model/Github/github_login2.py,"login_GitHub( self )",19, 90, 8, 0
+repos/python/awesome-python-login-model/Github/github_login2.py,"get_token( self )",9, 76, 8, 0
+repos/python/awesome-python-login-model/facebook/facebook.py,"login( session , email , password )",29, 75, 8, 0
+repos/python/awesome-python-login-model/NeteaseCloudMusicDownload/wangyiyun_spider.py,"__init__( self , d )",8, 111, 17, 0
+repos/python/awesome-python-login-model/NeteaseCloudMusicDownload/wangyiyun_spider.py,"get_random_str( self )",7, 79, 8, 0
+repos/python/awesome-python-login-model/NeteaseCloudMusicDownload/wangyiyun_spider.py,"aes_encrypt( self , text , key )",7, 56, 8, 0
+repos/python/awesome-python-login-model/NeteaseCloudMusicDownload/wangyiyun_spider.py,"rsa_encrypt( self , value , text , modulus )",5, 108, 8, 0
+repos/python/awesome-python-login-model/NeteaseCloudMusicDownload/wangyiyun_spider.py,"get_data( self )",8, 76, 8, 0
+repos/python/awesome-python-login-model/NeteaseCloudMusicDownload/wangyiyun_spider.py,"__get_songs( self , name )",7, 160, 8, 0
+repos/python/awesome-python-login-model/NeteaseCloudMusicDownload/wangyiyun_spider.py,"__get_mp3( self , id )",8, 80, 8, 0
+repos/python/awesome-python-login-model/NeteaseCloudMusicDownload/wangyiyun_spider.py,"__download_mp3( self , url , filename )",8, 67, 8, 0
+repos/python/awesome-python-login-model/NeteaseCloudMusicDownload/wangyiyun_spider.py,"__print_info( self , songs )",7, 76, 12, 0
+repos/python/awesome-python-login-model/NeteaseCloudMusicDownload/wangyiyun_spider.py,"run( self )",19, 58, 16, 0
+repos/python/awesome-python-login-model/NeteaseCloudMusicDownload/wangyiyun_spider.py,"main( )",3, 22, 4, 0
+repos/python/awesome-python-login-model/liepin/liepin_login.py,"__init__( self , username , password )",22, 218, 12, 0
+repos/python/awesome-python-login-model/liepin/liepin_login.py,"_md5( self )",5, 41, 8, 0
+repos/python/awesome-python-login-model/liepin/liepin_login.py,"_getAuthcode( self )",12, 102, 8, 0
+repos/python/awesome-python-login-model/liepin/liepin_login.py,"login( self )",15, 100, 8, 0
+repos/python/awesome-python-login-model/liepin/liepinSpecialCom/liepinSpecialCom/middlewares.py,"from_crawler( cls , crawler )",5, 79, 8, 0
+repos/python/awesome-python-login-model/liepin/liepinSpecialCom/liepinSpecialCom/middlewares.py,"process_spider_input( self , response , spider )",6, 64, 8, 0
+repos/python/awesome-python-login-model/liepin/liepinSpecialCom/liepinSpecialCom/middlewares.py,"process_spider_output( self , response , result , spider )",7, 68, 8, 0
+repos/python/awesome-python-login-model/liepin/liepinSpecialCom/liepinSpecialCom/middlewares.py,"process_spider_exception( self , response , exception , spider )",7, 69, 4, 0
+repos/python/awesome-python-login-model/liepin/liepinSpecialCom/liepinSpecialCom/middlewares.py,"process_start_requests( self , start_requests , spider )",8, 66, 8, 0
+repos/python/awesome-python-login-model/liepin/liepinSpecialCom/liepinSpecialCom/middlewares.py,"spider_opened( self , spider )",2, 62, 8, 0
+repos/python/awesome-python-login-model/liepin/liepinSpecialCom/liepinSpecialCom/middlewares.py,"from_crawler( cls , crawler )",5, 79, 8, 0
+repos/python/awesome-python-login-model/liepin/liepinSpecialCom/liepinSpecialCom/middlewares.py,"process_request( self , request , spider )",11, 67, 8, 0
+repos/python/awesome-python-login-model/liepin/liepinSpecialCom/liepinSpecialCom/middlewares.py,"process_response( self , request , response , spider )",8, 65, 8, 0
+repos/python/awesome-python-login-model/liepin/liepinSpecialCom/liepinSpecialCom/middlewares.py,"process_exception( self , request , exception , spider )",9, 70, 8, 0
+repos/python/awesome-python-login-model/liepin/liepinSpecialCom/liepinSpecialCom/middlewares.py,"spider_opened( self , spider )",2, 62, 8, 0
+repos/python/awesome-python-login-model/liepin/liepinSpecialCom/liepinSpecialCom/middlewares.py,"__init__( self , user_agent )",2, 37, 8, 0
+repos/python/awesome-python-login-model/liepin/liepinSpecialCom/liepinSpecialCom/middlewares.py,"from_crawler( cls , crawler )",4, 59, 12, 0
+repos/python/awesome-python-login-model/liepin/liepinSpecialCom/liepinSpecialCom/middlewares.py,"process_request( self , request , spider )",3, 48, 4, 0
+repos/python/awesome-python-login-model/liepin/liepinSpecialCom/liepinSpecialCom/pipelines.py,"__init__( self )",5, 169, 8, 0
+repos/python/awesome-python-login-model/liepin/liepinSpecialCom/liepinSpecialCom/pipelines.py,"process_item( self , item , spider )",9, 132, 8, 0
+repos/python/awesome-python-login-model/liepin/liepinSpecialCom/liepinSpecialCom/pipelines.py,"close_spider( self , spider )",4, 36, 4, 0
+repos/python/awesome-python-login-model/liepin/liepinSpecialCom/liepinSpecialCom/spiders/lpspecialcom.py,"parse( self , response )",62, 110, 8, 0
+repos/python/awesome-python-login-model/liepin/liepinSpecialComJob/liepinSpecialComJob/middlewares.py,"from_crawler( cls , crawler )",5, 79, 8, 0
+repos/python/awesome-python-login-model/liepin/liepinSpecialComJob/liepinSpecialComJob/middlewares.py,"process_spider_input( self , response , spider )",6, 64, 8, 0
+repos/python/awesome-python-login-model/liepin/liepinSpecialComJob/liepinSpecialComJob/middlewares.py,"process_spider_output( self , response , result , spider )",7, 68, 8, 0
+repos/python/awesome-python-login-model/liepin/liepinSpecialComJob/liepinSpecialComJob/middlewares.py,"process_spider_exception( self , response , exception , spider )",7, 69, 4, 0
+repos/python/awesome-python-login-model/liepin/liepinSpecialComJob/liepinSpecialComJob/middlewares.py,"process_start_requests( self , start_requests , spider )",8, 66, 8, 0
+repos/python/awesome-python-login-model/liepin/liepinSpecialComJob/liepinSpecialComJob/middlewares.py,"spider_opened( self , spider )",2, 62, 8, 0
+repos/python/awesome-python-login-model/liepin/liepinSpecialComJob/liepinSpecialComJob/middlewares.py,"from_crawler( cls , crawler )",5, 79, 8, 0
+repos/python/awesome-python-login-model/liepin/liepinSpecialComJob/liepinSpecialComJob/middlewares.py,"process_request( self , request , spider )",11, 67, 8, 0
+repos/python/awesome-python-login-model/liepin/liepinSpecialComJob/liepinSpecialComJob/middlewares.py,"process_response( self , request , response , spider )",8, 65, 8, 0
+repos/python/awesome-python-login-model/liepin/liepinSpecialComJob/liepinSpecialComJob/middlewares.py,"process_exception( self , request , exception , spider )",9, 70, 8, 0
+repos/python/awesome-python-login-model/liepin/liepinSpecialComJob/liepinSpecialComJob/middlewares.py,"spider_opened( self , spider )",2, 62, 8, 0
+repos/python/awesome-python-login-model/liepin/liepinSpecialComJob/liepinSpecialComJob/middlewares.py,"__init__( self , user_agent )",2, 37, 8, 0
+repos/python/awesome-python-login-model/liepin/liepinSpecialComJob/liepinSpecialComJob/middlewares.py,"from_crawler( cls , crawler )",4, 59, 12, 0
+repos/python/awesome-python-login-model/liepin/liepinSpecialComJob/liepinSpecialComJob/middlewares.py,"process_request( self , request , spider )",4, 48, 4, 0
+repos/python/awesome-python-login-model/liepin/liepinSpecialComJob/liepinSpecialComJob/middlewares.py,"process_request( self , request , spider )",5, 48, 4, 0
+repos/python/awesome-python-login-model/liepin/liepinSpecialComJob/liepinSpecialComJob/middlewares.py,"process_response( self , request , response , spider )",10, 59, 4, 0
+repos/python/awesome-python-login-model/liepin/liepinSpecialComJob/liepinSpecialComJob/middlewares.py,"get_random_proxy( self )",12, 68, 12, 0
+repos/python/awesome-python-login-model/liepin/liepinSpecialComJob/liepinSpecialComJob/pipelines.py,"__init__( self )",5, 169, 8, 0
+repos/python/awesome-python-login-model/liepin/liepinSpecialComJob/liepinSpecialComJob/pipelines.py,"process_item( self , item , spider )",8, 176, 8, 0
+repos/python/awesome-python-login-model/liepin/liepinSpecialComJob/liepinSpecialComJob/pipelines.py,"close_spider( self , spider )",4, 36, 4, 0
+repos/python/awesome-python-login-model/liepin/liepinSpecialComJob/liepinSpecialComJob/spiders/lpspecialcomjob.py,"parse( self , response )",25, 96, 8, 0
+repos/python/awesome-python-login-model/liepin/liepinSpecialComJob/liepinSpecialComJob/spiders/lpspecialcomjob.py,"parse_list( self , response )",45, 140, 12, 0
+repos/python/awesome-python-login-model/liepin/liepinSpecialComJob/liepinSpecialComJob/spiders/lpspecialcomjob.py,"parse_job( self , response )",31, 64, 12, 0
+repos/python/awesome-python-login-model/liepin/liepinSpd/liepinSpd/middlewares.py,"from_crawler( cls , crawler )",5, 79, 8, 0
+repos/python/awesome-python-login-model/liepin/liepinSpd/liepinSpd/middlewares.py,"process_spider_input( self , response , spider )",6, 64, 8, 0
+repos/python/awesome-python-login-model/liepin/liepinSpd/liepinSpd/middlewares.py,"process_spider_output( self , response , result , spider )",7, 68, 8, 0
+repos/python/awesome-python-login-model/liepin/liepinSpd/liepinSpd/middlewares.py,"process_spider_exception( self , response , exception , spider )",7, 69, 4, 0
+repos/python/awesome-python-login-model/liepin/liepinSpd/liepinSpd/middlewares.py,"process_start_requests( self , start_requests , spider )",8, 66, 8, 0
+repos/python/awesome-python-login-model/liepin/liepinSpd/liepinSpd/middlewares.py,"spider_opened( self , spider )",2, 62, 8, 0
+repos/python/awesome-python-login-model/liepin/liepinSpd/liepinSpd/middlewares.py,"from_crawler( cls , crawler )",5, 79, 8, 0
+repos/python/awesome-python-login-model/liepin/liepinSpd/liepinSpd/middlewares.py,"process_request( self , request , spider )",11, 67, 8, 0
+repos/python/awesome-python-login-model/liepin/liepinSpd/liepinSpd/middlewares.py,"process_response( self , request , response , spider )",8, 65, 8, 0
+repos/python/awesome-python-login-model/liepin/liepinSpd/liepinSpd/middlewares.py,"process_exception( self , request , exception , spider )",9, 70, 8, 0
+repos/python/awesome-python-login-model/liepin/liepinSpd/liepinSpd/middlewares.py,"spider_opened( self , spider )",2, 62, 8, 0
+repos/python/awesome-python-login-model/liepin/liepinSpd/liepinSpd/middlewares.py,"__init__( self , user_agent )",2, 37, 8, 0
+repos/python/awesome-python-login-model/liepin/liepinSpd/liepinSpd/middlewares.py,"from_crawler( cls , crawler )",4, 59, 12, 0
+repos/python/awesome-python-login-model/liepin/liepinSpd/liepinSpd/middlewares.py,"process_request( self , request , spider )",3, 48, 4, 0
+repos/python/awesome-python-login-model/liepin/liepinSpd/liepinSpd/dbhelper.py,"__init__( self )",8, 60, 8, 0
+repos/python/awesome-python-login-model/liepin/liepinSpd/liepinSpd/dbhelper.py,"connectMysql( self )",7, 49, 29, 0
+repos/python/awesome-python-login-model/liepin/liepinSpd/liepinSpd/dbhelper.py,"connectDatabase( self )",8, 49, 29, 0
+repos/python/awesome-python-login-model/liepin/liepinSpd/liepinSpd/dbhelper.py,"createDatabase( self )",8, 53, 8, 0
+repos/python/awesome-python-login-model/liepin/liepinSpd/liepinSpd/dbhelper.py,"createTable( self , sql )",7, 36, 8, 0
+repos/python/awesome-python-login-model/liepin/liepinSpd/liepinSpd/dbhelper.py,"insert( self , sql , * params )",8, 36, 8, 0
+repos/python/awesome-python-login-model/liepin/liepinSpd/liepinSpd/dbhelper.py,"update( self , sql , * params )",8, 36, 8, 0
+repos/python/awesome-python-login-model/liepin/liepinSpd/liepinSpd/dbhelper.py,"delete( self , sql , * params )",8, 36, 8, 0
+repos/python/awesome-python-login-model/liepin/liepinSpd/liepinSpd/dbhelper.py,"__init__( self )",2, 33, 8, 0
+repos/python/awesome-python-login-model/liepin/liepinSpd/liepinSpd/dbhelper.py,"testCreateDatebase( self )",2, 39, 8, 0
+repos/python/awesome-python-login-model/liepin/liepinSpd/liepinSpd/dbhelper.py,"testCreateTable( self )",3, 106, 8, 0
+repos/python/awesome-python-login-model/liepin/liepinSpd/liepinSpd/dbhelper.py,"testInsert( self )",4, 60, 8, 0
+repos/python/awesome-python-login-model/liepin/liepinSpd/liepinSpd/dbhelper.py,"testUpdate( self )",4, 62, 8, 0
+repos/python/awesome-python-login-model/liepin/liepinSpd/liepinSpd/dbhelper.py,"testDelete( self )",4, 48, 8, 0
+repos/python/awesome-python-login-model/liepin/liepinSpd/liepinSpd/pipelines.py,"__init__( self )",5, 169, 8, 0
+repos/python/awesome-python-login-model/liepin/liepinSpd/liepinSpd/pipelines.py,"process_item( self , item , spider )",13, 220, 8, 0
+repos/python/awesome-python-login-model/liepin/liepinSpd/liepinSpd/pipelines.py,"close_spider( self , spider )",4, 36, 4, 0
+repos/python/awesome-python-login-model/liepin/liepinSpd/liepinSpd/spiders/lpspider.py,"parse( self , response )",66, 108, 8, 0
+repos/python/awesome-python-login-model/liepin/liepinSpd2/liepinSpd2/middlewares.py,"from_crawler( cls , crawler )",5, 79, 8, 0
+repos/python/awesome-python-login-model/liepin/liepinSpd2/liepinSpd2/middlewares.py,"process_spider_input( self , response , spider )",6, 64, 8, 0
+repos/python/awesome-python-login-model/liepin/liepinSpd2/liepinSpd2/middlewares.py,"process_spider_output( self , response , result , spider )",7, 68, 8, 0
+repos/python/awesome-python-login-model/liepin/liepinSpd2/liepinSpd2/middlewares.py,"process_spider_exception( self , response , exception , spider )",7, 69, 4, 0
+repos/python/awesome-python-login-model/liepin/liepinSpd2/liepinSpd2/middlewares.py,"process_start_requests( self , start_requests , spider )",8, 66, 8, 0
+repos/python/awesome-python-login-model/liepin/liepinSpd2/liepinSpd2/middlewares.py,"spider_opened( self , spider )",2, 62, 8, 0
+repos/python/awesome-python-login-model/liepin/liepinSpd2/liepinSpd2/middlewares.py,"from_crawler( cls , crawler )",5, 79, 8, 0
+repos/python/awesome-python-login-model/liepin/liepinSpd2/liepinSpd2/middlewares.py,"process_request( self , request , spider )",11, 67, 8, 0
+repos/python/awesome-python-login-model/liepin/liepinSpd2/liepinSpd2/middlewares.py,"process_response( self , request , response , spider )",8, 65, 8, 0
+repos/python/awesome-python-login-model/liepin/liepinSpd2/liepinSpd2/middlewares.py,"process_exception( self , request , exception , spider )",9, 70, 8, 0
+repos/python/awesome-python-login-model/liepin/liepinSpd2/liepinSpd2/middlewares.py,"spider_opened( self , spider )",2, 62, 8, 0
+repos/python/awesome-python-login-model/liepin/liepinSpd2/liepinSpd2/middlewares.py,"__init__( self , user_agent )",2, 37, 8, 0
+repos/python/awesome-python-login-model/liepin/liepinSpd2/liepinSpd2/middlewares.py,"from_crawler( cls , crawler )",4, 59, 12, 0
+repos/python/awesome-python-login-model/liepin/liepinSpd2/liepinSpd2/middlewares.py,"process_request( self , request , spider )",4, 48, 4, 0
+repos/python/awesome-python-login-model/liepin/liepinSpd2/liepinSpd2/middlewares.py,"process_request( self , request , spider )",5, 48, 4, 0
+repos/python/awesome-python-login-model/liepin/liepinSpd2/liepinSpd2/middlewares.py,"process_response( self , request , response , spider )",10, 59, 4, 0
+repos/python/awesome-python-login-model/liepin/liepinSpd2/liepinSpd2/middlewares.py,"get_random_proxy( self )",12, 68, 12, 0
+repos/python/awesome-python-login-model/liepin/liepinSpd2/liepinSpd2/pipelines.py,"__init__( self )",5, 169, 8, 0
+repos/python/awesome-python-login-model/liepin/liepinSpd2/liepinSpd2/pipelines.py,"process_item( self , item , spider )",10, 212, 36, 0
+repos/python/awesome-python-login-model/liepin/liepinSpd2/liepinSpd2/pipelines.py,"close_spider( self , spider )",4, 36, 4, 0
+repos/python/awesome-python-login-model/liepin/liepinSpd2/liepinSpd2/spiders/liepinJob.py,"parse( self , response )",9, 93, 8, 0
+repos/python/awesome-python-login-model/liepin/liepinSpd2/liepinSpd2/spiders/liepinJob.py,"parse_list( self , response )",5, 76, 8, 0
+repos/python/awesome-python-login-model/liepin/liepinSpd2/liepinSpd2/spiders/liepinJob.py,"parse_job( self , response )",44, 103, 8, 0
+repos/python/awesome-python-login-model/liepin/liepinSpd_500/liepinSpd/middlewares.py,"from_crawler( cls , crawler )",5, 79, 8, 0
+repos/python/awesome-python-login-model/liepin/liepinSpd_500/liepinSpd/middlewares.py,"process_spider_input( self , response , spider )",6, 64, 8, 0
+repos/python/awesome-python-login-model/liepin/liepinSpd_500/liepinSpd/middlewares.py,"process_spider_output( self , response , result , spider )",7, 68, 8, 0
+repos/python/awesome-python-login-model/liepin/liepinSpd_500/liepinSpd/middlewares.py,"process_spider_exception( self , response , exception , spider )",7, 69, 4, 0
+repos/python/awesome-python-login-model/liepin/liepinSpd_500/liepinSpd/middlewares.py,"process_start_requests( self , start_requests , spider )",8, 66, 8, 0
+repos/python/awesome-python-login-model/liepin/liepinSpd_500/liepinSpd/middlewares.py,"spider_opened( self , spider )",2, 62, 8, 0
+repos/python/awesome-python-login-model/liepin/liepinSpd_500/liepinSpd/middlewares.py,"from_crawler( cls , crawler )",5, 79, 8, 0
+repos/python/awesome-python-login-model/liepin/liepinSpd_500/liepinSpd/middlewares.py,"process_request( self , request , spider )",11, 67, 8, 0
+repos/python/awesome-python-login-model/liepin/liepinSpd_500/liepinSpd/middlewares.py,"process_response( self , request , response , spider )",8, 65, 8, 0
+repos/python/awesome-python-login-model/liepin/liepinSpd_500/liepinSpd/middlewares.py,"process_exception( self , request , exception , spider )",9, 70, 8, 0
+repos/python/awesome-python-login-model/liepin/liepinSpd_500/liepinSpd/middlewares.py,"spider_opened( self , spider )",2, 62, 8, 0
+repos/python/awesome-python-login-model/liepin/liepinSpd_500/liepinSpd/middlewares.py,"__init__( self , user_agent )",2, 37, 8, 0
+repos/python/awesome-python-login-model/liepin/liepinSpd_500/liepinSpd/middlewares.py,"from_crawler( cls , crawler )",4, 59, 12, 0
+repos/python/awesome-python-login-model/liepin/liepinSpd_500/liepinSpd/middlewares.py,"process_request( self , request , spider )",3, 48, 4, 0
+repos/python/awesome-python-login-model/liepin/liepinSpd_500/liepinSpd/dbhelper.py,"__init__( self )",8, 60, 8, 0
+repos/python/awesome-python-login-model/liepin/liepinSpd_500/liepinSpd/dbhelper.py,"connectMysql( self )",7, 49, 29, 0
+repos/python/awesome-python-login-model/liepin/liepinSpd_500/liepinSpd/dbhelper.py,"connectDatabase( self )",8, 49, 29, 0
+repos/python/awesome-python-login-model/liepin/liepinSpd_500/liepinSpd/dbhelper.py,"createDatabase( self )",8, 53, 8, 0
+repos/python/awesome-python-login-model/liepin/liepinSpd_500/liepinSpd/dbhelper.py,"createTable( self , sql )",7, 36, 8, 0
+repos/python/awesome-python-login-model/liepin/liepinSpd_500/liepinSpd/dbhelper.py,"insert( self , sql , * params )",8, 36, 8, 0
+repos/python/awesome-python-login-model/liepin/liepinSpd_500/liepinSpd/dbhelper.py,"update( self , sql , * params )",8, 36, 8, 0
+repos/python/awesome-python-login-model/liepin/liepinSpd_500/liepinSpd/dbhelper.py,"delete( self , sql , * params )",8, 36, 8, 0
+repos/python/awesome-python-login-model/liepin/liepinSpd_500/liepinSpd/dbhelper.py,"__init__( self )",2, 33, 8, 0
+repos/python/awesome-python-login-model/liepin/liepinSpd_500/liepinSpd/dbhelper.py,"testCreateDatebase( self )",2, 39, 8, 0
+repos/python/awesome-python-login-model/liepin/liepinSpd_500/liepinSpd/dbhelper.py,"testCreateTable( self )",3, 106, 8, 0
+repos/python/awesome-python-login-model/liepin/liepinSpd_500/liepinSpd/dbhelper.py,"testInsert( self )",4, 60, 8, 0
+repos/python/awesome-python-login-model/liepin/liepinSpd_500/liepinSpd/dbhelper.py,"testUpdate( self )",4, 62, 8, 0
+repos/python/awesome-python-login-model/liepin/liepinSpd_500/liepinSpd/dbhelper.py,"testDelete( self )",4, 48, 8, 0
+repos/python/awesome-python-login-model/liepin/liepinSpd_500/liepinSpd/pipelines.py,"__init__( self )",5, 169, 8, 0
+repos/python/awesome-python-login-model/liepin/liepinSpd_500/liepinSpd/pipelines.py,"process_item( self , item , spider )",13, 220, 8, 0
+repos/python/awesome-python-login-model/liepin/liepinSpd_500/liepinSpd/pipelines.py,"close_spider( self , spider )",4, 36, 4, 0
+repos/python/awesome-python-login-model/liepin/liepinSpd_500/liepinSpd/spiders/lpspider.py,"parse( self , response )",66, 108, 8, 0
+repos/python/awesome-python-login-model/taobao/text.py,"process_request( self , request , spider )",3, 49, 8, 0
+repos/python/awesome-python-login-model/taobao/text.py,"proxy_test.get_proxy( )",2, 71, 12, 0
+repos/python/awesome-python-login-model/taobao/text.py,"proxy_test.delete_proxy( proxy )",2, 85, 12, 0
+repos/python/awesome-python-login-model/taobao/text.py,"proxy_test( self )",18, 85, 12, 0
+repos/python/awesome-python-login-model/taobao/taobao.py,"__init__( self )",5, 50, 8, 0
+repos/python/awesome-python-login-model/taobao/taobao.py,"login( self , key , pw )",66, 114, 28, 0
+repos/python/awesome-python-login-model/taobao/taobao/middlewares.py,"from_crawler( cls , crawler )",5, 79, 8, 0
+repos/python/awesome-python-login-model/taobao/taobao/middlewares.py,"process_spider_input( self , response , spider )",6, 64, 8, 0
+repos/python/awesome-python-login-model/taobao/taobao/middlewares.py,"process_spider_output( self , response , result , spider )",7, 68, 8, 0
+repos/python/awesome-python-login-model/taobao/taobao/middlewares.py,"process_spider_exception( self , response , exception , spider )",7, 69, 4, 0
+repos/python/awesome-python-login-model/taobao/taobao/middlewares.py,"process_start_requests( self , start_requests , spider )",8, 66, 8, 0
+repos/python/awesome-python-login-model/taobao/taobao/middlewares.py,"spider_opened( self , spider )",2, 62, 8, 0
+repos/python/awesome-python-login-model/taobao/taobao/middlewares.py,"from_crawler( cls , crawler )",5, 79, 8, 0
+repos/python/awesome-python-login-model/taobao/taobao/middlewares.py,"process_request( self , request , spider )",11, 67, 8, 0
+repos/python/awesome-python-login-model/taobao/taobao/middlewares.py,"process_response( self , request , response , spider )",8, 65, 8, 0
+repos/python/awesome-python-login-model/taobao/taobao/middlewares.py,"process_exception( self , request , exception , spider )",9, 70, 8, 0
+repos/python/awesome-python-login-model/taobao/taobao/middlewares.py,"spider_opened( self , spider )",2, 62, 8, 0
+repos/python/awesome-python-login-model/taobao/taobao/pipelines.py,"__init__( self , mongo_url , mongo_db )",3, 43, 4, 0
+repos/python/awesome-python-login-model/taobao/taobao/pipelines.py,"from_crawler( cls , crawler )",5, 57, 12, 0
+repos/python/awesome-python-login-model/taobao/taobao/pipelines.py,"open_spider( self , spider )",3, 58, 8, 0
+repos/python/awesome-python-login-model/taobao/taobao/pipelines.py,"process_item( self , item , spider )",8, 60, 8, 0
+repos/python/awesome-python-login-model/taobao/taobao/spiders/analysis.py,"data_analysis( parameter )",9, 114, 8, 0
+repos/python/awesome-python-login-model/taobao/taobao/spiders/analysis.py,"provience( )",14, 33, 8, 0
+repos/python/awesome-python-login-model/taobao/taobao/spiders/analysis.py,"prov_plt( )",10, 35, 4, 0
+repos/python/awesome-python-login-model/taobao/taobao/spiders/analysis.py,"cloud_plt.cloud_data( )",40, 83, 16, 0
+repos/python/awesome-python-login-model/taobao/taobao/spiders/analysis.py,"cloud_plt.cloud_data_count( )",26, 86, 8, 0
+repos/python/awesome-python-login-model/taobao/taobao/spiders/analysis.py,"cloud_plt( )",94, 111, 4, 0
+repos/python/awesome-python-login-model/taobao/taobao/spiders/analysis.py,"impact_analysis( )",17, 77, 4, 0
+repos/python/awesome-python-login-model/taobao/taobao/spiders/analysis.py,"mean_sale( )",40, 71, 4, 0
+repos/python/awesome-python-login-model/taobao/taobao/spiders/taobao.py,"start_requests( self )",2, 97, 8, 0
+repos/python/awesome-python-login-model/taobao/taobao/spiders/taobao.py,"sub_nav( self , response )",9, 106, 12, 0
+repos/python/awesome-python-login-model/taobao/taobao/spiders/taobao.py,"parse0( self , response )",33, 142, 16, 0
+repos/python/awesome-python-login-model/taobao/taobao/spiders/taobao.py,"parse1( self , response )",25, 145, 8, 0
+repos/python/awesome-python-login-model/taobao/taobao/spiders/taobao.py,"parse2( self , response )",26, 107, 8, 0
+repos/python/awesome-python-login-model/csdn/csdn_login.py,"get_post_headers( )",10, 99, 8, 0
+repos/python/awesome-python-login-model/csdn/csdn_login.py,"get_post_data( )",11, 99, 4, 0
+repos/python/awesome-python-login-model/csdn/csdn_login.py,"login( post_data )",3, 66, 4, 0
+repos/python/awesome-python-login-model/sina/sina.py,"get_login( phone , pwd )",22, 243, 8, 0
+repos/python/awesome-python-login-model/sina/spider/Ajax_weibo.py,"create_sheet( bozhu )",16, 56, 16, 0
+repos/python/awesome-python-login-model/sina/spider/Ajax_weibo.py,"url_get( )",32, 112, 4, 0
+repos/python/awesome-python-login-model/sina/spider/Ajax_weibo.py,"get_page( page )",17, 54, 8, 0
+repos/python/awesome-python-login-model/sina/spider/Ajax_weibo.py,"parse_page( json )",29, 84, 20, 0
+repos/python/awesome-python-login-model/zhihu/zhihu.py,"__init__( self , username : str = None , password : str = None )",23, 90, 12, 0
+repos/python/awesome-python-login-model/zhihu/zhihu.py,"login( self , captcha_lang : str = 'en' , load_cookies : bool = True )",46, 81, 8, 0
+repos/python/awesome-python-login-model/zhihu/zhihu.py,"load_cookies( self )",10, 59, 12, 0
+repos/python/awesome-python-login-model/zhihu/zhihu.py,"check_login( self )",12, 66, 8, 0
+repos/python/awesome-python-login-model/zhihu/zhihu.py,"_get_xsrf( self )",10, 74, 8, 0
+repos/python/awesome-python-login-model/zhihu/zhihu.py,"_get_captcha( self , lang : str )",37, 92, 35, 0
+repos/python/awesome-python-login-model/zhihu/zhihu.py,"_get_signature( self , timestamp : int or str )",13, 86, 8, 0
+repos/python/awesome-python-login-model/zhihu/zhihu.py,"_check_user_pass( self )",11, 67, 8, 0
+repos/python/awesome-python-login-model/zhihu/zhihu.py,"_encrypt( form_data : dict )",4, 54, 12, 0

@@ -1,0 +1,419 @@
+File, Function, Length, Total Width, Leading Space(s), Leading Tab(s)
+repos/javascript/next.js/bench/readdir/recursive-readdir.js,"test ( )",9, 52, 2, 0
+repos/javascript/next.js/bench/readdir/recursive-readdir.js,"run ( )",5, 33, 2, 0
+repos/javascript/next.js/bench/readdir/glob.js,"test ( )",9, 52, 2, 0
+repos/javascript/next.js/bench/readdir/glob.js,"run ( )",5, 33, 2, 0
+repos/javascript/next.js/bench/recursive-delete/recursive-delete.js,"test ( )",9, 52, 2, 0
+repos/javascript/next.js/bench/recursive-delete/rimraf.js,"test ( )",9, 52, 2, 0
+repos/javascript/next.js/test/jest-global-teardown.js,"globalSetup ( )",3, 49, 0, 0
+repos/javascript/next.js/test/jest-global-setup.js,"globalSetup ( )",9, 60, 2, 0
+repos/javascript/next.js/test/unit/getDisplayName.test.js,"FunctionalComponent ( )",3, 38, 4, 0
+repos/javascript/next.js/test/integration/production-config/test/index.test.js,"testBrowser ( )",9, 75, 2, 0
+repos/javascript/next.js/test/integration/config/test/rendering.js,"$ ( path , query )",4, 43, 4, 0
+repos/javascript/next.js/test/integration/config/test/rendering.js,"function ( { app } , suiteName , render , fetch )",38, 106, 4, 0
+repos/javascript/next.js/test/integration/serverless/server.js,"start ( port = 0 )",34, 74, 6, 0
+repos/javascript/next.js/test/integration/with-router/pages/router-method-ssr.js,"RouterMethodSSR ( { router } )",4, 55, 2, 0
+repos/javascript/next.js/test/integration/basic/warning-loader.js,"module.exports ( source )",4, 88, 2, 0
+repos/javascript/next.js/test/integration/basic/test/rendering.js,"$ ( path , query )",4, 43, 4, 0
+repos/javascript/next.js/test/integration/basic/test/rendering.js,"function ( { app } , suiteName , render , fetch )",287, 213, 6, 0
+repos/javascript/next.js/test/integration/basic/test/dynamic.js,"$ ( path , query )",4, 43, 4, 0
+repos/javascript/next.js/test/integration/basic/lib/async-function.js,"function ( )",3, 37, 0, 0
+repos/javascript/next.js/test/integration/basic/pages/instance-get-initial-props.js,"fetchData ( )",6, 62, 4, 0
+repos/javascript/next.js/test/integration/basic/pages/circular-json-error.js,"CircularJSONErrorPage ( )",3, 38, 2, 0
+repos/javascript/next.js/test/integration/basic/pages/read-only-object-error.js,"ReadOnlyObjectError ( )",3, 48, 2, 0
+repos/javascript/next.js/test/integration/basic/pages/async-props.js,"fetchData ( )",6, 60, 4, 0
+repos/javascript/next.js/test/integration/production-build-dir/test/index.test.js,"function ( chunk )",3, 52, 6, 0
+repos/javascript/next.js/test/integration/production-build-dir/test/index.test.js,"function ( chunk )",3, 52, 6, 0
+repos/javascript/next.js/test/integration/production-build-dir/test/index.test.js,"runNextCommand ( argv , options = { } )",33, 203, 4, 0
+repos/javascript/next.js/test/integration/babel/test/rendering.js,"$ ( path , query )",4, 43, 4, 0
+repos/javascript/next.js/test/integration/babel/test/rendering.js,"function ( { app } , suiteName , render , fetch )",13, 70, 4, 0
+repos/javascript/next.js/test/integration/amphtml/test/index.test.js,"validateAMP ( html )",16, 75, 8, 0
+repos/javascript/next.js/test/integration/amphtml/components/Foo.js,"Foo ( )",12, 33, 0, 0
+repos/javascript/next.js/test/integration/amphtml/components/Bar.js,"Bar ( )",12, 33, 0, 0
+repos/javascript/next.js/test/integration/production/test/security.js,"checkInjected ( browser )",10, 55, 4, 0
+repos/javascript/next.js/test/integration/production/test/dynamic.js,"$ ( path , query )",4, 43, 4, 0
+repos/javascript/next.js/test/integration/app-document/shared-module.js,"setState ( state )",3, 35, 0, 0
+repos/javascript/next.js/test/integration/app-document/shared-module.js,"currentState ( )",3, 42, 0, 0
+repos/javascript/next.js/test/integration/app-document/test/rendering.js,"$ ( path , query )",4, 43, 4, 0
+repos/javascript/next.js/test/integration/app-document/test/rendering.js,"function ( { app } , suiteName , render , fetch )",103, 119, 6, 0
+repos/javascript/next.js/test/integration/dynamic-require/locales/ru.js,"en ( props )",3, 23, 0, 0
+repos/javascript/next.js/test/integration/dynamic-require/locales/en.js,"en ( props )",3, 23, 0, 0
+repos/javascript/next.js/test/integration/config-promise-error/pages/index.js,"Index ( props )",5, 40, 0, 0
+repos/javascript/next.js/test/integration/export/next.config.js,"exportPathMap ( )",15, 94, 8, 0
+repos/javascript/next.js/test/integration/export/test/ssr.js,"function ( context )",57, 89, 6, 0
+repos/javascript/next.js/test/integration/export/test/dev.js,"function ( context )",36, 86, 4, 0
+repos/javascript/next.js/test/integration/export/test/browser.js,"function ( context )",165, 88, 8, 0
+repos/javascript/next.js/test/integration/export/pages/index.js,"routeToAbout ( e )",4, 28, 0, 0
+repos/javascript/next.js/test/lib/next-test-utils.js,"handleStdout ( data )",7, 41, 6, 0
+repos/javascript/next.js/test/lib/next-test-utils.js,"handleStderr ( data )",3, 44, 6, 0
+repos/javascript/next.js/test/lib/next-test-utils.js,"initNextServerScript ( scriptPath , successRegexp , env )",29, 72, 0, 0
+repos/javascript/next.js/test/lib/next-test-utils.js,"renderViaAPI ( app , pathname , query )",4, 69, 2, 0
+repos/javascript/next.js/test/lib/next-test-utils.js,"renderViaHTTP ( appPort , pathname , query )",3, 74, 2, 0
+repos/javascript/next.js/test/lib/next-test-utils.js,"fetchViaHTTP ( appPort , pathname , query , opts )",4, 96, 2, 0
+repos/javascript/next.js/test/lib/next-test-utils.js,"findPort ( )",3, 30, 0, 0
+repos/javascript/next.js/test/lib/next-test-utils.js,"function ( chunk )",3, 52, 6, 0
+repos/javascript/next.js/test/lib/next-test-utils.js,"function ( chunk )",3, 52, 6, 0
+repos/javascript/next.js/test/lib/next-test-utils.js,"runNextCommand ( argv , options = { } )",38, 132, 4, 0
+repos/javascript/next.js/test/lib/next-test-utils.js,"handleStdout ( data )",7, 45, 8, 0
+repos/javascript/next.js/test/lib/next-test-utils.js,"handleStderr ( data )",3, 44, 6, 0
+repos/javascript/next.js/test/lib/next-test-utils.js,"runNextCommandDev ( argv , stdOut )",30, 72, 4, 0
+repos/javascript/next.js/test/lib/next-test-utils.js,"launchApp ( dir , port )",3, 46, 2, 0
+repos/javascript/next.js/test/lib/next-test-utils.js,"nextBuild ( dir , args = [ ] )",3, 49, 2, 0
+repos/javascript/next.js/test/lib/next-test-utils.js,"nextExport ( dir , { outdir } )",3, 61, 2, 0
+repos/javascript/next.js/test/lib/next-test-utils.js,"killApp ( instance )",3, 43, 0, 0
+repos/javascript/next.js/test/lib/next-test-utils.js,"startApp ( app )",9, 44, 2, 0
+repos/javascript/next.js/test/lib/next-test-utils.js,"stopApp ( server )",6, 41, 0, 0
+repos/javascript/next.js/test/lib/next-test-utils.js,"function ( err , res )",4, 36, 8, 0
+repos/javascript/next.js/test/lib/next-test-utils.js,"promiseCall ( obj , method , ... args )",13, 46, 0, 0
+repos/javascript/next.js/test/lib/next-test-utils.js,"waitFor ( millis )",3, 63, 2, 0
+repos/javascript/next.js/test/lib/next-test-utils.js,"startStaticServer ( dir )",8, 48, 0, 0
+repos/javascript/next.js/test/lib/next-test-utils.js,"check ( contentFn , regex )",27, 62, 6, 0
+repos/javascript/next.js/test/lib/next-test-utils.js,"getReactErrorOverlayContent ( browser )",26, 100, 6, 0
+repos/javascript/next.js/test/lib/next-test-utils.js,"getBrowserBodyText ( browser )",3, 76, 2, 0
+repos/javascript/next.js/test/lib/next-webdriver.js,"function ( appPort , pathname )",41, 76, 2, 0
+repos/javascript/next.js/test/lib/next-webdriver.js,"getBrowser ( url , timeout )",39, 75, 2, 0
+repos/javascript/next.js/examples/with-dynamic-app-layout/pages/green.js,"*global*",24, 79, 6, 0
+repos/javascript/next.js/examples/with-dynamic-app-layout/pages/index.js,"*global*",30, 77, 6, 0
+repos/javascript/next.js/examples/with-react-esi/src/pages/index.js,"function ( { res } )",4, 52, 2, 0
+repos/javascript/next.js/examples/with-react-esi/src/pages/article.js,"function ( { res } )",4, 63, 2, 0
+repos/javascript/next.js/examples/with-firebase-authentication/pages/index.js,"function ( doc )",3, 47, 8, 0
+repos/javascript/next.js/examples/with-refnux/pages/page1.js,"function ( context )",6, 66, 2, 0
+repos/javascript/next.js/examples/with-refnux/pages/page2.js,"function ( context )",5, 51, 0, 0
+repos/javascript/next.js/examples/with-refnux/helpers/withRefnux.js,"function ( context )",9, 78, 6, 0
+repos/javascript/next.js/examples/with-relay-modern-server-express/lib/createRelayEnvironment.js,"fetchQuery ( operation , variables , cacheConfig , uploadables )",15, 88, 2, 0
+repos/javascript/next.js/examples/with-relay-modern-server-express/lib/createRelayEnvironment.js,"initEnvironment ( { records = { } } = { } )",24, 92, 2, 0
+repos/javascript/next.js/examples/basic-export/pages/index.js,"*global*",10, 29, 0, 0
+repos/javascript/next.js/examples/with-relay-modern/lib/createRelayEnvironment.js,"fetchQuery ( operation , variables , cacheConfig , uploadables )",13, 71, 0, 0
+repos/javascript/next.js/examples/with-relay-modern/lib/createRelayEnvironment.js,"initEnvironment ( { records = { } } = { } )",24, 92, 2, 0
+repos/javascript/next.js/examples/with-apollo/components/PostList.js,"PostList ( )",73, 79, 6, 0
+repos/javascript/next.js/examples/with-apollo/components/PostList.js,"loadMorePosts ( allPosts , fetchMore )",16, 76, 8, 0
+repos/javascript/next.js/examples/with-apollo/components/PostUpvoter.js,"PostUpvoter ( { votes , id } )",31, 73, 14, 0
+repos/javascript/next.js/examples/with-apollo/components/PostUpvoter.js,"upvotePost ( votes , id , client )",25, 51, 6, 0
+repos/javascript/next.js/examples/with-apollo/components/Submit.js,"Submit ( )",28, 74, 10, 0
+repos/javascript/next.js/examples/with-apollo/components/Submit.js,"handleSubmit ( event , client )",37, 60, 6, 0
+repos/javascript/next.js/examples/with-apollo/lib/init-apollo.js,"create ( initialState )",12, 106, 6, 0
+repos/javascript/next.js/examples/with-apollo/lib/init-apollo.js,"initApollo ( initialState )",14, 81, 2, 0
+repos/javascript/next.js/examples/using-nerv/next.config.js,"webpack ( config , { dev } )",14, 57, 4, 0
+repos/javascript/next.js/examples/using-nerv/pages/index.js,"*global*",12, 29, 0, 0
+repos/javascript/next.js/examples/with-polyfills/next.config.js,"webpack ( cfg )",17, 62, 8, 0
+repos/javascript/next.js/examples/with-mobx-state-tree/stores/store.js,"start ( )",7, 75, 8, 0
+repos/javascript/next.js/examples/with-mobx-state-tree/stores/store.js,"update ( )",4, 35, 6, 0
+repos/javascript/next.js/examples/with-mobx-state-tree/stores/store.js,"stop ( )",3, 27, 6, 0
+repos/javascript/next.js/examples/with-mobx-state-tree/stores/store.js,"initializeStore ( isServer , snapshot = null )",12, 62, 0, 0
+repos/javascript/next.js/examples/experimental-amp/components/Layout.js,"Layout ( { children } )",10, 76, 8, 0
+repos/javascript/next.js/examples/with-webpack-bundle-size-analyzer/next.config.js,"webpack ( config )",7, 76, 6, 0
+repos/javascript/next.js/examples/with-videojs/components/Player.js,"onPlayerReady ( )",3, 82, 4, 0
+repos/javascript/next.js/examples/with-fela/getFelaRenderer.js,"getRenderer ( )",5, 41, 0, 0
+repos/javascript/next.js/examples/with-react-ga/pages/index.js,"*global*",11, 29, 0, 0
+repos/javascript/next.js/examples/gh-pages/next.config.js,"exportPathMap ( )",6, 35, 6, 0
+repos/javascript/next.js/examples/gh-pages/pages/index.js,"*global*",10, 65, 4, 0
+repos/javascript/next.js/examples/gh-pages/pages/index.js,"*global*",10, 65, 4, 0
+repos/javascript/next.js/examples/with-sentry/server.js,"sessionCookie ( req , res , next )",18, 70, 4, 0
+repos/javascript/next.js/examples/with-react-helmet/pages/about.js,"About ( )",11, 60, 8, 0
+repos/javascript/next.js/examples/with-higher-order-component/lib/getDisplayName.js,"getDisplayName ( Component )",3, 62, 2, 0
+repos/javascript/next.js/examples/with-custom-reverse-proxy/server.js,"function ( context )",3, 64, 8, 0
+repos/javascript/next.js/examples/pass-server-data/operations/get-item.js,"getItem ( )",4, 44, 2, 0
+repos/javascript/next.js/examples/with-strict-csp/csp.js,"csp ( app )",28, 79, 2, 0
+repos/javascript/next.js/examples/hello-world/pages/index.js,"*global*",10, 29, 0, 0
+repos/javascript/next.js/examples/with-noscript/components/Noscript.js,"Noscript ( props )",4, 75, 2, 0
+repos/javascript/next.js/examples/with-cerebral/modules/clock/actions.js,"startTimer ( { clock } )",3, 41, 0, 0
+repos/javascript/next.js/examples/with-cerebral/modules/clock/actions.js,"stopTimer ( { clock } )",3, 40, 0, 0
+repos/javascript/next.js/examples/with-cerebral/modules/clock/provider.js,"tick ( )",7, 58, 8, 0
+repos/javascript/next.js/examples/with-redux/store.js,"initializeStore ( initialState = exampleInitialState )",7, 71, 0, 0
+repos/javascript/next.js/examples/with-redux/components/counter.js,"mapStateToProps ( state )",4, 35, 0, 0
+repos/javascript/next.js/examples/with-redux/components/examples.js,"Examples ( { lastUpdate , light } )",8, 54, 6, 0
+repos/javascript/next.js/examples/with-redux/components/examples.js,"mapStateToProps ( state )",4, 38, 2, 0
+repos/javascript/next.js/examples/with-redux/lib/with-redux-store.js,"getOrCreateStore ( initialState )",12, 83, 2, 0
+repos/javascript/next.js/examples/with-redux-code-splitting/containers/about.js,"function ( state , increment )",3, 79, 0, 0
+repos/javascript/next.js/examples/with-redux-code-splitting/containers/about.js,"mapStateToProps ( state )",3, 41, 2, 0
+repos/javascript/next.js/examples/with-redux-code-splitting/containers/about.js,"mapDispatchToProps ( dispatch )",3, 55, 2, 0
+repos/javascript/next.js/examples/with-redux-code-splitting/containers/homepage.js,"bumpBuild ( state , increment )",3, 72, 0, 0
+repos/javascript/next.js/examples/with-redux-code-splitting/containers/homepage.js,"mapStateToProps ( state )",3, 35, 0, 0
+repos/javascript/next.js/examples/with-redux-code-splitting/containers/homepage.js,"mapDispatchToProps ( dispatch )",3, 53, 2, 0
+repos/javascript/next.js/examples/with-apollo-auth/lib/initApollo.js,"create ( initialState , { getToken } )",24, 99, 4, 0
+repos/javascript/next.js/examples/with-apollo-auth/lib/initApollo.js,"initApollo ( initialState , options )",14, 81, 2, 0
+repos/javascript/next.js/examples/with-apollo-auth/lib/withApollo.js,"parseCookies ( req , options = { } )",3, 81, 2, 0
+repos/javascript/next.js/examples/using-preact/pages/index.js,"*global*",12, 29, 0, 0
+repos/javascript/next.js/examples/with-dynamic-import/next.config.js,"exportPathMap ( )",6, 54, 6, 0
+repos/javascript/next.js/examples/with-storybook/.storybook/config.js,"loadStories ( )",3, 48, 2, 0
+repos/javascript/next.js/examples/with-firebase-cloud-messaging/utils/webPush.js,"function ( )",20, 56, 6, 0
+repos/javascript/next.js/examples/with-apollo-and-redux/components/PostList.js,"PostList ( { data : { loading , error , allPosts , _allPostsMeta } , loadMorePosts } )",71, 71, 12, 0
+repos/javascript/next.js/examples/with-apollo-and-redux/components/PostUpvoter.js,"PostUpvoter ( { upvote , votes , id } )",27, 69, 10, 0
+repos/javascript/next.js/examples/with-apollo-and-redux/components/Submit.js,"handleSubmit ( event )",10, 59, 4, 0
+repos/javascript/next.js/examples/with-apollo-and-redux/components/Submit.js,"Submit ( { createPost } )",35, 70, 6, 0
+repos/javascript/next.js/examples/with-apollo-and-redux/lib/initApollo.js,"create ( initialState )",12, 106, 6, 0
+repos/javascript/next.js/examples/with-apollo-and-redux/lib/initApollo.js,"initApollo ( initialState )",14, 81, 2, 0
+repos/javascript/next.js/examples/with-apollo-and-redux/lib/withApollo.js,"getComponentDisplayName ( Component )",3, 62, 2, 0
+repos/javascript/next.js/examples/custom-server-micro/server.js,"main ( req , res )",12, 45, 4, 0
+repos/javascript/next.js/examples/custom-server-micro/server.js,"setup ( handler )",4, 33, 0, 0
+repos/javascript/next.js/examples/with-react-with-styles/pages/index.js,"Home ( { styles } )",7, 46, 6, 0
+repos/javascript/next.js/examples/with-babel-macros/pages/index.js,"WhoAmI ( )",9, 64, 4, 0
+repos/javascript/next.js/examples/with-styletron/next.config.js,"webpack ( config )",5, 62, 4, 0
+repos/javascript/next.js/examples/with-styletron/styletron.js,"getStyletron ( )",11, 81, 4, 0
+repos/javascript/next.js/examples/with-styletron/styletron.js,"flush ( )",5, 31, 2, 0
+repos/javascript/next.js/examples/with-apollo-and-redux-saga/components/Clock.js,"Clock ( { lastUpdate , light } )",22, 53, 8, 0
+repos/javascript/next.js/examples/with-apollo-and-redux-saga/components/PostVoteDown.js,"PostVoteDown ( { downvote , votes , id } )",10, 53, 6, 0
+repos/javascript/next.js/examples/with-apollo-and-redux-saga/components/Page.js,"Page ( { clock , placeholder , linkTo , title } )",10, 66, 6, 0
+repos/javascript/next.js/examples/with-apollo-and-redux-saga/components/PostList.js,"handleClick ( event , id )",7, 48, 2, 0
+repos/javascript/next.js/examples/with-apollo-and-redux-saga/components/PostList.js,"PostList ( { data : { loading , error , allPosts , _allPostsMeta } , loadMorePosts } )",78, 71, 12, 0
+repos/javascript/next.js/examples/with-apollo-and-redux-saga/components/Submit.js,"handleSubmit ( event )",10, 59, 4, 0
+repos/javascript/next.js/examples/with-apollo-and-redux-saga/components/Submit.js,"Submit ( { createPost } )",32, 70, 6, 0
+repos/javascript/next.js/examples/with-apollo-and-redux-saga/components/Post.js,"Post ( { id , data : { error , Post } } )",30, 72, 2, 0
+repos/javascript/next.js/examples/with-apollo-and-redux-saga/components/PostVoteUp.js,"PostVoteUp ( { upvote , votes , id } )",10, 51, 6, 0
+repos/javascript/next.js/examples/with-apollo-and-redux-saga/lib/initApollo.js,"create ( initialState )",12, 106, 6, 0
+repos/javascript/next.js/examples/with-apollo-and-redux-saga/lib/initApollo.js,"initApollo ( initialState )",14, 81, 2, 0
+repos/javascript/next.js/examples/with-apollo-and-redux-saga/lib/withReduxSaga.js,"configureStore ( initialState = { } )",9, 57, 4, 0
+repos/javascript/next.js/examples/with-apollo-and-redux-saga/lib/withReduxSaga.js,"function ( BaseComponent )",3, 72, 2, 0
+repos/javascript/next.js/examples/with-apollo-and-redux-saga/lib/withApollo.js,"getComponentDisplayName ( Component )",3, 62, 2, 0
+repos/javascript/next.js/examples/with-apollo-and-redux-saga/lib/rootSaga.js,"rootSaga ( )",3, 34, 2, 0
+repos/javascript/next.js/examples/with-apollo-and-redux-saga/lib/count/actions.js,"countIncrease ( )",3, 46, 2, 0
+repos/javascript/next.js/examples/with-apollo-and-redux-saga/lib/count/actions.js,"countDecrease ( )",3, 46, 2, 0
+repos/javascript/next.js/examples/with-apollo-and-redux-saga/lib/count/reducers.js,"reducer ( state = initialState , action )",12, 50, 0, 0
+repos/javascript/next.js/examples/with-apollo-and-redux-saga/lib/placeholder/actions.js,"loadData ( )",3, 41, 2, 0
+repos/javascript/next.js/examples/with-apollo-and-redux-saga/lib/placeholder/actions.js,"loadDataSuccess ( data )",6, 41, 0, 0
+repos/javascript/next.js/examples/with-apollo-and-redux-saga/lib/placeholder/actions.js,"loadDataError ( error )",6, 40, 0, 0
+repos/javascript/next.js/examples/with-apollo-and-redux-saga/lib/placeholder/sagas.js,"loadDataSaga ( )",9, 74, 4, 0
+repos/javascript/next.js/examples/with-apollo-and-redux-saga/lib/placeholder/reducers.js,"reducer ( state = initialState , action )",18, 50, 0, 0
+repos/javascript/next.js/examples/with-apollo-and-redux-saga/lib/clock/actions.js,"startClock ( isServer = true )",7, 47, 0, 0
+repos/javascript/next.js/examples/with-apollo-and-redux-saga/lib/clock/actions.js,"tickClock ( isServer )",7, 39, 0, 0
+repos/javascript/next.js/examples/with-apollo-and-redux-saga/lib/clock/sagas.js,"runClockSaga ( )",7, 38, 2, 0
+repos/javascript/next.js/examples/with-apollo-and-redux-saga/lib/clock/reducers.js,"reducer ( state = initialState , action )",12, 68, 8, 0
+repos/javascript/next.js/examples/with-redux-observable/redux/reducer.js,"reducer ( state = INITIAL_STATE , { type , payload } )",19, 77, 0, 0
+repos/javascript/next.js/examples/with-redux-observable/redux/index.js,"initStore ( initialState )",10, 114, 2, 0
+repos/javascript/next.js/examples/with-rematch/shared/components/counter-display.js,"=> ( { counter : state . counter } )",5, 71, 0, 0
+repos/javascript/next.js/examples/with-configured-preset-env/pages/index.js,"generatorMethod ( )",3, 32, 0, 0
+repos/javascript/next.js/examples/with-configured-preset-env/pages/index.js,"fooBar ( )",5, 39, 2, 0
+repos/javascript/next.js/examples/with-redux-saga/reducer.js,"reducer ( state = exampleInitialState , action )",42, 60, 8, 0
+repos/javascript/next.js/examples/with-redux-saga/actions.js,"failure ( error )",6, 34, 0, 0
+repos/javascript/next.js/examples/with-redux-saga/actions.js,"increment ( )",3, 41, 2, 0
+repos/javascript/next.js/examples/with-redux-saga/actions.js,"decrement ( )",3, 41, 2, 0
+repos/javascript/next.js/examples/with-redux-saga/actions.js,"reset ( )",3, 37, 2, 0
+repos/javascript/next.js/examples/with-redux-saga/actions.js,"loadData ( )",3, 41, 2, 0
+repos/javascript/next.js/examples/with-redux-saga/actions.js,"loadDataSuccess ( data )",6, 41, 0, 0
+repos/javascript/next.js/examples/with-redux-saga/actions.js,"startClock ( )",3, 43, 2, 0
+repos/javascript/next.js/examples/with-redux-saga/actions.js,"tickClock ( isServer )",7, 39, 0, 0
+repos/javascript/next.js/examples/with-redux-saga/store.js,"configureStore ( initialState = exampleInitialState )",12, 63, 0, 0
+repos/javascript/next.js/examples/with-redux-saga/saga.js,"runClockSaga ( )",7, 38, 2, 0
+repos/javascript/next.js/examples/with-redux-saga/saga.js,"loadDataSaga ( )",9, 74, 4, 0
+repos/javascript/next.js/examples/with-redux-saga/saga.js,"rootSaga ( )",6, 52, 4, 0
+repos/javascript/next.js/examples/with-redux-saga/components/clock.js,"Clock ( { lastUpdate , light } )",19, 47, 10, 0
+repos/javascript/next.js/examples/with-redux-saga/components/page.js,"Page ( { error , lastUpdate , light , linkTo , NavigateTo , placeholderData , title } )",28, 72, 6, 0
+repos/javascript/next.js/examples/with-lingui/components/LangSwitcher.js,"onSubmit ( evt )",7, 52, 6, 0
+repos/javascript/next.js/examples/with-mobx/store.js,"initializeStore ( initialData )",10, 83, 2, 0
+repos/javascript/next.js/examples/with-react-md/next.config.js,"webpack ( config )",7, 47, 6, 0
+repos/javascript/next.js/examples/with-react-jss/pages/index.js,"Index ( props )",9, 53, 8, 0
+repos/javascript/next.js/examples/custom-server-actionhero/config/logger.js,"timestamp ( )",3, 61, 12, 0
+repos/javascript/next.js/examples/custom-server-actionhero/config/logger.js,"function ( api , winston )",9, 61, 12, 0
+repos/javascript/next.js/examples/custom-server-actionhero/config/logger.js,"timestamp ( )",3, 59, 10, 0
+repos/javascript/next.js/examples/custom-server-actionhero/config/logger.js,"function ( api , winston )",21, 77, 12, 0
+repos/javascript/next.js/examples/custom-server-actionhero/config/redis.js,"retryStrategy ( times )",13, 73, 10, 0
+repos/javascript/next.js/examples/with-rebass/pages/index.js,"HomePage ( )",33, 79, 10, 0
+repos/javascript/next.js/examples/using-inferno/next.config.js,"webpack ( config , { dev } )",13, 56, 4, 0
+repos/javascript/next.js/examples/using-inferno/pages/index.js,"*global*",12, 34, 4, 0
+repos/javascript/next.js/examples/with-overmind/components/Header.js,"Header ( )",15, 34, 2, 0
+repos/javascript/next.js/examples/with-overmind/components/Items.js,"Items ( )",11, 44, 8, 0
+repos/javascript/next.js/examples/with-graphql-hooks/components/submit.js,"Submit ( { onSubmission } )",26, 79, 6, 0
+repos/javascript/next.js/examples/with-graphql-hooks/components/submit.js,"handleSubmit ( event , onSubmission , createPost )",15, 64, 0, 0
+repos/javascript/next.js/examples/with-graphql-hooks/components/post-list.js,"PostList ( )",91, 80, 20, 0
+repos/javascript/next.js/examples/with-graphql-hooks/components/post-upvoter.js,"PostUpvoter ( { votes , id , onUpdate } )",44, 69, 10, 0
+repos/javascript/next.js/examples/with-graphql-hooks/lib/init-graphql.js,"create ( initialState = { } )",8, 75, 4, 0
+repos/javascript/next.js/examples/with-graphql-hooks/lib/init-graphql.js,"initGraphQL ( initialState )",14, 81, 2, 0
+repos/javascript/next.js/examples/with-tailwindcss/components/nav.js,"Nav ( )",22, 69, 12, 0
+repos/javascript/next.js/examples/using-router/components/Header.js,"onClickHandler ( href )",6, 33, 0, 0
+repos/javascript/next.js/examples/with-pretty-url-routing/pages/index.js,"IndexPage ( )",11, 45, 6, 0
+repos/javascript/next.js/packages/next/taskfile-ncc.js,"* ( file , options )",21, 61, 8, 0
+repos/javascript/next.js/packages/next/taskfile-ncc.js,"module.exports ( task )",23, 61, 8, 0
+repos/javascript/next.js/packages/next/taskfile-ncc.js,"writePackageManifest ( packageName )",38, 79, 4, 0
+repos/javascript/next.js/packages/next/taskfile.js,"ncc_unistore ( task , opts )",6, 74, 4, 0
+repos/javascript/next.js/packages/next/taskfile.js,"precompile ( task )",3, 42, 0, 0
+repos/javascript/next.js/packages/next/taskfile.js,"compile ( task )",3, 106, 2, 0
+repos/javascript/next.js/packages/next/taskfile.js,"bin ( task , opts )",4, 135, 2, 0
+repos/javascript/next.js/packages/next/taskfile.js,"cli ( task , opts )",4, 111, 2, 0
+repos/javascript/next.js/packages/next/taskfile.js,"lib ( task , opts )",4, 111, 2, 0
+repos/javascript/next.js/packages/next/taskfile.js,"server ( task , opts )",4, 117, 2, 0
+repos/javascript/next.js/packages/next/taskfile.js,"nextbuild ( task , opts )",4, 115, 2, 0
+repos/javascript/next.js/packages/next/taskfile.js,"client ( task , opts )",4, 134, 2, 0
+repos/javascript/next.js/packages/next/taskfile.js,"nextbuildstatic ( task , opts )",4, 117, 2, 0
+repos/javascript/next.js/packages/next/taskfile.js,"pages ( task , opts )",3, 132, 2, 0
+repos/javascript/next.js/packages/next/taskfile.js,"build ( task )",3, 47, 2, 0
+repos/javascript/next.js/packages/next/taskfile.js,"function ( task )",11, 61, 2, 0
+repos/javascript/next.js/packages/next/taskfile.js,"release ( task )",3, 42, 2, 0
+repos/javascript/next.js/packages/next/taskfile.js,"notify ( msg )",7, 27, 2, 0
+repos/javascript/next.js/packages/next/taskfile-typescript.js,"* ( file , options )",37, 139, 6, 0
+repos/javascript/next.js/packages/next/taskfile-typescript.js,"module.exports ( task )",39, 139, 6, 0
+repos/javascript/next.js/packages/next/taskfile-babel.js,"* ( file , opts )",15, 54, 6, 0
+repos/javascript/next.js/packages/next/taskfile-babel.js,"module.exports ( task )",17, 54, 6, 0
+repos/javascript/next.js/packages/next/server/on-demand-entry-handler.js,"addEntry ( compilation , context , name , entry )",9, 65, 4, 0
+repos/javascript/next.js/packages/next/server/on-demand-entry-handler.js,"function ( )",4, 84, 4, 0
+repos/javascript/next.js/packages/next/server/on-demand-entry-handler.js,"stop ( )",7, 50, 4, 0
+repos/javascript/next.js/packages/next/server/on-demand-entry-handler.js,"handlePing ( pg )",35, 90, 4, 0
+repos/javascript/next.js/packages/next/server/on-demand-entry-handler.js,"function ( )",3, 51, 8, 0
+repos/javascript/next.js/packages/next/server/on-demand-entry-handler.js,"handleCallback ( err )",4, 40, 8, 0
+repos/javascript/next.js/packages/next/server/on-demand-entry-handler.js,"onDemandEntryHandler ( devMiddleware , multiCompiler , { buildId , dir , reload , pageExtensions , maxInactiveAge , pagesBufferLength } )",305, 181, 8, 0
+repos/javascript/next.js/packages/next/server/on-demand-entry-handler.js,"disposeInactiveEntries ( devMiddleware , entries , lastAccessPages , maxInactiveAge )",28, 92, 0, 0
+repos/javascript/next.js/packages/next/server/on-demand-entry-handler.js,"normalizePage ( page )",7, 59, 2, 0
+repos/javascript/next.js/packages/next/server/error-debug.js,"ErrorDebug ( { error , info } )",10, 81, 8, 0
+repos/javascript/next.js/packages/next/server/hot-reloader.js,"renderScriptError ( res , error )",14, 83, 2, 0
+repos/javascript/next.js/packages/next/server/hot-reloader.js,"addCorsSupport ( req , res )",20, 115, 2, 0
+repos/javascript/next.js/packages/next/server/hot-reloader.js,"findEntryModule ( issuer )",7, 42, 4, 0
+repos/javascript/next.js/packages/next/server/hot-reloader.js,"erroredPages ( compilation , options = { enhanceName : ( name )",2, 81, 0, 0
+repos/javascript/next.js/packages/next/server/hot-reloader.js,"*global*",404, 186, 6, 0
+repos/javascript/next.js/packages/next/server/hot-reloader.js,"*global*",404, 186, 6, 0
+repos/javascript/next.js/packages/next/server/hot-reloader.js,"diff ( a , b )",3, 50, 2, 0
+repos/javascript/next.js/packages/next/server/lib/start-server.js,"start ( serverOptions , port , hostname )",13, 80, 2, 0
+repos/javascript/next.js/packages/next/server/lib/error-overlay-middleware.js,"errorOverlayMiddleware ( options )",20, 79, 4, 0
+repos/javascript/next.js/packages/next/server/lib/utils.js,"printAndExit ( message , code = 1 )",9, 51, 0, 0
+repos/javascript/next.js/packages/next/build/webpack/plugins/react-loadable-plugin.js,"buildManifest ( compiler , compilation )",30, 95, 8, 0
+repos/javascript/next.js/packages/next/build/webpack/loaders/emit-file-loader.js,"module.exports ( content , sourceMap )",35, 115, 2, 0
+repos/javascript/next.js/packages/next/export/index.js,"log ( message )",4, 31, 4, 0
+repos/javascript/next.js/packages/next/export/index.js,"function ( dir , options , configuration )",144, 149, 2, 0
+repos/javascript/next.js/packages/next/pages/_app.js,"createUrl ( router )",44, 77, 2, 0
+repos/javascript/next.js/packages/next/pages/_document.js,"getPagePathname ( page )",7, 33, 0, 0
+repos/javascript/next.js/packages/next/client/on-demand-entries-utils.js,"closePing ( )",3, 35, 2, 0
+repos/javascript/next.js/packages/next/client/on-demand-entries-utils.js,"setupPing ( assetPrefix , pathnameFn , retry )",42, 80, 2, 0
+repos/javascript/next.js/packages/next/client/with-router.js,"withRouter ( ComposedComponent )",20, 59, 2, 0
+repos/javascript/next.js/packages/next/client/link.js,"isLocal ( href )",7, 67, 4, 0
+repos/javascript/next.js/packages/next/client/link.js,"memoizedFormatUrl ( formatUrl )",16, 46, 4, 0
+repos/javascript/next.js/packages/next/client/index.js,"render ( props )",12, 41, 4, 0
+repos/javascript/next.js/packages/next/client/index.js,"renderError ( props )",23, 121, 4, 0
+repos/javascript/next.js/packages/next/client/index.js,"renderReactElement ( reactEl , domEl )",9, 81, 2, 0
+repos/javascript/next.js/packages/next/client/index.js,"doRender ( { App , Component , props , err , emitter : emitterProp = emitter } )",46, 105, 4, 0
+repos/javascript/next.js/packages/next/client/event-source-polyfill.js,"this.abort ( )",2, 31, 4, 0
+repos/javascript/next.js/packages/next/client/event-source-polyfill.js,"AbortController ( )",5, 34, 2, 0
+repos/javascript/next.js/packages/next/client/event-source-polyfill.js,"TextDecoderPolyfill ( )",4, 34, 0, 0
+repos/javascript/next.js/packages/next/client/event-source-polyfill.js,"valid ( codePoint , shift , octetsCount )",12, 138, 6, 0
+repos/javascript/next.js/packages/next/client/event-source-polyfill.js,"octetsCount ( bitsNeeded , codePoint )",12, 62, 6, 0
+repos/javascript/next.js/packages/next/client/event-source-polyfill.js,"TextDecoderPolyfill.prototype.decode ( octets )",76, 138, 6, 0
+repos/javascript/next.js/packages/next/client/event-source-polyfill.js,"supportsStreamOption ( )",8, 99, 4, 0
+repos/javascript/next.js/packages/next/client/event-source-polyfill.js,"k ( )",2, 22, 0, 0
+repos/javascript/next.js/packages/next/client/event-source-polyfill.js,"XHRWrapper ( xhr )",14, 31, 2, 0
+repos/javascript/next.js/packages/next/client/event-source-polyfill.js,"this._abort ( silent )",26, 68, 6, 0
+repos/javascript/next.js/packages/next/client/event-source-polyfill.js,"onStart ( )",37, 105, 10, 0
+repos/javascript/next.js/packages/next/client/event-source-polyfill.js,"onProgress ( )",15, 40, 8, 0
+repos/javascript/next.js/packages/next/client/event-source-polyfill.js,"onFinish ( )",14, 122, 4, 0
+repos/javascript/next.js/packages/next/client/event-source-polyfill.js,"onReadyStateChange ( )",11, 41, 2, 0
+repos/javascript/next.js/packages/next/client/event-source-polyfill.js,"function ( )",3, 39, 4, 0
+repos/javascript/next.js/packages/next/client/event-source-polyfill.js,"onTimeout ( )",8, 39, 4, 0
+repos/javascript/next.js/packages/next/client/event-source-polyfill.js,"function ( )",3, 39, 4, 0
+repos/javascript/next.js/packages/next/client/event-source-polyfill.js,"XHRWrapper.prototype.open ( method , url )",157, 122, 4, 0
+repos/javascript/next.js/packages/next/client/event-source-polyfill.js,"XHRWrapper.prototype.abort ( )",3, 43, 0, 0
+repos/javascript/next.js/packages/next/client/event-source-polyfill.js,"XHRWrapper.prototype.getResponseHeader ( name )",3, 59, 0, 0
+repos/javascript/next.js/packages/next/client/event-source-polyfill.js,"XHRWrapper.prototype.setRequestHeader ( name , value )",6, 65, 0, 0
+repos/javascript/next.js/packages/next/client/event-source-polyfill.js,"XHRWrapper.prototype.getAllResponseHeaders ( )",3, 95, 2, 0
+repos/javascript/next.js/packages/next/client/event-source-polyfill.js,"function ( )",4, 49, 4, 0
+repos/javascript/next.js/packages/next/client/event-source-polyfill.js,"XHRWrapper.prototype.send ( )",26, 79, 2, 0
+repos/javascript/next.js/packages/next/client/event-source-polyfill.js,"function ( c )",3, 55, 4, 0
+repos/javascript/next.js/packages/next/client/event-source-polyfill.js,"toLowerCase ( name )",5, 55, 4, 0
+repos/javascript/next.js/packages/next/client/event-source-polyfill.js,"HeadersPolyfill ( all )",13, 161, 2, 0
+repos/javascript/next.js/packages/next/client/event-source-polyfill.js,"HeadersPolyfill.prototype.get ( name )",3, 50, 0, 0
+repos/javascript/next.js/packages/next/client/event-source-polyfill.js,"XHRTransport ( )",2, 27, 0, 0
+repos/javascript/next.js/packages/next/client/event-source-polyfill.js,"xhr.onprogress ( )",6, 43, 4, 0
+repos/javascript/next.js/packages/next/client/event-source-polyfill.js,"function ( )",3, 99, 6, 0
+repos/javascript/next.js/packages/next/client/event-source-polyfill.js,"xhr.onreadystatechange ( )",13, 99, 6, 0
+repos/javascript/next.js/packages/next/client/event-source-polyfill.js,"XHRTransport.prototype.open ( xhr , onStartCallback , onProgressCallback , onFinishCallback , url , withCredentials , headers )",31, 133, 0, 0
+repos/javascript/next.js/packages/next/client/event-source-polyfill.js,"HeadersWrapper ( headers )",3, 36, 0, 0
+repos/javascript/next.js/packages/next/client/event-source-polyfill.js,"HeadersWrapper.prototype.get ( name )",3, 49, 0, 0
+repos/javascript/next.js/packages/next/client/event-source-polyfill.js,"FetchTransport ( )",2, 29, 0, 0
+repos/javascript/next.js/packages/next/client/event-source-polyfill.js,"function ( )",4, 148, 4, 0
+repos/javascript/next.js/packages/next/client/event-source-polyfill.js,"function ( result )",10, 75, 12, 0
+repos/javascript/next.js/packages/next/client/event-source-polyfill.js,"function ( error )",3, 39, 8, 0
+repos/javascript/next.js/packages/next/client/event-source-polyfill.js,"readNextChunk ( )",14, 75, 12, 0
+repos/javascript/next.js/packages/next/client/event-source-polyfill.js,"function ( resolve , reject )",17, 75, 12, 0
+repos/javascript/next.js/packages/next/client/event-source-polyfill.js,"function ( response )",24, 148, 4, 0
+repos/javascript/next.js/packages/next/client/event-source-polyfill.js,"function ( )",3, 30, 2, 0
+repos/javascript/next.js/packages/next/client/event-source-polyfill.js,"FetchTransport.prototype.open ( xhr , onStartCallback , onProgressCallback , onFinishCallback , url , withCredentials , headers )",36, 148, 4, 0
+repos/javascript/next.js/packages/next/client/event-source-polyfill.js,"EventTarget ( )",3, 40, 2, 0
+repos/javascript/next.js/packages/next/client/event-source-polyfill.js,"function ( )",3, 27, 2, 0
+repos/javascript/next.js/packages/next/client/event-source-polyfill.js,"throwError ( e )",5, 27, 2, 0
+repos/javascript/next.js/packages/next/client/event-source-polyfill.js,"EventTarget.prototype.dispatchEvent ( event )",19, 58, 8, 0
+repos/javascript/next.js/packages/next/client/event-source-polyfill.js,"EventTarget.prototype.addEventListener ( type , listener )",18, 69, 0, 0
+repos/javascript/next.js/packages/next/client/event-source-polyfill.js,"EventTarget.prototype.removeEventListener ( type , listener )",18, 72, 0, 0
+repos/javascript/next.js/packages/next/client/event-source-polyfill.js,"Event ( type )",4, 26, 2, 0
+repos/javascript/next.js/packages/next/client/event-source-polyfill.js,"MessageEvent ( type , options )",5, 41, 2, 0
+repos/javascript/next.js/packages/next/client/event-source-polyfill.js,"ConnectionEvent ( type , options )",6, 43, 0, 0
+repos/javascript/next.js/packages/next/client/event-source-polyfill.js,"parseDuration ( value , def )",7, 44, 0, 0
+repos/javascript/next.js/packages/next/client/event-source-polyfill.js,"clampDuration ( n )",3, 67, 2, 0
+repos/javascript/next.js/packages/next/client/event-source-polyfill.js,"fire ( that , f , event )",9, 39, 0, 0
+repos/javascript/next.js/packages/next/client/event-source-polyfill.js,"EventSourcePolyfill ( url , options )",15, 46, 0, 0
+repos/javascript/next.js/packages/next/client/event-source-polyfill.js,"onStart ( status , statusText , contentType , headers , cancel )",37, 198, 10, 0
+repos/javascript/next.js/packages/next/client/event-source-polyfill.js,"function ( )",3, 53, 18, 0
+repos/javascript/next.js/packages/next/client/event-source-polyfill.js,"onProgress ( textChunk )",89, 148, 14, 0
+repos/javascript/next.js/packages/next/client/event-source-polyfill.js,"function ( )",3, 41, 6, 0
+repos/javascript/next.js/packages/next/client/event-source-polyfill.js,"onFinish ( )",18, 68, 6, 0
+repos/javascript/next.js/packages/next/client/event-source-polyfill.js,"close ( )",12, 39, 4, 0
+repos/javascript/next.js/packages/next/client/event-source-polyfill.js,"function ( )",3, 43, 8, 0
+repos/javascript/next.js/packages/next/client/event-source-polyfill.js,"function ( )",3, 39, 4, 0
+repos/javascript/next.js/packages/next/client/event-source-polyfill.js,"onTimeout ( )",55, 111, 8, 0
+repos/javascript/next.js/packages/next/client/event-source-polyfill.js,"start ( es , url , options )",249, 198, 10, 0
+repos/javascript/next.js/packages/next/client/event-source-polyfill.js,"EventSourcePolyfill.prototype.close ( )",3, 52, 0, 0
+repos/javascript/next.js/packages/next/client/router.js,"throwIfNoRouter ( )",7, 80, 6, 0
+repos/javascript/next.js/packages/next/client/router.js,"createRouter ( ... args )",7, 53, 2, 0
+repos/javascript/next.js/packages/next/client/router.js,"makePublicRouterInstance ( router )",35, 100, 2, 0
+repos/javascript/next.js/packages/next/client/head-manager.js,"reactElementToDOM ( { type , props } )",18, 81, 4, 0
+repos/javascript/next.js/packages/next/client/page-loader.js,"supportsPreload ( list )",10, 36, 4, 0
+repos/javascript/next.js/packages/next/client/dev-error-overlay/hot-dev-client.js,"editorHandler ( { fileName , lineNumber , colNumber } )",10, 95, 2, 0
+repos/javascript/next.js/packages/next/client/dev-error-overlay/hot-dev-client.js,"onError ( )",3, 29, 6, 0
+repos/javascript/next.js/packages/next/client/dev-error-overlay/hot-dev-client.js,"function ( )",4, 48, 6, 0
+repos/javascript/next.js/packages/next/client/dev-error-overlay/hot-dev-client.js,"connect ( options )",65, 95, 2, 0
+repos/javascript/next.js/packages/next/client/dev-error-overlay/hot-dev-client.js,"clearOutdatedErrors ( )",8, 79, 2, 0
+repos/javascript/next.js/packages/next/client/dev-error-overlay/hot-dev-client.js,"onHotUpdateSuccess ( )",5, 61, 6, 0
+repos/javascript/next.js/packages/next/client/dev-error-overlay/hot-dev-client.js,"handleSuccess ( )",14, 61, 6, 0
+repos/javascript/next.js/packages/next/client/dev-error-overlay/hot-dev-client.js,"handleWarnings ( warnings )",22, 78, 2, 0
+repos/javascript/next.js/packages/next/client/dev-error-overlay/hot-dev-client.js,"handleErrors ( errors )",22, 79, 2, 0
+repos/javascript/next.js/packages/next/client/dev-error-overlay/hot-dev-client.js,"handleAvailableHash ( hash )",4, 41, 2, 0
+repos/javascript/next.js/packages/next/client/dev-error-overlay/hot-dev-client.js,"processMessage ( e )",43, 115, 8, 0
+repos/javascript/next.js/packages/next/client/dev-error-overlay/hot-dev-client.js,"isUpdateAvailable ( )",6, 62, 2, 0
+repos/javascript/next.js/packages/next/client/dev-error-overlay/hot-dev-client.js,"canApplyUpdates ( )",3, 40, 2, 0
+repos/javascript/next.js/packages/next/client/dev-error-overlay/hot-dev-client.js,"handleApplyUpdates ( err , updatedModules )",22, 74, 8, 0
+repos/javascript/next.js/packages/next/client/dev-error-overlay/hot-dev-client.js,"tryApplyUpdates ( onHotUpdateSuccess )",47, 81, 4, 0
+repos/javascript/next.js/packages/next/client/dev-error-overlay/eventsource.js,"function ( )",5, 57, 4, 0
+repos/javascript/next.js/packages/next/client/dev-error-overlay/eventsource.js,"init ( )",6, 50, 4, 0
+repos/javascript/next.js/packages/next/client/dev-error-overlay/eventsource.js,"handleOnline ( )",4, 52, 4, 0
+repos/javascript/next.js/packages/next/client/dev-error-overlay/eventsource.js,"handleMessage ( event )",6, 49, 4, 0
+repos/javascript/next.js/packages/next/client/dev-error-overlay/eventsource.js,"handleDisconnect ( )",5, 38, 4, 0
+repos/javascript/next.js/packages/next/client/dev-error-overlay/eventsource.js,"addMessageListener ( fn )",3, 40, 4, 0
+repos/javascript/next.js/packages/next/client/dev-error-overlay/eventsource.js,"EventSourceWrapper ( options )",47, 57, 4, 0
+repos/javascript/next.js/packages/next/client/dev-error-overlay/eventsource.js,"getEventSourceWrapper ( options )",11, 79, 4, 0
+repos/javascript/next.js/packages/next/client/dev-error-overlay/format-webpack-messages.js,"isLikelyASyntaxError ( message )",3, 58, 2, 0
+repos/javascript/next.js/packages/next/client/dev-error-overlay/format-webpack-messages.js,"formatMessage ( message , isError )",83, 89, 4, 0
+repos/javascript/next.js/packages/next/client/dev-error-overlay/format-webpack-messages.js,"function ( message )",3, 63, 2, 0
+repos/javascript/next.js/packages/next/client/dev-error-overlay/format-webpack-messages.js,"function ( message )",3, 67, 2, 0
+repos/javascript/next.js/packages/next/client/dev-error-overlay/format-webpack-messages.js,"formatWebpackMessages ( json )",14, 74, 2, 0
+repos/javascript/next.js/packages/next-server/taskfile.js,"lib ( task , opts )",4, 111, 2, 0
+repos/javascript/next.js/packages/next-server/taskfile.js,"server ( task , opts )",4, 117, 2, 0
+repos/javascript/next.js/packages/next-server/taskfile.js,"build ( task )",3, 41, 2, 0
+repos/javascript/next.js/packages/next-server/taskfile.js,"function ( task )",6, 57, 2, 0
+repos/javascript/next.js/packages/next-server/taskfile.js,"release ( task )",3, 42, 2, 0
+repos/javascript/next.js/packages/next-server/taskfile.js,"notify ( msg )",7, 27, 2, 0
+repos/javascript/next.js/packages/next-server/index.js,"module.exports ( options )",3, 38, 0, 0
+repos/javascript/next.js/packages/next-server/taskfile-typescript.js,"* ( file , options )",32, 139, 6, 0
+repos/javascript/next.js/packages/next-server/taskfile-typescript.js,"module.exports ( task )",34, 139, 6, 0
+repos/javascript/next.js/packages/next-server/server/config.js,"assignDefaults ( userConfig )",13, 67, 4, 0
+repos/javascript/next.js/packages/next-server/server/config.js,"normalizeConfig ( phase , config )",12, 99, 8, 0
+repos/javascript/next.js/packages/next-server/server/config.js,"loadConfig ( phase , dir , customConfig )",20, 126, 6, 0
+repos/javascript/next.js/packages/next-server/server/lib/path-match.js,"function ( pathname , params )",17, 81, 8, 0
+repos/javascript/next.js/packages/next-server/server/lib/path-match.js,"function ( path )",22, 81, 8, 0
+repos/javascript/next.js/packages/next-server/server/lib/path-match.js,"module.exports ( options )",26, 81, 8, 0
+repos/javascript/next.js/packages/next-server/server/lib/path-match.js,"decodeParam ( param )",9, 52, 4, 0
+repos/javascript/next.js/packages/next-server/lib/runtime-config.js,"setConfig ( configValue )",3, 42, 0, 0
+repos/javascript/next.js/packages/next-server/lib/loadable.js,"load ( loader )",23, 28, 6, 0
+repos/javascript/next.js/packages/next-server/lib/loadable.js,"loadMap ( obj )",46, 42, 8, 0
+repos/javascript/next.js/packages/next-server/lib/loadable.js,"resolve ( obj )",3, 51, 2, 0
+repos/javascript/next.js/packages/next-server/lib/loadable.js,"render ( loaded , props )",3, 53, 2, 0
+repos/javascript/next.js/packages/next-server/lib/loadable.js,"init ( )",6, 32, 6, 0
+repos/javascript/next.js/packages/next-server/lib/loadable.js,"createLoadableComponent ( loadFn , options )",153, 93, 2, 0
+repos/javascript/next.js/packages/next-server/lib/loadable.js,"Loadable ( opts )",3, 45, 2, 0
+repos/javascript/next.js/packages/next-server/lib/loadable.js,"LoadableMap ( opts )",7, 79, 4, 0
+repos/javascript/next.js/packages/next-server/lib/loadable.js,"flushInitializers ( initializers , ids )",14, 50, 6, 0
+repos/javascript/next.js/packages/next-server/lib/utils.js,"execOnce ( fn )",9, 32, 0, 0
+repos/javascript/next.js/packages/next-server/lib/utils.js,"getLocationOrigin ( )",4, 61, 2, 0
+repos/javascript/next.js/packages/next-server/lib/utils.js,"getURL ( )",5, 39, 2, 0
+repos/javascript/next.js/packages/next-server/lib/utils.js,"getDisplayName ( Component )",7, 62, 2, 0
+repos/javascript/next.js/packages/next-server/lib/utils.js,"isResSent ( res )",3, 41, 2, 0
+repos/javascript/next.js/packages/next-server/lib/utils.js,"loadGetInitialProps ( Component , ctx )",23, 204, 6, 0
+repos/javascript/next.js/packages/next-server/lib/utils.js,"formatWithValidation ( url , options )",13, 83, 10, 0
+repos/javascript/next.js/packages/next-server/lib/dynamic.js,"noSSR ( LoadableInitializer , loadableOptions )",13, 101, 2, 0
+repos/javascript/next.js/packages/next-server/lib/dynamic.js,"DefaultLoading ( )",3, 29, 0, 0
+repos/javascript/next.js/packages/next-server/lib/dynamic.js,"dynamic ( dynamicOptions , options )",72, 157, 2, 0
+repos/javascript/next.js/packages/next-server/lib/router/router.js,"this.componentLoadCancel ( )",3, 60, 4, 0
+repos/javascript/next.js/packages/next-server/lib/router/router.js,"toRoute ( path )",3, 40, 2, 0

@@ -1,0 +1,948 @@
+File, Function, Length, Total Width, Leading Space(s), Leading Tab(s)
+repos/javascript/strapi/test/helpers/deleteFolder.js,"function ( folderName )",37, 73, 12, 0
+repos/javascript/strapi/test/helpers/request.js,"module.exports ( options )",19, 67, 6, 0
+repos/javascript/strapi/test/helpers/request.js,"module.exports.defaults ( options )",3, 47, 0, 0
+repos/javascript/strapi/test/helpers/restart.js,"module.exports ( rq )",32, 48, 12, 0
+repos/javascript/strapi/docs/.vuepress/config.js,"createContainer ( className )",12, 59, 8, 0
+repos/javascript/strapi/docs/.vuepress/theme/util.js,"normalize ( path )",5, 35, 0, 0
+repos/javascript/strapi/docs/.vuepress/theme/util.js,"getHash ( path )",6, 35, 2, 0
+repos/javascript/strapi/docs/.vuepress/theme/util.js,"isExternal ( path )",3, 36, 0, 0
+repos/javascript/strapi/docs/.vuepress/theme/util.js,"isMailto ( path )",3, 34, 0, 0
+repos/javascript/strapi/docs/.vuepress/theme/util.js,"isTel ( path )",3, 31, 0, 0
+repos/javascript/strapi/docs/.vuepress/theme/util.js,"ensureExt ( path )",13, 45, 2, 0
+repos/javascript/strapi/docs/.vuepress/theme/util.js,"isActive ( route , path )",10, 44, 2, 0
+repos/javascript/strapi/docs/.vuepress/theme/util.js,"resolvePage ( pages , rawPath , base )",18, 83, 2, 0
+repos/javascript/strapi/docs/.vuepress/theme/util.js,"resolvePath ( relative , base , append )",37, 59, 2, 0
+repos/javascript/strapi/docs/.vuepress/theme/util.js,"resolveSidebarItems ( page , route , site , localePath )",22, 100, 2, 0
+repos/javascript/strapi/docs/.vuepress/theme/util.js,"resolveHeaders ( page )",15, 51, 2, 0
+repos/javascript/strapi/docs/.vuepress/theme/util.js,"groupHeaders ( headers )",13, 58, 6, 0
+repos/javascript/strapi/docs/.vuepress/theme/util.js,"resolveNavLinkItem ( linkItem )",5, 69, 4, 0
+repos/javascript/strapi/docs/.vuepress/theme/util.js,"resolveMatchingConfig ( route , config )",17, 61, 4, 0
+repos/javascript/strapi/docs/.vuepress/theme/util.js,"ensureEndingSlash ( path )",5, 36, 0, 0
+repos/javascript/strapi/docs/.vuepress/theme/util.js,"resolveItem ( item , pages , base , isNested )",23, 78, 6, 0
+repos/javascript/strapi/packages/strapi-plugin-email/config/queries/bookshelf.js,"function ( qb )",17, 56, 8, 0
+repos/javascript/strapi/packages/strapi-plugin-email/config/queries/bookshelf.js,"function ( params = { } , populate )",23, 112, 6, 0
+repos/javascript/strapi/packages/strapi-plugin-email/config/queries/bookshelf.js,"function ( params = { } )",5, 40, 2, 0
+repos/javascript/strapi/packages/strapi-plugin-email/config/queries/bookshelf.js,"function ( params , populate )",17, 69, 8, 0
+repos/javascript/strapi/packages/strapi-plugin-email/config/queries/bookshelf.js,"function ( params )",19, 105, 8, 0
+repos/javascript/strapi/packages/strapi-plugin-email/config/queries/bookshelf.js,"function ( search , params = { } )",30, 76, 8, 0
+repos/javascript/strapi/packages/strapi-plugin-email/config/queries/bookshelf.js,"function ( params )",7, 64, 8, 0
+repos/javascript/strapi/packages/strapi-plugin-email/config/queries/bookshelf.js,"function ( qb )",5, 65, 10, 0
+repos/javascript/strapi/packages/strapi-plugin-email/config/queries/bookshelf.js,"function ( params )",9, 65, 10, 0
+repos/javascript/strapi/packages/strapi-plugin-email/config/queries/bookshelf.js,"function ( params )",5, 43, 2, 0
+repos/javascript/strapi/packages/strapi-plugin-email/config/queries/bookshelf.js,"function ( params )",7, 64, 8, 0
+repos/javascript/strapi/packages/strapi-plugin-email/config/queries/mongoose.js,"function ( params = { } , populate )",9, 75, 6, 0
+repos/javascript/strapi/packages/strapi-plugin-email/config/queries/mongoose.js,"function ( params = { } )",4, 40, 2, 0
+repos/javascript/strapi/packages/strapi-plugin-email/config/queries/mongoose.js,"function ( params , populate )",14, 75, 6, 0
+repos/javascript/strapi/packages/strapi-plugin-email/config/queries/mongoose.js,"function ( params )",23, 103, 6, 0
+repos/javascript/strapi/packages/strapi-plugin-email/config/queries/mongoose.js,"function ( search , params = { } )",23, 74, 8, 0
+repos/javascript/strapi/packages/strapi-plugin-email/config/queries/mongoose.js,"function ( params )",7, 64, 8, 0
+repos/javascript/strapi/packages/strapi-plugin-email/config/queries/mongoose.js,"function ( params )",11, 43, 4, 0
+repos/javascript/strapi/packages/strapi-plugin-email/config/queries/mongoose.js,"function ( params )",4, 43, 2, 0
+repos/javascript/strapi/packages/strapi-plugin-email/config/queries/mongoose.js,"function ( params )",4, 46, 2, 0
+repos/javascript/strapi/packages/strapi-plugin-email/admin/src/containers/App/index.js,"App ( )",11, 97, 8, 0
+repos/javascript/strapi/packages/strapi-plugin-email/admin/src/containers/ConfigPage/reducer.js,"configPageReducer ( state = initialState , action )",36, 71, 8, 0
+repos/javascript/strapi/packages/strapi-plugin-email/admin/src/containers/ConfigPage/actions.js,"getSettings ( env )",6, 35, 0, 0
+repos/javascript/strapi/packages/strapi-plugin-email/admin/src/containers/ConfigPage/actions.js,"getSettingsSucceeded ( settings , appEnvironments )",8, 66, 0, 0
+repos/javascript/strapi/packages/strapi-plugin-email/admin/src/containers/ConfigPage/actions.js,"onCancel ( )",5, 29, 0, 0
+repos/javascript/strapi/packages/strapi-plugin-email/admin/src/containers/ConfigPage/actions.js,"onChange ( { target } )",10, 64, 2, 0
+repos/javascript/strapi/packages/strapi-plugin-email/admin/src/containers/ConfigPage/actions.js,"setErrors ( errors )",6, 36, 0, 0
+repos/javascript/strapi/packages/strapi-plugin-email/admin/src/containers/ConfigPage/actions.js,"submit ( )",5, 27, 0, 0
+repos/javascript/strapi/packages/strapi-plugin-email/admin/src/containers/ConfigPage/actions.js,"submitError ( errors )",6, 38, 0, 0
+repos/javascript/strapi/packages/strapi-plugin-email/admin/src/containers/ConfigPage/actions.js,"submitSucceeded ( data )",6, 40, 0, 0
+repos/javascript/strapi/packages/strapi-plugin-email/admin/src/containers/ConfigPage/index.js,"mapDispatchToProps ( dispatch )",12, 40, 0, 0
+repos/javascript/strapi/packages/strapi-plugin-email/admin/src/containers/ConfigPage/saga.js,"settingsGet ( action )",13, 76, 4, 0
+repos/javascript/strapi/packages/strapi-plugin-email/admin/src/containers/ConfigPage/saga.js,"submit ( )",23, 70, 4, 0
+repos/javascript/strapi/packages/strapi-plugin-email/admin/src/containers/ConfigPage/saga.js,"defaultSaga ( )",4, 53, 2, 0
+repos/javascript/strapi/packages/strapi-admin/admin/src/store.js,"configureStore ( initialState = { } , history )",49, 143, 8, 0
+repos/javascript/strapi/packages/strapi-admin/admin/src/intlPolyfill.js,"onLoad ( )",11, 53, 6, 0
+repos/javascript/strapi/packages/strapi-admin/admin/src/reducers.js,"routeReducer ( state = routeInitialState , action )",11, 59, 0, 0
+repos/javascript/strapi/packages/strapi-admin/admin/src/reducers.js,"createReducer ( injectedReducers )",9, 58, 0, 0
+repos/javascript/strapi/packages/strapi-admin/admin/src/configureStore.js,"configureStore ( initialState = { } , history )",49, 143, 8, 0
+repos/javascript/strapi/packages/strapi-admin/admin/src/app.js,"script.onerror ( oError )",17, 73, 12, 0
+repos/javascript/strapi/packages/strapi-admin/admin/src/utils/sagaInjectors.js,"injectSaga ( key , descriptor = { } , args )",24, 129, 6, 0
+repos/javascript/strapi/packages/strapi-admin/admin/src/utils/sagaInjectors.js,"injectSagaFactory ( store , isValid )",26, 129, 6, 0
+repos/javascript/strapi/packages/strapi-admin/admin/src/utils/sagaInjectors.js,"ejectSaga ( key )",17, 94, 8, 0
+repos/javascript/strapi/packages/strapi-admin/admin/src/utils/sagaInjectors.js,"ejectSagaFactory ( store , isValid )",19, 94, 8, 0
+repos/javascript/strapi/packages/strapi-admin/admin/src/utils/sagaInjectors.js,"getInjectors ( store )",8, 48, 4, 0
+repos/javascript/strapi/packages/strapi-admin/admin/src/utils/reducerInjectors.js,"injectReducer ( key , reducer )",14, 123, 4, 0
+repos/javascript/strapi/packages/strapi-admin/admin/src/utils/reducerInjectors.js,"injectReducerFactory ( store , isValid )",16, 123, 4, 0
+repos/javascript/strapi/packages/strapi-admin/admin/src/utils/reducerInjectors.js,"getInjectors ( store )",7, 54, 4, 0
+repos/javascript/strapi/packages/strapi-admin/admin/src/utils/checkStore.js,"checkStore ( store )",15, 61, 4, 0
+repos/javascript/strapi/packages/strapi-admin/admin/src/components/LeftMenuFooter/index.js,"LeftMenuFooter ( { version } )",22, 164, 8, 0
+repos/javascript/strapi/packages/strapi-admin/admin/src/components/CtaWrapper/index.js,"CTAWrapper ( { children } )",3, 46, 2, 0
+repos/javascript/strapi/packages/strapi-admin/admin/src/components/LeftMenuLinkContainer/index.js,"LeftMenuLinkContainer ( { layout , plugins } )",110, 107, 8, 0
+repos/javascript/strapi/packages/strapi-admin/admin/src/components/StarsContainer/index.js,"StarsContainer ( { ratings } )",16, 77, 8, 0
+repos/javascript/strapi/packages/strapi-admin/admin/src/components/FullStory/index.js,"] ( a , b , s )",3, 49, 8, 0
+repos/javascript/strapi/packages/strapi-admin/admin/src/components/FullStory/index.js,"g.identify ( i , v , s )",7, 37, 6, 0
+repos/javascript/strapi/packages/strapi-admin/admin/src/components/FullStory/index.js,"g.setUserVars ( v , s )",3, 38, 6, 0
+repos/javascript/strapi/packages/strapi-admin/admin/src/components/FullStory/index.js,"g.event ( i , v , s )",3, 34, 6, 0
+repos/javascript/strapi/packages/strapi-admin/admin/src/components/FullStory/index.js,"g.shutdown ( )",3, 32, 6, 0
+repos/javascript/strapi/packages/strapi-admin/admin/src/components/FullStory/index.js,"g.restart ( )",3, 31, 6, 0
+repos/javascript/strapi/packages/strapi-admin/admin/src/components/FullStory/index.js,"g.consent ( a )",3, 43, 8, 0
+repos/javascript/strapi/packages/strapi-admin/admin/src/components/FullStory/index.js,"g.identifyAccount ( i , v )",6, 43, 6, 0
+repos/javascript/strapi/packages/strapi-admin/admin/src/components/FullStory/index.js,"g.clearUserCookie ( )",1, 41, 6, 0
+repos/javascript/strapi/packages/strapi-admin/admin/src/components/FullStory/index.js,"function ( m , n , e , t , l , o , g , y )",48, 94, 10, 0
+repos/javascript/strapi/packages/strapi-admin/admin/src/components/Sub/index.js,"Sub ( { bordered , content , link , name , style , title , underline } )",23, 143, 4, 0
+repos/javascript/strapi/packages/strapi-admin/admin/src/components/Official/index.js,"Official ( props )",8, 60, 4, 0
+repos/javascript/strapi/packages/strapi-admin/admin/src/components/SupportUsTitle/index.js,"SupportUsTitle ( )",7, 76, 6, 0
+repos/javascript/strapi/packages/strapi-admin/admin/src/components/HomePageBlock/index.js,"HomePageBlock ( { children , className } )",12, 50, 0, 0
+repos/javascript/strapi/packages/strapi-admin/admin/src/components/Header/index.js,"Header ( )",3, 44, 2, 0
+repos/javascript/strapi/packages/strapi-admin/admin/src/components/SupportUsCta/index.js,"SupportUsCta ( )",11, 90, 8, 0
+repos/javascript/strapi/packages/strapi-admin/admin/src/components/DownloadInfo/index.js,"DownloadInfo ( )",14, 73, 10, 0
+repos/javascript/strapi/packages/strapi-admin/admin/src/components/LeftMenuHeader/index.js,"LeftMenuHeader ( )",9, 58, 6, 0
+repos/javascript/strapi/packages/strapi-admin/admin/src/containers/NotificationProvider/reducer.js,"notificationProviderReducer ( state = initialState , action )",30, 88, 8, 0
+repos/javascript/strapi/packages/strapi-admin/admin/src/containers/NotificationProvider/actions.js,"showNotification ( message , status )",17, 59, 2, 0
+repos/javascript/strapi/packages/strapi-admin/admin/src/containers/NotificationProvider/actions.js,"hideNotification ( id )",6, 39, 0, 0
+repos/javascript/strapi/packages/strapi-admin/admin/src/containers/NotificationProvider/index.js,"mapDispatchToProps ( dispatch )",8, 40, 0, 0
+repos/javascript/strapi/packages/strapi-admin/admin/src/containers/ListPluginsPage/reducer.js,"listPluginsPageReducer ( state = initialState , action )",25, 82, 6, 0
+repos/javascript/strapi/packages/strapi-admin/admin/src/containers/ListPluginsPage/actions.js,"getAppCurrentEnvSucceeded ( currentEnvironment )",6, 64, 0, 0
+repos/javascript/strapi/packages/strapi-admin/admin/src/containers/ListPluginsPage/actions.js,"getPlugins ( )",5, 31, 0, 0
+repos/javascript/strapi/packages/strapi-admin/admin/src/containers/ListPluginsPage/actions.js,"getPluginsSucceeded ( { plugins } )",6, 51, 0, 0
+repos/javascript/strapi/packages/strapi-admin/admin/src/containers/ListPluginsPage/actions.js,"onDeletePluginClick ( { target } )",6, 50, 0, 0
+repos/javascript/strapi/packages/strapi-admin/admin/src/containers/ListPluginsPage/actions.js,"onDeletePluginConfirm ( )",5, 42, 0, 0
+repos/javascript/strapi/packages/strapi-admin/admin/src/containers/ListPluginsPage/actions.js,"deletePluginSucceeded ( plugin )",6, 48, 0, 0
+repos/javascript/strapi/packages/strapi-admin/admin/src/containers/ListPluginsPage/index.js,"mapDispatchToProps ( dispatch )",10, 40, 0, 0
+repos/javascript/strapi/packages/strapi-admin/admin/src/containers/ListPluginsPage/saga.js,"deletePlugin ( )",22, 84, 4, 0
+repos/javascript/strapi/packages/strapi-admin/admin/src/containers/ListPluginsPage/saga.js,"pluginsGet ( )",39, 109, 6, 0
+repos/javascript/strapi/packages/strapi-admin/admin/src/containers/ListPluginsPage/saga.js,"defaultSaga ( )",8, 78, 2, 0
+repos/javascript/strapi/packages/strapi-admin/admin/src/containers/PluginPage/index.js,"mapDispatchToProps ( dispatch )",5, 40, 0, 0
+repos/javascript/strapi/packages/strapi-admin/admin/src/containers/App/reducer.js,"appReducer ( state = initialState , action )",36, 104, 6, 0
+repos/javascript/strapi/packages/strapi-admin/admin/src/containers/App/actions.js,"freezeApp ( data )",6, 34, 0, 0
+repos/javascript/strapi/packages/strapi-admin/admin/src/containers/App/actions.js,"getAppPluginsSucceeded ( plugins )",6, 50, 0, 0
+repos/javascript/strapi/packages/strapi-admin/admin/src/containers/App/actions.js,"loadPlugin ( newPlugin )",6, 40, 0, 0
+repos/javascript/strapi/packages/strapi-admin/admin/src/containers/App/actions.js,"pluginDeleted ( plugin )",6, 40, 0, 0
+repos/javascript/strapi/packages/strapi-admin/admin/src/containers/App/actions.js,"pluginLoaded ( newPlugin )",6, 42, 0, 0
+repos/javascript/strapi/packages/strapi-admin/admin/src/containers/App/actions.js,"unfreezeApp ( )",5, 32, 0, 0
+repos/javascript/strapi/packages/strapi-admin/admin/src/containers/App/actions.js,"unsetHasUserPlugin ( )",5, 39, 0, 0
+repos/javascript/strapi/packages/strapi-admin/admin/src/containers/App/actions.js,"updatePlugin ( pluginId , updatedKey , updatedValue )",8, 67, 0, 0
+repos/javascript/strapi/packages/strapi-admin/admin/src/containers/HomePage/reducer.js,"homePageReducer ( state = initialState , action )",12, 68, 6, 0
+repos/javascript/strapi/packages/strapi-admin/admin/src/containers/HomePage/actions.js,"getArticles ( )",5, 32, 0, 0
+repos/javascript/strapi/packages/strapi-admin/admin/src/containers/HomePage/actions.js,"getArticlesSucceeded ( articles )",6, 49, 0, 0
+repos/javascript/strapi/packages/strapi-admin/admin/src/containers/HomePage/actions.js,"onChange ( { target } )",6, 39, 0, 0
+repos/javascript/strapi/packages/strapi-admin/admin/src/containers/HomePage/actions.js,"submit ( )",5, 27, 0, 0
+repos/javascript/strapi/packages/strapi-admin/admin/src/containers/HomePage/actions.js,"submitSucceeded ( )",5, 36, 0, 0
+repos/javascript/strapi/packages/strapi-admin/admin/src/containers/HomePage/WelcomeContent.js,"WelcomeContent ( { hasContent } )",38, 101, 14, 0
+repos/javascript/strapi/packages/strapi-admin/admin/src/containers/HomePage/index.js,"mapDispatchToProps ( dispatch )",10, 40, 0, 0
+repos/javascript/strapi/packages/strapi-admin/admin/src/containers/HomePage/saga.js,"getArticles ( )",25, 57, 4, 0
+repos/javascript/strapi/packages/strapi-admin/admin/src/containers/HomePage/saga.js,"submit ( )",14, 77, 4, 0
+repos/javascript/strapi/packages/strapi-admin/admin/src/containers/HomePage/saga.js,"defaultSaga ( )",6, 49, 4, 0
+repos/javascript/strapi/packages/strapi-admin/admin/src/containers/HomePage/saga.js,"fetchArticles ( )",8, 112, 4, 0
+repos/javascript/strapi/packages/strapi-admin/admin/src/containers/HomePage/CommunityContent.js,"CommunityContent ( )",13, 72, 6, 0
+repos/javascript/strapi/packages/strapi-admin/admin/src/containers/HomePage/SocialLink.js,"getSrc ( name )",18, 27, 4, 0
+repos/javascript/strapi/packages/strapi-admin/admin/src/containers/HomePage/CreateContent.js,"CreateContent ( )",15, 95, 10, 0
+repos/javascript/strapi/packages/strapi-admin/admin/src/containers/LanguageProvider/reducer.js,"languageProviderReducer ( state = initialState , action )",13, 67, 6, 0
+repos/javascript/strapi/packages/strapi-admin/admin/src/containers/LanguageProvider/actions.js,"changeLocale ( languageLocale )",6, 47, 0, 0
+repos/javascript/strapi/packages/strapi-admin/admin/src/containers/LanguageProvider/index.js,"mapDispatchToProps ( dispatch )",5, 40, 0, 0
+repos/javascript/strapi/packages/strapi-admin/admin/src/containers/Marketplace/reducer.js,"marketplaceReducer ( state = initialState , action )",19, 86, 8, 0
+repos/javascript/strapi/packages/strapi-admin/admin/src/containers/Marketplace/actions.js,"downloadPlugin ( pluginToDownload )",6, 51, 0, 0
+repos/javascript/strapi/packages/strapi-admin/admin/src/containers/Marketplace/actions.js,"downloadPluginSucceeded ( )",5, 44, 0, 0
+repos/javascript/strapi/packages/strapi-admin/admin/src/containers/Marketplace/actions.js,"getAvailableAndInstalledPlugins ( )",5, 52, 0, 0
+repos/javascript/strapi/packages/strapi-admin/admin/src/containers/Marketplace/actions.js,"getAvailableAndInstalledPluginsSucceeded ( availablePlugins , installedPlugins )",7, 95, 0, 0
+repos/javascript/strapi/packages/strapi-admin/admin/src/containers/Marketplace/actions.js,"resetProps ( )",5, 31, 0, 0
+repos/javascript/strapi/packages/strapi-admin/admin/src/containers/Marketplace/index.js,"mapDispatchToProps ( dispatch )",10, 40, 0, 0
+repos/javascript/strapi/packages/strapi-admin/admin/src/containers/Marketplace/saga.js,"pluginDownload ( )",31, 96, 4, 0
+repos/javascript/strapi/packages/strapi-admin/admin/src/containers/Marketplace/saga.js,"getData ( )",24, 97, 4, 0
+repos/javascript/strapi/packages/strapi-admin/admin/src/containers/Marketplace/saga.js,"defaultSaga ( )",8, 96, 2, 0
+repos/javascript/strapi/packages/strapi-admin/admin/src/containers/Content/index.js,"mapDispatchToProps ( dispatch )",5, 40, 0, 0
+repos/javascript/strapi/packages/strapi-admin/admin/src/containers/LeftMenu/index.js,"LeftMenu ( props )",9, 73, 6, 0
+repos/javascript/strapi/packages/strapi-admin/admin/src/containers/LeftMenu/index.js,"mapDispatchToProps ( dispatch )",5, 40, 0, 0
+repos/javascript/strapi/packages/strapi-admin/admin/src/containers/AdminPage/reducer.js,"adminPageReducer ( state = initialState , action )",13, 76, 8, 0
+repos/javascript/strapi/packages/strapi-admin/admin/src/containers/AdminPage/actions.js,"getAdminData ( )",5, 33, 0, 0
+repos/javascript/strapi/packages/strapi-admin/admin/src/containers/AdminPage/actions.js,"getAdminDataSucceeded ( data )",6, 46, 0, 0
+repos/javascript/strapi/packages/strapi-admin/admin/src/containers/AdminPage/actions.js,"emitEvent ( event , properties )",7, 47, 0, 0
+repos/javascript/strapi/packages/strapi-admin/admin/src/containers/AdminPage/index.js,"mapDispatchToProps ( dispatch )",13, 40, 0, 0
+repos/javascript/strapi/packages/strapi-admin/admin/src/containers/AdminPage/saga.js,"emitter ( action )",23, 61, 10, 0
+repos/javascript/strapi/packages/strapi-admin/admin/src/containers/AdminPage/saga.js,"getData ( )",21, 91, 4, 0
+repos/javascript/strapi/packages/strapi-admin/admin/src/containers/AdminPage/saga.js,"defaultSaga ( )",6, 47, 4, 0
+repos/javascript/strapi/packages/strapi-admin/admin/src/containers/LocaleToggle/index.js,"mapDispatchToProps ( dispatch )",8, 40, 0, 0
+repos/javascript/strapi/packages/strapi-admin/admin/src/containers/ComingSoonPage/index.js,"mapDispatchToProps ( dispatch )",5, 40, 0, 0
+repos/javascript/strapi/packages/strapi-admin/admin/src/containers/Onboarding/reducer.js,"onboardingReducer ( state = initialState , action )",54, 90, 6, 0
+repos/javascript/strapi/packages/strapi-admin/admin/src/containers/Onboarding/actions.js,"getVideos ( )",5, 30, 0, 0
+repos/javascript/strapi/packages/strapi-admin/admin/src/containers/Onboarding/actions.js,"getVideosSucceeded ( videos )",6, 45, 0, 0
+repos/javascript/strapi/packages/strapi-admin/admin/src/containers/Onboarding/actions.js,"shouldOpenModal ( opened )",6, 42, 0, 0
+repos/javascript/strapi/packages/strapi-admin/admin/src/containers/Onboarding/actions.js,"onClick ( e )",6, 45, 4, 0
+repos/javascript/strapi/packages/strapi-admin/admin/src/containers/Onboarding/actions.js,"setVideoDuration ( index , duration )",7, 52, 0, 0
+repos/javascript/strapi/packages/strapi-admin/admin/src/containers/Onboarding/actions.js,"updateVideoStartTime ( index , startTime )",7, 57, 0, 0
+repos/javascript/strapi/packages/strapi-admin/admin/src/containers/Onboarding/actions.js,"setVideoEnd ( index , end )",7, 42, 0, 0
+repos/javascript/strapi/packages/strapi-admin/admin/src/containers/Onboarding/actions.js,"removeVideos ( )",5, 33, 0, 0
+repos/javascript/strapi/packages/strapi-admin/admin/src/containers/Onboarding/index.js,"mapDispatchToProps ( dispatch )",3, 130, 2, 0
+repos/javascript/strapi/packages/strapi-admin/admin/src/containers/Onboarding/saga.js,"getVideos ( )",53, 125, 6, 0
+repos/javascript/strapi/packages/strapi-admin/admin/src/containers/Onboarding/saga.js,"defaultSaga ( )",3, 56, 2, 0
+repos/javascript/strapi/packages/strapi-admin/scripts/setup.js,"function ( plugin )",26, 91, 6, 0
+repos/javascript/strapi/packages/strapi-utils/lib/logger.js,"getLogLevel ( )",6, 119, 2, 0
+repos/javascript/strapi/packages/strapi-utils/lib/logger.js,"getBool ( envVar , defaultValue )",8, 42, 2, 0
+repos/javascript/strapi/packages/strapi-utils/lib/policy.js,"get ( policy , plugin , policies = [ ] , endpoint , currentApiName )",83, 111, 6, 0
+repos/javascript/strapi/packages/strapi-utils/lib/models.js,"getPK ( collectionIdentity , collection , models )",16, 128, 8, 0
+repos/javascript/strapi/packages/strapi-utils/lib/models.js,"getCount ( collectionIdentity )",17, 124, 8, 0
+repos/javascript/strapi/packages/strapi-utils/lib/models.js,"defineAssociations ( model , definition , association , key )",98, 118, 6, 0
+repos/javascript/strapi/packages/strapi-utils/lib/json.js,"andThen ( json )",25, 31, 6, 0
+repos/javascript/strapi/packages/strapi-utils/lib/packageManager.js,"commands ( cmdType , path = '' )",16, 82, 8, 0
+repos/javascript/strapi/packages/strapi-middleware-views/lib/index.js,"initialize ( cb )",47, 79, 16, 0
+repos/javascript/strapi/packages/strapi-generate-new/json/package.json.js,"getDependencyVersion ( packageJSON , module )",3, 123, 2, 0
+repos/javascript/strapi/packages/strapi-generate-new/lib/after.js,"pluginsInstallation ( )",86, 176, 10, 0
+repos/javascript/strapi/packages/strapi-generate-new/lib/success.js,"trackSuccess ( event , scope , error )",14, 62, 0, 0
+repos/javascript/strapi/packages/strapi-plugin-documentation/middlewares/documentation/index.js,"beforeInitialize ( )",5, 86, 6, 0
+repos/javascript/strapi/packages/strapi-plugin-documentation/middlewares/documentation/index.js,"initialize ( cb )",38, 124, 12, 0
+repos/javascript/strapi/packages/strapi-plugin-documentation/admin/src/components/Row/index.js,"Row ( { currentDocVersion , data , isHeader , onClickDelete , onUpdateDoc } )",23, 82, 0, 0
+repos/javascript/strapi/packages/strapi-plugin-documentation/admin/src/containers/App/index.js,"App ( )",10, 75, 8, 0
+repos/javascript/strapi/packages/strapi-plugin-documentation/admin/src/containers/HomePage/reducer.js,"homePageReducer ( state = initialState , action )",23, 71, 8, 0
+repos/javascript/strapi/packages/strapi-plugin-documentation/admin/src/containers/HomePage/actions.js,"getDocInfos ( )",5, 32, 0, 0
+repos/javascript/strapi/packages/strapi-plugin-documentation/admin/src/containers/HomePage/actions.js,"getDocInfosSucceeded ( data )",6, 45, 0, 0
+repos/javascript/strapi/packages/strapi-plugin-documentation/admin/src/containers/HomePage/actions.js,"onChange ( { target } )",7, 39, 0, 0
+repos/javascript/strapi/packages/strapi-plugin-documentation/admin/src/containers/HomePage/actions.js,"onClickDeleteDoc ( version )",6, 44, 0, 0
+repos/javascript/strapi/packages/strapi-plugin-documentation/admin/src/containers/HomePage/actions.js,"onConfirmDeleteDoc ( )",5, 39, 0, 0
+repos/javascript/strapi/packages/strapi-plugin-documentation/admin/src/containers/HomePage/actions.js,"onSubmit ( e )",7, 30, 0, 0
+repos/javascript/strapi/packages/strapi-plugin-documentation/admin/src/containers/HomePage/actions.js,"onUpdateDoc ( version )",6, 39, 0, 0
+repos/javascript/strapi/packages/strapi-plugin-documentation/admin/src/containers/HomePage/actions.js,"setFormErrors ( errors )",6, 40, 0, 0
+repos/javascript/strapi/packages/strapi-plugin-documentation/admin/src/containers/HomePage/index.js,"mapDispatchToProps ( dispatch )",13, 40, 0, 0
+repos/javascript/strapi/packages/strapi-plugin-documentation/admin/src/containers/HomePage/saga.js,"getData ( )",8, 88, 4, 0
+repos/javascript/strapi/packages/strapi-plugin-documentation/admin/src/containers/HomePage/saga.js,"deleteDoc ( )",15, 69, 4, 0
+repos/javascript/strapi/packages/strapi-plugin-documentation/admin/src/containers/HomePage/saga.js,"submit ( )",31, 93, 8, 0
+repos/javascript/strapi/packages/strapi-plugin-documentation/admin/src/containers/HomePage/saga.js,"updateDoc ( action )",14, 95, 4, 0
+repos/javascript/strapi/packages/strapi-plugin-documentation/admin/src/containers/HomePage/saga.js,"defaultSaga ( )",8, 56, 4, 0
+repos/javascript/strapi/packages/strapi-plugin-documentation/services/Documentation.js,"checkIfAPIDocNeedsUpdate ( apiName )",6, 101, 4, 0
+repos/javascript/strapi/packages/strapi-plugin-documentation/services/Documentation.js,"checkIfDocumentationFolderExists ( apiName )",8, 57, 6, 0
+repos/javascript/strapi/packages/strapi-plugin-documentation/services/Documentation.js,"checkIfPluginDocumentationFolderExists ( pluginName )",8, 66, 6, 0
+repos/javascript/strapi/packages/strapi-plugin-documentation/services/Documentation.js,"checkIfPluginDocNeedsUpdate ( pluginName )",8, 98, 4, 0
+repos/javascript/strapi/packages/strapi-plugin-documentation/services/Documentation.js,"checkIfApiDefaultDocumentationFileExist ( apiName , docName )",8, 77, 6, 0
+repos/javascript/strapi/packages/strapi-plugin-documentation/services/Documentation.js,"checkIfPluginDefaultDocumentFileExists ( pluginName , docName )",8, 83, 6, 0
+repos/javascript/strapi/packages/strapi-plugin-documentation/services/Documentation.js,"checkIfMergedDocumentationFolderExists ( )",8, 56, 6, 0
+repos/javascript/strapi/packages/strapi-plugin-documentation/services/Documentation.js,"createDocumentationDirectory ( targetDir )",34, 110, 12, 0
+repos/javascript/strapi/packages/strapi-plugin-documentation/services/Documentation.js,"createDocumentationFile ( apiName , writeFile = true )",24, 95, 10, 0
+repos/javascript/strapi/packages/strapi-plugin-documentation/services/Documentation.js,"createPluginDocumentationFile ( pluginName , writeFile = true )",32, 97, 10, 0
+repos/javascript/strapi/packages/strapi-plugin-documentation/services/Documentation.js,"function ( version = this . getDocumentationVersion ( )",80, 97, 14, 0
+repos/javascript/strapi/packages/strapi-plugin-documentation/services/Documentation.js,"generateAssociationSchema ( attributes , getter )",36, 89, 10, 0
+repos/javascript/strapi/packages/strapi-plugin-documentation/services/Documentation.js,"generateApiDocumentation ( apiName , routes )",127, 118, 6, 0
+repos/javascript/strapi/packages/strapi-plugin-documentation/services/Documentation.js,"generateFullDoc ( version = this . getDocumentationVersion ( )",26, 85, 4, 0
+repos/javascript/strapi/packages/strapi-plugin-documentation/services/Documentation.js,"generateMainComponent ( attributes , associations )",60, 105, 8, 0
+repos/javascript/strapi/packages/strapi-plugin-documentation/services/Documentation.js,"generatePluginDocumentation ( pluginName , routes )",130, 100, 6, 0
+repos/javascript/strapi/packages/strapi-plugin-documentation/services/Documentation.js,"generatePluginResponseSchema ( tag )",52, 98, 4, 0
+repos/javascript/strapi/packages/strapi-plugin-documentation/services/Documentation.js,"generatePluginVerbResponses ( routeObject )",60, 55, 2, 0
+repos/javascript/strapi/packages/strapi-plugin-documentation/services/Documentation.js,"generateResponses ( verb , routeObject , tag )",46, 82, 4, 0
+repos/javascript/strapi/packages/strapi-plugin-documentation/services/Documentation.js,"getPrivateAttributes ( attributes )",10, 81, 4, 0
+repos/javascript/strapi/packages/strapi-plugin-documentation/services/Documentation.js,"generateResponseComponent ( tag , pluginName = '' , isPlugin = false )",92, 154, 4, 0
+repos/javascript/strapi/packages/strapi-plugin-documentation/services/Documentation.js,"generateResponseDescription ( verb , tag , endPoint )",21, 81, 4, 0
+repos/javascript/strapi/packages/strapi-plugin-documentation/services/Documentation.js,"generateResponseSchema ( verb , routeObject , tag )",99, 119, 6, 0
+repos/javascript/strapi/packages/strapi-plugin-documentation/services/Documentation.js,"generateTags ( name , docName , tag = '' , isPlugin = false )",7, 70, 2, 0
+repos/javascript/strapi/packages/strapi-plugin-documentation/services/Documentation.js,"generateVerbParameters ( verb , controllerMethod , endPoint )",25, 82, 6, 0
+repos/javascript/strapi/packages/strapi-plugin-documentation/services/Documentation.js,"getAPIOverrideComponentsDocumentation ( apiName , docName )",11, 89, 8, 0
+repos/javascript/strapi/packages/strapi-plugin-documentation/services/Documentation.js,"getAPIDefaultTagsDocumentation ( name , docName )",11, 86, 8, 0
+repos/javascript/strapi/packages/strapi-plugin-documentation/services/Documentation.js,"getAPIDefaultVerbDocumentation ( apiName , docName , routePath , verb )",11, 89, 8, 0
+repos/javascript/strapi/packages/strapi-plugin-documentation/services/Documentation.js,"getAPIOverrideDocumentationPath ( apiName , docName )",11, 64, 2, 0
+repos/javascript/strapi/packages/strapi-plugin-documentation/services/Documentation.js,"getDocumentationOverridesPath ( apiName )",10, 53, 2, 0
+repos/javascript/strapi/packages/strapi-plugin-documentation/services/Documentation.js,"getDocumentationPath ( apiName )",9, 44, 2, 0
+repos/javascript/strapi/packages/strapi-plugin-documentation/services/Documentation.js,"getMergedDocumentationPath ( version = this . getDocumentationVersion ( )",3, 99, 4, 0
+repos/javascript/strapi/packages/strapi-plugin-documentation/services/Documentation.js,"getModelAttributes ( modelAttributes )",27, 89, 10, 0
+repos/javascript/strapi/packages/strapi-plugin-documentation/services/Documentation.js,"getPluginDefaultVerbDocumentation ( pluginName , docName , routePath , verb )",11, 95, 8, 0
+repos/javascript/strapi/packages/strapi-plugin-documentation/services/Documentation.js,"getPluginDefaultTagsDocumentation ( pluginName , docName )",11, 95, 8, 0
+repos/javascript/strapi/packages/strapi-plugin-documentation/services/Documentation.js,"getPluginOverrideComponents ( pluginName , docName )",11, 95, 8, 0
+repos/javascript/strapi/packages/strapi-plugin-documentation/services/Documentation.js,"getPluginOverrideDocumentationPath ( pluginName , docName )",16, 70, 2, 0
+repos/javascript/strapi/packages/strapi-plugin-documentation/services/Documentation.js,"getPluginDocumentationPath ( pluginName )",9, 53, 2, 0
+repos/javascript/strapi/packages/strapi-plugin-documentation/services/Documentation.js,"getPluginsWithDocumentationNeeded ( )",11, 79, 6, 0
+repos/javascript/strapi/packages/strapi-plugin-documentation/services/Documentation.js,"getPluginRoutesWithDescription ( pluginName )",5, 82, 4, 0
+repos/javascript/strapi/packages/strapi-plugin-documentation/services/Documentation.js,"getModelForPlugin ( string , pluginName )",5, 79, 4, 0
+repos/javascript/strapi/packages/strapi-plugin-documentation/services/Documentation.js,"isPluginDocumentationNeeded ( pluginName )",5, 89, 4, 0
+repos/javascript/strapi/packages/strapi-plugin-documentation/services/Documentation.js,"mergePaths ( initObj , srcObj )",20, 83, 8, 0
+repos/javascript/strapi/packages/strapi-plugin-documentation/services/Documentation.js,"mergeVerbObject ( initObj , srcObj )",9, 66, 4, 0
+repos/javascript/strapi/packages/strapi-plugin-documentation/services/Documentation.js,"retrieveDocumentation ( name , isPlugin = false )",26, 98, 6, 0
+repos/javascript/strapi/packages/strapi-plugin-documentation/services/Documentation.js,"retrieveDocumentationFiles ( isPlugin = false , version = this . getDocumentationVersion ( )",82, 101, 2, 0
+repos/javascript/strapi/packages/strapi-plugin-documentation/services/Documentation.js,"retrieveDocumentationVersions ( )",19, 97, 14, 0
+repos/javascript/strapi/packages/strapi-plugin-documentation/services/Documentation.js,"function ( )",16, 60, 4, 0
+repos/javascript/strapi/packages/strapi-plugin-content-type-builder/test/front/integration/createApi_specs.js,"function ( )",73, 91, 6, 0
+repos/javascript/strapi/packages/strapi-plugin-content-type-builder/admin/src/InjectedComponents/ContentManager/EditViewLink.js,"EditViewLink ( props )",7, 104, 2, 0
+repos/javascript/strapi/packages/strapi-plugin-content-type-builder/admin/src/utils/formValidations.js,"getValidationsFromForm ( form , formValidations )",27, 82, 6, 0
+repos/javascript/strapi/packages/strapi-plugin-content-type-builder/admin/src/utils/formValidations.js,"checkFormValidity ( formData , formValidations )",17, 88, 4, 0
+repos/javascript/strapi/packages/strapi-plugin-content-type-builder/admin/src/utils/formValidations.js,"validate ( value , validations )",46, 82, 2, 0
+repos/javascript/strapi/packages/strapi-plugin-content-type-builder/admin/src/containers/Form/reducer.js,"formReducer ( state = initialState , action )",92, 119, 8, 0
+repos/javascript/strapi/packages/strapi-plugin-content-type-builder/admin/src/containers/Form/actions.js,"changeInput ( key , value , isEditing )",9, 74, 2, 0
+repos/javascript/strapi/packages/strapi-plugin-content-type-builder/admin/src/containers/Form/actions.js,"changeInputAttribute ( key , value )",7, 60, 4, 0
+repos/javascript/strapi/packages/strapi-plugin-content-type-builder/admin/src/containers/Form/actions.js,"connectionsFetch ( )",5, 37, 0, 0
+repos/javascript/strapi/packages/strapi-plugin-content-type-builder/admin/src/containers/Form/actions.js,"connectionsFetchSucceeded ( data )",7, 104, 2, 0
+repos/javascript/strapi/packages/strapi-plugin-content-type-builder/admin/src/containers/Form/actions.js,"contentTypeActionSucceeded ( )",5, 47, 0, 0
+repos/javascript/strapi/packages/strapi-plugin-content-type-builder/admin/src/containers/Form/actions.js,"contentTypeCreate ( newModel )",9, 84, 2, 0
+repos/javascript/strapi/packages/strapi-plugin-content-type-builder/admin/src/containers/Form/actions.js,"contentTypeEdit ( context )",6, 43, 0, 0
+repos/javascript/strapi/packages/strapi-plugin-content-type-builder/admin/src/containers/Form/actions.js,"contentTypeFetch ( contentTypeName )",6, 52, 0, 0
+repos/javascript/strapi/packages/strapi-plugin-content-type-builder/admin/src/containers/Form/actions.js,"contentTypeFetchSucceeded ( contentType )",15, 74, 2, 0
+repos/javascript/strapi/packages/strapi-plugin-content-type-builder/admin/src/containers/Form/actions.js,"removeContentTypeRequiredError ( )",5, 51, 0, 0
+repos/javascript/strapi/packages/strapi-plugin-content-type-builder/admin/src/containers/Form/actions.js,"resetDidFetchModelProp ( )",5, 43, 0, 0
+repos/javascript/strapi/packages/strapi-plugin-content-type-builder/admin/src/containers/Form/actions.js,"resetFormErrors ( )",5, 36, 0, 0
+repos/javascript/strapi/packages/strapi-plugin-content-type-builder/admin/src/containers/Form/actions.js,"resetIsFormSet ( )",5, 35, 0, 0
+repos/javascript/strapi/packages/strapi-plugin-content-type-builder/admin/src/containers/Form/actions.js,"setAttributeForm ( hash )",25, 124, 2, 0
+repos/javascript/strapi/packages/strapi-plugin-content-type-builder/admin/src/containers/Form/actions.js,"setAttributeFormEdit ( hash , contentType )",17, 76, 2, 0
+repos/javascript/strapi/packages/strapi-plugin-content-type-builder/admin/src/containers/Form/actions.js,"setButtonLoading ( )",5, 37, 0, 0
+repos/javascript/strapi/packages/strapi-plugin-content-type-builder/admin/src/containers/Form/actions.js,"setForm ( hash )",12, 82, 2, 0
+repos/javascript/strapi/packages/strapi-plugin-content-type-builder/admin/src/containers/Form/actions.js,"setFormErrors ( formErrors )",6, 44, 0, 0
+repos/javascript/strapi/packages/strapi-plugin-content-type-builder/admin/src/containers/Form/actions.js,"unsetButtonLoading ( )",5, 39, 0, 0
+repos/javascript/strapi/packages/strapi-plugin-content-type-builder/admin/src/containers/Form/actions.js,"getDataFromForm ( form )",11, 79, 4, 0
+repos/javascript/strapi/packages/strapi-plugin-content-type-builder/admin/src/containers/Form/actions.js,"setAttributeFormData ( hash )",35, 61, 2, 0
+repos/javascript/strapi/packages/strapi-plugin-content-type-builder/admin/src/containers/Form/sagas.js,"editContentType ( action )",40, 182, 4, 0
+repos/javascript/strapi/packages/strapi-plugin-content-type-builder/admin/src/containers/Form/sagas.js,"fetchConnections ( )",11, 82, 4, 0
+repos/javascript/strapi/packages/strapi-plugin-content-type-builder/admin/src/containers/Form/sagas.js,"fetchContentType ( action )",18, 102, 4, 0
+repos/javascript/strapi/packages/strapi-plugin-content-type-builder/admin/src/containers/Form/sagas.js,"defaultSaga ( )",5, 64, 2, 0
+repos/javascript/strapi/packages/strapi-plugin-content-type-builder/admin/src/containers/Form/index.js,"mapDispatchToProps ( dispatch )",28, 41, 6, 0
+repos/javascript/strapi/packages/strapi-plugin-content-type-builder/admin/src/containers/Form/utils/setAttribute.js,"setParallelAttribute ( newAttribute )",25, 80, 4, 0
+repos/javascript/strapi/packages/strapi-plugin-content-type-builder/admin/src/containers/Form/utils/setAttribute.js,"setTempAttribute ( )",12, 68, 2, 0
+repos/javascript/strapi/packages/strapi-plugin-content-type-builder/admin/src/containers/Form/utils/attributeValidations.js,"checkAttributeValidations ( errors )",66, 186, 2, 0
+repos/javascript/strapi/packages/strapi-plugin-content-type-builder/admin/src/containers/ModelPage/reducer.js,"modelPageReducer ( state = initialState , action )",91, 128, 10, 0
+repos/javascript/strapi/packages/strapi-plugin-content-type-builder/admin/src/containers/ModelPage/actions.js,"addAttributeRelationToContentType ( newAttribute )",7, 66, 0, 0
+repos/javascript/strapi/packages/strapi-plugin-content-type-builder/admin/src/containers/ModelPage/actions.js,"addAttributeToContentType ( newAttribute )",6, 58, 0, 0
+repos/javascript/strapi/packages/strapi-plugin-content-type-builder/admin/src/containers/ModelPage/actions.js,"cancelChanges ( )",5, 34, 0, 0
+repos/javascript/strapi/packages/strapi-plugin-content-type-builder/admin/src/containers/ModelPage/actions.js,"editContentTypeAttribute ( modifiedAttribute , attributePosition , shouldAddParralAttribute )",9, 107, 0, 0
+repos/javascript/strapi/packages/strapi-plugin-content-type-builder/admin/src/containers/ModelPage/actions.js,"editContentTypeAttributeRelation ( modifiedAttribute , attributePosition , parallelAttributePosition , shouldRemoveParallelAttribute )",10, 147, 0, 0
+repos/javascript/strapi/packages/strapi-plugin-content-type-builder/admin/src/containers/ModelPage/actions.js,"deleteAttribute ( position , modelName , shouldRemoveParallelAttribute )",22, 117, 6, 0
+repos/javascript/strapi/packages/strapi-plugin-content-type-builder/admin/src/containers/ModelPage/actions.js,"defaultAction ( )",5, 34, 0, 0
+repos/javascript/strapi/packages/strapi-plugin-content-type-builder/admin/src/containers/ModelPage/actions.js,"modelFetch ( modelName )",6, 40, 0, 0
+repos/javascript/strapi/packages/strapi-plugin-content-type-builder/admin/src/containers/ModelPage/actions.js,"modelFetchSucceeded ( data )",18, 152, 2, 0
+repos/javascript/strapi/packages/strapi-plugin-content-type-builder/admin/src/containers/ModelPage/actions.js,"postContentTypeSucceeded ( )",5, 45, 0, 0
+repos/javascript/strapi/packages/strapi-plugin-content-type-builder/admin/src/containers/ModelPage/actions.js,"resetShowButtonsProps ( )",5, 42, 0, 0
+repos/javascript/strapi/packages/strapi-plugin-content-type-builder/admin/src/containers/ModelPage/actions.js,"setButtonLoader ( )",5, 36, 0, 0
+repos/javascript/strapi/packages/strapi-plugin-content-type-builder/admin/src/containers/ModelPage/actions.js,"submit ( context , modelName )",7, 45, 0, 0
+repos/javascript/strapi/packages/strapi-plugin-content-type-builder/admin/src/containers/ModelPage/actions.js,"submitActionSucceeded ( )",5, 42, 0, 0
+repos/javascript/strapi/packages/strapi-plugin-content-type-builder/admin/src/containers/ModelPage/actions.js,"unsetButtonLoader ( )",5, 38, 0, 0
+repos/javascript/strapi/packages/strapi-plugin-content-type-builder/admin/src/containers/ModelPage/actions.js,"updateContentType ( data )",6, 42, 0, 0
+repos/javascript/strapi/packages/strapi-plugin-content-type-builder/admin/src/containers/ModelPage/actions.js,"setParallelAttribute ( data )",23, 70, 2, 0
+repos/javascript/strapi/packages/strapi-plugin-content-type-builder/admin/src/containers/ModelPage/sagas.js,"fetchModel ( action )",20, 96, 4, 0
+repos/javascript/strapi/packages/strapi-plugin-content-type-builder/admin/src/containers/ModelPage/sagas.js,"submitChanges ( action )",91, 129, 4, 0
+repos/javascript/strapi/packages/strapi-plugin-content-type-builder/admin/src/containers/ModelPage/sagas.js,"defaultSaga ( )",14, 79, 2, 0
+repos/javascript/strapi/packages/strapi-plugin-content-type-builder/admin/src/containers/ModelPage/index.js,"mapDispatchToProps ( dispatch )",13, 40, 0, 0
+repos/javascript/strapi/packages/strapi-plugin-content-type-builder/admin/src/containers/App/reducer.js,"appReducer ( state = initialState , action )",40, 154, 8, 0
+repos/javascript/strapi/packages/strapi-plugin-content-type-builder/admin/src/containers/App/actions.js,"deleteContentType ( itemToDelete , context )",35, 147, 2, 0
+repos/javascript/strapi/packages/strapi-plugin-content-type-builder/admin/src/containers/App/actions.js,"modelsFetch ( )",5, 32, 0, 0
+repos/javascript/strapi/packages/strapi-plugin-content-type-builder/admin/src/containers/App/actions.js,"modelsFetchSucceeded ( models )",25, 151, 2, 0
+repos/javascript/strapi/packages/strapi-plugin-content-type-builder/admin/src/containers/App/actions.js,"storeTemporaryMenu ( newMenu , position , nbElementToRemove )",17, 95, 2, 0
+repos/javascript/strapi/packages/strapi-plugin-content-type-builder/admin/src/containers/App/actions.js,"temporaryContentTypeFieldsUpdated ( fieldNumber )",6, 65, 0, 0
+repos/javascript/strapi/packages/strapi-plugin-content-type-builder/admin/src/containers/App/actions.js,"temporaryContentTypePosted ( fieldNumber )",6, 58, 0, 0
+repos/javascript/strapi/packages/strapi-plugin-content-type-builder/admin/src/containers/App/sagas.js,"deleteContentType ( action )",15, 101, 8, 0
+repos/javascript/strapi/packages/strapi-plugin-content-type-builder/admin/src/containers/App/sagas.js,"fetchModels ( )",10, 82, 4, 0
+repos/javascript/strapi/packages/strapi-plugin-content-type-builder/admin/src/containers/App/sagas.js,"defaultSaga ( )",4, 66, 2, 0
+repos/javascript/strapi/packages/strapi-plugin-content-type-builder/admin/src/containers/App/index.js,"mapDispatchToProps ( dispatch )",8, 47, 0, 0
+repos/javascript/strapi/packages/strapi-plugin-content-type-builder/admin/src/containers/HomePage/reducer.js,"homePageReducer ( state = initialState , action )",8, 57, 0, 0
+repos/javascript/strapi/packages/strapi-plugin-content-type-builder/admin/src/containers/HomePage/actions.js,"defaultAction ( )",5, 34, 0, 0
+repos/javascript/strapi/packages/strapi-plugin-content-type-builder/admin/src/containers/HomePage/sagas.js,"defaultSaga ( )",3, 26, 0, 0
+repos/javascript/strapi/packages/strapi-plugin-content-type-builder/admin/src/containers/HomePage/index.js,"mapDispatchToProps ( dispatch )",8, 40, 0, 0
+repos/javascript/strapi/packages/strapi-plugin-content-type-builder/services/ContentTypeBuilder.js,"function ( route )",3, 64, 10, 0
+repos/javascript/strapi/packages/strapi-generate-api/json/routes.json.js,"generateRoutes ( )",51, 84, 4, 0
+repos/javascript/strapi/packages/strapi-provider-email-amazon-ses/lib/index.js,"function ( err )",7, 81, 14, 0
+repos/javascript/strapi/packages/strapi-helper-plugin/lib/internals/webpack/webpack.dev.babel.js,"templateContent ( )",7, 80, 4, 0
+repos/javascript/strapi/packages/strapi-helper-plugin/lib/internals/scripts/analyze.js,"callback ( )",9, 115, 4, 0
+repos/javascript/strapi/packages/strapi-helper-plugin/lib/internals/scripts/npmcheckversion.js,"function ( code , stdout , stderr )",7, 73, 4, 0
+repos/javascript/strapi/packages/strapi-helper-plugin/lib/internals/scripts/helpers/checkmark.js,"addCheckMark ( callback )",4, 43, 2, 0
+repos/javascript/strapi/packages/strapi-helper-plugin/lib/internals/generators/utils/componentExists.js,"componentExists ( comp )",3, 40, 2, 0
+repos/javascript/strapi/packages/strapi-helper-plugin/lib/src/app.js,"Comp ( props )",5, 31, 4, 0
+repos/javascript/strapi/packages/strapi-helper-plugin/lib/src/utils/request.js,"parseJSON ( response )",3, 53, 2, 0
+repos/javascript/strapi/packages/strapi-helper-plugin/lib/src/utils/request.js,"checkStatus ( response , checkToken = true )",16, 84, 2, 0
+repos/javascript/strapi/packages/strapi-helper-plugin/lib/src/utils/request.js,"checkTokenValidity ( response )",23, 71, 4, 0
+repos/javascript/strapi/packages/strapi-helper-plugin/lib/src/utils/request.js,"formatQueryParams ( params )",5, 75, 4, 0
+repos/javascript/strapi/packages/strapi-helper-plugin/lib/src/utils/request.js,"serverRestartWatcher ( response )",22, 63, 10, 0
+repos/javascript/strapi/packages/strapi-helper-plugin/lib/src/utils/request.js,"request ( ... args )",60, 87, 2, 0
+repos/javascript/strapi/packages/strapi-helper-plugin/lib/src/utils/templateObject.js,"templateObject ( obj , variables )",22, 75, 2, 0
+repos/javascript/strapi/packages/strapi-helper-plugin/lib/src/components/PopUpWarning/index.js,"PopUpWarning ( { content , isOpen , onConfirm , onlyConfirmButton , popUpWarningType , toggleModal } )",55, 152, 16, 0
+repos/javascript/strapi/packages/strapi-helper-plugin/lib/src/components/ContainerFluid/index.js,"ContainerFluid ( { children } )",7, 73, 4, 0
+repos/javascript/strapi/packages/strapi-helper-plugin/lib/src/components/InputErrors/index.js,"InputErrors ( props )",28, 97, 10, 0
+repos/javascript/strapi/packages/strapi-helper-plugin/lib/src/components/EmptyAttributesBlock/index.js,"EmptyAttributesBlock ( { description , label , onClick , title , id } )",22, 76, 0, 0
+repos/javascript/strapi/packages/strapi-helper-plugin/lib/src/components/ImgPreviewRemoveIcon/index.js,"ImgPreviewRemoveIcon ( props )",9, 84, 4, 0
+repos/javascript/strapi/packages/strapi-helper-plugin/lib/src/components/BlockerComponent/index.js,"BlockerComponent ( { blockerComponentTitle , blockerComponentDescription , blockerComponentIcon , blockerComponentContent = '' } )",33, 136, 0, 0
+repos/javascript/strapi/packages/strapi-helper-plugin/lib/src/components/NotFound/index.js,"NotFound ( { history } )",21, 74, 8, 0
+repos/javascript/strapi/packages/strapi-helper-plugin/lib/src/components/InputSelect/index.js,"InputSelect ( props )",32, 72, 8, 0
+repos/javascript/strapi/packages/strapi-helper-plugin/lib/src/components/ImgPreviewArrow/index.js,"ImgPreviewArrow ( props )",25, 56, 2, 0
+repos/javascript/strapi/packages/strapi-helper-plugin/lib/src/components/InputText/index.js,"InputText ( props )",33, 76, 12, 0
+repos/javascript/strapi/packages/strapi-helper-plugin/lib/src/components/InputTextArea/index.js,"InputTextArea ( props )",29, 111, 2, 0
+repos/javascript/strapi/packages/strapi-helper-plugin/lib/src/components/PluginHeaderActions/index.js,"PluginHeaderActions ( { actions , overrideRendering } )",19, 63, 0, 0
+repos/javascript/strapi/packages/strapi-helper-plugin/lib/src/components/InputDescription/index.js,"InputDescription ( props )",28, 122, 4, 0
+repos/javascript/strapi/packages/strapi-helper-plugin/lib/src/components/Label/index.js,"Label ( props )",25, 122, 4, 0
+repos/javascript/strapi/packages/strapi-helper-plugin/lib/src/components/InputNumber/index.js,"InputNumber ( props )",32, 118, 2, 0
+repos/javascript/strapi/packages/strapi-helper-plugin/lib/src/components/PluginHeader/index.js,"PluginHeader ( { actions , description , overrideRendering , subActions , title , titleId , withDescriptionAnim , } )",28, 88, 8, 0
+repos/javascript/strapi/packages/strapi-helper-plugin/lib/src/components/InputSpacer/index.js,"InputSpacer ( )",3, 49, 2, 0
+repos/javascript/strapi/packages/strapi-helper-plugin/lib/src/components/SelectOption/index.js,"SelectOption ( { id , name , params , value } )",9, 81, 4, 0
+repos/javascript/strapi/packages/strapi-helper-plugin/lib/src/components/SelectOption/index.js,"generateMessageId ( id , name , value )",12, 46, 0, 0
+repos/javascript/strapi/packages/strapi-helper-plugin/lib/src/components/HeaderNav/index.js,"HeaderNav ( { links } )",20, 153, 10, 0
+repos/javascript/strapi/packages/strapi-helper-plugin/lib/src/components/PageFooter/index.js,"PageFooter ( props )",38, 101, 14, 0
+repos/javascript/strapi/packages/strapi-helper-plugin/lib/src/components/Button/index.js,"Button ( props )",50, 158, 2, 0
+repos/javascript/strapi/packages/strapi-helper-plugin/lib/src/components/BackHeader/index.js,"BackHeader ( props )",3, 59, 2, 0
+repos/javascript/strapi/packages/strapi-helper-plugin/lib/src/components/InputFileDetails/index.js,"InputFileDetails ( props )",30, 106, 2, 0
+repos/javascript/strapi/packages/strapi-helper-plugin/lib/src/components/InputDate/index.js,"InputDate ( props )",43, 118, 2, 0
+repos/javascript/strapi/packages/strapi-helper-plugin/lib/src/components/ListRow/index.js,"ListRow ( { children , items , onClick } )",12, 143, 2, 0
+repos/javascript/strapi/packages/strapi-helper-plugin/lib/src/components/InputsIndex/index.js,"InputsIndex ( props )",27, 75, 2, 0
+repos/javascript/strapi/packages/strapi-helper-plugin/lib/src/components/PluginHeaderTitle/index.js,"PluginHeaderTitle ( { description , title , titleId , withDescriptionAnim } )",17, 90, 8, 0
+repos/javascript/strapi/packages/strapi-helper-plugin/lib/src/components/NavLink/index.js,"NavLink ( props )",25, 60, 2, 0
+repos/javascript/strapi/packages/strapi-helper-plugin/lib/src/components/Ico/index.js,"Ico ( props )",11, 109, 6, 0
+repos/javascript/strapi/packages/strapi-helper-plugin/lib/src/components/ImgPreviewHint/index.js,"ImgPreviewHint ( props )",30, 120, 4, 0
+repos/javascript/strapi/packages/strapi-helper-plugin/lib/src/components/IcoContainer/index.js,"IcoContainer ( { icons } )",7, 65, 6, 0
+repos/javascript/strapi/packages/strapi-helper-plugin/lib/src/actions/overlayBlocker.js,"disableGlobalOverlayBlocker ( )",5, 48, 0, 0
+repos/javascript/strapi/packages/strapi-helper-plugin/lib/src/actions/overlayBlocker.js,"enableGlobalOverlayBlocker ( )",5, 47, 0, 0
+repos/javascript/strapi/packages/strapi-generate-admin/lib/before.js,"module.exports ( scope , cb )",24, 124, 4, 0
+repos/javascript/strapi/packages/strapi-provider-email-mailgun/lib/index.js,"function ( err )",7, 81, 14, 0
+repos/javascript/strapi/packages/strapi-provider-email-sendgrid/lib/index.js,"function ( err )",7, 81, 14, 0
+repos/javascript/strapi/packages/strapi-plugin-content-manager/test/front/integration/listPage_specs.js,"function ( )",166, 148, 6, 0
+repos/javascript/strapi/packages/strapi-plugin-content-manager/test/front/integration/createPage_specs.js,"function ( )",429, 143, 6, 0
+repos/javascript/strapi/packages/strapi-plugin-content-manager/config/queries/bookshelf.js,"function ( qb )",23, 94, 12, 0
+repos/javascript/strapi/packages/strapi-plugin-content-manager/config/queries/bookshelf.js,"function ( params , populate , raw = false )",27, 94, 12, 0
+repos/javascript/strapi/packages/strapi-plugin-content-manager/config/queries/bookshelf.js,"function ( params = { } )",16, 86, 14, 0
+repos/javascript/strapi/packages/strapi-plugin-content-manager/config/queries/bookshelf.js,"function ( params , populate , raw = false )",74, 134, 6, 0
+repos/javascript/strapi/packages/strapi-plugin-content-manager/config/queries/bookshelf.js,"function ( params = { } )",57, 148, 6, 0
+repos/javascript/strapi/packages/strapi-plugin-content-manager/config/queries/bookshelf.js,"function ( params , populate )",32, 99, 8, 0
+repos/javascript/strapi/packages/strapi-plugin-content-manager/config/queries/bookshelf.js,"function ( params )",36, 73, 4, 0
+repos/javascript/strapi/packages/strapi-plugin-content-manager/config/queries/bookshelf.js,"function ( params )",5, 64, 4, 0
+repos/javascript/strapi/packages/strapi-plugin-content-manager/config/queries/bookshelf.js,"function ( params )",7, 37, 8, 0
+repos/javascript/strapi/packages/strapi-plugin-content-manager/config/queries/bookshelf.js,"function ( qb )",3, 44, 8, 0
+repos/javascript/strapi/packages/strapi-plugin-content-manager/config/queries/bookshelf.js,"function ( params )",7, 44, 8, 0
+repos/javascript/strapi/packages/strapi-plugin-content-manager/config/queries/mongoose.js,"function ( params , populate , raw = false )",10, 76, 6, 0
+repos/javascript/strapi/packages/strapi-plugin-content-manager/config/queries/mongoose.js,"function ( params )",5, 35, 2, 0
+repos/javascript/strapi/packages/strapi-plugin-content-manager/config/queries/mongoose.js,"function ( params , populate )",35, 85, 2, 0
+repos/javascript/strapi/packages/strapi-plugin-content-manager/config/queries/mongoose.js,"function ( params = { } )",31, 85, 2, 0
+repos/javascript/strapi/packages/strapi-plugin-content-manager/config/queries/mongoose.js,"function ( params , populate , raw = true )",9, 76, 6, 0
+repos/javascript/strapi/packages/strapi-plugin-content-manager/config/queries/mongoose.js,"function ( params )",39, 73, 4, 0
+repos/javascript/strapi/packages/strapi-plugin-content-manager/config/queries/mongoose.js,"function ( params )",5, 64, 4, 0
+repos/javascript/strapi/packages/strapi-plugin-content-manager/config/queries/mongoose.js,"function ( params )",7, 38, 8, 0
+repos/javascript/strapi/packages/strapi-plugin-content-manager/config/queries/mongoose.js,"function ( params )",8, 52, 10, 0
+repos/javascript/strapi/packages/strapi-plugin-content-manager/admin/src/utils/bindLayout.js,"bindLayout ( object )",13, 61, 6, 0
+repos/javascript/strapi/packages/strapi-plugin-content-manager/admin/src/utils/formValidations.js,"getValidationsFromForm ( form , formValidations )",27, 82, 6, 0
+repos/javascript/strapi/packages/strapi-plugin-content-manager/admin/src/utils/formValidations.js,"checkFormValidity ( formData , formValidations )",18, 88, 4, 0
+repos/javascript/strapi/packages/strapi-plugin-content-manager/admin/src/utils/formValidations.js,"validate ( value , validations )",58, 125, 12, 0
+repos/javascript/strapi/packages/strapi-plugin-content-manager/admin/src/components/EditRelations/index.js,"EditRelations ( props )",41, 111, 8, 0
+repos/javascript/strapi/packages/strapi-plugin-content-manager/admin/src/components/ClickOverHint/index.js,"ClickOverHint ( { show } )",11, 80, 8, 0
+repos/javascript/strapi/packages/strapi-plugin-content-manager/admin/src/components/InputJSON/jsonlint.js,"trace ( )",1, 45, 2, 0
+repos/javascript/strapi/packages/strapi-plugin-content-manager/admin/src/components/InputJSON/jsonlint.js,"anonymous ( yytext , yyleng , yylineno , yy , yystate , $ $ , _ $ )",44, 79, 2, 0
+repos/javascript/strapi/packages/strapi-plugin-content-manager/admin/src/components/InputJSON/jsonlint.js,"parseError ( str , hash )",3, 47, 2, 0
+repos/javascript/strapi/packages/strapi-plugin-content-manager/admin/src/components/InputJSON/jsonlint.js,"popStack ( n )",5, 45, 10, 0
+repos/javascript/strapi/packages/strapi-plugin-content-manager/admin/src/components/InputJSON/jsonlint.js,"lex ( )",9, 55, 10, 0
+repos/javascript/strapi/packages/strapi-plugin-content-manager/admin/src/components/InputJSON/jsonlint.js,"parse ( input )",184, 178, 22, 0
+repos/javascript/strapi/packages/strapi-plugin-content-manager/admin/src/components/InputJSON/jsonlint.js,"parseError ( str , hash )",7, 46, 2, 0
+repos/javascript/strapi/packages/strapi-plugin-content-manager/admin/src/components/InputJSON/jsonlint.js,"setInput ( input )",9, 81, 10, 0
+repos/javascript/strapi/packages/strapi-plugin-content-manager/admin/src/components/InputJSON/jsonlint.js,"input ( )",11, 46, 10, 0
+repos/javascript/strapi/packages/strapi-plugin-content-manager/admin/src/components/InputJSON/jsonlint.js,"unput ( ch )",4, 42, 10, 0
+repos/javascript/strapi/packages/strapi-plugin-content-manager/admin/src/components/InputJSON/jsonlint.js,"more ( )",4, 29, 10, 0
+repos/javascript/strapi/packages/strapi-plugin-content-manager/admin/src/components/InputJSON/jsonlint.js,"less ( n )",3, 59, 10, 0
+repos/javascript/strapi/packages/strapi-plugin-content-manager/admin/src/components/InputJSON/jsonlint.js,"pastInput ( )",4, 86, 10, 0
+repos/javascript/strapi/packages/strapi-plugin-content-manager/admin/src/components/InputJSON/jsonlint.js,"upcomingInput ( )",7, 87, 10, 0
+repos/javascript/strapi/packages/strapi-plugin-content-manager/admin/src/components/InputJSON/jsonlint.js,"showPosition ( )",5, 60, 10, 0
+repos/javascript/strapi/packages/strapi-plugin-content-manager/admin/src/components/InputJSON/jsonlint.js,"next ( )",50, 132, 14, 0
+repos/javascript/strapi/packages/strapi-plugin-content-manager/admin/src/components/InputJSON/jsonlint.js,"lex ( )",8, 42, 10, 0
+repos/javascript/strapi/packages/strapi-plugin-content-manager/admin/src/components/InputJSON/jsonlint.js,"begin ( condition )",3, 47, 10, 0
+repos/javascript/strapi/packages/strapi-plugin-content-manager/admin/src/components/InputJSON/jsonlint.js,"popState ( )",3, 44, 10, 0
+repos/javascript/strapi/packages/strapi-plugin-content-manager/admin/src/components/InputJSON/jsonlint.js,"_currentRules ( )",3, 91, 10, 0
+repos/javascript/strapi/packages/strapi-plugin-content-manager/admin/src/components/InputJSON/jsonlint.js,"topState ( )",3, 68, 10, 0
+repos/javascript/strapi/packages/strapi-plugin-content-manager/admin/src/components/InputJSON/jsonlint.js,"begin ( condition )",3, 40, 2, 0
+repos/javascript/strapi/packages/strapi-plugin-content-manager/admin/src/components/InputJSON/jsonlint.js,"anonymous ( yy , yy_ , $avoiding_name_collisions , YY_START )",34, 88, 2, 0
+repos/javascript/strapi/packages/strapi-plugin-content-manager/admin/src/components/InputJSON/jsonlint.js,"function ( )",170, 280, 2, 0
+repos/javascript/strapi/packages/strapi-plugin-content-manager/admin/src/components/InputJSON/jsonlint.js,"exports.parse ( )",1, 84, 2, 0
+repos/javascript/strapi/packages/strapi-plugin-content-manager/admin/src/components/InputJSON/jsonlint.js,"commonjsMain ( args )",5, 52, 8, 0
+repos/javascript/strapi/packages/strapi-plugin-content-manager/admin/src/components/SelectManyDraggedItem/index.js,"SelectManyDraggedItem ( props )",11, 76, 6, 0
+repos/javascript/strapi/packages/strapi-plugin-content-manager/admin/src/components/SelectManyDraggedItem/Content.js,"Content ( { index , item , onClick , onRemove } )",22, 83, 8, 0
+repos/javascript/strapi/packages/strapi-plugin-content-manager/admin/src/components/VariableEditIcon/index.js,"VariableEditIcon ( { onClick , withLongerHeight , ... rest } )",9, 81, 6, 0
+repos/javascript/strapi/packages/strapi-plugin-content-manager/admin/src/components/TableDelete/index.js,"TableDelete ( { colspan , number , onToggleDeleteAll } )",21, 122, 10, 0
+repos/javascript/strapi/packages/strapi-plugin-content-manager/admin/src/components/DraggedRemovedIcon/index.js,"DraggedRemovedIcon ( { isDragging , onRemove , withLongerHeight , ... rest } )",21, 83, 0, 0
+repos/javascript/strapi/packages/strapi-plugin-content-manager/admin/src/components/DragBox/index.js,"DragBox ( { name } )",9, 52, 6, 0
+repos/javascript/strapi/packages/strapi-plugin-content-manager/admin/src/components/CustomDragLayer/index.js,"getItemStyles ( props )",15, 63, 2, 0
+repos/javascript/strapi/packages/strapi-plugin-content-manager/admin/src/components/EmptyAttributesView/index.js,"EmptyAttributesView ( { currentModelName , history , modelEntries } )",37, 124, 16, 0
+repos/javascript/strapi/packages/strapi-plugin-content-manager/admin/src/components/SettingsRow/index.js,"SettingsRow ( { destination , name , onClick } )",15, 91, 8, 0
+repos/javascript/strapi/packages/strapi-plugin-content-manager/admin/src/components/Wysiwyg/previewWysiwyg.js,"getBlockStyle ( block )",21, 38, 6, 0
+repos/javascript/strapi/packages/strapi-plugin-content-manager/admin/src/components/Wysiwyg/strategies.js,"findLinkEntities ( contentBlock , callback , contentState )",6, 89, 4, 0
+repos/javascript/strapi/packages/strapi-plugin-content-manager/admin/src/components/Wysiwyg/strategies.js,"findAtomicEntities ( contentBlock , callback , contentState )",6, 70, 4, 0
+repos/javascript/strapi/packages/strapi-plugin-content-manager/admin/src/components/Wysiwyg/strategies.js,"findImageEntities ( contentBlock , callback , contentState )",7, 155, 4, 0
+repos/javascript/strapi/packages/strapi-plugin-content-manager/admin/src/components/Wysiwyg/strategies.js,"findVideoEntities ( contentBlock , cb , contentState )",7, 154, 4, 0
+repos/javascript/strapi/packages/strapi-plugin-content-manager/admin/src/components/Wysiwyg/helpers.js,"getBlockStyle ( )",3, 34, 0, 0
+repos/javascript/strapi/packages/strapi-plugin-content-manager/admin/src/components/Wysiwyg/helpers.js,"getBlockContent ( style )",58, 41, 0, 0
+repos/javascript/strapi/packages/strapi-plugin-content-manager/admin/src/components/Wysiwyg/helpers.js,"getOffSets ( selection )",6, 40, 0, 0
+repos/javascript/strapi/packages/strapi-plugin-content-manager/admin/src/components/Wysiwyg/helpers.js,"getKeyCommandData ( command )",24, 45, 0, 0
+repos/javascript/strapi/packages/strapi-plugin-content-manager/admin/src/components/Wysiwyg/utils.js,"createNewBlock ( text = '' , type = 'unstyled' , key = genKey ( )",3, 79, 0, 0
+repos/javascript/strapi/packages/strapi-plugin-content-manager/admin/src/components/Wysiwyg/utils.js,"getNextBlocksList ( editorState , startKey )",10, 59, 0, 0
+repos/javascript/strapi/packages/strapi-plugin-content-manager/admin/src/components/Wysiwyg/utils.js,"updateSelection ( selection , blocks , offset )",8, 61, 0, 0
+repos/javascript/strapi/packages/strapi-plugin-content-manager/admin/src/components/Wysiwyg/utils.js,"getSelectedBlocksList ( editorState )",13, 56, 2, 0
+repos/javascript/strapi/packages/strapi-plugin-content-manager/admin/src/components/Wysiwyg/utils.js,"onTab ( editorState )",25, 56, 2, 0
+repos/javascript/strapi/packages/strapi-plugin-content-manager/admin/src/components/TableEmpty/index.js,"TableEmpty ( { colspan , contentType , filters , search } )",20, 96, 8, 0
+repos/javascript/strapi/packages/strapi-plugin-content-manager/admin/src/components/CustomInputCheckbox/index.js,"CustomInputCheckbox ( { entriesToDelete , isAll , name , onChange , value } )",26, 94, 10, 0
+repos/javascript/strapi/packages/strapi-plugin-content-manager/admin/src/components/FilterOptions/index.js,"FilterOptions ( { filter , filterToFocus , index , onChange , onClickAdd , onClickRemove , schema , show , showAddButton } )",59, 125, 0, 0
+repos/javascript/strapi/packages/strapi-plugin-content-manager/admin/src/components/InputCheckbox/index.js,"InputCheckbox ( { name , onChange , value } )",27, 101, 10, 0
+repos/javascript/strapi/packages/strapi-plugin-content-manager/admin/src/components/Filter/index.js,"Filter ( { filter , index , onClick , onClickOpen , schema } )",32, 105, 6, 0
+repos/javascript/strapi/packages/strapi-plugin-content-manager/admin/src/components/TableLoading/index.js,"TableLoading ( { colspan } )",9, 41, 4, 0
+repos/javascript/strapi/packages/strapi-plugin-content-manager/admin/src/containers/App/reducer.js,"appReducer ( state = initialState , action )",338, 179, 12, 0
+repos/javascript/strapi/packages/strapi-plugin-content-manager/admin/src/containers/App/actions.js,"beginMove ( name , index , keys )",8, 47, 0, 0
+repos/javascript/strapi/packages/strapi-plugin-content-manager/admin/src/containers/App/actions.js,"emptyStore ( )",5, 31, 0, 0
+repos/javascript/strapi/packages/strapi-plugin-content-manager/admin/src/containers/App/actions.js,"endMove ( keys )",6, 32, 0, 0
+repos/javascript/strapi/packages/strapi-plugin-content-manager/admin/src/containers/App/actions.js,"getModelEntries ( modelName , source )",7, 53, 0, 0
+repos/javascript/strapi/packages/strapi-plugin-content-manager/admin/src/containers/App/actions.js,"getModelEntriesSucceeded ( count )",6, 50, 0, 0
+repos/javascript/strapi/packages/strapi-plugin-content-manager/admin/src/containers/App/actions.js,"loadModels ( )",5, 31, 0, 0
+repos/javascript/strapi/packages/strapi-plugin-content-manager/admin/src/containers/App/actions.js,"loadedModels ( models )",6, 39, 0, 0
+repos/javascript/strapi/packages/strapi-plugin-content-manager/admin/src/containers/App/actions.js,"moveAttr ( dragIndex , hoverIndex , keys )",8, 56, 0, 0
+repos/javascript/strapi/packages/strapi-plugin-content-manager/admin/src/containers/App/actions.js,"moveAttrEditView ( dragIndex , hoverIndex , keys )",8, 64, 0, 0
+repos/javascript/strapi/packages/strapi-plugin-content-manager/admin/src/containers/App/actions.js,"moveVariableAttrEditView ( dragIndex , hoverIndex , keys )",8, 72, 0, 0
+repos/javascript/strapi/packages/strapi-plugin-content-manager/admin/src/containers/App/actions.js,"onChange ( { target } )",9, 98, 2, 0
+repos/javascript/strapi/packages/strapi-plugin-content-manager/admin/src/containers/App/actions.js,"onChangeInputType ( { target } )",9, 56, 2, 0
+repos/javascript/strapi/packages/strapi-plugin-content-manager/admin/src/containers/App/actions.js,"onChangeSettings ( { target } )",9, 98, 2, 0
+repos/javascript/strapi/packages/strapi-plugin-content-manager/admin/src/containers/App/actions.js,"onClickAddAttr ( data , keys )",7, 45, 0, 0
+repos/javascript/strapi/packages/strapi-plugin-content-manager/admin/src/containers/App/actions.js,"onClickAddAttrField ( data , keys )",7, 50, 0, 0
+repos/javascript/strapi/packages/strapi-plugin-content-manager/admin/src/containers/App/actions.js,"onRemove ( index , keys )",7, 40, 0, 0
+repos/javascript/strapi/packages/strapi-plugin-content-manager/admin/src/containers/App/actions.js,"onRemoveEditViewFieldAttr ( index , keys )",7, 57, 0, 0
+repos/javascript/strapi/packages/strapi-plugin-content-manager/admin/src/containers/App/actions.js,"onRemoveEditViewRelationAttr ( index , keys )",7, 60, 0, 0
+repos/javascript/strapi/packages/strapi-plugin-content-manager/admin/src/containers/App/actions.js,"onReset ( )",5, 28, 0, 0
+repos/javascript/strapi/packages/strapi-plugin-content-manager/admin/src/containers/App/actions.js,"onSubmit ( context )",6, 36, 0, 0
+repos/javascript/strapi/packages/strapi-plugin-content-manager/admin/src/containers/App/actions.js,"setLayout ( keys )",6, 34, 0, 0
+repos/javascript/strapi/packages/strapi-plugin-content-manager/admin/src/containers/App/actions.js,"submitSucceeded ( )",5, 36, 0, 0
+repos/javascript/strapi/packages/strapi-plugin-content-manager/admin/src/containers/App/sagas.js,"modelEntriesGet ( action )",10, 141, 4, 0
+repos/javascript/strapi/packages/strapi-plugin-content-manager/admin/src/containers/App/sagas.js,"getModels ( )",11, 70, 4, 0
+repos/javascript/strapi/packages/strapi-plugin-content-manager/admin/src/containers/App/sagas.js,"submit ( action )",13, 89, 4, 0
+repos/javascript/strapi/packages/strapi-plugin-content-manager/admin/src/containers/App/sagas.js,"defaultSaga ( )",10, 89, 2, 0
+repos/javascript/strapi/packages/strapi-plugin-content-manager/admin/src/containers/App/index.js,"mapDispatchToProps ( dispatch )",8, 47, 0, 0
+repos/javascript/strapi/packages/strapi-plugin-content-manager/admin/src/containers/ListPage/reducer.js,"listPageReducer ( state = initialState , action )",140, 107, 8, 0
+repos/javascript/strapi/packages/strapi-plugin-content-manager/admin/src/containers/ListPage/actions.js,"addAttr ( attr , index )",7, 39, 0, 0
+repos/javascript/strapi/packages/strapi-plugin-content-manager/admin/src/containers/ListPage/actions.js,"addFilter ( filter )",6, 36, 0, 0
+repos/javascript/strapi/packages/strapi-plugin-content-manager/admin/src/containers/ListPage/actions.js,"changeParams ( { target } )",7, 43, 0, 0
+repos/javascript/strapi/packages/strapi-plugin-content-manager/admin/src/containers/ListPage/actions.js,"deleteData ( id , modelName , source , context )",9, 61, 0, 0
+repos/javascript/strapi/packages/strapi-plugin-content-manager/admin/src/containers/ListPage/actions.js,"deleteDataSuccess ( id )",6, 40, 0, 0
+repos/javascript/strapi/packages/strapi-plugin-content-manager/admin/src/containers/ListPage/actions.js,"deleteSeveralData ( entriesToDelete , model , source )",8, 68, 0, 0
+repos/javascript/strapi/packages/strapi-plugin-content-manager/admin/src/containers/ListPage/actions.js,"deleteSeveralDataSuccess ( )",5, 45, 0, 0
+repos/javascript/strapi/packages/strapi-plugin-content-manager/admin/src/containers/ListPage/actions.js,"getData ( currentModel , source , setUpdatingParams = false )",8, 75, 0, 0
+repos/javascript/strapi/packages/strapi-plugin-content-manager/admin/src/containers/ListPage/actions.js,"getDataSucceeded ( data )",6, 41, 0, 0
+repos/javascript/strapi/packages/strapi-plugin-content-manager/admin/src/containers/ListPage/actions.js,"onChange ( index , key , value )",8, 46, 0, 0
+repos/javascript/strapi/packages/strapi-plugin-content-manager/admin/src/containers/ListPage/actions.js,"onClickRemove ( index )",6, 39, 0, 0
+repos/javascript/strapi/packages/strapi-plugin-content-manager/admin/src/containers/ListPage/actions.js,"onClickSelect ( { target } )",6, 44, 0, 0
+repos/javascript/strapi/packages/strapi-plugin-content-manager/admin/src/containers/ListPage/actions.js,"onClickSelectAll ( )",5, 37, 0, 0
+repos/javascript/strapi/packages/strapi-plugin-content-manager/admin/src/containers/ListPage/actions.js,"openFiltersWithSelections ( index )",6, 51, 0, 0
+repos/javascript/strapi/packages/strapi-plugin-content-manager/admin/src/containers/ListPage/actions.js,"onToggleDeleteAll ( )",5, 38, 0, 0
+repos/javascript/strapi/packages/strapi-plugin-content-manager/admin/src/containers/ListPage/actions.js,"onToggleFilters ( )",5, 36, 0, 0
+repos/javascript/strapi/packages/strapi-plugin-content-manager/admin/src/containers/ListPage/actions.js,"removeAllFilters ( )",5, 37, 0, 0
+repos/javascript/strapi/packages/strapi-plugin-content-manager/admin/src/containers/ListPage/actions.js,"removeAttr ( index )",6, 36, 0, 0
+repos/javascript/strapi/packages/strapi-plugin-content-manager/admin/src/containers/ListPage/actions.js,"removeFilter ( index )",6, 38, 0, 0
+repos/javascript/strapi/packages/strapi-plugin-content-manager/admin/src/containers/ListPage/actions.js,"resetDisplayedFields ( fields )",6, 47, 0, 0
+repos/javascript/strapi/packages/strapi-plugin-content-manager/admin/src/containers/ListPage/actions.js,"setDisplayedFields ( fields )",6, 45, 0, 0
+repos/javascript/strapi/packages/strapi-plugin-content-manager/admin/src/containers/ListPage/actions.js,"setParams ( params , filters )",7, 45, 0, 0
+repos/javascript/strapi/packages/strapi-plugin-content-manager/admin/src/containers/ListPage/actions.js,"submit ( )",5, 27, 0, 0
+repos/javascript/strapi/packages/strapi-plugin-content-manager/admin/src/containers/ListPage/index.js,"mapDispatchToProps ( dispatch )",27, 40, 0, 0
+repos/javascript/strapi/packages/strapi-plugin-content-manager/admin/src/containers/ListPage/saga.js,"dataGet ( action )",42, 95, 4, 0
+repos/javascript/strapi/packages/strapi-plugin-content-manager/admin/src/containers/ListPage/saga.js,"dataDelete ( { id , modelName , source , context } )",25, 74, 4, 0
+repos/javascript/strapi/packages/strapi-plugin-content-manager/admin/src/containers/ListPage/saga.js,"dataDeleteAll ( { entriesToDelete , model , source } )",16, 91, 4, 0
+repos/javascript/strapi/packages/strapi-plugin-content-manager/admin/src/containers/ListPage/saga.js,"defaultSaga ( )",12, 72, 2, 0
+repos/javascript/strapi/packages/strapi-plugin-content-manager/admin/src/containers/ListPage/utils.js,"generateRedirectURI ( { model , search } = { } )",3, 141, 2, 0
+repos/javascript/strapi/packages/strapi-plugin-content-manager/admin/src/containers/SettingsPage/reducer.js,"settingsPageReducer ( state = initialState , action )",6, 61, 0, 0
+repos/javascript/strapi/packages/strapi-plugin-content-manager/admin/src/containers/SettingsPage/saga.js,"defaultSaga ( )",1, 27, 0, 0
+repos/javascript/strapi/packages/strapi-plugin-content-manager/admin/src/containers/EditPage/reducer.js,"editPageReducer ( state = initialState , action )",70, 71, 8, 0
+repos/javascript/strapi/packages/strapi-plugin-content-manager/admin/src/containers/EditPage/actions.js,"addRelationItem ( { key , value } )",7, 50, 0, 0
+repos/javascript/strapi/packages/strapi-plugin-content-manager/admin/src/containers/EditPage/actions.js,"changeData ( { target } )",7, 41, 0, 0
+repos/javascript/strapi/packages/strapi-plugin-content-manager/admin/src/containers/EditPage/actions.js,"deleteData ( )",5, 31, 0, 0
+repos/javascript/strapi/packages/strapi-plugin-content-manager/admin/src/containers/EditPage/actions.js,"getData ( id , source , mainField )",8, 49, 0, 0
+repos/javascript/strapi/packages/strapi-plugin-content-manager/admin/src/containers/EditPage/actions.js,"getDataSucceeded ( id , data , pluginHeaderTitle )",8, 64, 0, 0
+repos/javascript/strapi/packages/strapi-plugin-content-manager/admin/src/containers/EditPage/actions.js,"initModelProps ( modelName , isCreating , source , attributes , displayedAttributes )",31, 99, 4, 0
+repos/javascript/strapi/packages/strapi-plugin-content-manager/admin/src/containers/EditPage/actions.js,"moveAttr ( dragIndex , hoverIndex , keys )",8, 56, 0, 0
+repos/javascript/strapi/packages/strapi-plugin-content-manager/admin/src/containers/EditPage/actions.js,"moveAttrEnd ( )",5, 32, 0, 0
+repos/javascript/strapi/packages/strapi-plugin-content-manager/admin/src/containers/EditPage/actions.js,"onCancel ( )",5, 29, 0, 0
+repos/javascript/strapi/packages/strapi-plugin-content-manager/admin/src/containers/EditPage/actions.js,"onRemoveRelationItem ( { key , index } )",7, 55, 0, 0
+repos/javascript/strapi/packages/strapi-plugin-content-manager/admin/src/containers/EditPage/actions.js,"resetProps ( )",5, 31, 0, 0
+repos/javascript/strapi/packages/strapi-plugin-content-manager/admin/src/containers/EditPage/actions.js,"setFileRelations ( fileRelations )",6, 50, 0, 0
+repos/javascript/strapi/packages/strapi-plugin-content-manager/admin/src/containers/EditPage/actions.js,"setFormErrors ( formErrors )",6, 44, 0, 0
+repos/javascript/strapi/packages/strapi-plugin-content-manager/admin/src/containers/EditPage/actions.js,"setLoader ( )",5, 30, 0, 0
+repos/javascript/strapi/packages/strapi-plugin-content-manager/admin/src/containers/EditPage/actions.js,"submit ( context )",6, 34, 0, 0
+repos/javascript/strapi/packages/strapi-plugin-content-manager/admin/src/containers/EditPage/actions.js,"submitSuccess ( )",5, 34, 0, 0
+repos/javascript/strapi/packages/strapi-plugin-content-manager/admin/src/containers/EditPage/actions.js,"unsetLoader ( )",5, 32, 0, 0
+repos/javascript/strapi/packages/strapi-plugin-content-manager/admin/src/containers/EditPage/index.js,"mapDispatchToProps ( dispatch )",20, 40, 0, 0
+repos/javascript/strapi/packages/strapi-plugin-content-manager/admin/src/containers/EditPage/saga.js,"dataGet ( action )",14, 103, 6, 0
+repos/javascript/strapi/packages/strapi-plugin-content-manager/admin/src/containers/EditPage/saga.js,"deleteData ( )",20, 79, 4, 0
+repos/javascript/strapi/packages/strapi-plugin-content-manager/admin/src/containers/EditPage/saga.js,"submit ( action )",121, 226, 6, 0
+repos/javascript/strapi/packages/strapi-plugin-content-manager/admin/src/containers/EditPage/saga.js,"defaultSaga ( )",11, 72, 2, 0
+repos/javascript/strapi/packages/strapi-plugin-content-manager/admin/src/containers/SettingPage/reducer.js,"settingPageReducer ( state = initialState , action )",16, 154, 8, 0
+repos/javascript/strapi/packages/strapi-plugin-content-manager/admin/src/containers/SettingPage/actions.js,"onClickEditField ( fieldToEdit )",6, 48, 0, 0
+repos/javascript/strapi/packages/strapi-plugin-content-manager/admin/src/containers/SettingPage/actions.js,"onClickEditListItem ( listItemToEdit )",6, 54, 0, 0
+repos/javascript/strapi/packages/strapi-plugin-content-manager/admin/src/containers/SettingPage/actions.js,"onClickEditRelation ( relationToEdit )",6, 54, 0, 0
+repos/javascript/strapi/packages/strapi-plugin-content-manager/admin/src/containers/SettingPage/saga.js,"defaultSaga ( )",1, 27, 0, 0
+repos/javascript/strapi/packages/strapi-generate-plugin/json/routes.json.js,"generateRoutes ( )",12, 44, 8, 0
+repos/javascript/strapi/packages/strapi-generate-plugin/json/package.json.js,"getDependencyVersion ( packageJSON , module )",3, 123, 2, 0
+repos/javascript/strapi/packages/strapi-generate-plugin/files/admin/src/containers/App/reducer.js,"appReducer ( state = initialState , action )",6, 52, 0, 0
+repos/javascript/strapi/packages/strapi-generate-plugin/files/admin/src/containers/App/index.js,"mapDispatchToProps ( dispatch )",6, 47, 0, 0
+repos/javascript/strapi/packages/strapi-generate-plugin/files/admin/src/containers/HomePage/reducer.js,"homePageReducer ( state = initialState , action )",8, 57, 0, 0
+repos/javascript/strapi/packages/strapi-generate-plugin/files/admin/src/containers/HomePage/actions.js,"defaultAction ( )",5, 34, 0, 0
+repos/javascript/strapi/packages/strapi-generate-plugin/files/admin/src/containers/HomePage/index.js,"mapDispatchToProps ( dispatch )",8, 40, 0, 0
+repos/javascript/strapi/packages/strapi-generate-plugin/files/admin/src/containers/HomePage/saga.js,"defaultSaga ( )",2, 33, 0, 0
+repos/javascript/strapi/packages/strapi-generate-plugin/files/admin/src/containers/ExamplePage/reducer.js,"examplePageReducer ( state = initialState , action )",10, 75, 6, 0
+repos/javascript/strapi/packages/strapi-generate-plugin/files/admin/src/containers/ExamplePage/actions.js,"loadData ( )",5, 29, 0, 0
+repos/javascript/strapi/packages/strapi-generate-plugin/files/admin/src/containers/ExamplePage/actions.js,"loadedData ( data )",6, 35, 0, 0
+repos/javascript/strapi/packages/strapi-generate-plugin/files/admin/src/containers/ExamplePage/index.js,"mapDispatchToProps ( dispatch )",8, 40, 0, 0
+repos/javascript/strapi/packages/strapi-generate-plugin/files/admin/src/containers/ExamplePage/saga.js,"loadData ( )",13, 76, 2, 0
+repos/javascript/strapi/packages/strapi-generate-plugin/files/admin/src/containers/ExamplePage/saga.js,"defaultSaga ( )",7, 71, 2, 0
+repos/javascript/strapi/packages/strapi-plugin-settings-manager/admin/src/utils/inputValidations.js,"checkFormValidity ( formData , formValidations , formErrors )",39, 165, 4, 0
+repos/javascript/strapi/packages/strapi-plugin-settings-manager/admin/src/utils/inputValidations.js,"validate ( value , validations )",36, 86, 2, 0
+repos/javascript/strapi/packages/strapi-plugin-settings-manager/admin/src/utils/inputValidations.js,"getInputsValidationsFromConfigs ( configs )",39, 153, 20, 0
+repos/javascript/strapi/packages/strapi-plugin-settings-manager/admin/src/utils/inputValidations.js,"getRequiredInputsDb ( data , dbExistsErrors )",19, 138, 4, 0
+repos/javascript/strapi/packages/strapi-plugin-settings-manager/admin/src/utils/sendUpdatedParams.js,"sendUpdatedParams ( isCreatingNewFields )",38, 242, 4, 0
+repos/javascript/strapi/packages/strapi-plugin-settings-manager/admin/src/utils/getFlag.js,"getFlag ( languageArray )",3, 57, 2, 0
+repos/javascript/strapi/packages/strapi-plugin-settings-manager/admin/src/utils/getFlag.js,"formatLanguageLocale ( data )",13, 46, 2, 0
+repos/javascript/strapi/packages/strapi-plugin-settings-manager/admin/src/components/ContentHeader/index.js,"ContentHeader ( { name , description } )",14, 105, 2, 0
+repos/javascript/strapi/packages/strapi-plugin-settings-manager/admin/src/containers/App/reducer.js,"appReducer ( state = initialState , action )",11, 86, 6, 0
+repos/javascript/strapi/packages/strapi-plugin-settings-manager/admin/src/containers/App/actions.js,"environmentsFetch ( )",5, 38, 0, 0
+repos/javascript/strapi/packages/strapi-plugin-settings-manager/admin/src/containers/App/actions.js,"environmentsFetchSucceeded ( environments )",6, 59, 0, 0
+repos/javascript/strapi/packages/strapi-plugin-settings-manager/admin/src/containers/App/actions.js,"fetchMenuSucceeded ( menu )",6, 43, 0, 0
+repos/javascript/strapi/packages/strapi-plugin-settings-manager/admin/src/containers/App/actions.js,"menuFetch ( )",5, 30, 0, 0
+repos/javascript/strapi/packages/strapi-plugin-settings-manager/admin/src/containers/App/sagas.js,"fetchMenu ( )",15, 77, 4, 0
+repos/javascript/strapi/packages/strapi-plugin-settings-manager/admin/src/containers/App/sagas.js,"fetchEnvironments ( )",15, 77, 4, 0
+repos/javascript/strapi/packages/strapi-plugin-settings-manager/admin/src/containers/App/sagas.js,"defaultSaga ( )",8, 90, 2, 0
+repos/javascript/strapi/packages/strapi-plugin-settings-manager/admin/src/containers/App/index.js,"mapDispatchToProps ( dispatch )",9, 47, 0, 0
+repos/javascript/strapi/packages/strapi-plugin-settings-manager/admin/src/containers/HomePage/reducer.js,"homePageReducer ( state = initialState , action )",103, 130, 8, 0
+repos/javascript/strapi/packages/strapi-plugin-settings-manager/admin/src/containers/HomePage/actions.js,"defaultAction ( )",5, 34, 0, 0
+repos/javascript/strapi/packages/strapi-plugin-settings-manager/admin/src/containers/HomePage/actions.js,"configFetch ( endPoint )",6, 40, 0, 0
+repos/javascript/strapi/packages/strapi-plugin-settings-manager/admin/src/containers/HomePage/actions.js,"configFetchSucceded ( configs )",10, 68, 2, 0
+repos/javascript/strapi/packages/strapi-plugin-settings-manager/admin/src/containers/HomePage/actions.js,"changeInput ( key , value )",7, 42, 0, 0
+repos/javascript/strapi/packages/strapi-plugin-settings-manager/admin/src/containers/HomePage/actions.js,"cancelChanges ( )",5, 34, 0, 0
+repos/javascript/strapi/packages/strapi-plugin-settings-manager/admin/src/containers/HomePage/actions.js,"closeModal ( )",5, 31, 0, 0
+repos/javascript/strapi/packages/strapi-plugin-settings-manager/admin/src/containers/HomePage/actions.js,"languagesFetch ( )",5, 35, 0, 0
+repos/javascript/strapi/packages/strapi-plugin-settings-manager/admin/src/containers/HomePage/actions.js,"languagesFetchSucceeded ( appLanguages , listLanguages )",34, 93, 2, 0
+repos/javascript/strapi/packages/strapi-plugin-settings-manager/admin/src/containers/HomePage/actions.js,"editSettings ( newSettings , endPoint , context )",8, 63, 0, 0
+repos/javascript/strapi/packages/strapi-plugin-settings-manager/admin/src/containers/HomePage/actions.js,"editSettingsSucceeded ( )",5, 42, 0, 0
+repos/javascript/strapi/packages/strapi-plugin-settings-manager/admin/src/containers/HomePage/actions.js,"getDataFromConfigs ( configs )",23, 121, 2, 0
+repos/javascript/strapi/packages/strapi-plugin-settings-manager/admin/src/containers/HomePage/actions.js,"changeDefaultLanguage ( configsDisplay , newLanguage )",7, 69, 0, 0
+repos/javascript/strapi/packages/strapi-plugin-settings-manager/admin/src/containers/HomePage/actions.js,"newLanguagePost ( )",5, 36, 0, 0
+repos/javascript/strapi/packages/strapi-plugin-settings-manager/admin/src/containers/HomePage/actions.js,"languageActionSucceeded ( )",5, 44, 0, 0
+repos/javascript/strapi/packages/strapi-plugin-settings-manager/admin/src/containers/HomePage/actions.js,"languageActionError ( )",5, 40, 0, 0
+repos/javascript/strapi/packages/strapi-plugin-settings-manager/admin/src/containers/HomePage/actions.js,"languageDelete ( languageToDelete )",6, 51, 0, 0
+repos/javascript/strapi/packages/strapi-plugin-settings-manager/admin/src/containers/HomePage/actions.js,"databasesFetch ( environment )",6, 46, 0, 0
+repos/javascript/strapi/packages/strapi-plugin-settings-manager/admin/src/containers/HomePage/actions.js,"databasesFetchSucceeded ( listDatabases , availableDatabases )",26, 98, 2, 0
+repos/javascript/strapi/packages/strapi-plugin-settings-manager/admin/src/containers/HomePage/actions.js,"newDatabasePost ( endPoint , data , context )",8, 59, 0, 0
+repos/javascript/strapi/packages/strapi-plugin-settings-manager/admin/src/containers/HomePage/actions.js,"databaseActionSucceeded ( )",5, 44, 0, 0
+repos/javascript/strapi/packages/strapi-plugin-settings-manager/admin/src/containers/HomePage/actions.js,"databaseActionError ( formErrors )",6, 50, 0, 0
+repos/javascript/strapi/packages/strapi-plugin-settings-manager/admin/src/containers/HomePage/actions.js,"databaseDelete ( databaseToDelete , endPoint , context )",8, 70, 0, 0
+repos/javascript/strapi/packages/strapi-plugin-settings-manager/admin/src/containers/HomePage/actions.js,"specificDatabaseFetch ( databaseName , endPoint )",7, 64, 0, 0
+repos/javascript/strapi/packages/strapi-plugin-settings-manager/admin/src/containers/HomePage/actions.js,"specificDatabaseFetchSucceeded ( db )",15, 106, 2, 0
+repos/javascript/strapi/packages/strapi-plugin-settings-manager/admin/src/containers/HomePage/actions.js,"databaseEdit ( data , apiUrl , context )",8, 54, 0, 0
+repos/javascript/strapi/packages/strapi-plugin-settings-manager/admin/src/containers/HomePage/actions.js,"emptyDbModifiedData ( )",5, 40, 0, 0
+repos/javascript/strapi/packages/strapi-plugin-settings-manager/admin/src/containers/HomePage/actions.js,"setErrors ( errors )",6, 36, 0, 0
+repos/javascript/strapi/packages/strapi-plugin-settings-manager/admin/src/containers/HomePage/actions.js,"setLoader ( )",5, 30, 0, 0
+repos/javascript/strapi/packages/strapi-plugin-settings-manager/admin/src/containers/HomePage/actions.js,"unsetLoader ( )",5, 32, 0, 0
+repos/javascript/strapi/packages/strapi-plugin-settings-manager/admin/src/containers/HomePage/sagas.js,"editDatabase ( action )",32, 168, 4, 0
+repos/javascript/strapi/packages/strapi-plugin-settings-manager/admin/src/containers/HomePage/sagas.js,"deleteDatabase ( action )",17, 115, 4, 0
+repos/javascript/strapi/packages/strapi-plugin-settings-manager/admin/src/containers/HomePage/sagas.js,"deleteLanguage ( action )",16, 98, 6, 0
+repos/javascript/strapi/packages/strapi-plugin-settings-manager/admin/src/containers/HomePage/sagas.js,"fetchConfig ( action )",13, 78, 4, 0
+repos/javascript/strapi/packages/strapi-plugin-settings-manager/admin/src/containers/HomePage/sagas.js,"fetchDatabases ( action )",17, 104, 4, 0
+repos/javascript/strapi/packages/strapi-plugin-settings-manager/admin/src/containers/HomePage/sagas.js,"fetchLanguages ( )",17, 81, 4, 0
+repos/javascript/strapi/packages/strapi-plugin-settings-manager/admin/src/containers/HomePage/sagas.js,"postLanguage ( )",22, 95, 6, 0
+repos/javascript/strapi/packages/strapi-plugin-settings-manager/admin/src/containers/HomePage/sagas.js,"postDatabase ( action )",34, 130, 6, 0
+repos/javascript/strapi/packages/strapi-plugin-settings-manager/admin/src/containers/HomePage/sagas.js,"settingsEdit ( action )",27, 96, 6, 0
+repos/javascript/strapi/packages/strapi-plugin-settings-manager/admin/src/containers/HomePage/sagas.js,"fetchSpecificDatabase ( action )",13, 111, 4, 0
+repos/javascript/strapi/packages/strapi-plugin-settings-manager/admin/src/containers/HomePage/sagas.js,"defaultSaga ( )",36, 114, 2, 0
+repos/javascript/strapi/packages/strapi-plugin-settings-manager/admin/src/containers/HomePage/index.js,"mapDispatchToProps ( dispatch )",23, 40, 0, 0
+repos/javascript/strapi/packages/strapi-plugin-settings-manager/services/SettingsManager.js,"asyncForEach ( array , callback )",5, 59, 6, 0
+repos/javascript/strapi/packages/strapi-plugin-graphql/hooks/graphql/index.js,"function ( )",127, 92, 6, 0
+repos/javascript/strapi/packages/strapi-plugin-graphql/hooks/graphql/index.js,"initialize ( cb )",46, 81, 8, 0
+repos/javascript/strapi/packages/strapi-plugin-graphql/services/Loaders.js,"initializeLoader ( )",17, 174, 8, 0
+repos/javascript/strapi/packages/strapi-plugin-graphql/services/Loaders.js,"resetLoaders ( )",3, 30, 2, 0
+repos/javascript/strapi/packages/strapi-plugin-graphql/services/Loaders.js,"createLoader ( model , plugin )",33, 99, 10, 0
+repos/javascript/strapi/packages/strapi-plugin-graphql/services/Loaders.js,"mapData ( model , originalMap , map , results )",37, 138, 6, 0
+repos/javascript/strapi/packages/strapi-plugin-graphql/services/Loaders.js,"function ( model , query = { } )",36, 142, 4, 0
+repos/javascript/strapi/packages/strapi-plugin-graphql/services/Loaders.js,"retrieveModel ( model , source )",6, 44, 6, 0
+repos/javascript/strapi/packages/strapi-plugin-graphql/services/Loaders.js,"extractQueries ( model , keys )",50, 90, 6, 0
+repos/javascript/strapi/packages/strapi-plugin-graphql/services/Resolvers.js,"shadowCRUD ( models , plugin )",413, 112, 14, 0
+repos/javascript/strapi/packages/strapi-plugin-graphql/services/Mutation.js,"composeMutationResolver ( _schema , plugin , name , action )",199, 89, 6, 0
+repos/javascript/strapi/packages/strapi-plugin-graphql/services/Aggregator.js,"resolver ( obj , options , context )",4, 51, 8, 0
+repos/javascript/strapi/packages/strapi-plugin-graphql/services/Aggregator.js,"createFieldsResolver ( fields , resolver , typeCheck )",20, 65, 8, 0
+repos/javascript/strapi/packages/strapi-plugin-graphql/services/Aggregator.js,"extractType ( _type , attributeType )",7, 48, 2, 0
+repos/javascript/strapi/packages/strapi-plugin-graphql/services/Aggregator.js,"getModelAggregator ( model , filters = { } )",10, 54, 2, 0
+repos/javascript/strapi/packages/strapi-plugin-graphql/services/Aggregator.js,"createAggregationFieldsResolver ( model , fields , operation , typeCheck , )",19, 73, 8, 0
+repos/javascript/strapi/packages/strapi-plugin-graphql/services/Aggregator.js,"preProcessGroupByData ( { result , fieldKey , filters , modelName } )",18, 78, 2, 0
+repos/javascript/strapi/packages/strapi-plugin-graphql/services/Aggregator.js,"createGroupByFieldsResolver ( model , fields , name )",18, 73, 8, 0
+repos/javascript/strapi/packages/strapi-plugin-graphql/services/Aggregator.js,"formatModelConnectionsGQL ( fields , model , name , modelResolver )",66, 134, 12, 0
+repos/javascript/strapi/packages/strapi-plugin-graphql/services/Aggregator.js,"generateConnectionFieldsTypes ( fields , model )",22, 77, 6, 0
+repos/javascript/strapi/packages/strapi-plugin-graphql/services/Aggregator.js,"formatConnectionGroupBy ( fields , model , name )",30, 71, 4, 0
+repos/javascript/strapi/packages/strapi-plugin-graphql/services/Aggregator.js,"formatConnectionAggregator ( fields , model )",98, 96, 4, 0
+repos/javascript/strapi/packages/strapi-plugin-graphql/services/Types.js,"convertType ( { definition = { } , modelName = '' , attributeName = '' , rootType = 'query' , action = '' } )",78, 87, 8, 0
+repos/javascript/strapi/packages/strapi-plugin-graphql/services/Types.js,"addInput ( )",5, 31, 6, 0
+repos/javascript/strapi/packages/strapi-plugin-graphql/services/Types.js,"generateInputModel ( model , name )",35, 55, 12, 0
+repos/javascript/strapi/packages/strapi-plugin-graphql/services/Types.js,"generateInputPayloadArguments ( model , name , type , resolver )",35, 80, 10, 0
+repos/javascript/strapi/packages/strapi-plugin-graphql/services/Query.js,"composeQueryResolver ( _schema , plugin , name , isSingular )",243, 121, 8, 0
+repos/javascript/strapi/packages/strapi-plugin-graphql/services/Schema.js,"formatGQL ( fields , description = { } , model = { } , type = 'field' )",79, 79, 4, 0
+repos/javascript/strapi/packages/strapi-plugin-graphql/services/Schema.js,"generateSchema ( )",149, 75, 16, 0
+repos/javascript/strapi/packages/strapi-hook-mongoose/lib/relations.js,"getModel ( model , plugin )",3, 110, 4, 0
+repos/javascript/strapi/packages/strapi-hook-mongoose/lib/relations.js,"function ( params )",240, 160, 18, 0
+repos/javascript/strapi/packages/strapi-hook-mongoose/lib/relations.js,"function ( params )",3, 53, 4, 0
+repos/javascript/strapi/packages/strapi-hook-mongoose/lib/relations.js,"function ( params )",3, 53, 4, 0
+repos/javascript/strapi/packages/strapi-hook-mongoose/lib/relations.js,"function ( params )",56, 117, 6, 0
+repos/javascript/strapi/packages/strapi-hook-mongoose/lib/relations.js,"function ( params )",19, 117, 6, 0
+repos/javascript/strapi/packages/strapi-hook-mongoose/lib/index.js,"function ( next )",40, 119, 28, 0
+repos/javascript/strapi/packages/strapi-hook-mongoose/lib/index.js,"function ( next )",3, 108, 22, 0
+repos/javascript/strapi/packages/strapi-hook-mongoose/lib/index.js,"function ( doc , next )",6, 92, 22, 0
+repos/javascript/strapi/packages/strapi-hook-mongoose/lib/index.js,"transform ( doc , returned , opts )",27, 114, 22, 0
+repos/javascript/strapi/packages/strapi-hook-mongoose/lib/index.js,"module.exports ( strapi )",554, 168, 14, 0
+repos/javascript/strapi/packages/strapi-hook-mongoose/lib/utils/connectivity.js,"function ( err )",21, 167, 2, 0
+repos/javascript/strapi/packages/strapi-hook-mongoose/lib/utils/index.js,"mongoose.Types.ObjectId.prototype.valueOf ( )",3, 60, 2, 0
+repos/javascript/strapi/packages/strapi-provider-email-sendmail/lib/index.js,"function ( err )",7, 81, 14, 0
+repos/javascript/strapi/packages/strapi-hook-bookshelf/lib/relations.js,"getModel ( model , plugin )",3, 110, 4, 0
+repos/javascript/strapi/packages/strapi-hook-bookshelf/lib/relations.js,"function ( params , populate )",32, 99, 8, 0
+repos/javascript/strapi/packages/strapi-hook-bookshelf/lib/relations.js,"function ( params )",232, 155, 4, 0
+repos/javascript/strapi/packages/strapi-hook-bookshelf/lib/relations.js,"function ( params )",22, 121, 4, 0
+repos/javascript/strapi/packages/strapi-hook-bookshelf/lib/relations.js,"function ( params )",22, 121, 4, 0
+repos/javascript/strapi/packages/strapi-hook-bookshelf/lib/relations.js,"function ( params )",26, 57, 8, 0
+repos/javascript/strapi/packages/strapi-hook-bookshelf/lib/relations.js,"function ( params )",10, 50, 8, 0
+repos/javascript/strapi/packages/strapi-hook-bookshelf/lib/index.js,"loadedModel.toJSON ( options = { } )",18, 120, 18, 0
+repos/javascript/strapi/packages/strapi-hook-bookshelf/lib/index.js,"loadedModel.serialize ( options )",60, 117, 26, 0
+repos/javascript/strapi/packages/strapi-hook-bookshelf/lib/index.js,"] ( query )",3, 98, 30, 0
+repos/javascript/strapi/packages/strapi-hook-bookshelf/lib/index.js,"loadedModel.initialize ( )",123, 118, 30, 0
+repos/javascript/strapi/packages/strapi-hook-bookshelf/lib/index.js,"] ( )",6, 51, 18, 0
+repos/javascript/strapi/packages/strapi-hook-bookshelf/lib/index.js,"] ( )",3, 72, 20, 0
+repos/javascript/strapi/packages/strapi-hook-bookshelf/lib/index.js,"] ( )",6, 57, 22, 0
+repos/javascript/strapi/packages/strapi-hook-bookshelf/lib/index.js,"] ( )",20, 76, 24, 0
+repos/javascript/strapi/packages/strapi-hook-bookshelf/lib/index.js,"] ( )",7, 99, 24, 0
+repos/javascript/strapi/packages/strapi-hook-bookshelf/lib/index.js,"] ( )",7, 104, 24, 0
+repos/javascript/strapi/packages/strapi-hook-bookshelf/lib/index.js,"] ( )",7, 63, 20, 0
+repos/javascript/strapi/packages/strapi-hook-bookshelf/lib/index.js,"related ( )",4, 118, 24, 0
+repos/javascript/strapi/packages/strapi-hook-bookshelf/lib/index.js,"] ( )",13, 58, 24, 0
+repos/javascript/strapi/packages/strapi-hook-bookshelf/lib/index.js,"module.exports ( strapi )",1135, 209, 28, 0
+repos/javascript/strapi/packages/strapi-hook-ejs/lib/index.js,"module.exports ( strapi )",35, 73, 6, 0
+repos/javascript/strapi/packages/strapi-generate/lib/generate.js,"defaultError ( err , scope , _cb )",3, 86, 10, 0
+repos/javascript/strapi/packages/strapi-generate/lib/generate.js,"defaultAfter ( scope , _cb )",3, 79, 8, 0
+repos/javascript/strapi/packages/strapi-generate/lib/generate.js,"generate ( generator , scope , cb )",126, 117, 10, 0
+repos/javascript/strapi/packages/strapi-generate/lib/index.js,"throwIfModuleNotFoundError ( error , module )",9, 121, 4, 0
+repos/javascript/strapi/packages/strapi-generate/lib/target.js,"generateTarget ( options , cb )",78, 139, 8, 0
+repos/javascript/strapi/packages/strapi-generate/lib/target.js,"mergeSubtargetScope ( scope , subtarget )",3, 65, 2, 0
+repos/javascript/strapi/packages/strapi-generate/lib/target.js,"targetIsHelper ( target )",5, 46, 2, 0
+repos/javascript/strapi/packages/strapi-generate/lib/target.js,"parseTarget ( target , scope , cb )",117, 141, 4, 0
+repos/javascript/strapi/packages/strapi-generate/lib/target.js,"isValidTarget ( target )",11, 67, 2, 0
+repos/javascript/strapi/packages/strapi-generate/lib/helpers/file/index.js,"deleteExistingFileIfNecessary ( cb )",6, 51, 6, 0
+repos/javascript/strapi/packages/strapi-generate/lib/helpers/file/index.js,"writeToDisk ( cb )",3, 55, 8, 0
+repos/javascript/strapi/packages/strapi-generate/lib/helpers/file/index.js,"module.exports ( options , cb )",49, 87, 6, 0
+repos/javascript/strapi/packages/strapi-generate/lib/helpers/jsonfile/index.js,"_afterwards_ ( )",9, 66, 6, 0
+repos/javascript/strapi/packages/strapi-generate/lib/helpers/jsonfile/index.js,"module.exports ( options , handlers )",51, 93, 6, 0
+repos/javascript/strapi/packages/strapi-generate/lib/helpers/folder/index.js,"_afterwards_ ( )",15, 66, 6, 0
+repos/javascript/strapi/packages/strapi-generate/lib/helpers/folder/index.js,"module.exports ( options , cb )",63, 87, 6, 0
+repos/javascript/strapi/packages/strapi-generate/lib/helpers/template/index.js,"module.exports ( options , cb )",47, 90, 2, 0
+repos/javascript/strapi/packages/strapi-generate/lib/helpers/copy/index.js,"module.exports ( options , cb )",21, 85, 2, 0
+repos/javascript/strapi/packages/strapi-hook-redis/lib/index.js,"module.exports ( strapi )",147, 91, 16, 0
+repos/javascript/strapi/packages/strapi-plugin-users-permissions/config/queries/bookshelf.js,"function ( qb )",24, 92, 8, 0
+repos/javascript/strapi/packages/strapi-plugin-users-permissions/config/queries/bookshelf.js,"function ( params = { } , populate )",31, 114, 8, 0
+repos/javascript/strapi/packages/strapi-plugin-users-permissions/config/queries/bookshelf.js,"function ( params = { } )",16, 86, 14, 0
+repos/javascript/strapi/packages/strapi-plugin-users-permissions/config/queries/bookshelf.js,"function ( params , populate )",17, 69, 8, 0
+repos/javascript/strapi/packages/strapi-plugin-users-permissions/config/queries/bookshelf.js,"function ( params )",19, 105, 8, 0
+repos/javascript/strapi/packages/strapi-plugin-users-permissions/config/queries/bookshelf.js,"function ( search , params = { } )",30, 76, 8, 0
+repos/javascript/strapi/packages/strapi-plugin-users-permissions/config/queries/bookshelf.js,"function ( params )",7, 64, 8, 0
+repos/javascript/strapi/packages/strapi-plugin-users-permissions/config/queries/bookshelf.js,"function ( params )",7, 75, 8, 0
+repos/javascript/strapi/packages/strapi-plugin-users-permissions/config/queries/bookshelf.js,"function ( qb )",5, 55, 10, 0
+repos/javascript/strapi/packages/strapi-plugin-users-permissions/config/queries/bookshelf.js,"function ( params )",9, 55, 10, 0
+repos/javascript/strapi/packages/strapi-plugin-users-permissions/config/queries/bookshelf.js,"function ( params )",5, 43, 2, 0
+repos/javascript/strapi/packages/strapi-plugin-users-permissions/config/queries/bookshelf.js,"function ( params )",10, 62, 6, 0
+repos/javascript/strapi/packages/strapi-plugin-users-permissions/config/queries/mongoose.js,"function ( params = { } , populate )",9, 75, 6, 0
+repos/javascript/strapi/packages/strapi-plugin-users-permissions/config/queries/mongoose.js,"function ( params = { where : { } } )",5, 49, 2, 0
+repos/javascript/strapi/packages/strapi-plugin-users-permissions/config/queries/mongoose.js,"function ( params , populate )",14, 75, 6, 0
+repos/javascript/strapi/packages/strapi-plugin-users-permissions/config/queries/mongoose.js,"function ( params )",20, 103, 6, 0
+repos/javascript/strapi/packages/strapi-plugin-users-permissions/config/queries/mongoose.js,"function ( search , params = { } )",23, 74, 8, 0
+repos/javascript/strapi/packages/strapi-plugin-users-permissions/config/queries/mongoose.js,"function ( params )",7, 64, 8, 0
+repos/javascript/strapi/packages/strapi-plugin-users-permissions/config/queries/mongoose.js,"function ( params )",9, 52, 10, 0
+repos/javascript/strapi/packages/strapi-plugin-users-permissions/config/queries/mongoose.js,"function ( params )",11, 38, 4, 0
+repos/javascript/strapi/packages/strapi-plugin-users-permissions/config/queries/mongoose.js,"function ( params )",4, 43, 2, 0
+repos/javascript/strapi/packages/strapi-plugin-users-permissions/config/queries/mongoose.js,"function ( params )",4, 46, 2, 0
+repos/javascript/strapi/packages/strapi-plugin-users-permissions/middlewares/users-permissions/index.js,"beforeInitialize ( )",3, 73, 6, 0
+repos/javascript/strapi/packages/strapi-plugin-users-permissions/middlewares/users-permissions/index.js,"initialize ( cb )",25, 86, 14, 0
+repos/javascript/strapi/packages/strapi-plugin-users-permissions/admin/src/components/List/index.js,"List ( { data , deleteData , noButton , onButtonClick , settingType , showLoaders , values } )",37, 159, 6, 0
+repos/javascript/strapi/packages/strapi-plugin-users-permissions/admin/src/components/InputSearchLi/index.js,"InputSearchLi ( { onClick , isAdding , item } )",28, 157, 2, 0
+repos/javascript/strapi/packages/strapi-plugin-users-permissions/admin/src/components/BoundRoute/index.js,"BoundRoute ( { route } )",12, 88, 2, 0
+repos/javascript/strapi/packages/strapi-plugin-users-permissions/admin/src/components/BoundRoute/index.js,"*global*",59, 88, 2, 0
+repos/javascript/strapi/packages/strapi-plugin-users-permissions/admin/src/components/BoundRoute/index.js,"*global*",59, 88, 2, 0
+repos/javascript/strapi/packages/strapi-plugin-users-permissions/admin/src/components/BoundRoute/index.js,"*global*",59, 88, 2, 0
+repos/javascript/strapi/packages/strapi-plugin-users-permissions/admin/src/containers/HomePage/checkFormValidity.js,"checkFormValidity ( settingType , data , providerToEdit = '' )",37, 137, 14, 0
+repos/javascript/strapi/packages/strapi-plugin-users-permissions/admin/src/containers/HomePage/reducer.js,"homePageReducer ( state = initialState , action )",60, 101, 8, 0
+repos/javascript/strapi/packages/strapi-plugin-users-permissions/admin/src/containers/HomePage/actions.js,"cancelChanges ( )",5, 34, 0, 0
+repos/javascript/strapi/packages/strapi-plugin-users-permissions/admin/src/containers/HomePage/actions.js,"deleteData ( dataToDelete , deleteEndPoint )",7, 59, 0, 0
+repos/javascript/strapi/packages/strapi-plugin-users-permissions/admin/src/containers/HomePage/actions.js,"deleteDataSucceeded ( indexDataToDelete )",6, 57, 0, 0
+repos/javascript/strapi/packages/strapi-plugin-users-permissions/admin/src/containers/HomePage/actions.js,"fetchData ( endPoint )",6, 38, 0, 0
+repos/javascript/strapi/packages/strapi-plugin-users-permissions/admin/src/containers/HomePage/actions.js,"fetchDataSucceeded ( data )",22, 66, 6, 0
+repos/javascript/strapi/packages/strapi-plugin-users-permissions/admin/src/containers/HomePage/actions.js,"onChange ( { target } )",7, 59, 4, 0
+repos/javascript/strapi/packages/strapi-plugin-users-permissions/admin/src/containers/HomePage/actions.js,"resetProps ( )",5, 31, 0, 0
+repos/javascript/strapi/packages/strapi-plugin-users-permissions/admin/src/containers/HomePage/actions.js,"setDataToEdit ( dataToEdit )",6, 44, 0, 0
+repos/javascript/strapi/packages/strapi-plugin-users-permissions/admin/src/containers/HomePage/actions.js,"setForm ( data )",6, 32, 0, 0
+repos/javascript/strapi/packages/strapi-plugin-users-permissions/admin/src/containers/HomePage/actions.js,"setFormErrors ( formErrors )",6, 44, 0, 0
+repos/javascript/strapi/packages/strapi-plugin-users-permissions/admin/src/containers/HomePage/actions.js,"submit ( endPoint , context )",7, 44, 0, 0
+repos/javascript/strapi/packages/strapi-plugin-users-permissions/admin/src/containers/HomePage/actions.js,"submitSucceeded ( )",5, 36, 0, 0
+repos/javascript/strapi/packages/strapi-plugin-users-permissions/admin/src/containers/HomePage/actions.js,"unsetDataToEdit ( )",5, 36, 0, 0
+repos/javascript/strapi/packages/strapi-plugin-users-permissions/admin/src/containers/HomePage/index.js,"mapDispatchToProps ( dispatch )",16, 40, 0, 0
+repos/javascript/strapi/packages/strapi-plugin-users-permissions/admin/src/containers/HomePage/saga.js,"dataDelete ( )",21, 92, 4, 0
+repos/javascript/strapi/packages/strapi-plugin-users-permissions/admin/src/containers/HomePage/saga.js,"dataFetch ( action )",14, 102, 4, 0
+repos/javascript/strapi/packages/strapi-plugin-users-permissions/admin/src/containers/HomePage/saga.js,"submitData ( action )",19, 125, 4, 0
+repos/javascript/strapi/packages/strapi-plugin-users-permissions/admin/src/containers/HomePage/saga.js,"defaultSaga ( )",11, 76, 2, 0
+repos/javascript/strapi/packages/strapi-plugin-users-permissions/admin/src/containers/AuthPage/reducer.js,"authPageReducer ( state = initialState , action )",27, 69, 8, 0
+repos/javascript/strapi/packages/strapi-plugin-users-permissions/admin/src/containers/AuthPage/actions.js,"hideLoginErrorsInput ( value )",6, 46, 0, 0
+repos/javascript/strapi/packages/strapi-plugin-users-permissions/admin/src/containers/AuthPage/actions.js,"onChangeInput ( { target } )",7, 44, 0, 0
+repos/javascript/strapi/packages/strapi-plugin-users-permissions/admin/src/containers/AuthPage/actions.js,"setErrors ( formErrors )",6, 40, 0, 0
+repos/javascript/strapi/packages/strapi-plugin-users-permissions/admin/src/containers/AuthPage/actions.js,"setForm ( formType , email )",49, 43, 0, 0
+repos/javascript/strapi/packages/strapi-plugin-users-permissions/admin/src/containers/AuthPage/actions.js,"submit ( context )",6, 34, 0, 0
+repos/javascript/strapi/packages/strapi-plugin-users-permissions/admin/src/containers/AuthPage/actions.js,"submitError ( formErrors )",6, 42, 0, 0
+repos/javascript/strapi/packages/strapi-plugin-users-permissions/admin/src/containers/AuthPage/actions.js,"submitSucceeded ( )",5, 36, 0, 0
+repos/javascript/strapi/packages/strapi-plugin-users-permissions/admin/src/containers/AuthPage/index.js,"mapDispatchToProps ( dispatch )",12, 40, 0, 0
+repos/javascript/strapi/packages/strapi-plugin-users-permissions/admin/src/containers/AuthPage/saga.js,"submitForm ( action )",100, 102, 8, 0
+repos/javascript/strapi/packages/strapi-plugin-users-permissions/admin/src/containers/AuthPage/saga.js,"defaultSaga ( )",3, 46, 2, 0
+repos/javascript/strapi/packages/strapi-plugin-users-permissions/admin/src/containers/EditPage/reducer.js,"editPageReducer ( state = initialState , action )",82, 141, 8, 0
+repos/javascript/strapi/packages/strapi-plugin-users-permissions/admin/src/containers/EditPage/actions.js,"addUser ( newUser )",6, 35, 0, 0
+repos/javascript/strapi/packages/strapi-plugin-users-permissions/admin/src/containers/EditPage/actions.js,"getPermissions ( )",5, 35, 0, 0
+repos/javascript/strapi/packages/strapi-plugin-users-permissions/admin/src/containers/EditPage/actions.js,"getPermissionsSucceeded ( data )",8, 53, 2, 0
+repos/javascript/strapi/packages/strapi-plugin-users-permissions/admin/src/containers/EditPage/actions.js,"getPolicies ( )",5, 32, 0, 0
+repos/javascript/strapi/packages/strapi-plugin-users-permissions/admin/src/containers/EditPage/actions.js,"getPoliciesSucceeded ( policies )",12, 111, 4, 0
+repos/javascript/strapi/packages/strapi-plugin-users-permissions/admin/src/containers/EditPage/actions.js,"getRole ( id )",6, 30, 0, 0
+repos/javascript/strapi/packages/strapi-plugin-users-permissions/admin/src/containers/EditPage/actions.js,"getRoleSucceeded ( data )",13, 66, 4, 0
+repos/javascript/strapi/packages/strapi-plugin-users-permissions/admin/src/containers/EditPage/actions.js,"getRoutesSucceeded ( routes )",6, 45, 0, 0
+repos/javascript/strapi/packages/strapi-plugin-users-permissions/admin/src/containers/EditPage/actions.js,"getUser ( user )",6, 32, 0, 0
+repos/javascript/strapi/packages/strapi-plugin-users-permissions/admin/src/containers/EditPage/actions.js,"getUserSucceeded ( users )",6, 56, 4, 0
+repos/javascript/strapi/packages/strapi-plugin-users-permissions/admin/src/containers/EditPage/actions.js,"onCancel ( )",5, 29, 0, 0
+repos/javascript/strapi/packages/strapi-plugin-users-permissions/admin/src/containers/EditPage/actions.js,"onChangeInput ( { target } )",9, 64, 2, 0
+repos/javascript/strapi/packages/strapi-plugin-users-permissions/admin/src/containers/EditPage/actions.js,"onClickAdd ( itemToAdd )",6, 40, 0, 0
+repos/javascript/strapi/packages/strapi-plugin-users-permissions/admin/src/containers/EditPage/actions.js,"onClickDelete ( itemToDelete )",6, 46, 0, 0
+repos/javascript/strapi/packages/strapi-plugin-users-permissions/admin/src/containers/EditPage/actions.js,"resetShouldDisplayPoliciesHint ( )",5, 51, 0, 0
+repos/javascript/strapi/packages/strapi-plugin-users-permissions/admin/src/containers/EditPage/actions.js,"selectAllActions ( name , shouldEnable )",7, 55, 0, 0
+repos/javascript/strapi/packages/strapi-plugin-users-permissions/admin/src/containers/EditPage/actions.js,"setActionType ( action )",8, 59, 2, 0
+repos/javascript/strapi/packages/strapi-plugin-users-permissions/admin/src/containers/EditPage/actions.js,"setErrors ( formErrors )",6, 40, 0, 0
+repos/javascript/strapi/packages/strapi-plugin-users-permissions/admin/src/containers/EditPage/actions.js,"setForm ( )",13, 28, 0, 0
+repos/javascript/strapi/packages/strapi-plugin-users-permissions/admin/src/containers/EditPage/actions.js,"setInputPoliciesPath ( path )",8, 56, 2, 0
+repos/javascript/strapi/packages/strapi-plugin-users-permissions/admin/src/containers/EditPage/actions.js,"setRoleId ( roleId )",6, 36, 0, 0
+repos/javascript/strapi/packages/strapi-plugin-users-permissions/admin/src/containers/EditPage/actions.js,"setShouldDisplayPolicieshint ( )",5, 49, 0, 0
+repos/javascript/strapi/packages/strapi-plugin-users-permissions/admin/src/containers/EditPage/actions.js,"submit ( context )",6, 34, 0, 0
+repos/javascript/strapi/packages/strapi-plugin-users-permissions/admin/src/containers/EditPage/actions.js,"submitError ( errors )",6, 38, 0, 0
+repos/javascript/strapi/packages/strapi-plugin-users-permissions/admin/src/containers/EditPage/actions.js,"submitSucceeded ( )",5, 36, 0, 0
+repos/javascript/strapi/packages/strapi-plugin-users-permissions/admin/src/containers/EditPage/index.js,"mapDispatchToProps ( dispatch )",26, 40, 0, 0
+repos/javascript/strapi/packages/strapi-plugin-users-permissions/admin/src/containers/EditPage/saga.js,"fetchUser ( action )",9, 101, 4, 0
+repos/javascript/strapi/packages/strapi-plugin-users-permissions/admin/src/containers/EditPage/saga.js,"permissionsGet ( )",14, 92, 4, 0
+repos/javascript/strapi/packages/strapi-plugin-users-permissions/admin/src/containers/EditPage/saga.js,"policiesGet ( )",13, 89, 4, 0
+repos/javascript/strapi/packages/strapi-plugin-users-permissions/admin/src/containers/EditPage/saga.js,"roleGet ( action )",14, 85, 4, 0
+repos/javascript/strapi/packages/strapi-plugin-users-permissions/admin/src/containers/EditPage/saga.js,"submit ( action )",24, 114, 4, 0
+repos/javascript/strapi/packages/strapi-plugin-users-permissions/admin/src/containers/EditPage/saga.js,"defaultSaga ( )",14, 90, 2, 0
+repos/javascript/strapi/packages/strapi-plugin-users-permissions/controllers/UsersPermissions.js,"function ( ctx )",26, 112, 6, 0
+repos/javascript/strapi/packages/strapi-plugin-users-permissions/services/User.js,"hashPassword ( user = { } )",11, 61, 8, 0
+repos/javascript/strapi/packages/strapi-plugin-users-permissions/services/Jwt.js,"getToken ( ctx )",25, 105, 8, 0
+repos/javascript/strapi/packages/strapi-plugin-users-permissions/services/Jwt.js,"function ( err , tokenPayload = { } )",6, 56, 12, 0
+repos/javascript/strapi/packages/strapi-plugin-users-permissions/services/Jwt.js,"function ( resolve , reject )",13, 113, 8, 0
+repos/javascript/strapi/packages/strapi-plugin-users-permissions/services/UsersPermissions.js,"function ( cb )",92, 166, 8, 0
+repos/javascript/strapi/packages/strapi-plugin-users-permissions/services/UsersPermissions.js,"function ( )",27, 176, 6, 0
+repos/javascript/strapi/packages/strapi-plugin-users-permissions/services/UsersPermissions.js,"function ( cb )",32, 75, 4, 0
+repos/javascript/strapi/packages/strapi-plugin-users-permissions/services/UsersPermissions.js,"function ( roleID , body )",57, 108, 10, 0
+repos/javascript/strapi/packages/strapi/test/middlewares.js,"function ( done )",10, 45, 6, 0
+repos/javascript/strapi/packages/strapi/bin/strapi-new.js,"returnError ( err )",5, 39, 4, 0
+repos/javascript/strapi/packages/strapi/bin/strapi-new.js,"function ( )",3, 42, 12, 0
+repos/javascript/strapi/packages/strapi/bin/strapi-new.js,"function ( )",3, 45, 10, 0
+repos/javascript/strapi/packages/strapi/bin/strapi-new.js,"module.exports ( name , cliArguments )",116, 102, 6, 0
+repos/javascript/strapi/packages/strapi/bin/strapi-start.js,"function ( )",7, 78, 8, 0
+repos/javascript/strapi/packages/strapi/bin/strapi-start.js,"module.exports ( appPath = '' )",133, 98, 4, 0
+repos/javascript/strapi/packages/strapi/bin/strapi-start.js,"afterwards ( err , strapi )",7, 47, 4, 0
+repos/javascript/strapi/packages/strapi/bin/strapi-console.js,"strapi ( )",7, 79, 8, 0
+repos/javascript/strapi/packages/strapi/bin/strapi-console.js,"function ( err )",11, 61, 10, 0
+repos/javascript/strapi/packages/strapi/bin/strapi-console.js,"function ( err )",27, 120, 8, 0
+repos/javascript/strapi/packages/strapi/bin/strapi-console.js,"module.exports ( )",47, 120, 8, 0
+repos/javascript/strapi/packages/strapi/bin/strapi-update.js,"module.exports ( )",52, 106, 18, 0
+repos/javascript/strapi/packages/strapi/bin/strapi-uninstall.js,"module.exports ( plugin )",27, 116, 4, 0
+repos/javascript/strapi/packages/strapi/bin/strapi-install.js,"module.exports ( plugin , cliArguments )",84, 238, 4, 0
+repos/javascript/strapi/packages/strapi/bin/strapi-generate.js,"returnError ( msg )",4, 39, 4, 0
+repos/javascript/strapi/packages/strapi/bin/strapi-generate.js,"returnSuccess ( )",11, 166, 8, 0
+repos/javascript/strapi/packages/strapi/bin/strapi-generate.js,"module.exports ( id , cliArguments )",51, 166, 8, 0
+repos/javascript/strapi/packages/strapi/lib/index.js,"module.exports ( global )",7, 80, 4, 0
+repos/javascript/strapi/packages/strapi/lib/Strapi.js,"function ( )",3, 37, 6, 0
+repos/javascript/strapi/packages/strapi/lib/Strapi.js,"reload ( )",16, 88, 8, 0
+repos/javascript/strapi/packages/strapi/lib/core/hooks.js,"module.exports ( )",48, 79, 6, 0
+repos/javascript/strapi/packages/strapi/lib/core/hooks.js,"mountHooks ( files , cwd , source )",46, 158, 12, 0
+repos/javascript/strapi/packages/strapi/lib/core/plugins.js,"function ( )",143, 147, 4, 0
+repos/javascript/strapi/packages/strapi/lib/core/store.js,"module.exports ( )",135, 102, 12, 0
+repos/javascript/strapi/packages/strapi/lib/core/configurations.js,"module.exports.nested ( )",64, 72, 8, 0
+repos/javascript/strapi/packages/strapi/lib/core/configurations.js,"function ( )",266, 224, 4, 0
+repos/javascript/strapi/packages/strapi/lib/core/configurations.js,"enableHookNestedDependencies ( name , flattenHooksConfig , force = false )",37, 141, 4, 0
+repos/javascript/strapi/packages/strapi/lib/core/configurations.js,"isAdminInDevMode ( )",9, 134, 4, 0
+repos/javascript/strapi/packages/strapi/lib/core/configurations.js,"getURLFromSegments ( { hostname , port , ssl = false } )",7, 95, 2, 0
+repos/javascript/strapi/packages/strapi/lib/core/admin.js,"function ( )",8, 179, 16, 0
+repos/javascript/strapi/packages/strapi/lib/core/admin.js,"module.exports ( )",70, 179, 16, 0
+repos/javascript/strapi/packages/strapi/lib/core/apis.js,"module.exports ( )",46, 96, 6, 0
+repos/javascript/strapi/packages/strapi/lib/core/middlewares.js,"module.exports ( )",109, 80, 8, 0
+repos/javascript/strapi/packages/strapi/lib/core/middlewares.js,"requireMiddlewares ( files , cwd )",36, 61, 10, 0
+repos/javascript/strapi/packages/strapi/lib/core/middlewares.js,"mountMiddlewares ( files , cwd , isPlugin )",34, 80, 8, 0
+repos/javascript/strapi/packages/strapi/lib/middlewares/index.js,"function ( )",147, 232, 10, 0
+repos/javascript/strapi/packages/strapi/lib/middlewares/logger/index.js,"initialize ( cb )",23, 92, 6, 0
+repos/javascript/strapi/packages/strapi/lib/middlewares/p3p/index.js,"initialize ( cb )",15, 65, 14, 0
+repos/javascript/strapi/packages/strapi/lib/middlewares/responses/index.js,"initialize ( cb )",16, 126, 10, 0
+repos/javascript/strapi/packages/strapi/lib/middlewares/responses/responses/send.js,"sendOk ( data )",8, 41, 0, 0
+repos/javascript/strapi/packages/strapi/lib/middlewares/responses/responses/created.js,"created ( data )",8, 42, 0, 0
+repos/javascript/strapi/packages/strapi/lib/middlewares/xss/index.js,"initialize ( cb )",27, 78, 10, 0
+repos/javascript/strapi/packages/strapi/lib/middlewares/favicon/index.js,"initialize ( cb )",12, 95, 10, 0
+repos/javascript/strapi/packages/strapi/lib/middlewares/gzip/index.js,"initialize ( cb )",5, 56, 6, 0
+repos/javascript/strapi/packages/strapi/lib/middlewares/language/index.js,"initialize ( cb )",20, 83, 10, 0
+repos/javascript/strapi/packages/strapi/lib/middlewares/parser/index.js,"initialize ( cb )",9, 64, 6, 0
+repos/javascript/strapi/packages/strapi/lib/middlewares/hsts/index.js,"initialize ( cb )",16, 90, 14, 0
+repos/javascript/strapi/packages/strapi/lib/middlewares/xframe/index.js,"initialize ( cb )",26, 81, 10, 0
+repos/javascript/strapi/packages/strapi/lib/middlewares/csrf/index.js,"initialize ( cb )",16, 68, 14, 0
+repos/javascript/strapi/packages/strapi/lib/middlewares/mask/index.js,"initialize ( cb )",65, 118, 12, 0
+repos/javascript/strapi/packages/strapi/lib/middlewares/mask/index.js,"mask ( ctx , value )",20, 101, 8, 0
+repos/javascript/strapi/packages/strapi/lib/middlewares/mask/index.js,"whichModels ( value , plugin )",38, 128, 8, 0
+repos/javascript/strapi/packages/strapi/lib/middlewares/mask/index.js,"filteredModels ( matchs )",15, 72, 8, 0
+repos/javascript/strapi/packages/strapi/lib/middlewares/public/index.js,"initialize ( cb )",192, 160, 14, 0
+repos/javascript/strapi/packages/strapi/lib/middlewares/responseTime/index.js,"initialize ( cb )",13, 89, 8, 0
+repos/javascript/strapi/packages/strapi/lib/middlewares/cors/index.js,"origin ( ctx )",11, 98, 16, 0
+repos/javascript/strapi/packages/strapi/lib/middlewares/cors/index.js,"initialize ( cb )",41, 98, 16, 0
+repos/javascript/strapi/packages/strapi/lib/middlewares/csp/index.js,"initialize ( cb )",13, 83, 12, 0
+repos/javascript/strapi/packages/strapi/lib/middlewares/boom/index.js,"initialize ( cb )",45, 85, 10, 0
+repos/javascript/strapi/packages/strapi/lib/middlewares/boom/index.js,"] ( ... rest )",6, 78, 10, 0
+repos/javascript/strapi/packages/strapi/lib/middlewares/boom/index.js,"strapi.app.response.send ( data )",4, 50, 6, 0
+repos/javascript/strapi/packages/strapi/lib/middlewares/boom/index.js,"strapi.app.response.created ( data )",4, 53, 6, 0
+repos/javascript/strapi/packages/strapi/lib/middlewares/boom/index.js,"createResponses ( )",26, 78, 10, 0
+repos/javascript/strapi/packages/strapi/lib/middlewares/ip/index.js,"initialize ( cb )",10, 69, 10, 0
+repos/javascript/strapi/packages/strapi/lib/middlewares/cron/index.js,"initialize ( cb )",7, 68, 8, 0
+repos/javascript/strapi/packages/strapi/lib/middlewares/session/index.js,"initialize ( cb )",64, 90, 12, 0
+repos/javascript/strapi/packages/strapi/lib/middlewares/router/index.js,"initialize ( cb )",60, 106, 10, 0
+repos/javascript/strapi/packages/strapi/lib/middlewares/router/utils/routerChecker.js,"routerChecker ( value , endpoint , plugin )",77, 99, 2, 0
+repos/javascript/strapi/packages/strapi/lib/utils/index.js,"init ( )",5, 80, 6, 0
+repos/javascript/strapi/packages/strapi/lib/utils/index.js,"loadFile ( url )",6, 83, 4, 0
+repos/javascript/strapi/packages/strapi/lib/utils/index.js,"setConfig ( ctx , path , type , loader )",13, 97, 4, 0
+repos/javascript/strapi/packages/strapi/lib/utils/index.js,"setConfigAdmin ( ctx , path , type , loader )",18, 56, 4, 0
+repos/javascript/strapi/packages/strapi/lib/utils/index.js,"loadConfig ( files , shouldBeAggregated = false )",45, 161, 6, 0
+repos/javascript/strapi/packages/strapi/lib/utils/index.js,"function ( )",30, 92, 8, 0
+repos/javascript/strapi/packages/strapi/lib/utils/openBrowser.js,"getBrowserEnv ( )",18, 68, 2, 0
+repos/javascript/strapi/packages/strapi/lib/utils/openBrowser.js,"executeNodeScript ( scriptPath , url )",20, 74, 6, 0
+repos/javascript/strapi/packages/strapi/lib/utils/openBrowser.js,"startBrowserProcess ( browser , url )",42, 92, 2, 0
+repos/javascript/strapi/packages/strapi/lib/utils/openBrowser.js,"pingDashboard ( url , multipleTime = false )",23, 100, 6, 0
+repos/javascript/strapi/packages/strapi/lib/utils/openBrowser.js,"openBrowser ( )",19, 71, 6, 0
+repos/javascript/strapi/packages/strapi/lib/hooks/index.js,"function ( )",135, 184, 10, 0
+repos/javascript/strapi/packages/strapi-plugin-upload/config/queries/bookshelf.js,"function ( qb )",25, 96, 8, 0
+repos/javascript/strapi/packages/strapi-plugin-upload/config/queries/bookshelf.js,"function ( params = { } , populate )",31, 112, 6, 0
+repos/javascript/strapi/packages/strapi-plugin-upload/config/queries/bookshelf.js,"function ( params = { } )",5, 40, 2, 0
+repos/javascript/strapi/packages/strapi-plugin-upload/config/queries/bookshelf.js,"function ( params , populate )",17, 69, 8, 0
+repos/javascript/strapi/packages/strapi-plugin-upload/config/queries/bookshelf.js,"function ( params )",19, 105, 8, 0
+repos/javascript/strapi/packages/strapi-plugin-upload/config/queries/bookshelf.js,"function ( search , params = { } )",30, 76, 8, 0
+repos/javascript/strapi/packages/strapi-plugin-upload/config/queries/bookshelf.js,"function ( params )",7, 64, 8, 0
+repos/javascript/strapi/packages/strapi-plugin-upload/config/queries/bookshelf.js,"function ( qb )",5, 65, 10, 0
+repos/javascript/strapi/packages/strapi-plugin-upload/config/queries/bookshelf.js,"function ( params )",9, 65, 10, 0
+repos/javascript/strapi/packages/strapi-plugin-upload/config/queries/bookshelf.js,"function ( params )",5, 43, 2, 0
+repos/javascript/strapi/packages/strapi-plugin-upload/config/queries/bookshelf.js,"function ( params )",7, 64, 8, 0
+repos/javascript/strapi/packages/strapi-plugin-upload/config/queries/mongoose.js,"function ( params = { } , populate )",9, 75, 6, 0
+repos/javascript/strapi/packages/strapi-plugin-upload/config/queries/mongoose.js,"function ( params = { } )",4, 40, 2, 0
+repos/javascript/strapi/packages/strapi-plugin-upload/config/queries/mongoose.js,"function ( params , populate )",14, 75, 6, 0
+repos/javascript/strapi/packages/strapi-plugin-upload/config/queries/mongoose.js,"function ( params )",23, 103, 6, 0
+repos/javascript/strapi/packages/strapi-plugin-upload/config/queries/mongoose.js,"function ( search , params = { } )",23, 74, 8, 0
+repos/javascript/strapi/packages/strapi-plugin-upload/config/queries/mongoose.js,"function ( params )",7, 64, 8, 0
+repos/javascript/strapi/packages/strapi-plugin-upload/config/queries/mongoose.js,"function ( params )",11, 43, 4, 0
+repos/javascript/strapi/packages/strapi-plugin-upload/config/queries/mongoose.js,"function ( params )",4, 43, 2, 0
+repos/javascript/strapi/packages/strapi-plugin-upload/config/queries/mongoose.js,"function ( params )",4, 46, 2, 0
+repos/javascript/strapi/packages/strapi-plugin-upload/admin/src/components/EntriesNumber/index.js,"EntriesNumber ( { number } )",9, 81, 6, 0
+repos/javascript/strapi/packages/strapi-plugin-upload/admin/src/components/ListHeader/index.js,"ListHeader ( { changeSort , sort } )",51, 119, 2, 0
+repos/javascript/strapi/packages/strapi-plugin-upload/admin/src/components/List/index.js,"List ( props )",18, 73, 10, 0
+repos/javascript/strapi/packages/strapi-plugin-upload/admin/src/components/FileIcon/index.js,"FileIcon ( { fileType } )",37, 57, 6, 0
+repos/javascript/strapi/packages/strapi-plugin-upload/admin/src/containers/App/index.js,"App ( )",11, 97, 8, 0
+repos/javascript/strapi/packages/strapi-plugin-upload/admin/src/containers/HomePage/reducer.js,"homePageReducer ( state = initialState , action )",27, 80, 8, 0
+repos/javascript/strapi/packages/strapi-plugin-upload/admin/src/containers/HomePage/actions.js,"changeParams ( { target } )",7, 43, 0, 0
+repos/javascript/strapi/packages/strapi-plugin-upload/admin/src/containers/HomePage/actions.js,"deleteData ( dataToDelete )",6, 43, 0, 0
+repos/javascript/strapi/packages/strapi-plugin-upload/admin/src/containers/HomePage/actions.js,"deleteSuccess ( )",5, 34, 0, 0
+repos/javascript/strapi/packages/strapi-plugin-upload/admin/src/containers/HomePage/actions.js,"dropSuccess ( newFiles )",6, 40, 0, 0
+repos/javascript/strapi/packages/strapi-plugin-upload/admin/src/containers/HomePage/actions.js,"getData ( )",5, 28, 0, 0
+repos/javascript/strapi/packages/strapi-plugin-upload/admin/src/containers/HomePage/actions.js,"getDataSuccess ( data , entriesNumber )",7, 54, 0, 0
+repos/javascript/strapi/packages/strapi-plugin-upload/admin/src/containers/HomePage/actions.js,"onDrop ( { dataTransfer : { files } } )",11, 65, 2, 0
+repos/javascript/strapi/packages/strapi-plugin-upload/admin/src/containers/HomePage/actions.js,"onSearch ( { target } )",6, 39, 0, 0
+repos/javascript/strapi/packages/strapi-plugin-upload/admin/src/containers/HomePage/actions.js,"setLoading ( )",5, 31, 0, 0
+repos/javascript/strapi/packages/strapi-plugin-upload/admin/src/containers/HomePage/actions.js,"setParams ( params )",6, 36, 0, 0
+repos/javascript/strapi/packages/strapi-plugin-upload/admin/src/containers/HomePage/actions.js,"onSearchSuccess ( data )",6, 40, 0, 0
+repos/javascript/strapi/packages/strapi-plugin-upload/admin/src/containers/HomePage/actions.js,"unsetLoading ( )",5, 33, 0, 0
+repos/javascript/strapi/packages/strapi-plugin-upload/admin/src/containers/HomePage/index.js,"mapDispatchToProps ( dispatch )",13, 40, 0, 0
+repos/javascript/strapi/packages/strapi-plugin-upload/admin/src/containers/HomePage/saga.js,"dataDelete ( action )",11, 71, 4, 0
+repos/javascript/strapi/packages/strapi-plugin-upload/admin/src/containers/HomePage/saga.js,"dataGet ( )",19, 78, 4, 0
+repos/javascript/strapi/packages/strapi-plugin-upload/admin/src/containers/HomePage/saga.js,"uploadFiles ( action )",26, 121, 6, 0
+repos/javascript/strapi/packages/strapi-plugin-upload/admin/src/containers/HomePage/saga.js,"search ( )",19, 88, 4, 0
+repos/javascript/strapi/packages/strapi-plugin-upload/admin/src/containers/HomePage/saga.js,"defaultSaga ( )",13, 72, 2, 0
+repos/javascript/strapi/packages/strapi-plugin-upload/admin/src/containers/ConfigPage/reducer.js,"configPageReducer ( state = initialState , action )",36, 71, 8, 0
+repos/javascript/strapi/packages/strapi-plugin-upload/admin/src/containers/ConfigPage/actions.js,"getSettings ( env )",6, 35, 0, 0
+repos/javascript/strapi/packages/strapi-plugin-upload/admin/src/containers/ConfigPage/actions.js,"getSettingsSucceeded ( settings , appEnvironments )",8, 66, 0, 0
+repos/javascript/strapi/packages/strapi-plugin-upload/admin/src/containers/ConfigPage/actions.js,"onCancel ( )",5, 29, 0, 0
+repos/javascript/strapi/packages/strapi-plugin-upload/admin/src/containers/ConfigPage/actions.js,"onChange ( { target } )",10, 90, 2, 0
+repos/javascript/strapi/packages/strapi-plugin-upload/admin/src/containers/ConfigPage/actions.js,"setErrors ( errors )",6, 36, 0, 0
+repos/javascript/strapi/packages/strapi-plugin-upload/admin/src/containers/ConfigPage/actions.js,"submit ( )",5, 27, 0, 0
+repos/javascript/strapi/packages/strapi-plugin-upload/admin/src/containers/ConfigPage/actions.js,"submitError ( errors )",6, 38, 0, 0
+repos/javascript/strapi/packages/strapi-plugin-upload/admin/src/containers/ConfigPage/actions.js,"submitSucceeded ( data )",6, 40, 0, 0
+repos/javascript/strapi/packages/strapi-plugin-upload/admin/src/containers/ConfigPage/index.js,"mapDispatchToProps ( dispatch )",12, 40, 0, 0
+repos/javascript/strapi/packages/strapi-plugin-upload/admin/src/containers/ConfigPage/saga.js,"settingsGet ( action )",13, 76, 4, 0
+repos/javascript/strapi/packages/strapi-plugin-upload/admin/src/containers/ConfigPage/saga.js,"submit ( )",23, 71, 4, 0
+repos/javascript/strapi/packages/strapi-plugin-upload/admin/src/containers/ConfigPage/saga.js,"defaultSaga ( )",4, 53, 2, 0
+repos/javascript/strapi/packages/strapi-plugin-upload/services/Upload.js,"niceHash ( buffer )",9, 28, 0, 0
+repos/javascript/strapi/packages/strapi-plugin-upload/services/Upload.js,"function ( params , files , source )",42, 64, 8, 0

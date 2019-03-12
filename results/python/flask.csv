@@ -1,0 +1,1313 @@
+File, Function, Length, Total Width, Leading Space(s), Leading Tab(s)
+repos/python/flask/flask/logging.py,"wsgi_errors_stream( )",10, 80, 4, 0
+repos/python/flask/flask/logging.py,"has_level_handler( logger )",17, 80, 4, 0
+repos/python/flask/flask/logging.py,"create_logger( app )",19, 72, 4, 0
+repos/python/flask/flask/signals.py,"signal( self , name , doc = None )",2, 42, 8, 0
+repos/python/flask/flask/signals.py,"__init__( self , name , doc = None )",3, 44, 8, 0
+repos/python/flask/flask/signals.py,"_fail( self , * args , ** kwargs )",4, 68, 12, 0
+repos/python/flask/flask/sessions.py,"permanent( self )",3, 66, 8, 0
+repos/python/flask/flask/sessions.py,"permanent( self , value )",2, 41, 8, 0
+repos/python/flask/flask/sessions.py,"__init__.on_update( self )",3, 33, 12, 0
+repos/python/flask/flask/sessions.py,"__init__( self , initial = None )",6, 70, 8, 0
+repos/python/flask/flask/sessions.py,"__getitem__( self , key )",3, 65, 8, 0
+repos/python/flask/flask/sessions.py,"get( self , key , default = None )",3, 66, 8, 0
+repos/python/flask/flask/sessions.py,"setdefault( self , key , default = None )",3, 73, 8, 0
+repos/python/flask/flask/sessions.py,"_fail( self , * args , ** kwargs )",4, 75, 8, 0
+repos/python/flask/flask/sessions.py,"make_null_session( self , app )",11, 76, 8, 0
+repos/python/flask/flask/sessions.py,"is_null_session( self , obj )",8, 79, 8, 0
+repos/python/flask/flask/sessions.py,"get_cookie_domain( self , app )",57, 80, 16, 0
+repos/python/flask/flask/sessions.py,"get_cookie_path( self , app )",8, 79, 8, 0
+repos/python/flask/flask/sessions.py,"get_cookie_httponly( self , app )",6, 76, 8, 0
+repos/python/flask/flask/sessions.py,"get_cookie_secure( self , app )",5, 73, 8, 0
+repos/python/flask/flask/sessions.py,"get_cookie_samesite( self , app )",6, 73, 8, 0
+repos/python/flask/flask/sessions.py,"get_expiration_time( self , app , session )",8, 75, 8, 0
+repos/python/flask/flask/sessions.py,"should_set_cookie( self , app , session )",15, 80, 8, 0
+repos/python/flask/flask/sessions.py,"open_session( self , app , request )",7, 77, 8, 0
+repos/python/flask/flask/sessions.py,"save_session( self , app , session , response )",7, 79, 8, 0
+repos/python/flask/flask/sessions.py,"get_signing_serializer( self , app )",10, 70, 8, 0
+repos/python/flask/flask/sessions.py,"open_session( self , app , request )",13, 64, 8, 0
+repos/python/flask/flask/sessions.py,"save_session( self , app , session , response )",38, 74, 8, 0
+repos/python/flask/flask/config.py,"__init__( self , name , get_converter = None )",3, 50, 4, 0
+repos/python/flask/flask/config.py,"__get__( self , obj , type = None )",7, 43, 8, 0
+repos/python/flask/flask/config.py,"__set__( self , obj , value )",2, 42, 8, 0
+repos/python/flask/flask/config.py,"__init__( self , root_path , defaults = None )",3, 50, 4, 0
+repos/python/flask/flask/config.py,"from_envvar( self , variable_name , silent = False )",22, 78, 8, 0
+repos/python/flask/flask/config.py,"from_pyfile( self , filename , silent = False )",29, 80, 16, 0
+repos/python/flask/flask/config.py,"from_object( self , obj )",37, 79, 8, 0
+repos/python/flask/flask/config.py,"from_json( self , filename , silent = False )",24, 79, 8, 0
+repos/python/flask/flask/config.py,"from_mapping( self , * mapping , ** kwargs )",22, 80, 8, 0
+repos/python/flask/flask/config.py,"get_namespace( self , namespace , lowercase = True , trim_namespace = True )",40, 78, 8, 0
+repos/python/flask/flask/config.py,"__repr__( self )",2, 74, 8, 0
+repos/python/flask/flask/templating.py,"_default_template_ctx_processor( )",13, 63, 4, 0
+repos/python/flask/flask/templating.py,"__init__( self , app , ** options )",5, 65, 12, 0
+repos/python/flask/flask/templating.py,"__init__( self , app )",2, 29, 4, 0
+repos/python/flask/flask/templating.py,"get_source( self , environment , template )",4, 69, 12, 0
+repos/python/flask/flask/templating.py,"_get_source_explained( self , environment , template )",19, 72, 8, 0
+repos/python/flask/flask/templating.py,"_get_source_fast( self , environment , template )",7, 64, 16, 0
+repos/python/flask/flask/templating.py,"_iter_loaders( self , template )",9, 53, 8, 0
+repos/python/flask/flask/templating.py,"list_templates( self )",13, 57, 16, 0
+repos/python/flask/flask/templating.py,"_render( template , context , app )",7, 73, 4, 0
+repos/python/flask/flask/templating.py,"render_template( template_name_or_list , ** context )",14, 84, 4, 0
+repos/python/flask/flask/templating.py,"render_template_string( source , ** context )",13, 68, 4, 0
+repos/python/flask/flask/globals.py,"_lookup_req_object( name )",5, 49, 8, 0
+repos/python/flask/flask/globals.py,"_lookup_app_object( name )",5, 45, 8, 0
+repos/python/flask/flask/globals.py,"_find_app( )",5, 45, 8, 0
+repos/python/flask/flask/blueprints.py,"__init__( self , blueprint , app , options , first_registration )",36, 75, 8, 0
+repos/python/flask/flask/blueprints.py,"add_url_rule( self , rule , endpoint = None , view_func = None , ** options )",19, 79, 8, 0
+repos/python/flask/flask/blueprints.py,"__init__( self , name , import_name , static_folder = None , static_url_path = None , template_folder = None , url_prefix = None , subdomain = None , url_defaults = None , root_path = None )",4, 69, 17, 0
+repos/python/flask/flask/blueprints.py,"record( self , func )",12, 73, 8, 0
+repos/python/flask/flask/blueprints.py,"record_once.wrapper( state )",3, 41, 12, 0
+repos/python/flask/flask/blueprints.py,"record_once( self , func )",10, 76, 8, 0
+repos/python/flask/flask/blueprints.py,"make_setup_state( self , app , options , first_registration = False )",6, 80, 8, 0
+repos/python/flask/flask/blueprints.py,"register( self , app , options , first_registration = False )",23, 80, 8, 0
+repos/python/flask/flask/blueprints.py,"route.decorator( f )",4, 60, 12, 0
+repos/python/flask/flask/blueprints.py,"route( self , rule , ** options )",9, 79, 8, 0
+repos/python/flask/flask/blueprints.py,"add_url_rule( self , rule , endpoint = None , view_func = None , ** options )",10, 105, 12, 0
+repos/python/flask/flask/blueprints.py,"endpoint.endpoint.decorator.register_endpoint( state )",2, 55, 16, 0
+repos/python/flask/flask/blueprints.py,"endpoint.decorator( f )",5, 55, 16, 0
+repos/python/flask/flask/blueprints.py,"endpoint( self , endpoint )",13, 77, 8, 0
+repos/python/flask/flask/blueprints.py,"app_template_filter.decorator( f )",3, 55, 12, 0
+repos/python/flask/flask/blueprints.py,"app_template_filter( self , name = None )",11, 80, 8, 0
+repos/python/flask/flask/blueprints.py,"add_app_template_filter.register_template( state )",2, 64, 12, 0
+repos/python/flask/flask/blueprints.py,"add_app_template_filter( self , f , name = None )",11, 80, 8, 0
+repos/python/flask/flask/blueprints.py,"app_template_test.decorator( f )",3, 53, 12, 0
+repos/python/flask/flask/blueprints.py,"app_template_test( self , name = None )",13, 78, 8, 0
+repos/python/flask/flask/blueprints.py,"add_app_template_test.register_template( state )",2, 62, 12, 0
+repos/python/flask/flask/blueprints.py,"add_app_template_test( self , f , name = None )",13, 78, 8, 0
+repos/python/flask/flask/blueprints.py,"app_template_global.decorator( f )",3, 55, 12, 0
+repos/python/flask/flask/blueprints.py,"app_template_global( self , name = None )",13, 80, 8, 0
+repos/python/flask/flask/blueprints.py,"add_app_template_global.register_template( state )",2, 64, 12, 0
+repos/python/flask/flask/blueprints.py,"add_app_template_global( self , f , name = None )",13, 80, 8, 0
+repos/python/flask/flask/blueprints.py,"before_request( self , f )",8, 81, 8, 0
+repos/python/flask/flask/blueprints.py,"before_app_request( self , f )",7, 75, 8, 0
+repos/python/flask/flask/blueprints.py,"before_app_first_request( self , f )",6, 79, 8, 0
+repos/python/flask/flask/blueprints.py,"after_request( self , f )",8, 80, 8, 0
+repos/python/flask/flask/blueprints.py,"after_app_request( self , f )",7, 82, 8, 0
+repos/python/flask/flask/blueprints.py,"teardown_request( self , f )",10, 77, 8, 0
+repos/python/flask/flask/blueprints.py,"teardown_app_request( self , f )",8, 80, 8, 0
+repos/python/flask/flask/blueprints.py,"context_processor( self , f )",7, 75, 8, 0
+repos/python/flask/flask/blueprints.py,"app_context_processor( self , f )",7, 77, 8, 0
+repos/python/flask/flask/blueprints.py,"app_errorhandler.decorator( f )",3, 68, 12, 0
+repos/python/flask/flask/blueprints.py,"app_errorhandler( self , code )",8, 76, 8, 0
+repos/python/flask/flask/blueprints.py,"url_value_preprocessor( self , f )",8, 73, 8, 0
+repos/python/flask/flask/blueprints.py,"url_defaults( self , f )",8, 79, 8, 0
+repos/python/flask/flask/blueprints.py,"app_url_value_preprocessor( self , f )",6, 72, 8, 0
+repos/python/flask/flask/blueprints.py,"app_url_defaults( self , f )",6, 63, 8, 0
+repos/python/flask/flask/blueprints.py,"errorhandler.decorator( f )",4, 70, 12, 0
+repos/python/flask/flask/blueprints.py,"errorhandler( self , code_or_exception )",16, 77, 8, 0
+repos/python/flask/flask/blueprints.py,"register_error_handler( self , code_or_exception , f )",10, 74, 8, 0
+repos/python/flask/flask/cli.py,"find_best_app( script_info , module )",55, 78, 12, 0
+repos/python/flask/flask/cli.py,"call_factory( script_info , app_factory , arguments = ( )",17, 79, 4, 0
+repos/python/flask/flask/cli.py,"_called_with_wrong_args( factory )",22, 71, 4, 0
+repos/python/flask/flask/cli.py,"find_app_by_string( script_info , module , app_name )",58, 80, 16, 0
+repos/python/flask/flask/cli.py,"prepare_import( path )",27, 75, 4, 0
+repos/python/flask/flask/cli.py,"locate_app( script_info , module_name , app_name , raise_if_not_found = True )",26, 79, 16, 0
+repos/python/flask/flask/cli.py,"get_version( ctx , param , value )",15, 45, 8, 0
+repos/python/flask/flask/cli.py,"__init__( self , loader , use_eager_loading = False )",9, 57, 4, 0
+repos/python/flask/flask/cli.py,"_load_in_background._load_app( )",7, 63, 20, 0
+repos/python/flask/flask/cli.py,"_load_in_background( self )",10, 63, 20, 0
+repos/python/flask/flask/cli.py,"_flush_bg_loading_exception( self )",6, 45, 8, 0
+repos/python/flask/flask/cli.py,"_load_unlocked( self )",5, 41, 8, 0
+repos/python/flask/flask/cli.py,"__call__( self , environ , start_response )",11, 54, 12, 0
+repos/python/flask/flask/cli.py,"__init__( self , app_import_path = None , create_app = None , set_debug_flag = True )",2, 62, 4, 0
+repos/python/flask/flask/cli.py,"load_app( self )",42, 93, 16, 0
+repos/python/flask/flask/cli.py,"with_appcontext.decorator( __ctx , * args , ** kwargs )",3, 71, 8, 0
+repos/python/flask/flask/cli.py,"with_appcontext( f )",11, 72, 4, 0
+repos/python/flask/flask/cli.py,"command.decorator( f )",4, 65, 12, 0
+repos/python/flask/flask/cli.py,"command( self , * args , ** kwargs )",11, 79, 8, 0
+repos/python/flask/flask/cli.py,"group( self , * args , ** kwargs )",7, 76, 8, 0
+repos/python/flask/flask/cli.py,"__init__( self , add_default_commands = True , create_app = None , add_version_option = True , load_dotenv = True , set_debug_flag = True , ** extra )",3, 67, 4, 0
+repos/python/flask/flask/cli.py,"_load_plugin_commands( self )",12, 69, 8, 0
+repos/python/flask/flask/cli.py,"get_command( self , ctx , name )",21, 73, 8, 0
+repos/python/flask/flask/cli.py,"list_commands( self , ctx )",18, 77, 12, 0
+repos/python/flask/flask/cli.py,"main( self , * args , ** kwargs )",19, 77, 8, 0
+repos/python/flask/flask/cli.py,"_path_is_ancestor( path , other )",5, 78, 4, 0
+repos/python/flask/flask/cli.py,"load_dotenv( path = None )",47, 80, 4, 0
+repos/python/flask/flask/cli.py,"show_server_banner( env , debug , app_import_path , eager_loading )",25, 76, 12, 0
+repos/python/flask/flask/cli.py,"__init__( self )",3, 60, 12, 0
+repos/python/flask/flask/cli.py,"convert( self , value , param , ctx )",26, 73, 24, 0
+repos/python/flask/flask/cli.py,"_validate_key( ctx , param , value )",37, 78, 16, 0
+repos/python/flask/flask/cli.py,"run_command( info , host , port , reload , debugger , eager_loading , with_threads , cert )",2, 67, 0, 0
+repos/python/flask/flask/cli.py,"shell_command( )",30, 71, 4, 0
+repos/python/flask/flask/cli.py,"routes_command( sort , all_methods )",33, 76, 8, 0
+repos/python/flask/flask/cli.py,"main( as_module = False )",18, 77, 8, 0
+repos/python/flask/flask/wrappers.py,"is_json( self )",11, 72, 8, 0
+repos/python/flask/flask/wrappers.py,"json( self )",6, 79, 8, 0
+repos/python/flask/flask/wrappers.py,"_get_data_for_json( self , cache )",2, 42, 8, 0
+repos/python/flask/flask/wrappers.py,"get_json( self , force = False , silent = False , cache = True )",39, 73, 8, 0
+repos/python/flask/flask/wrappers.py,"on_json_loading_failed( self , e )",17, 76, 12, 0
+repos/python/flask/flask/wrappers.py,"max_content_length( self )",4, 71, 8, 0
+repos/python/flask/flask/wrappers.py,"endpoint( self )",8, 76, 8, 0
+repos/python/flask/flask/wrappers.py,"blueprint( self )",4, 60, 8, 0
+repos/python/flask/flask/wrappers.py,"_load_form_data( self )",13, 75, 8, 0
+repos/python/flask/flask/wrappers.py,"_get_data_for_json( self , cache )",2, 41, 4, 0
+repos/python/flask/flask/wrappers.py,"max_cookie_size( self )",11, 71, 8, 0
+repos/python/flask/flask/app.py,"_make_timedelta( value )",4, 41, 4, 0
+repos/python/flask/flask/app.py,"setupmethod.wrapper_func( self , * args , ** kwargs )",10, 79, 16, 0
+repos/python/flask/flask/app.py,"setupmethod( f )",15, 79, 16, 0
+repos/python/flask/flask/app.py,"__init__( self , import_name , static_url_path = None , static_folder = 'static' , static_host = None , host_matching = False , subdomain_matching = False , template_folder = 'templates' , instance_path = None , instance_relative_config = False , root_path = None",12, 40, 8, 0
+repos/python/flask/flask/app.py,"name( self )",15, 79, 8, 0
+repos/python/flask/flask/app.py,"propagate_exceptions( self )",10, 75, 8, 0
+repos/python/flask/flask/app.py,"preserve_context_on_exception( self )",11, 75, 8, 0
+repos/python/flask/flask/app.py,"logger( self )",21, 78, 8, 0
+repos/python/flask/flask/app.py,"jinja_env( self )",3, 61, 8, 0
+repos/python/flask/flask/app.py,"got_first_request( self )",7, 72, 8, 0
+repos/python/flask/flask/app.py,"make_config( self , instance_relative = False )",16, 76, 8, 0
+repos/python/flask/flask/app.py,"auto_find_instance_path( self )",12, 75, 8, 0
+repos/python/flask/flask/app.py,"open_instance_resource( self , resource , mode = 'rb' )",11, 79, 8, 0
+repos/python/flask/flask/app.py,"_get_templates_auto_reload( self )",13, 80, 8, 0
+repos/python/flask/flask/app.py,"_set_templates_auto_reload( self , value )",2, 53, 8, 0
+repos/python/flask/flask/app.py,"create_jinja_environment( self )",33, 73, 8, 0
+repos/python/flask/flask/app.py,"create_global_jinja_loader( self )",12, 76, 8, 0
+repos/python/flask/flask/app.py,"select_jinja_autoescape( self , filename )",9, 75, 8, 0
+repos/python/flask/flask/app.py,"update_template_context( self , context )",24, 77, 8, 0
+repos/python/flask/flask/app.py,"make_shell_context( self )",11, 71, 8, 0
+repos/python/flask/flask/app.py,"_get_debug( self )",2, 36, 8, 0
+repos/python/flask/flask/app.py,"_set_debug( self , value )",3, 64, 8, 0
+repos/python/flask/flask/app.py,"run( self , host = None , port = None , debug = None , load_dotenv = True , ** options )",2, 52, 4, 0
+repos/python/flask/flask/app.py,"test_client( self , use_cookies = True , ** kwargs )",55, 82, 8, 0
+repos/python/flask/flask/app.py,"test_cli_runner( self , ** kwargs )",16, 73, 8, 0
+repos/python/flask/flask/app.py,"open_session( self , request )",18, 78, 8, 0
+repos/python/flask/flask/app.py,"save_session( self , session , response )",20, 80, 8, 0
+repos/python/flask/flask/app.py,"make_null_session( self )",16, 80, 12, 0
+repos/python/flask/flask/app.py,"register_blueprint( self , blueprint , ** options )",35, 80, 8, 0
+repos/python/flask/flask/app.py,"iter_blueprints( self )",6, 75, 8, 0
+repos/python/flask/flask/app.py,"add_url_rule( self , rule , endpoint = None , view_func = None , provide_automatic_options = None , ** options )",2, 65, 21, 0
+repos/python/flask/flask/app.py,"route.decorator( f )",4, 60, 12, 0
+repos/python/flask/flask/app.py,"route( self , rule , ** options )",29, 76, 24, 0
+repos/python/flask/flask/app.py,"endpoint.decorator( f )",3, 46, 12, 0
+repos/python/flask/flask/app.py,"endpoint( self , endpoint )",14, 62, 8, 0
+repos/python/flask/flask/app.py,"_get_exc_class_and_code( exc_class_or_code )",13, 70, 8, 0
+repos/python/flask/flask/app.py,"errorhandler.decorator( f )",3, 69, 12, 0
+repos/python/flask/flask/app.py,"errorhandler( self , code_or_exception )",33, 76, 8, 0
+repos/python/flask/flask/app.py,"register_error_handler( self , code_or_exception , f )",8, 73, 8, 0
+repos/python/flask/flask/app.py,"_register_error_handler( self , key , code_or_exception , f )",23, 84, 8, 0
+repos/python/flask/flask/app.py,"template_filter.decorator( f )",3, 51, 12, 0
+repos/python/flask/flask/app.py,"template_filter( self , name = None )",16, 72, 8, 0
+repos/python/flask/flask/app.py,"add_template_filter( self , f , name = None )",8, 70, 8, 0
+repos/python/flask/flask/app.py,"template_test.decorator( f )",3, 49, 12, 0
+repos/python/flask/flask/app.py,"template_test( self , name = None )",23, 70, 8, 0
+repos/python/flask/flask/app.py,"add_template_test( self , f , name = None )",10, 68, 8, 0
+repos/python/flask/flask/app.py,"template_global.decorator( f )",3, 51, 12, 0
+repos/python/flask/flask/app.py,"template_global( self , name = None )",18, 83, 8, 0
+repos/python/flask/flask/app.py,"add_template_global( self , f , name = None )",10, 78, 8, 0
+repos/python/flask/flask/app.py,"before_request( self , f )",12, 80, 8, 0
+repos/python/flask/flask/app.py,"before_first_request( self , f )",11, 75, 8, 0
+repos/python/flask/flask/app.py,"after_request( self , f )",12, 78, 8, 0
+repos/python/flask/flask/app.py,"teardown_request( self , f )",37, 79, 11, 0
+repos/python/flask/flask/app.py,"teardown_appcontext( self , f )",31, 78, 8, 0
+repos/python/flask/flask/app.py,"context_processor( self , f )",4, 63, 8, 0
+repos/python/flask/flask/app.py,"shell_context_processor( self , f )",7, 57, 8, 0
+repos/python/flask/flask/app.py,"url_value_preprocessor( self , f )",15, 80, 8, 0
+repos/python/flask/flask/app.py,"url_defaults( self , f )",7, 76, 8, 0
+repos/python/flask/flask/app.py,"_find_error_handler( self , e )",22, 80, 8, 0
+repos/python/flask/flask/app.py,"handle_http_exception( self , e )",32, 77, 8, 0
+repos/python/flask/flask/app.py,"trap_http_exception( self , e )",33, 79, 8, 0
+repos/python/flask/flask/app.py,"handle_user_exception( self , e )",42, 77, 8, 0
+repos/python/flask/flask/app.py,"handle_exception( self , e )",27, 74, 8, 0
+repos/python/flask/flask/app.py,"log_exception( self , exc_info )",12, 74, 8, 0
+repos/python/flask/flask/app.py,"raise_routing_exception( self , request )",15, 77, 8, 0
+repos/python/flask/flask/app.py,"dispatch_request( self )",21, 74, 8, 0
+repos/python/flask/flask/app.py,"full_dispatch_request( self )",16, 70, 8, 0
+repos/python/flask/flask/app.py,"finalize_request( self , rv , from_error_handler = False )",23, 71, 12, 0
+repos/python/flask/flask/app.py,"try_trigger_before_first_request_functions( self )",15, 73, 8, 0
+repos/python/flask/flask/app.py,"make_default_options_response( self )",22, 77, 8, 0
+repos/python/flask/flask/app.py,"should_ignore_error( self , error )",9, 73, 8, 0
+repos/python/flask/flask/app.py,"make_response( self , rv )",105, 79, 12, 0
+repos/python/flask/flask/app.py,"create_url_adapter( self , request )",32, 73, 11, 0
+repos/python/flask/flask/app.py,"inject_url_defaults( self , endpoint , values )",13, 73, 8, 0
+repos/python/flask/flask/app.py,"handle_url_build_error( self , error , endpoint , values )",19, 76, 8, 0
+repos/python/flask/flask/app.py,"preprocess_request( self )",26, 76, 8, 0
+repos/python/flask/flask/app.py,"process_response( self , response )",25, 77, 12, 0
+repos/python/flask/flask/app.py,"do_teardown_request( self , exc = _sentinel )",30, 76, 12, 0
+repos/python/flask/flask/app.py,"do_teardown_appcontext( self , exc = _sentinel )",20, 68, 8, 0
+repos/python/flask/flask/app.py,"app_context( self )",20, 71, 8, 0
+repos/python/flask/flask/app.py,"request_context( self , environ )",15, 73, 8, 0
+repos/python/flask/flask/app.py,"test_request_context( self , * args , ** kwargs )",55, 73, 8, 0
+repos/python/flask/flask/app.py,"wsgi_app( self , environ , start_response )",42, 72, 12, 0
+repos/python/flask/flask/app.py,"__call__( self , environ , start_response )",5, 69, 8, 0
+repos/python/flask/flask/app.py,"__repr__( self )",5, 37, 12, 0
+repos/python/flask/flask/debughelpers.py,"__init__( self , request , key )",13, 82, 15, 0
+repos/python/flask/flask/debughelpers.py,"__str__( self )",2, 24, 8, 0
+repos/python/flask/flask/debughelpers.py,"__init__( self , request )",19, 79, 8, 0
+repos/python/flask/flask/debughelpers.py,"attach_enctype_error_multidict.__getitem__( self , key )",7, 55, 16, 0
+repos/python/flask/flask/debughelpers.py,"attach_enctype_error_multidict( request )",17, 76, 4, 0
+repos/python/flask/flask/debughelpers.py,"_dump_loader_info( loader )",15, 76, 4, 0
+repos/python/flask/flask/debughelpers.py,"explain_template_loading_attempts( app , template , attempts )",46, 84, 8, 0
+repos/python/flask/flask/debughelpers.py,"explain_ignored_app_run( )",7, 74, 21, 0
+repos/python/flask/flask/_compat.py,"reraise( tp , value , tb = None )",4, 43, 12, 0
+repos/python/flask/flask/_compat.py,"implements_to_string( cls )",4, 64, 8, 0
+repos/python/flask/flask/_compat.py,"with_metaclass.__new__( cls , name , this_bases , d )",2, 47, 8, 0
+repos/python/flask/flask/_compat.py,"with_metaclass( meta , * bases )",9, 73, 4, 0
+repos/python/flask/flask/_compat.py,"__enter__( self )",2, 29, 8, 0
+repos/python/flask/flask/_compat.py,"__exit__( self , * args )",4, 58, 16, 0
+repos/python/flask/flask/_compat.py,"fspath( path )",2, 74, 8, 0
+repos/python/flask/flask/ctx.py,"get( self , name , default = None )",10, 73, 8, 0
+repos/python/flask/flask/ctx.py,"pop( self , name , default = _sentinel )",13, 73, 8, 0
+repos/python/flask/flask/ctx.py,"setdefault( self , name , default = None )",11, 73, 8, 0
+repos/python/flask/flask/ctx.py,"__contains__( self , item )",2, 37, 8, 0
+repos/python/flask/flask/ctx.py,"__iter__( self )",2, 35, 8, 0
+repos/python/flask/flask/ctx.py,"__repr__( self )",5, 52, 12, 0
+repos/python/flask/flask/ctx.py,"after_this_request( f )",23, 77, 4, 0
+repos/python/flask/flask/ctx.py,"copy_current_request_context.wrapper( * args , ** kwargs )",3, 38, 12, 0
+repos/python/flask/flask/ctx.py,"copy_current_request_context( f )",34, 79, 16, 0
+repos/python/flask/flask/ctx.py,"has_request_context( )",30, 81, 4, 0
+repos/python/flask/flask/ctx.py,"has_app_context( )",8, 70, 4, 0
+repos/python/flask/flask/ctx.py,"__init__( self , app )",8, 74, 8, 0
+repos/python/flask/flask/ctx.py,"push( self )",7, 60, 8, 0
+repos/python/flask/flask/ctx.py,"pop( self , exc = _sentinel )",13, 77, 8, 0
+repos/python/flask/flask/ctx.py,"__enter__( self )",3, 25, 4, 0
+repos/python/flask/flask/ctx.py,"__exit__( self , exc_type , exc_value , tb )",5, 61, 8, 0
+repos/python/flask/flask/ctx.py,"__init__( self , app , environ , request = None , session = None )",34, 78, 8, 0
+repos/python/flask/flask/ctx.py,"_get_g( self )",2, 36, 8, 0
+repos/python/flask/flask/ctx.py,"_set_g( self , value )",2, 37, 8, 0
+repos/python/flask/flask/ctx.py,"copy( self )",18, 82, 11, 0
+repos/python/flask/flask/ctx.py,"match_request( self )",10, 69, 8, 0
+repos/python/flask/flask/ctx.py,"push( self )",41, 80, 8, 0
+repos/python/flask/flask/ctx.py,"pop( self , exc = _sentinel )",44, 82, 16, 0
+repos/python/flask/flask/ctx.py,"auto_pop( self , exc )",7, 73, 11, 0
+repos/python/flask/flask/ctx.py,"__enter__( self )",3, 25, 4, 0
+repos/python/flask/flask/ctx.py,"__exit__( self , exc_type , exc_value , tb )",10, 75, 8, 0
+repos/python/flask/flask/ctx.py,"__repr__( self )",7, 44, 8, 0
+repos/python/flask/flask/testing.py,"make_test_environ_builder( app , path = '/' , base_url = None , subdomain = None , url_scheme = None , * args , ** kwargs",3, 67, 4, 0
+repos/python/flask/flask/testing.py,"__init__( self , * args , ** kwargs )",6, 66, 12, 0
+repos/python/flask/flask/testing.py,"session_transaction( self , * args , ** kwargs )",49, 78, 8, 0
+repos/python/flask/flask/testing.py,"open( self , * args , ** kwargs )",36, 71, 12, 0
+repos/python/flask/flask/testing.py,"__enter__( self )",5, 65, 12, 0
+repos/python/flask/flask/testing.py,"__exit__( self , exc_type , exc_value , tb )",9, 77, 8, 0
+repos/python/flask/flask/testing.py,"__init__( self , app , ** kwargs )",3, 55, 8, 0
+repos/python/flask/flask/testing.py,"invoke( self , cli = None , args = None , ** kwargs )",22, 72, 8, 0
+repos/python/flask/flask/helpers.py,"get_env( )",6, 67, 4, 0
+repos/python/flask/flask/helpers.py,"get_debug_flag( )",12, 73, 4, 0
+repos/python/flask/flask/helpers.py,"get_load_dotenv( default = True )",13, 73, 4, 0
+repos/python/flask/flask/helpers.py,"_endpoint_from_view_func( view_func )",7, 70, 4, 0
+repos/python/flask/flask/helpers.py,"stream_with_context.decorator( * args , ** kwargs )",3, 57, 12, 0
+repos/python/flask/flask/helpers.py,"stream_with_context.generator( )",20, 77, 12, 0
+repos/python/flask/flask/helpers.py,"stream_with_context( generator_or_function )",70, 80, 4, 0
+repos/python/flask/flask/helpers.py,"make_response( * args )",47, 79, 4, 0
+repos/python/flask/flask/helpers.py,"url_for( endpoint , ** values )",145, 86, 6, 0
+repos/python/flask/flask/helpers.py,"get_template_attribute( template_name , attribute )",21, 77, 4, 0
+repos/python/flask/flask/helpers.py,"flash( message , category = 'message' )",27, 79, 4, 0
+repos/python/flask/flask/helpers.py,"get_flashed_messages( with_categories = False , category_filter = [ ] )",37, 82, 6, 0
+repos/python/flask/flask/helpers.py,"send_file( filename_or_fp , mimetype = None , as_attachment = False , attachment_filename = None , add_etags = True , cache_timeout = None , conditional = False , last_modified = None )",3, 74, 14, 0
+repos/python/flask/flask/helpers.py,"safe_join( directory , * pathnames )",35, 76, 16, 0
+repos/python/flask/flask/helpers.py,"send_from_directory( directory , filename , ** options )",39, 79, 7, 0
+repos/python/flask/flask/helpers.py,"get_root_path( import_name )",44, 79, 4, 0
+repos/python/flask/flask/helpers.py,"_matching_loader_thinks_module_is_package( loader , mod_name )",21, 74, 4, 0
+repos/python/flask/flask/helpers.py,"find_package( import_name )",53, 77, 8, 0
+repos/python/flask/flask/helpers.py,"__init__( self , func , name = None , doc = None )",6, 51, 4, 0
+repos/python/flask/flask/helpers.py,"__get__( self , obj , type = None )",9, 62, 12, 0
+repos/python/flask/flask/helpers.py,"__init__( self , import_name , template_folder = None , root_path = None )",10, 75, 4, 0
+repos/python/flask/flask/helpers.py,"_get_static_folder( self )",3, 69, 12, 0
+repos/python/flask/flask/helpers.py,"_set_static_folder( self , value )",2, 41, 4, 0
+repos/python/flask/flask/helpers.py,"_get_static_url_path( self )",6, 62, 12, 0
+repos/python/flask/flask/helpers.py,"_set_static_url_path( self , value )",2, 43, 4, 0
+repos/python/flask/flask/helpers.py,"has_static_folder( self )",7, 74, 8, 0
+repos/python/flask/flask/helpers.py,"jinja_loader( self )",8, 72, 49, 0
+repos/python/flask/flask/helpers.py,"get_send_file_max_age( self , filename )",25, 82, 8, 0
+repos/python/flask/flask/helpers.py,"send_static_file( self , filename )",13, 74, 8, 0
+repos/python/flask/flask/helpers.py,"open_resource( self , resource , mode = 'rb' )",26, 79, 8, 0
+repos/python/flask/flask/helpers.py,"total_seconds( td )",9, 66, 4, 0
+repos/python/flask/flask/helpers.py,"is_ip( value )",28, 68, 4, 0
+repos/python/flask/flask/views.py,"dispatch_request( self )",6, 68, 8, 0
+repos/python/flask/flask/views.py,"as_view.view( * args , ** kwargs )",3, 64, 12, 0
+repos/python/flask/flask/views.py,"as_view( cls , name , * class_args , ** class_kwargs )",31, 79, 8, 0
+repos/python/flask/flask/views.py,"__init__( cls , name , bases , d )",16, 80, 12, 0
+repos/python/flask/flask/views.py,"dispatch_request( self , * args , ** kwargs )",10, 76, 8, 0
+repos/python/flask/flask/json/__init__.py,"_wrap_reader_for_text( fp , encoding )",4, 63, 8, 0
+repos/python/flask/flask/json/__init__.py,"_wrap_writer_for_text( fp , encoding )",6, 44, 8, 0
+repos/python/flask/flask/json/__init__.py,"default( self , o )",26, 76, 8, 0
+repos/python/flask/flask/json/__init__.py,"_dump_arg_defaults( kwargs )",17, 80, 8, 0
+repos/python/flask/flask/json/__init__.py,"_load_arg_defaults( kwargs )",11, 80, 8, 0
+repos/python/flask/flask/json/__init__.py,"detect_encoding( data )",41, 73, 4, 0
+repos/python/flask/flask/json/__init__.py,"dumps( obj , ** kwargs )",16, 80, 4, 0
+repos/python/flask/flask/json/__init__.py,"dump( obj , fp , ** kwargs )",7, 60, 4, 0
+repos/python/flask/flask/json/__init__.py,"loads( s , ** kwargs )",12, 80, 4, 0
+repos/python/flask/flask/json/__init__.py,"load( fp , ** kwargs )",7, 80, 8, 0
+repos/python/flask/flask/json/__init__.py,"htmlsafe_dumps( obj , ** kwargs )",33, 79, 4, 0
+repos/python/flask/flask/json/__init__.py,"htmlsafe_dump( obj , fp , ** kwargs )",3, 69, 4, 0
+repos/python/flask/flask/json/__init__.py,"jsonify( * args , ** kwargs )",67, 89, 8, 0
+repos/python/flask/flask/json/__init__.py,"tojson_filter( obj , ** kwargs )",2, 49, 4, 0
+repos/python/flask/flask/json/tag.py,"__init__( self , serializer )",3, 56, 8, 0
+repos/python/flask/flask/json/tag.py,"check( self , value )",3, 69, 8, 0
+repos/python/flask/flask/json/tag.py,"to_json( self , value )",4, 77, 8, 0
+repos/python/flask/flask/json/tag.py,"to_python( self , value )",4, 77, 8, 0
+repos/python/flask/flask/json/tag.py,"tag( self , value )",4, 76, 8, 0
+repos/python/flask/flask/json/tag.py,"check( self , value )",6, 58, 12, 0
+repos/python/flask/flask/json/tag.py,"to_json( self , value )",3, 61, 8, 0
+repos/python/flask/flask/json/tag.py,"to_python( self , value )",3, 38, 8, 0
+repos/python/flask/flask/json/tag.py,"check( self , value )",2, 39, 8, 0
+repos/python/flask/flask/json/tag.py,"to_json( self , value )",4, 78, 8, 0
+repos/python/flask/flask/json/tag.py,"check( self , value )",2, 40, 8, 0
+repos/python/flask/flask/json/tag.py,"to_json( self , value )",2, 61, 8, 0
+repos/python/flask/flask/json/tag.py,"to_python( self , value )",2, 32, 4, 0
+repos/python/flask/flask/json/tag.py,"check( self , value )",2, 39, 8, 0
+repos/python/flask/flask/json/tag.py,"to_json( self , value )",2, 61, 8, 0
+repos/python/flask/flask/json/tag.py,"check( self , value )",2, 40, 8, 0
+repos/python/flask/flask/json/tag.py,"to_json( self , value )",2, 48, 8, 0
+repos/python/flask/flask/json/tag.py,"to_python( self , value )",2, 32, 4, 0
+repos/python/flask/flask/json/tag.py,"check( self , value )",2, 58, 8, 0
+repos/python/flask/flask/json/tag.py,"to_json( self , value )",2, 43, 8, 0
+repos/python/flask/flask/json/tag.py,"to_python( self , value )",2, 32, 4, 0
+repos/python/flask/flask/json/tag.py,"check( self , value )",2, 39, 8, 0
+repos/python/flask/flask/json/tag.py,"to_json( self , value )",2, 30, 4, 0
+repos/python/flask/flask/json/tag.py,"to_python( self , value )",2, 32, 4, 0
+repos/python/flask/flask/json/tag.py,"check( self , value )",2, 43, 8, 0
+repos/python/flask/flask/json/tag.py,"to_json( self , value )",2, 32, 8, 0
+repos/python/flask/flask/json/tag.py,"to_python( self , value )",2, 33, 8, 0
+repos/python/flask/flask/json/tag.py,"__init__( self )",6, 38, 8, 0
+repos/python/flask/flask/json/tag.py,"register( self , tag_class , force = False , index = None )",27, 80, 8, 0
+repos/python/flask/flask/json/tag.py,"tag( self , value )",7, 71, 8, 0
+repos/python/flask/flask/json/tag.py,"untag( self , value )",11, 73, 8, 0
+repos/python/flask/flask/json/tag.py,"dumps( self , value )",3, 66, 8, 0
+repos/python/flask/flask/json/tag.py,"loads( self , value )",3, 80, 8, 0
+repos/python/flask/tests/test_basic.py,"test_options_work.index( )",2, 29, 8, 0
+repos/python/flask/tests/test_basic.py,"test_options_work( app , client )",8, 66, 4, 0
+repos/python/flask/tests/test_basic.py,"test_options_on_multiple_rules.index( )",2, 29, 8, 0
+repos/python/flask/tests/test_basic.py,"test_options_on_multiple_rules.index_put( )",2, 22, 8, 0
+repos/python/flask/tests/test_basic.py,"test_options_on_multiple_rules( app , client )",11, 73, 4, 0
+repos/python/flask/tests/test_basic.py,"test_provide_automatic_options_attr.index( )",2, 30, 8, 0
+repos/python/flask/tests/test_basic.py,"test_provide_automatic_options_attr.index2( )",2, 30, 8, 0
+repos/python/flask/tests/test_basic.py,"test_provide_automatic_options_attr( )",20, 55, 4, 0
+repos/python/flask/tests/test_basic.py,"test_provide_automatic_options_kwarg.index( )",2, 36, 8, 0
+repos/python/flask/tests/test_basic.py,"test_provide_automatic_options_kwarg.more( )",2, 36, 8, 0
+repos/python/flask/tests/test_basic.py,"test_provide_automatic_options_kwarg( app , client )",42, 76, 4, 0
+repos/python/flask/tests/test_basic.py,"test_request_dispatching.index( )",2, 36, 8, 0
+repos/python/flask/tests/test_basic.py,"test_request_dispatching.more( )",2, 36, 8, 0
+repos/python/flask/tests/test_basic.py,"test_request_dispatching( app , client )",21, 66, 4, 0
+repos/python/flask/tests/test_basic.py,"test_disallow_string_for_allowed_methods.index( )",2, 25, 12, 0
+repos/python/flask/tests/test_basic.py,"test_disallow_string_for_allowed_methods( app )",4, 51, 0, 0
+repos/python/flask/tests/test_basic.py,"test_url_mapping.index( )",2, 36, 8, 0
+repos/python/flask/tests/test_basic.py,"test_url_mapping.more( )",2, 36, 8, 0
+repos/python/flask/tests/test_basic.py,"test_url_mapping.options( )",2, 28, 8, 0
+repos/python/flask/tests/test_basic.py,"test_url_mapping( app , client )",33, 100, 4, 0
+repos/python/flask/tests/test_basic.py,"test_werkzeug_routing.bar( )",2, 21, 8, 0
+repos/python/flask/tests/test_basic.py,"test_werkzeug_routing.index( )",2, 23, 8, 0
+repos/python/flask/tests/test_basic.py,"test_werkzeug_routing( app , client )",18, 49, 4, 0
+repos/python/flask/tests/test_basic.py,"test_endpoint_decorator.bar( )",2, 21, 8, 0
+repos/python/flask/tests/test_basic.py,"test_endpoint_decorator.index( )",2, 23, 8, 0
+repos/python/flask/tests/test_basic.py,"test_endpoint_decorator( app , client )",17, 49, 4, 0
+repos/python/flask/tests/test_basic.py,"test_session.set( )",7, 61, 8, 0
+repos/python/flask/tests/test_basic.py,"test_session.get( )",7, 47, 8, 0
+repos/python/flask/tests/test_basic.py,"test_session( app , client )",21, 74, 4, 0
+repos/python/flask/tests/test_basic.py,"test_session_using_server_name.index( )",3, 38, 8, 0
+repos/python/flask/tests/test_basic.py,"test_session_using_server_name( app , client )",13, 69, 4, 0
+repos/python/flask/tests/test_basic.py,"test_session_using_server_name_and_port.index( )",3, 38, 8, 0
+repos/python/flask/tests/test_basic.py,"test_session_using_server_name_and_port( app , client )",13, 69, 4, 0
+repos/python/flask/tests/test_basic.py,"test_session_using_server_name_port_and_path.index( )",3, 38, 8, 0
+repos/python/flask/tests/test_basic.py,"test_session_using_server_name_port_and_path( app , client )",15, 68, 4, 0
+repos/python/flask/tests/test_basic.py,"test_session_using_application_root.__init__( self , app , prefix )",3, 41, 8, 0
+repos/python/flask/tests/test_basic.py,"test_session_using_application_root.__call__( self , environ , start_response )",3, 53, 8, 0
+repos/python/flask/tests/test_basic.py,"test_session_using_application_root.index( )",3, 38, 8, 0
+repos/python/flask/tests/test_basic.py,"test_session_using_application_root( app , client )",22, 62, 4, 0
+repos/python/flask/tests/test_basic.py,"test_session_using_session_settings.index( )",3, 38, 8, 0
+repos/python/flask/tests/test_basic.py,"test_session_using_session_settings( app , client )",23, 62, 4, 0
+repos/python/flask/tests/test_basic.py,"test_session_using_samesite_attribute.index( )",3, 38, 8, 0
+repos/python/flask/tests/test_basic.py,"test_session_using_samesite_attribute( app , client )",25, 57, 4, 0
+repos/python/flask/tests/test_basic.py,"test_session_localhost_warning.index( )",3, 38, 8, 0
+repos/python/flask/tests/test_basic.py,"test_session_localhost_warning( recwarn , app , client )",14, 72, 4, 0
+repos/python/flask/tests/test_basic.py,"test_session_ip_warning.index( )",3, 38, 8, 0
+repos/python/flask/tests/test_basic.py,"test_session_ip_warning( recwarn , app , client )",14, 66, 4, 0
+repos/python/flask/tests/test_basic.py,"test_missing_session.expect_exception( f , * args , ** kwargs )",3, 76, 8, 0
+repos/python/flask/tests/test_basic.py,"test_missing_session( app )",11, 76, 8, 0
+repos/python/flask/tests/test_basic.py,"test_session_expiration.index( )",4, 44, 8, 0
+repos/python/flask/tests/test_basic.py,"test_session_expiration.test( )",2, 50, 8, 0
+repos/python/flask/tests/test_basic.py,"test_session_expiration( app , client )",30, 74, 4, 0
+repos/python/flask/tests/test_basic.py,"test_session_stored_last.modify_session( response )",3, 34, 4, 0
+repos/python/flask/tests/test_basic.py,"test_session_stored_last.dump_session_contents( )",2, 46, 8, 0
+repos/python/flask/tests/test_basic.py,"test_session_stored_last( app , client )",12, 46, 8, 0
+repos/python/flask/tests/test_basic.py,"test_session_special_types.dump_session_contents( )",10, 60, 8, 0
+repos/python/flask/tests/test_basic.py,"test_session_special_types( app , client )",29, 60, 8, 0
+repos/python/flask/tests/test_basic.py,"test_session_cookie_setting.bump( )",4, 68, 8, 0
+repos/python/flask/tests/test_basic.py,"test_session_cookie_setting.read( )",2, 48, 8, 0
+repos/python/flask/tests/test_basic.py,"test_session_cookie_setting.run_test( expect_header )",10, 61, 12, 0
+repos/python/flask/tests/test_basic.py,"test_session_cookie_setting( app )",39, 68, 8, 0
+repos/python/flask/tests/test_basic.py,"test_session_vary_cookie.set_session( )",3, 39, 8, 0
+repos/python/flask/tests/test_basic.py,"test_session_vary_cookie.get( )",2, 41, 8, 0
+repos/python/flask/tests/test_basic.py,"test_session_vary_cookie.getitem( )",2, 37, 8, 0
+repos/python/flask/tests/test_basic.py,"test_session_vary_cookie.setdefault( )",2, 59, 8, 0
+repos/python/flask/tests/test_basic.py,"test_session_vary_cookie.vary_cookie_header_set( )",5, 39, 8, 0
+repos/python/flask/tests/test_basic.py,"test_session_vary_cookie.vary_header_set( )",5, 69, 8, 0
+repos/python/flask/tests/test_basic.py,"test_session_vary_cookie.no_vary_header( )",2, 26, 4, 0
+repos/python/flask/tests/test_basic.py,"test_session_vary_cookie.expect( path , header_value = 'Cookie' )",9, 68, 12, 0
+repos/python/flask/tests/test_basic.py,"test_session_vary_cookie( app , client )",53, 75, 4, 0
+repos/python/flask/tests/test_basic.py,"test_flashes( app , req_ctx )",7, 64, 4, 0
+repos/python/flask/tests/test_basic.py,"test_extended_flashing.index( )",5, 66, 8, 0
+repos/python/flask/tests/test_basic.py,"test_extended_flashing.test( )",8, 48, 8, 0
+repos/python/flask/tests/test_basic.py,"test_extended_flashing.test_with_categories( )",9, 68, 8, 0
+repos/python/flask/tests/test_basic.py,"test_extended_flashing.test_filter( )",5, 63, 12, 0
+repos/python/flask/tests/test_basic.py,"test_extended_flashing.test_filters( )",8, 74, 12, 0
+repos/python/flask/tests/test_basic.py,"test_extended_flashing.test_filters2( )",7, 64, 8, 0
+repos/python/flask/tests/test_basic.py,"test_extended_flashing( app )",78, 75, 4, 0
+repos/python/flask/tests/test_basic.py,"test_request_processing.before_request( )",2, 30, 8, 0
+repos/python/flask/tests/test_basic.py,"test_request_processing.after_request( response )",4, 35, 8, 0
+repos/python/flask/tests/test_basic.py,"test_request_processing.index( )",4, 35, 8, 0
+repos/python/flask/tests/test_basic.py,"test_request_processing( app , client )",23, 42, 0, 0
+repos/python/flask/tests/test_basic.py,"test_request_preprocessing_early_return.before_request1( )",2, 27, 4, 0
+repos/python/flask/tests/test_basic.py,"test_request_preprocessing_early_return.before_request2( )",3, 27, 4, 0
+repos/python/flask/tests/test_basic.py,"test_request_preprocessing_early_return.before_request3( )",3, 27, 4, 0
+repos/python/flask/tests/test_basic.py,"test_request_preprocessing_early_return.index( )",3, 29, 8, 0
+repos/python/flask/tests/test_basic.py,"test_request_preprocessing_early_return( app , client )",25, 58, 0, 0
+repos/python/flask/tests/test_basic.py,"test_after_request_processing.test_after_request_processing.index.foo( response )",3, 51, 12, 0
+repos/python/flask/tests/test_basic.py,"test_after_request_processing.index( )",7, 51, 12, 0
+repos/python/flask/tests/test_basic.py,"test_after_request_processing( app , client )",13, 51, 12, 0
+repos/python/flask/tests/test_basic.py,"test_teardown_request_handler.teardown_request( exc )",3, 31, 4, 0
+repos/python/flask/tests/test_basic.py,"test_teardown_request_handler.root( )",2, 26, 8, 0
+repos/python/flask/tests/test_basic.py,"test_teardown_request_handler( app , client )",16, 48, 0, 0
+repos/python/flask/tests/test_basic.py,"test_teardown_request_handler_debug_mode.teardown_request( exc )",3, 31, 4, 0
+repos/python/flask/tests/test_basic.py,"test_teardown_request_handler_debug_mode.root( )",2, 26, 8, 0
+repos/python/flask/tests/test_basic.py,"test_teardown_request_handler_debug_mode( app , client )",16, 59, 0, 0
+repos/python/flask/tests/test_basic.py,"test_teardown_request_handler_error.teardown_request1( exc )",10, 75, 8, 0
+repos/python/flask/tests/test_basic.py,"test_teardown_request_handler_error.teardown_request2( exc )",10, 75, 8, 0
+repos/python/flask/tests/test_basic.py,"test_teardown_request_handler_error.fails( )",2, 17, 4, 0
+repos/python/flask/tests/test_basic.py,"test_teardown_request_handler_error( app , client )",36, 75, 8, 0
+repos/python/flask/tests/test_basic.py,"test_before_after_request_order.before1( )",2, 25, 8, 0
+repos/python/flask/tests/test_basic.py,"test_before_after_request_order.before2( )",2, 25, 8, 0
+repos/python/flask/tests/test_basic.py,"test_before_after_request_order.after1( response )",3, 26, 4, 0
+repos/python/flask/tests/test_basic.py,"test_before_after_request_order.after2( response )",3, 26, 4, 0
+repos/python/flask/tests/test_basic.py,"test_before_after_request_order.finish1( exc )",2, 25, 8, 0
+repos/python/flask/tests/test_basic.py,"test_before_after_request_order.finish2( exc )",2, 25, 8, 0
+repos/python/flask/tests/test_basic.py,"test_before_after_request_order.index( )",2, 20, 8, 0
+repos/python/flask/tests/test_basic.py,"test_before_after_request_order( app , client )",36, 50, 0, 0
+repos/python/flask/tests/test_basic.py,"test_error_handling.not_found( e )",2, 32, 8, 0
+repos/python/flask/tests/test_basic.py,"test_error_handling.internal_server_error( e )",2, 44, 8, 0
+repos/python/flask/tests/test_basic.py,"test_error_handling.forbidden( e )",2, 32, 8, 0
+repos/python/flask/tests/test_basic.py,"test_error_handling.index( )",2, 25, 8, 0
+repos/python/flask/tests/test_basic.py,"test_error_handling.error( )",2, 17, 4, 0
+repos/python/flask/tests/test_basic.py,"test_error_handling.error2( )",2, 25, 8, 0
+repos/python/flask/tests/test_basic.py,"test_error_handling( app , client )",36, 47, 4, 0
+repos/python/flask/tests/test_basic.py,"test_error_handler_unknown_code( app )",5, 64, 8, 0
+repos/python/flask/tests/test_basic.py,"test_error_handling_processing.internal_server_error( e )",2, 44, 8, 0
+repos/python/flask/tests/test_basic.py,"test_error_handling_processing.broken_func( )",2, 23, 4, 0
+repos/python/flask/tests/test_basic.py,"test_error_handling_processing.after_request( resp )",3, 41, 8, 0
+repos/python/flask/tests/test_basic.py,"test_error_handling_processing( app , client )",19, 49, 0, 0
+repos/python/flask/tests/test_basic.py,"test_baseexception_error_handling.broken_func( )",2, 34, 8, 0
+repos/python/flask/tests/test_basic.py,"test_baseexception_error_handling( app , client )",13, 61, 8, 0
+repos/python/flask/tests/test_basic.py,"test_before_request_and_routing_errors.attach_something( )",2, 36, 8, 0
+repos/python/flask/tests/test_basic.py,"test_before_request_and_routing_errors.return_something( error )",2, 38, 8, 0
+repos/python/flask/tests/test_basic.py,"test_before_request_and_routing_errors( app , client )",12, 57, 0, 0
+repos/python/flask/tests/test_basic.py,"test_user_error_handling.handle_my_exception( e )",3, 42, 8, 0
+repos/python/flask/tests/test_basic.py,"test_user_error_handling.index( )",2, 28, 8, 0
+repos/python/flask/tests/test_basic.py,"test_user_error_handling( app , client )",14, 43, 0, 0
+repos/python/flask/tests/test_basic.py,"test_http_error_subclass_handling.handle_forbidden_subclass( e )",3, 48, 8, 0
+repos/python/flask/tests/test_basic.py,"test_http_error_subclass_handling.handle_forbidden_subclass( e )",4, 52, 8, 0
+repos/python/flask/tests/test_basic.py,"test_http_error_subclass_handling.index1( )",2, 34, 8, 0
+repos/python/flask/tests/test_basic.py,"test_http_error_subclass_handling.index2( )",2, 25, 8, 0
+repos/python/flask/tests/test_basic.py,"test_http_error_subclass_handling.index3( )",2, 26, 8, 0
+repos/python/flask/tests/test_basic.py,"test_http_error_subclass_handling( app , client )",30, 52, 0, 0
+repos/python/flask/tests/test_basic.py,"test_errorhandler_precedence.handle_e2( e )",2, 22, 4, 0
+repos/python/flask/tests/test_basic.py,"test_errorhandler_precedence.handle_exception( e )",2, 29, 4, 0
+repos/python/flask/tests/test_basic.py,"test_errorhandler_precedence.raise_e1( )",2, 20, 4, 0
+repos/python/flask/tests/test_basic.py,"test_errorhandler_precedence.raise_e3( )",2, 20, 4, 0
+repos/python/flask/tests/test_basic.py,"test_errorhandler_precedence( app , client )",31, 47, 0, 0
+repos/python/flask/tests/test_basic.py,"test_trapping_of_bad_request_key_errors.fail( )",2, 42, 8, 0
+repos/python/flask/tests/test_basic.py,"test_trapping_of_bad_request_key_errors.allow_abort( )",2, 25, 8, 0
+repos/python/flask/tests/test_basic.py,"test_trapping_of_bad_request_key_errors( app , client )",29, 58, 0, 0
+repos/python/flask/tests/test_basic.py,"test_trapping_of_all_http_exceptions.fail( )",2, 25, 8, 0
+repos/python/flask/tests/test_basic.py,"test_trapping_of_all_http_exceptions( app , client )",9, 55, 0, 0
+repos/python/flask/tests/test_basic.py,"test_error_handler_after_processor_error.before_request( )",3, 32, 8, 0
+repos/python/flask/tests/test_basic.py,"test_error_handler_after_processor_error.after_request( response )",4, 33, 4, 0
+repos/python/flask/tests/test_basic.py,"test_error_handler_after_processor_error.index( )",2, 21, 8, 0
+repos/python/flask/tests/test_basic.py,"test_error_handler_after_processor_error.internal_server_error( e )",2, 41, 8, 0
+repos/python/flask/tests/test_basic.py,"test_error_handler_after_processor_error( app , client )",26, 59, 0, 0
+repos/python/flask/tests/test_basic.py,"test_enctype_debug_helper.index( )",2, 51, 8, 0
+repos/python/flask/tests/test_basic.py,"test_enctype_debug_helper( app , client )",16, 71, 4, 0
+repos/python/flask/tests/test_basic.py,"test_response_types.from_text( )",2, 30, 8, 0
+repos/python/flask/tests/test_basic.py,"test_response_types.from_bytes( )",2, 46, 8, 0
+repos/python/flask/tests/test_basic.py,"test_response_types.from_full_tuple( )",5, 56, 12, 0
+repos/python/flask/tests/test_basic.py,"test_response_types.from_text_headers( )",5, 56, 12, 0
+repos/python/flask/tests/test_basic.py,"test_response_types.from_text_status( )",2, 34, 8, 0
+repos/python/flask/tests/test_basic.py,"test_response_types.from_response_headers( )",5, 71, 8, 0
+repos/python/flask/tests/test_basic.py,"test_response_types.from_response_status( )",2, 59, 8, 0
+repos/python/flask/tests/test_basic.py,"test_response_types.from_wsgi( )",2, 26, 8, 0
+repos/python/flask/tests/test_basic.py,"test_response_types( app , client )",75, 71, 8, 0
+repos/python/flask/tests/test_basic.py,"test_response_type_errors.from_none( )",2, 21, 4, 0
+repos/python/flask/tests/test_basic.py,"test_response_type_errors.from_small_tuple( )",2, 28, 4, 0
+repos/python/flask/tests/test_basic.py,"test_response_type_errors.from_large_tuple( )",2, 53, 8, 0
+repos/python/flask/tests/test_basic.py,"test_response_type_errors.from_bad_type( )",2, 25, 4, 0
+repos/python/flask/tests/test_basic.py,"test_response_type_errors.from_bad_wsgi( )",2, 28, 8, 0
+repos/python/flask/tests/test_basic.py,"test_response_type_errors( )",41, 53, 8, 0
+repos/python/flask/tests/test_basic.py,"test_make_response( app , req_ctx )",15, 42, 4, 0
+repos/python/flask/tests/test_basic.py,"test_make_response_with_response_instance( app , req_ctx )",19, 67, 8, 0
+repos/python/flask/tests/test_basic.py,"test_jsonify_no_prettyprint( app , req_ctx )",13, 68, 4, 0
+repos/python/flask/tests/test_basic.py,"test_jsonify_prettyprint( app , req_ctx )",9, 79, 8, 0
+repos/python/flask/tests/test_basic.py,"test_jsonify_mimetype( app , req_ctx )",8, 72, 4, 0
+repos/python/flask/tests/test_basic.py,"test_jsonify_args_and_kwargs_check( app , req_ctx )",4, 54, 0, 0
+repos/python/flask/tests/test_basic.py,"test_url_generation.hello( )",2, 17, 4, 0
+repos/python/flask/tests/test_basic.py,"test_url_generation( app , req_ctx )",8, 70, 4, 0
+repos/python/flask/tests/test_basic.py,"test_build_error_handler.handler( error , endpoint , values )",3, 42, 4, 0
+repos/python/flask/tests/test_basic.py,"test_build_error_handler( app )",25, 73, 8, 0
+repos/python/flask/tests/test_basic.py,"test_build_error_handler_reraise.handler_raises_build_error( error , endpoint , values )",2, 61, 4, 0
+repos/python/flask/tests/test_basic.py,"test_build_error_handler_reraise( app )",9, 68, 4, 0
+repos/python/flask/tests/test_basic.py,"test_url_for_passes_special_values_to_build_error_handler.handler( error , endpoint , values )",8, 42, 4, 0
+repos/python/flask/tests/test_basic.py,"test_url_for_passes_special_values_to_build_error_handler( app )",13, 68, 0, 0
+repos/python/flask/tests/test_basic.py,"test_custom_converters.to_python( self , value )",2, 36, 8, 0
+repos/python/flask/tests/test_basic.py,"test_custom_converters.to_url( self , value )",3, 60, 12, 0
+repos/python/flask/tests/test_basic.py,"test_custom_converters.index( args )",2, 30, 8, 0
+repos/python/flask/tests/test_basic.py,"test_custom_converters( app , client )",18, 60, 12, 0
+repos/python/flask/tests/test_basic.py,"test_static_files( app , client )",8, 67, 8, 0
+repos/python/flask/tests/test_basic.py,"test_static_url_path( )",9, 83, 8, 0
+repos/python/flask/tests/test_basic.py,"test_static_route_with_host_matching( )",17, 101, 4, 0
+repos/python/flask/tests/test_basic.py,"test_request_locals( )",3, 51, 4, 0
+repos/python/flask/tests/test_basic.py,"test_test_app_proper_environ.index( )",2, 21, 8, 0
+repos/python/flask/tests/test_basic.py,"test_test_app_proper_environ.subdomain( )",2, 31, 8, 0
+repos/python/flask/tests/test_basic.py,"test_test_app_proper_environ( )",56, 78, 12, 0
+repos/python/flask/tests/test_basic.py,"test_exception_propagation.test_exception_propagation.apprunner.index( )",2, 21, 8, 0
+repos/python/flask/tests/test_basic.py,"test_exception_propagation.apprunner( config_key )",12, 54, 12, 0
+repos/python/flask/tests/test_basic.py,"test_exception_propagation( app , client )",22, 72, 4, 0
+repos/python/flask/tests/test_basic.py,"test_werkzeug_passthrough_errors( monkeypatch , debug , use_debugger , use_reloader , propagate_exceptions , app )",2, 79, 37, 0
+repos/python/flask/tests/test_basic.py,"run_simple_mock( * args , ** kwargs )",2, 68, 8, 0
+repos/python/flask/tests/test_basic.py,"test_max_content_length.always_first( )",3, 37, 8, 0
+repos/python/flask/tests/test_basic.py,"test_max_content_length.accept_file( )",3, 37, 8, 0
+repos/python/flask/tests/test_basic.py,"test_max_content_length.catcher( error )",2, 24, 4, 0
+repos/python/flask/tests/test_basic.py,"test_max_content_length( app , client )",19, 62, 4, 0
+repos/python/flask/tests/test_basic.py,"test_url_processors.add_language_code( endpoint , values )",4, 74, 16, 0
+repos/python/flask/tests/test_basic.py,"test_url_processors.pull_lang_code( endpoint , values )",2, 58, 8, 0
+repos/python/flask/tests/test_basic.py,"test_url_processors.index( )",2, 38, 8, 0
+repos/python/flask/tests/test_basic.py,"test_url_processors.about( )",2, 47, 8, 0
+repos/python/flask/tests/test_basic.py,"test_url_processors.something_else( )",2, 54, 8, 0
+repos/python/flask/tests/test_basic.py,"test_url_processors( app , client )",27, 74, 16, 0
+repos/python/flask/tests/test_basic.py,"test_inject_blueprint_url_defaults.bp_defaults( endpoint , values )",2, 39, 4, 0
+repos/python/flask/tests/test_basic.py,"test_inject_blueprint_url_defaults.view( page )",2, 20, 4, 0
+repos/python/flask/tests/test_basic.py,"test_inject_blueprint_url_defaults( app )",23, 56, 4, 0
+repos/python/flask/tests/test_basic.py,"test_nonascii_pathinfo.index( )",2, 30, 8, 0
+repos/python/flask/tests/test_basic.py,"test_nonascii_pathinfo( app , client )",7, 41, 0, 0
+repos/python/flask/tests/test_basic.py,"test_debug_mode_complains_after_first_request.index( )",2, 25, 8, 0
+repos/python/flask/tests/test_basic.py,"test_debug_mode_complains_after_first_request.broken( )",2, 25, 12, 0
+repos/python/flask/tests/test_basic.py,"test_debug_mode_complains_after_first_request.working( )",2, 21, 8, 0
+repos/python/flask/tests/test_basic.py,"test_debug_mode_complains_after_first_request( app , client )",23, 64, 0, 0
+repos/python/flask/tests/test_basic.py,"test_before_first_request_functions.foo( )",2, 23, 8, 0
+repos/python/flask/tests/test_basic.py,"test_before_first_request_functions( app , client )",12, 54, 0, 0
+repos/python/flask/tests/test_basic.py,"test_before_first_request_functions_concurrent.foo( )",3, 24, 8, 0
+repos/python/flask/tests/test_basic.py,"test_before_first_request_functions_concurrent.get_and_assert( )",3, 27, 8, 0
+repos/python/flask/tests/test_basic.py,"test_before_first_request_functions_concurrent( app , client )",17, 65, 0, 0
+repos/python/flask/tests/test_basic.py,"test_routing_redirect_debugging.foo( )",2, 25, 8, 0
+repos/python/flask/tests/test_basic.py,"test_routing_redirect_debugging( app , client )",21, 65, 8, 0
+repos/python/flask/tests/test_basic.py,"test_route_decorator_custom_endpoint.foo( )",2, 38, 8, 0
+repos/python/flask/tests/test_basic.py,"test_route_decorator_custom_endpoint.for_bar( )",2, 38, 8, 0
+repos/python/flask/tests/test_basic.py,"test_route_decorator_custom_endpoint.for_bar_foo( )",2, 38, 8, 0
+repos/python/flask/tests/test_basic.py,"test_route_decorator_custom_endpoint( app , client )",23, 55, 0, 0
+repos/python/flask/tests/test_basic.py,"test_preserve_only_once.fail_func( )",2, 21, 4, 0
+repos/python/flask/tests/test_basic.py,"test_preserve_only_once( app , client )",17, 52, 4, 0
+repos/python/flask/tests/test_basic.py,"test_preserve_remembers_exception.fail_func( )",2, 21, 4, 0
+repos/python/flask/tests/test_basic.py,"test_preserve_remembers_exception.success_func( )",2, 24, 4, 0
+repos/python/flask/tests/test_basic.py,"test_preserve_remembers_exception.teardown_handler( exc )",2, 31, 4, 0
+repos/python/flask/tests/test_basic.py,"test_preserve_remembers_exception( app , client )",30, 66, 4, 0
+repos/python/flask/tests/test_basic.py,"test_get_method_on_g( app_ctx )",6, 38, 4, 0
+repos/python/flask/tests/test_basic.py,"test_g_iteration_protocol( app_ctx )",6, 45, 4, 0
+repos/python/flask/tests/test_basic.py,"test_subdomain_basic_support.normal_index( )",2, 30, 8, 0
+repos/python/flask/tests/test_basic.py,"test_subdomain_basic_support.test_index( )",2, 28, 8, 0
+repos/python/flask/tests/test_basic.py,"test_subdomain_basic_support( )",18, 63, 4, 0
+repos/python/flask/tests/test_basic.py,"test_subdomain_matching.index( user )",2, 37, 8, 0
+repos/python/flask/tests/test_basic.py,"test_subdomain_matching( )",11, 68, 4, 0
+repos/python/flask/tests/test_basic.py,"test_subdomain_matching_with_ports.index( user )",2, 37, 8, 0
+repos/python/flask/tests/test_basic.py,"test_subdomain_matching_with_ports( )",11, 73, 4, 0
+repos/python/flask/tests/test_basic.py,"test_subdomain_matching_other_name.index( )",2, 23, 8, 0
+repos/python/flask/tests/test_basic.py,"test_subdomain_matching_other_name( matching )",16, 67, 4, 0
+repos/python/flask/tests/test_basic.py,"test_multi_route_rules.index( test = 'a' )",2, 25, 4, 0
+repos/python/flask/tests/test_basic.py,"test_multi_route_rules( app , client )",10, 41, 0, 0
+repos/python/flask/tests/test_basic.py,"test_multi_route_class_views.__init__( self , app )",3, 62, 12, 0
+repos/python/flask/tests/test_basic.py,"test_multi_route_class_views.index( self , test = 'a' )",2, 35, 8, 0
+repos/python/flask/tests/test_basic.py,"test_multi_route_class_views( app , client )",14, 62, 12, 0
+repos/python/flask/tests/test_basic.py,"test_run_defaults.run_simple_mock( * args , ** kwargs )",2, 42, 4, 0
+repos/python/flask/tests/test_basic.py,"test_run_defaults( monkeypatch , app )",10, 73, 4, 0
+repos/python/flask/tests/test_basic.py,"test_run_server_port.run_simple_mock( hostname , port , application , * args , ** kwargs )",2, 71, 4, 0
+repos/python/flask/tests/test_basic.py,"test_run_server_port( monkeypatch , app )",11, 73, 4, 0
+repos/python/flask/tests/test_basic.py,"test_run_from_config.run_simple_mock( hostname , port , * args , ** kwargs )",3, 58, 4, 0
+repos/python/flask/tests/test_basic.py,"test_run_from_config( monkeypatch , host , port , expect_host , expect_port , app )",8, 82, 0, 0
+repos/python/flask/tests/test_basic.py,"test_max_cookie_size.index( )",4, 43, 8, 0
+repos/python/flask/tests/test_basic.py,"test_max_cookie_size( app , client , recwarn )",28, 61, 4, 0
+repos/python/flask/tests/conftest.py,"_standard_os_environ( )",22, 70, 4, 0
+repos/python/flask/tests/conftest.py,"_reset_os_environ( monkeypatch , _standard_os_environ )",5, 69, 4, 0
+repos/python/flask/tests/conftest.py,"app( )",3, 67, 4, 0
+repos/python/flask/tests/conftest.py,"app_ctx( app )",3, 35, 4, 0
+repos/python/flask/tests/conftest.py,"req_ctx( app )",3, 44, 4, 0
+repos/python/flask/tests/conftest.py,"client( app )",2, 29, 4, 0
+repos/python/flask/tests/conftest.py,"test_apps( monkeypatch )",5, 53, 12, 0
+repos/python/flask/tests/conftest.py,"leak_detector( )",9, 65, 4, 0
+repos/python/flask/tests/conftest.py,"limit_loader.__init__( self , loader )",2, 36, 8, 0
+repos/python/flask/tests/conftest.py,"limit_loader.__getattr__( self , name )",5, 74, 16, 0
+repos/python/flask/tests/conftest.py,"limit_loader.get_loader( * args , ** kwargs )",2, 62, 8, 0
+repos/python/flask/tests/conftest.py,"limit_loader( request , monkeypatch )",29, 80, 4, 0
+repos/python/flask/tests/conftest.py,"modules_tmpdir( tmpdir , monkeypatch )",5, 41, 0, 0
+repos/python/flask/tests/conftest.py,"modules_tmpdir_prefix( modules_tmpdir , monkeypatch )",3, 60, 4, 0
+repos/python/flask/tests/conftest.py,"site_packages( modules_tmpdir , monkeypatch )",8, 67, 8, 0
+repos/python/flask/tests/conftest.py,"install_egg.inner( name , base = modules_tmpdir )",23, 59, 8, 0
+repos/python/flask/tests/conftest.py,"install_egg( modules_tmpdir , monkeypatch )",29, 71, 4, 0
+repos/python/flask/tests/conftest.py,"purge_module.inner( name )",2, 66, 8, 0
+repos/python/flask/tests/conftest.py,"purge_module( request )",5, 66, 8, 0
+repos/python/flask/tests/conftest.py,"catch_deprecation_warnings( recwarn )",4, 77, 4, 0
+repos/python/flask/tests/test_logging.py,"reset_logging( pytestconfig )",22, 78, 8, 0
+repos/python/flask/tests/test_logging.py,"test_logger( app )",4, 52, 4, 0
+repos/python/flask/tests/test_logging.py,"test_logger_debug( app )",4, 52, 4, 0
+repos/python/flask/tests/test_logging.py,"test_existing_handler( app )",4, 53, 4, 0
+repos/python/flask/tests/test_logging.py,"test_wsgi_errors_stream.index( )",3, 33, 8, 0
+repos/python/flask/tests/test_logging.py,"test_wsgi_errors_stream( app , client )",14, 66, 4, 0
+repos/python/flask/tests/test_logging.py,"test_has_level_handler( )",14, 44, 4, 0
+repos/python/flask/tests/test_logging.py,"test_log_view_exception.index( )",2, 32, 8, 0
+repos/python/flask/tests/test_logging.py,"test_log_view_exception( app , client )",13, 47, 4, 0
+repos/python/flask/tests/test_signals.py,"test_template_rendered.index( )",2, 73, 8, 0
+repos/python/flask/tests/test_signals.py,"test_template_rendered.record( sender , template , context )",2, 45, 8, 0
+repos/python/flask/tests/test_signals.py,"test_template_rendered( app , client )",19, 73, 8, 0
+repos/python/flask/tests/test_signals.py,"test_before_render_template.index( )",2, 73, 8, 0
+repos/python/flask/tests/test_signals.py,"test_before_render_template.record( sender , template , context )",3, 45, 8, 0
+repos/python/flask/tests/test_signals.py,"test_before_render_template( )",23, 73, 8, 0
+repos/python/flask/tests/test_signals.py,"test_request_signals.before_request_signal( sender )",2, 39, 4, 0
+repos/python/flask/tests/test_signals.py,"test_request_signals.after_request_signal( sender , response )",3, 48, 4, 0
+repos/python/flask/tests/test_signals.py,"test_request_signals.before_request_handler( )",2, 39, 8, 0
+repos/python/flask/tests/test_signals.py,"test_request_signals.after_request_handler( response )",4, 41, 4, 0
+repos/python/flask/tests/test_signals.py,"test_request_signals.index( )",3, 32, 8, 0
+repos/python/flask/tests/test_signals.py,"test_request_signals( )",38, 71, 8, 0
+repos/python/flask/tests/test_signals.py,"test_request_exception_signal.index( )",2, 17, 4, 0
+repos/python/flask/tests/test_signals.py,"test_request_exception_signal.record( sender , exception )",2, 35, 4, 0
+repos/python/flask/tests/test_signals.py,"test_request_exception_signal( )",18, 61, 8, 0
+repos/python/flask/tests/test_signals.py,"test_appcontext_signals.record_push( sender , ** kwargs )",2, 39, 4, 0
+repos/python/flask/tests/test_signals.py,"test_appcontext_signals.record_pop( sender , ** kwargs )",2, 38, 4, 0
+repos/python/flask/tests/test_signals.py,"test_appcontext_signals.index( )",2, 23, 8, 0
+repos/python/flask/tests/test_signals.py,"test_appcontext_signals( )",25, 61, 8, 0
+repos/python/flask/tests/test_signals.py,"test_flash_signal.index( )",3, 66, 8, 0
+repos/python/flask/tests/test_signals.py,"test_flash_signal.record( sender , message , category )",2, 45, 8, 0
+repos/python/flask/tests/test_signals.py,"test_flash_signal( app )",22, 66, 8, 0
+repos/python/flask/tests/test_signals.py,"test_appcontext_tearing_down_signal.record_teardown( sender , ** kwargs )",2, 47, 8, 0
+repos/python/flask/tests/test_signals.py,"test_appcontext_tearing_down_signal.index( )",2, 17, 4, 0
+repos/python/flask/tests/test_signals.py,"test_appcontext_tearing_down_signal( )",20, 71, 8, 0
+repos/python/flask/tests/test_instance_config.py,"test_explicit_instance_paths( modules_tmpdir )",7, 67, 4, 0
+repos/python/flask/tests/test_instance_config.py,"test_main_module_paths( modules_tmpdir , purge_module )",8, 63, 4, 0
+repos/python/flask/tests/test_instance_config.py,"test_uninstalled_module_paths( modules_tmpdir , purge_module )",11, 69, 4, 0
+repos/python/flask/tests/test_instance_config.py,"test_uninstalled_package_paths( modules_tmpdir , purge_module )",13, 69, 4, 0
+repos/python/flask/tests/test_instance_config.py,"test_installed_module_paths( modules_tmpdir , modules_tmpdir_prefix , purge_module , site_packages , limit_loader )",2, 76, 32, 0
+repos/python/flask/tests/test_instance_config.py,"test_installed_package_paths( limit_loader , modules_tmpdir , modules_tmpdir_prefix , purge_module , monkeypatch )",3, 70, 33, 0
+repos/python/flask/tests/test_instance_config.py,"test_prefix_package_paths( limit_loader , modules_tmpdir , modules_tmpdir_prefix , purge_module , site_packages )",3, 67, 30, 0
+repos/python/flask/tests/test_instance_config.py,"test_egg_installed_paths( install_egg , modules_tmpdir , modules_tmpdir_prefix )",2, 58, 0, 0
+repos/python/flask/tests/test_instance_config.py,"test_meta_path_loader_without_is_package.find_module( self , name , path = None )",2, 48, 8, 0
+repos/python/flask/tests/test_instance_config.py,"test_meta_path_loader_without_is_package( request , modules_tmpdir )",13, 71, 0, 0
+repos/python/flask/tests/test_views.py,"common_test( app )",8, 77, 4, 0
+repos/python/flask/tests/test_views.py,"test_basic_view.dispatch_request( self )",2, 40, 12, 0
+repos/python/flask/tests/test_views.py,"test_basic_view( app )",9, 60, 4, 0
+repos/python/flask/tests/test_views.py,"test_method_based_view.get( self )",2, 25, 12, 0
+repos/python/flask/tests/test_views.py,"test_method_based_view.post( self )",2, 26, 12, 0
+repos/python/flask/tests/test_views.py,"test_method_based_view( app )",11, 60, 4, 0
+repos/python/flask/tests/test_views.py,"test_view_patching.get( self )",2, 23, 8, 0
+repos/python/flask/tests/test_views.py,"test_view_patching.post( self )",2, 24, 8, 0
+repos/python/flask/tests/test_views.py,"test_view_patching.get( self )",2, 25, 12, 0
+repos/python/flask/tests/test_views.py,"test_view_patching.post( self )",2, 26, 12, 0
+repos/python/flask/tests/test_views.py,"test_view_patching( app )",19, 42, 4, 0
+repos/python/flask/tests/test_views.py,"test_view_inheritance.get( self )",2, 25, 12, 0
+repos/python/flask/tests/test_views.py,"test_view_inheritance.post( self )",2, 26, 12, 0
+repos/python/flask/tests/test_views.py,"test_view_inheritance.delete( self )",2, 28, 12, 0
+repos/python/flask/tests/test_views.py,"test_view_inheritance( app , client )",16, 82, 4, 0
+repos/python/flask/tests/test_views.py,"test_view_decorators.test_view_decorators.add_x_parachute.new_function( * args , ** kwargs )",4, 59, 12, 0
+repos/python/flask/tests/test_views.py,"test_view_decorators.add_x_parachute( f )",7, 59, 12, 0
+repos/python/flask/tests/test_views.py,"test_view_decorators.dispatch_request( self )",2, 36, 8, 0
+repos/python/flask/tests/test_views.py,"test_view_decorators( app , client )",19, 60, 4, 0
+repos/python/flask/tests/test_views.py,"test_view_provide_automatic_options_attr.dispatch_request( self )",2, 36, 8, 0
+repos/python/flask/tests/test_views.py,"test_view_provide_automatic_options_attr.dispatch_request( self )",2, 36, 8, 0
+repos/python/flask/tests/test_views.py,"test_view_provide_automatic_options_attr.dispatch_request( self )",2, 36, 8, 0
+repos/python/flask/tests/test_views.py,"test_view_provide_automatic_options_attr( )",38, 61, 4, 0
+repos/python/flask/tests/test_views.py,"test_implicit_head.get( self )",4, 52, 12, 0
+repos/python/flask/tests/test_views.py,"test_implicit_head( app , client )",14, 60, 4, 0
+repos/python/flask/tests/test_views.py,"test_explicit_head.get( self )",2, 25, 12, 0
+repos/python/flask/tests/test_views.py,"test_explicit_head.head( self )",2, 68, 12, 0
+repos/python/flask/tests/test_views.py,"test_explicit_head( app , client )",14, 68, 12, 0
+repos/python/flask/tests/test_views.py,"test_endpoint_override.dispatch_request( self )",2, 40, 12, 0
+repos/python/flask/tests/test_views.py,"test_endpoint_override( app )",16, 64, 8, 0
+repos/python/flask/tests/test_views.py,"test_multiple_inheritance.get( self )",2, 25, 12, 0
+repos/python/flask/tests/test_views.py,"test_multiple_inheritance.delete( self )",2, 28, 12, 0
+repos/python/flask/tests/test_views.py,"test_multiple_inheritance( app , client )",17, 68, 4, 0
+repos/python/flask/tests/test_views.py,"test_remove_method_from_parent.get( self )",2, 25, 12, 0
+repos/python/flask/tests/test_views.py,"test_remove_method_from_parent.post( self )",2, 26, 12, 0
+repos/python/flask/tests/test_views.py,"test_remove_method_from_parent( app , client )",17, 59, 4, 0
+repos/python/flask/tests/test_json_tag.py,"test_dump_load_unchanged( data )",3, 42, 4, 0
+repos/python/flask/tests/test_json_tag.py,"test_duplicate_tag( )",9, 49, 4, 0
+repos/python/flask/tests/test_json_tag.py,"test_custom_tag.__init__( self , data )",2, 34, 8, 0
+repos/python/flask/tests/test_json_tag.py,"test_custom_tag.check( self , value )",2, 42, 12, 0
+repos/python/flask/tests/test_json_tag.py,"test_custom_tag.to_json( self , value )",2, 51, 12, 0
+repos/python/flask/tests/test_json_tag.py,"test_custom_tag.to_python( self , value )",2, 36, 8, 0
+repos/python/flask/tests/test_json_tag.py,"test_custom_tag( )",21, 54, 4, 0
+repos/python/flask/tests/test_json_tag.py,"test_tag_interface( )",5, 58, 4, 0
+repos/python/flask/tests/test_json_tag.py,"test_tag_order( )",14, 41, 4, 0
+repos/python/flask/tests/test_subclassing.py,"test_suppressed_exception_logging.log_exception( self , exc_info )",2, 43, 8, 0
+repos/python/flask/tests/test_subclassing.py,"test_suppressed_exception_logging.index( )",2, 32, 8, 0
+repos/python/flask/tests/test_subclassing.py,"test_suppressed_exception_logging( )",16, 55, 4, 0
+repos/python/flask/tests/test_reqctx.py,"test_teardown_on_pop.end_of_request( exception )",2, 35, 4, 0
+repos/python/flask/tests/test_reqctx.py,"test_teardown_on_pop( app )",12, 37, 4, 0
+repos/python/flask/tests/test_reqctx.py,"test_teardown_with_previous_exception.end_of_request( exception )",2, 35, 4, 0
+repos/python/flask/tests/test_reqctx.py,"test_teardown_with_previous_exception( app )",15, 48, 0, 0
+repos/python/flask/tests/test_reqctx.py,"test_teardown_with_handled_exception.end_of_request( exception )",2, 35, 4, 0
+repos/python/flask/tests/test_reqctx.py,"test_teardown_with_handled_exception( app )",14, 47, 0, 0
+repos/python/flask/tests/test_reqctx.py,"test_proper_test_request_context.index( )",2, 20, 8, 0
+repos/python/flask/tests/test_reqctx.py,"test_proper_test_request_context.sub( )",2, 20, 8, 0
+repos/python/flask/tests/test_reqctx.py,"test_proper_test_request_context( app )",38, 91, 4, 0
+repos/python/flask/tests/test_reqctx.py,"test_context_binding.index( )",2, 56, 8, 0
+repos/python/flask/tests/test_reqctx.py,"test_context_binding.meh( )",2, 33, 8, 0
+repos/python/flask/tests/test_reqctx.py,"test_context_binding( app )",14, 56, 8, 0
+repos/python/flask/tests/test_reqctx.py,"test_context_test( app )",10, 43, 4, 0
+repos/python/flask/tests/test_reqctx.py,"test_manual_context_binding.index( )",2, 56, 8, 0
+repos/python/flask/tests/test_reqctx.py,"test_manual_context_binding( app )",11, 56, 8, 0
+repos/python/flask/tests/test_reqctx.py,"test_greenlet_context_copying.test_greenlet_context_copying.index.g( )",11, 63, 20, 0
+repos/python/flask/tests/test_reqctx.py,"test_greenlet_context_copying.index( )",18, 63, 20, 0
+repos/python/flask/tests/test_reqctx.py,"test_greenlet_context_copying( self , app , client )",28, 63, 20, 0
+repos/python/flask/tests/test_reqctx.py,"test_greenlet_context_copying_api.test_greenlet_context_copying_api.index.g( )",7, 59, 16, 0
+repos/python/flask/tests/test_reqctx.py,"test_greenlet_context_copying_api.index( )",15, 59, 16, 0
+repos/python/flask/tests/test_reqctx.py,"test_greenlet_context_copying_api( self , app , client )",25, 62, 4, 0
+repos/python/flask/tests/test_reqctx.py,"test_session_error_pops_context.open_session( self , app , request )",2, 46, 8, 0
+repos/python/flask/tests/test_reqctx.py,"test_session_error_pops_context.index( )",3, 29, 8, 0
+repos/python/flask/tests/test_reqctx.py,"test_session_error_pops_context( )",22, 54, 8, 0
+repos/python/flask/tests/test_reqctx.py,"test_bad_environ_raises_bad_request( )",17, 75, 4, 0
+repos/python/flask/tests/test_reqctx.py,"test_environ_for_valid_idna_completes.index( )",2, 30, 8, 0
+repos/python/flask/tests/test_reqctx.py,"test_environ_for_valid_idna_completes( )",22, 72, 4, 0
+repos/python/flask/tests/test_reqctx.py,"test_normal_environ_completes.index( )",2, 30, 8, 0
+repos/python/flask/tests/test_reqctx.py,"test_normal_environ_completes( )",9, 78, 4, 0
+repos/python/flask/tests/test_blueprints.py,"test_blueprint_specific_error_handling.frontend_forbidden( e )",2, 39, 8, 0
+repos/python/flask/tests/test_blueprints.py,"test_blueprint_specific_error_handling.frontend_no( )",2, 25, 8, 0
+repos/python/flask/tests/test_blueprints.py,"test_blueprint_specific_error_handling.backend_forbidden( e )",2, 38, 8, 0
+repos/python/flask/tests/test_blueprints.py,"test_blueprint_specific_error_handling.backend_no( )",2, 25, 8, 0
+repos/python/flask/tests/test_blueprints.py,"test_blueprint_specific_error_handling.sideend_no( )",2, 25, 8, 0
+repos/python/flask/tests/test_blueprints.py,"test_blueprint_specific_error_handling.app_forbidden( e )",2, 49, 8, 0
+repos/python/flask/tests/test_blueprints.py,"test_blueprint_specific_error_handling( app , client )",36, 82, 4, 0
+repos/python/flask/tests/test_blueprints.py,"test_blueprint_specific_user_error_handling.my_decorator_exception_handler( e )",3, 51, 8, 0
+repos/python/flask/tests/test_blueprints.py,"test_blueprint_specific_user_error_handling.my_function_exception_handler( e )",3, 50, 8, 0
+repos/python/flask/tests/test_blueprints.py,"test_blueprint_specific_user_error_handling.blue_deco_test( )",2, 37, 8, 0
+repos/python/flask/tests/test_blueprints.py,"test_blueprint_specific_user_error_handling.blue_func_test( )",2, 36, 8, 0
+repos/python/flask/tests/test_blueprints.py,"test_blueprint_specific_user_error_handling( app , client )",32, 84, 4, 0
+repos/python/flask/tests/test_blueprints.py,"test_blueprint_app_error_handling.forbidden_handler( e )",2, 41, 8, 0
+repos/python/flask/tests/test_blueprints.py,"test_blueprint_app_error_handling.app_forbidden( )",2, 25, 4, 0
+repos/python/flask/tests/test_blueprints.py,"test_blueprint_app_error_handling.bp_forbidden( )",2, 25, 8, 0
+repos/python/flask/tests/test_blueprints.py,"test_blueprint_app_error_handling( app , client )",22, 66, 4, 0
+repos/python/flask/tests/test_blueprints.py,"test_blueprint_prefix_slash.index( )",2, 23, 8, 0
+repos/python/flask/tests/test_blueprints.py,"test_blueprint_prefix_slash( app , client , prefix , rule , url )",9, 65, 0, 0
+repos/python/flask/tests/test_blueprints.py,"test_blueprint_url_defaults.foo( bar , baz )",2, 36, 8, 0
+repos/python/flask/tests/test_blueprints.py,"test_blueprint_url_defaults.bar( bar )",2, 30, 8, 0
+repos/python/flask/tests/test_blueprints.py,"test_blueprint_url_defaults( app , client )",18, 74, 4, 0
+repos/python/flask/tests/test_blueprints.py,"test_blueprint_url_processors.add_language_code( endpoint , values )",2, 58, 8, 0
+repos/python/flask/tests/test_blueprints.py,"test_blueprint_url_processors.pull_lang_code( endpoint , values )",2, 52, 8, 0
+repos/python/flask/tests/test_blueprints.py,"test_blueprint_url_processors.index( )",2, 39, 8, 0
+repos/python/flask/tests/test_blueprints.py,"test_blueprint_url_processors.about( )",2, 39, 8, 0
+repos/python/flask/tests/test_blueprints.py,"test_blueprint_url_processors( app , client )",23, 74, 4, 0
+repos/python/flask/tests/test_blueprints.py,"test_templates_and_static( test_apps )",41, 94, 8, 0
+repos/python/flask/tests/test_blueprints.py,"test_default_static_cache_timeout.get_send_file_max_age( self , filename )",2, 51, 8, 0
+repos/python/flask/tests/test_blueprints.py,"test_default_static_cache_timeout( app )",22, 78, 12, 0
+repos/python/flask/tests/test_blueprints.py,"test_templates_list( test_apps )",4, 68, 4, 0
+repos/python/flask/tests/test_blueprints.py,"test_dotted_names.frontend_index( )",2, 60, 8, 0
+repos/python/flask/tests/test_blueprints.py,"test_dotted_names.frontend_page2( )",2, 48, 8, 0
+repos/python/flask/tests/test_blueprints.py,"test_dotted_names.backend_index( )",2, 62, 8, 0
+repos/python/flask/tests/test_blueprints.py,"test_dotted_names( app , client )",22, 62, 8, 0
+repos/python/flask/tests/test_blueprints.py,"test_dotted_names_from_app.app_index( )",2, 43, 8, 0
+repos/python/flask/tests/test_blueprints.py,"test_dotted_names_from_app.index( )",2, 42, 8, 0
+repos/python/flask/tests/test_blueprints.py,"test_dotted_names_from_app( app , client )",15, 45, 0, 0
+repos/python/flask/tests/test_blueprints.py,"test_empty_url_defaults.something( page )",2, 25, 4, 0
+repos/python/flask/tests/test_blueprints.py,"test_empty_url_defaults( app , client )",12, 46, 4, 0
+repos/python/flask/tests/test_blueprints.py,"test_route_decorator_custom_endpoint.foo( )",2, 38, 8, 0
+repos/python/flask/tests/test_blueprints.py,"test_route_decorator_custom_endpoint.foo_bar( )",2, 38, 8, 0
+repos/python/flask/tests/test_blueprints.py,"test_route_decorator_custom_endpoint.foo_bar_foo( )",2, 38, 8, 0
+repos/python/flask/tests/test_blueprints.py,"test_route_decorator_custom_endpoint.bar_foo( )",2, 38, 8, 0
+repos/python/flask/tests/test_blueprints.py,"test_route_decorator_custom_endpoint.index( )",2, 38, 8, 0
+repos/python/flask/tests/test_blueprints.py,"test_route_decorator_custom_endpoint( app , client )",30, 59, 4, 0
+repos/python/flask/tests/test_blueprints.py,"test_route_decorator_custom_endpoint_with_dots.foo( )",2, 38, 8, 0
+repos/python/flask/tests/test_blueprints.py,"test_route_decorator_custom_endpoint_with_dots.foo_bar( )",2, 42, 12, 0
+repos/python/flask/tests/test_blueprints.py,"test_route_decorator_custom_endpoint_with_dots.foo_bar_foo( )",2, 42, 12, 0
+repos/python/flask/tests/test_blueprints.py,"test_route_decorator_custom_endpoint_with_dots.foo_foo_foo( )",2, 23, 4, 0
+repos/python/flask/tests/test_blueprints.py,"test_route_decorator_custom_endpoint_with_dots( app , client )",60, 96, 4, 0
+repos/python/flask/tests/test_blueprints.py,"test_endpoint_decorator.foobar( )",2, 38, 8, 0
+repos/python/flask/tests/test_blueprints.py,"test_endpoint_decorator( app , client )",14, 59, 4, 0
+repos/python/flask/tests/test_blueprints.py,"test_template_filter.my_reverse( s )",2, 23, 4, 0
+repos/python/flask/tests/test_blueprints.py,"test_template_filter( app )",11, 65, 4, 0
+repos/python/flask/tests/test_blueprints.py,"test_add_template_filter.my_reverse( s )",2, 23, 4, 0
+repos/python/flask/tests/test_blueprints.py,"test_add_template_filter( app )",11, 65, 4, 0
+repos/python/flask/tests/test_blueprints.py,"test_template_filter_with_name.my_reverse( s )",2, 23, 4, 0
+repos/python/flask/tests/test_blueprints.py,"test_template_filter_with_name( app )",11, 61, 4, 0
+repos/python/flask/tests/test_blueprints.py,"test_add_template_filter_with_name.my_reverse( s )",2, 23, 4, 0
+repos/python/flask/tests/test_blueprints.py,"test_add_template_filter_with_name( app )",11, 61, 4, 0
+repos/python/flask/tests/test_blueprints.py,"test_template_filter_with_template.super_reverse( s )",2, 26, 4, 0
+repos/python/flask/tests/test_blueprints.py,"test_template_filter_with_template.index( )",2, 75, 8, 0
+repos/python/flask/tests/test_blueprints.py,"test_template_filter_with_template( app , client )",15, 75, 8, 0
+repos/python/flask/tests/test_blueprints.py,"test_template_filter_after_route_with_template.index( )",2, 75, 8, 0
+repos/python/flask/tests/test_blueprints.py,"test_template_filter_after_route_with_template.super_reverse( s )",2, 26, 4, 0
+repos/python/flask/tests/test_blueprints.py,"test_template_filter_after_route_with_template( app , client )",14, 75, 8, 0
+repos/python/flask/tests/test_blueprints.py,"test_add_template_filter_with_template.super_reverse( s )",2, 26, 4, 0
+repos/python/flask/tests/test_blueprints.py,"test_add_template_filter_with_template.index( )",2, 75, 8, 0
+repos/python/flask/tests/test_blueprints.py,"test_add_template_filter_with_template( app , client )",15, 75, 8, 0
+repos/python/flask/tests/test_blueprints.py,"test_template_filter_with_name_and_template.my_reverse( s )",2, 23, 4, 0
+repos/python/flask/tests/test_blueprints.py,"test_template_filter_with_name_and_template.index( )",2, 75, 8, 0
+repos/python/flask/tests/test_blueprints.py,"test_template_filter_with_name_and_template( app , client )",15, 75, 8, 0
+repos/python/flask/tests/test_blueprints.py,"test_add_template_filter_with_name_and_template.my_reverse( s )",2, 23, 4, 0
+repos/python/flask/tests/test_blueprints.py,"test_add_template_filter_with_name_and_template.index( )",2, 75, 8, 0
+repos/python/flask/tests/test_blueprints.py,"test_add_template_filter_with_name_and_template( app , client )",15, 75, 8, 0
+repos/python/flask/tests/test_blueprints.py,"test_template_test.is_boolean( value )",2, 39, 8, 0
+repos/python/flask/tests/test_blueprints.py,"test_template_test( app )",11, 59, 4, 0
+repos/python/flask/tests/test_blueprints.py,"test_add_template_test.is_boolean( value )",2, 39, 8, 0
+repos/python/flask/tests/test_blueprints.py,"test_add_template_test( app )",11, 59, 4, 0
+repos/python/flask/tests/test_blueprints.py,"test_template_test_with_name.is_boolean( value )",2, 39, 8, 0
+repos/python/flask/tests/test_blueprints.py,"test_template_test_with_name( app )",11, 56, 4, 0
+repos/python/flask/tests/test_blueprints.py,"test_add_template_test_with_name.is_boolean( value )",2, 39, 8, 0
+repos/python/flask/tests/test_blueprints.py,"test_add_template_test_with_name( app )",11, 56, 4, 0
+repos/python/flask/tests/test_blueprints.py,"test_template_test_with_template.boolean( value )",2, 39, 8, 0
+repos/python/flask/tests/test_blueprints.py,"test_template_test_with_template.index( )",2, 72, 8, 0
+repos/python/flask/tests/test_blueprints.py,"test_template_test_with_template( app , client )",15, 72, 8, 0
+repos/python/flask/tests/test_blueprints.py,"test_template_test_after_route_with_template.index( )",2, 72, 8, 0
+repos/python/flask/tests/test_blueprints.py,"test_template_test_after_route_with_template.boolean( value )",2, 39, 8, 0
+repos/python/flask/tests/test_blueprints.py,"test_template_test_after_route_with_template( app , client )",14, 72, 8, 0
+repos/python/flask/tests/test_blueprints.py,"test_add_template_test_with_template.boolean( value )",2, 39, 8, 0
+repos/python/flask/tests/test_blueprints.py,"test_add_template_test_with_template.index( )",2, 72, 8, 0
+repos/python/flask/tests/test_blueprints.py,"test_add_template_test_with_template( app , client )",15, 72, 8, 0
+repos/python/flask/tests/test_blueprints.py,"test_template_test_with_name_and_template.is_boolean( value )",2, 39, 8, 0
+repos/python/flask/tests/test_blueprints.py,"test_template_test_with_name_and_template.index( )",2, 72, 8, 0
+repos/python/flask/tests/test_blueprints.py,"test_template_test_with_name_and_template( app , client )",15, 72, 8, 0
+repos/python/flask/tests/test_blueprints.py,"test_add_template_test_with_name_and_template.is_boolean( value )",2, 39, 8, 0
+repos/python/flask/tests/test_blueprints.py,"test_add_template_test_with_name_and_template.index( )",2, 72, 8, 0
+repos/python/flask/tests/test_blueprints.py,"test_add_template_test_with_name_and_template( app , client )",15, 72, 8, 0
+repos/python/flask/tests/test_blueprints.py,"test_context_processing.not_answer_context_processor( )",2, 40, 4, 0
+repos/python/flask/tests/test_blueprints.py,"test_context_processing.answer_context_processor( )",2, 36, 4, 0
+repos/python/flask/tests/test_blueprints.py,"test_context_processing.bp_page( )",2, 33, 8, 0
+repos/python/flask/tests/test_blueprints.py,"test_context_processing.app_page( )",2, 33, 8, 0
+repos/python/flask/tests/test_blueprints.py,"test_context_processing( app , client )",38, 75, 8, 0
+repos/python/flask/tests/test_blueprints.py,"test_template_global.get_answer( )",2, 22, 4, 0
+repos/python/flask/tests/test_blueprints.py,"test_template_global( app )",19, 64, 8, 0
+repos/python/flask/tests/test_blueprints.py,"test_request_processing.before_bp( )",2, 30, 8, 0
+repos/python/flask/tests/test_blueprints.py,"test_request_processing.after_bp( response )",4, 35, 8, 0
+repos/python/flask/tests/test_blueprints.py,"test_request_processing.teardown_bp( exc )",2, 32, 8, 0
+repos/python/flask/tests/test_blueprints.py,"test_request_processing.bp_endpoint( )",2, 25, 8, 0
+repos/python/flask/tests/test_blueprints.py,"test_request_processing( app , client )",29, 51, 4, 0
+repos/python/flask/tests/test_blueprints.py,"test_app_request_processing.before_first_request( )",2, 32, 4, 0
+repos/python/flask/tests/test_blueprints.py,"test_app_request_processing.before_app( )",2, 30, 8, 0
+repos/python/flask/tests/test_blueprints.py,"test_app_request_processing.after_app( response )",4, 35, 8, 0
+repos/python/flask/tests/test_blueprints.py,"test_app_request_processing.teardown_app( exc )",2, 32, 8, 0
+repos/python/flask/tests/test_blueprints.py,"test_app_request_processing.bp_endpoint( )",2, 25, 8, 0
+repos/python/flask/tests/test_blueprints.py,"test_app_request_processing( app , client )",41, 67, 4, 0
+repos/python/flask/tests/test_blueprints.py,"test_app_url_processors.add_language_code( endpoint , values )",2, 58, 8, 0
+repos/python/flask/tests/test_blueprints.py,"test_app_url_processors.pull_lang_code( endpoint , values )",2, 52, 8, 0
+repos/python/flask/tests/test_blueprints.py,"test_app_url_processors.index( )",2, 38, 8, 0
+repos/python/flask/tests/test_blueprints.py,"test_app_url_processors.about( )",2, 38, 8, 0
+repos/python/flask/tests/test_blueprints.py,"test_app_url_processors( app , client )",25, 67, 4, 0
+repos/python/flask/tests/test_config.py,"common_object_test( app )",4, 43, 4, 0
+repos/python/flask/tests/test_config.py,"test_config_from_file( )",4, 63, 4, 0
+repos/python/flask/tests/test_config.py,"test_config_from_object( )",4, 37, 4, 0
+repos/python/flask/tests/test_config.py,"test_config_from_json( )",5, 77, 4, 0
+repos/python/flask/tests/test_config.py,"test_config_from_mapping( )",27, 35, 4, 0
+repos/python/flask/tests/test_config.py,"test_config_from_class( )",10, 33, 4, 0
+repos/python/flask/tests/test_config.py,"test_config_from_envvar( )",15, 74, 8, 0
+repos/python/flask/tests/test_config.py,"test_config_from_envvar_missing( )",14, 72, 8, 0
+repos/python/flask/tests/test_config.py,"test_config_missing( )",9, 68, 4, 0
+repos/python/flask/tests/test_config.py,"test_config_missing_json( )",9, 68, 4, 0
+repos/python/flask/tests/test_config.py,"test_custom_config_class( )",10, 42, 4, 0
+repos/python/flask/tests/test_config.py,"test_session_lifetime( )",4, 56, 4, 0
+repos/python/flask/tests/test_config.py,"test_send_file_max_age( )",6, 65, 4, 0
+repos/python/flask/tests/test_config.py,"test_get_namespace( )",22, 90, 4, 0
+repos/python/flask/tests/test_config.py,"test_from_pyfile_weird_encoding( tmpdir , encoding )",12, 55, 0, 0
+repos/python/flask/tests/test_user_error_handler.py,"test_error_handler_no_match.custom_exception_handler( e )",3, 46, 8, 0
+repos/python/flask/tests/test_user_error_handler.py,"test_error_handler_no_match.handle_500( e )",2, 32, 8, 0
+repos/python/flask/tests/test_user_error_handler.py,"test_error_handler_no_match.custom_test( )",2, 32, 8, 0
+repos/python/flask/tests/test_user_error_handler.py,"test_error_handler_no_match.key_error( )",2, 25, 8, 0
+repos/python/flask/tests/test_user_error_handler.py,"test_error_handler_no_match( app , client )",25, 55, 4, 0
+repos/python/flask/tests/test_user_error_handler.py,"test_error_handler_subclass.parent_exception_handler( e )",3, 46, 8, 0
+repos/python/flask/tests/test_user_error_handler.py,"test_error_handler_subclass.child_exception_handler( e )",3, 55, 8, 0
+repos/python/flask/tests/test_user_error_handler.py,"test_error_handler_subclass.parent_test( )",2, 32, 8, 0
+repos/python/flask/tests/test_user_error_handler.py,"test_error_handler_subclass.unregistered_test( )",2, 43, 8, 0
+repos/python/flask/tests/test_user_error_handler.py,"test_error_handler_subclass.registered_test( )",2, 41, 8, 0
+repos/python/flask/tests/test_user_error_handler.py,"test_error_handler_subclass( app )",37, 66, 4, 0
+repos/python/flask/tests/test_user_error_handler.py,"test_error_handler_http_subclass.code_exception_handler( e )",3, 40, 8, 0
+repos/python/flask/tests/test_user_error_handler.py,"test_error_handler_http_subclass.subclass_exception_handler( e )",3, 58, 8, 0
+repos/python/flask/tests/test_user_error_handler.py,"test_error_handler_http_subclass.forbidden_test( )",2, 26, 4, 0
+repos/python/flask/tests/test_user_error_handler.py,"test_error_handler_http_subclass.registered_test( )",2, 44, 8, 0
+repos/python/flask/tests/test_user_error_handler.py,"test_error_handler_http_subclass.unregistered_test( )",2, 46, 8, 0
+repos/python/flask/tests/test_user_error_handler.py,"test_error_handler_http_subclass( app )",34, 74, 4, 0
+repos/python/flask/tests/test_user_error_handler.py,"test_error_handler_blueprint.bp_exception_handler( e )",2, 33, 4, 0
+repos/python/flask/tests/test_user_error_handler.py,"test_error_handler_blueprint.bp_test( )",2, 36, 8, 0
+repos/python/flask/tests/test_user_error_handler.py,"test_error_handler_blueprint.app_exception_handler( e )",2, 34, 4, 0
+repos/python/flask/tests/test_user_error_handler.py,"test_error_handler_blueprint.app_test( )",2, 36, 8, 0
+repos/python/flask/tests/test_user_error_handler.py,"test_error_handler_blueprint( app )",25, 50, 4, 0
+repos/python/flask/tests/test_user_error_handler.py,"test_default_error_handler.bp_exception_handler( e )",4, 44, 8, 0
+repos/python/flask/tests/test_user_error_handler.py,"test_default_error_handler.bp_exception_handler( e )",3, 40, 8, 0
+repos/python/flask/tests/test_user_error_handler.py,"test_default_error_handler.bp_registered_test( )",2, 30, 4, 0
+repos/python/flask/tests/test_user_error_handler.py,"test_default_error_handler.bp_forbidden_test( )",2, 29, 4, 0
+repos/python/flask/tests/test_user_error_handler.py,"test_default_error_handler.catchall_errorhandler( e )",4, 44, 8, 0
+repos/python/flask/tests/test_user_error_handler.py,"test_default_error_handler.catchall_errorhandler( e )",3, 40, 8, 0
+repos/python/flask/tests/test_user_error_handler.py,"test_default_error_handler.forbidden( )",2, 26, 8, 0
+repos/python/flask/tests/test_user_error_handler.py,"test_default_error_handler.slash( )",2, 23, 8, 0
+repos/python/flask/tests/test_user_error_handler.py,"test_default_error_handler( )",52, 67, 4, 0
+repos/python/flask/tests/test_helpers.py,"has_encoding( name )",7, 28, 8, 0
+repos/python/flask/tests/test_helpers.py,"__init__( self , path )",2, 30, 4, 0
+repos/python/flask/tests/test_helpers.py,"__fspath__( self )",2, 26, 4, 0
+repos/python/flask/tests/test_helpers.py,"__init__( self , hours , name )",3, 56, 8, 0
+repos/python/flask/tests/test_helpers.py,"utcoffset( self , dt )",2, 29, 4, 0
+repos/python/flask/tests/test_helpers.py,"tzname( self , dt )",2, 27, 8, 0
+repos/python/flask/tests/test_helpers.py,"dst( self , dt )",2, 36, 8, 0
+repos/python/flask/tests/test_helpers.py,"test_detect_encoding( self , value , encoding )",4, 54, 8, 0
+repos/python/flask/tests/test_helpers.py,"test_ignore_cached_json( self , app )",6, 76, 8, 0
+repos/python/flask/tests/test_helpers.py,"test_different_silent_on_bad_request( self , app )",7, 63, 12, 0
+repos/python/flask/tests/test_helpers.py,"test_different_silent_on_normal_request( self , app )",6, 80, 8, 0
+repos/python/flask/tests/test_helpers.py,"test_post_empty_json_adds_exception_to_response_content_in_debug.post_json( )",3, 37, 12, 0
+repos/python/flask/tests/test_helpers.py,"test_post_empty_json_adds_exception_to_response_content_in_debug( self , app , client )",12, 93, 4, 0
+repos/python/flask/tests/test_helpers.py,"test_post_empty_json_wont_add_exception_to_response_if_no_debug.post_json( )",3, 37, 12, 0
+repos/python/flask/tests/test_helpers.py,"test_post_empty_json_wont_add_exception_to_response_if_no_debug( self , app , client )",12, 92, 4, 0
+repos/python/flask/tests/test_helpers.py,"test_json_bad_requests.return_json( )",2, 74, 12, 0
+repos/python/flask/tests/test_helpers.py,"test_json_bad_requests( self , app , client )",8, 85, 8, 0
+repos/python/flask/tests/test_helpers.py,"test_json_custom_mimetypes.return_json( )",2, 44, 12, 0
+repos/python/flask/tests/test_helpers.py,"test_json_custom_mimetypes( self , app , client )",8, 83, 8, 0
+repos/python/flask/tests/test_helpers.py,"test_json_as_unicode( self , test_value , expected , app , app_ctx )",5, 72, 4, 0
+repos/python/flask/tests/test_helpers.py,"test_json_dump_to_file( self , app , app_ctx )",8, 52, 4, 0
+repos/python/flask/tests/test_helpers.py,"test_jsonify_basic_types( self , test_value , app , client )",8, 74, 8, 0
+repos/python/flask/tests/test_helpers.py,"test_jsonify_dicts.return_kwargs( )",2, 38, 12, 0
+repos/python/flask/tests/test_helpers.py,"test_jsonify_dicts.return_dict( )",2, 36, 12, 0
+repos/python/flask/tests/test_helpers.py,"test_jsonify_dicts( self , app , client )",19, 60, 8, 0
+repos/python/flask/tests/test_helpers.py,"test_jsonify_arrays.return_args_unpack( )",2, 37, 12, 0
+repos/python/flask/tests/test_helpers.py,"test_jsonify_arrays.return_array( )",2, 36, 12, 0
+repos/python/flask/tests/test_helpers.py,"test_jsonify_arrays( self , app , client )",20, 56, 8, 0
+repos/python/flask/tests/test_helpers.py,"test_jsonify_date_types( self , app , client )",13, 78, 12, 0
+repos/python/flask/tests/test_helpers.py,"test_jsonify_aware_datetimes( self , tz )",7, 78, 8, 0
+repos/python/flask/tests/test_helpers.py,"test_jsonify_uuid_types( self , app , client )",13, 71, 8, 0
+repos/python/flask/tests/test_helpers.py,"test_json_attr.add( )",3, 52, 12, 0
+repos/python/flask/tests/test_helpers.py,"test_json_attr( self , app , client )",10, 74, 8, 0
+repos/python/flask/tests/test_helpers.py,"test_template_escaping( self , app , req_ctx )",18, 79, 8, 0
+repos/python/flask/tests/test_helpers.py,"test_json_customization.__init__( self , val )",2, 37, 12, 0
+repos/python/flask/tests/test_helpers.py,"test_json_customization.default( self , o )",4, 63, 16, 0
+repos/python/flask/tests/test_helpers.py,"test_json_customization.__init__( self , * args , ** kwargs )",3, 71, 16, 0
+repos/python/flask/tests/test_helpers.py,"test_json_customization.object_hook( self , obj )",4, 52, 16, 0
+repos/python/flask/tests/test_helpers.py,"test_json_customization.index( )",2, 67, 12, 0
+repos/python/flask/tests/test_helpers.py,"test_json_customization( self , app , client )",32, 71, 16, 0
+repos/python/flask/tests/test_helpers.py,"test_blueprint_json_customization.__init__( self , val )",2, 37, 12, 0
+repos/python/flask/tests/test_helpers.py,"test_blueprint_json_customization.default( self , o )",5, 63, 16, 0
+repos/python/flask/tests/test_helpers.py,"test_blueprint_json_customization.__init__( self , * args , ** kwargs )",3, 71, 16, 0
+repos/python/flask/tests/test_helpers.py,"test_blueprint_json_customization.object_hook( self , obj )",5, 52, 16, 0
+repos/python/flask/tests/test_helpers.py,"test_blueprint_json_customization.index( )",2, 67, 12, 0
+repos/python/flask/tests/test_helpers.py,"test_blueprint_json_customization( self , app , client )",37, 71, 16, 0
+repos/python/flask/tests/test_helpers.py,"test_modified_url_encoding.index( )",2, 45, 12, 0
+repos/python/flask/tests/test_helpers.py,"test_modified_url_encoding( self , app , client )",14, 56, 8, 0
+repos/python/flask/tests/test_helpers.py,"test_json_key_sorting.index( )",2, 43, 12, 0
+repos/python/flask/tests/test_helpers.py,"test_json_key_sorting( self , app , client )",69, 82, 8, 0
+repos/python/flask/tests/test_helpers.py,"test_send_file_regular( self , app , req_ctx )",8, 58, 8, 0
+repos/python/flask/tests/test_helpers.py,"test_send_file_xsendfile( self , app , req_ctx , catch_deprecation_warnings )",9, 82, 4, 0
+repos/python/flask/tests/test_helpers.py,"test_send_file_last_modified.index( )",4, 64, 12, 0
+repos/python/flask/tests/test_helpers.py,"test_send_file_last_modified( self , app , client )",11, 64, 12, 0
+repos/python/flask/tests/test_helpers.py,"test_send_file_object_without_mimetype( self , app , req_ctx )",7, 73, 8, 0
+repos/python/flask/tests/test_helpers.py,"test_send_file_object.__init__( self , * args , ** kwargs )",2, 53, 16, 0
+repos/python/flask/tests/test_helpers.py,"test_send_file_object.__getattr__( self , name )",2, 47, 16, 0
+repos/python/flask/tests/test_helpers.py,"test_send_file_object( self , app , req_ctx )",53, 85, 8, 0
+repos/python/flask/tests/test_helpers.py,"test_send_file_pathlike( self , app , req_ctx )",8, 60, 8, 0
+repos/python/flask/tests/test_helpers.py,"test_send_file_range_request.index( )",2, 74, 12, 0
+repos/python/flask/tests/test_helpers.py,"test_send_file_range_request( self , app , client )",54, 84, 8, 0
+repos/python/flask/tests/test_helpers.py,"test_send_file_range_request_bytesio.index( )",5, 71, 16, 0
+repos/python/flask/tests/test_helpers.py,"test_send_file_range_request_bytesio( self , app , client )",12, 71, 16, 0
+repos/python/flask/tests/test_helpers.py,"test_send_file_range_request_xsendfile_invalid.index( )",2, 74, 12, 0
+repos/python/flask/tests/test_helpers.py,"test_send_file_range_request_xsendfile_invalid( self , app , client )",11, 75, 4, 0
+repos/python/flask/tests/test_helpers.py,"test_attachment( self , app , req_ctx )",35, 81, 8, 0
+repos/python/flask/tests/test_helpers.py,"test_attachment_filename_encoding( self , filename , ascii , utf8 )",9, 100, 8, 0
+repos/python/flask/tests/test_helpers.py,"test_static_file.get_send_file_max_age( self , filename )",2, 55, 12, 0
+repos/python/flask/tests/test_helpers.py,"test_static_file( self , app , req_ctx )",48, 73, 12, 0
+repos/python/flask/tests/test_helpers.py,"test_send_from_directory( self , app , req_ctx )",7, 73, 37, 0
+repos/python/flask/tests/test_helpers.py,"test_send_from_directory_pathlike( self , app , req_ctx )",7, 82, 8, 0
+repos/python/flask/tests/test_helpers.py,"test_send_from_directory_bad_request( self , app , req_ctx )",6, 73, 37, 0
+repos/python/flask/tests/test_helpers.py,"test_url_for_with_anchor.index( )",2, 24, 12, 0
+repos/python/flask/tests/test_helpers.py,"test_url_for_with_anchor( self , app , req_ctx )",7, 66, 8, 0
+repos/python/flask/tests/test_helpers.py,"test_url_for_with_scheme.index( )",2, 24, 12, 0
+repos/python/flask/tests/test_helpers.py,"test_url_for_with_scheme( self , app , req_ctx )",7, 95, 8, 0
+repos/python/flask/tests/test_helpers.py,"test_url_for_with_scheme_not_external.index( )",2, 24, 12, 0
+repos/python/flask/tests/test_helpers.py,"test_url_for_with_scheme_not_external( self , app , req_ctx )",10, 67, 4, 0
+repos/python/flask/tests/test_helpers.py,"test_url_for_with_alternating_schemes.index( )",2, 24, 12, 0
+repos/python/flask/tests/test_helpers.py,"test_url_for_with_alternating_schemes( self , app , req_ctx )",9, 95, 8, 0
+repos/python/flask/tests/test_helpers.py,"test_url_with_method.get( self , id = None )",4, 37, 16, 0
+repos/python/flask/tests/test_helpers.py,"test_url_with_method.post( self )",2, 32, 16, 0
+repos/python/flask/tests/test_helpers.py,"test_url_with_method( self , app , req_ctx )",23, 77, 8, 0
+repos/python/flask/tests/test_helpers.py,"test_name_with_import_error( self , modules_tmpdir )",6, 83, 8, 0
+repos/python/flask/tests/test_helpers.py,"test_streaming_with_context.test_streaming_with_context.index.generate( )",4, 49, 16, 0
+repos/python/flask/tests/test_helpers.py,"test_streaming_with_context.index( )",7, 73, 12, 0
+repos/python/flask/tests/test_helpers.py,"test_streaming_with_context( self , app , client )",13, 73, 12, 0
+repos/python/flask/tests/test_helpers.py,"test_streaming_with_context_as_decorator.test_streaming_with_context_as_decorator.index.generate( hello )",4, 49, 16, 0
+repos/python/flask/tests/test_helpers.py,"test_streaming_with_context_as_decorator.index( )",8, 54, 12, 0
+repos/python/flask/tests/test_helpers.py,"test_streaming_with_context_as_decorator( self , app , client )",14, 69, 4, 0
+repos/python/flask/tests/test_helpers.py,"test_streaming_with_context_and_custom_close.__init__( self , gen )",2, 37, 12, 0
+repos/python/flask/tests/test_helpers.py,"test_streaming_with_context_and_custom_close.__iter__( self )",2, 32, 12, 0
+repos/python/flask/tests/test_helpers.py,"test_streaming_with_context_and_custom_close.close( self )",2, 34, 16, 0
+repos/python/flask/tests/test_helpers.py,"test_streaming_with_context_and_custom_close.__next__( self )",2, 39, 16, 0
+repos/python/flask/tests/test_helpers.py,"test_streaming_with_context_and_custom_close.test_streaming_with_context_and_custom_close.index.generate( )",4, 49, 16, 0
+repos/python/flask/tests/test_helpers.py,"test_streaming_with_context_and_custom_close.index( )",8, 61, 12, 0
+repos/python/flask/tests/test_helpers.py,"test_streaming_with_context_and_custom_close( self , app , client )",31, 73, 4, 0
+repos/python/flask/tests/test_helpers.py,"test_stream_keeps_session.test_stream_keeps_session.index.gen( )",2, 44, 16, 0
+repos/python/flask/tests/test_helpers.py,"test_stream_keeps_session.index( )",8, 44, 12, 0
+repos/python/flask/tests/test_helpers.py,"test_stream_keeps_session( self , app , client )",13, 54, 4, 0
+repos/python/flask/tests/test_helpers.py,"test_safe_join( self )",21, 65, 8, 0
+repos/python/flask/tests/test_helpers.py,"test_safe_join_exceptions( self )",16, 69, 8, 0
+repos/python/flask/tests/test_helpers.py,"test_get_debug_flag( self , monkeypatch , debug , expected_flag , expected_default_flag )",7, 93, 4, 0
+repos/python/flask/tests/test_helpers.py,"test_get_env( self , monkeypatch , env , ref_env , debug )",4, 62, 4, 0
+repos/python/flask/tests/test_helpers.py,"test_make_response( self )",11, 54, 12, 0
+repos/python/flask/tests/test_cli.py,"runner( )",2, 23, 4, 0
+repos/python/flask/tests/test_cli.py,"test_cli_name( test_apps )",4, 83, 4, 0
+repos/python/flask/tests/test_cli.py,"test_find_best_app.create_app( )",2, 36, 12, 0
+repos/python/flask/tests/test_cli.py,"test_find_best_app.create_app( foo )",2, 36, 12, 0
+repos/python/flask/tests/test_cli.py,"test_find_best_app.create_app( foo = None , script_info = None )",2, 52, 8, 0
+repos/python/flask/tests/test_cli.py,"test_find_best_app.make_app( )",2, 36, 12, 0
+repos/python/flask/tests/test_cli.py,"test_find_best_app.create_app( )",2, 37, 12, 0
+repos/python/flask/tests/test_cli.py,"test_find_best_app.create_app( )",2, 37, 12, 0
+repos/python/flask/tests/test_cli.py,"test_find_best_app.create_app( foo , bar )",2, 37, 12, 0
+repos/python/flask/tests/test_cli.py,"test_find_best_app.create_app( )",2, 48, 12, 0
+repos/python/flask/tests/test_cli.py,"test_find_best_app( test_apps )",93, 92, 4, 0
+repos/python/flask/tests/test_cli.py,"test_prepare_import.reset_path( )",2, 36, 8, 0
+repos/python/flask/tests/test_cli.py,"test_prepare_import( request , value , path , result )",17, 79, 4, 0
+repos/python/flask/tests/test_cli.py,"test_locate_app( test_apps , iname , aname , result )",4, 57, 4, 0
+repos/python/flask/tests/test_cli.py,"test_locate_app_raises( test_apps , iname , aname )",5, 53, 0, 0
+repos/python/flask/tests/test_cli.py,"test_locate_app_suppress_raise( )",10, 74, 4, 0
+repos/python/flask/tests/test_cli.py,"test_get_version.exit( self )",8, 49, 4, 0
+repos/python/flask/tests/test_cli.py,"test_scriptinfo.create_app( info )",2, 34, 8, 0
+repos/python/flask/tests/test_cli.py,"test_scriptinfo( test_apps , monkeypatch )",45, 73, 12, 0
+repos/python/flask/tests/test_cli.py,"test_with_appcontext.testcmd( )",2, 37, 8, 0
+repos/python/flask/tests/test_cli.py,"test_with_appcontext( runner )",13, 63, 4, 0
+repos/python/flask/tests/test_cli.py,"test_appgroup.cli( )",2, 15, 4, 0
+repos/python/flask/tests/test_cli.py,"test_appgroup.test( )",2, 37, 8, 0
+repos/python/flask/tests/test_cli.py,"test_appgroup.subgroup( )",2, 20, 4, 0
+repos/python/flask/tests/test_cli.py,"test_appgroup.test2( )",2, 37, 8, 0
+repos/python/flask/tests/test_cli.py,"test_appgroup( runner )",28, 68, 4, 0
+repos/python/flask/tests/test_cli.py,"test_flaskgroup.create_app( info )",2, 35, 8, 0
+repos/python/flask/tests/test_cli.py,"test_flaskgroup.cli( ** params )",2, 23, 4, 0
+repos/python/flask/tests/test_cli.py,"test_flaskgroup.test( )",2, 37, 8, 0
+repos/python/flask/tests/test_cli.py,"test_flaskgroup( runner )",17, 56, 4, 0
+repos/python/flask/tests/test_cli.py,"test_flaskgroup_debug.create_app( info )",4, 34, 8, 0
+repos/python/flask/tests/test_cli.py,"test_flaskgroup_debug.cli( ** params )",2, 23, 4, 0
+repos/python/flask/tests/test_cli.py,"test_flaskgroup_debug.test( )",2, 43, 8, 0
+repos/python/flask/tests/test_cli.py,"test_flaskgroup_debug( runner , set_debug_flag )",19, 87, 4, 0
+repos/python/flask/tests/test_cli.py,"test_print_exceptions.create_app( info )",3, 35, 8, 0
+repos/python/flask/tests/test_cli.py,"test_print_exceptions.cli( ** params )",2, 23, 4, 0
+repos/python/flask/tests/test_cli.py,"test_print_exceptions( runner )",15, 56, 4, 0
+repos/python/flask/tests/test_cli.py,"invoke.invoke.create_app.yyy_get_post( x , y )",2, 36, 12, 0
+repos/python/flask/tests/test_cli.py,"invoke.invoke.create_app.aaa_post( )",2, 28, 12, 0
+repos/python/flask/tests/test_cli.py,"invoke.create_app( info )",13, 77, 12, 0
+repos/python/flask/tests/test_cli.py,"invoke( self , runner )",17, 77, 12, 0
+repos/python/flask/tests/test_cli.py,"invoke_no_routes.create_app( info )",5, 54, 12, 0
+repos/python/flask/tests/test_cli.py,"invoke_no_routes( self , runner )",9, 54, 12, 0
+repos/python/flask/tests/test_cli.py,"expect_order( self , order , output )",5, 68, 12, 0
+repos/python/flask/tests/test_cli.py,"test_simple( self , invoke )",7, 52, 12, 0
+repos/python/flask/tests/test_cli.py,"test_sort( self , invoke )",16, 70, 8, 0
+repos/python/flask/tests/test_cli.py,"test_all_methods( self , invoke )",5, 60, 8, 0
+repos/python/flask/tests/test_cli.py,"test_no_routes( self , invoke_no_routes )",4, 61, 8, 0
+repos/python/flask/tests/test_cli.py,"test_load_dotenv( monkeypatch )",17, 67, 4, 0
+repos/python/flask/tests/test_cli.py,"test_dotenv_path( monkeypatch )",8, 64, 8, 0
+repos/python/flask/tests/test_cli.py,"test_dotenv_optional( monkeypatch )",5, 50, 4, 0
+repos/python/flask/tests/test_cli.py,"test_disable_dotenv_from_env( monkeypatch , runner )",5, 62, 4, 0
+repos/python/flask/tests/test_cli.py,"test_run_cert_path( )",12, 62, 8, 0
+repos/python/flask/tests/test_cli.py,"test_run_cert_adhoc( monkeypatch )",15, 80, 8, 0
+repos/python/flask/tests/test_cli.py,"test_run_cert_import( monkeypatch )",26, 69, 4, 0
+repos/python/flask/tests/test_templating.py,"test_context_processing.context_processor( )",2, 38, 8, 0
+repos/python/flask/tests/test_templating.py,"test_context_processing.index( )",2, 72, 8, 0
+repos/python/flask/tests/test_templating.py,"test_context_processing( app , client )",11, 72, 8, 0
+repos/python/flask/tests/test_templating.py,"test_original_win.index( )",2, 71, 8, 0
+repos/python/flask/tests/test_templating.py,"test_original_win( app , client )",7, 71, 8, 0
+repos/python/flask/tests/test_templating.py,"test_request_less_rendering.context_processor( )",2, 29, 4, 0
+repos/python/flask/tests/test_templating.py,"test_request_less_rendering( app , app_ctx )",10, 71, 4, 0
+repos/python/flask/tests/test_templating.py,"test_standard_context.index( )",9, 48, 8, 0
+repos/python/flask/tests/test_templating.py,"test_standard_context( app , client )",14, 63, 4, 0
+repos/python/flask/tests/test_templating.py,"test_escaping.index( )",3, 74, 8, 0
+repos/python/flask/tests/test_templating.py,"test_escaping( app , client )",17, 74, 8, 0
+repos/python/flask/tests/test_templating.py,"test_no_escaping.index( )",3, 77, 8, 0
+repos/python/flask/tests/test_templating.py,"test_no_escaping( app , client )",19, 77, 8, 0
+repos/python/flask/tests/test_templating.py,"test_escaping_without_template_filename( app , client , req_ctx )",4, 76, 4, 0
+repos/python/flask/tests/test_templating.py,"test_macros( app , req_ctx )",3, 65, 4, 0
+repos/python/flask/tests/test_templating.py,"test_template_filter.my_reverse( s )",2, 23, 4, 0
+repos/python/flask/tests/test_templating.py,"test_template_filter( app )",8, 65, 4, 0
+repos/python/flask/tests/test_templating.py,"test_add_template_filter.my_reverse( s )",2, 23, 4, 0
+repos/python/flask/tests/test_templating.py,"test_add_template_filter( app )",8, 65, 4, 0
+repos/python/flask/tests/test_templating.py,"test_template_filter_with_name.my_reverse( s )",2, 23, 4, 0
+repos/python/flask/tests/test_templating.py,"test_template_filter_with_name( app )",8, 61, 4, 0
+repos/python/flask/tests/test_templating.py,"test_add_template_filter_with_name.my_reverse( s )",2, 23, 4, 0
+repos/python/flask/tests/test_templating.py,"test_add_template_filter_with_name( app )",8, 61, 4, 0
+repos/python/flask/tests/test_templating.py,"test_template_filter_with_template.super_reverse( s )",2, 26, 4, 0
+repos/python/flask/tests/test_templating.py,"test_template_filter_with_template.index( )",2, 75, 8, 0
+repos/python/flask/tests/test_templating.py,"test_template_filter_with_template( app , client )",11, 75, 8, 0
+repos/python/flask/tests/test_templating.py,"test_add_template_filter_with_template.super_reverse( s )",2, 26, 4, 0
+repos/python/flask/tests/test_templating.py,"test_add_template_filter_with_template.index( )",2, 75, 8, 0
+repos/python/flask/tests/test_templating.py,"test_add_template_filter_with_template( app , client )",12, 75, 8, 0
+repos/python/flask/tests/test_templating.py,"test_template_filter_with_name_and_template.my_reverse( s )",2, 23, 4, 0
+repos/python/flask/tests/test_templating.py,"test_template_filter_with_name_and_template.index( )",2, 75, 8, 0
+repos/python/flask/tests/test_templating.py,"test_template_filter_with_name_and_template( app , client )",11, 75, 8, 0
+repos/python/flask/tests/test_templating.py,"test_add_template_filter_with_name_and_template.my_reverse( s )",2, 23, 4, 0
+repos/python/flask/tests/test_templating.py,"test_add_template_filter_with_name_and_template.index( )",2, 75, 8, 0
+repos/python/flask/tests/test_templating.py,"test_add_template_filter_with_name_and_template( app , client )",12, 75, 8, 0
+repos/python/flask/tests/test_templating.py,"test_template_test.boolean( value )",2, 39, 8, 0
+repos/python/flask/tests/test_templating.py,"test_template_test( app )",8, 53, 4, 0
+repos/python/flask/tests/test_templating.py,"test_add_template_test.boolean( value )",2, 39, 8, 0
+repos/python/flask/tests/test_templating.py,"test_add_template_test( app )",8, 53, 4, 0
+repos/python/flask/tests/test_templating.py,"test_template_test_with_name.is_boolean( value )",2, 39, 8, 0
+repos/python/flask/tests/test_templating.py,"test_template_test_with_name( app )",8, 56, 4, 0
+repos/python/flask/tests/test_templating.py,"test_add_template_test_with_name.is_boolean( value )",2, 39, 8, 0
+repos/python/flask/tests/test_templating.py,"test_add_template_test_with_name( app )",8, 56, 4, 0
+repos/python/flask/tests/test_templating.py,"test_template_test_with_template.boolean( value )",2, 39, 8, 0
+repos/python/flask/tests/test_templating.py,"test_template_test_with_template.index( )",2, 72, 8, 0
+repos/python/flask/tests/test_templating.py,"test_template_test_with_template( app , client )",11, 72, 8, 0
+repos/python/flask/tests/test_templating.py,"test_add_template_test_with_template.boolean( value )",2, 39, 8, 0
+repos/python/flask/tests/test_templating.py,"test_add_template_test_with_template.index( )",2, 72, 8, 0
+repos/python/flask/tests/test_templating.py,"test_add_template_test_with_template( app , client )",12, 72, 8, 0
+repos/python/flask/tests/test_templating.py,"test_template_test_with_name_and_template.is_boolean( value )",2, 39, 8, 0
+repos/python/flask/tests/test_templating.py,"test_template_test_with_name_and_template.index( )",2, 72, 8, 0
+repos/python/flask/tests/test_templating.py,"test_template_test_with_name_and_template( app , client )",11, 72, 8, 0
+repos/python/flask/tests/test_templating.py,"test_add_template_test_with_name_and_template.is_boolean( value )",2, 39, 8, 0
+repos/python/flask/tests/test_templating.py,"test_add_template_test_with_name_and_template.index( )",2, 72, 8, 0
+repos/python/flask/tests/test_templating.py,"test_add_template_test_with_name_and_template( app , client )",12, 72, 8, 0
+repos/python/flask/tests/test_templating.py,"test_add_template_global.get_stuff( )",2, 21, 4, 0
+repos/python/flask/tests/test_templating.py,"test_add_template_global( app , app_ctx )",11, 59, 4, 0
+repos/python/flask/tests/test_templating.py,"test_custom_template_loader.create_global_jinja_loader( self )",3, 69, 12, 0
+repos/python/flask/tests/test_templating.py,"test_custom_template_loader.index( )",2, 51, 8, 0
+repos/python/flask/tests/test_templating.py,"test_custom_template_loader( client )",15, 69, 12, 0
+repos/python/flask/tests/test_templating.py,"test_iterable_loader.context_processor( )",2, 38, 8, 0
+repos/python/flask/tests/test_templating.py,"test_iterable_loader.index( )",6, 59, 13, 0
+repos/python/flask/tests/test_templating.py,"test_iterable_loader( app , client )",15, 59, 13, 0
+repos/python/flask/tests/test_templating.py,"test_templates_auto_reload( app )",30, 55, 4, 0
+repos/python/flask/tests/test_templating.py,"test_templates_auto_reload_debug_run.run_simple_mock( * args , ** kwargs )",2, 42, 4, 0
+repos/python/flask/tests/test_templating.py,"test_templates_auto_reload_debug_run( app , monkeypatch )",13, 73, 4, 0
+repos/python/flask/tests/test_templating.py,"test_template_loader_debugging.handle( x , record )",12, 83, 12, 0
+repos/python/flask/tests/test_templating.py,"test_template_loader_debugging( test_apps , monkeypatch )",31, 83, 12, 0
+repos/python/flask/tests/test_templating.py,"test_custom_jinja_env( )",9, 59, 4, 0
+repos/python/flask/tests/test_appctx.py,"test_basic_url_generation.index( )",2, 17, 4, 0
+repos/python/flask/tests/test_appctx.py,"test_basic_url_generation( app )",11, 49, 4, 0
+repos/python/flask/tests/test_appctx.py,"test_url_generation_requires_server_name( app )",4, 51, 0, 0
+repos/python/flask/tests/test_appctx.py,"test_url_generation_without_context_fails( )",3, 49, 0, 0
+repos/python/flask/tests/test_appctx.py,"test_request_context_means_app_context( app )",4, 62, 8, 0
+repos/python/flask/tests/test_appctx.py,"test_app_context_provides_current_app( app )",4, 62, 8, 0
+repos/python/flask/tests/test_appctx.py,"test_app_tearing_down.cleanup( exception )",2, 40, 8, 0
+repos/python/flask/tests/test_appctx.py,"test_app_tearing_down( app )",11, 40, 8, 0
+repos/python/flask/tests/test_appctx.py,"test_app_tearing_down_with_previous_exception.cleanup( exception )",2, 40, 8, 0
+repos/python/flask/tests/test_appctx.py,"test_app_tearing_down_with_previous_exception( app )",16, 56, 0, 0
+repos/python/flask/tests/test_appctx.py,"test_app_tearing_down_with_handled_exception_by_except_block.cleanup( exception )",2, 40, 8, 0
+repos/python/flask/tests/test_appctx.py,"test_app_tearing_down_with_handled_exception_by_except_block( app )",14, 71, 0, 0
+repos/python/flask/tests/test_appctx.py,"test_app_tearing_down_with_handled_exception_by_app_handler.cleanup( exception )",2, 40, 8, 0
+repos/python/flask/tests/test_appctx.py,"test_app_tearing_down_with_handled_exception_by_app_handler.index( )",2, 33, 8, 0
+repos/python/flask/tests/test_appctx.py,"test_app_tearing_down_with_handled_exception_by_app_handler.handler( f )",2, 37, 8, 0
+repos/python/flask/tests/test_appctx.py,"test_app_tearing_down_with_handled_exception_by_app_handler( app , client )",20, 78, 0, 0
+repos/python/flask/tests/test_appctx.py,"test_app_tearing_down_with_unhandled_exception.cleanup( exception )",2, 40, 8, 0
+repos/python/flask/tests/test_appctx.py,"test_app_tearing_down_with_unhandled_exception.index( )",2, 33, 8, 0
+repos/python/flask/tests/test_appctx.py,"test_app_tearing_down_with_unhandled_exception( app , client )",19, 65, 0, 0
+repos/python/flask/tests/test_appctx.py,"test_app_ctx_globals_methods( app , app_ctx )",21, 58, 4, 0
+repos/python/flask/tests/test_appctx.py,"test_custom_app_ctx_globals_class.__init__( self )",2, 31, 12, 0
+repos/python/flask/tests/test_appctx.py,"test_custom_app_ctx_globals_class( app )",8, 70, 8, 0
+repos/python/flask/tests/test_appctx.py,"test_context_refcounts.teardown_req( error = None )",2, 34, 4, 0
+repos/python/flask/tests/test_appctx.py,"test_context_refcounts.teardown_app( error = None )",2, 34, 4, 0
+repos/python/flask/tests/test_appctx.py,"test_context_refcounts.index( )",7, 59, 8, 0
+repos/python/flask/tests/test_appctx.py,"test_context_refcounts( app , client )",24, 59, 8, 0
+repos/python/flask/tests/test_appctx.py,"test_clean_pop.teardown_req( error = None )",2, 34, 4, 0
+repos/python/flask/tests/test_appctx.py,"test_clean_pop.teardown_app( error = None )",2, 34, 4, 0
+repos/python/flask/tests/test_appctx.py,"test_clean_pop( app )",20, 50, 12, 0
+repos/python/flask/tests/test_regression.py,"__enter__( self )",13, 67, 8, 0
+repos/python/flask/tests/test_regression.py,"__exit__( self , exc_type , exc_value , tb )",7, 49, 4, 0
+repos/python/flask/tests/test_regression.py,"test_memory_consumption.index( )",2, 73, 8, 0
+repos/python/flask/tests/test_regression.py,"test_memory_consumption.fire( )",5, 45, 12, 0
+repos/python/flask/tests/test_regression.py,"test_memory_consumption( )",22, 73, 8, 0
+repos/python/flask/tests/test_regression.py,"test_safe_join_toplevel_pardir( )",4, 40, 4, 0
+repos/python/flask/tests/test_regression.py,"test_aborting.handle_foo( e )",2, 31, 8, 0
+repos/python/flask/tests/test_regression.py,"test_aborting.index( )",2, 65, 8, 0
+repos/python/flask/tests/test_regression.py,"test_aborting.test( )",2, 20, 8, 0
+repos/python/flask/tests/test_regression.py,"test_aborting( app )",21, 65, 8, 0
+repos/python/flask/tests/test_testing.py,"test_environ_defaults_from_config.index( )",2, 33, 8, 0
+repos/python/flask/tests/test_testing.py,"test_environ_defaults_from_config( app , client )",13, 61, 4, 0
+repos/python/flask/tests/test_testing.py,"test_environ_defaults.index( )",2, 33, 8, 0
+repos/python/flask/tests/test_testing.py,"test_environ_defaults( app , client , app_ctx , req_ctx )",10, 58, 0, 0
+repos/python/flask/tests/test_testing.py,"test_environ_base_default.index( )",3, 65, 8, 0
+repos/python/flask/tests/test_testing.py,"test_environ_base_default( app , client , app_ctx )",9, 68, 4, 0
+repos/python/flask/tests/test_testing.py,"test_environ_base_modified.index( )",3, 65, 8, 0
+repos/python/flask/tests/test_testing.py,"test_environ_base_modified( app , client , app_ctx )",17, 65, 8, 0
+repos/python/flask/tests/test_testing.py,"test_client_open_environ.index( )",2, 41, 8, 0
+repos/python/flask/tests/test_testing.py,"test_client_open_environ( app , client , request )",15, 74, 4, 0
+repos/python/flask/tests/test_testing.py,"test_specify_url_scheme.index( )",2, 33, 8, 0
+repos/python/flask/tests/test_testing.py,"test_specify_url_scheme( app , client )",10, 55, 4, 0
+repos/python/flask/tests/test_testing.py,"test_path_is_url( app )",6, 64, 4, 0
+repos/python/flask/tests/test_testing.py,"test_blueprint_with_subdomain.index( )",2, 33, 8, 0
+repos/python/flask/tests/test_testing.py,"test_blueprint_with_subdomain( )",20, 65, 4, 0
+repos/python/flask/tests/test_testing.py,"test_redirect_keep_session.index( )",5, 49, 12, 0
+repos/python/flask/tests/test_testing.py,"test_redirect_keep_session.get_session( )",2, 54, 8, 0
+repos/python/flask/tests/test_testing.py,"test_redirect_keep_session( app , client , app_ctx )",28, 62, 8, 0
+repos/python/flask/tests/test_testing.py,"test_session_transactions.index( )",2, 47, 8, 0
+repos/python/flask/tests/test_testing.py,"test_session_transactions( app , client )",15, 51, 8, 0
+repos/python/flask/tests/test_testing.py,"test_session_transactions_no_null_sessions( )",9, 72, 8, 0
+repos/python/flask/tests/test_testing.py,"test_session_transactions_keep_context( app , client , req_ctx )",6, 66, 0, 0
+repos/python/flask/tests/test_testing.py,"test_session_transaction_needs_cookies( app )",6, 49, 0, 0
+repos/python/flask/tests/test_testing.py,"test_test_client_context_binding.index( )",3, 30, 8, 0
+repos/python/flask/tests/test_testing.py,"test_test_client_context_binding.other( )",2, 17, 4, 0
+repos/python/flask/tests/test_testing.py,"test_test_client_context_binding( app , client )",30, 64, 8, 0
+repos/python/flask/tests/test_testing.py,"test_reuse_client( client )",8, 50, 8, 0
+repos/python/flask/tests/test_testing.py,"test_test_client_calls_teardown_handlers.remember( error )",2, 29, 8, 0
+repos/python/flask/tests/test_testing.py,"test_test_client_calls_teardown_handlers( app , client )",21, 59, 0, 0
+repos/python/flask/tests/test_testing.py,"test_full_url_request.action( )",2, 19, 8, 0
+repos/python/flask/tests/test_testing.py,"test_full_url_request( app , client )",10, 80, 8, 0
+repos/python/flask/tests/test_testing.py,"test_json_request_and_response.echo( )",2, 49, 8, 0
+repos/python/flask/tests/test_testing.py,"test_json_request_and_response( app , client )",17, 70, 8, 0
+repos/python/flask/tests/test_testing.py,"test_subdomain.view( company_id )",2, 26, 4, 0
+repos/python/flask/tests/test_testing.py,"test_subdomain( )",17, 57, 4, 0
+repos/python/flask/tests/test_testing.py,"test_nosubdomain.view( company_id )",2, 26, 4, 0
+repos/python/flask/tests/test_testing.py,"test_nosubdomain( app , client )",15, 54, 8, 0
+repos/python/flask/tests/test_testing.py,"test_cli_runner_class( app )",10, 46, 4, 0
+repos/python/flask/tests/test_testing.py,"test_cli_invoke.hello_command( )",2, 36, 8, 0
+repos/python/flask/tests/test_testing.py,"test_cli_invoke( app )",12, 43, 4, 0
+repos/python/flask/tests/test_testing.py,"test_cli_custom_obj.create_app( )",3, 25, 8, 0
+repos/python/flask/tests/test_testing.py,"test_cli_custom_obj.hello_command( )",2, 36, 8, 0
+repos/python/flask/tests/test_testing.py,"test_cli_custom_obj( app )",16, 52, 4, 0
+repos/python/flask/tests/test_apps/blueprintapp/apps/frontend/__init__.py,"index( )",2, 50, 4, 0
+repos/python/flask/tests/test_apps/blueprintapp/apps/frontend/__init__.py,"missing_template( )",2, 52, 4, 0
+repos/python/flask/tests/test_apps/blueprintapp/apps/admin/__init__.py,"index( )",2, 47, 4, 0
+repos/python/flask/tests/test_apps/blueprintapp/apps/admin/__init__.py,"index2( )",2, 49, 4, 0
+repos/python/flask/tests/test_apps/helloworld/hello.py,"hello( )",2, 26, 4, 0
+repos/python/flask/tests/test_apps/cliapp/factory.py,"create_app( )",2, 24, 4, 0
+repos/python/flask/tests/test_apps/cliapp/factory.py,"create_app2( foo , bar )",2, 47, 4, 0
+repos/python/flask/tests/test_apps/cliapp/factory.py,"create_app3( foo , script_info )",2, 68, 4, 0
+repos/python/flask/tests/test_apps/cliapp/factory.py,"no_app( )",2, 14, 0, 0
+repos/python/flask/docs/conf.py,"github_link( name , rawtext , text , lineno , inliner , options = None , content = None )",26, 83, 0, 0
+repos/python/flask/docs/conf.py,"setup( app )",2, 36, 4, 0
+repos/python/flask/examples/tutorial/tests/conftest.py,"app( )",20, 68, 4, 0
+repos/python/flask/examples/tutorial/tests/conftest.py,"client( app )",3, 37, 4, 0
+repos/python/flask/examples/tutorial/tests/conftest.py,"runner( app )",3, 54, 4, 0
+repos/python/flask/examples/tutorial/tests/conftest.py,"__init__( self , client )",2, 32, 4, 0
+repos/python/flask/examples/tutorial/tests/conftest.py,"login( self , username = 'test' , password = 'test' )",5, 62, 12, 0
+repos/python/flask/examples/tutorial/tests/conftest.py,"logout( self )",2, 48, 8, 0
+repos/python/flask/examples/tutorial/tests/conftest.py,"auth( client )",2, 31, 4, 0
+repos/python/flask/examples/tutorial/tests/test_auth.py,"test_register( client , app )",15, 73, 4, 0
+repos/python/flask/examples/tutorial/tests/test_auth.py,"test_register_validate_input( client , username , password , message )",6, 71, 0, 0
+repos/python/flask/examples/tutorial/tests/test_auth.py,"test_login( client , auth )",14, 65, 4, 0
+repos/python/flask/examples/tutorial/tests/test_auth.py,"test_login_validate_input( auth , username , password , message )",3, 66, 0, 0
+repos/python/flask/examples/tutorial/tests/test_auth.py,"test_logout( client , auth )",6, 40, 8, 0
+repos/python/flask/examples/tutorial/tests/test_db.py,"test_get_close_db( app )",9, 55, 4, 0
+repos/python/flask/examples/tutorial/tests/test_db.py,"test_init_db_command.fake_init_db( )",2, 31, 8, 0
+repos/python/flask/examples/tutorial/tests/test_db.py,"test_init_db_command( runner , monkeypatch )",11, 59, 4, 0
+repos/python/flask/examples/tutorial/tests/test_factory.py,"test_config( )",4, 55, 4, 0
+repos/python/flask/examples/tutorial/tests/test_factory.py,"test_hello( client )",3, 45, 4, 0
+repos/python/flask/examples/tutorial/tests/test_blog.py,"test_index( client , auth )",11, 53, 4, 0
+repos/python/flask/examples/tutorial/tests/test_blog.py,"test_login_required( client , path )",3, 73, 4, 0
+repos/python/flask/examples/tutorial/tests/test_blog.py,"test_author_required( app , client , auth )",13, 65, 8, 0
+repos/python/flask/examples/tutorial/tests/test_blog.py,"test_exists_required( client , auth , path )",3, 48, 4, 0
+repos/python/flask/examples/tutorial/tests/test_blog.py,"test_create( client , auth , app )",9, 71, 8, 0
+repos/python/flask/examples/tutorial/tests/test_blog.py,"test_update( client , auth , app )",9, 72, 8, 0
+repos/python/flask/examples/tutorial/tests/test_blog.py,"test_create_update_validate( client , auth , path )",4, 65, 4, 0
+repos/python/flask/examples/tutorial/tests/test_blog.py,"test_delete( client , auth , app )",9, 72, 8, 0
+repos/python/flask/examples/tutorial/flaskr/auth.py,"login_required.wrapped_view( ** kwargs )",5, 51, 12, 0
+repos/python/flask/examples/tutorial/flaskr/auth.py,"login_required( view )",10, 75, 4, 0
+repos/python/flask/examples/tutorial/flaskr/auth.py,"load_logged_in_user( )",11, 72, 4, 0
+repos/python/flask/examples/tutorial/flaskr/auth.py,"register( )",34, 72, 12, 0
+repos/python/flask/examples/tutorial/flaskr/auth.py,"login( )",25, 73, 4, 0
+repos/python/flask/examples/tutorial/flaskr/auth.py,"logout( )",4, 67, 4, 0
+repos/python/flask/examples/tutorial/flaskr/db.py,"get_db( )",13, 72, 4, 0
+repos/python/flask/examples/tutorial/flaskr/db.py,"close_db( e = None )",8, 60, 4, 0
+repos/python/flask/examples/tutorial/flaskr/db.py,"init_db( )",6, 55, 4, 0
+repos/python/flask/examples/tutorial/flaskr/db.py,"init_db_command( )",4, 53, 4, 0
+repos/python/flask/examples/tutorial/flaskr/db.py,"init_app( app )",6, 73, 4, 0
+repos/python/flask/examples/tutorial/flaskr/__init__.py,"create_app.hello( )",2, 31, 8, 0
+repos/python/flask/examples/tutorial/flaskr/__init__.py,"create_app( test_config = None )",43, 72, 8, 0
+repos/python/flask/examples/tutorial/flaskr/blog.py,"index( )",9, 65, 8, 0
+repos/python/flask/examples/tutorial/flaskr/blog.py,"get_post( id , check_author = True )",26, 70, 4, 0
+repos/python/flask/examples/tutorial/flaskr/blog.py,"create( )",23, 60, 16, 0
+repos/python/flask/examples/tutorial/flaskr/blog.py,"update( id )",24, 68, 16, 0
+repos/python/flask/examples/tutorial/flaskr/blog.py,"delete( id )",11, 68, 4, 0
+repos/python/flask/examples/javascript/js_example/views.py,"index( js )",2, 57, 4, 0
+repos/python/flask/examples/javascript/js_example/views.py,"add( )",4, 45, 4, 0
+repos/python/flask/examples/javascript/tests/test_js_example.py,"test_index.check( sender , template , context )",2, 46, 8, 0
+repos/python/flask/examples/javascript/tests/test_js_example.py,"test_index( app , client , path , template_name )",6, 53, 4, 0
+repos/python/flask/examples/javascript/tests/test_js_example.py,"test_add( client , a , b , result )",3, 58, 4, 0
+repos/python/flask/examples/javascript/tests/conftest.py,"fixture_app( )",4, 24, 4, 0
+repos/python/flask/examples/javascript/tests/conftest.py,"client( app )",2, 29, 4, 0
+repos/python/flask/scripts/make-release.py,"parse_changelog( )",31, 73, 16, 0
+repos/python/flask/scripts/make-release.py,"bump_version( version )",8, 53, 8, 0
+repos/python/flask/scripts/make-release.py,"parse_date( string )",3, 49, 4, 0
+repos/python/flask/scripts/make-release.py,"set_filename_version.inject_version( match )",4, 47, 8, 0
+repos/python/flask/scripts/make-release.py,"set_filename_version( filename , version_number , pattern )",20, 61, 0, 0
+repos/python/flask/scripts/make-release.py,"set_init_version( version )",3, 70, 4, 0
+repos/python/flask/scripts/make-release.py,"build( )",3, 63, 4, 0
+repos/python/flask/scripts/make-release.py,"fail( message , * args )",3, 53, 4, 0
+repos/python/flask/scripts/make-release.py,"info( message , * args )",2, 43, 4, 0
+repos/python/flask/scripts/make-release.py,"get_git_tags( )",4, 73, 8, 0
+repos/python/flask/scripts/make-release.py,"git_is_clean( )",2, 57, 4, 0
+repos/python/flask/scripts/make-release.py,"make_git_commit( message , * args )",3, 52, 4, 0
+repos/python/flask/scripts/make-release.py,"make_git_tag( tag )",3, 38, 4, 0
+repos/python/flask/scripts/make-release.py,"main( )",39, 61, 8, 0

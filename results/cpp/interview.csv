@@ -1,0 +1,105 @@
+File, Function, Length, Total Width, Leading Space(s), Leading Tab(s)
+repos/cpp/interview/Problems/ChessboardCoverageProblem/ChessboardCoverage.cpp,"main()",78, 129, 0, 1
+repos/cpp/interview/Problems/ChessboardCoverageProblem/ChessboardCoverage.cpp,"ChessBoard( int num_BoardTopLeftRow , int num_BoardTopLeftColumn , int num_SpecialRow , int num_SpecialColumn , int boardSize)",68, 138, 0, 2
+repos/cpp/interview/Problems/RoundRobinProblem/MatchTable.cpp,"main()",57, 69, 0, 1
+repos/cpp/interview/Problems/RoundRobinProblem/MatchTable.cpp,"MatchTable( int k , int n , int ** table)",35, 98, 0, 5
+repos/cpp/interview/Problems/KnapsackProblem/pack.cpp,"max( int a , int b)",4, 25, 0, 1
+repos/cpp/interview/Problems/KnapsackProblem/pack.cpp,"packIterative()",18, 59, 0, 4
+repos/cpp/interview/Problems/KnapsackProblem/pack.cpp,"packRecursive( int i , int j , int * w , int * v)",14, 90, 0, 2
+repos/cpp/interview/Problems/KnapsackProblem/pack.cpp,"printT( int n , int W)",18, 31, 0, 1
+repos/cpp/interview/Problems/KnapsackProblem/pack.cpp,"main()",93, 70, 0, 2
+repos/cpp/interview/Problems/TubingProblem/Tubing.cpp,"quick_sort( int low , int high)",29, 42, 0, 2
+repos/cpp/interview/Problems/TubingProblem/Tubing.cpp,"main()",79, 74, 0, 2
+repos/cpp/interview/Problems/NeumannNeighborProblem/Recursive/Neumann2_4_12.cpp,"Neumann2_4_12( int n)",8, 38, 0, 1
+repos/cpp/interview/Problems/NeumannNeighborProblem/Recursive/Neumann2_4_12.cpp,"main()",24, 43, 0, 1
+repos/cpp/interview/Problems/NeumannNeighborProblem/Formula/Neumann2_3_12.cpp,"Neumann2_3_12( int n)",5, 29, 0, 1
+repos/cpp/interview/Problems/NeumannNeighborProblem/Formula/Neumann2_3_12.cpp,"main()",24, 43, 0, 1
+repos/cpp/interview/Algorithm/FibonacciSearch.cpp,"Fibonacci( int * F)",7, 32, 4, 0
+repos/cpp/interview/Algorithm/FibonacciSearch.cpp,"FibonacciSearch( int * a , int n , int key)",43, 79, 0, 0
+repos/cpp/interview/Algorithm/FibonacciSearch.cpp,"main()",8, 60, 4, 0
+repos/cpp/interview/Algorithm/HeapSort.cpp,"max_heapify( int arr [ ] , int start , int end)",16, 68, 0, 2
+repos/cpp/interview/Algorithm/HeapSort.cpp,"heap_sort( int arr [ ] , int len)",10, 51, 0, 1
+repos/cpp/interview/Algorithm/HeapSort.cpp,"main()",9, 107, 0, 1
+repos/cpp/interview/Algorithm/CountSort.cpp,"CountSort( vector<int> & vecRaw , vector<int> & vecObj)",22, 70, 0, 1
+repos/cpp/interview/Algorithm/CountSort.cpp,"main()",13, 55, 0, 1
+repos/cpp/interview/Algorithm/BucketSort.cpp,"ListNode::ListNode( int i = 0)",1, 51, 0, 1
+repos/cpp/interview/Algorithm/BucketSort.cpp,"insert( ListNode * head , int val)",15, 42, 0, 0
+repos/cpp/interview/Algorithm/BucketSort.cpp,"Merge( ListNode * head1 , ListNode * head2)",18, 50, 0, 0
+repos/cpp/interview/Algorithm/BucketSort.cpp,"BucketSort( int n , int arr [ ])",16, 55, 0, 1
+repos/cpp/interview/DataStructure/LinkList.cpp,"create( LinkList & L , ElemType * data , int n)",18, 52, 0, 0
+repos/cpp/interview/DataStructure/LinkList.cpp,"EnQueue_LQ( LinkList & L , ElemType & e)",18, 71, 4, 0
+repos/cpp/interview/DataStructure/LinkList.cpp,"DeQueue_LQ( LinkList & L , ElemType & e)",9, 46, 0, 0
+repos/cpp/interview/DataStructure/LinkList.cpp,"visit( ElemType e)",3, 27, 0, 0
+repos/cpp/interview/DataStructure/LinkList.cpp,"ListTraverse_L( LinkList L , Status(*visit)(ElemType e))",7, 60, 0, 0
+repos/cpp/interview/DataStructure/LinkList.cpp,"main()",43, 58, 4, 0
+repos/cpp/interview/DataStructure/SqList.cpp,"InitList_Sq( SqList & L , int size , int inc)",8, 58, 4, 0
+repos/cpp/interview/DataStructure/SqList.cpp,"DestroyList_Sq( SqList & L)",5, 35, 0, 0
+repos/cpp/interview/DataStructure/SqList.cpp,"ClearList_Sq( SqList & L)",4, 37, 4, 0
+repos/cpp/interview/DataStructure/SqList.cpp,"ListEmpty_Sq( SqList L)",4, 36, 4, 0
+repos/cpp/interview/DataStructure/SqList.cpp,"ListLength_Sq( SqList L)",3, 30, 0, 0
+repos/cpp/interview/DataStructure/SqList.cpp,"GetElem_Sq( SqList L , int i , ElemType & e)",4, 50, 0, 0
+repos/cpp/interview/DataStructure/SqList.cpp,"Search_Sq( SqList L , ElemType e)",6, 48, 4, 0
+repos/cpp/interview/DataStructure/SqList.cpp,"visit( ElemType e)",3, 27, 0, 0
+repos/cpp/interview/DataStructure/SqList.cpp,"ListTraverse_Sq( SqList L , Status(*visit)(ElemType e))",7, 63, 0, 0
+repos/cpp/interview/DataStructure/SqList.cpp,"PutElem_Sq( SqList & L , int i , ElemType e)",6, 50, 0, 0
+repos/cpp/interview/DataStructure/SqList.cpp,"Append_Sq( SqList & L , ElemType e)",6, 42, 0, 0
+repos/cpp/interview/DataStructure/SqList.cpp,"DeleteLast_Sq( SqList & L , ElemType & e)",6, 47, 0, 0
+repos/cpp/interview/DataStructure/SqList.cpp,"main()",59, 64, 4, 0
+repos/cpp/interview/DataStructure/SqStack.cpp,"InitStack_Sq( SqSrack & S , int size , int inc)",8, 58, 4, 0
+repos/cpp/interview/DataStructure/SqStack.cpp,"DestroyStack_Sq( SqSrack & S)",5, 37, 0, 0
+repos/cpp/interview/DataStructure/SqStack.cpp,"StackEmpty_Sq( SqSrack S)",4, 34, 0, 0
+repos/cpp/interview/DataStructure/SqStack.cpp,"ClearStack_Sq( SqSrack & S)",5, 33, 0, 0
+repos/cpp/interview/DataStructure/SqStack.cpp,"Push_Sq( SqSrack & S , ElemType e)",11, 90, 8, 0
+repos/cpp/interview/DataStructure/SqStack.cpp,"GetTop_Sq( SqSrack S , ElemType & e)",5, 43, 0, 0
+repos/cpp/interview/DataStructure/SqStack.cpp,"Pop_Sq( SqSrack & S , ElemType & e)",6, 41, 0, 0
+repos/cpp/interview/DataStructure/SqStack.cpp,"main()",58, 64, 4, 0
+repos/cpp/interview/DataStructure/BinaryTree.cpp,"InitBiTree( BiTree & T)",4, 27, 0, 0
+repos/cpp/interview/DataStructure/BinaryTree.cpp,"MakeBiTree( TElemType e , BiTree L , BiTree R)",10, 51, 0, 0
+repos/cpp/interview/DataStructure/BinaryTree.cpp,"visit( TElemType e)",5, 26, 0, 0
+repos/cpp/interview/DataStructure/BinaryTree.cpp,"Leaves( BiTree T)",19, 58, 4, 0
+repos/cpp/interview/DataStructure/BinaryTree.cpp,"depTraverse( BiTree T)",8, 111, 4, 0
+repos/cpp/interview/DataStructure/BinaryTree.cpp,"levTraverse( BiTree T , Status(*visit)(TElemType e) , int lev)",11, 84, 0, 0
+repos/cpp/interview/DataStructure/BinaryTree.cpp,"InOrderTraverse( BiTree T , Status(*visit)(TElemType e) , int & num)",10, 82, 0, 0
+repos/cpp/interview/DataStructure/BinaryTree.cpp,"BiTreeEmpty( BiTree T)",5, 32, 4, 0
+repos/cpp/interview/DataStructure/BinaryTree.cpp,"BreakBiTree( BiTree & T , BiTree & L , BiTree & R)",9, 52, 0, 0
+repos/cpp/interview/DataStructure/BinaryTree.cpp,"ReplaceLeft( BiTree & T , BiTree & LT)",9, 42, 0, 0
+repos/cpp/interview/DataStructure/BinaryTree.cpp,"ReplaceRight( BiTree & T , BiTree & RT)",9, 43, 0, 0
+repos/cpp/interview/DataStructure/BinaryTree.cpp,"UnionBiTree( BiTree & Ttemp)",8, 43, 4, 0
+repos/cpp/interview/DataStructure/BinaryTree.cpp,"main()",33, 52, 4, 0
+repos/cpp/interview/DataStructure/RedBlackTree.cpp,"bst::Node::Node()",1, 97, 8, 0
+repos/cpp/interview/DataStructure/RedBlackTree.cpp,"bst::Node::grandparent()",6, 35, 12, 0
+repos/cpp/interview/DataStructure/RedBlackTree.cpp,"bst::Node::uncle()",9, 51, 12, 0
+repos/cpp/interview/DataStructure/RedBlackTree.cpp,"bst::Node::sibling()",6, 42, 16, 0
+repos/cpp/interview/DataStructure/RedBlackTree.cpp,"bst::rotate_right( Node * p)",24, 37, 8, 0
+repos/cpp/interview/DataStructure/RedBlackTree.cpp,"bst::rotate_left( Node * p)",27, 37, 8, 0
+repos/cpp/interview/DataStructure/RedBlackTree.cpp,"bst::inorder( Node * p)",12, 35, 12, 0
+repos/cpp/interview/DataStructure/RedBlackTree.cpp,"bst::outputColor( bool color)",3, 40, 8, 0
+repos/cpp/interview/DataStructure/RedBlackTree.cpp,"bst::getSmallestChild( Node * p)",5, 46, 8, 0
+repos/cpp/interview/DataStructure/RedBlackTree.cpp,"bst::delete_child( Node * p , int data)",25, 61, 12, 0
+repos/cpp/interview/DataStructure/RedBlackTree.cpp,"bst::delete_one_child( Node * p)",32, 76, 8, 0
+repos/cpp/interview/DataStructure/RedBlackTree.cpp,"bst::delete_case( Node * p)",46, 104, 16, 0
+repos/cpp/interview/DataStructure/RedBlackTree.cpp,"bst::insert( Node * p , int data)",25, 54, 16, 0
+repos/cpp/interview/DataStructure/RedBlackTree.cpp,"bst::insert_case( Node * p)",34, 99, 16, 0
+repos/cpp/interview/DataStructure/RedBlackTree.cpp,"bst::DeleteTree( Node * p)",8, 34, 8, 0
+repos/cpp/interview/DataStructure/RedBlackTree.cpp,"bst::bst()",5, 28, 8, 0
+repos/cpp/interview/DataStructure/RedBlackTree.cpp,"bst::~bst()",5, 31, 12, 0
+repos/cpp/interview/DataStructure/RedBlackTree.cpp,"bst::inorder()",6, 25, 8, 0
+repos/cpp/interview/DataStructure/RedBlackTree.cpp,"bst::insert( int x)",10, 52, 12, 0
+repos/cpp/interview/DataStructure/RedBlackTree.cpp,"bst::delete_value( int data)",3, 41, 8, 0
+repos/cpp/interview/DataStructure/LinkList_with_head.cpp,"create( LinkList & L , ElemType * data , int n)",22, 52, 0, 0
+repos/cpp/interview/DataStructure/LinkList_with_head.cpp,"EnQueue_LQ( LinkList & L , ElemType & e)",24, 71, 4, 0
+repos/cpp/interview/DataStructure/LinkList_with_head.cpp,"DeQueue_LQ( LinkList & L , ElemType & e)",9, 52, 4, 0
+repos/cpp/interview/DataStructure/LinkList_with_head.cpp,"visit( ElemType e)",3, 27, 0, 0
+repos/cpp/interview/DataStructure/LinkList_with_head.cpp,"ListTraverse_L( LinkList L , Status(*visit)(ElemType e))",7, 61, 4, 0
+repos/cpp/interview/DataStructure/LinkList_with_head.cpp,"main()",43, 62, 4, 0
+repos/cpp/interview/DataStructure/HashTable.cpp,"InitHashTable( HashTable & H , int size)",10, 57, 4, 0
+repos/cpp/interview/DataStructure/HashTable.cpp,"Hash( KeyType key , int m)",3, 30, 0, 0
+repos/cpp/interview/DataStructure/HashTable.cpp,"collision( int & p , int m)",3, 39, 0, 0
+repos/cpp/interview/DataStructure/HashTable.cpp,"SearchHash( HashTable H , KeyType key , int & p , int & c)",12, 70, 4, 0
+repos/cpp/interview/DataStructure/HashTable.cpp,"printHash( HashTable H)",12, 38, 8, 0
+repos/cpp/interview/DataStructure/HashTable.cpp,"recreateHash( HashTable & H)",15, 41, 4, 0
+repos/cpp/interview/DataStructure/HashTable.cpp,"InsertHash( HashTable & H , KeyType key)",14, 58, 4, 0
+repos/cpp/interview/DataStructure/HashTable.cpp,"DeleteHash( HashTable & H , KeyType key)",12, 46, 0, 0
+repos/cpp/interview/DataStructure/HashTable.cpp,"main()",43, 75, 4, 0
+repos/cpp/interview/DesignPattern/SingletonPattern/Singleton.cpp,"Singleton::DoSomething()",4, 45, 4, 0
+repos/cpp/interview/DesignPattern/AbstractFactoryPattern/Factory.cpp,"Factory::CreateFactory( FACTORY_TYPE factory)",18, 54, 0, 0

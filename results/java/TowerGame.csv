@@ -1,0 +1,384 @@
+File, Function, Length, Total Width, Leading Space(s), Leading Tab(s)
+repos/java/TowerGame/core/src/com/xqs/mypaoku/MyPaokuGame.java,"MyPaokuGame::MyPaokuGame( ActionService actionService , int language)",4, 64, 0, 1
+repos/java/TowerGame/core/src/com/xqs/mypaoku/MyPaokuGame.java,"MyPaokuGame::MyPaokuGame()",3, 26, 0, 2
+repos/java/TowerGame/core/src/com/xqs/mypaoku/MyPaokuGame.java,"MyPaokuGame::create()",86, 99, 0, 2
+repos/java/TowerGame/core/src/com/xqs/mypaoku/MyPaokuGame.java,"MyPaokuGame::showMenuScreen( int from)",24, 41, 0, 3
+repos/java/TowerGame/core/src/com/xqs/mypaoku/MyPaokuGame.java,"MyPaokuGame::showLevelScreen()",15, 40, 0, 2
+repos/java/TowerGame/core/src/com/xqs/mypaoku/MyPaokuGame.java,"MyPaokuGame::showHelpScreen()",13, 40, 0, 2
+repos/java/TowerGame/core/src/com/xqs/mypaoku/MyPaokuGame.java,"MyPaokuGame::showGameScreen( int level)",14, 56, 0, 4
+repos/java/TowerGame/core/src/com/xqs/mypaoku/MyPaokuGame.java,"MyPaokuGame::setFading( boolean fading)",3, 40, 0, 1
+repos/java/TowerGame/core/src/com/xqs/mypaoku/MyPaokuGame.java,"MyPaokuGame::shareApp()",5, 27, 0, 3
+repos/java/TowerGame/core/src/com/xqs/mypaoku/MyPaokuGame.java,"MyPaokuGame::render()",25, 71, 0, 3
+repos/java/TowerGame/core/src/com/xqs/mypaoku/MyPaokuGame.java,"MyPaokuGame::dispose()",17, 30, 0, 2
+repos/java/TowerGame/core/src/com/xqs/mypaoku/MyPaokuGame.java,"MyPaokuGame::getWorldWidth()",3, 32, 0, 1
+repos/java/TowerGame/core/src/com/xqs/mypaoku/MyPaokuGame.java,"MyPaokuGame::getWorldHeight()",3, 33, 0, 1
+repos/java/TowerGame/core/src/com/xqs/mypaoku/MyPaokuGame.java,"MyPaokuGame::getGraWidth()",3, 29, 0, 1
+repos/java/TowerGame/core/src/com/xqs/mypaoku/MyPaokuGame.java,"MyPaokuGame::getGraHeight()",3, 30, 0, 1
+repos/java/TowerGame/core/src/com/xqs/mypaoku/MyPaokuGame.java,"MyPaokuGame::getAssetManager()",3, 41, 0, 1
+repos/java/TowerGame/core/src/com/xqs/mypaoku/MyPaokuGame.java,"MyPaokuGame::getAtlas()",3, 34, 0, 1
+repos/java/TowerGame/core/src/com/xqs/mypaoku/MyPaokuGame.java,"MyPaokuGame::getFpsBitmapFont()",3, 39, 0, 1
+repos/java/TowerGame/core/src/com/xqs/mypaoku/MyPaokuGame.java,"MyPaokuGame::getGameScreen()",3, 37, 0, 1
+repos/java/TowerGame/core/src/com/xqs/mypaoku/MyPaokuGame.java,"MyPaokuGame::FPSDebug::init( BitmapFont fpsBitmapFont , int fontRawPixSize)",12, 74, 0, 3
+repos/java/TowerGame/core/src/com/xqs/mypaoku/MyPaokuGame.java,"MyPaokuGame::FPSDebug::render()",8, 82, 0, 4
+repos/java/TowerGame/core/src/com/xqs/mypaoku/MyPaokuGame.java,"MyPaokuGame::FPSDebug::dispose()",9, 40, 0, 3
+repos/java/TowerGame/core/src/com/xqs/mypaoku/app/Prefs.java,"Prefs::getPrefs()",3, 36, 4, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/app/Prefs.java,"Prefs::getInstance()",4, 64, 8, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/app/Prefs.java,"Prefs::clear()",3, 31, 8, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/app/Prefs.java,"Prefs::setSoundEffectsEnabled( boolean state)",3, 55, 4, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/app/Prefs.java,"Prefs::isSoundEffectsEnabled()",3, 53, 8, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/app/Prefs.java,"Prefs::getPassedLevel()",3, 50, 8, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/app/Prefs.java,"Prefs::setPassedLevel( int level)",6, 59, 12, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/app/Prefs.java,"Prefs::getPv()",3, 47, 8, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/app/Prefs.java,"Prefs::addPv()",4, 49, 8, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/app/Prefs.java,"Prefs::getPlayerBulletOneLeftNumber()",3, 88, 8, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/app/Prefs.java,"Prefs::setPlayerBulletOneLeftNumber( int number)",3, 80, 8, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/app/Prefs.java,"Prefs::getPlayerBulletTwoLeftNumber()",3, 88, 8, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/app/Prefs.java,"Prefs::setPlayerBulletTwoLeftNumber( int number)",3, 80, 8, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/util/LocaleUtil.java,"LocaleUtil::initText( int locale)",30, 107, 36, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/util/Util.java,"Util::log( String tag , String message)",5, 55, 4, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/util/Box2DManager.java,"Box2DManager::createWorld()",7, 65, 8, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/util/Box2DManager.java,"Box2DManager::createBody( World world , float positionX , float positionY)",10, 83, 4, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/util/Box2DManager.java,"Box2DManager::removeBodies( World world)",10, 69, 12, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/util/Box2DManager.java,"Box2DManager::createFixture( Body body)",15, 58, 8, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/util/Box2DManager.java,"Box2DManager::doPhysicsStep( World world)",5, 116, 12, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/util/TextureUtil.java,"TextureUtil::getTextureRegions( TextureRegion region , int rows , int cols)",17, 93, 4, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/util/CollisionUtils.java,"CollisionUtils::isCollision( Actor actor1 , Actor actor2 , float depth)",48, 98, 16, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/screen/GameScreen.java,"GameScreen::GameScreen( MyPaokuGame mainGame)",3, 46, 4, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/screen/GameScreen.java,"GameScreen::init( int level)",8, 58, 8, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/screen/GameScreen.java,"GameScreen::render( float delta)",11, 38, 4, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/screen/GameScreen.java,"GameScreen::dispose()",7, 35, 0, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/screen/GameScreen.java,"GameScreen::getMainGame()",3, 39, 4, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/screen/GameScreen.java,"GameScreen::getGameStage()",3, 38, 4, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/screen/HelpScreen.java,"HelpScreen::HelpScreen( MyPaokuGame game)",7, 73, 8, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/screen/HelpScreen.java,"HelpScreen::init()",3, 48, 8, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/screen/HelpScreen.java,"HelpScreen::render( float delta)",8, 38, 4, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/screen/HelpScreen.java,"HelpScreen::dispose()",7, 33, 8, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/screen/MenuScreen.java,"MenuScreen::MenuScreen( MyPaokuGame mainGame)",8, 77, 8, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/screen/MenuScreen.java,"MenuScreen::init()",3, 48, 8, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/screen/MenuScreen.java,"MenuScreen::render( float delta)",8, 38, 4, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/screen/MenuScreen.java,"MenuScreen::dispose()",7, 33, 8, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/screen/LevelScreen.java,"LevelScreen::LevelScreen( MyPaokuGame game)",7, 75, 8, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/screen/LevelScreen.java,"LevelScreen::init()",3, 49, 8, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/screen/LevelScreen.java,"LevelScreen::render( float delta)",8, 38, 4, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/screen/LevelScreen.java,"LevelScreen::dispose()",7, 34, 8, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/screen/SplashScreen.java,"SplashScreen::SplashScreen( MyPaokuGame mainGame)",12, 81, 8, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/screen/SplashScreen.java,"SplashScreen::render( float delta)",8, 38, 4, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/screen/SplashScreen.java,"SplashScreen::dispose()",7, 35, 8, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/stage/GameStage.java,"GameStage::GameStage( MyPaokuGame mainGame , Viewport viewport)",3, 65, 4, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/stage/GameStage.java,"GameStage::getInstance( MyPaokuGame game)",12, 73, 4, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/stage/GameStage.java,"GameStage::init( int currentLevelIndex)",87, 72, 0, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/stage/GameStage.java,"GameStage::replay()",3, 33, 8, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/stage/GameStage.java,"GameStage::next()",8, 56, 8, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/stage/GameStage.java,"GameStage::gameOver()",5, 42, 8, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/stage/GameStage.java,"GameStage::updateLifes()",22, 77, 12, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/stage/GameStage.java,"GameStage::ready()",21, 47, 8, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/stage/GameStage.java,"GameStage::getGameState()",3, 39, 4, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/stage/GameStage.java,"GameStage::setGameState( int state)",3, 49, 4, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/stage/GameStage.java,"GameStage::generatePlayerBullet( int bulletType , int clickX , int clickY , float positionX , float positionY)",13, 118, 12, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/stage/GameStage.java,"GameStage::generateEnemyBullet( int bulletType , float positionX , float positionY)",25, 100, 12, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/stage/GameStage.java,"GameStage::generateEnemy( int type)",47, 68, 12, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/stage/GameStage.java,"GameStage::showPopup()",29, 54, 8, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/stage/GameStage.java,"GameStage::hidePopup()",27, 35, 8, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/stage/GameStage.java,"GameStage::minusLife()",3, 33, 8, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/stage/GameStage.java,"GameStage::act( float delta)",85, 107, 16, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/stage/GameStage.java,"GameStage::draw()",15, 47, 12, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/stage/GameStage.java,"GameStage::drawBullets()",15, 75, 16, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/stage/GameStage.java,"GameStage::orderAct( float delta , int counter)",65, 72, 16, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/stage/GameStage.java,"GameStage::touchUp( int screenX , int screenY , int pointer , int button)",41, 93, 24, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/stage/SplashStage.java,"SplashStage::SplashStage( MyPaokuGame mainGame , Viewport viewport)",8, 66, 4, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/stage/SplashStage.java,"SplashStage::orderAct( float delta , int counter)",6, 66, 12, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/stage/SplashStage.java,"SplashStage::draw()",3, 25, 4, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/stage/SplashStage.java,"SplashStage::act( float delta)",3, 35, 4, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/stage/HelpStage.java,"HelpStage::HelpStage( MyPaokuGame mainGame , Viewport viewport)",21, 70, 12, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/stage/HelpStage.java,"HelpStage::orderAct( float delta , int counter)",4, 53, 4, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/stage/MenuStage.java,"MenuStage::MenuStage( final MyPaokuGame mainGame , Viewport viewport)",66, 70, 4, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/stage/MenuStage.java,"MenuStage::orderAct( float delta , int counter)",2, 53, 4, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/stage/MenuStage.java,"MenuStage::touchUp( int screenX , int screenY , int pointer , int button)",3, 80, 4, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/stage/LevelStage.java,"LevelStage::LevelStage( MyPaokuGame mainGame , Viewport viewport)",16, 64, 4, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/stage/LevelStage.java,"LevelStage::orderAct( float delta , int counter)",3, 53, 4, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/stage/LevelStage.java,"LevelStage::initLevelIcon()",31, 54, 8, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/stage/LevelStage.java,"LevelStage::setClick()",10, 70, 12, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/stage/base/BaseStage.java,"BaseStage::BaseStage( MyPaokuGame mainGame , Viewport viewport)",4, 64, 4, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/stage/base/BaseStage.java,"BaseStage::clearCounter()",5, 33, 4, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/stage/base/BaseStage.java,"BaseStage::getMainGame()",3, 39, 4, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/stage/base/BaseStage.java,"BaseStage::setMainGame( MyPaokuGame mainGame)",3, 52, 4, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/stage/base/BaseStage.java,"BaseStage::isVisible()",3, 33, 4, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/stage/base/BaseStage.java,"BaseStage::setVisible( boolean visible)",3, 46, 4, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/stage/base/BaseStage.java,"BaseStage::act( float delta)",22, 78, 8, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/actor/Tower.java,"Tower::Tower( MyPaokuGame mainGame)",14, 65, 8, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/actor/Tower.java,"Tower::getStopX()",3, 34, 4, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/actor/Tower.java,"Tower::draw( Batch batch , float parentAlpha)",3, 55, 4, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/actor/SplashActor.java,"SplashActor::SplashActor( MyPaokuGame mainGame)",8, 67, 8, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/actor/Bg.java,"Bg::Bg( MyPaokuGame mainGame)",9, 63, 8, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/actor/Bg.java,"Bg::act( float delta)",3, 35, 4, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/actor/SoundHelper.java,"SoundHelper::initSound( MyPaokuGame game)",14, 71, 8, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/actor/SoundHelper.java,"SoundHelper::getSound( MyPaokuGame game , String name)",3, 64, 4, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/actor/SoundHelper.java,"SoundHelper::getMusic( MyPaokuGame game , String name)",3, 64, 4, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/actor/SoundHelper.java,"SoundHelper::playBgMusic()",8, 69, 8, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/actor/SoundHelper.java,"SoundHelper::pauseBgMusic()",3, 39, 4, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/actor/SoundHelper.java,"SoundHelper::stopAllSound()",6, 39, 4, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/actor/SoundHelper.java,"SoundHelper::playPass()",6, 69, 8, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/actor/SoundHelper.java,"SoundHelper::playGameOver()",6, 69, 8, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/actor/SoundHelper.java,"SoundHelper::playScore()",6, 69, 8, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/actor/SoundHelper.java,"SoundHelper::playButtonSound()",6, 69, 8, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/actor/SoundHelper.java,"SoundHelper::playFireSound()",6, 69, 8, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/actor/SoundHelper.java,"SoundHelper::playExplodeSound()",6, 69, 8, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/actor/SoundHelper.java,"SoundHelper::playGetCoinSound()",6, 69, 8, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/actor/SoundHelper.java,"SoundHelper::playSwitchGunSound()",6, 69, 8, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/actor/Bullet.java,"Bullet::Bullet( MyPaokuGame game , int type , int screenX , int screenY , float positionX , float positionY , World world)",50, 121, 4, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/actor/Bullet.java,"Bullet::Bullet( MyPaokuGame game , int type , float positionX , float positionY , World world)",3, 95, 4, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/actor/Bullet.java,"Bullet::setState( int state)",3, 38, 4, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/actor/Bullet.java,"Bullet::getState()",3, 28, 4, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/actor/Bullet.java,"Bullet::setType( int type)",35, 108, 16, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/actor/Bullet.java,"Bullet::explode()",6, 44, 12, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/actor/Bullet.java,"Bullet::act( float delta)",82, 144, 8, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/actor/Player.java,"Player::Player( MyPaokuGame mainGame)",19, 100, 8, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/actor/Player.java,"Player::setLife( int life)",3, 35, 4, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/actor/Player.java,"Player::getLife()",3, 26, 4, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/actor/Player.java,"Player::minusLife()",8, 55, 8, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/actor/Player.java,"Player::shoot()",5, 39, 8, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/actor/Player.java,"Player::setCurrentAnimation( int state)",10, 49, 16, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/actor/Player.java,"Player::setState( int state)",3, 38, 4, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/actor/Player.java,"Player::getState()",3, 27, 4, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/actor/Player.java,"Player::act( float delta)",15, 87, 16, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/actor/framework/AnimationActor.java,"AnimationActor::AnimationActor()",2, 30, 4, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/actor/framework/AnimationActor.java,"AnimationActor::AnimationActor( float frameDuration , Array<?extends TextureRegion> keyFrames)",3, 91, 4, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/actor/framework/AnimationActor.java,"AnimationActor::AnimationActor( float frameDuration , TextureRegion ... keyFrames)",3, 77, 4, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/actor/framework/AnimationActor.java,"AnimationActor::AnimationActor( Animation animation)",3, 49, 4, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/actor/framework/AnimationActor.java,"AnimationActor::getStateTime()",3, 33, 4, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/actor/framework/AnimationActor.java,"AnimationActor::act( float delta)",34, 96, 16, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/actor/framework/AnimationActor.java,"AnimationActor::getAnimation()",3, 38, 4, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/actor/framework/AnimationActor.java,"AnimationActor::setAnimation( Animation animation)",17, 77, 16, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/actor/framework/AnimationActor.java,"AnimationActor::isPlayAnimation()",3, 39, 4, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/actor/framework/AnimationActor.java,"AnimationActor::setPlayAnimation( boolean isPlayAnimation)",3, 60, 4, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/actor/framework/AnimationActor.java,"AnimationActor::getFixedShowKeyFrameIndex()",3, 45, 4, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/actor/framework/AnimationActor.java,"AnimationActor::setFixedShowKeyFrameIndex( int fixedShowKeyFrameIndex)",3, 72, 4, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/actor/framework/ImageActor.java,"ImageActor::ImageActor()",2, 26, 4, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/actor/framework/ImageActor.java,"ImageActor::ImageActor( TextureRegion region)",4, 78, 8, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/actor/framework/ImageActor.java,"ImageActor::getRegion()",3, 39, 4, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/actor/framework/ImageActor.java,"ImageActor::setRegion( TextureRegion region)",8, 82, 12, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/actor/framework/ImageActor.java,"ImageActor::draw( Batch batch , float parentAlpha)",28, 74, 8, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/actor/framework/ImageActor.java,"ImageActor::setTopY( float topY)",3, 38, 4, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/actor/framework/ImageActor.java,"ImageActor::getTopY()",3, 37, 8, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/actor/framework/ImageActor.java,"ImageActor::setRightX( float rightX)",3, 42, 4, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/actor/framework/ImageActor.java,"ImageActor::getRightX()",3, 36, 8, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/actor/framework/ImageActor.java,"ImageActor::setCenter( float centerX , float centerY)",4, 58, 4, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/actor/framework/ImageActor.java,"ImageActor::setCenterX( float centerX)",3, 44, 4, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/actor/framework/ImageActor.java,"ImageActor::setCenterY( float centerY)",3, 44, 4, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/actor/enemy/DacongEnemy.java,"DacongEnemy::DacongEnemy( MyPaokuGame mainGame)",14, 47, 4, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/actor/enemy/DacongEnemy.java,"DacongEnemy::getWalkAnimation()",5, 111, 8, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/actor/enemy/DacongEnemy.java,"DacongEnemy::getFireAnimation()",3, 42, 4, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/actor/enemy/DacongEnemy.java,"DacongEnemy::getHurtAnimation()",5, 111, 8, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/actor/enemy/DacongEnemy.java,"DacongEnemy::act( float delta)",3, 35, 4, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/actor/enemy/DacongEnemy.java,"DacongEnemy::orderAct( float delta , int counter)",8, 61, 16, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/actor/enemy/LajiaoEnemy.java,"LajiaoEnemy::LajiaoEnemy( MyPaokuGame mainGame)",11, 50, 8, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/actor/enemy/LajiaoEnemy.java,"LajiaoEnemy::fire()",4, 108, 8, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/actor/enemy/LajiaoEnemy.java,"LajiaoEnemy::getWalkAnimation()",5, 111, 8, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/actor/enemy/LajiaoEnemy.java,"LajiaoEnemy::getFireAnimation()",3, 42, 4, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/actor/enemy/LajiaoEnemy.java,"LajiaoEnemy::getHurtAnimation()",5, 107, 8, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/actor/enemy/LajiaoEnemy.java,"LajiaoEnemy::orderAct( float delta , int counter)",14, 61, 16, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/actor/enemy/QieziEnemy.java,"QieziEnemy::QieziEnemy( MyPaokuGame mainGame)",13, 50, 8, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/actor/enemy/QieziEnemy.java,"QieziEnemy::getWalkAnimation()",5, 110, 8, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/actor/enemy/QieziEnemy.java,"QieziEnemy::getFireAnimation()",5, 106, 8, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/actor/enemy/QieziEnemy.java,"QieziEnemy::getHurtAnimation()",5, 106, 8, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/actor/enemy/QieziEnemy.java,"QieziEnemy::orderAct( float delta , int counter)",14, 61, 16, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/actor/enemy/CaihuaEnemy.java,"CaihuaEnemy::CaihuaEnemy( MyPaokuGame mainGame)",14, 50, 8, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/actor/enemy/CaihuaEnemy.java,"CaihuaEnemy::fire()",4, 108, 8, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/actor/enemy/CaihuaEnemy.java,"CaihuaEnemy::getWalkAnimation()",5, 111, 8, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/actor/enemy/CaihuaEnemy.java,"CaihuaEnemy::getFireAnimation()",3, 46, 8, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/actor/enemy/CaihuaEnemy.java,"CaihuaEnemy::getHurtAnimation()",5, 111, 8, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/actor/enemy/CaihuaEnemy.java,"CaihuaEnemy::act( float delta)",4, 35, 4, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/actor/enemy/CaihuaEnemy.java,"CaihuaEnemy::orderAct( float delta , int counter)",11, 61, 16, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/actor/enemy/QiukuiEnemy.java,"QiukuiEnemy::QiukuiEnemy( MyPaokuGame mainGame)",13, 50, 8, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/actor/enemy/QiukuiEnemy.java,"QiukuiEnemy::fire()",4, 119, 8, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/actor/enemy/QiukuiEnemy.java,"QiukuiEnemy::getWalkAnimation()",5, 111, 8, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/actor/enemy/QiukuiEnemy.java,"QiukuiEnemy::getFireAnimation()",5, 107, 8, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/actor/enemy/QiukuiEnemy.java,"QiukuiEnemy::getHurtAnimation()",5, 107, 8, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/actor/enemy/QiukuiEnemy.java,"QiukuiEnemy::orderAct( float delta , int counter)",14, 61, 16, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/actor/enemy/LuoboEnemy.java,"LuoboEnemy::LuoboEnemy( MyPaokuGame mainGame)",13, 50, 8, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/actor/enemy/LuoboEnemy.java,"LuoboEnemy::getWalkAnimation()",5, 110, 8, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/actor/enemy/LuoboEnemy.java,"LuoboEnemy::getFireAnimation()",5, 106, 8, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/actor/enemy/LuoboEnemy.java,"LuoboEnemy::getHurtAnimation()",5, 106, 8, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/actor/enemy/LuoboEnemy.java,"LuoboEnemy::orderAct( float delta , int counter)",14, 61, 16, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/actor/enemy/YutouEnemy.java,"YutouEnemy::YutouEnemy( MyPaokuGame mainGame)",13, 50, 8, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/actor/enemy/YutouEnemy.java,"YutouEnemy::getWalkAnimation()",5, 110, 8, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/actor/enemy/YutouEnemy.java,"YutouEnemy::getFireAnimation()",3, 42, 4, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/actor/enemy/YutouEnemy.java,"YutouEnemy::getHurtAnimation()",5, 106, 8, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/actor/enemy/YutouEnemy.java,"YutouEnemy::orderAct( float delta , int counter)",8, 61, 16, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/actor/enemy/HuangguaEnemy.java,"HuangguaEnemy::HuangguaEnemy( MyPaokuGame mainGame)",11, 50, 8, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/actor/enemy/HuangguaEnemy.java,"HuangguaEnemy::getWalkAnimation()",5, 113, 8, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/actor/enemy/HuangguaEnemy.java,"HuangguaEnemy::getFireAnimation()",3, 42, 4, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/actor/enemy/HuangguaEnemy.java,"HuangguaEnemy::getHurtAnimation()",5, 109, 8, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/actor/enemy/HuangguaEnemy.java,"HuangguaEnemy::orderAct( float delta , int counter)",8, 61, 16, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/actor/enemy/MushuEnemy.java,"MushuEnemy::MushuEnemy( MyPaokuGame mainGame)",11, 50, 8, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/actor/enemy/MushuEnemy.java,"MushuEnemy::getWalkAnimation()",5, 110, 8, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/actor/enemy/MushuEnemy.java,"MushuEnemy::getFireAnimation()",5, 106, 8, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/actor/enemy/MushuEnemy.java,"MushuEnemy::getHurtAnimation()",5, 106, 8, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/actor/enemy/MushuEnemy.java,"MushuEnemy::orderAct( float delta , int counter)",14, 61, 16, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/actor/enemy/WoniuEnemy.java,"WoniuEnemy::WoniuEnemy( MyPaokuGame mainGame)",15, 50, 8, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/actor/enemy/WoniuEnemy.java,"WoniuEnemy::getWalkAnimation()",5, 110, 8, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/actor/enemy/WoniuEnemy.java,"WoniuEnemy::getFireAnimation()",3, 42, 4, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/actor/enemy/WoniuEnemy.java,"WoniuEnemy::getHurtAnimation()",5, 110, 8, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/actor/enemy/WoniuEnemy.java,"WoniuEnemy::orderAct( float delta , int counter)",8, 61, 16, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/actor/enemy/PlaneEnemy.java,"PlaneEnemy::PlaneEnemy( MyPaokuGame mainGame)",14, 50, 8, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/actor/enemy/PlaneEnemy.java,"PlaneEnemy::getWalkAnimation()",5, 110, 8, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/actor/enemy/PlaneEnemy.java,"PlaneEnemy::getFireAnimation()",5, 110, 8, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/actor/enemy/PlaneEnemy.java,"PlaneEnemy::getHurtAnimation()",5, 110, 8, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/actor/enemy/PlaneEnemy.java,"PlaneEnemy::fire()",4, 106, 8, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/actor/enemy/PlaneEnemy.java,"PlaneEnemy::act( float delta)",22, 38, 16, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/actor/enemy/PlaneEnemy.java,"PlaneEnemy::orderAct( float delta , int counter)",5, 53, 4, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/actor/enemy/YangcongEnemy.java,"YangcongEnemy::YangcongEnemy( MyPaokuGame mainGame)",11, 50, 8, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/actor/enemy/YangcongEnemy.java,"YangcongEnemy::fire()",4, 110, 8, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/actor/enemy/YangcongEnemy.java,"YangcongEnemy::getWalkAnimation()",5, 113, 8, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/actor/enemy/YangcongEnemy.java,"YangcongEnemy::getFireAnimation()",3, 42, 4, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/actor/enemy/YangcongEnemy.java,"YangcongEnemy::getHurtAnimation()",5, 109, 8, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/actor/enemy/YangcongEnemy.java,"YangcongEnemy::orderAct( float delta , int counter)",12, 61, 16, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/actor/bullet/PlayerTwoBullet.java,"PlayerTwoBullet::PlayerTwoBullet( MyPaokuGame game , int clickX , int clickY , float positionX , float positionY , World world)",3, 118, 4, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/actor/bullet/PlayerTwoBullet.java,"PlayerTwoBullet::getPlayerFlyAnimation()",5, 109, 8, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/actor/bullet/PlayerTwoBullet.java,"PlayerTwoBullet::getPlayerExplodeAnimation()",5, 106, 8, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/actor/bullet/PlayerTwoBullet.java,"PlayerTwoBullet::getPlayerBulletType()",3, 39, 4, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/actor/bullet/PlaneBullet.java,"PlaneBullet::PlaneBullet( MyPaokuGame game , float positionX , float positionY , World world)",6, 90, 4, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/actor/bullet/PlaneBullet.java,"PlaneBullet::getFlyAnimation()",5, 104, 8, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/actor/bullet/PlaneBullet.java,"PlaneBullet::getExplodeAnimation()",5, 106, 8, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/actor/bullet/PlaneBullet.java,"PlaneBullet::getBulletType()",3, 33, 4, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/actor/bullet/PlaneBullet.java,"PlaneBullet::act( float delta)",24, 94, 16, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/actor/bullet/CaihuaBullet.java,"CaihuaBullet::CaihuaBullet( MyPaokuGame game , float positionX , float positionY , World world)",6, 90, 4, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/actor/bullet/CaihuaBullet.java,"CaihuaBullet::getFlyAnimation()",5, 102, 8, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/actor/bullet/CaihuaBullet.java,"CaihuaBullet::getExplodeAnimation()",5, 106, 8, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/actor/bullet/CaihuaBullet.java,"CaihuaBullet::getBulletType()",3, 33, 4, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/actor/bullet/LajiaoBullet.java,"LajiaoBullet::LajiaoBullet( MyPaokuGame game , float positionX , float positionY , World world)",6, 90, 4, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/actor/bullet/LajiaoBullet.java,"LajiaoBullet::getFlyAnimation()",5, 105, 8, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/actor/bullet/LajiaoBullet.java,"LajiaoBullet::getExplodeAnimation()",5, 106, 8, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/actor/bullet/LajiaoBullet.java,"LajiaoBullet::getBulletType()",3, 33, 4, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/actor/bullet/YangcongBullet.java,"YangcongBullet::YangcongBullet( MyPaokuGame game , float positionX , float positionY , World world)",6, 93, 4, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/actor/bullet/YangcongBullet.java,"YangcongBullet::getFlyAnimation()",5, 107, 8, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/actor/bullet/YangcongBullet.java,"YangcongBullet::getExplodeAnimation()",5, 106, 8, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/actor/bullet/YangcongBullet.java,"YangcongBullet::getBulletType()",3, 33, 4, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/actor/bullet/QiukuiBullet.java,"QiukuiBullet::QiukuiBullet( MyPaokuGame game , float positionX , float positionY , World world)",6, 90, 4, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/actor/bullet/QiukuiBullet.java,"QiukuiBullet::getFlyAnimation()",5, 105, 8, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/actor/bullet/QiukuiBullet.java,"QiukuiBullet::getExplodeAnimation()",5, 106, 8, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/actor/bullet/QiukuiBullet.java,"QiukuiBullet::getBulletType()",3, 33, 4, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/actor/bullet/PlayerOneBullet.java,"PlayerOneBullet::PlayerOneBullet( MyPaokuGame game , int clickX , int clickY , float positionX , float positionY , World world)",3, 118, 4, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/actor/bullet/PlayerOneBullet.java,"PlayerOneBullet::getPlayerFlyAnimation()",5, 102, 8, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/actor/bullet/PlayerOneBullet.java,"PlayerOneBullet::getPlayerExplodeAnimation()",5, 106, 8, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/actor/bullet/PlayerOneBullet.java,"PlayerOneBullet::getPlayerBulletType()",3, 39, 4, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/actor/bullet/Player2Bullet.java,"Player2Bullet::Player2Bullet( MyPaokuGame game , int screenX , int screenY , float positionX , float positionY , World world)",23, 117, 4, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/actor/bullet/Player2Bullet.java,"Player2Bullet::getFlyAnimation()",5, 102, 8, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/actor/bullet/Player2Bullet.java,"Player2Bullet::getExplodeAnimation()",5, 106, 8, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/actor/bullet/Player2Bullet.java,"Player2Bullet::getBulletType()",3, 33, 4, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/actor/bullet/Player2Bullet.java,"Player2Bullet::act( float delta)",23, 94, 16, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/actor/menu/QuitButton.java,"QuitButton::QuitButton( MyPaokuGame mainGame)",23, 83, 8, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/actor/menu/QuitButton.java,"QuitButton::initFont()",3, 55, 8, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/actor/menu/QuitButton.java,"QuitButton::draw( Batch batch , float parentAlpha)",10, 145, 0, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/actor/menu/FacebookButton.java,"FacebookButton::FacebookButton( final MyPaokuGame game)",19, 70, 12, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/actor/menu/SoundButton.java,"SoundButton::SoundButton( MyPaokuGame game)",13, 79, 8, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/actor/menu/SoundButton.java,"SoundButton::setCurrentRegion()",8, 80, 8, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/actor/menu/SoundButton.java,"SoundButton::press()",5, 80, 8, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/actor/menu/MenuBg.java,"MenuBg::MenuBg( MyPaokuGame mainGame)",9, 67, 8, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/actor/menu/StartButton.java,"StartButton::StartButton( MyPaokuGame mainGame)",22, 80, 8, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/actor/menu/StartButton.java,"StartButton::initFont()",4, 55, 8, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/actor/menu/StartButton.java,"StartButton::draw( Batch batch , float parentAlpha)",13, 150, 0, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/actor/menu/HelpButton.java,"HelpButton::HelpButton( MyPaokuGame mainGame)",22, 80, 8, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/actor/menu/HelpButton.java,"HelpButton::initFont()",4, 55, 8, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/actor/menu/HelpButton.java,"HelpButton::draw( Batch batch , float parentAlpha)",13, 145, 0, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/actor/level/LevelBg.java,"LevelBg::LevelBg( MyPaokuGame mainGame)",9, 66, 8, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/actor/level/BackButton.java,"BackButton::BackButton( MyPaokuGame mainGame)",10, 74, 8, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/actor/level/LevelIcon.java,"LevelIcon::LevelIcon( MyPaokuGame mainGame , final int fromLevel)",28, 70, 12, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/actor/level/LevelIcon.java,"LevelIcon::initFont()",4, 55, 8, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/actor/level/LevelIcon.java,"LevelIcon::updateIcon()",8, 57, 8, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/actor/level/LevelIcon.java,"LevelIcon::act( float delta)",3, 35, 4, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/actor/level/LevelIcon.java,"LevelIcon::draw( Batch batch , float parentAlpha)",13, 165, 12, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/actor/level/LevelIcon.java,"LevelIcon::orderAct( float delta , int counter)",5, 53, 4, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/actor/npc/Fade.java,"Fade::Fade( MyPaokuGame game)",4, 45, 8, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/actor/npc/Fade.java,"Fade::draw( Batch batch , float parentAlpha)",13, 76, 8, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/actor/npc/BulletOneBg.java,"BulletOneBg::BulletOneBg( MyPaokuGame mainGame)",34, 102, 8, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/actor/npc/BulletOneBg.java,"BulletOneBg::initFont()",4, 55, 8, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/actor/npc/BulletOneBg.java,"BulletOneBg::setMode( int mode)",3, 36, 4, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/actor/npc/BulletOneBg.java,"BulletOneBg::draw( Batch batch , float parentAlpha)",22, 125, 12, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/actor/npc/Play.java,"Play::Play( MyPaokuGame mainGame)",20, 133, 8, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/actor/npc/Pause.java,"Pause::Pause( MyPaokuGame mainGame)",13, 79, 8, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/actor/npc/Life.java,"Life::Life( MyPaokuGame mainGame)",11, 60, 8, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/actor/npc/Popup.java,"Popup::Popup( MyPaokuGame mainGame)",13, 133, 8, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/actor/npc/BulletTwoBg.java,"BulletTwoBg::BulletTwoBg( MyPaokuGame mainGame)",33, 102, 8, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/actor/npc/BulletTwoBg.java,"BulletTwoBg::initFont()",4, 55, 8, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/actor/npc/BulletTwoBg.java,"BulletTwoBg::setMode( int mode)",3, 36, 4, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/actor/npc/BulletTwoBg.java,"BulletTwoBg::draw( Batch batch , float parentAlpha)",19, 125, 12, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/actor/npc/Finger.java,"Finger::Finger( MyPaokuGame mainGame)",12, 60, 8, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/actor/npc/NoBulletPopup.java,"NoBulletPopup::NoBulletPopup( MyPaokuGame mainGame)",15, 124, 8, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/actor/npc/NoBulletPopup.java,"NoBulletPopup::draw( Batch batch , float parentAlpha)",12, 141, 8, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/actor/npc/NoBulletPopup.java,"NoBulletPopup::initFont()",4, 55, 8, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/actor/npc/NoBulletPopup.java,"NoBulletPopup::setNoBulletPopupVisible()",4, 43, 4, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/actor/npc/NoBulletPopup.java,"NoBulletPopup::orderAct( float delta , int counter)",8, 53, 4, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/actor/npc/Menu.java,"Menu::Menu( MyPaokuGame mainGame)",19, 133, 8, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/actor/npc/Replay.java,"Replay::Replay( MyPaokuGame mainGame)",21, 133, 8, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/actor/npc/Next.java,"Next::Next( MyPaokuGame mainGame)",20, 133, 8, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/actor/npc/Score.java,"Score::Score( MyPaokuGame game)",13, 95, 8, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/actor/npc/Score.java,"Score::draw( Batch batch , float parentAlpha)",51, 55, 4, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/actor/npc/Score.java,"Score::drawNum( Batch batch , char num , float sx , float sy)",23, 70, 4, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/actor/npc/HelpPopup.java,"HelpPopup::HelpPopup( MyPaokuGame mainGame)",14, 124, 8, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/actor/npc/HelpPopup.java,"HelpPopup::draw( Batch batch , float parentAlpha)",12, 108, 0, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/actor/npc/HelpPopup.java,"HelpPopup::initFont()",4, 55, 8, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/actor/npc/HelpPopup.java,"HelpPopup::orderAct( float delta , int counter)",3, 53, 4, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/actor/npc/Weapon.java,"Weapon::Weapon( MyPaokuGame mainGame)",14, 85, 8, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/actor/npc/Weapon.java,"Weapon::draw( Batch batch , float parentAlpha)",6, 72, 8, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/actor/base/BaseBullet.java,"BaseBullet::BaseBullet( MyPaokuGame game , float positionX , float positionY , World world)",3, 89, 4, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/actor/base/BaseBullet.java,"BaseBullet::BaseBullet( MyPaokuGame game , int clickX , int clickY , float positionX , float positionY , World world)",41, 113, 4, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/actor/base/BaseBullet.java,"BaseBullet::setLife( int life)",3, 35, 4, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/actor/base/BaseBullet.java,"BaseBullet::getLife()",3, 26, 4, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/actor/base/BaseBullet.java,"BaseBullet::setState( int state)",3, 38, 4, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/actor/base/BaseBullet.java,"BaseBullet::getState()",3, 28, 4, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/actor/base/BaseBullet.java,"BaseBullet::explode()",7, 44, 12, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/actor/base/BaseBullet.java,"BaseBullet::act( float delta)",43, 144, 8, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/actor/base/BasePlayerBullet.java,"BasePlayerBullet::BasePlayerBullet( MyPaokuGame game , int clickX , int clickY , float positionX , float positionY , World world)",20, 119, 4, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/actor/base/BasePlayerBullet.java,"BasePlayerBullet::getFlyAnimation()",3, 41, 4, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/actor/base/BasePlayerBullet.java,"BasePlayerBullet::getExplodeAnimation()",3, 45, 4, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/actor/base/BasePlayerBullet.java,"BasePlayerBullet::getBulletType()",3, 38, 8, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/actor/base/BasePlayerBullet.java,"BasePlayerBullet::act( float delta)",24, 94, 16, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/actor/base/BaseImageActor.java,"BaseImageActor::BaseImageActor( MyPaokuGame mainGame)",3, 50, 4, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/actor/base/BaseImageActor.java,"BaseImageActor::setTimerListener( TimerListener listener)",3, 58, 4, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/actor/base/BaseImageActor.java,"BaseImageActor::BaseImageActor( MyPaokuGame mainGame , TextureRegion region)",4, 72, 4, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/actor/base/BaseImageActor.java,"BaseImageActor::getMainGame()",3, 39, 4, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/actor/base/BaseImageActor.java,"BaseImageActor::setMainGame( MyPaokuGame mainGame)",3, 52, 4, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/actor/base/BaseImageActor.java,"BaseImageActor::act( float delta)",13, 51, 16, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/actor/base/BaseAnimationActor.java,"BaseAnimationActor::BaseAnimationActor( MyPaokuGame mainGame)",3, 54, 4, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/actor/base/BaseAnimationActor.java,"BaseAnimationActor::BaseAnimationActor( MyPaokuGame mainGame , Animation animation)",4, 75, 4, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/actor/base/BaseAnimationActor.java,"BaseAnimationActor::BaseAnimationActor( MyPaokuGame mainGame , float frameDuration , Array<?extends TextureRegion> keyFrames)",4, 117, 4, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/actor/base/BaseAnimationActor.java,"BaseAnimationActor::BaseAnimationActor( MyPaokuGame mainGame , float frameDuration , TextureRegion ... keyFrames)",4, 103, 4, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/actor/base/BaseAnimationActor.java,"BaseAnimationActor::getMainGame()",3, 39, 4, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/actor/base/BaseAnimationActor.java,"BaseAnimationActor::setMainGame( MyPaokuGame mainGame)",3, 52, 4, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/actor/base/MyAnimation.java,"MyAnimation::MyAnimation( float frameDuration , Object [ ] keyFrames)",3, 66, 4, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/actor/base/MyAnimation.java,"MyAnimation::setTag( String tag)",3, 36, 4, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/actor/base/MyAnimation.java,"MyAnimation::getTag()",3, 28, 4, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/actor/base/BaseGroup.java,"BaseGroup::BaseGroup( MyPaokuGame mainGame)",3, 45, 4, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/actor/base/BaseGroup.java,"BaseGroup::getMainGame()",3, 39, 4, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/actor/base/BaseGroup.java,"BaseGroup::setMainGame( MyPaokuGame mainGame)",3, 52, 4, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/actor/base/BaseGroup.java,"BaseGroup::setTopY( float topY)",3, 38, 4, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/actor/base/BaseGroup.java,"BaseGroup::getTopY()",3, 37, 8, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/actor/base/BaseGroup.java,"BaseGroup::setRightX( float rightX)",3, 42, 4, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/actor/base/BaseGroup.java,"BaseGroup::getRightX()",3, 36, 8, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/actor/base/BaseGroup.java,"BaseGroup::setCenter( float centerX , float centerY)",4, 58, 4, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/actor/base/BaseGroup.java,"BaseGroup::setCenterX( float centerX)",3, 44, 4, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/actor/base/BaseGroup.java,"BaseGroup::setCenterY( float centerY)",3, 44, 4, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/actor/base/BaseEnemy.java,"BaseEnemy::BaseEnemy( MyPaokuGame mainGame)",14, 74, 12, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/actor/base/BaseEnemy.java,"BaseEnemy::setLife( int life)",3, 35, 4, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/actor/base/BaseEnemy.java,"BaseEnemy::getLife()",3, 26, 4, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/actor/base/BaseEnemy.java,"BaseEnemy::setStopX( int stopX)",3, 37, 4, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/actor/base/BaseEnemy.java,"BaseEnemy::getStopX()",3, 27, 4, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/actor/base/BaseEnemy.java,"BaseEnemy::setDeltaSpeed( int speed)",3, 42, 4, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/actor/base/BaseEnemy.java,"BaseEnemy::setType( int type)",3, 35, 4, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/actor/base/BaseEnemy.java,"BaseEnemy::getType()",3, 26, 4, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/actor/base/BaseEnemy.java,"BaseEnemy::walk()",4, 35, 8, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/actor/base/BaseEnemy.java,"BaseEnemy::fire()",6, 39, 12, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/actor/base/BaseEnemy.java,"BaseEnemy::hurt()",4, 35, 8, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/actor/base/BaseEnemy.java,"BaseEnemy::setState( int state)",3, 37, 4, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/actor/base/BaseEnemy.java,"BaseEnemy::getState()",3, 27, 4, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/actor/base/BaseEnemy.java,"BaseEnemy::setCurrentAnimation( int state)",13, 48, 4, 0
+repos/java/TowerGame/core/src/com/xqs/mypaoku/actor/base/BaseEnemy.java,"BaseEnemy::act( float delta)",49, 86, 16, 0
+repos/java/TowerGame/desktop/src/com/xqs/mypaoku/desktop/DesktopLauncher.java,"DesktopLauncher::main( String [ ] args)",11, 78, 0, 2
+repos/java/TowerGame/android/src/com/xqs/mypaoku/Util.java,"Util::getLanguage( Context context)",20, 61, 8, 0
+repos/java/TowerGame/android/src/com/xqs/mypaoku/AndroidLauncher.java,"AndroidLauncher::onCreate( Bundle savedInstanceState)",8, 82, 0, 2
+repos/java/TowerGame/android/src/com/xqs/mypaoku/AndroidLauncher.java,"AndroidLauncher::onResume()",4, 29, 0, 1
+repos/java/TowerGame/android/src/com/xqs/mypaoku/AndroidLauncher.java,"AndroidLauncher::onPause()",4, 28, 0, 1
+repos/java/TowerGame/android/src/com/xqs/mypaoku/AndroidLauncher.java,"AndroidLauncher::onDestroy()",6, 62, 0, 2
+repos/java/TowerGame/android/src/com/xqs/mypaoku/AndroidLauncher.java,"AndroidLauncher::onKeyDown( int keyCode , KeyEvent event)",6, 57, 0, 1
+repos/java/TowerGame/android/src/com/xqs/mypaoku/AndroidLauncher.java,"AndroidLauncher::dosomething()",8, 104, 0, 4

@@ -152,7 +152,7 @@ def main():
                 fullpath = os.path.join(root, file)
                 if extensions:
                     for extension in extensions:
-                        if extension in fullpath:
+                        if fullpath.endswith(extension):
                             lfile = lizard.analyze_file(fullpath)
                             lfiles.append(lfile)
                 else:

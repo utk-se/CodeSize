@@ -1,0 +1,1379 @@
+File, Function, Length, Total Width, Leading Space(s), Leading Tab(s)
+repos/cpp/olive/oliveglobal.cpp,"OliveGlobal::OliveGlobal()",17, 85, 2, 0
+repos/cpp/olive/oliveglobal.cpp,"OliveGlobal::get_project_file_filter()",3, 56, 0, 0
+repos/cpp/olive/oliveglobal.cpp,"OliveGlobal::update_project_filename( const QString & s)",7, 62, 0, 0
+repos/cpp/olive/oliveglobal.cpp,"OliveGlobal::check_for_autorecovery_file()",16, 221, 6, 0
+repos/cpp/olive/oliveglobal.cpp,"OliveGlobal::set_rendering_state( bool rendering)",8, 56, 0, 0
+repos/cpp/olive/oliveglobal.cpp,"OliveGlobal::load_project_on_launch( const QString & s)",4, 61, 0, 0
+repos/cpp/olive/oliveglobal.cpp,"OliveGlobal::get_recent_project_list_file()",3, 54, 0, 0
+repos/cpp/olive/oliveglobal.cpp,"OliveGlobal::load_translation_from_config()",25, 112, 6, 0
+repos/cpp/olive/oliveglobal.cpp,"OliveGlobal::new_project()",18, 57, 4, 0
+repos/cpp/olive/oliveglobal.cpp,"OliveGlobal::open_project()",6, 112, 2, 0
+repos/cpp/olive/oliveglobal.cpp,"OliveGlobal::open_recent( int index)",15, 127, 10, 0
+repos/cpp/olive/oliveglobal.cpp,"OliveGlobal::save_project_as()",12, 115, 2, 0
+repos/cpp/olive/oliveglobal.cpp,"OliveGlobal::save_project()",8, 48, 2, 0
+repos/cpp/olive/oliveglobal.cpp,"OliveGlobal::can_close_project()",20, 109, 10, 0
+repos/cpp/olive/oliveglobal.cpp,"OliveGlobal::open_export_dialog()",11, 81, 29, 0
+repos/cpp/olive/oliveglobal.cpp,"OliveGlobal::finished_initialize()",28, 110, 4, 0
+repos/cpp/olive/oliveglobal.cpp,"OliveGlobal::save_autorecovery_file()",6, 47, 2, 0
+repos/cpp/olive/oliveglobal.cpp,"OliveGlobal::open_preferences()",8, 56, 2, 0
+repos/cpp/olive/oliveglobal.cpp,"OliveGlobal::set_sequence( SequencePtr s)",9, 46, 0, 0
+repos/cpp/olive/oliveglobal.cpp,"OliveGlobal::open_project_worker( const QString & fn , bool autorecovery)",5, 78, 0, 0
+repos/cpp/olive/oliveglobal.cpp,"OliveGlobal::undo()",7, 79, 2, 0
+repos/cpp/olive/oliveglobal.cpp,"OliveGlobal::redo()",7, 79, 2, 0
+repos/cpp/olive/oliveglobal.cpp,"OliveGlobal::paste()",5, 42, 2, 0
+repos/cpp/olive/oliveglobal.cpp,"OliveGlobal::paste_insert()",5, 42, 2, 0
+repos/cpp/olive/oliveglobal.cpp,"OliveGlobal::open_about_dialog()",4, 40, 0, 0
+repos/cpp/olive/oliveglobal.cpp,"OliveGlobal::open_debug_log()",3, 37, 0, 0
+repos/cpp/olive/oliveglobal.cpp,"OliveGlobal::open_speed_dialog()",11, 76, 4, 0
+repos/cpp/olive/oliveglobal.cpp,"OliveGlobal::clear_undo_stack()",3, 39, 0, 0
+repos/cpp/olive/oliveglobal.cpp,"OliveGlobal::open_action_search()",4, 41, 0, 0
+repos/cpp/olive/mainwindow.cpp,"MainWindow::setup_layout( bool reset)",118, 117, 12, 0
+repos/cpp/olive/mainwindow.cpp,"MainWindow::MainWindow( QWidget * parent)",136, 173, 8, 0
+repos/cpp/olive/mainwindow.cpp,"MainWindow::~MainWindow()",4, 28, 0, 0
+repos/cpp/olive/mainwindow.cpp,"kbd_shortcut_processor( QByteArray & file , QMenu * menu , bool save , bool first)",49, 98, 10, 0
+repos/cpp/olive/mainwindow.cpp,"MainWindow::load_shortcuts( const QString & fn)",13, 71, 2, 0
+repos/cpp/olive/mainwindow.cpp,"MainWindow::save_shortcuts( const QString & fn)",16, 62, 4, 0
+repos/cpp/olive/mainwindow.cpp,"MainWindow::load_css_from_file( const QString & fn)",10, 61, 2, 0
+repos/cpp/olive/mainwindow.cpp,"MainWindow::editMenu_About_To_Be_Shown()",4, 55, 2, 0
+repos/cpp/olive/mainwindow.cpp,"MainWindow::setup_menus()",361, 159, 2, 0
+repos/cpp/olive/mainwindow.cpp,"MainWindow::Retranslate()",135, 118, 2, 0
+repos/cpp/olive/mainwindow.cpp,"MainWindow::updateTitle()",6, 94, 45, 0
+repos/cpp/olive/mainwindow.cpp,"MainWindow::closeEvent( QCloseEvent * e)",80, 136, 8, 0
+repos/cpp/olive/mainwindow.cpp,"MainWindow::paintEvent( QPaintEvent * event)",23, 116, 5, 0
+repos/cpp/olive/mainwindow.cpp,"MainWindow::changeEvent( QEvent * e)",14, 67, 4, 0
+repos/cpp/olive/mainwindow.cpp,"MainWindow::reset_layout()",3, 34, 0, 0
+repos/cpp/olive/mainwindow.cpp,"MainWindow::maximize_panel()",27, 91, 6, 0
+repos/cpp/olive/mainwindow.cpp,"MainWindow::windowMenu_About_To_Be_Shown()",9, 95, 6, 0
+repos/cpp/olive/mainwindow.cpp,"MainWindow::playbackMenu_About_To_Be_Shown()",3, 59, 2, 0
+repos/cpp/olive/mainwindow.cpp,"MainWindow::viewMenu_About_To_Be_Shown()",26, 129, 29, 0
+repos/cpp/olive/mainwindow.cpp,"MainWindow::toolMenu_About_To_Be_Shown()",31, 96, 2, 0
+repos/cpp/olive/mainwindow.cpp,"MainWindow::toggle_panel_visibility()",9, 85, 2, 0
+repos/cpp/olive/mainwindow.cpp,"MainWindow::set_panels_locked( bool locked)",20, 94, 6, 0
+repos/cpp/olive/mainwindow.cpp,"MainWindow::fileMenu_About_To_Be_Shown()",17, 95, 6, 0
+repos/cpp/olive/mainwindow.cpp,"MainWindow::toggle_full_screen()",8, 113, 4, 0
+repos/cpp/olive/debug.cpp,"open_debug_file()",12, 87, 12, 0
+repos/cpp/olive/debug.cpp,"close_debug_file()",6, 31, 4, 0
+repos/cpp/olive/debug.cpp,"debug_message_handler( QtMsgType type , const QMessageLogContext & context , const QString & msg)",52, 122, 23, 0
+repos/cpp/olive/debug.cpp,"get_debug_str()",4, 31, 0, 0
+repos/cpp/olive/main.cpp,"main( int argc , char * argv [ ])",114, 106, 2, 0
+repos/cpp/olive/ui/keyframeview.cpp,"KeyframeView::KeyframeView( QWidget * parent)",18, 114, 2, 0
+repos/cpp/olive/ui/keyframeview.cpp,"KeyframeView::show_context_menu( const QPoint & pos)",17, 90, 4, 0
+repos/cpp/olive/ui/keyframeview.cpp,"KeyframeView::menu_set_key_type( QAction * a)",14, 95, 6, 0
+repos/cpp/olive/ui/keyframeview.cpp,"KeyframeView::paintEvent( QPaintEvent *)",90, 209, 12, 0
+repos/cpp/olive/ui/keyframeview.cpp,"KeyframeView::wheelEvent( QWheelEvent * e)",3, 48, 0, 0
+repos/cpp/olive/ui/keyframeview.cpp,"KeyframeView::keyframeIsSelected( EffectField * field , int keyframe)",8, 82, 4, 0
+repos/cpp/olive/ui/keyframeview.cpp,"KeyframeView::update_keys()",4, 41, 2, 0
+repos/cpp/olive/ui/keyframeview.cpp,"KeyframeView::delete_selected_keyframes()",3, 57, 2, 0
+repos/cpp/olive/ui/keyframeview.cpp,"KeyframeView::set_x_scroll( int s)",4, 41, 0, 0
+repos/cpp/olive/ui/keyframeview.cpp,"KeyframeView::set_y_scroll( int s)",4, 41, 0, 0
+repos/cpp/olive/ui/keyframeview.cpp,"KeyframeView::resize_move( double d)",5, 52, 2, 0
+repos/cpp/olive/ui/keyframeview.cpp,"KeyframeView::mousePressEvent( QMouseEvent * event)",93, 164, 10, 0
+repos/cpp/olive/ui/keyframeview.cpp,"KeyframeView::mouseMoveEvent( QMouseEvent * event)",99, 146, 4, 0
+repos/cpp/olive/ui/keyframeview.cpp,"KeyframeView::mouseReleaseEvent( QMouseEvent *)",20, 85, 19, 0
+repos/cpp/olive/ui/keyframedrawing.cpp,"draw_keyframe( QPainter & p , int type , int x , int y , bool darker , int r , int g , int b)",26, 154, 0, 2
+repos/cpp/olive/ui/keyframedrawing.cpp,"adjust_row_keyframe( EffectRow * row , long time , long visible_in)",5, 73, 8, 0
+repos/cpp/olive/ui/viewerwindow.cpp,"ViewerWindow::ViewerWindow( QWidget * parent)",11, 91, 2, 0
+repos/cpp/olive/ui/viewerwindow.cpp,"ViewerWindow::set_texture( GLuint t , double iar , QMutex * imutex)",6, 71, 0, 0
+repos/cpp/olive/ui/viewerwindow.cpp,"ViewerWindow::keyPressEvent( QKeyEvent * e)",5, 49, 0, 0
+repos/cpp/olive/ui/viewerwindow.cpp,"ViewerWindow::mousePressEvent( QMouseEvent * e)",5, 71, 2, 0
+repos/cpp/olive/ui/viewerwindow.cpp,"ViewerWindow::mouseMoveEvent( QMouseEvent *)",7, 51, 0, 0
+repos/cpp/olive/ui/viewerwindow.cpp,"ViewerWindow::paintGL()",81, 72, 32, 0
+repos/cpp/olive/ui/viewerwindow.cpp,"ViewerWindow::fullscreen_msg_timeout()",7, 46, 0, 0
+repos/cpp/olive/ui/mediaiconservice.cpp,"MediaIconService::MediaIconService()",8, 82, 2, 0
+repos/cpp/olive/ui/mediaiconservice.cpp,"MediaIconService::SetMediaIcon( Media * media , int icon_type)",45, 85, 6, 0
+repos/cpp/olive/ui/mediaiconservice.cpp,"MediaIconService::AnimationUpdate()",17, 127, 2, 0
+repos/cpp/olive/ui/viewercontainer.cpp,"ViewerContainer::ViewerContainer( QWidget * parent)",20, 89, 0, 1
+repos/cpp/olive/ui/viewercontainer.cpp,"ViewerContainer::~ViewerContainer()",1, 39, 0, 0
+repos/cpp/olive/ui/viewercontainer.cpp,"ViewerContainer::dragScrollPress( const QPoint & p)",7, 57, 0, 0
+repos/cpp/olive/ui/viewercontainer.cpp,"ViewerContainer::dragScrollMove( const QPoint & p)",7, 70, 0, 1
+repos/cpp/olive/ui/viewercontainer.cpp,"ViewerContainer::parseWheelEvent( QWheelEvent * event)",7, 60, 0, 0
+repos/cpp/olive/ui/viewercontainer.cpp,"ViewerContainer::adjust()",71, 112, 16, 0
+repos/cpp/olive/ui/viewercontainer.cpp,"ViewerContainer::adjust_scrollbars()",9, 87, 0, 1
+repos/cpp/olive/ui/viewercontainer.cpp,"ViewerContainer::resizeEvent( QResizeEvent * event)",4, 57, 0, 0
+repos/cpp/olive/ui/viewercontainer.cpp,"ViewerContainer::scroll_changed()",6, 83, 0, 4
+repos/cpp/olive/ui/labelslider.cpp,"LabelSlider::LabelSlider( QWidget * parent)",20, 114, 2, 0
+repos/cpp/olive/ui/labelslider.cpp,"LabelSlider::set_frame_rate( double d)",3, 45, 0, 0
+repos/cpp/olive/ui/labelslider.cpp,"LabelSlider::set_display_type( int type)",4, 47, 0, 0
+repos/cpp/olive/ui/labelslider.cpp,"LabelSlider::set_value( double v , bool userSet)",15, 54, 0, 0
+repos/cpp/olive/ui/labelslider.cpp,"LabelSlider::is_set()",3, 29, 0, 0
+repos/cpp/olive/ui/labelslider.cpp,"LabelSlider::is_dragging()",3, 34, 0, 0
+repos/cpp/olive/ui/labelslider.cpp,"LabelSlider::valueToString()",31, 89, 6, 0
+repos/cpp/olive/ui/labelslider.cpp,"LabelSlider::getPreviousValue()",3, 41, 0, 0
+repos/cpp/olive/ui/labelslider.cpp,"LabelSlider::set_previous_value()",3, 41, 0, 0
+repos/cpp/olive/ui/labelslider.cpp,"LabelSlider::set_color( QString c)",4, 102, 2, 0
+repos/cpp/olive/ui/labelslider.cpp,"LabelSlider::value()",3, 30, 0, 0
+repos/cpp/olive/ui/labelslider.cpp,"LabelSlider::set_default_value( double v)",7, 48, 0, 0
+repos/cpp/olive/ui/labelslider.cpp,"LabelSlider::set_minimum_value( double v)",4, 48, 0, 0
+repos/cpp/olive/ui/labelslider.cpp,"LabelSlider::set_maximum_value( double v)",4, 48, 0, 0
+repos/cpp/olive/ui/labelslider.cpp,"LabelSlider::mousePressEvent( QMouseEvent * ev)",36, 69, 6, 0
+repos/cpp/olive/ui/labelslider.cpp,"LabelSlider::mouseMoveEvent( QMouseEvent * event)",41, 89, 4, 0
+repos/cpp/olive/ui/labelslider.cpp,"LabelSlider::mouseReleaseEvent( QMouseEvent *)",24, 52, 0, 0
+repos/cpp/olive/ui/labelslider.cpp,"LabelSlider::set_default_cursor()",3, 41, 0, 0
+repos/cpp/olive/ui/labelslider.cpp,"LabelSlider::set_active_cursor()",3, 40, 0, 0
+repos/cpp/olive/ui/labelslider.cpp,"LabelSlider::show_context_menu( const QPoint & pos)",12, 81, 2, 0
+repos/cpp/olive/ui/labelslider.cpp,"LabelSlider::reset_to_default_value()",14, 72, 2, 0
+repos/cpp/olive/ui/labelslider.cpp,"LabelSlider::prompt_for_value()",76, 78, 4, 0
+repos/cpp/olive/ui/playbutton.cpp,"PlayButton::PlayButton( QWidget * parent)",7, 62, 0, 0
+repos/cpp/olive/ui/checkboxex.cpp,"CheckboxEx::CheckboxEx( QWidget * parent)",3, 73, 0, 0
+repos/cpp/olive/ui/checkboxex.cpp,"CheckboxEx::checkbox_command()",4, 49, 0, 1
+repos/cpp/olive/ui/collapsiblewidget.cpp,"CollapsibleWidget::CollapsibleWidget( QWidget * parent)",31, 88, 2, 0
+repos/cpp/olive/ui/collapsiblewidget.cpp,"CollapsibleWidget::header_click( bool s , bool deselect)",12, 65, 4, 0
+repos/cpp/olive/ui/collapsiblewidget.cpp,"CollapsibleWidget::is_focused()",4, 39, 0, 0
+repos/cpp/olive/ui/collapsiblewidget.cpp,"CollapsibleWidget::is_expanded()",3, 40, 0, 0
+repos/cpp/olive/ui/collapsiblewidget.cpp,"CollapsibleWidget::set_button_icon( bool open)",3, 85, 2, 0
+repos/cpp/olive/ui/collapsiblewidget.cpp,"CollapsibleWidget::setContents( QWidget * c)",9, 88, 4, 0
+repos/cpp/olive/ui/collapsiblewidget.cpp,"CollapsibleWidget::setText( const QString & s)",3, 52, 0, 0
+repos/cpp/olive/ui/collapsiblewidget.cpp,"CollapsibleWidget::on_enabled_change( bool b)",3, 52, 0, 0
+repos/cpp/olive/ui/collapsiblewidget.cpp,"CollapsibleWidget::on_visible_change()",5, 48, 2, 0
+repos/cpp/olive/ui/collapsiblewidget.cpp,"CollapsibleWidgetHeader::CollapsibleWidgetHeader( QWidget * parent)",3, 103, 0, 0
+repos/cpp/olive/ui/collapsiblewidget.cpp,"CollapsibleWidgetHeader::mousePressEvent( QMouseEvent * event)",11, 70, 4, 0
+repos/cpp/olive/ui/collapsiblewidget.cpp,"CollapsibleWidgetHeader::paintEvent( QPaintEvent * event)",7, 63, 0, 0
+repos/cpp/olive/ui/colorbutton.cpp,"ColorButton::ColorButton( QWidget * parent)",5, 66, 0, 1
+repos/cpp/olive/ui/colorbutton.cpp,"ColorButton::get_color()",3, 34, 0, 0
+repos/cpp/olive/ui/colorbutton.cpp,"ColorButton::set_color( QColor c)",5, 40, 0, 0
+repos/cpp/olive/ui/colorbutton.cpp,"ColorButton::getPreviousValue()",3, 48, 0, 0
+repos/cpp/olive/ui/colorbutton.cpp,"ColorButton::set_button_color()",5, 40, 0, 1
+repos/cpp/olive/ui/colorbutton.cpp,"ColorButton::open_dialog()",8, 77, 0, 1
+repos/cpp/olive/ui/colorbutton.cpp,"ColorCommand::ColorCommand( ColorButton * s , QColor o , QColor n)",2, 63, 0, 0
+repos/cpp/olive/ui/colorbutton.cpp,"ColorCommand::undo()",3, 31, 0, 1
+repos/cpp/olive/ui/colorbutton.cpp,"ColorCommand::redo()",3, 31, 0, 1
+repos/cpp/olive/ui/icons.cpp,"olive::icon::CreateIconFromSVG( const QString & path)",20, 68, 2, 0
+repos/cpp/olive/ui/icons.cpp,"olive::icon::Initialize()",27, 75, 2, 0
+repos/cpp/olive/ui/viewerwidget.cpp,"ViewerWidget::ViewerWidget( QWidget * parent)",24, 101, 2, 0
+repos/cpp/olive/ui/viewerwidget.cpp,"ViewerWidget::~ViewerWidget()",4, 32, 0, 0
+repos/cpp/olive/ui/viewerwidget.cpp,"ViewerWidget::delete_function()",3, 39, 0, 0
+repos/cpp/olive/ui/viewerwidget.cpp,"ViewerWidget::set_waveform_scroll( int s)",6, 48, 0, 0
+repos/cpp/olive/ui/viewerwidget.cpp,"ViewerWidget::set_fullscreen( int screen)",9, 90, 4, 0
+repos/cpp/olive/ui/viewerwidget.cpp,"ViewerWidget::show_context_menu()",42, 109, 58, 0
+repos/cpp/olive/ui/viewerwidget.cpp,"ViewerWidget::save_frame()",17, 159, 2, 0
+repos/cpp/olive/ui/viewerwidget.cpp,"ViewerWidget::queue_repaint()",3, 37, 0, 0
+repos/cpp/olive/ui/viewerwidget.cpp,"ViewerWidget::fullscreen_menu_action( QAction * action)",7, 61, 0, 0
+repos/cpp/olive/ui/viewerwidget.cpp,"ViewerWidget::set_fit_zoom()",4, 36, 0, 0
+repos/cpp/olive/ui/viewerwidget.cpp,"ViewerWidget::set_custom_zoom()",12, 82, 37, 0
+repos/cpp/olive/ui/viewerwidget.cpp,"ViewerWidget::set_menu_zoom( QAction * action)",8, 52, 0, 0
+repos/cpp/olive/ui/viewerwidget.cpp,"ViewerWidget::retry()",3, 29, 0, 0
+repos/cpp/olive/ui/viewerwidget.cpp,"ViewerWidget::initializeGL()",5, 105, 2, 0
+repos/cpp/olive/ui/viewerwidget.cpp,"ViewerWidget::frame_update()",14, 100, 4, 0
+repos/cpp/olive/ui/viewerwidget.cpp,"ViewerWidget::get_renderer()",3, 45, 0, 0
+repos/cpp/olive/ui/viewerwidget.cpp,"ViewerWidget::set_scroll( double x , double y)",5, 52, 0, 0
+repos/cpp/olive/ui/viewerwidget.cpp,"ViewerWidget::seek_from_click( int x)",3, 75, 2, 0
+repos/cpp/olive/ui/viewerwidget.cpp,"ViewerWidget::context_destroy()",8, 39, 0, 0
+repos/cpp/olive/ui/viewerwidget.cpp,"ViewerWidget::get_gizmo_from_mouse( int x , int y)",36, 81, 8, 0
+repos/cpp/olive/ui/viewerwidget.cpp,"ViewerWidget::move_gizmos( QMouseEvent * event , bool done)",18, 146, 4, 0
+repos/cpp/olive/ui/viewerwidget.cpp,"ViewerWidget::mousePressEvent( QMouseEvent * event)",20, 98, 2, 0
+repos/cpp/olive/ui/viewerwidget.cpp,"ViewerWidget::mouseMoveEvent( QMouseEvent * event)",31, 100, 4, 0
+repos/cpp/olive/ui/viewerwidget.cpp,"ViewerWidget::mouseReleaseEvent( QMouseEvent * event)",9, 59, 0, 0
+repos/cpp/olive/ui/viewerwidget.cpp,"ViewerWidget::wheelEvent( QWheelEvent * event)",3, 52, 0, 0
+repos/cpp/olive/ui/viewerwidget.cpp,"ViewerWidget::close_window()",3, 36, 0, 0
+repos/cpp/olive/ui/viewerwidget.cpp,"ViewerWidget::draw_waveform_func()",20, 141, 2, 0
+repos/cpp/olive/ui/viewerwidget.cpp,"ViewerWidget::draw_title_safe_area()",67, 110, 2, 0
+repos/cpp/olive/ui/viewerwidget.cpp,"ViewerWidget::draw_gizmos()",68, 113, 6, 0
+repos/cpp/olive/ui/viewerwidget.cpp,"ViewerWidget::paintGL()",79, 124, 4, 0
+repos/cpp/olive/ui/scrollarea.cpp,"ScrollArea::ScrollArea( QWidget * parent)",1, 65, 0, 0
+repos/cpp/olive/ui/scrollarea.cpp,"ScrollArea::wheelEvent( QWheelEvent * e)",13, 46, 0, 0
+repos/cpp/olive/ui/clickablelabel.cpp,"ClickableLabel::ClickableLabel( QWidget * parent , Qt :: WindowFlags f)",3, 69, 0, 0
+repos/cpp/olive/ui/clickablelabel.cpp,"ClickableLabel::ClickableLabel( const QString & text , QWidget * parent , Qt :: WindowFlags f)",3, 90, 0, 0
+repos/cpp/olive/ui/clickablelabel.cpp,"ClickableLabel::mousePressEvent( QMouseEvent *)",3, 54, 0, 0
+repos/cpp/olive/ui/updatenotification.cpp,"UpdateNotification::UpdateNotification()",4, 41, 0, 0
+repos/cpp/olive/ui/updatenotification.cpp,"UpdateNotification::check()",14, 99, 2, 0
+repos/cpp/olive/ui/updatenotification.cpp,"UpdateNotification::finished_slot( QNetworkReply * reply)",9, 103, 51, 0
+repos/cpp/olive/ui/focusfilter.cpp,"FocusFilter::FocusFilter()",1, 30, 0, 0
+repos/cpp/olive/ui/focusfilter.cpp,"FocusFilter::go_to_in()",8, 52, 2, 0
+repos/cpp/olive/ui/focusfilter.cpp,"FocusFilter::go_to_out()",8, 52, 2, 0
+repos/cpp/olive/ui/focusfilter.cpp,"FocusFilter::go_to_start()",8, 52, 2, 0
+repos/cpp/olive/ui/focusfilter.cpp,"FocusFilter::prev_frame()",8, 52, 2, 0
+repos/cpp/olive/ui/focusfilter.cpp,"FocusFilter::play_in_to_out()",8, 52, 2, 0
+repos/cpp/olive/ui/focusfilter.cpp,"FocusFilter::next_frame()",8, 52, 2, 0
+repos/cpp/olive/ui/focusfilter.cpp,"FocusFilter::go_to_end()",8, 52, 2, 0
+repos/cpp/olive/ui/focusfilter.cpp,"FocusFilter::set_viewer_fullscreen()",7, 60, 4, 0
+repos/cpp/olive/ui/focusfilter.cpp,"FocusFilter::set_marker()",13, 57, 4, 0
+repos/cpp/olive/ui/focusfilter.cpp,"FocusFilter::playpause()",8, 52, 2, 0
+repos/cpp/olive/ui/focusfilter.cpp,"FocusFilter::pause()",8, 52, 2, 0
+repos/cpp/olive/ui/focusfilter.cpp,"FocusFilter::increase_speed()",8, 52, 2, 0
+repos/cpp/olive/ui/focusfilter.cpp,"FocusFilter::decrease_speed()",8, 52, 2, 0
+repos/cpp/olive/ui/focusfilter.cpp,"FocusFilter::set_in_point()",7, 53, 2, 0
+repos/cpp/olive/ui/focusfilter.cpp,"FocusFilter::set_out_point()",7, 53, 2, 0
+repos/cpp/olive/ui/focusfilter.cpp,"FocusFilter::clear_in()",7, 53, 2, 0
+repos/cpp/olive/ui/focusfilter.cpp,"FocusFilter::clear_out()",7, 53, 2, 0
+repos/cpp/olive/ui/focusfilter.cpp,"FocusFilter::clear_inout()",7, 53, 2, 0
+repos/cpp/olive/ui/focusfilter.cpp,"FocusFilter::delete_function()",19, 80, 4, 0
+repos/cpp/olive/ui/focusfilter.cpp,"FocusFilter::duplicate()",5, 41, 4, 0
+repos/cpp/olive/ui/focusfilter.cpp,"FocusFilter::select_all()",8, 52, 2, 0
+repos/cpp/olive/ui/focusfilter.cpp,"FocusFilter::zoom_in()",12, 55, 2, 0
+repos/cpp/olive/ui/focusfilter.cpp,"FocusFilter::zoom_out()",12, 55, 2, 0
+repos/cpp/olive/ui/focusfilter.cpp,"FocusFilter::cut()",10, 54, 4, 0
+repos/cpp/olive/ui/focusfilter.cpp,"FocusFilter::copy()",10, 54, 4, 0
+repos/cpp/olive/ui/comboboxex.cpp,"ComboBoxExCommand::ComboBoxExCommand( ComboBoxEx * obj , int old_index , int new_index)",2, 137, 8, 0
+repos/cpp/olive/ui/comboboxex.cpp,"ComboBoxExCommand::undo()",5, 67, 8, 0
+repos/cpp/olive/ui/comboboxex.cpp,"ComboBoxExCommand::redo()",6, 52, 8, 0
+repos/cpp/olive/ui/comboboxex.cpp,"ComboBoxEx::ComboBoxEx( QWidget * parent)",3, 75, 4, 0
+repos/cpp/olive/ui/comboboxex.cpp,"ComboBoxEx::setCurrentIndexEx( int i)",4, 44, 0, 0
+repos/cpp/olive/ui/comboboxex.cpp,"ComboBoxEx::setCurrentTextEx( const QString & text)",4, 57, 0, 0
+repos/cpp/olive/ui/comboboxex.cpp,"ComboBoxEx::getPreviousIndex()",3, 37, 0, 0
+repos/cpp/olive/ui/comboboxex.cpp,"ComboBoxEx::index_changed( int i)",7, 60, 0, 0
+repos/cpp/olive/ui/comboboxex.cpp,"ComboBoxEx::wheelEvent( QWheelEvent * e)",3, 46, 0, 0
+repos/cpp/olive/ui/graphview.cpp,"get_curve_color( int index , int length)",6, 56, 2, 0
+repos/cpp/olive/ui/graphview.cpp,"GraphView::GraphView( QWidget * parent)",18, 114, 2, 0
+repos/cpp/olive/ui/graphview.cpp,"GraphView::show_context_menu( const QPoint & pos)",28, 94, 4, 0
+repos/cpp/olive/ui/graphview.cpp,"GraphView::reset_view()",8, 37, 2, 0
+repos/cpp/olive/ui/graphview.cpp,"GraphView::set_view_to_selection()",20, 109, 6, 0
+repos/cpp/olive/ui/graphview.cpp,"GraphView::set_view_to_all()",26, 68, 8, 0
+repos/cpp/olive/ui/graphview.cpp,"GraphView::set_view_to_rect( int x1 , double y1 , int x2 , double y2)",11, 79, 2, 0
+repos/cpp/olive/ui/graphview.cpp,"GraphView::draw_line_text( QPainter & p , bool vert , int line_no , int line_pos , int next_line_pos)",9, 103, 0, 0
+repos/cpp/olive/ui/graphview.cpp,"GraphView::draw_lines( QPainter & p , bool vert)",24, 79, 4, 0
+repos/cpp/olive/ui/graphview.cpp,"sort_keys_from_field( EffectField * field)",17, 87, 6, 0
+repos/cpp/olive/ui/graphview.cpp,"GraphView::paintEvent( QPaintEvent *)",134, 111, 24, 0
+repos/cpp/olive/ui/graphview.cpp,"GraphView::mousePressEvent( QMouseEvent * event)",106, 102, 14, 0
+repos/cpp/olive/ui/graphview.cpp,"GraphView::mouseMoveEvent( QMouseEvent * event)",231, 177, 12, 0
+repos/cpp/olive/ui/graphview.cpp,"GraphView::mouseReleaseEvent( QMouseEvent *)",36, 102, 8, 0
+repos/cpp/olive/ui/graphview.cpp,"GraphView::wheelEvent( QWheelEvent * event)",84, 106, 4, 0
+repos/cpp/olive/ui/graphview.cpp,"GraphView::set_row( EffectRow * r)",20, 67, 6, 0
+repos/cpp/olive/ui/graphview.cpp,"GraphView::set_selected_keyframe_type( int type)",11, 100, 6, 0
+repos/cpp/olive/ui/graphview.cpp,"GraphView::set_field_visibility( int field , bool b)",4, 58, 0, 0
+repos/cpp/olive/ui/graphview.cpp,"GraphView::delete_selected_keys()",9, 61, 6, 0
+repos/cpp/olive/ui/graphview.cpp,"GraphView::select_all()",14, 52, 6, 0
+repos/cpp/olive/ui/graphview.cpp,"GraphView::set_scroll_x( int s)",4, 38, 0, 0
+repos/cpp/olive/ui/graphview.cpp,"GraphView::set_scroll_y( int s)",4, 38, 0, 0
+repos/cpp/olive/ui/graphview.cpp,"GraphView::set_zoom( double xz , double yz)",5, 49, 0, 0
+repos/cpp/olive/ui/graphview.cpp,"GraphView::get_screen_x( double d)",6, 53, 4, 0
+repos/cpp/olive/ui/graphview.cpp,"GraphView::get_screen_y( double d)",3, 49, 2, 0
+repos/cpp/olive/ui/graphview.cpp,"GraphView::get_value_x( int i)",7, 57, 4, 0
+repos/cpp/olive/ui/graphview.cpp,"GraphView::get_value_y( int i)",3, 49, 2, 0
+repos/cpp/olive/ui/graphview.cpp,"GraphView::selection_update()",22, 107, 4, 0
+repos/cpp/olive/ui/embeddedfilechooser.cpp,"EmbeddedFileChooser::EmbeddedFileChooser( QWidget * parent)",11, 78, 0, 0
+repos/cpp/olive/ui/embeddedfilechooser.cpp,"EmbeddedFileChooser::getFilename()",3, 52, 0, 0
+repos/cpp/olive/ui/embeddedfilechooser.cpp,"EmbeddedFileChooser::getPreviousValue()",3, 57, 0, 0
+repos/cpp/olive/ui/embeddedfilechooser.cpp,"EmbeddedFileChooser::setFilename( const QString & s)",6, 58, 0, 0
+repos/cpp/olive/ui/embeddedfilechooser.cpp,"EmbeddedFileChooser::update_label()",18, 64, 0, 2
+repos/cpp/olive/ui/embeddedfilechooser.cpp,"EmbeddedFileChooser::browse()",6, 50, 0, 1
+repos/cpp/olive/ui/panel.cpp,"Panel::Panel( QWidget * parent)",6, 63, 0, 0
+repos/cpp/olive/ui/panel.cpp,"Panel::~Panel()",4, 33, 2, 0
+repos/cpp/olive/ui/panel.cpp,"Panel::LoadLayoutState( const QByteArray &)",1, 51, 0, 0
+repos/cpp/olive/ui/panel.cpp,"Panel::SaveLayoutState()",4, 36, 0, 0
+repos/cpp/olive/ui/panel.cpp,"Panel::changeEvent( QEvent * e)",17, 119, 6, 0
+repos/cpp/olive/ui/menuhelper.cpp,"MenuHelper::InitializeSharedMenus()",64, 148, 2, 0
+repos/cpp/olive/ui/menuhelper.cpp,"MenuHelper::make_new_menu( QMenu * parent)",6, 48, 0, 0
+repos/cpp/olive/ui/menuhelper.cpp,"MenuHelper::make_inout_menu( QMenu * parent)",8, 50, 0, 0
+repos/cpp/olive/ui/menuhelper.cpp,"MenuHelper::make_clip_functions_menu( QMenu * parent)",6, 59, 0, 0
+repos/cpp/olive/ui/menuhelper.cpp,"MenuHelper::make_edit_functions_menu( QMenu * parent)",10, 59, 0, 0
+repos/cpp/olive/ui/menuhelper.cpp,"MenuHelper::set_bool_action_checked( QAction * a)",6, 75, 4, 0
+repos/cpp/olive/ui/menuhelper.cpp,"MenuHelper::set_int_action_checked( QAction * a , const int & i)",5, 68, 0, 0
+repos/cpp/olive/ui/menuhelper.cpp,"MenuHelper::set_button_action_checked( QAction * a)",3, 91, 2, 0
+repos/cpp/olive/ui/menuhelper.cpp,"MenuHelper::Retranslate()",23, 66, 2, 0
+repos/cpp/olive/ui/menuhelper.cpp,"MenuHelper::toggle_bool_action()",6, 78, 2, 0
+repos/cpp/olive/ui/menuhelper.cpp,"MenuHelper::set_titlesafe_from_menu()",57, 174, 10, 0
+repos/cpp/olive/ui/menuhelper.cpp,"MenuHelper::set_autoscroll()",4, 60, 2, 0
+repos/cpp/olive/ui/menuhelper.cpp,"MenuHelper::menu_click_button()",3, 102, 2, 0
+repos/cpp/olive/ui/menuhelper.cpp,"MenuHelper::set_timecode_view()",5, 63, 2, 0
+repos/cpp/olive/ui/menuhelper.cpp,"MenuHelper::open_recent_from_menu()",4, 63, 2, 0
+repos/cpp/olive/ui/menuhelper.cpp,"MenuHelper::create_submenu( QMenuBar * parent , const QObject * receiver , const char * member)",19, 69, 4, 0
+repos/cpp/olive/ui/menuhelper.cpp,"MenuHelper::create_submenu( QMenu * parent)",12, 57, 2, 0
+repos/cpp/olive/ui/menuhelper.cpp,"MenuHelper::create_menu_action( QWidget * parent , const char * id , const QObject * receiver , const char * member , const QKeySequence & shortcut)",19, 73, 4, 0
+repos/cpp/olive/ui/keyframenavigator.cpp,"KeyframeNavigator::KeyframeNavigator( QWidget * parent , bool addLeftPad)",43, 97, 2, 0
+repos/cpp/olive/ui/keyframenavigator.cpp,"KeyframeNavigator::~KeyframeNavigator()",1, 43, 0, 0
+repos/cpp/olive/ui/keyframenavigator.cpp,"KeyframeNavigator::enable_keyframes( bool b)",3, 51, 0, 0
+repos/cpp/olive/ui/keyframenavigator.cpp,"KeyframeNavigator::enable_keyframe_toggle( bool b)",3, 57, 0, 0
+repos/cpp/olive/ui/keyframenavigator.cpp,"KeyframeNavigator::keyframe_ui_enabled( bool enabled)",5, 60, 0, 0
+repos/cpp/olive/ui/texteditex.cpp,"TextEditEx::TextEditEx( QWidget * parent)",5, 70, 0, 1
+repos/cpp/olive/ui/texteditex.cpp,"TextEditEx::getPlainTextEx()",3, 46, 0, 0
+repos/cpp/olive/ui/texteditex.cpp,"TextEditEx::setPlainTextEx( const QString & t)",5, 52, 0, 0
+repos/cpp/olive/ui/texteditex.cpp,"TextEditEx::getPreviousValue()",3, 48, 0, 0
+repos/cpp/olive/ui/texteditex.cpp,"TextEditEx::updateInternals()",4, 37, 0, 0
+repos/cpp/olive/ui/texteditex.cpp,"TextEditEx::updateText()",13, 36, 0, 1
+repos/cpp/olive/ui/timelinewidget.cpp,"TimelineWidget::TimelineWidget( QWidget * parent)",17, 114, 2, 0
+repos/cpp/olive/ui/timelinewidget.cpp,"TimelineWidget::show_context_menu( const QPoint & pos)",94, 115, 8, 0
+repos/cpp/olive/ui/timelinewidget.cpp,"TimelineWidget::toggle_autoscale()",14, 78, 4, 0
+repos/cpp/olive/ui/timelinewidget.cpp,"TimelineWidget::tooltip_timer_timeout()",17, 138, 29, 0
+repos/cpp/olive/ui/timelinewidget.cpp,"TimelineWidget::open_sequence_properties()",16, 134, 2, 0
+repos/cpp/olive/ui/timelinewidget.cpp,"TimelineWidget::show_clip_properties()",11, 74, 2, 0
+repos/cpp/olive/ui/timelinewidget.cpp,"same_sign( int a , int b)",3, 31, 0, 0
+repos/cpp/olive/ui/timelinewidget.cpp,"TimelineWidget::dragEnterEvent( QDragEnterEvent * event)",78, 106, 6, 0
+repos/cpp/olive/ui/timelinewidget.cpp,"TimelineWidget::dragMoveEvent( QDragMoveEvent * event)",13, 170, 6, 0
+repos/cpp/olive/ui/timelinewidget.cpp,"TimelineWidget::wheelEvent( QWheelEvent * event)",62, 80, 2, 0
+repos/cpp/olive/ui/timelinewidget.cpp,"TimelineWidget::dragLeaveEvent( QDragLeaveEvent * event)",16, 62, 0, 0
+repos/cpp/olive/ui/timelinewidget.cpp,"delete_area_under_ghosts( ComboAction * ca)",13, 68, 2, 0
+repos/cpp/olive/ui/timelinewidget.cpp,"insert_clips( ComboAction * ca)",78, 183, 12, 0
+repos/cpp/olive/ui/timelinewidget.cpp,"TimelineWidget::dropEvent( QDropEvent * event)",28, 94, 4, 0
+repos/cpp/olive/ui/timelinewidget.cpp,"TimelineWidget::mouseDoubleClickEvent( QMouseEvent * event)",25, 107, 6, 0
+repos/cpp/olive/ui/timelinewidget.cpp,"current_tool_shows_cursor()",3, 130, 2, 0
+repos/cpp/olive/ui/timelinewidget.cpp,"TimelineWidget::mousePressEvent( QMouseEvent * event)",277, 125, 16, 0
+repos/cpp/olive/ui/timelinewidget.cpp,"make_room_for_transition( ComboAction * ca , Clip * c , int type , long transition_start , long transition_end , bool delete_old_transitions , long timeline_in = - 1 , long timeline_out = - 1)",41, 113, 2, 0
+repos/cpp/olive/ui/timelinewidget.cpp,"VerifyTransitionsAfterCreating( ComboAction * ca , Clip * open , Clip * close , long transition_start , long transition_end)",89, 124, 0, 0
+repos/cpp/olive/ui/timelinewidget.cpp,"TimelineWidget::mouseReleaseEvent( QMouseEvent * event)",558, 136, 16, 0
+repos/cpp/olive/ui/timelinewidget.cpp,"TimelineWidget::init_ghosts()",39, 105, 6, 0
+repos/cpp/olive/ui/timelinewidget.cpp,"validate_transitions( Clip * c , int transition_type , long & frame_diff)",29, 76, 0, 0
+repos/cpp/olive/ui/timelinewidget.cpp,"TimelineWidget::update_ghosts( const QPoint & mouse_pos , bool lock_frame)",384, 228, 10, 0
+repos/cpp/olive/ui/timelinewidget.cpp,"TimelineWidget::mouseMoveEvent( QMouseEvent * event)",796, 178, 6, 0
+repos/cpp/olive/ui/timelinewidget.cpp,"TimelineWidget::leaveEvent( QEvent *)",3, 43, 0, 0
+repos/cpp/olive/ui/timelinewidget.cpp,"draw_waveform( ClipPtr clip , const FootageStream * ms , long media_length , QPainter * p , const QRect & clip_rect , int waveform_start , int waveform_limit , double zoom)",52, 169, 0, 0
+repos/cpp/olive/ui/timelinewidget.cpp,"draw_transition( QPainter & p , ClipPtr c , const QRect & clip_rect , QRect & text_rect , int transition_type)",49, 269, 4, 0
+repos/cpp/olive/ui/timelinewidget.cpp,"TimelineWidget::paintEvent( QPaintEvent *)",446, 251, 8, 0
+repos/cpp/olive/ui/timelinewidget.cpp,"TimelineWidget::resizeEvent( QResizeEvent *)",3, 51, 0, 0
+repos/cpp/olive/ui/timelinewidget.cpp,"TimelineWidget::is_track_visible( int track)",3, 51, 0, 0
+repos/cpp/olive/ui/timelinewidget.cpp,"TimelineWidget::getTrackFromScreenPoint( int y)",38, 121, 4, 0
+repos/cpp/olive/ui/timelinewidget.cpp,"TimelineWidget::getScreenPointFromTrack( int track)",19, 57, 0, 0
+repos/cpp/olive/ui/timelinewidget.cpp,"TimelineWidget::getClipIndexFromCoords( long frame , int track)",9, 105, 4, 0
+repos/cpp/olive/ui/timelinewidget.cpp,"TimelineWidget::setScroll( int s)",4, 40, 0, 0
+repos/cpp/olive/ui/timelinewidget.cpp,"TimelineWidget::reveal_media()",3, 48, 2, 0
+repos/cpp/olive/ui/fontcombobox.cpp,"FontCombobox::FontCombobox( QWidget * parent)",7, 84, 0, 1
+repos/cpp/olive/ui/fontcombobox.cpp,"FontCombobox::getPreviousValue()",3, 50, 0, 0
+repos/cpp/olive/ui/fontcombobox.cpp,"FontCombobox::updateInternals()",4, 39, 0, 0
+repos/cpp/olive/ui/audiomonitor.cpp,"AudioMonitor::AudioMonitor( QWidget * parent)",6, 64, 0, 1
+repos/cpp/olive/ui/audiomonitor.cpp,"AudioMonitor::set_value( const QVector<double> & ivalues)",6, 73, 0, 1
+repos/cpp/olive/ui/audiomonitor.cpp,"AudioMonitor::clear()",6, 29, 0, 0
+repos/cpp/olive/ui/audiomonitor.cpp,"AudioMonitor::resizeEvent( QResizeEvent * e)",7, 82, 0, 1
+repos/cpp/olive/ui/audiomonitor.cpp,"AudioMonitor::paintEvent( QPaintEvent *)",29, 95, 0, 3
+repos/cpp/olive/ui/cursors.cpp,"load_cursor( const QString & file , int hotX = - 1 , int hotY = - 1 , bool right_aligned = false)",19, 100, 0, 0
+repos/cpp/olive/ui/cursors.cpp,"olive::cursor::Initialize()",10, 69, 2, 0
+repos/cpp/olive/ui/sourceiconview.cpp,"SourceIconView::SourceIconView( QWidget * parent)",7, 100, 0, 1
+repos/cpp/olive/ui/sourceiconview.cpp,"SourceIconView::show_context_menu()",3, 77, 0, 1
+repos/cpp/olive/ui/sourceiconview.cpp,"SourceIconView::item_click( const QModelIndex & index)",5, 91, 0, 2
+repos/cpp/olive/ui/sourceiconview.cpp,"SourceIconView::mousePressEvent( QMouseEvent * event)",5, 66, 0, 1
+repos/cpp/olive/ui/sourceiconview.cpp,"SourceIconView::dragEnterEvent( QDragEnterEvent * event)",7, 62, 0, 0
+repos/cpp/olive/ui/sourceiconview.cpp,"SourceIconView::dragMoveEvent( QDragMoveEvent * event)",7, 60, 0, 0
+repos/cpp/olive/ui/sourceiconview.cpp,"SourceIconView::dropEvent( QDropEvent * event)",5, 87, 0, 1
+repos/cpp/olive/ui/sourceiconview.cpp,"SourceIconView::mouseDoubleClickEvent( QMouseEvent *)",14, 78, 4, 0
+repos/cpp/olive/ui/flowlayout.cpp,"FlowLayout::FlowLayout( QWidget * parent , int margin , int hSpacing , int vSpacing)",5, 80, 0, 0
+repos/cpp/olive/ui/flowlayout.cpp,"FlowLayout::FlowLayout( int margin , int hSpacing , int vSpacing)",5, 63, 0, 0
+repos/cpp/olive/ui/flowlayout.cpp,"FlowLayout::~FlowLayout()",6, 31, 4, 0
+repos/cpp/olive/ui/flowlayout.cpp,"FlowLayout::addItem( QLayoutItem * item)",4, 44, 0, 0
+repos/cpp/olive/ui/flowlayout.cpp,"FlowLayout::horizontalSpacing() const",8, 65, 8, 0
+repos/cpp/olive/ui/flowlayout.cpp,"FlowLayout::verticalSpacing() const",8, 63, 8, 0
+repos/cpp/olive/ui/flowlayout.cpp,"FlowLayout::count() const",4, 30, 0, 0
+repos/cpp/olive/ui/flowlayout.cpp,"FlowLayout::itemAt( int index) const",4, 49, 0, 0
+repos/cpp/olive/ui/flowlayout.cpp,"FlowLayout::takeAt( int index)",7, 47, 4, 0
+repos/cpp/olive/ui/flowlayout.cpp,"FlowLayout::expandingDirections() const",4, 57, 0, 0
+repos/cpp/olive/ui/flowlayout.cpp,"FlowLayout::hasHeightForWidth() const",4, 43, 0, 0
+repos/cpp/olive/ui/flowlayout.cpp,"FlowLayout::heightForWidth( int width) const",5, 56, 4, 0
+repos/cpp/olive/ui/flowlayout.cpp,"FlowLayout::setGeometry( const QRect & rect)",5, 48, 0, 0
+repos/cpp/olive/ui/flowlayout.cpp,"FlowLayout::sizeHint() const",4, 35, 0, 0
+repos/cpp/olive/ui/flowlayout.cpp,"FlowLayout::minimumSize() const",10, 53, 8, 0
+repos/cpp/olive/ui/flowlayout.cpp,"FlowLayout::doLayout( const QRect & rect , bool testOnly) const",36, 83, 16, 0
+repos/cpp/olive/ui/flowlayout.cpp,"FlowLayout::smartSpacing( QStyle :: PixelMetric pm) const",12, 59, 0, 0
+repos/cpp/olive/ui/timelineheader.cpp,"center_scroll_to_playhead( QScrollBar * bar , double zoom , long playhead)",9, 112, 2, 0
+repos/cpp/olive/ui/timelineheader.cpp,"TimelineHeader::TimelineHeader( QWidget * parent)",20, 116, 2, 0
+repos/cpp/olive/ui/timelineheader.cpp,"TimelineHeader::set_scroll( int s)",4, 41, 0, 0
+repos/cpp/olive/ui/timelineheader.cpp,"TimelineHeader::getHeaderFrameFromScreenPoint( int x)",3, 65, 2, 0
+repos/cpp/olive/ui/timelineheader.cpp,"TimelineHeader::getHeaderScreenPointFromFrame( long frame)",3, 69, 2, 0
+repos/cpp/olive/ui/timelineheader.cpp,"TimelineHeader::set_playhead( int mouse_x)",7, 77, 2, 0
+repos/cpp/olive/ui/timelineheader.cpp,"TimelineHeader::get_marker_offset()",3, 42, 0, 0
+repos/cpp/olive/ui/timelineheader.cpp,"TimelineHeader::set_visible_in( long i)",4, 46, 0, 0
+repos/cpp/olive/ui/timelineheader.cpp,"TimelineHeader::set_in_point( long new_in)",11, 90, 2, 0
+repos/cpp/olive/ui/timelineheader.cpp,"TimelineHeader::set_out_point( long new_out)",11, 90, 2, 0
+repos/cpp/olive/ui/timelineheader.cpp,"TimelineHeader::set_scrollbar_max( QScrollBar * bar , long sequence_end_frame , int offset)",3, 95, 0, 0
+repos/cpp/olive/ui/timelineheader.cpp,"TimelineHeader::show_text( bool enable)",9, 46, 0, 0
+repos/cpp/olive/ui/timelineheader.cpp,"TimelineHeader::mousePressEvent( QMouseEvent * event)",63, 108, 10, 0
+repos/cpp/olive/ui/timelineheader.cpp,"TimelineHeader::mouseMoveEvent( QMouseEvent * event)",66, 123, 8, 0
+repos/cpp/olive/ui/timelineheader.cpp,"TimelineHeader::mouseReleaseEvent( QMouseEvent *)",29, 114, 6, 0
+repos/cpp/olive/ui/timelineheader.cpp,"TimelineHeader::focusOutEvent( QFocusEvent *)",4, 51, 0, 0
+repos/cpp/olive/ui/timelineheader.cpp,"TimelineHeader::update_parents()",3, 40, 0, 0
+repos/cpp/olive/ui/timelineheader.cpp,"TimelineHeader::update_zoom( double z)",4, 45, 0, 0
+repos/cpp/olive/ui/timelineheader.cpp,"TimelineHeader::get_zoom()",3, 36, 0, 0
+repos/cpp/olive/ui/timelineheader.cpp,"TimelineHeader::delete_markers()",10, 74, 4, 0
+repos/cpp/olive/ui/timelineheader.cpp,"TimelineHeader::paintEvent( QPaintEvent *)",118, 119, 8, 0
+repos/cpp/olive/ui/timelineheader.cpp,"TimelineHeader::show_context_menu( const QPoint & pos)",15, 118, 2, 0
+repos/cpp/olive/ui/timelineheader.cpp,"TimelineHeader::resized_scroll_listener( double d)",3, 57, 0, 0
+repos/cpp/olive/ui/rectangleselect.cpp,"draw_selection_rectangle( QPainter & painter , const QRect & rect)",5, 70, 0, 0
+repos/cpp/olive/ui/sourcetable.cpp,"SourceTable::SourceTable( QWidget * parent)",11, 100, 0, 1
+repos/cpp/olive/ui/sourcetable.cpp,"SourceTable::show_context_menu()",3, 92, 0, 1
+repos/cpp/olive/ui/sourcetable.cpp,"SourceTable::item_click( const QModelIndex & index)",5, 91, 0, 2
+repos/cpp/olive/ui/sourcetable.cpp,"SourceTable::mousePressEvent( QMouseEvent * event)",4, 57, 0, 1
+repos/cpp/olive/ui/sourcetable.cpp,"SourceTable::mouseDoubleClickEvent( QMouseEvent *)",3, 91, 2, 0
+repos/cpp/olive/ui/sourcetable.cpp,"SourceTable::dragEnterEvent( QDragEnterEvent * event)",7, 59, 0, 0
+repos/cpp/olive/ui/sourcetable.cpp,"SourceTable::dragMoveEvent( QDragMoveEvent * event)",7, 57, 0, 0
+repos/cpp/olive/ui/sourcetable.cpp,"SourceTable::dropEvent( QDropEvent * event)",3, 114, 0, 1
+repos/cpp/olive/ui/resizablescrollbar.cpp,"ResizableScrollBar::ResizableScrollBar( QWidget * parent)",9, 58, 0, 0
+repos/cpp/olive/ui/resizablescrollbar.cpp,"ResizableScrollBar::is_resizing()",3, 41, 0, 0
+repos/cpp/olive/ui/resizablescrollbar.cpp,"ResizableScrollBar::resizeEvent( QResizeEvent * event)",3, 60, 0, 0
+repos/cpp/olive/ui/resizablescrollbar.cpp,"ResizableScrollBar::mousePressEvent( QMouseEvent * e)",17, 74, 39, 0
+repos/cpp/olive/ui/resizablescrollbar.cpp,"ResizableScrollBar::mouseMoveEvent( QMouseEvent * e)",52, 151, 15, 0
+repos/cpp/olive/ui/resizablescrollbar.cpp,"ResizableScrollBar::mouseReleaseEvent( QMouseEvent * e)",7, 61, 0, 0
+repos/cpp/olive/panels/viewer.cpp,"Viewer::Viewer( QWidget * parent)",39, 101, 2, 0
+repos/cpp/olive/panels/viewer.cpp,"Viewer::~Viewer()",1, 21, 0, 0
+repos/cpp/olive/panels/viewer.cpp,"Viewer::Retranslate()",4, 104, 2, 0
+repos/cpp/olive/panels/viewer.cpp,"Viewer::is_focused()",9, 40, 6, 0
+repos/cpp/olive/panels/viewer.cpp,"Viewer::is_main_sequence()",3, 34, 0, 0
+repos/cpp/olive/panels/viewer.cpp,"Viewer::set_main_sequence()",4, 45, 2, 0
+repos/cpp/olive/panels/viewer.cpp,"Viewer::reset_all_audio()",20, 76, 4, 0
+repos/cpp/olive/panels/viewer.cpp,"timecode_to_frame( const QString & s , int view , double frame_rate)",55, 164, 4, 0
+repos/cpp/olive/panels/viewer.cpp,"frame_to_timecode( long f , int view , double frame_rate)",65, 167, 4, 0
+repos/cpp/olive/panels/viewer.cpp,"frame_rate_is_droppable( double rate)",3, 100, 2, 0
+repos/cpp/olive/panels/viewer.cpp,"Viewer::seek( long p)",21, 59, 4, 0
+repos/cpp/olive/panels/viewer.cpp,"Viewer::go_to_start()",3, 31, 2, 0
+repos/cpp/olive/panels/viewer.cpp,"Viewer::go_to_end()",3, 48, 2, 0
+repos/cpp/olive/panels/viewer.cpp,"Viewer::close_media()",3, 29, 0, 0
+repos/cpp/olive/panels/viewer.cpp,"Viewer::go_to_in()",9, 31, 4, 0
+repos/cpp/olive/panels/viewer.cpp,"Viewer::previous_frame()",3, 66, 2, 0
+repos/cpp/olive/panels/viewer.cpp,"Viewer::next_frame()",3, 45, 2, 0
+repos/cpp/olive/panels/viewer.cpp,"Viewer::go_to_out()",9, 31, 4, 0
+repos/cpp/olive/panels/viewer.cpp,"Viewer::cue_recording( long start , long end , int track)",8, 62, 0, 0
+repos/cpp/olive/panels/viewer.cpp,"Viewer::uncue_recording()",5, 41, 2, 0
+repos/cpp/olive/panels/viewer.cpp,"Viewer::is_recording_cued()",3, 35, 0, 0
+repos/cpp/olive/panels/viewer.cpp,"Viewer::toggle_play()",7, 29, 0, 0
+repos/cpp/olive/panels/viewer.cpp,"Viewer::increase_speed()",7, 36, 2, 0
+repos/cpp/olive/panels/viewer.cpp,"Viewer::decrease_speed()",7, 36, 2, 0
+repos/cpp/olive/panels/viewer.cpp,"Viewer::play( bool in_to_out)",45, 97, 4, 0
+repos/cpp/olive/panels/viewer.cpp,"Viewer::play_wake()",8, 65, 4, 0
+repos/cpp/olive/panels/viewer.cpp,"Viewer::pause()",42, 87, 6, 0
+repos/cpp/olive/panels/viewer.cpp,"Viewer::WaitingForPlayWake()",4, 34, 0, 0
+repos/cpp/olive/panels/viewer.cpp,"Viewer::update_playhead_timecode( long p)",3, 48, 0, 0
+repos/cpp/olive/panels/viewer.cpp,"Viewer::update_end_timecode()",3, 199, 2, 0
+repos/cpp/olive/panels/viewer.cpp,"Viewer::update_header_zoom()",13, 107, 6, 0
+repos/cpp/olive/panels/viewer.cpp,"Viewer::update_parents( bool reload_fx)",8, 46, 0, 0
+repos/cpp/olive/panels/viewer.cpp,"Viewer::get_playback_speed()",3, 35, 0, 0
+repos/cpp/olive/panels/viewer.cpp,"Viewer::set_marker()",3, 28, 0, 0
+repos/cpp/olive/panels/viewer.cpp,"Viewer::resizeEvent( QResizeEvent * e)",7, 44, 0, 0
+repos/cpp/olive/panels/viewer.cpp,"Viewer::update_viewer()",8, 45, 4, 0
+repos/cpp/olive/panels/viewer.cpp,"Viewer::clear_in()",7, 89, 4, 0
+repos/cpp/olive/panels/viewer.cpp,"Viewer::clear_out()",7, 105, 4, 0
+repos/cpp/olive/panels/viewer.cpp,"Viewer::clear_inout_point()",7, 74, 4, 0
+repos/cpp/olive/panels/viewer.cpp,"Viewer::set_in_point()",5, 42, 4, 0
+repos/cpp/olive/panels/viewer.cpp,"Viewer::set_out_point()",5, 43, 4, 0
+repos/cpp/olive/panels/viewer.cpp,"Viewer::set_zoom( bool in)",5, 94, 4, 0
+repos/cpp/olive/panels/viewer.cpp,"Viewer::set_panel_name( const QString & n)",4, 48, 0, 0
+repos/cpp/olive/panels/viewer.cpp,"Viewer::update_window_title()",9, 59, 2, 0
+repos/cpp/olive/panels/viewer.cpp,"Viewer::set_zoom_value( double d)",12, 85, 6, 0
+repos/cpp/olive/panels/viewer.cpp,"Viewer::set_sb_max()",3, 84, 2, 0
+repos/cpp/olive/panels/viewer.cpp,"Viewer::set_playback_speed( int s)",7, 41, 0, 0
+repos/cpp/olive/panels/viewer.cpp,"Viewer::get_seq_in()",5, 83, 2, 0
+repos/cpp/olive/panels/viewer.cpp,"Viewer::get_seq_out()",5, 124, 2, 0
+repos/cpp/olive/panels/viewer.cpp,"Viewer::setup_ui()",82, 96, 2, 0
+repos/cpp/olive/panels/viewer.cpp,"Viewer::set_media( Media * m)",85, 146, 8, 0
+repos/cpp/olive/panels/viewer.cpp,"Viewer::update_playhead()",3, 42, 2, 0
+repos/cpp/olive/panels/viewer.cpp,"Viewer::timer_update()",29, 148, 2, 0
+repos/cpp/olive/panels/viewer.cpp,"Viewer::recording_flasher_update()",7, 52, 4, 0
+repos/cpp/olive/panels/viewer.cpp,"Viewer::resize_move( double d)",3, 41, 2, 0
+repos/cpp/olive/panels/viewer.cpp,"Viewer::clean_created_seq()",13, 76, 4, 0
+repos/cpp/olive/panels/viewer.cpp,"Viewer::set_sequence( bool main , SequencePtr s)",50, 66, 4, 0
+repos/cpp/olive/panels/viewer.cpp,"Viewer::set_playpause_icon( bool play)",3, 83, 2, 0
+repos/cpp/olive/panels/project.cpp,"Project::Project( QWidget * parent)",134, 109, 2, 0
+repos/cpp/olive/panels/project.cpp,"Project::~Project()",3, 22, 0, 0
+repos/cpp/olive/panels/project.cpp,"Project::Retranslate()",4, 73, 2, 0
+repos/cpp/olive/panels/project.cpp,"Project::get_next_sequence_name( QString start)",23, 105, 6, 0
+repos/cpp/olive/panels/project.cpp,"create_sequence_from_media( QVector<Media*> & media_list)",64, 96, 14, 0
+repos/cpp/olive/panels/project.cpp,"Project::duplicate_selected()",17, 106, 6, 0
+repos/cpp/olive/panels/project.cpp,"Project::replace_selected_file()",9, 59, 2, 0
+repos/cpp/olive/panels/project.cpp,"Project::replace_media( Media * item , QString filename)",13, 72, 4, 0
+repos/cpp/olive/panels/project.cpp,"Project::replace_clip_media()",22, 132, 30, 0
+repos/cpp/olive/panels/project.cpp,"Project::open_properties()",33, 88, 47, 0
+repos/cpp/olive/panels/project.cpp,"Project::new_folder()",14, 73, 2, 0
+repos/cpp/olive/panels/project.cpp,"Project::new_sequence()",5, 51, 2, 0
+repos/cpp/olive/panels/project.cpp,"Project::create_sequence_internal( ComboAction * ca , SequencePtr s , bool open , Media * parent)",21, 101, 0, 0
+repos/cpp/olive/panels/project.cpp,"Project::get_file_name_from_path( const QString & path)",3, 64, 0, 0
+repos/cpp/olive/panels/project.cpp,"Project::is_focused()",3, 57, 2, 0
+repos/cpp/olive/panels/project.cpp,"Project::create_folder_internal( QString name)",6, 55, 0, 0
+repos/cpp/olive/panels/project.cpp,"Project::item_to_media( const QModelIndex & index)",4, 76, 2, 0
+repos/cpp/olive/panels/project.cpp,"Project::get_all_media_from_table( QList<Media*> & items , QList<Media*> & list , int search_type)",14, 101, 0, 0
+repos/cpp/olive/panels/project.cpp,"delete_clips_in_clipboard_with_media( ComboAction * ca , Media * m)",13, 71, 0, 0
+repos/cpp/olive/panels/project.cpp,"Project::delete_selected_media()",143, 195, 14, 0
+repos/cpp/olive/panels/project.cpp,"Project::process_file_list( QStringList & files , bool recursive , Media * replace , Media * parent)",246, 160, 14, 0
+repos/cpp/olive/panels/project.cpp,"Project::get_selected_folder()",9, 59, 2, 0
+repos/cpp/olive/panels/project.cpp,"Project::reveal_media( Media * media , QModelIndex parent)",53, 96, 14, 0
+repos/cpp/olive/panels/project.cpp,"Project::import_dialog()",9, 77, 2, 0
+repos/cpp/olive/panels/project.cpp,"Project::delete_clips_using_selected_media()",34, 112, 26, 0
+repos/cpp/olive/panels/project.cpp,"Project::clear()",17, 100, 2, 0
+repos/cpp/olive/panels/project.cpp,"Project::new_project()",7, 47, 2, 0
+repos/cpp/olive/panels/project.cpp,"Project::load_project( const QString & filename , bool autorecovery , bool clear)",12, 106, 2, 0
+repos/cpp/olive/panels/project.cpp,"save_marker( QXmlStreamWriter & stream , const Marker & m)",6, 62, 0, 0
+repos/cpp/olive/panels/project.cpp,"Project::save_folder( QXmlStreamWriter & stream , int type , bool set_ids_only , const QModelIndex & parent)",198, 120, 18, 0
+repos/cpp/olive/panels/project.cpp,"Project::save_project( bool autorecovery)",49, 83, 2, 0
+repos/cpp/olive/panels/project.cpp,"Project::update_view_type()",13, 103, 2, 0
+repos/cpp/olive/panels/project.cpp,"Project::set_icon_view()",4, 69, 2, 0
+repos/cpp/olive/panels/project.cpp,"Project::set_tree_view()",4, 69, 2, 0
+repos/cpp/olive/panels/project.cpp,"Project::save_recent_projects()",16, 66, 2, 0
+repos/cpp/olive/panels/project.cpp,"Project::clear_recent_projects()",4, 40, 0, 0
+repos/cpp/olive/panels/project.cpp,"Project::set_icon_view_size( int s)",3, 42, 0, 0
+repos/cpp/olive/panels/project.cpp,"Project::set_up_dir_enabled()",3, 62, 2, 0
+repos/cpp/olive/panels/project.cpp,"Project::go_up_dir()",4, 60, 2, 0
+repos/cpp/olive/panels/project.cpp,"Project::make_new_menu()",5, 46, 2, 0
+repos/cpp/olive/panels/project.cpp,"Project::add_recent_project( QString url)",17, 60, 4, 0
+repos/cpp/olive/panels/project.cpp,"Project::list_all_sequences_worker( QVector<Media*> * list , Media * parent)",13, 80, 0, 0
+repos/cpp/olive/panels/project.cpp,"Project::list_all_project_sequences()",5, 56, 0, 0
+repos/cpp/olive/panels/project.cpp,"Project::get_current_selected()",6, 76, 2, 0
+repos/cpp/olive/panels/timeline.cpp,"Timeline::Timeline( QWidget * parent)",58, 94, 2, 0
+repos/cpp/olive/panels/timeline.cpp,"Timeline::~Timeline()",1, 25, 0, 0
+repos/cpp/olive/panels/timeline.cpp,"Timeline::Retranslate()",17, 68, 2, 0
+repos/cpp/olive/panels/timeline.cpp,"Timeline::previous_cut()",17, 101, 8, 0
+repos/cpp/olive/panels/timeline.cpp,"Timeline::next_cut()",19, 103, 8, 0
+repos/cpp/olive/panels/timeline.cpp,"ripple_clips( ComboAction * ca , SequencePtr s , long point , long length , const QVector<int> & ignore)",3, 105, 0, 0
+repos/cpp/olive/panels/timeline.cpp,"Timeline::toggle_show_all()",11, 107, 6, 0
+repos/cpp/olive/panels/timeline.cpp,"Timeline::create_ghosts_from_media( SequencePtr seq , long entry_point , QVector<Media*> & media_list)",104, 155, 8, 0
+repos/cpp/olive/panels/timeline.cpp,"Timeline::add_clips_from_ghosts( ComboAction * ca , SequencePtr s)",68, 124, 8, 0
+repos/cpp/olive/panels/timeline.cpp,"Timeline::add_transition()",35, 117, 6, 0
+repos/cpp/olive/panels/timeline.cpp,"Timeline::nest()",59, 117, 8, 0
+repos/cpp/olive/panels/timeline.cpp,"Timeline::update_sequence()",15, 59, 2, 0
+repos/cpp/olive/panels/timeline.cpp,"Timeline::get_snap_range()",3, 44, 2, 0
+repos/cpp/olive/panels/timeline.cpp,"Timeline::focused()",3, 122, 2, 0
+repos/cpp/olive/panels/timeline.cpp,"Timeline::repaint_timeline()",37, 105, 10, 0
+repos/cpp/olive/panels/timeline.cpp,"Timeline::select_all()",16, 62, 4, 0
+repos/cpp/olive/panels/timeline.cpp,"Timeline::scroll_to_frame( long frame)",3, 86, 2, 0
+repos/cpp/olive/panels/timeline.cpp,"Timeline::select_from_playhead()",15, 66, 8, 0
+repos/cpp/olive/panels/timeline.cpp,"Timeline::can_ripple_empty_space( long frame , int track)",27, 71, 8, 0
+repos/cpp/olive/panels/timeline.cpp,"Timeline::ripple_delete_empty_space()",12, 45, 0, 0
+repos/cpp/olive/panels/timeline.cpp,"Timeline::resizeEvent( QResizeEvent *)",30, 126, 2, 0
+repos/cpp/olive/panels/timeline.cpp,"Timeline::delete_in_out_internal( bool ripple)",20, 167, 4, 0
+repos/cpp/olive/panels/timeline.cpp,"Timeline::toggle_enable_on_selected_clips()",22, 82, 6, 0
+repos/cpp/olive/panels/timeline.cpp,"Timeline::delete_selection( QVector<Selection> & selections , bool ripple_delete)",68, 117, 6, 0
+repos/cpp/olive/panels/timeline.cpp,"Timeline::set_zoom_value( double v)",23, 100, 2, 0
+repos/cpp/olive/panels/timeline.cpp,"Timeline::multiply_zoom( double m)",4, 41, 0, 0
+repos/cpp/olive/panels/timeline.cpp,"Timeline::decheck_tool_buttons( QObject * sender)",5, 63, 4, 0
+repos/cpp/olive/panels/timeline.cpp,"Timeline::zoom_in()",3, 27, 0, 0
+repos/cpp/olive/panels/timeline.cpp,"Timeline::zoom_out()",3, 28, 0, 0
+repos/cpp/olive/panels/timeline.cpp,"Timeline::GetTrackHeight( int track)",8, 47, 2, 0
+repos/cpp/olive/panels/timeline.cpp,"Timeline::SetTrackHeight( int track , int height)",14, 55, 0, 0
+repos/cpp/olive/panels/timeline.cpp,"Timeline::ChangeTrackHeightUniformly( int diff)",13, 89, 4, 0
+repos/cpp/olive/panels/timeline.cpp,"Timeline::IncreaseTrackHeight()",3, 70, 2, 0
+repos/cpp/olive/panels/timeline.cpp,"Timeline::DecreaseTrackHeight()",3, 71, 2, 0
+repos/cpp/olive/panels/timeline.cpp,"Timeline::snapping_clicked( bool checked)",3, 48, 0, 0
+repos/cpp/olive/panels/timeline.cpp,"Timeline::split_clip( ComboAction * ca , bool transitions , int p , long frame)",3, 85, 0, 0
+repos/cpp/olive/panels/timeline.cpp,"Timeline::split_clip( ComboAction * ca , bool transitions , int p , long frame , long post_in)",72, 121, 12, 0
+repos/cpp/olive/panels/timeline.cpp,"Timeline::split_clip_and_relink( ComboAction * ca , int clip , long frame , bool relink)",50, 130, 12, 0
+repos/cpp/olive/panels/timeline.cpp,"Timeline::clean_up_selections( QVector<Selection> & areas)",29, 64, 0, 0
+repos/cpp/olive/panels/timeline.cpp,"selection_contains_transition( const Selection & s , Clip * c , int type)",13, 141, 12, 0
+repos/cpp/olive/panels/timeline.cpp,"Timeline::delete_areas_and_relink( ComboAction * ca , QVector<Selection> & areas , bool deselect_areas)",68, 149, 14, 0
+repos/cpp/olive/panels/timeline.cpp,"Timeline::copy( bool del)",58, 160, 8, 0
+repos/cpp/olive/panels/timeline.cpp,"Timeline::relink_clips_using_ids( QVector<int> & old_clips , QVector<ClipPtr> & new_clips)",16, 94, 0, 0
+repos/cpp/olive/panels/timeline.cpp,"Timeline::paste( bool insert)",146, 131, 8, 0
+repos/cpp/olive/panels/timeline.cpp,"Timeline::edit_to_point_internal( bool in , bool ripple)",110, 144, 10, 0
+repos/cpp/olive/panels/timeline.cpp,"Timeline::split_selection( ComboAction * ca)",44, 82, 4, 0
+repos/cpp/olive/panels/timeline.cpp,"Timeline::split_all_clips_at_point( ComboAction * ca , long point)",13, 71, 0, 0
+repos/cpp/olive/panels/timeline.cpp,"Timeline::split_at_playhead()",43, 93, 2, 0
+repos/cpp/olive/panels/timeline.cpp,"Timeline::ripple_delete()",11, 112, 6, 0
+repos/cpp/olive/panels/timeline.cpp,"Timeline::deselect_area( long in , long out , int track)",29, 61, 0, 0
+repos/cpp/olive/panels/timeline.cpp,"Timeline::snap_to_point( long point , long * l)",10, 52, 0, 0
+repos/cpp/olive/panels/timeline.cpp,"Timeline::snap_to_timeline( long * l , bool use_playhead , bool use_markers , bool use_workarea)",48, 104, 19, 0
+repos/cpp/olive/panels/timeline.cpp,"Timeline::set_marker()",32, 98, 2, 0
+repos/cpp/olive/panels/timeline.cpp,"Timeline::delete_inout()",3, 49, 2, 0
+repos/cpp/olive/panels/timeline.cpp,"Timeline::ripple_delete_inout()",3, 48, 2, 0
+repos/cpp/olive/panels/timeline.cpp,"Timeline::ripple_to_in_point()",3, 54, 2, 0
+repos/cpp/olive/panels/timeline.cpp,"Timeline::ripple_to_out_point()",3, 55, 2, 0
+repos/cpp/olive/panels/timeline.cpp,"Timeline::edit_to_in_point()",3, 55, 2, 0
+repos/cpp/olive/panels/timeline.cpp,"Timeline::edit_to_out_point()",3, 56, 2, 0
+repos/cpp/olive/panels/timeline.cpp,"Timeline::toggle_links()",24, 97, 10, 0
+repos/cpp/olive/panels/timeline.cpp,"Timeline::deselect()",4, 45, 2, 0
+repos/cpp/olive/panels/timeline.cpp,"getFrameFromScreenPoint( double zoom , int x)",7, 51, 0, 0
+repos/cpp/olive/panels/timeline.cpp,"getScreenPointFromFrame( double zoom , long frame)",3, 55, 0, 0
+repos/cpp/olive/panels/timeline.cpp,"Timeline::getTimelineFrameFromScreenPoint( int x)",3, 56, 0, 0
+repos/cpp/olive/panels/timeline.cpp,"Timeline::getTimelineScreenPointFromFrame( long frame)",3, 60, 0, 0
+repos/cpp/olive/panels/timeline.cpp,"Timeline::add_btn_click()",34, 88, 2, 0
+repos/cpp/olive/panels/timeline.cpp,"Timeline::add_menu_item( QAction * action)",4, 48, 0, 0
+repos/cpp/olive/panels/timeline.cpp,"Timeline::setScroll( int s)",5, 34, 0, 0
+repos/cpp/olive/panels/timeline.cpp,"Timeline::record_btn_click()",14, 126, 10, 0
+repos/cpp/olive/panels/timeline.cpp,"Timeline::transition_tool_click()",31, 104, 2, 0
+repos/cpp/olive/panels/timeline.cpp,"Timeline::transition_menu_select( QAction * a)",14, 91, 2, 0
+repos/cpp/olive/panels/timeline.cpp,"Timeline::resize_move( double z)",3, 39, 0, 0
+repos/cpp/olive/panels/timeline.cpp,"Timeline::set_sb_max()",3, 146, 2, 0
+repos/cpp/olive/panels/timeline.cpp,"Timeline::UpdateTitle()",9, 57, 4, 0
+repos/cpp/olive/panels/timeline.cpp,"Timeline::setup_ui()",180, 112, 2, 0
+repos/cpp/olive/panels/timeline.cpp,"Timeline::set_tool()",19, 61, 2, 0
+repos/cpp/olive/panels/timeline.cpp,"olive::timeline::MultiplyTrackSizesByDPI()",6, 72, 2, 0
+repos/cpp/olive/panels/grapheditor.cpp,"GraphEditor::GraphEditor( QWidget * parent)",91, 102, 2, 0
+repos/cpp/olive/panels/grapheditor.cpp,"GraphEditor::Retranslate()",6, 40, 2, 0
+repos/cpp/olive/panels/grapheditor.cpp,"GraphEditor::update_panel()",17, 107, 10, 0
+repos/cpp/olive/panels/grapheditor.cpp,"GraphEditor::set_row( EffectRow * r)",62, 95, 8, 0
+repos/cpp/olive/panels/grapheditor.cpp,"GraphEditor::view_is_focused()",3, 49, 2, 0
+repos/cpp/olive/panels/grapheditor.cpp,"GraphEditor::view_is_under_mouse()",3, 53, 2, 0
+repos/cpp/olive/panels/grapheditor.cpp,"GraphEditor::delete_selected_keys()",3, 43, 0, 0
+repos/cpp/olive/panels/grapheditor.cpp,"GraphEditor::select_all()",3, 33, 0, 0
+repos/cpp/olive/panels/grapheditor.cpp,"GraphEditor::set_key_button_enabled( bool e , int type)",8, 61, 0, 0
+repos/cpp/olive/panels/grapheditor.cpp,"GraphEditor::passthrough_slider_value()",7, 82, 6, 0
+repos/cpp/olive/panels/grapheditor.cpp,"GraphEditor::set_keyframe_type()",6, 72, 2, 0
+repos/cpp/olive/panels/grapheditor.cpp,"GraphEditor::set_field_visibility( bool b)",3, 70, 2, 0
+repos/cpp/olive/panels/effectcontrols.cpp,"EffectControls::EffectControls( QWidget * parent)",28, 122, 2, 0
+repos/cpp/olive/panels/effectcontrols.cpp,"EffectControls::~EffectControls()",1, 37, 0, 0
+repos/cpp/olive/panels/effectcontrols.cpp,"EffectControls::get_mode()",3, 33, 0, 0
+repos/cpp/olive/panels/effectcontrols.cpp,"EffectControls::keyframe_focus()",3, 58, 2, 0
+repos/cpp/olive/panels/effectcontrols.cpp,"EffectControls::set_zoom( bool in)",5, 52, 2, 0
+repos/cpp/olive/panels/effectcontrols.cpp,"EffectControls::menu_select( QAction * q)",34, 97, 6, 0
+repos/cpp/olive/panels/effectcontrols.cpp,"EffectControls::update_keyframes()",4, 42, 0, 0
+repos/cpp/olive/panels/effectcontrols.cpp,"EffectControls::delete_selected_keyframes()",3, 51, 0, 0
+repos/cpp/olive/panels/effectcontrols.cpp,"EffectControls::copy( bool del)",36, 80, 4, 0
+repos/cpp/olive/panels/effectcontrols.cpp,"EffectControls::scroll_to_frame( long frame)",3, 112, 2, 0
+repos/cpp/olive/panels/effectcontrols.cpp,"EffectControls::add_effect_paste_action( QMenu * menu)",4, 93, 2, 0
+repos/cpp/olive/panels/effectcontrols.cpp,"EffectControls::cut()",3, 29, 0, 0
+repos/cpp/olive/panels/effectcontrols.cpp,"EffectControls::show_effect_menu( int type , int subtype)",69, 90, 2, 0
+repos/cpp/olive/panels/effectcontrols.cpp,"EffectControls::clear_effects( bool clear_cache)",26, 144, 4, 0
+repos/cpp/olive/panels/effectcontrols.cpp,"EffectControls::deselect_all_effects( QWidget * sender)",11, 78, 4, 0
+repos/cpp/olive/panels/effectcontrols.cpp,"EffectControls::open_effect( QVBoxLayout * layout , EffectPtr e)",5, 101, 2, 0
+repos/cpp/olive/panels/effectcontrols.cpp,"EffectControls::UpdateTitle()",7, 96, 4, 0
+repos/cpp/olive/panels/effectcontrols.cpp,"EffectControls::setup_ui()",178, 118, 2, 0
+repos/cpp/olive/panels/effectcontrols.cpp,"EffectControls::Retranslate()",13, 70, 2, 0
+repos/cpp/olive/panels/effectcontrols.cpp,"EffectControls::LoadLayoutState( const QByteArray & data)",4, 61, 0, 0
+repos/cpp/olive/panels/effectcontrols.cpp,"EffectControls::SaveLayoutState()",4, 45, 0, 0
+repos/cpp/olive/panels/effectcontrols.cpp,"EffectControls::update_scrollbar()",4, 111, 2, 0
+repos/cpp/olive/panels/effectcontrols.cpp,"EffectControls::queue_post_update()",4, 43, 0, 0
+repos/cpp/olive/panels/effectcontrols.cpp,"EffectControls::effects_area_context_menu()",7, 51, 0, 0
+repos/cpp/olive/panels/effectcontrols.cpp,"EffectControls::load_effects()",35, 83, 6, 0
+repos/cpp/olive/panels/effectcontrols.cpp,"EffectControls::delete_effects()",22, 77, 6, 0
+repos/cpp/olive/panels/effectcontrols.cpp,"EffectControls::reload_clips()",4, 38, 0, 0
+repos/cpp/olive/panels/effectcontrols.cpp,"EffectControls::set_clips( QVector<int> & clips , int m)",9, 61, 0, 0
+repos/cpp/olive/panels/effectcontrols.cpp,"EffectControls::video_effect_click()",3, 59, 2, 0
+repos/cpp/olive/panels/effectcontrols.cpp,"EffectControls::audio_effect_click()",3, 59, 2, 0
+repos/cpp/olive/panels/effectcontrols.cpp,"EffectControls::video_transition_click()",3, 63, 2, 0
+repos/cpp/olive/panels/effectcontrols.cpp,"EffectControls::audio_transition_click()",3, 63, 2, 0
+repos/cpp/olive/panels/effectcontrols.cpp,"EffectControls::resizeEvent( QResizeEvent *)",3, 50, 0, 0
+repos/cpp/olive/panels/effectcontrols.cpp,"EffectControls::is_focused()",16, 71, 4, 0
+repos/cpp/olive/panels/effectcontrols.cpp,"EffectsArea::EffectsArea( QWidget * parent)",3, 44, 0, 0
+repos/cpp/olive/panels/effectcontrols.cpp,"EffectsArea::receive_wheel_event( QWheelEvent * e)",3, 56, 0, 0
+repos/cpp/olive/panels/panels.cpp,"update_effect_controls()",85, 106, 10, 0
+repos/cpp/olive/panels/panels.cpp,"update_ui( bool modified)",9, 45, 2, 0
+repos/cpp/olive/panels/panels.cpp,"get_focused_panel( bool force_hover)",34, 97, 4, 0
+repos/cpp/olive/panels/panels.cpp,"alloc_panels( QWidget * parent)",16, 58, 2, 0
+repos/cpp/olive/panels/panels.cpp,"free_panels()",12, 35, 2, 0
+repos/cpp/olive/panels/panels.cpp,"scroll_to_frame_internal( QScrollBar * bar , long frame , double zoom , int area_width)",10, 90, 0, 0
+repos/cpp/olive/io/qpainterwrapper.cpp,"QPainterWrapper::QPainterWrapper()",1, 38, 0, 0
+repos/cpp/olive/io/qpainterwrapper.cpp,"get_color_from_string( const QString & s)",10, 49, 0, 0
+repos/cpp/olive/io/qpainterwrapper.cpp,"QPainterWrapper::fill( const QString & c)",3, 47, 0, 0
+repos/cpp/olive/io/qpainterwrapper.cpp,"QPainterWrapper::fillRect( int x , int y , int width , int height , const QString & brush)",3, 92, 0, 0
+repos/cpp/olive/io/qpainterwrapper.cpp,"QPainterWrapper::drawRect( int x , int y , int width , int height)",3, 70, 0, 0
+repos/cpp/olive/io/qpainterwrapper.cpp,"QPainterWrapper::setPen( const QString & pen)",3, 51, 0, 0
+repos/cpp/olive/io/qpainterwrapper.cpp,"QPainterWrapper::setBrush( const QString & brush)",3, 55, 0, 0
+repos/cpp/olive/io/previewgenerator.cpp,"PreviewGenerator::PreviewGenerator( Media * i)",24, 70, 2, 0
+repos/cpp/olive/io/previewgenerator.cpp,"PreviewGenerator::parse_media()",75, 139, 12, 0
+repos/cpp/olive/io/previewgenerator.cpp,"PreviewGenerator::retrieve_preview( const QString & hash)",54, 99, 2, 0
+repos/cpp/olive/io/previewgenerator.cpp,"PreviewGenerator::finalize_media()",30, 80, 4, 0
+repos/cpp/olive/io/previewgenerator.cpp,"PreviewGenerator::invalidate_media( const QString & error_msg)",7, 68, 2, 0
+repos/cpp/olive/io/previewgenerator.cpp,"PreviewGenerator::generate_waveform()",294, 179, 14, 0
+repos/cpp/olive/io/previewgenerator.cpp,"PreviewGenerator::get_thumbnail_path( const QString & hash , const FootageStream & ms)",3, 93, 0, 0
+repos/cpp/olive/io/previewgenerator.cpp,"PreviewGenerator::get_waveform_path( const QString & hash , const FootageStream & ms)",3, 92, 0, 0
+repos/cpp/olive/io/previewgenerator.cpp,"PreviewGenerator::run()",78, 101, 14, 0
+repos/cpp/olive/io/previewgenerator.cpp,"PreviewGenerator::cancel()",4, 34, 0, 0
+repos/cpp/olive/io/previewgenerator.cpp,"PreviewGenerator::AnalyzeMedia( Media * m)",7, 118, 2, 0
+repos/cpp/olive/io/loadthread.cpp,"LoadThread::LoadThread( const QString & filename , bool autorecovery , bool clear)",21, 120, 10, 0
+repos/cpp/olive/io/loadthread.cpp,"LoadThread::load_effect( QXmlStreamReader & stream , Clip * c)",80, 121, 6, 0
+repos/cpp/olive/io/loadthread.cpp,"LoadThread::read_next( QXmlStreamReader & stream)",4, 55, 0, 0
+repos/cpp/olive/io/loadthread.cpp,"LoadThread::read_next_start_element( QXmlStreamReader & stream)",4, 69, 0, 0
+repos/cpp/olive/io/loadthread.cpp,"LoadThread::update_current_element_count( QXmlStreamReader & stream)",6, 74, 0, 0
+repos/cpp/olive/io/loadthread.cpp,"LoadThread::is_element( QXmlStreamReader & stream)",8, 56, 0, 0
+repos/cpp/olive/io/loadthread.cpp,"LoadThread::load_worker( QFile & f , QXmlStreamReader & stream , int type)",391, 174, 16, 0
+repos/cpp/olive/io/loadthread.cpp,"LoadThread::find_loaded_folder_by_id( int id)",10, 54, 0, 0
+repos/cpp/olive/io/loadthread.cpp,"LoadThread::run()",116, 151, 6, 0
+repos/cpp/olive/io/loadthread.cpp,"LoadThread::cancel()",4, 28, 0, 0
+repos/cpp/olive/io/loadthread.cpp,"LoadThread::question_func( const QString & title , const QString & text , int buttons)",10, 89, 0, 0
+repos/cpp/olive/io/loadthread.cpp,"LoadThread::error_func()",14, 82, 26, 0
+repos/cpp/olive/io/loadthread.cpp,"LoadThread::success_func()",28, 87, 4, 0
+repos/cpp/olive/io/loadthread.cpp,"LoadThread::create_effect_ui( QXmlStreamReader * stream , Clip * c , int type , const QString * effect_name , const EffectMeta * meta , long effect_length , bool effect_enabled)",65, 79, 3, 0
+repos/cpp/olive/io/math.cpp,"lerp( int a , int b , double t)",3, 43, 0, 1
+repos/cpp/olive/io/math.cpp,"float_lerp( float a , float b , float t)",3, 46, 0, 0
+repos/cpp/olive/io/math.cpp,"double_lerp( double a , double b , double t)",3, 51, 0, 0
+repos/cpp/olive/io/math.cpp,"quad_from_t( double a , double b , double c , double t)",3, 61, 0, 0
+repos/cpp/olive/io/math.cpp,"quad_t_from_x( double x , double a , double b , double c)",4, 85, 0, 1
+repos/cpp/olive/io/math.cpp,"cubic_from_t( double a , double b , double c , double d , double t)",3, 95, 0, 1
+repos/cpp/olive/io/math.cpp,"cubic_t_from_x( double x_target , double a , double b , double c , double d)",22, 81, 0, 0
+repos/cpp/olive/io/math.cpp,"amplitude_to_db( double amplitude)",3, 46, 4, 0
+repos/cpp/olive/io/math.cpp,"db_to_amplitude( double db)",3, 43, 4, 0
+repos/cpp/olive/io/exportthread.cpp,"ExportThread::ExportThread( const ExportParams & iparams , const VideoCodecParams & ivparams , QObject * parent)",27, 61, 27, 0
+repos/cpp/olive/io/exportthread.cpp,"ExportThread::encode( AVFormatContext * ofmt_ctx , AVCodecContext * codec_ctx , AVFrame * frame , AVPacket * packet , AVStream * stream , bool rescale)",27, 148, 0, 0
+repos/cpp/olive/io/exportthread.cpp,"ExportThread::setupVideo()",109, 138, 6, 0
+repos/cpp/olive/io/exportthread.cpp,"ExportThread::setupAudio()",106, 175, 2, 0
+repos/cpp/olive/io/exportthread.cpp,"ExportThread::setupContainer()",19, 84, 4, 0
+repos/cpp/olive/io/exportthread.cpp,"ExportThread::run()",193, 160, 4, 0
+repos/cpp/olive/io/exportthread.cpp,"ExportThread::getError()",3, 42, 0, 0
+repos/cpp/olive/io/exportthread.cpp,"ExportThread::wake()",5, 28, 0, 0
+repos/cpp/olive/io/config.cpp,"Config::Config()",41, 66, 4, 0
+repos/cpp/olive/io/config.cpp,"Config::load( QString path)",147, 74, 6, 0
+repos/cpp/olive/io/config.cpp,"Config::save( QString path)",61, 110, 2, 0
+repos/cpp/olive/io/config.cpp,"RuntimeConfig::RuntimeConfig()",4, 33, 0, 0
+repos/cpp/olive/io/path.cpp,"get_app_path()",3, 49, 2, 0
+repos/cpp/olive/io/path.cpp,"get_app_dir()",3, 31, 2, 0
+repos/cpp/olive/io/path.cpp,"get_data_path()",8, 78, 4, 0
+repos/cpp/olive/io/path.cpp,"get_data_dir()",3, 32, 2, 0
+repos/cpp/olive/io/path.cpp,"get_config_path()",8, 80, 4, 0
+repos/cpp/olive/io/path.cpp,"get_config_dir()",3, 34, 2, 0
+repos/cpp/olive/io/path.cpp,"get_effects_paths()",23, 84, 2, 0
+repos/cpp/olive/io/path.cpp,"get_file_hash( const QString & filename)",9, 89, 2, 0
+repos/cpp/olive/io/path.cpp,"get_language_paths()",21, 91, 2, 0
+repos/cpp/olive/io/crossplatformlib.cpp,"LibLoad( const QString & filename)",11, 127, 0, 1
+repos/cpp/olive/io/crossplatformlib.cpp,"LibFilter()",7, 69, 0, 0
+repos/cpp/olive/io/crossplatformlib.cpp,"BundleLoad( const QString & filename)",13, 118, 4, 0
+repos/cpp/olive/io/crossplatformlib.cpp,"BundleClose( CFBundleRef bundle)",4, 39, 0, 0
+repos/cpp/olive/io/clipboard.cpp,"clear_clipboard()",4, 35, 4, 0
+repos/cpp/olive/io/proxygenerator.cpp,"ProxyGenerator::ProxyGenerator()",1, 55, 0, 0
+repos/cpp/olive/io/proxygenerator.cpp,"ProxyGenerator::transcode( const ProxyInfo & info)",290, 146, 6, 0
+repos/cpp/olive/io/proxygenerator.cpp,"ProxyGenerator::run()",37, 51, 4, 0
+repos/cpp/olive/io/proxygenerator.cpp,"ProxyGenerator::queue( const ProxyInfo & info)",23, 130, 2, 0
+repos/cpp/olive/io/proxygenerator.cpp,"ProxyGenerator::cancel()",11, 56, 2, 0
+repos/cpp/olive/io/proxygenerator.cpp,"ProxyGenerator::get_proxy_progress( Media * m)",6, 54, 0, 0
+repos/cpp/olive/project/media.cpp,"get_interlacing_name( int interlacing)",8, 110, 2, 0
+repos/cpp/olive/project/media.cpp,"get_channel_layout_name( int channels , uint64_t layout)",12, 78, 2, 0
+repos/cpp/olive/project/media.cpp,"Media::Media( Media * iparent)",5, 31, 0, 0
+repos/cpp/olive/project/media.cpp,"Media::~Media()",5, 40, 2, 0
+repos/cpp/olive/project/media.cpp,"Media::to_footage()",3, 52, 2, 0
+repos/cpp/olive/project/media.cpp,"Media::to_sequence()",3, 53, 2, 0
+repos/cpp/olive/project/media.cpp,"Media::set_footage( FootagePtr f)",4, 40, 0, 0
+repos/cpp/olive/project/media.cpp,"Media::set_sequence( SequencePtr s)",6, 42, 0, 0
+repos/cpp/olive/project/media.cpp,"Media::set_folder()",8, 70, 4, 0
+repos/cpp/olive/project/media.cpp,"Media::set_icon( const QString & str)",4, 41, 0, 0
+repos/cpp/olive/project/media.cpp,"Media::set_icon( const QIcon & ico)",3, 41, 0, 0
+repos/cpp/olive/project/media.cpp,"Media::set_parent( Media * p)",3, 35, 0, 0
+repos/cpp/olive/project/media.cpp,"Media::update_tooltip( const QString & error)",94, 158, 4, 0
+repos/cpp/olive/project/media.cpp,"Media::to_object()",3, 29, 0, 0
+repos/cpp/olive/project/media.cpp,"Media::get_type()",3, 24, 0, 0
+repos/cpp/olive/project/media.cpp,"Media::get_name()",7, 56, 2, 0
+repos/cpp/olive/project/media.cpp,"Media::set_name( const QString & n)",7, 60, 2, 0
+repos/cpp/olive/project/media.cpp,"Media::get_frame_rate( int stream)",12, 85, 4, 0
+repos/cpp/olive/project/media.cpp,"Media::get_sampling_rate( int stream)",12, 96, 4, 0
+repos/cpp/olive/project/media.cpp,"Media::appendChild( Media * child)",4, 40, 0, 0
+repos/cpp/olive/project/media.cpp,"Media::setData( int col , const QVariant & value)",10, 70, 6, 0
+repos/cpp/olive/project/media.cpp,"Media::child( int row)",3, 31, 0, 0
+repos/cpp/olive/project/media.cpp,"Media::childCount() const",3, 32, 0, 0
+repos/cpp/olive/project/media.cpp,"Media::columnCount() const",3, 33, 0, 0
+repos/cpp/olive/project/media.cpp,"Media::data( int column , int role)",55, 103, 8, 0
+repos/cpp/olive/project/media.cpp,"Media::row() const",6, 63, 4, 0
+repos/cpp/olive/project/media.cpp,"Media::parentItem()",3, 29, 0, 0
+repos/cpp/olive/project/media.cpp,"Media::removeChild( int i)",3, 33, 0, 0
+repos/cpp/olive/project/media.cpp,"Media::get_markers()",12, 76, 2, 0
+repos/cpp/olive/project/projectmodel.cpp,"ProjectModel::ProjectModel( QObject * parent)",3, 95, 0, 0
+repos/cpp/olive/project/projectmodel.cpp,"ProjectModel::~ProjectModel()",3, 32, 0, 0
+repos/cpp/olive/project/projectmodel.cpp,"ProjectModel::make_root()",5, 33, 0, 0
+repos/cpp/olive/project/projectmodel.cpp,"ProjectModel::destroy_root()",8, 96, 0, 1
+repos/cpp/olive/project/projectmodel.cpp,"ProjectModel::clear()",6, 29, 0, 0
+repos/cpp/olive/project/projectmodel.cpp,"ProjectModel::get_root()",3, 34, 0, 0
+repos/cpp/olive/project/projectmodel.cpp,"ProjectModel::data( const QModelIndex & index , int role) const",6, 82, 0, 1
+repos/cpp/olive/project/projectmodel.cpp,"ProjectModel::flags( const QModelIndex & index) const",6, 111, 0, 1
+repos/cpp/olive/project/projectmodel.cpp,"ProjectModel::headerData( int section , Qt :: Orientation orientation , int role) const",6, 94, 0, 0
+repos/cpp/olive/project/projectmodel.cpp,"ProjectModel::index( int row , int column , const QModelIndex & parent) const",17, 88, 0, 0
+repos/cpp/olive/project/projectmodel.cpp,"ProjectModel::create_index( int arow , int acolumn , void * adata)",3, 77, 0, 0
+repos/cpp/olive/project/projectmodel.cpp,"ProjectModel::parent( const QModelIndex & index) const",12, 67, 0, 0
+repos/cpp/olive/project/projectmodel.cpp,"ProjectModel::canFetchMore( const QModelIndex & parent) const",13, 118, 2, 0
+repos/cpp/olive/project/projectmodel.cpp,"ProjectModel::hasChildren( const QModelIndex & parent) const",8, 91, 6, 0
+repos/cpp/olive/project/projectmodel.cpp,"ProjectModel::setData( const QModelIndex & index , const QVariant & value , int role)",12, 88, 0, 0
+repos/cpp/olive/project/projectmodel.cpp,"ProjectModel::rowCount( const QModelIndex & parent) const",13, 62, 0, 0
+repos/cpp/olive/project/projectmodel.cpp,"ProjectModel::columnCount( const QModelIndex & parent) const",6, 71, 0, 2
+repos/cpp/olive/project/projectmodel.cpp,"ProjectModel::getItem( const QModelIndex & index) const",8, 63, 0, 0
+repos/cpp/olive/project/projectmodel.cpp,"ProjectModel::set_icon( Media * m , const QIcon & ico)",5, 58, 0, 0
+repos/cpp/olive/project/projectmodel.cpp,"ProjectModel::appendChild( Media * parent , Media * child)",6, 139, 0, 1
+repos/cpp/olive/project/projectmodel.cpp,"ProjectModel::moveChild( Media * child , Media * to)",14, 75, 0, 4
+repos/cpp/olive/project/projectmodel.cpp,"ProjectModel::removeChild( Media * parent , Media * m)",6, 115, 0, 1
+repos/cpp/olive/project/projectmodel.cpp,"ProjectModel::child( int i , Media * parent)",4, 51, 0, 0
+repos/cpp/olive/project/projectmodel.cpp,"ProjectModel::childCount( Media * parent)",4, 46, 0, 0
+repos/cpp/olive/project/transition.cpp,"Transition::Transition( Clip * c , Clip * s , const EffectMeta * em)",13, 138, 2, 0
+repos/cpp/olive/project/transition.cpp,"Transition::copy( Clip * c , Clip * s)",3, 51, 0, 0
+repos/cpp/olive/project/transition.cpp,"Transition::save( QXmlStreamWriter & stream)",4, 71, 2, 0
+repos/cpp/olive/project/transition.cpp,"Transition::set_length( long l)",4, 38, 0, 0
+repos/cpp/olive/project/transition.cpp,"Transition::get_true_length()",3, 37, 0, 0
+repos/cpp/olive/project/transition.cpp,"Transition::get_length()",6, 35, 2, 0
+repos/cpp/olive/project/transition.cpp,"Transition::get_opened_clip()",8, 94, 2, 0
+repos/cpp/olive/project/transition.cpp,"Transition::get_closed_clip()",8, 94, 2, 0
+repos/cpp/olive/project/transition.cpp,"Transition::set_length_from_slider()",4, 49, 2, 0
+repos/cpp/olive/project/transition.cpp,"Transition::CreateFromMeta( Clip * c , Clip * s , const EffectMeta * em)",22, 181, 26, 0
+repos/cpp/olive/project/transition.cpp,"Transition::Create( Clip * c , Clip * s , const EffectMeta * em , long length)",10, 88, 0, 0
+repos/cpp/olive/project/marker.cpp,"draw_marker( QPainter & p , int x , int y , int bottom , bool selected)",16, 73, 0, 0
+repos/cpp/olive/project/marker.cpp,"set_marker_internal( SequencePtr seq , const QVector<int> & clips)",70, 119, 0, 3
+repos/cpp/olive/project/marker.cpp,"set_marker_internal( SequencePtr seq)",6, 44, 0, 0
+repos/cpp/olive/project/effectgizmo.cpp,"EffectGizmo::EffectGizmo( int type)",18, 57, 4, 0
+repos/cpp/olive/project/effectgizmo.cpp,"EffectGizmo::set_previous_value()",6, 100, 4, 0
+repos/cpp/olive/project/effectgizmo.cpp,"EffectGizmo::get_point_count()",3, 37, 0, 0
+repos/cpp/olive/project/effectgizmo.cpp,"EffectGizmo::get_type()",3, 30, 0, 0
+repos/cpp/olive/project/effectgizmo.cpp,"EffectGizmo::get_cursor()",3, 32, 0, 0
+repos/cpp/olive/project/effectgizmo.cpp,"EffectGizmo::set_cursor( int c)",3, 38, 0, 0
+repos/cpp/olive/project/undo.cpp,"MoveClipAction::MoveClipAction( Clip * c , long iin , long iout , long iclip_in , int itrack , bool irelative)",15, 106, 0, 0
+repos/cpp/olive/project/undo.cpp,"MoveClipAction::doUndo()",13, 61, 4, 0
+repos/cpp/olive/project/undo.cpp,"MoveClipAction::doRedo()",13, 60, 4, 0
+repos/cpp/olive/project/undo.cpp,"DeleteClipAction::DeleteClipAction( SequencePtr s , int clip)",6, 62, 0, 0
+repos/cpp/olive/project/undo.cpp,"DeleteClipAction::~DeleteClipAction()",1, 41, 0, 0
+repos/cpp/olive/project/undo.cpp,"DeleteClipAction::doUndo()",11, 83, 4, 0
+repos/cpp/olive/project/undo.cpp,"DeleteClipAction::doRedo()",24, 45, 6, 0
+repos/cpp/olive/project/undo.cpp,"ChangeSequenceAction::ChangeSequenceAction( SequencePtr s)",3, 60, 0, 0
+repos/cpp/olive/project/undo.cpp,"ChangeSequenceAction::doUndo()",3, 45, 2, 0
+repos/cpp/olive/project/undo.cpp,"ChangeSequenceAction::doRedo()",4, 45, 2, 0
+repos/cpp/olive/project/undo.cpp,"SetTimelineInOutCommand::SetTimelineInOutCommand( SequencePtr s , bool enabled , long in , long out)",6, 99, 0, 0
+repos/cpp/olive/project/undo.cpp,"SetTimelineInOutCommand::doUndo()",13, 60, 4, 0
+repos/cpp/olive/project/undo.cpp,"SetTimelineInOutCommand::doRedo()",17, 60, 4, 0
+repos/cpp/olive/project/undo.cpp,"AddEffectCommand::AddEffectCommand( Clip * c , EffectPtr e , const EffectMeta * m , int insert_pos)",7, 96, 0, 0
+repos/cpp/olive/project/undo.cpp,"AddEffectCommand::doUndo()",9, 34, 0, 0
+repos/cpp/olive/project/undo.cpp,"AddEffectCommand::doRedo()",11, 38, 4, 0
+repos/cpp/olive/project/undo.cpp,"AddTransitionCommand::AddTransitionCommand( Clip * iopen , Clip * iclose , TransitionPtr copy , const EffectMeta * itransition , int ilength)",12, 74, 43, 0
+repos/cpp/olive/project/undo.cpp,"AddTransitionCommand::doUndo()",9, 56, 4, 0
+repos/cpp/olive/project/undo.cpp,"AddTransitionCommand::doRedo()",37, 94, 6, 0
+repos/cpp/olive/project/undo.cpp,"ModifyTransitionCommand::ModifyTransitionCommand( TransitionPtr t , long ilength)",5, 82, 0, 0
+repos/cpp/olive/project/undo.cpp,"ModifyTransitionCommand::doUndo()",3, 44, 2, 0
+repos/cpp/olive/project/undo.cpp,"ModifyTransitionCommand::doRedo()",4, 44, 2, 0
+repos/cpp/olive/project/undo.cpp,"DeleteTransitionCommand::DeleteTransitionCommand( TransitionPtr t)",3, 68, 0, 0
+repos/cpp/olive/project/undo.cpp,"DeleteTransitionCommand::doUndo()",9, 56, 4, 0
+repos/cpp/olive/project/undo.cpp,"DeleteTransitionCommand::doRedo()",12, 53, 2, 0
+repos/cpp/olive/project/undo.cpp,"NewSequenceCommand::NewSequenceCommand( Media * s , Media * iparent)",7, 67, 0, 0
+repos/cpp/olive/project/undo.cpp,"NewSequenceCommand::~NewSequenceCommand()",3, 44, 0, 0
+repos/cpp/olive/project/undo.cpp,"NewSequenceCommand::doUndo()",5, 49, 2, 0
+repos/cpp/olive/project/undo.cpp,"NewSequenceCommand::doRedo()",5, 49, 2, 0
+repos/cpp/olive/project/undo.cpp,"AddMediaCommand::AddMediaCommand( Media * iitem , Media * iparent)",5, 65, 0, 0
+repos/cpp/olive/project/undo.cpp,"AddMediaCommand::~AddMediaCommand()",5, 38, 0, 0
+repos/cpp/olive/project/undo.cpp,"AddMediaCommand::doUndo()",5, 50, 2, 0
+repos/cpp/olive/project/undo.cpp,"AddMediaCommand::doRedo()",5, 50, 2, 0
+repos/cpp/olive/project/undo.cpp,"DeleteMediaCommand::DeleteMediaCommand( Media * i)",4, 51, 0, 0
+repos/cpp/olive/project/undo.cpp,"DeleteMediaCommand::~DeleteMediaCommand()",5, 44, 0, 0
+repos/cpp/olive/project/undo.cpp,"DeleteMediaCommand::doUndo()",6, 50, 2, 0
+repos/cpp/olive/project/undo.cpp,"DeleteMediaCommand::doRedo()",5, 50, 2, 0
+repos/cpp/olive/project/undo.cpp,"AddClipCommand::AddClipCommand( SequencePtr s , QVector<ClipPtr> & add)",5, 71, 0, 0
+repos/cpp/olive/project/undo.cpp,"AddClipCommand::~AddClipCommand()",1, 37, 0, 0
+repos/cpp/olive/project/undo.cpp,"AddClipCommand::doUndo()",27, 86, 6, 0
+repos/cpp/olive/project/undo.cpp,"AddClipCommand::doRedo()",17, 52, 6, 0
+repos/cpp/olive/project/undo.cpp,"LinkCommand::LinkCommand()",3, 29, 0, 0
+repos/cpp/olive/project/undo.cpp,"LinkCommand::doUndo()",11, 42, 4, 0
+repos/cpp/olive/project/undo.cpp,"LinkCommand::doRedo()",16, 42, 4, 0
+repos/cpp/olive/project/undo.cpp,"CheckboxCommand::CheckboxCommand( QCheckBox * b)",5, 49, 0, 0
+repos/cpp/olive/project/undo.cpp,"CheckboxCommand::~CheckboxCommand()",1, 39, 0, 0
+repos/cpp/olive/project/undo.cpp,"CheckboxCommand::doUndo()",5, 33, 0, 0
+repos/cpp/olive/project/undo.cpp,"CheckboxCommand::doRedo()",5, 33, 0, 0
+repos/cpp/olive/project/undo.cpp,"ReplaceMediaCommand::ReplaceMediaCommand( Media * i , QString s)",5, 64, 0, 0
+repos/cpp/olive/project/undo.cpp,"ReplaceMediaCommand::replace( QString & filename)",20, 79, 2, 0
+repos/cpp/olive/project/undo.cpp,"ReplaceMediaCommand::doUndo()",5, 37, 0, 0
+repos/cpp/olive/project/undo.cpp,"ReplaceMediaCommand::doRedo()",3, 37, 0, 0
+repos/cpp/olive/project/undo.cpp,"ReplaceClipMediaCommand::ReplaceClipMediaCommand( Media * a , Media * b , bool e)",5, 79, 0, 0
+repos/cpp/olive/project/undo.cpp,"ReplaceClipMediaCommand::replace( bool undo)",30, 56, 6, 0
+repos/cpp/olive/project/undo.cpp,"ReplaceClipMediaCommand::doUndo()",3, 41, 0, 0
+repos/cpp/olive/project/undo.cpp,"ReplaceClipMediaCommand::doRedo()",5, 41, 0, 0
+repos/cpp/olive/project/undo.cpp,"EffectDeleteCommand::EffectDeleteCommand()",3, 45, 0, 0
+repos/cpp/olive/project/undo.cpp,"EffectDeleteCommand::~EffectDeleteCommand()",1, 47, 0, 0
+repos/cpp/olive/project/undo.cpp,"EffectDeleteCommand::doUndo()",9, 56, 4, 0
+repos/cpp/olive/project/undo.cpp,"EffectDeleteCommand::doRedo()",13, 41, 2, 0
+repos/cpp/olive/project/undo.cpp,"MediaMove::MediaMove()",1, 26, 0, 0
+repos/cpp/olive/project/undo.cpp,"MediaMove::doUndo()",6, 62, 4, 0
+repos/cpp/olive/project/undo.cpp,"MediaMove::doRedo()",9, 59, 2, 0
+repos/cpp/olive/project/undo.cpp,"MediaRename::MediaRename( Media * iitem , QString ito)",5, 54, 0, 0
+repos/cpp/olive/project/undo.cpp,"MediaRename::doUndo()",4, 29, 0, 0
+repos/cpp/olive/project/undo.cpp,"MediaRename::doRedo()",3, 29, 0, 0
+repos/cpp/olive/project/undo.cpp,"KeyframeDelete::KeyframeDelete( EffectField * ifield , int iindex)",4, 66, 0, 0
+repos/cpp/olive/project/undo.cpp,"KeyframeDelete::doUndo()",3, 47, 2, 0
+repos/cpp/olive/project/undo.cpp,"KeyframeDelete::doRedo()",4, 44, 2, 0
+repos/cpp/olive/project/undo.cpp,"EffectFieldUndo::EffectFieldUndo( EffectField * f)",7, 51, 0, 0
+repos/cpp/olive/project/undo.cpp,"EffectFieldUndo::doUndo()",5, 36, 2, 0
+repos/cpp/olive/project/undo.cpp,"EffectFieldUndo::doRedo()",5, 38, 4, 0
+repos/cpp/olive/project/undo.cpp,"SetClipProperty::SetClipProperty( SetClipPropertyType type)",2, 73, 0, 0
+repos/cpp/olive/project/undo.cpp,"SetClipProperty::AddSetting( QVector<Clip*> clips , bool setting)",6, 70, 0, 0
+repos/cpp/olive/project/undo.cpp,"SetClipProperty::AddSetting( Clip * c , bool setting)",23, 56, 0, 0
+repos/cpp/olive/project/undo.cpp,"SetClipProperty::MainLoop( bool undo)",26, 65, 4, 0
+repos/cpp/olive/project/undo.cpp,"SetClipProperty::doUndo()",5, 56, 2, 0
+repos/cpp/olive/project/undo.cpp,"SetClipProperty::doRedo()",4, 56, 2, 0
+repos/cpp/olive/project/undo.cpp,"AddMarkerAction::AddMarkerAction( QVector<Marker> * m , long t , QString n)",5, 74, 0, 0
+repos/cpp/olive/project/undo.cpp,"AddMarkerAction::doUndo()",7, 44, 4, 0
+repos/cpp/olive/project/undo.cpp,"AddMarkerAction::doRedo()",20, 45, 2, 0
+repos/cpp/olive/project/undo.cpp,"MoveMarkerAction::MoveMarkerAction( Marker * m , long o , long n)",5, 64, 0, 0
+repos/cpp/olive/project/undo.cpp,"MoveMarkerAction::doUndo()",4, 34, 0, 0
+repos/cpp/olive/project/undo.cpp,"MoveMarkerAction::doRedo()",3, 34, 0, 0
+repos/cpp/olive/project/undo.cpp,"DeleteMarkerAction::DeleteMarkerAction( QVector<Marker> * m)",4, 61, 0, 0
+repos/cpp/olive/project/undo.cpp,"DeleteMarkerAction::doUndo()",6, 55, 4, 0
+repos/cpp/olive/project/undo.cpp,"DeleteMarkerAction::doRedo()",15, 54, 6, 0
+repos/cpp/olive/project/undo.cpp,"SetSpeedAction::SetSpeedAction( Clip * c , double speed)",5, 56, 0, 0
+repos/cpp/olive/project/undo.cpp,"SetSpeedAction::doUndo()",7, 32, 0, 0
+repos/cpp/olive/project/undo.cpp,"SetSpeedAction::doRedo()",7, 32, 0, 0
+repos/cpp/olive/project/undo.cpp,"SetBool::SetBool( bool * b , bool setting)",5, 42, 0, 0
+repos/cpp/olive/project/undo.cpp,"SetBool::doUndo()",3, 26, 2, 0
+repos/cpp/olive/project/undo.cpp,"SetBool::doRedo()",3, 26, 2, 0
+repos/cpp/olive/project/undo.cpp,"SetSelectionsCommand::SetSelectionsCommand( SequencePtr s)",4, 60, 0, 0
+repos/cpp/olive/project/undo.cpp,"SetSelectionsCommand::doUndo()",4, 38, 0, 0
+repos/cpp/olive/project/undo.cpp,"SetSelectionsCommand::doRedo()",6, 38, 0, 0
+repos/cpp/olive/project/undo.cpp,"EditSequenceCommand::EditSequenceCommand( Media * i , SequencePtr s)",10, 68, 0, 0
+repos/cpp/olive/project/undo.cpp,"EditSequenceCommand::doUndo()",9, 46, 2, 0
+repos/cpp/olive/project/undo.cpp,"EditSequenceCommand::doRedo()",9, 42, 2, 0
+repos/cpp/olive/project/undo.cpp,"EditSequenceCommand::update()",12, 66, 4, 0
+repos/cpp/olive/project/undo.cpp,"SetInt::SetInt( int * pointer , int new_value)",5, 46, 0, 0
+repos/cpp/olive/project/undo.cpp,"SetInt::doUndo()",4, 24, 0, 0
+repos/cpp/olive/project/undo.cpp,"SetInt::doRedo()",3, 24, 0, 0
+repos/cpp/olive/project/undo.cpp,"SetString::SetString( QString * pointer , QString new_value)",5, 60, 0, 0
+repos/cpp/olive/project/undo.cpp,"SetString::doUndo()",4, 27, 0, 0
+repos/cpp/olive/project/undo.cpp,"SetString::doRedo()",3, 27, 0, 0
+repos/cpp/olive/project/undo.cpp,"CloseAllClipsCommand::doUndo()",3, 38, 0, 0
+repos/cpp/olive/project/undo.cpp,"CloseAllClipsCommand::doRedo()",3, 45, 2, 0
+repos/cpp/olive/project/undo.cpp,"UpdateFootageTooltip::UpdateFootageTooltip( Media * i)",3, 55, 0, 0
+repos/cpp/olive/project/undo.cpp,"UpdateFootageTooltip::doUndo()",3, 38, 0, 0
+repos/cpp/olive/project/undo.cpp,"UpdateFootageTooltip::doRedo()",3, 38, 0, 0
+repos/cpp/olive/project/undo.cpp,"MoveEffectCommand::MoveEffectCommand()",1, 42, 0, 0
+repos/cpp/olive/project/undo.cpp,"MoveEffectCommand::doUndo()",4, 35, 0, 0
+repos/cpp/olive/project/undo.cpp,"MoveEffectCommand::doRedo()",3, 35, 0, 0
+repos/cpp/olive/project/undo.cpp,"RemoveClipsFromClipboard::RemoveClipsFromClipboard( int index)",4, 64, 0, 0
+repos/cpp/olive/project/undo.cpp,"RemoveClipsFromClipboard::~RemoveClipsFromClipboard()",1, 57, 0, 0
+repos/cpp/olive/project/undo.cpp,"RemoveClipsFromClipboard::doUndo()",4, 42, 0, 0
+repos/cpp/olive/project/undo.cpp,"RemoveClipsFromClipboard::doRedo()",5, 60, 2, 0
+repos/cpp/olive/project/undo.cpp,"RenameClipCommand::RenameClipCommand( Clip * clip , QString new_name)",6, 67, 0, 0
+repos/cpp/olive/project/undo.cpp,"RenameClipCommand::doUndo()",3, 35, 0, 0
+repos/cpp/olive/project/undo.cpp,"RenameClipCommand::doRedo()",3, 35, 0, 0
+repos/cpp/olive/project/undo.cpp,"SetPointer::SetPointer( void ** pointer , void * data)",4, 53, 0, 0
+repos/cpp/olive/project/undo.cpp,"SetPointer::doUndo()",3, 28, 0, 0
+repos/cpp/olive/project/undo.cpp,"SetPointer::doRedo()",4, 28, 0, 0
+repos/cpp/olive/project/undo.cpp,"ReloadEffectsCommand::doUndo()",3, 38, 0, 0
+repos/cpp/olive/project/undo.cpp,"ReloadEffectsCommand::doRedo()",3, 41, 2, 0
+repos/cpp/olive/project/undo.cpp,"RippleAction::RippleAction( SequencePtr is , long ipoint , long ilength , const QVector<int> & iignore)",6, 101, 0, 0
+repos/cpp/olive/project/undo.cpp,"RippleAction::doUndo()",4, 30, 0, 0
+repos/cpp/olive/project/undo.cpp,"RippleAction::doRedo()",14, 57, 10, 0
+repos/cpp/olive/project/undo.cpp,"SetDouble::SetDouble( double * pointer , double old_value , double new_value)",5, 76, 0, 0
+repos/cpp/olive/project/undo.cpp,"SetDouble::doUndo()",4, 27, 0, 0
+repos/cpp/olive/project/undo.cpp,"SetDouble::doRedo()",3, 27, 0, 0
+repos/cpp/olive/project/undo.cpp,"SetQVariant::SetQVariant( QVariant * itarget , const QVariant & iold , const QVariant & inew)",5, 90, 0, 0
+repos/cpp/olive/project/undo.cpp,"SetQVariant::doUndo()",3, 29, 0, 0
+repos/cpp/olive/project/undo.cpp,"SetQVariant::doRedo()",3, 29, 0, 0
+repos/cpp/olive/project/undo.cpp,"SetLong::SetLong( long * pointer , long old_value , long new_value)",5, 66, 0, 0
+repos/cpp/olive/project/undo.cpp,"SetLong::doUndo()",4, 25, 0, 0
+repos/cpp/olive/project/undo.cpp,"SetLong::doRedo()",3, 25, 0, 0
+repos/cpp/olive/project/undo.cpp,"KeyframeFieldSet::KeyframeFieldSet( EffectField * ifield , int ii)",6, 66, 0, 0
+repos/cpp/olive/project/undo.cpp,"KeyframeFieldSet::doUndo()",5, 36, 2, 0
+repos/cpp/olive/project/undo.cpp,"KeyframeFieldSet::doRedo()",6, 41, 4, 0
+repos/cpp/olive/project/undo.cpp,"SetKeyframing::SetKeyframing( EffectRow * irow , bool ib)",4, 57, 0, 0
+repos/cpp/olive/project/undo.cpp,"SetKeyframing::doUndo()",3, 31, 0, 0
+repos/cpp/olive/project/undo.cpp,"SetKeyframing::doRedo()",3, 31, 0, 0
+repos/cpp/olive/project/undo.cpp,"RefreshClips::RefreshClips( Media * m)",3, 39, 0, 0
+repos/cpp/olive/project/undo.cpp,"RefreshClips::doUndo()",3, 30, 0, 0
+repos/cpp/olive/project/undo.cpp,"RefreshClips::doRedo()",14, 79, 2, 0
+repos/cpp/olive/project/undo.cpp,"UpdateViewer::doUndo()",3, 30, 0, 0
+repos/cpp/olive/project/undo.cpp,"UpdateViewer::doRedo()",3, 56, 2, 0
+repos/cpp/olive/project/undo.cpp,"SetEffectData::SetEffectData( EffectPtr e , const QByteArray & s)",4, 65, 0, 0
+repos/cpp/olive/project/undo.cpp,"SetEffectData::doUndo()",5, 38, 2, 0
+repos/cpp/olive/project/undo.cpp,"SetEffectData::doRedo()",5, 39, 2, 0
+repos/cpp/olive/project/undo.cpp,"OliveAction::OliveAction( bool iset_window_modified)",3, 54, 0, 0
+repos/cpp/olive/project/undo.cpp,"OliveAction::~OliveAction()",1, 31, 0, 0
+repos/cpp/olive/project/undo.cpp,"OliveAction::undo()",7, 63, 4, 0
+repos/cpp/olive/project/undo.cpp,"OliveAction::redo()",13, 65, 4, 0
+repos/cpp/olive/project/sequence.cpp,"Sequence::Sequence()",7, 28, 2, 0
+repos/cpp/olive/project/sequence.cpp,"Sequence::~Sequence()",1, 25, 0, 0
+repos/cpp/olive/project/sequence.cpp,"Sequence::copy()",27, 76, 2, 0
+repos/cpp/olive/project/sequence.cpp,"Sequence::getEndFrame()",10, 51, 4, 0
+repos/cpp/olive/project/sequence.cpp,"Sequence::RefreshClips( Media * m)",11, 48, 8, 0
+repos/cpp/olive/project/sequence.cpp,"Sequence::SelectedClips()",13, 51, 4, 0
+repos/cpp/olive/project/sequence.cpp,"Sequence::SelectedClipIndexes()",13, 51, 4, 0
+repos/cpp/olive/project/sequence.cpp,"Sequence::GetSelectedGizmo()",40, 107, 8, 0
+repos/cpp/olive/project/sequence.cpp,"Sequence::IsClipSelected( int clip_index , bool containing)",4, 65, 2, 0
+repos/cpp/olive/project/sequence.cpp,"Sequence::IsClipSelected( Clip * clip , bool containing)",12, 114, 4, 0
+repos/cpp/olive/project/sequence.cpp,"Sequence::getTrackLimits( int * video_tracks , int * audio_tracks)",16, 70, 0, 0
+repos/cpp/olive/project/effect.cpp,"Effect::Create( Clip * c , const EffectMeta * em)",33, 154, 2, 7
+repos/cpp/olive/project/effect.cpp,"Effect::GetInternalMeta( int internal_id , int type)",8, 77, 0, 2
+repos/cpp/olive/project/effect.cpp,"Effect::Effect( Clip * c , const EffectMeta * em)",216, 129, 0, 1
+repos/cpp/olive/project/effect.cpp,"Effect::~Effect()",14, 37, 0, 1
+repos/cpp/olive/project/effect.cpp,"Effect::copy_field_keyframes( EffectPtr e)",13, 60, 0, 3
+repos/cpp/olive/project/effect.cpp,"Effect::add_row( const QString & name , bool savable , bool keyframable)",5, 91, 0, 1
+repos/cpp/olive/project/effect.cpp,"Effect::row( int i)",3, 32, 0, 0
+repos/cpp/olive/project/effect.cpp,"Effect::row_count()",3, 26, 0, 0
+repos/cpp/olive/project/effect.cpp,"Effect::add_gizmo( int type)",5, 45, 0, 1
+repos/cpp/olive/project/effect.cpp,"Effect::gizmo( int i)",3, 36, 0, 0
+repos/cpp/olive/project/effect.cpp,"Effect::gizmo_count()",3, 28, 0, 0
+repos/cpp/olive/project/effect.cpp,"Effect::refresh()",1, 26, 0, 0
+repos/cpp/olive/project/effect.cpp,"Effect::field_changed()",4, 55, 0, 1
+repos/cpp/olive/project/effect.cpp,"Effect::show_context_menu( const QPoint & pos)",34, 79, 0, 2
+repos/cpp/olive/project/effect.cpp,"Effect::delete_self()",7, 59, 0, 1
+repos/cpp/olive/project/effect.cpp,"Effect::move_up()",9, 55, 0, 1
+repos/cpp/olive/project/effect.cpp,"Effect::move_down()",9, 55, 0, 1
+repos/cpp/olive/project/effect.cpp,"Effect::save_to_file()",29, 67, 4, 0
+repos/cpp/olive/project/effect.cpp,"Effect::load_from_file()",25, 94, 12, 0
+repos/cpp/olive/project/effect.cpp,"Effect::get_index_in_clip()",10, 60, 12, 0
+repos/cpp/olive/project/effect.cpp,"Effect::is_enabled()",3, 47, 0, 1
+repos/cpp/olive/project/effect.cpp,"Effect::set_enabled( bool b)",3, 42, 0, 1
+repos/cpp/olive/project/effect.cpp,"load_data_from_string( int type , const QString & string)",13, 66, 0, 0
+repos/cpp/olive/project/effect.cpp,"save_data_to_string( int type , const QVariant & data)",13, 68, 0, 1
+repos/cpp/olive/project/effect.cpp,"Effect::load( QXmlStreamReader & stream)",90, 181, 0, 7
+repos/cpp/olive/project/effect.cpp,"Effect::custom_load( QXmlStreamReader &)",1, 48, 0, 0
+repos/cpp/olive/project/effect.cpp,"Effect::save( QXmlStreamWriter & stream)",31, 97, 0, 4
+repos/cpp/olive/project/effect.cpp,"Effect::load_from_string( const QByteArray & s)",43, 66, 2, 11
+repos/cpp/olive/project/effect.cpp,"Effect::save_to_string()",19, 45, 0, 1
+repos/cpp/olive/project/effect.cpp,"Effect::is_open()",3, 25, 0, 0
+repos/cpp/olive/project/effect.cpp,"Effect::validate_meta_path()",16, 82, 0, 1
+repos/cpp/olive/project/effect.cpp,"Effect::open()",41, 102, 0, 4
+repos/cpp/olive/project/effect.cpp,"Effect::close()",11, 68, 0, 2
+repos/cpp/olive/project/effect.cpp,"Effect::is_glsl_linked()",3, 59, 0, 1
+repos/cpp/olive/project/effect.cpp,"Effect::startEffect()",11, 60, 0, 2
+repos/cpp/olive/project/effect.cpp,"Effect::endEffect()",4, 36, 0, 1
+repos/cpp/olive/project/effect.cpp,"Effect::getIterations()",3, 30, 0, 0
+repos/cpp/olive/project/effect.cpp,"Effect::setIterations( int i)",3, 36, 0, 0
+repos/cpp/olive/project/effect.cpp,"Effect::process_image( double , uint8_t * , uint8_t * , int)",1, 64, 0, 0
+repos/cpp/olive/project/effect.cpp,"Effect::copy( Clip * c)",6, 46, 4, 0
+repos/cpp/olive/project/effect.cpp,"Effect::process_shader( double timecode , GLTextureCoords & , int iteration)",36, 111, 0, 5
+repos/cpp/olive/project/effect.cpp,"Effect::process_coords( double , GLTextureCoords & , int)",1, 62, 0, 0
+repos/cpp/olive/project/effect.cpp,"Effect::process_superimpose( double timecode)",36, 99, 0, 1
+repos/cpp/olive/project/effect.cpp,"Effect::process_audio( double , double , quint8 * , int , int)",1, 65, 0, 0
+repos/cpp/olive/project/effect.cpp,"Effect::gizmo_draw( double , GLTextureCoords &)",1, 54, 0, 0
+repos/cpp/olive/project/effect.cpp,"Effect::gizmo_move( EffectGizmo * gizmo , int x_movement , int y_movement , double timecode , bool done)",26, 119, 0, 4
+repos/cpp/olive/project/effect.cpp,"Effect::gizmo_world_to_screen()",22, 123, 0, 3
+repos/cpp/olive/project/effect.cpp,"Effect::are_gizmos_enabled()",3, 36, 0, 0
+repos/cpp/olive/project/effect.cpp,"Effect::redraw( double)",43, 94, 0, 5
+repos/cpp/olive/project/effect.cpp,"Effect::valueHasChanged( double timecode)",27, 63, 0, 4
+repos/cpp/olive/project/effect.cpp,"Effect::delete_texture()",6, 32, 0, 0
+repos/cpp/olive/project/effect.cpp,"get_meta_from_name( const QString & input)",17, 61, 0, 0
+repos/cpp/olive/project/effect.cpp,"mix_audio_sample( qint16 a , qint16 b)",5, 106, 0, 1
+repos/cpp/olive/project/keyframe.cpp,"EffectKeyframe::EffectKeyframe()",6, 35, 0, 0
+repos/cpp/olive/project/keyframe.cpp,"delete_keyframes( QVector<EffectField*> & selected_key_fields , QVector<int> & selected_keys)",31, 98, 0, 0
+repos/cpp/olive/project/effectrow.cpp,"EffectRow::EffectRow( Effect * parent , bool save , QGridLayout * uilayout , const QString & n , int row , bool keyframable)",30, 118, 0, 0
+repos/cpp/olive/project/effectrow.cpp,"EffectRow::~EffectRow()",5, 37, 0, 1
+repos/cpp/olive/project/effectrow.cpp,"EffectRow::isKeyframing()",3, 33, 0, 0
+repos/cpp/olive/project/effectrow.cpp,"EffectRow::setKeyframing( bool b)",8, 60, 0, 1
+repos/cpp/olive/project/effectrow.cpp,"EffectRow::set_keyframe_enabled( bool enabled)",27, 106, 2, 8
+repos/cpp/olive/project/effectrow.cpp,"EffectRow::goto_previous_key()",14, 77, 6, 0
+repos/cpp/olive/project/effectrow.cpp,"EffectRow::toggle_key()",27, 77, 6, 0
+repos/cpp/olive/project/effectrow.cpp,"EffectRow::goto_next_key()",14, 77, 6, 0
+repos/cpp/olive/project/effectrow.cpp,"EffectRow::focus_row()",3, 36, 0, 1
+repos/cpp/olive/project/effectrow.cpp,"EffectRow::add_field( int type , const QString & id , int colspan)",10, 118, 0, 1
+repos/cpp/olive/project/effectrow.cpp,"EffectRow::add_widget( QWidget * w)",5, 41, 0, 0
+repos/cpp/olive/project/effectrow.cpp,"EffectRow::set_keyframe_now( ComboAction * ca)",95, 131, 0, 3
+repos/cpp/olive/project/effectrow.cpp,"EffectRow::delete_keyframe_at_time( ComboAction * ca , long time)",11, 70, 0, 0
+repos/cpp/olive/project/effectrow.cpp,"EffectRow::get_name()",3, 39, 0, 0
+repos/cpp/olive/project/effectrow.cpp,"EffectRow::field( int i)",3, 39, 0, 0
+repos/cpp/olive/project/effectrow.cpp,"EffectRow::fieldCount()",3, 30, 0, 0
+repos/cpp/olive/project/sourcescommon.cpp,"SourcesCommon::SourcesCommon( Project * parent)",7, 76, 2, 0
+repos/cpp/olive/project/sourcescommon.cpp,"SourcesCommon::create_seq_from_selected()",18, 78, 6, 0
+repos/cpp/olive/project/sourcescommon.cpp,"SourcesCommon::show_context_menu( QWidget * parent , const QModelIndexList & items)",160, 139, 6, 0
+repos/cpp/olive/project/sourcescommon.cpp,"SourcesCommon::mousePressEvent( QMouseEvent *)",3, 53, 0, 0
+repos/cpp/olive/project/sourcescommon.cpp,"SourcesCommon::item_click( Media * m , const QModelIndex & index)",8, 69, 0, 0
+repos/cpp/olive/project/sourcescommon.cpp,"SourcesCommon::mouseDoubleClickEvent( const QModelIndexList & selected_items)",13, 91, 6, 0
+repos/cpp/olive/project/sourcescommon.cpp,"SourcesCommon::dropEvent( QWidget * parent , QDropEvent * event , const QModelIndex & drop_item , const QModelIndexList & items)",78, 128, 0, 0
+repos/cpp/olive/project/sourcescommon.cpp,"SourcesCommon::reveal_in_browser()",23, 88, 2, 0
+repos/cpp/olive/project/sourcescommon.cpp,"SourcesCommon::stop_rename_timer()",3, 42, 0, 0
+repos/cpp/olive/project/sourcescommon.cpp,"SourcesCommon::rename_interval()",6, 53, 2, 0
+repos/cpp/olive/project/sourcescommon.cpp,"SourcesCommon::item_renamed( Media * item)",7, 52, 4, 0
+repos/cpp/olive/project/sourcescommon.cpp,"SourcesCommon::OpenSelectedMediaInMediaViewerFromAction()",4, 119, 2, 0
+repos/cpp/olive/project/sourcescommon.cpp,"SourcesCommon::OpenSelectedMediaInMediaViewer( Media * item)",6, 66, 0, 0
+repos/cpp/olive/project/sourcescommon.cpp,"SourcesCommon::open_create_proxy_dialog()",5, 76, 2, 0
+repos/cpp/olive/project/sourcescommon.cpp,"SourcesCommon::clear_proxies_from_selected()",38, 116, 34, 0
+repos/cpp/olive/project/clip.cpp,"Clip::Clip( SequencePtr s)",23, 58, 2, 0
+repos/cpp/olive/project/clip.cpp,"Clip::copy( SequencePtr s)",25, 111, 2, 0
+repos/cpp/olive/project/clip.cpp,"Clip::IsActiveAt( long timecode)",13, 87, 2, 0
+repos/cpp/olive/project/clip.cpp,"Clip::color()",4, 28, 0, 0
+repos/cpp/olive/project/clip.cpp,"Clip::set_color( int r , int g , int b)",6, 42, 0, 0
+repos/cpp/olive/project/clip.cpp,"Clip::set_color( const QColor & c)",4, 38, 0, 0
+repos/cpp/olive/project/clip.cpp,"Clip::media()",4, 21, 0, 0
+repos/cpp/olive/project/clip.cpp,"Clip::media_stream()",9, 97, 4, 0
+repos/cpp/olive/project/clip.cpp,"Clip::media_stream_index()",4, 31, 0, 0
+repos/cpp/olive/project/clip.cpp,"Clip::set_media( Media * m , int s)",5, 38, 0, 0
+repos/cpp/olive/project/clip.cpp,"Clip::enabled()",4, 21, 0, 0
+repos/cpp/olive/project/clip.cpp,"Clip::set_enabled( bool e)",4, 31, 0, 0
+repos/cpp/olive/project/clip.cpp,"Clip::move( ComboAction * ca , long iin , long iout , long iclip_in , int itrack , bool verify_transitions , bool relative)",32, 121, 0, 0
+repos/cpp/olive/project/clip.cpp,"Clip::reset()",3, 21, 0, 0
+repos/cpp/olive/project/clip.cpp,"Clip::reset_audio()",12, 74, 2, 0
+repos/cpp/olive/project/clip.cpp,"Clip::refresh()",18, 85, 2, 0
+repos/cpp/olive/project/clip.cpp,"Clip::get_markers()",6, 39, 0, 0
+repos/cpp/olive/project/clip.cpp,"Clip::~Clip()",7, 19, 2, 0
+repos/cpp/olive/project/clip.cpp,"Clip::clip_in( bool with_transition)",7, 107, 2, 0
+repos/cpp/olive/project/clip.cpp,"Clip::set_clip_in( long c)",4, 31, 0, 0
+repos/cpp/olive/project/clip.cpp,"Clip::timeline_in( bool with_transition)",7, 107, 2, 0
+repos/cpp/olive/project/clip.cpp,"Clip::set_timeline_in( long t)",4, 35, 0, 0
+repos/cpp/olive/project/clip.cpp,"Clip::timeline_out( bool with_transitions)",8, 108, 2, 0
+repos/cpp/olive/project/clip.cpp,"Clip::set_timeline_out( long t)",4, 36, 0, 0
+repos/cpp/olive/project/clip.cpp,"Clip::reversed()",4, 22, 0, 0
+repos/cpp/olive/project/clip.cpp,"Clip::set_reversed( bool r)",4, 32, 0, 0
+repos/cpp/olive/project/clip.cpp,"Clip::autoscaled()",4, 24, 0, 0
+repos/cpp/olive/project/clip.cpp,"Clip::set_autoscaled( bool b)",4, 34, 0, 0
+repos/cpp/olive/project/clip.cpp,"Clip::cached_frame_rate()",4, 33, 0, 0
+repos/cpp/olive/project/clip.cpp,"Clip::set_cached_frame_rate( double d)",4, 43, 0, 0
+repos/cpp/olive/project/clip.cpp,"Clip::name()",4, 28, 0, 0
+repos/cpp/olive/project/clip.cpp,"Clip::set_name( const QString & s)",4, 38, 0, 0
+repos/cpp/olive/project/clip.cpp,"Clip::speed()",4, 31, 0, 0
+repos/cpp/olive/project/clip.cpp,"Clip::set_speed( const ClipSpeed & d)",4, 41, 0, 0
+repos/cpp/olive/project/clip.cpp,"Clip::time_base()",4, 35, 2, 0
+repos/cpp/olive/project/clip.cpp,"Clip::track()",4, 18, 0, 0
+repos/cpp/olive/project/clip.cpp,"Clip::set_track( int t)",4, 28, 0, 0
+repos/cpp/olive/project/clip.cpp,"Clip::length()",3, 39, 2, 0
+repos/cpp/olive/project/clip.cpp,"Clip::media_frame_rate()",9, 64, 4, 0
+repos/cpp/olive/project/clip.cpp,"Clip::media_length()",30, 99, 8, 0
+repos/cpp/olive/project/clip.cpp,"Clip::media_width()",18, 72, 2, 0
+repos/cpp/olive/project/clip.cpp,"Clip::media_height()",18, 73, 2, 0
+repos/cpp/olive/project/clip.cpp,"Clip::refactor_frame_rate( ComboAction * ca , double multiplier , bool change_timeline_points)",23, 123, 10, 0
+repos/cpp/olive/project/clip.cpp,"Clip::Open()",20, 60, 4, 0
+repos/cpp/olive/project/clip.cpp,"Clip::Close( bool wait)",41, 98, 6, 0
+repos/cpp/olive/project/clip.cpp,"Clip::IsOpen()",4, 20, 0, 0
+repos/cpp/olive/project/clip.cpp,"Clip::Cache( long playhead , bool scrubbing , QVector<Clip*> & nests , int playback_speed)",4, 93, 0, 0
+repos/cpp/olive/project/clip.cpp,"Clip::Retrieve()",90, 116, 8, 0
+repos/cpp/olive/project/clip.cpp,"Clip::UsesCacher()",4, 92, 2, 0
+repos/cpp/olive/project/effectfield.cpp,"EffectField::EffectField( EffectRow * parent , int t , const QString & i)",64, 186, 0, 2
+repos/cpp/olive/project/effectfield.cpp,"EffectField::~EffectField()",1, 31, 0, 0
+repos/cpp/olive/project/effectfield.cpp,"EffectField::get_validated_keyframe_handle( int key , bool post)",45, 124, 0, 2
+repos/cpp/olive/project/effectfield.cpp,"EffectField::get_previous_data()",12, 99, 0, 1
+repos/cpp/olive/project/effectfield.cpp,"EffectField::get_current_data()",12, 94, 0, 1
+repos/cpp/olive/project/effectfield.cpp,"EffectField::frameToTimecode( long frame)",3, 88, 0, 1
+repos/cpp/olive/project/effectfield.cpp,"EffectField::timecodeToFrame( double timecode)",3, 89, 0, 1
+repos/cpp/olive/project/effectfield.cpp,"EffectField::set_current_data( const QVariant & data)",11, 109, 0, 1
+repos/cpp/olive/project/effectfield.cpp,"EffectField::get_keyframe_data( double timecode , int & before , int & after , double & progress)",35, 140, 0, 2
+repos/cpp/olive/project/effectfield.cpp,"EffectField::hasKeyframes()",3, 62, 0, 1
+repos/cpp/olive/project/effectfield.cpp,"EffectField::validate_keyframe_data( double timecode , bool async)",100, 276, 0, 6
+repos/cpp/olive/project/effectfield.cpp,"EffectField::ui_element_change()",8, 111, 0, 1
+repos/cpp/olive/project/effectfield.cpp,"EffectField::make_key_from_change( ComboAction * ca)",8, 58, 0, 0
+repos/cpp/olive/project/effectfield.cpp,"EffectField::get_ui_element()",3, 41, 0, 0
+repos/cpp/olive/project/effectfield.cpp,"EffectField::is_enabled()",3, 33, 0, 0
+repos/cpp/olive/project/effectfield.cpp,"EffectField::set_enabled( bool e)",3, 40, 0, 0
+repos/cpp/olive/project/effectfield.cpp,"EffectField::get_double_value( double timecode , bool async)",7, 68, 0, 0
+repos/cpp/olive/project/effectfield.cpp,"EffectField::set_double_value( double v)",3, 61, 0, 1
+repos/cpp/olive/project/effectfield.cpp,"EffectField::set_double_default_value( double v)",3, 62, 0, 1
+repos/cpp/olive/project/effectfield.cpp,"EffectField::set_double_minimum_value( double v)",3, 62, 0, 1
+repos/cpp/olive/project/effectfield.cpp,"EffectField::set_double_maximum_value( double v)",3, 62, 0, 1
+repos/cpp/olive/project/effectfield.cpp,"EffectField::add_combo_item( const QString & name , const QVariant & data)",3, 78, 0, 0
+repos/cpp/olive/project/effectfield.cpp,"EffectField::get_combo_index( double timecode , bool async)",7, 64, 0, 0
+repos/cpp/olive/project/effectfield.cpp,"EffectField::get_combo_data( double timecode)",4, 61, 0, 1
+repos/cpp/olive/project/effectfield.cpp,"EffectField::get_combo_string( double timecode)",4, 61, 0, 1
+repos/cpp/olive/project/effectfield.cpp,"EffectField::set_combo_index( int index)",3, 65, 0, 1
+repos/cpp/olive/project/effectfield.cpp,"EffectField::set_combo_string( const QString & s)",3, 60, 0, 1
+repos/cpp/olive/project/effectfield.cpp,"EffectField::get_bool_value( double timecode , bool async)",7, 64, 0, 0
+repos/cpp/olive/project/effectfield.cpp,"EffectField::set_bool_value( bool b)",3, 60, 0, 1
+repos/cpp/olive/project/effectfield.cpp,"EffectField::get_string_value( double timecode , bool async)",7, 69, 0, 0
+repos/cpp/olive/project/effectfield.cpp,"EffectField::set_string_value( const QString & s)",3, 58, 0, 1
+repos/cpp/olive/project/effectfield.cpp,"EffectField::get_font_name( double timecode , bool async)",7, 66, 0, 0
+repos/cpp/olive/project/effectfield.cpp,"EffectField::set_font_name( const QString & s)",3, 60, 0, 1
+repos/cpp/olive/project/effectfield.cpp,"EffectField::get_color_value( double timecode , bool async)",7, 67, 0, 0
+repos/cpp/olive/project/effectfield.cpp,"EffectField::set_color_value( QColor color)",3, 58, 0, 1
+repos/cpp/olive/project/effectfield.cpp,"EffectField::get_filename( double timecode , bool async)",7, 70, 0, 1
+repos/cpp/olive/project/effectfield.cpp,"EffectField::set_filename( const QString & s)",3, 64, 0, 1
+repos/cpp/olive/project/effectloaders.cpp,"load_internal_effects()",91, 128, 0, 1
+repos/cpp/olive/project/effectloaders.cpp,"load_shader_effects()",51, 86, 0, 3
+repos/cpp/olive/project/effectloaders.cpp,"init_effects()",5, 86, 0, 1
+repos/cpp/olive/project/effectloaders.cpp,"load_frei0r_effects_worker( const QString & dir , EffectMeta & em , QVector<QString> & loaded_names)",37, 117, 0, 2
+repos/cpp/olive/project/effectloaders.cpp,"load_frei0r_effects()",26, 67, 0, 0
+repos/cpp/olive/project/effectloaders.cpp,"EffectInit::EffectInit()",3, 47, 0, 1
+repos/cpp/olive/project/effectloaders.cpp,"EffectInit::run()",10, 49, 0, 1
+repos/cpp/olive/project/projectfilter.cpp,"ProjectFilter::ProjectFilter( QObject * parent)",4, 48, 0, 0
+repos/cpp/olive/project/projectfilter.cpp,"ProjectFilter::get_show_sequences()",3, 43, 0, 0
+repos/cpp/olive/project/projectfilter.cpp,"ProjectFilter::set_show_sequences( bool b)",4, 49, 0, 0
+repos/cpp/olive/project/projectfilter.cpp,"ProjectFilter::update_search_filter( const QString & s)",4, 61, 0, 0
+repos/cpp/olive/project/projectfilter.cpp,"ProjectFilter::filterAcceptsRow( int source_row , const QModelIndex & source_parent) const",38, 95, 0, 0
+repos/cpp/olive/project/footage.cpp,"Footage::Footage()",13, 36, 2, 0
+repos/cpp/olive/project/footage.cpp,"Footage::~Footage()",3, 22, 0, 0
+repos/cpp/olive/project/footage.cpp,"Footage::reset()",8, 31, 0, 1
+repos/cpp/olive/project/footage.cpp,"Footage::get_length_in_frames( double frame_rate)",6, 81, 4, 0
+repos/cpp/olive/project/footage.cpp,"Footage::get_stream_from_file_index( bool video , int index)",16, 76, 0, 0
+repos/cpp/olive/project/footage.cpp,"FootageStream::make_square_thumb()",13, 72, 0, 1
+repos/cpp/olive/project/comboaction.cpp,"ComboAction::ComboAction()",1, 30, 0, 0
+repos/cpp/olive/project/comboaction.cpp,"ComboAction::~ComboAction()",5, 42, 4, 0
+repos/cpp/olive/project/comboaction.cpp,"ComboAction::undo()",8, 47, 4, 0
+repos/cpp/olive/project/comboaction.cpp,"ComboAction::redo()",8, 47, 4, 0
+repos/cpp/olive/project/comboaction.cpp,"ComboAction::append( QUndoCommand * u)",3, 44, 0, 0
+repos/cpp/olive/project/comboaction.cpp,"ComboAction::appendPost( QUndoCommand * u)",3, 48, 0, 0
+repos/cpp/olive/project/comboaction.cpp,"ComboAction::hasActions()",4, 31, 0, 0
+repos/cpp/olive/dialogs/mediapropertiesdialog.cpp,"MediaPropertiesDialog::MediaPropertiesDialog( QWidget * parent , Media * i)",105, 106, 0, 1
+repos/cpp/olive/dialogs/mediapropertiesdialog.cpp,"MediaPropertiesDialog::accept()",67, 112, 0, 3
+repos/cpp/olive/dialogs/preferencesdialog.cpp,"KeySequenceEditor::KeySequenceEditor( QWidget * parent , QAction * a)",5, 81, 2, 0
+repos/cpp/olive/dialogs/preferencesdialog.cpp,"KeySequenceEditor::set_action_shortcut()",4, 55, 2, 0
+repos/cpp/olive/dialogs/preferencesdialog.cpp,"KeySequenceEditor::reset_to_default()",3, 58, 2, 0
+repos/cpp/olive/dialogs/preferencesdialog.cpp,"KeySequenceEditor::action_name()",3, 44, 2, 0
+repos/cpp/olive/dialogs/preferencesdialog.cpp,"KeySequenceEditor::export_shortcut()",7, 80, 4, 0
+repos/cpp/olive/dialogs/preferencesdialog.cpp,"PreferencesDialog::PreferencesDialog( QWidget * parent)",11, 79, 2, 0
+repos/cpp/olive/dialogs/preferencesdialog.cpp,"PreferencesDialog::~PreferencesDialog()",1, 43, 0, 0
+repos/cpp/olive/dialogs/preferencesdialog.cpp,"PreferencesDialog::setup_kbd_shortcut_worker( QMenu * menu , QTreeWidgetItem * parent)",21, 90, 0, 0
+repos/cpp/olive/dialogs/preferencesdialog.cpp,"PreferencesDialog::delete_previews( char type)",32, 96, 4, 0
+repos/cpp/olive/dialogs/preferencesdialog.cpp,"PreferencesDialog::setup_kbd_shortcuts( QMenuBar * menubar)",22, 100, 6, 0
+repos/cpp/olive/dialogs/preferencesdialog.cpp,"PreferencesDialog::save()",137, 116, 36, 0
+repos/cpp/olive/dialogs/preferencesdialog.cpp,"PreferencesDialog::reset_default_shortcut()",7, 93, 4, 0
+repos/cpp/olive/dialogs/preferencesdialog.cpp,"PreferencesDialog::reset_all_shortcuts()",11, 88, 8, 0
+repos/cpp/olive/dialogs/preferencesdialog.cpp,"PreferencesDialog::refine_shortcut_list( const QString & s , QTreeWidgetItem * parent)",40, 117, 12, 0
+repos/cpp/olive/dialogs/preferencesdialog.cpp,"PreferencesDialog::load_shortcut_file()",31, 84, 2, 0
+repos/cpp/olive/dialogs/preferencesdialog.cpp,"PreferencesDialog::save_shortcut_file()",21, 104, 6, 0
+repos/cpp/olive/dialogs/preferencesdialog.cpp,"PreferencesDialog::browse_css_file()",6, 78, 2, 0
+repos/cpp/olive/dialogs/preferencesdialog.cpp,"PreferencesDialog::delete_all_previews()",12, 143, 29, 0
+repos/cpp/olive/dialogs/preferencesdialog.cpp,"PreferencesDialog::setup_ui()",283, 144, 2, 0
+repos/cpp/olive/dialogs/debugdialog.cpp,"DebugDialog::DebugDialog( QWidget * parent)",9, 62, 0, 0
+repos/cpp/olive/dialogs/debugdialog.cpp,"DebugDialog::Retranslate()",4, 35, 2, 0
+repos/cpp/olive/dialogs/debugdialog.cpp,"DebugDialog::update_log()",4, 85, 2, 0
+repos/cpp/olive/dialogs/debugdialog.cpp,"DebugDialog::changeEvent( QEvent * e)",8, 45, 2, 0
+repos/cpp/olive/dialogs/debugdialog.cpp,"DebugDialog::showEvent( QShowEvent *)",3, 44, 0, 0
+repos/cpp/olive/dialogs/loaddialog.cpp,"LoadDialog::LoadDialog( QWidget * parent , const QString & fn , bool autorecovery , bool clear)",32, 149, 2, 0
+repos/cpp/olive/dialogs/loaddialog.cpp,"LoadDialog::cancel()",5, 28, 0, 0
+repos/cpp/olive/dialogs/loaddialog.cpp,"LoadDialog::die()",4, 32, 2, 0
+repos/cpp/olive/dialogs/loaddialog.cpp,"LoadDialog::thread_done()",3, 33, 0, 0
+repos/cpp/olive/dialogs/demonotice.cpp,"DemoNotice::DemoNotice( QWidget * parent)",36, 384, 2, 7
+repos/cpp/olive/dialogs/aboutdialog.cpp,"AboutDialog::AboutDialog( QWidget * parent)",33, 117, 47, 0
+repos/cpp/olive/dialogs/texteditdialog.cpp,"TextEditDialog::TextEditDialog( QWidget * parent , const QString & s)",16, 106, 0, 1
+repos/cpp/olive/dialogs/texteditdialog.cpp,"TextEditDialog::get_string()",3, 46, 0, 0
+repos/cpp/olive/dialogs/texteditdialog.cpp,"TextEditDialog::save()",4, 39, 0, 1
+repos/cpp/olive/dialogs/texteditdialog.cpp,"TextEditDialog::cancel()",3, 32, 0, 0
+repos/cpp/olive/dialogs/replaceclipmediadialog.cpp,"ReplaceClipMediaDialog::ReplaceClipMediaDialog( QWidget * parent , Media * old_media)",38, 109, 0, 1
+repos/cpp/olive/dialogs/replaceclipmediadialog.cpp,"ReplaceClipMediaDialog::replace()",55, 113, 0, 6
+repos/cpp/olive/dialogs/clippropertiesdialog.cpp,"ClipPropertiesDialog::ClipPropertiesDialog( QWidget * parent , QVector<Clip*> clips)",76, 101, 2, 0
+repos/cpp/olive/dialogs/clippropertiesdialog.cpp,"ClipPropertiesDialog::accept()",32, 62, 17, 0
+repos/cpp/olive/dialogs/speeddialog.cpp,"SpeedDialog::SpeedDialog( QWidget * parent , QVector<Clip*> clips)",48, 109, 2, 0
+repos/cpp/olive/dialogs/speeddialog.cpp,"SpeedDialog::run()",97, 118, 10, 0
+repos/cpp/olive/dialogs/speeddialog.cpp,"SpeedDialog::percent_update()",34, 75, 4, 0
+repos/cpp/olive/dialogs/speeddialog.cpp,"SpeedDialog::duration_update()",34, 71, 4, 0
+repos/cpp/olive/dialogs/speeddialog.cpp,"SpeedDialog::frame_rate_update()",60, 126, 6, 0
+repos/cpp/olive/dialogs/speeddialog.cpp,"set_speed( ComboAction * ca , Clip * c , double speed , bool ripple , long & ep , long & lr)",29, 101, 10, 0
+repos/cpp/olive/dialogs/speeddialog.cpp,"SpeedDialog::accept()",105, 131, 6, 0
+repos/cpp/olive/dialogs/newsequencedialog.cpp,"NewSequenceDialog::NewSequenceDialog( QWidget * parent , Media * existing)",31, 86, 0, 3
+repos/cpp/olive/dialogs/newsequencedialog.cpp,"NewSequenceDialog::~NewSequenceDialog()",2, 40, 0, 0
+repos/cpp/olive/dialogs/newsequencedialog.cpp,"NewSequenceDialog::set_sequence_name( const QString & s)",3, 62, 0, 0
+repos/cpp/olive/dialogs/newsequencedialog.cpp,"NewSequenceDialog::create()",40, 101, 0, 2
+repos/cpp/olive/dialogs/newsequencedialog.cpp,"NewSequenceDialog::preset_changed( int index)",44, 52, 0, 0
+repos/cpp/olive/dialogs/newsequencedialog.cpp,"NewSequenceDialog::setup_ui()",114, 94, 0, 1
+repos/cpp/olive/dialogs/advancedvideodialog.cpp,"AdvancedVideoDialog::AdvancedVideoDialog( QWidget * parent , int encoding_codec , VideoCodecParams & iparams)",64, 101, 2, 0
+repos/cpp/olive/dialogs/advancedvideodialog.cpp,"AdvancedVideoDialog::accept()",8, 59, 2, 0
+repos/cpp/olive/dialogs/exportdialog.cpp,"ExportDialog::ExportDialog( QWidget * parent)",49, 73, 2, 0
+repos/cpp/olive/dialogs/exportdialog.cpp,"ExportDialog::~ExportDialog()",2, 30, 0, 0
+repos/cpp/olive/dialogs/exportdialog.cpp,"ExportDialog::add_codec_to_combobox( QComboBox * box , enum AVCodecID codec)",13, 81, 0, 0
+repos/cpp/olive/dialogs/exportdialog.cpp,"ExportDialog::format_changed( int index)",197, 93, 4, 0
+repos/cpp/olive/dialogs/exportdialog.cpp,"ExportDialog::render_thread_finished()",16, 56, 2, 0
+repos/cpp/olive/dialogs/exportdialog.cpp,"ExportDialog::prep_ui_for_render( bool r)",5, 48, 0, 0
+repos/cpp/olive/dialogs/exportdialog.cpp,"ExportDialog::export_action()",203, 126, 12, 0
+repos/cpp/olive/dialogs/exportdialog.cpp,"ExportDialog::update_progress_bar( int value , qint64 remaining_ms)",25, 111, 60, 0
+repos/cpp/olive/dialogs/exportdialog.cpp,"ExportDialog::cancel_render()",4, 37, 0, 0
+repos/cpp/olive/dialogs/exportdialog.cpp,"ExportDialog::vcodec_changed( int index)",32, 113, 4, 0
+repos/cpp/olive/dialogs/exportdialog.cpp,"ExportDialog::comp_type_changed( int)",22, 183, 4, 0
+repos/cpp/olive/dialogs/exportdialog.cpp,"ExportDialog::open_advanced_video_dialog()",4, 87, 2, 0
+repos/cpp/olive/dialogs/exportdialog.cpp,"ExportDialog::setup_ui()",130, 106, 2, 0
+repos/cpp/olive/dialogs/proxydialog.cpp,"ProxyDialog::ProxyDialog( QWidget * parent , const QVector<Media*> & media)",54, 107, 2, 0
+repos/cpp/olive/dialogs/proxydialog.cpp,"ProxyDialog::accept()",72, 119, 38, 0
+repos/cpp/olive/dialogs/proxydialog.cpp,"ProxyDialog::location_changed( int i)",21, 118, 4, 0
+repos/cpp/olive/dialogs/actionsearch.cpp,"ActionSearch::ActionSearch( QWidget * parent)",32, 104, 0, 1
+repos/cpp/olive/dialogs/actionsearch.cpp,"ActionSearch::search_update( const QString & s , const QString & p , QMenu * parent)",32, 106, 0, 6
+repos/cpp/olive/dialogs/actionsearch.cpp,"ActionSearch::perform_action()",9, 89, 0, 2
+repos/cpp/olive/dialogs/actionsearch.cpp,"ActionSearch::move_selection_up()",10, 54, 0, 3
+repos/cpp/olive/dialogs/actionsearch.cpp,"ActionSearch::move_selection_down()",10, 54, 0, 3
+repos/cpp/olive/dialogs/actionsearch.cpp,"ActionSearchEntry::ActionSearchEntry( QWidget * parent)",1, 77, 0, 0
+repos/cpp/olive/dialogs/actionsearch.cpp,"ActionSearchEntry::keyPressEvent( QKeyEvent * event)",12, 59, 0, 0
+repos/cpp/olive/dialogs/actionsearch.cpp,"ActionSearchList::ActionSearchList( QWidget * parent)",1, 77, 0, 0
+repos/cpp/olive/dialogs/actionsearch.cpp,"ActionSearchList::mouseDoubleClickEvent( QMouseEvent *)",3, 62, 0, 0
+repos/cpp/olive/rendering/clipqueue.cpp,"ClipQueue::ClipQueue()",4, 23, 0, 0
+repos/cpp/olive/rendering/clipqueue.cpp,"ClipQueue::~ClipQueue()",4, 24, 0, 0
+repos/cpp/olive/rendering/clipqueue.cpp,"ClipQueue::lock()",4, 23, 0, 0
+repos/cpp/olive/rendering/clipqueue.cpp,"ClipQueue::tryLock()",4, 31, 2, 0
+repos/cpp/olive/rendering/clipqueue.cpp,"ClipQueue::unlock()",4, 25, 0, 0
+repos/cpp/olive/rendering/clipqueue.cpp,"ClipQueue::append( AVFrame * frame)",4, 39, 0, 0
+repos/cpp/olive/rendering/clipqueue.cpp,"ClipQueue::at( int i)",4, 30, 0, 0
+repos/cpp/olive/rendering/clipqueue.cpp,"ClipQueue::first()",4, 28, 0, 0
+repos/cpp/olive/rendering/clipqueue.cpp,"ClipQueue::last()",4, 27, 0, 0
+repos/cpp/olive/rendering/clipqueue.cpp,"ClipQueue::removeFirst()",4, 30, 0, 0
+repos/cpp/olive/rendering/clipqueue.cpp,"ClipQueue::removeLast()",4, 29, 0, 0
+repos/cpp/olive/rendering/clipqueue.cpp,"ClipQueue::removeAt( int i)",5, 32, 0, 0
+repos/cpp/olive/rendering/clipqueue.cpp,"ClipQueue::clear()",6, 29, 2, 0
+repos/cpp/olive/rendering/clipqueue.cpp,"ClipQueue::size()",4, 23, 2, 0
+repos/cpp/olive/rendering/clipqueue.cpp,"ClipQueue::isEmpty()",4, 26, 0, 0
+repos/cpp/olive/rendering/clipqueue.cpp,"ClipQueue::contains( AVFrame * frame)",4, 41, 0, 0
+repos/cpp/olive/rendering/cacher.cpp,"bytes_to_seconds( int nb_bytes , int nb_channels , int sample_rate)",3, 74, 0, 0
+repos/cpp/olive/rendering/cacher.cpp,"apply_audio_effects( Clip * clip , double timecode_start , AVFrame * frame , int nb_bytes , QVector<Clip*> nests)",45, 151, 6, 0
+repos/cpp/olive/rendering/cacher.cpp,"Cacher::CacheAudioWorker()",361, 239, 8, 0
+repos/cpp/olive/rendering/cacher.cpp,"Cacher::CacheVideoWorker()",290, 122, 12, 0
+repos/cpp/olive/rendering/cacher.cpp,"Cacher::Reset()",38, 107, 6, 0
+repos/cpp/olive/rendering/cacher.cpp,"Cacher::SetRetrievedFrame( AVFrame * f)",9, 43, 0, 0
+repos/cpp/olive/rendering/cacher.cpp,"Cacher::WakeMainThread()",6, 31, 2, 0
+repos/cpp/olive/rendering/cacher.cpp,"Cacher::Cacher( Clip * c)",5, 26, 0, 0
+repos/cpp/olive/rendering/cacher.cpp,"Cacher::OpenWorker()",234, 188, 8, 0
+repos/cpp/olive/rendering/cacher.cpp,"Cacher::CacheWorker()",9, 50, 4, 0
+repos/cpp/olive/rendering/cacher.cpp,"Cacher::CloseWorker()",34, 85, 2, 0
+repos/cpp/olive/rendering/cacher.cpp,"Cacher::run()",25, 42, 6, 0
+repos/cpp/olive/rendering/cacher.cpp,"Cacher::Open()",10, 86, 2, 0
+repos/cpp/olive/rendering/cacher.cpp,"Cacher::Cache( long playhead , bool scrubbing , QVector<Clip*> & nests , int playback_speed)",62, 111, 8, 0
+repos/cpp/olive/rendering/cacher.cpp,"Cacher::Retrieve()",35, 109, 6, 0
+repos/cpp/olive/rendering/cacher.cpp,"Cacher::Close( bool wait_for_finish)",9, 41, 0, 0
+repos/cpp/olive/rendering/cacher.cpp,"Cacher::ResetAudio()",11, 120, 2, 0
+repos/cpp/olive/rendering/cacher.cpp,"Cacher::media_width()",4, 34, 2, 0
+repos/cpp/olive/rendering/cacher.cpp,"Cacher::media_height()",4, 35, 2, 0
+repos/cpp/olive/rendering/cacher.cpp,"Cacher::media_time_base()",4, 37, 0, 0
+repos/cpp/olive/rendering/cacher.cpp,"Cacher::queue()",4, 27, 0, 0
+repos/cpp/olive/rendering/cacher.cpp,"Cacher::RetrieveFrameFromDecoder( AVFrame * f)",41, 108, 4, 0
+repos/cpp/olive/rendering/cacher.cpp,"Cacher::RetrieveFrameAndProcess( AVFrame ** f)",43, 117, 6, 0
+repos/cpp/olive/rendering/audio.cpp,"is_audio_device_set()",3, 29, 0, 0
+repos/cpp/olive/rendering/audio.cpp,"get_audio_device( QAudio :: Mode mode)",28, 151, 2, 0
+repos/cpp/olive/rendering/audio.cpp,"init_audio()",38, 92, 4, 0
+repos/cpp/olive/rendering/audio.cpp,"stop_audio()",9, 30, 4, 0
+repos/cpp/olive/rendering/audio.cpp,"clear_audio_ibuffer()",8, 60, 2, 0
+repos/cpp/olive/rendering/audio.cpp,"current_audio_freq()",3, 105, 2, 0
+repos/cpp/olive/rendering/audio.cpp,"get_buffer_offset_from_frame( double framerate , long frame)",9, 120, 4, 0
+repos/cpp/olive/rendering/audio.cpp,"AudioSenderThread::AudioSenderThread()",3, 64, 2, 0
+repos/cpp/olive/rendering/audio.cpp,"AudioSenderThread::stop()",5, 33, 0, 0
+repos/cpp/olive/rendering/audio.cpp,"AudioSenderThread::notifyReceiver()",3, 43, 0, 0
+repos/cpp/olive/rendering/audio.cpp,"AudioSenderThread::run()",26, 97, 4, 0
+repos/cpp/olive/rendering/audio.cpp,"AudioSenderThread::send_audio_to_output( qint64 offset , int max)",34, 106, 2, 0
+repos/cpp/olive/rendering/audio.cpp,"log_volume( double linear)",4, 61, 2, 0
+repos/cpp/olive/rendering/audio.cpp,"int32_to_char_array( qint32 i , char * array)",3, 50, 0, 0
+repos/cpp/olive/rendering/audio.cpp,"write_wave_header( QFile & f , const QAudioFormat & format)",53, 86, 2, 0
+repos/cpp/olive/rendering/audio.cpp,"write_wave_trailer( QFile & f)",17, 54, 2, 0
+repos/cpp/olive/rendering/audio.cpp,"start_recording()",49, 107, 2, 0
+repos/cpp/olive/rendering/audio.cpp,"stop_recording()",13, 42, 4, 0
+repos/cpp/olive/rendering/audio.cpp,"get_recorded_audio_filename()",3, 40, 0, 0
+repos/cpp/olive/rendering/audio.cpp,"combobox_audio_sample_rates( QComboBox * combobox)",9, 56, 0, 0
+repos/cpp/olive/rendering/framebufferobject.cpp,"FramebufferObject::FramebufferObject()",5, 41, 0, 0
+repos/cpp/olive/rendering/framebufferobject.cpp,"FramebufferObject::~FramebufferObject()",4, 40, 0, 0
+repos/cpp/olive/rendering/framebufferobject.cpp,"FramebufferObject::IsCreated()",4, 36, 0, 0
+repos/cpp/olive/rendering/framebufferobject.cpp,"FramebufferObject::Create( QOpenGLContext * ctx , int width , int height)",40, 88, 8, 0
+repos/cpp/olive/rendering/framebufferobject.cpp,"FramebufferObject::Destroy()",10, 58, 4, 0
+repos/cpp/olive/rendering/framebufferobject.cpp,"FramebufferObject::buffer()",4, 42, 0, 0
+repos/cpp/olive/rendering/framebufferobject.cpp,"FramebufferObject::texture()",4, 43, 0, 0
+repos/cpp/olive/rendering/renderfunctions.cpp,"full_blit()",18, 38, 2, 0
+repos/cpp/olive/rendering/renderfunctions.cpp,"draw_clip( QOpenGLContext * ctx , GLuint fbo , GLuint texture , bool clear)",15, 78, 0, 0
+repos/cpp/olive/rendering/renderfunctions.cpp,"draw_clip( QOpenGLFramebufferObject * fbo , GLuint texture , bool clear)",17, 78, 0, 0
+repos/cpp/olive/rendering/renderfunctions.cpp,"process_effect( Clip * c , Effect * e , double timecode , GLTextureCoords & coords , GLuint & composite_texture , bool & fbo_switcher , bool & texture_failed , int data)",47, 104, 10, 0
+repos/cpp/olive/rendering/renderfunctions.cpp,"compose_sequence( ComposeSequenceParams & params)",501, 211, 14, 0
+repos/cpp/olive/rendering/renderfunctions.cpp,"compose_audio( Viewer * viewer , SequencePtr seq , int playback_speed , bool wait_for_mutexes)",12, 97, 0, 0
+repos/cpp/olive/rendering/renderfunctions.cpp,"rescale_frame_number( long framenumber , double source_frame_rate , double target_frame_rate)",3, 98, 0, 0
+repos/cpp/olive/rendering/renderfunctions.cpp,"get_timecode( Clip * c , long playhead)",3, 78, 2, 0
+repos/cpp/olive/rendering/renderfunctions.cpp,"playhead_to_clip_frame( Clip * c , long playhead)",3, 73, 2, 0
+repos/cpp/olive/rendering/renderfunctions.cpp,"playhead_to_clip_seconds( Clip * c , long playhead)",15, 79, 2, 0
+repos/cpp/olive/rendering/renderfunctions.cpp,"seconds_to_timestamp( Clip * c , double seconds)",3, 63, 2, 0
+repos/cpp/olive/rendering/renderfunctions.cpp,"playhead_to_timestamp( Clip * c , long playhead)",3, 73, 2, 0
+repos/cpp/olive/rendering/renderfunctions.cpp,"close_active_clips( SequencePtr s)",10, 42, 4, 0
+repos/cpp/olive/rendering/renderthread.cpp,"RenderThread::RenderThread()",16, 32, 2, 0
+repos/cpp/olive/rendering/renderthread.cpp,"RenderThread::~RenderThread()",3, 32, 0, 0
+repos/cpp/olive/rendering/renderthread.cpp,"RenderThread::run()",68, 119, 10, 0
+repos/cpp/olive/rendering/renderthread.cpp,"RenderThread::get_texture_mutex()",5, 78, 2, 0
+repos/cpp/olive/rendering/renderthread.cpp,"RenderThread::get_texture()",5, 86, 2, 0
+repos/cpp/olive/rendering/renderthread.cpp,"RenderThread::set_up_ocio()",3, 33, 0, 0
+repos/cpp/olive/rendering/renderthread.cpp,"RenderThread::paint()",90, 104, 2, 0
+repos/cpp/olive/rendering/renderthread.cpp,"RenderThread::start_render( QOpenGLContext * share , SequencePtr s , const QString & save , GLvoid * pixels , int pixel_linesize , int idivider)",26, 143, 0, 0
+repos/cpp/olive/rendering/renderthread.cpp,"RenderThread::did_texture_fail()",3, 40, 0, 0
+repos/cpp/olive/rendering/renderthread.cpp,"RenderThread::cancel()",5, 30, 0, 0
+repos/cpp/olive/rendering/renderthread.cpp,"RenderThread::delete_buffers()",6, 38, 0, 0
+repos/cpp/olive/rendering/renderthread.cpp,"RenderThread::delete_shaders()",7, 38, 0, 0
+repos/cpp/olive/rendering/renderthread.cpp,"RenderThread::delete_ctx()",9, 34, 0, 0
+repos/cpp/olive/effects/internal/solideffect.cpp,"SolidEffect::SolidEffect( Clip * c , const EffectMeta * em)",28, 112, 4, 0
+repos/cpp/olive/effects/internal/solideffect.cpp,"SolidEffect::redraw( double timecode)",123, 103, 0, 6
+repos/cpp/olive/effects/internal/solideffect.cpp,"SolidEffect::ui_update( int i)",4, 88, 0, 1
+repos/cpp/olive/effects/internal/cubetransition.cpp,"CubeTransition::CubeTransition( Clip * c , Clip * s , const EffectMeta * em)",3, 96, 0, 0
+repos/cpp/olive/effects/internal/cubetransition.cpp,"CubeTransition::process_coords( double , GLTextureCoords & coords , int)",5, 76, 0, 0
+repos/cpp/olive/effects/internal/voideffect.cpp,"VoidEffect::VoidEffect( Clip * c , const QString & n)",15, 73, 0, 0
+repos/cpp/olive/effects/internal/voideffect.cpp,"VoidEffect::copy( Clip * c)",6, 45, 4, 0
+repos/cpp/olive/effects/internal/voideffect.cpp,"VoidEffect::load( QXmlStreamReader & stream)",23, 82, 4, 0
+repos/cpp/olive/effects/internal/voideffect.cpp,"VoidEffect::save( QXmlStreamWriter & stream)",16, 67, 0, 2
+repos/cpp/olive/effects/internal/paneffect.cpp,"PanEffect::PanEffect( Clip * c , const EffectMeta * em)",9, 70, 0, 0
+repos/cpp/olive/effects/internal/paneffect.cpp,"PanEffect::process_audio( double timecode_start , double timecode_end , quint8 * samples , int nb_bytes , int)",23, 112, 0, 0
+repos/cpp/olive/effects/internal/transformeffect.cpp,"TransformEffect::TransformEffect( Clip * c , const EffectMeta * em)",116, 115, 0, 1
+repos/cpp/olive/effects/internal/transformeffect.cpp,"adjust_field( EffectField * field , double old_offset , double new_offset)",9, 96, 0, 3
+repos/cpp/olive/effects/internal/transformeffect.cpp,"TransformEffect::refresh()",41, 70, 0, 2
+repos/cpp/olive/effects/internal/transformeffect.cpp,"TransformEffect::toggle_uniform_scale( bool enabled)",10, 62, 0, 1
+repos/cpp/olive/effects/internal/transformeffect.cpp,"TransformEffect::process_coords( double timecode , GLTextureCoords & coords , int)",30, 165, 0, 1
+repos/cpp/olive/effects/internal/transformeffect.cpp,"TransformEffect::gizmo_draw( double , GLTextureCoords & coords)",17, 212, 0, 1
+repos/cpp/olive/effects/internal/logarithmicfadetransition.cpp,"LogarithmicFadeTransition::LogarithmicFadeTransition( Clip * c , Clip * s , const EffectMeta * em)",1, 119, 0, 0
+repos/cpp/olive/effects/internal/logarithmicfadetransition.cpp,"LogarithmicFadeTransition::process_audio( double timecode_start , double timecode_end , quint8 * samples , int nb_bytes , int type)",19, 133, 0, 0
+repos/cpp/olive/effects/internal/texteffect.cpp,"TextEffect::TextEffect( Clip * c , const EffectMeta * em)",70, 104, 0, 1
+repos/cpp/olive/effects/internal/texteffect.cpp,"blurred2( QImage & result , const QRect & rect , int radius , bool alphaOnly = false)",63, 87, 0, 0
+repos/cpp/olive/effects/internal/texteffect.cpp,"TextEffect::redraw( double timecode)",139, 81, 0, 3
+repos/cpp/olive/effects/internal/texteffect.cpp,"TextEffect::shadow_enable( bool e)",9, 41, 0, 0
+repos/cpp/olive/effects/internal/texteffect.cpp,"TextEffect::text_edit_menu()",7, 65, 0, 1
+repos/cpp/olive/effects/internal/texteffect.cpp,"TextEffect::open_text_edit()",9, 84, 4, 0
+repos/cpp/olive/effects/internal/texteffect.cpp,"TextEffect::outline_enable( bool e)",4, 42, 0, 0
+repos/cpp/olive/effects/internal/fillleftrighteffect.cpp,"FillLeftRightEffect::FillLeftRightEffect( Clip * c , const EffectMeta * em)",6, 90, 0, 0
+repos/cpp/olive/effects/internal/fillleftrighteffect.cpp,"FillLeftRightEffect::process_audio( double timecode_start , double timecode_end , quint8 * samples , int nb_bytes , int)",12, 122, 0, 0
+repos/cpp/olive/effects/internal/frei0reffect.cpp,"Frei0rEffect::Frei0rEffect( Clip * c , const EffectMeta * em)",87, 185, 0, 3
+repos/cpp/olive/effects/internal/frei0reffect.cpp,"Frei0rEffect::~Frei0rEffect()",8, 92, 0, 2
+repos/cpp/olive/effects/internal/frei0reffect.cpp,"Frei0rEffect::process_image( double timecode , uint8_t * input , uint8_t * output , int)",55, 110, 0, 2
+repos/cpp/olive/effects/internal/frei0reffect.cpp,"Frei0rEffect::refresh()",4, 31, 0, 0
+repos/cpp/olive/effects/internal/frei0reffect.cpp,"Frei0rEffect::destruct_module()",8, 100, 0, 2
+repos/cpp/olive/effects/internal/frei0reffect.cpp,"Frei0rEffect::construct_module()",6, 103, 0, 1
+repos/cpp/olive/effects/internal/dropshadoweffect.cpp,"DropShadowEffect::DropShadowEffect()",3, 39, 0, 0
+repos/cpp/olive/effects/internal/shakeeffect.cpp,"ShakeEffect::ShakeEffect( Clip * c , const EffectMeta * em)",25, 83, 6, 0
+repos/cpp/olive/effects/internal/shakeeffect.cpp,"ShakeEffect::process_coords( double timecode , GLTextureCoords & coords , int)",34, 82, 0, 0
+repos/cpp/olive/effects/internal/cornerpineffect.cpp,"CornerPinEffect::CornerPinEffect( Clip * c , const EffectMeta * em)",42, 88, 0, 1
+repos/cpp/olive/effects/internal/cornerpineffect.cpp,"CornerPinEffect::process_coords( double timecode , GLTextureCoords & coords , int)",13, 86, 0, 0
+repos/cpp/olive/effects/internal/cornerpineffect.cpp,"CornerPinEffect::process_shader( double timecode , GLTextureCoords & coords , int)",7, 109, 0, 1
+repos/cpp/olive/effects/internal/cornerpineffect.cpp,"CornerPinEffect::gizmo_draw( double , GLTextureCoords & coords)",6, 98, 0, 1
+repos/cpp/olive/effects/internal/timecodeeffect.cpp,"TimecodeEffect::TimecodeEffect( Clip * c , const EffectMeta * em)",34, 95, 2, 0
+repos/cpp/olive/effects/internal/timecodeeffect.cpp,"TimecodeEffect::redraw( double timecode)",44, 190, 4, 0
+repos/cpp/olive/effects/internal/linearfadetransition.cpp,"LinearFadeTransition::LinearFadeTransition( Clip * c , Clip * s , const EffectMeta * em)",1, 109, 0, 0
+repos/cpp/olive/effects/internal/linearfadetransition.cpp,"LinearFadeTransition::process_audio( double timecode_start , double timecode_end , quint8 * samples , int nb_bytes , int type)",19, 128, 0, 0
+repos/cpp/olive/effects/internal/vsthost.cpp,"hostCallback( AEffect * effect , int32_t opcode , int32_t index , intptr_t value , void * ptr , float opt)",37, 110, 0, 0
+repos/cpp/olive/effects/internal/vsthost.cpp,"VSTHost::loadPlugin()",79, 185, 6, 0
+repos/cpp/olive/effects/internal/vsthost.cpp,"VSTHost::freePlugin()",12, 38, 4, 0
+repos/cpp/olive/effects/internal/vsthost.cpp,"VSTHost::configurePluginCallbacks()",20, 103, 4, 0
+repos/cpp/olive/effects/internal/vsthost.cpp,"VSTHost::startPlugin()",9, 77, 2, 0
+repos/cpp/olive/effects/internal/vsthost.cpp,"VSTHost::stopPlugin()",5, 50, 2, 0
+repos/cpp/olive/effects/internal/vsthost.cpp,"VSTHost::resumePlugin()",3, 60, 2, 0
+repos/cpp/olive/effects/internal/vsthost.cpp,"VSTHost::suspendPlugin()",3, 60, 2, 0
+repos/cpp/olive/effects/internal/vsthost.cpp,"VSTHost::canPluginDo( char * canDoString)",3, 90, 2, 0
+repos/cpp/olive/effects/internal/vsthost.cpp,"VSTHost::processAudio( long numFrames)",8, 64, 2, 0
+repos/cpp/olive/effects/internal/vsthost.cpp,"VSTHost::VSTHost( Clip * c , const EffectMeta * em)",26, 93, 2, 0
+repos/cpp/olive/effects/internal/vsthost.cpp,"VSTHost::~VSTHost()",13, 61, 2, 0
+repos/cpp/olive/effects/internal/vsthost.cpp,"VSTHost::process_audio( double , double , quint8 * samples , int nb_bytes , int)",35, 92, 8, 0
+repos/cpp/olive/effects/internal/vsthost.cpp,"VSTHost::custom_load( QXmlStreamReader & stream)",9, 112, 6, 0
+repos/cpp/olive/effects/internal/vsthost.cpp,"VSTHost::save( QXmlStreamWriter & stream)",11, 76, 4, 0
+repos/cpp/olive/effects/internal/vsthost.cpp,"VSTHost::show_interface( bool show)",15, 108, 4, 0
+repos/cpp/olive/effects/internal/vsthost.cpp,"VSTHost::uncheck_show_button()",3, 41, 2, 0
+repos/cpp/olive/effects/internal/vsthost.cpp,"VSTHost::change_plugin()",21, 84, 6, 0
+repos/cpp/olive/effects/internal/exponentialfadetransition.cpp,"ExponentialFadeTransition::ExponentialFadeTransition( Clip * c , Clip * s , const EffectMeta * em)",1, 119, 0, 0
+repos/cpp/olive/effects/internal/exponentialfadetransition.cpp,"ExponentialFadeTransition::process_audio( double timecode_start , double timecode_end , quint8 * samples , int nb_bytes , int type)",29, 133, 0, 0
+repos/cpp/olive/effects/internal/toneeffect.cpp,"ToneEffect::ToneEffect( Clip * c , const EffectMeta * em)",17, 87, 0, 0
+repos/cpp/olive/effects/internal/toneeffect.cpp,"ToneEffect::process_audio( double timecode_start , double timecode_end , quint8 * samples , int nb_bytes , int)",24, 219, 0, 2
+repos/cpp/olive/effects/internal/volumeeffect.cpp,"VolumeEffect::VolumeEffect( Clip * c , const EffectMeta * em)",8, 100, 4, 0
+repos/cpp/olive/effects/internal/volumeeffect.cpp,"VolumeEffect::process_audio( double timecode_start , double timecode_end , quint8 * samples , int nb_bytes , int)",30, 115, 0, 0
+repos/cpp/olive/effects/internal/crossdissolvetransition.cpp,"CrossDissolveTransition::CrossDissolveTransition( Clip * c , Clip * s , const EffectMeta * em)",5, 114, 0, 0
+repos/cpp/olive/effects/internal/crossdissolvetransition.cpp,"CrossDissolveTransition::process_coords( double progress , GLTextureCoords & coords , int data)",6, 99, 0, 0
+repos/cpp/olive/effects/internal/audionoiseeffect.cpp,"AudioNoiseEffect::AudioNoiseEffect( Clip * c , const EffectMeta * em)",10, 84, 0, 0
+repos/cpp/olive/effects/internal/audionoiseeffect.cpp,"AudioNoiseEffect::process_audio( double timecode_start , double timecode_end , quint8 * samples , int nb_bytes , int)",27, 119, 0, 0

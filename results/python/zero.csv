@@ -1,0 +1,6 @@
+File, Function, Length, Total Width, Leading Space(s), Leading Tab(s)
+repos/python/zero/packages/handler-python/get-pip.py,"iterbytes( buf )",2, 43, 8, 0
+repos/python/zero/packages/handler-python/get-pip.py,"b85decode( b )",32, 79, 16, 0
+repos/python/zero/packages/handler-python/get-pip.py,"bootstrap.parse_args( self , args )",8, 79, 12, 0
+repos/python/zero/packages/handler-python/get-pip.py,"bootstrap( tmpdir = None )",100, 80, 4, 0
+repos/python/zero/packages/handler-python/get-pip.py,"main( )",20, 63, 8, 0

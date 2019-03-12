@@ -1,0 +1,127 @@
+File, Function, Length, Total Width, Leading Space(s), Leading Tab(s)
+repos/python/SiamMask/tools/test.py,"to_torch( ndarray )",7, 61, 8, 0
+repos/python/SiamMask/tools/test.py,"im_to_torch( img )",4, 48, 4, 0
+repos/python/SiamMask/tools/test.py,"get_subwindow_tracking( im , pos , model_sz , original_sz , avg_chans , out_mode = 'torch' )",44, 119, 8, 0
+repos/python/SiamMask/tools/test.py,"generate_anchor( cfg , score_size )",17, 80, 4, 0
+repos/python/SiamMask/tools/test.py,"siamese_init( im , target_pos , target_sz , model , hp = None )",39, 85, 4, 0
+repos/python/SiamMask/tools/test.py,"siamese_track.change( r )",2, 37, 8, 0
+repos/python/SiamMask/tools/test.py,"siamese_track.sz( w , h )",4, 36, 8, 0
+repos/python/SiamMask/tools/test.py,"siamese_track.sz_wh( wh )",4, 44, 8, 0
+repos/python/SiamMask/tools/test.py,"siamese_track.crop_back( image , bbox , out_sz , padding = - 1 )",12, 74, 12, 0
+repos/python/SiamMask/tools/test.py,"siamese_track( state , im , mask_enable = False , refine_enable = False )",136, 115, 4, 0
+repos/python/SiamMask/tools/test.py,"track_vot( model , video , hp = None , mask_enable = False , refine_enable = False )",100, 125, 20, 0
+repos/python/SiamMask/tools/test.py,"MultiBatchIouMeter( thrs , outputs , targets , start = None , end = None )",36, 100, 16, 0
+repos/python/SiamMask/tools/test.py,"track_vos( model , video , hp = None , mask_enable = False , refine_enable = False , mot_enable = False )",84, 133, 12, 0
+repos/python/SiamMask/tools/test.py,"main( )",57, 106, 12, 0
+repos/python/SiamMask/experiments/siammask/custom.py,"__init__( self , inplane , outplane )",5, 73, 16, 0
+repos/python/SiamMask/experiments/siammask/custom.py,"forward( self , x )",6, 34, 12, 0
+repos/python/SiamMask/experiments/siammask/custom.py,"__init__( self , pretrain = False )",7, 60, 8, 0
+repos/python/SiamMask/experiments/siammask/custom.py,"forward( self , x )",4, 41, 8, 0
+repos/python/SiamMask/experiments/siammask/custom.py,"forward_all( self , x )",4, 41, 8, 0
+repos/python/SiamMask/experiments/siammask/custom.py,"__init__( self , anchor_num = 5 , feature_in = 256 , feature_out = 256 )",12, 71, 4, 0
+repos/python/SiamMask/experiments/siammask/custom.py,"forward( self , z_f , x_f )",4, 33, 4, 0
+repos/python/SiamMask/experiments/siammask/custom.py,"__init__( self , oSz = 63 )",4, 53, 8, 0
+repos/python/SiamMask/experiments/siammask/custom.py,"forward( self , z , x )",2, 31, 8, 0
+repos/python/SiamMask/experiments/siammask/custom.py,"__init__( self )",30, 78, 8, 0
+repos/python/SiamMask/experiments/siammask/custom.py,"forward( self , f , corr_feature , pos = None )",13, 108, 8, 0
+repos/python/SiamMask/experiments/siammask/custom.py,"__init__( self , pretrain = False , ** kwargs )",6, 89, 8, 0
+repos/python/SiamMask/experiments/siammask/custom.py,"refine( self , f , pos = None )",2, 41, 8, 0
+repos/python/SiamMask/experiments/siammask/custom.py,"template( self , template )",2, 42, 8, 0
+repos/python/SiamMask/experiments/siammask/custom.py,"track( self , search )",4, 63, 8, 0
+repos/python/SiamMask/experiments/siammask/custom.py,"track_mask( self , search )",6, 84, 8, 0
+repos/python/SiamMask/experiments/siammask/custom.py,"track_refine( self , pos )",3, 80, 8, 0
+repos/python/SiamMask/experiments/siammask/resnet.py,"conv3x3( in_planes , out_planes , stride = 1 )",4, 74, 4, 0
+repos/python/SiamMask/experiments/siammask/resnet.py,"__init__( self , inplanes , planes , stride = 1 , downsample = None )",9, 69, 4, 0
+repos/python/SiamMask/experiments/siammask/resnet.py,"forward( self , x )",17, 42, 12, 0
+repos/python/SiamMask/experiments/siammask/resnet.py,"__init__( self , inplanes , planes , stride = 1 , downsample = None , dilation = 1 )",17, 101, 8, 0
+repos/python/SiamMask/experiments/siammask/resnet.py,"forward( self , x )",24, 47, 12, 0
+repos/python/SiamMask/experiments/siammask/resnet.py,"__init__( self , inplanes , planes , stride = 1 , downsample = None )",12, 78, 8, 0
+repos/python/SiamMask/experiments/siammask/resnet.py,"forward( self , x )",24, 48, 8, 0
+repos/python/SiamMask/experiments/siammask/resnet.py,"__init__( self , block , layers , layer4 = False , layer3 = False )",32, 101, 12, 0
+repos/python/SiamMask/experiments/siammask/resnet.py,"_make_layer( self , block , planes , blocks , stride = 1 , dilation = 1 )",32, 93, 8, 0
+repos/python/SiamMask/experiments/siammask/resnet.py,"forward( self , x )",11, 30, 8, 0
+repos/python/SiamMask/experiments/siammask/resnet.py,"__init__( self , block = Bottleneck , out_channels = 256 , adjust_number = 1 , fuse_layers = [ 2 , 3 , 4 ] )",5, 34, 12, 0
+repos/python/SiamMask/experiments/siammask/resnet.py,"_make_layer( self , block , plances , dilation , out , number = 1 )",15, 97, 16, 0
+repos/python/SiamMask/experiments/siammask/resnet.py,"forward( self , p2 , p3 , p4 )",12, 44, 12, 0
+repos/python/SiamMask/experiments/siammask/resnet.py,"resnet18( pretrained = False , ** kwargs )",10, 76, 8, 0
+repos/python/SiamMask/experiments/siammask/resnet.py,"resnet34( pretrained = False , ** kwargs )",10, 76, 8, 0
+repos/python/SiamMask/experiments/siammask/resnet.py,"resnet50( pretrained = False , ** kwargs )",10, 76, 8, 0
+repos/python/SiamMask/experiments/siammask/resnet.py,"resnet101( pretrained = False , ** kwargs )",10, 76, 8, 0
+repos/python/SiamMask/experiments/siammask/resnet.py,"resnet152( pretrained = False , ** kwargs )",10, 76, 8, 0
+repos/python/SiamMask/utils/load_helper.py,"check_keys( model , pretrained_state_dict )",15, 91, 8, 0
+repos/python/SiamMask/utils/load_helper.py,"remove_prefix( state_dict , prefix )",5, 97, 4, 0
+repos/python/SiamMask/utils/load_helper.py,"load_pretrain( model , pretrained_path )",21, 106, 4, 0
+repos/python/SiamMask/utils/config_helper.py,"load_config( args )",15, 85, 8, 0
+repos/python/SiamMask/utils/tracker_config.py,"update( self , newparam = None , anchors = None )",13, 55, 16, 0
+repos/python/SiamMask/utils/tracker_config.py,"renew( self )",3, 110, 8, 0
+repos/python/SiamMask/utils/bbox_helper.py,"corner2center( corner )",15, 78, 8, 0
+repos/python/SiamMask/utils/bbox_helper.py,"center2corner( center )",15, 74, 8, 0
+repos/python/SiamMask/utils/bbox_helper.py,"cxy_wh_2_rect( pos , sz )",2, 79, 4, 0
+repos/python/SiamMask/utils/bbox_helper.py,"get_axis_aligned_bbox( region )",23, 99, 8, 0
+repos/python/SiamMask/utils/benchmark_helper.py,"get_dataset_zoo.valid( x )",7, 66, 15, 0
+repos/python/SiamMask/utils/benchmark_helper.py,"get_dataset_zoo( )",14, 66, 15, 0
+repos/python/SiamMask/utils/benchmark_helper.py,"load_dataset( dataset )",64, 118, 38, 0
+repos/python/SiamMask/utils/anchors.py,"__init__( self , cfg )",14, 72, 8, 0
+repos/python/SiamMask/utils/anchors.py,"generate_anchors( self )",18, 75, 16, 0
+repos/python/SiamMask/utils/anchors.py,"generate_all_anchors( self , im_c , size )",31, 91, 8, 0
+repos/python/SiamMask/utils/log_helper.py,"__init__( self , flag )",2, 30, 4, 0
+repos/python/SiamMask/utils/log_helper.py,"__init__( self , * arg , ** kwargs )",2, 40, 4, 0
+repos/python/SiamMask/utils/log_helper.py,"__getattr__.dummy( * args , ** kwargs )",2, 41, 8, 0
+repos/python/SiamMask/utils/log_helper.py,"get_format( logger , level )",11, 88, 4, 0
+repos/python/SiamMask/utils/log_helper.py,"init_log( name , level = logging . INFO , format_func = get_format )",11, 66, 0, 0
+repos/python/SiamMask/utils/log_helper.py,"add_file_handler( name , log_file , level = logging . INFO )",5, 60, 0, 0
+repos/python/SiamMask/utils/pysot/datasets/__init__.py,"create_dataset( ** kwargs )",15, 72, 12, 0
+repos/python/SiamMask/utils/pysot/datasets/dataset.py,"__init__( self , name , dataset_root )",4, 44, 4, 0
+repos/python/SiamMask/utils/pysot/datasets/dataset.py,"__getitem__( self , idx )",5, 70, 12, 0
+repos/python/SiamMask/utils/pysot/datasets/dataset.py,"__len__( self )",2, 32, 8, 0
+repos/python/SiamMask/utils/pysot/datasets/dataset.py,"__iter__( self )",4, 48, 8, 0
+repos/python/SiamMask/utils/pysot/datasets/dataset.py,"set_tracker( self , path , tracker_names )",8, 48, 4, 0
+repos/python/SiamMask/utils/pysot/datasets/vot.py,"__init__( self , name , root , video_dir , init_rect , img_names , gt_rect , camera_motion , illum_change , motion_change , size_change , occlusion , width , height )",2, 96, 12, 0
+repos/python/SiamMask/utils/pysot/datasets/vot.py,"select_tag( self , tag , start = 0 , end = 0 )",4, 47, 4, 0
+repos/python/SiamMask/utils/pysot/datasets/vot.py,"load_tracker( self , path , tracker_names = None , store = True )",27, 90, 12, 0
+repos/python/SiamMask/utils/pysot/datasets/vot.py,"__init__( self , name , dataset_root )",34, 85, 27, 0
+repos/python/SiamMask/utils/pysot/datasets/video.py,"__init__( self , name , root , video_dir , init_rect , img_names , gt_rect , attr )",2, 68, 4, 0
+repos/python/SiamMask/utils/pysot/datasets/video.py,"load_tracker( self , path , tracker_names = None , store = True )",26, 78, 20, 0
+repos/python/SiamMask/utils/pysot/datasets/video.py,"load_img( self )",6, 53, 28, 0
+repos/python/SiamMask/utils/pysot/datasets/video.py,"free_img( self )",2, 25, 8, 0
+repos/python/SiamMask/utils/pysot/datasets/video.py,"__len__( self )",2, 35, 8, 0
+repos/python/SiamMask/utils/pysot/datasets/video.py,"__getitem__( self , idx )",6, 54, 12, 0
+repos/python/SiamMask/utils/pysot/datasets/video.py,"__iter__( self )",7, 55, 16, 0
+repos/python/SiamMask/utils/pysot/utils/misc.py,"determine_thresholds( confidence , resolution = 100 )",25, 83, 4, 0
+repos/python/SiamMask/utils/pysot/utils/statistics.py,"calculate_failures( trajectory )",12, 70, 4, 0
+repos/python/SiamMask/utils/pysot/utils/statistics.py,"calculate_accuracy( pred_trajectory , gt_trajectory , burnin = 0 , ignore_unknown = True , bound = None )",2, 55, 0, 0
+repos/python/SiamMask/utils/pysot/utils/statistics.py,"overlap_ratio( rect1 , rect2 )",21, 72, 4, 0
+repos/python/SiamMask/utils/pysot/utils/statistics.py,"success_overlap( gt_bb , result_bb , n_frame )",9, 74, 8, 0
+repos/python/SiamMask/utils/pysot/utils/statistics.py,"success_error( gt_center , result_center , thresholds , n_frame )",10, 69, 8, 0
+repos/python/SiamMask/utils/pysot/utils/statistics.py,"determine_thresholds( scores , resolution = 100 )",13, 96, 4, 0
+repos/python/SiamMask/utils/pysot/utils/statistics.py,"calculate_f1( overlaps , score , bound , thresholds , N )",20, 57, 0, 0
+repos/python/SiamMask/utils/pysot/utils/statistics.py,"calculate_expected_overlap( fragments , fweights )",14, 63, 12, 0
+repos/python/SiamMask/utils/pysot/evaluation/eao_benchmark.py,"__init__( self , dataset , skipping = 5 , tags = [ 'all' ] )",13, 67, 8, 0
+repos/python/SiamMask/utils/pysot/evaluation/eao_benchmark.py,"eval( self , eval_trackers = None )",18, 63, 12, 0
+repos/python/SiamMask/utils/pysot/evaluation/eao_benchmark.py,"show_result( self , result , topk = 10 )",35, 95, 12, 0
+repos/python/SiamMask/utils/pysot/evaluation/eao_benchmark.py,"_calculate_eao( self , tracker_name , tags )",68, 111, 16, 0
+repos/python/SiamMask/utils/pysot/evaluation/ar_benchmark.py,"__init__( self , dataset , burnin = 10 )",3, 44, 4, 0
+repos/python/SiamMask/utils/pysot/evaluation/ar_benchmark.py,"eval( self , eval_trackers = None )",19, 83, 12, 0
+repos/python/SiamMask/utils/pysot/evaluation/ar_benchmark.py,"show_result( self , result , eao_result = None , show_video_level = False , helight_threshold = 0 . 5 )",74, 122, 16, 0
+repos/python/SiamMask/utils/pysot/evaluation/ar_benchmark.py,"_calculate_accuracy_robustness( self , tracker_name )",24, 99, 16, 0
+repos/python/SiamMask/models/mask.py,"__init__( self )",2, 37, 8, 0
+repos/python/SiamMask/models/mask.py,"forward( self , z_f , x_f )",2, 34, 8, 0
+repos/python/SiamMask/models/mask.py,"template( self , template )",2, 34, 4, 0
+repos/python/SiamMask/models/mask.py,"track( self , search )",2, 34, 8, 0
+repos/python/SiamMask/models/rpn.py,"__init__( self )",2, 36, 8, 0
+repos/python/SiamMask/models/rpn.py,"forward( self , z_f , x_f )",2, 34, 8, 0
+repos/python/SiamMask/models/rpn.py,"template( self , template )",2, 34, 4, 0
+repos/python/SiamMask/models/rpn.py,"track( self , search )",2, 34, 8, 0
+repos/python/SiamMask/models/rpn.py,"conv2d_dw_group( x , kernel )",7, 96, 4, 0
+repos/python/SiamMask/models/rpn.py,"__init__( self , in_channels , hidden , out_channels , kernel_size = 3 )",20, 85, 16, 0
+repos/python/SiamMask/models/rpn.py,"forward_corr( self , kernel , input )",5, 49, 8, 0
+repos/python/SiamMask/models/rpn.py,"forward( self , kernel , search )",4, 52, 8, 0
+repos/python/SiamMask/models/features.py,"__init__( self )",3, 41, 8, 0
+repos/python/SiamMask/models/features.py,"forward( self , x )",2, 34, 8, 0
+repos/python/SiamMask/models/siammask.py,"__init__( self , anchors = None , o_sz = 127 , g_sz = 127 )",11, 84, 8, 0
+repos/python/SiamMask/models/siammask.py,"set_all_anchors( self , image_center , size )",7, 72, 8, 0
+repos/python/SiamMask/models/siammask.py,"feature_extractor( self , x )",2, 36, 4, 0
+repos/python/SiamMask/models/siammask.py,"rpn( self , template , search )",3, 62, 8, 0
+repos/python/SiamMask/models/siammask.py,"mask( self , template , search )",3, 54, 8, 0
+repos/python/SiamMask/models/siammask.py,"template( self , z )",4, 66, 8, 0
+repos/python/SiamMask/models/siammask.py,"track( self , x , cls_kernel = None , loc_kernel = None , softmax = False )",6, 86, 8, 0

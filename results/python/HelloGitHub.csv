@@ -1,0 +1,16 @@
+File, Function, Length, Total Width, Leading Space(s), Leading Tab(s)
+repos/python/HelloGitHub/script/make_content/make_content.py,"__init__( self , message )",2, 33, 4, 0
+repos/python/HelloGitHub/script/make_content/make_content.py,"__str__( self )",2, 34, 8, 0
+repos/python/HelloGitHub/script/make_content/make_content.py,"check_path( path )",9, 53, 8, 0
+repos/python/HelloGitHub/script/make_content/make_content.py,"read_file( input_path )",3, 38, 4, 0
+repos/python/HelloGitHub/script/make_content/make_content.py,"write_file( output_path , output_data )",3, 42, 0, 0
+repos/python/HelloGitHub/script/make_content/make_content.py,"make_content( num )",15, 94, 4, 0
+repos/python/HelloGitHub/script/make_content/make_content.py,"make_all_content( )",6, 61, 8, 0
+repos/python/HelloGitHub/script/make_content/make_content.py,"main( )",19, 60, 12, 0
+repos/python/HelloGitHub/script/github_bot/github_bot.py,"get_data( page = 1 )",18, 77, 28, 0
+repos/python/HelloGitHub/script/github_bot/github_bot.py,"get_all_data( )",12, 53, 4, 0
+repos/python/HelloGitHub/script/github_bot/github_bot.py,"check_condition( data )",16, 80, 8, 0
+repos/python/HelloGitHub/script/github_bot/github_bot.py,"analyze( json_data )",10, 40, 12, 0
+repos/python/HelloGitHub/script/github_bot/github_bot.py,"get_stars( data )",29, 94, 4, 0
+repos/python/HelloGitHub/script/github_bot/github_bot.py,"make_content( )",19, 81, 32, 0
+repos/python/HelloGitHub/script/github_bot/github_bot.py,"send_email( receivers , email_content )",24, 75, 8, 0

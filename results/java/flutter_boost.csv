@@ -1,0 +1,218 @@
+File, Function, Length, Total Width, Leading Space(s), Leading Tab(s)
+repos/java/flutter_boost/example/android/app/src/main/java/com/taobao/idlefish/flutterboostexample/NativePageActivity.java,"NativePageActivity::onCreate( @ Nullable Bundle savedInstanceState)",13, 73, 8, 0
+repos/java/flutter_boost/example/android/app/src/main/java/com/taobao/idlefish/flutterboostexample/NativePageActivity.java,"NativePageActivity::onClick( View v)",9, 82, 12, 0
+repos/java/flutter_boost/example/android/app/src/main/java/com/taobao/idlefish/flutterboostexample/PageRouter.java,"PageRouter::openPageByUrl( Context context , String url)",3, 71, 4, 0
+repos/java/flutter_boost/example/android/app/src/main/java/com/taobao/idlefish/flutterboostexample/PageRouter.java,"PageRouter::openPageByUrl( Context context , String url , int requestCode)",18, 95, 16, 0
+repos/java/flutter_boost/example/android/app/src/main/java/com/taobao/idlefish/flutterboostexample/MainActivity.java,"MainActivity::onCreate( @ Nullable Bundle savedInstanceState)",15, 73, 8, 0
+repos/java/flutter_boost/example/android/app/src/main/java/com/taobao/idlefish/flutterboostexample/MainActivity.java,"MainActivity::onDestroy()",5, 33, 4, 0
+repos/java/flutter_boost/example/android/app/src/main/java/com/taobao/idlefish/flutterboostexample/MainActivity.java,"MainActivity::onClick( View v)",9, 82, 12, 0
+repos/java/flutter_boost/example/android/app/src/main/java/com/taobao/idlefish/flutterboostexample/FlutterPageActivity.java,"FlutterPageActivity::onRegisterPlugins( PluginRegistry registry)",3, 61, 4, 0
+repos/java/flutter_boost/example/android/app/src/main/java/com/taobao/idlefish/flutterboostexample/FlutterPageActivity.java,"FlutterPageActivity::getContainerName()",3, 39, 4, 0
+repos/java/flutter_boost/example/android/app/src/main/java/com/taobao/idlefish/flutterboostexample/FlutterPageActivity.java,"FlutterPageActivity::getContainerParams()",3, 38, 4, 0
+repos/java/flutter_boost/example/android/app/src/main/java/com/taobao/idlefish/flutterboostexample/FlutterFragment.java,"FlutterFragment::setArguments( @ Nullable Bundle args)",7, 54, 4, 0
+repos/java/flutter_boost/example/android/app/src/main/java/com/taobao/idlefish/flutterboostexample/FlutterFragment.java,"FlutterFragment::setTabTag( String tag)",5, 40, 4, 0
+repos/java/flutter_boost/example/android/app/src/main/java/com/taobao/idlefish/flutterboostexample/FlutterFragment.java,"FlutterFragment::onRegisterPlugins( PluginRegistry registry)",3, 61, 4, 0
+repos/java/flutter_boost/example/android/app/src/main/java/com/taobao/idlefish/flutterboostexample/FlutterFragment.java,"FlutterFragment::getContainerName()",3, 39, 4, 0
+repos/java/flutter_boost/example/android/app/src/main/java/com/taobao/idlefish/flutterboostexample/FlutterFragment.java,"FlutterFragment::getContainerParams()",5, 59, 8, 0
+repos/java/flutter_boost/example/android/app/src/main/java/com/taobao/idlefish/flutterboostexample/FlutterFragment.java,"FlutterFragment::destroyContainer()",3, 37, 4, 0
+repos/java/flutter_boost/example/android/app/src/main/java/com/taobao/idlefish/flutterboostexample/FlutterFragment.java,"FlutterFragment::instance( String tag)",5, 58, 8, 0
+repos/java/flutter_boost/example/android/app/src/main/java/com/taobao/idlefish/flutterboostexample/MyApplication.java,"MyApplication::onCreate()",34, 89, 12, 0
+repos/java/flutter_boost/example/android/app/src/main/java/com/taobao/idlefish/flutterboostexample/FlutterFragmentPageActivity.java,"FlutterFragmentPageActivity::onCreate( @ Nullable Bundle savedInstanceState)",24, 91, 12, 0
+repos/java/flutter_boost/android/src/main/java/com/taobao/idlefish/flutterboost/Debuger.java,"Debuger::Debuger()",1, 25, 4, 0
+repos/java/flutter_boost/android/src/main/java/com/taobao/idlefish/flutterboost/Debuger.java,"Debuger::print( String info)",5, 38, 4, 0
+repos/java/flutter_boost/android/src/main/java/com/taobao/idlefish/flutterboost/Debuger.java,"Debuger::log( String info)",3, 42, 4, 0
+repos/java/flutter_boost/android/src/main/java/com/taobao/idlefish/flutterboost/Debuger.java,"Debuger::exception( String message)",7, 66, 12, 0
+repos/java/flutter_boost/android/src/main/java/com/taobao/idlefish/flutterboost/Debuger.java,"Debuger::exception( Throwable t)",7, 48, 4, 0
+repos/java/flutter_boost/android/src/main/java/com/taobao/idlefish/flutterboost/Debuger.java,"Debuger::isDebug()",7, 60, 12, 0
+repos/java/flutter_boost/android/src/main/java/com/taobao/idlefish/flutterboost/Utils.java,"Utils::checkImageValid( final Bitmap bitmap)",43, 116, 16, 0
+repos/java/flutter_boost/android/src/main/java/com/taobao/idlefish/flutterboost/BoostFlutterNativeView.java,"BoostFlutterNativeView::BoostFlutterNativeView( Context context)",3, 53, 4, 0
+repos/java/flutter_boost/android/src/main/java/com/taobao/idlefish/flutterboost/BoostFlutterNativeView.java,"BoostFlutterNativeView::detach()",3, 27, 4, 0
+repos/java/flutter_boost/android/src/main/java/com/taobao/idlefish/flutterboost/BoostFlutterNativeView.java,"BoostFlutterNativeView::destroy()",3, 28, 4, 0
+repos/java/flutter_boost/android/src/main/java/com/taobao/idlefish/flutterboost/BoostFlutterNativeView.java,"BoostFlutterNativeView::boostDestroy()",3, 33, 4, 0
+repos/java/flutter_boost/android/src/main/java/com/taobao/idlefish/flutterboost/BoostFlutterView.java,"BoostFlutterView::BoostFlutterView( Context context , AttributeSet attrs , FlutterNativeView nativeView)",20, 97, 4, 0
+repos/java/flutter_boost/android/src/main/java/com/taobao/idlefish/flutterboost/BoostFlutterView.java,"BoostFlutterView::onStart()",3, 28, 4, 0
+repos/java/flutter_boost/android/src/main/java/com/taobao/idlefish/flutterboost/BoostFlutterView.java,"BoostFlutterView::onPostResume()",4, 33, 4, 0
+repos/java/flutter_boost/android/src/main/java/com/taobao/idlefish/flutterboost/BoostFlutterView.java,"BoostFlutterView::onPause()",3, 28, 4, 0
+repos/java/flutter_boost/android/src/main/java/com/taobao/idlefish/flutterboost/BoostFlutterView.java,"BoostFlutterView::onStop()",3, 27, 4, 0
+repos/java/flutter_boost/android/src/main/java/com/taobao/idlefish/flutterboost/BoostFlutterView.java,"BoostFlutterView::detach()",4, 40, 4, 0
+repos/java/flutter_boost/android/src/main/java/com/taobao/idlefish/flutterboost/BoostFlutterView.java,"BoostFlutterView::destroy()",3, 28, 4, 0
+repos/java/flutter_boost/android/src/main/java/com/taobao/idlefish/flutterboost/BoostFlutterView.java,"BoostFlutterView::getBitmap()",8, 85, 8, 0
+repos/java/flutter_boost/android/src/main/java/com/taobao/idlefish/flutterboost/BoostFlutterView.java,"BoostFlutterView::firstFrameCalled()",3, 40, 4, 0
+repos/java/flutter_boost/android/src/main/java/com/taobao/idlefish/flutterboost/BoostFlutterView.java,"BoostFlutterView::boostResume()",7, 48, 12, 0
+repos/java/flutter_boost/android/src/main/java/com/taobao/idlefish/flutterboost/BoostFlutterView.java,"BoostFlutterView::boostStop()",7, 46, 12, 0
+repos/java/flutter_boost/android/src/main/java/com/taobao/idlefish/flutterboost/BoostFlutterView.java,"BoostFlutterView::isResumed()",3, 33, 4, 0
+repos/java/flutter_boost/android/src/main/java/com/taobao/idlefish/flutterboost/BoostFlutterView.java,"BoostFlutterView::boostDestroy()",3, 33, 4, 0
+repos/java/flutter_boost/android/src/main/java/com/taobao/idlefish/flutterboost/BoostFlutterView.java,"BoostFlutterView::scheduleFrame()",7, 59, 12, 0
+repos/java/flutter_boost/android/src/main/java/com/taobao/idlefish/flutterboost/BoostFlutterView.java,"BoostFlutterView::BoostCallback::BoostCallback( SurfaceHolder . Callback cb)",3, 50, 8, 0
+repos/java/flutter_boost/android/src/main/java/com/taobao/idlefish/flutterboost/BoostFlutterView.java,"BoostFlutterView::BoostCallback::surfaceCreated( SurfaceHolder holder)",8, 59, 8, 0
+repos/java/flutter_boost/android/src/main/java/com/taobao/idlefish/flutterboost/BoostFlutterView.java,"BoostFlutterView::BoostCallback::surfaceChanged( SurfaceHolder holder , int format , int width , int height)",9, 94, 8, 0
+repos/java/flutter_boost/android/src/main/java/com/taobao/idlefish/flutterboost/BoostFlutterView.java,"BoostFlutterView::BoostCallback::surfaceDestroyed( SurfaceHolder holder)",8, 61, 8, 0
+repos/java/flutter_boost/android/src/main/java/com/taobao/idlefish/flutterboost/BoostFlutterView.java,"BoostFlutterView::onAttachedToWindow()",4, 57, 8, 0
+repos/java/flutter_boost/android/src/main/java/com/taobao/idlefish/flutterboost/FlutterViewProvider.java,"FlutterViewProvider::FlutterViewProvider( IPlatform platform)",3, 45, 4, 0
+repos/java/flutter_boost/android/src/main/java/com/taobao/idlefish/flutterboost/FlutterViewProvider.java,"FlutterViewProvider::createFlutterView( IFlutterViewContainer container)",13, 101, 12, 0
+repos/java/flutter_boost/android/src/main/java/com/taobao/idlefish/flutterboost/FlutterViewProvider.java,"FlutterViewProvider::createFlutterNativeView( IFlutterViewContainer container)",6, 110, 12, 0
+repos/java/flutter_boost/android/src/main/java/com/taobao/idlefish/flutterboost/FlutterViewProvider.java,"FlutterViewProvider::tryGetFlutterView()",3, 50, 4, 0
+repos/java/flutter_boost/android/src/main/java/com/taobao/idlefish/flutterboost/FlutterViewProvider.java,"FlutterViewProvider::stopFlutterView()",6, 52, 8, 0
+repos/java/flutter_boost/android/src/main/java/com/taobao/idlefish/flutterboost/FlutterViewProvider.java,"FlutterViewProvider::reset()",11, 47, 12, 0
+repos/java/flutter_boost/android/src/main/java/com/taobao/idlefish/flutterboost/PageResultMediator.java,"PageResultMediator::onPageResult( String key , Map resultData)",8, 57, 12, 0
+repos/java/flutter_boost/android/src/main/java/com/taobao/idlefish/flutterboost/PageResultMediator.java,"PageResultMediator::setHandler( String key , PageResultHandler handler)",4, 60, 4, 0
+repos/java/flutter_boost/android/src/main/java/com/taobao/idlefish/flutterboost/PageResultMediator.java,"PageResultMediator::removeHandler( String key)",4, 36, 4, 0
+repos/java/flutter_boost/android/src/main/java/com/taobao/idlefish/flutterboost/FlutterViewContainerManager.java,"FlutterViewContainerManager::FlutterViewContainerManager()",3, 44, 8, 0
+repos/java/flutter_boost/android/src/main/java/com/taobao/idlefish/flutterboost/FlutterViewContainerManager.java,"FlutterViewContainerManager::onContainerCreate( IFlutterViewContainer container)",26, 115, 12, 0
+repos/java/flutter_boost/android/src/main/java/com/taobao/idlefish/flutterboost/FlutterViewContainerManager.java,"FlutterViewContainerManager::onContainerAppear( IFlutterViewContainer container)",12, 97, 12, 0
+repos/java/flutter_boost/android/src/main/java/com/taobao/idlefish/flutterboost/FlutterViewContainerManager.java,"FlutterViewContainerManager::onContainerDisappear( IFlutterViewContainer container)",14, 97, 12, 0
+repos/java/flutter_boost/android/src/main/java/com/taobao/idlefish/flutterboost/FlutterViewContainerManager.java,"FlutterViewContainerManager::onContainerDestroy( IFlutterViewContainer container)",18, 97, 12, 0
+repos/java/flutter_boost/android/src/main/java/com/taobao/idlefish/flutterboost/FlutterViewContainerManager.java,"FlutterViewContainerManager::checkIfFlutterViewNeedStopLater()",10, 73, 20, 0
+repos/java/flutter_boost/android/src/main/java/com/taobao/idlefish/flutterboost/FlutterViewContainerManager.java,"FlutterViewContainerManager::onBackPressed( IFlutterViewContainer container)",15, 97, 12, 0
+repos/java/flutter_boost/android/src/main/java/com/taobao/idlefish/flutterboost/FlutterViewContainerManager.java,"FlutterViewContainerManager::destroyContainerRecord( String name , String uniqueId)",16, 109, 12, 0
+repos/java/flutter_boost/android/src/main/java/com/taobao/idlefish/flutterboost/FlutterViewContainerManager.java,"FlutterViewContainerManager::onContainerResult( IFlutterViewContainer container , Map result)",9, 97, 12, 0
+repos/java/flutter_boost/android/src/main/java/com/taobao/idlefish/flutterboost/FlutterViewContainerManager.java,"FlutterViewContainerManager::setContainerResult( String uniqueId , Map result)",24, 95, 8, 0
+repos/java/flutter_boost/android/src/main/java/com/taobao/idlefish/flutterboost/FlutterViewContainerManager.java,"FlutterViewContainerManager::getCurrentTopRecord()",3, 52, 4, 0
+repos/java/flutter_boost/android/src/main/java/com/taobao/idlefish/flutterboost/FlutterViewContainerManager.java,"FlutterViewContainerManager::getLastRecord()",8, 79, 12, 0
+repos/java/flutter_boost/android/src/main/java/com/taobao/idlefish/flutterboost/FlutterViewContainerManager.java,"FlutterViewContainerManager::findContainerById( String uniqueId)",19, 95, 8, 0
+repos/java/flutter_boost/android/src/main/java/com/taobao/idlefish/flutterboost/FlutterViewContainerManager.java,"FlutterViewContainerManager::onShownContainerChanged( String old , String now)",28, 95, 8, 0
+repos/java/flutter_boost/android/src/main/java/com/taobao/idlefish/flutterboost/FlutterViewContainerManager.java,"FlutterViewContainerManager::hasContainerAppear()",11, 95, 8, 0
+repos/java/flutter_boost/android/src/main/java/com/taobao/idlefish/flutterboost/FlutterViewContainerManager.java,"FlutterViewContainerManager::reset()",2, 26, 4, 0
+repos/java/flutter_boost/android/src/main/java/com/taobao/idlefish/flutterboost/FlutterViewContainerManager.java,"FlutterViewContainerManager::assertCallOnMainThread()",5, 66, 12, 0
+repos/java/flutter_boost/android/src/main/java/com/taobao/idlefish/flutterboost/FlutterViewContainerManager.java,"FlutterViewContainerManager::ContainerRef::ContainerRef( String id , IFlutterViewContainer container)",4, 67, 8, 0
+repos/java/flutter_boost/android/src/main/java/com/taobao/idlefish/flutterboost/FlutterViewContainerManager.java,"FlutterViewContainerManager::PluginRegistryImpl::PluginRegistryImpl( Activity activity , BoostFlutterView flutterView)",3, 78, 8, 0
+repos/java/flutter_boost/android/src/main/java/com/taobao/idlefish/flutterboost/FlutterViewContainerManager.java,"FlutterViewContainerManager::PluginRegistryImpl::registrarFor( String pluginKey)",3, 82, 12, 0
+repos/java/flutter_boost/android/src/main/java/com/taobao/idlefish/flutterboost/FlutterViewContainerManager.java,"FlutterViewContainerManager::PluginRegistryImpl::hasPlugin( String key)",3, 73, 12, 0
+repos/java/flutter_boost/android/src/main/java/com/taobao/idlefish/flutterboost/FlutterViewContainerManager.java,"FlutterViewContainerManager::PluginRegistryImpl::valuePublishedByPlugin( String pluginKey)",3, 92, 12, 0
+repos/java/flutter_boost/android/src/main/java/com/taobao/idlefish/flutterboost/FlutterBoostPlugin.java,"FlutterBoostPlugin::init( IPlatform platform)",7, 85, 12, 0
+repos/java/flutter_boost/android/src/main/java/com/taobao/idlefish/flutterboost/FlutterBoostPlugin.java,"FlutterBoostPlugin::registerWith( PluginRegistry . Registrar registrar)",4, 97, 8, 0
+repos/java/flutter_boost/android/src/main/java/com/taobao/idlefish/flutterboost/FlutterBoostPlugin.java,"FlutterBoostPlugin::viewProvider()",7, 75, 12, 0
+repos/java/flutter_boost/android/src/main/java/com/taobao/idlefish/flutterboost/FlutterBoostPlugin.java,"FlutterBoostPlugin::containerManager()",7, 75, 12, 0
+repos/java/flutter_boost/android/src/main/java/com/taobao/idlefish/flutterboost/FlutterBoostPlugin.java,"FlutterBoostPlugin::platform()",7, 75, 12, 0
+repos/java/flutter_boost/android/src/main/java/com/taobao/idlefish/flutterboost/FlutterBoostPlugin.java,"FlutterBoostPlugin::currentActivity()",7, 75, 12, 0
+repos/java/flutter_boost/android/src/main/java/com/taobao/idlefish/flutterboost/FlutterBoostPlugin.java,"FlutterBoostPlugin::FlutterBoostPlugin( IPlatform platform)",6, 59, 8, 0
+repos/java/flutter_boost/android/src/main/java/com/taobao/idlefish/flutterboost/FlutterBoostPlugin.java,"FlutterBoostPlugin::findContainerById( String id)",3, 63, 4, 0
+repos/java/flutter_boost/android/src/main/java/com/taobao/idlefish/flutterboost/FlutterBoostPlugin.java,"FlutterBoostPlugin::onMethodCall( MethodCall call , MethodChannel . Result result)",7, 77, 4, 0
+repos/java/flutter_boost/android/src/main/java/com/taobao/idlefish/flutterboost/FlutterBoostPlugin.java,"FlutterBoostPlugin::openPage( Context context , String url , final Map params , int requestCode)",45, 98, 4, 0
+repos/java/flutter_boost/android/src/main/java/com/taobao/idlefish/flutterboost/FlutterBoostPlugin.java,"FlutterBoostPlugin::needResult( Map params)",12, 52, 12, 0
+repos/java/flutter_boost/android/src/main/java/com/taobao/idlefish/flutterboost/FlutterBoostPlugin.java,"FlutterBoostPlugin::onPageResult( String key , Map resultData)",8, 76, 12, 0
+repos/java/flutter_boost/android/src/main/java/com/taobao/idlefish/flutterboost/FlutterBoostPlugin.java,"FlutterBoostPlugin::setHandler( String key , PageResultHandler handler)",7, 76, 12, 0
+repos/java/flutter_boost/android/src/main/java/com/taobao/idlefish/flutterboost/FlutterBoostPlugin.java,"FlutterBoostPlugin::removeHandler( String key)",7, 76, 12, 0
+repos/java/flutter_boost/android/src/main/java/com/taobao/idlefish/flutterboost/FlutterBoostPlugin.java,"FlutterBoostPlugin::concatUrl( String url , Map params)",23, 84, 24, 0
+repos/java/flutter_boost/android/src/main/java/com/taobao/idlefish/flutterboost/FlutterBoostPlugin.java,"FlutterBoostPlugin::onActivityCreated( Activity activity , Bundle savedInstanceState)",3, 82, 4, 0
+repos/java/flutter_boost/android/src/main/java/com/taobao/idlefish/flutterboost/FlutterBoostPlugin.java,"FlutterBoostPlugin::onActivityStarted( Activity activity)",10, 59, 12, 0
+repos/java/flutter_boost/android/src/main/java/com/taobao/idlefish/flutterboost/FlutterBoostPlugin.java,"FlutterBoostPlugin::onActivityResumed( Activity activity)",3, 55, 4, 0
+repos/java/flutter_boost/android/src/main/java/com/taobao/idlefish/flutterboost/FlutterBoostPlugin.java,"FlutterBoostPlugin::onActivityPaused( Activity activity)",3, 54, 4, 0
+repos/java/flutter_boost/android/src/main/java/com/taobao/idlefish/flutterboost/FlutterBoostPlugin.java,"FlutterBoostPlugin::onActivityStopped( Activity activity)",10, 59, 12, 0
+repos/java/flutter_boost/android/src/main/java/com/taobao/idlefish/flutterboost/FlutterBoostPlugin.java,"FlutterBoostPlugin::onActivitySaveInstanceState( Activity activity , Bundle outState)",3, 82, 4, 0
+repos/java/flutter_boost/android/src/main/java/com/taobao/idlefish/flutterboost/FlutterBoostPlugin.java,"FlutterBoostPlugin::onActivityDestroyed( Activity activity)",10, 59, 12, 0
+repos/java/flutter_boost/android/src/main/java/com/taobao/idlefish/flutterboost/FlutterBoostPlugin.java,"FlutterBoostPlugin::setBoostResult( Activity activity , HashMap result)",7, 74, 4, 0
+repos/java/flutter_boost/android/src/main/java/com/taobao/idlefish/flutterboost/FlutterBoostPlugin.java,"FlutterBoostPlugin::onBoostResult( IFlutterViewContainer container , int requestCode , int resultCode , Intent intent)",9, 117, 4, 0
+repos/java/flutter_boost/android/src/main/java/com/taobao/idlefish/flutterboost/ContainerRecord.java,"ContainerRecord::ContainerRecord( IContainerManager manager , IFlutterViewContainer container)",5, 89, 4, 0
+repos/java/flutter_boost/android/src/main/java/com/taobao/idlefish/flutterboost/ContainerRecord.java,"ContainerRecord::uniqueId()",3, 31, 4, 0
+repos/java/flutter_boost/android/src/main/java/com/taobao/idlefish/flutterboost/ContainerRecord.java,"ContainerRecord::getContainer()",3, 50, 4, 0
+repos/java/flutter_boost/android/src/main/java/com/taobao/idlefish/flutterboost/ContainerRecord.java,"ContainerRecord::getState()",3, 28, 4, 0
+repos/java/flutter_boost/android/src/main/java/com/taobao/idlefish/flutterboost/ContainerRecord.java,"ContainerRecord::onCreate()",5, 56, 8, 0
+repos/java/flutter_boost/android/src/main/java/com/taobao/idlefish/flutterboost/ContainerRecord.java,"ContainerRecord::onAppear()",5, 56, 8, 0
+repos/java/flutter_boost/android/src/main/java/com/taobao/idlefish/flutterboost/ContainerRecord.java,"ContainerRecord::onDisappear()",12, 89, 9, 0
+repos/java/flutter_boost/android/src/main/java/com/taobao/idlefish/flutterboost/ContainerRecord.java,"ContainerRecord::onDestroy()",4, 34, 8, 0
+repos/java/flutter_boost/android/src/main/java/com/taobao/idlefish/flutterboost/ContainerRecord.java,"ContainerRecord::onResult( Map Result)",9, 49, 16, 0
+repos/java/flutter_boost/android/src/main/java/com/taobao/idlefish/flutterboost/ContainerRecord.java,"ContainerRecord::MethodChannelProxy::create()",12, 59, 24, 0
+repos/java/flutter_boost/android/src/main/java/com/taobao/idlefish/flutterboost/ContainerRecord.java,"ContainerRecord::MethodChannelProxy::appear()",11, 55, 20, 0
+repos/java/flutter_boost/android/src/main/java/com/taobao/idlefish/flutterboost/ContainerRecord.java,"ContainerRecord::MethodChannelProxy::disappear()",13, 64, 24, 0
+repos/java/flutter_boost/android/src/main/java/com/taobao/idlefish/flutterboost/ContainerRecord.java,"ContainerRecord::MethodChannelProxy::destroy()",13, 63, 24, 0
+repos/java/flutter_boost/android/src/main/java/com/taobao/idlefish/flutterboost/ContainerRecord.java,"ContainerRecord::genResult( final String name)",19, 71, 12, 0
+repos/java/flutter_boost/android/src/main/java/com/taobao/idlefish/flutterboost/Instrument.java,"Instrument::Instrument( IContainerManager manager)",3, 44, 4, 0
+repos/java/flutter_boost/android/src/main/java/com/taobao/idlefish/flutterboost/Instrument.java,"Instrument::performCreate( IContainerRecord record)",9, 91, 12, 0
+repos/java/flutter_boost/android/src/main/java/com/taobao/idlefish/flutterboost/Instrument.java,"Instrument::performAppear( IContainerRecord record)",10, 91, 12, 0
+repos/java/flutter_boost/android/src/main/java/com/taobao/idlefish/flutterboost/Instrument.java,"Instrument::performDisappear( IContainerRecord record)",9, 95, 12, 0
+repos/java/flutter_boost/android/src/main/java/com/taobao/idlefish/flutterboost/Instrument.java,"Instrument::performDestroy( IContainerRecord record)",8, 92, 12, 0
+repos/java/flutter_boost/android/src/main/java/com/taobao/idlefish/flutterboost/loader/ServiceLoader.java,"ServiceLoader::load()",3, 100, 11, 0
+repos/java/flutter_boost/android/src/main/java/com/taobao/idlefish/flutterboost/containers/BoostFlutterActivity.java,"BoostFlutterActivity::onCreate( Bundle savedInstanceState)",11, 71, 8, 0
+repos/java/flutter_boost/android/src/main/java/com/taobao/idlefish/flutterboost/containers/BoostFlutterActivity.java,"BoostFlutterActivity::onPostResume()",5, 92, 8, 0
+repos/java/flutter_boost/android/src/main/java/com/taobao/idlefish/flutterboost/containers/BoostFlutterActivity.java,"BoostFlutterActivity::onPause()",5, 74, 8, 0
+repos/java/flutter_boost/android/src/main/java/com/taobao/idlefish/flutterboost/containers/BoostFlutterActivity.java,"BoostFlutterActivity::onDestroy()",5, 72, 8, 0
+repos/java/flutter_boost/android/src/main/java/com/taobao/idlefish/flutterboost/containers/BoostFlutterActivity.java,"BoostFlutterActivity::createFlutterView( Context context)",3, 74, 8, 0
+repos/java/flutter_boost/android/src/main/java/com/taobao/idlefish/flutterboost/containers/BoostFlutterActivity.java,"BoostFlutterActivity::createFlutterNativeView()",3, 80, 8, 0
+repos/java/flutter_boost/android/src/main/java/com/taobao/idlefish/flutterboost/containers/BoostFlutterActivity.java,"BoostFlutterActivity::retainFlutterNativeView()",3, 47, 4, 0
+repos/java/flutter_boost/android/src/main/java/com/taobao/idlefish/flutterboost/containers/BoostFlutterActivity.java,"BoostFlutterActivity::createSplashScreenView()",8, 91, 16, 0
+repos/java/flutter_boost/android/src/main/java/com/taobao/idlefish/flutterboost/containers/BoostFlutterActivity.java,"BoostFlutterActivity::createFlutterInitCoverView()",5, 51, 8, 0
+repos/java/flutter_boost/android/src/main/java/com/taobao/idlefish/flutterboost/containers/BoostFlutterActivity.java,"BoostFlutterActivity::onContainerShown()",3, 44, 8, 0
+repos/java/flutter_boost/android/src/main/java/com/taobao/idlefish/flutterboost/containers/BoostFlutterActivity.java,"BoostFlutterActivity::onContainerHidden()",3, 45, 8, 0
+repos/java/flutter_boost/android/src/main/java/com/taobao/idlefish/flutterboost/containers/BoostFlutterActivity.java,"BoostFlutterActivity::onBackPressed()",3, 67, 8, 0
+repos/java/flutter_boost/android/src/main/java/com/taobao/idlefish/flutterboost/containers/BoostFlutterActivity.java,"BoostFlutterActivity::getActivity()",3, 36, 4, 0
+repos/java/flutter_boost/android/src/main/java/com/taobao/idlefish/flutterboost/containers/BoostFlutterActivity.java,"BoostFlutterActivity::getBoostFlutterView()",3, 52, 4, 0
+repos/java/flutter_boost/android/src/main/java/com/taobao/idlefish/flutterboost/containers/BoostFlutterActivity.java,"BoostFlutterActivity::destroyContainer()",3, 37, 4, 0
+repos/java/flutter_boost/android/src/main/java/com/taobao/idlefish/flutterboost/containers/BoostFlutterActivity.java,"BoostFlutterActivity::setBoostResult( HashMap result)",3, 57, 8, 0
+repos/java/flutter_boost/android/src/main/java/com/taobao/idlefish/flutterboost/containers/BoostFlutterActivity.java,"BoostFlutterActivity::onActivityResult( int requestCode , int resultCode , Intent data)",3, 84, 4, 0
+repos/java/flutter_boost/android/src/main/java/com/taobao/idlefish/flutterboost/containers/BoostFlutterActivity.java,"BoostFlutterActivity::FlutterContent::FlutterContent( Context context)",3, 49, 8, 0
+repos/java/flutter_boost/android/src/main/java/com/taobao/idlefish/flutterboost/containers/BoostFlutterActivity.java,"BoostFlutterActivity::FlutterContent::createFlutterInitCoverView()",3, 75, 12, 0
+repos/java/flutter_boost/android/src/main/java/com/taobao/idlefish/flutterboost/containers/BoostFlutterActivity.java,"BoostFlutterActivity::FlutterContent::getBoostFlutterView()",3, 68, 12, 0
+repos/java/flutter_boost/android/src/main/java/com/taobao/idlefish/flutterboost/containers/BoostFlutterActivity.java,"BoostFlutterActivity::FlutterContent::createSplashScreenView()",3, 71, 12, 0
+repos/java/flutter_boost/android/src/main/java/com/taobao/idlefish/flutterboost/containers/BoostFlutterFragment.java,"BoostFlutterFragment::onCreate( Bundle savedInstanceState)",6, 83, 8, 0
+repos/java/flutter_boost/android/src/main/java/com/taobao/idlefish/flutterboost/containers/BoostFlutterFragment.java,"BoostFlutterFragment::onCreateView( LayoutInflater inflater , ViewGroup container , Bundle savedInstanceState)",5, 104, 4, 0
+repos/java/flutter_boost/android/src/main/java/com/taobao/idlefish/flutterboost/containers/BoostFlutterFragment.java,"BoostFlutterFragment::onResume()",9, 75, 12, 0
+repos/java/flutter_boost/android/src/main/java/com/taobao/idlefish/flutterboost/containers/BoostFlutterFragment.java,"BoostFlutterFragment::onPause()",9, 78, 12, 0
+repos/java/flutter_boost/android/src/main/java/com/taobao/idlefish/flutterboost/containers/BoostFlutterFragment.java,"BoostFlutterFragment::onDestroy()",7, 72, 8, 0
+repos/java/flutter_boost/android/src/main/java/com/taobao/idlefish/flutterboost/containers/BoostFlutterFragment.java,"BoostFlutterFragment::onContainerShown()",3, 37, 4, 0
+repos/java/flutter_boost/android/src/main/java/com/taobao/idlefish/flutterboost/containers/BoostFlutterFragment.java,"BoostFlutterFragment::onContainerHidden()",3, 38, 4, 0
+repos/java/flutter_boost/android/src/main/java/com/taobao/idlefish/flutterboost/containers/BoostFlutterFragment.java,"BoostFlutterFragment::getBoostFlutterView()",3, 74, 8, 0
+repos/java/flutter_boost/android/src/main/java/com/taobao/idlefish/flutterboost/containers/BoostFlutterFragment.java,"BoostFlutterFragment::isFinishing()",3, 44, 8, 0
+repos/java/flutter_boost/android/src/main/java/com/taobao/idlefish/flutterboost/containers/BoostFlutterFragment.java,"BoostFlutterFragment::createSplashScreenView()",8, 91, 16, 0
+repos/java/flutter_boost/android/src/main/java/com/taobao/idlefish/flutterboost/containers/BoostFlutterFragment.java,"BoostFlutterFragment::createFlutterInitCoverView()",5, 51, 8, 0
+repos/java/flutter_boost/android/src/main/java/com/taobao/idlefish/flutterboost/containers/BoostFlutterFragment.java,"BoostFlutterFragment::setBoostResult( HashMap result)",2, 49, 4, 0
+repos/java/flutter_boost/android/src/main/java/com/taobao/idlefish/flutterboost/containers/BoostFlutterFragment.java,"BoostFlutterFragment::FlutterContent::FlutterContent( Context context)",3, 49, 8, 0
+repos/java/flutter_boost/android/src/main/java/com/taobao/idlefish/flutterboost/containers/BoostFlutterFragment.java,"BoostFlutterFragment::FlutterContent::createFlutterInitCoverView()",3, 75, 12, 0
+repos/java/flutter_boost/android/src/main/java/com/taobao/idlefish/flutterboost/containers/BoostFlutterFragment.java,"BoostFlutterFragment::FlutterContent::getBoostFlutterView()",3, 68, 12, 0
+repos/java/flutter_boost/android/src/main/java/com/taobao/idlefish/flutterboost/containers/BoostFlutterFragment.java,"BoostFlutterFragment::FlutterContent::createSplashScreenView()",3, 71, 12, 0
+repos/java/flutter_boost/android/src/main/java/com/taobao/idlefish/flutterboost/containers/FlutterViewStub.java,"FlutterViewStub::FlutterViewStub( Context context)",24, 96, 20, 0
+repos/java/flutter_boost/android/src/main/java/com/taobao/idlefish/flutterboost/containers/FlutterViewStub.java,"FlutterViewStub::onContainerShown()",29, 72, 20, 0
+repos/java/flutter_boost/android/src/main/java/com/taobao/idlefish/flutterboost/containers/FlutterViewStub.java,"FlutterViewStub::onContainerHidden()",3, 44, 8, 0
+repos/java/flutter_boost/android/src/main/java/com/taobao/idlefish/flutterboost/containers/FlutterViewStub.java,"FlutterViewStub::snapshot()",12, 79, 8, 0
+repos/java/flutter_boost/android/src/main/java/com/taobao/idlefish/flutterboost/containers/FlutterViewStub.java,"FlutterViewStub::attachFlutterView( final BoostFlutterView flutterView)",14, 96, 20, 0
+repos/java/flutter_boost/android/src/main/java/com/taobao/idlefish/flutterboost/containers/FlutterViewStub.java,"FlutterViewStub::detachFlutterView()",29, 91, 16, 0
+repos/java/flutter_boost/android/src/main/java/com/taobao/idlefish/flutterboost/containers/FlutterViewStub.java,"FlutterViewStub::destroy()",8, 56, 8, 0
+repos/java/flutter_boost/android/src/main/java/com/taobao/idlefish/flutterboost/containers/FlutterViewStub.java,"FlutterViewStub::createFlutterInitCoverView()",5, 51, 8, 0
+repos/java/flutter_boost/android/src/main/java/com/taobao/idlefish/flutterboost/containers/FlutterViewStub.java,"FlutterViewStub::createSplashScreenView()",8, 91, 16, 0
+repos/java/flutter_boost/android/src/main/java/com/taobao/idlefish/flutterboost/containers/FlutterViewStub.java,"FlutterViewStub::ProcessHandler::ProcessHandler( Looper looper)",3, 40, 8, 0
+repos/java/flutter_boost/android/src/main/java/com/taobao/idlefish/flutterboost/containers/FlutterViewStub.java,"FlutterViewStub::ProcessHandler::handleMessage( Message msg)",7, 51, 16, 0
+repos/java/flutter_boost/android/src/main/java/com/taobao/idlefish/flutterboost/NavigationService/NavigationService_openPage.java,"NavigationService_openPage::onCall( MessageResult<Boolean> result , String pageName , Map params , Boolean animated)",17, 104, 5, 0
+repos/java/flutter_boost/android/src/main/java/com/taobao/idlefish/flutterboost/NavigationService/NavigationService_openPage.java,"NavigationService_openPage::onMethodCall( String name , Map args , MessageResult<Boolean> result)",4, 111, 7, 0
+repos/java/flutter_boost/android/src/main/java/com/taobao/idlefish/flutterboost/NavigationService/NavigationService_openPage.java,"NavigationService_openPage::handleMessageNames()",5, 48, 5, 0
+repos/java/flutter_boost/android/src/main/java/com/taobao/idlefish/flutterboost/NavigationService/NavigationService_openPage.java,"NavigationService_openPage::getContext()",3, 34, 5, 0
+repos/java/flutter_boost/android/src/main/java/com/taobao/idlefish/flutterboost/NavigationService/NavigationService_openPage.java,"NavigationService_openPage::setContext( Object obj)",3, 42, 5, 0
+repos/java/flutter_boost/android/src/main/java/com/taobao/idlefish/flutterboost/NavigationService/NavigationService_openPage.java,"NavigationService_openPage::service()",3, 37, 9, 0
+repos/java/flutter_boost/android/src/main/java/com/taobao/idlefish/flutterboost/NavigationService/NavigationService_openPage.java,"NavigationService_openPage::register()",3, 93, 10, 0
+repos/java/flutter_boost/android/src/main/java/com/taobao/idlefish/flutterboost/NavigationService/NavigationService_pageOnStart.java,"NavigationService_pageOnStart::onCall( MessageResult<Map> result , Map params)",22, 84, 20, 0
+repos/java/flutter_boost/android/src/main/java/com/taobao/idlefish/flutterboost/NavigationService/NavigationService_pageOnStart.java,"NavigationService_pageOnStart::onMethodCall( String name , Map args , MessageResult<Map> result)",4, 85, 5, 0
+repos/java/flutter_boost/android/src/main/java/com/taobao/idlefish/flutterboost/NavigationService/NavigationService_pageOnStart.java,"NavigationService_pageOnStart::handleMessageNames()",5, 48, 5, 0
+repos/java/flutter_boost/android/src/main/java/com/taobao/idlefish/flutterboost/NavigationService/NavigationService_pageOnStart.java,"NavigationService_pageOnStart::getContext()",3, 34, 5, 0
+repos/java/flutter_boost/android/src/main/java/com/taobao/idlefish/flutterboost/NavigationService/NavigationService_pageOnStart.java,"NavigationService_pageOnStart::setContext( Object obj)",3, 42, 5, 0
+repos/java/flutter_boost/android/src/main/java/com/taobao/idlefish/flutterboost/NavigationService/NavigationService_pageOnStart.java,"NavigationService_pageOnStart::service()",3, 37, 9, 0
+repos/java/flutter_boost/android/src/main/java/com/taobao/idlefish/flutterboost/NavigationService/NavigationService_pageOnStart.java,"NavigationService_pageOnStart::register()",3, 96, 10, 0
+repos/java/flutter_boost/android/src/main/java/com/taobao/idlefish/flutterboost/NavigationService/NavigationService.java,"NavigationService::getService()",3, 45, 1, 0
+repos/java/flutter_boost/android/src/main/java/com/taobao/idlefish/flutterboost/NavigationService/NavigationService.java,"NavigationService::register()",3, 59, 5, 0
+repos/java/flutter_boost/android/src/main/java/com/taobao/idlefish/flutterboost/NavigationService/NavigationService.java,"NavigationService::onNativePageResult( final MessageResult<Boolean> result , String uniqueId , String key , Map resultData , Map params)",31, 133, 3, 0
+repos/java/flutter_boost/android/src/main/java/com/taobao/idlefish/flutterboost/NavigationService/NavigationService.java,"NavigationService::didShowPageContainer( final MessageResult<Boolean> result , String pageName , Map params , String uniqueId)",30, 125, 3, 0
+repos/java/flutter_boost/android/src/main/java/com/taobao/idlefish/flutterboost/NavigationService/NavigationService.java,"NavigationService::willShowPageContainer( final MessageResult<Boolean> result , String pageName , Map params , String uniqueId)",30, 126, 3, 0
+repos/java/flutter_boost/android/src/main/java/com/taobao/idlefish/flutterboost/NavigationService/NavigationService.java,"NavigationService::willDisappearPageContainer( final MessageResult<Boolean> result , String pageName , Map params , String uniqueId)",30, 131, 3, 0
+repos/java/flutter_boost/android/src/main/java/com/taobao/idlefish/flutterboost/NavigationService/NavigationService.java,"NavigationService::didDisappearPageContainer( final MessageResult<Boolean> result , String pageName , Map params , String uniqueId)",30, 130, 3, 0
+repos/java/flutter_boost/android/src/main/java/com/taobao/idlefish/flutterboost/NavigationService/NavigationService.java,"NavigationService::didInitPageContainer( final MessageResult<Boolean> result , String pageName , Map params , String uniqueId)",30, 125, 3, 0
+repos/java/flutter_boost/android/src/main/java/com/taobao/idlefish/flutterboost/NavigationService/NavigationService.java,"NavigationService::willDeallocPageContainer( final MessageResult<Boolean> result , String pageName , Map params , String uniqueId)",30, 129, 3, 0
+repos/java/flutter_boost/android/src/main/java/com/taobao/idlefish/flutterboost/NavigationService/NavigationServiceRegister.java,"NavigationServiceRegister::register()",8, 64, 10, 0
+repos/java/flutter_boost/android/src/main/java/com/taobao/idlefish/flutterboost/NavigationService/NavigationService_onShownContainerChanged.java,"NavigationService_onShownContainerChanged::onCall( MessageResult<Boolean> result , String now , String old , Map params)",5, 96, 8, 0
+repos/java/flutter_boost/android/src/main/java/com/taobao/idlefish/flutterboost/NavigationService/NavigationService_onShownContainerChanged.java,"NavigationService_onShownContainerChanged::onMethodCall( String name , Map args , MessageResult<Boolean> result)",4, 108, 7, 0
+repos/java/flutter_boost/android/src/main/java/com/taobao/idlefish/flutterboost/NavigationService/NavigationService_onShownContainerChanged.java,"NavigationService_onShownContainerChanged::handleMessageNames()",5, 48, 5, 0
+repos/java/flutter_boost/android/src/main/java/com/taobao/idlefish/flutterboost/NavigationService/NavigationService_onShownContainerChanged.java,"NavigationService_onShownContainerChanged::getContext()",3, 34, 5, 0
+repos/java/flutter_boost/android/src/main/java/com/taobao/idlefish/flutterboost/NavigationService/NavigationService_onShownContainerChanged.java,"NavigationService_onShownContainerChanged::setContext( Object obj)",3, 42, 5, 0
+repos/java/flutter_boost/android/src/main/java/com/taobao/idlefish/flutterboost/NavigationService/NavigationService_onShownContainerChanged.java,"NavigationService_onShownContainerChanged::service()",3, 37, 9, 0
+repos/java/flutter_boost/android/src/main/java/com/taobao/idlefish/flutterboost/NavigationService/NavigationService_onShownContainerChanged.java,"NavigationService_onShownContainerChanged::register()",3, 108, 10, 0
+repos/java/flutter_boost/android/src/main/java/com/taobao/idlefish/flutterboost/NavigationService/NavigationService_onFlutterPageResult.java,"NavigationService_onFlutterPageResult::onCall( MessageResult<Boolean> result , String uniqueId , String key , Map resultData , Map params)",5, 116, 8, 0
+repos/java/flutter_boost/android/src/main/java/com/taobao/idlefish/flutterboost/NavigationService/NavigationService_onFlutterPageResult.java,"NavigationService_onFlutterPageResult::onMethodCall( String name , Map args , MessageResult<Boolean> result)",4, 133, 7, 0
+repos/java/flutter_boost/android/src/main/java/com/taobao/idlefish/flutterboost/NavigationService/NavigationService_onFlutterPageResult.java,"NavigationService_onFlutterPageResult::handleMessageNames()",5, 48, 5, 0
+repos/java/flutter_boost/android/src/main/java/com/taobao/idlefish/flutterboost/NavigationService/NavigationService_onFlutterPageResult.java,"NavigationService_onFlutterPageResult::getContext()",3, 34, 5, 0
+repos/java/flutter_boost/android/src/main/java/com/taobao/idlefish/flutterboost/NavigationService/NavigationService_onFlutterPageResult.java,"NavigationService_onFlutterPageResult::setContext( Object obj)",3, 42, 5, 0
+repos/java/flutter_boost/android/src/main/java/com/taobao/idlefish/flutterboost/NavigationService/NavigationService_onFlutterPageResult.java,"NavigationService_onFlutterPageResult::service()",3, 37, 9, 0
+repos/java/flutter_boost/android/src/main/java/com/taobao/idlefish/flutterboost/NavigationService/NavigationService_onFlutterPageResult.java,"NavigationService_onFlutterPageResult::register()",3, 104, 10, 0
+repos/java/flutter_boost/android/src/main/java/com/taobao/idlefish/flutterboost/NavigationService/NavigationService_closePage.java,"NavigationService_closePage::onCall( MessageResult<Boolean> result , String uniqueId , String pageName , Map params , Boolean animated)",5, 123, 8, 0
+repos/java/flutter_boost/android/src/main/java/com/taobao/idlefish/flutterboost/NavigationService/NavigationService_closePage.java,"NavigationService_closePage::onMethodCall( String name , Map args , MessageResult<Boolean> result)",4, 140, 7, 0
+repos/java/flutter_boost/android/src/main/java/com/taobao/idlefish/flutterboost/NavigationService/NavigationService_closePage.java,"NavigationService_closePage::handleMessageNames()",5, 48, 5, 0
+repos/java/flutter_boost/android/src/main/java/com/taobao/idlefish/flutterboost/NavigationService/NavigationService_closePage.java,"NavigationService_closePage::getContext()",3, 34, 5, 0
+repos/java/flutter_boost/android/src/main/java/com/taobao/idlefish/flutterboost/NavigationService/NavigationService_closePage.java,"NavigationService_closePage::setContext( Object obj)",3, 42, 5, 0
+repos/java/flutter_boost/android/src/main/java/com/taobao/idlefish/flutterboost/NavigationService/NavigationService_closePage.java,"NavigationService_closePage::service()",3, 37, 9, 0
+repos/java/flutter_boost/android/src/main/java/com/taobao/idlefish/flutterboost/NavigationService/NavigationService_closePage.java,"NavigationService_closePage::register()",3, 94, 10, 0

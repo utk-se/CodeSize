@@ -1,0 +1,1120 @@
+File, Function, Length, Total Width, Leading Space(s), Leading Tab(s)
+repos/cpp/swoole-src/swoole_redis_server.cc,"swoole_redis_server_init( int module_number)",15, 151, 4, 0
+repos/cpp/swoole-src/swoole_redis_server.cc,"swoole_redis_server_shutdown()",9, 74, 4, 0
+repos/cpp/swoole-src/swoole_redis_server.cc,"redis_onReceive( swServer * serv , swEventData * req)",137, 113, 8, 0
+repos/cpp/swoole-src/swoole_redis_server.cc,"PHP_METHOD( swoole_redis_server , start)",49, 108, 4, 0
+repos/cpp/swoole-src/swoole_redis_server.cc,"PHP_METHOD( swoole_redis_server , setHandler)",45, 106, 4, 0
+repos/cpp/swoole-src/swoole_redis_server.cc,"PHP_METHOD( swoole_redis_server , getHandler)",18, 111, 4, 0
+repos/cpp/swoole-src/swoole_redis_server.cc,"PHP_METHOD( swoole_redis_server , format)",161, 116, 12, 0
+repos/cpp/swoole-src/swoole_http_v2_client_coro.cc,"ZEND_END_ARG_INFO()",7, 36, 4, 0
+repos/cpp/swoole-src/swoole_http_v2_client_coro.cc,"http2_client_stream_get( http2_client_property * hcc , uint32_t stream_id)",4, 107, 0, 0
+repos/cpp/swoole-src/swoole_http_v2_client_coro.cc,"swoole_http2_client_coro_init( int module_number)",68, 147, 4, 0
+repos/cpp/swoole-src/swoole_http_v2_client_coro.cc,"php_swoole_zlib_uncompress( z_stream * stream , swString * buffer , char * body , int length)",56, 112, 8, 0
+repos/cpp/swoole-src/swoole_http_v2_client_coro.cc,"PHP_METHOD( swoole_http2_client_coro , __construct)",46, 113, 8, 0
+repos/cpp/swoole-src/swoole_http_v2_client_coro.cc,"PHP_METHOD( swoole_http2_client_coro , set)",15, 119, 4, 0
+repos/cpp/swoole-src/swoole_http_v2_client_coro.cc,"http2_client_close( swClient * cli)",8, 55, 0, 0
+repos/cpp/swoole-src/swoole_http_v2_client_coro.cc,"http2_client_add_cookie( nghttp2_nv * nv , int * index , zval * cookies)",35, 97, 8, 0
+repos/cpp/swoole-src/swoole_http_v2_client_coro.cc,"http2_client_parse_header( http2_client_property * hcc , http2_client_stream * stream , int flags , char * in , size_t inlen)",83, 149, 12, 0
+repos/cpp/swoole-src/swoole_http_v2_client_coro.cc,"http2_client_build_header( zval * zobject , zval * req , char * buffer)",108, 141, 8, 0
+repos/cpp/swoole-src/swoole_http_v2_client_coro.cc,"http2_client_onReceive( swClient * cli , char * buf , uint32_t _length)",262, 166, 8, 0
+repos/cpp/swoole-src/swoole_http_v2_client_coro.cc,"http2_client_stream_free( void * ptr)",21, 63, 4, 0
+repos/cpp/swoole-src/swoole_http_v2_client_coro.cc,"http2_client_send_request( zval * zobject , zval * req)",128, 148, 8, 0
+repos/cpp/swoole-src/swoole_http_v2_client_coro.cc,"http2_client_send_data( http2_client_property * hcc , uint32_t stream_id , zval * data , zend_bool end)",44, 153, 8, 0
+repos/cpp/swoole-src/swoole_http_v2_client_coro.cc,"PHP_METHOD( swoole_http2_client_coro , send)",31, 150, 8, 0
+repos/cpp/swoole-src/swoole_http_v2_client_coro.cc,"PHP_METHOD( swoole_http2_client_coro , recv)",29, 150, 8, 0
+repos/cpp/swoole-src/swoole_http_v2_client_coro.cc,"http2_client_onConnect( swClient * cli)",49, 121, 8, 0
+repos/cpp/swoole-src/swoole_http_v2_client_coro.cc,"http2_client_onClose( swClient * cli)",49, 117, 4, 0
+repos/cpp/swoole-src/swoole_http_v2_client_coro.cc,"http2_client_onTimeout( swTimer * timer , swTimer_node * tnode)",23, 117, 4, 0
+repos/cpp/swoole-src/swoole_http_v2_client_coro.cc,"PHP_METHOD( swoole_http2_client_coro , __destruct)",22, 117, 4, 0
+repos/cpp/swoole-src/swoole_http_v2_client_coro.cc,"PHP_METHOD( swoole_http2_client_coro , close)",5, 63, 4, 0
+repos/cpp/swoole-src/swoole_http_v2_client_coro.cc,"PHP_METHOD( swoole_http2_client_coro , connect)",57, 119, 4, 0
+repos/cpp/swoole-src/swoole_http_v2_client_coro.cc,"http2_settings_to_array( swHttp2_settings * settings , zval * zarray)",9, 102, 4, 0
+repos/cpp/swoole-src/swoole_http_v2_client_coro.cc,"PHP_METHOD( swoole_http2_client_coro , stats)",47, 123, 8, 0
+repos/cpp/swoole-src/swoole_http_v2_client_coro.cc,"PHP_METHOD( swoole_http2_client_coro , isStreamExist)",30, 119, 4, 0
+repos/cpp/swoole-src/swoole_http_v2_client_coro.cc,"PHP_METHOD( swoole_http2_client_coro , write)",21, 150, 8, 0
+repos/cpp/swoole-src/swoole_http_v2_client_coro.cc,"PHP_METHOD( swoole_http2_client_coro , goaway)",36, 161, 4, 0
+repos/cpp/swoole-src/swoole_async_coro.cc,"swoole_async_coro_init( int module_number)",6, 56, 4, 0
+repos/cpp/swoole-src/swoole_async_coro.cc,"swoole_async_coro_shutdown()",7, 79, 4, 0
+repos/cpp/swoole-src/swoole_async_coro.cc,"coro_onDNSCompleted( char * domain , swDNSResolver_result * result , void * data)",71, 106, 4, 0
+repos/cpp/swoole-src/swoole_async_coro.cc,"dns_timeout_coro( swTimer * timer , swTimer_node * tnode)",32, 105, 4, 0
+repos/cpp/swoole-src/swoole_async_coro.cc,"PHP_FUNCTION( swoole_async_set)",85, 114, 4, 0
+repos/cpp/swoole-src/swoole_async_coro.cc,"PHP_FUNCTION( swoole_async_dns_lookup_coro)",58, 101, 4, 0
+repos/cpp/swoole-src/swoole_server.cc,"PHP_ME( swoole_server , bind , arginfo_swoole_server_bind , ZEND_ACC_PUBLIC)",2, 77, 4, 0
+repos/cpp/swoole-src/swoole_server.cc,"php_swoole_server_isset_callback( swListenPort * port , int event_type)",12, 97, 4, 0
+repos/cpp/swoole-src/swoole_server.cc,"swoole_server_task_free_object( zend_object * object)",12, 80, 4, 0
+repos/cpp/swoole-src/swoole_server.cc,"swoole_server_task_create_object( zend_class_entry * ce)",12, 75, 0, 0
+repos/cpp/swoole-src/swoole_server.cc,"swoole_server_init( int module_number)",53, 162, 4, 0
+repos/cpp/swoole-src/swoole_server.cc,"php_swoole_server_get_callback( swServer * serv , int server_fd , int event_type)",20, 112, 4, 0
+repos/cpp/swoole-src/swoole_server.cc,"php_swoole_server_get_fci_cache( swServer * serv , int server_fd , int event_type)",20, 110, 4, 0
+repos/cpp/swoole-src/swoole_server.cc,"php_swoole_create_dir( const char * path , size_t length)",59, 100, 4, 0
+repos/cpp/swoole-src/swoole_server.cc,"php_swoole_task_pack( swEventData * task , zval * data)",58, 77, 8, 0
+repos/cpp/swoole-src/swoole_server.cc,"php_swoole_get_recv_data( zval * zdata , swEventData * req , char * header , uint32_t header_length)",18, 99, 0, 0
+repos/cpp/swoole-src/swoole_server.cc,"php_swoole_get_send_data( zval * zdata , char ** str)",19, 101, 4, 0
+repos/cpp/swoole-src/swoole_server.cc,"php_swoole_check_task_param( swServer * serv , int dst_worker_id)",19, 111, 8, 0
+repos/cpp/swoole-src/swoole_server.cc,"php_swoole_task_unpack( swEventData * task_result)",56, 103, 8, 0
+repos/cpp/swoole-src/swoole_server.cc,"php_swoole_task_wait_co( swServer * serv , swEventData * req , double timeout , int dst_worker_id , INTERNAL_FUNCTION_PARAMETERS)",29, 135, 0, 0
+repos/cpp/swoole-src/swoole_server.cc,"php_swoole_task_onTimeout( swTimer * timer , swTimer_node * tnode)",41, 75, 0, 0
+repos/cpp/swoole-src/swoole_server.cc,"php_swoole_server_add_port( swServer * serv , swListenPort * port)",35, 122, 4, 0
+repos/cpp/swoole-src/swoole_server.cc,"php_swoole_server_before_start( swServer * serv , zval * zobject)",139, 179, 4, 0
+repos/cpp/swoole-src/swoole_server.cc,"php_swoole_register_callback( swServer * serv)",59, 70, 4, 0
+repos/cpp/swoole-src/swoole_server.cc,"php_swoole_task_finish( swServer * serv , zval * data , swEventData * current_task)",32, 89, 0, 0
+repos/cpp/swoole-src/swoole_server.cc,"php_swoole_onPipeMessage( swServer * serv , swEventData * req)",38, 139, 4, 0
+repos/cpp/swoole-src/swoole_server.cc,"php_swoole_onReceive( swServer * serv , swEventData * req)",33, 121, 4, 0
+repos/cpp/swoole-src/swoole_server.cc,"php_swoole_onPacket( swServer * serv , swEventData * req)",71, 120, 4, 0
+repos/cpp/swoole-src/swoole_server.cc,"php_swoole_onTask( swServer * serv , swEventData * req)",41, 84, 4, 0
+repos/cpp/swoole-src/swoole_server.cc,"php_swoole_onTaskCo( swServer * serv , swEventData * req)",43, 116, 4, 0
+repos/cpp/swoole-src/swoole_server.cc,"php_swoole_onFinish( swServer * serv , swEventData * req)",131, 108, 4, 0
+repos/cpp/swoole-src/swoole_server.cc,"php_swoole_onStart( swServer * serv)",27, 145, 4, 0
+repos/cpp/swoole-src/swoole_server.cc,"php_swoole_onManagerStart( swServer * serv)",25, 152, 4, 0
+repos/cpp/swoole-src/swoole_server.cc,"php_swoole_onManagerStop( swServer * serv)",21, 151, 4, 0
+repos/cpp/swoole-src/swoole_server.cc,"php_swoole_onShutdown( swServer * serv)",27, 152, 8, 0
+repos/cpp/swoole-src/swoole_server.cc,"php_swoole_onWorkerStart_coroutine( zval * zserv , int worker_id)",12, 85, 4, 0
+repos/cpp/swoole-src/swoole_server.cc,"php_swoole_onWorkerStart_callback( zval * zserv , int worker_id)",22, 121, 4, 0
+repos/cpp/swoole-src/swoole_server.cc,"php_swoole_onWorkerStart( swServer * serv , int worker_id)",59, 109, 4, 0
+repos/cpp/swoole-src/swoole_server.cc,"php_swoole_onWorkerStop( swServer * serv , int worker_id)",29, 132, 4, 0
+repos/cpp/swoole-src/swoole_server.cc,"php_swoole_onWorkerExit( swServer * serv , int worker_id)",23, 132, 4, 0
+repos/cpp/swoole-src/swoole_server.cc,"php_swoole_onUserWorkerStart( swServer * serv , swWorker * worker)",15, 109, 4, 0
+repos/cpp/swoole-src/swoole_server.cc,"php_swoole_onWorkerError( swServer * serv , int worker_id , pid_t worker_pid , int exit_code , int signo)",25, 151, 4, 0
+repos/cpp/swoole-src/swoole_server.cc,"php_swoole_onConnect( swServer * serv , swDataHead * info)",33, 117, 4, 0
+repos/cpp/swoole-src/swoole_server.cc,"php_swoole_onClose( swServer * serv , swDataHead * info)",58, 116, 8, 0
+repos/cpp/swoole-src/swoole_server.cc,"php_swoole_onBufferFull( swServer * serv , swDataHead * info)",28, 120, 4, 0
+repos/cpp/swoole-src/swoole_server.cc,"php_swoole_onSendTimeout( swTimer * timer , swTimer_node * tnode)",40, 106, 4, 0
+repos/cpp/swoole-src/swoole_server.cc,"php_swoole_server_send_resume( swServer * serv , php_coro_context * context , int fd)",41, 93, 8, 0
+repos/cpp/swoole-src/swoole_server.cc,"php_swoole_server_send_yield( swServer * serv , int fd , zval * zdata , zval * return_value)",29, 128, 8, 0
+repos/cpp/swoole-src/swoole_server.cc,"php_swoole_onBufferEmpty( swServer * serv , swDataHead * info)",62, 116, 8, 0
+repos/cpp/swoole-src/swoole_server.cc,"PHP_METHOD( swoole_server , __construct)",107, 127, 4, 0
+repos/cpp/swoole-src/swoole_server.cc,"PHP_METHOD( swoole_server , __destruct)",22, 57, 4, 0
+repos/cpp/swoole-src/swoole_server.cc,"PHP_METHOD( swoole_server , set)",456, 131, 8, 0
+repos/cpp/swoole-src/swoole_server.cc,"PHP_METHOD( swoole_server , on)",57, 152, 8, 0
+repos/cpp/swoole-src/swoole_server.cc,"PHP_METHOD( swoole_server , getCallback)",16, 133, 4, 0
+repos/cpp/swoole-src/swoole_server.cc,"PHP_METHOD( swoole_server , listen)",28, 103, 4, 0
+repos/cpp/swoole-src/swoole_server.cc,"PHP_METHOD( swoole_server , addProcess)",50, 85, 8, 0
+repos/cpp/swoole-src/swoole_server.cc,"is_websocket_server( zval * zobject)",4, 84, 4, 0
+repos/cpp/swoole-src/swoole_server.cc,"is_http_server( zval * zobject)",4, 79, 4, 0
+repos/cpp/swoole-src/swoole_server.cc,"PHP_METHOD( swoole_server , start)",63, 122, 8, 0
+repos/cpp/swoole-src/swoole_server.cc,"PHP_METHOD( swoole_server , send)",69, 90, 4, 0
+repos/cpp/swoole-src/swoole_server.cc,"PHP_METHOD( swoole_server , sendto)",64, 101, 8, 0
+repos/cpp/swoole-src/swoole_server.cc,"PHP_METHOD( swoole_server , sendfile)",29, 113, 8, 0
+repos/cpp/swoole-src/swoole_server.cc,"PHP_METHOD( swoole_server , close)",26, 93, 8, 0
+repos/cpp/swoole-src/swoole_server.cc,"PHP_METHOD( swoole_server , confirm)",24, 95, 8, 0
+repos/cpp/swoole-src/swoole_server.cc,"PHP_METHOD( swoole_server , pause)",18, 69, 8, 0
+repos/cpp/swoole-src/swoole_server.cc,"PHP_METHOD( swoole_server , resume)",18, 69, 8, 0
+repos/cpp/swoole-src/swoole_server.cc,"PHP_METHOD( swoole_server , stats)",59, 110, 8, 0
+repos/cpp/swoole-src/swoole_server.cc,"PHP_METHOD( swoole_server , reload)",24, 118, 8, 0
+repos/cpp/swoole-src/swoole_server.cc,"PHP_METHOD( swoole_server , heartbeat)",49, 84, 4, 0
+repos/cpp/swoole-src/swoole_server.cc,"PHP_METHOD( swoole_server , taskwait)",93, 104, 8, 0
+repos/cpp/swoole-src/swoole_server.cc,"PHP_METHOD( swoole_server , taskWaitMulti)",149, 107, 8, 0
+repos/cpp/swoole-src/swoole_server.cc,"PHP_METHOD( swoole_server , taskCo)",103, 100, 8, 0
+repos/cpp/swoole-src/swoole_server.cc,"PHP_METHOD( swoole_server , task)",62, 85, 4, 0
+repos/cpp/swoole-src/swoole_server.cc,"PHP_METHOD( swoole_server , sendMessage)",49, 128, 4, 0
+repos/cpp/swoole-src/swoole_server.cc,"PHP_METHOD( swoole_server , finish)",22, 155, 8, 0
+repos/cpp/swoole-src/swoole_server.cc,"PHP_METHOD( swoole_server_task , finish)",18, 78, 4, 0
+repos/cpp/swoole-src/swoole_server.cc,"PHP_METHOD( swoole_server , bind)",35, 76, 4, 0
+repos/cpp/swoole-src/swoole_server.cc,"PHP_METHOD( swoole_server , getSocket)",22, 94, 4, 0
+repos/cpp/swoole-src/swoole_server.cc,"PHP_METHOD( swoole_server , connection_info)",67, 125, 12, 0
+repos/cpp/swoole-src/swoole_server.cc,"PHP_METHOD( swoole_server , connection_list)",73, 106, 8, 0
+repos/cpp/swoole-src/swoole_server.cc,"PHP_METHOD( swoole_server , sendwait)",34, 78, 4, 0
+repos/cpp/swoole-src/swoole_server.cc,"PHP_METHOD( swoole_server , exists)",30, 69, 8, 0
+repos/cpp/swoole-src/swoole_server.cc,"PHP_METHOD( swoole_server , protect)",33, 79, 4, 0
+repos/cpp/swoole-src/swoole_server.cc,"PHP_METHOD( swoole_server , getReceivedTime)",17, 69, 8, 0
+repos/cpp/swoole-src/swoole_server.cc,"PHP_METHOD( swoole_server , shutdown)",19, 114, 8, 0
+repos/cpp/swoole-src/swoole_server.cc,"PHP_METHOD( swoole_server , stop)",39, 93, 4, 0
+repos/cpp/swoole-src/swoole_server.cc,"PHP_METHOD( swoole_connection_iterator , rewind)",6, 93, 4, 0
+repos/cpp/swoole-src/swoole_server.cc,"PHP_METHOD( swoole_connection_iterator , valid)",32, 117, 12, 0
+repos/cpp/swoole-src/swoole_server.cc,"PHP_METHOD( swoole_connection_iterator , current)",5, 93, 4, 0
+repos/cpp/swoole-src/swoole_server.cc,"PHP_METHOD( swoole_connection_iterator , next)",5, 93, 4, 0
+repos/cpp/swoole-src/swoole_server.cc,"PHP_METHOD( swoole_connection_iterator , key)",5, 93, 4, 0
+repos/cpp/swoole-src/swoole_server.cc,"PHP_METHOD( swoole_connection_iterator , count)",12, 85, 4, 0
+repos/cpp/swoole-src/swoole_server.cc,"PHP_METHOD( swoole_connection_iterator , offsetExists)",17, 101, 4, 0
+repos/cpp/swoole-src/swoole_server.cc,"PHP_METHOD( swoole_connection_iterator , offsetGet)",16, 110, 4, 0
+repos/cpp/swoole-src/swoole_server.cc,"PHP_METHOD( swoole_connection_iterator , offsetSet)",4, 57, 0, 0
+repos/cpp/swoole-src/swoole_server.cc,"PHP_METHOD( swoole_connection_iterator , offsetUnset)",4, 59, 0, 0
+repos/cpp/swoole-src/swoole_server.cc,"PHP_METHOD( swoole_connection_iterator , __destruct)",6, 85, 4, 0
+repos/cpp/swoole-src/swoole_runtime.cc,"swoole_runtime_init( int module_number)",18, 112, 4, 0
+repos/cpp/swoole-src/swoole_runtime.cc,"PHP_METHOD( swoole_runtime , enableStrictMode)",11, 63, 8, 0
+repos/cpp/swoole-src/swoole_runtime.cc,"parse_ip_address_ex( const char * str , size_t str_len , int * portno , int get_err , zend_string ** err)",48, 118, 0, 0
+repos/cpp/swoole-src/swoole_runtime.cc,"socket_write( php_stream * stream , const char * buf , size_t count)",21, 94, 4, 0
+repos/cpp/swoole-src/swoole_runtime.cc,"socket_read( php_stream * stream , char * buf , size_t count)",27, 134, 4, 0
+repos/cpp/swoole-src/swoole_runtime.cc,"socket_flush( php_stream * stream)",4, 44, 0, 0
+repos/cpp/swoole-src/swoole_runtime.cc,"socket_close( php_stream * stream , int close_handle)",13, 94, 4, 0
+repos/cpp/swoole-src/swoole_runtime.cc,"socket_cast( php_stream * stream , int castas , void ** ret)",32, 94, 4, 0
+repos/cpp/swoole-src/swoole_runtime.cc,"socket_stat( php_stream * stream , php_stream_statbuf * ssb)",10, 94, 4, 0
+repos/cpp/swoole-src/swoole_runtime.cc,"socket_connect( php_stream * stream , Socket * sock , php_stream_xport_param * xparam)",50, 124, 4, 0
+repos/cpp/swoole-src/swoole_runtime.cc,"socket_bind( php_stream * stream , Socket * sock , php_stream_xport_param * xparam STREAMS_DC)",24, 119, 8, 0
+repos/cpp/swoole-src/swoole_runtime.cc,"socket_accept( php_stream * stream , Socket * sock , php_stream_xport_param * xparam STREAMS_DC)",72, 118, 12, 0
+repos/cpp/swoole-src/swoole_runtime.cc,"php_ssl_cipher_get_version( const SSL_CIPHER * c , char * buffer , size_t max_len)",10, 91, 0, 0
+repos/cpp/swoole-src/swoole_runtime.cc,"socket_recvfrom( Socket * sock , char * buf , size_t buflen , zend_string ** textaddr , struct sockaddr ** addr , socklen_t * addrlen)",35, 122, 0, 0
+repos/cpp/swoole-src/swoole_runtime.cc,"socket_sendto( Socket * sock , const char * buf , size_t buflen , struct sockaddr * addr , socklen_t addrlen)",11, 120, 0, 0
+repos/cpp/swoole-src/swoole_runtime.cc,"socket_setup_crypto( php_stream * stream , Socket * sock , php_stream_xport_crypto_param * cparam STREAMS_DC)",4, 115, 0, 0
+repos/cpp/swoole-src/swoole_runtime.cc,"socket_enable_crypto( php_stream * stream , Socket * sock , php_stream_xport_crypto_param * cparam STREAMS_DC)",4, 116, 0, 0
+repos/cpp/swoole-src/swoole_runtime.cc,"socket_xport_api( php_stream * stream , Socket * sock , php_stream_xport_param * xparam STREAMS_DC)",131, 121, 8, 0
+repos/cpp/swoole-src/swoole_runtime.cc,"socket_set_option( php_stream * stream , int option , int value , void * ptrparam)",86, 128, 12, 0
+repos/cpp/swoole-src/swoole_runtime.cc,"php_socket_create( const char * proto , size_t protolen , const char * resourcename , size_t resourcenamelen , const char * persistent_id , int options , int flags , struct timeval * timeout , php_stream_context * context STREAMS_DC)",36, 129, 4, 0
+repos/cpp/swoole-src/swoole_runtime.cc,"socket_create( const char * proto , size_t protolen , const char * resourcename , size_t resourcenamelen , const char * persistent_id , int options , int flags , struct timeval * timeout , php_stream_context * context STREAMS_DC)",68, 142, 8, 0
+repos/cpp/swoole-src/swoole_runtime.cc,"PHPCoroutine::enable_hook( int flags)",95, 124, 8, 0
+repos/cpp/swoole-src/swoole_runtime.cc,"PHPCoroutine::disable_hook()",68, 113, 8, 0
+repos/cpp/swoole-src/swoole_runtime.cc,"PHP_METHOD( swoole_runtime , enableCoroutine)",27, 83, 4, 0
+repos/cpp/swoole-src/swoole_runtime.cc,"PHP_FUNCTION( _sleep)",22, 99, 8, 0
+repos/cpp/swoole-src/swoole_runtime.cc,"PHP_FUNCTION( _usleep)",23, 99, 8, 0
+repos/cpp/swoole-src/swoole_runtime.cc,"PHP_FUNCTION( _time_nanosleep)",45, 118, 12, 0
+repos/cpp/swoole-src/swoole_runtime.cc,"PHP_FUNCTION( _time_sleep_until)",52, 92, 8, 0
+repos/cpp/swoole-src/swoole_runtime.cc,"stream_array_to_fd_set( zval * stream_array , std :: unordered_map<int,socket_poll_fd> & fds , int event)",27, 112, 0, 0
+repos/cpp/swoole-src/swoole_runtime.cc,"stream_array_emulate_read_fd_set( zval * stream_array)",53, 115, 4, 0
+repos/cpp/swoole-src/swoole_runtime.cc,"PHP_FUNCTION( _stream_select)",128, 100, 12, 0
+repos/cpp/swoole-src/swoole_socket_coro.cc,"swoole_socket_coro_fetch_object( zend_object * obj)",4, 80, 0, 0
+repos/cpp/swoole-src/swoole_socket_coro.cc,"swoole_socket_coro_free_object( zend_object * object)",15, 81, 4, 0
+repos/cpp/swoole-src/swoole_socket_coro.cc,"swoole_socket_coro_create_object( zend_class_entry * ce)",11, 107, 4, 0
+repos/cpp/swoole-src/swoole_socket_coro.cc,"swoole_socket_coro_init( int module_number)",14, 157, 4, 0
+repos/cpp/swoole-src/swoole_socket_coro.cc,"swoole_socket_coro_sync_properties( zval * zobject , socket_coro * sock)",5, 112, 4, 0
+repos/cpp/swoole-src/swoole_socket_coro.cc,"php_swoole_init_socket( zval * zobject , socket_coro * sock)",4, 108, 4, 0
+repos/cpp/swoole-src/swoole_socket_coro.cc,"php_swoole_export_socket( zval * zobject , int fd , enum swSocket_type type)",20, 106, 8, 0
+repos/cpp/swoole-src/swoole_socket_coro.cc,"php_swoole_export_socket_ex( int fd , enum swSocket_type type)",5, 87, 4, 0
+repos/cpp/swoole-src/swoole_socket_coro.cc,"PHP_METHOD( swoole_socket_coro , __construct)",30, 93, 4, 0
+repos/cpp/swoole-src/swoole_socket_coro.cc,"PHP_METHOD( swoole_socket_coro , bind)",21, 68, 4, 0
+repos/cpp/swoole-src/swoole_socket_coro.cc,"PHP_METHOD( swoole_socket_coro , listen)",18, 61, 8, 0
+repos/cpp/swoole-src/swoole_socket_coro.cc,"PHP_METHOD( swoole_socket_coro , accept)",27, 92, 8, 0
+repos/cpp/swoole-src/swoole_socket_coro.cc,"PHP_METHOD( swoole_socket_coro , connect)",37, 99, 12, 0
+repos/cpp/swoole-src/swoole_socket_coro.cc,"swoole_socket_coro_recv( INTERNAL_FUNCTION_PARAMETERS , bool all)",39, 117, 4, 0
+repos/cpp/swoole-src/swoole_socket_coro.cc,"PHP_METHOD( swoole_socket_coro , recv)",4, 70, 4, 0
+repos/cpp/swoole-src/swoole_socket_coro.cc,"PHP_METHOD( swoole_socket_coro , recvAll)",4, 69, 4, 0
+repos/cpp/swoole-src/swoole_socket_coro.cc,"swoole_socket_coro_send( INTERNAL_FUNCTION_PARAMETERS , const bool all)",26, 100, 4, 0
+repos/cpp/swoole-src/swoole_socket_coro.cc,"PHP_METHOD( swoole_socket_coro , send)",4, 70, 4, 0
+repos/cpp/swoole-src/swoole_socket_coro.cc,"PHP_METHOD( swoole_socket_coro , sendAll)",4, 69, 4, 0
+repos/cpp/swoole-src/swoole_socket_coro.cc,"PHP_METHOD( swoole_socket_coro , recvfrom)",51, 94, 12, 0
+repos/cpp/swoole-src/swoole_socket_coro.cc,"PHP_METHOD( swoole_socket_coro , sendto)",27, 69, 4, 0
+repos/cpp/swoole-src/swoole_socket_coro.cc,"PHP_METHOD( swoole_socket_coro , shutdown)",18, 61, 8, 0
+repos/cpp/swoole-src/swoole_socket_coro.cc,"PHP_METHOD( swoole_socket_coro , close)",13, 114, 8, 0
+repos/cpp/swoole-src/swoole_socket_coro.cc,"PHP_METHOD( swoole_socket_coro , getsockname)",40, 135, 8, 0
+repos/cpp/swoole-src/swoole_socket_coro.cc,"PHP_METHOD( swoole_socket_coro , getpeername)",38, 135, 8, 0
+repos/cpp/swoole-src/swoole_socket_coro.cc,"PHP_METHOD( swoole_socket_coro , getSocket)",19, 95, 4, 0
+repos/cpp/swoole-src/swoole_coroutine_util.cc,"coro_exit_handler( zend_execute_data * execute_data)",59, 103, 16, 0
+repos/cpp/swoole-src/swoole_coroutine_util.cc,"swoole_coroutine_util_init( int module_number)",39, 165, 4, 0
+repos/cpp/swoole-src/swoole_coroutine_util.cc,"PHP_METHOD( swoole_exit_exception , getFlags)",4, 106, 4, 0
+repos/cpp/swoole-src/swoole_coroutine_util.cc,"PHP_METHOD( swoole_exit_exception , getStatus)",4, 103, 4, 0
+repos/cpp/swoole-src/swoole_coroutine_util.cc,"PHP_METHOD( swoole_coroutine_util , exists)",10, 56, 4, 0
+repos/cpp/swoole-src/swoole_coroutine_util.cc,"PHP_METHOD( swoole_coroutine_util , yield)",7, 51, 4, 0
+repos/cpp/swoole-src/swoole_coroutine_util.cc,"PHP_METHOD( swoole_coroutine_util , set)",62, 112, 4, 0
+repos/cpp/swoole-src/swoole_coroutine_util.cc,"PHP_FUNCTION( swoole_clear_dns_cache)",4, 37, 0, 0
+repos/cpp/swoole-src/swoole_coroutine_util.cc,"PHP_FUNCTION( swoole_coroutine_create)",30, 128, 8, 0
+repos/cpp/swoole-src/swoole_coroutine_util.cc,"PHP_METHOD( swoole_coroutine_util , resume)",20, 105, 8, 0
+repos/cpp/swoole-src/swoole_coroutine_util.cc,"PHP_METHOD( swoole_coroutine_util , stats)",14, 118, 8, 0
+repos/cpp/swoole-src/swoole_coroutine_util.cc,"PHP_METHOD( swoole_coroutine_util , getCid)",4, 49, 0, 0
+repos/cpp/swoole-src/swoole_coroutine_util.cc,"PHP_METHOD( swoole_coroutine_util , getPcid)",4, 50, 0, 0
+repos/cpp/swoole-src/swoole_coroutine_util.cc,"PHP_METHOD( swoole_coroutine_util , getContext)",22, 132, 4, 0
+repos/cpp/swoole-src/swoole_coroutine_util.cc,"php_coroutine_reactor_can_exit( swReactor * reactor)",4, 55, 0, 0
+repos/cpp/swoole-src/swoole_coroutine_util.cc,"PHP_METHOD( swoole_coroutine_util , sleep)",16, 75, 8, 0
+repos/cpp/swoole-src/swoole_coroutine_util.cc,"aio_onReadCompleted( swAio_event * event)",26, 68, 4, 0
+repos/cpp/swoole-src/swoole_coroutine_util.cc,"aio_onFgetsCompleted( swAio_event * event)",32, 68, 4, 0
+repos/cpp/swoole-src/swoole_coroutine_util.cc,"aio_onWriteCompleted( swAio_event * event)",24, 68, 4, 0
+repos/cpp/swoole-src/swoole_coroutine_util.cc,"co_socket_onReadable( swReactor * reactor , swEvent * event)",42, 68, 0, 0
+repos/cpp/swoole-src/swoole_coroutine_util.cc,"co_socket_onWritable( swReactor * reactor , swEvent * event)",34, 68, 0, 0
+repos/cpp/swoole-src/swoole_coroutine_util.cc,"co_socket_read( int fd , zend_long length , INTERNAL_FUNCTION_PARAMETERS)",28, 125, 8, 0
+repos/cpp/swoole-src/swoole_coroutine_util.cc,"co_socket_write( int fd , char * str , size_t l_str , INTERNAL_FUNCTION_PARAMETERS)",36, 112, 4, 0
+repos/cpp/swoole-src/swoole_coroutine_util.cc,"PHP_METHOD( swoole_coroutine_util , fread)",84, 88, 4, 0
+repos/cpp/swoole-src/swoole_coroutine_util.cc,"PHP_METHOD( swoole_coroutine_util , fgets)",79, 103, 8, 0
+repos/cpp/swoole-src/swoole_coroutine_util.cc,"PHP_METHOD( swoole_coroutine_util , fwrite)",73, 127, 8, 0
+repos/cpp/swoole-src/swoole_coroutine_util.cc,"PHP_METHOD( swoole_coroutine_util , readFile)",23, 72, 4, 0
+repos/cpp/swoole-src/swoole_coroutine_util.cc,"PHP_METHOD( swoole_coroutine_util , writeFile)",35, 93, 4, 0
+repos/cpp/swoole-src/swoole_coroutine_util.cc,"coro_dns_onGetaddrinfoCompleted( swAio_event * event)",58, 109, 16, 0
+repos/cpp/swoole-src/swoole_coroutine_util.cc,"PHP_FUNCTION( swoole_coroutine_gethostbyname)",34, 116, 4, 0
+repos/cpp/swoole-src/swoole_coroutine_util.cc,"PHP_METHOD( swoole_coroutine_util , getaddrinfo)",70, 112, 4, 0
+repos/cpp/swoole-src/swoole_coroutine_util.cc,"PHP_METHOD( swoole_coroutine_util , getBackTrace)",30, 84, 8, 0
+repos/cpp/swoole-src/swoole_coroutine_util.cc,"PHP_METHOD( swoole_coroutine_iterator , rewind)",6, 89, 4, 0
+repos/cpp/swoole-src/swoole_coroutine_util.cc,"PHP_METHOD( swoole_coroutine_iterator , valid)",5, 89, 4, 0
+repos/cpp/swoole-src/swoole_coroutine_util.cc,"PHP_METHOD( swoole_coroutine_iterator , current)",6, 89, 4, 0
+repos/cpp/swoole-src/swoole_coroutine_util.cc,"PHP_METHOD( swoole_coroutine_iterator , next)",6, 89, 4, 0
+repos/cpp/swoole-src/swoole_coroutine_util.cc,"PHP_METHOD( swoole_coroutine_iterator , key)",5, 89, 4, 0
+repos/cpp/swoole-src/swoole_coroutine_util.cc,"PHP_METHOD( swoole_coroutine_iterator , count)",4, 52, 0, 0
+repos/cpp/swoole-src/swoole_coroutine_util.cc,"PHP_METHOD( swoole_coroutine_iterator , __destruct)",6, 89, 4, 0
+repos/cpp/swoole-src/swoole_coroutine_util.cc,"PHP_METHOD( swoole_coroutine_util , list)",7, 96, 4, 0
+repos/cpp/swoole-src/swoole_coroutine_util.cc,"PHP_METHOD( swoole_coroutine_util , statvfs)",25, 62, 4, 0
+repos/cpp/swoole-src/swoole_coroutine_util.cc,"PHP_FUNCTION( swoole_coroutine_exec)",83, 114, 8, 0
+repos/cpp/swoole-src/swoole_coroutine_util.cc,"PHP_FUNCTION( swoole_coroutine_defer)",17, 68, 4, 0
+repos/cpp/swoole-src/swoole_http_client_coro.cc,"http_parser_on_header_field( swoole_http_parser * parser , const char * at , size_t length)",7, 98, 0, 0
+repos/cpp/swoole-src/swoole_http_client_coro.cc,"http_parser_on_header_value( swoole_http_parser * parser , const char * at , size_t length)",38, 144, 4, 0
+repos/cpp/swoole-src/swoole_http_client_coro.cc,"http_parser_on_headers_complete( swoole_http_parser * parser)",15, 83, 4, 0
+repos/cpp/swoole-src/swoole_http_client_coro.cc,"http_parser_on_body( swoole_http_parser * parser , const char * at , size_t length)",33, 134, 12, 0
+repos/cpp/swoole-src/swoole_http_client_coro.cc,"http_parser_on_message_complete( swoole_http_parser * parser)",36, 129, 8, 0
+repos/cpp/swoole-src/swoole_http_client_coro.cc,"http_client::http_client( zval * zobject , std :: string host , zend_long port , zend_bool ssl)",24, 89, 0, 0
+repos/cpp/swoole-src/swoole_http_client_coro.cc,"http_client::init_gzip()",19, 61, 12, 0
+repos/cpp/swoole-src/swoole_http_client_coro.cc,"http_client::init_compression( http_compress_method method)",26, 64, 0, 0
+repos/cpp/swoole-src/swoole_http_client_coro.cc,"http_client::uncompress_response()",45, 83, 8, 0
+repos/cpp/swoole-src/swoole_http_client_coro.cc,"http_client::check_bind()",7, 74, 8, 0
+repos/cpp/swoole-src/swoole_http_client_coro.cc,"http_client::set( zval * zset = nullptr)",38, 151, 8, 0
+repos/cpp/swoole-src/swoole_http_client_coro.cc,"http_client::connect()",45, 141, 12, 0
+repos/cpp/swoole-src/swoole_http_client_coro.cc,"http_client::keep_liveness()",22, 139, 12, 0
+repos/cpp/swoole-src/swoole_http_client_coro.cc,"http_client::send()",507, 163, 16, 0
+repos/cpp/swoole-src/swoole_http_client_coro.cc,"http_client::exec( std :: string uri)",14, 40, 0, 0
+repos/cpp/swoole-src/swoole_http_client_coro.cc,"http_client::recv( double timeout)",47, 145, 8, 0
+repos/cpp/swoole-src/swoole_http_client_coro.cc,"http_client::recv( zval * zframe , double timeout)",33, 145, 8, 0
+repos/cpp/swoole-src/swoole_http_client_coro.cc,"http_client::recv_http_response( double timeout)",55, 162, 8, 0
+repos/cpp/swoole-src/swoole_http_client_coro.cc,"http_client::upgrade( std :: string uri)",17, 141, 8, 0
+repos/cpp/swoole-src/swoole_http_client_coro.cc,"http_client::push( zval * zdata , zend_long opcode , bool fin)",39, 151, 8, 0
+repos/cpp/swoole-src/swoole_http_client_coro.cc,"http_client::reset()",24, 108, 8, 0
+repos/cpp/swoole-src/swoole_http_client_coro.cc,"http_client::close()",18, 103, 8, 0
+repos/cpp/swoole-src/swoole_http_client_coro.cc,"http_client::~http_client()",15, 37, 8, 0
+repos/cpp/swoole-src/swoole_http_client_coro.cc,"swoole_http_client_coro_fetch_object( zend_object * obj)",4, 90, 0, 0
+repos/cpp/swoole-src/swoole_http_client_coro.cc,"swoole_get_phc( zval * zobject)",9, 89, 8, 0
+repos/cpp/swoole-src/swoole_http_client_coro.cc,"swoole_http_client_coro_free_object( zend_object * object)",10, 76, 4, 0
+repos/cpp/swoole-src/swoole_http_client_coro.cc,"swoole_http_client_coro_create_object( zend_class_entry * ce)",8, 123, 4, 0
+repos/cpp/swoole-src/swoole_http_client_coro.cc,"swoole_http_client_coro_init( int module_number)",55, 174, 4, 0
+repos/cpp/swoole-src/swoole_http_client_coro.cc,"PHP_METHOD( swoole_http_client_coro , __construct)",37, 112, 4, 0
+repos/cpp/swoole-src/swoole_http_client_coro.cc,"PHP_METHOD( swoole_http_client_coro , __destruct)",1, 59, 0, 0
+repos/cpp/swoole-src/swoole_http_client_coro.cc,"PHP_METHOD( swoole_http_client_coro , set)",13, 50, 4, 0
+repos/cpp/swoole-src/swoole_http_client_coro.cc,"PHP_METHOD( swoole_http_client_coro , getDefer)",6, 53, 0, 0
+repos/cpp/swoole-src/swoole_http_client_coro.cc,"PHP_METHOD( swoole_http_client_coro , setDefer)",14, 53, 0, 0
+repos/cpp/swoole-src/swoole_http_client_coro.cc,"PHP_METHOD( swoole_http_client_coro , setMethod)",12, 105, 4, 0
+repos/cpp/swoole-src/swoole_http_client_coro.cc,"PHP_METHOD( swoole_http_client_coro , setHeaders)",12, 107, 4, 0
+repos/cpp/swoole-src/swoole_http_client_coro.cc,"PHP_METHOD( swoole_http_client_coro , setCookies)",12, 100, 4, 0
+repos/cpp/swoole-src/swoole_http_client_coro.cc,"PHP_METHOD( swoole_http_client_coro , setData)",13, 119, 4, 0
+repos/cpp/swoole-src/swoole_http_client_coro.cc,"PHP_METHOD( swoole_http_client_coro , addFile)",88, 127, 4, 0
+repos/cpp/swoole-src/swoole_http_client_coro.cc,"PHP_METHOD( swoole_http_client_coro , addData)",41, 127, 4, 0
+repos/cpp/swoole-src/swoole_http_client_coro.cc,"PHP_METHOD( swoole_http_client_coro , execute)",12, 55, 4, 0
+repos/cpp/swoole-src/swoole_http_client_coro.cc,"PHP_METHOD( swoole_http_client_coro , get)",14, 111, 4, 0
+repos/cpp/swoole-src/swoole_http_client_coro.cc,"PHP_METHOD( swoole_http_client_coro , post)",17, 112, 4, 0
+repos/cpp/swoole-src/swoole_http_client_coro.cc,"PHP_METHOD( swoole_http_client_coro , download)",20, 111, 4, 0
+repos/cpp/swoole-src/swoole_http_client_coro.cc,"PHP_METHOD( swoole_http_client_coro , upgrade)",12, 58, 4, 0
+repos/cpp/swoole-src/swoole_http_client_coro.cc,"PHP_METHOD( swoole_http_client_coro , push)",16, 50, 4, 0
+repos/cpp/swoole-src/swoole_http_client_coro.cc,"PHP_METHOD( swoole_http_client_coro , recv)",20, 50, 4, 0
+repos/cpp/swoole-src/swoole_http_client_coro.cc,"PHP_METHOD( swoole_http_client_coro , close)",6, 50, 0, 0
+repos/cpp/swoole-src/swoole_client.cc,"client_execute_callback( zval * zobject , enum php_swoole_client_callback_type type)",63, 104, 0, 0
+repos/cpp/swoole-src/swoole_client.cc,"client_get_ptr( zval * zobject)",15, 103, 8, 0
+repos/cpp/swoole-src/swoole_client.cc,"swoole_client_init( int module_number)",36, 108, 4, 0
+repos/cpp/swoole-src/swoole_client.cc,"client_onReceive( swClient * cli , char * data , uint32_t length)",33, 105, 8, 0
+repos/cpp/swoole-src/swoole_client.cc,"client_onConnect( swClient * cli)",23, 86, 12, 0
+repos/cpp/swoole-src/swoole_client.cc,"client_onClose( swClient * cli)",7, 60, 4, 0
+repos/cpp/swoole-src/swoole_client.cc,"client_onError( swClient * cli)",8, 99, 4, 0
+repos/cpp/swoole-src/swoole_client.cc,"client_onBufferFull( swClient * cli)",5, 65, 4, 0
+repos/cpp/swoole-src/swoole_client.cc,"client_onBufferEmpty( swClient * cli)",5, 66, 4, 0
+repos/cpp/swoole-src/swoole_client.cc,"php_swoole_client_check_ssl_setting( swClient * cli , zval * zset)",73, 87, 12, 0
+repos/cpp/swoole-src/swoole_client.cc,"php_swoole_client_check_setting( swClient * cli , zval * zset)",262, 160, 12, 0
+repos/cpp/swoole-src/swoole_client.cc,"php_swoole_client_free( zval * zobject , swClient * cli)",76, 85, 16, 0
+repos/cpp/swoole-src/swoole_client.cc,"php_swoole_client_new( zval * zobject , char * host , int host_len , int port)",103, 115, 12, 0
+repos/cpp/swoole-src/swoole_client.cc,"PHP_METHOD( swoole_client , __construct)",47, 142, 8, 0
+repos/cpp/swoole-src/swoole_client.cc,"PHP_METHOD( swoole_client , __destruct)",24, 104, 4, 0
+repos/cpp/swoole-src/swoole_client.cc,"PHP_METHOD( swoole_client , set)",17, 108, 4, 0
+repos/cpp/swoole-src/swoole_client.cc,"PHP_METHOD( swoole_client , connect)",163, 112, 16, 0
+repos/cpp/swoole-src/swoole_client.cc,"PHP_METHOD( swoole_client , send)",38, 105, 8, 0
+repos/cpp/swoole-src/swoole_client.cc,"PHP_METHOD( swoole_client , sendto)",47, 100, 4, 0
+repos/cpp/swoole-src/swoole_client.cc,"PHP_METHOD( swoole_client , sendfile)",43, 120, 8, 0
+repos/cpp/swoole-src/swoole_client.cc,"PHP_METHOD( swoole_client , recv)",226, 137, 12, 0
+repos/cpp/swoole-src/swoole_client.cc,"PHP_METHOD( swoole_client , isConnected)",13, 63, 4, 0
+repos/cpp/swoole-src/swoole_client.cc,"PHP_METHOD( swoole_client , getsockname)",41, 110, 4, 0
+repos/cpp/swoole-src/swoole_client.cc,"PHP_METHOD( swoole_client , getSocket)",27, 109, 8, 0
+repos/cpp/swoole-src/swoole_client.cc,"PHP_METHOD( swoole_client , getpeername)",35, 99, 8, 0
+repos/cpp/swoole-src/swoole_client.cc,"PHP_METHOD( swoole_client , close)",60, 85, 8, 0
+repos/cpp/swoole-src/swoole_client.cc,"PHP_METHOD( swoole_client , on)",78, 104, 4, 0
+repos/cpp/swoole-src/swoole_client.cc,"PHP_METHOD( swoole_client , sleep)",9, 47, 4, 0
+repos/cpp/swoole-src/swoole_client.cc,"PHP_METHOD( swoole_client , wakeup)",9, 47, 4, 0
+repos/cpp/swoole-src/swoole_client.cc,"PHP_METHOD( swoole_client , enableSSL)",66, 112, 8, 0
+repos/cpp/swoole-src/swoole_client.cc,"PHP_METHOD( swoole_client , getPeerCert)",20, 78, 4, 0
+repos/cpp/swoole-src/swoole_client.cc,"PHP_METHOD( swoole_client , verifyPeerCert)",19, 85, 4, 0
+repos/cpp/swoole-src/swoole_client.cc,"PHP_METHOD( swoole_client , pipe)",37, 79, 4, 0
+repos/cpp/swoole-src/swoole_client.cc,"PHP_METHOD( swoole_client , shutdown)",14, 72, 4, 0
+repos/cpp/swoole-src/swoole_client.cc,"PHP_FUNCTION( swoole_client_select)",114, 111, 4, 0
+repos/cpp/swoole-src/swoole_client.cc,"client_poll_get( struct pollfd * fds , int maxevents , int fd)",12, 77, 0, 0
+repos/cpp/swoole-src/swoole_client.cc,"client_poll_wait( zval * sock_array , struct pollfd * fds , int maxevents , int n_event , int revent)",54, 106, 0, 0
+repos/cpp/swoole-src/swoole_client.cc,"client_poll_add( zval * sock_array , int index , struct pollfd * fds , int maxevents , int event)",36, 102, 0, 0
+repos/cpp/swoole-src/swoole_client.cc,"client_select_wait( zval * sock_array , fd_set * fds)",47, 94, 16, 0
+repos/cpp/swoole-src/swoole_client.cc,"client_select_add( zval * sock_array , fd_set * fds , int * max_fd)",35, 97, 12, 0
+repos/cpp/swoole-src/swoole_process_pool.cc,"swoole_process_pool_init( int module_number)",7, 133, 4, 0
+repos/cpp/swoole-src/swoole_process_pool.cc,"php_swoole_process_pool_onWorkerStart( swProcessPool * pool , int worker_id)",37, 117, 4, 0
+repos/cpp/swoole-src/swoole_process_pool.cc,"php_swoole_process_pool_onMessage( swProcessPool * pool , char * data , uint32_t length)",25, 114, 4, 0
+repos/cpp/swoole-src/swoole_process_pool.cc,"php_swoole_process_pool_onWorkerStop( swProcessPool * pool , int worker_id)",27, 116, 4, 0
+repos/cpp/swoole-src/swoole_process_pool.cc,"php_swoole_process_pool_signal_handler( int sig)",16, 60, 0, 0
+repos/cpp/swoole-src/swoole_process_pool.cc,"PHP_METHOD( swoole_process_pool , __construct)",53, 108, 4, 0
+repos/cpp/swoole-src/swoole_process_pool.cc,"PHP_METHOD( swoole_process_pool , on)",70, 115, 8, 0
+repos/cpp/swoole-src/swoole_process_pool.cc,"PHP_METHOD( swoole_process_pool , listen)",39, 100, 4, 0
+repos/cpp/swoole-src/swoole_process_pool.cc,"PHP_METHOD( swoole_process_pool , write)",22, 88, 8, 0
+repos/cpp/swoole-src/swoole_process_pool.cc,"PHP_METHOD( swoole_process_pool , start)",48, 117, 8, 0
+repos/cpp/swoole-src/swoole_process_pool.cc,"PHP_METHOD( swoole_process_pool , getProcess)",25, 97, 8, 0
+repos/cpp/swoole-src/swoole_process_pool.cc,"PHP_METHOD( swoole_process_pool , __destruct)",25, 93, 4, 0
+repos/cpp/swoole-src/swoole_http_v2_server.cc,"http2_stream::http2_stream( int _fd , uint32_t _stream_id)",8, 52, 8, 0
+repos/cpp/swoole-src/swoole_http_v2_server.cc,"http2_stream::~http2_stream()",4, 39, 8, 0
+repos/cpp/swoole-src/swoole_http_v2_server.cc,"http2_session::http2_session( int _fd)",10, 70, 8, 0
+repos/cpp/swoole-src/swoole_http_v2_server.cc,"http2_session::~http2_session()",16, 116, 8, 0
+repos/cpp/swoole-src/swoole_http_v2_server.cc,"http2_add_header( nghttp2_nv * headers , const char * k , int kl , const char * v , int vl)",7, 106, 0, 0
+repos/cpp/swoole-src/swoole_http_v2_server.cc,"http_build_trailer( http_context * ctx , uchar * buffer)",67, 141, 12, 0
+repos/cpp/swoole-src/swoole_http_v2_server.cc,"http2_onRequest( http_context * ctx , int from_fd)",33, 111, 4, 0
+repos/cpp/swoole-src/swoole_http_v2_server.cc,"http2_build_header( http_context * ctx , uchar * buffer , size_t body_length)",157, 137, 8, 0
+repos/cpp/swoole-src/swoole_http_v2_server.cc,"swoole_http2_do_response( http_context * ctx , swString * body)",150, 149, 8, 0
+repos/cpp/swoole-src/swoole_http_v2_server.cc,"http2_parse_header( http2_session * client , http_context * ctx , int flags , char * in , size_t inlen)",154, 126, 12, 0
+repos/cpp/swoole-src/swoole_http_v2_server.cc,"http2_server_send_window_update( int fd , int stream_id , uint32_t size)",9, 117, 4, 0
+repos/cpp/swoole-src/swoole_http_v2_server.cc,"swoole_http2_onFrame( swConnection * conn , swEventData * req)",244, 166, 8, 0
+repos/cpp/swoole-src/swoole_http_v2_server.cc,"swoole_http2_free( swConnection * conn)",11, 67, 4, 0
+repos/cpp/swoole-src/swoole_server_port.cc,"swoole_server_port_init( int module_number)",26, 129, 4, 0
+repos/cpp/swoole-src/swoole_server_port.cc,"PHP_METHOD( swoole_server_port , __construct)",5, 85, 4, 0
+repos/cpp/swoole-src/swoole_server_port.cc,"PHP_METHOD( swoole_server_port , __destruct)",20, 111, 4, 0
+repos/cpp/swoole-src/swoole_server_port.cc,"PHP_METHOD( swoole_server_port , set)",384, 130, 16, 0
+repos/cpp/swoole-src/swoole_server_port.cc,"PHP_METHOD( swoole_server_port , on)",99, 129, 8, 0
+repos/cpp/swoole-src/swoole_server_port.cc,"PHP_METHOD( swoole_server_port , getSocket)",12, 94, 4, 0
+repos/cpp/swoole-src/swoole_postgresql_coro.cc,"swoole_postgresql_coro_init( int module_number)",14, 142, 4, 0
+repos/cpp/swoole-src/swoole_postgresql_coro.cc,"PHP_METHOD( swoole_postgresql_coro , __construct)",7, 62, 4, 0
+repos/cpp/swoole-src/swoole_postgresql_coro.cc,"PHP_METHOD( swoole_postgresql_coro , connect)",69, 133, 8, 0
+repos/cpp/swoole-src/swoole_postgresql_coro.cc,"swoole_pgsql_coro_onTimeout( swTimer * timer , swTimer_node * tnode)",51, 108, 8, 0
+repos/cpp/swoole-src/swoole_postgresql_coro.cc,"swoole_pgsql_coro_onWrite( swReactor * reactor , swEvent * event)",85, 113, 16, 0
+repos/cpp/swoole-src/swoole_postgresql_coro.cc,"swoole_pgsql_coro_onRead( swReactor * reactor , swEvent * event)",25, 72, 0, 0
+repos/cpp/swoole-src/swoole_postgresql_coro.cc,"meta_data_result_parse( pg_object * object)",63, 115, 12, 0
+repos/cpp/swoole-src/swoole_postgresql_coro.cc,"query_result_parse( pg_object * object)",59, 133, 16, 0
+repos/cpp/swoole-src/swoole_postgresql_coro.cc,"prepare_result_parse( pg_object * object)",26, 125, 8, 0
+repos/cpp/swoole-src/swoole_postgresql_coro.cc,"PHP_METHOD( swoole_postgresql_coro , query)",39, 147, 12, 0
+repos/cpp/swoole-src/swoole_postgresql_coro.cc,"PHP_METHOD( swoole_postgresql_coro , prepare)",55, 147, 12, 0
+repos/cpp/swoole-src/swoole_postgresql_coro.cc,"PHP_METHOD( swoole_postgresql_coro , execute)",91, 147, 12, 0
+repos/cpp/swoole-src/swoole_postgresql_coro.cc,"_php_pgsql_free_params( char ** params , int num_params)",12, 66, 0, 0
+repos/cpp/swoole-src/swoole_postgresql_coro.cc,"swoole_pgsql_result2array( PGresult * pg_result , zval * ret_array , long result_type)",51, 86, 0, 0
+repos/cpp/swoole-src/swoole_postgresql_coro.cc,"PHP_METHOD( swoole_postgresql_coro , fetchAll)",26, 110, 4, 0
+repos/cpp/swoole-src/swoole_postgresql_coro.cc,"PHP_METHOD( swoole_postgresql_coro , affectedRows)",18, 110, 4, 0
+repos/cpp/swoole-src/swoole_postgresql_coro.cc,"PHP_METHOD( swoole_postgresql_coro , numRows)",18, 110, 4, 0
+repos/cpp/swoole-src/swoole_postgresql_coro.cc,"PHP_METHOD( swoole_postgresql_coro , metaData)",112, 155, 16, 0
+repos/cpp/swoole-src/swoole_postgresql_coro.cc,"php_pgsql_fetch_hash( INTERNAL_FUNCTION_PARAMETERS , zend_long result_type , int into_object)",196, 162, 16, 0
+repos/cpp/swoole-src/swoole_postgresql_coro.cc,"PHP_METHOD( swoole_postgresql_coro , fetchRow)",4, 74, 4, 0
+repos/cpp/swoole-src/swoole_postgresql_coro.cc,"PHP_METHOD( swoole_postgresql_coro , fetchAssoc)",8, 77, 4, 0
+repos/cpp/swoole-src/swoole_postgresql_coro.cc,"PHP_METHOD( swoole_postgresql_coro , fetchArray)",4, 75, 4, 0
+repos/cpp/swoole-src/swoole_postgresql_coro.cc,"PHP_METHOD( swoole_postgresql_coro , fetchObject)",6, 76, 4, 0
+repos/cpp/swoole-src/swoole_postgresql_coro.cc,"_free_result( zend_resource * rsrc)",6, 51, 4, 0
+repos/cpp/swoole-src/swoole_postgresql_coro.cc,"swoole_pgsql_coro_onError( swReactor * reactor , swEvent * event)",22, 96, 4, 0
+repos/cpp/swoole-src/swoole_postgresql_coro.cc,"PHP_METHOD( swoole_postgresql_coro , __destruct)",6, 54, 0, 0
+repos/cpp/swoole-src/swoole_postgresql_coro.cc,"swoole_postgresql_coro_close( zval * zobject)",34, 95, 8, 0
+repos/cpp/swoole-src/swoole_redis_coro.cc,"swoole_get_redis_client( zval * zobject)",9, 83, 8, 0
+repos/cpp/swoole-src/swoole_redis_coro.cc,"swoole_redis_coro_get_socket( redisContext * context)",9, 79, 8, 0
+repos/cpp/swoole-src/swoole_redis_coro.cc,"sw_redis_convert_err( int err)",24, 51, 0, 0
+repos/cpp/swoole-src/swoole_redis_coro.cc,"swoole_redis_coro_close( swRedisClient * redis)",20, 104, 8, 0
+repos/cpp/swoole-src/swoole_redis_coro.cc,"swoole_redis_coro_connect( swRedisClient * redis)",119, 134, 8, 0
+repos/cpp/swoole-src/swoole_redis_coro.cc,"swoole_redis_coro_keep_liveness( swRedisClient * redis)",26, 132, 8, 0
+repos/cpp/swoole-src/swoole_redis_coro.cc,"redis_auth( swRedisClient * redis , char * pw , size_t pw_len)",18, 70, 0, 0
+repos/cpp/swoole-src/swoole_redis_coro.cc,"redis_select_db( swRedisClient * redis , long db_number)",20, 66, 0, 0
+repos/cpp/swoole-src/swoole_redis_coro.cc,"redis_request( swRedisClient * redis , int argc , char ** argv , size_t * argvlen , zval * return_value , bool retry)",77, 150, 16, 0
+repos/cpp/swoole-src/swoole_redis_coro.cc,"sw_redis_command_empty( INTERNAL_FUNCTION_PARAMETERS , const char * cmd , int cmd_len)",9, 105, 0, 0
+repos/cpp/swoole-src/swoole_redis_coro.cc,"sw_redis_command_var_key( INTERNAL_FUNCTION_PARAMETERS , const char * cmd , int cmd_len , int min_argc , int has_timeout)",75, 145, 12, 0
+repos/cpp/swoole-src/swoole_redis_coro.cc,"sw_redis_command_key( INTERNAL_FUNCTION_PARAMETERS , const char * cmd , int cmd_len)",17, 100, 0, 0
+repos/cpp/swoole-src/swoole_redis_coro.cc,"sw_redis_command_key_var_val( INTERNAL_FUNCTION_PARAMETERS , const char * cmd , int cmd_len)",31, 111, 0, 0
+repos/cpp/swoole-src/swoole_redis_coro.cc,"sw_redis_command_key_long_val( INTERNAL_FUNCTION_PARAMETERS , const char * cmd , int cmd_len)",23, 112, 0, 0
+repos/cpp/swoole-src/swoole_redis_coro.cc,"sw_redis_command_key_long_str( INTERNAL_FUNCTION_PARAMETERS , const char * cmd , int cmd_len)",22, 112, 0, 0
+repos/cpp/swoole-src/swoole_redis_coro.cc,"sw_redis_command_key_long( INTERNAL_FUNCTION_PARAMETERS , const char * cmd , int cmd_len)",21, 108, 0, 0
+repos/cpp/swoole-src/swoole_redis_coro.cc,"sw_redis_command_key_long_long( INTERNAL_FUNCTION_PARAMETERS , const char * cmd , int cmd_len)",23, 113, 0, 0
+repos/cpp/swoole-src/swoole_redis_coro.cc,"sw_redis_command_key_dbl( INTERNAL_FUNCTION_PARAMETERS , const char * cmd , int cmd_len)",21, 107, 0, 0
+repos/cpp/swoole-src/swoole_redis_coro.cc,"sw_redis_command_key_key( INTERNAL_FUNCTION_PARAMETERS , const char * cmd , int cmd_len)",18, 107, 0, 0
+repos/cpp/swoole-src/swoole_redis_coro.cc,"sw_redis_command_key_val( INTERNAL_FUNCTION_PARAMETERS , const char * cmd , int cmd_len)",18, 107, 0, 0
+repos/cpp/swoole-src/swoole_redis_coro.cc,"sw_redis_command_key_str( INTERNAL_FUNCTION_PARAMETERS , const char * cmd , int cmd_len)",17, 107, 0, 0
+repos/cpp/swoole-src/swoole_redis_coro.cc,"sw_redis_command_key_str_str( INTERNAL_FUNCTION_PARAMETERS , const char * cmd , int cmd_len)",18, 118, 4, 0
+repos/cpp/swoole-src/swoole_redis_coro.cc,"swoole_redis_coro_init( int module_number)",35, 122, 4, 0
+repos/cpp/swoole-src/swoole_redis_coro.cc,"swoole_redis_coro_set_options( swRedisClient * redis , zval * zoptions , bool backward_compatibility = false)",45, 118, 4, 0
+repos/cpp/swoole-src/swoole_redis_coro.cc,"PHP_METHOD( swoole_redis_coro , __construct)",43, 113, 4, 0
+repos/cpp/swoole-src/swoole_redis_coro.cc,"PHP_METHOD( swoole_redis_coro , connect)",33, 104, 4, 0
+repos/cpp/swoole-src/swoole_redis_coro.cc,"PHP_METHOD( swoole_redis_coro , getAuth)",14, 112, 8, 0
+repos/cpp/swoole-src/swoole_redis_coro.cc,"PHP_METHOD( swoole_redis_coro , getDBNum)",9, 63, 4, 0
+repos/cpp/swoole-src/swoole_redis_coro.cc,"PHP_METHOD( swoole_redis_coro , getOptions)",4, 114, 4, 0
+repos/cpp/swoole-src/swoole_redis_coro.cc,"PHP_METHOD( swoole_redis_coro , setOptions)",13, 63, 4, 0
+repos/cpp/swoole-src/swoole_redis_coro.cc,"PHP_METHOD( swoole_redis_coro , getDefer)",6, 63, 4, 0
+repos/cpp/swoole-src/swoole_redis_coro.cc,"PHP_METHOD( swoole_redis_coro , setDefer)",18, 90, 8, 0
+repos/cpp/swoole-src/swoole_redis_coro.cc,"PHP_METHOD( swoole_redis_coro , recv)",68, 142, 8, 0
+repos/cpp/swoole-src/swoole_redis_coro.cc,"PHP_METHOD( swoole_redis_coro , close)",5, 63, 4, 0
+repos/cpp/swoole-src/swoole_redis_coro.cc,"PHP_METHOD( swoole_redis_coro , __destruct)",16, 75, 4, 0
+repos/cpp/swoole-src/swoole_redis_coro.cc,"PHP_METHOD( swoole_redis_coro , set)",119, 110, 4, 0
+repos/cpp/swoole-src/swoole_redis_coro.cc,"PHP_METHOD( swoole_redis_coro , setBit)",36, 158, 8, 0
+repos/cpp/swoole-src/swoole_redis_coro.cc,"PHP_METHOD( swoole_redis_coro , setEx)",4, 81, 4, 0
+repos/cpp/swoole-src/swoole_redis_coro.cc,"PHP_METHOD( swoole_redis_coro , psetEx)",4, 82, 4, 0
+repos/cpp/swoole-src/swoole_redis_coro.cc,"PHP_METHOD( swoole_redis_coro , lSet)",4, 80, 4, 0
+repos/cpp/swoole-src/swoole_redis_coro.cc,"PHP_METHOD( swoole_redis_coro , restore)",4, 83, 4, 0
+repos/cpp/swoole-src/swoole_redis_coro.cc,"PHP_METHOD( swoole_redis_coro , dump)",4, 71, 4, 0
+repos/cpp/swoole-src/swoole_redis_coro.cc,"PHP_METHOD( swoole_redis_coro , debug)",4, 72, 4, 0
+repos/cpp/swoole-src/swoole_redis_coro.cc,"PHP_METHOD( swoole_redis_coro , get)",4, 70, 4, 0
+repos/cpp/swoole-src/swoole_redis_coro.cc,"PHP_METHOD( swoole_redis_coro , mGet)",28, 81, 8, 0
+repos/cpp/swoole-src/swoole_redis_coro.cc,"PHP_METHOD( swoole_redis_coro , hSet)",21, 110, 4, 0
+repos/cpp/swoole-src/swoole_redis_coro.cc,"PHP_METHOD( swoole_redis_coro , hMSet)",42, 89, 4, 0
+repos/cpp/swoole-src/swoole_redis_coro.cc,"PHP_METHOD( swoole_redis_coro , hSetNx)",22, 110, 4, 0
+repos/cpp/swoole-src/swoole_redis_coro.cc,"PHP_METHOD( swoole_redis_coro , hDel)",23, 81, 8, 0
+repos/cpp/swoole-src/swoole_redis_coro.cc,"PHP_METHOD( swoole_redis_coro , watch)",4, 82, 4, 0
+repos/cpp/swoole-src/swoole_redis_coro.cc,"PHP_METHOD( swoole_redis_coro , del)",4, 80, 4, 0
+repos/cpp/swoole-src/swoole_redis_coro.cc,"PHP_METHOD( swoole_redis_coro , sDiff)",4, 82, 4, 0
+repos/cpp/swoole-src/swoole_redis_coro.cc,"PHP_METHOD( swoole_redis_coro , sDiffStore)",4, 88, 4, 0
+repos/cpp/swoole-src/swoole_redis_coro.cc,"PHP_METHOD( swoole_redis_coro , sUnion)",4, 83, 4, 0
+repos/cpp/swoole-src/swoole_redis_coro.cc,"PHP_METHOD( swoole_redis_coro , sUnionStore)",4, 89, 4, 0
+repos/cpp/swoole-src/swoole_redis_coro.cc,"PHP_METHOD( swoole_redis_coro , sInter)",4, 83, 4, 0
+repos/cpp/swoole-src/swoole_redis_coro.cc,"PHP_METHOD( swoole_redis_coro , sInterStore)",4, 89, 4, 0
+repos/cpp/swoole-src/swoole_redis_coro.cc,"PHP_METHOD( swoole_redis_coro , mSet)",43, 74, 4, 0
+repos/cpp/swoole-src/swoole_redis_coro.cc,"PHP_METHOD( swoole_redis_coro , mSetNx)",40, 74, 4, 0
+repos/cpp/swoole-src/swoole_redis_coro.cc,"PHP_METHOD( swoole_redis_coro , getKeys)",4, 71, 4, 0
+repos/cpp/swoole-src/swoole_redis_coro.cc,"PHP_METHOD( swoole_redis_coro , exists)",4, 73, 4, 0
+repos/cpp/swoole-src/swoole_redis_coro.cc,"PHP_METHOD( swoole_redis_coro , type)",4, 71, 4, 0
+repos/cpp/swoole-src/swoole_redis_coro.cc,"PHP_METHOD( swoole_redis_coro , strLen)",4, 73, 4, 0
+repos/cpp/swoole-src/swoole_redis_coro.cc,"PHP_METHOD( swoole_redis_coro , lPop)",4, 71, 4, 0
+repos/cpp/swoole-src/swoole_redis_coro.cc,"PHP_METHOD( swoole_redis_coro , bRPopLPush)",34, 71, 4, 0
+repos/cpp/swoole-src/swoole_redis_coro.cc,"PHP_METHOD( swoole_redis_coro , blPop)",51, 85, 12, 0
+repos/cpp/swoole-src/swoole_redis_coro.cc,"PHP_METHOD( swoole_redis_coro , brPop)",51, 85, 12, 0
+repos/cpp/swoole-src/swoole_redis_coro.cc,"PHP_METHOD( swoole_redis_coro , rPop)",4, 71, 4, 0
+repos/cpp/swoole-src/swoole_redis_coro.cc,"PHP_METHOD( swoole_redis_coro , lSize)",4, 71, 4, 0
+repos/cpp/swoole-src/swoole_redis_coro.cc,"PHP_METHOD( swoole_redis_coro , sSize)",4, 72, 4, 0
+repos/cpp/swoole-src/swoole_redis_coro.cc,"PHP_METHOD( swoole_redis_coro , sPop)",4, 71, 4, 0
+repos/cpp/swoole-src/swoole_redis_coro.cc,"PHP_METHOD( swoole_redis_coro , sMembers)",4, 75, 4, 0
+repos/cpp/swoole-src/swoole_redis_coro.cc,"PHP_METHOD( swoole_redis_coro , sRandMember)",26, 89, 4, 0
+repos/cpp/swoole-src/swoole_redis_coro.cc,"PHP_METHOD( swoole_redis_coro , persist)",4, 74, 4, 0
+repos/cpp/swoole-src/swoole_redis_coro.cc,"PHP_METHOD( swoole_redis_coro , ttl)",4, 70, 4, 0
+repos/cpp/swoole-src/swoole_redis_coro.cc,"PHP_METHOD( swoole_redis_coro , pttl)",4, 71, 4, 0
+repos/cpp/swoole-src/swoole_redis_coro.cc,"PHP_METHOD( swoole_redis_coro , zCard)",4, 72, 4, 0
+repos/cpp/swoole-src/swoole_redis_coro.cc,"PHP_METHOD( swoole_redis_coro , hLen)",4, 71, 4, 0
+repos/cpp/swoole-src/swoole_redis_coro.cc,"PHP_METHOD( swoole_redis_coro , hKeys)",4, 72, 4, 0
+repos/cpp/swoole-src/swoole_redis_coro.cc,"PHP_METHOD( swoole_redis_coro , hVals)",4, 72, 4, 0
+repos/cpp/swoole-src/swoole_redis_coro.cc,"PHP_METHOD( swoole_redis_coro , hGetAll)",4, 74, 4, 0
+repos/cpp/swoole-src/swoole_redis_coro.cc,"PHP_METHOD( swoole_redis_coro , renameKey)",4, 77, 4, 0
+repos/cpp/swoole-src/swoole_redis_coro.cc,"PHP_METHOD( swoole_redis_coro , renameNx)",4, 79, 4, 0
+repos/cpp/swoole-src/swoole_redis_coro.cc,"PHP_METHOD( swoole_redis_coro , rpoplpush)",4, 80, 4, 0
+repos/cpp/swoole-src/swoole_redis_coro.cc,"PHP_METHOD( swoole_redis_coro , randomKey)",4, 78, 4, 0
+repos/cpp/swoole-src/swoole_redis_coro.cc,"PHP_METHOD( swoole_redis_coro , unwatch)",4, 76, 4, 0
+repos/cpp/swoole-src/swoole_redis_coro.cc,"PHP_METHOD( swoole_redis_coro , pfadd)",30, 82, 8, 0
+repos/cpp/swoole-src/swoole_redis_coro.cc,"PHP_METHOD( swoole_redis_coro , pfcount)",42, 85, 12, 0
+repos/cpp/swoole-src/swoole_redis_coro.cc,"PHP_METHOD( swoole_redis_coro , pfmerge)",30, 82, 8, 0
+repos/cpp/swoole-src/swoole_redis_coro.cc,"PHP_METHOD( swoole_redis_coro , ping)",4, 73, 4, 0
+repos/cpp/swoole-src/swoole_redis_coro.cc,"PHP_METHOD( swoole_redis_coro , auth)",14, 112, 4, 0
+repos/cpp/swoole-src/swoole_redis_coro.cc,"PHP_METHOD( swoole_redis_coro , save)",4, 73, 4, 0
+repos/cpp/swoole-src/swoole_redis_coro.cc,"PHP_METHOD( swoole_redis_coro , bgSave)",4, 75, 4, 0
+repos/cpp/swoole-src/swoole_redis_coro.cc,"PHP_METHOD( swoole_redis_coro , lastSave)",4, 77, 4, 0
+repos/cpp/swoole-src/swoole_redis_coro.cc,"PHP_METHOD( swoole_redis_coro , flushDB)",4, 76, 4, 0
+repos/cpp/swoole-src/swoole_redis_coro.cc,"PHP_METHOD( swoole_redis_coro , flushAll)",4, 77, 4, 0
+repos/cpp/swoole-src/swoole_redis_coro.cc,"PHP_METHOD( swoole_redis_coro , dbSize)",4, 75, 4, 0
+repos/cpp/swoole-src/swoole_redis_coro.cc,"PHP_METHOD( swoole_redis_coro , bgrewriteaof)",4, 82, 4, 0
+repos/cpp/swoole-src/swoole_redis_coro.cc,"PHP_METHOD( swoole_redis_coro , time)",4, 73, 4, 0
+repos/cpp/swoole-src/swoole_redis_coro.cc,"PHP_METHOD( swoole_redis_coro , role)",4, 73, 4, 0
+repos/cpp/swoole-src/swoole_redis_coro.cc,"PHP_METHOD( swoole_redis_coro , setRange)",4, 84, 4, 0
+repos/cpp/swoole-src/swoole_redis_coro.cc,"PHP_METHOD( swoole_redis_coro , setNx)",4, 76, 4, 0
+repos/cpp/swoole-src/swoole_redis_coro.cc,"PHP_METHOD( swoole_redis_coro , getSet)",4, 77, 4, 0
+repos/cpp/swoole-src/swoole_redis_coro.cc,"PHP_METHOD( swoole_redis_coro , append)",4, 77, 4, 0
+repos/cpp/swoole-src/swoole_redis_coro.cc,"PHP_METHOD( swoole_redis_coro , lPushx)",4, 77, 4, 0
+repos/cpp/swoole-src/swoole_redis_coro.cc,"PHP_METHOD( swoole_redis_coro , lPush)",4, 80, 4, 0
+repos/cpp/swoole-src/swoole_redis_coro.cc,"PHP_METHOD( swoole_redis_coro , rPush)",4, 80, 4, 0
+repos/cpp/swoole-src/swoole_redis_coro.cc,"PHP_METHOD( swoole_redis_coro , rPushx)",4, 77, 4, 0
+repos/cpp/swoole-src/swoole_redis_coro.cc,"PHP_METHOD( swoole_redis_coro , sContains)",4, 80, 4, 0
+repos/cpp/swoole-src/swoole_redis_coro.cc,"PHP_METHOD( swoole_redis_coro , zRange)",36, 103, 4, 0
+repos/cpp/swoole-src/swoole_redis_coro.cc,"PHP_METHOD( swoole_redis_coro , zRevRange)",36, 103, 4, 0
+repos/cpp/swoole-src/swoole_redis_coro.cc,"PHP_METHOD( swoole_redis_coro , zUnion)",117, 158, 16, 0
+repos/cpp/swoole-src/swoole_redis_coro.cc,"PHP_METHOD( swoole_redis_coro , zInter)",116, 153, 16, 0
+repos/cpp/swoole-src/swoole_redis_coro.cc,"PHP_METHOD( swoole_redis_coro , zRangeByLex)",53, 147, 8, 0
+repos/cpp/swoole-src/swoole_redis_coro.cc,"PHP_METHOD( swoole_redis_coro , zRevRangeByLex)",53, 147, 8, 0
+repos/cpp/swoole-src/swoole_redis_coro.cc,"PHP_METHOD( swoole_redis_coro , zRangeByScore)",72, 128, 4, 0
+repos/cpp/swoole-src/swoole_redis_coro.cc,"PHP_METHOD( swoole_redis_coro , zRevRangeByScore)",72, 128, 4, 0
+repos/cpp/swoole-src/swoole_redis_coro.cc,"PHP_METHOD( swoole_redis_coro , zIncrBy)",26, 99, 4, 0
+repos/cpp/swoole-src/swoole_redis_coro.cc,"PHP_METHOD( swoole_redis_coro , zAdd)",75, 132, 4, 0
+repos/cpp/swoole-src/swoole_redis_coro.cc,"PHP_METHOD( swoole_redis_coro , zScore)",4, 77, 4, 0
+repos/cpp/swoole-src/swoole_redis_coro.cc,"PHP_METHOD( swoole_redis_coro , zRank)",4, 76, 4, 0
+repos/cpp/swoole-src/swoole_redis_coro.cc,"PHP_METHOD( swoole_redis_coro , zRevRank)",4, 79, 4, 0
+repos/cpp/swoole-src/swoole_redis_coro.cc,"PHP_METHOD( swoole_redis_coro , hGet)",4, 75, 4, 0
+repos/cpp/swoole-src/swoole_redis_coro.cc,"PHP_METHOD( swoole_redis_coro , hMGet)",34, 81, 8, 0
+repos/cpp/swoole-src/swoole_redis_coro.cc,"PHP_METHOD( swoole_redis_coro , hExists)",4, 78, 4, 0
+repos/cpp/swoole-src/swoole_redis_coro.cc,"PHP_METHOD( swoole_redis_coro , publish)",4, 78, 4, 0
+repos/cpp/swoole-src/swoole_redis_coro.cc,"PHP_METHOD( swoole_redis_coro , zDeleteRangeByScore)",4, 92, 4, 0
+repos/cpp/swoole-src/swoole_redis_coro.cc,"PHP_METHOD( swoole_redis_coro , zCount)",4, 81, 4, 0
+repos/cpp/swoole-src/swoole_redis_coro.cc,"PHP_METHOD( swoole_redis_coro , incrBy)",4, 78, 4, 0
+repos/cpp/swoole-src/swoole_redis_coro.cc,"PHP_METHOD( swoole_redis_coro , hIncrBy)",25, 69, 4, 0
+repos/cpp/swoole-src/swoole_redis_coro.cc,"PHP_METHOD( swoole_redis_coro , hIncrByFloat)",25, 69, 4, 0
+repos/cpp/swoole-src/swoole_redis_coro.cc,"PHP_METHOD( swoole_redis_coro , incr)",4, 71, 4, 0
+repos/cpp/swoole-src/swoole_redis_coro.cc,"PHP_METHOD( swoole_redis_coro , decrBy)",4, 78, 4, 0
+repos/cpp/swoole-src/swoole_redis_coro.cc,"PHP_METHOD( swoole_redis_coro , decr)",4, 71, 4, 0
+repos/cpp/swoole-src/swoole_redis_coro.cc,"PHP_METHOD( swoole_redis_coro , getBit)",4, 78, 4, 0
+repos/cpp/swoole-src/swoole_redis_coro.cc,"PHP_METHOD( swoole_redis_coro , lInsert)",30, 84, 8, 0
+repos/cpp/swoole-src/swoole_redis_coro.cc,"PHP_METHOD( swoole_redis_coro , lGet)",4, 78, 4, 0
+repos/cpp/swoole-src/swoole_redis_coro.cc,"PHP_METHOD( swoole_redis_coro , setTimeout)",4, 78, 4, 0
+repos/cpp/swoole-src/swoole_redis_coro.cc,"PHP_METHOD( swoole_redis_coro , pexpire)",4, 79, 4, 0
+repos/cpp/swoole-src/swoole_redis_coro.cc,"PHP_METHOD( swoole_redis_coro , expireAt)",4, 80, 4, 0
+repos/cpp/swoole-src/swoole_redis_coro.cc,"PHP_METHOD( swoole_redis_coro , pexpireAt)",4, 81, 4, 0
+repos/cpp/swoole-src/swoole_redis_coro.cc,"PHP_METHOD( swoole_redis_coro , move)",4, 76, 4, 0
+repos/cpp/swoole-src/swoole_redis_coro.cc,"PHP_METHOD( swoole_redis_coro , select)",13, 112, 4, 0
+repos/cpp/swoole-src/swoole_redis_coro.cc,"PHP_METHOD( swoole_redis_coro , getRange)",4, 85, 4, 0
+repos/cpp/swoole-src/swoole_redis_coro.cc,"PHP_METHOD( swoole_redis_coro , listTrim)",4, 82, 4, 0
+repos/cpp/swoole-src/swoole_redis_coro.cc,"PHP_METHOD( swoole_redis_coro , lGetRange)",4, 83, 4, 0
+repos/cpp/swoole-src/swoole_redis_coro.cc,"PHP_METHOD( swoole_redis_coro , lRem)",25, 98, 4, 0
+repos/cpp/swoole-src/swoole_redis_coro.cc,"PHP_METHOD( swoole_redis_coro , zDeleteRangeByRank)",4, 93, 4, 0
+repos/cpp/swoole-src/swoole_redis_coro.cc,"PHP_METHOD( swoole_redis_coro , incrByFloat)",4, 83, 4, 0
+repos/cpp/swoole-src/swoole_redis_coro.cc,"PHP_METHOD( swoole_redis_coro , bitCount)",26, 96, 4, 0
+repos/cpp/swoole-src/swoole_redis_coro.cc,"PHP_METHOD( swoole_redis_coro , bitOp)",27, 113, 4, 0
+repos/cpp/swoole-src/swoole_redis_coro.cc,"PHP_METHOD( swoole_redis_coro , sMove)",22, 69, 4, 0
+repos/cpp/swoole-src/swoole_redis_coro.cc,"PHP_METHOD( swoole_redis_coro , sAdd)",4, 79, 4, 0
+repos/cpp/swoole-src/swoole_redis_coro.cc,"PHP_METHOD( swoole_redis_coro , sRemove)",4, 79, 4, 0
+repos/cpp/swoole-src/swoole_redis_coro.cc,"PHP_METHOD( swoole_redis_coro , zDelete)",4, 79, 4, 0
+repos/cpp/swoole-src/swoole_redis_coro.cc,"redis_subscribe( INTERNAL_FUNCTION_PARAMETERS , const char * cmd)",41, 142, 8, 0
+repos/cpp/swoole-src/swoole_redis_coro.cc,"PHP_METHOD( swoole_redis_coro , subscribe)",4, 68, 4, 0
+repos/cpp/swoole-src/swoole_redis_coro.cc,"PHP_METHOD( swoole_redis_coro , pSubscribe)",4, 69, 4, 0
+repos/cpp/swoole-src/swoole_redis_coro.cc,"PHP_METHOD( swoole_redis_coro , unsubscribe)",4, 70, 4, 0
+repos/cpp/swoole-src/swoole_redis_coro.cc,"PHP_METHOD( swoole_redis_coro , pUnSubscribe)",4, 71, 4, 0
+repos/cpp/swoole-src/swoole_redis_coro.cc,"PHP_METHOD( swoole_redis_coro , multi)",4, 74, 4, 0
+repos/cpp/swoole-src/swoole_redis_coro.cc,"PHP_METHOD( swoole_redis_coro , exec)",4, 73, 4, 0
+repos/cpp/swoole-src/swoole_redis_coro.cc,"PHP_METHOD( swoole_redis_coro , request)",31, 74, 8, 0
+repos/cpp/swoole-src/swoole_redis_coro.cc,"PHP_METHOD( swoole_redis_coro , eval)",46, 109, 4, 0
+repos/cpp/swoole-src/swoole_redis_coro.cc,"PHP_METHOD( swoole_redis_coro , evalSha)",45, 103, 4, 0
+repos/cpp/swoole-src/swoole_redis_coro.cc,"PHP_METHOD( swoole_redis_coro , script)",77, 121, 12, 0
+repos/cpp/swoole-src/swoole_redis_coro.cc,"swoole_redis_coro_parse_result( swRedisClient * redis , zval * return_value , redisReply * reply)",117, 146, 12, 0
+repos/cpp/swoole-src/swoole_timer.cc,"php_swoole_del_timer( swTimer_node * tnode)",7, 58, 4, 0
+repos/cpp/swoole-src/swoole_timer.cc,"php_swoole_clear_all_timer()",21, 97, 8, 0
+repos/cpp/swoole-src/swoole_timer.cc,"php_swoole_onTimeout( swTimer * timer , swTimer_node * tnode)",26, 125, 8, 0
+repos/cpp/swoole-src/swoole_timer.cc,"php_swoole_add_timer( INTERNAL_FUNCTION_PARAMETERS , bool persistent)",59, 104, 4, 0
+repos/cpp/swoole-src/swoole_timer.cc,"PHP_FUNCTION( swoole_timer_tick)",4, 66, 4, 0
+repos/cpp/swoole-src/swoole_timer.cc,"PHP_FUNCTION( swoole_timer_after)",4, 67, 4, 0
+repos/cpp/swoole-src/swoole_timer.cc,"PHP_FUNCTION( swoole_timer_clear)",20, 82, 8, 0
+repos/cpp/swoole-src/swoole_timer.cc,"PHP_FUNCTION( swoole_timer_exists)",19, 52, 8, 0
+repos/cpp/swoole-src/swoole_client_coro.cc,"swoole_client_coro_init( int module_number)",19, 126, 4, 0
+repos/cpp/swoole-src/swoole_client_coro.cc,"client_get_ptr( zval * zobject , bool silent = false)",17, 146, 12, 0
+repos/cpp/swoole-src/swoole_client_coro.cc,"client_coro_new( zval * zobject , int port)",35, 106, 8, 0
+repos/cpp/swoole-src/swoole_client_coro.cc,"client_coro_close( zval * zobject)",22, 91, 8, 0
+repos/cpp/swoole-src/swoole_client_coro.cc,"php_swoole_client_coro_socket_free_socks5_proxy( Socket * cli)",23, 66, 0, 0
+repos/cpp/swoole-src/swoole_client_coro.cc,"php_swoole_client_coro_socket_free_http_proxy( Socket * cli)",23, 64, 0, 0
+repos/cpp/swoole-src/swoole_client_coro.cc,"php_swoole_client_coro_socket_free( Socket * cli)",16, 71, 4, 0
+repos/cpp/swoole-src/swoole_client_coro.cc,"php_swoole_client_set( Socket * cli , zval * zset)",262, 160, 12, 0
+repos/cpp/swoole-src/swoole_client_coro.cc,"php_swoole_socket_set_ssl( Socket * cli , zval * zset)",73, 104, 12, 0
+repos/cpp/swoole-src/swoole_client_coro.cc,"PHP_METHOD( swoole_client_coro , __construct)",25, 94, 4, 0
+repos/cpp/swoole-src/swoole_client_coro.cc,"PHP_METHOD( swoole_client_coro , __destruct)",6, 50, 0, 0
+repos/cpp/swoole-src/swoole_client_coro.cc,"PHP_METHOD( swoole_client_coro , set)",17, 107, 4, 0
+repos/cpp/swoole-src/swoole_client_coro.cc,"PHP_METHOD( swoole_client_coro , connect)",53, 109, 8, 0
+repos/cpp/swoole-src/swoole_client_coro.cc,"PHP_METHOD( swoole_client_coro , send)",43, 113, 12, 0
+repos/cpp/swoole-src/swoole_client_coro.cc,"PHP_METHOD( swoole_client_coro , sendto)",31, 100, 4, 0
+repos/cpp/swoole-src/swoole_client_coro.cc,"PHP_METHOD( swoole_client_coro , recvfrom)",46, 95, 4, 0
+repos/cpp/swoole-src/swoole_client_coro.cc,"PHP_METHOD( swoole_client_coro , sendfile)",42, 133, 8, 0
+repos/cpp/swoole-src/swoole_client_coro.cc,"PHP_METHOD( swoole_client_coro , recv)",51, 109, 8, 0
+repos/cpp/swoole-src/swoole_client_coro.cc,"PHP_METHOD( swoole_client_coro , peek)",33, 109, 8, 0
+repos/cpp/swoole-src/swoole_client_coro.cc,"PHP_METHOD( swoole_client_coro , isConnected)",12, 59, 4, 0
+repos/cpp/swoole-src/swoole_client_coro.cc,"PHP_METHOD( swoole_client_coro , getsockname)",41, 110, 4, 0
+repos/cpp/swoole-src/swoole_client_coro.cc,"PHP_METHOD( swoole_client_coro , getSocket)",22, 95, 4, 0
+repos/cpp/swoole-src/swoole_client_coro.cc,"PHP_METHOD( swoole_client_coro , getpeername)",35, 100, 8, 0
+repos/cpp/swoole-src/swoole_client_coro.cc,"PHP_METHOD( swoole_client_coro , close)",4, 47, 4, 0
+repos/cpp/swoole-src/swoole_client_coro.cc,"PHP_METHOD( swoole_client_coro , enableSSL)",30, 103, 4, 0
+repos/cpp/swoole-src/swoole_client_coro.cc,"PHP_METHOD( swoole_client_coro , getPeerCert)",20, 78, 4, 0
+repos/cpp/swoole-src/swoole_client_coro.cc,"PHP_METHOD( swoole_client_coro , verifyPeerCert)",19, 85, 4, 0
+repos/cpp/swoole-src/swoole_channel_coro.cc,"swoole_channel_coro_fetch_object( zend_object * obj)",4, 82, 0, 0
+repos/cpp/swoole-src/swoole_channel_coro.cc,"swoole_get_channel( zval * zobject)",9, 85, 8, 0
+repos/cpp/swoole-src/swoole_channel_coro.cc,"swoole_channel_coro_free_object( zend_object * object)",18, 69, 4, 0
+repos/cpp/swoole-src/swoole_channel_coro.cc,"swoole_channel_coro_create_object( zend_class_entry * ce)",8, 112, 4, 0
+repos/cpp/swoole-src/swoole_channel_coro.cc,"swoole_channel_coro_init( int module_number)",19, 144, 4, 0
+repos/cpp/swoole-src/swoole_channel_coro.cc,"PHP_METHOD( swoole_channel_coro , __construct)",18, 103, 4, 0
+repos/cpp/swoole-src/swoole_channel_coro.cc,"PHP_METHOD( swoole_channel_coro , push)",34, 156, 8, 0
+repos/cpp/swoole-src/swoole_channel_coro.cc,"PHP_METHOD( swoole_channel_coro , pop)",30, 156, 8, 0
+repos/cpp/swoole-src/swoole_channel_coro.cc,"PHP_METHOD( swoole_channel_coro , close)",5, 51, 4, 0
+repos/cpp/swoole-src/swoole_channel_coro.cc,"PHP_METHOD( swoole_channel_coro , length)",5, 51, 4, 0
+repos/cpp/swoole-src/swoole_channel_coro.cc,"PHP_METHOD( swoole_channel_coro , isEmpty)",5, 51, 4, 0
+repos/cpp/swoole-src/swoole_channel_coro.cc,"PHP_METHOD( swoole_channel_coro , isFull)",5, 51, 4, 0
+repos/cpp/swoole-src/swoole_channel_coro.cc,"PHP_METHOD( swoole_channel_coro , stats)",8, 86, 4, 0
+repos/cpp/swoole-src/swoole_websocket_server.cc,"php_swoole_websocket_construct_frame( zval * zframe , zend_long opcode , char * payload , size_t payload_length , zend_bool finish)",30, 137, 0, 0
+repos/cpp/swoole-src/swoole_websocket_server.cc,"php_swoole_websocket_frame_unpack( swString * data , zval * zframe)",13, 126, 4, 0
+repos/cpp/swoole-src/swoole_websocket_server.cc,"php_swoole_websocket_frame_pack( swString * buffer , zval * zdata , zend_bool opcode , zend_bool fin , zend_bool mask)",59, 120, 12, 0
+repos/cpp/swoole-src/swoole_websocket_server.cc,"swoole_websocket_onOpen( swServer * serv , http_context * ctx)",43, 114, 4, 0
+repos/cpp/swoole-src/swoole_websocket_server.cc,"swoole_websocket_onRequest( http_context * ctx)",17, 99, 12, 0
+repos/cpp/swoole-src/swoole_websocket_server.cc,"php_swoole_sha1( const char * str , int _len , unsigned char * digest)",7, 71, 0, 0
+repos/cpp/swoole-src/swoole_websocket_server.cc,"websocket_handshake( swServer * serv , swListenPort * port , http_context * ctx)",50, 141, 4, 0
+repos/cpp/swoole-src/swoole_websocket_server.cc,"swoole_websocket_onMessage( swServer * serv , swEventData * req)",55, 121, 4, 0
+repos/cpp/swoole-src/swoole_websocket_server.cc,"swoole_websocket_onHandshake( swServer * serv , swListenPort * port , http_context * ctx)",21, 88, 0, 0
+repos/cpp/swoole-src/swoole_websocket_server.cc,"swoole_websocket_init( int module_number)",46, 172, 4, 0
+repos/cpp/swoole-src/swoole_websocket_server.cc,"swoole_websocket_server_push( swServer * serv , int fd , swString * buffer)",29, 133, 8, 0
+repos/cpp/swoole-src/swoole_websocket_server.cc,"swoole_websocket_server_close( swServer * serv , int fd , swString * buffer , uint8_t real_close)",20, 113, 0, 0
+repos/cpp/swoole-src/swoole_websocket_server.cc,"PHP_METHOD( swoole_websocket_server , disconnect)",19, 95, 4, 0
+repos/cpp/swoole-src/swoole_websocket_server.cc,"PHP_METHOD( swoole_websocket_server , push)",28, 96, 4, 0
+repos/cpp/swoole-src/swoole_websocket_server.cc,"PHP_METHOD( swoole_websocket_server , pack)",21, 98, 4, 0
+repos/cpp/swoole-src/swoole_websocket_server.cc,"PHP_METHOD( swoole_websocket_frame , __toString)",14, 89, 4, 0
+repos/cpp/swoole-src/swoole_websocket_server.cc,"PHP_METHOD( swoole_websocket_server , unpack)",12, 93, 4, 0
+repos/cpp/swoole-src/swoole_websocket_server.cc,"PHP_METHOD( swoole_websocket_server , isEstablished)",27, 104, 4, 0
+repos/cpp/swoole-src/swoole_http_server.cc,"http_header_key_format( char * key , int length)",26, 65, 0, 0
+repos/cpp/swoole-src/swoole_http_server.cc,"http_trim_double_quote( char * ptr , int * len)",35, 64, 0, 0
+repos/cpp/swoole-src/swoole_http_server.cc,"http_get_method_name( int method)",60, 62, 0, 0
+repos/cpp/swoole-src/swoole_http_server.cc,"http_request_on_path( swoole_http_parser * parser , const char * at , size_t length)",7, 91, 0, 0
+repos/cpp/swoole-src/swoole_http_server.cc,"http_request_on_query_string( swoole_http_parser * parser , const char * at , size_t length)",17, 99, 0, 0
+repos/cpp/swoole-src/swoole_http_server.cc,"http_request_on_header_field( swoole_http_parser * parser , const char * at , size_t length)",7, 99, 0, 0
+repos/cpp/swoole-src/swoole_http_server.cc,"swoole_http_parse_form_data( http_context * ctx , const char * boundary_str , int boundary_len)",14, 106, 4, 0
+repos/cpp/swoole-src/swoole_http_server.cc,"http_parse_cookie( zval * array , const char * at , size_t length)",86, 152, 12, 0
+repos/cpp/swoole-src/swoole_http_server.cc,"http_request_on_header_value( swoole_http_parser * parser , const char * at , size_t length)",86, 153, 4, 0
+repos/cpp/swoole-src/swoole_http_server.cc,"http_request_on_headers_complete( swoole_http_parser * parser)",7, 72, 0, 0
+repos/cpp/swoole-src/swoole_http_server.cc,"multipart_body_on_header_field( multipart_parser * p , const char * at , size_t length)",5, 94, 0, 0
+repos/cpp/swoole-src/swoole_http_server.cc,"multipart_body_on_header_value( multipart_parser * p , const char * at , size_t length)",97, 114, 8, 0
+repos/cpp/swoole-src/swoole_http_server.cc,"multipart_body_on_data( multipart_parser * p , const char * at , size_t length)",25, 86, 0, 0
+repos/cpp/swoole-src/swoole_http_server.cc,"get_random_file_name( char * des , const char * src)",12, 70, 4, 0
+repos/cpp/swoole-src/swoole_http_server.cc,"multipart_body_on_header_complete( multipart_parser * p)",53, 116, 4, 0
+repos/cpp/swoole-src/swoole_http_server.cc,"multipart_body_on_data_end( multipart_parser * p)",56, 112, 8, 0
+repos/cpp/swoole-src/swoole_http_server.cc,"http_request_on_body( swoole_http_parser * parser , const char * at , size_t length)",33, 121, 12, 0
+repos/cpp/swoole-src/swoole_http_server.cc,"http_request_message_complete( swoole_http_parser * parser)",28, 91, 4, 0
+repos/cpp/swoole-src/swoole_http_server.cc,"php_swoole_http_onReceive( swServer * serv , swEventData * req)",145, 140, 4, 0
+repos/cpp/swoole-src/swoole_http_server.cc,"php_swoole_http_onClose( swServer * serv , swDataHead * ev)",16, 61, 0, 0
+repos/cpp/swoole-src/swoole_http_server.cc,"swoole_http_server_init( int module_number)",39, 137, 4, 0
+repos/cpp/swoole-src/swoole_http_server.cc,"swoole_http_context_new( int fd)",40, 108, 8, 0
+repos/cpp/swoole-src/swoole_http_server.cc,"swoole_http_context_free( http_context * ctx)",21, 52, 4, 0
+repos/cpp/swoole-src/swoole_http_server.cc,"http_status_message( int code)",121, 54, 8, 0
+repos/cpp/swoole-src/swoole_http_server.cc,"php_swoole_http_server_before_start( swServer * serv , zval * zobject)",20, 101, 8, 0
+repos/cpp/swoole-src/swoole_http_server.cc,"PHP_METHOD( swoole_http_request , rawContent)",25, 100, 8, 0
+repos/cpp/swoole-src/swoole_http_server.cc,"PHP_METHOD( swoole_http_request , getData)",12, 62, 4, 0
+repos/cpp/swoole-src/swoole_http_server.cc,"PHP_METHOD( swoole_http_request , __destruct)",31, 110, 4, 0
+repos/cpp/swoole-src/swoole_http_server.cc,"PHP_METHOD( swoole_http_response , write)",88, 109, 4, 0
+repos/cpp/swoole-src/swoole_http_server.cc,"http_get_context( zval * zobject , int check_end)",15, 72, 8, 0
+repos/cpp/swoole-src/swoole_http_server.cc,"http_build_header( http_context * ctx , zval * zobject , swString * response , int body_length)",162, 122, 16, 0
+repos/cpp/swoole-src/swoole_http_server.cc,"swoole_http_get_compression_method( http_context * ctx , const char * accept_encoding , size_t length)",28, 103, 0, 0
+repos/cpp/swoole-src/swoole_http_server.cc,"swoole_http_get_content_encoding( http_context * ctx)",21, 64, 0, 0
+repos/cpp/swoole-src/swoole_http_server.cc,"swoole_http_response_compress( swString * body , int method , int level)",110, 105, 4, 0
+repos/cpp/swoole-src/swoole_http_server.cc,"PHP_METHOD( swoole_http_response , initHeader)",26, 116, 4, 0
+repos/cpp/swoole-src/swoole_http_server.cc,"PHP_METHOD( swoole_http_response , end)",140, 142, 12, 0
+repos/cpp/swoole-src/swoole_http_server.cc,"PHP_METHOD( swoole_http_response , sendfile)",83, 114, 4, 0
+repos/cpp/swoole-src/swoole_http_server.cc,"swoole_http_response_cookie( INTERNAL_FUNCTION_PARAMETERS , bool url_encode = true)",101, 114, 4, 0
+repos/cpp/swoole-src/swoole_http_server.cc,"PHP_METHOD( swoole_http_response , cookie)",4, 67, 4, 0
+repos/cpp/swoole-src/swoole_http_server.cc,"PHP_METHOD( swoole_http_response , rawcookie)",4, 74, 4, 0
+repos/cpp/swoole-src/swoole_http_server.cc,"PHP_METHOD( swoole_http_response , status)",25, 86, 8, 0
+repos/cpp/swoole-src/swoole_http_server.cc,"PHP_METHOD( swoole_http_response , header)",59, 114, 4, 0
+repos/cpp/swoole-src/swoole_http_server.cc,"PHP_METHOD( swoole_http_response , trailer)",56, 116, 4, 0
+repos/cpp/swoole-src/swoole_http_server.cc,"PHP_METHOD( swoole_http_response , detach)",10, 60, 4, 0
+repos/cpp/swoole-src/swoole_http_server.cc,"PHP_METHOD( swoole_http_response , create)",24, 108, 8, 0
+repos/cpp/swoole-src/swoole_http_server.cc,"PHP_METHOD( swoole_http_response , redirect)",40, 94, 4, 0
+repos/cpp/swoole-src/swoole_http_server.cc,"PHP_METHOD( swoole_http_response , __destruct)",35, 108, 12, 0
+repos/cpp/swoole-src/swoole_mysql_coro.cc,"swoole_mysql_coro_create_object( zend_class_entry * ce)",13, 75, 4, 0
+repos/cpp/swoole-src/swoole_mysql_coro.cc,"swoole_mysql_coro_init( int module_number)",33, 164, 4, 0
+repos/cpp/swoole-src/swoole_mysql_coro.cc,"mysql_read_err( mysql_client * client , char * buf , int n_buf)",40, 141, 4, 0
+repos/cpp/swoole-src/swoole_mysql_coro.cc,"mysql_read_ok( mysql_client * client , char * buf , int n_buf)",46, 124, 8, 0
+repos/cpp/swoole-src/swoole_mysql_coro.cc,"mysql_decode_big_data( mysql_big_data_info * mbdi)",38, 149, 4, 0
+repos/cpp/swoole-src/swoole_mysql_coro.cc,"mysql_decode_row( mysql_client * client , char * buf , uint32_t packet_length , size_t n_buf)",214, 176, 8, 0
+repos/cpp/swoole-src/swoole_mysql_coro.cc,"mysql_decode_datetime( char * buf , char * result)",24, 92, 4, 0
+repos/cpp/swoole-src/swoole_mysql_coro.cc,"mysql_decode_time( char * buf , char * result)",18, 68, 4, 0
+repos/cpp/swoole-src/swoole_mysql_coro.cc,"mysql_decode_date( char * buf , char * result)",18, 68, 4, 0
+repos/cpp/swoole-src/swoole_mysql_coro.cc,"mysql_decode_year( char * buf , char * result)",5, 55, 0, 0
+repos/cpp/swoole-src/swoole_mysql_coro.cc,"mysql_decode_row_prepare( mysql_client * client , char * buf , uint32_t packet_length , size_t n_buf)",223, 144, 4, 0
+repos/cpp/swoole-src/swoole_mysql_coro.cc,"mysql_read_eof( mysql_client * client , char * buf , int n_buf)",30, 139, 4, 0
+repos/cpp/swoole-src/swoole_mysql_coro.cc,"mysql_query( zval * zobject , mysql_client * client , swString * sql , zval * callback)",55, 144, 12, 0
+repos/cpp/swoole-src/swoole_mysql_coro.cc,"mysql_columns_free( mysql_client * client)",17, 59, 16, 0
+repos/cpp/swoole-src/swoole_mysql_coro.cc,"mysql_parse_prepare_result( mysql_client * client , char * buf , size_t n_buf)",46, 131, 4, 0
+repos/cpp/swoole-src/swoole_mysql_coro.cc,"mysql_decode_field( char * buf , size_t len , mysql_field * col)",197, 76, 8, 0
+repos/cpp/swoole-src/swoole_mysql_coro.cc,"mysql_read_columns( mysql_client * client)",70, 131, 8, 0
+repos/cpp/swoole-src/swoole_mysql_coro.cc,"mysql_read_params( mysql_client * client)",38, 129, 12, 0
+repos/cpp/swoole-src/swoole_mysql_coro.cc,"mysql_read_rows( mysql_client * client)",83, 125, 8, 0
+repos/cpp/swoole-src/swoole_mysql_coro.cc,"mysql_is_over( mysql_client * client)",95, 143, 8, 0
+repos/cpp/swoole-src/swoole_mysql_coro.cc,"mysql_response( mysql_client * client)",145, 155, 16, 0
+repos/cpp/swoole-src/swoole_mysql_coro.cc,"mysql_request_pack( swString * sql , swString * buffer)",11, 56, 0, 0
+repos/cpp/swoole-src/swoole_mysql_coro.cc,"mysql_prepare_pack( swString * sql , swString * buffer)",11, 56, 0, 0
+repos/cpp/swoole-src/swoole_mysql_coro.cc,"mysql_get_charset( char * name)",13, 52, 4, 0
+repos/cpp/swoole-src/swoole_mysql_coro.cc,"mysql_get_result( mysql_connector * connector , char * buf , size_t len)",29, 105, 8, 0
+repos/cpp/swoole-src/swoole_mysql_coro.cc,"php_swoole_sha256( const char * str , int _len , unsigned char * digest)",7, 80, 0, 0
+repos/cpp/swoole-src/swoole_mysql_coro.cc,"mysql_sha2_password_with_nonce( char * ret , char * nonce , char * password , size_t password_len)",18, 104, 0, 0
+repos/cpp/swoole-src/swoole_mysql_coro.cc,"mysql_auth_encrypt_dispatch( char * buf , char * auth_plugin_name , char * password , size_t password_len , char * nonce , int * next_state)",61, 141, 0, 0
+repos/cpp/swoole-src/swoole_mysql_coro.cc,"mysql_handshake( mysql_connector * connector , char * buf , size_t len)",160, 130, 4, 0
+repos/cpp/swoole-src/swoole_mysql_coro.cc,"mysql_auth_switch( mysql_connector * connector , char * buf , size_t len)",65, 87, 4, 0
+repos/cpp/swoole-src/swoole_mysql_coro.cc,"mysql_parse_auth_signature( swString * buffer , mysql_connector * connector)",41, 120, 4, 0
+repos/cpp/swoole-src/swoole_mysql_coro.cc,"mysql_parse_rsa( mysql_connector * connector , char * buf , size_t len)",89, 147, 4, 0
+repos/cpp/swoole-src/swoole_mysql_coro.cc,"swoole_mysql_coro_execute( zval * zobject , mysql_client * client , zval * params)",147, 149, 8, 0
+repos/cpp/swoole-src/swoole_mysql_coro.cc,"swoole_mysql_coro_parse_response( mysql_client * client , zval ** result , int from_next_result)",142, 103, 0, 0
+repos/cpp/swoole-src/swoole_mysql_coro.cc,"swoole_mysql_coro_parse_end( mysql_client * client , swString * buffer)",15, 128, 8, 0
+repos/cpp/swoole-src/swoole_mysql_coro.cc,"swoole_mysql_coro_statement_free( mysql_statement * stmt)",20, 67, 0, 0
+repos/cpp/swoole-src/swoole_mysql_coro.cc,"swoole_mysql_coro_statement_close( mysql_statement * stmt)",25, 130, 4, 0
+repos/cpp/swoole-src/swoole_mysql_coro.cc,"swoole_mysql_coro_close( zval * zobject)",92, 128, 8, 0
+repos/cpp/swoole-src/swoole_mysql_coro.cc,"PHP_METHOD( swoole_mysql_coro , __construct)",3, 50, 0, 0
+repos/cpp/swoole-src/swoole_mysql_coro.cc,"PHP_METHOD( swoole_mysql_coro , __destruct)",3, 49, 0, 0
+repos/cpp/swoole-src/swoole_mysql_coro.cc,"PHP_METHOD( swoole_mysql_coro , connect)",217, 133, 8, 0
+repos/cpp/swoole-src/swoole_mysql_coro.cc,"PHP_METHOD( swoole_mysql_coro , query)",59, 119, 8, 0
+repos/cpp/swoole-src/swoole_mysql_coro.cc,"PHP_METHOD( swoole_mysql_coro , nextResult)",32, 84, 4, 0
+repos/cpp/swoole-src/swoole_mysql_coro.cc,"swoole_mysql_coro_query_transcation( const char * command , uint8_t in_transaction , zend_execute_data * execute_data , zval * return_value)",66, 146, 0, 0
+repos/cpp/swoole-src/swoole_mysql_coro.cc,"PHP_METHOD( swoole_mysql_coro , begin)",4, 81, 4, 0
+repos/cpp/swoole-src/swoole_mysql_coro.cc,"PHP_METHOD( swoole_mysql_coro , commit)",4, 82, 4, 0
+repos/cpp/swoole-src/swoole_mysql_coro.cc,"PHP_METHOD( swoole_mysql_coro , rollback)",4, 84, 4, 0
+repos/cpp/swoole-src/swoole_mysql_coro.cc,"PHP_METHOD( swoole_mysql_coro , getDefer)",5, 74, 4, 0
+repos/cpp/swoole-src/swoole_mysql_coro.cc,"PHP_METHOD( swoole_mysql_coro , setDefer)",16, 74, 4, 0
+repos/cpp/swoole-src/swoole_mysql_coro.cc,"PHP_METHOD( swoole_mysql_coro , recv)",33, 88, 4, 0
+repos/cpp/swoole-src/swoole_mysql_coro.cc,"PHP_METHOD( swoole_mysql_coro , prepare)",75, 144, 12, 0
+repos/cpp/swoole-src/swoole_mysql_coro.cc,"PHP_METHOD( swoole_mysql_coro_statement , execute)",53, 119, 8, 0
+repos/cpp/swoole-src/swoole_mysql_coro.cc,"PHP_METHOD( swoole_mysql_coro_statement , fetch)",52, 96, 8, 0
+repos/cpp/swoole-src/swoole_mysql_coro.cc,"PHP_METHOD( swoole_mysql_coro_statement , fetchAll)",26, 78, 4, 0
+repos/cpp/swoole-src/swoole_mysql_coro.cc,"PHP_METHOD( swoole_mysql_coro_statement , nextResult)",35, 81, 12, 0
+repos/cpp/swoole-src/swoole_mysql_coro.cc,"PHP_METHOD( swoole_mysql_coro_statement , __destruct)",14, 78, 4, 0
+repos/cpp/swoole-src/swoole_mysql_coro.cc,"PHP_METHOD( swoole_mysql_coro , escape)",46, 104, 8, 0
+repos/cpp/swoole-src/swoole_mysql_coro.cc,"PHP_METHOD( swoole_mysql_coro , close)",9, 55, 4, 0
+repos/cpp/swoole-src/swoole_mysql_coro.cc,"swoole_mysql_coro_free_object( zend_object * object)",31, 95, 4, 0
+repos/cpp/swoole-src/swoole_mysql_coro.cc,"swoole_mysql_coro_onError( swReactor * reactor , swEvent * event)",29, 136, 4, 0
+repos/cpp/swoole-src/swoole_mysql_coro.cc,"swoole_mysql_coro_onConnect( mysql_client * client)",42, 162, 8, 0
+repos/cpp/swoole-src/swoole_mysql_coro.cc,"swoole_mysql_coro_onTimeout( swTimer * timer , swTimer_node * tnode)",45, 119, 8, 0
+repos/cpp/swoole-src/swoole_mysql_coro.cc,"swoole_mysql_coro_onWrite( swReactor * reactor , swEvent * event)",33, 110, 8, 0
+repos/cpp/swoole-src/swoole_mysql_coro.cc,"swoole_mysql_coro_onHandShake( mysql_client * client)",166, 92, 4, 0
+repos/cpp/swoole-src/swoole_mysql_coro.cc,"swoole_mysql_coro_onRead( swReactor * reactor , swEvent * event)",187, 132, 12, 0
+repos/cpp/swoole-src/swoole_process.cc,"swoole_process_init( int module_number)",67, 112, 4, 0
+repos/cpp/swoole-src/swoole_process.cc,"PHP_METHOD( swoole_process , __construct)",86, 110, 8, 0
+repos/cpp/swoole-src/swoole_process.cc,"PHP_METHOD( swoole_process , __destruct)",25, 67, 4, 0
+repos/cpp/swoole-src/swoole_process.cc,"PHP_METHOD( swoole_process , wait)",29, 76, 4, 0
+repos/cpp/swoole-src/swoole_process.cc,"PHP_METHOD( swoole_process , useQueue)",38, 105, 4, 0
+repos/cpp/swoole-src/swoole_process.cc,"PHP_METHOD( swoole_process , statQueue)",22, 86, 8, 0
+repos/cpp/swoole-src/swoole_process.cc,"PHP_METHOD( swoole_process , freeQueue)",14, 68, 4, 0
+repos/cpp/swoole-src/swoole_process.cc,"PHP_METHOD( swoole_process , kill)",21, 127, 12, 0
+repos/cpp/swoole-src/swoole_process.cc,"PHP_METHOD( swoole_process , signal)",94, 116, 8, 0
+repos/cpp/swoole-src/swoole_process.cc,"PHP_METHOD( swoole_process , alarm)",51, 100, 8, 0
+repos/cpp/swoole-src/swoole_process.cc,"free_signal_callback( void * data)",5, 45, 0, 0
+repos/cpp/swoole-src/swoole_process.cc,"php_swoole_onSignal( int signo)",21, 108, 4, 0
+repos/cpp/swoole-src/swoole_process.cc,"php_swoole_signal_isset_handler( int signo)",9, 81, 8, 0
+repos/cpp/swoole-src/swoole_process.cc,"php_swoole_process_clean()",17, 55, 4, 0
+repos/cpp/swoole-src/swoole_process.cc,"php_swoole_process_start( swWorker * process , zval * zobject)",79, 104, 4, 0
+repos/cpp/swoole-src/swoole_process.cc,"PHP_METHOD( swoole_process , start)",30, 100, 8, 0
+repos/cpp/swoole-src/swoole_process.cc,"PHP_METHOD( swoole_process , read)",37, 97, 12, 0
+repos/cpp/swoole-src/swoole_process.cc,"PHP_METHOD( swoole_process , write)",50, 109, 12, 0
+repos/cpp/swoole-src/swoole_process.cc,"PHP_METHOD( swoole_process , exportSocket)",20, 153, 8, 0
+repos/cpp/swoole-src/swoole_process.cc,"PHP_METHOD( swoole_process , push)",44, 80, 4, 0
+repos/cpp/swoole-src/swoole_process.cc,"PHP_METHOD( swoole_process , pop)",43, 80, 4, 0
+repos/cpp/swoole-src/swoole_process.cc,"PHP_METHOD( swoole_process , exec)",42, 112, 8, 0
+repos/cpp/swoole-src/swoole_process.cc,"PHP_METHOD( swoole_process , daemon)",11, 86, 4, 0
+repos/cpp/swoole-src/swoole_process.cc,"PHP_METHOD( swoole_process , setaffinity)",42, 93, 12, 0
+repos/cpp/swoole-src/swoole_process.cc,"PHP_METHOD( swoole_process , exit)",36, 84, 8, 0
+repos/cpp/swoole-src/swoole_process.cc,"PHP_METHOD( swoole_process , close)",41, 100, 8, 0
+repos/cpp/swoole-src/swoole_process.cc,"PHP_METHOD( swoole_process , setTimeout)",16, 83, 8, 0
+repos/cpp/swoole-src/swoole_process.cc,"PHP_METHOD( swoole_process , setBlocking)",31, 84, 8, 0
+repos/cpp/swoole-src/swoole_coroutine.cc,"PHPCoroutine::vm_stack_init( void)",17, 56, 4, 0
+repos/cpp/swoole-src/swoole_coroutine.cc,"PHPCoroutine::vm_stack_destroy( void)",11, 49, 0, 0
+repos/cpp/swoole-src/swoole_coroutine.cc,"PHPCoroutine::save_vm_stack( php_coro_task * task)",17, 61, 0, 0
+repos/cpp/swoole-src/swoole_coroutine.cc,"PHPCoroutine::restore_vm_stack( php_coro_task * task)",17, 64, 0, 0
+repos/cpp/swoole-src/swoole_coroutine.cc,"PHPCoroutine::save_og( php_coro_task * task)",13, 89, 8, 0
+repos/cpp/swoole-src/swoole_coroutine.cc,"PHPCoroutine::restore_og( php_coro_task * task)",9, 69, 8, 0
+repos/cpp/swoole-src/swoole_coroutine.cc,"PHPCoroutine::save_task( php_coro_task * task)",5, 50, 0, 0
+repos/cpp/swoole-src/swoole_coroutine.cc,"PHPCoroutine::restore_task( php_coro_task * task)",5, 53, 0, 0
+repos/cpp/swoole-src/swoole_coroutine.cc,"PHPCoroutine::on_yield( void * arg)",8, 126, 4, 0
+repos/cpp/swoole-src/swoole_coroutine.cc,"PHPCoroutine::on_resume( void * arg)",8, 129, 4, 0
+repos/cpp/swoole-src/swoole_coroutine.cc,"PHPCoroutine::on_close( void * arg)",31, 128, 8, 0
+repos/cpp/swoole-src/swoole_coroutine.cc,"PHPCoroutine::create_func( void * arg)",134, 122, 8, 0
+repos/cpp/swoole-src/swoole_coroutine.cc,"PHPCoroutine::create( zend_fcall_info_cache * fci_cache , uint32_t argc , zval * argv)",37, 145, 12, 0
+repos/cpp/swoole-src/swoole_coroutine.cc,"PHPCoroutine::defer( php_swoole_fci * fci)",9, 62, 8, 0
+repos/cpp/swoole-src/swoole_coroutine.cc,"PHPCoroutine::check_bind( const char * name , long bind_cid)",17, 110, 12, 0
+repos/cpp/swoole-src/swoole_coroutine.cc,"PHPCoroutine::yield_m( zval * return_value , php_coro_context * sw_current_context)",9, 85, 0, 0
+repos/cpp/swoole-src/swoole_coroutine.cc,"PHPCoroutine::resume_m( php_coro_context * sw_current_context , zval * retval , zval * coro_retval)",11, 98, 0, 0
+repos/cpp/swoole-src/examples/wrapper/server.cpp,"MyServer::MyServer( string _host , int _port , int _mode = SW_MODE_PROCESS , int _type = SW_SOCK_TCP)",6, 94, 4, 0
+repos/cpp/swoole-src/examples/wrapper/server.cpp,"MyServer::onShutdown()",1, 34, 4, 0
+repos/cpp/swoole-src/examples/wrapper/server.cpp,"MyServer::onWorkerStop( int worker_id)",1, 48, 4, 0
+repos/cpp/swoole-src/examples/wrapper/server.cpp,"MyServer::onPipeMessage( int src_worker_id , const DataBuffer &)",1, 73, 4, 0
+repos/cpp/swoole-src/examples/wrapper/server.cpp,"MyServer::onReceive( int fd , const DataBuffer & data)",22, 121, 4, 0
+repos/cpp/swoole-src/examples/wrapper/server.cpp,"MyServer::onPacket( const DataBuffer & data , ClientInfo & clientInfo)",17, 129, 4, 0
+repos/cpp/swoole-src/examples/wrapper/server.cpp,"MyServer::onConnect( int fd)",4, 53, 4, 0
+repos/cpp/swoole-src/examples/wrapper/server.cpp,"MyServer::onClose( int fd)",4, 51, 4, 0
+repos/cpp/swoole-src/examples/wrapper/server.cpp,"MyServer::onTask( int task_id , int src_worker_id , const DataBuffer & data)",4, 78, 0, 0
+repos/cpp/swoole-src/examples/wrapper/server.cpp,"MyServer::onFinish( int task_id , const DataBuffer & data)",4, 61, 0, 0
+repos/cpp/swoole-src/examples/wrapper/server.cpp,"MyServer::onStart()",4, 30, 4, 0
+repos/cpp/swoole-src/examples/wrapper/server.cpp,"timer1( swTimer * timer , swTimer_node * tnode)",10, 56, 0, 0
+repos/cpp/swoole-src/examples/wrapper/server.cpp,"MyServer::onWorkerStart( int worker_id)",4, 48, 0, 0
+repos/cpp/swoole-src/examples/wrapper/server.cpp,"main( int argc , char ** argv)",18, 143, 8, 0
+repos/cpp/swoole-src/core-tests/src/rbtree.cpp,"TEST( rbtree , insert)",43, 61, 8, 0
+repos/cpp/swoole-src/core-tests/src/hashmap.cpp,"type_eof()",6, 46, 4, 0
+repos/cpp/swoole-src/core-tests/src/hashmap.cpp,"TEST( hashmap , string)",35, 82, 4, 0
+repos/cpp/swoole-src/core-tests/src/hashmap.cpp,"TEST( hashmap , integer)",30, 55, 4, 0
+repos/cpp/swoole-src/core-tests/src/pipe.cpp,"TEST( pipe , unixsock)",32, 56, 4, 0
+repos/cpp/swoole-src/core-tests/src/pipe.cpp,"TEST( pipe , base)",18, 58, 4, 0
+repos/cpp/swoole-src/core-tests/src/client.cpp,"TEST( client , tcp)",17, 64, 4, 0
+repos/cpp/swoole-src/core-tests/src/socket.cpp,"TEST( socket , swSocket_unix_sendto)",31, 76, 4, 0
+repos/cpp/swoole-src/core-tests/src/string.cpp,"TEST( string , rtrim)",12, 48, 4, 0
+repos/cpp/swoole-src/core-tests/src/heap.cpp,"TEST( heap , random)",30, 54, 8, 0
+repos/cpp/swoole-src/core-tests/src/lru_cache.cpp,"lru_cache_test_class::lru_cache_test_class()",4, 27, 4, 0
+repos/cpp/swoole-src/core-tests/src/lru_cache.cpp,"lru_cache_test_class::~lru_cache_test_class()",4, 28, 4, 0
+repos/cpp/swoole-src/core-tests/src/lru_cache.cpp,"TEST( lru_cache , basic)",20, 61, 4, 0
+repos/cpp/swoole-src/core-tests/src/lru_cache.cpp,"TEST( lru_cache , memory_free)",10, 80, 4, 0
+repos/cpp/swoole-src/core-tests/src/lru_cache.cpp,"TEST( lru_cache , lru_kick)",38, 81, 4, 0
+repos/cpp/swoole-src/core-tests/src/ringbuffer.cpp,"TEST( ringbuffer , thread)",24, 72, 8, 0
+repos/cpp/swoole-src/core-tests/src/ringbuffer.cpp,"thread_write( void)",47, 128, 8, 0
+repos/cpp/swoole-src/core-tests/src/ringbuffer.cpp,"thread_read( int i)",25, 77, 8, 0
+repos/cpp/swoole-src/core-tests/src/thread_pool.cpp,"thread_onTask( swThreadPool * pool , void * task , int task_len)",10, 71, 0, 0
+repos/cpp/swoole-src/core-tests/src/thread_pool.cpp,"TEST( thread_pool , dispatch)",21, 89, 8, 0
+repos/cpp/swoole-src/core-tests/src/main.cpp,"create_server()",7, 54, 4, 0
+repos/cpp/swoole-src/core-tests/src/main.cpp,"main( int argc , char ** argv)",17, 71, 4, 0
+repos/cpp/swoole-src/core-tests/src/server.cpp,"swoole_test::server_test()",63, 103, 4, 0
+repos/cpp/swoole-src/core-tests/src/server.cpp,"swoole_test::my_onWorkerStart( swServer * serv , int worker_id)",4, 60, 4, 0
+repos/cpp/swoole-src/core-tests/src/server.cpp,"swoole_test::my_onWorkerStop( swServer * serv , int worker_id)",4, 59, 4, 0
+repos/cpp/swoole-src/core-tests/src/server.cpp,"swoole_test::my_onReceive( swServer * serv , swEventData * req)",24, 104, 4, 0
+repos/cpp/swoole-src/core-tests/src/server.cpp,"swoole_test::my_onPacket( swServer * serv , swEventData * req)",68, 96, 4, 0
+repos/cpp/swoole-src/core-tests/src/server.cpp,"swoole_test::my_onStart( swServer * serv)",4, 35, 4, 0
+repos/cpp/swoole-src/core-tests/src/server.cpp,"swoole_test::my_onShutdown( swServer * serv)",4, 36, 4, 0
+repos/cpp/swoole-src/core-tests/src/server.cpp,"swoole_test::my_onConnect( swServer * serv , swDataHead * info)",4, 85, 4, 0
+repos/cpp/swoole-src/core-tests/src/server.cpp,"swoole_test::my_onClose( swServer * serv , swDataHead * info)",4, 83, 4, 0
+repos/cpp/swoole-src/core-tests/src/coroutine/socket.cpp,"TEST( coroutine_socket , connect_refused)",10, 60, 8, 0
+repos/cpp/swoole-src/core-tests/src/coroutine/socket.cpp,"TEST( coroutine_socket , connect_timeout)",11, 55, 8, 0
+repos/cpp/swoole-src/core-tests/src/coroutine/socket.cpp,"TEST( coroutine_socket , connect_with_dns)",10, 62, 8, 0
+repos/cpp/swoole-src/core-tests/src/coroutine/socket.cpp,"TEST( coroutine_socket , recv_success)",14, 59, 8, 0
+repos/cpp/swoole-src/core-tests/src/coroutine/socket.cpp,"TEST( coroutine_socket , recv_fail)",14, 59, 8, 0
+repos/cpp/swoole-src/core-tests/src/coroutine/socket.cpp,"TEST( coroutine_socket , bind_success)",6, 48, 4, 0
+repos/cpp/swoole-src/core-tests/src/coroutine/socket.cpp,"TEST( coroutine_socket , bind_fail)",7, 51, 4, 0
+repos/cpp/swoole-src/core-tests/src/coroutine/socket.cpp,"TEST( coroutine_socket , listen)",7, 48, 4, 0
+repos/cpp/swoole-src/core-tests/src/coroutine/socket.cpp,"TEST( coroutine_socket , accept)",23, 63, 12, 0
+repos/cpp/swoole-src/core-tests/src/coroutine/channel.cpp,"TEST( coroutine_channel , push_pop)",13, 43, 8, 0
+repos/cpp/swoole-src/core-tests/src/coroutine/channel.cpp,"TEST( coroutine_channel , push_yield)",25, 48, 12, 0
+repos/cpp/swoole-src/core-tests/src/coroutine/channel.cpp,"TEST( coroutine_channel , pop_yield)",26, 48, 12, 0
+repos/cpp/swoole-src/core-tests/src/coroutine/channel.cpp,"TEST( coroutine_channel , push_timeout)",13, 41, 8, 0
+repos/cpp/swoole-src/core-tests/src/coroutine/channel.cpp,"TEST( coroutine_channel , pop_timeout)",11, 37, 0, 0
+repos/cpp/swoole-src/core-tests/src/coroutine/base.cpp,"TEST( coroutine_base , create)",11, 54, 8, 0
+repos/cpp/swoole-src/core-tests/src/coroutine/base.cpp,"TEST( coroutine_base , get_current)",12, 47, 4, 0
+repos/cpp/swoole-src/core-tests/src/coroutine/base.cpp,"TEST( coroutine_base , yield_resume)",15, 54, 8, 0
+repos/cpp/swoole-src/core-tests/src/coroutine/gethostbyname.cpp,"TEST( coroutine_gethostbyname , resolve_with_cache)",20, 84, 12, 0
+repos/cpp/swoole-src/core-tests/src/coroutine/gethostbyname.cpp,"TEST( coroutine_gethostbyname , resolve_without_cache)",20, 84, 12, 0
+repos/cpp/swoole-src/core-tests/src/coroutine/gethostbyname.cpp,"TEST( coroutine_gethostbyname , resolve_cache_inet4_and_inet6)",28, 88, 12, 0
+repos/cpp/swoole-src/core-tests/src/network/aio_thread.cpp,"TEST( network_aio_thread , dispatch)",32, 48, 8, 0
+repos/cpp/swoole-src/core-tests/src/os/wait.cpp,"TEST( os_wait , waitpid_before_child_exit)",21, 64, 8, 0
+repos/cpp/swoole-src/core-tests/src/os/wait.cpp,"TEST( os_wait , waitpid_after_child_exit)",21, 64, 8, 0
+repos/cpp/swoole-src/core-tests/src/os/wait.cpp,"TEST( os_wait , wait_before_child_exit)",30, 51, 12, 0
+repos/cpp/swoole-src/core-tests/src/os/wait.cpp,"TEST( os_wait , wait_after_child_exit)",30, 51, 12, 0
+repos/cpp/swoole-src/core-tests/src/os/signal.cpp,"sig_usr1( int signo)",3, 33, 0, 0
+repos/cpp/swoole-src/core-tests/src/os/signal.cpp,"TEST( os_signal , swSignalfd_set)",29, 44, 4, 0
+repos/cpp/swoole-src/thirdparty/hiredis/examples/example-qt.cpp,"getCallback( redisAsyncContext * , void * r , void * privdata)",10, 67, 0, 0
+repos/cpp/swoole-src/thirdparty/hiredis/examples/example-qt.cpp,"ExampleQt::run()",15, 65, 4, 0
+repos/cpp/swoole-src/thirdparty/hiredis/examples/example-qt.cpp,"main( int argc , char ** argv)",11, 72, 4, 0
+repos/cpp/swoole-src/src/core/error.cc,"swoole::Exception::Exception( enum swErrorCode _code)",4, 38, 4, 0
+repos/cpp/swoole-src/src/core/error.cc,"swoole_strerror( enum swErrorCode code)",162, 69, 8, 0
+repos/cpp/swoole-src/src/core/error.cc,"swoole_throw_error( enum swErrorCode code)",4, 47, 0, 0
+repos/cpp/swoole-src/src/coroutine/socket.cc,"Socket::timer_callback( swTimer * timer , swTimer_node * tnode)",19, 65, 0, 0
+repos/cpp/swoole-src/src/coroutine/socket.cc,"Socket::readable_event_callback( swReactor * reactor , swEvent * event)",19, 72, 0, 0
+repos/cpp/swoole-src/src/coroutine/socket.cc,"Socket::writable_event_callback( swReactor * reactor , swEvent * event)",19, 72, 0, 0
+repos/cpp/swoole-src/src/coroutine/socket.cc,"Socket::error_event_callback( swReactor * reactor , swEvent * event)",16, 69, 0, 0
+repos/cpp/swoole-src/src/coroutine/socket.cc,"Socket::add_event( const enum swEvent_type event)",17, 106, 12, 0
+repos/cpp/swoole-src/src/coroutine/socket.cc,"Socket::wait_event( const enum swEvent_type event , const void ** __buf , size_t __n)",78, 141, 4, 0
+repos/cpp/swoole-src/src/coroutine/socket.cc,"Socket::socks5_handshake()",143, 134, 8, 0
+repos/cpp/swoole-src/src/coroutine/socket.cc,"Socket::http_proxy_handshake()",97, 105, 16, 0
+repos/cpp/swoole-src/src/coroutine/socket.cc,"Socket::init_sock_type( enum swSocket_type _type)",32, 54, 0, 0
+repos/cpp/swoole-src/src/coroutine/socket.cc,"Socket::init_sock()",14, 78, 4, 0
+repos/cpp/swoole-src/src/coroutine/socket.cc,"Socket::init_sock( int _fd)",31, 102, 8, 0
+repos/cpp/swoole-src/src/coroutine/socket.cc,"Socket::Socket( int _domain , int _type , int _protocol)",10, 73, 8, 0
+repos/cpp/swoole-src/src/coroutine/socket.cc,"Socket::Socket( enum swSocket_type _type)",9, 41, 0, 0
+repos/cpp/swoole-src/src/coroutine/socket.cc,"Socket::Socket( int _fd , enum swSocket_type _type)",7, 50, 0, 0
+repos/cpp/swoole-src/src/coroutine/socket.cc,"Socket::Socket( int _fd , Socket * server_sock)",16, 45, 0, 0
+repos/cpp/swoole-src/src/coroutine/socket.cc,"Socket::connect( const struct sockaddr * addr , socklen_t addrlen)",43, 102, 16, 0
+repos/cpp/swoole-src/src/coroutine/socket.cc,"Socket::connect( string _host , int _port , int flags)",132, 99, 12, 0
+repos/cpp/swoole-src/src/coroutine/socket.cc,"Socket::is_connect()",4, 46, 4, 0
+repos/cpp/swoole-src/src/coroutine/socket.cc,"Socket::check_liveness()",20, 77, 8, 0
+repos/cpp/swoole-src/src/coroutine/socket.cc,"Socket::peek( void * __buf , size_t __n)",6, 63, 4, 0
+repos/cpp/swoole-src/src/coroutine/socket.cc,"Socket::recv( void * __buf , size_t __n)",14, 112, 4, 0
+repos/cpp/swoole-src/src/coroutine/socket.cc,"Socket::send( const void * __buf , size_t __n)",14, 126, 4, 0
+repos/cpp/swoole-src/src/coroutine/socket.cc,"Socket::read( void * __buf , size_t __n)",14, 112, 4, 0
+repos/cpp/swoole-src/src/coroutine/socket.cc,"Socket::write( const void * __buf , size_t __n)",14, 126, 4, 0
+repos/cpp/swoole-src/src/coroutine/socket.cc,"Socket::recv_all( void * __buf , size_t __n)",30, 116, 8, 0
+repos/cpp/swoole-src/src/coroutine/socket.cc,"Socket::send_all( const void * __buf , size_t __n)",30, 130, 8, 0
+repos/cpp/swoole-src/src/coroutine/socket.cc,"Socket::recvmsg( struct msghdr * msg , int flags)",14, 112, 4, 0
+repos/cpp/swoole-src/src/coroutine/socket.cc,"Socket::sendmsg( const struct msghdr * msg , int flags)",14, 113, 4, 0
+repos/cpp/swoole-src/src/coroutine/socket.cc,"Socket::bind( std :: string address , int port)",86, 90, 8, 0
+repos/cpp/swoole-src/src/coroutine/socket.cc,"Socket::listen( int backlog)",25, 57, 4, 0
+repos/cpp/swoole-src/src/coroutine/socket.cc,"Socket::accept()",43, 97, 8, 0
+repos/cpp/swoole-src/src/coroutine/socket.cc,"Socket::ssl_handshake()",76, 94, 0, 0
+repos/cpp/swoole-src/src/coroutine/socket.cc,"Socket::ssl_accept()",10, 79, 4, 0
+repos/cpp/swoole-src/src/coroutine/socket.cc,"Socket::ssl_verify( bool allow_self_signed)",12, 92, 4, 0
+repos/cpp/swoole-src/src/coroutine/socket.cc,"Socket::sendfile( char * filename , off_t offset , size_t length)",71, 103, 8, 0
+repos/cpp/swoole-src/src/coroutine/socket.cc,"Socket::sendto( char * address , int port , char * data , int len)",20, 75, 8, 0
+repos/cpp/swoole-src/src/coroutine/socket.cc,"Socket::recvfrom( void * __buf , size_t __n)",9, 91, 4, 0
+repos/cpp/swoole-src/src/coroutine/socket.cc,"Socket::recvfrom( void * __buf , size_t __n , struct sockaddr * _addr , socklen_t * _socklen)",14, 136, 4, 0
+repos/cpp/swoole-src/src/coroutine/socket.cc,"Socket::recv_packet( double timeout)",200, 131, 12, 0
+repos/cpp/swoole-src/src/coroutine/socket.cc,"Socket::shutdown( int __how)",44, 102, 4, 0
+repos/cpp/swoole-src/src/coroutine/socket.cc,"Socket::close()",39, 48, 12, 0
+repos/cpp/swoole-src/src/coroutine/socket.cc,"Socket::~Socket()",85, 57, 4, 0
+repos/cpp/swoole-src/src/coroutine/base.cc,"Coroutine::yield()",10, 29, 4, 0
+repos/cpp/swoole-src/src/coroutine/base.cc,"Coroutine::resume()",15, 29, 4, 0
+repos/cpp/swoole-src/src/coroutine/base.cc,"Coroutine::yield_naked()",6, 30, 0, 0
+repos/cpp/swoole-src/src/coroutine/base.cc,"Coroutine::resume_naked()",11, 31, 0, 0
+repos/cpp/swoole-src/src/coroutine/base.cc,"Coroutine::close()",14, 123, 4, 0
+repos/cpp/swoole-src/src/coroutine/base.cc,"Coroutine::print_list()",25, 66, 4, 0
+repos/cpp/swoole-src/src/coroutine/base.cc,"Coroutine::set_on_yield( coro_php_yield_t func)",4, 52, 0, 0
+repos/cpp/swoole-src/src/coroutine/base.cc,"Coroutine::set_on_resume( coro_php_resume_t func)",4, 54, 0, 0
+repos/cpp/swoole-src/src/coroutine/base.cc,"Coroutine::set_on_close( coro_php_close_t func)",4, 52, 0, 0
+repos/cpp/swoole-src/src/coroutine/base.cc,"swoole_coroutine_is_in()",4, 39, 4, 0
+repos/cpp/swoole-src/src/coroutine/base.cc,"swoole_coro_iterator_reset()",4, 51, 4, 0
+repos/cpp/swoole-src/src/coroutine/base.cc,"swoole_coro_iterator_each()",13, 54, 4, 0
+repos/cpp/swoole-src/src/coroutine/base.cc,"swoole_coro_get( long cid)",12, 46, 4, 0
+repos/cpp/swoole-src/src/coroutine/base.cc,"swoole_coro_count()",4, 41, 4, 0
+repos/cpp/swoole-src/src/coroutine/context.cc,"Context::Context( size_t stack_size , coroutine_func_t fn , void * private_data)",34, 90, 4, 0
+repos/cpp/swoole-src/src/coroutine/context.cc,"Context::~Context()",16, 70, 8, 0
+repos/cpp/swoole-src/src/coroutine/context.cc,"Context::get_stack_usage()",18, 98, 8, 0
+repos/cpp/swoole-src/src/coroutine/context.cc,"Context::SwapIn()",5, 60, 4, 0
+repos/cpp/swoole-src/src/coroutine/context.cc,"Context::SwapOut()",5, 60, 4, 0
+repos/cpp/swoole-src/src/coroutine/context.cc,"Context::context_func( void * arg)",7, 38, 0, 0
+repos/cpp/swoole-src/src/coroutine/boost.cc,"Context::Context( size_t stack_size , coroutine_func_t fn , void * private_data)",30, 94, 4, 0
+repos/cpp/swoole-src/src/coroutine/boost.cc,"Context::~Context()",16, 70, 8, 0
+repos/cpp/swoole-src/src/coroutine/boost.cc,"Context::SwapIn()",5, 76, 4, 0
+repos/cpp/swoole-src/src/coroutine/boost.cc,"Context::SwapOut()",5, 76, 4, 0
+repos/cpp/swoole-src/src/coroutine/boost.cc,"Context::context_func( void * arg)",7, 38, 0, 0
+repos/cpp/swoole-src/src/coroutine/channel.cc,"Channel::timer_callback( swTimer * timer , swTimer_node * tnode)",15, 66, 0, 0
+repos/cpp/swoole-src/src/coroutine/channel.cc,"Channel::yield( enum opcode type)",15, 73, 8, 0
+repos/cpp/swoole-src/src/coroutine/channel.cc,"Channel::pop( double timeout)",46, 84, 12, 0
+repos/cpp/swoole-src/src/coroutine/channel.cc,"Channel::push( void * data , double timeout)",46, 84, 12, 0
+repos/cpp/swoole-src/src/coroutine/channel.cc,"Channel::close()",20, 52, 4, 0
+repos/cpp/swoole-src/src/coroutine/hook.cc,"swoole::set_dns_cache_expire( time_t expire)",4, 49, 0, 0
+repos/cpp/swoole-src/src/coroutine/hook.cc,"swoole::set_dns_cache_capacity( size_t capacity)",6, 53, 0, 0
+repos/cpp/swoole-src/src/coroutine/hook.cc,"swoole::clear_dns_cache()",7, 31, 0, 0
+repos/cpp/swoole-src/src/coroutine/hook.cc,"swoole_coroutine_socket( int domain , int type , int protocol)",14, 80, 4, 0
+repos/cpp/swoole-src/src/coroutine/hook.cc,"swoole_coroutine_send( int sockfd , const void * buf , size_t len , int flags)",14, 82, 0, 0
+repos/cpp/swoole-src/src/coroutine/hook.cc,"swoole_coroutine_sendmsg( int sockfd , const struct msghdr * msg , int flags)",14, 82, 0, 0
+repos/cpp/swoole-src/src/coroutine/hook.cc,"swoole_coroutine_recvmsg( int sockfd , struct msghdr * msg , int flags)",14, 80, 4, 0
+repos/cpp/swoole-src/src/coroutine/hook.cc,"swoole_coroutine_recv( int sockfd , void * buf , size_t len , int flags)",21, 80, 4, 0
+repos/cpp/swoole-src/src/coroutine/hook.cc,"swoole_coroutine_close( int fd)",14, 80, 4, 0
+repos/cpp/swoole-src/src/coroutine/hook.cc,"swoole_coroutine_connect( int sockfd , const struct sockaddr * addr , socklen_t addrlen)",14, 89, 0, 0
+repos/cpp/swoole-src/src/coroutine/hook.cc,"swoole_coroutine_poll( struct pollfd * fds , nfds_t nfds , int timeout)",23, 93, 4, 0
+repos/cpp/swoole-src/src/coroutine/hook.cc,"handler_access( swAio_event * event)",5, 66, 4, 0
+repos/cpp/swoole-src/src/coroutine/hook.cc,"handler_flock( swAio_event * event)",5, 57, 4, 0
+repos/cpp/swoole-src/src/coroutine/hook.cc,"handler_open( swAio_event * event)",5, 78, 4, 0
+repos/cpp/swoole-src/src/coroutine/hook.cc,"handler_read( swAio_event * event)",5, 61, 4, 0
+repos/cpp/swoole-src/src/coroutine/hook.cc,"handler_write( swAio_event * event)",5, 62, 4, 0
+repos/cpp/swoole-src/src/coroutine/hook.cc,"handler_lseek( swAio_event * event)",5, 64, 4, 0
+repos/cpp/swoole-src/src/coroutine/hook.cc,"handler_fstat( swAio_event * event)",5, 63, 4, 0
+repos/cpp/swoole-src/src/coroutine/hook.cc,"handler_unlink( swAio_event * event)",5, 51, 4, 0
+repos/cpp/swoole-src/src/coroutine/hook.cc,"handler_mkdir( swAio_event * event)",5, 65, 4, 0
+repos/cpp/swoole-src/src/coroutine/hook.cc,"handler_rmdir( swAio_event * event)",5, 50, 4, 0
+repos/cpp/swoole-src/src/coroutine/hook.cc,"handler_statvfs( swAio_event * event)",5, 87, 4, 0
+repos/cpp/swoole-src/src/coroutine/hook.cc,"handler_rename( swAio_event * event)",5, 80, 4, 0
+repos/cpp/swoole-src/src/coroutine/hook.cc,"aio_onCompleted( swAio_event * event)",7, 50, 4, 0
+repos/cpp/swoole-src/src/coroutine/hook.cc,"aio_onReadFileCompleted( swAio_event * event)",8, 56, 0, 0
+repos/cpp/swoole-src/src/coroutine/hook.cc,"aio_onWriteFileCompleted( swAio_event * event)",7, 57, 0, 0
+repos/cpp/swoole-src/src/coroutine/hook.cc,"aio_onDNSCompleted( swAio_event * event)",11, 51, 0, 0
+repos/cpp/swoole-src/src/coroutine/hook.cc,"aio_onDNSTimeout( swTimer * timer , swTimer_node * tnode)",9, 66, 0, 0
+repos/cpp/swoole-src/src/coroutine/hook.cc,"swoole_coroutine_open( const char * pathname , int flags , mode_t mode)",25, 80, 4, 0
+repos/cpp/swoole-src/src/coroutine/hook.cc,"swoole_coroutine_read( int fd , void * buf , size_t count)",32, 80, 4, 0
+repos/cpp/swoole-src/src/coroutine/hook.cc,"swoole_coroutine_write( int fd , const void * buf , size_t count)",32, 80, 4, 0
+repos/cpp/swoole-src/src/coroutine/hook.cc,"swoole_coroutine_lseek( int fd , off_t offset , int whence)",25, 80, 4, 0
+repos/cpp/swoole-src/src/coroutine/hook.cc,"swoole_coroutine_fstat( int fd , struct stat * statbuf)",24, 80, 4, 0
+repos/cpp/swoole-src/src/coroutine/hook.cc,"swoole_coroutine_unlink( const char * pathname)",23, 80, 4, 0
+repos/cpp/swoole-src/src/coroutine/hook.cc,"swoole_coroutine_statvfs( const char * path , struct statvfs * buf)",24, 80, 4, 0
+repos/cpp/swoole-src/src/coroutine/hook.cc,"swoole_coroutine_mkdir( const char * pathname , mode_t mode)",24, 80, 4, 0
+repos/cpp/swoole-src/src/coroutine/hook.cc,"swoole_coroutine_rmdir( const char * pathname)",23, 80, 4, 0
+repos/cpp/swoole-src/src/coroutine/hook.cc,"swoole_coroutine_rename( const char * oldpath , const char * newpath)",24, 80, 4, 0
+repos/cpp/swoole-src/src/coroutine/hook.cc,"swoole_coroutine_access( const char * pathname , int mode)",24, 80, 4, 0
+repos/cpp/swoole-src/src/coroutine/hook.cc,"swoole_coroutine_flock( int fd , int operation)",24, 80, 4, 0
+repos/cpp/swoole-src/src/coroutine/hook.cc,"sleep_timeout( swTimer * timer , swTimer_node * tnode)",4, 63, 0, 0
+repos/cpp/swoole-src/src/coroutine/hook.cc,"Coroutine::sleep( double sec)",10, 88, 4, 0
+repos/cpp/swoole-src/src/coroutine/hook.cc,"Coroutine::read_file( const char * file , int lock)",36, 66, 8, 0
+repos/cpp/swoole-src/src/coroutine/hook.cc,"Coroutine::write_file( const char * file , char * buf , size_t length , int lock , int flags)",32, 95, 0, 0
+repos/cpp/swoole-src/src/coroutine/hook.cc,"Coroutine::gethostbyname( const string & hostname , int domain , double timeout)",82, 98, 8, 0
+repos/cpp/swoole-src/src/coroutine/hook.cc,"socket_poll_clean( coro_poll_task * task)",13, 66, 4, 0
+repos/cpp/swoole-src/src/coroutine/hook.cc,"socket_poll_timeout( swTimer * timer , swTimer_node * tnode)",8, 69, 0, 0
+repos/cpp/swoole-src/src/coroutine/hook.cc,"socket_poll_completed( void * data)",6, 52, 4, 0
+repos/cpp/swoole-src/src/coroutine/hook.cc,"socket_poll_trigger_event( swReactor * reactor , int fd , enum swEvent_type event)",13, 98, 0, 0
+repos/cpp/swoole-src/src/coroutine/hook.cc,"socket_poll_read_callback( swReactor * reactor , swEvent * event)",5, 73, 0, 0
+repos/cpp/swoole-src/src/coroutine/hook.cc,"socket_poll_write_callback( swReactor * reactor , swEvent * event)",5, 74, 0, 0
+repos/cpp/swoole-src/src/coroutine/hook.cc,"socket_poll_error_callback( swReactor * reactor , swEvent * event)",5, 74, 0, 0
+repos/cpp/swoole-src/src/coroutine/hook.cc,"Coroutine::socket_poll( std :: unordered_map<int,socket_poll_fd> & fds , double timeout)",35, 106, 8, 0
+repos/cpp/swoole-src/src/coroutine/hook.cc,"handler_opendir( swAio_event * event)",6, 54, 4, 0
+repos/cpp/swoole-src/src/coroutine/hook.cc,"handler_readdir( swAio_event * event)",6, 58, 4, 0
+repos/cpp/swoole-src/src/coroutine/hook.cc,"swoole_coroutine_opendir( const char * name)",23, 80, 4, 0
+repos/cpp/swoole-src/src/coroutine/hook.cc,"swoole_coroutine_readdir( DIR * dirp)",23, 80, 4, 0
+repos/cpp/swoole-src/src/coroutine/ucontext.cc,"Context::Context( size_t stack_size , coroutine_func_t fn , void * private_data)",34, 99, 4, 0
+repos/cpp/swoole-src/src/coroutine/ucontext.cc,"Context::~Context()",17, 70, 8, 0
+repos/cpp/swoole-src/src/coroutine/ucontext.cc,"Context::SwapIn()",4, 48, 4, 0
+repos/cpp/swoole-src/src/coroutine/ucontext.cc,"Context::SwapOut()",4, 48, 4, 0
+repos/cpp/swoole-src/src/coroutine/ucontext.cc,"Context::context_func( void * arg)",7, 38, 0, 0
+repos/cpp/swoole-src/src/wrapper/client.cc,"swoole::event_init( void)",6, 120, 0, 0
+repos/cpp/swoole-src/src/wrapper/client.cc,"swoole::event_wait( void)",19, 83, 4, 0
+repos/cpp/swoole-src/src/wrapper/client.cc,"swoole::check_reactor( void)",35, 78, 8, 0
+repos/cpp/swoole-src/src/wrapper/timer.cc,"swoole_timer_add( long ms , uchar persistent , swTimerCallback callback , void * private_data)",19, 95, 0, 0
+repos/cpp/swoole-src/src/wrapper/timer.cc,"swoole_timer_after( long ms , swTimerCallback callback , void * private_data)",4, 79, 0, 0
+repos/cpp/swoole-src/src/wrapper/timer.cc,"swoole_timer_tick( long ms , swTimerCallback callback , void * private_data)",4, 78, 0, 0
+repos/cpp/swoole-src/src/wrapper/timer.cc,"swoole_timer_exists( long timer_id)",10, 56, 4, 0
+repos/cpp/swoole-src/src/wrapper/timer.cc,"swoole_timer_clear( long timer_id)",4, 79, 4, 0
+repos/cpp/swoole-src/src/wrapper/server.cc,"swoole::Server::Server( string _host , int _port , int _mode , int _type)",41, 103, 4, 0
+repos/cpp/swoole-src/src/wrapper/server.cc,"swoole::Server::setEvents( int _events)",4, 36, 0, 0
+repos/cpp/swoole-src/src/wrapper/server.cc,"swoole::Server::listen( string host , int port , int type)",13, 75, 4, 0
+repos/cpp/swoole-src/src/wrapper/server.cc,"swoole::Server::send( int fd , const DataBuffer & data)",12, 73, 4, 0
+repos/cpp/swoole-src/src/wrapper/server.cc,"swoole::Server::send( int fd , const char * data , int length)",12, 65, 4, 0
+repos/cpp/swoole-src/src/wrapper/server.cc,"swoole::Server::close( int fd , bool reset)",39, 83, 8, 0
+repos/cpp/swoole-src/src/wrapper/server.cc,"swoole::task_pack( swEventData * task , const DataBuffer & data)",24, 88, 8, 0
+repos/cpp/swoole-src/src/wrapper/server.cc,"swoole::task_unpack( swEventData * task_result)",31, 88, 12, 0
+repos/cpp/swoole-src/src/wrapper/server.cc,"swoole::get_recv_data( swEventData * req , char * header , uint32_t header_length)",22, 88, 0, 0
+repos/cpp/swoole-src/src/wrapper/server.cc,"swoole::Server::check_task_param( int dst_worker_id)",19, 71, 8, 0
+repos/cpp/swoole-src/src/wrapper/server.cc,"swoole::Server::task( DataBuffer & data , int dst_worker_id)",31, 83, 4, 0
+repos/cpp/swoole-src/src/wrapper/server.cc,"swoole::Server::finish( DataBuffer & data)",9, 97, 4, 0
+repos/cpp/swoole-src/src/wrapper/server.cc,"swoole::Server::sendto( const string & ip , int port , const DataBuffer & data , int server_socket)",42, 113, 8, 0
+repos/cpp/swoole-src/src/wrapper/server.cc,"swoole::Server::sendfile( int fd , string & file , off_t offset , size_t length)",21, 100, 4, 0
+repos/cpp/swoole-src/src/wrapper/server.cc,"swoole::Server::sendMessage( int worker_id , DataBuffer & data)",40, 117, 4, 0
+repos/cpp/swoole-src/src/wrapper/server.cc,"swoole::Server::sendwait( int fd , const DataBuffer & data)",18, 68, 4, 0
+repos/cpp/swoole-src/src/wrapper/server.cc,"swoole::Server::start( void)",56, 56, 8, 0
+repos/cpp/swoole-src/src/wrapper/server.cc,"swoole::Server::_onReceive( swServer * serv , swEventData * req)",7, 57, 0, 0
+repos/cpp/swoole-src/src/wrapper/server.cc,"swoole::Server::_onWorkerStart( swServer * serv , int worker_id)",5, 59, 0, 0
+repos/cpp/swoole-src/src/wrapper/server.cc,"swoole::Server::_onWorkerStop( swServer * serv , int worker_id)",5, 58, 0, 0
+repos/cpp/swoole-src/src/wrapper/server.cc,"swoole::Server::_onPacket( swServer * serv , swEventData * req)",45, 115, 8, 0
+repos/cpp/swoole-src/src/wrapper/server.cc,"swoole::Server::_onStart( swServer * serv)",5, 43, 4, 0
+repos/cpp/swoole-src/src/wrapper/server.cc,"swoole::Server::_onShutdown( swServer * serv)",5, 43, 4, 0
+repos/cpp/swoole-src/src/wrapper/server.cc,"swoole::Server::_onConnect( swServer * serv , swDataHead * info)",5, 58, 0, 0
+repos/cpp/swoole-src/src/wrapper/server.cc,"swoole::Server::_onClose( swServer * serv , swDataHead * info)",5, 56, 0, 0
+repos/cpp/swoole-src/src/wrapper/server.cc,"swoole::Server::_onPipeMessage( swServer * serv , swEventData * req)",6, 62, 0, 0
+repos/cpp/swoole-src/src/wrapper/server.cc,"swoole::Server::_onTask( swServer * serv , swEventData * task)",7, 60, 4, 0
+repos/cpp/swoole-src/src/wrapper/server.cc,"swoole::Server::_onFinish( swServer * serv , swEventData * task)",7, 57, 0, 0
+repos/cpp/swoole-src/src/wrapper/server.cc,"swoole::Server::taskwait( const DataBuffer & data , double timeout , int dst_worker_id)",44, 92, 4, 0
+repos/cpp/swoole-src/src/wrapper/server.cc,"swoole::Server::taskWaitMulti( const vector<DataBuffer> & tasks , double timeout)",116, 96, 8, 0
+repos/cpp/swoole-src/src/network/async_thread.cc,"async_event_queue::push( async_event * event)",6, 41, 8, 0
+repos/cpp/swoole-src/src/network/async_thread.cc,"async_event_queue::pop()",11, 46, 8, 0
+repos/cpp/swoole-src/src/network/async_thread.cc,"async_event_queue::empty()",5, 41, 8, 0
+repos/cpp/swoole-src/src/network/async_thread.cc,"async_thread_pool::async_thread_pool( int _min_threads , int _max_threads)",38, 114, 8, 0
+repos/cpp/swoole-src/src/network/async_thread.cc,"async_thread_pool::~async_thread_pool()",9, 73, 12, 0
+repos/cpp/swoole-src/src/network/async_thread.cc,"async_thread_pool::schedule()",19, 66, 8, 0
+repos/cpp/swoole-src/src/network/async_thread.cc,"async_thread_pool::start()",9, 46, 8, 0
+repos/cpp/swoole-src/src/network/async_thread.cc,"async_thread_pool::shutdown()",24, 67, 8, 0
+repos/cpp/swoole-src/src/network/async_thread.cc,"async_thread_pool::dispatch( const async_event * request)",9, 54, 4, 0
+repos/cpp/swoole-src/src/network/async_thread.cc,"async_thread_pool::create_thread( int i)",85, 86, 16, 0
+repos/cpp/swoole-src/src/network/async_thread.cc,"swAio_init()",38, 90, 4, 0
+repos/cpp/swoole-src/src/network/async_thread.cc,"swAio_dispatch( const swAio_event * request)",10, 50, 4, 0
+repos/cpp/swoole-src/src/network/async_thread.cc,"swAio_dispatch2( const swAio_event * request)",9, 57, 0, 0
+repos/cpp/swoole-src/src/network/async_thread.cc,"swAio_free( void)",10, 25, 4, 0
+repos/cpp/swoole-src/src/server/reactor_process.cc,"swServer_is_single( swServer * serv)",4, 124, 4, 0
+repos/cpp/swoole-src/src/server/reactor_process.cc,"swReactorProcess_create( swServer * serv)",18, 100, 4, 0
+repos/cpp/swoole-src/src/server/reactor_process.cc,"swReactorProcess_start( swServer * serv)",146, 117, 4, 0
+repos/cpp/swoole-src/src/server/reactor_process.cc,"swReactorProcess_onPipeRead( swReactor * reactor , swEvent * event)",45, 75, 0, 0
+repos/cpp/swoole-src/src/server/reactor_process.cc,"swReactorProcess_loop( swProcessPool * pool , swWorker * worker)",199, 143, 8, 0
+repos/cpp/swoole-src/src/server/reactor_process.cc,"swReactorProcess_onClose( swReactor * reactor , swEvent * event)",26, 72, 0, 0
+repos/cpp/swoole-src/src/server/reactor_process.cc,"swReactorProcess_send2worker( int pipe_fd , void * data , int length)",11, 89, 8, 0
+repos/cpp/swoole-src/src/server/reactor_process.cc,"swReactorProcess_send2client( swFactory * factory , swSendData * _send)",67, 148, 8, 0
+repos/cpp/swoole-src/src/server/reactor_process.cc,"swReactorProcess_onTimeout( swTimer * timer , swTimer_node * tnode)",48, 76, 0, 0
+repos/cpp/swoole-src/src/server/reactor_process.cc,"swReactorProcess_reuse_port( swListenPort * ls)",23, 64, 4, 0
+repos/cpp/swoole-src/src/server/manager.cc,"swManager_onTimer( swTimer * timer , swTimer_node * tnode)",8, 70, 8, 0
+repos/cpp/swoole-src/src/server/manager.cc,"swManager_kill_timeout_process( swTimer * timer , swTimer_node * tnode)",26, 99, 20, 0
+repos/cpp/swoole-src/src/server/manager.cc,"swManager_add_timeout_killer( swServer * serv , swWorker * workers , int n)",15, 122, 8, 0
+repos/cpp/swoole-src/src/server/manager.cc,"swManager_start( swFactory * factory)",147, 133, 8, 0
+repos/cpp/swoole-src/src/server/manager.cc,"swManager_check_exit_status( swServer * serv , int worker_id , pid_t pid , int status)",15, 94, 0, 0
+repos/cpp/swoole-src/src/server/manager.cc,"swManager_loop( swFactory * factory)",279, 163, 16, 0
+repos/cpp/swoole-src/src/server/manager.cc,"swManager_spawn_worker( swFactory * factory , int worker_id)",25, 78, 8, 0
+repos/cpp/swoole-src/src/server/manager.cc,"swManager_signal_handler( int sig)",43, 52, 12, 0
+repos/cpp/swoole-src/src/server/manager.cc,"swManager_wait_other_worker( swProcessPool * pool , pid_t pid , int status)",27, 88, 8, 0
+repos/cpp/swoole-src/src/server/manager.cc,"swManager_kill_user_worker( swServer * serv)",37, 84, 8, 0
+repos/cpp/swoole-src/src/server/manager.cc,"swManager_spawn_task_worker( swServer * serv , swWorker * worker)",4, 68, 0, 0
+repos/cpp/swoole-src/src/server/manager.cc,"swManager_spawn_user_worker( swServer * serv , swWorker * worker)",40, 78, 8, 0
+repos/cpp/swoole-src/src/server/master.cc,"swServer_disable_accept( swReactor * reactor)",15, 99, 8, 0
+repos/cpp/swoole-src/src/server/master.cc,"swServer_enable_accept( swReactor * reactor)",15, 99, 8, 0
+repos/cpp/swoole-src/src/server/master.cc,"swServer_close_port( swServer * serv , enum swBool_type only_stream_port)",14, 121, 8, 0
+repos/cpp/swoole-src/src/server/master.cc,"swServer_master_onAccept( swReactor * reactor , swEvent * event)",93, 133, 16, 0
+repos/cpp/swoole-src/src/server/master.cc,"swServer_start_check( swServer * serv)",102, 128, 12, 0
+repos/cpp/swoole-src/src/server/master.cc,"swServer_store_listen_socket( swServer * serv)",46, 93, 16, 0
+repos/cpp/swoole-src/src/server/master.cc,"swServer_create_worker_buffer( swServer * serv)",33, 82, 4, 0
+repos/cpp/swoole-src/src/server/master.cc,"swServer_create_task_worker( swServer * serv)",40, 102, 4, 0
+repos/cpp/swoole-src/src/server/master.cc,"swServer_worker_create( swServer * serv , swWorker * worker)",15, 64, 4, 0
+repos/cpp/swoole-src/src/server/master.cc,"swServer_worker_init( swServer * serv , swWorker * worker)",59, 109, 12, 0
+repos/cpp/swoole-src/src/server/master.cc,"swServer_worker_start( swServer * serv , swWorker * worker)",19, 74, 8, 0
+repos/cpp/swoole-src/src/server/master.cc,"swServer_reopen_log_file( swServer * serv)",19, 48, 8, 0
+repos/cpp/swoole-src/src/server/master.cc,"swServer_start( swServer * serv)",160, 140, 16, 0
+repos/cpp/swoole-src/src/server/master.cc,"swServer_init( swServer * serv)",45, 108, 4, 0
+repos/cpp/swoole-src/src/server/master.cc,"swServer_create( swServer * serv)",24, 105, 8, 0
+repos/cpp/swoole-src/src/server/master.cc,"swServer_shutdown( swServer * serv)",6, 39, 4, 0
+repos/cpp/swoole-src/src/server/master.cc,"swServer_free( swServer * serv)",69, 87, 12, 0
+repos/cpp/swoole-src/src/server/master.cc,"swServer_udp_send( swServer * serv , swSendData * resp)",17, 123, 4, 0
+repos/cpp/swoole-src/src/server/master.cc,"swServer_tcp_feedback( swServer * serv , int session_id , int event)",28, 105, 8, 0
+repos/cpp/swoole-src/src/server/master.cc,"swServer_store_pipe_fd( swServer * serv , swPipe * p)",12, 67, 4, 0
+repos/cpp/swoole-src/src/server/master.cc,"swServer_get_pipe_object( swServer * serv , int pipe_fd)",4, 63, 0, 0
+repos/cpp/swoole-src/src/server/master.cc,"swServer_tcp_send( swServer * serv , int session_id , void * data , uint32_t length)",18, 129, 8, 0
+repos/cpp/swoole-src/src/server/master.cc,"swServer_master_send( swServer * serv , swSendData * _send)",228, 157, 12, 0
+repos/cpp/swoole-src/src/server/master.cc,"swServer_tcp_notify( swServer * serv , swConnection * conn , int event)",11, 78, 0, 0
+repos/cpp/swoole-src/src/server/master.cc,"swServer_tcp_sendfile( swServer * serv , int session_id , char * filename , uint32_t filename_length , off_t offset , size_t length)",51, 136, 0, 0
+repos/cpp/swoole-src/src/server/master.cc,"swServer_tcp_sendwait( swServer * serv , int session_id , void * data , uint32_t length)",10, 140, 8, 0
+repos/cpp/swoole-src/src/server/master.cc,"swServer_call_hook( swServer * serv , enum swServer_hook_type type , void * arg)",13, 88, 0, 0
+repos/cpp/swoole-src/src/server/master.cc,"swServer_tcp_close( swServer * serv , int session_id , int reset)",38, 87, 4, 0
+repos/cpp/swoole-src/src/server/master.cc,"swServer_signal_init( swServer * serv)",19, 57, 4, 0
+repos/cpp/swoole-src/src/server/master.cc,"swServer_master_onTimer( swTimer * timer , swTimer_node * tnode)",16, 106, 8, 0
+repos/cpp/swoole-src/src/server/master.cc,"swServer_add_worker( swServer * serv , swWorker * worker)",19, 97, 4, 0
+repos/cpp/swoole-src/src/server/master.cc,"swServer_master_update_time( swServer * serv)",12, 74, 8, 0
+repos/cpp/swoole-src/src/server/master.cc,"swServer_add_hook( swServer * serv , enum swServer_hook_type type , swCallback func , int push_back)",19, 107, 0, 0
+repos/cpp/swoole-src/src/server/master.cc,"swServer_add_systemd_socket( swServer * serv)",155, 115, 8, 0
+repos/cpp/swoole-src/src/server/master.cc,"swServer_add_port( swServer * serv , int type , const char * host , int port)",93, 136, 8, 0
+repos/cpp/swoole-src/src/server/master.cc,"swServer_get_socket( swServer * serv , int port)",12, 50, 0, 0
+repos/cpp/swoole-src/src/server/master.cc,"swServer_signal_handler( int sig)",84, 135, 12, 0
+repos/cpp/swoole-src/src/server/master.cc,"swServer_connection_new( swServer * serv , swListenPort * ls , int fd , int from_fd , int reactor_id)",89, 116, 0, 0
+repos/cpp/swoole-src/src/server/worker.cc,"swWorker_free( swWorker * worker)",7, 39, 8, 0
+repos/cpp/swoole-src/src/server/worker.cc,"swWorker_signal_init( void)",20, 57, 4, 0
+repos/cpp/swoole-src/src/server/worker.cc,"swWorker_signal_handler( int signo)",43, 52, 12, 0
+repos/cpp/swoole-src/src/server/worker.cc,"swWorker_discard_data( swServer * serv , swEventData * task)",30, 164, 8, 0
+repos/cpp/swoole-src/src/server/worker.cc,"swWorker_onStreamAccept( swReactor * reactor , swEvent * event)",34, 121, 12, 0
+repos/cpp/swoole-src/src/server/worker.cc,"swWorker_onStreamRead( swReactor * reactor , swEvent * event)",33, 69, 0, 0
+repos/cpp/swoole-src/src/server/worker.cc,"swWorker_onStreamClose( swReactor * reactor , swEvent * event)",14, 70, 0, 0
+repos/cpp/swoole-src/src/server/worker.cc,"swWorker_onStreamPackage( swConnection * conn , char * data , uint32_t length)",30, 95, 4, 0
+repos/cpp/swoole-src/src/server/worker.cc,"swWorker_do_task( swServer * serv , swWorker * worker , swEventData * task , task_callback callback)",15, 116, 0, 0
+repos/cpp/swoole-src/src/server/worker.cc,"swWorker_onTask( swFactory * factory , swEventData * task)",115, 88, 12, 0
+repos/cpp/swoole-src/src/server/worker.cc,"swWorker_onStart( swServer * serv)",101, 80, 4, 0
+repos/cpp/swoole-src/src/server/worker.cc,"swWorker_onStop( swServer * serv)",7, 47, 8, 0
+repos/cpp/swoole-src/src/server/worker.cc,"swWorker_stop( swWorker * worker)",78, 82, 12, 0
+repos/cpp/swoole-src/src/server/worker.cc,"swWorker_onTimeout( swTimer * timer , swTimer_node * tnode)",7, 120, 4, 0
+repos/cpp/swoole-src/src/server/worker.cc,"swWorker_try_to_exit()",57, 128, 16, 0
+repos/cpp/swoole-src/src/server/worker.cc,"swWorker_clean( void)",21, 88, 16, 0
+repos/cpp/swoole-src/src/server/worker.cc,"swWorker_loop( swFactory * factory , int worker_id)",68, 104, 8, 0
+repos/cpp/swoole-src/src/server/worker.cc,"swWorker_send2reactor( swServer * serv , swEventData * ev_data , size_t sendn , int session_id)",15, 94, 0, 0
+repos/cpp/swoole-src/src/server/worker.cc,"swWorker_onPipeReceive( swReactor * reactor , swEvent * event)",33, 70, 0, 0
+repos/cpp/swoole-src/src/server/worker.cc,"swWorker_send2worker( swWorker * dst_worker , void * buf , int n , int flag)",39, 83, 8, 0
+repos/cpp/swoole-src/src/protocol/mime_types.cc,"swoole_get_mime_type( const char * filename)",11, 78, 4, 0
+repos/cpp/swoole-src/src/os/wait.cc,"signal_handler( int signo)",39, 62, 12, 0
+repos/cpp/swoole-src/src/os/wait.cc,"swoole_coroutine_signal_init()",14, 97, 8, 0
+repos/cpp/swoole-src/src/os/wait.cc,"swoole_coroutine_waitpid( pid_t __pid , int * __stat_loc , int __options)",23, 105, 4, 0
+repos/cpp/swoole-src/src/os/wait.cc,"swoole_coroutine_wait( int * __stat_loc)",24, 80, 4, 0
+repos/cpp/swoole-src/src/reactor/defer_task.cc,"swReactor_defer_task_create( swReactor * reactor)",6, 53, 0, 0
+repos/cpp/swoole-src/src/reactor/defer_task.cc,"swReactor_defer_task_destroy( swReactor * reactor)",5, 77, 4, 0
+repos/cpp/swoole-src/src/reactor/defer_task.cc,"do_defer_tasks( swReactor * reactor)",17, 77, 4, 0
+repos/cpp/swoole-src/src/reactor/defer_task.cc,"add_defer_task( swReactor * reactor , swCallback callback , void * data)",12, 80, 0, 0

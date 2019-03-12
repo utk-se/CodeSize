@@ -1,0 +1,66 @@
+File, Function, Length, Total Width, Leading Space(s), Leading Tab(s)
+repos/python/face_recognition/face_recognition/api.py,"_rect_to_css( rect )",8, 90, 4, 0
+repos/python/face_recognition/face_recognition/api.py,"_css_to_rect( css )",8, 92, 4, 0
+repos/python/face_recognition/face_recognition/api.py,"_trim_css_to_bounds( css , image_shape )",9, 100, 4, 0
+repos/python/face_recognition/face_recognition/api.py,"face_distance( face_encodings , face_to_compare )",13, 103, 4, 0
+repos/python/face_recognition/face_recognition/api.py,"load_image_file( file , mode = 'RGB' )",12, 125, 4, 0
+repos/python/face_recognition/face_recognition/api.py,"_raw_face_locations( img , number_of_times_to_upsample = 1 , model = 'hog' )",14, 131, 4, 0
+repos/python/face_recognition/face_recognition/api.py,"face_locations( img , number_of_times_to_upsample = 1 , model = 'hog' )",14, 146, 8, 0
+repos/python/face_recognition/face_recognition/api.py,"_raw_face_locations_batched( images , number_of_times_to_upsample = 1 , batch_size = 128 )",9, 131, 4, 0
+repos/python/face_recognition/face_recognition/api.py,"batch_face_locations.convert_cnn_detections_to_css( detections )",2, 102, 8, 0
+repos/python/face_recognition/face_recognition/api.py,"batch_face_locations( images , number_of_times_to_upsample = 1 , batch_size = 128 )",17, 131, 4, 0
+repos/python/face_recognition/face_recognition/api.py,"_raw_face_landmarks( face_image , face_locations = None , model = 'large' )",12, 91, 8, 0
+repos/python/face_recognition/face_recognition/api.py,"face_landmarks( face_image , face_locations = None , model = 'large' )",33, 130, 12, 0
+repos/python/face_recognition/face_recognition/api.py,"face_encodings( face_image , known_face_locations = None , num_jitters = 1 )",11, 150, 4, 0
+repos/python/face_recognition/face_recognition/api.py,"compare_faces( known_face_encodings , face_encoding_to_check , tolerance = 0 . 6 )",10, 133, 4, 0
+repos/python/face_recognition/face_recognition/face_detection_cli.py,"print_result( filename , location )",3, 71, 4, 0
+repos/python/face_recognition/face_recognition/face_detection_cli.py,"test_image( image_to_check , model )",6, 112, 4, 0
+repos/python/face_recognition/face_recognition/face_detection_cli.py,"image_files_in_folder( folder )",2, 115, 4, 0
+repos/python/face_recognition/face_recognition/face_detection_cli.py,"process_images_in_process_pool( images_to_check , number_of_cpus , model )",19, 81, 4, 0
+repos/python/face_recognition/face_recognition/face_detection_cli.py,"main( image_to_check , cpus , model )",13, 132, 8, 0
+repos/python/face_recognition/face_recognition/face_recognition_cli.py,"scan_known_people( known_people_folder )",19, 113, 12, 0
+repos/python/face_recognition/face_recognition/face_recognition_cli.py,"print_result( filename , name , distance , show_distance = False )",5, 65, 0, 0
+repos/python/face_recognition/face_recognition/face_recognition_cli.py,"test_image( image_to_check , known_names , known_face_encodings , tolerance = 0 . 6 , show_distance = False )",23, 154, 12, 0
+repos/python/face_recognition/face_recognition/face_recognition_cli.py,"image_files_in_folder( folder )",2, 115, 4, 0
+repos/python/face_recognition/face_recognition/face_recognition_cli.py,"process_images_in_process_pool( images_to_check , known_names , known_face_encodings , number_of_cpus , tolerance , show_distance )",22, 130, 0, 0
+repos/python/face_recognition/face_recognition/face_recognition_cli.py,"main( known_people_folder , image_to_check , cpus , tolerance , show_distance )",15, 154, 12, 0
+repos/python/face_recognition/tests/test_face_recognition.py,"test_load_image_file( self )",3, 103, 8, 0
+repos/python/face_recognition/tests/test_face_recognition.py,"test_load_image_file_32bit( self )",3, 103, 8, 0
+repos/python/face_recognition/tests/test_face_recognition.py,"test_raw_face_locations( self )",7, 103, 8, 0
+repos/python/face_recognition/tests/test_face_recognition.py,"test_cnn_raw_face_locations( self )",7, 103, 8, 0
+repos/python/face_recognition/tests/test_face_recognition.py,"test_raw_face_locations_32bit_image( self )",7, 103, 8, 0
+repos/python/face_recognition/tests/test_face_recognition.py,"test_cnn_raw_face_locations_32bit_image( self )",7, 103, 8, 0
+repos/python/face_recognition/tests/test_face_recognition.py,"test_face_locations( self )",6, 103, 8, 0
+repos/python/face_recognition/tests/test_face_recognition.py,"test_cnn_face_locations( self )",9, 103, 8, 0
+repos/python/face_recognition/tests/test_face_recognition.py,"test_partial_face_locations( self )",12, 117, 8, 0
+repos/python/face_recognition/tests/test_face_recognition.py,"test_raw_face_locations_batched( self )",9, 104, 8, 0
+repos/python/face_recognition/tests/test_face_recognition.py,"test_batched_face_locations( self )",9, 103, 8, 0
+repos/python/face_recognition/tests/test_face_recognition.py,"test_raw_face_landmarks( self )",8, 103, 8, 0
+repos/python/face_recognition/tests/test_face_recognition.py,"test_face_landmarks( self )",15, 103, 8, 0
+repos/python/face_recognition/tests/test_face_recognition.py,"test_face_landmarks_small_model( self )",8, 103, 8, 0
+repos/python/face_recognition/tests/test_face_recognition.py,"test_face_encodings( self )",6, 103, 8, 0
+repos/python/face_recognition/tests/test_face_recognition.py,"test_face_distance( self )",25, 107, 8, 0
+repos/python/face_recognition/tests/test_face_recognition.py,"test_face_distance_empty_lists( self )",17, 103, 8, 0
+repos/python/face_recognition/tests/test_face_recognition.py,"test_compare_faces( self )",23, 107, 8, 0
+repos/python/face_recognition/tests/test_face_recognition.py,"test_compare_faces_empty_lists( self )",17, 103, 8, 0
+repos/python/face_recognition/tests/test_face_recognition.py,"test_command_line_interface_options( self )",6, 75, 8, 0
+repos/python/face_recognition/tests/test_face_recognition.py,"test_command_line_interface( self )",10, 91, 8, 0
+repos/python/face_recognition/tests/test_face_recognition.py,"test_command_line_interface_big_image( self )",10, 91, 8, 0
+repos/python/face_recognition/tests/test_face_recognition.py,"test_command_line_interface_tolerance( self )",10, 114, 8, 0
+repos/python/face_recognition/tests/test_face_recognition.py,"test_command_line_interface_show_distance( self )",10, 115, 8, 0
+repos/python/face_recognition/tests/test_face_recognition.py,"test_fd_command_line_interface_options( self )",6, 73, 8, 0
+repos/python/face_recognition/tests/test_face_recognition.py,"test_fd_command_line_interface( self )",9, 89, 8, 0
+repos/python/face_recognition/tests/test_face_recognition.py,"test_fd_command_line_interface_folder( self )",11, 76, 8, 0
+repos/python/face_recognition/tests/test_face_recognition.py,"test_fd_command_line_interface_hog_model( self )",8, 93, 8, 0
+repos/python/face_recognition/tests/test_face_recognition.py,"test_fd_command_line_interface_cnn_model( self )",8, 93, 8, 0
+repos/python/face_recognition/docs/conf.py,"__getattr__( cls , name )",2, 32, 4, 0
+repos/python/face_recognition/examples/web_service_example_Simplified_Chinese.py,"allowed_file( filename )",3, 68, 11, 0
+repos/python/face_recognition/examples/web_service_example_Simplified_Chinese.py,"upload_image( )",25, 66, 4, 0
+repos/python/face_recognition/examples/web_service_example_Simplified_Chinese.py,"detect_faces_in_image( file_stream )",50, 105, 8, 0
+repos/python/face_recognition/examples/web_service_example.py,"allowed_file( filename )",3, 68, 11, 0
+repos/python/face_recognition/examples/web_service_example.py,"upload_image( )",25, 78, 12, 0
+repos/python/face_recognition/examples/web_service_example.py,"detect_faces_in_image( file_stream )",50, 105, 8, 0
+repos/python/face_recognition/examples/benchmark.py,"run_test( setup , test , iterations_per_test = 5 , tests_to_run = 10 )",5, 103, 4, 0
+repos/python/face_recognition/examples/face_recognition_knn.py,"train( train_dir , model_save_path = None , n_neighbors = None , knn_algo = 'ball_tree' , verbose = False )",63, 171, 20, 0
+repos/python/face_recognition/examples/face_recognition_knn.py,"predict( X_img_path , knn_clf = None , model_path = None , distance_threshold = 0 . 6 )",40, 145, 4, 0
+repos/python/face_recognition/examples/face_recognition_knn.py,"show_prediction_labels_on_image( img_path , predictions )",29, 116, 8, 0

@@ -1,0 +1,149 @@
+File, Function, Length, Total Width, Leading Space(s), Leading Tab(s)
+repos/python/system-design-primer/solutions/system_design/query_cache/query_cache_snippets.py,"__init__( self , memory_cache , reverse_index_cluster )",3, 61, 4, 0
+repos/python/system-design-primer/solutions/system_design/query_cache/query_cache_snippets.py,"parse_query( self , query )",5, 69, 8, 0
+repos/python/system-design-primer/solutions/system_design/query_cache/query_cache_snippets.py,"process_query( self , query )",7, 71, 12, 0
+repos/python/system-design-primer/solutions/system_design/query_cache/query_cache_snippets.py,"__init__( self , query , results )",3, 40, 4, 0
+repos/python/system-design-primer/solutions/system_design/query_cache/query_cache_snippets.py,"__init__( self )",3, 25, 8, 0
+repos/python/system-design-primer/solutions/system_design/query_cache/query_cache_snippets.py,"move_to_front( self , node )",2, 35, 4, 0
+repos/python/system-design-primer/solutions/system_design/query_cache/query_cache_snippets.py,"append_to_front( self , node )",2, 37, 4, 0
+repos/python/system-design-primer/solutions/system_design/query_cache/query_cache_snippets.py,"remove_from_tail( self )",2, 32, 4, 0
+repos/python/system-design-primer/solutions/system_design/query_cache/query_cache_snippets.py,"__init__( self , MAX_SIZE )",5, 40, 8, 0
+repos/python/system-design-primer/solutions/system_design/query_cache/query_cache_snippets.py,"get( self , query )",10, 76, 8, 0
+repos/python/system-design-primer/solutions/system_design/query_cache/query_cache_snippets.py,"set( self , results , query )",24, 83, 8, 0
+repos/python/system-design-primer/solutions/system_design/mint/mint_snippets.py,"__init__( self , seller_category_map , seller_category_overrides_map )",3, 76, 4, 0
+repos/python/system-design-primer/solutions/system_design/mint/mint_snippets.py,"categorize( self , transaction )",8, 69, 8, 0
+repos/python/system-design-primer/solutions/system_design/mint/mint_snippets.py,"__init__( self , timestamp , seller , amount )",4, 51, 4, 0
+repos/python/system-design-primer/solutions/system_design/mint/mint_snippets.py,"__init__( self , template_categories_to_budget_map )",2, 74, 8, 0
+repos/python/system-design-primer/solutions/system_design/mint/mint_snippets.py,"override_category_budget( self , category , amount )",2, 58, 4, 0
+repos/python/system-design-primer/solutions/system_design/mint/mint_mapreduce.py,"__init__( self , categorizer )",3, 39, 8, 0
+repos/python/system-design-primer/solutions/system_design/mint/mint_mapreduce.py,"current_year_month( self )",3, 49, 8, 0
+repos/python/system-design-primer/solutions/system_design/mint/mint_mapreduce.py,"extract_year_month( self , timestamp )",3, 67, 8, 0
+repos/python/system-design-primer/solutions/system_design/mint/mint_mapreduce.py,"handle_budget_notifications( self , key , total )",3, 67, 8, 0
+repos/python/system-design-primer/solutions/system_design/mint/mint_mapreduce.py,"mapper( self , _ , line )",13, 70, 8, 0
+repos/python/system-design-primer/solutions/system_design/mint/mint_mapreduce.py,"reducer( self , key , values )",9, 53, 8, 0
+repos/python/system-design-primer/solutions/system_design/mint/mint_mapreduce.py,"steps( self )",6, 44, 8, 0
+repos/python/system-design-primer/solutions/system_design/web_crawler/web_crawler_mapreduce.py,"mapper( self , _ , line )",2, 31, 4, 0
+repos/python/system-design-primer/solutions/system_design/web_crawler/web_crawler_mapreduce.py,"reducer( self , key , values )",4, 36, 4, 0
+repos/python/system-design-primer/solutions/system_design/web_crawler/web_crawler_mapreduce.py,"steps( self )",6, 44, 8, 0
+repos/python/system-design-primer/solutions/system_design/web_crawler/web_crawler_snippets.py,"__init__( self , db )",3, 28, 4, 0
+repos/python/system-design-primer/solutions/system_design/web_crawler/web_crawler_snippets.py,"add_link_to_crawl( self , url )",3, 54, 8, 0
+repos/python/system-design-primer/solutions/system_design/web_crawler/web_crawler_snippets.py,"remove_link_to_crawl( self , url )",3, 59, 8, 0
+repos/python/system-design-primer/solutions/system_design/web_crawler/web_crawler_snippets.py,"reduce_priority_link_to_crawl( self , url )",3, 81, 8, 0
+repos/python/system-design-primer/solutions/system_design/web_crawler/web_crawler_snippets.py,"extract_max_priority_page( self )",3, 68, 8, 0
+repos/python/system-design-primer/solutions/system_design/web_crawler/web_crawler_snippets.py,"insert_crawled_link( self , url , signature )",3, 53, 8, 0
+repos/python/system-design-primer/solutions/system_design/web_crawler/web_crawler_snippets.py,"crawled_similar( self , signature )",3, 85, 8, 0
+repos/python/system-design-primer/solutions/system_design/web_crawler/web_crawler_snippets.py,"__init__( self , url , contents , child_urls )",5, 51, 4, 0
+repos/python/system-design-primer/solutions/system_design/web_crawler/web_crawler_snippets.py,"create_signature( self )",3, 53, 8, 0
+repos/python/system-design-primer/solutions/system_design/web_crawler/web_crawler_snippets.py,"__init__( self , pages , data_store , reverse_index_queue , doc_index_queue )",5, 81, 4, 0
+repos/python/system-design-primer/solutions/system_design/web_crawler/web_crawler_snippets.py,"crawl_page( self , page )",7, 70, 8, 0
+repos/python/system-design-primer/solutions/system_design/web_crawler/web_crawler_snippets.py,"crawl( self )",10, 72, 16, 0
+repos/python/system-design-primer/solutions/system_design/pastebin/pastebin.py,"extract_url( self , line )",3, 59, 8, 0
+repos/python/system-design-primer/solutions/system_design/pastebin/pastebin.py,"extract_year_month( self , line )",3, 67, 8, 0
+repos/python/system-design-primer/solutions/system_design/pastebin/pastebin.py,"mapper( self , _ , line )",12, 70, 8, 0
+repos/python/system-design-primer/solutions/system_design/pastebin/pastebin.py,"reducer( self , key , values )",7, 36, 4, 0
+repos/python/system-design-primer/solutions/system_design/pastebin/pastebin.py,"steps( self )",6, 44, 8, 0
+repos/python/system-design-primer/solutions/system_design/sales_rank/sales_rank_mapreduce.py,"within_past_week( self , timestamp )",3, 77, 8, 0
+repos/python/system-design-primer/solutions/system_design/sales_rank/sales_rank_mapreduce.py,"mapper( self , _ , line )",15, 70, 8, 0
+repos/python/system-design-primer/solutions/system_design/sales_rank/sales_rank_mapreduce.py,"reducer( self , key , values )",10, 36, 4, 0
+repos/python/system-design-primer/solutions/system_design/sales_rank/sales_rank_mapreduce.py,"mapper_sort( self , key , value )",23, 58, 8, 0
+repos/python/system-design-primer/solutions/system_design/sales_rank/sales_rank_mapreduce.py,"reducer_identity( self , key , value )",2, 44, 4, 0
+repos/python/system-design-primer/solutions/system_design/sales_rank/sales_rank_mapreduce.py,"steps( self )",8, 52, 20, 0
+repos/python/system-design-primer/solutions/system_design/social_graph/social_graph_snippets.py,"bfs( self , source , dest )",16, 65, 16, 0
+repos/python/system-design-primer/solutions/system_design/social_graph/social_graph_snippets.py,"__init__( self , id , name )",4, 34, 4, 0
+repos/python/system-design-primer/solutions/system_design/social_graph/social_graph_snippets.py,"__init__( self )",2, 65, 8, 0
+repos/python/system-design-primer/solutions/system_design/social_graph/social_graph_snippets.py,"get_person( self , person_id )",3, 47, 8, 0
+repos/python/system-design-primer/solutions/system_design/social_graph/social_graph_snippets.py,"__init__( self )",2, 58, 8, 0
+repos/python/system-design-primer/solutions/system_design/social_graph/social_graph_snippets.py,"get_people( self , ids )",6, 48, 16, 0
+repos/python/system-design-primer/solutions/system_design/social_graph/social_graph_snippets.py,"__init__( self , person_ids , lookup )",4, 44, 4, 0
+repos/python/system-design-primer/solutions/system_design/social_graph/social_graph_snippets.py,"bfs( self , source , dest )",4, 63, 8, 0
+repos/python/system-design-primer/solutions/object_oriented_design/deck_of_cards/deck_of_cards.py,"__init__( self , value , suit )",4, 37, 4, 0
+repos/python/system-design-primer/solutions/object_oriented_design/deck_of_cards/deck_of_cards.py,"value( self )",2, 21, 4, 0
+repos/python/system-design-primer/solutions/object_oriented_design/deck_of_cards/deck_of_cards.py,"value( self , other )",2, 28, 4, 0
+repos/python/system-design-primer/solutions/object_oriented_design/deck_of_cards/deck_of_cards.py,"__init__( self , value , suit )",2, 57, 8, 0
+repos/python/system-design-primer/solutions/object_oriented_design/deck_of_cards/deck_of_cards.py,"is_ace( self )",2, 51, 8, 0
+repos/python/system-design-primer/solutions/object_oriented_design/deck_of_cards/deck_of_cards.py,"is_face_card( self )",3, 57, 8, 0
+repos/python/system-design-primer/solutions/object_oriented_design/deck_of_cards/deck_of_cards.py,"value( self )",7, 34, 8, 0
+repos/python/system-design-primer/solutions/object_oriented_design/deck_of_cards/deck_of_cards.py,"value( self , new_value )",5, 73, 12, 0
+repos/python/system-design-primer/solutions/object_oriented_design/deck_of_cards/deck_of_cards.py,"__init__( self , cards )",2, 31, 4, 0
+repos/python/system-design-primer/solutions/object_oriented_design/deck_of_cards/deck_of_cards.py,"add_card( self , card )",2, 32, 8, 0
+repos/python/system-design-primer/solutions/object_oriented_design/deck_of_cards/deck_of_cards.py,"score( self )",5, 38, 12, 0
+repos/python/system-design-primer/solutions/object_oriented_design/deck_of_cards/deck_of_cards.py,"__init__( self , cards )",2, 51, 8, 0
+repos/python/system-design-primer/solutions/object_oriented_design/deck_of_cards/deck_of_cards.py,"score( self )",9, 68, 8, 0
+repos/python/system-design-primer/solutions/object_oriented_design/deck_of_cards/deck_of_cards.py,"possible_scores( self )",3, 74, 8, 0
+repos/python/system-design-primer/solutions/object_oriented_design/deck_of_cards/deck_of_cards.py,"__init__( self , cards )",3, 31, 4, 0
+repos/python/system-design-primer/solutions/object_oriented_design/deck_of_cards/deck_of_cards.py,"remaining_cards( self )",2, 49, 8, 0
+repos/python/system-design-primer/solutions/object_oriented_design/deck_of_cards/deck_of_cards.py,"deal_card( self )",8, 47, 12, 0
+repos/python/system-design-primer/solutions/object_oriented_design/deck_of_cards/deck_of_cards.py,"shuffle( self )",2, 23, 4, 0
+repos/python/system-design-primer/solutions/object_oriented_design/call_center/call_center.py,"__init__( self , employee_id , name , rank , call_center )",6, 62, 4, 0
+repos/python/system-design-primer/solutions/object_oriented_design/call_center/call_center.py,"take_call( self , call )",5, 74, 8, 0
+repos/python/system-design-primer/solutions/object_oriented_design/call_center/call_center.py,"complete_call( self )",3, 58, 8, 0
+repos/python/system-design-primer/solutions/object_oriented_design/call_center/call_center.py,"escalate_call( self )",2, 29, 4, 0
+repos/python/system-design-primer/solutions/object_oriented_design/call_center/call_center.py,"_escalate_call( self )",5, 53, 8, 0
+repos/python/system-design-primer/solutions/object_oriented_design/call_center/call_center.py,"__init__( self , employee_id , name )",2, 73, 8, 0
+repos/python/system-design-primer/solutions/object_oriented_design/call_center/call_center.py,"escalate_call( self )",3, 42, 8, 0
+repos/python/system-design-primer/solutions/object_oriented_design/call_center/call_center.py,"__init__( self , employee_id , name )",2, 75, 8, 0
+repos/python/system-design-primer/solutions/object_oriented_design/call_center/call_center.py,"escalate_call( self )",3, 40, 8, 0
+repos/python/system-design-primer/solutions/object_oriented_design/call_center/call_center.py,"__init__( self , employee_id , name )",2, 73, 8, 0
+repos/python/system-design-primer/solutions/object_oriented_design/call_center/call_center.py,"escalate_call( self )",2, 74, 8, 0
+repos/python/system-design-primer/solutions/object_oriented_design/call_center/call_center.py,"__init__( self , rank )",4, 37, 8, 0
+repos/python/system-design-primer/solutions/object_oriented_design/call_center/call_center.py,"__init__( self , operators , supervisors , directors )",5, 59, 4, 0
+repos/python/system-design-primer/solutions/object_oriented_design/call_center/call_center.py,"dispatch_call( self , call )",12, 77, 8, 0
+repos/python/system-design-primer/solutions/object_oriented_design/call_center/call_center.py,"_dispatch_call( self , call , employees )",6, 47, 4, 0
+repos/python/system-design-primer/solutions/object_oriented_design/call_center/call_center.py,"notify_call_escalated( self , call )",2, 43, 4, 0
+repos/python/system-design-primer/solutions/object_oriented_design/call_center/call_center.py,"notify_call_completed( self , call )",2, 43, 4, 0
+repos/python/system-design-primer/solutions/object_oriented_design/call_center/call_center.py,"dispatch_queued_call_to_newly_freed_employee( self , call , employee )",2, 76, 4, 0
+repos/python/system-design-primer/solutions/object_oriented_design/lru_cache/lru_cache.py,"__init__( self , results )",3, 33, 4, 0
+repos/python/system-design-primer/solutions/object_oriented_design/lru_cache/lru_cache.py,"__init__( self )",3, 25, 8, 0
+repos/python/system-design-primer/solutions/object_oriented_design/lru_cache/lru_cache.py,"move_to_front( self , node )",2, 35, 4, 0
+repos/python/system-design-primer/solutions/object_oriented_design/lru_cache/lru_cache.py,"append_to_front( self , node )",2, 37, 4, 0
+repos/python/system-design-primer/solutions/object_oriented_design/lru_cache/lru_cache.py,"remove_from_tail( self )",2, 32, 4, 0
+repos/python/system-design-primer/solutions/object_oriented_design/lru_cache/lru_cache.py,"__init__( self , MAX_SIZE )",5, 52, 8, 0
+repos/python/system-design-primer/solutions/object_oriented_design/lru_cache/lru_cache.py,"get( self , query )",10, 76, 8, 0
+repos/python/system-design-primer/solutions/object_oriented_design/lru_cache/lru_cache.py,"set( self , results , query )",24, 83, 8, 0
+repos/python/system-design-primer/solutions/object_oriented_design/hash_table/hash_map.py,"__init__( self , key , value )",3, 36, 4, 0
+repos/python/system-design-primer/solutions/object_oriented_design/hash_table/hash_map.py,"__init__( self , size )",3, 52, 8, 0
+repos/python/system-design-primer/solutions/object_oriented_design/hash_table/hash_map.py,"_hash_function( self , key )",2, 35, 4, 0
+repos/python/system-design-primer/solutions/object_oriented_design/hash_table/hash_map.py,"set( self , key , value )",7, 56, 8, 0
+repos/python/system-design-primer/solutions/object_oriented_design/hash_table/hash_map.py,"get( self , key )",6, 46, 8, 0
+repos/python/system-design-primer/solutions/object_oriented_design/hash_table/hash_map.py,"remove( self , key )",7, 62, 8, 0
+repos/python/system-design-primer/solutions/object_oriented_design/parking_lot/parking_lot.py,"__init__( self , vehicle_size , license_plate , spot_size )",5, 64, 4, 0
+repos/python/system-design-primer/solutions/object_oriented_design/parking_lot/parking_lot.py,"clear_spots( self )",4, 38, 8, 0
+repos/python/system-design-primer/solutions/object_oriented_design/parking_lot/parking_lot.py,"take_spot( self , spot )",2, 38, 8, 0
+repos/python/system-design-primer/solutions/object_oriented_design/parking_lot/parking_lot.py,"can_fit_in_spot( self , spot )",2, 37, 4, 0
+repos/python/system-design-primer/solutions/object_oriented_design/parking_lot/parking_lot.py,"__init__( self , license_plate )",2, 93, 8, 0
+repos/python/system-design-primer/solutions/object_oriented_design/parking_lot/parking_lot.py,"can_fit_in_spot( self , spot )",2, 37, 4, 0
+repos/python/system-design-primer/solutions/object_oriented_design/parking_lot/parking_lot.py,"__init__( self , license_plate )",2, 83, 8, 0
+repos/python/system-design-primer/solutions/object_oriented_design/parking_lot/parking_lot.py,"can_fit_in_spot( self , spot )",2, 69, 8, 0
+repos/python/system-design-primer/solutions/object_oriented_design/parking_lot/parking_lot.py,"__init__( self , license_plate )",2, 81, 8, 0
+repos/python/system-design-primer/solutions/object_oriented_design/parking_lot/parking_lot.py,"can_fit_in_spot( self , spot )",2, 46, 8, 0
+repos/python/system-design-primer/solutions/object_oriented_design/parking_lot/parking_lot.py,"__init__( self , num_levels )",3, 43, 8, 0
+repos/python/system-design-primer/solutions/object_oriented_design/parking_lot/parking_lot.py,"park_vehicle( self , vehicle )",5, 44, 12, 0
+repos/python/system-design-primer/solutions/object_oriented_design/parking_lot/parking_lot.py,"__init__( self , floor , total_spots )",5, 48, 8, 0
+repos/python/system-design-primer/solutions/object_oriented_design/parking_lot/parking_lot.py,"spot_freed( self )",2, 34, 8, 0
+repos/python/system-design-primer/solutions/object_oriented_design/parking_lot/parking_lot.py,"park_vehicle( self , vehicle )",7, 50, 8, 0
+repos/python/system-design-primer/solutions/object_oriented_design/parking_lot/parking_lot.py,"_find_available_spot( self , vehicle )",3, 75, 8, 0
+repos/python/system-design-primer/solutions/object_oriented_design/parking_lot/parking_lot.py,"_park_starting_at_spot( self , spot , vehicle )",3, 72, 8, 0
+repos/python/system-design-primer/solutions/object_oriented_design/parking_lot/parking_lot.py,"__init__( self , level , row , spot_number , spot_size , vehicle_size )",7, 74, 4, 0
+repos/python/system-design-primer/solutions/object_oriented_design/parking_lot/parking_lot.py,"is_available( self )",2, 55, 8, 0
+repos/python/system-design-primer/solutions/object_oriented_design/parking_lot/parking_lot.py,"can_fit_vehicle( self , vehicle )",4, 45, 8, 0
+repos/python/system-design-primer/solutions/object_oriented_design/parking_lot/parking_lot.py,"park_vehicle( self , vehicle )",2, 37, 4, 0
+repos/python/system-design-primer/solutions/object_oriented_design/parking_lot/parking_lot.py,"remove_vehicle( self )",2, 30, 4, 0
+repos/python/system-design-primer/solutions/object_oriented_design/online_chat/online_chat.py,"__init__( self )",2, 59, 8, 0
+repos/python/system-design-primer/solutions/object_oriented_design/online_chat/online_chat.py,"add_user( self , user_id , name , pass_hash )",2, 50, 4, 0
+repos/python/system-design-primer/solutions/object_oriented_design/online_chat/online_chat.py,"remove_user( self , user_id )",2, 36, 4, 0
+repos/python/system-design-primer/solutions/object_oriented_design/online_chat/online_chat.py,"add_friend_request( self , from_user_id , to_user_id )",2, 60, 4, 0
+repos/python/system-design-primer/solutions/object_oriented_design/online_chat/online_chat.py,"approve_friend_request( self , from_user_id , to_user_id )",2, 64, 4, 0
+repos/python/system-design-primer/solutions/object_oriented_design/online_chat/online_chat.py,"reject_friend_request( self , from_user_id , to_user_id )",2, 63, 4, 0
+repos/python/system-design-primer/solutions/object_oriented_design/online_chat/online_chat.py,"__init__( self , user_id , name , pass_hash )",9, 93, 8, 0
+repos/python/system-design-primer/solutions/object_oriented_design/online_chat/online_chat.py,"message_user( self , friend_id , message )",2, 48, 4, 0
+repos/python/system-design-primer/solutions/object_oriented_design/online_chat/online_chat.py,"message_group( self , group_id , message )",2, 48, 4, 0
+repos/python/system-design-primer/solutions/object_oriented_design/online_chat/online_chat.py,"send_friend_request( self , friend_id )",2, 46, 4, 0
+repos/python/system-design-primer/solutions/object_oriented_design/online_chat/online_chat.py,"receive_friend_request( self , friend_id )",2, 49, 4, 0
+repos/python/system-design-primer/solutions/object_oriented_design/online_chat/online_chat.py,"approve_friend_request( self , friend_id )",2, 49, 4, 0
+repos/python/system-design-primer/solutions/object_oriented_design/online_chat/online_chat.py,"reject_friend_request( self , friend_id )",2, 48, 4, 0
+repos/python/system-design-primer/solutions/object_oriented_design/online_chat/online_chat.py,"__init__( self , chat_id )",4, 33, 4, 0
+repos/python/system-design-primer/solutions/object_oriented_design/online_chat/online_chat.py,"__init__( self , first_user , second_user )",4, 49, 4, 0
+repos/python/system-design-primer/solutions/object_oriented_design/online_chat/online_chat.py,"add_user( self , user )",2, 30, 4, 0
+repos/python/system-design-primer/solutions/object_oriented_design/online_chat/online_chat.py,"remove_user( self , user )",2, 33, 4, 0
+repos/python/system-design-primer/solutions/object_oriented_design/online_chat/online_chat.py,"__init__( self , message_id , message , timestamp )",4, 56, 4, 0
+repos/python/system-design-primer/solutions/object_oriented_design/online_chat/online_chat.py,"__init__( self , from_user_id , to_user_id , request_status , timestamp )",5, 77, 4, 0

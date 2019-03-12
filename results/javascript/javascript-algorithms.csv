@@ -1,0 +1,144 @@
+File, Function, Length, Total Width, Leading Space(s), Leading Tab(s)
+repos/javascript/javascript-algorithms/src/data-structures/tree/binary-search-tree/__test__/BinarySearchTreeNode.test.js,"removeNotExistingElementFromTree ( )",3, 50, 4, 0
+repos/javascript/javascript-algorithms/src/data-structures/disjoint-set/__test__/DisjointSet.test.js,"mergeNotExistingSets ( )",5, 45, 6, 0
+repos/javascript/javascript-algorithms/src/data-structures/disjoint-set/__test__/DisjointSet.test.js,"checkNotExistingSets ( )",5, 45, 6, 0
+repos/javascript/javascript-algorithms/src/data-structures/graph/__test__/Graph.test.js,"addSameEdgeTwice ( )",12, 54, 6, 0
+repos/javascript/javascript-algorithms/src/data-structures/graph/__test__/Graph.test.js,"deleteNotExistingEdge ( )",13, 54, 6, 0
+repos/javascript/javascript-algorithms/src/data-structures/graph/__test__/GraphVertex.test.js,"createEmptyVertex ( )",3, 35, 4, 0
+repos/javascript/javascript-algorithms/src/algorithms/tree/depth-first-search/depthFirstSearch.js,"initCallbacks ( callbacks = { } )",18, 97, 2, 0
+repos/javascript/javascript-algorithms/src/algorithms/tree/depth-first-search/depthFirstSearch.js,"depthFirstSearchRecursive ( node , callbacks )",18, 83, 2, 0
+repos/javascript/javascript-algorithms/src/algorithms/tree/depth-first-search/depthFirstSearch.js,"depthFirstSearch ( rootNode , callbacks )",7, 93, 2, 0
+repos/javascript/javascript-algorithms/src/algorithms/tree/breadth-first-search/breadthFirstSearch.js,"initCallbacks ( callbacks = { } )",12, 88, 2, 0
+repos/javascript/javascript-algorithms/src/algorithms/tree/breadth-first-search/breadthFirstSearch.js,"breadthFirstSearch ( rootNode , originalCallbacks )",27, 89, 4, 0
+repos/javascript/javascript-algorithms/src/algorithms/linked-list/reverse-traversal/reverseTraversal.js,"reverseTraversalRecursive ( node , callback )",6, 53, 0, 0
+repos/javascript/javascript-algorithms/src/algorithms/linked-list/reverse-traversal/reverseTraversal.js,"reverseTraversal ( linkedList , callback )",3, 65, 0, 0
+repos/javascript/javascript-algorithms/src/algorithms/linked-list/traversal/traversal.js,"traversal ( linkedList , callback )",8, 58, 0, 0
+repos/javascript/javascript-algorithms/src/algorithms/graph/depth-first-search/depthFirstSearch.js,"initCallbacks ( callbacks = { } )",24, 89, 2, 0
+repos/javascript/javascript-algorithms/src/algorithms/graph/depth-first-search/depthFirstSearch.js,"depthFirstSearchRecursive ( graph , currentVertex , previousVertex , callbacks )",11, 86, 0, 0
+repos/javascript/javascript-algorithms/src/algorithms/graph/depth-first-search/depthFirstSearch.js,"depthFirstSearch ( graph , startVertex , callbacks )",4, 91, 2, 0
+repos/javascript/javascript-algorithms/src/algorithms/graph/eulerian-path/eulerianPath.js,"eulerianPath ( graph )",93, 88, 4, 0
+repos/javascript/javascript-algorithms/src/algorithms/graph/eulerian-path/__test__/eulerianPath.test.js,"findEulerianPathInNotEulerianGraph ( )",24, 54, 6, 0
+repos/javascript/javascript-algorithms/src/algorithms/graph/bellman-ford/bellmanFord.js,"bellmanFord ( graph , startVertex )",40, 93, 2, 0
+repos/javascript/javascript-algorithms/src/algorithms/graph/kruskal/kruskal.js,"kruskal ( graph )",54, 82, 4, 0
+repos/javascript/javascript-algorithms/src/algorithms/graph/kruskal/__test__/kruskal.test.js,"applyPrimToDirectedGraph ( )",5, 42, 4, 0
+repos/javascript/javascript-algorithms/src/algorithms/graph/floyd-warshall/floydWarshall.js,"floydWarshall ( graph )",68, 101, 8, 0
+repos/javascript/javascript-algorithms/src/algorithms/graph/detect-cycle/detectUndirectedCycle.js,"detectUndirectedCycle ( graph )",52, 96, 6, 0
+repos/javascript/javascript-algorithms/src/algorithms/graph/detect-cycle/detectUndirectedCycleUsingDisjointSet.js,"detectUndirectedCycleUsingDisjointSet ( graph )",24, 84, 2, 0
+repos/javascript/javascript-algorithms/src/algorithms/graph/detect-cycle/detectDirectedCycle.js,"detectDirectedCycle ( graph )",86, 88, 8, 0
+repos/javascript/javascript-algorithms/src/algorithms/graph/breadth-first-search/breadthFirstSearch.js,"initCallbacks ( callbacks = { } )",24, 89, 2, 0
+repos/javascript/javascript-algorithms/src/algorithms/graph/breadth-first-search/breadthFirstSearch.js,"breadthFirstSearch ( graph , startVertex , originalCallbacks )",27, 85, 6, 0
+repos/javascript/javascript-algorithms/src/algorithms/graph/articulation-points/articulationPoints.js,"articulationPoints ( graph )",92, 98, 12, 0
+repos/javascript/javascript-algorithms/src/algorithms/graph/bridges/graphBridges.js,"graphBridges ( graph )",79, 98, 12, 0
+repos/javascript/javascript-algorithms/src/algorithms/graph/prim/prim.js,"prim ( graph )",66, 86, 4, 0
+repos/javascript/javascript-algorithms/src/algorithms/graph/prim/__test__/prim.test.js,"applyPrimToDirectedGraph ( )",5, 42, 4, 0
+repos/javascript/javascript-algorithms/src/algorithms/graph/topological-sorting/topologicalSort.js,"topologicalSort ( graph )",41, 82, 6, 0
+repos/javascript/javascript-algorithms/src/algorithms/graph/dijkstra/dijkstra.js,"dijkstra ( graph , startVertex )",66, 95, 8, 0
+repos/javascript/javascript-algorithms/src/algorithms/graph/travelling-salesman/bfTravellingSalesman.js,"findAllPaths ( startVertex , paths = [ ] , path = [ ] )",35, 95, 2, 0
+repos/javascript/javascript-algorithms/src/algorithms/graph/travelling-salesman/bfTravellingSalesman.js,"getCycleWeight ( adjacencyMatrix , verticesIndices , cycle )",13, 73, 2, 0
+repos/javascript/javascript-algorithms/src/algorithms/graph/travelling-salesman/bfTravellingSalesman.js,"bfTravellingSalesman ( graph )",36, 98, 4, 0
+repos/javascript/javascript-algorithms/src/algorithms/graph/hamiltonian-cycle/hamiltonianCycle.js,"isSafe ( adjacencyMatrix , verticesIndices , cycle , vertexCandidate )",17, 97, 2, 0
+repos/javascript/javascript-algorithms/src/algorithms/graph/hamiltonian-cycle/hamiltonianCycle.js,"isCycle ( adjacencyMatrix , verticesIndices , cycle )",14, 91, 2, 0
+repos/javascript/javascript-algorithms/src/algorithms/graph/hamiltonian-cycle/hamiltonianCycle.js,"hamiltonianCycleRecursive ( { adjacencyMatrix , vertices , verticesIndices , cycles , cycle , } )",44, 92, 4, 0
+repos/javascript/javascript-algorithms/src/algorithms/graph/hamiltonian-cycle/hamiltonianCycle.js,"hamiltonianCycle ( graph )",30, 73, 2, 0
+repos/javascript/javascript-algorithms/src/algorithms/graph/strongly-connected-components/stronglyConnectedComponents.js,"getVerticesSortedByDfsFinishTime ( graph )",48, 96, 2, 0
+repos/javascript/javascript-algorithms/src/algorithms/graph/strongly-connected-components/stronglyConnectedComponents.js,"getSCCSets ( graph , verticesByFinishTime )",50, 94, 6, 0
+repos/javascript/javascript-algorithms/src/algorithms/graph/strongly-connected-components/stronglyConnectedComponents.js,"stronglyConnectedComponents ( graph )",15, 82, 2, 0
+repos/javascript/javascript-algorithms/src/algorithms/math/primality-test/trialDivision.js,"trialDivision ( number )",31, 94, 2, 0
+repos/javascript/javascript-algorithms/src/algorithms/math/primality-test/__test__/trialDivision.test.js,"primalityTest ( testFunction )",26, 42, 2, 0
+repos/javascript/javascript-algorithms/src/algorithms/math/fast-powering/fastPowering.js,"fastPowering ( base , power )",20, 72, 4, 0
+repos/javascript/javascript-algorithms/src/algorithms/math/euclidean-algorithm/euclideanAlgorithmIterative.js,"euclideanAlgorithmIterative ( originalA , originalB )",14, 96, 2, 0
+repos/javascript/javascript-algorithms/src/algorithms/math/euclidean-algorithm/euclideanAlgorithm.js,"euclideanAlgorithm ( originalA , originalB )",9, 84, 2, 0
+repos/javascript/javascript-algorithms/src/algorithms/math/integer-partition/integerPartition.js,"integerPartition ( number )",53, 101, 8, 0
+repos/javascript/javascript-algorithms/src/algorithms/math/radian/radianToDegree.js,"radianToDegree ( radian )",3, 49, 0, 0
+repos/javascript/javascript-algorithms/src/algorithms/math/radian/degreeToRadian.js,"degreeToRadian ( degree )",3, 49, 0, 0
+repos/javascript/javascript-algorithms/src/algorithms/math/liu-hui/liuHui.js,"getNGonSideLength ( sideLength , splitCounter )",14, 76, 2, 0
+repos/javascript/javascript-algorithms/src/algorithms/math/liu-hui/liuHui.js,"getNGonSideCount ( splitCount )",7, 87, 2, 0
+repos/javascript/javascript-algorithms/src/algorithms/math/liu-hui/liuHui.js,"liuHui ( splitCount = 1 )",9, 74, 2, 0
+repos/javascript/javascript-algorithms/src/algorithms/math/factorial/factorialRecursive.js,"factorialRecursive ( number )",3, 67, 2, 0
+repos/javascript/javascript-algorithms/src/algorithms/math/factorial/factorial.js,"factorial ( number )",9, 44, 0, 0
+repos/javascript/javascript-algorithms/src/algorithms/math/is-power-of-two/isPowerOfTwo.js,"isPowerOfTwo ( number )",21, 78, 6, 0
+repos/javascript/javascript-algorithms/src/algorithms/math/is-power-of-two/isPowerOfTwoBitwise.js,"isPowerOfTwoBitwise ( number )",22, 95, 3, 0
+repos/javascript/javascript-algorithms/src/algorithms/math/least-common-multiple/leastCommonMultiple.js,"leastCommonMultiple ( a , b )",3, 84, 2, 0
+repos/javascript/javascript-algorithms/src/algorithms/math/sieve-of-eratosthenes/sieveOfEratosthenes.js,"sieveOfEratosthenes ( maxNumber )",32, 94, 7, 0
+repos/javascript/javascript-algorithms/src/algorithms/math/bits/switchSign.js,"switchSign ( number )",3, 45, 0, 0
+repos/javascript/javascript-algorithms/src/algorithms/math/bits/multiplyUnsigned.js,"multiplyUnsigned ( number1 , number2 )",25, 69, 6, 0
+repos/javascript/javascript-algorithms/src/algorithms/math/bits/multiply.js,"multiply ( a , b )",15, 99, 2, 0
+repos/javascript/javascript-algorithms/src/algorithms/math/bits/isEven.js,"isEven ( number )",3, 41, 0, 0
+repos/javascript/javascript-algorithms/src/algorithms/math/bits/bitLength.js,"bitLength ( number )",9, 44, 0, 0
+repos/javascript/javascript-algorithms/src/algorithms/math/bits/isPowerOfTwo.js,"isPowerOfTwo ( number )",3, 47, 0, 0
+repos/javascript/javascript-algorithms/src/algorithms/math/bits/countSetBits.js,"countSetBits ( originalNumber )",14, 64, 4, 0
+repos/javascript/javascript-algorithms/src/algorithms/math/bits/getBit.js,"getBit ( number , bitPosition )",3, 54, 0, 0
+repos/javascript/javascript-algorithms/src/algorithms/math/bits/isPositive.js,"isPositive ( number )",9, 92, 2, 0
+repos/javascript/javascript-algorithms/src/algorithms/math/bits/setBit.js,"setBit ( number , bitPosition )",3, 54, 0, 0
+repos/javascript/javascript-algorithms/src/algorithms/math/bits/multiplyByTwo.js,"multiplyByTwo ( number )",3, 48, 0, 0
+repos/javascript/javascript-algorithms/src/algorithms/math/bits/bitsDiff.js,"bitsDiff ( numberA , numberB )",3, 53, 0, 0
+repos/javascript/javascript-algorithms/src/algorithms/math/bits/divideByTwo.js,"divideByTwo ( number )",3, 46, 0, 0
+repos/javascript/javascript-algorithms/src/algorithms/math/bits/updateBit.js,"updateBit ( number , bitPosition , bitValue )",10, 69, 2, 0
+repos/javascript/javascript-algorithms/src/algorithms/math/bits/clearBit.js,"clearBit ( number , bitPosition )",5, 56, 0, 0
+repos/javascript/javascript-algorithms/src/algorithms/math/fourier-transform/discreteFourierTransform.js,"dft ( inputAmplitudes , zeroThreshold = CLOSE_TO_ZERO_THRESHOLD )",48, 90, 4, 0
+repos/javascript/javascript-algorithms/src/algorithms/math/fourier-transform/fastFourierTransform.js,"reverseBits ( input , bitsCount )",13, 64, 2, 0
+repos/javascript/javascript-algorithms/src/algorithms/math/fourier-transform/fastFourierTransform.js,"fastFourierTransform ( inputData , inverse = false )",45, 98, 6, 0
+repos/javascript/javascript-algorithms/src/algorithms/math/fourier-transform/inverseDiscreteFourierTransform.js,"inverseDiscreteFourierTransform ( frequencies , zeroThreshold = CLOSE_TO_ZERO_THRESHOLD , )",43, 69, 6, 0
+repos/javascript/javascript-algorithms/src/algorithms/math/fourier-transform/__test__/fastFourierTransform.test.js,"sequencesApproximatelyEqual ( sequence1 , sequence2 , delta )",17, 83, 4, 0
+repos/javascript/javascript-algorithms/src/algorithms/math/fibonacci/fibonacciNth.js,"fibonacciNth ( n )",19, 50, 4, 0
+repos/javascript/javascript-algorithms/src/algorithms/math/fibonacci/fibonacciNthClosedForm.js,"fibonacciClosedForm ( position )",16, 100, 4, 0
+repos/javascript/javascript-algorithms/src/algorithms/math/fibonacci/fibonacci.js,"fibonacci ( n )",23, 50, 4, 0
+repos/javascript/javascript-algorithms/src/algorithms/math/pascal-triangle/pascalTriangle.js,"pascalTriangle ( lineNumber )",12, 96, 4, 0
+repos/javascript/javascript-algorithms/src/algorithms/math/pascal-triangle/pascalTriangleRecursive.js,"pascalTriangleRecursive ( lineNumber )",26, 87, 4, 0
+repos/javascript/javascript-algorithms/src/algorithms/search/interpolation-search/interpolationSearch.js,"interpolationSearch ( sortedArray , seekElement )",45, 86, 4, 0
+repos/javascript/javascript-algorithms/src/algorithms/search/jump-search/jumpSearch.js,"jumpSearch ( sortedArray , seekElement , comparatorCallback )",41, 98, 2, 0
+repos/javascript/javascript-algorithms/src/algorithms/search/linear-search/linearSearch.js,"linearSearch ( array , seekElement , comparatorCallback )",12, 79, 0, 0
+repos/javascript/javascript-algorithms/src/algorithms/search/binary-search/binarySearch.js,"binarySearch ( sortedArray , seekElement , comparatorCallback )",33, 91, 2, 0
+repos/javascript/javascript-algorithms/src/algorithms/uncategorized/hanoi-tower/hanoiTower.js,"hanoiTowerRecursive ( { numberOfDiscs , fromPole , withPole , toPole , moveCallback , } )",43, 74, 4, 0
+repos/javascript/javascript-algorithms/src/algorithms/uncategorized/hanoi-tower/hanoiTower.js,"hanoiTower ( { numberOfDiscs , moveCallback , fromPole = new Stack ( )",15, 80, 2, 0
+repos/javascript/javascript-algorithms/src/algorithms/uncategorized/hanoi-tower/hanoiTower.js,"*global*",85, 86, 1, 0
+repos/javascript/javascript-algorithms/src/algorithms/uncategorized/rain-terraces/dpRainTerraces.js,"dpRainTerraces ( terraces )",41, 98, 2, 0
+repos/javascript/javascript-algorithms/src/algorithms/uncategorized/rain-terraces/bfRainTerraces.js,"bfRainTerraces ( terraces )",27, 93, 4, 0
+repos/javascript/javascript-algorithms/src/algorithms/uncategorized/unique-paths/uniquePaths.js,"uniquePaths ( width , height )",6, 58, 2, 0
+repos/javascript/javascript-algorithms/src/algorithms/uncategorized/unique-paths/btUniquePaths.js,"btUniquePaths ( width , height , steps = [ [ 0 , 0 ] ] , uniqueSteps = 0 )",49, 90, 0, 0
+repos/javascript/javascript-algorithms/src/algorithms/uncategorized/unique-paths/dpUniquePaths.js,"dpUniquePaths ( width , height )",33, 71, 4, 0
+repos/javascript/javascript-algorithms/src/algorithms/uncategorized/jump-game/greedyJumpGame.js,"greedyJumpGame ( numbers )",21, 94, 2, 0
+repos/javascript/javascript-algorithms/src/algorithms/uncategorized/jump-game/dpBottomUpJumpGame.js,"dpBottomUpJumpGame ( numbers )",28, 91, 2, 0
+repos/javascript/javascript-algorithms/src/algorithms/uncategorized/jump-game/dpTopDownJumpGame.js,"dpTopDownJumpGame ( numbers , startIndex = 0 , currentJumps = [ ] , cellsGoodness = [ ] , )",61, 85, 4, 0
+repos/javascript/javascript-algorithms/src/algorithms/uncategorized/jump-game/backtrackingJumpGame.js,"backtrackingJumpGame ( numbers , startIndex = 0 , currentJumps = [ ] )",34, 91, 0, 0
+repos/javascript/javascript-algorithms/src/algorithms/uncategorized/knight-tour/knightTour.js,"getPossibleMoves ( chessboard , position )",19, 87, 4, 0
+repos/javascript/javascript-algorithms/src/algorithms/uncategorized/knight-tour/knightTour.js,"isMoveAllowed ( chessboard , move )",3, 45, 2, 0
+repos/javascript/javascript-algorithms/src/algorithms/uncategorized/knight-tour/knightTour.js,"isBoardCompletelyVisited ( chessboard , moves )",6, 58, 2, 0
+repos/javascript/javascript-algorithms/src/algorithms/uncategorized/knight-tour/knightTour.js,"knightTourRecursive ( chessboard , moves )",39, 85, 6, 0
+repos/javascript/javascript-algorithms/src/algorithms/uncategorized/knight-tour/knightTour.js,"knightTour ( chessboardSize )",17, 96, 2, 0
+repos/javascript/javascript-algorithms/src/algorithms/uncategorized/recursive-staircase/recursiveStaircaseIT.js,"recursiveStaircaseIT ( stairsNum )",25, 89, 2, 0
+repos/javascript/javascript-algorithms/src/algorithms/uncategorized/recursive-staircase/recursiveStaircaseDP.js,"recursiveStaircaseDP ( stairsNum )",27, 94, 2, 0
+repos/javascript/javascript-algorithms/src/algorithms/uncategorized/recursive-staircase/recursiveStaircaseMEM.js,"recursiveStaircaseMEM ( totalStairs )",38, 98, 6, 0
+repos/javascript/javascript-algorithms/src/algorithms/uncategorized/recursive-staircase/recursiveStaircaseBF.js,"recursiveStaircaseBF ( stairsNum )",21, 96, 4, 0
+repos/javascript/javascript-algorithms/src/algorithms/uncategorized/square-matrix-rotation/squareMatrixRotation.js,"squareMatrixRotation ( originalMatrix )",33, 90, 4, 0
+repos/javascript/javascript-algorithms/src/algorithms/uncategorized/n-queens/nQueens.js,"isSafe ( queensPositions , rowIndex , columnIndex )",31, 83, 2, 0
+repos/javascript/javascript-algorithms/src/algorithms/uncategorized/n-queens/nQueens.js,"nQueensRecursive ( solutions , previousQueensPositions , queensCount , rowIndex )",35, 87, 0, 0
+repos/javascript/javascript-algorithms/src/algorithms/uncategorized/n-queens/nQueens.js,"nQueens ( queensCount )",16, 93, 2, 0
+repos/javascript/javascript-algorithms/src/algorithms/uncategorized/n-queens/nQueensBitwise.js,"nQueensBitwiseRecursive ( boardSize , leftDiagonal = 0 , column = 0 , rightDiagonal = 0 , solutionsCount = 0 , )",79, 101, 4, 0
+repos/javascript/javascript-algorithms/src/algorithms/uncategorized/n-queens/nQueensBitwise.js,"nQueensBitwise ( boardSize )",3, 52, 0, 0
+repos/javascript/javascript-algorithms/src/algorithms/sets/fisher-yates/fisherYates.js,"fisherYates ( originalArray )",11, 89, 2, 0
+repos/javascript/javascript-algorithms/src/algorithms/sets/power-set/btPowerSet.js,"btPowerSetRecursive ( originalSet , allSubsets = [ [ ] ] , currentSubSet = [ ] , startAt = 0 )",24, 96, 0, 0
+repos/javascript/javascript-algorithms/src/algorithms/sets/power-set/btPowerSet.js,"btPowerSet ( originalSet )",3, 50, 0, 0
+repos/javascript/javascript-algorithms/src/algorithms/sets/power-set/bwPowerSet.js,"bwPowerSet ( originalSet )",28, 99, 2, 0
+repos/javascript/javascript-algorithms/src/algorithms/sets/longest-common-subsequence/longestCommonSubsequence.js,"longestCommonSubsequence ( set1 , set2 )",55, 100, 2, 0
+repos/javascript/javascript-algorithms/src/algorithms/sets/combinations/combineWithRepetitions.js,"combineWithRepetitions ( comboOptions , comboLength )",27, 93, 2, 0
+repos/javascript/javascript-algorithms/src/algorithms/sets/combinations/combineWithoutRepetitions.js,"combineWithoutRepetitions ( comboOptions , comboLength )",27, 92, 2, 0
+repos/javascript/javascript-algorithms/src/algorithms/sets/shortest-common-supersequence/shortestCommonSupersequence.js,"shortestCommonSupersequence ( set1 , set2 )",63, 83, 2, 0
+repos/javascript/javascript-algorithms/src/algorithms/sets/combination-sum/combinationSum.js,"combinationSumRecursive ( candidates , remainingSum , finalCombinations = [ ] , currentCombination = [ ] , startFrom = 0 , )",46, 98, 2, 0
+repos/javascript/javascript-algorithms/src/algorithms/sets/combination-sum/combinationSum.js,"combinationSum ( candidates , target )",3, 61, 0, 0
+repos/javascript/javascript-algorithms/src/algorithms/sets/longest-increasing-subsequence/dpLongestIncreasingSubsequence.js,"dpLongestIncreasingSubsequence ( sequence )",46, 85, 8, 0
+repos/javascript/javascript-algorithms/src/algorithms/sets/cartesian-product/cartesianProduct.js,"cartesianProduct ( setA , setB )",21, 95, 2, 0
+repos/javascript/javascript-algorithms/src/algorithms/sets/maximum-subarray/bfMaximumSubarray.js,"bfMaximumSubarray ( inputArray )",19, 93, 4, 0
+repos/javascript/javascript-algorithms/src/algorithms/sets/maximum-subarray/dpMaximumSubarray.js,"dpMaximumSubarray ( inputArray )",38, 98, 2, 0
+repos/javascript/javascript-algorithms/src/algorithms/sets/permutations/permutateWithoutRepetitions.js,"permutateWithoutRepetitions ( permutationOptions )",27, 98, 4, 0
+repos/javascript/javascript-algorithms/src/algorithms/sets/permutations/permutateWithRepetitions.js,"permutateWithRepetitions ( permutationOptions , permutationLength = permutationOptions . length , )",26, 77, 4, 0
+repos/javascript/javascript-algorithms/src/algorithms/sorting/__test__/Sort.test.js,"doForbiddenSort ( )",4, 33, 4, 0
+repos/javascript/javascript-algorithms/src/algorithms/string/regular-expression-matching/regularExpressionMatching.js,"regularExpressionMatching ( string , pattern )",125, 94, 9, 0
+repos/javascript/javascript-algorithms/src/algorithms/string/levenshtein-distance/levenshteinDistance.js,"levenshteinDistance ( a , b )",32, 99, 2, 0
+repos/javascript/javascript-algorithms/src/algorithms/string/knuth-morris-pratt/knuthMorrisPratt.js,"buildPatternTable ( word )",20, 51, 4, 0
+repos/javascript/javascript-algorithms/src/algorithms/string/knuth-morris-pratt/knuthMorrisPratt.js,"knuthMorrisPratt ( text , word )",28, 55, 0, 0
+repos/javascript/javascript-algorithms/src/algorithms/string/longest-common-substring/longestCommonSubstring.js,"longestCommonSubstring ( string1 , string2 )",61, 101, 8, 0
+repos/javascript/javascript-algorithms/src/algorithms/string/z-algorithm/zAlgorithm.js,"buildZArray ( zString )",92, 84, 8, 0
+repos/javascript/javascript-algorithms/src/algorithms/string/z-algorithm/zAlgorithm.js,"zAlgorithm ( text , word )",27, 89, 2, 0
+repos/javascript/javascript-algorithms/src/algorithms/string/hamming-distance/hammingDistance.js,"hammingDistance ( a , b )",15, 59, 4, 0
+repos/javascript/javascript-algorithms/src/algorithms/string/rabin-karp/rabinKarp.js,"rabinKarp ( text , word )",35, 86, 2, 0

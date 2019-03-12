@@ -1,0 +1,513 @@
+File, Function, Length, Total Width, Leading Space(s), Leading Tab(s)
+repos/python/geekcomputers-Python/recyclebin.py,"sid2user( sid )",8, 111, 4, 0
+repos/python/geekcomputers-Python/recyclebin.py,"returnDir( )",7, 76, 0, 0
+repos/python/geekcomputers-Python/recyclebin.py,"findRecycled( recycleDir )",9, 91, 0, 0
+repos/python/geekcomputers-Python/recyclebin.py,"main( )",3, 27, 2, 0
+repos/python/geekcomputers-Python/Decimal_To_Binary.py,"dtbconverter( num )",26, 104, 4, 0
+repos/python/geekcomputers-Python/Guess_the_number_game.py,"new_game( )",3, 22, 4, 0
+repos/python/geekcomputers-Python/Guess_the_number_game.py,"range_of_100( )",4, 34, 4, 0
+repos/python/geekcomputers-Python/Guess_the_number_game.py,"range_of_1000( )",4, 35, 4, 0
+repos/python/geekcomputers-Python/Guess_the_number_game.py,"input_guess( guess )",10, 36, 4, 0
+repos/python/geekcomputers-Python/tf_idf_generator.py,"paint( str , color = 'r' )",16, 78, 4, 0
+repos/python/geekcomputers-Python/tf_idf_generator.py,"find_tf_idf( file_names = [ './../test/testdata' ] , prev_file_path = None , dump_path = None )",63, 149, 4, 0
+repos/python/geekcomputers-Python/script_count.py,"clear_screen( )",5, 68, 0, 0
+repos/python/geekcomputers-Python/script_count.py,"count_files( path , extensions )",6, 161, 0, 0
+repos/python/geekcomputers-Python/script_count.py,"github( )",11, 123, 2, 0
+repos/python/geekcomputers-Python/script_count.py,"development( )",11, 167, 4, 0
+repos/python/geekcomputers-Python/spotlight.py,"md5( fname )",8, 61, 8, 0
+repos/python/geekcomputers-Python/spotlight.py,"make_folder( folder_name )",10, 69, 8, 0
+repos/python/geekcomputers-Python/spotlight.py,"get_spotlight_wallpapers( target_folder )",32, 101, 12, 0
+repos/python/geekcomputers-Python/diceV2_dynamic.py,"__init__( self )",2, 27, 8, 0
+repos/python/geekcomputers-Python/diceV2_dynamic.py,"setSides( self , sides )",6, 92, 12, 0
+repos/python/geekcomputers-Python/diceV2_dynamic.py,"roll( self )",2, 45, 8, 0
+repos/python/geekcomputers-Python/diceV2_dynamic.py,"checkInput( sides )",11, 109, 12, 0
+repos/python/geekcomputers-Python/diceV2_dynamic.py,"pickNumber( item , question_string , lower_limit )",10, 52, 0, 0
+repos/python/geekcomputers-Python/diceV2_dynamic.py,"getDices( )",16, 94, 4, 0
+repos/python/geekcomputers-Python/chicks_n_rabs.py,"solve( num_heads , num_legs )",7, 38, 8, 0
+repos/python/geekcomputers-Python/dice_rolling_simulator.py,"start( )",6, 73, 4, 0
+repos/python/geekcomputers-Python/dice_rolling_simulator.py,"bye( )",2, 79, 4, 0
+repos/python/geekcomputers-Python/dice_rolling_simulator.py,"result( )",22, 91, 4, 0
+repos/python/geekcomputers-Python/dice_rolling_simulator.py,"dice6( )",6, 63, 4, 0
+repos/python/geekcomputers-Python/dice_rolling_simulator.py,"dice8( )",5, 51, 4, 0
+repos/python/geekcomputers-Python/dice_rolling_simulator.py,"dice12( )",5, 52, 4, 0
+repos/python/geekcomputers-Python/dice_rolling_simulator.py,"user_exit_checker( )",8, 115, 4, 0
+repos/python/geekcomputers-Python/multiplication_table.py,"table( rows , columns )",11, 158, 0, 1
+repos/python/geekcomputers-Python/merge.py,"merge( )",19, 65, 4, 0
+repos/python/geekcomputers-Python/merge.py,"main( )",4, 57, 4, 0
+repos/python/geekcomputers-Python/pscheck.py,"ps( )",17, 62, 2, 0
+repos/python/geekcomputers-Python/pscheck.py,"main( )",5, 68, 2, 0
+repos/python/geekcomputers-Python/batch_file_rename.py,"batch_rename( work_dir , old_ext , new_ext )",20, 81, 8, 0
+repos/python/geekcomputers-Python/batch_file_rename.py,"get_parser( )",7, 101, 4, 0
+repos/python/geekcomputers-Python/batch_file_rename.py,"main( )",20, 63, 4, 0
+repos/python/geekcomputers-Python/kmp_str_search.py,"kmp( pattern , text , len_p = None , len_t = None )",27, 49, 4, 0
+repos/python/geekcomputers-Python/site_health.py,"__init__( self , base_url , port , tcp )",9, 48, 8, 0
+repos/python/geekcomputers-Python/site_health.py,"obtain_ip( self )",15, 70, 8, 0
+repos/python/geekcomputers-Python/site_health.py,"ping_host( self )",9, 80, 8, 0
+repos/python/geekcomputers-Python/site_health.py,"obtain_http_info( self )",14, 77, 12, 0
+repos/python/geekcomputers-Python/site_health.py,"obtain_cert_info( self )",34, 105, 12, 0
+repos/python/geekcomputers-Python/xkcd_downloader.py,"main( )",30, 63, 4, 0
+repos/python/geekcomputers-Python/wiki_random.py,"load( )",21, 102, 12, 0
+repos/python/geekcomputers-Python/powerup_checks.py,"windows( )",9, 152, 8, 0
+repos/python/geekcomputers-Python/powerup_checks.py,"linux( )",8, 149, 8, 0
+repos/python/geekcomputers-Python/powerup_checks.py,"get_servers( query )",13, 106, 2, 0
+repos/python/geekcomputers-Python/powerup_checks.py,"main( )",27, 125, 2, 0
+repos/python/geekcomputers-Python/tweeter.py,"getStatus( )",10, 31, 12, 0
+repos/python/geekcomputers-Python/tweeter.py,"tweetthis( type )",21, 44, 0, 3
+repos/python/geekcomputers-Python/tweeter.py,"initialize( )",12, 36, 0, 1
+repos/python/geekcomputers-Python/tweeter.py,"main( )",10, 46, 0, 1
+repos/python/geekcomputers-Python/tar.py,"uncompress( src_file , dest_dir )",59, 65, 12, 0
+repos/python/geekcomputers-Python/Binary Coefficients.py,"pascal_triangle( lineNumber )",16, 52, 12, 0
+repos/python/geekcomputers-Python/Binary Coefficients.py,"binomial_coef( n , k )",3, 38, 4, 0
+repos/python/geekcomputers-Python/meme_maker.py,"input_par( )",9, 55, 4, 0
+repos/python/geekcomputers-Python/meme_maker.py,"main( )",33, 94, 4, 0
+repos/python/geekcomputers-Python/WikipediaModule.py,"wiki( )",34, 70, 8, 0
+repos/python/geekcomputers-Python/WikipediaModule.py,"fullPage( page )",3, 44, 4, 0
+repos/python/geekcomputers-Python/WikipediaModule.py,"randomWiki( )",34, 66, 4, 0
+repos/python/geekcomputers-Python/Merge-sort.py,"merge_sort( L )",41, 42, 8, 0
+repos/python/geekcomputers-Python/chaos.py,"main( )",16, 67, 12, 0
+repos/python/geekcomputers-Python/password_cracker.py,"testPass( cryptPass )",11, 75, 4, 0
+repos/python/geekcomputers-Python/password_cracker.py,"main( )",8, 76, 6, 0
+repos/python/geekcomputers-Python/tik_tak.py,"print_board( )",13, 54, 4, 0
+repos/python/geekcomputers-Python/tik_tak.py,"enter_number( p1_sign , p2_sign )",52, 73, 28, 0
+repos/python/geekcomputers-Python/tik_tak.py,"checkwin( )",28, 39, 4, 0
+repos/python/geekcomputers-Python/tik_tak.py,"play( )",6, 59, 4, 0
+repos/python/geekcomputers-Python/testlines.py,"write_to_file( filename , txt )",3, 43, 2, 0
+repos/python/geekcomputers-Python/thread_signal.py,"__init__( self , event )",3, 40, 8, 0
+repos/python/geekcomputers-Python/thread_signal.py,"run( self )",7, 36, 12, 0
+repos/python/geekcomputers-Python/thread_signal.py,"handler_thread( event )",3, 29, 4, 0
+repos/python/geekcomputers-Python/thread_signal.py,"handler( signum , frame )",2, 45, 4, 0
+repos/python/geekcomputers-Python/EncryptionTool.py,"encryptChar( target )",4, 43, 4, 0
+repos/python/geekcomputers-Python/EncryptionTool.py,"decryptChar( target )",3, 43, 4, 0
+repos/python/geekcomputers-Python/EncryptionTool.py,"encrypt( input_text )",7, 39, 8, 0
+repos/python/geekcomputers-Python/EncryptionTool.py,"decrypt( enc_text )",7, 48, 8, 0
+repos/python/geekcomputers-Python/EncryptionTool.py,"readAndDecrypt( filename )",15, 52, 8, 0
+repos/python/geekcomputers-Python/EncryptionTool.py,"readAndEncrypt( filename )",12, 39, 8, 0
+repos/python/geekcomputers-Python/EncryptionTool.py,"readAndEncryptAndSave( inp_file , out_file )",6, 47, 0, 0
+repos/python/geekcomputers-Python/EncryptionTool.py,"readAndDecryptAndSave( inp_file , out_file )",6, 47, 0, 0
+repos/python/geekcomputers-Python/sha1.py,"__init__( self , data )",9, 93, 8, 0
+repos/python/geekcomputers-Python/sha1.py,"rotate( n , b )",5, 76, 8, 0
+repos/python/geekcomputers-Python/sha1.py,"padding( self )",7, 87, 8, 0
+repos/python/geekcomputers-Python/sha1.py,"split_blocks( self )",5, 87, 8, 0
+repos/python/geekcomputers-Python/sha1.py,"expand_block( self , block )",9, 94, 8, 0
+repos/python/geekcomputers-Python/sha1.py,"final_hash( self )",35, 97, 16, 0
+repos/python/geekcomputers-Python/sha1.py,"testMatchHashes( self )",3, 84, 8, 0
+repos/python/geekcomputers-Python/sha1.py,"main( )",20, 90, 4, 0
+repos/python/geekcomputers-Python/ex20.py,"print_all( f )",3, 18, 0, 0
+repos/python/geekcomputers-Python/ex20.py,"rewind( f )",2, 15, 0, 0
+repos/python/geekcomputers-Python/ex20.py,"print_a_line( line_count , f )",3, 33, 0, 0
+repos/python/geekcomputers-Python/nmap_scan.py,"nmapScan( tgtHost , tgtPort )",5, 95, 0, 0
+repos/python/geekcomputers-Python/nmap_scan.py,"main( )",14, 108, 2, 0
+repos/python/geekcomputers-Python/portscanner.py,"connScan( tgtHost , tgtPort )",15, 57, 0, 0
+repos/python/geekcomputers-Python/portscanner.py,"portScan( tgtHost , tgtPorts )",15, 64, 0, 2
+repos/python/geekcomputers-Python/portscanner.py,"main( )",11, 107, 0, 1
+repos/python/geekcomputers-Python/four_digit_num_combination.py,"four_digit_combinations( )",7, 52, 4, 0
+repos/python/geekcomputers-Python/four_digit_num_combination.py,"one_line_combinations( )",4, 54, 4, 0
+repos/python/geekcomputers-Python/TTS.py,"text2Speech( )",4, 40, 1, 0
+repos/python/geekcomputers-Python/two_num.py,"twoSum( nums , target )",11, 46, 12, 0
+repos/python/geekcomputers-Python/Blackjack Game.py,"__init__( self , suit , rank )",8, 48, 8, 0
+repos/python/geekcomputers-Python/Blackjack Game.py,"__str__( self )",2, 37, 8, 0
+repos/python/geekcomputers-Python/Blackjack Game.py,"get_suit( self )",2, 25, 8, 0
+repos/python/geekcomputers-Python/Blackjack Game.py,"get_rank( self )",2, 25, 8, 0
+repos/python/geekcomputers-Python/Blackjack Game.py,"draw( self , canvas , pos )",4, 123, 8, 0
+repos/python/geekcomputers-Python/Blackjack Game.py,"string_list_join( string , string_list )",5, 42, 0, 0
+repos/python/geekcomputers-Python/Blackjack Game.py,"__init__( self )",2, 24, 4, 0
+repos/python/geekcomputers-Python/Blackjack Game.py,"__str__( self )",2, 50, 8, 0
+repos/python/geekcomputers-Python/Blackjack Game.py,"add_card( self , card )",2, 31, 8, 0
+repos/python/geekcomputers-Python/Blackjack Game.py,"get_value( self )",14, 51, 16, 0
+repos/python/geekcomputers-Python/Blackjack Game.py,"draw( self , canvas , pos )",5, 52, 12, 0
+repos/python/geekcomputers-Python/Blackjack Game.py,"__init__( self )",2, 76, 8, 0
+repos/python/geekcomputers-Python/Blackjack Game.py,"shuffle( self )",2, 34, 8, 0
+repos/python/geekcomputers-Python/Blackjack Game.py,"deal_card( self )",2, 40, 8, 0
+repos/python/geekcomputers-Python/Blackjack Game.py,"__str__( self )",2, 50, 8, 0
+repos/python/geekcomputers-Python/Blackjack Game.py,"deal( )",13, 76, 4, 0
+repos/python/geekcomputers-Python/Blackjack Game.py,"stand( )",12, 61, 4, 0
+repos/python/geekcomputers-Python/Blackjack Game.py,"hit( )",11, 75, 4, 0
+repos/python/geekcomputers-Python/Blackjack Game.py,"draw( canvas )",8, 59, 4, 0
+repos/python/geekcomputers-Python/google.py,"main( )",16, 70, 0, 2
+repos/python/geekcomputers-Python/dice.py,"__init__( self )",2, 24, 4, 0
+repos/python/geekcomputers-Python/dice.py,"set_sides( self , sides_change )",10, 79, 16, 0
+repos/python/geekcomputers-Python/dice.py,"roll( self )",2, 45, 8, 0
+repos/python/geekcomputers-Python/check_for_sqlite_files.py,"isSQLite3( filename )",16, 76, 4, 0
+repos/python/geekcomputers-Python/ftp_send_receive.py,"receive_file( filename = 'example.txt' )",4, 59, 0, 2
+repos/python/geekcomputers-Python/ftp_send_receive.py,"send_file( filename = 'example.txt' )",4, 46, 0, 2
+repos/python/geekcomputers-Python/CountMillionCharacters-2.0.py,"main( )",12, 61, 12, 0
+repos/python/geekcomputers-Python/QuadraticCalc.py,"findLinear( numbers )",9, 60, 0, 0
+repos/python/geekcomputers-Python/MobiusFunction.py,"is_square_free( factors )",9, 59, 4, 0
+repos/python/geekcomputers-Python/MobiusFunction.py,"prime_factors( n )",15, 42, 4, 0
+repos/python/geekcomputers-Python/MobiusFunction.py,"mobius_function( n )",12, 34, 8, 0
+repos/python/geekcomputers-Python/sendemail.py,"get_credentials( )",17, 74, 8, 0
+repos/python/geekcomputers-Python/sendemail.py,"SendMessage( sender , to , subject , msgHtml , msgPlain , attachmentFile = None )",10, 103, 8, 0
+repos/python/geekcomputers-Python/sendemail.py,"SendMessageInternal( service , user_id , message )",28, 92, 8, 0
+repos/python/geekcomputers-Python/sendemail.py,"CreateMessageHtml( sender , to , subject , msgHtml , msgPlain )",8, 63, 0, 0
+repos/python/geekcomputers-Python/sendemail.py,"main( )",7, 56, 4, 0
+repos/python/geekcomputers-Python/Streaming Tweets from Twitter to Database.py,"on_data( self , data )",15, 81, 8, 0
+repos/python/geekcomputers-Python/Streaming Tweets from Twitter to Database.py,"on_error( self , status )",2, 32, 4, 0
+repos/python/geekcomputers-Python/sierpinski_triangle.py,"getMid( p1 , p2 )",2, 68, 4, 0
+repos/python/geekcomputers-Python/sierpinski_triangle.py,"triangle( points , depth )",22, 56, 25, 0
+repos/python/geekcomputers-Python/prison_break_scrapper.py,"download_files( links , idx )",12, 32, 0, 0
+repos/python/geekcomputers-Python/prison_break_scrapper.py,"main( )",11, 60, 0, 4
+repos/python/geekcomputers-Python/SimpleCalculator.py,"add( a , b )",2, 14, 0, 0
+repos/python/geekcomputers-Python/SimpleCalculator.py,"subtract( a , b )",2, 19, 0, 0
+repos/python/geekcomputers-Python/SimpleCalculator.py,"multiply( a , b )",2, 19, 0, 0
+repos/python/geekcomputers-Python/SimpleCalculator.py,"divide( a , b )",2, 17, 0, 0
+repos/python/geekcomputers-Python/factorial_perm_comp.py,"factorial( n )",7, 24, 8, 0
+repos/python/geekcomputers-Python/factorial_perm_comp.py,"permutation( n , r )",2, 43, 4, 0
+repos/python/geekcomputers-Python/factorial_perm_comp.py,"combination( n , r )",2, 44, 4, 0
+repos/python/geekcomputers-Python/factorial_perm_comp.py,"main( )",45, 83, 16, 0
+repos/python/geekcomputers-Python/check_input.py,"get_user_input( start , end )",38, 73, 8, 0
+repos/python/geekcomputers-Python/replacetext.py,"replacetext( string )",4, 29, 4, 0
+repos/python/geekcomputers-Python/calculator.py,"calc( term )",47, 99, 4, 0
+repos/python/geekcomputers-Python/calculator.py,"result( term )",8, 68, 8, 0
+repos/python/geekcomputers-Python/calculator.py,"main( )",23, 102, 4, 0
+repos/python/geekcomputers-Python/daily_checks.py,"clear_screen( )",5, 56, 4, 0
+repos/python/geekcomputers-Python/daily_checks.py,"print_docs( )",6, 118, 4, 0
+repos/python/geekcomputers-Python/daily_checks.py,"putty_sessions( conffilename )",5, 85, 8, 0
+repos/python/geekcomputers-Python/daily_checks.py,"rdp_sessions( )",3, 111, 4, 0
+repos/python/geekcomputers-Python/daily_checks.py,"euroclear_docs( )",4, 140, 8, 0
+repos/python/geekcomputers-Python/daily_checks.py,"main( )",17, 109, 10, 0
+repos/python/geekcomputers-Python/nDigitNumberCombinations.py,"nDigitCombinations( n )",11, 32, 0, 2
+repos/python/geekcomputers-Python/Polyline.py,"click( pos )",3, 25, 4, 0
+repos/python/geekcomputers-Python/Polyline.py,"clear( )",3, 20, 4, 0
+repos/python/geekcomputers-Python/Polyline.py,"draw( canvas )",5, 66, 8, 0
+repos/python/geekcomputers-Python/find_prime.py,"find_prime( num )",7, 59, 8, 0
+repos/python/geekcomputers-Python/random-sentences.py,"random_int( )",2, 29, 2, 0
+repos/python/geekcomputers-Python/random-sentences.py,"random_sentence( )",9, 59, 24, 0
+repos/python/geekcomputers-Python/check_internet_con.py,"checkInternetConnectivity( )",7, 56, 8, 0
+repos/python/geekcomputers-Python/rock_paper_scissor_game.py,"name_to_number( name )",8, 29, 4, 0
+repos/python/geekcomputers-Python/rock_paper_scissor_game.py,"number_to_name( number )",7, 28, 0, 0
+repos/python/geekcomputers-Python/rock_paper_scissor_game.py,"game( player_choice )",19, 46, 4, 0
+repos/python/geekcomputers-Python/PONG_GAME.py,"spawn_ball( direction )",7, 83, 8, 0
+repos/python/geekcomputers-Python/PONG_GAME.py,"reset( )",5, 36, 4, 0
+repos/python/geekcomputers-Python/PONG_GAME.py,"new_game( )",5, 64, 4, 0
+repos/python/geekcomputers-Python/PONG_GAME.py,"draw( canvas )",46, 176, 4, 0
+repos/python/geekcomputers-Python/PONG_GAME.py,"keydown( key )",11, 41, 4, 0
+repos/python/geekcomputers-Python/PONG_GAME.py,"keyup( key )",6, 75, 4, 0
+repos/python/geekcomputers-Python/Memory_game.py,"new_game.create( card )",6, 41, 12, 0
+repos/python/geekcomputers-Python/Memory_game.py,"new_game( )",20, 44, 4, 0
+repos/python/geekcomputers-Python/Memory_game.py,"mouseclick( pos )",15, 44, 4, 0
+repos/python/geekcomputers-Python/Memory_game.py,"draw( canvas )",9, 112, 12, 0
+repos/python/geekcomputers-Python/live_sketch.py,"sketch( image )",7, 75, 4, 0
+repos/python/geekcomputers-Python/Counting-sort.py,"counting_sort( l , h )",16, 44, 4, 0
+repos/python/geekcomputers-Python/timymodule.py,"listcomprehension( )",2, 76, 0, 0
+repos/python/geekcomputers-Python/timymodule.py,"listcreator( )",7, 45, 16, 0
+repos/python/geekcomputers-Python/pythonVideoDownloader.py,"get_video_links( )",15, 97, 4, 0
+repos/python/geekcomputers-Python/pythonVideoDownloader.py,"download_video_series( video_links )",26, 65, 12, 0
+repos/python/geekcomputers-Python/powerdown_startup.py,"windows( )",9, 137, 0, 2
+repos/python/geekcomputers-Python/powerdown_startup.py,"linux( )",9, 143, 0, 2
+repos/python/geekcomputers-Python/TicTacToe.py,"drawBoard( board )",9, 78, 4, 0
+repos/python/geekcomputers-Python/TicTacToe.py,"inputPlayerLetter( )",10, 106, 4, 0
+repos/python/geekcomputers-Python/TicTacToe.py,"whoGoesFirst( )",3, 49, 4, 0
+repos/python/geekcomputers-Python/TicTacToe.py,"playAgain( )",4, 96, 4, 0
+repos/python/geekcomputers-Python/TicTacToe.py,"makeMove( board , letter , move )",5, 61, 8, 0
+repos/python/geekcomputers-Python/TicTacToe.py,"isWinner( bo , le )",11, 94, 4, 0
+repos/python/geekcomputers-Python/TicTacToe.py,"getBoardCopy( board )",8, 70, 4, 0
+repos/python/geekcomputers-Python/TicTacToe.py,"isSpaceFree( board , move )",3, 66, 4, 0
+repos/python/geekcomputers-Python/TicTacToe.py,"getPlayerMove( board )",7, 88, 4, 0
+repos/python/geekcomputers-Python/TicTacToe.py,"chooseRandomMoveFromList( board , movesList )",5, 69, 4, 0
+repos/python/geekcomputers-Python/TicTacToe.py,"getComputerMove( board , computerLetter )",32, 93, 4, 0
+repos/python/geekcomputers-Python/TicTacToe.py,"isBoardFull( board )",6, 86, 4, 0
+repos/python/geekcomputers-Python/TicTacToe.py,"main( )",51, 68, 20, 0
+repos/python/geekcomputers-Python/check_file.py,"usage( )",2, 85, 4, 0
+repos/python/geekcomputers-Python/check_file.py,"readfile( filename )",7, 76, 4, 0
+repos/python/geekcomputers-Python/check_file.py,"main( )",28, 111, 8, 0
+repos/python/geekcomputers-Python/magic8ball.py,"game( )",10, 59, 4, 0
+repos/python/geekcomputers-Python/magic8ball.py,"playloop( )",11, 87, 4, 0
+repos/python/geekcomputers-Python/Google_News.py,"news( xml_news_url )",20, 64, 4, 0
+repos/python/geekcomputers-Python/dir_test.py,"main( )",11, 78, 8, 0
+repos/python/geekcomputers-Python/Credit_Card_Validator.py,"__init__( self , card_no )",2, 33, 4, 0
+repos/python/geekcomputers-Python/Credit_Card_Validator.py,"company( self )",20, 70, 8, 0
+repos/python/geekcomputers-Python/Credit_Card_Validator.py,"first_check( self )",7, 103, 12, 0
+repos/python/geekcomputers-Python/Credit_Card_Validator.py,"validate( self )",23, 67, 20, 0
+repos/python/geekcomputers-Python/Credit_Card_Validator.py,"checksum( self )",2, 50, 8, 0
+repos/python/geekcomputers-Python/Credit_Card_Validator.py,"set_card( cls , card_to_check )",2, 38, 4, 0
+repos/python/geekcomputers-Python/serial_scanner.py,"ListAvailablePorts( )",33, 111, 4, 0
+repos/python/geekcomputers-Python/Organise.py,"ChangeDirectory( dir )",7, 63, 0, 2
+repos/python/geekcomputers-Python/Organise.py,"Organize( dirs , name )",15, 47, 0, 1
+repos/python/geekcomputers-Python/Assembler/assembler.py,"__init__( self )",2, 25, 4, 0
+repos/python/geekcomputers-Python/Assembler/assembler.py,"__init__( self , token , t )",3, 35, 4, 0
+repos/python/geekcomputers-Python/Assembler/assembler.py,"loadFile( fileName )",9, 68, 8, 0
+repos/python/geekcomputers-Python/Assembler/assembler.py,"scanner( string )",857, 99, 12, 0
+repos/python/geekcomputers-Python/Assembler/assembler.py,"scan( )",11, 73, 8, 0
+repos/python/geekcomputers-Python/Assembler/assembler.py,"parser( )",689, 80, 16, 0
+repos/python/geekcomputers-Python/Assembler/assembler.py,"registerLabels( )",9, 99, 8, 0
+repos/python/geekcomputers-Python/Assembler/assembler.py,"resetInterpreter( )",17, 56, 4, 0
+repos/python/geekcomputers-Python/Assembler/assembler.py,"main( )",20, 68, 8, 0
+repos/python/geekcomputers-Python/rearrange-files/rearrange-files.py,"__init__( self )",2, 39, 8, 0
+repos/python/geekcomputers-Python/rearrange-files/rearrange-files.py,"all_files( self )",2, 62, 8, 0
+repos/python/geekcomputers-Python/rearrange-files/rearrange-files.py,"make_folder_and_return_name( self , foldername )",7, 55, 4, 0
+repos/python/geekcomputers-Python/rearrange-files/rearrange-files.py,"check_folder_existance( self )",13, 107, 20, 0
+repos/python/geekcomputers-Python/Koch Curve/koch curve.py,"snowflake( lengthSide , levels )",12, 36, 4, 0
+repos/python/geekcomputers-Python/insta_monitering/insta_api.py,"background_task( self , user , tags , type , productId )",5, 82, 12, 0
+repos/python/geekcomputers-Python/insta_monitering/insta_api.py,"get( self )",18, 109, 8, 0
+repos/python/geekcomputers-Python/insta_monitering/insta_api.py,"get( self )",17, 109, 8, 0
+repos/python/geekcomputers-Python/insta_monitering/insta_api.py,"get( self )",17, 109, 8, 0
+repos/python/geekcomputers-Python/insta_monitering/insta_api.py,"get( self )",14, 111, 8, 0
+repos/python/geekcomputers-Python/insta_monitering/insta_api.py,"get( self )",14, 111, 8, 0
+repos/python/geekcomputers-Python/insta_monitering/subpinsta.py,"instasubprocess( user , tags , type , productId )",9, 99, 8, 0
+repos/python/geekcomputers-Python/insta_monitering/insta_datafetcher.py,"__init__( self )",5, 52, 8, 0
+repos/python/geekcomputers-Python/insta_monitering/insta_datafetcher.py,"__call__.wrapper_function( url )",3, 71, 12, 0
+repos/python/geekcomputers-Python/insta_monitering/insta_datafetcher.py,"__call__( self , function_to_call_for_appling_proxy )",15, 71, 12, 0
+repos/python/geekcomputers-Python/insta_monitering/insta_datafetcher.py,"dataprocess( htmldata )",20, 83, 4, 0
+repos/python/geekcomputers-Python/insta_monitering/insta_datafetcher.py,"datapullpost.request_pull( url )",11, 96, 16, 0
+repos/python/geekcomputers-Python/insta_monitering/insta_datafetcher.py,"datapullpost( future , url )",20, 96, 16, 0
+repos/python/geekcomputers-Python/insta_monitering/insta_datafetcher.py,"__init__( self , user , tags , type , productId )",12, 85, 16, 0
+repos/python/geekcomputers-Python/insta_monitering/insta_datafetcher.py,"_dataProcessing( self , data )",36, 86, 16, 0
+repos/python/geekcomputers-Python/insta_monitering/insta_datafetcher.py,"_insertFunction( self , record )",8, 75, 12, 0
+repos/python/geekcomputers-Python/insta_monitering/insta_datafetcher.py,"_lastProcess( self , userdata , media_post , top_post )",28, 66, 32, 0
+repos/python/geekcomputers-Python/insta_monitering/insta_datafetcher.py,"request_data_from_instagram.reqest_pull( url )",11, 104, 24, 0
+repos/python/geekcomputers-Python/insta_monitering/insta_datafetcher.py,"request_data_from_instagram( self )",24, 110, 12, 0
+repos/python/geekcomputers-Python/insta_monitering/insta_datafetcher.py,"__del__( self )",2, 25, 8, 0
+repos/python/geekcomputers-Python/insta_monitering/insta_datafetcher.py,"hashtags( user , tags , type , productId )",6, 85, 8, 0
+repos/python/geekcomputers-Python/insta_monitering/insta_datafetcher.py,"__init__( self , user , tags , type , productId )",9, 62, 12, 0
+repos/python/geekcomputers-Python/insta_monitering/insta_datafetcher.py,"run( self )",5, 97, 12, 0
+repos/python/geekcomputers-Python/insta_monitering/insta_datafetcher.py,"_dbProcessReader( self , user , tags , productId )",20, 75, 8, 0
+repos/python/geekcomputers-Python/insta_monitering/insta_datafetcher.py,"_processstart( self , user , tags , productId )",14, 75, 8, 0
+repos/python/geekcomputers-Python/insta_monitering/insta_datafetcher.py,"startprocess( self , user , tags , type , productId )",15, 89, 16, 0
+repos/python/geekcomputers-Python/insta_monitering/insta_datafetcher.py,"deletProcess( self , user , tags , productId )",16, 75, 8, 0
+repos/python/geekcomputers-Python/insta_monitering/insta_datafetcher.py,"statusCheck( self , user , tags , productId )",19, 75, 8, 0
+repos/python/geekcomputers-Python/insta_monitering/insta_datafetcher.py,"__init__( self , user , tags , type , productId )",7, 84, 12, 0
+repos/python/geekcomputers-Python/insta_monitering/insta_datafetcher.py,"dbFetcher( self , limit = 20 )",11, 73, 12, 0
+repos/python/geekcomputers-Python/insta_monitering/insta_datafetcher.py,"DBFetcherGreater( self , limit , date )",23, 114, 16, 0
+repos/python/geekcomputers-Python/insta_monitering/insta_datafetcher.py,"DBFetcherLess( self , limit , date )",20, 111, 12, 0
+repos/python/geekcomputers-Python/insta_monitering/insta_datafetcher.py,"__del__( self )",2, 25, 8, 0
+repos/python/geekcomputers-Python/insta_monitering/insta_datafetcher.py,"main( )",10, 79, 8, 0
+repos/python/geekcomputers-Python/Windows_Wallpaper_Script/wallpaper_extract.py,"time_gap( string )",6, 30, 8, 0
+repos/python/geekcomputers-Python/Windows_Wallpaper_Script/wallpaper_extract.py,"copy_wallpapers( )",6, 85, 12, 0
+repos/python/geekcomputers-Python/Windows_Wallpaper_Script/wallpaper_extract.py,"change_ext( )",10, 79, 8, 0
+repos/python/geekcomputers-Python/Windows_Wallpaper_Script/wallpaper_extract.py,"extract_wall( )",15, 74, 16, 0
+repos/python/geekcomputers-Python/Windows_Wallpaper_Script/wallpaper_extract.py,"arr_desk_wallpapers( )",22, 74, 34, 0
+repos/python/geekcomputers-Python/Windows_Wallpaper_Script/wallpaper_extract.py,"exec_all( )",8, 32, 8, 0
+repos/python/geekcomputers-Python/linear-algebra-python/src/lib.py,"__init__( self , components )",6, 51, 12, 0
+repos/python/geekcomputers-Python/linear-algebra-python/src/lib.py,"set( self , components )",10, 54, 12, 0
+repos/python/geekcomputers-Python/linear-algebra-python/src/lib.py,"__str__( self )",14, 58, 12, 0
+repos/python/geekcomputers-Python/linear-algebra-python/src/lib.py,"component( self , i )",9, 54, 12, 0
+repos/python/geekcomputers-Python/linear-algebra-python/src/lib.py,"size( self )",5, 43, 12, 0
+repos/python/geekcomputers-Python/linear-algebra-python/src/lib.py,"eulidLength( self )",8, 54, 12, 0
+repos/python/geekcomputers-Python/linear-algebra-python/src/lib.py,"__add__( self , other )",14, 73, 16, 0
+repos/python/geekcomputers-Python/linear-algebra-python/src/lib.py,"__sub__( self , other )",14, 73, 16, 0
+repos/python/geekcomputers-Python/linear-algebra-python/src/lib.py,"__mul__( self , other )",18, 75, 8, 0
+repos/python/geekcomputers-Python/linear-algebra-python/src/lib.py,"copy( self )",6, 52, 8, 0
+repos/python/geekcomputers-Python/linear-algebra-python/src/lib.py,"changeComponent( self , pos , value )",9, 59, 12, 0
+repos/python/geekcomputers-Python/linear-algebra-python/src/lib.py,"norm( self )",9, 67, 12, 0
+repos/python/geekcomputers-Python/linear-algebra-python/src/lib.py,"__eq__( self , other )",14, 67, 12, 0
+repos/python/geekcomputers-Python/linear-algebra-python/src/lib.py,"zeroVector( dimension )",10, 50, 8, 0
+repos/python/geekcomputers-Python/linear-algebra-python/src/lib.py,"unitBasisVector( dimension , pos )",14, 64, 4, 0
+repos/python/geekcomputers-Python/linear-algebra-python/src/lib.py,"axpy( scalar , x , y )",10, 62, 4, 0
+repos/python/geekcomputers-Python/linear-algebra-python/src/lib.py,"randomVector( N , a , b )",12, 63, 16, 0
+repos/python/geekcomputers-Python/linear-algebra-python/src/lib.py,"__init__( self , matrix , w , h )",8, 47, 12, 0
+repos/python/geekcomputers-Python/linear-algebra-python/src/lib.py,"__str__( self )",14, 60, 20, 0
+repos/python/geekcomputers-Python/linear-algebra-python/src/lib.py,"changeComponent( self , x , y , value )",8, 73, 8, 0
+repos/python/geekcomputers-Python/linear-algebra-python/src/lib.py,"component( self , x , y )",8, 73, 8, 0
+repos/python/geekcomputers-Python/linear-algebra-python/src/lib.py,"width( self )",5, 33, 12, 0
+repos/python/geekcomputers-Python/linear-algebra-python/src/lib.py,"height( self )",5, 34, 12, 0
+repos/python/geekcomputers-Python/linear-algebra-python/src/lib.py,"__mul__( self , other )",26, 79, 8, 0
+repos/python/geekcomputers-Python/linear-algebra-python/src/lib.py,"__add__( self , other )",14, 80, 8, 0
+repos/python/geekcomputers-Python/linear-algebra-python/src/lib.py,"__sub__( self , other )",14, 80, 8, 0
+repos/python/geekcomputers-Python/linear-algebra-python/src/lib.py,"__eq__( self , other )",14, 78, 8, 0
+repos/python/geekcomputers-Python/linear-algebra-python/src/lib.py,"squareZeroMatrix( N )",11, 54, 8, 0
+repos/python/geekcomputers-Python/linear-algebra-python/src/lib.py,"randomMatrix( W , H , a , b )",13, 60, 8, 0
+repos/python/geekcomputers-Python/linear-algebra-python/src/tests.py,"test_component( self )",12, 43, 8, 0
+repos/python/geekcomputers-Python/linear-algebra-python/src/tests.py,"test_str( self )",6, 54, 8, 0
+repos/python/geekcomputers-Python/linear-algebra-python/src/tests.py,"test_size( self )",6, 37, 8, 0
+repos/python/geekcomputers-Python/linear-algebra-python/src/tests.py,"test_euclidLength( self )",6, 56, 8, 0
+repos/python/geekcomputers-Python/linear-algebra-python/src/tests.py,"test_add( self )",9, 47, 8, 0
+repos/python/geekcomputers-Python/linear-algebra-python/src/tests.py,"test_sub( self )",9, 47, 8, 0
+repos/python/geekcomputers-Python/linear-algebra-python/src/tests.py,"test_mul( self )",9, 60, 8, 0
+repos/python/geekcomputers-Python/linear-algebra-python/src/tests.py,"test_zeroVector( self )",5, 67, 8, 0
+repos/python/geekcomputers-Python/linear-algebra-python/src/tests.py,"test_unitBasisVector( self )",5, 67, 8, 0
+repos/python/geekcomputers-Python/linear-algebra-python/src/tests.py,"test_axpy( self )",7, 63, 12, 0
+repos/python/geekcomputers-Python/linear-algebra-python/src/tests.py,"test_copy( self )",7, 50, 8, 0
+repos/python/geekcomputers-Python/linear-algebra-python/src/tests.py,"test_changeComponent( self )",8, 53, 12, 0
+repos/python/geekcomputers-Python/linear-algebra-python/src/tests.py,"test_str_matrix( self )",3, 68, 8, 0
+repos/python/geekcomputers-Python/linear-algebra-python/src/tests.py,"test__mul__matrix( self )",5, 77, 8, 0
+repos/python/geekcomputers-Python/linear-algebra-python/src/tests.py,"test_changeComponent_matrix( self )",4, 68, 8, 0
+repos/python/geekcomputers-Python/linear-algebra-python/src/tests.py,"test_component_matrix( self )",3, 50, 8, 0
+repos/python/geekcomputers-Python/linear-algebra-python/src/tests.py,"test__add__matrix( self )",4, 77, 8, 0
+repos/python/geekcomputers-Python/linear-algebra-python/src/tests.py,"test__sub__matrix( self )",4, 74, 8, 0
+repos/python/geekcomputers-Python/linear-algebra-python/src/tests.py,"test_squareZeroMatrix( self )",3, 79, 8, 0
+repos/python/geekcomputers-Python/linear-algebra-python/src/tests.py,"test_norm_vector( self )",4, 79, 8, 0
+repos/python/geekcomputers-Python/linear-algebra-python/src/tests.py,"test__eq__vector( self )",5, 33, 8, 0
+repos/python/geekcomputers-Python/linear-algebra-python/src/tests.py,"test__eq__matrix( self )",5, 51, 8, 0
+repos/python/geekcomputers-Python/CountMillionCharacters-Variations/variation1.py,"count_chars( filename )",9, 69, 4, 0
+repos/python/geekcomputers-Python/CountMillionCharacters-Variations/variation1.py,"main( )",11, 66, 4, 0
+repos/python/geekcomputers-Python/async_downloader/async_downloader.py,"download( ways )",31, 77, 12, 0
+repos/python/geekcomputers-Python/async_downloader/async_downloader.py,"async_downloader( ways , loop , success_files = set ( )",28, 95, 12, 0
+repos/python/geekcomputers-Python/async_downloader/async_downloader.py,"download_file_by_url( url , session = None )",33, 106, 16, 0
+repos/python/geekcomputers-Python/async_downloader/async_downloader.py,"test( )",9, 45, 12, 0
+repos/python/geekcomputers-Python/bank_managment_system/backend.py,"connect_database( )",20, 141, 8, 0
+repos/python/geekcomputers-Python/bank_managment_system/backend.py,"check_admin( name , password )",8, 50, 4, 0
+repos/python/geekcomputers-Python/bank_managment_system/backend.py,"create_employee( name , password , salary , positon )",4, 84, 4, 0
+repos/python/geekcomputers-Python/bank_managment_system/backend.py,"check_employee( name , password )",13, 54, 8, 0
+repos/python/geekcomputers-Python/bank_managment_system/backend.py,"create_customer( name , age , address , balance , acc_type , mobile_number )",6, 115, 4, 0
+repos/python/geekcomputers-Python/bank_managment_system/backend.py,"check_acc_no( acc_no )",8, 43, 4, 0
+repos/python/geekcomputers-Python/bank_managment_system/backend.py,"get_details( acc_no )",9, 108, 8, 0
+repos/python/geekcomputers-Python/bank_managment_system/backend.py,"update_balance( new_money , acc_no )",8, 77, 4, 0
+repos/python/geekcomputers-Python/bank_managment_system/backend.py,"deduct_balance( new_money , acc_no )",12, 81, 8, 0
+repos/python/geekcomputers-Python/bank_managment_system/backend.py,"check_balance( acc_no )",4, 68, 4, 0
+repos/python/geekcomputers-Python/bank_managment_system/backend.py,"update_name_in_bank_table( new_name , acc_no )",4, 86, 4, 0
+repos/python/geekcomputers-Python/bank_managment_system/backend.py,"update_age_in_bank_table( new_name , acc_no )",4, 83, 4, 0
+repos/python/geekcomputers-Python/bank_managment_system/backend.py,"update_address_in_bank_table( new_name , acc_no )",4, 89, 4, 0
+repos/python/geekcomputers-Python/bank_managment_system/backend.py,"list_all_customers( )",5, 38, 4, 0
+repos/python/geekcomputers-Python/bank_managment_system/backend.py,"delete_acc( acc_no )",3, 60, 4, 0
+repos/python/geekcomputers-Python/bank_managment_system/backend.py,"show_employees( )",4, 65, 4, 0
+repos/python/geekcomputers-Python/bank_managment_system/backend.py,"all_money( )",12, 44, 4, 0
+repos/python/geekcomputers-Python/bank_managment_system/backend.py,"show_employees_for_update( )",4, 39, 4, 0
+repos/python/geekcomputers-Python/bank_managment_system/backend.py,"update_employee_name( new_name , old_name )",4, 88, 4, 0
+repos/python/geekcomputers-Python/bank_managment_system/backend.py,"update_employee_password( new_pass , old_name )",4, 88, 4, 0
+repos/python/geekcomputers-Python/bank_managment_system/backend.py,"update_employee_salary( new_salary , old_name )",4, 90, 4, 0
+repos/python/geekcomputers-Python/bank_managment_system/backend.py,"update_employee_position( new_pos , old_name )",4, 91, 4, 0
+repos/python/geekcomputers-Python/bank_managment_system/backend.py,"get_detail( acc_no )",4, 74, 4, 0
+repos/python/geekcomputers-Python/bank_managment_system/backend.py,"check_name_in_staff( name )",9, 42, 4, 0
+repos/python/geekcomputers-Python/bank_managment_system/frontend.py,"check_string_in_account_no( check_acc_no )",3, 46, 0, 0
+repos/python/geekcomputers-Python/bank_managment_system/frontend.py,"create.create.create_customer_in_database.delete_create( )",3, 48, 12, 0
+repos/python/geekcomputers-Python/bank_managment_system/frontend.py,"create.create_customer_in_database( )",26, 120, 8, 0
+repos/python/geekcomputers-Python/bank_managment_system/frontend.py,"create( )",68, 120, 8, 0
+repos/python/geekcomputers-Python/bank_managment_system/frontend.py,"search_acc( )",17, 70, 4, 0
+repos/python/geekcomputers-Python/bank_managment_system/frontend.py,"show.clear_show_frame( )",3, 33, 8, 0
+repos/python/geekcomputers-Python/bank_managment_system/frontend.py,"show.back_page2( )",3, 35, 8, 0
+repos/python/geekcomputers-Python/bank_managment_system/frontend.py,"show( )",46, 113, 12, 0
+repos/python/geekcomputers-Python/bank_managment_system/frontend.py,"add.add.search_in_database.back_page2( )",3, 39, 12, 0
+repos/python/geekcomputers-Python/bank_managment_system/frontend.py,"add.add.search_in_database.update_money( )",5, 61, 20, 0
+repos/python/geekcomputers-Python/bank_managment_system/frontend.py,"add.search_in_database( )",53, 96, 16, 0
+repos/python/geekcomputers-Python/bank_managment_system/frontend.py,"add.search_acc( )",16, 81, 8, 0
+repos/python/geekcomputers-Python/bank_managment_system/frontend.py,"add( )",72, 96, 16, 0
+repos/python/geekcomputers-Python/bank_managment_system/frontend.py,"withdraw.withdraw.search_in_database.go_page2( )",3, 39, 12, 0
+repos/python/geekcomputers-Python/bank_managment_system/frontend.py,"withdraw.withdraw.search_in_database.deduct_money( )",14, 81, 24, 0
+repos/python/geekcomputers-Python/bank_managment_system/frontend.py,"withdraw.search_in_database( )",63, 93, 16, 0
+repos/python/geekcomputers-Python/bank_managment_system/frontend.py,"withdraw.search_acc( )",16, 81, 8, 0
+repos/python/geekcomputers-Python/bank_managment_system/frontend.py,"withdraw( )",84, 93, 16, 0
+repos/python/geekcomputers-Python/bank_managment_system/frontend.py,"check.check.search_in_database.back_page2( )",3, 39, 12, 0
+repos/python/geekcomputers-Python/bank_managment_system/frontend.py,"check.check.search_in_database.delete_check_frame( )",3, 46, 20, 0
+repos/python/geekcomputers-Python/bank_managment_system/frontend.py,"check.search_in_database( )",41, 109, 16, 0
+repos/python/geekcomputers-Python/bank_managment_system/frontend.py,"check.search_acc( )",17, 81, 8, 0
+repos/python/geekcomputers-Python/bank_managment_system/frontend.py,"check( )",64, 109, 16, 0
+repos/python/geekcomputers-Python/bank_managment_system/frontend.py,"update.back_to_page2( )",3, 35, 8, 0
+repos/python/geekcomputers-Python/bank_managment_system/frontend.py,"update.update.show_all_updateble_content.back_to_page2_from_update( )",3, 48, 12, 0
+repos/python/geekcomputers-Python/bank_managment_system/frontend.py,"update.update.show_all_updateble_content.update.update.show_all_updateble_content.update_name.update_name_in_database( )",14, 78, 20, 0
+repos/python/geekcomputers-Python/bank_managment_system/frontend.py,"update.update.show_all_updateble_content.update_name( )",25, 102, 12, 0
+repos/python/geekcomputers-Python/bank_managment_system/frontend.py,"update.update.show_all_updateble_content.update.update.show_all_updateble_content.update_age.update_age_in_database( )",14, 76, 20, 0
+repos/python/geekcomputers-Python/bank_managment_system/frontend.py,"update.update.show_all_updateble_content.update_age( )",25, 105, 12, 0
+repos/python/geekcomputers-Python/bank_managment_system/frontend.py,"update.update.show_all_updateble_content.update.update.show_all_updateble_content.update_address.update_address_in_database( )",13, 79, 20, 0
+repos/python/geekcomputers-Python/bank_managment_system/frontend.py,"update.update.show_all_updateble_content.update_address( )",25, 109, 12, 0
+repos/python/geekcomputers-Python/bank_managment_system/frontend.py,"update.show_all_updateble_content( )",123, 109, 12, 0
+repos/python/geekcomputers-Python/bank_managment_system/frontend.py,"update( )",143, 109, 12, 0
+repos/python/geekcomputers-Python/bank_managment_system/frontend.py,"allmembers.clear_list_frame( )",3, 33, 8, 0
+repos/python/geekcomputers-Python/bank_managment_system/frontend.py,"allmembers( )",21, 107, 8, 0
+repos/python/geekcomputers-Python/bank_managment_system/frontend.py,"delete.delete.search_in_database.back_page2( )",3, 39, 12, 0
+repos/python/geekcomputers-Python/bank_managment_system/frontend.py,"delete.search_in_database( )",27, 79, 16, 0
+repos/python/geekcomputers-Python/bank_managment_system/frontend.py,"delete.search_acc( )",16, 81, 8, 0
+repos/python/geekcomputers-Python/bank_managment_system/frontend.py,"delete( )",48, 81, 8, 0
+repos/python/geekcomputers-Python/bank_managment_system/frontend.py,"page2.back_to_main_from_page2( )",15, 72, 8, 0
+repos/python/geekcomputers-Python/bank_managment_system/frontend.py,"page2( )",42, 95, 4, 0
+repos/python/geekcomputers-Python/bank_managment_system/frontend.py,"create_employee.create_employee.create_emp_in_database.back_to_main_page1_from_create_emp( )",3, 50, 8, 0
+repos/python/geekcomputers-Python/bank_managment_system/frontend.py,"create_employee.create_emp_in_database( )",19, 113, 12, 0
+repos/python/geekcomputers-Python/bank_managment_system/frontend.py,"create_employee( )",51, 113, 12, 0
+repos/python/geekcomputers-Python/bank_managment_system/frontend.py,"update_employee.update_employee.update_details_of_staff_member.back_to_page1( )",3, 46, 12, 0
+repos/python/geekcomputers-Python/bank_managment_system/frontend.py,"update_employee.update_employee.update_details_of_staff_member.update_employee.update_employee.update_details_of_staff_member.update_that_particular_employee.back_to_page1_from_update( )",3, 45, 12, 0
+repos/python/geekcomputers-Python/bank_managment_system/frontend.py,"update_employee.update_employee.update_details_of_staff_member.update_employee.update_employee.update_details_of_staff_member.update_that_particular_employee.update_employee.update_employee.update_details_of_staff_member.update_employee.update_employee.update_details_of_staff_member.update_that_particular_employee.update_name_in_database.database_calling( )",11, 81, 24, 0
+repos/python/geekcomputers-Python/bank_managment_system/frontend.py,"update_employee.update_employee.update_details_of_staff_member.update_employee.update_employee.update_details_of_staff_member.update_that_particular_employee.update_name_in_database( )",19, 94, 16, 0
+repos/python/geekcomputers-Python/bank_managment_system/frontend.py,"update_employee.update_employee.update_details_of_staff_member.update_employee.update_employee.update_details_of_staff_member.update_that_particular_employee.update_employee.update_employee.update_details_of_staff_member.update_employee.update_employee.update_details_of_staff_member.update_that_particular_employee.update_password_in_database.database_calling( )",11, 81, 24, 0
+repos/python/geekcomputers-Python/bank_managment_system/frontend.py,"update_employee.update_employee.update_details_of_staff_member.update_employee.update_employee.update_details_of_staff_member.update_that_particular_employee.update_password_in_database( )",19, 94, 16, 0
+repos/python/geekcomputers-Python/bank_managment_system/frontend.py,"update_employee.update_employee.update_details_of_staff_member.update_employee.update_employee.update_details_of_staff_member.update_that_particular_employee.update_employee.update_employee.update_details_of_staff_member.update_employee.update_employee.update_details_of_staff_member.update_that_particular_employee.update_salary_in_database.database_calling( )",13, 77, 24, 0
+repos/python/geekcomputers-Python/bank_managment_system/frontend.py,"update_employee.update_employee.update_details_of_staff_member.update_employee.update_employee.update_details_of_staff_member.update_that_particular_employee.update_salary_in_database( )",22, 94, 16, 0
+repos/python/geekcomputers-Python/bank_managment_system/frontend.py,"update_employee.update_employee.update_details_of_staff_member.update_employee.update_employee.update_details_of_staff_member.update_that_particular_employee.update_employee.update_employee.update_details_of_staff_member.update_employee.update_employee.update_details_of_staff_member.update_that_particular_employee.update_position_in_database.database_calling( )",12, 81, 24, 0
+repos/python/geekcomputers-Python/bank_managment_system/frontend.py,"update_employee.update_employee.update_details_of_staff_member.update_employee.update_employee.update_details_of_staff_member.update_that_particular_employee.update_position_in_database( )",21, 94, 16, 0
+repos/python/geekcomputers-Python/bank_managment_system/frontend.py,"update_employee.update_employee.update_details_of_staff_member.update_that_particular_employee( )",112, 113, 12, 0
+repos/python/geekcomputers-Python/bank_managment_system/frontend.py,"update_employee.update_details_of_staff_member( )",139, 113, 12, 0
+repos/python/geekcomputers-Python/bank_managment_system/frontend.py,"update_employee( )",158, 117, 4, 0
+repos/python/geekcomputers-Python/bank_managment_system/frontend.py,"show_employee.back_to_main_page1( )",3, 42, 8, 0
+repos/python/geekcomputers-Python/bank_managment_system/frontend.py,"show_employee( )",23, 117, 4, 0
+repos/python/geekcomputers-Python/bank_managment_system/frontend.py,"Total_money.back_to_main_page1_from_total_money( )",3, 47, 4, 0
+repos/python/geekcomputers-Python/bank_managment_system/frontend.py,"Total_money( )",23, 103, 4, 0
+repos/python/geekcomputers-Python/bank_managment_system/frontend.py,"back_to_main( )",17, 68, 4, 0
+repos/python/geekcomputers-Python/bank_managment_system/frontend.py,"page1.back_to_main2( )",17, 72, 8, 0
+repos/python/geekcomputers-Python/bank_managment_system/frontend.py,"page1( )",59, 112, 12, 0
+repos/python/geekcomputers-Python/bank_managment_system/frontend.py,"employee_login.back_to_main3( )",17, 72, 8, 0
+repos/python/geekcomputers-Python/bank_managment_system/frontend.py,"employee_login.check_emp( )",23, 84, 16, 0
+repos/python/geekcomputers-Python/bank_managment_system/frontend.py,"employee_login( )",66, 84, 16, 0
+repos/python/geekcomputers-Python/bank_managment_system/frontend.py,"admin_login( )",25, 64, 4, 0
+repos/python/geekcomputers-Python/primelib/primelib.py,"pi( maxK = 70 , prec = 1008 , disp = 1007 )",18, 57, 4, 0
+repos/python/geekcomputers-Python/primelib/primelib.py,"isPrime( number )",29, 90, 4, 0
+repos/python/geekcomputers-Python/primelib/primelib.py,"sieveEr( N )",34, 73, 4, 0
+repos/python/geekcomputers-Python/primelib/primelib.py,"getPrimeNumbers( N )",24, 73, 4, 0
+repos/python/geekcomputers-Python/primelib/primelib.py,"primeFactorization( number )",43, 80, 4, 0
+repos/python/geekcomputers-Python/primelib/primelib.py,"greatestPrimeFactor( number )",21, 68, 4, 0
+repos/python/geekcomputers-Python/primelib/primelib.py,"smallestPrimeFactor( number )",21, 68, 4, 0
+repos/python/geekcomputers-Python/primelib/primelib.py,"isEven( number )",11, 81, 4, 0
+repos/python/geekcomputers-Python/primelib/primelib.py,"isOdd( number )",11, 81, 4, 0
+repos/python/geekcomputers-Python/primelib/primelib.py,"goldbach( number )",47, 80, 4, 0
+repos/python/geekcomputers-Python/primelib/primelib.py,"gcd( number1 , number2 )",25, 71, 8, 0
+repos/python/geekcomputers-Python/primelib/primelib.py,"kgV( number1 , number2 )",71, 70, 4, 0
+repos/python/geekcomputers-Python/primelib/primelib.py,"getPrime( n )",29, 79, 4, 0
+repos/python/geekcomputers-Python/primelib/primelib.py,"getPrimesBetween( pNumber1 , pNumber2 )",38, 80, 4, 0
+repos/python/geekcomputers-Python/primelib/primelib.py,"getDivisors( n )",25, 72, 4, 0
+repos/python/geekcomputers-Python/primelib/primelib.py,"isPerfectNumber( number )",19, 70, 8, 0
+repos/python/geekcomputers-Python/primelib/primelib.py,"simplifyFraction( numerator , denominator )",21, 81, 4, 0
+repos/python/geekcomputers-Python/primelib/primelib.py,"factorial( n )",15, 74, 4, 0
+repos/python/geekcomputers-Python/primelib/primelib.py,"fib( n )",20, 76, 4, 0
+repos/python/geekcomputers-Python/communication/socket_conn.py,"slice( mink , maxk )",5, 33, 8, 0
+repos/python/geekcomputers-Python/communication/socket_conn.py,"pi( n )",23, 45, 12, 0
+repos/python/geekcomputers-Python/communication/file.py,"slice( mink , maxk )",5, 42, 4, 0
+repos/python/geekcomputers-Python/communication/file.py,"pi( n )",21, 53, 12, 0
+repos/python/geekcomputers-Python/communication/pipe.py,"slice( mink , maxk )",5, 33, 8, 0
+repos/python/geekcomputers-Python/communication/pipe.py,"pi( n )",24, 48, 12, 0
+repos/python/geekcomputers-Python/game_of_life/game_o_life.py,"create_canvas( size )",3, 66, 4, 0
+repos/python/geekcomputers-Python/game_of_life/game_o_life.py,"seed( canvas )",4, 53, 12, 0
+repos/python/geekcomputers-Python/game_of_life/game_o_life.py,"run( canvas )",20, 124, 4, 0
+repos/python/geekcomputers-Python/game_of_life/game_o_life.py,"__judge_point( pt , neighbours )",27, 46, 4, 0
+repos/python/geekcomputers-Python/XORcipher/XOR_cipher.py,"__init__( self , key = 0 )",8, 50, 0, 3
+repos/python/geekcomputers-Python/XORcipher/XOR_cipher.py,"encrypt( self , content , key )",24, 65, 0, 3
+repos/python/geekcomputers-Python/XORcipher/XOR_cipher.py,"decrypt( self , content , key )",24, 65, 0, 3
+repos/python/geekcomputers-Python/XORcipher/XOR_cipher.py,"encrypt_string( self , content , key = 0 )",24, 65, 0, 3
+repos/python/geekcomputers-Python/XORcipher/XOR_cipher.py,"decrypt_string( self , content , key = 0 )",24, 65, 0, 3
+repos/python/geekcomputers-Python/XORcipher/XOR_cipher.py,"encrypt_file( self , file , key = 0 )",24, 65, 0, 3
+repos/python/geekcomputers-Python/XORcipher/XOR_cipher.py,"decrypt_file( self , file , key )",24, 65, 0, 3
+repos/python/geekcomputers-Python/brickout-game/brickout-game.py,"__init__( self , screen , radius , x , y )",10, 55, 8, 0
+repos/python/geekcomputers-Python/brickout-game/brickout-game.py,"getXVel( self )",2, 27, 8, 0
+repos/python/geekcomputers-Python/brickout-game/brickout-game.py,"getYVel( self )",2, 27, 8, 0
+repos/python/geekcomputers-Python/brickout-game/brickout-game.py,"draw( self )",5, 87, 8, 0
+repos/python/geekcomputers-Python/brickout-game/brickout-game.py,"update( self , paddle , brickwall )",37, 82, 8, 0
+repos/python/geekcomputers-Python/brickout-game/brickout-game.py,"__init__( self , screen , width , height , x , y )",9, 55, 8, 0
+repos/python/geekcomputers-Python/brickout-game/brickout-game.py,"draw( self )",5, 94, 8, 0
+repos/python/geekcomputers-Python/brickout-game/brickout-game.py,"update( self )",7, 53, 12, 0
+repos/python/geekcomputers-Python/brickout-game/brickout-game.py,"__init__( self , screen , width , height , x , y )",10, 55, 8, 0
+repos/python/geekcomputers-Python/brickout-game/brickout-game.py,"draw( self )",6, 101, 8, 0
+repos/python/geekcomputers-Python/brickout-game/brickout-game.py,"add( self , group )",6, 46, 12, 0
+repos/python/geekcomputers-Python/brickout-game/brickout-game.py,"remove( self , group )",6, 53, 12, 0
+repos/python/geekcomputers-Python/brickout-game/brickout-game.py,"alive( self )",6, 68, 12, 0
+repos/python/geekcomputers-Python/brickout-game/brickout-game.py,"collide( self , ball )",20, 94, 8, 0
+repos/python/geekcomputers-Python/brickout-game/brickout-game.py,"__init__( self , screen , x , y , width , height )",16, 68, 16, 0
+repos/python/geekcomputers-Python/brickout-game/brickout-game.py,"add( self , brick )",5, 51, 12, 0
+repos/python/geekcomputers-Python/brickout-game/brickout-game.py,"remove( self , brick )",5, 56, 12, 0
+repos/python/geekcomputers-Python/brickout-game/brickout-game.py,"draw( self )",7, 42, 12, 0
+repos/python/geekcomputers-Python/brickout-game/brickout-game.py,"update( self , ball )",12, 78, 12, 0
+repos/python/geekcomputers-Python/brickout-game/brickout-game.py,"hasWin( self )",5, 38, 8, 0
+repos/python/geekcomputers-Python/brickout-game/brickout-game.py,"collide( self , ball )",9, 51, 12, 0
+repos/python/geekcomputers-Python/nodepad/notepad_support.py,"delete_button( p1 )",14, 60, 4, 0
+repos/python/geekcomputers-Python/nodepad/notepad_support.py,"create_button( p1 )",17, 68, 8, 0
+repos/python/geekcomputers-Python/nodepad/notepad_support.py,"add_button( p1 )",14, 82, 8, 0
+repos/python/geekcomputers-Python/nodepad/notepad_support.py,"back_button( p1 )",10, 53, 8, 0
+repos/python/geekcomputers-Python/nodepad/notepad_support.py,"clear_button( p1 )",6, 47, 8, 0
+repos/python/geekcomputers-Python/nodepad/notepad_support.py,"exit_button( p1 )",6, 40, 8, 0
+repos/python/geekcomputers-Python/nodepad/notepad_support.py,"search_button( p1 )",17, 76, 8, 0
+repos/python/geekcomputers-Python/nodepad/notepad_support.py,"next_button( p1 )",11, 71, 8, 0
+repos/python/geekcomputers-Python/nodepad/notepad_support.py,"init( top , gui , * args , ** kwargs )",5, 37, 0, 0
+repos/python/geekcomputers-Python/nodepad/notepad_support.py,"destroy_window( )",5, 40, 4, 0
+repos/python/geekcomputers-Python/nodepad/notepad.py,"vp_start_gui( )",8, 58, 4, 0
+repos/python/geekcomputers-Python/nodepad/notepad.py,"create_Notepads_managment( root , * args , ** kwargs )",8, 69, 4, 0
+repos/python/geekcomputers-Python/nodepad/notepad.py,"destroy_Notepads_managment( )",4, 34, 0, 0
+repos/python/geekcomputers-Python/nodepad/notepad.py,"__init__( self , top = None )",144, 82, 8, 0
+repos/python/geekcomputers-Python/Google_Image_Downloader/image_grapper.py,"search_for_image( )",29, 64, 8, 0
+repos/python/geekcomputers-Python/Google_Image_Downloader/image_grapper.py,"download_wallpapers_1080p( )",37, 92, 8, 0
+repos/python/geekcomputers-Python/Google_Image_Downloader/image_grapper.py,"view_images_directory( )",5, 53, 4, 0
+repos/python/geekcomputers-Python/Google_Image_Downloader/image_grapper.py,"set_directory( )",8, 46, 4, 0
+repos/python/geekcomputers-Python/Google_Image_Downloader/image_grapper.py,"quit( )",5, 76, 0, 0
+repos/python/geekcomputers-Python/Google_Image_Downloader/create_dir.py,"create_directory( name )",5, 64, 8, 0
+repos/python/geekcomputers-Python/Google_Image_Downloader/create_dir.py,"delete_directory( name )",2, 28, 0, 0
+repos/python/geekcomputers-Python/Google_Image_Downloader/create_dir.py,"rename_directory( direct , name )",2, 36, 0, 0
+repos/python/geekcomputers-Python/Google_Image_Downloader/create_dir.py,"set_working_directory( )",2, 29, 0, 0
+repos/python/geekcomputers-Python/Google_Image_Downloader/create_dir.py,"backup_files( name_dir , folder )",2, 48, 4, 0
+repos/python/geekcomputers-Python/Google_Image_Downloader/create_dir.py,"move_folder( filename , name_dir , folder )",4, 47, 4, 0
+repos/python/geekcomputers-Python/Compression_Analysis/PSNR.py,"Representational( r , g , b )",2, 34, 0, 1
+repos/python/geekcomputers-Python/Compression_Analysis/PSNR.py,"calculate( img )",4, 35, 0, 1
+repos/python/geekcomputers-Python/Compression_Analysis/PSNR.py,"main( )",21, 57, 0, 1

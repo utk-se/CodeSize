@@ -1,0 +1,1335 @@
+File, Function, Length, Total Width, Leading Space(s), Leading Tab(s)
+repos/python/faceswap/tools.py,"bad_args( args )",4, 40, 4, 0
+repos/python/faceswap/faceswap.py,"bad_args( args )",4, 40, 4, 0
+repos/python/faceswap/setup.py,"__init__( self )",25, 77, 8, 0
+repos/python/faceswap/setup.py,"encoding( self )",3, 45, 8, 0
+repos/python/faceswap/setup.py,"os_version( self )",3, 53, 8, 0
+repos/python/faceswap/setup.py,"py_version( self )",3, 69, 8, 0
+repos/python/faceswap/setup.py,"is_macos( self )",3, 51, 8, 0
+repos/python/faceswap/setup.py,"is_conda( self )",3, 52, 8, 0
+repos/python/faceswap/setup.py,"ld_library_path( self )",3, 55, 8, 0
+repos/python/faceswap/setup.py,"is_admin( self )",7, 64, 12, 0
+repos/python/faceswap/setup.py,"is_virtualenv( self )",9, 87, 22, 0
+repos/python/faceswap/setup.py,"process_arguments( self )",8, 42, 8, 0
+repos/python/faceswap/setup.py,"get_required_packages( )",11, 69, 8, 0
+repos/python/faceswap/setup.py,"check_permission( self )",6, 73, 12, 0
+repos/python/faceswap/setup.py,"check_system( self )",8, 87, 12, 0
+repos/python/faceswap/setup.py,"check_python( self )",10, 97, 12, 0
+repos/python/faceswap/setup.py,"output_runtime_info( self )",7, 65, 12, 0
+repos/python/faceswap/setup.py,"check_pip( self )",7, 93, 12, 0
+repos/python/faceswap/setup.py,"upgrade_pip( self )",14, 77, 12, 0
+repos/python/faceswap/setup.py,"get_installed_packages( self )",13, 76, 8, 0
+repos/python/faceswap/setup.py,"get_installed_conda_packages( self )",10, 79, 21, 0
+repos/python/faceswap/setup.py,"update_tf_dep( self )",49, 92, 12, 0
+repos/python/faceswap/setup.py,"update_tf_dep_conda( self )",6, 68, 12, 0
+repos/python/faceswap/setup.py,"__init__( self )",6, 75, 8, 0
+repos/python/faceswap/setup.py,"__indent_text_block( text )",10, 59, 16, 0
+repos/python/faceswap/setup.py,"info( self , text )",6, 72, 12, 0
+repos/python/faceswap/setup.py,"warning( self , text )",6, 73, 12, 0
+repos/python/faceswap/setup.py,"error( self , text )",8, 70, 12, 0
+repos/python/faceswap/setup.py,"__init__( self , environment )",32, 98, 8, 0
+repos/python/faceswap/setup.py,"docker_ask_enable( self )",9, 48, 12, 0
+repos/python/faceswap/setup.py,"docker_confirm( self )",8, 79, 28, 0
+repos/python/faceswap/setup.py,"docker_tips( self )",6, 44, 8, 0
+repos/python/faceswap/setup.py,"cuda_ask_enable( self )",9, 46, 12, 0
+repos/python/faceswap/setup.py,"cuda_check( self )",6, 50, 8, 0
+repos/python/faceswap/setup.py,"cuda_check_linux( self )",21, 94, 8, 0
+repos/python/faceswap/setup.py,"cuda_check_windows( self )",14, 99, 30, 0
+repos/python/faceswap/setup.py,"cudnn_check( self )",30, 100, 30, 0
+repos/python/faceswap/setup.py,"check_system_dependencies( self )",10, 61, 8, 0
+repos/python/faceswap/setup.py,"gcc_check( self )",12, 93, 12, 0
+repos/python/faceswap/setup.py,"gpp_check( self )",12, 93, 12, 0
+repos/python/faceswap/setup.py,"cmake_check( self )",17, 100, 30, 0
+repos/python/faceswap/setup.py,"cmake_check_windows( self )",16, 99, 8, 0
+repos/python/faceswap/setup.py,"visual_studio_check( self )",15, 90, 30, 0
+repos/python/faceswap/setup.py,"check_cplus_plus( self )",21, 104, 12, 0
+repos/python/faceswap/setup.py,"__init__( self , environment )",12, 92, 8, 0
+repos/python/faceswap/setup.py,"ask_continue( self )",6, 88, 8, 0
+repos/python/faceswap/setup.py,"check_missing_dep( self )",14, 83, 20, 0
+repos/python/faceswap/setup.py,"check_conda_missing_dep( self )",14, 92, 20, 0
+repos/python/faceswap/setup.py,"install_missing_dep( self )",6, 45, 8, 0
+repos/python/faceswap/setup.py,"install_python_packages( self )",9, 92, 8, 0
+repos/python/faceswap/setup.py,"install_conda_packages( self )",6, 91, 8, 0
+repos/python/faceswap/setup.py,"conda_installer( self , package , channel = None , verbose = False , conda_only = False )",24, 95, 16, 0
+repos/python/faceswap/setup.py,"pip_installer( self , package )",27, 88, 32, 0
+repos/python/faceswap/setup.py,"__init__( self )",2, 31, 8, 0
+repos/python/faceswap/setup.py,"docker_no_cuda( self )",30, 107, 12, 0
+repos/python/faceswap/setup.py,"docker_cuda( self )",35, 125, 12, 0
+repos/python/faceswap/setup.py,"macos( self )",16, 98, 12, 0
+repos/python/faceswap/setup.py,"pip( self )",5, 90, 25, 0
+repos/python/faceswap/tools/effmpeg.py,"__init__( self , path = None , name = None , item_type = None , ext = None , fps = None )",2, 71, 4, 0
+repos/python/faceswap/tools/effmpeg.py,"set_name( self , name = None )",11, 57, 8, 0
+repos/python/faceswap/tools/effmpeg.py,"set_type_ext( self , path = None )",17, 94, 12, 0
+repos/python/faceswap/tools/effmpeg.py,"set_dirname( self , path = None )",11, 70, 8, 0
+repos/python/faceswap/tools/effmpeg.py,"is_type( self , item_type = None )",16, 77, 8, 0
+repos/python/faceswap/tools/effmpeg.py,"set_fps( self )",7, 50, 12, 0
+repos/python/faceswap/tools/effmpeg.py,"__init__( self , arguments )",12, 93, 8, 0
+repos/python/faceswap/tools/effmpeg.py,"process( self )",118, 97, 8, 0
+repos/python/faceswap/tools/effmpeg.py,"effmpeg_process( self )",18, 56, 18, 0
+repos/python/faceswap/tools/effmpeg.py,"extract( input_ = None , output = None , fps = None , extract_ext = None , start = None , duration = None , ** kwargs )",2, 97, 4, 0
+repos/python/faceswap/tools/effmpeg.py,"gen_vid( input_ = None , output = None , fps = None , mux_audio = False , ref_vid = None , preview = False , exe = None , ** kwargs )",2, 69, 4, 0
+repos/python/faceswap/tools/effmpeg.py,"get_fps( input_ = None , print_ = False , ** kwargs )",20, 66, 8, 0
+repos/python/faceswap/tools/effmpeg.py,"get_info( input_ = None , print_ = False , ** kwargs )",11, 67, 22, 0
+repos/python/faceswap/tools/effmpeg.py,"rescale( input_ = None , output = None , scale = None , preview = False , exe = None , ** kwargs )",2, 79, 4, 0
+repos/python/faceswap/tools/effmpeg.py,"rotate( input_ = None , output = None , degrees = None , transpose = None , preview = None , exe = None , ** kwargs )",2, 71, 4, 0
+repos/python/faceswap/tools/effmpeg.py,"mux_audio( input_ = None , output = None , ref_vid = None , preview = None , exe = None , ** kwargs )",2, 72, 4, 0
+repos/python/faceswap/tools/effmpeg.py,"slice( input_ = None , output = None , start = None , duration = None , preview = None , exe = None , ** kwargs )",2, 67, 4, 0
+repos/python/faceswap/tools/effmpeg.py,"__set_verbosity( cls , quiet , verbose )",7, 79, 12, 0
+repos/python/faceswap/tools/effmpeg.py,"__get_default_output( self )",17, 94, 20, 0
+repos/python/faceswap/tools/effmpeg.py,"__check_have_fps( self , items )",11, 73, 8, 0
+repos/python/faceswap/tools/effmpeg.py,"__run_ffmpeg( exe = 'ffmpeg' , inputs = None , outputs = None )",16, 98, 8, 0
+repos/python/faceswap/tools/effmpeg.py,"__convert_fps( fps )",9, 53, 12, 0
+repos/python/faceswap/tools/effmpeg.py,"__get_duration( start_time , end_time )",13, 87, 8, 0
+repos/python/faceswap/tools/effmpeg.py,"__get_extracted_filename( path )",18, 78, 8, 0
+repos/python/faceswap/tools/effmpeg.py,"__get_zero_pad( filename )",9, 77, 8, 0
+repos/python/faceswap/tools/effmpeg.py,"__check_is_valid_time( value )",6, 63, 8, 0
+repos/python/faceswap/tools/effmpeg.py,"__check_equals_time( value , time )",7, 79, 8, 0
+repos/python/faceswap/tools/effmpeg.py,"parse_time( txt )",9, 59, 8, 0
+repos/python/faceswap/tools/effmpeg.py,"bad_args( args )",4, 55, 0, 0
+repos/python/faceswap/tools/alignments.py,"__init__( self , arguments )",6, 80, 8, 0
+repos/python/faceswap/tools/alignments.py,"get_dest_format( self )",6, 82, 8, 0
+repos/python/faceswap/tools/alignments.py,"process( self )",17, 76, 30, 0
+repos/python/faceswap/tools/sort.py,"__init__( self , arguments )",4, 35, 4, 0
+repos/python/faceswap/tools/sort.py,"process( self )",45, 76, 12, 0
+repos/python/faceswap/tools/sort.py,"launch_aligner( self )",35, 84, 12, 0
+repos/python/faceswap/tools/sort.py,"alignment_dict( image )",7, 57, 8, 0
+repos/python/faceswap/tools/sort.py,"get_landmarks( filename )",7, 77, 8, 0
+repos/python/faceswap/tools/sort.py,"sort_process( self )",22, 80, 12, 0
+repos/python/faceswap/tools/sort.py,"sort_blur( self )",15, 78, 8, 0
+repos/python/faceswap/tools/sort.py,"sort_face( self )",34, 76, 8, 0
+repos/python/faceswap/tools/sort.py,"sort_face_dissim( self )",31, 80, 8, 0
+repos/python/faceswap/tools/sort.py,"sort_face_cnn( self )",34, 67, 16, 0
+repos/python/faceswap/tools/sort.py,"sort_face_cnn_dissim( self )",34, 78, 8, 0
+repos/python/faceswap/tools/sort.py,"sort_face_yaw( self )",17, 78, 8, 0
+repos/python/faceswap/tools/sort.py,"sort_hist( self )",28, 79, 12, 0
+repos/python/faceswap/tools/sort.py,"sort_hist_dissim( self )",29, 80, 8, 0
+repos/python/faceswap/tools/sort.py,"group_blur( self , img_list )",23, 65, 8, 0
+repos/python/faceswap/tools/sort.py,"group_face( self , img_list )",53, 80, 20, 0
+repos/python/faceswap/tools/sort.py,"group_face_cnn( self , img_list )",44, 79, 8, 0
+repos/python/faceswap/tools/sort.py,"group_face_yaw( self , img_list )",23, 65, 8, 0
+repos/python/faceswap/tools/sort.py,"group_hist( self , img_list )",34, 75, 16, 0
+repos/python/faceswap/tools/sort.py,"final_process_rename( self , img_list )",44, 80, 12, 0
+repos/python/faceswap/tools/sort.py,"final_process_folders( self , bins )",35, 77, 52, 0
+repos/python/faceswap/tools/sort.py,"write_to_log( self , changes )",5, 74, 8, 0
+repos/python/faceswap/tools/sort.py,"reload_images( self , group_method , img_list )",57, 80, 8, 0
+repos/python/faceswap/tools/sort.py,"splice_lists( sorted_list , new_vals_list )",26, 78, 8, 0
+repos/python/faceswap/tools/sort.py,"find_images( input_dir )",9, 68, 16, 0
+repos/python/faceswap/tools/sort.py,"estimate_blur( image_file )",13, 76, 8, 0
+repos/python/faceswap/tools/sort.py,"calc_landmarks_face_pitch( flm )",5, 75, 8, 0
+repos/python/faceswap/tools/sort.py,"calc_landmarks_face_yaw( flm )",9, 54, 8, 0
+repos/python/faceswap/tools/sort.py,"set_process_file_method.process_file( src , dst , changes )",5, 63, 20, 0
+repos/python/faceswap/tools/sort.py,"set_process_file_method.process_file( src , dst , changes )",5, 63, 20, 0
+repos/python/faceswap/tools/sort.py,"set_process_file_method.process_file( src , dst , changes )",4, 88, 16, 0
+repos/python/faceswap/tools/sort.py,"set_process_file_method.process_file( src , dst , changes )",4, 88, 16, 0
+repos/python/faceswap/tools/sort.py,"set_process_file_method( log_changes , keep_original )",36, 88, 16, 0
+repos/python/faceswap/tools/sort.py,"set_renaming_method.renaming( src , output_dir , i , changes )",11, 77, 20, 0
+repos/python/faceswap/tools/sort.py,"set_renaming_method.renaming( src , output_dir , i , changes )",10, 90, 12, 0
+repos/python/faceswap/tools/sort.py,"set_renaming_method( log_changes )",26, 90, 12, 0
+repos/python/faceswap/tools/sort.py,"get_avg_score_hist( img1 , references )",8, 75, 12, 0
+repos/python/faceswap/tools/sort.py,"get_avg_score_faces( f1encs , references )",8, 70, 12, 0
+repos/python/faceswap/tools/sort.py,"get_avg_score_faces_cnn( fl1 , references )",8, 63, 12, 0
+repos/python/faceswap/tools/sort.py,"bad_args( args )",4, 55, 0, 0
+repos/python/faceswap/tools/cli.py,"get_argument_list( self )",138, 99, 20, 0
+repos/python/faceswap/tools/cli.py,"__parse_transpose( value )",14, 56, 8, 0
+repos/python/faceswap/tools/cli.py,"get_argument_list( self )",178, 79, 38, 0
+repos/python/faceswap/tools/cli.py,"get_argument_list( )",149, 79, 30, 0
+repos/python/faceswap/tools/lib_alignments/media.py,"__init__( self , alignments_file , destination_format )",12, 91, 8, 0
+repos/python/faceswap/tools/lib_alignments/media.py,"check_file_exists( alignments_file )",13, 87, 12, 0
+repos/python/faceswap/tools/lib_alignments/media.py,"set_dfl( self , destination_format )",5, 56, 8, 0
+repos/python/faceswap/tools/lib_alignments/media.py,"set_destination_format( self , destination_format )",26, 82, 12, 0
+repos/python/faceswap/tools/lib_alignments/media.py,"save( self )",4, 70, 8, 0
+repos/python/faceswap/tools/lib_alignments/media.py,"__init__( self , folder )",9, 89, 8, 0
+repos/python/faceswap/tools/lib_alignments/media.py,"count( self )",7, 98, 12, 0
+repos/python/faceswap/tools/lib_alignments/media.py,"check_input_folder( self )",23, 83, 12, 0
+repos/python/faceswap/tools/lib_alignments/media.py,"valid_extension( filename )",6, 81, 8, 0
+repos/python/faceswap/tools/lib_alignments/media.py,"sorted_items( )",3, 56, 8, 0
+repos/python/faceswap/tools/lib_alignments/media.py,"process_folder( )",3, 56, 8, 0
+repos/python/faceswap/tools/lib_alignments/media.py,"load_items( )",3, 51, 8, 0
+repos/python/faceswap/tools/lib_alignments/media.py,"load_image( self , filename )",9, 65, 12, 0
+repos/python/faceswap/tools/lib_alignments/media.py,"load_video_frame( self , filename )",8, 89, 8, 0
+repos/python/faceswap/tools/lib_alignments/media.py,"save_image( output_folder , filename , image )",5, 69, 8, 0
+repos/python/faceswap/tools/lib_alignments/media.py,"process_folder( self )",15, 79, 8, 0
+repos/python/faceswap/tools/lib_alignments/media.py,"load_items( self )",8, 89, 64, 0
+repos/python/faceswap/tools/lib_alignments/media.py,"sorted_items( self )",6, 65, 8, 0
+repos/python/faceswap/tools/lib_alignments/media.py,"process_folder( self )",5, 79, 8, 0
+repos/python/faceswap/tools/lib_alignments/media.py,"process_frames( self )",14, 62, 8, 0
+repos/python/faceswap/tools/lib_alignments/media.py,"process_video( self )",13, 69, 8, 0
+repos/python/faceswap/tools/lib_alignments/media.py,"load_items( self )",8, 73, 47, 0
+repos/python/faceswap/tools/lib_alignments/media.py,"sorted_items( self )",6, 65, 8, 0
+repos/python/faceswap/tools/lib_alignments/media.py,"__init__( self , frames , alignments , size = 256 , align_eyes = False )",12, 72, 4, 0
+repos/python/faceswap/tools/lib_alignments/media.py,"get_faces( self , frame )",14, 95, 8, 0
+repos/python/faceswap/tools/lib_alignments/media.py,"extract_one_face( self , alignment , image )",8, 77, 8, 0
+repos/python/faceswap/tools/lib_alignments/media.py,"get_faces_in_frame( self , frame , update = False )",6, 63, 8, 0
+repos/python/faceswap/tools/lib_alignments/media.py,"get_roi_size_for_frame( self , frame )",18, 77, 12, 0
+repos/python/faceswap/tools/lib_alignments/media.py,"save_face_with_hash( filename , extension , face )",7, 57, 8, 0
+repos/python/faceswap/tools/lib_alignments/annotate.py,"__init__( self , image , alignments , original_roi = None )",13, 76, 8, 0
+repos/python/faceswap/tools/lib_alignments/annotate.py,"draw_black_image( self )",5, 60, 8, 0
+repos/python/faceswap/tools/lib_alignments/annotate.py,"draw_bounding_box( self , color_id = 1 , thickness = 1 )",13, 94, 12, 0
+repos/python/faceswap/tools/lib_alignments/annotate.py,"draw_extract_box( self , color_id = 2 , thickness = 1 )",17, 98, 12, 0
+repos/python/faceswap/tools/lib_alignments/annotate.py,"draw_landmarks( self , color_id = 3 , radius = 1 )",13, 86, 12, 0
+repos/python/faceswap/tools/lib_alignments/annotate.py,"draw_landmarks_mesh( self , color_id = 4 , thickness = 1 )",15, 94, 12, 0
+repos/python/faceswap/tools/lib_alignments/annotate.py,"draw_grey_out_faces( self , live_face )",16, 83, 16, 0
+repos/python/faceswap/tools/lib_alignments/jobs.py,"__init__( self , alignments , arguments )",12, 93, 8, 0
+repos/python/faceswap/tools/lib_alignments/jobs.py,"get_source_dir( self , arguments )",17, 91, 12, 0
+repos/python/faceswap/tools/lib_alignments/jobs.py,"get_items( self )",4, 55, 8, 0
+repos/python/faceswap/tools/lib_alignments/jobs.py,"process( self )",5, 69, 8, 0
+repos/python/faceswap/tools/lib_alignments/jobs.py,"validate( self )",11, 91, 12, 0
+repos/python/faceswap/tools/lib_alignments/jobs.py,"compile_output( self )",6, 59, 8, 0
+repos/python/faceswap/tools/lib_alignments/jobs.py,"get_no_faces( self )",9, 75, 8, 0
+repos/python/faceswap/tools/lib_alignments/jobs.py,"get_multi_faces( self )",6, 77, 8, 0
+repos/python/faceswap/tools/lib_alignments/jobs.py,"get_multi_faces_frames( self )",9, 71, 12, 0
+repos/python/faceswap/tools/lib_alignments/jobs.py,"get_multi_faces_faces( self )",24, 92, 25, 0
+repos/python/faceswap/tools/lib_alignments/jobs.py,"get_missing_alignments( self )",10, 72, 8, 0
+repos/python/faceswap/tools/lib_alignments/jobs.py,"get_missing_frames( self )",9, 82, 8, 0
+repos/python/faceswap/tools/lib_alignments/jobs.py,"get_leftover_faces( self )",8, 71, 8, 0
+repos/python/faceswap/tools/lib_alignments/jobs.py,"output_results( self , items_output )",21, 80, 8, 0
+repos/python/faceswap/tools/lib_alignments/jobs.py,"output_file( self , output_message , items_discovered )",8, 90, 8, 0
+repos/python/faceswap/tools/lib_alignments/jobs.py,"move_file( self , items_output )",10, 89, 8, 0
+repos/python/faceswap/tools/lib_alignments/jobs.py,"move_frames( self , output_folder , items_output )",8, 84, 8, 0
+repos/python/faceswap/tools/lib_alignments/jobs.py,"move_faces( self , output_folder , items_output )",13, 95, 12, 0
+repos/python/faceswap/tools/lib_alignments/jobs.py,"__init__( self , alignments , arguments )",8, 93, 8, 0
+repos/python/faceswap/tools/lib_alignments/jobs.py,"set_output( self )",12, 63, 12, 0
+repos/python/faceswap/tools/lib_alignments/jobs.py,"process( self )",19, 87, 8, 0
+repos/python/faceswap/tools/lib_alignments/jobs.py,"annotate_image( self , frame )",16, 65, 8, 0
+repos/python/faceswap/tools/lib_alignments/jobs.py,"__init__( self , alignments , arguments )",10, 97, 8, 0
+repos/python/faceswap/tools/lib_alignments/jobs.py,"process( self )",5, 61, 8, 0
+repos/python/faceswap/tools/lib_alignments/jobs.py,"check_folder( self )",15, 92, 12, 0
+repos/python/faceswap/tools/lib_alignments/jobs.py,"export_faces( self )",15, 88, 8, 0
+repos/python/faceswap/tools/lib_alignments/jobs.py,"output_faces( self , frame )",21, 85, 66, 0
+repos/python/faceswap/tools/lib_alignments/jobs.py,"select_valid_faces( self , frame )",12, 72, 12, 0
+repos/python/faceswap/tools/lib_alignments/jobs.py,"__init__( self , alignments , arguments , frames = None , faces = None , child_process = False )",11, 93, 4, 0
+repos/python/faceswap/tools/lib_alignments/jobs.py,"process( self )",15, 80, 8, 0
+repos/python/faceswap/tools/lib_alignments/jobs.py,"rotate_landmarks( self , rotated )",7, 74, 12, 0
+repos/python/faceswap/tools/lib_alignments/jobs.py,"add_hashes( self , hashes )",23, 94, 16, 0
+repos/python/faceswap/tools/lib_alignments/jobs.py,"__init__( self , alignments , arguments )",3, 77, 8, 0
+repos/python/faceswap/tools/lib_alignments/jobs.py,"process( self )",23, 90, 20, 0
+repos/python/faceswap/tools/lib_alignments/jobs.py,"check_exists( self , frame , alignment , idx )",12, 90, 12, 0
+repos/python/faceswap/tools/lib_alignments/jobs.py,"merge_alignment( self , frame , alignment , idx )",5, 78, 8, 0
+repos/python/faceswap/tools/lib_alignments/jobs.py,"set_destination_filename( self )",6, 59, 8, 0
+repos/python/faceswap/tools/lib_alignments/jobs.py,"__init__( self , alignments , arguments )",7, 93, 8, 0
+repos/python/faceswap/tools/lib_alignments/jobs.py,"process( self )",7, 97, 12, 0
+repos/python/faceswap/tools/lib_alignments/jobs.py,"load_dfl( self )",16, 85, 16, 0
+repos/python/faceswap/tools/lib_alignments/jobs.py,"get_dfl_alignment( filename )",22, 89, 20, 0
+repos/python/faceswap/tools/lib_alignments/jobs.py,"convert_dfl_alignment( dfl_alignments , f_hash , alignments )",12, 93, 8, 0
+repos/python/faceswap/tools/lib_alignments/jobs.py,"__init__( self , alignments , arguments )",7, 93, 8, 0
+repos/python/faceswap/tools/lib_alignments/jobs.py,"get_items( self , arguments )",8, 69, 12, 0
+repos/python/faceswap/tools/lib_alignments/jobs.py,"process( self )",30, 89, 12, 0
+repos/python/faceswap/tools/lib_alignments/jobs.py,"remove_frames( self , frame )",8, 65, 8, 0
+repos/python/faceswap/tools/lib_alignments/jobs.py,"remove_faces( self )",10, 99, 12, 0
+repos/python/faceswap/tools/lib_alignments/jobs.py,"remove_alignment( self , item )",16, 96, 8, 0
+repos/python/faceswap/tools/lib_alignments/jobs.py,"__init__( self , alignments , arguments , faces = None )",7, 68, 8, 0
+repos/python/faceswap/tools/lib_alignments/jobs.py,"process( self )",9, 85, 48, 0
+repos/python/faceswap/tools/lib_alignments/jobs.py,"rename_faces( self , frame , frame_fullname )",37, 86, 23, 0
+repos/python/faceswap/tools/lib_alignments/jobs.py,"check_multi_hashes( self , faces , frame , idx )",30, 100, 8, 0
+repos/python/faceswap/tools/lib_alignments/jobs.py,"__init__( self , alignments , arguments )",6, 93, 8, 0
+repos/python/faceswap/tools/lib_alignments/jobs.py,"get_faces( self , arguments )",9, 80, 8, 0
+repos/python/faceswap/tools/lib_alignments/jobs.py,"process( self )",10, 63, 12, 0
+repos/python/faceswap/tools/lib_alignments/jobs.py,"check_legacy( self )",12, 97, 12, 0
+repos/python/faceswap/tools/lib_alignments/jobs.py,"reindex_faces( self )",18, 100, 12, 0
+repos/python/faceswap/tools/lib_alignments/jobs.py,"__init__( self , alignments , arguments )",8, 93, 8, 0
+repos/python/faceswap/tools/lib_alignments/jobs.py,"process( self )",18, 98, 20, 0
+repos/python/faceswap/tools/lib_alignments/jobs.py,"normalize_shapes( shapes_im_coords )",18, 99, 8, 0
+repos/python/faceswap/tools/lib_alignments/jobs.py,"normalized_to_original( shapes_normalized , scale_factors , mean_coords )",12, 93, 8, 0
+repos/python/faceswap/tools/lib_alignments/jobs.py,"normalize( self )",27, 80, 8, 0
+repos/python/faceswap/tools/lib_alignments/jobs.py,"shape_model( self )",13, 94, 8, 0
+repos/python/faceswap/tools/lib_alignments/jobs.py,"spatially_filter( self )",20, 95, 8, 0
+repos/python/faceswap/tools/lib_alignments/jobs.py,"temporally_smooth( landmarks )",14, 100, 8, 0
+repos/python/faceswap/tools/lib_alignments/jobs.py,"update_alignments( self , landmarks )",10, 87, 12, 0
+repos/python/faceswap/tools/lib_alignments/jobs.py,"__init__( self , alignments , arguments )",6, 93, 8, 0
+repos/python/faceswap/tools/lib_alignments/jobs.py,"process( self )",10, 75, 8, 0
+repos/python/faceswap/tools/lib_alignments/jobs.py,"get_hashes( self )",15, 94, 16, 0
+repos/python/faceswap/tools/lib_alignments/jobs.py,"update_hashes( self )",17, 92, 16, 0
+repos/python/faceswap/tools/lib_alignments/jobs_manual.py,"__init__( self , alignments , frames )",12, 70, 8, 0
+repos/python/faceswap/tools/lib_alignments/jobs_manual.py,"set_controls( self )",85, 90, 26, 0
+repos/python/faceswap/tools/lib_alignments/jobs_manual.py,"set_state( )",32, 99, 12, 0
+repos/python/faceswap/tools/lib_alignments/jobs_manual.py,"save_alignments( self , * args )",9, 77, 12, 0
+repos/python/faceswap/tools/lib_alignments/jobs_manual.py,"reload_alignments( self , * args )",10, 82, 12, 0
+repos/python/faceswap/tools/lib_alignments/jobs_manual.py,"delete_alignment( self , * args )",13, 83, 12, 0
+repos/python/faceswap/tools/lib_alignments/jobs_manual.py,"copy_alignments( self , * args )",18, 84, 12, 0
+repos/python/faceswap/tools/lib_alignments/jobs_manual.py,"toggle_state( self , item , category )",7, 81, 8, 0
+repos/python/faceswap/tools/lib_alignments/jobs_manual.py,"iterate_state( self , item , category )",17, 80, 8, 0
+repos/python/faceswap/tools/lib_alignments/jobs_manual.py,"set_state_value( self , item , category , value )",13, 81, 8, 0
+repos/python/faceswap/tools/lib_alignments/jobs_manual.py,"iterate_frame( self , * args )",22, 66, 12, 0
+repos/python/faceswap/tools/lib_alignments/jobs_manual.py,"get_color( self , item )",3, 47, 8, 0
+repos/python/faceswap/tools/lib_alignments/jobs_manual.py,"get_size( self , item )",3, 46, 8, 0
+repos/python/faceswap/tools/lib_alignments/jobs_manual.py,"get_frame_scaling( self )",5, 63, 8, 0
+repos/python/faceswap/tools/lib_alignments/jobs_manual.py,"get_edit_mode( self )",5, 67, 8, 0
+repos/python/faceswap/tools/lib_alignments/jobs_manual.py,"get_skip_mode( self )",3, 69, 8, 0
+repos/python/faceswap/tools/lib_alignments/jobs_manual.py,"get_state_color( self )",11, 50, 8, 0
+repos/python/faceswap/tools/lib_alignments/jobs_manual.py,"get_frame_name( self )",3, 54, 8, 0
+repos/python/faceswap/tools/lib_alignments/jobs_manual.py,"get_selected_face_id( self )",6, 64, 8, 0
+repos/python/faceswap/tools/lib_alignments/jobs_manual.py,"redraw( self )",3, 52, 8, 0
+repos/python/faceswap/tools/lib_alignments/jobs_manual.py,"set_redraw( self , request )",3, 50, 8, 0
+repos/python/faceswap/tools/lib_alignments/jobs_manual.py,"__init__( self , interface )",5, 93, 8, 0
+repos/python/faceswap/tools/lib_alignments/jobs_manual.py,"generate( self )",32, 82, 12, 0
+repos/python/faceswap/tools/lib_alignments/jobs_manual.py,"render( self )",10, 61, 8, 0
+repos/python/faceswap/tools/lib_alignments/jobs_manual.py,"background( self )",11, 72, 8, 0
+repos/python/faceswap/tools/lib_alignments/jobs_manual.py,"compile_status( self )",19, 98, 12, 0
+repos/python/faceswap/tools/lib_alignments/jobs_manual.py,"text_to_image( image , display_text )",14, 76, 24, 0
+repos/python/faceswap/tools/lib_alignments/jobs_manual.py,"__init__( self , alignments , arguments )",12, 73, 8, 0
+repos/python/faceswap/tools/lib_alignments/jobs_manual.py,"process( self )",17, 86, 8, 0
+repos/python/faceswap/tools/lib_alignments/jobs_manual.py,"display_frames( self )",46, 88, 16, 0
+repos/python/faceswap/tools/lib_alignments/jobs_manual.py,"window_closed( self , is_windows , is_conda , key )",26, 78, 8, 0
+repos/python/faceswap/tools/lib_alignments/jobs_manual.py,"get_keys( self )",14, 57, 8, 0
+repos/python/faceswap/tools/lib_alignments/jobs_manual.py,"get_frame( self )",17, 75, 8, 0
+repos/python/faceswap/tools/lib_alignments/jobs_manual.py,"frame_selector( self )",33, 99, 8, 0
+repos/python/faceswap/tools/lib_alignments/jobs_manual.py,"set_faces( self , frame )",6, 89, 8, 0
+repos/python/faceswap/tools/lib_alignments/jobs_manual.py,"__init__( self , image , alignments , roi , interface )",9, 82, 8, 0
+repos/python/faceswap/tools/lib_alignments/jobs_manual.py,"annotate_frame( self )",24, 84, 8, 0
+repos/python/faceswap/tools/lib_alignments/jobs_manual.py,"resize_frame( self , image )",11, 72, 8, 0
+repos/python/faceswap/tools/lib_alignments/jobs_manual.py,"__init__( self , extracted_faces , landmarks , size , interface )",14, 88, 8, 0
+repos/python/faceswap/tools/lib_alignments/jobs_manual.py,"copy_faces( faces )",3, 80, 8, 0
+repos/python/faceswap/tools/lib_alignments/jobs_manual.py,"set_full_roi( size )",3, 100, 8, 0
+repos/python/faceswap/tools/lib_alignments/jobs_manual.py,"annotate_faces( self )",25, 78, 8, 0
+repos/python/faceswap/tools/lib_alignments/jobs_manual.py,"build_faces_image( self , size )",18, 78, 12, 0
+repos/python/faceswap/tools/lib_alignments/jobs_manual.py,"build_faces_row( self , faces , size )",17, 66, 16, 0
+repos/python/faceswap/tools/lib_alignments/jobs_manual.py,"__init__( self , interface , loglevel )",19, 93, 8, 0
+repos/python/faceswap/tools/lib_alignments/jobs_manual.py,"init_extractor( self , loglevel )",52, 76, 12, 0
+repos/python/faceswap/tools/lib_alignments/jobs_manual.py,"on_event( self , event , x , y , flags , param )",26, 99, 4, 0
+repos/python/faceswap/tools/lib_alignments/jobs_manual.py,"initialize( self )",14, 60, 8, 0
+repos/python/faceswap/tools/lib_alignments/jobs_manual.py,"set_bounding_box( self , pt_x , pt_y )",11, 62, 8, 0
+repos/python/faceswap/tools/lib_alignments/jobs_manual.py,"check_click_location( self , pt_x , pt_y )",18, 72, 16, 0
+repos/python/faceswap/tools/lib_alignments/jobs_manual.py,"dims_from_alignment( self )",6, 72, 8, 0
+repos/python/faceswap/tools/lib_alignments/jobs_manual.py,"dims_from_image( self )",6, 50, 8, 0
+repos/python/faceswap/tools/lib_alignments/jobs_manual.py,"bounding_from_center( self )",9, 72, 38, 0
+repos/python/faceswap/tools/lib_alignments/jobs_manual.py,"move_bounding_box( self , pt_x , pt_y )",5, 45, 4, 0
+repos/python/faceswap/tools/lib_alignments/jobs_manual.py,"resize_bounding_box( self , pt_x , pt_y )",22, 76, 8, 0
+repos/python/faceswap/tools/lib_alignments/jobs_manual.py,"update_landmarks( self )",31, 81, 8, 0
+repos/python/faceswap/tools/lib_alignments/jobs_manual.py,"extracted_to_alignment( extract_data )",10, 59, 8, 0
+repos/python/faceswap/plugins/plugin_loader.py,"get_detector( name )",3, 60, 8, 0
+repos/python/faceswap/plugins/plugin_loader.py,"get_aligner( name )",3, 59, 8, 0
+repos/python/faceswap/plugins/plugin_loader.py,"get_converter( name )",3, 53, 8, 0
+repos/python/faceswap/plugins/plugin_loader.py,"get_model( name )",3, 57, 8, 0
+repos/python/faceswap/plugins/plugin_loader.py,"get_trainer( name )",3, 59, 8, 0
+repos/python/faceswap/plugins/plugin_loader.py,"_import( attr , name )",9, 71, 8, 0
+repos/python/faceswap/plugins/plugin_loader.py,"get_available_models( )",8, 78, 8, 0
+repos/python/faceswap/plugins/plugin_loader.py,"get_available_converters( )",8, 76, 8, 0
+repos/python/faceswap/plugins/plugin_loader.py,"get_available_extractors( extractor_type )",11, 75, 8, 0
+repos/python/faceswap/plugins/plugin_loader.py,"get_default_model( )",4, 65, 8, 0
+repos/python/faceswap/plugins/train/_config.py,"set_defaults( self )",182, 100, 12, 0
+repos/python/faceswap/plugins/train/model/unbalanced.py,"__init__( self , * args , ** kwargs )",11, 90, 8, 0
+repos/python/faceswap/plugins/train/model/unbalanced.py,"add_networks( self )",7, 59, 8, 0
+repos/python/faceswap/plugins/train/model/unbalanced.py,"encoder( self )",20, 98, 8, 0
+repos/python/faceswap/plugins/train/model/unbalanced.py,"decoder_a( self )",31, 90, 12, 0
+repos/python/faceswap/plugins/train/model/unbalanced.py,"decoder_b( self )",43, 90, 12, 0
+repos/python/faceswap/plugins/train/model/villain.py,"__init__( self , * args , ** kwargs )",10, 71, 8, 0
+repos/python/faceswap/plugins/train/model/villain.py,"encoder( self )",32, 92, 8, 0
+repos/python/faceswap/plugins/train/model/villain.py,"decoder( self )",24, 98, 8, 0
+repos/python/faceswap/plugins/train/model/_base.py,"__init__( self , model_dir , gpus , no_logs = False , warp_to_landmarks = False , no_flip = False , training_image_size = 256 , alignments_paths = None , preview_scale = 100 , input_shape = None , encoder_dim = None , trainer = 'original' , predict = False )",13, 42, 17, 0
+repos/python/faceswap/plugins/train/model/_base.py,"config( self )",8, 67, 12, 0
+repos/python/faceswap/plugins/train/model/_base.py,"name( self )",6, 75, 8, 0
+repos/python/faceswap/plugins/train/model/_base.py,"models_exist( self )",5, 91, 8, 0
+repos/python/faceswap/plugins/train/model/_base.py,"set_training_data( self )",11, 79, 8, 0
+repos/python/faceswap/plugins/train/model/_base.py,"calculate_coverage_ratio( self )",8, 84, 8, 0
+repos/python/faceswap/plugins/train/model/_base.py,"build( self )",7, 67, 8, 0
+repos/python/faceswap/plugins/train/model/_base.py,"build_autoencoders( self )",10, 80, 12, 0
+repos/python/faceswap/plugins/train/model/_base.py,"add_networks( self )",3, 48, 8, 0
+repos/python/faceswap/plugins/train/model/_base.py,"load_state_info( self )",13, 91, 12, 0
+repos/python/faceswap/plugins/train/model/_base.py,"add_network( self , network_type , side , network )",12, 99, 8, 0
+repos/python/faceswap/plugins/train/model/_base.py,"add_predictor( self , side , model )",11, 79, 8, 0
+repos/python/faceswap/plugins/train/model/_base.py,"store_input_shapes( self , model )",13, 97, 12, 0
+repos/python/faceswap/plugins/train/model/_base.py,"set_output_shape( self , model )",12, 82, 12, 0
+repos/python/faceswap/plugins/train/model/_base.py,"compile_predictors( self )",19, 80, 12, 0
+repos/python/faceswap/plugins/train/model/_base.py,"get_optimizer( self , lr = 5e - 5 , beta_1 = 0 . 5 , beta_2 = 0 . 999 )",14, 96, 4, 0
+repos/python/faceswap/plugins/train/model/_base.py,"loss_function( self , side )",12, 65, 16, 0
+repos/python/faceswap/plugins/train/model/_base.py,"mask_loss_function( self , mask , side )",18, 74, 16, 0
+repos/python/faceswap/plugins/train/model/_base.py,"converter( self , swap )",9, 60, 8, 0
+repos/python/faceswap/plugins/train/model/_base.py,"iterations( self )",3, 48, 8, 0
+repos/python/faceswap/plugins/train/model/_base.py,"map_models( self , swapped )",12, 68, 8, 0
+repos/python/faceswap/plugins/train/model/_base.py,"log_summary( self )",12, 88, 12, 0
+repos/python/faceswap/plugins/train/model/_base.py,"load_models( self , swapped )",24, 94, 12, 0
+repos/python/faceswap/plugins/train/model/_base.py,"save_models( self )",19, 99, 12, 0
+repos/python/faceswap/plugins/train/model/_base.py,"get_save_averages( self )",41, 100, 16, 0
+repos/python/faceswap/plugins/train/model/_base.py,"check_loss_drop( self , side , avg )",7, 71, 8, 0
+repos/python/faceswap/plugins/train/model/_base.py,"rename_legacy( self )",52, 97, 16, 0
+repos/python/faceswap/plugins/train/model/_base.py,"__init__( self , filename , network_type , side , network )",11, 90, 8, 0
+repos/python/faceswap/plugins/train/model/_base.py,"set_name( self )",6, 44, 12, 0
+repos/python/faceswap/plugins/train/model/_base.py,"load( self , fullpath = None )",20, 91, 12, 0
+repos/python/faceswap/plugins/train/model/_base.py,"save( self , fullpath = None , should_backup = False )",7, 59, 8, 0
+repos/python/faceswap/plugins/train/model/_base.py,"backup( self , fullpath = None )",9, 71, 8, 0
+repos/python/faceswap/plugins/train/model/_base.py,"convert_legacy_weights( self )",6, 89, 8, 0
+repos/python/faceswap/plugins/train/model/_base.py,"__init__( self , model_dir , model_name , no_logs , training_image_size )",19, 90, 8, 0
+repos/python/faceswap/plugins/train/model/_base.py,"face_shapes( self )",3, 90, 8, 0
+repos/python/faceswap/plugins/train/model/_base.py,"mask_shapes( self )",3, 90, 8, 0
+repos/python/faceswap/plugins/train/model/_base.py,"loss_names( self )",3, 60, 8, 0
+repos/python/faceswap/plugins/train/model/_base.py,"current_session( self )",3, 48, 8, 0
+repos/python/faceswap/plugins/train/model/_base.py,"new_session_id( self )",8, 75, 12, 0
+repos/python/faceswap/plugins/train/model/_base.py,"create_new_session( self , no_logs )",8, 70, 8, 0
+repos/python/faceswap/plugins/train/model/_base.py,"add_session_loss_names( self , side , loss_names )",4, 97, 8, 0
+repos/python/faceswap/plugins/train/model/_base.py,"add_session_batchsize( self , batchsize )",4, 69, 8, 0
+repos/python/faceswap/plugins/train/model/_base.py,"increment_iterations( self )",4, 58, 8, 0
+repos/python/faceswap/plugins/train/model/_base.py,"load( self )",20, 78, 16, 0
+repos/python/faceswap/plugins/train/model/_base.py,"save( self , should_backup = False )",19, 78, 12, 0
+repos/python/faceswap/plugins/train/model/_base.py,"backup( self )",9, 71, 8, 0
+repos/python/faceswap/plugins/train/model/_base.py,"replace_config( self )",12, 90, 16, 0
+repos/python/faceswap/plugins/train/model/dfl_h128.py,"__init__( self , * args , ** kwargs )",9, 70, 8, 0
+repos/python/faceswap/plugins/train/model/dfl_h128.py,"encoder( self )",13, 61, 8, 0
+repos/python/faceswap/plugins/train/model/dfl_h128.py,"decoder( self )",16, 88, 12, 0
+repos/python/faceswap/plugins/train/model/lightweight.py,"__init__( self , * args , ** kwargs )",8, 64, 8, 0
+repos/python/faceswap/plugins/train/model/lightweight.py,"encoder( self )",12, 58, 8, 0
+repos/python/faceswap/plugins/train/model/lightweight.py,"decoder( self )",18, 90, 12, 0
+repos/python/faceswap/plugins/train/model/dfaker.py,"__init__( self , * args , ** kwargs )",8, 64, 8, 0
+repos/python/faceswap/plugins/train/model/dfaker.py,"build_autoencoders( self )",14, 79, 12, 0
+repos/python/faceswap/plugins/train/model/dfaker.py,"decoder( self )",24, 94, 8, 0
+repos/python/faceswap/plugins/train/model/iae.py,"__init__( self , * args , ** kwargs )",7, 64, 8, 0
+repos/python/faceswap/plugins/train/model/iae.py,"add_networks( self )",9, 67, 8, 0
+repos/python/faceswap/plugins/train/model/iae.py,"build_autoencoders( self )",19, 79, 12, 0
+repos/python/faceswap/plugins/train/model/iae.py,"encoder( self )",10, 47, 8, 0
+repos/python/faceswap/plugins/train/model/iae.py,"intermediate( self )",8, 64, 8, 0
+repos/python/faceswap/plugins/train/model/iae.py,"decoder( self )",15, 90, 12, 0
+repos/python/faceswap/plugins/train/model/original.py,"__init__( self , * args , ** kwargs )",11, 75, 12, 0
+repos/python/faceswap/plugins/train/model/original.py,"add_networks( self )",7, 58, 8, 0
+repos/python/faceswap/plugins/train/model/original.py,"build_autoencoders( self )",15, 74, 12, 0
+repos/python/faceswap/plugins/train/model/original.py,"encoder( self )",14, 58, 8, 0
+repos/python/faceswap/plugins/train/model/original.py,"decoder( self )",18, 90, 12, 0
+repos/python/faceswap/plugins/train/trainer/_base.py,"__init__( self , model , images , batch_size )",27, 79, 35, 0
+repos/python/faceswap/plugins/train/trainer/_base.py,"timestamp( self )",3, 58, 8, 0
+repos/python/faceswap/plugins/train/trainer/_base.py,"landmarks_required( self )",6, 80, 8, 0
+repos/python/faceswap/plugins/train/trainer/_base.py,"use_mask( self )",5, 71, 8, 0
+repos/python/faceswap/plugins/train/trainer/_base.py,"process_training_opts( self )",6, 72, 8, 0
+repos/python/faceswap/plugins/train/trainer/_base.py,"set_tensorboard( self )",23, 89, 49, 0
+repos/python/faceswap/plugins/train/trainer/_base.py,"print_loss( self , loss )",11, 96, 12, 0
+repos/python/faceswap/plugins/train/trainer/_base.py,"train_one_step( self , viewer , timelapse_kwargs )",28, 84, 16, 0
+repos/python/faceswap/plugins/train/trainer/_base.py,"store_history( self , side , loss )",5, 83, 8, 0
+repos/python/faceswap/plugins/train/trainer/_base.py,"log_tensorboard( self , side , loss )",9, 79, 8, 0
+repos/python/faceswap/plugins/train/trainer/_base.py,"clear_tensorboard( self )",7, 65, 12, 0
+repos/python/faceswap/plugins/train/trainer/_base.py,"__init__( self , side , images , model , use_mask , batch_size )",12, 86, 8, 0
+repos/python/faceswap/plugins/train/trainer/_base.py,"load_generator( self )",8, 93, 8, 0
+repos/python/faceswap/plugins/train/trainer/_base.py,"train_one_batch( self , do_preview )",7, 71, 8, 0
+repos/python/faceswap/plugins/train/trainer/_base.py,"get_next( self , do_preview )",10, 68, 12, 0
+repos/python/faceswap/plugins/train/trainer/_base.py,"compile_mask( self , batch )",9, 64, 8, 0
+repos/python/faceswap/plugins/train/trainer/_base.py,"compile_sample( self , batch_size , samples = None , images = None )",13, 99, 8, 0
+repos/python/faceswap/plugins/train/trainer/_base.py,"compile_timelapse_sample( self )",11, 80, 8, 0
+repos/python/faceswap/plugins/train/trainer/_base.py,"set_timelapse_feed( self , images , batchsize )",9, 96, 8, 0
+repos/python/faceswap/plugins/train/trainer/_base.py,"__init__( self , model , use_mask , coverage_ratio , scaling = 1 . 0 )",9, 88, 8, 0
+repos/python/faceswap/plugins/train/trainer/_base.py,"show_sample( self )",44, 89, 16, 0
+repos/python/faceswap/plugins/train/trainer/_base.py,"resize_sample( side , sample , target_size )",14, 100, 8, 0
+repos/python/faceswap/plugins/train/trainer/_base.py,"get_predictions( self , feed_a , feed_b )",15, 98, 8, 0
+repos/python/faceswap/plugins/train/trainer/_base.py,"to_full_frame( self , side , samples , predictions )",20, 88, 8, 0
+repos/python/faceswap/plugins/train/trainer/_base.py,"frame_overlay( images , target_size , color )",35, 70, 8, 0
+repos/python/faceswap/plugins/train/trainer/_base.py,"compile_masked( faces , masks )",14, 86, 12, 0
+repos/python/faceswap/plugins/train/trainer/_base.py,"overlay_foreground( backgrounds , foregrounds )",11, 78, 8, 0
+repos/python/faceswap/plugins/train/trainer/_base.py,"get_headers( self , side , other_side , width )",35, 79, 8, 0
+repos/python/faceswap/plugins/train/trainer/_base.py,"duplicate_headers( headers , columns )",7, 74, 12, 0
+repos/python/faceswap/plugins/train/trainer/_base.py,"__init__( self , model , use_mask , coverage_ratio , batchers )",9, 86, 8, 0
+repos/python/faceswap/plugins/train/trainer/_base.py,"get_sample( self , side , timelapse_kwargs )",7, 95, 8, 0
+repos/python/faceswap/plugins/train/trainer/_base.py,"setup( self , input_a = None , input_b = None , output = None )",16, 91, 49, 0
+repos/python/faceswap/plugins/train/trainer/_base.py,"output_timelapse( self )",8, 82, 8, 0
+repos/python/faceswap/plugins/train/trainer/_base.py,"__init__( self , training_opts )",7, 64, 8, 0
+repos/python/faceswap/plugins/train/trainer/_base.py,"get_alignments( self )",13, 67, 12, 0
+repos/python/faceswap/plugins/train/trainer/_base.py,"transform_landmarks( self , alignments )",10, 83, 16, 0
+repos/python/faceswap/plugins/extract/_config.py,"set_defaults( self )",46, 98, 17, 0
+repos/python/faceswap/plugins/extract/detect/_base.py,"get_config( plugin_name )",3, 54, 4, 0
+repos/python/faceswap/plugins/extract/detect/_base.py,"__init__( self , loglevel , rotation = None , min_size = 0 )",34, 76, 8, 0
+repos/python/faceswap/plugins/extract/detect/_base.py,"set_model_path( )",4, 47, 12, 0
+repos/python/faceswap/plugins/extract/detect/_base.py,"initialize( self , * args , ** kwargs )",10, 73, 21, 0
+repos/python/faceswap/plugins/extract/detect/_base.py,"detect_faces( self , * args , ** kwargs )",11, 77, 8, 0
+repos/python/faceswap/plugins/extract/detect/_base.py,"run( self , * args , ** kwargs )",18, 93, 12, 0
+repos/python/faceswap/plugins/extract/detect/_base.py,"finalize( self , output )",12, 93, 16, 0
+repos/python/faceswap/plugins/extract/detect/_base.py,"filter_small_faces( self , detected_faces )",12, 85, 16, 0
+repos/python/faceswap/plugins/extract/detect/_base.py,"compile_detection_image( self , input_image , is_square , scale_up , to_rgb )",6, 81, 4, 0
+repos/python/faceswap/plugins/extract/detect/_base.py,"set_scale( self , image , is_square = False , scale_up = False )",22, 65, 4, 0
+repos/python/faceswap/plugins/extract/detect/_base.py,"scale_image( image , scale )",16, 74, 27, 0
+repos/python/faceswap/plugins/extract/detect/_base.py,"get_rotation_angles( rotation )",28, 78, 8, 0
+repos/python/faceswap/plugins/extract/detect/_base.py,"rotate_image( self , image , angle )",6, 56, 8, 0
+repos/python/faceswap/plugins/extract/detect/_base.py,"rotate_rect( d_rect , rotation_matrix )",5, 63, 8, 0
+repos/python/faceswap/plugins/extract/detect/_base.py,"rotate_image_by_angle( image , angle , rotated_width = None , rotated_height = None )",2, 72, 30, 0
+repos/python/faceswap/plugins/extract/detect/_base.py,"get_item( self )",12, 58, 12, 0
+repos/python/faceswap/plugins/extract/detect/_base.py,"get_batch( self )",20, 68, 12, 0
+repos/python/faceswap/plugins/extract/detect/_base.py,"is_mmod_rectangle( d_rectangle )",6, 74, 12, 0
+repos/python/faceswap/plugins/extract/detect/_base.py,"convert_to_dlib_rectangle( self , d_rect )",5, 62, 8, 0
+repos/python/faceswap/plugins/extract/detect/_base.py,"get_vram_free( )",9, 75, 8, 0
+repos/python/faceswap/plugins/extract/detect/_base.py,"set_predetected( width , height )",8, 94, 8, 0
+repos/python/faceswap/plugins/extract/detect/dlib_hog.py,"__init__( self , ** kwargs )",7, 98, 8, 0
+repos/python/faceswap/plugins/extract/detect/dlib_hog.py,"set_model_path( self )",3, 38, 8, 0
+repos/python/faceswap/plugins/extract/detect/dlib_hog.py,"initialize( self , * args , ** kwargs )",7, 57, 8, 0
+repos/python/faceswap/plugins/extract/detect/dlib_hog.py,"detect_faces( self , * args , ** kwargs )",31, 98, 12, 0
+repos/python/faceswap/plugins/extract/detect/dlib_hog.py,"process_output( self , faces , rotation_matrix , scale )",13, 77, 8, 0
+repos/python/faceswap/plugins/extract/detect/manual.py,"__init__( self , ** kwargs )",2, 35, 8, 0
+repos/python/faceswap/plugins/extract/detect/manual.py,"set_model_path( self )",3, 54, 8, 0
+repos/python/faceswap/plugins/extract/detect/manual.py,"initialize( self , * args , ** kwargs )",6, 55, 8, 0
+repos/python/faceswap/plugins/extract/detect/manual.py,"detect_faces( self , * args , ** kwargs )",15, 85, 12, 0
+repos/python/faceswap/plugins/extract/detect/s3fd.py,"__init__( self , ** kwargs )",7, 63, 8, 0
+repos/python/faceswap/plugins/extract/detect/s3fd.py,"set_model_path( self )",8, 67, 12, 0
+repos/python/faceswap/plugins/extract/detect/s3fd.py,"initialize( self , * args , ** kwargs )",43, 98, 16, 0
+repos/python/faceswap/plugins/extract/detect/s3fd.py,"detect_faces( self , * args , ** kwargs )",9, 87, 8, 0
+repos/python/faceswap/plugins/extract/detect/s3fd.py,"detect_thread( self )",22, 98, 12, 0
+repos/python/faceswap/plugins/extract/detect/s3fd.py,"process_output( self , faces , rotation_matrix , scale )",17, 100, 8, 0
+repos/python/faceswap/plugins/extract/detect/s3fd.py,"__init__( self , model_path , target_size , vram_ratio , card_id , confidence )",15, 94, 8, 0
+repos/python/faceswap/plugins/extract/detect/s3fd.py,"load_graph( self )",11, 66, 8, 0
+repos/python/faceswap/plugins/extract/detect/s3fd.py,"get_outputs( self )",10, 89, 24, 0
+repos/python/faceswap/plugins/extract/detect/s3fd.py,"set_session( self , target_size , vram_ratio , card_id )",15, 97, 12, 0
+repos/python/faceswap/plugins/extract/detect/s3fd.py,"detect_face( self , feed_item )",13, 84, 8, 0
+repos/python/faceswap/plugins/extract/detect/s3fd.py,"post_process( self , bboxlist )",22, 96, 16, 0
+repos/python/faceswap/plugins/extract/detect/s3fd.py,"softmax( inp , axis )",3, 70, 8, 0
+repos/python/faceswap/plugins/extract/detect/s3fd.py,"decode( loc , priors , variances )",18, 91, 8, 0
+repos/python/faceswap/plugins/extract/detect/s3fd.py,"nms( dets , thresh )",24, 96, 8, 0
+repos/python/faceswap/plugins/extract/detect/mtcnn.py,"import_tensorflow( )",5, 65, 4, 0
+repos/python/faceswap/plugins/extract/detect/mtcnn.py,"__init__( self , ** kwargs )",6, 61, 8, 0
+repos/python/faceswap/plugins/extract/detect/mtcnn.py,"validate_kwargs( self )",24, 85, 12, 0
+repos/python/faceswap/plugins/extract/detect/mtcnn.py,"set_model_path( self )",9, 71, 16, 0
+repos/python/faceswap/plugins/extract/detect/mtcnn.py,"initialize( self , * args , ** kwargs )",54, 82, 12, 0
+repos/python/faceswap/plugins/extract/detect/mtcnn.py,"detect_faces( self , * args , ** kwargs )",9, 87, 8, 0
+repos/python/faceswap/plugins/extract/detect/mtcnn.py,"detect_thread( self )",23, 100, 12, 0
+repos/python/faceswap/plugins/extract/detect/mtcnn.py,"process_output( self , faces , points , rotation_matrix , scale )",19, 88, 8, 0
+repos/python/faceswap/plugins/extract/detect/mtcnn.py,"recalculate_bounding_box( faces , landmarks )",35, 81, 8, 0
+repos/python/faceswap/plugins/extract/detect/mtcnn.py,"layer.layer_decorated( self , * args , ** kwargs )",18, 82, 8, 0
+repos/python/faceswap/plugins/extract/detect/mtcnn.py,"layer( operator )",23, 82, 8, 0
+repos/python/faceswap/plugins/extract/detect/mtcnn.py,"__init__( self , inputs , trainable = True )",11, 64, 8, 0
+repos/python/faceswap/plugins/extract/detect/mtcnn.py,"setup( self )",3, 74, 8, 0
+repos/python/faceswap/plugins/extract/detect/mtcnn.py,"load( model_path , session , ignore_missing = False )",19, 75, 8, 0
+repos/python/faceswap/plugins/extract/detect/mtcnn.py,"feed( self , * args )",14, 84, 8, 0
+repos/python/faceswap/plugins/extract/detect/mtcnn.py,"get_output( self )",3, 50, 8, 0
+repos/python/faceswap/plugins/extract/detect/mtcnn.py,"get_unique_name( self , prefix )",6, 79, 8, 0
+repos/python/faceswap/plugins/extract/detect/mtcnn.py,"make_var( self , name , shape )",3, 70, 8, 0
+repos/python/faceswap/plugins/extract/detect/mtcnn.py,"validate_padding( padding )",3, 70, 8, 0
+repos/python/faceswap/plugins/extract/detect/mtcnn.py,"conv( self , inp , k_h , k_w , c_o , s_h , s_w , name , relu = True , padding = 'SAME' , group = 1 , biased = True )",12, 57, 4, 0
+repos/python/faceswap/plugins/extract/detect/mtcnn.py,"prelu( self , inp , name )",7, 77, 12, 0
+repos/python/faceswap/plugins/extract/detect/mtcnn.py,"max_pool( self , inp , k_h , k_w , s_h , s_w , name , padding = 'SAME' )",2, 76, 4, 0
+repos/python/faceswap/plugins/extract/detect/mtcnn.py,"fc( self , inp , num_out , name , relu = True )",17, 95, 12, 0
+repos/python/faceswap/plugins/extract/detect/mtcnn.py,"softmax( self , target , axis , name = None )",11, 79, 4, 0
+repos/python/faceswap/plugins/extract/detect/mtcnn.py,"setup( self )",14, 80, 8, 0
+repos/python/faceswap/plugins/extract/detect/mtcnn.py,"setup( self )",17, 80, 8, 0
+repos/python/faceswap/plugins/extract/detect/mtcnn.py,"setup( self )",23, 80, 8, 0
+repos/python/faceswap/plugins/extract/detect/mtcnn.py,"create_mtcnn( sess , model_path )",29, 74, 8, 0
+repos/python/faceswap/plugins/extract/detect/mtcnn.py,"detect_face( img , minsize , pnet , rnet , onet , threshold , factor )",2, 80, 0, 0
+repos/python/faceswap/plugins/extract/detect/mtcnn.py,"bbreg( boundingbox , reg )",13, 72, 4, 0
+repos/python/faceswap/plugins/extract/detect/mtcnn.py,"generate_bounding_box( imap , reg , scale , threshold )",27, 80, 34, 0
+repos/python/faceswap/plugins/extract/detect/mtcnn.py,"nms( boxes , threshold , method )",33, 59, 12, 0
+repos/python/faceswap/plugins/extract/detect/mtcnn.py,"pad( total_boxes , width , height )",33, 79, 4, 0
+repos/python/faceswap/plugins/extract/detect/mtcnn.py,"rerec( bbox_a )",9, 76, 4, 0
+repos/python/faceswap/plugins/extract/detect/mtcnn.py,"imresample( img , size )",6, 77, 25, 0
+repos/python/faceswap/plugins/extract/detect/dlib_cnn.py,"__init__( self , ** kwargs )",5, 71, 8, 0
+repos/python/faceswap/plugins/extract/detect/dlib_cnn.py,"compiled_for_cuda( )",9, 75, 8, 0
+repos/python/faceswap/plugins/extract/detect/dlib_cnn.py,"set_model_path( self )",5, 80, 8, 0
+repos/python/faceswap/plugins/extract/detect/dlib_cnn.py,"initialize( self , * args , ** kwargs )",31, 103, 12, 0
+repos/python/faceswap/plugins/extract/detect/dlib_cnn.py,"detect_faces( self , * args , ** kwargs )",37, 85, 16, 0
+repos/python/faceswap/plugins/extract/detect/dlib_cnn.py,"compile_detection_images( self , images )",11, 88, 12, 0
+repos/python/faceswap/plugins/extract/detect/dlib_cnn.py,"detect_batch( self , detect_images , disable_message = False )",16, 93, 12, 0
+repos/python/faceswap/plugins/extract/detect/dlib_cnn.py,"check_batch_dims( images )",5, 64, 8, 0
+repos/python/faceswap/plugins/extract/detect/dlib_cnn.py,"process_output( self , batch_detected , indexes = None , rotation_matrix = None , output = None , scales = None )",2, 86, 23, 0
+repos/python/faceswap/plugins/extract/detect/dlib_cnn.py,"process_rotations( self , detect_images , processed , scales )",23, 84, 16, 0
+repos/python/faceswap/plugins/extract/detect/dlib_cnn.py,"compile_reprocess( self , processed , detect_images , angle )",14, 77, 12, 0
+repos/python/faceswap/plugins/extract/align/_base.py,"__init__( self , loglevel )",20, 75, 8, 0
+repos/python/faceswap/plugins/extract/align/_base.py,"set_model_path( )",4, 47, 12, 0
+repos/python/faceswap/plugins/extract/align/_base.py,"initialize( self , * args , ** kwargs )",10, 77, 8, 0
+repos/python/faceswap/plugins/extract/align/_base.py,"align( self , * args , ** kwargs )",7, 77, 8, 0
+repos/python/faceswap/plugins/extract/align/_base.py,"run( self , * args , ** kwargs )",17, 79, 12, 0
+repos/python/faceswap/plugins/extract/align/_base.py,"finalize( self , output )",11, 69, 38, 0
+repos/python/faceswap/plugins/extract/align/_base.py,"get_vram_free( )",9, 75, 8, 0
+repos/python/faceswap/plugins/extract/align/_base.py,"get_item( self )",17, 74, 45, 0
+repos/python/faceswap/plugins/extract/align/fan.py,"__init__( self , ** kwargs )",6, 37, 8, 0
+repos/python/faceswap/plugins/extract/align/fan.py,"set_model_path( self )",8, 67, 12, 0
+repos/python/faceswap/plugins/extract/align/fan.py,"initialize( self , * args , ** kwargs )",22, 80, 12, 0
+repos/python/faceswap/plugins/extract/align/fan.py,"align( self , * args , ** kwargs )",20, 98, 16, 0
+repos/python/faceswap/plugins/extract/align/fan.py,"process_landmarks( self , image , detected_faces )",11, 77, 12, 0
+repos/python/faceswap/plugins/extract/align/fan.py,"get_center_scale( self , detected_face )",18, 75, 8, 0
+repos/python/faceswap/plugins/extract/align/fan.py,"align_image( self , image , center , scale )",9, 67, 12, 0
+repos/python/faceswap/plugins/extract/align/fan.py,"predict_landmarks( self , image , center , scale )",8, 71, 8, 0
+repos/python/faceswap/plugins/extract/align/fan.py,"transform( point , center , scale , resolution )",14, 59, 8, 0
+repos/python/faceswap/plugins/extract/align/fan.py,"crop( self , image , center , scale , resolution = 256 . 0 )",41, 95, 4, 0
+repos/python/faceswap/plugins/extract/align/fan.py,"get_pts_from_predict( self , var_a , center , scale )",30, 77, 52, 0
+repos/python/faceswap/plugins/extract/align/fan.py,"__init__( self , model_path , ratio = 1 . 0 )",11, 74, 8, 0
+repos/python/faceswap/plugins/extract/align/fan.py,"load_graph( self )",12, 71, 8, 0
+repos/python/faceswap/plugins/extract/align/fan.py,"set_session( self , vram_ratio )",15, 91, 16, 0
+repos/python/faceswap/plugins/extract/align/fan.py,"predict( self , feed_item )",4, 67, 32, 0
+repos/python/faceswap/plugins/extract/align/dlib.py,"__init__( self , ** kwargs )",4, 41, 8, 0
+repos/python/faceswap/plugins/extract/align/dlib.py,"set_model_path( self )",5, 77, 8, 0
+repos/python/faceswap/plugins/extract/align/dlib.py,"initialize( self , * args , ** kwargs )",12, 104, 12, 0
+repos/python/faceswap/plugins/extract/align/dlib.py,"align( self , * args , ** kwargs )",15, 86, 12, 0
+repos/python/faceswap/plugins/extract/align/dlib.py,"process_landmarks( self , image , detected_faces )",10, 62, 12, 0
+repos/python/faceswap/plugins/convert/masked.py,"__init__( self , encoder , model , arguments )",12, 96, 8, 0
+repos/python/faceswap/plugins/convert/masked.py,"patch_image( self , image , detected_face )",21, 90, 12, 0
+repos/python/faceswap/plugins/convert/masked.py,"get_new_image( self , image , detected_face , coverage , image_size )",42, 94, 35, 0
+repos/python/faceswap/plugins/convert/masked.py,"smooth_box( old_face , new_face )",14, 75, 8, 0
+repos/python/faceswap/plugins/convert/masked.py,"get_image_mask( self , detected_face , image_size )",18, 73, 16, 0
+repos/python/faceswap/plugins/convert/masked.py,"set_erosion_kernel( self , mask )",10, 81, 8, 0
+repos/python/faceswap/plugins/convert/masked.py,"set_blur_size( self , mask )",7, 60, 8, 0
+repos/python/faceswap/plugins/convert/masked.py,"apply_fixes( self , original , face , mask , landmarks )",31, 94, 8, 0
+repos/python/faceswap/plugins/convert/masked.py,"sharpen( new , method )",12, 90, 12, 0
+repos/python/faceswap/plugins/convert/masked.py,"color_adjust( new , frame , img_mask )",10, 96, 8, 0
+repos/python/faceswap/plugins/convert/masked.py,"color_hist_match( self , new , frame , img_mask )",7, 100, 8, 0
+repos/python/faceswap/plugins/convert/masked.py,"hist_match( new , frame , img_mask )",22, 89, 8, 0
+repos/python/faceswap/plugins/convert/masked.py,"seamless_clone( new , frame , img_mask )",27, 86, 8, 0
+repos/python/faceswap/plugins/convert/masked.py,"__init__( self , mask_type , training_size , padding , crop )",11, 91, 8, 0
+repos/python/faceswap/plugins/convert/masked.py,"get_mask( self , detected_face , image_size )",11, 73, 18, 0
+repos/python/faceswap/plugins/convert/masked.py,"cnn( self , ** kwargs )",5, 71, 8, 0
+repos/python/faceswap/plugins/convert/masked.py,"rect( self , ** kwargs )",3, 79, 8, 0
+repos/python/faceswap/plugins/convert/masked.py,"none( self , ** kwargs )",16, 96, 8, 0
+repos/python/faceswap/plugins/convert/masked.py,"dfl( self , ** kwargs )",7, 97, 8, 0
+repos/python/faceswap/plugins/convert/masked.py,"facehull( self , ** kwargs )",12, 96, 8, 0
+repos/python/faceswap/plugins/convert/masked.py,"ellipse( ** kwargs )",11, 96, 8, 0
+repos/python/faceswap/plugins/convert/masked.py,"intersect_rect( self , hull_mask , ** kwargs )",6, 59, 8, 0
+repos/python/faceswap/plugins/convert/masked.py,"finalize_mask( mask )",6, 42, 8, 0
+repos/python/faceswap/scripts/convert.py,"__init__( self , arguments )",18, 90, 8, 0
+repos/python/faceswap/scripts/convert.py,"process( self )",24, 72, 12, 0
+repos/python/faceswap/scripts/convert.py,"load_extractor( self )",12, 83, 23, 0
+repos/python/faceswap/scripts/convert.py,"load_model( self )",7, 99, 8, 0
+repos/python/faceswap/scripts/convert.py,"load_converter( self , model )",8, 60, 8, 0
+repos/python/faceswap/scripts/convert.py,"prepare_images( self )",32, 80, 16, 0
+repos/python/faceswap/scripts/convert.py,"detect_faces( self , load_queue , filename , image )",17, 77, 8, 0
+repos/python/faceswap/scripts/convert.py,"alignments_faces( self , frame , image )",13, 58, 8, 0
+repos/python/faceswap/scripts/convert.py,"check_alignments( self , frame )",7, 65, 8, 0
+repos/python/faceswap/scripts/convert.py,"convert( self , converter , item )",19, 85, 12, 0
+repos/python/faceswap/scripts/convert.py,"__init__( self , args , input_images , alignments )",10, 65, 8, 0
+repos/python/faceswap/scripts/convert.py,"remove_skipped_faces( self )",10, 92, 8, 0
+repos/python/faceswap/scripts/convert.py,"get_face_hashes( self )",26, 93, 16, 0
+repos/python/faceswap/scripts/convert.py,"get_frame_ranges( self )",11, 80, 8, 0
+repos/python/faceswap/scripts/convert.py,"check_skipframe( self , filename )",10, 63, 8, 0
+repos/python/faceswap/scripts/convert.py,"__init__( self , alignments , frames , faces_dir )",5, 55, 4, 0
+repos/python/faceswap/scripts/convert.py,"process( self , faces_dir )",14, 74, 12, 0
+repos/python/faceswap/scripts/convert.py,"rotate_landmarks( self , rotated )",8, 74, 16, 0
+repos/python/faceswap/scripts/convert.py,"add_hashes( self , hashes , faces_dir )",20, 97, 12, 0
+repos/python/faceswap/scripts/fsmedia.py,"set_verbosity( loglevel )",3, 48, 8, 0
+repos/python/faceswap/scripts/fsmedia.py,"finalize( images_found , num_faces_detected , verify_output )",14, 81, 12, 0
+repos/python/faceswap/scripts/fsmedia.py,"__init__( self , arguments , is_extract , input_is_video = False )",11, 78, 8, 0
+repos/python/faceswap/scripts/fsmedia.py,"set_folder_filename( self , input_is_video )",15, 92, 8, 0
+repos/python/faceswap/scripts/fsmedia.py,"set_serializer( self )",12, 76, 12, 0
+repos/python/faceswap/scripts/fsmedia.py,"load( self )",39, 95, 12, 0
+repos/python/faceswap/scripts/fsmedia.py,"__init__( self , arguments )",6, 65, 8, 0
+repos/python/faceswap/scripts/fsmedia.py,"images_found( self )",9, 89, 12, 0
+repos/python/faceswap/scripts/fsmedia.py,"check_input_folder( self )",13, 80, 16, 0
+repos/python/faceswap/scripts/fsmedia.py,"get_input_images( self )",8, 80, 8, 0
+repos/python/faceswap/scripts/fsmedia.py,"load( self )",5, 86, 8, 0
+repos/python/faceswap/scripts/fsmedia.py,"load_disk_frames( self )",11, 93, 16, 0
+repos/python/faceswap/scripts/fsmedia.py,"load_video_frames( self )",17, 81, 8, 0
+repos/python/faceswap/scripts/fsmedia.py,"load_one_image( filename )",4, 65, 8, 0
+repos/python/faceswap/scripts/fsmedia.py,"__init__( self , arguments )",5, 65, 8, 0
+repos/python/faceswap/scripts/fsmedia.py,"set_actions( self )",19, 82, 12, 0
+repos/python/faceswap/scripts/fsmedia.py,"get_items( self )",30, 79, 8, 0
+repos/python/faceswap/scripts/fsmedia.py,"do_actions( self , output_item )",5, 91, 12, 0
+repos/python/faceswap/scripts/fsmedia.py,"__init__( self , * args , ** kwargs )",4, 75, 8, 0
+repos/python/faceswap/scripts/fsmedia.py,"process( self , output_item )",3, 61, 8, 0
+repos/python/faceswap/scripts/fsmedia.py,"__init__( self , * args , ** kwargs )",4, 64, 8, 0
+repos/python/faceswap/scripts/fsmedia.py,"process( self , output_item )",28, 98, 31, 0
+repos/python/faceswap/scripts/fsmedia.py,"is_blurry( self , image )",11, 91, 8, 0
+repos/python/faceswap/scripts/fsmedia.py,"variance_of_laplacian( image )",6, 85, 8, 0
+repos/python/faceswap/scripts/fsmedia.py,"process( self , output_item )",11, 76, 8, 0
+repos/python/faceswap/scripts/fsmedia.py,"__init__( self , * args , ** kwargs )",6, 73, 8, 0
+repos/python/faceswap/scripts/fsmedia.py,"load_face_filter( self , filter_lists , ref_threshold )",14, 75, 8, 0
+repos/python/faceswap/scripts/fsmedia.py,"set_face_filter( f_type , f_args )",10, 86, 8, 0
+repos/python/faceswap/scripts/fsmedia.py,"process( self , output_item )",15, 82, 16, 0
+repos/python/faceswap/scripts/train.py,"__init__( self , arguments )",12, 87, 8, 0
+repos/python/faceswap/scripts/train.py,"set_timelapse( self )",26, 90, 16, 0
+repos/python/faceswap/scripts/train.py,"get_images( self )",21, 78, 8, 0
+repos/python/faceswap/scripts/train.py,"process( self )",15, 72, 8, 0
+repos/python/faceswap/scripts/train.py,"start_thread( self )",7, 76, 8, 0
+repos/python/faceswap/scripts/train.py,"end_thread( self , thread , err )",17, 85, 19, 0
+repos/python/faceswap/scripts/train.py,"training( self )",23, 86, 16, 0
+repos/python/faceswap/scripts/train.py,"load_model( self )",15, 59, 8, 0
+repos/python/faceswap/scripts/train.py,"image_size( self )",6, 77, 8, 0
+repos/python/faceswap/scripts/train.py,"alignments_paths( self )",11, 84, 12, 0
+repos/python/faceswap/scripts/train.py,"load_trainer( self , model )",9, 58, 8, 0
+repos/python/faceswap/scripts/train.py,"run_training_cycle( self , model , trainer )",28, 81, 8, 0
+repos/python/faceswap/scripts/train.py,"monitor_preview( self , thread )",34, 95, 8, 0
+repos/python/faceswap/scripts/train.py,"monitor_console( self , thread )",35, 73, 8, 0
+repos/python/faceswap/scripts/train.py,"keypress_monitor( keypress_queue )",4, 50, 12, 0
+repos/python/faceswap/scripts/train.py,"set_tf_allow_growth( )",9, 65, 8, 0
+repos/python/faceswap/scripts/train.py,"show( self , image , name = '' )",27, 75, 16, 0
+repos/python/faceswap/scripts/extract.py,"__init__( self , arguments )",16, 87, 8, 0
+repos/python/faceswap/scripts/extract.py,"skip_num( self )",3, 89, 8, 0
+repos/python/faceswap/scripts/extract.py,"process( self )",13, 66, 8, 0
+repos/python/faceswap/scripts/extract.py,"threaded_io( self , task , io_args = None )",13, 64, 8, 0
+repos/python/faceswap/scripts/extract.py,"load_images( self )",26, 81, 16, 0
+repos/python/faceswap/scripts/extract.py,"reload_images( self , detected_faces )",17, 92, 8, 0
+repos/python/faceswap/scripts/extract.py,"save_faces( )",21, 93, 16, 0
+repos/python/faceswap/scripts/extract.py,"run_extraction( self )",43, 89, 8, 0
+repos/python/faceswap/scripts/extract.py,"process_item_count( self )",18, 79, 8, 0
+repos/python/faceswap/scripts/extract.py,"run_detection( self , to_process )",18, 79, 8, 0
+repos/python/faceswap/scripts/extract.py,"align_face( self , faces , align_eyes , size , filename )",14, 88, 12, 0
+repos/python/faceswap/scripts/extract.py,"output_faces( self , filename , faces , save_queue )",15, 83, 12, 0
+repos/python/faceswap/scripts/extract.py,"__init__( self , arguments , converter_args = None )",17, 96, 8, 0
+repos/python/faceswap/scripts/extract.py,"set_parallel_processing( self )",29, 90, 12, 0
+repos/python/faceswap/scripts/extract.py,"add_queues( self )",7, 78, 12, 0
+repos/python/faceswap/scripts/extract.py,"load_detector( self )",18, 92, 8, 0
+repos/python/faceswap/scripts/extract.py,"load_aligner( self )",13, 71, 12, 0
+repos/python/faceswap/scripts/extract.py,"launch_aligner( self )",30, 79, 12, 0
+repos/python/faceswap/scripts/extract.py,"launch_detector( self )",33, 93, 8, 0
+repos/python/faceswap/scripts/extract.py,"detect_faces( self , extract_pass = 'detect' )",23, 78, 20, 0
+repos/python/faceswap/scripts/gui.py,"__init__( self , pathscript )",11, 65, 8, 0
+repos/python/faceswap/scripts/gui.py,"initialize_globals( self , pathscript )",9, 82, 8, 0
+repos/python/faceswap/scripts/gui.py,"get_scaling( self )",6, 60, 8, 0
+repos/python/faceswap/scripts/gui.py,"set_geometry( self )",8, 69, 8, 0
+repos/python/faceswap/scripts/gui.py,"build_gui( self , debug_console )",13, 80, 8, 0
+repos/python/faceswap/scripts/gui.py,"add_containers( self )",19, 63, 8, 0
+repos/python/faceswap/scripts/gui.py,"close_app( self )",18, 69, 8, 0
+repos/python/faceswap/scripts/gui.py,"__init__( self , arguments )",5, 60, 8, 0
+repos/python/faceswap/scripts/gui.py,"process( self )",4, 45, 8, 0
+repos/python/faceswap/lib/aligner.py,"extract( self , image , face , size , align_eyes )",8, 95, 8, 0
+repos/python/faceswap/lib/aligner.py,"transform_matrix( mat , size , padding )",7, 66, 8, 0
+repos/python/faceswap/lib/aligner.py,"transform( self , image , mat , size , padding = 0 )",7, 78, 8, 0
+repos/python/faceswap/lib/aligner.py,"transform_points( self , points , mat , size , padding = 0 )",10, 98, 8, 0
+repos/python/faceswap/lib/aligner.py,"get_original_roi( self , mat , size , padding = 0 )",13, 80, 8, 0
+repos/python/faceswap/lib/aligner.py,"get_feature_mask( aligned_landmarks_68 , size , padding = 0 , dilation = 30 )",2, 53, 4, 0
+repos/python/faceswap/lib/aligner.py,"get_matrix_scaling( mat )",11, 99, 4, 0
+repos/python/faceswap/lib/aligner.py,"get_align_mat( face , size , should_align_eyes )",42, 77, 4, 0
+repos/python/faceswap/lib/config.py,"__init__( self , section )",12, 66, 8, 0
+repos/python/faceswap/lib/config.py,"set_defaults( self )",18, 79, 12, 0
+repos/python/faceswap/lib/config.py,"config_dict( self )",12, 75, 8, 0
+repos/python/faceswap/lib/config.py,"get( self , section , option )",17, 92, 8, 0
+repos/python/faceswap/lib/config.py,"get_config_file( self )",7, 89, 8, 0
+repos/python/faceswap/lib/config.py,"add_section( self , title = None , info = None )",8, 78, 12, 0
+repos/python/faceswap/lib/config.py,"add_item( self , section = None , title = None , datatype = str , default = None , info = None , rounding = None , min_max = None , choices = None )",2, 86, 17, 0
+repos/python/faceswap/lib/config.py,"check_exists( self )",7, 78, 12, 0
+repos/python/faceswap/lib/config.py,"create_default( self )",15, 81, 16, 0
+repos/python/faceswap/lib/config.py,"insert_config_section( self , section , helptext , config = None )",9, 89, 8, 0
+repos/python/faceswap/lib/config.py,"insert_config_item( self , section , item , default , option , config = None )",2, 65, 4, 0
+repos/python/faceswap/lib/config.py,"set_helptext_choices( option )",14, 87, 12, 0
+repos/python/faceswap/lib/config.py,"format_help( helptext , is_section = False )",10, 98, 8, 0
+repos/python/faceswap/lib/config.py,"load_config( self )",4, 61, 8, 0
+repos/python/faceswap/lib/config.py,"save_config( self )",6, 65, 8, 0
+repos/python/faceswap/lib/config.py,"validate_config( self )",8, 69, 8, 0
+repos/python/faceswap/lib/config.py,"add_new_config_items( self )",23, 79, 12, 0
+repos/python/faceswap/lib/config.py,"check_config_choices( self )",17, 99, 20, 0
+repos/python/faceswap/lib/config.py,"check_config_change( self )",16, 71, 8, 0
+repos/python/faceswap/lib/config.py,"handle_config( self )",8, 40, 8, 0
+repos/python/faceswap/lib/umeyama.py,"umeyama( src , estimate_scale , dst = None )",71, 78, 8, 0
+repos/python/faceswap/lib/training_data.py,"__init__( self , model_input_size , model_output_size , training_opts )",16, 93, 21, 0
+repos/python/faceswap/lib/training_data.py,"set_mask_function( self )",10, 62, 8, 0
+repos/python/faceswap/lib/training_data.py,"minibatch_ab( self , images , batchsize , side , do_shuffle = True , is_timelapse = False )",23, 100, 8, 0
+repos/python/faceswap/lib/training_data.py,"make_queues( side , is_timelapse )",7, 90, 8, 0
+repos/python/faceswap/lib/training_data.py,"load_batches( self , mem_gen , images , side , is_timelapse , do_shuffle = True , batchsize = 0 )",2, 64, 4, 0
+repos/python/faceswap/lib/training_data.py,"_img_iter( imgs )",6, 34, 20, 0
+repos/python/faceswap/lib/training_data.py,"validate_samples( self , data )",8, 79, 8, 0
+repos/python/faceswap/lib/training_data.py,"minibatch( side , is_timelapse , load_process )",15, 95, 8, 0
+repos/python/faceswap/lib/training_data.py,"process_face( self , filename , side , is_timelapse )",32, 87, 12, 0
+repos/python/faceswap/lib/training_data.py,"get_landmarks( self , filename , image , side )",11, 94, 83, 0
+repos/python/faceswap/lib/training_data.py,"get_closest_match( self , filename , side , src_points )",12, 96, 8, 0
+repos/python/faceswap/lib/training_data.py,"__init__( self , input_size , output_size , coverage_ratio )",19, 100, 8, 0
+repos/python/faceswap/lib/training_data.py,"color_adjust( img )",4, 46, 8, 0
+repos/python/faceswap/lib/training_data.py,"separate_mask( image )",10, 69, 8, 0
+repos/python/faceswap/lib/training_data.py,"get_coverage( self , image )",5, 61, 8, 0
+repos/python/faceswap/lib/training_data.py,"random_transform( self , image )",19, 80, 8, 0
+repos/python/faceswap/lib/training_data.py,"do_random_flip( self , image )",11, 75, 8, 0
+repos/python/faceswap/lib/training_data.py,"random_warp( self , image )",45, 98, 12, 0
+repos/python/faceswap/lib/training_data.py,"random_warp_landmarks( self , image , src_points = None , dst_points = None )",74, 86, 33, 0
+repos/python/faceswap/lib/training_data.py,"stack_images.get_transpose_axes( num )",10, 59, 12, 0
+repos/python/faceswap/lib/training_data.py,"stack_images( images )",23, 61, 4, 0
+repos/python/faceswap/lib/alignments.py,"__init__( self , folder , filename = 'alignments' , serializer = 'json' )",8, 90, 8, 0
+repos/python/faceswap/lib/alignments.py,"frames_count( self )",5, 44, 8, 0
+repos/python/faceswap/lib/alignments.py,"faces_count( self )",5, 65, 8, 0
+repos/python/faceswap/lib/alignments.py,"have_alignments_file( self )",5, 57, 8, 0
+repos/python/faceswap/lib/alignments.py,"hashes_to_frame( self )",9, 78, 16, 0
+repos/python/faceswap/lib/alignments.py,"get_serializer( filename , serializer )",21, 80, 12, 0
+repos/python/faceswap/lib/alignments.py,"get_location( self , folder , filename )",14, 91, 8, 0
+repos/python/faceswap/lib/alignments.py,"load( self )",17, 71, 12, 0
+repos/python/faceswap/lib/alignments.py,"reload( self )",5, 65, 8, 0
+repos/python/faceswap/lib/alignments.py,"save( self )",10, 74, 12, 0
+repos/python/faceswap/lib/alignments.py,"backup( self )",13, 67, 8, 0
+repos/python/faceswap/lib/alignments.py,"frame_exists( self , frame )",5, 54, 8, 0
+repos/python/faceswap/lib/alignments.py,"frame_has_faces( self , frame )",5, 58, 8, 0
+repos/python/faceswap/lib/alignments.py,"frame_has_multiple_faces( self , frame )",8, 65, 12, 0
+repos/python/faceswap/lib/alignments.py,"get_faces_in_frame( self , frame )",4, 61, 8, 0
+repos/python/faceswap/lib/alignments.py,"get_full_frame_name( self , frame )",7, 72, 8, 0
+repos/python/faceswap/lib/alignments.py,"count_faces_in_frame( self , frame )",5, 57, 8, 0
+repos/python/faceswap/lib/alignments.py,"delete_face_at_index( self , frame , idx )",10, 81, 12, 0
+repos/python/faceswap/lib/alignments.py,"add_face( self , frame , alignment )",7, 65, 8, 0
+repos/python/faceswap/lib/alignments.py,"update_face( self , frame , idx , alignment )",4, 68, 8, 0
+repos/python/faceswap/lib/alignments.py,"filter_hashes( self , hashlist , filter_out = False )",16, 99, 20, 0
+repos/python/faceswap/lib/alignments.py,"yield_faces( self )",8, 85, 12, 0
+repos/python/faceswap/lib/alignments.py,"yield_original_index_reverse( image_alignments , number_alignments )",7, 75, 4, 0
+repos/python/faceswap/lib/alignments.py,"get_legacy_rotation( self )",11, 82, 8, 0
+repos/python/faceswap/lib/alignments.py,"rotate_existing_landmarks( self , frame_name , frame )",18, 92, 12, 0
+repos/python/faceswap/lib/alignments.py,"get_original_rotation_matrix( dimensions , angle )",17, 86, 8, 0
+repos/python/faceswap/lib/alignments.py,"get_legacy_no_hashes( self )",11, 74, 8, 0
+repos/python/faceswap/lib/alignments.py,"add_face_hashes( self , frame_name , hashes )",12, 95, 12, 0
+repos/python/faceswap/lib/faces_detect.py,"__init__( self , image = None , x = None , w = None , y = None , h = None , landmarksXY = None )",3, 62, 12, 0
+repos/python/faceswap/lib/faces_detect.py,"landmarks_as_xy( self )",3, 32, 8, 0
+repos/python/faceswap/lib/faces_detect.py,"to_dlib_rect( self )",9, 55, 8, 0
+repos/python/faceswap/lib/faces_detect.py,"from_dlib_rect( self , d_rect , image = None )",13, 82, 8, 0
+repos/python/faceswap/lib/faces_detect.py,"image_to_face( self , image )",6, 58, 8, 0
+repos/python/faceswap/lib/faces_detect.py,"to_alignment( self )",11, 58, 8, 0
+repos/python/faceswap/lib/faces_detect.py,"from_alignment( self , alignment , image = None )",16, 80, 8, 0
+repos/python/faceswap/lib/faces_detect.py,"load_aligned( self , image , size = 256 , align_eyes = False )",21, 91, 8, 0
+repos/python/faceswap/lib/faces_detect.py,"original_roi( self )",8, 73, 48, 0
+repos/python/faceswap/lib/faces_detect.py,"aligned_landmarks( self )",8, 79, 54, 0
+repos/python/faceswap/lib/faces_detect.py,"aligned_face( self )",3, 45, 8, 0
+repos/python/faceswap/lib/faces_detect.py,"adjusted_matrix( self )",7, 73, 48, 0
+repos/python/faceswap/lib/faces_detect.py,"adjusted_interpolators( self )",3, 89, 8, 0
+repos/python/faceswap/lib/keypress.py,"__init__( self , is_gui = False )",16, 84, 12, 0
+repos/python/faceswap/lib/keypress.py,"set_normal_term( self )",6, 80, 12, 0
+repos/python/faceswap/lib/keypress.py,"getch( )",6, 72, 8, 0
+repos/python/faceswap/lib/keypress.py,"getarrow( )",17, 79, 8, 0
+repos/python/faceswap/lib/keypress.py,"kbhit( )",6, 77, 8, 0
+repos/python/faceswap/lib/logger.py,"__init__( self , name )",8, 58, 8, 0
+repos/python/faceswap/lib/logger.py,"verbose( self , msg , * args , ** kwargs )",6, 50, 8, 0
+repos/python/faceswap/lib/logger.py,"trace( self , msg , * args , ** kwargs )",6, 50, 8, 0
+repos/python/faceswap/lib/logger.py,"format( self , record )",7, 97, 12, 0
+repos/python/faceswap/lib/logger.py,"write( self , buffer )",4, 50, 8, 0
+repos/python/faceswap/lib/logger.py,"set_root_logger( loglevel = logging . INFO , queue = LOG_QUEUE )",8, 62, 8, 0
+repos/python/faceswap/lib/logger.py,"log_setup( loglevel , logfile , command )",16, 96, 35, 0
+repos/python/faceswap/lib/logger.py,"file_handler( loglevel , logfile , log_format , command )",16, 92, 8, 0
+repos/python/faceswap/lib/logger.py,"stream_handler( loglevel )",11, 78, 4, 0
+repos/python/faceswap/lib/logger.py,"crash_handler( log_format )",7, 75, 4, 0
+repos/python/faceswap/lib/logger.py,"get_loglevel( loglevel )",7, 72, 4, 0
+repos/python/faceswap/lib/logger.py,"crash_log( )",15, 97, 4, 0
+repos/python/faceswap/lib/logger.py,"faceswap_logrecord( * args , ** kwargs )",4, 42, 4, 0
+repos/python/faceswap/lib/gpu_stats.py,"__init__( self , log = True )",28, 86, 12, 0
+repos/python/faceswap/lib/gpu_stats.py,"initialize( self )",22, 93, 16, 0
+repos/python/faceswap/lib/gpu_stats.py,"shutdown( self )",7, 38, 16, 0
+repos/python/faceswap/lib/gpu_stats.py,"get_device_count( self )",11, 73, 12, 0
+repos/python/faceswap/lib/gpu_stats.py,"get_handles( self )",9, 74, 12, 0
+repos/python/faceswap/lib/gpu_stats.py,"get_driver( self )",12, 77, 16, 0
+repos/python/faceswap/lib/gpu_stats.py,"get_devices( self )",14, 70, 12, 0
+repos/python/faceswap/lib/gpu_stats.py,"get_vram( self )",15, 79, 12, 0
+repos/python/faceswap/lib/gpu_stats.py,"get_used( self )",14, 80, 12, 0
+repos/python/faceswap/lib/gpu_stats.py,"get_free( self )",13, 80, 12, 0
+repos/python/faceswap/lib/gpu_stats.py,"get_card_most_free( self )",18, 74, 12, 0
+repos/python/faceswap/lib/face_filter.py,"avg( arr )",3, 37, 4, 0
+repos/python/faceswap/lib/face_filter.py,"__init__( self , reference_file_paths , nreference_file_paths , threshold = 0 . 6 )",13, 96, 8, 0
+repos/python/faceswap/lib/face_filter.py,"check( self , detected_face )",48, 96, 16, 0
+repos/python/faceswap/lib/align_eyes.py,"align_eyes( landmarks , size )",27, 116, 4, 0
+repos/python/faceswap/lib/cli.py,"__init__( self , command , subparsers = None )",3, 50, 4, 0
+repos/python/faceswap/lib/cli.py,"import_script( self )",10, 72, 8, 0
+repos/python/faceswap/lib/cli.py,"test_for_tf_version( )",14, 96, 12, 0
+repos/python/faceswap/lib/cli.py,"test_for_gui( self )",6, 60, 8, 0
+repos/python/faceswap/lib/cli.py,"test_tkinter( )",25, 83, 12, 0
+repos/python/faceswap/lib/cli.py,"check_display( )",9, 79, 12, 0
+repos/python/faceswap/lib/cli.py,"execute_script( self , arguments )",21, 93, 12, 0
+repos/python/faceswap/lib/cli.py,"__init__( self , option_strings , dest , nargs = None , ** kwargs )",4, 68, 4, 0
+repos/python/faceswap/lib/cli.py,"__call__( self , parser , namespace , values , option_string = None )",2, 71, 4, 0
+repos/python/faceswap/lib/cli.py,"__init__( self , option_strings , dest , nargs = None , min_max = None , rounding = None , ** kwargs )",6, 97, 4, 0
+repos/python/faceswap/lib/cli.py,"_get_kwargs( self )",13, 92, 17, 0
+repos/python/faceswap/lib/cli.py,"__call__( self , parser , namespace , values , option_string = None )",2, 71, 4, 0
+repos/python/faceswap/lib/cli.py,"__call__( self , parser , namespace , values , option_string = None )",3, 71, 4, 0
+repos/python/faceswap/lib/cli.py,"__init__( self , option_strings , dest , nargs = None , filetypes = None , ** kwargs )",5, 84, 4, 0
+repos/python/faceswap/lib/cli.py,"_get_kwargs( self )",12, 63, 8, 0
+repos/python/faceswap/lib/cli.py,"__init__( self , option_strings , dest , nargs = None , filetypes = None , action_option = None , ** kwargs )",2, 73, 4, 0
+repos/python/faceswap/lib/cli.py,"_get_kwargs( self )",13, 63, 8, 0
+repos/python/faceswap/lib/cli.py,"error( self , message )",4, 62, 8, 0
+repos/python/faceswap/lib/cli.py,"_split_lines( self , text , width )",5, 70, 8, 0
+repos/python/faceswap/lib/cli.py,"__init__( self , subparser , command , description = 'default' , subparsers = None )",2, 58, 17, 0
+repos/python/faceswap/lib/cli.py,"get_argument_list( )",5, 78, 8, 0
+repos/python/faceswap/lib/cli.py,"get_optional_arguments( )",6, 78, 8, 0
+repos/python/faceswap/lib/cli.py,"get_global_arguments( )",28, 96, 28, 0
+repos/python/faceswap/lib/cli.py,"create_parser( subparser , command , description )",10, 63, 12, 0
+repos/python/faceswap/lib/cli.py,"add_arguments( self )",8, 87, 8, 0
+repos/python/faceswap/lib/cli.py,"get_argument_list( )",54, 95, 30, 0
+repos/python/faceswap/lib/cli.py,"get_optional_arguments( )",144, 100, 38, 0
+repos/python/faceswap/lib/cli.py,"get_optional_arguments( )",149, 100, 20, 0
+repos/python/faceswap/lib/cli.py,"get_argument_list( )",178, 100, 30, 0
+repos/python/faceswap/lib/cli.py,"get_argument_list( )",11, 78, 8, 0
+repos/python/faceswap/lib/utils.py,"get_folder( path )",7, 71, 4, 0
+repos/python/faceswap/lib/utils.py,"get_image_paths( directory )",21, 71, 4, 0
+repos/python/faceswap/lib/utils.py,"hash_image_file( filename )",6, 65, 4, 0
+repos/python/faceswap/lib/utils.py,"hash_encode_image( image , extension )",7, 90, 8, 0
+repos/python/faceswap/lib/utils.py,"backup_file( directory , filename )",11, 70, 8, 0
+repos/python/faceswap/lib/utils.py,"set_system_verbosity( loglevel )",18, 94, 8, 0
+repos/python/faceswap/lib/utils.py,"rotate_landmarks( face , rotation_matrix )",80, 85, 8, 0
+repos/python/faceswap/lib/utils.py,"camel_case_split( identifier )",7, 65, 8, 0
+repos/python/faceswap/lib/utils.py,"safe_shutdown( )",12, 84, 4, 0
+repos/python/faceswap/lib/sysinfo.py,"__init__( self )",15, 66, 8, 0
+repos/python/faceswap/lib/sysinfo.py,"encoding( self )",3, 49, 8, 0
+repos/python/faceswap/lib/sysinfo.py,"is_conda( self )",3, 59, 8, 0
+repos/python/faceswap/lib/sysinfo.py,"is_linux( self )",3, 52, 8, 0
+repos/python/faceswap/lib/sysinfo.py,"is_macos( self )",3, 52, 8, 0
+repos/python/faceswap/lib/sysinfo.py,"is_windows( self )",3, 54, 8, 0
+repos/python/faceswap/lib/sysinfo.py,"is_virtual_env( self )",9, 87, 22, 0
+repos/python/faceswap/lib/sysinfo.py,"ram( self )",3, 39, 8, 0
+repos/python/faceswap/lib/sysinfo.py,"ram_free( self )",3, 41, 8, 0
+repos/python/faceswap/lib/sysinfo.py,"ram_total( self )",3, 42, 8, 0
+repos/python/faceswap/lib/sysinfo.py,"ram_available( self )",3, 46, 8, 0
+repos/python/faceswap/lib/sysinfo.py,"ram_used( self )",3, 41, 8, 0
+repos/python/faceswap/lib/sysinfo.py,"fs_command( self )",3, 53, 8, 0
+repos/python/faceswap/lib/sysinfo.py,"installed_pip( self )",6, 63, 8, 0
+repos/python/faceswap/lib/sysinfo.py,"installed_conda( self )",10, 74, 8, 0
+repos/python/faceswap/lib/sysinfo.py,"conda_version( self )",10, 79, 8, 0
+repos/python/faceswap/lib/sysinfo.py,"git_branch( self )",8, 75, 8, 0
+repos/python/faceswap/lib/sysinfo.py,"git_commits( self )",9, 69, 8, 0
+repos/python/faceswap/lib/sysinfo.py,"cuda_version( self )",9, 50, 12, 0
+repos/python/faceswap/lib/sysinfo.py,"cudnn_version( self )",33, 78, 8, 0
+repos/python/faceswap/lib/sysinfo.py,"get_cuda_path( self )",9, 45, 8, 0
+repos/python/faceswap/lib/sysinfo.py,"cuda_path_linux( )",14, 94, 8, 0
+repos/python/faceswap/lib/sysinfo.py,"cuda_path_windows( )",4, 56, 8, 0
+repos/python/faceswap/lib/sysinfo.py,"cuda_version_linux( self )",18, 94, 8, 0
+repos/python/faceswap/lib/sysinfo.py,"cuda_version_windows( self )",12, 91, 8, 0
+repos/python/faceswap/lib/sysinfo.py,"full_info( self )",33, 96, 46, 0
+repos/python/faceswap/lib/sysinfo.py,"format_ram( self )",8, 71, 12, 0
+repos/python/faceswap/lib/Serializer.py,"marshal( cls , input_data )",3, 41, 8, 0
+repos/python/faceswap/lib/Serializer.py,"unmarshal( cls , input_string )",3, 43, 8, 0
+repos/python/faceswap/lib/Serializer.py,"marshal( cls , input_data )",2, 63, 8, 0
+repos/python/faceswap/lib/Serializer.py,"unmarshal( cls , input_string )",2, 39, 8, 0
+repos/python/faceswap/lib/Serializer.py,"marshal( cls , input_data )",2, 48, 8, 0
+repos/python/faceswap/lib/Serializer.py,"unmarshal( cls , input_string )",2, 40, 8, 0
+repos/python/faceswap/lib/Serializer.py,"marshal( cls , input_data )",2, 40, 8, 0
+repos/python/faceswap/lib/Serializer.py,"unmarshal( cls , input_bytes )",2, 73, 4, 0
+repos/python/faceswap/lib/Serializer.py,"get_serializer( serializer )",12, 87, 8, 0
+repos/python/faceswap/lib/Serializer.py,"get_serializer_from_ext( ext )",12, 89, 8, 0
+repos/python/faceswap/lib/queue_manager.py,"__init__( self )",17, 92, 8, 0
+repos/python/faceswap/lib/queue_manager.py,"add_queue( self , name , maxsize = 0 , multiprocessing_queue = True )",18, 86, 8, 0
+repos/python/faceswap/lib/queue_manager.py,"del_queue( self , name )",5, 58, 8, 0
+repos/python/faceswap/lib/queue_manager.py,"get_queue( self , name , maxsize = 0 )",10, 57, 8, 0
+repos/python/faceswap/lib/queue_manager.py,"terminate_queues( self )",11, 67, 12, 0
+repos/python/faceswap/lib/queue_manager.py,"debug_monitor( self , update_secs = 2 )",6, 65, 8, 0
+repos/python/faceswap/lib/queue_manager.py,"debug_queue_sizes( self , update_secs )",8, 71, 16, 0
+repos/python/faceswap/lib/multithreading.py,"__init__( self , dispatcher , index , data )",7, 81, 8, 0
+repos/python/faceswap/lib/multithreading.py,"get( self )",3, 28, 8, 0
+repos/python/faceswap/lib/multithreading.py,"free( self )",3, 40, 8, 0
+repos/python/faceswap/lib/multithreading.py,"__enter__( self )",3, 26, 8, 0
+repos/python/faceswap/lib/multithreading.py,"__exit__( self , * args )",3, 31, 4, 0
+repos/python/faceswap/lib/multithreading.py,"__init__( self , index , data , stop_event , queue )",8, 92, 8, 0
+repos/python/faceswap/lib/multithreading.py,"get( self )",3, 28, 8, 0
+repos/python/faceswap/lib/multithreading.py,"ready( self )",5, 38, 8, 0
+repos/python/faceswap/lib/multithreading.py,"__enter__( self )",3, 26, 8, 0
+repos/python/faceswap/lib/multithreading.py,"__exit__( self , * args )",3, 31, 4, 0
+repos/python/faceswap/lib/multithreading.py,"__init__( self , method , shapes , in_queue , out_queue , args = tuple ( )",2, 83, 17, 0
+repos/python/faceswap/lib/multithreading.py,"_np_from_shared( shared , shapes , dtype )",10, 69, 12, 0
+repos/python/faceswap/lib/multithreading.py,"_create_data( self , shapes , ctype , buffers )",7, 82, 8, 0
+repos/python/faceswap/lib/multithreading.py,"_create_worker( self , kwargs )",3, 68, 8, 0
+repos/python/faceswap/lib/multithreading.py,"free( self , index )",7, 46, 8, 0
+repos/python/faceswap/lib/multithreading.py,"__iter__( self )",3, 25, 8, 0
+repos/python/faceswap/lib/multithreading.py,"__next__( self )",3, 27, 8, 0
+repos/python/faceswap/lib/multithreading.py,"next( self , block = True , timeout = None )",20, 94, 8, 0
+repos/python/faceswap/lib/multithreading.py,"start( self )",5, 38, 8, 0
+repos/python/faceswap/lib/multithreading.py,"is_alive( self )",6, 40, 8, 0
+repos/python/faceswap/lib/multithreading.py,"join( self )",13, 67, 16, 0
+repos/python/faceswap/lib/multithreading.py,"stop( self )",5, 43, 8, 0
+repos/python/faceswap/lib/multithreading.py,"is_shutdown( self )",3, 43, 8, 0
+repos/python/faceswap/lib/multithreading.py,"_runner( cls , data = None , stop_event = None , target = None , buffer_tokens = None , result_tokens = None , dtype = None , shapes = None , log_queue = None , log_level = None , args = None , kwargs = None )",4, 68, 16, 0
+repos/python/faceswap/lib/multithreading.py,"get_free_slot( )",6, 77, 16, 0
+repos/python/faceswap/lib/multithreading.py,"__init__( self , method , in_queue , out_queue , * args , processes = None , ** kwargs )",15, 86, 4, 0
+repos/python/faceswap/lib/multithreading.py,"build_target_kwargs( in_queue , out_queue , kwargs )",5, 61, 8, 0
+repos/python/faceswap/lib/multithreading.py,"set_procs( self , processes )",7, 81, 8, 0
+repos/python/faceswap/lib/multithreading.py,"start( self )",9, 84, 12, 0
+repos/python/faceswap/lib/multithreading.py,"join( self )",6, 65, 8, 0
+repos/python/faceswap/lib/multithreading.py,"__init__( self , target , in_queue , out_queue , * args , ** kwargs )",11, 78, 8, 0
+repos/python/faceswap/lib/multithreading.py,"build_target_kwargs( self , in_queue , out_queue , kwargs )",10, 64, 4, 0
+repos/python/faceswap/lib/multithreading.py,"run( self )",7, 47, 8, 0
+repos/python/faceswap/lib/multithreading.py,"start( self )",7, 89, 8, 0
+repos/python/faceswap/lib/multithreading.py,"join( self , timeout = None )",6, 85, 8, 0
+repos/python/faceswap/lib/multithreading.py,"__init__( self , group = None , target = None , name = None , args = ( )",2, 97, 4, 0
+repos/python/faceswap/lib/multithreading.py,"run( self )",12, 72, 12, 0
+repos/python/faceswap/lib/multithreading.py,"__init__( self , target , * args , thread_count = 1 , name = None , ** kwargs )",12, 82, 8, 0
+repos/python/faceswap/lib/multithreading.py,"has_error( self )",3, 69, 8, 0
+repos/python/faceswap/lib/multithreading.py,"errors( self )",3, 56, 8, 0
+repos/python/faceswap/lib/multithreading.py,"start( self )",15, 85, 8, 0
+repos/python/faceswap/lib/multithreading.py,"join( self )",11, 99, 12, 0
+repos/python/faceswap/lib/multithreading.py,"__init__( self , generator , prefetch = 1 )",6, 51, 8, 0
+repos/python/faceswap/lib/multithreading.py,"run( self )",8, 75, 12, 0
+repos/python/faceswap/lib/multithreading.py,"iterator( self )",7, 47, 8, 0
+repos/python/faceswap/lib/multithreading.py,"terminate_processes( )",13, 78, 43, 0
+repos/python/faceswap/lib/gui/options.py,"__init__( self )",7, 65, 8, 0
+repos/python/faceswap/lib/gui/options.py,"build_options( self )",9, 80, 12, 0
+repos/python/faceswap/lib/gui/options.py,"get_cli_classes( cli_source )",11, 72, 12, 0
+repos/python/faceswap/lib/gui/options.py,"sort_commands( self , category , classes )",12, 66, 12, 0
+repos/python/faceswap/lib/gui/options.py,"format_command_name( classname )",3, 50, 8, 0
+repos/python/faceswap/lib/gui/options.py,"extract_options( self , cli_source , mod_classes )",13, 85, 12, 0
+repos/python/faceswap/lib/gui/options.py,"get_cli_arguments( cli_source , classname , command )",4, 84, 8, 0
+repos/python/faceswap/lib/gui/options.py,"process_options( self , command_options )",17, 79, 12, 0
+repos/python/faceswap/lib/gui/options.py,"set_control_title( opts )",5, 80, 8, 0
+repos/python/faceswap/lib/gui/options.py,"set_control( self , option )",25, 78, 8, 0
+repos/python/faceswap/lib/gui/options.py,"set_sysbrowser( action , filetypes , action_option )",15, 79, 8, 0
+repos/python/faceswap/lib/gui/options.py,"set_context_option( self , command )",8, 69, 16, 0
+repos/python/faceswap/lib/gui/options.py,"gen_command_options( self , command )",4, 56, 8, 0
+repos/python/faceswap/lib/gui/options.py,"options_to_process( self , command = None )",9, 75, 12, 0
+repos/python/faceswap/lib/gui/options.py,"reset( self , command = None )",11, 78, 8, 0
+repos/python/faceswap/lib/gui/options.py,"clear( self , command = None )",11, 66, 8, 0
+repos/python/faceswap/lib/gui/options.py,"get_option_values( self , command = None )",13, 73, 8, 0
+repos/python/faceswap/lib/gui/options.py,"get_one_option_variable( self , command , title )",7, 57, 8, 0
+repos/python/faceswap/lib/gui/options.py,"gen_cli_arguments( self , command )",19, 66, 12, 0
+repos/python/faceswap/lib/gui/statusbar.py,"__init__( self , parent )",12, 76, 8, 0
+repos/python/faceswap/lib/gui/statusbar.py,"status( self )",13, 80, 8, 0
+repos/python/faceswap/lib/gui/statusbar.py,"progress_bar( self )",16, 78, 8, 0
+repos/python/faceswap/lib/gui/statusbar.py,"progress_start( self , mode )",4, 50, 8, 0
+repos/python/faceswap/lib/gui/statusbar.py,"progress_stop( self )",6, 46, 8, 0
+repos/python/faceswap/lib/gui/statusbar.py,"progress_set_mode( self , mode )",9, 43, 12, 0
+repos/python/faceswap/lib/gui/statusbar.py,"progress_update( self , message , position , update_position = True )",5, 72, 4, 0
+repos/python/faceswap/lib/gui/wrapper.py,"__init__( self , pathscript = None )",9, 95, 8, 0
+repos/python/faceswap/lib/gui/wrapper.py,"set_callbacks( self )",5, 67, 8, 0
+repos/python/faceswap/lib/gui/wrapper.py,"action_command( self , * args )",13, 72, 8, 0
+repos/python/faceswap/lib/gui/wrapper.py,"generate_command( self , * args )",10, 73, 8, 0
+repos/python/faceswap/lib/gui/wrapper.py,"prepare( self , category )",15, 90, 8, 0
+repos/python/faceswap/lib/gui/wrapper.py,"build_args( self , category , command = None , generate = False )",23, 87, 8, 0
+repos/python/faceswap/lib/gui/wrapper.py,"init_training_session( cliopt )",9, 87, 8, 0
+repos/python/faceswap/lib/gui/wrapper.py,"terminate( self , message )",12, 57, 8, 0
+repos/python/faceswap/lib/gui/wrapper.py,"__init__( self , wrapper )",14, 82, 31, 0
+repos/python/faceswap/lib/gui/wrapper.py,"execute_script( self , command , args )",13, 85, 8, 0
+repos/python/faceswap/lib/gui/wrapper.py,"read_stdout( self )",26, 99, 24, 0
+repos/python/faceswap/lib/gui/wrapper.py,"read_stderr( self )",18, 80, 16, 0
+repos/python/faceswap/lib/gui/wrapper.py,"thread_stdout( self )",8, 69, 8, 0
+repos/python/faceswap/lib/gui/wrapper.py,"thread_stderr( self )",8, 69, 8, 0
+repos/python/faceswap/lib/gui/wrapper.py,"capture_loss( self , string )",42, 99, 58, 0
+repos/python/faceswap/lib/gui/wrapper.py,"calc_elapsed( self )",15, 70, 12, 0
+repos/python/faceswap/lib/gui/wrapper.py,"capture_tqdm( self , string )",23, 85, 8, 0
+repos/python/faceswap/lib/gui/wrapper.py,"capture_ffmpeg( self , string )",18, 75, 12, 0
+repos/python/faceswap/lib/gui/wrapper.py,"terminate( self )",52, 84, 28, 0
+repos/python/faceswap/lib/gui/wrapper.py,"set_final_status( self , returncode )",15, 88, 12, 0
+repos/python/faceswap/lib/gui/command.py,"__init__( self , parent )",13, 87, 8, 0
+repos/python/faceswap/lib/gui/command.py,"set_running_task_trace( self )",6, 69, 8, 0
+repos/python/faceswap/lib/gui/command.py,"build_tabs( self )",11, 65, 16, 0
+repos/python/faceswap/lib/gui/command.py,"change_action_button( self , * args )",16, 63, 8, 0
+repos/python/faceswap/lib/gui/command.py,"__init__( self , parent , category , command )",11, 73, 8, 0
+repos/python/faceswap/lib/gui/command.py,"build_tab( self )",9, 54, 8, 0
+repos/python/faceswap/lib/gui/command.py,"add_frame_separator( self )",6, 62, 8, 0
+repos/python/faceswap/lib/gui/command.py,"__init__( self , parent )",20, 75, 52, 0
+repos/python/faceswap/lib/gui/command.py,"checkbuttons_frame( self )",18, 90, 8, 0
+repos/python/faceswap/lib/gui/command.py,"build_frame( self )",17, 73, 12, 0
+repos/python/faceswap/lib/gui/command.py,"add_scrollbar( self )",8, 67, 8, 0
+repos/python/faceswap/lib/gui/command.py,"update_scrollbar( self , event )",3, 74, 4, 0
+repos/python/faceswap/lib/gui/command.py,"resize_frame( self , event )",6, 68, 8, 0
+repos/python/faceswap/lib/gui/command.py,"__init__( self , command , option , option_frame , checkbuttons_frame )",7, 75, 4, 0
+repos/python/faceswap/lib/gui/command.py,"build_full_control( self )",27, 92, 8, 0
+repos/python/faceswap/lib/gui/command.py,"format_help( self , ctltitle )",13, 92, 8, 0
+repos/python/faceswap/lib/gui/command.py,"build_one_control_frame( self )",7, 52, 8, 0
+repos/python/faceswap/lib/gui/command.py,"build_one_control_label( frame , control_title )",6, 74, 8, 0
+repos/python/faceswap/lib/gui/command.py,"build_one_control( self , frame , controlvars , choices , min_max , sysbrowser )",23, 98, 8, 0
+repos/python/faceswap/lib/gui/command.py,"radio_control( frame , control_title , var , choices , helptext )",24, 99, 8, 0
+repos/python/faceswap/lib/gui/command.py,"checkbutton_to_checkframe( self , control , control_title , var , helptext )",14, 80, 4, 0
+repos/python/faceswap/lib/gui/command.py,"slider_control( self , control , frame , tk_var , min_max , helptext )",22, 100, 8, 0
+repos/python/faceswap/lib/gui/command.py,"control_to_optionsframe( control , frame , var , choices , helptext )",12, 73, 4, 0
+repos/python/faceswap/lib/gui/command.py,"add_browser_buttons( self , frame , sysbrowser , filepath )",14, 86, 33, 0
+repos/python/faceswap/lib/gui/command.py,"ask_folder( filepath , filetypes = None )",10, 56, 8, 0
+repos/python/faceswap/lib/gui/command.py,"ask_load( filepath , filetypes )",6, 62, 8, 0
+repos/python/faceswap/lib/gui/command.py,"ask_save( filepath , filetypes = None )",6, 66, 8, 0
+repos/python/faceswap/lib/gui/command.py,"ask_nothing( filepath , filetypes = None )",3, 82, 4, 0
+repos/python/faceswap/lib/gui/command.py,"ask_context( self , filepath , filetypes )",13, 70, 8, 0
+repos/python/faceswap/lib/gui/command.py,"__init__( self , parent )",12, 98, 8, 0
+repos/python/faceswap/lib/gui/command.py,"add_action_button( self , category , actionbtns )",28, 80, 28, 0
+repos/python/faceswap/lib/gui/command.py,"add_util_buttons( self )",20, 82, 12, 0
+repos/python/faceswap/lib/gui/display_analysis.py,"__init__( self , parent , tabname , helptext )",10, 86, 8, 0
+repos/python/faceswap/lib/gui/display_analysis.py,"set_vars( self )",4, 44, 8, 0
+repos/python/faceswap/lib/gui/display_analysis.py,"add_main_frame( self )",9, 57, 31, 0
+repos/python/faceswap/lib/gui/display_analysis.py,"add_options( self )",7, 39, 8, 0
+repos/python/faceswap/lib/gui/display_analysis.py,"reset_session_info( self )",4, 57, 8, 0
+repos/python/faceswap/lib/gui/display_analysis.py,"load_session( self )",19, 75, 8, 0
+repos/python/faceswap/lib/gui/display_analysis.py,"get_model_name( model_dir , state_file )",10, 77, 12, 0
+repos/python/faceswap/lib/gui/display_analysis.py,"reset_session( self )",12, 55, 8, 0
+repos/python/faceswap/lib/gui/display_analysis.py,"set_session_summary( self , message )",7, 74, 8, 0
+repos/python/faceswap/lib/gui/display_analysis.py,"clear_session( self )",7, 41, 8, 0
+repos/python/faceswap/lib/gui/display_analysis.py,"save_session( self )",21, 68, 12, 0
+repos/python/faceswap/lib/gui/display_analysis.py,"__init__( self , parent )",5, 66, 8, 0
+repos/python/faceswap/lib/gui/display_analysis.py,"add_options( self )",3, 44, 8, 0
+repos/python/faceswap/lib/gui/display_analysis.py,"add_buttons( self )",11, 69, 12, 0
+repos/python/faceswap/lib/gui/display_analysis.py,"set_help( btntype )",13, 74, 12, 0
+repos/python/faceswap/lib/gui/display_analysis.py,"__init__( self , parent , selected_id , helptext )",25, 100, 8, 0
+repos/python/faceswap/lib/gui/display_analysis.py,"add_label( self )",5, 80, 8, 0
+repos/python/faceswap/lib/gui/display_analysis.py,"resize_frame( self , event )",7, 91, 8, 0
+repos/python/faceswap/lib/gui/display_analysis.py,"tree_configure( self , helptext )",9, 81, 8, 0
+repos/python/faceswap/lib/gui/display_analysis.py,"tree_columns( self )",21, 83, 12, 0
+repos/python/faceswap/lib/gui/display_analysis.py,"tree_insert_data( self , sessions_summary )",11, 78, 12, 0
+repos/python/faceswap/lib/gui/display_analysis.py,"tree_clear( self )",5, 53, 8, 0
+repos/python/faceswap/lib/gui/display_analysis.py,"select_item( self , event )",11, 64, 8, 0
+repos/python/faceswap/lib/gui/display_analysis.py,"data_popup( self )",17, 88, 8, 0
+repos/python/faceswap/lib/gui/display_analysis.py,"data_popup_title( self )",9, 96, 12, 0
+repos/python/faceswap/lib/gui/display_analysis.py,"data_popup_get_position( self )",13, 76, 12, 0
+repos/python/faceswap/lib/gui/display_analysis.py,"data_popup_check_boundaries( self , initial_position , position )",12, 88, 8, 0
+repos/python/faceswap/lib/gui/display_analysis.py,"__init__( self , model_dir , model_name , session_id )",16, 90, 8, 0
+repos/python/faceswap/lib/gui/display_analysis.py,"is_totals( self )",3, 59, 8, 0
+repos/python/faceswap/lib/gui/display_analysis.py,"initialize_session( self )",8, 56, 12, 0
+repos/python/faceswap/lib/gui/display_analysis.py,"build( self )",9, 53, 8, 0
+repos/python/faceswap/lib/gui/display_analysis.py,"layout_frames( self )",14, 74, 8, 0
+repos/python/faceswap/lib/gui/display_analysis.py,"opts_build( self , frame )",11, 58, 8, 0
+repos/python/faceswap/lib/gui/display_analysis.py,"opts_combobox( self , frame )",29, 79, 12, 0
+repos/python/faceswap/lib/gui/display_analysis.py,"opts_checkbuttons( self , frame )",23, 66, 12, 0
+repos/python/faceswap/lib/gui/display_analysis.py,"opts_loss_keys( self , frame )",23, 66, 12, 0
+repos/python/faceswap/lib/gui/display_analysis.py,"opts_entry( self , frame )",22, 66, 12, 0
+repos/python/faceswap/lib/gui/display_analysis.py,"opts_buttons( self , frame )",15, 65, 8, 0
+repos/python/faceswap/lib/gui/display_analysis.py,"optbtn_save( self )",15, 75, 12, 0
+repos/python/faceswap/lib/gui/display_analysis.py,"optbtn_reset( self , * args )",13, 70, 4, 0
+repos/python/faceswap/lib/gui/display_analysis.py,"graph_scale( self , * args )",5, 69, 4, 0
+repos/python/faceswap/lib/gui/display_analysis.py,"set_help( control )",24, 74, 12, 0
+repos/python/faceswap/lib/gui/display_analysis.py,"compile_display_data( self )",21, 87, 41, 0
+repos/python/faceswap/lib/gui/display_analysis.py,"check_valid_selection( self , loss_keys , selections )",11, 91, 8, 0
+repos/python/faceswap/lib/gui/display_analysis.py,"selections_to_list( self )",11, 69, 8, 0
+repos/python/faceswap/lib/gui/display_analysis.py,"graph_build( self , frame )",11, 62, 8, 0
+repos/python/faceswap/lib/gui/tooltip.py,"__init__( self , widget , * , background = '#FFFFEA' , pad = ( 5 , 3 , 5 , 3 )",7, 39, 17, 0
+repos/python/faceswap/lib/gui/tooltip.py,"on_enter( self , event = None )",3, 43, 8, 0
+repos/python/faceswap/lib/gui/tooltip.py,"on_leave( self , event = None )",4, 44, 8, 0
+repos/python/faceswap/lib/gui/tooltip.py,"schedule( self )",4, 65, 8, 0
+repos/python/faceswap/lib/gui/tooltip.py,"unschedule( self )",6, 42, 12, 0
+repos/python/faceswap/lib/gui/tooltip.py,"show.tip_pos_calculator( widget , label , * , tip_delta = ( 10 , 5 )",3, 69, 31, 0
+repos/python/faceswap/lib/gui/tooltip.py,"show( self )",81, 88, 12, 0
+repos/python/faceswap/lib/gui/tooltip.py,"hide( self )",6, 35, 8, 0
+repos/python/faceswap/lib/gui/display_command.py,"display_item_set( self )",5, 55, 8, 0
+repos/python/faceswap/lib/gui/display_command.py,"display_item_process( self )",7, 43, 8, 0
+repos/python/faceswap/lib/gui/display_command.py,"add_child( self )",7, 77, 8, 0
+repos/python/faceswap/lib/gui/display_command.py,"update_child( self )",5, 66, 12, 0
+repos/python/faceswap/lib/gui/display_command.py,"save_items( self )",14, 64, 8, 0
+repos/python/faceswap/lib/gui/display_command.py,"__init__( self , * args , ** kwargs )",3, 68, 8, 0
+repos/python/faceswap/lib/gui/display_command.py,"display_item_set( self )",8, 54, 8, 0
+repos/python/faceswap/lib/gui/display_command.py,"display_item_process( self )",16, 69, 8, 0
+repos/python/faceswap/lib/gui/display_command.py,"add_child( self , name )",7, 70, 8, 0
+repos/python/faceswap/lib/gui/display_command.py,"update_child( self , tab_id , name )",7, 78, 8, 0
+repos/python/faceswap/lib/gui/display_command.py,"save_items( self )",7, 59, 8, 0
+repos/python/faceswap/lib/gui/display_command.py,"__init__( self , parent , previewname )",16, 99, 8, 0
+repos/python/faceswap/lib/gui/display_command.py,"resize( self , event )",8, 77, 8, 0
+repos/python/faceswap/lib/gui/display_command.py,"reload( self )",5, 72, 8, 0
+repos/python/faceswap/lib/gui/display_command.py,"save_preview( self , location )",11, 64, 8, 0
+repos/python/faceswap/lib/gui/display_command.py,"add_options( self )",4, 43, 8, 0
+repos/python/faceswap/lib/gui/display_command.py,"add_option_refresh( self )",11, 82, 16, 0
+repos/python/faceswap/lib/gui/display_command.py,"display_item_set( self )",12, 78, 12, 0
+repos/python/faceswap/lib/gui/display_command.py,"display_item_process( self )",15, 66, 8, 0
+repos/python/faceswap/lib/gui/display_command.py,"add_child( self , name , data )",7, 62, 8, 0
+repos/python/faceswap/lib/gui/display_command.py,"save_items( self )",7, 57, 8, 0
+repos/python/faceswap/lib/gui/display.py,"__init__( self , parent )",12, 65, 8, 0
+repos/python/faceswap/lib/gui/display.py,"set_wrapper_var_trace( self )",5, 69, 12, 0
+repos/python/faceswap/lib/gui/display.py,"add_static_tabs( self )",13, 76, 28, 0
+repos/python/faceswap/lib/gui/display.py,"add_frame( self )",6, 76, 8, 0
+repos/python/faceswap/lib/gui/display.py,"command_display( self , command )",5, 62, 8, 0
+repos/python/faceswap/lib/gui/display.py,"extract_tabs( self )",7, 59, 8, 0
+repos/python/faceswap/lib/gui/display.py,"train_tabs( self )",11, 79, 16, 0
+repos/python/faceswap/lib/gui/display.py,"convert_tabs( self )",6, 66, 12, 0
+repos/python/faceswap/lib/gui/display.py,"remove_tabs( self )",10, 54, 12, 0
+repos/python/faceswap/lib/gui/display.py,"destroy_tabs_children( tab )",8, 68, 12, 0
+repos/python/faceswap/lib/gui/display.py,"update_displaybook( self , * args )",7, 76, 4, 0
+repos/python/faceswap/lib/gui/menu.py,"__init__( self , master = None )",15, 100, 8, 0
+repos/python/faceswap/lib/gui/menu.py,"build_file_menu( self )",18, 92, 8, 0
+repos/python/faceswap/lib/gui/menu.py,"build_recent_menu( self )",27, 93, 12, 0
+repos/python/faceswap/lib/gui/menu.py,"clear_recent_files( serializer , menu_file )",6, 68, 8, 0
+repos/python/faceswap/lib/gui/menu.py,"refresh_recent_menu( self )",4, 58, 8, 0
+repos/python/faceswap/lib/gui/menu.py,"build_edit_menu( self )",13, 94, 16, 0
+repos/python/faceswap/lib/gui/menu.py,"scan_for_configs( self )",13, 73, 8, 0
+repos/python/faceswap/lib/gui/menu.py,"load_config( plugin_type )",8, 93, 8, 0
+repos/python/faceswap/lib/gui/menu.py,"build_tools_menu( self )",9, 89, 12, 0
+repos/python/faceswap/lib/gui/menu.py,"output_sysinfo( )",5, 55, 8, 0
+repos/python/faceswap/lib/gui/menu.py,"check_updates( )",52, 100, 8, 0
+repos/python/faceswap/lib/gui/display_graph.py,"_Button( frame , text , file , command , extension = '.gif' )",11, 99, 4, 0
+repos/python/faceswap/lib/gui/display_graph.py,"_init_toolbar( self )",29, 93, 8, 0
+repos/python/faceswap/lib/gui/display_graph.py,"__init__( self , parent , data , ylabel )",18, 76, 8, 0
+repos/python/faceswap/lib/gui/display_graph.py,"initiate_graph( self )",11, 93, 8, 0
+repos/python/faceswap/lib/gui/display_graph.py,"update_plot( self , initiate = True )",25, 98, 48, 0
+repos/python/faceswap/lib/gui/display_graph.py,"axes_labels_set( self )",5, 72, 8, 0
+repos/python/faceswap/lib/gui/display_graph.py,"axes_limits_set_default( self )",5, 52, 8, 0
+repos/python/faceswap/lib/gui/display_graph.py,"axes_limits_set( self , data )",10, 79, 8, 0
+repos/python/faceswap/lib/gui/display_graph.py,"axes_data_get_min_max( data )",13, 73, 8, 0
+repos/python/faceswap/lib/gui/display_graph.py,"axes_set_yscale( self , scale )",4, 49, 8, 0
+repos/python/faceswap/lib/gui/display_graph.py,"lines_sort( self , keys )",17, 66, 8, 0
+repos/python/faceswap/lib/gui/display_graph.py,"lines_groupsize( raw_lines , sorted_lines )",14, 98, 20, 0
+repos/python/faceswap/lib/gui/display_graph.py,"lines_style( self , lines , groupsize )",9, 64, 8, 0
+repos/python/faceswap/lib/gui/display_graph.py,"lines_create_colors( self , groupsize , groups )",10, 56, 12, 0
+repos/python/faceswap/lib/gui/display_graph.py,"legend_place( self )",4, 51, 8, 0
+repos/python/faceswap/lib/gui/display_graph.py,"toolbar_place( self , parent )",6, 66, 8, 0
+repos/python/faceswap/lib/gui/display_graph.py,"__init__( self , parent , data , ylabel )",3, 55, 8, 0
+repos/python/faceswap/lib/gui/display_graph.py,"add_callback( self )",3, 90, 8, 0
+repos/python/faceswap/lib/gui/display_graph.py,"build( self )",5, 54, 8, 0
+repos/python/faceswap/lib/gui/display_graph.py,"refresh( self , * args )",7, 65, 4, 0
+repos/python/faceswap/lib/gui/display_graph.py,"save_fig( self , location )",13, 83, 8, 0
+repos/python/faceswap/lib/gui/display_graph.py,"resize_fig( self )",8, 80, 8, 0
+repos/python/faceswap/lib/gui/display_graph.py,"__init__( self , parent , data , ylabel , scale )",3, 55, 8, 0
+repos/python/faceswap/lib/gui/display_graph.py,"build( self )",6, 47, 8, 0
+repos/python/faceswap/lib/gui/display_graph.py,"refresh( self , data , ylabel , scale )",7, 93, 8, 0
+repos/python/faceswap/lib/gui/display_graph.py,"set_yscale_type( self , scale )",8, 57, 8, 0
+repos/python/faceswap/lib/gui/utils.py,"initialize_config( cli_opts , scaling_factor , pathcache , statusbar , session )",8, 99, 4, 0
+repos/python/faceswap/lib/gui/utils.py,"get_config( )",3, 40, 4, 0
+repos/python/faceswap/lib/gui/utils.py,"initialize_images( )",7, 61, 4, 0
+repos/python/faceswap/lib/gui/utils.py,"get_images( )",3, 40, 4, 0
+repos/python/faceswap/lib/gui/utils.py,"set_slider_rounding( value , var , d_type , round_to , min_max )",8, 83, 4, 0
+repos/python/faceswap/lib/gui/utils.py,"__init__( self , handletype , filetype , command = None , action = None , variable = None )",2, 72, 4, 0
+repos/python/faceswap/lib/gui/utils.py,"filetypes( self )",33, 91, 12, 0
+repos/python/faceswap/lib/gui/utils.py,"set_defaults( self )",10, 71, 8, 0
+repos/python/faceswap/lib/gui/utils.py,"set_kwargs( self , filetype , command , action , variable = None )",19, 86, 8, 0
+repos/python/faceswap/lib/gui/utils.py,"set_context_handletype( self , command , action , variable )",8, 72, 8, 0
+repos/python/faceswap/lib/gui/utils.py,"open( self )",4, 53, 8, 0
+repos/python/faceswap/lib/gui/utils.py,"save( self )",4, 55, 8, 0
+repos/python/faceswap/lib/gui/utils.py,"dir( self )",4, 54, 8, 0
+repos/python/faceswap/lib/gui/utils.py,"savedir( self )",4, 54, 8, 0
+repos/python/faceswap/lib/gui/utils.py,"filename( self )",4, 57, 8, 0
+repos/python/faceswap/lib/gui/utils.py,"savefilename( self )",4, 59, 8, 0
+repos/python/faceswap/lib/gui/utils.py,"nothing( )",4, 79, 8, 0
+repos/python/faceswap/lib/gui/utils.py,"__init__( self )",24, 98, 8, 0
+repos/python/faceswap/lib/gui/utils.py,"delete_preview( self )",9, 83, 12, 0
+repos/python/faceswap/lib/gui/utils.py,"clear_image_cache( self )",6, 45, 8, 0
+repos/python/faceswap/lib/gui/utils.py,"get_images( imgpath )",10, 79, 17, 0
+repos/python/faceswap/lib/gui/utils.py,"load_latest_preview( self )",15, 70, 8, 0
+repos/python/faceswap/lib/gui/utils.py,"load_training_preview( self )",32, 88, 16, 0
+repos/python/faceswap/lib/gui/utils.py,"get_current_size( self , name )",11, 74, 8, 0
+repos/python/faceswap/lib/gui/utils.py,"resize_image( self , name , framesize )",31, 84, 8, 0
+repos/python/faceswap/lib/gui/utils.py,"__init__( self , widget )",7, 68, 21, 0
+repos/python/faceswap/lib/gui/utils.py,"standard_actions( self )",7, 97, 8, 0
+repos/python/faceswap/lib/gui/utils.py,"cm_bind( self )",7, 96, 25, 0
+repos/python/faceswap/lib/gui/utils.py,"select_all( self )",9, 74, 8, 0
+repos/python/faceswap/lib/gui/utils.py,"__init__( self , parent , debug )",14, 66, 8, 0
+repos/python/faceswap/lib/gui/utils.py,"set_console_clear_var_trace( self )",5, 62, 8, 0
+repos/python/faceswap/lib/gui/utils.py,"build_console( self )",12, 80, 8, 0
+repos/python/faceswap/lib/gui/utils.py,"redirect_console( self )",9, 80, 12, 0
+repos/python/faceswap/lib/gui/utils.py,"clear( self , * args )",9, 67, 12, 0
+repos/python/faceswap/lib/gui/utils.py,"__init__( self , console = None , out_type = None )",7, 71, 8, 0
+repos/python/faceswap/lib/gui/utils.py,"write( self , string )",5, 70, 8, 0
+repos/python/faceswap/lib/gui/utils.py,"flush( )",3, 63, 8, 0
+repos/python/faceswap/lib/gui/utils.py,"__init__( self , cli_opts , scaling_factor , pathcache , statusbar , session )",13, 91, 8, 0
+repos/python/faceswap/lib/gui/utils.py,"command_tabs( self )",4, 76, 16, 0
+repos/python/faceswap/lib/gui/utils.py,"set_tk_vars( )",33, 65, 12, 0
+repos/python/faceswap/lib/gui/utils.py,"load( self , command = None , filename = None )",27, 88, 8, 0
+repos/python/faceswap/lib/gui/utils.py,"get_command_options( self , cfg , command )",12, 65, 12, 0
+repos/python/faceswap/lib/gui/utils.py,"set_command_args( self , command , options )",9, 76, 12, 0
+repos/python/faceswap/lib/gui/utils.py,"save( self , command = None )",11, 87, 8, 0
+repos/python/faceswap/lib/gui/utils.py,"add_to_recent( self , filename , command )",20, 98, 8, 0
+repos/python/faceswap/lib/gui/stats.py,"convert_time( timestamp )",8, 67, 4, 0
+repos/python/faceswap/lib/gui/stats.py,"__init__( self , logs_folder )",3, 54, 8, 0
+repos/python/faceswap/lib/gui/stats.py,"set_log_filenames( self )",17, 94, 12, 0
+repos/python/faceswap/lib/gui/stats.py,"get_loss( self , side = None , session = None )",25, 96, 59, 0
+repos/python/faceswap/lib/gui/stats.py,"get_timestamps( self , session = None )",18, 91, 16, 0
+repos/python/faceswap/lib/gui/stats.py,"__init__( self , model_dir = None , model_name = None )",11, 89, 8, 0
+repos/python/faceswap/lib/gui/stats.py,"batchsize( self )",3, 45, 8, 0
+repos/python/faceswap/lib/gui/stats.py,"config( self )",7, 84, 8, 0
+repos/python/faceswap/lib/gui/stats.py,"full_summary( self )",3, 47, 8, 0
+repos/python/faceswap/lib/gui/stats.py,"iterations( self )",3, 42, 8, 0
+repos/python/faceswap/lib/gui/stats.py,"logging_disabled( self )",3, 68, 8, 0
+repos/python/faceswap/lib/gui/stats.py,"loss( self )",4, 84, 8, 0
+repos/python/faceswap/lib/gui/stats.py,"loss_keys( self )",8, 90, 12, 0
+repos/python/faceswap/lib/gui/stats.py,"lowest_loss( self )",3, 71, 8, 0
+repos/python/faceswap/lib/gui/stats.py,"session( self )",3, 60, 8, 0
+repos/python/faceswap/lib/gui/stats.py,"session_ids( self )",3, 81, 8, 0
+repos/python/faceswap/lib/gui/stats.py,"timestamps( self )",4, 71, 8, 0
+repos/python/faceswap/lib/gui/stats.py,"total_batchsize( self )",4, 69, 16, 0
+repos/python/faceswap/lib/gui/stats.py,"total_iterations( self )",3, 42, 8, 0
+repos/python/faceswap/lib/gui/stats.py,"total_loss( self )",8, 97, 20, 0
+repos/python/faceswap/lib/gui/stats.py,"total_loss_keys( self )",7, 76, 8, 0
+repos/python/faceswap/lib/gui/stats.py,"total_timestamps( self )",3, 83, 8, 0
+repos/python/faceswap/lib/gui/stats.py,"initialize_session( self , is_training = False , session_id = None )",13, 87, 52, 0
+repos/python/faceswap/lib/gui/stats.py,"load_state_file( self )",11, 89, 8, 0
+repos/python/faceswap/lib/gui/stats.py,"__init__( self , session )",4, 89, 8, 0
+repos/python/faceswap/lib/gui/stats.py,"time_stats( self )",8, 66, 22, 0
+repos/python/faceswap/lib/gui/stats.py,"sessions_stats( self )",15, 84, 29, 0
+repos/python/faceswap/lib/gui/stats.py,"compile_stats( self )",10, 70, 8, 0
+repos/python/faceswap/lib/gui/stats.py,"total_stats( sessions_stats )",27, 55, 8, 0
+repos/python/faceswap/lib/gui/stats.py,"format_stats( compiled_stats )",10, 85, 12, 0
+repos/python/faceswap/lib/gui/stats.py,"__init__( self , session , display = 'loss' , loss_keys = [ 'loss' ] , selections = [ 'raw' ] , avg_samples = 10 , flatten_outliers = False , is_totals = False )",2, 88, 4, 0
+repos/python/faceswap/lib/gui/stats.py,"refresh( self )",11, 78, 12, 0
+repos/python/faceswap/lib/gui/stats.py,"get_raw( self )",34, 95, 20, 0
+repos/python/faceswap/lib/gui/stats.py,"remove_raw( self )",9, 62, 8, 0
+repos/python/faceswap/lib/gui/stats.py,"calc_rate( self )",9, 85, 8, 0
+repos/python/faceswap/lib/gui/stats.py,"calc_rate_total( self )",16, 95, 12, 0
+repos/python/faceswap/lib/gui/stats.py,"flatten_outliers( data )",17, 89, 16, 0
+repos/python/faceswap/lib/gui/stats.py,"get_calculations( self )",11, 84, 12, 0
+repos/python/faceswap/lib/gui/stats.py,"calc_avg( self , data )",22, 70, 12, 0
+repos/python/faceswap/lib/gui/stats.py,"calc_trend( data )",13, 50, 12, 0
+repos/python/faceswap/lib/gui/display_page.py,"__init__( self , parent , tabname , helptext )",21, 70, 8, 0
+repos/python/faceswap/lib/gui/display_page.py,"add_optional_vars( self , varsdict )",6, 59, 16, 0
+repos/python/faceswap/lib/gui/display_page.py,"set_vars( )",3, 69, 8, 0
+repos/python/faceswap/lib/gui/display_page.py,"add_subnotebook( self )",6, 76, 8, 0
+repos/python/faceswap/lib/gui/display_page.py,"add_options_frame( self )",6, 66, 8, 0
+repos/python/faceswap/lib/gui/display_page.py,"add_options_info( self )",8, 64, 8, 0
+repos/python/faceswap/lib/gui/display_page.py,"set_info( self , msg )",4, 46, 8, 0
+repos/python/faceswap/lib/gui/display_page.py,"add_frame_separator( self )",5, 62, 8, 0
+repos/python/faceswap/lib/gui/display_page.py,"set_mainframe_single_tab_style( )",6, 73, 8, 0
+repos/python/faceswap/lib/gui/display_page.py,"subnotebook_add_page( self , tabtitle , widget = None )",8, 66, 8, 0
+repos/python/faceswap/lib/gui/display_page.py,"subnotebook_configure( self )",8, 65, 12, 0
+repos/python/faceswap/lib/gui/display_page.py,"subnotebook_hide( self )",8, 67, 8, 0
+repos/python/faceswap/lib/gui/display_page.py,"subnotebook_show( self )",6, 54, 12, 0
+repos/python/faceswap/lib/gui/display_page.py,"subnotebook_get_widgets( self )",7, 56, 8, 0
+repos/python/faceswap/lib/gui/display_page.py,"subnotebook_get_titles_ids( self )",7, 64, 12, 0
+repos/python/faceswap/lib/gui/display_page.py,"subnotebook_page_from_id( self , tab_id )",5, 66, 8, 0
+repos/python/faceswap/lib/gui/display_page.py,"__init__( self , parent , tabname , helptext , waittime )",11, 62, 8, 0
+repos/python/faceswap/lib/gui/display_page.py,"set_vars( )",16, 41, 19, 0
+repos/python/faceswap/lib/gui/display_page.py,"set_info_text( self )",10, 74, 8, 0
+repos/python/faceswap/lib/gui/display_page.py,"add_options( self )",4, 43, 8, 0
+repos/python/faceswap/lib/gui/display_page.py,"add_option_save( self )",10, 64, 16, 0
+repos/python/faceswap/lib/gui/display_page.py,"add_option_enable( self )",11, 75, 36, 0
+repos/python/faceswap/lib/gui/display_page.py,"save_items( self )",3, 65, 8, 0
+repos/python/faceswap/lib/gui/display_page.py,"on_chkenable_change( self )",8, 71, 8, 0
+repos/python/faceswap/lib/gui/display_page.py,"update_page( self , waittime )",9, 69, 8, 0
+repos/python/faceswap/lib/gui/display_page.py,"display_item_set( self )",3, 54, 8, 0
+repos/python/faceswap/lib/gui/display_page.py,"load_display( self )",8, 40, 8, 0
+repos/python/faceswap/lib/gui/display_page.py,"display_item_process( self )",3, 54, 8, 0
+repos/python/faceswap/lib/gui/popup_configure.py,"popup_config( config , root )",9, 58, 4, 0
+repos/python/faceswap/lib/gui/popup_configure.py,"__init__( self , config , root )",17, 80, 8, 0
+repos/python/faceswap/lib/gui/popup_configure.py,"set_geometry( self , root )",9, 83, 8, 0
+repos/python/faceswap/lib/gui/popup_configure.py,"get_config( self )",17, 98, 16, 0
+repos/python/faceswap/lib/gui/popup_configure.py,"build( self )",15, 78, 8, 0
+repos/python/faceswap/lib/gui/popup_configure.py,"build_page( self , container , category )",22, 85, 8, 0
+repos/python/faceswap/lib/gui/popup_configure.py,"add_frame_separator( self )",6, 68, 8, 0
+repos/python/faceswap/lib/gui/popup_configure.py,"add_actions( self )",15, 85, 8, 0
+repos/python/faceswap/lib/gui/popup_configure.py,"reset( self )",13, 96, 12, 0
+repos/python/faceswap/lib/gui/popup_configure.py,"save_config( self )",28, 93, 12, 0
+repos/python/faceswap/lib/gui/popup_configure.py,"__init__( self , parent , options , plugin_info )",16, 97, 8, 0
+repos/python/faceswap/lib/gui/popup_configure.py,"build_frame( self )",12, 59, 8, 0
+repos/python/faceswap/lib/gui/popup_configure.py,"add_scrollbar( self )",8, 67, 8, 0
+repos/python/faceswap/lib/gui/popup_configure.py,"update_scrollbar( self , event )",3, 74, 4, 0
+repos/python/faceswap/lib/gui/popup_configure.py,"resize_frame( self , event )",6, 68, 8, 0
+repos/python/faceswap/lib/gui/popup_configure.py,"add_info( self )",8, 74, 8, 0
+repos/python/faceswap/lib/gui/popup_configure.py,"__init__( self , title , values , option_frame )",12, 65, 8, 0
+repos/python/faceswap/lib/gui/popup_configure.py,"helptext( self )",8, 95, 8, 0
+repos/python/faceswap/lib/gui/popup_configure.py,"set_control( self )",14, 72, 8, 0
+repos/python/faceswap/lib/gui/popup_configure.py,"set_control_frame( self )",7, 53, 8, 0
+repos/python/faceswap/lib/gui/popup_configure.py,"set_tk_var( self )",7, 83, 8, 0
+repos/python/faceswap/lib/gui/popup_configure.py,"build_full_control( self )",7, 77, 8, 0
+repos/python/faceswap/lib/gui/popup_configure.py,"build_control_label( self )",7, 79, 8, 0
+repos/python/faceswap/lib/gui/popup_configure.py,"build_one_control( self )",10, 90, 8, 0
+repos/python/faceswap/lib/gui/popup_configure.py,"slider_control( self )",23, 98, 8, 0
+repos/python/faceswap/lib/gui/popup_configure.py,"control_to_optionsframe( self )",16, 84, 12, 0
+repos/python/faceswap/lib/model/nn_blocks.py,"__init__( self , use_subpixel = False , use_icnr_init = False , use_reflect_padding = False )",7, 104, 8, 0
+repos/python/faceswap/lib/model/nn_blocks.py,"update_kwargs( kwargs )",4, 86, 8, 0
+repos/python/faceswap/lib/model/nn_blocks.py,"conv( self , inp , filters , kernel_size = 5 , strides = 2 , padding = 'same' , use_instance_norm = False , res_block_follows = False , ** kwargs )",18, 136, 4, 0
+repos/python/faceswap/lib/model/nn_blocks.py,"upscale( self , inp , filters , kernel_size = 3 , padding = 'same' , use_instance_norm = False , res_block_follows = False , ** kwargs )",25, 129, 4, 0
+repos/python/faceswap/lib/model/nn_blocks.py,"res_block( self , inp , filters , kernel_size = 3 , padding = 'same' , ** kwargs )",29, 82, 12, 0
+repos/python/faceswap/lib/model/nn_blocks.py,"conv_sep( self , inp , filters , kernel_size = 5 , strides = 2 , ** kwargs )",12, 88, 8, 0
+repos/python/faceswap/lib/model/nn_blocks.py,"normalization( inp , norm = 'none' , group = '16' )",26, 88, 12, 0
+repos/python/faceswap/lib/model/nn_blocks.py,"upscale_ps( inp , filters , initializer , use_norm = False , norm = 'none' )",11, 74, 19, 0
+repos/python/faceswap/lib/model/nn_blocks.py,"upscale_nn( inp , filters , use_norm = False , norm = 'none' )",10, 74, 19, 0
+repos/python/faceswap/lib/model/nn_blocks.py,"reflect_padding_2d( inp , pad = 1 )",6, 82, 40, 0
+repos/python/faceswap/lib/model/nn_blocks.py,"conv_gan( inp , filters , use_norm = False , strides = 2 , norm = 'none' )",12, 74, 19, 0
+repos/python/faceswap/lib/model/nn_blocks.py,"conv_d_gan( inp , filters , use_norm = False , norm = 'none' )",13, 74, 19, 0
+repos/python/faceswap/lib/model/nn_blocks.py,"res_block_gan( inp , filters , use_norm = False , norm = 'none' )",20, 74, 19, 0
+repos/python/faceswap/lib/model/nn_blocks.py,"self_attn_block( inp , n_c , squeeze_factor = 8 )",32, 91, 45, 0
+repos/python/faceswap/lib/model/initializers.py,"icnr_keras( shape , dtype = None )",18, 95, 4, 0
+repos/python/faceswap/lib/model/initializers.py,"__init__( self , initializer , scale = 2 )",3, 46, 4, 0
+repos/python/faceswap/lib/model/initializers.py,"__call__( self , shape , dtype = 'float32' )",16, 84, 8, 0
+repos/python/faceswap/lib/model/initializers.py,"get_config( self )",6, 70, 8, 0
+repos/python/faceswap/lib/model/masks.py,"dfaker( landmarks , face , channels = 4 )",36, 97, 4, 0
+repos/python/faceswap/lib/model/masks.py,"dfl_full( landmarks , face , channels = 4 )",30, 87, 4, 0
+repos/python/faceswap/lib/model/masks.py,"merge_mask( image , mask , channels )",16, 94, 4, 0
+repos/python/faceswap/lib/model/losses.py,"__init__( self , k1 = 0 . 01 , k2 = 0 . 03 , kernel_size = 3 , max_value = 1 . 0 )",23, 78, 15, 0
+repos/python/faceswap/lib/model/losses.py,"__int_shape( x )",2, 30, 8, 0
+repos/python/faceswap/lib/model/losses.py,"__call__( self , y_true , y_pred )",41, 79, 8, 0
+repos/python/faceswap/lib/model/losses.py,"_preprocess_padding( padding )",16, 59, 8, 0
+repos/python/faceswap/lib/model/losses.py,"extract_image_patches( self , x , ksizes , ssizes , padding = 'same' , data_format = 'channels_last' )",2, 71, 4, 0
+repos/python/faceswap/lib/model/losses.py,"__init__( self , mask , loss_func , mask_prop = 1 . 0 )",5, 56, 4, 0
+repos/python/faceswap/lib/model/losses.py,"__call__( self , y_true , y_pred )",31, 47, 8, 0
+repos/python/faceswap/lib/model/losses.py,"first_order( var_x , axis = 1 )",9, 100, 8, 0
+repos/python/faceswap/lib/model/losses.py,"calc_loss( pred , target , loss = 'l2' )",10, 71, 4, 0
+repos/python/faceswap/lib/model/losses.py,"cyclic_loss( net_g1 , net_g2 , real1 )",8, 71, 4, 0
+repos/python/faceswap/lib/model/losses.py,"adversarial_loss( net_d , real , fake_abgr , distorted , gan_training = 'mixup_LSGAN' , ** weights )",40, 98, 8, 0
+repos/python/faceswap/lib/model/losses.py,"reconstruction_loss( real , fake_abgr , mask_eyes , model_outputs , ** weights )",14, 79, 0, 0
+repos/python/faceswap/lib/model/losses.py,"edge_loss( real , fake_abgr , mask_eyes , ** weights )",20, 93, 47, 0
+repos/python/faceswap/lib/model/losses.py,"perceptual_loss.preprocess_vggface( var_x )",4, 60, 8, 0
+repos/python/faceswap/lib/model/losses.py,"perceptual_loss.instnorm( )",2, 39, 8, 0
+repos/python/faceswap/lib/model/losses.py,"perceptual_loss( real , fake_abgr , distorted , mask_eyes , vggface_feats , ** weights )",37, 89, 4, 0
+repos/python/faceswap/lib/model/losses.py,"generalized_loss_function( y_true , y_pred , a = 1 . 0 , c = 1 . 0 / 255 . 0 )",22, 95, 8, 0
+repos/python/faceswap/lib/model/losses.py,"staircase_loss( y_true , y_pred , a = 16 . 0 , c = 1 . 0 / 255 . 0 )",7, 99, 4, 0
+repos/python/faceswap/lib/model/losses.py,"gradient_loss.diff_x( X )",7, 70, 8, 0
+repos/python/faceswap/lib/model/losses.py,"gradient_loss.diff_y( X )",7, 70, 8, 0
+repos/python/faceswap/lib/model/losses.py,"gradient_loss.diff_xx( X )",7, 70, 8, 0
+repos/python/faceswap/lib/model/losses.py,"gradient_loss.diff_yy( X )",7, 70, 8, 0
+repos/python/faceswap/lib/model/losses.py,"gradient_loss.diff_xy( X )",48, 80, 8, 0
+repos/python/faceswap/lib/model/losses.py,"gradient_loss( y_true , y_pred )",115, 121, 4, 0
+repos/python/faceswap/lib/model/losses.py,"scharr_edges( image , magnitude )",49, 162, 4, 0
+repos/python/faceswap/lib/model/losses.py,"gmsd_loss( y_true , y_pred )",15, 125, 4, 0
+repos/python/faceswap/lib/model/losses.py,"ms_ssim._verify_compatible_image_shapes( img1 , img2 )",32, 115, 8, 0
+repos/python/faceswap/lib/model/losses.py,"ms_ssim.ms_ssim._ssim_per_channel._fspecial_gauss( size , sigma )",17, 76, 12, 0
+repos/python/faceswap/lib/model/losses.py,"ms_ssim.ms_ssim._ssim_per_channel.ms_ssim.ms_ssim._ssim_per_channel._ssim_helper.reducer( x , kernel )",5, 93, 16, 0
+repos/python/faceswap/lib/model/losses.py,"ms_ssim.ms_ssim._ssim_per_channel._ssim_helper( x , y , max_val , kernel , compensation = 1 . 0 )",60, 93, 16, 0
+repos/python/faceswap/lib/model/losses.py,"ms_ssim._ssim_per_channel( img1 , img2 , max_val = 1 . 0 )",129, 125, 8, 0
+repos/python/faceswap/lib/model/losses.py,"ms_ssim.do_pad( images , remainder )",4, 70, 8, 0
+repos/python/faceswap/lib/model/losses.py,"ms_ssim( img1 , img2 , max_val = 1 . 0 , power_factors = ( 0 . 0517 , 0 . 3295 , 0 . 3462 , 0 . 2726 )",253, 125, 8, 0
+repos/python/faceswap/lib/model/losses.py,"ms_ssim_loss( y_true , y_pred )",3, 126, 4, 0
+repos/python/faceswap/lib/model/layers.py,"__init__( self , size = ( 2 , 2 )",4, 65, 4, 0
+repos/python/faceswap/lib/model/layers.py,"call( self , inputs , ** kwargs )",31, 74, 29, 0
+repos/python/faceswap/lib/model/layers.py,"compute_output_shape( self , input_shape )",40, 80, 16, 0
+repos/python/faceswap/lib/model/layers.py,"get_config( self )",6, 70, 8, 0
+repos/python/faceswap/lib/model/layers.py,"__init__( self , weights = None , axis = - 1 , gamma_init = 'zero' , ** kwargs )",5, 76, 4, 0
+repos/python/faceswap/lib/model/layers.py,"build( self , input_shape )",10, 90, 8, 0
+repos/python/faceswap/lib/model/layers.py,"call( self , x , mask = None )",2, 34, 4, 0
+repos/python/faceswap/lib/model/layers.py,"get_config( self )",4, 70, 8, 0
+repos/python/faceswap/lib/model/layers.py,"__init__( self , scale_factor = 2 , data_format = None , ** kwargs )",5, 68, 4, 0
+repos/python/faceswap/lib/model/layers.py,"build( self , input_shape )",2, 34, 4, 0
+repos/python/faceswap/lib/model/layers.py,"call( self , x , mask = None )",3, 72, 8, 0
+repos/python/faceswap/lib/model/layers.py,"compute_output_shape( self , input_shape )",12, 51, 20, 0
+repos/python/faceswap/lib/model/layers.py,"depth_to_space( cls , ipt , scale , data_format = None )",10, 65, 8, 0
+repos/python/faceswap/lib/model/layers.py,"_postprocess_conv2d_output( x , data_format )",15, 74, 12, 0
+repos/python/faceswap/lib/model/layers.py,"_preprocess_conv2d_input( x , data_format )",17, 74, 12, 0
+repos/python/faceswap/lib/model/layers.py,"get_config( self )",5, 70, 8, 0
+repos/python/faceswap/lib/model/layers.py,"__init__( self , stride = 2 , kernel_size = 5 , ** kwargs )",9, 68, 12, 0
+repos/python/faceswap/lib/model/layers.py,"build( self , input_shape )",3, 60, 8, 0
+repos/python/faceswap/lib/model/layers.py,"compute_output_shape( self , input_shape )",19, 79, 12, 0
+repos/python/faceswap/lib/model/layers.py,"call( self , x , mask = None )",24, 79, 12, 0
+repos/python/faceswap/lib/model/layers.py,"get_config( self )",5, 71, 8, 0
+repos/python/faceswap/lib/model/normalization.py,"to_list( inp )",5, 43, 4, 0
+repos/python/faceswap/lib/model/normalization.py,"__init__( self , axis = None , epsilon = 1e - 3 , center = True , scale = True , beta_initializer = 'zeros' , gamma_initializer = 'ones' , beta_regularizer = None , gamma_regularizer = None , beta_constraint = None , gamma_constraint = None , ** kwargs )",12, 43, 17, 0
+repos/python/faceswap/lib/model/normalization.py,"build( self , input_shape )",32, 77, 41, 0
+repos/python/faceswap/lib/model/normalization.py,"call( self , inputs , training = None )",24, 77, 8, 0
+repos/python/faceswap/lib/model/normalization.py,"get_config( self )",15, 81, 12, 0
+repos/python/faceswap/lib/model/normalization.py,"__init__( self , axis = - 1 , gamma_init = 'one' , beta_init = 'zero' , gamma_regularizer = None , beta_regularizer = None , epsilon = 1e - 6 , group = 32 , data_format = None , ** kwargs )",7, 64, 17, 0
+repos/python/faceswap/lib/model/normalization.py,"build( self , input_shape )",20, 73, 37, 0
+repos/python/faceswap/lib/model/normalization.py,"call( self , inputs , mask = None )",64, 89, 20, 0
+repos/python/faceswap/lib/model/normalization.py,"get_config( self )",10, 87, 18, 0

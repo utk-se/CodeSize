@@ -1,0 +1,554 @@
+File, Function, Length, Total Width, Leading Space(s), Leading Tab(s)
+repos/javascript/puppeteer/install.js,"onSuccess ( localRevisions )",7, 101, 2, 0
+repos/javascript/puppeteer/install.js,"onError ( error )",5, 139, 2, 0
+repos/javascript/puppeteer/install.js,"onProgress ( downloadedBytes , totalBytes )",14, 125, 4, 0
+repos/javascript/puppeteer/install.js,"toMegabytes ( bytes )",4, 43, 2, 0
+repos/javascript/puppeteer/install.js,"buildNode6IfNecessary ( )",15, 81, 2, 0
+repos/javascript/puppeteer/install.js,"supportsAsyncAwait ( )",8, 52, 4, 0
+repos/javascript/puppeteer/install.js,"generateProtocolTypesIfNecessary ( updated )",11, 81, 2, 0
+repos/javascript/puppeteer/experimental/puppeteer-firefox/install.js,"onSuccess ( localRevisions )",10, 115, 2, 0
+repos/javascript/puppeteer/experimental/puppeteer-firefox/install.js,"onError ( error )",5, 68, 2, 0
+repos/javascript/puppeteer/experimental/puppeteer-firefox/install.js,"onProgress ( downloadedBytes , totalBytes )",14, 149, 4, 0
+repos/javascript/puppeteer/experimental/puppeteer-firefox/install.js,"toMegabytes ( bytes )",4, 43, 2, 0
+repos/javascript/puppeteer/experimental/puppeteer-firefox/misc/install-preferences.js,"installFirefoxPreferences ( executablePath )",35, 88, 4, 0
+repos/javascript/puppeteer/experimental/puppeteer-firefox/misc/install-preferences.js,"function ( resolve , reject )",6, 49, 2, 0
+repos/javascript/puppeteer/experimental/puppeteer-firefox/misc/install-preferences.js,"function ( error )",5, 29, 2, 0
+repos/javascript/puppeteer/experimental/puppeteer-firefox/misc/install-preferences.js,"copyFile ( { from , to } )",14, 49, 2, 0
+repos/javascript/puppeteer/experimental/puppeteer-firefox/lib/DOMWorld.js,"addScriptUrl ( url , type )",13, 55, 6, 0
+repos/javascript/puppeteer/experimental/puppeteer-firefox/lib/DOMWorld.js,"addScriptContent ( content , type = 'text/javascript' )",11, 67, 4, 0
+repos/javascript/puppeteer/experimental/puppeteer-firefox/lib/DOMWorld.js,"addStyleUrl ( url )",12, 51, 6, 0
+repos/javascript/puppeteer/experimental/puppeteer-firefox/lib/DOMWorld.js,"addStyleContent ( content )",12, 59, 6, 0
+repos/javascript/puppeteer/experimental/puppeteer-firefox/lib/DOMWorld.js,"hasVisibleBoundingBox ( )",4, 73, 8, 0
+repos/javascript/puppeteer/experimental/puppeteer-firefox/lib/DOMWorld.js,"predicate ( selectorOrXPath , isXPath , waitForVisible , waitForHidden )",23, 120, 8, 0
+repos/javascript/puppeteer/experimental/puppeteer-firefox/lib/DOMWorld.js,"pollMutation ( )",25, 57, 4, 0
+repos/javascript/puppeteer/experimental/puppeteer-firefox/lib/DOMWorld.js,"onRaf ( )",11, 51, 6, 0
+repos/javascript/puppeteer/experimental/puppeteer-firefox/lib/DOMWorld.js,"pollRaf ( )",18, 51, 6, 0
+repos/javascript/puppeteer/experimental/puppeteer-firefox/lib/DOMWorld.js,"onTimeout ( )",11, 51, 6, 0
+repos/javascript/puppeteer/experimental/puppeteer-firefox/lib/DOMWorld.js,"pollInterval ( pollInterval )",18, 51, 6, 0
+repos/javascript/puppeteer/experimental/puppeteer-firefox/lib/DOMWorld.js,"waitForPredicatePageFunction ( predicateBody , polling , timeout , ... args )",86, 88, 0, 0
+repos/javascript/puppeteer/experimental/puppeteer-firefox/lib/JSHandle.js,"createHandle ( context , result , exceptionDetails )",10, 112, 2, 0
+repos/javascript/puppeteer/experimental/puppeteer-firefox/lib/JSHandle.js,"computeQuadArea ( quad )",12, 61, 2, 0
+repos/javascript/puppeteer/experimental/puppeteer-firefox/lib/JSHandle.js,"computeQuadCenter ( quad )",8, 62, 2, 0
+repos/javascript/puppeteer/experimental/puppeteer-firefox/lib/Page.js,"addPageBinding ( bindingName )",16, 97, 8, 0
+repos/javascript/puppeteer/experimental/puppeteer-firefox/lib/Page.js,"deliverResult ( name , seq , result )",4, 58, 6, 0
+repos/javascript/puppeteer/experimental/puppeteer-firefox/lib/Page.js,"deliverError ( name , seq , message , stack )",6, 56, 6, 0
+repos/javascript/puppeteer/experimental/puppeteer-firefox/lib/Page.js,"deliverErrorValue ( name , seq , value )",4, 56, 6, 0
+repos/javascript/puppeteer/experimental/puppeteer-firefox/lib/Page.js,"processClip ( clip )",9, 59, 6, 0
+repos/javascript/puppeteer/experimental/puppeteer-firefox/lib/Page.js,"getScreenshotMimeType ( options )",18, 99, 2, 0
+repos/javascript/puppeteer/experimental/puppeteer-firefox/lib/BrowserFetcher.js,"archiveName ( product , platform , revision )",20, 78, 6, 0
+repos/javascript/puppeteer/experimental/puppeteer-firefox/lib/BrowserFetcher.js,"downloadURL ( product , platform , host , revision )",3, 113, 2, 0
+repos/javascript/puppeteer/experimental/puppeteer-firefox/lib/BrowserFetcher.js,"existsAsync ( filePath )",6, 49, 2, 0
+repos/javascript/puppeteer/experimental/puppeteer-firefox/lib/BrowserFetcher.js,"parseFolderPath ( folderPath )",10, 48, 2, 0
+repos/javascript/puppeteer/experimental/puppeteer-firefox/lib/BrowserFetcher.js,"onData ( chunk )",4, 51, 4, 0
+repos/javascript/puppeteer/experimental/puppeteer-firefox/lib/BrowserFetcher.js,"downloadFile ( url , destinationPath , progressCallback )",31, 108, 6, 0
+repos/javascript/puppeteer/experimental/puppeteer-firefox/lib/BrowserFetcher.js,"extractZip ( zipPath , folderPath )",8, 87, 2, 0
+repos/javascript/puppeteer/experimental/puppeteer-firefox/lib/BrowserFetcher.js,"httpRequest ( url , method , response )",27, 79, 4, 0
+repos/javascript/puppeteer/experimental/puppeteer-firefox/lib/NavigationWatchdog.js,"checkFiredEvents ( frame , firedEvents )",7, 72, 6, 0
+repos/javascript/puppeteer/experimental/puppeteer-firefox/lib/ExecutionContext.js,"rewriteError ( error )",5, 98, 8, 0
+repos/javascript/puppeteer/experimental/puppeteer-firefox/lib/FrameManager.js,"collect ( frame )",5, 46, 6, 0
+repos/javascript/puppeteer/experimental/puppeteer-firefox/lib/FrameManager.js,"normalizeWaitUntil ( waitUntil )",9, 68, 6, 0
+repos/javascript/puppeteer/experimental/puppeteer-firefox/lib/Accessibility.js,"collectInterestingNodes ( collection , node , insideControl )",9, 68, 0, 0
+repos/javascript/puppeteer/experimental/puppeteer-firefox/lib/Accessibility.js,"serializeTree ( node , whitelistedNodes )",14, 62, 4, 0
+repos/javascript/puppeteer/experimental/puppeteer-firefox/lib/Connection.js,"createProtocolError ( error , method , object )",6, 71, 2, 0
+repos/javascript/puppeteer/experimental/puppeteer-firefox/lib/Connection.js,"rewriteError ( error , message )",4, 40, 0, 0
+repos/javascript/puppeteer/experimental/puppeteer-firefox/lib/Browser.js,"check ( target )",4, 29, 4, 0
+repos/javascript/puppeteer/experimental/puppeteer-firefox/lib/Launcher.js,"gracefullyCloseFirefox ( )",12, 58, 8, 0
+repos/javascript/puppeteer/experimental/puppeteer-firefox/lib/Launcher.js,"killFirefox ( )",18, 80, 12, 0
+repos/javascript/puppeteer/experimental/puppeteer-firefox/lib/Launcher.js,"onClose ( error )",8, 74, 8, 0
+repos/javascript/puppeteer/experimental/puppeteer-firefox/lib/Launcher.js,"onTimeout ( )",4, 101, 6, 0
+repos/javascript/puppeteer/experimental/puppeteer-firefox/lib/Launcher.js,"onLine ( line )",8, 70, 6, 0
+repos/javascript/puppeteer/experimental/puppeteer-firefox/lib/Launcher.js,"cleanup ( )",5, 46, 6, 0
+repos/javascript/puppeteer/experimental/puppeteer-firefox/lib/Launcher.js,"waitForWSEndpoint ( firefoxProcess , timeout )",48, 101, 6, 0
+repos/javascript/puppeteer/experimental/puppeteer-firefox/lib/helper.js,"function ( ... args )",10, 86, 10, 0
+repos/javascript/puppeteer/experimental/puppeteer-firefox/lib/helper.js,"serializeArgument ( arg )",5, 38, 4, 0
+repos/javascript/puppeteer/experimental/puppeteer-firefox/lib/helper.js,"callback ( err , ... result )",7, 44, 8, 0
+repos/javascript/puppeteer/experimental/puppeteer-firefox/lib/helper.js,"promisified ( ... args )",12, 52, 8, 0
+repos/javascript/puppeteer/experimental/puppeteer-firefox/lib/helper.js,"cleanup ( )",4, 47, 6, 0
+repos/javascript/puppeteer/experimental/puppeteer-firefox/lib/helper.js,"assert ( condition , errorText )",4, 40, 0, 0
+repos/javascript/puppeteer/test/worker.spec.js,"function ( { page , server } )",12, 97, 6, 0
+repos/javascript/puppeteer/test/worker.spec.js,"function ( { page } )",11, 95, 6, 0
+repos/javascript/puppeteer/test/worker.spec.js,"function ( { page } )",12, 80, 8, 0
+repos/javascript/puppeteer/test/worker.spec.js,"function ( { page } )",8, 93, 6, 0
+repos/javascript/puppeteer/test/worker.spec.js,"function ( { page } )",6, 84, 6, 0
+repos/javascript/puppeteer/test/worker.spec.js,"function ( { page } )",6, 107, 6, 0
+repos/javascript/puppeteer/test/worker.spec.js,"function ( )",57, 107, 6, 0
+repos/javascript/puppeteer/test/worker.spec.js,"module.exports.addTests ( { testRunner , expect } )",63, 107, 6, 0
+repos/javascript/puppeteer/test/keyboard.spec.js,"function ( )",229, 171, 8, 0
+repos/javascript/puppeteer/test/keyboard.spec.js,"module.exports.addTests ( { testRunner , expect , FFOX } )",235, 171, 8, 0
+repos/javascript/puppeteer/test/puppeteer.spec.js,"onLine ( line )",3, 36, 8, 0
+repos/javascript/puppeteer/test/puppeteer.spec.js,"function ( )",44, 77, 8, 0
+repos/javascript/puppeteer/test/puppeteer.spec.js,"function ( )",75, 95, 6, 0
+repos/javascript/puppeteer/test/headful.spec.js,"listener ( target )",6, 60, 4, 0
+repos/javascript/puppeteer/test/headful.spec.js,"waitForBackgroundPageTarget ( browser )",13, 88, 2, 0
+repos/javascript/puppeteer/test/headful.spec.js,"function ( )",6, 76, 4, 0
+repos/javascript/puppeteer/test/headful.spec.js,"function ( )",71, 109, 6, 0
+repos/javascript/puppeteer/test/headful.spec.js,"module.exports.addTests ( { testRunner , expect , puppeteer , defaultBrowserOptions } )",92, 109, 6, 0
+repos/javascript/puppeteer/test/page.spec.js,"function ( )",48, 142, 8, 0
+repos/javascript/puppeteer/test/page.spec.js,"function ( )",8, 63, 4, 0
+repos/javascript/puppeteer/test/page.spec.js,"function ( )",9, 60, 4, 0
+repos/javascript/puppeteer/test/page.spec.js,"function ( )",48, 99, 4, 0
+repos/javascript/puppeteer/test/page.spec.js,"getPermission ( page , name )",3, 108, 6, 0
+repos/javascript/puppeteer/test/page.spec.js,"result.onchange ( )",3, 46, 12, 0
+repos/javascript/puppeteer/test/page.spec.js,"function ( result )",6, 90, 8, 0
+repos/javascript/puppeteer/test/page.spec.js,"function ( )",71, 108, 6, 0
+repos/javascript/puppeteer/test/page.spec.js,"function ( )",23, 130, 6, 0
+repos/javascript/puppeteer/test/page.spec.js,"function ( )",18, 78, 6, 0
+repos/javascript/puppeteer/test/page.spec.js,"function ( )",25, 101, 6, 0
+repos/javascript/puppeteer/test/page.spec.js,"function ( )",107, 189, 8, 0
+repos/javascript/puppeteer/test/page.spec.js,"function ( )",6, 63, 4, 0
+repos/javascript/puppeteer/test/page.spec.js,"checkMetrics ( metrics )",23, 57, 8, 0
+repos/javascript/puppeteer/test/page.spec.js,"function ( )",37, 84, 6, 0
+repos/javascript/puppeteer/test/page.spec.js,"function ( )",49, 91, 8, 0
+repos/javascript/puppeteer/test/page.spec.js,"function ( )",49, 94, 8, 0
+repos/javascript/puppeteer/test/page.spec.js,"function ( a , b )",3, 60, 6, 0
+repos/javascript/puppeteer/test/page.spec.js,"function ( )",3, 60, 6, 0
+repos/javascript/puppeteer/test/page.spec.js,"function ( )",3, 53, 6, 0
+repos/javascript/puppeteer/test/page.spec.js,"function ( )",3, 53, 6, 0
+repos/javascript/puppeteer/test/page.spec.js,"function ( )",3, 53, 6, 0
+repos/javascript/puppeteer/test/page.spec.js,"function ( a , b )",3, 60, 6, 0
+repos/javascript/puppeteer/test/page.spec.js,"function ( )",3, 60, 6, 0
+repos/javascript/puppeteer/test/page.spec.js,"function ( a , b )",3, 60, 6, 0
+repos/javascript/puppeteer/test/page.spec.js,"function ( )",3, 60, 6, 0
+repos/javascript/puppeteer/test/page.spec.js,"function ( a , b )",3, 60, 6, 0
+repos/javascript/puppeteer/test/page.spec.js,"function ( )",3, 61, 6, 0
+repos/javascript/puppeteer/test/page.spec.js,"function ( a , b )",3, 60, 6, 0
+repos/javascript/puppeteer/test/page.spec.js,"function ( )",3, 61, 6, 0
+repos/javascript/puppeteer/test/page.spec.js,"function ( )",92, 90, 4, 0
+repos/javascript/puppeteer/test/page.spec.js,"function ( )",11, 50, 8, 0
+repos/javascript/puppeteer/test/page.spec.js,"function ( )",26, 86, 6, 0
+repos/javascript/puppeteer/test/page.spec.js,"function ( )",53, 120, 6, 0
+repos/javascript/puppeteer/test/page.spec.js,"function ( )",58, 92, 8, 0
+repos/javascript/puppeteer/test/page.spec.js,"function ( )",84, 127, 6, 0
+repos/javascript/puppeteer/test/page.spec.js,"function ( )",65, 154, 6, 0
+repos/javascript/puppeteer/test/page.spec.js,"function ( )",7, 50, 6, 0
+repos/javascript/puppeteer/test/page.spec.js,"function ( )",13, 87, 6, 0
+repos/javascript/puppeteer/test/page.spec.js,"function ( )",18, 98, 4, 0
+repos/javascript/puppeteer/test/page.spec.js,"function ( )",8, 73, 6, 0
+repos/javascript/puppeteer/test/page.spec.js,"function ( )",6, 66, 4, 0
+repos/javascript/puppeteer/test/page.spec.js,"function ( )",85, 137, 6, 0
+repos/javascript/puppeteer/test/page.spec.js,"function ( { page , context , server } )",8, 118, 6, 0
+repos/javascript/puppeteer/test/page.spec.js,"function ( { page , context , server } )",6, 82, 4, 0
+repos/javascript/puppeteer/test/page.spec.js,"function ( )",16, 118, 6, 0
+repos/javascript/puppeteer/test/page.spec.js,"function ( { page , browser } )",3, 89, 4, 0
+repos/javascript/puppeteer/test/page.spec.js,"function ( )",5, 89, 4, 0
+repos/javascript/puppeteer/test/page.spec.js,"function ( { page , context , browser } )",3, 96, 4, 0
+repos/javascript/puppeteer/test/page.spec.js,"function ( )",5, 96, 4, 0
+repos/javascript/puppeteer/test/page.spec.js,"module.exports.addTests ( { testRunner , expect , headless , Errors , DeviceDescriptors , CHROME } )",1101, 189, 8, 0
+repos/javascript/puppeteer/test/accessibility.spec.js,"function ( { page } )",59, 112, 10, 0
+repos/javascript/puppeteer/test/accessibility.spec.js,"function ( { page } )",28, 108, 6, 0
+repos/javascript/puppeteer/test/accessibility.spec.js,"function ( { page } )",31, 82, 6, 0
+repos/javascript/puppeteer/test/accessibility.spec.js,"function ( { page } )",30, 84, 6, 0
+repos/javascript/puppeteer/test/accessibility.spec.js,"function ( { page } )",28, 94, 6, 0
+repos/javascript/puppeteer/test/accessibility.spec.js,"function ( { page } )",10, 134, 10, 0
+repos/javascript/puppeteer/test/accessibility.spec.js,"function ( { page } )",9, 119, 10, 0
+repos/javascript/puppeteer/test/accessibility.spec.js,"function ( { page } )",9, 130, 10, 0
+repos/javascript/puppeteer/test/accessibility.spec.js,"function ( )",30, 134, 10, 0
+repos/javascript/puppeteer/test/accessibility.spec.js,"function ( { page } )",18, 116, 6, 0
+repos/javascript/puppeteer/test/accessibility.spec.js,"function ( { page } )",18, 99, 6, 0
+repos/javascript/puppeteer/test/accessibility.spec.js,"function ( { page } )",18, 85, 6, 0
+repos/javascript/puppeteer/test/accessibility.spec.js,"function ( )",176, 134, 10, 0
+repos/javascript/puppeteer/test/accessibility.spec.js,"findFocusedNode ( node )",10, 53, 8, 0
+repos/javascript/puppeteer/test/accessibility.spec.js,"function ( )",300, 134, 10, 0
+repos/javascript/puppeteer/test/accessibility.spec.js,"module.exports.addTests ( { testRunner , expect , FFOX } )",306, 134, 10, 0
+repos/javascript/puppeteer/test/screenshot.spec.js,"function ( )",105, 98, 8, 0
+repos/javascript/puppeteer/test/screenshot.spec.js,"function ( )",112, 148, 6, 0
+repos/javascript/puppeteer/test/screenshot.spec.js,"module.exports.addTests ( { testRunner , expect , product } )",225, 148, 6, 0
+repos/javascript/puppeteer/test/ignorehttpserrors.spec.js,"function ( )",25, 92, 6, 0
+repos/javascript/puppeteer/test/ignorehttpserrors.spec.js,"function ( )",69, 92, 6, 0
+repos/javascript/puppeteer/test/ignorehttpserrors.spec.js,"module.exports.addTests ( { testRunner , expect , defaultBrowserOptions , puppeteer } )",74, 93, 0, 0
+repos/javascript/puppeteer/test/evaluation.spec.js,"function ( a , b )",3, 73, 6, 0
+repos/javascript/puppeteer/test/evaluation.spec.js,"function ( )",3, 60, 6, 0
+repos/javascript/puppeteer/test/evaluation.spec.js,"function ( )",192, 118, 6, 0
+repos/javascript/puppeteer/test/evaluation.spec.js,"function ( )",3, 51, 6, 0
+repos/javascript/puppeteer/test/evaluation.spec.js,"function ( )",3, 51, 6, 0
+repos/javascript/puppeteer/test/evaluation.spec.js,"function ( )",21, 86, 4, 0
+repos/javascript/puppeteer/test/evaluation.spec.js,"function ( )",24, 109, 6, 0
+repos/javascript/puppeteer/test/evaluation.spec.js,"module.exports.addTests ( { testRunner , expect } )",245, 118, 6, 0
+repos/javascript/puppeteer/test/elementhandle.spec.js,"function ( )",47, 85, 6, 0
+repos/javascript/puppeteer/test/elementhandle.spec.js,"function ( )",62, 107, 8, 0
+repos/javascript/puppeteer/test/elementhandle.spec.js,"function ( )",9, 66, 6, 0
+repos/javascript/puppeteer/test/elementhandle.spec.js,"function ( )",49, 107, 6, 0
+repos/javascript/puppeteer/test/elementhandle.spec.js,"function ( )",8, 101, 6, 0
+repos/javascript/puppeteer/test/elementhandle.spec.js,"function ( )",11, 69, 8, 0
+repos/javascript/puppeteer/test/elementhandle.spec.js,"module.exports.addTests ( { testRunner , expect , CHROME } )",197, 107, 8, 0
+repos/javascript/puppeteer/test/CDPSession.spec.js,"function ( { page , server } )",10, 78, 8, 0
+repos/javascript/puppeteer/test/CDPSession.spec.js,"function ( { page , server } )",8, 75, 6, 0
+repos/javascript/puppeteer/test/CDPSession.spec.js,"function ( { page , server } )",15, 91, 4, 0
+repos/javascript/puppeteer/test/CDPSession.spec.js,"function ( { page , server } )",14, 110, 6, 0
+repos/javascript/puppeteer/test/CDPSession.spec.js,"theSourceOfTheProblems ( )",3, 55, 8, 0
+repos/javascript/puppeteer/test/CDPSession.spec.js,"function ( { page } )",10, 74, 6, 0
+repos/javascript/puppeteer/test/CDPSession.spec.js,"function ( )",59, 110, 6, 0
+repos/javascript/puppeteer/test/CDPSession.spec.js,"module.exports.addTests ( { testRunner , expect } )",65, 110, 6, 0
+repos/javascript/puppeteer/test/golden-utils.js,"compareImages ( actualBuffer , expectedBuffer , mimeType )",15, 144, 6, 0
+repos/javascript/puppeteer/test/golden-utils.js,"compareText ( actual , expectedBuffer )",17, 74, 2, 0
+repos/javascript/puppeteer/test/golden-utils.js,"ensureOutputDir ( )",4, 36, 4, 0
+repos/javascript/puppeteer/test/golden-utils.js,"compare ( goldenPath , outputPath , actual , goldenName )",54, 92, 2, 0
+repos/javascript/puppeteer/test/golden-utils.js,"addSuffix ( filePath , suffix , customExtension )",6, 71, 2, 0
+repos/javascript/puppeteer/test/emulation.spec.js,"window.ontouchstart ( e )",3, 44, 8, 0
+repos/javascript/puppeteer/test/emulation.spec.js,"dispatchTouch ( )",12, 55, 8, 0
+repos/javascript/puppeteer/test/emulation.spec.js,"function ( )",57, 93, 4, 0
+repos/javascript/puppeteer/test/emulation.spec.js,"function ( )",16, 82, 6, 0
+repos/javascript/puppeteer/test/emulation.spec.js,"function ( )",17, 90, 6, 0
+repos/javascript/puppeteer/test/emulation.spec.js,"module.exports.addTests ( { testRunner , expect , product } )",98, 93, 4, 0
+repos/javascript/puppeteer/test/browsercontext.spec.js,"function ( { browser , server } )",9, 74, 4, 0
+repos/javascript/puppeteer/test/browsercontext.spec.js,"function ( { browser , server } )",9, 82, 4, 0
+repos/javascript/puppeteer/test/browsercontext.spec.js,"function ( { browser , server } )",11, 102, 4, 0
+repos/javascript/puppeteer/test/browsercontext.spec.js,"function ( { browser , server } )",11, 88, 4, 0
+repos/javascript/puppeteer/test/browsercontext.spec.js,"function ( { browser , server } )",16, 90, 6, 0
+repos/javascript/puppeteer/test/browsercontext.spec.js,"function ( { browser , server } )",12, 97, 6, 0
+repos/javascript/puppeteer/test/browsercontext.spec.js,"function ( { browser , server } )",6, 123, 6, 0
+repos/javascript/puppeteer/test/browsercontext.spec.js,"function ( { browser , server } )",44, 86, 4, 0
+repos/javascript/puppeteer/test/browsercontext.spec.js,"function ( { browser , server } )",12, 74, 4, 0
+repos/javascript/puppeteer/test/browsercontext.spec.js,"function ( )",132, 123, 6, 0
+repos/javascript/puppeteer/test/browsercontext.spec.js,"module.exports.addTests ( { testRunner , expect , puppeteer , Errors } )",139, 123, 6, 0
+repos/javascript/puppeteer/test/cookies.spec.js,"function ( )",94, 90, 4, 0
+repos/javascript/puppeteer/test/cookies.spec.js,"function ( { page } )",10, 99, 6, 0
+repos/javascript/puppeteer/test/cookies.spec.js,"function ( { page , server } )",15, 87, 4, 0
+repos/javascript/puppeteer/test/cookies.spec.js,"function ( { page } )",10, 99, 6, 0
+repos/javascript/puppeteer/test/cookies.spec.js,"function ( )",219, 100, 6, 0
+repos/javascript/puppeteer/test/cookies.spec.js,"function ( )",18, 94, 6, 0
+repos/javascript/puppeteer/test/cookies.spec.js,"module.exports.addTests ( { testRunner , expect } )",339, 100, 6, 0
+repos/javascript/puppeteer/test/dialog.spec.js,"function ( )",28, 77, 6, 0
+repos/javascript/puppeteer/test/dialog.spec.js,"module.exports.addTests ( { testRunner , expect } )",34, 77, 6, 0
+repos/javascript/puppeteer/test/click.spec.js,"function ( )",196, 111, 6, 0
+repos/javascript/puppeteer/test/click.spec.js,"module.exports.addTests ( { testRunner , expect } )",201, 111, 6, 0
+repos/javascript/puppeteer/test/jshandle.spec.js,"function ( )",43, 89, 4, 0
+repos/javascript/puppeteer/test/jshandle.spec.js,"function ( )",11, 58, 6, 0
+repos/javascript/puppeteer/test/jshandle.spec.js,"function ( )",21, 96, 6, 0
+repos/javascript/puppeteer/test/jshandle.spec.js,"function ( )",30, 75, 4, 0
+repos/javascript/puppeteer/test/jshandle.spec.js,"function ( )",26, 97, 6, 0
+repos/javascript/puppeteer/test/jshandle.spec.js,"function ( )",32, 102, 6, 0
+repos/javascript/puppeteer/test/jshandle.spec.js,"module.exports.addTests ( { testRunner , expect , CHROME } )",174, 102, 6, 0
+repos/javascript/puppeteer/test/chromiumonly.spec.js,"function ( )",42, 118, 8, 0
+repos/javascript/puppeteer/test/chromiumonly.spec.js,"function ( )",30, 104, 8, 0
+repos/javascript/puppeteer/test/chromiumonly.spec.js,"function ( )",75, 118, 8, 0
+repos/javascript/puppeteer/test/chromiumonly.spec.js,"module.exports.addLauncherTests ( { testRunner , expect , defaultBrowserOptions , puppeteer } )",81, 118, 8, 0
+repos/javascript/puppeteer/test/chromiumonly.spec.js,"function ( )",20, 110, 10, 0
+repos/javascript/puppeteer/test/chromiumonly.spec.js,"module.exports.addPageTests ( { testRunner , expect } )",26, 110, 10, 0
+repos/javascript/puppeteer/test/browser.spec.js,"function ( )",10, 73, 4, 0
+repos/javascript/puppeteer/test/browser.spec.js,"function ( )",10, 54, 4, 0
+repos/javascript/puppeteer/test/browser.spec.js,"function ( )",6, 61, 4, 0
+repos/javascript/puppeteer/test/browser.spec.js,"function ( { browser } )",4, 75, 4, 0
+repos/javascript/puppeteer/test/browser.spec.js,"function ( { browser } )",6, 89, 4, 0
+repos/javascript/puppeteer/test/browser.spec.js,"function ( )",12, 89, 4, 0
+repos/javascript/puppeteer/test/browser.spec.js,"module.exports.addTests ( { testRunner , expect , headless , puppeteer , CHROME } )",47, 89, 4, 0
+repos/javascript/puppeteer/test/navigation.spec.js,"function ( { page , server , httpsServer } )",10, 122, 4, 0
+repos/javascript/puppeteer/test/navigation.spec.js,"function ( )",309, 123, 8, 0
+repos/javascript/puppeteer/test/navigation.spec.js,"function ( )",112, 102, 4, 0
+repos/javascript/puppeteer/test/navigation.spec.js,"function ( )",32, 65, 4, 0
+repos/javascript/puppeteer/test/navigation.spec.js,"function ( )",49, 88, 6, 0
+repos/javascript/puppeteer/test/navigation.spec.js,"function ( )",27, 88, 8, 0
+repos/javascript/puppeteer/test/navigation.spec.js,"function ( )",8, 70, 6, 0
+repos/javascript/puppeteer/test/navigation.spec.js,"module.exports.addTests ( { testRunner , expect , Errors , CHROME } )",549, 123, 8, 0
+repos/javascript/puppeteer/test/launcher.spec.js,"function ( )",29, 102, 8, 0
+repos/javascript/puppeteer/test/launcher.spec.js,"function ( )",25, 112, 8, 0
+repos/javascript/puppeteer/test/launcher.spec.js,"function ( )",6, 89, 6, 0
+repos/javascript/puppeteer/test/launcher.spec.js,"function ( { server } )",11, 96, 6, 0
+repos/javascript/puppeteer/test/launcher.spec.js,"function ( )",173, 120, 8, 0
+repos/javascript/puppeteer/test/launcher.spec.js,"function ( )",60, 110, 8, 0
+repos/javascript/puppeteer/test/launcher.spec.js,"function ( )",7, 70, 8, 0
+repos/javascript/puppeteer/test/launcher.spec.js,"function ( )",296, 120, 8, 0
+repos/javascript/puppeteer/test/launcher.spec.js,"function ( )",14, 69, 6, 0
+repos/javascript/puppeteer/test/launcher.spec.js,"function ( )",34, 117, 4, 0
+repos/javascript/puppeteer/test/launcher.spec.js,"module.exports.addTests ( { testRunner , expect , defaultBrowserOptions , puppeteer , CHROME } )",353, 120, 8, 0
+repos/javascript/puppeteer/test/tracing.spec.js,"function ( state )",5, 94, 6, 0
+repos/javascript/puppeteer/test/tracing.spec.js,"function ( state )",9, 45, 6, 0
+repos/javascript/puppeteer/test/tracing.spec.js,"function ( )",62, 111, 6, 0
+repos/javascript/puppeteer/test/tracing.spec.js,"module.exports.addTests ( { testRunner , expect , defaultBrowserOptions , puppeteer } )",68, 111, 6, 0
+repos/javascript/puppeteer/test/mouse.spec.js,"dimensions ( )",9, 75, 2, 0
+repos/javascript/puppeteer/test/mouse.spec.js,"function ( )",123, 133, 6, 0
+repos/javascript/puppeteer/test/mouse.spec.js,"module.exports.addTests ( { testRunner , expect , FFOX } )",129, 133, 6, 0
+repos/javascript/puppeteer/test/fixtures.spec.js,"function ( )",41, 137, 6, 0
+repos/javascript/puppeteer/test/fixtures.spec.js,"module.exports.addTests ( { testRunner , expect , defaultBrowserOptions , puppeteer , puppeteerPath , CHROME } )",47, 137, 6, 0
+repos/javascript/puppeteer/test/queryselector.spec.js,"function ( )",23, 104, 6, 0
+repos/javascript/puppeteer/test/queryselector.spec.js,"function ( )",7, 86, 6, 0
+repos/javascript/puppeteer/test/queryselector.spec.js,"function ( )",11, 81, 4, 0
+repos/javascript/puppeteer/test/queryselector.spec.js,"function ( )",14, 92, 6, 0
+repos/javascript/puppeteer/test/queryselector.spec.js,"function ( )",17, 88, 4, 0
+repos/javascript/puppeteer/test/queryselector.spec.js,"function ( )",18, 111, 6, 0
+repos/javascript/puppeteer/test/queryselector.spec.js,"function ( )",24, 141, 6, 0
+repos/javascript/puppeteer/test/queryselector.spec.js,"function ( )",25, 153, 6, 0
+repos/javascript/puppeteer/test/queryselector.spec.js,"function ( )",17, 92, 6, 0
+repos/javascript/puppeteer/test/queryselector.spec.js,"function ( )",18, 111, 6, 0
+repos/javascript/puppeteer/test/queryselector.spec.js,"module.exports.addTests ( { testRunner , expect , product } )",189, 153, 6, 0
+repos/javascript/puppeteer/test/utils.js,"function ( ... args )",4, 69, 4, 0
+repos/javascript/puppeteer/test/utils.js,"function ( event , ... args )",5, 78, 8, 0
+repos/javascript/puppeteer/test/utils.js,"traceAPICoverage ( apiCoverage , className , classType )",24, 134, 4, 0
+repos/javascript/puppeteer/test/utils.js,"recordAPICoverage ( testRunner , api , disabled )",13, 134, 8, 0
+repos/javascript/puppeteer/test/utils.js,"projectRoot ( )",3, 28, 2, 0
+repos/javascript/puppeteer/test/utils.js,"requireRoot ( name )",3, 51, 4, 0
+repos/javascript/puppeteer/test/utils.js,"attachFrame ( frameId , url )",8, 54, 6, 0
+repos/javascript/puppeteer/test/utils.js,"function ( page , frameId , url )",13, 73, 4, 0
+repos/javascript/puppeteer/test/utils.js,"isFavicon ( request )",3, 50, 4, 0
+repos/javascript/puppeteer/test/utils.js,"detachFrame ( frameId )",4, 54, 6, 0
+repos/javascript/puppeteer/test/utils.js,"function ( page , frameId )",8, 54, 6, 0
+repos/javascript/puppeteer/test/utils.js,"navigateFrame ( frameId , url )",5, 54, 6, 0
+repos/javascript/puppeteer/test/utils.js,"function ( page , frameId , url )",9, 54, 2, 0
+repos/javascript/puppeteer/test/utils.js,"dumpFrames ( frame , indentation )",10, 69, 6, 0
+repos/javascript/puppeteer/test/utils.js,"listener ( event )",6, 55, 6, 0
+repos/javascript/puppeteer/test/utils.js,"waitEvent ( emitter , eventName , predicate = ( )",10, 68, 2, 0
+repos/javascript/puppeteer/test/input.spec.js,"function ( )",15, 95, 6, 0
+repos/javascript/puppeteer/test/input.spec.js,"module.exports.addTests ( { testRunner , expect } )",20, 95, 6, 0
+repos/javascript/puppeteer/test/target.spec.js,"function ( )",120, 133, 8, 0
+repos/javascript/puppeteer/test/target.spec.js,"function ( { browser , server } )",11, 97, 6, 0
+repos/javascript/puppeteer/test/target.spec.js,"function ( { browser , server } )",7, 95, 4, 0
+repos/javascript/puppeteer/test/target.spec.js,"module.exports.addTests ( { testRunner , expect , puppeteer , Errors } )",148, 133, 8, 0
+repos/javascript/puppeteer/test/touchscreen.spec.js,"function ( )",15, 96, 6, 0
+repos/javascript/puppeteer/test/touchscreen.spec.js,"module.exports.addTests ( { testRunner , expect , DeviceDescriptors } )",21, 96, 6, 0
+repos/javascript/puppeteer/test/coverage.spec.js,"function ( { page , server } )",11, 95, 6, 0
+repos/javascript/puppeteer/test/coverage.spec.js,"function ( { page , server } )",7, 69, 6, 0
+repos/javascript/puppeteer/test/coverage.spec.js,"function ( { page , server } )",6, 83, 4, 0
+repos/javascript/puppeteer/test/coverage.spec.js,"function ( { page , server } )",7, 110, 4, 0
+repos/javascript/puppeteer/test/coverage.spec.js,"function ( { page , server } )",8, 113, 4, 0
+repos/javascript/puppeteer/test/coverage.spec.js,"function ( { page , server } )",9, 74, 4, 0
+repos/javascript/puppeteer/test/coverage.spec.js,"function ( { page , server } )",10, 90, 6, 0
+repos/javascript/puppeteer/test/coverage.spec.js,"function ( { page , server } )",9, 87, 4, 0
+repos/javascript/puppeteer/test/coverage.spec.js,"function ( { page , server } )",6, 120, 6, 0
+repos/javascript/puppeteer/test/coverage.spec.js,"function ( { page , server } )",7, 100, 6, 0
+repos/javascript/puppeteer/test/coverage.spec.js,"function ( { page , server } )",7, 103, 6, 0
+repos/javascript/puppeteer/test/coverage.spec.js,"function ( )",16, 103, 6, 0
+repos/javascript/puppeteer/test/coverage.spec.js,"function ( { page , server } )",8, 95, 4, 0
+repos/javascript/puppeteer/test/coverage.spec.js,"function ( )",99, 120, 6, 0
+repos/javascript/puppeteer/test/coverage.spec.js,"function ( { page , server } )",12, 96, 6, 0
+repos/javascript/puppeteer/test/coverage.spec.js,"function ( { page , server } )",7, 70, 6, 0
+repos/javascript/puppeteer/test/coverage.spec.js,"function ( { page , server } )",9, 78, 4, 0
+repos/javascript/puppeteer/test/coverage.spec.js,"function ( { page , server } )",8, 91, 4, 0
+repos/javascript/puppeteer/test/coverage.spec.js,"function ( { page , server } )",10, 74, 4, 0
+repos/javascript/puppeteer/test/coverage.spec.js,"function ( { page , server } )",6, 121, 6, 0
+repos/javascript/puppeteer/test/coverage.spec.js,"function ( { page , server } )",9, 95, 6, 0
+repos/javascript/puppeteer/test/coverage.spec.js,"function ( { page , server } )",7, 90, 6, 0
+repos/javascript/puppeteer/test/coverage.spec.js,"function ( { page , server } )",7, 90, 6, 0
+repos/javascript/puppeteer/test/coverage.spec.js,"function ( )",16, 90, 6, 0
+repos/javascript/puppeteer/test/coverage.spec.js,"function ( { page , server } )",14, 89, 4, 0
+repos/javascript/puppeteer/test/coverage.spec.js,"function ( )",93, 121, 6, 0
+repos/javascript/puppeteer/test/coverage.spec.js,"module.exports.addTests ( { testRunner , expect } )",199, 121, 6, 0
+repos/javascript/puppeteer/test/waittask.spec.js,"function ( )",52, 103, 4, 0
+repos/javascript/puppeteer/test/waittask.spec.js,"function ( )",129, 124, 6, 0
+repos/javascript/puppeteer/test/waittask.spec.js,"function ( )",173, 116, 4, 0
+repos/javascript/puppeteer/test/waittask.spec.js,"function ( )",62, 101, 6, 0
+repos/javascript/puppeteer/test/waittask.spec.js,"module.exports.addTests ( { testRunner , expect , product , Errors } )",427, 124, 6, 0
+repos/javascript/puppeteer/test/network.spec.js,"function ( )",22, 90, 6, 0
+repos/javascript/puppeteer/test/network.spec.js,"function ( )",26, 90, 6, 0
+repos/javascript/puppeteer/test/network.spec.js,"function ( )",9, 81, 8, 0
+repos/javascript/puppeteer/test/network.spec.js,"function ( )",10, 59, 6, 0
+repos/javascript/puppeteer/test/network.spec.js,"function ( )",21, 109, 6, 0
+repos/javascript/puppeteer/test/network.spec.js,"function ( )",22, 101, 6, 0
+repos/javascript/puppeteer/test/network.spec.js,"function ( )",15, 105, 6, 0
+repos/javascript/puppeteer/test/network.spec.js,"function ( )",56, 102, 6, 0
+repos/javascript/puppeteer/test/network.spec.js,"function ( )",6, 72, 6, 0
+repos/javascript/puppeteer/test/network.spec.js,"function ( )",15, 87, 6, 0
+repos/javascript/puppeteer/test/network.spec.js,"function ( )",10, 65, 6, 0
+repos/javascript/puppeteer/test/network.spec.js,"function ( )",92, 95, 6, 0
+repos/javascript/puppeteer/test/network.spec.js,"function ( )",342, 129, 6, 0
+repos/javascript/puppeteer/test/network.spec.js,"function ( )",59, 116, 8, 0
+repos/javascript/puppeteer/test/network.spec.js,"function ( )",55, 95, 6, 0
+repos/javascript/puppeteer/test/network.spec.js,"function ( )",21, 105, 6, 0
+repos/javascript/puppeteer/test/network.spec.js,"function ( )",37, 79, 6, 0
+repos/javascript/puppeteer/test/network.spec.js,"module.exports.addTests ( { testRunner , expect , CHROME } )",875, 129, 6, 0
+repos/javascript/puppeteer/test/network.spec.js,"pathToFileURL ( path )",7, 57, 2, 0
+repos/javascript/puppeteer/test/frame.spec.js,"function ( )",26, 66, 6, 0
+repos/javascript/puppeteer/test/frame.spec.js,"function ( )",8, 73, 6, 0
+repos/javascript/puppeteer/test/frame.spec.js,"function ( )",9, 95, 6, 0
+repos/javascript/puppeteer/test/frame.spec.js,"function ( )",130, 99, 4, 0
+repos/javascript/puppeteer/test/frame.spec.js,"module.exports.addTests ( { testRunner , expect } )",182, 99, 4, 0
+repos/javascript/puppeteer/test/assets/input/mouse-helper.js,"updateButtons ( buttons )",4, 63, 6, 0
+repos/javascript/puppeteer/test/assets/input/mouse-helper.js,"function ( )",60, 69, 4, 0
+repos/javascript/puppeteer/test/assets/worker/worker.js,"workerFunction ( )",3, 35, 2, 0
+repos/javascript/puppeteer/test/assets/worker/worker.js,"function ( )",6, 49, 4, 0
+repos/javascript/puppeteer/utils/check_availability.js,"checkOmahaProxyAvailability ( )",10, 94, 4, 0
+repos/javascript/puppeteer/utils/check_availability.js,"checkRangeAvailability ( fromRevision , toRevision )",7, 78, 2, 0
+repos/javascript/puppeteer/utils/check_availability.js,"checkAndDrawRevisionAvailability ( table , name , revision )",12, 100, 2, 0
+repos/javascript/puppeteer/utils/check_availability.js,"function ( chunk )",3, 41, 4, 0
+repos/javascript/puppeteer/utils/check_availability.js,"function ( )",3, 35, 4, 0
+repos/javascript/puppeteer/utils/check_availability.js,"function ( e )",4, 48, 4, 0
+repos/javascript/puppeteer/utils/check_availability.js,"fetch ( url )",21, 49, 2, 0
+repos/javascript/puppeteer/utils/check_availability.js,"spaceString ( size )",3, 45, 2, 0
+repos/javascript/puppeteer/utils/check_availability.js,"filterOutColors ( text )",7, 37, 4, 0
+repos/javascript/puppeteer/utils/check_availability.js,"padCenter ( text , length )",8, 70, 2, 0
+repos/javascript/puppeteer/utils/fetch_devices.js,"main ( url )",42, 135, 2, 0
+repos/javascript/puppeteer/utils/fetch_devices.js,"createDevice ( chromeVersion , deviceName , descriptor , landscape )",16, 135, 4, 0
+repos/javascript/puppeteer/utils/fetch_devices.js,"parseValue ( object , key , type , defaultValue )",11, 107, 6, 0
+repos/javascript/puppeteer/utils/fetch_devices.js,"parseIntValue ( object , key )",6, 80, 6, 0
+repos/javascript/puppeteer/utils/fetch_devices.js,"parseOrientation ( json )",16, 77, 6, 0
+repos/javascript/puppeteer/utils/fetch_devices.js,"loadFromJSONV1 ( json )",75, 113, 2, 0
+repos/javascript/puppeteer/utils/fetch_devices.js,"httpGET ( url )",17, 82, 2, 0
+repos/javascript/puppeteer/utils/bisect.js,"runScript ( scriptPath , revisionInfo )",14, 62, 6, 0
+repos/javascript/puppeteer/utils/bisect.js,"toMegabytes ( bytes )",4, 45, 4, 0
+repos/javascript/puppeteer/utils/bisect.js,"downloadRevision ( revision )",24, 129, 6, 0
+repos/javascript/puppeteer/utils/bisect.js,"probe ( rev )",5, 58, 4, 0
+repos/javascript/puppeteer/utils/bisect.js,"findDownloadableRevision ( rev , from , to )",27, 59, 6, 0
+repos/javascript/puppeteer/utils/bisect.js,"revisionToSha ( revision )",4, 100, 2, 0
+repos/javascript/puppeteer/utils/bisect.js,"function ( res )",6, 56, 6, 0
+repos/javascript/puppeteer/utils/bisect.js,"fetchJSON ( url )",18, 83, 4, 0
+repos/javascript/puppeteer/utils/testrunner/Reporter.js,"formatTestLocation ( test )",6, 110, 2, 0
+repos/javascript/puppeteer/utils/testrunner/Matchers.js,"applyMatcher ( matcherName , matcher , inverse , value , ... args )",6, 126, 6, 0
+repos/javascript/puppeteer/utils/testrunner/Matchers.js,"toBe ( value , other , message )",4, 49, 4, 0
+repos/javascript/puppeteer/utils/testrunner/Matchers.js,"toBeFalsy ( value , message )",4, 40, 2, 0
+repos/javascript/puppeteer/utils/testrunner/Matchers.js,"toBeTruthy ( value , message )",4, 41, 2, 0
+repos/javascript/puppeteer/utils/testrunner/Matchers.js,"toBeGreaterThan ( value , other , message )",4, 53, 2, 0
+repos/javascript/puppeteer/utils/testrunner/Matchers.js,"toBeGreaterThanOrEqual ( value , other , message )",4, 60, 2, 0
+repos/javascript/puppeteer/utils/testrunner/Matchers.js,"toBeLessThan ( value , other , message )",4, 50, 2, 0
+repos/javascript/puppeteer/utils/testrunner/Matchers.js,"toBeLessThanOrEqual ( value , other , message )",4, 57, 2, 0
+repos/javascript/puppeteer/utils/testrunner/Matchers.js,"toBeNull ( value , message )",4, 46, 4, 0
+repos/javascript/puppeteer/utils/testrunner/Matchers.js,"toContain ( value , other , message )",4, 53, 4, 0
+repos/javascript/puppeteer/utils/testrunner/Matchers.js,"toEqual ( value , other , message )",6, 58, 4, 0
+repos/javascript/puppeteer/utils/testrunner/Matchers.js,"toBeCloseTo ( value , other , precision , message )",6, 64, 6, 0
+repos/javascript/puppeteer/utils/testrunner/Matchers.js,"toBeInstanceOf ( value , other , message )",4, 79, 4, 0
+repos/javascript/puppeteer/utils/testrunner/Matchers.js,"stabilize ( key , object )",8, 79, 4, 0
+repos/javascript/puppeteer/utils/testrunner/Matchers.js,"stringify ( value )",12, 79, 4, 0
+repos/javascript/puppeteer/utils/testrunner/TestRunner.js,"createTermination ( event , message )",7, 58, 8, 0
+repos/javascript/puppeteer/utils/testrunner/TestRunner.js,"assert ( value , message )",4, 34, 0, 0
+repos/javascript/puppeteer/utils/doclint/Source.js,"callback ( err , result )",6, 39, 6, 0
+repos/javascript/puppeteer/utils/doclint/Source.js,"function ( fulfill , reject )",10, 51, 4, 0
+repos/javascript/puppeteer/utils/doclint/Source.js,"function ( ... options )",12, 51, 4, 0
+repos/javascript/puppeteer/utils/doclint/Source.js,"promisify ( nodeFunction )",18, 51, 4, 0
+repos/javascript/puppeteer/utils/doclint/cli.js,"run ( )",63, 84, 4, 0
+repos/javascript/puppeteer/utils/doclint/check_public_api/MDBuilder.js,"parseProperty ( element )",23, 85, 8, 0
+repos/javascript/puppeteer/utils/doclint/check_public_api/MDBuilder.js,"findType ( str )",11, 51, 8, 0
+repos/javascript/puppeteer/utils/doclint/check_public_api/MDBuilder.js,"parseClass ( content )",23, 93, 8, 0
+repos/javascript/puppeteer/utils/doclint/check_public_api/MDBuilder.js,"parseComment ( content )",9, 116, 10, 0
+repos/javascript/puppeteer/utils/doclint/check_public_api/MDBuilder.js,"parseMember ( content )",40, 168, 10, 0
+repos/javascript/puppeteer/utils/doclint/check_public_api/MDBuilder.js,"extractSiblingsIntoFragment ( fromInclusive , toExclusive )",10, 73, 6, 0
+repos/javascript/puppeteer/utils/doclint/check_public_api/MDBuilder.js,"handleMethod ( member , className , methodName , parameters )",19, 166, 8, 0
+repos/javascript/puppeteer/utils/doclint/check_public_api/MDBuilder.js,"createPropertyFromJSON ( payload )",5, 105, 6, 0
+repos/javascript/puppeteer/utils/doclint/check_public_api/MDBuilder.js,"handleProperty ( member , className , propertyName )",9, 124, 6, 0
+repos/javascript/puppeteer/utils/doclint/check_public_api/MDBuilder.js,"handleEvent ( member , eventName )",7, 162, 6, 0
+repos/javascript/puppeteer/utils/doclint/check_public_api/MDBuilder.js,"flushClassIfNeeded ( )",7, 131, 6, 0
+repos/javascript/puppeteer/utils/doclint/check_public_api/MDBuilder.js,"function ( page , sources )",11, 65, 4, 0
+repos/javascript/puppeteer/utils/doclint/check_public_api/index.js,"lint ( page , mdSources , jsSources )",19, 84, 2, 0
+repos/javascript/puppeteer/utils/doclint/check_public_api/index.js,"checkSorting ( doc )",48, 118, 8, 0
+repos/javascript/puppeteer/utils/doclint/check_public_api/index.js,"filterJSDocumentation ( jsSources , jsDocumentation )",15, 110, 4, 0
+repos/javascript/puppeteer/utils/doclint/check_public_api/index.js,"checkDuplicates ( doc )",23, 101, 10, 0
+repos/javascript/puppeteer/utils/doclint/check_public_api/index.js,"checkProperty ( source , actual , expected )",3, 71, 4, 0
+repos/javascript/puppeteer/utils/doclint/check_public_api/index.js,"checkType ( source , actual , expected )",20, 129, 4, 0
+repos/javascript/puppeteer/utils/doclint/check_public_api/index.js,"compareDocumentations ( actual , expected )",103, 129, 4, 0
+repos/javascript/puppeteer/utils/doclint/check_public_api/index.js,"val ( i , j )",3, 41, 4, 0
+repos/javascript/puppeteer/utils/doclint/check_public_api/index.js,"diff ( actual , expected )",67, 62, 4, 0
+repos/javascript/puppeteer/utils/doclint/check_public_api/JSBuilder.js,"recreateClassesWithInheritance ( classes , inheritance )",16, 81, 6, 0
+repos/javascript/puppeteer/utils/doclint/check_public_api/JSBuilder.js,"visit ( node )",21, 87, 6, 0
+repos/javascript/puppeteer/utils/doclint/check_public_api/JSBuilder.js,"parentClass ( classNode )",10, 69, 8, 0
+repos/javascript/puppeteer/utils/doclint/check_public_api/JSBuilder.js,"serializeSymbol ( symbol , circular = [ ] )",10, 85, 4, 0
+repos/javascript/puppeteer/utils/doclint/check_public_api/JSBuilder.js,"isRegularObject ( type )",13, 46, 4, 0
+repos/javascript/puppeteer/utils/doclint/check_public_api/JSBuilder.js,"serializeType ( type , circular = [ ] )",33, 102, 6, 0
+repos/javascript/puppeteer/utils/doclint/check_public_api/JSBuilder.js,"serializeClass ( className , symbol , node )",17, 93, 6, 0
+repos/javascript/puppeteer/utils/doclint/check_public_api/JSBuilder.js,"serializeSignature ( name , signature )",5, 112, 4, 0
+repos/javascript/puppeteer/utils/doclint/check_public_api/JSBuilder.js,"serializeProperty ( name , type )",3, 75, 4, 0
+repos/javascript/puppeteer/utils/doclint/check_public_api/JSBuilder.js,"checkSources ( sources )",196, 150, 6, 0
+repos/javascript/puppeteer/utils/doclint/check_public_api/test/test.js,"function ( )",4, 38, 2, 0
+repos/javascript/puppeteer/utils/doclint/check_public_api/test/test.js,"function ( )",3, 28, 0, 0
+repos/javascript/puppeteer/utils/doclint/check_public_api/test/test.js,"function ( )",13, 47, 2, 0
+repos/javascript/puppeteer/utils/doclint/check_public_api/test/test.js,"testLint ( state , test )",12, 69, 2, 0
+repos/javascript/puppeteer/utils/doclint/check_public_api/test/test.js,"testMDBuilder ( state , test )",9, 65, 4, 0
+repos/javascript/puppeteer/utils/doclint/check_public_api/test/test.js,"testJSBuilder ( state , test )",9, 65, 4, 0
+repos/javascript/puppeteer/utils/doclint/check_public_api/test/test.js,"serialize ( doc )",9, 53, 6, 0
+repos/javascript/puppeteer/utils/doclint/check_public_api/test/test.js,"serializeMember ( member )",8, 86, 4, 0
+repos/javascript/puppeteer/utils/doclint/check_public_api/test/test.js,"serializeType ( type )",8, 90, 4, 0
+repos/javascript/puppeteer/utils/doclint/generate_types/index.js,"objectDefinitionsToString ( )",11, 196, 4, 0
+repos/javascript/puppeteer/utils/doclint/generate_types/index.js,"nameForProperty ( member )",3, 95, 2, 0
+repos/javascript/puppeteer/utils/doclint/generate_types/index.js,"classToString ( classDesc )",23, 199, 2, 0
+repos/javascript/puppeteer/utils/doclint/generate_types/index.js,"typeToString ( type , ... namespace )",13, 83, 4, 0
+repos/javascript/puppeteer/utils/doclint/generate_types/index.js,"parseType ( type )",57, 69, 6, 0
+repos/javascript/puppeteer/utils/doclint/generate_types/index.js,"stringifyType ( parsedType )",27, 142, 4, 0
+repos/javascript/puppeteer/utils/doclint/generate_types/index.js,"matchingBracket ( str , open , close )",11, 45, 0, 0
+repos/javascript/puppeteer/utils/doclint/generate_types/index.js,"argsFromMember ( member , ... namespace )",5, 153, 2, 0
+repos/javascript/puppeteer/utils/doclint/generate_types/index.js,"memberJSDOC ( member , indent )",14, 121, 2, 0
+repos/javascript/puppeteer/utils/doclint/preprocessor/test.js,"function ( )",12, 90, 6, 0
+repos/javascript/puppeteer/utils/doclint/preprocessor/test.js,"function ( )",12, 90, 6, 0
+repos/javascript/puppeteer/utils/doclint/preprocessor/test.js,"function ( )",10, 90, 6, 0
+repos/javascript/puppeteer/utils/doclint/preprocessor/test.js,"function ( )",36, 90, 6, 0
+repos/javascript/puppeteer/utils/doclint/preprocessor/test.js,"function ( )",10, 61, 6, 0
+repos/javascript/puppeteer/utils/doclint/preprocessor/test.js,"function ( )",12, 62, 8, 0
+repos/javascript/puppeteer/utils/doclint/preprocessor/test.js,"function ( )",12, 67, 8, 0
+repos/javascript/puppeteer/utils/doclint/preprocessor/test.js,"function ( )",6, 100, 6, 0
+repos/javascript/puppeteer/utils/doclint/preprocessor/test.js,"function ( )",8, 71, 6, 0
+repos/javascript/puppeteer/utils/doclint/preprocessor/test.js,"function ( )",40, 100, 6, 0
+repos/javascript/puppeteer/utils/doclint/preprocessor/test.js,"function ( )",12, 62, 4, 0
+repos/javascript/puppeteer/utils/doclint/preprocessor/test.js,"function ( )",10, 65, 4, 0
+repos/javascript/puppeteer/utils/doclint/preprocessor/test.js,"function ( )",24, 65, 4, 0
+repos/javascript/puppeteer/utils/doclint/preprocessor/test.js,"function ( )",20, 80, 6, 0
+repos/javascript/puppeteer/utils/doclint/preprocessor/test.js,"function ( )",16, 56, 2, 0
+repos/javascript/puppeteer/utils/doclint/preprocessor/test.js,"function ( )",112, 100, 6, 0
+repos/javascript/puppeteer/utils/doclint/preprocessor/index.js,"module.exports.ensureReleasedAPILinks ( sources , version )",14, 114, 2, 0
+repos/javascript/puppeteer/utils/doclint/preprocessor/index.js,"module.exports.runCommands ( sources , version )",48, 91, 8, 0
+repos/javascript/puppeteer/utils/doclint/preprocessor/index.js,"applyCommand ( command , editText )",5, 91, 2, 0
+repos/javascript/puppeteer/utils/doclint/preprocessor/index.js,"generateTableOfContents ( mdText )",27, 99, 2, 0
+repos/javascript/puppeteer/utils/protocol-types-generator/index.js,"typeOfProperty ( property , domain )",11, 115, 2, 0
+repos/javascript/puppeteer/utils/node6-transform/index.js,"copyFolder ( source , target )",14, 43, 2, 0
+repos/javascript/puppeteer/utils/node6-transform/index.js,"copyFile ( from , to )",9, 87, 4, 0
+repos/javascript/puppeteer/utils/node6-transform/TransformAsyncFunctions.js,"step ( key , arg )",21, 44, 8, 0
+repos/javascript/puppeteer/utils/node6-transform/TransformAsyncFunctions.js,"onBeforeFunction ( node )",26, 82, 4, 0
+repos/javascript/puppeteer/utils/node6-transform/TransformAsyncFunctions.js,"onAfterFunction ( node )",18, 77, 8, 0
+repos/javascript/puppeteer/utils/node6-transform/TransformAsyncFunctions.js,"onBeforeAwait ( node )",4, 97, 4, 0
+repos/javascript/puppeteer/utils/node6-transform/TransformAsyncFunctions.js,"onAfterAwait ( node )",3, 51, 4, 0
+repos/javascript/puppeteer/utils/node6-transform/TransformAsyncFunctions.js,"insertText ( from , to , replacement )",3, 47, 2, 0
+repos/javascript/puppeteer/utils/node6-transform/TransformAsyncFunctions.js,"transformAsyncFunctions ( text )",101, 126, 4, 0
+repos/javascript/puppeteer/utils/node6-transform/test/test.js,"function ( done )",6, 64, 4, 0
+repos/javascript/puppeteer/utils/node6-transform/test/test.js,"function ( done )",6, 64, 4, 0
+repos/javascript/puppeteer/utils/node6-transform/test/test.js,"function ( done )",6, 76, 2, 0
+repos/javascript/puppeteer/utils/node6-transform/test/test.js,"function ( done )",6, 64, 4, 0
+repos/javascript/puppeteer/utils/node6-transform/test/test.js,"function ( done )",6, 88, 4, 0
+repos/javascript/puppeteer/utils/node6-transform/test/test.js,"function ( done )",6, 70, 4, 0
+repos/javascript/puppeteer/utils/node6-transform/test/test.js,"function ( done )",6, 98, 4, 0
+repos/javascript/puppeteer/utils/node6-transform/test/test.js,"function ( done )",6, 102, 4, 0
+repos/javascript/puppeteer/utils/node6-transform/test/test.js,"function ( done )",6, 115, 4, 0
+repos/javascript/puppeteer/utils/node6-transform/test/test.js,"function ( done )",6, 65, 2, 0
+repos/javascript/puppeteer/utils/node6-transform/test/test.js,"function ( done )",6, 64, 4, 0
+repos/javascript/puppeteer/utils/node6-transform/test/test.js,"function ( )",68, 115, 4, 0
+repos/javascript/puppeteer/examples/custom-event.js,"listenFor ( type )",7, 56, 8, 0
+repos/javascript/puppeteer/examples/detect-sniff.js,"function ( )",4, 62, 2, 0
+repos/javascript/puppeteer/examples/detect-sniff.js,"function ( )",4, 61, 2, 0
+repos/javascript/puppeteer/examples/detect-sniff.js,"sniffDetector ( )",14, 62, 2, 0
+repos/javascript/puppeteer/lib/DOMWorld.js,"addScriptUrl ( url , type )",13, 55, 6, 0
+repos/javascript/puppeteer/lib/DOMWorld.js,"addScriptContent ( content , type = 'text/javascript' )",11, 67, 4, 0
+repos/javascript/puppeteer/lib/DOMWorld.js,"addStyleUrl ( url )",12, 51, 6, 0
+repos/javascript/puppeteer/lib/DOMWorld.js,"addStyleContent ( content )",12, 59, 6, 0
+repos/javascript/puppeteer/lib/DOMWorld.js,"hasVisibleBoundingBox ( )",4, 73, 8, 0
+repos/javascript/puppeteer/lib/DOMWorld.js,"predicate ( selectorOrXPath , isXPath , waitForVisible , waitForHidden )",23, 120, 8, 0
+repos/javascript/puppeteer/lib/DOMWorld.js,"pollMutation ( )",25, 57, 4, 0
+repos/javascript/puppeteer/lib/DOMWorld.js,"onRaf ( )",11, 51, 6, 0
+repos/javascript/puppeteer/lib/DOMWorld.js,"pollRaf ( )",18, 51, 6, 0
+repos/javascript/puppeteer/lib/DOMWorld.js,"onTimeout ( )",11, 51, 6, 0
+repos/javascript/puppeteer/lib/DOMWorld.js,"pollInterval ( pollInterval )",18, 51, 6, 0
+repos/javascript/puppeteer/lib/DOMWorld.js,"waitForPredicatePageFunction ( predicateBody , polling , timeout , ... args )",86, 88, 0, 0
+repos/javascript/puppeteer/lib/JSHandle.js,"createJSHandle ( context , remoteObject )",8, 105, 4, 0
+repos/javascript/puppeteer/lib/JSHandle.js,"computeQuadArea ( quad )",11, 61, 2, 0
+repos/javascript/puppeteer/lib/LifecycleWatcher.js,"checkLifecycle ( frame , expectedLifecycle )",11, 56, 4, 0
+repos/javascript/puppeteer/lib/Page.js,"addPageBinding ( bindingName )",16, 97, 8, 0
+repos/javascript/puppeteer/lib/Page.js,"deliverResult ( name , seq , result )",4, 58, 6, 0
+repos/javascript/puppeteer/lib/Page.js,"deliverError ( name , seq , message , stack )",6, 56, 6, 0
+repos/javascript/puppeteer/lib/Page.js,"deliverErrorValue ( name , seq , value )",4, 56, 6, 0
+repos/javascript/puppeteer/lib/Page.js,"processClip ( clip )",7, 59, 6, 0
+repos/javascript/puppeteer/lib/Page.js,"convertPrintParameterToInches ( parameter )",27, 87, 6, 0
+repos/javascript/puppeteer/lib/Coverage.js,"convertToDisjointRanges ( nestedRanges )",44, 108, 4, 0
+repos/javascript/puppeteer/lib/BrowserFetcher.js,"archiveName ( platform , revision )",11, 76, 4, 0
+repos/javascript/puppeteer/lib/BrowserFetcher.js,"downloadURL ( platform , host , revision )",3, 95, 2, 0
+repos/javascript/puppeteer/lib/BrowserFetcher.js,"existsAsync ( filePath )",6, 49, 2, 0
+repos/javascript/puppeteer/lib/BrowserFetcher.js,"parseFolderPath ( folderPath )",10, 46, 2, 0
+repos/javascript/puppeteer/lib/BrowserFetcher.js,"onData ( chunk )",4, 51, 4, 0
+repos/javascript/puppeteer/lib/BrowserFetcher.js,"downloadFile ( url , destinationPath , progressCallback )",31, 108, 6, 0
+repos/javascript/puppeteer/lib/BrowserFetcher.js,"extractZip ( zipPath , folderPath )",8, 87, 2, 0
+repos/javascript/puppeteer/lib/BrowserFetcher.js,"httpRequest ( url , method , response )",27, 79, 4, 0
+repos/javascript/puppeteer/lib/ExecutionContext.js,"convertArgument ( arg )",23, 96, 10, 0
+repos/javascript/puppeteer/lib/ExecutionContext.js,"rewriteError ( error )",5, 98, 8, 0
+repos/javascript/puppeteer/lib/FrameManager.js,"navigate ( client , url , referrer , frameId )",9, 89, 8, 0
+repos/javascript/puppeteer/lib/FrameManager.js,"assertNoLegacyNavigationOptions ( options )",5, 129, 2, 0
+repos/javascript/puppeteer/lib/Accessibility.js,"collectInterestingNodes ( collection , node , insideControl )",9, 68, 0, 0
+repos/javascript/puppeteer/lib/Accessibility.js,"serializeTree ( node , whitelistedNodes )",14, 62, 4, 0
+repos/javascript/puppeteer/lib/Connection.js,"createProtocolError ( error , method , object )",6, 71, 2, 0
+repos/javascript/puppeteer/lib/Connection.js,"rewriteError ( error , message )",4, 40, 0, 0
+repos/javascript/puppeteer/lib/Browser.js,"check ( target )",4, 29, 4, 0
+repos/javascript/puppeteer/lib/NetworkManager.js,"generateRequestHash ( request )",29, 70, 4, 0
+repos/javascript/puppeteer/lib/Launcher.js,"gracefullyCloseChrome ( )",13, 58, 8, 0
+repos/javascript/puppeteer/lib/Launcher.js,"killChrome ( )",18, 79, 12, 0
+repos/javascript/puppeteer/lib/Launcher.js,"onClose ( error )",10, 106, 8, 0
+repos/javascript/puppeteer/lib/Launcher.js,"onTimeout ( )",4, 169, 6, 0
+repos/javascript/puppeteer/lib/Launcher.js,"onLine ( line )",8, 71, 6, 0
+repos/javascript/puppeteer/lib/Launcher.js,"cleanup ( )",5, 46, 6, 0
+repos/javascript/puppeteer/lib/Launcher.js,"waitForWSEndpoint ( chromeProcess , timeout , preferredRevision )",50, 169, 6, 0
+repos/javascript/puppeteer/lib/Launcher.js,"getWSEndpoint ( browserURL )",27, 91, 4, 0
+repos/javascript/puppeteer/lib/helper.js,"serializeArgument ( arg )",5, 38, 4, 0
+repos/javascript/puppeteer/lib/helper.js,"function ( ... args )",10, 86, 10, 0
+repos/javascript/puppeteer/lib/helper.js,"callback ( err , ... result )",7, 44, 8, 0
+repos/javascript/puppeteer/lib/helper.js,"promisified ( ... args )",12, 52, 8, 0
+repos/javascript/puppeteer/lib/helper.js,"cleanup ( )",4, 47, 6, 0
+repos/javascript/puppeteer/lib/helper.js,"assert ( value , message )",4, 34, 0, 0

@@ -1,0 +1,1380 @@
+File, Function, Length, Total Width, Leading Space(s), Leading Tab(s)
+repos/cpp/leveldb/util/testutil.cc,"leveldb::test::RandomString( Random * rnd , int len , std :: string * dst)",7, 75, 4, 0
+repos/cpp/leveldb/util/testutil.cc,"leveldb::test::RandomKey( Random * rnd , int len)",12, 64, 4, 0
+repos/cpp/leveldb/util/testutil.cc,"leveldb::test::CompressibleString( Random * rnd , double compressed_fraction , size_t len , std :: string * dst)",15, 66, 0, 0
+repos/cpp/leveldb/util/status.cc,"leveldb::Status::CopyState( const char * state)",7, 51, 0, 0
+repos/cpp/leveldb/util/status.cc,"leveldb::Status::Status( Code code , const Slice & msg , const Slice & msg2)",16, 65, 0, 0
+repos/cpp/leveldb/util/status.cc,"leveldb::Status::ToString() const",38, 57, 8, 0
+repos/cpp/leveldb/util/arena.cc,"leveldb::Arena::Arena()",4, 67, 2, 0
+repos/cpp/leveldb/util/arena.cc,"leveldb::Arena::~Arena()",5, 48, 2, 0
+repos/cpp/leveldb/util/arena.cc,"leveldb::Arena::AllocateFallback( size_t bytes)",17, 80, 4, 0
+repos/cpp/leveldb/util/arena.cc,"leveldb::Arena::AllocateAligned( size_t bytes)",18, 77, 2, 0
+repos/cpp/leveldb/util/arena.cc,"leveldb::Arena::AllocateNewBlock( size_t block_bytes)",7, 55, 2, 0
+repos/cpp/leveldb/util/bloom.cc,"leveldb::BloomHash( const Slice & key)",3, 51, 2, 0
+repos/cpp/leveldb/util/bloom.cc,"leveldb::BloomFilterPolicy::BloomFilterPolicy( int bits_per_key)",7, 71, 4, 0
+repos/cpp/leveldb/util/bloom.cc,"leveldb::BloomFilterPolicy::Name() const",3, 42, 4, 0
+repos/cpp/leveldb/util/bloom.cc,"leveldb::BloomFilterPolicy::CreateFilter( const Slice * keys , int n , std :: string * dst) const",27, 80, 2, 0
+repos/cpp/leveldb/util/bloom.cc,"leveldb::BloomFilterPolicy::KeyMayMatch( const Slice & key , const Slice & bloom_filter) const",25, 80, 2, 0
+repos/cpp/leveldb/util/bloom.cc,"leveldb::NewBloomFilterPolicy( int bits_per_key)",3, 61, 0, 0
+repos/cpp/leveldb/util/env_windows_test.cc,"leveldb::EnvWindowsTest::EnvWindowsTest()",1, 45, 2, 0
+repos/cpp/leveldb/util/env_windows_test.cc,"leveldb::EnvWindowsTest::SetFileLimits( int mmap_limit)",3, 60, 4, 0
+repos/cpp/leveldb/util/env_windows_test.cc,"leveldb::TEST( EnvWindowsTest , TestOpenOnRead)",31, 74, 2, 0
+repos/cpp/leveldb/util/env_windows_test.cc,"main( int argc , char ** argv)",5, 66, 2, 0
+repos/cpp/leveldb/util/hash.cc,"leveldb::Hash( const char * data , size_t n , uint32_t seed)",32, 59, 0, 0
+repos/cpp/leveldb/util/crc32c_test.cc,"leveldb::crc32c::TEST( CRC , StandardResults)",36, 77, 2, 0
+repos/cpp/leveldb/util/crc32c_test.cc,"leveldb::crc32c::TEST( CRC , Values)",3, 45, 2, 0
+repos/cpp/leveldb/util/crc32c_test.cc,"leveldb::crc32c::TEST( CRC , Extend)",4, 53, 12, 0
+repos/cpp/leveldb/util/crc32c_test.cc,"leveldb::crc32c::TEST( CRC , Mask)",7, 51, 2, 0
+repos/cpp/leveldb/util/crc32c_test.cc,"main( int argc , char ** argv)",3, 39, 2, 0
+repos/cpp/leveldb/util/bloom_test.cc,"leveldb::Key( int i , char * buffer)",4, 42, 2, 0
+repos/cpp/leveldb/util/bloom_test.cc,"leveldb::BloomTest::BloomTest()",1, 54, 2, 0
+repos/cpp/leveldb/util/bloom_test.cc,"leveldb::BloomTest::~BloomTest()",3, 20, 4, 0
+repos/cpp/leveldb/util/bloom_test.cc,"leveldb::BloomTest::Reset()",4, 21, 4, 0
+repos/cpp/leveldb/util/bloom_test.cc,"leveldb::BloomTest::Add( const Slice & s)",3, 35, 4, 0
+repos/cpp/leveldb/util/bloom_test.cc,"leveldb::BloomTest::Build()",11, 79, 4, 0
+repos/cpp/leveldb/util/bloom_test.cc,"leveldb::BloomTest::FilterSize() const",3, 30, 2, 0
+repos/cpp/leveldb/util/bloom_test.cc,"leveldb::BloomTest::DumpFilter()",10, 68, 6, 0
+repos/cpp/leveldb/util/bloom_test.cc,"leveldb::BloomTest::Matches( const Slice & s)",6, 45, 4, 0
+repos/cpp/leveldb/util/bloom_test.cc,"leveldb::BloomTest::FalsePositiveRate()",10, 50, 6, 0
+repos/cpp/leveldb/util/bloom_test.cc,"leveldb::TEST( BloomTest , EmptyFilter)",4, 35, 2, 0
+repos/cpp/leveldb/util/bloom_test.cc,"leveldb::TEST( BloomTest , Small)",8, 33, 2, 0
+repos/cpp/leveldb/util/bloom_test.cc,"leveldb::NextLength( int length)",12, 36, 0, 0
+repos/cpp/leveldb/util/bloom_test.cc,"leveldb::TEST( BloomTest , VaryingLengths)",39, 81, 6, 0
+repos/cpp/leveldb/util/bloom_test.cc,"main( int argc , char ** argv)",3, 39, 2, 0
+repos/cpp/leveldb/util/hash_test.cc,"leveldb::TEST( HASH , SignedUnsignedIssue)",37, 77, 6, 0
+repos/cpp/leveldb/util/hash_test.cc,"main( int argc , char ** argv)",3, 39, 2, 0
+repos/cpp/leveldb/util/filter_policy.cc,"leveldb::FilterPolicy::~FilterPolicy()",1, 34, 0, 0
+repos/cpp/leveldb/util/arena_test.cc,"leveldb::TEST( ArenaTest , Empty)",3, 25, 0, 0
+repos/cpp/leveldb/util/arena_test.cc,"leveldb::TEST( ArenaTest , Simple)",45, 64, 10, 0
+repos/cpp/leveldb/util/arena_test.cc,"main( int argc , char ** argv)",3, 39, 2, 0
+repos/cpp/leveldb/util/histogram.cc,"leveldb::Histogram::Clear()",10, 42, 2, 0
+repos/cpp/leveldb/util/histogram.cc,"leveldb::Histogram::Add( double value)",13, 60, 2, 0
+repos/cpp/leveldb/util/histogram.cc,"leveldb::Histogram::Merge( const Histogram & other)",10, 48, 0, 0
+repos/cpp/leveldb/util/histogram.cc,"leveldb::Histogram::Median() const",3, 35, 0, 0
+repos/cpp/leveldb/util/histogram.cc,"leveldb::Histogram::Percentile( double p) const",20, 68, 6, 0
+repos/cpp/leveldb/util/histogram.cc,"leveldb::Histogram::Average() const",4, 36, 0, 0
+repos/cpp/leveldb/util/histogram.cc,"leveldb::Histogram::StandardDeviation() const",5, 73, 2, 0
+repos/cpp/leveldb/util/histogram.cc,"leveldb::Histogram::ToString() const",33, 81, 13, 0
+repos/cpp/leveldb/util/logging_test.cc,"leveldb::TEST( Logging , NumberToString)",24, 79, 2, 0
+repos/cpp/leveldb/util/logging_test.cc,"leveldb::ConsumeDecimalNumberRoundtripTest( uint64_t number , const std :: string & padding = '')",12, 74, 39, 0
+repos/cpp/leveldb/util/logging_test.cc,"leveldb::TEST( Logging , ConsumeDecimalNumberRoundtrip)",21, 70, 4, 0
+repos/cpp/leveldb/util/logging_test.cc,"leveldb::TEST( Logging , ConsumeDecimalNumberRoundtripWithPadding)",17, 70, 4, 0
+repos/cpp/leveldb/util/logging_test.cc,"leveldb::ConsumeDecimalNumberOverflowTest( const std :: string & input_string)",6, 73, 0, 0
+repos/cpp/leveldb/util/logging_test.cc,"leveldb::TEST( Logging , ConsumeDecimalNumberOverflow)",19, 79, 2, 0
+repos/cpp/leveldb/util/logging_test.cc,"leveldb::ConsumeDecimalNumberNoDigitsTest( const std :: string & input_string)",8, 73, 0, 0
+repos/cpp/leveldb/util/logging_test.cc,"leveldb::TEST( Logging , ConsumeDecimalNumberNoDigits)",10, 63, 2, 0
+repos/cpp/leveldb/util/logging_test.cc,"main( int argc , char ** argv)",3, 39, 2, 0
+repos/cpp/leveldb/util/crc32c.cc,"leveldb::crc32c::ReadUint32LE( const uint8_t * buffer)",3, 63, 2, 0
+repos/cpp/leveldb/util/crc32c.cc,"leveldb::crc32c::RoundUp( const uint8_t * pointer)",5, 66, 0, 0
+repos/cpp/leveldb/util/crc32c.cc,"leveldb::crc32c::CanAccelerateCRC32C()",8, 80, 2, 0
+repos/cpp/leveldb/util/crc32c.cc,"leveldb::crc32c::Extend( uint32_t crc , const char * buf , size_t size)",102, 81, 0, 0
+repos/cpp/leveldb/util/coding_test.cc,"leveldb::TEST( Coding , Fixed32)",13, 42, 2, 0
+repos/cpp/leveldb/util/coding_test.cc,"leveldb::TEST( Coding , Fixed64)",26, 52, 4, 0
+repos/cpp/leveldb/util/coding_test.cc,"leveldb::TEST( Coding , EncodingOutput)",21, 45, 2, 0
+repos/cpp/leveldb/util/coding_test.cc,"leveldb::TEST( Coding , Varint32)",20, 48, 4, 0
+repos/cpp/leveldb/util/coding_test.cc,"leveldb::TEST( Coding , Varint64)",34, 51, 2, 0
+repos/cpp/leveldb/util/coding_test.cc,"leveldb::TEST( Coding , Varint32Overflow)",6, 81, 2, 0
+repos/cpp/leveldb/util/coding_test.cc,"leveldb::TEST( Coding , Varint32Truncation)",12, 79, 4, 0
+repos/cpp/leveldb/util/coding_test.cc,"leveldb::TEST( Coding , Varint64Overflow)",6, 81, 2, 0
+repos/cpp/leveldb/util/coding_test.cc,"leveldb::TEST( Coding , Varint64Truncation)",12, 79, 4, 0
+repos/cpp/leveldb/util/coding_test.cc,"leveldb::TEST( Coding , Strings)",19, 60, 2, 0
+repos/cpp/leveldb/util/coding_test.cc,"main( int argc , char ** argv)",3, 39, 2, 0
+repos/cpp/leveldb/util/cache.cc,"leveldb::Cache::~Cache()",2, 18, 0, 0
+repos/cpp/leveldb/util/cache.cc,"leveldb::LRUHandle::key() const",7, 76, 4, 0
+repos/cpp/leveldb/util/cache.cc,"leveldb::HandleTable::HandleTable()",1, 70, 2, 0
+repos/cpp/leveldb/util/cache.cc,"leveldb::HandleTable::~HandleTable()",1, 37, 2, 0
+repos/cpp/leveldb/util/cache.cc,"leveldb::HandleTable::Lookup( const Slice & key , uint32_t hash)",3, 55, 2, 0
+repos/cpp/leveldb/util/cache.cc,"leveldb::HandleTable::Insert( LRUHandle * h)",15, 70, 8, 0
+repos/cpp/leveldb/util/cache.cc,"leveldb::HandleTable::Remove( const Slice & key , uint32_t hash)",9, 55, 2, 0
+repos/cpp/leveldb/util/cache.cc,"leveldb::HandleTable::FindPointer( const Slice & key , uint32_t hash)",8, 61, 2, 0
+repos/cpp/leveldb/util/cache.cc,"leveldb::HandleTable::Resize()",25, 62, 8, 0
+repos/cpp/leveldb/util/cache.cc,"leveldb::LRUCache::SetCapacity( size_t capacity)",1, 62, 2, 0
+repos/cpp/leveldb/util/cache.cc,"leveldb::LRUCache::TotalCharge() const",4, 31, 2, 0
+repos/cpp/leveldb/util/cache.cc,"leveldb::LRUCache::LRUCache()",8, 39, 2, 0
+repos/cpp/leveldb/util/cache.cc,"leveldb::LRUCache::~LRUCache()",11, 81, 2, 0
+repos/cpp/leveldb/util/cache.cc,"leveldb::LRUCache::Ref( LRUHandle * e)",7, 80, 2, 0
+repos/cpp/leveldb/util/cache.cc,"leveldb::LRUCache::Unref( LRUHandle * e)",13, 44, 2, 0
+repos/cpp/leveldb/util/cache.cc,"leveldb::LRUCache::LRU_Remove( LRUHandle * e)",4, 42, 0, 0
+repos/cpp/leveldb/util/cache.cc,"leveldb::LRUCache::LRU_Append( LRUHandle * list , LRUHandle * e)",7, 59, 0, 0
+repos/cpp/leveldb/util/cache.cc,"leveldb::LRUCache::Lookup( const Slice & key , uint32_t hash)",8, 67, 0, 0
+repos/cpp/leveldb/util/cache.cc,"leveldb::LRUCache::Release( Cache :: Handle * handle)",4, 48, 0, 0
+repos/cpp/leveldb/util/cache.cc,"leveldb::LRUCache::Insert( const Slice & key , uint32_t hash , void * value , size_t charge , void(*deleter)(const Slice&key,void*value))",37, 79, 2, 0
+repos/cpp/leveldb/util/cache.cc,"leveldb::LRUCache::FinishErase( LRUHandle * e)",10, 43, 0, 0
+repos/cpp/leveldb/util/cache.cc,"leveldb::LRUCache::Erase( const Slice & key , uint32_t hash)",4, 56, 0, 0
+repos/cpp/leveldb/util/cache.cc,"leveldb::LRUCache::Prune()",11, 69, 4, 0
+repos/cpp/leveldb/util/cache.cc,"leveldb::ShardedLRUCache::HashSlice( const Slice & s)",3, 53, 2, 0
+repos/cpp/leveldb/util/cache.cc,"leveldb::ShardedLRUCache::Shard( uint32_t hash)",3, 41, 2, 0
+repos/cpp/leveldb/util/cache.cc,"leveldb::ShardedLRUCache::ShardedLRUCache( size_t capacity)",7, 73, 4, 0
+repos/cpp/leveldb/util/cache.cc,"leveldb::ShardedLRUCache::~ShardedLRUCache()",1, 33, 2, 0
+repos/cpp/leveldb/util/cache.cc,"leveldb::ShardedLRUCache::Insert( const Slice & key , void * value , size_t charge , void(*deleter)(const Slice&key,void*value))",5, 75, 25, 0
+repos/cpp/leveldb/util/cache.cc,"leveldb::ShardedLRUCache::Lookup( const Slice & key)",4, 50, 4, 0
+repos/cpp/leveldb/util/cache.cc,"leveldb::ShardedLRUCache::Release( Handle * handle)",4, 57, 4, 0
+repos/cpp/leveldb/util/cache.cc,"leveldb::ShardedLRUCache::Erase( const Slice & key)",4, 42, 4, 0
+repos/cpp/leveldb/util/cache.cc,"leveldb::ShardedLRUCache::Value( Handle * handle)",3, 56, 4, 0
+repos/cpp/leveldb/util/cache.cc,"leveldb::ShardedLRUCache::NewId()",4, 29, 2, 0
+repos/cpp/leveldb/util/cache.cc,"leveldb::ShardedLRUCache::Prune()",5, 43, 4, 0
+repos/cpp/leveldb/util/cache.cc,"leveldb::ShardedLRUCache::TotalCharge() const",7, 43, 4, 0
+repos/cpp/leveldb/util/cache.cc,"leveldb::NewLRUCache( size_t capacity)",3, 40, 2, 0
+repos/cpp/leveldb/util/testharness.cc,"leveldb::test::RegisterTest( const char * base , const char * name , void(*func)())",11, 72, 0, 0
+repos/cpp/leveldb/util/testharness.cc,"leveldb::test::RunAllTests()",23, 60, 6, 0
+repos/cpp/leveldb/util/testharness.cc,"leveldb::test::TmpDir()",6, 53, 2, 0
+repos/cpp/leveldb/util/testharness.cc,"leveldb::test::RandomSeed()",8, 51, 2, 0
+repos/cpp/leveldb/util/status_test.cc,"leveldb::TEST( Status , MoveConstructor)",24, 79, 4, 0
+repos/cpp/leveldb/util/status_test.cc,"main( int argc , char ** argv)",3, 39, 2, 0
+repos/cpp/leveldb/util/env_windows.cc,"leveldb::GetWindowsErrorMessage( DWORD error_code)",16, 70, 6, 0
+repos/cpp/leveldb/util/env_windows.cc,"leveldb::WindowsError( const std :: string & context , DWORD error_code)",5, 80, 2, 0
+repos/cpp/leveldb/util/env_windows.cc,"leveldb::ScopedHandle::ScopedHandle( HANDLE handle)",1, 51, 2, 0
+repos/cpp/leveldb/util/env_windows.cc,"leveldb::ScopedHandle::ScopedHandle( ScopedHandle && other)",1, 76, 2, 0
+repos/cpp/leveldb/util/env_windows.cc,"leveldb::ScopedHandle::~ScopedHandle()",1, 31, 2, 0
+repos/cpp/leveldb/util/env_windows.cc,"leveldb::ScopedHandle::operator =( ScopedHandle && rhs)",4, 57, 2, 0
+repos/cpp/leveldb/util/env_windows.cc,"leveldb::ScopedHandle::Close()",8, 36, 4, 0
+repos/cpp/leveldb/util/env_windows.cc,"leveldb::ScopedHandle::is_valid() const",3, 66, 4, 0
+repos/cpp/leveldb/util/env_windows.cc,"leveldb::ScopedHandle::get() const",1, 41, 2, 0
+repos/cpp/leveldb/util/env_windows.cc,"leveldb::ScopedHandle::Release()",5, 36, 4, 0
+repos/cpp/leveldb/util/env_windows.cc,"leveldb::Limiter::Limiter( int max_acquires)",1, 65, 2, 0
+repos/cpp/leveldb/util/env_windows.cc,"leveldb::Limiter::Acquire()",10, 67, 8, 0
+repos/cpp/leveldb/util/env_windows.cc,"leveldb::Limiter::Release()",3, 63, 4, 0
+repos/cpp/leveldb/util/env_windows.cc,"leveldb::WindowsSequentialFile::WindowsSequentialFile( std :: string fname , ScopedHandle file)",2, 62, 2, 0
+repos/cpp/leveldb/util/env_windows.cc,"leveldb::WindowsSequentialFile::~WindowsSequentialFile()",1, 39, 2, 0
+repos/cpp/leveldb/util/env_windows.cc,"leveldb::WindowsSequentialFile::Read( size_t n , Slice * result , char * scratch)",15, 80, 4, 0
+repos/cpp/leveldb/util/env_windows.cc,"leveldb::WindowsSequentialFile::Skip( uint64_t n)",8, 77, 4, 0
+repos/cpp/leveldb/util/env_windows.cc,"leveldb::WindowsRandomAccessFile::WindowsRandomAccessFile( std :: string fname , ScopedHandle handle)",2, 66, 2, 0
+repos/cpp/leveldb/util/env_windows.cc,"leveldb::WindowsRandomAccessFile::Read( uint64_t offset , size_t n , Slice * result , char * scratch) const",19, 80, 4, 0
+repos/cpp/leveldb/util/env_windows.cc,"leveldb::WindowsMmapReadableFile::WindowsMmapReadableFile( std :: string fname , void * base , size_t length , Limiter * limiter)",6, 72, 2, 0
+repos/cpp/leveldb/util/env_windows.cc,"leveldb::WindowsMmapReadableFile::~WindowsMmapReadableFile()",4, 40, 2, 0
+repos/cpp/leveldb/util/env_windows.cc,"leveldb::WindowsMmapReadableFile::Read( uint64_t offset , size_t n , Slice * result , char * scratch) const",11, 77, 6, 0
+repos/cpp/leveldb/util/env_windows.cc,"leveldb::WindowsWritableFile::WindowsWritableFile( std :: string fname , ScopedHandle handle)",2, 76, 6, 0
+repos/cpp/leveldb/util/env_windows.cc,"leveldb::WindowsWritableFile::Append( const Slice & data)",28, 69, 4, 0
+repos/cpp/leveldb/util/env_windows.cc,"leveldb::WindowsWritableFile::Close()",7, 58, 6, 0
+repos/cpp/leveldb/util/env_windows.cc,"leveldb::WindowsWritableFile::Flush()",1, 54, 2, 0
+repos/cpp/leveldb/util/env_windows.cc,"leveldb::WindowsWritableFile::Sync()",5, 75, 4, 0
+repos/cpp/leveldb/util/env_windows.cc,"leveldb::WindowsWritableFile::FlushBuffered()",5, 37, 4, 0
+repos/cpp/leveldb/util/env_windows.cc,"leveldb::WindowsWritableFile::WriteRaw( const char * p , size_t n)",9, 78, 4, 0
+repos/cpp/leveldb/util/env_windows.cc,"leveldb::LockOrUnlock( HANDLE handle , bool lock)",13, 71, 24, 0
+repos/cpp/leveldb/util/env_windows.cc,"leveldb::WindowsFileLock::WindowsFileLock( ScopedHandle handle , std :: string name)",2, 62, 6, 0
+repos/cpp/leveldb/util/env_windows.cc,"leveldb::WindowsFileLock::handle()",1, 45, 2, 0
+repos/cpp/leveldb/util/env_windows.cc,"leveldb::WindowsFileLock::name() const",1, 52, 2, 0
+repos/cpp/leveldb/util/env_windows.cc,"leveldb::WindowsEnv::~WindowsEnv()",5, 55, 4, 0
+repos/cpp/leveldb/util/env_windows.cc,"leveldb::WindowsEnv::NewSequentialFile( const std :: string & fname , SequentialFile ** result)",18, 76, 6, 0
+repos/cpp/leveldb/util/env_windows.cc,"leveldb::WindowsEnv::NewRandomAccessFile( const std :: string & fname , RandomAccessFile ** result)",48, 77, 29, 0
+repos/cpp/leveldb/util/env_windows.cc,"leveldb::WindowsEnv::NewWritableFile( const std :: string & fname , WritableFile ** result)",20, 76, 6, 0
+repos/cpp/leveldb/util/env_windows.cc,"leveldb::WindowsEnv::NewAppendableFile( const std :: string & fname , WritableFile ** result)",13, 80, 8, 0
+repos/cpp/leveldb/util/env_windows.cc,"leveldb::WindowsEnv::FileExists( const std :: string & fname)",3, 73, 4, 0
+repos/cpp/leveldb/util/env_windows.cc,"leveldb::WindowsEnv::GetChildren( const std :: string & dir , std :: vector<std::string> * result)",28, 80, 6, 0
+repos/cpp/leveldb/util/env_windows.cc,"leveldb::WindowsEnv::DeleteFile( const std :: string & fname)",6, 57, 2, 0
+repos/cpp/leveldb/util/env_windows.cc,"leveldb::WindowsEnv::CreateDir( const std :: string & name)",6, 55, 2, 0
+repos/cpp/leveldb/util/env_windows.cc,"leveldb::WindowsEnv::DeleteDir( const std :: string & name)",6, 55, 2, 0
+repos/cpp/leveldb/util/env_windows.cc,"leveldb::WindowsEnv::GetFileSize( const std :: string & fname , uint64_t * size)",11, 81, 4, 0
+repos/cpp/leveldb/util/env_windows.cc,"leveldb::WindowsEnv::RenameFile( const std :: string & src , const std :: string & target)",28, 78, 4, 0
+repos/cpp/leveldb/util/env_windows.cc,"leveldb::WindowsEnv::LockFile( const std :: string & fname , FileLock ** lock)",16, 78, 8, 0
+repos/cpp/leveldb/util/env_windows.cc,"leveldb::WindowsEnv::UnlockFile( FileLock * lock)",9, 57, 4, 0
+repos/cpp/leveldb/util/env_windows.cc,"leveldb::WindowsEnv::StartThread( void(*function)(void*arg) , void * arg)",4, 70, 2, 0
+repos/cpp/leveldb/util/env_windows.cc,"leveldb::WindowsEnv::GetTestDirectory( std :: string * result)",19, 68, 4, 0
+repos/cpp/leveldb/util/env_windows.cc,"leveldb::WindowsEnv::NewLogger( const std :: string & filename , Logger ** result)",10, 76, 2, 0
+repos/cpp/leveldb/util/env_windows.cc,"leveldb::WindowsEnv::NowMicros()",12, 77, 4, 0
+repos/cpp/leveldb/util/env_windows.cc,"leveldb::WindowsEnv::SleepForMicroseconds( int micros)",3, 68, 4, 0
+repos/cpp/leveldb/util/env_windows.cc,"leveldb::MaxMmaps()",8, 75, 2, 0
+repos/cpp/leveldb/util/env_windows.cc,"leveldb::WindowsEnv::WindowsEnv()",2, 61, 4, 0
+repos/cpp/leveldb/util/env_windows.cc,"leveldb::WindowsEnv::Schedule( void(*function)(void*) , void * arg)",21, 77, 2, 0
+repos/cpp/leveldb/util/env_windows.cc,"leveldb::WindowsEnv::BGThread()",14, 60, 4, 0
+repos/cpp/leveldb/util/env_windows.cc,"leveldb::InitDefaultEnv()",1, 65, 0, 0
+repos/cpp/leveldb/util/env_windows.cc,"leveldb::EnvWindowsTestHelper::SetReadOnlyMMapLimit( int limit)",4, 61, 0, 0
+repos/cpp/leveldb/util/env_windows.cc,"leveldb::EnvWindowsTestHelper::RelaxFilePermissions()",4, 52, 0, 0
+repos/cpp/leveldb/util/env_windows.cc,"leveldb::Env::Default()",4, 40, 2, 0
+repos/cpp/leveldb/util/env_test.cc,"leveldb::EnvTest::EnvTest()",1, 39, 2, 0
+repos/cpp/leveldb/util/env_test.cc,"leveldb::SetAtomicBool( void * atomic_bool_ptr)",5, 61, 6, 0
+repos/cpp/leveldb/util/env_test.cc,"leveldb::TEST( EnvTest , ReadWrite)",46, 79, 4, 0
+repos/cpp/leveldb/util/env_test.cc,"leveldb::TEST( EnvTest , RunImmediately)",6, 55, 2, 0
+repos/cpp/leveldb/util/env_test.cc,"leveldb::TEST( EnvTest , RunMany)",30, 80, 6, 0
+repos/cpp/leveldb/util/env_test.cc,"leveldb::State::State( int val , int num_running)",1, 75, 2, 0
+repos/cpp/leveldb/util/env_test.cc,"leveldb::ThreadBody( void * arg)",7, 44, 2, 0
+repos/cpp/leveldb/util/env_test.cc,"leveldb::TEST( EnvTest , StartThread)",18, 46, 4, 0
+repos/cpp/leveldb/util/env_test.cc,"leveldb::TEST( EnvTest , TestOpenNonExistentFile)",17, 74, 2, 0
+repos/cpp/leveldb/util/env_test.cc,"leveldb::TEST( EnvTest , ReopenWritableFile)",23, 71, 2, 0
+repos/cpp/leveldb/util/env_test.cc,"leveldb::TEST( EnvTest , ReopenAppendableFile)",23, 73, 2, 0
+repos/cpp/leveldb/util/env_test.cc,"main( int argc , char ** argv)",3, 39, 2, 0
+repos/cpp/leveldb/util/logging.cc,"leveldb::AppendNumberTo( std :: string * str , uint64_t num)",5, 64, 2, 0
+repos/cpp/leveldb/util/logging.cc,"leveldb::AppendEscapedStringTo( std :: string * str , const Slice & value)",13, 67, 0, 0
+repos/cpp/leveldb/util/logging.cc,"leveldb::NumberToString( uint64_t num)",5, 43, 0, 0
+repos/cpp/leveldb/util/logging.cc,"leveldb::EscapeString( const Slice & value)",5, 47, 0, 0
+repos/cpp/leveldb/util/logging.cc,"leveldb::ConsumeDecimalNumber( Slice * in , uint64_t * val)",34, 78, 2, 0
+repos/cpp/leveldb/util/options.cc,"leveldb::Options::Options()",17, 40, 4, 0
+repos/cpp/leveldb/util/cache_test.cc,"leveldb::EncodeKey( int k)",5, 38, 0, 0
+repos/cpp/leveldb/util/cache_test.cc,"leveldb::DecodeKey( const Slice & k)",4, 39, 0, 0
+repos/cpp/leveldb/util/cache_test.cc,"leveldb::EncodeValue( uintptr_t v)",1, 77, 0, 0
+repos/cpp/leveldb/util/cache_test.cc,"leveldb::DecodeValue( void * v)",1, 75, 0, 0
+repos/cpp/leveldb/util/cache_test.cc,"leveldb::CacheTest::Deleter( const Slice & key , void * v)",4, 57, 4, 0
+repos/cpp/leveldb/util/cache_test.cc,"leveldb::CacheTest::CacheTest()",3, 50, 2, 0
+repos/cpp/leveldb/util/cache_test.cc,"leveldb::CacheTest::~CacheTest()",3, 19, 4, 0
+repos/cpp/leveldb/util/cache_test.cc,"leveldb::CacheTest::Lookup( int key)",8, 81, 4, 0
+repos/cpp/leveldb/util/cache_test.cc,"leveldb::CacheTest::Insert( int key , int value , int charge = 1)",4, 79, 4, 0
+repos/cpp/leveldb/util/cache_test.cc,"leveldb::CacheTest::InsertAndReturnHandle( int key , int value , int charge = 1)",4, 77, 2, 0
+repos/cpp/leveldb/util/cache_test.cc,"leveldb::CacheTest::Erase( int key)",3, 35, 4, 0
+repos/cpp/leveldb/util/cache_test.cc,"leveldb::TEST( CacheTest , HitAndMiss)",22, 38, 2, 0
+repos/cpp/leveldb/util/cache_test.cc,"leveldb::TEST( CacheTest , Erase)",18, 38, 2, 0
+repos/cpp/leveldb/util/cache_test.cc,"leveldb::TEST( CacheTest , EntriesArePinned)",24, 54, 2, 0
+repos/cpp/leveldb/util/cache_test.cc,"leveldb::TEST( CacheTest , EvictionPolicy)",18, 53, 2, 0
+repos/cpp/leveldb/util/cache_test.cc,"leveldb::TEST( CacheTest , UseExceedsCacheSize)",16, 66, 2, 0
+repos/cpp/leveldb/util/cache_test.cc,"leveldb::TEST( CacheTest , HeavyEntries)",26, 72, 2, 0
+repos/cpp/leveldb/util/cache_test.cc,"leveldb::TEST( CacheTest , NewId)",5, 32, 2, 0
+repos/cpp/leveldb/util/cache_test.cc,"leveldb::TEST( CacheTest , Prune)",12, 56, 2, 0
+repos/cpp/leveldb/util/cache_test.cc,"leveldb::TEST( CacheTest , ZeroSizeCache)",7, 33, 0, 0
+repos/cpp/leveldb/util/cache_test.cc,"main( int argc , char ** argv)",3, 39, 2, 0
+repos/cpp/leveldb/util/comparator.cc,"leveldb::Comparator::~Comparator()",1, 30, 0, 0
+repos/cpp/leveldb/util/comparator.cc,"leveldb::BytewiseComparatorImpl::BytewiseComparatorImpl()",1, 31, 2, 0
+repos/cpp/leveldb/util/comparator.cc,"leveldb::BytewiseComparatorImpl::Name() const",3, 41, 4, 0
+repos/cpp/leveldb/util/comparator.cc,"leveldb::BytewiseComparatorImpl::Compare( const Slice & a , const Slice & b) const",3, 62, 2, 0
+repos/cpp/leveldb/util/comparator.cc,"leveldb::BytewiseComparatorImpl::FindShortestSeparator( std :: string * start , const Slice & limit) const",23, 70, 6, 0
+repos/cpp/leveldb/util/comparator.cc,"leveldb::BytewiseComparatorImpl::FindShortSuccessor( std :: string * key) const",13, 60, 2, 0
+repos/cpp/leveldb/util/comparator.cc,"leveldb::BytewiseComparator()",4, 57, 2, 0
+repos/cpp/leveldb/util/coding.cc,"leveldb::EncodeFixed32( char * buf , uint32_t value)",10, 48, 0, 0
+repos/cpp/leveldb/util/coding.cc,"leveldb::EncodeFixed64( char * buf , uint64_t value)",14, 48, 0, 0
+repos/cpp/leveldb/util/coding.cc,"leveldb::PutFixed32( std :: string * dst , uint32_t value)",5, 52, 0, 0
+repos/cpp/leveldb/util/coding.cc,"leveldb::PutFixed64( std :: string * dst , uint64_t value)",5, 52, 0, 0
+repos/cpp/leveldb/util/coding.cc,"leveldb::EncodeVarint32( char * dst , uint32_t v)",27, 62, 2, 0
+repos/cpp/leveldb/util/coding.cc,"leveldb::PutVarint32( std :: string * dst , uint32_t v)",5, 49, 0, 0
+repos/cpp/leveldb/util/coding.cc,"leveldb::EncodeVarint64( char * dst , uint64_t v)",10, 62, 2, 0
+repos/cpp/leveldb/util/coding.cc,"leveldb::PutVarint64( std :: string * dst , uint64_t v)",5, 49, 0, 0
+repos/cpp/leveldb/util/coding.cc,"leveldb::PutLengthPrefixedSlice( std :: string * dst , const Slice & value)",4, 68, 0, 0
+repos/cpp/leveldb/util/coding.cc,"leveldb::VarintLength( uint64_t v)",8, 31, 0, 0
+repos/cpp/leveldb/util/coding.cc,"leveldb::GetVarint32PtrFallback( const char * p , const char * limit , uint32_t * value)",18, 67, 2, 0
+repos/cpp/leveldb/util/coding.cc,"leveldb::GetVarint32( Slice * input , uint32_t * value)",11, 51, 2, 0
+repos/cpp/leveldb/util/coding.cc,"leveldb::GetVarint64Ptr( const char * p , const char * limit , uint64_t * value)",16, 80, 0, 0
+repos/cpp/leveldb/util/coding.cc,"leveldb::GetVarint64( Slice * input , uint64_t * value)",11, 51, 2, 0
+repos/cpp/leveldb/util/coding.cc,"leveldb::GetLengthPrefixedSlice( const char * p , const char * limit , Slice * result)",9, 69, 0, 0
+repos/cpp/leveldb/util/coding.cc,"leveldb::GetLengthPrefixedSlice( Slice * input , Slice * result)",11, 59, 0, 0
+repos/cpp/leveldb/util/env_posix_test.cc,"leveldb::EnvPosixTest::EnvPosixTest()",1, 44, 2, 0
+repos/cpp/leveldb/util/env_posix_test.cc,"leveldb::EnvPosixTest::SetFileLimits( int read_only_file_limit , int mmap_limit)",4, 72, 2, 0
+repos/cpp/leveldb/util/env_posix_test.cc,"leveldb::TEST( EnvPosixTest , TestOpenOnRead)",30, 74, 2, 0
+repos/cpp/leveldb/util/env_posix_test.cc,"main( int argc , char ** argv)",6, 68, 2, 0
+repos/cpp/leveldb/util/env_posix.cc,"leveldb::PosixError( const std :: string & context , int error_number)",7, 67, 4, 0
+repos/cpp/leveldb/util/env_posix.cc,"leveldb::Limiter::Limiter( int max_acquires)",1, 65, 2, 0
+repos/cpp/leveldb/util/env_posix.cc,"leveldb::Limiter::Acquire()",10, 67, 8, 0
+repos/cpp/leveldb/util/env_posix.cc,"leveldb::Limiter::Release()",3, 63, 4, 0
+repos/cpp/leveldb/util/env_posix.cc,"leveldb::PosixSequentialFile::PosixSequentialFile( std :: string filename , int fd)",2, 52, 2, 0
+repos/cpp/leveldb/util/env_posix.cc,"leveldb::PosixSequentialFile::~PosixSequentialFile()",1, 50, 2, 0
+repos/cpp/leveldb/util/env_posix.cc,"leveldb::PosixSequentialFile::Read( size_t n , Slice * result , char * scratch)",16, 65, 2, 0
+repos/cpp/leveldb/util/env_posix.cc,"leveldb::PosixSequentialFile::Skip( uint64_t n)",6, 63, 4, 0
+repos/cpp/leveldb/util/env_posix.cc,"leveldb::PosixRandomAccessFile::PosixRandomAccessFile( std :: string filename , int fd , Limiter * fd_limiter)",10, 75, 2, 0
+repos/cpp/leveldb/util/env_posix.cc,"leveldb::PosixRandomAccessFile::~PosixRandomAccessFile()",7, 38, 2, 0
+repos/cpp/leveldb/util/env_posix.cc,"leveldb::PosixRandomAccessFile::Read( uint64_t offset , size_t n , Slice * result , char * scratch) const",26, 77, 4, 0
+repos/cpp/leveldb/util/env_posix.cc,"leveldb::PosixMmapReadableFile::PosixMmapReadableFile( std :: string filename , char * mmap_base , size_t length , Limiter * mmap_limiter)",4, 78, 2, 0
+repos/cpp/leveldb/util/env_posix.cc,"leveldb::PosixMmapReadableFile::~PosixMmapReadableFile()",4, 55, 4, 0
+repos/cpp/leveldb/util/env_posix.cc,"leveldb::PosixMmapReadableFile::Read( uint64_t offset , size_t n , Slice * result , char * scratch) const",10, 56, 2, 0
+repos/cpp/leveldb/util/env_posix.cc,"leveldb::PosixWritableFile::PosixWritableFile( std :: string filename , int fd)",3, 72, 8, 0
+repos/cpp/leveldb/util/env_posix.cc,"leveldb::PosixWritableFile::~PosixWritableFile()",6, 39, 6, 0
+repos/cpp/leveldb/util/env_posix.cc,"leveldb::PosixWritableFile::Append( const Slice & data)",28, 77, 4, 0
+repos/cpp/leveldb/util/env_posix.cc,"leveldb::PosixWritableFile::Close()",9, 45, 6, 0
+repos/cpp/leveldb/util/env_posix.cc,"leveldb::PosixWritableFile::Flush()",3, 28, 2, 0
+repos/cpp/leveldb/util/env_posix.cc,"leveldb::PosixWritableFile::Sync()",18, 81, 4, 0
+repos/cpp/leveldb/util/env_posix.cc,"leveldb::PosixWritableFile::FlushBuffer()",5, 49, 4, 0
+repos/cpp/leveldb/util/env_posix.cc,"leveldb::PosixWritableFile::WriteUnbuffered( const char * data , size_t size)",14, 58, 2, 0
+repos/cpp/leveldb/util/env_posix.cc,"leveldb::PosixWritableFile::SyncDirIfManifest()",15, 49, 4, 0
+repos/cpp/leveldb/util/env_posix.cc,"leveldb::PosixWritableFile::SyncFd( int fd , const std :: string & fd_path)",22, 79, 4, 0
+repos/cpp/leveldb/util/env_posix.cc,"leveldb::PosixWritableFile::Dirname( const std :: string & filename)",11, 79, 4, 0
+repos/cpp/leveldb/util/env_posix.cc,"leveldb::PosixWritableFile::Basename( const std :: string & filename)",12, 79, 4, 0
+repos/cpp/leveldb/util/env_posix.cc,"leveldb::PosixWritableFile::IsManifest( const std :: string & filename)",3, 56, 2, 0
+repos/cpp/leveldb/util/env_posix.cc,"leveldb::LockOrUnlock( int fd , bool lock)",10, 59, 2, 0
+repos/cpp/leveldb/util/env_posix.cc,"leveldb::PosixFileLock::PosixFileLock( int fd , std :: string filename)",2, 51, 6, 0
+repos/cpp/leveldb/util/env_posix.cc,"leveldb::PosixFileLock::fd() const",1, 33, 2, 0
+repos/cpp/leveldb/util/env_posix.cc,"leveldb::PosixFileLock::filename() const",1, 60, 2, 0
+repos/cpp/leveldb/util/env_posix.cc,"leveldb::PosixLockTable::LOCKS_EXCLUDED( mu_)",6, 62, 2, 0
+repos/cpp/leveldb/util/env_posix.cc,"leveldb::PosixLockTable::LOCKS_EXCLUDED( mu_)",5, 62, 2, 0
+repos/cpp/leveldb/util/env_posix.cc,"leveldb::PosixEnv::~PosixEnv()",5, 81, 4, 0
+repos/cpp/leveldb/util/env_posix.cc,"leveldb::PosixEnv::NewSequentialFile( const std :: string & filename , SequentialFile ** result)",11, 63, 27, 0
+repos/cpp/leveldb/util/env_posix.cc,"leveldb::PosixEnv::NewRandomAccessFile( const std :: string & filename , RandomAccessFile ** result)",32, 71, 6, 0
+repos/cpp/leveldb/util/env_posix.cc,"leveldb::PosixEnv::NewWritableFile( const std :: string & filename , WritableFile ** result)",11, 75, 4, 0
+repos/cpp/leveldb/util/env_posix.cc,"leveldb::PosixEnv::NewAppendableFile( const std :: string & filename , WritableFile ** result)",11, 76, 4, 0
+repos/cpp/leveldb/util/env_posix.cc,"leveldb::PosixEnv::FileExists( const std :: string & filename)",3, 58, 2, 0
+repos/cpp/leveldb/util/env_posix.cc,"leveldb::PosixEnv::GetChildren( const std :: string & directory_path , std :: vector<std::string> * result)",14, 66, 21, 0
+repos/cpp/leveldb/util/env_posix.cc,"leveldb::PosixEnv::DeleteFile( const std :: string & filename)",6, 60, 2, 0
+repos/cpp/leveldb/util/env_posix.cc,"leveldb::PosixEnv::CreateDir( const std :: string & dirname)",6, 58, 2, 0
+repos/cpp/leveldb/util/env_posix.cc,"leveldb::PosixEnv::DeleteDir( const std :: string & dirname)",6, 58, 2, 0
+repos/cpp/leveldb/util/env_posix.cc,"leveldb::PosixEnv::GetFileSize( const std :: string & filename , uint64_t * size)",9, 77, 2, 0
+repos/cpp/leveldb/util/env_posix.cc,"leveldb::PosixEnv::RenameFile( const std :: string & from , const std :: string & to)",6, 79, 2, 0
+repos/cpp/leveldb/util/env_posix.cc,"leveldb::PosixEnv::LockFile( const std :: string & filename , FileLock ** lock)",23, 77, 6, 0
+repos/cpp/leveldb/util/env_posix.cc,"leveldb::PosixEnv::UnlockFile( FileLock * lock)",10, 73, 6, 0
+repos/cpp/leveldb/util/env_posix.cc,"leveldb::PosixEnv::GetTestDirectory( std :: string * result)",16, 80, 4, 0
+repos/cpp/leveldb/util/env_posix.cc,"leveldb::PosixEnv::NewLogger( const std :: string & filename , Logger ** result)",10, 76, 2, 0
+repos/cpp/leveldb/util/env_posix.cc,"leveldb::PosixEnv::NowMicros()",6, 79, 4, 0
+repos/cpp/leveldb/util/env_posix.cc,"leveldb::PosixEnv::SleepForMicroseconds( int micros)",3, 51, 2, 0
+repos/cpp/leveldb/util/env_posix.cc,"leveldb::PosixEnv::BackgroundThreadEntryPoint( PosixEnv * env)",3, 58, 2, 0
+repos/cpp/leveldb/util/env_posix.cc,"leveldb::PosixEnv::BackgroundWorkItem::BackgroundWorkItem( void(*function)(void*arg) , void * arg)",2, 72, 4, 0
+repos/cpp/leveldb/util/env_posix.cc,"leveldb::MaxMmaps()",3, 23, 2, 0
+repos/cpp/leveldb/util/env_posix.cc,"leveldb::MaxOpenFiles()",16, 75, 4, 0
+repos/cpp/leveldb/util/env_posix.cc,"leveldb::PosixEnv::PosixEnv()",6, 52, 4, 0
+repos/cpp/leveldb/util/env_posix.cc,"leveldb::PosixEnv::Schedule( void(*background_work_function)(void*background_work_arg) , void * background_work_arg)",20, 81, 2, 0
+repos/cpp/leveldb/util/env_posix.cc,"leveldb::PosixEnv::BackgroundThreadMain()",19, 68, 4, 0
+repos/cpp/leveldb/util/env_posix.cc,"leveldb::SingletonEnv::SingletonEnv()",10, 75, 4, 0
+repos/cpp/leveldb/util/env_posix.cc,"leveldb::SingletonEnv::env()",1, 63, 2, 0
+repos/cpp/leveldb/util/env_posix.cc,"leveldb::SingletonEnv::AssertEnvNotInitialized()",5, 77, 4, 0
+repos/cpp/leveldb/util/env_posix.cc,"leveldb::PosixEnv::StartThread( void(*thread_main)(void*thread_main_arg) , void * thread_main_arg)",5, 71, 0, 0
+repos/cpp/leveldb/util/env_posix.cc,"leveldb::EnvPosixTestHelper::SetReadOnlyFDLimit( int limit)",4, 57, 0, 0
+repos/cpp/leveldb/util/env_posix.cc,"leveldb::EnvPosixTestHelper::SetReadOnlyMMapLimit( int limit)",4, 59, 0, 0
+repos/cpp/leveldb/util/env_posix.cc,"leveldb::Env::Default()",4, 40, 2, 0
+repos/cpp/leveldb/util/env.cc,"leveldb::Env::~Env()",2, 14, 0, 0
+repos/cpp/leveldb/util/env.cc,"leveldb::Env::NewAppendableFile( const std :: string & fname , WritableFile ** result)",3, 81, 0, 0
+repos/cpp/leveldb/util/env.cc,"leveldb::SequentialFile::~SequentialFile()",2, 36, 0, 0
+repos/cpp/leveldb/util/env.cc,"leveldb::RandomAccessFile::~RandomAccessFile()",2, 40, 0, 0
+repos/cpp/leveldb/util/env.cc,"leveldb::WritableFile::~WritableFile()",2, 32, 0, 0
+repos/cpp/leveldb/util/env.cc,"leveldb::Logger::~Logger()",2, 20, 0, 0
+repos/cpp/leveldb/util/env.cc,"leveldb::FileLock::~FileLock()",2, 24, 0, 0
+repos/cpp/leveldb/util/env.cc,"leveldb::Log( Logger * info_log , const char * format , ...)",8, 54, 0, 0
+repos/cpp/leveldb/util/env.cc,"leveldb::DoWriteStringToFile( Env * env , const Slice & data , const std :: string & fname , bool should_sync)",21, 63, 0, 0
+repos/cpp/leveldb/util/env.cc,"leveldb::WriteStringToFile( Env * env , const Slice & data , const std :: string & fname)",4, 55, 2, 0
+repos/cpp/leveldb/util/env.cc,"leveldb::WriteStringToFileSync( Env * env , const Slice & data , const std :: string & fname)",4, 58, 0, 0
+repos/cpp/leveldb/util/env.cc,"leveldb::ReadFileToString( Env * env , const std :: string & fname , std :: string * data)",24, 81, 0, 0
+repos/cpp/leveldb/util/env.cc,"leveldb::EnvWrapper::~EnvWrapper()",2, 28, 0, 0
+repos/cpp/leveldb/util/no_destructor_test.cc,"leveldb::DoNotDestruct::DoNotDestruct( uint32_t a , uint64_t b)",1, 56, 2, 0
+repos/cpp/leveldb/util/no_destructor_test.cc,"leveldb::DoNotDestruct::~DoNotDestruct()",1, 37, 2, 0
+repos/cpp/leveldb/util/no_destructor_test.cc,"leveldb::TEST( NoDestructorTest , StackInstance)",5, 60, 2, 0
+repos/cpp/leveldb/util/no_destructor_test.cc,"leveldb::TEST( NoDestructorTest , StaticInstance)",5, 67, 2, 0
+repos/cpp/leveldb/util/no_destructor_test.cc,"main( int argc , char ** argv)",3, 39, 2, 0
+repos/cpp/leveldb/table/table.cc,"leveldb::Table::Rep::~Rep()",5, 27, 4, 0
+repos/cpp/leveldb/table/table.cc,"leveldb::Table::Open( const Options & options , RandomAccessFile * file , uint64_t size , Table ** table)",47, 79, 2, 0
+repos/cpp/leveldb/table/table.cc,"leveldb::Table::ReadMeta( const Footer & footer)",28, 80, 2, 0
+repos/cpp/leveldb/table/table.cc,"leveldb::Table::ReadFilter( const Slice & filter_handle_value)",22, 81, 2, 0
+repos/cpp/leveldb/table/table.cc,"leveldb::Table::~Table()",3, 18, 0, 0
+repos/cpp/leveldb/table/table.cc,"leveldb::DeleteBlock( void * arg , void * ignored)",3, 52, 0, 0
+repos/cpp/leveldb/table/table.cc,"leveldb::DeleteCachedBlock( const Slice & key , void * value)",4, 63, 0, 0
+repos/cpp/leveldb/table/table.cc,"leveldb::ReleaseBlock( void * arg , void * h)",5, 63, 2, 0
+repos/cpp/leveldb/table/table.cc,"leveldb::Table::BlockReader( void * arg , const ReadOptions & options , const Slice & index_value)",55, 76, 8, 0
+repos/cpp/leveldb/table/table.cc,"leveldb::Table::NewIterator( const ReadOptions & options) const",5, 65, 0, 0
+repos/cpp/leveldb/table/table.cc,"leveldb::Table::InternalGet( const ReadOptions & options , const Slice & k , void * arg , void(*saver)(void*,const Slice&,const Slice&))",30, 78, 26, 0
+repos/cpp/leveldb/table/table.cc,"leveldb::Table::ApproximateOffsetOf( const Slice & key) const",26, 71, 6, 0
+repos/cpp/leveldb/table/block.cc,"leveldb::Block::NumRestarts() const",4, 58, 2, 0
+repos/cpp/leveldb/table/block.cc,"leveldb::Block::Block( const BlockContents & contents)",16, 79, 4, 0
+repos/cpp/leveldb/table/block.cc,"leveldb::Block::~Block()",5, 20, 4, 0
+repos/cpp/leveldb/table/block.cc,"leveldb::DecodeEntry( const char * p , const char * limit , uint32_t * shared , uint32_t * non_shared , uint32_t * value_length)",22, 81, 4, 0
+repos/cpp/leveldb/table/block.cc,"leveldb::Block::Iter::Compare( const Slice & a , const Slice & b) const",3, 61, 2, 0
+repos/cpp/leveldb/table/block.cc,"leveldb::Block::Iter::NextEntryOffset() const",3, 52, 4, 0
+repos/cpp/leveldb/table/block.cc,"leveldb::Block::Iter::GetRestartPoint( uint32_t index)",4, 72, 4, 0
+repos/cpp/leveldb/table/block.cc,"leveldb::Block::Iter::SeekToRestartPoint( uint32_t index)",9, 77, 4, 0
+repos/cpp/leveldb/table/block.cc,"leveldb::Block::Iter::Iter( const Comparator * comparator , const char * data , uint32_t restarts , uint32_t num_restarts)",12, 40, 8, 0
+repos/cpp/leveldb/table/block.cc,"leveldb::Block::Iter::Valid() const",1, 62, 2, 0
+repos/cpp/leveldb/table/block.cc,"leveldb::Block::Iter::status() const",1, 52, 2, 0
+repos/cpp/leveldb/table/block.cc,"leveldb::Block::Iter::key() const",4, 30, 2, 0
+repos/cpp/leveldb/table/block.cc,"leveldb::Block::Iter::value() const",4, 32, 2, 0
+repos/cpp/leveldb/table/block.cc,"leveldb::Block::Iter::Next()",4, 24, 2, 0
+repos/cpp/leveldb/table/block.cc,"leveldb::Block::Iter::Prev()",20, 74, 6, 0
+repos/cpp/leveldb/table/block.cc,"leveldb::Block::Iter::Seek( const Slice & target)",39, 78, 40, 0
+repos/cpp/leveldb/table/block.cc,"leveldb::Block::Iter::SeekToFirst()",4, 31, 2, 0
+repos/cpp/leveldb/table/block.cc,"leveldb::Block::Iter::SeekToLast()",6, 62, 4, 0
+repos/cpp/leveldb/table/block.cc,"leveldb::Block::Iter::CorruptionError()",7, 56, 4, 0
+repos/cpp/leveldb/table/block.cc,"leveldb::Block::Iter::ParseNextKey()",28, 78, 4, 0
+repos/cpp/leveldb/table/block.cc,"leveldb::Block::NewIterator( const Comparator * cmp)",11, 71, 4, 0
+repos/cpp/leveldb/table/merger.cc,"leveldb::MergingIterator::MergingIterator( const Comparator * comparator , Iterator ** children , int n)",10, 76, 2, 0
+repos/cpp/leveldb/table/merger.cc,"leveldb::MergingIterator::~MergingIterator()",3, 31, 2, 0
+repos/cpp/leveldb/table/merger.cc,"leveldb::MergingIterator::Valid() const",3, 34, 4, 0
+repos/cpp/leveldb/table/merger.cc,"leveldb::MergingIterator::SeekToFirst()",7, 35, 4, 0
+repos/cpp/leveldb/table/merger.cc,"leveldb::MergingIterator::SeekToLast()",7, 35, 4, 0
+repos/cpp/leveldb/table/merger.cc,"leveldb::MergingIterator::Seek( const Slice & target)",7, 43, 2, 0
+repos/cpp/leveldb/table/merger.cc,"leveldb::MergingIterator::Next()",25, 68, 4, 0
+repos/cpp/leveldb/table/merger.cc,"leveldb::MergingIterator::Prev()",28, 78, 12, 0
+repos/cpp/leveldb/table/merger.cc,"leveldb::MergingIterator::key() const",4, 30, 2, 0
+repos/cpp/leveldb/table/merger.cc,"leveldb::MergingIterator::value() const",4, 32, 2, 0
+repos/cpp/leveldb/table/merger.cc,"leveldb::MergingIterator::status() const",10, 38, 6, 0
+repos/cpp/leveldb/table/merger.cc,"leveldb::MergingIterator::FindSmallest()",14, 76, 6, 0
+repos/cpp/leveldb/table/merger.cc,"leveldb::MergingIterator::FindLargest()",14, 75, 6, 0
+repos/cpp/leveldb/table/merger.cc,"leveldb::NewMergingIterator( const Comparator * cmp , Iterator ** list , int n)",10, 78, 0, 0
+repos/cpp/leveldb/table/iterator.cc,"leveldb::Iterator::Iterator()",4, 36, 2, 0
+repos/cpp/leveldb/table/iterator.cc,"leveldb::Iterator::~Iterator()",11, 70, 4, 0
+repos/cpp/leveldb/table/iterator.cc,"leveldb::Iterator::RegisterCleanup( CleanupFunction func , void * arg1 , void * arg2)",14, 79, 0, 0
+repos/cpp/leveldb/table/iterator.cc,"leveldb::EmptyIterator::EmptyIterator( const Status & s)",1, 50, 2, 0
+repos/cpp/leveldb/table/iterator.cc,"leveldb::EmptyIterator::Valid() const",1, 48, 2, 0
+repos/cpp/leveldb/table/iterator.cc,"leveldb::EmptyIterator::Seek( const Slice & target)",1, 46, 2, 0
+repos/cpp/leveldb/table/iterator.cc,"leveldb::EmptyIterator::SeekToFirst()",1, 34, 2, 0
+repos/cpp/leveldb/table/iterator.cc,"leveldb::EmptyIterator::SeekToLast()",1, 33, 2, 0
+repos/cpp/leveldb/table/iterator.cc,"leveldb::EmptyIterator::Next()",1, 42, 2, 0
+repos/cpp/leveldb/table/iterator.cc,"leveldb::EmptyIterator::Prev()",1, 42, 2, 0
+repos/cpp/leveldb/table/iterator.cc,"leveldb::EmptyIterator::key() const",1, 64, 2, 0
+repos/cpp/leveldb/table/iterator.cc,"leveldb::EmptyIterator::value() const",1, 66, 2, 0
+repos/cpp/leveldb/table/iterator.cc,"leveldb::EmptyIterator::status() const",1, 53, 2, 0
+repos/cpp/leveldb/table/iterator.cc,"leveldb::NewEmptyIterator()",3, 42, 2, 0
+repos/cpp/leveldb/table/iterator.cc,"leveldb::NewErrorIterator( const Status & status)",3, 51, 0, 0
+repos/cpp/leveldb/table/block_builder.cc,"leveldb::BlockBuilder::BlockBuilder( const Options * options)",8, 70, 2, 0
+repos/cpp/leveldb/table/block_builder.cc,"leveldb::BlockBuilder::Reset()",8, 70, 2, 0
+repos/cpp/leveldb/table/block_builder.cc,"leveldb::BlockBuilder::CurrentSizeEstimate() const",5, 74, 10, 0
+repos/cpp/leveldb/table/block_builder.cc,"leveldb::BlockBuilder::Finish()",9, 50, 2, 0
+repos/cpp/leveldb/table/block_builder.cc,"leveldb::BlockBuilder::Add( const Slice & key , const Slice & value)",35, 79, 4, 0
+repos/cpp/leveldb/table/table_builder.cc,"leveldb::TableBuilder::Rep::Rep( const Options & opt , WritableFile * f)",14, 67, 21, 0
+repos/cpp/leveldb/table/table_builder.cc,"leveldb::TableBuilder::TableBuilder( const Options & options , WritableFile * file)",6, 71, 0, 0
+repos/cpp/leveldb/table/table_builder.cc,"leveldb::TableBuilder::~TableBuilder()",5, 78, 2, 0
+repos/cpp/leveldb/table/table_builder.cc,"leveldb::TableBuilder::ChangeOptions( const Options & options)",15, 80, 4, 0
+repos/cpp/leveldb/table/table_builder.cc,"leveldb::TableBuilder::Add( const Slice & key , const Slice & value)",30, 75, 2, 0
+repos/cpp/leveldb/table/table_builder.cc,"leveldb::TableBuilder::Flush()",15, 50, 2, 0
+repos/cpp/leveldb/table/table_builder.cc,"leveldb::TableBuilder::WriteBlock( BlockBuilder * block , BlockHandle * handle)",35, 74, 0, 0
+repos/cpp/leveldb/table/table_builder.cc,"leveldb::TableBuilder::WriteRawBlock( const Slice & block_contents , CompressionType type , BlockHandle * handle)",19, 80, 4, 0
+repos/cpp/leveldb/table/table_builder.cc,"leveldb::TableBuilder::status() const",3, 38, 0, 0
+repos/cpp/leveldb/table/table_builder.cc,"leveldb::TableBuilder::Finish()",56, 79, 2, 0
+repos/cpp/leveldb/table/table_builder.cc,"leveldb::TableBuilder::Abandon()",5, 31, 0, 0
+repos/cpp/leveldb/table/table_builder.cc,"leveldb::TableBuilder::NumEntries() const",3, 44, 0, 0
+repos/cpp/leveldb/table/table_builder.cc,"leveldb::TableBuilder::FileSize() const",3, 42, 0, 0
+repos/cpp/leveldb/table/filter_block_test.cc,"leveldb::TestHashFilter::Name() const",3, 37, 2, 0
+repos/cpp/leveldb/table/filter_block_test.cc,"leveldb::TestHashFilter::CreateFilter( const Slice * keys , int n , std :: string * dst) const",6, 80, 2, 0
+repos/cpp/leveldb/table/filter_block_test.cc,"leveldb::TestHashFilter::KeyMayMatch( const Slice & key , const Slice & filter) const",9, 74, 2, 0
+repos/cpp/leveldb/table/filter_block_test.cc,"leveldb::TEST( FilterBlockTest , EmptyBuilder)",8, 63, 2, 0
+repos/cpp/leveldb/table/filter_block_test.cc,"leveldb::TEST( FilterBlockTest , SingleChunk)",20, 53, 2, 0
+repos/cpp/leveldb/table/filter_block_test.cc,"leveldb::TEST( FilterBlockTest , MultiChunk)",47, 52, 2, 0
+repos/cpp/leveldb/table/filter_block_test.cc,"main( int argc , char ** argv)",3, 39, 2, 0
+repos/cpp/leveldb/table/filter_block.cc,"leveldb::FilterBlockBuilder::FilterBlockBuilder( const FilterPolicy * policy)",3, 67, 0, 0
+repos/cpp/leveldb/table/filter_block.cc,"leveldb::FilterBlockBuilder::StartBlock( uint64_t block_offset)",7, 61, 0, 0
+repos/cpp/leveldb/table/filter_block.cc,"leveldb::FilterBlockBuilder::AddKey( const Slice & key)",5, 52, 0, 0
+repos/cpp/leveldb/table/filter_block.cc,"leveldb::FilterBlockBuilder::Finish()",15, 74, 2, 0
+repos/cpp/leveldb/table/filter_block.cc,"leveldb::FilterBlockBuilder::GenerateFilter()",25, 78, 2, 0
+repos/cpp/leveldb/table/filter_block.cc,"leveldb::FilterBlockReader::FilterBlockReader( const FilterPolicy * policy , const Slice & contents)",16, 77, 2, 0
+repos/cpp/leveldb/table/filter_block.cc,"leveldb::FilterBlockReader::KeyMayMatch( uint64_t block_offset , const Slice & key)",15, 79, 0, 0
+repos/cpp/leveldb/table/format.cc,"leveldb::BlockHandle::EncodeTo( std :: string * dst) const",7, 53, 0, 0
+repos/cpp/leveldb/table/format.cc,"leveldb::BlockHandle::DecodeFrom( Slice * input)",8, 51, 4, 0
+repos/cpp/leveldb/table/format.cc,"leveldb::Footer::EncodeTo( std :: string * dst) const",10, 75, 2, 0
+repos/cpp/leveldb/table/format.cc,"leveldb::Footer::DecodeFrom( Slice * input)",21, 72, 4, 0
+repos/cpp/leveldb/table/format.cc,"leveldb::ReadBlock( RandomAccessFile * file , const ReadOptions & options , const BlockHandle & handle , BlockContents * result)",78, 81, 2, 0
+repos/cpp/leveldb/table/table_test.cc,"leveldb::Reverse( const Slice & key)",9, 57, 2, 0
+repos/cpp/leveldb/table/table_test.cc,"leveldb::ReverseKeyComparator::Name() const",3, 48, 4, 0
+repos/cpp/leveldb/table/table_test.cc,"leveldb::ReverseKeyComparator::Compare( const Slice & a , const Slice & b) const",3, 66, 4, 0
+repos/cpp/leveldb/table/table_test.cc,"leveldb::ReverseKeyComparator::FindShortestSeparator( std :: string * start , const Slice & limit) const",8, 56, 4, 0
+repos/cpp/leveldb/table/table_test.cc,"leveldb::ReverseKeyComparator::FindShortSuccessor( std :: string * key) const",5, 60, 2, 0
+repos/cpp/leveldb/table/table_test.cc,"leveldb::Increment( const Comparator * cmp , std :: string * key)",10, 65, 0, 0
+repos/cpp/leveldb/table/table_test.cc,"leveldb::STLLessThan::STLLessThan()",1, 48, 2, 0
+repos/cpp/leveldb/table/table_test.cc,"leveldb::STLLessThan::STLLessThan( const Comparator * c)",1, 48, 2, 0
+repos/cpp/leveldb/table/table_test.cc,"leveldb::STLLessThan::operator ( )( const std :: string & a , const std :: string & b) const",3, 70, 2, 0
+repos/cpp/leveldb/table/table_test.cc,"leveldb::StringSink::~StringSink()",1, 20, 2, 0
+repos/cpp/leveldb/table/table_test.cc,"leveldb::StringSink::contents() const",1, 60, 2, 0
+repos/cpp/leveldb/table/table_test.cc,"leveldb::StringSink::Close()",1, 50, 2, 0
+repos/cpp/leveldb/table/table_test.cc,"leveldb::StringSink::Flush()",1, 50, 2, 0
+repos/cpp/leveldb/table/table_test.cc,"leveldb::StringSink::Sync()",1, 49, 2, 0
+repos/cpp/leveldb/table/table_test.cc,"leveldb::StringSink::Append( const Slice & data)",4, 48, 4, 0
+repos/cpp/leveldb/table/table_test.cc,"leveldb::StringSource::StringSource( const Slice & contents)",3, 54, 6, 0
+repos/cpp/leveldb/table/table_test.cc,"leveldb::StringSource::~StringSource()",1, 30, 2, 0
+repos/cpp/leveldb/table/table_test.cc,"leveldb::StringSource::Size() const",1, 53, 2, 0
+repos/cpp/leveldb/table/table_test.cc,"leveldb::StringSource::Read( uint64_t offset , size_t n , Slice * result , char * scratch) const",12, 64, 2, 0
+repos/cpp/leveldb/table/table_test.cc,"leveldb::Constructor::Constructor( const Comparator * cmp)",1, 76, 2, 0
+repos/cpp/leveldb/table/table_test.cc,"leveldb::Constructor::~Constructor()",1, 29, 2, 0
+repos/cpp/leveldb/table/table_test.cc,"leveldb::Constructor::Add( const std :: string & key , const Slice & value)",3, 57, 2, 0
+repos/cpp/leveldb/table/table_test.cc,"leveldb::Constructor::Finish( const Options & options , std :: vector<std::string> * keys , KVMap * kvmap)",14, 51, 4, 0
+repos/cpp/leveldb/table/table_test.cc,"leveldb::Constructor::data()",1, 48, 2, 0
+repos/cpp/leveldb/table/table_test.cc,"leveldb::Constructor::db() const",1, 77, 2, 0
+repos/cpp/leveldb/table/table_test.cc,"leveldb::BlockConstructor::BlockConstructor( const Comparator * cmp)",4, 51, 2, 0
+repos/cpp/leveldb/table/table_test.cc,"leveldb::BlockConstructor::~BlockConstructor()",3, 24, 2, 0
+repos/cpp/leveldb/table/table_test.cc,"leveldb::BlockConstructor::FinishImpl( const Options & options , const KVMap & data)",19, 73, 2, 0
+repos/cpp/leveldb/table/table_test.cc,"leveldb::BlockConstructor::NewIterator() const",3, 45, 4, 0
+repos/cpp/leveldb/table/table_test.cc,"leveldb::TableConstructor::TableConstructor( const Comparator * cmp)",4, 44, 8, 0
+repos/cpp/leveldb/table/table_test.cc,"leveldb::TableConstructor::~TableConstructor()",3, 24, 2, 0
+repos/cpp/leveldb/table/table_test.cc,"leveldb::TableConstructor::FinishImpl( const Options & options , const KVMap & data)",22, 81, 4, 0
+repos/cpp/leveldb/table/table_test.cc,"leveldb::TableConstructor::NewIterator() const",3, 47, 4, 0
+repos/cpp/leveldb/table/table_test.cc,"leveldb::TableConstructor::ApproximateOffsetOf( const Slice & key) const",3, 57, 2, 0
+repos/cpp/leveldb/table/table_test.cc,"leveldb::TableConstructor::Reset()",6, 23, 4, 0
+repos/cpp/leveldb/table/table_test.cc,"leveldb::KeyConvertingIterator::KeyConvertingIterator( Iterator * iter)",1, 67, 2, 0
+repos/cpp/leveldb/table/table_test.cc,"leveldb::KeyConvertingIterator::~KeyConvertingIterator()",1, 53, 2, 0
+repos/cpp/leveldb/table/table_test.cc,"leveldb::KeyConvertingIterator::Valid() const",1, 56, 2, 0
+repos/cpp/leveldb/table/table_test.cc,"leveldb::KeyConvertingIterator::Seek( const Slice & target)",6, 68, 4, 0
+repos/cpp/leveldb/table/table_test.cc,"leveldb::KeyConvertingIterator::SeekToFirst()",1, 55, 2, 0
+repos/cpp/leveldb/table/table_test.cc,"leveldb::KeyConvertingIterator::SeekToLast()",1, 53, 2, 0
+repos/cpp/leveldb/table/table_test.cc,"leveldb::KeyConvertingIterator::Next()",1, 41, 2, 0
+repos/cpp/leveldb/table/table_test.cc,"leveldb::KeyConvertingIterator::Prev()",1, 41, 2, 0
+repos/cpp/leveldb/table/table_test.cc,"leveldb::KeyConvertingIterator::key() const",9, 62, 6, 0
+repos/cpp/leveldb/table/table_test.cc,"leveldb::KeyConvertingIterator::value() const",1, 57, 2, 0
+repos/cpp/leveldb/table/table_test.cc,"leveldb::KeyConvertingIterator::status() const",3, 53, 4, 0
+repos/cpp/leveldb/table/table_test.cc,"leveldb::MemTableConstructor::MemTableConstructor( const Comparator * cmp)",6, 54, 2, 0
+repos/cpp/leveldb/table/table_test.cc,"leveldb::MemTableConstructor::~MemTableConstructor()",3, 27, 2, 0
+repos/cpp/leveldb/table/table_test.cc,"leveldb::MemTableConstructor::FinishImpl( const Options & options , const KVMap & data)",13, 73, 2, 0
+repos/cpp/leveldb/table/table_test.cc,"leveldb::MemTableConstructor::NewIterator() const",3, 64, 4, 0
+repos/cpp/leveldb/table/table_test.cc,"leveldb::DBConstructor::DBConstructor( const Comparator * cmp)",6, 48, 2, 0
+repos/cpp/leveldb/table/table_test.cc,"leveldb::DBConstructor::~DBConstructor()",3, 21, 2, 0
+repos/cpp/leveldb/table/table_test.cc,"leveldb::DBConstructor::FinishImpl( const Options & options , const KVMap & data)",13, 73, 2, 0
+repos/cpp/leveldb/table/table_test.cc,"leveldb::DBConstructor::NewIterator() const",3, 44, 4, 0
+repos/cpp/leveldb/table/table_test.cc,"leveldb::DBConstructor::db() const",1, 41, 2, 0
+repos/cpp/leveldb/table/table_test.cc,"leveldb::DBConstructor::NewDB()",14, 76, 4, 0
+repos/cpp/leveldb/table/table_test.cc,"leveldb::Harness::Harness()",1, 40, 2, 0
+repos/cpp/leveldb/table/table_test.cc,"leveldb::Harness::Init( const TestArgs & args)",27, 69, 8, 0
+repos/cpp/leveldb/table/table_test.cc,"leveldb::Harness::~Harness()",3, 25, 4, 0
+repos/cpp/leveldb/table/table_test.cc,"leveldb::Harness::Add( const std :: string & key , const std :: string & value)",3, 63, 2, 0
+repos/cpp/leveldb/table/table_test.cc,"leveldb::Harness::Test( Random * rnd)",9, 50, 4, 0
+repos/cpp/leveldb/table/table_test.cc,"leveldb::Harness::TestForwardScan( const std :: vector<std::string> & keys , const KVMap & data)",14, 61, 2, 0
+repos/cpp/leveldb/table/table_test.cc,"leveldb::Harness::TestBackwardScan( const std :: vector<std::string> & keys , const KVMap & data)",14, 67, 4, 0
+repos/cpp/leveldb/table/table_test.cc,"leveldb::Harness::TestRandomAccess( Random * rnd , const std :: vector<std::string> & keys , const KVMap & data)",69, 73, 14, 0
+repos/cpp/leveldb/table/table_test.cc,"leveldb::Harness::ToString( const KVMap & data , const KVMap :: const_iterator & it)",7, 77, 2, 0
+repos/cpp/leveldb/table/table_test.cc,"leveldb::Harness::ToString( const KVMap & data , const KVMap :: const_reverse_iterator & it)",8, 66, 23, 0
+repos/cpp/leveldb/table/table_test.cc,"leveldb::Harness::ToString( const Iterator * it)",7, 79, 6, 0
+repos/cpp/leveldb/table/table_test.cc,"leveldb::Harness::PickRandomKey( Random * rnd , const std :: vector<std::string> & keys)",26, 81, 2, 0
+repos/cpp/leveldb/table/table_test.cc,"leveldb::Harness::db() const",1, 48, 2, 0
+repos/cpp/leveldb/table/table_test.cc,"leveldb::TEST( Harness , Empty)",7, 43, 2, 0
+repos/cpp/leveldb/table/table_test.cc,"leveldb::TEST( Harness , ZeroRestartPointsInBlock)",17, 60, 2, 0
+repos/cpp/leveldb/table/table_test.cc,"leveldb::TEST( Harness , SimpleEmptyKey)",8, 43, 2, 0
+repos/cpp/leveldb/table/table_test.cc,"leveldb::TEST( Harness , SimpleSingle)",8, 43, 2, 0
+repos/cpp/leveldb/table/table_test.cc,"leveldb::TEST( Harness , SimpleMulti)",10, 43, 2, 0
+repos/cpp/leveldb/table/table_test.cc,"leveldb::TEST( Harness , SimpleSpecialKey)",8, 43, 2, 0
+repos/cpp/leveldb/table/table_test.cc,"leveldb::TEST( Harness , Randomized)",19, 69, 12, 0
+repos/cpp/leveldb/table/table_test.cc,"leveldb::TEST( Harness , RandomizedLongDB)",23, 73, 4, 0
+repos/cpp/leveldb/table/table_test.cc,"leveldb::TEST( MemTableTest , Simple)",24, 70, 2, 0
+repos/cpp/leveldb/table/table_test.cc,"leveldb::Between( uint64_t val , uint64_t low , uint64_t high)",10, 65, 0, 0
+repos/cpp/leveldb/table/table_test.cc,"leveldb::TEST( TableTest , ApproximateOffsetOfPlain)",29, 71, 2, 0
+repos/cpp/leveldb/table/table_test.cc,"leveldb::SnappyCompressionSupported()",5, 60, 2, 0
+repos/cpp/leveldb/table/table_test.cc,"leveldb::TEST( TableTest , ApproximateOffsetOfCompressed)",35, 81, 2, 0
+repos/cpp/leveldb/table/table_test.cc,"main( int argc , char ** argv)",3, 39, 2, 0
+repos/cpp/leveldb/table/two_level_iterator.cc,"leveldb::TwoLevelIterator::Valid() const",3, 31, 2, 0
+repos/cpp/leveldb/table/two_level_iterator.cc,"leveldb::TwoLevelIterator::key() const",4, 30, 2, 0
+repos/cpp/leveldb/table/two_level_iterator.cc,"leveldb::TwoLevelIterator::value() const",4, 32, 2, 0
+repos/cpp/leveldb/table/two_level_iterator.cc,"leveldb::TwoLevelIterator::status() const",10, 77, 4, 0
+repos/cpp/leveldb/table/two_level_iterator.cc,"leveldb::TwoLevelIterator::SaveError( const Status & s)",3, 46, 4, 0
+repos/cpp/leveldb/table/two_level_iterator.cc,"leveldb::TwoLevelIterator::TwoLevelIterator( Iterator * index_iter , BlockFunction block_function , void * arg , const ReadOptions & options)",11, 39, 4, 0
+repos/cpp/leveldb/table/two_level_iterator.cc,"leveldb::TwoLevelIterator::~TwoLevelIterator()",2, 40, 0, 0
+repos/cpp/leveldb/table/two_level_iterator.cc,"leveldb::TwoLevelIterator::Seek( const Slice & target)",6, 61, 2, 0
+repos/cpp/leveldb/table/two_level_iterator.cc,"leveldb::TwoLevelIterator::SeekToFirst()",6, 62, 2, 0
+repos/cpp/leveldb/table/two_level_iterator.cc,"leveldb::TwoLevelIterator::SeekToLast()",6, 61, 2, 0
+repos/cpp/leveldb/table/two_level_iterator.cc,"leveldb::TwoLevelIterator::Next()",5, 32, 0, 0
+repos/cpp/leveldb/table/two_level_iterator.cc,"leveldb::TwoLevelIterator::Prev()",5, 33, 2, 0
+repos/cpp/leveldb/table/two_level_iterator.cc,"leveldb::TwoLevelIterator::SkipEmptyDataBlocksForward()",12, 64, 2, 0
+repos/cpp/leveldb/table/two_level_iterator.cc,"leveldb::TwoLevelIterator::SkipEmptyDataBlocksBackward()",12, 64, 2, 0
+repos/cpp/leveldb/table/two_level_iterator.cc,"leveldb::TwoLevelIterator::SetDataIterator( Iterator * data_iter)",4, 68, 2, 0
+repos/cpp/leveldb/table/two_level_iterator.cc,"leveldb::TwoLevelIterator::InitDataBlock()",15, 83, 4, 0
+repos/cpp/leveldb/table/two_level_iterator.cc,"leveldb::NewTwoLevelIterator( Iterator * index_iter , BlockFunction block_function , void * arg , const ReadOptions & options)",7, 73, 2, 0
+repos/cpp/leveldb/db/log_writer.cc,"leveldb::log::InitTypeCrc( uint32_t * type_crc)",6, 46, 0, 0
+repos/cpp/leveldb/db/log_writer.cc,"leveldb::log::Writer::Writer( WritableFile * dest)",5, 35, 0, 0
+repos/cpp/leveldb/db/log_writer.cc,"leveldb::log::Writer::Writer( WritableFile * dest , uint64_t dest_length)",4, 61, 4, 0
+repos/cpp/leveldb/db/log_writer.cc,"leveldb::log::Writer::~Writer()",2, 20, 0, 0
+repos/cpp/leveldb/db/log_writer.cc,"leveldb::log::Writer::AddRecord( const Slice & slice)",47, 74, 8, 0
+repos/cpp/leveldb/db/log_writer.cc,"leveldb::log::Writer::EmitPhysicalRecord( RecordType t , const char * ptr , size_t n)",26, 77, 0, 0
+repos/cpp/leveldb/db/db_impl.cc,"leveldb::DBImpl::Writer::Writer( port :: Mutex * mu)",1, 48, 2, 0
+repos/cpp/leveldb/db/db_impl.cc,"leveldb::DBImpl::CompactionState::current_output()",1, 66, 2, 0
+repos/cpp/leveldb/db/db_impl.cc,"leveldb::DBImpl::CompactionState::CompactionState( Compaction * c)",6, 42, 2, 0
+repos/cpp/leveldb/db/db_impl.cc,"leveldb::ClipToRange( T * ptr , V minvalue , V maxvalue)",4, 58, 0, 0
+repos/cpp/leveldb/db/db_impl.cc,"leveldb::SanitizeOptions( const std :: string & dbname , const InternalKeyComparator * icmp , const InternalFilterPolicy * ipolicy , const Options & src)",26, 78, 2, 0
+repos/cpp/leveldb/db/db_impl.cc,"leveldb::TableCacheSize( const Options & sanitized_options)",4, 77, 2, 0
+repos/cpp/leveldb/db/db_impl.cc,"leveldb::DBImpl::DBImpl( const Options & raw_options , const std :: string & dbname)",25, 81, 6, 0
+repos/cpp/leveldb/db/db_impl.cc,"leveldb::DBImpl::~DBImpl()",28, 57, 2, 0
+repos/cpp/leveldb/db/db_impl.cc,"leveldb::DBImpl::NewDB()",31, 65, 4, 0
+repos/cpp/leveldb/db/db_impl.cc,"leveldb::DBImpl::MaybeIgnoreError( Status * s) const",8, 72, 4, 0
+repos/cpp/leveldb/db/db_impl.cc,"leveldb::DBImpl::DeleteObsoleteFiles()",57, 76, 4, 0
+repos/cpp/leveldb/db/db_impl.cc,"leveldb::DBImpl::Recover( VersionEdit * edit , bool * save_manifest)",90, 81, 4, 0
+repos/cpp/leveldb/db/db_impl.cc,"leveldb::DBImpl::RecoverLogFile( uint64_t log_number , bool last_log , bool * save_manifest , VersionEdit * edit , SequenceNumber * max_sequence)",122, 76, 6, 0
+repos/cpp/leveldb/db/db_impl.cc,"leveldb::DBImpl::WriteLevel0Table( MemTable * mem , VersionEdit * edit , Version * base)",45, 76, 6, 0
+repos/cpp/leveldb/db/db_impl.cc,"leveldb::DBImpl::CompactMemTable()",32, 74, 4, 0
+repos/cpp/leveldb/db/db_impl.cc,"leveldb::DBImpl::CompactRange( const Slice * begin , const Slice * end)",16, 78, 2, 0
+repos/cpp/leveldb/db/db_impl.cc,"leveldb::DBImpl::TEST_CompactRange( int level , const Slice * begin , const Slice * end)",38, 80, 4, 0
+repos/cpp/leveldb/db/db_impl.cc,"leveldb::DBImpl::TEST_CompactMemTable()",15, 65, 2, 0
+repos/cpp/leveldb/db/db_impl.cc,"leveldb::DBImpl::RecordBackgroundError( const Status & s)",7, 54, 0, 0
+repos/cpp/leveldb/db/db_impl.cc,"leveldb::DBImpl::MaybeScheduleCompaction()",17, 63, 2, 0
+repos/cpp/leveldb/db/db_impl.cc,"leveldb::DBImpl::BGWork( void * db)",3, 51, 2, 0
+repos/cpp/leveldb/db/db_impl.cc,"leveldb::DBImpl::BackgroundCall()",18, 70, 2, 0
+repos/cpp/leveldb/db/db_impl.cc,"leveldb::DBImpl::BackgroundCompaction()",84, 74, 8, 0
+repos/cpp/leveldb/db/db_impl.cc,"leveldb::DBImpl::CleanupCompaction( CompactionState * compact)",16, 72, 4, 0
+repos/cpp/leveldb/db/db_impl.cc,"leveldb::DBImpl::OpenCompactionOutputFile( CompactionState * compact)",24, 69, 4, 0
+repos/cpp/leveldb/db/db_impl.cc,"leveldb::DBImpl::FinishCompactionOutputFile( CompactionState * compact , Iterator * input)",51, 68, 0, 0
+repos/cpp/leveldb/db/db_impl.cc,"leveldb::DBImpl::InstallCompactionResults( CompactionState * compact)",20, 73, 2, 0
+repos/cpp/leveldb/db/db_impl.cc,"leveldb::DBImpl::DoCompactionWork( CompactionState * compact)",161, 80, 2, 0
+repos/cpp/leveldb/db/db_impl.cc,"leveldb::IterState::IterState( port :: Mutex * mutex , MemTable * mem , MemTable * imm , Version * version)",2, 80, 2, 0
+repos/cpp/leveldb/db/db_impl.cc,"leveldb::CleanupIteratorState( void * arg1 , void * arg2)",9, 59, 0, 0
+repos/cpp/leveldb/db/db_impl.cc,"leveldb::DBImpl::NewInternalIterator( const ReadOptions & options , SequenceNumber * latest_snapshot , uint32_t * seed)",26, 81, 2, 0
+repos/cpp/leveldb/db/db_impl.cc,"leveldb::DBImpl::TEST_NewInternalIterator()",5, 70, 2, 0
+repos/cpp/leveldb/db/db_impl.cc,"leveldb::DBImpl::TEST_MaxNextLevelOverlappingBytes()",4, 54, 0, 0
+repos/cpp/leveldb/db/db_impl.cc,"leveldb::DBImpl::Get( const ReadOptions & options , const Slice & key , std :: string * value)",47, 79, 8, 0
+repos/cpp/leveldb/db/db_impl.cc,"leveldb::DBImpl::NewIterator( const ReadOptions & options)",11, 79, 7, 0
+repos/cpp/leveldb/db/db_impl.cc,"leveldb::DBImpl::RecordReadSample( Slice key)",6, 53, 2, 0
+repos/cpp/leveldb/db/db_impl.cc,"leveldb::DBImpl::GetSnapshot()",4, 52, 2, 0
+repos/cpp/leveldb/db/db_impl.cc,"leveldb::DBImpl::ReleaseSnapshot( const Snapshot * snapshot)",4, 65, 2, 0
+repos/cpp/leveldb/db/db_impl.cc,"leveldb::DBImpl::Put( const WriteOptions & o , const Slice & key , const Slice & val)",3, 80, 0, 0
+repos/cpp/leveldb/db/db_impl.cc,"leveldb::DBImpl::Delete( const WriteOptions & options , const Slice & key)",3, 71, 0, 0
+repos/cpp/leveldb/db/db_impl.cc,"leveldb::DBImpl::Write( const WriteOptions & options , WriteBatch * my_batch)",72, 81, 2, 0
+repos/cpp/leveldb/db/db_impl.cc,"leveldb::DBImpl::BuildBatchGroup( Writer ** last_writer)",47, 79, 6, 0
+repos/cpp/leveldb/db/db_impl.cc,"leveldb::DBImpl::MakeRoomForWrite( bool force)",62, 81, 15, 0
+repos/cpp/leveldb/db/db_impl.cc,"leveldb::DBImpl::GetProperty( const Slice & property , std :: string * value)",66, 70, 0, 0
+repos/cpp/leveldb/db/db_impl.cc,"leveldb::DBImpl::GetApproximateSizes( const Range * range , int n , uint64_t * sizes)",25, 75, 4, 0
+repos/cpp/leveldb/db/db_impl.cc,"leveldb::DB::Put( const WriteOptions & opt , const Slice & key , const Slice & value)",5, 80, 0, 0
+repos/cpp/leveldb/db/db_impl.cc,"leveldb::DB::Delete( const WriteOptions & opt , const Slice & key)",5, 63, 0, 0
+repos/cpp/leveldb/db/db_impl.cc,"leveldb::DB::~DB()",1, 14, 0, 0
+repos/cpp/leveldb/db/db_impl.cc,"leveldb::DB::Open( const Options & options , const std :: string & dbname , DB ** dbptr)",43, 74, 4, 0
+repos/cpp/leveldb/db/db_impl.cc,"leveldb::Snapshot::~Snapshot()",2, 24, 0, 0
+repos/cpp/leveldb/db/db_impl.cc,"leveldb::DestroyDB( const std :: string & dbname , const Options & options)",30, 78, 4, 0
+repos/cpp/leveldb/db/db_bench.cc,"leveldb::RandomGenerator::RandomGenerator()",14, 76, 6, 0
+repos/cpp/leveldb/db/db_bench.cc,"leveldb::RandomGenerator::Generate( size_t len)",8, 50, 4, 0
+repos/cpp/leveldb/db/db_bench.cc,"leveldb::TrimSpace( Slice s)",11, 50, 2, 0
+repos/cpp/leveldb/db/db_bench.cc,"leveldb::AppendWithSpace( std :: string * str , Slice msg)",7, 59, 0, 0
+repos/cpp/leveldb/db/db_bench.cc,"leveldb::Stats::Stats()",1, 23, 2, 0
+repos/cpp/leveldb/db/db_bench.cc,"leveldb::Stats::Start()",11, 33, 4, 0
+repos/cpp/leveldb/db/db_bench.cc,"leveldb::Stats::Merge( const Stats & other)",11, 58, 4, 0
+repos/cpp/leveldb/db/db_bench.cc,"leveldb::Stats::Stop()",4, 42, 4, 0
+repos/cpp/leveldb/db/db_bench.cc,"leveldb::Stats::AddMessage( Slice msg)",3, 37, 4, 0
+repos/cpp/leveldb/db/db_bench.cc,"leveldb::Stats::FinishedSingleOp()",25, 67, 8, 0
+repos/cpp/leveldb/db/db_bench.cc,"leveldb::Stats::AddBytes( int64_t n)",3, 29, 2, 0
+repos/cpp/leveldb/db/db_bench.cc,"leveldb::Stats::Report( const Slice & name)",27, 79, 6, 0
+repos/cpp/leveldb/db/db_bench.cc,"leveldb::SharedState::SharedState( int total)",2, 81, 6, 0
+repos/cpp/leveldb/db/db_bench.cc,"leveldb::ThreadState::ThreadState( int index)",4, 29, 8, 0
+repos/cpp/leveldb/db/db_bench.cc,"leveldb::Benchmark::PrintHeader()",17, 81, 12, 0
+repos/cpp/leveldb/db/db_bench.cc,"leveldb::Benchmark::PrintWarnings()",20, 81, 12, 0
+repos/cpp/leveldb/db/db_bench.cc,"leveldb::Benchmark::PrintEnvironment()",34, 77, 4, 0
+repos/cpp/leveldb/db/db_bench.cc,"leveldb::Benchmark::Benchmark()",22, 77, 2, 0
+repos/cpp/leveldb/db/db_bench.cc,"leveldb::Benchmark::~Benchmark()",5, 27, 4, 0
+repos/cpp/leveldb/db/db_bench.cc,"leveldb::Benchmark::Run()",114, 80, 10, 0
+repos/cpp/leveldb/db/db_bench.cc,"leveldb::Benchmark::ThreadBody( void * v)",27, 54, 4, 0
+repos/cpp/leveldb/db/db_bench.cc,"leveldb::Benchmark::RunBenchmark( int n , Slice name , void(Benchmark::*method)(ThreadState*))",36, 63, 20, 0
+repos/cpp/leveldb/db/db_bench.cc,"leveldb::Benchmark::Crc32c( ThreadState * thread)",18, 71, 4, 0
+repos/cpp/leveldb/db/db_bench.cc,"leveldb::Benchmark::SnappyCompress( ThreadState * thread)",24, 75, 6, 0
+repos/cpp/leveldb/db/db_bench.cc,"leveldb::Benchmark::SnappyUncompress( ThreadState * thread)",21, 78, 4, 0
+repos/cpp/leveldb/db/db_bench.cc,"leveldb::Benchmark::Open()",18, 65, 6, 0
+repos/cpp/leveldb/db/db_bench.cc,"leveldb::Benchmark::OpenBench( ThreadState * thread)",7, 40, 2, 0
+repos/cpp/leveldb/db/db_bench.cc,"leveldb::Benchmark::WriteSeq( ThreadState * thread)",3, 39, 2, 0
+repos/cpp/leveldb/db/db_bench.cc,"leveldb::Benchmark::WriteRandom( ThreadState * thread)",3, 42, 2, 0
+repos/cpp/leveldb/db/db_bench.cc,"leveldb::Benchmark::DoWrite( ThreadState * thread , bool seq)",29, 69, 8, 0
+repos/cpp/leveldb/db/db_bench.cc,"leveldb::Benchmark::ReadSequential( ThreadState * thread)",12, 75, 4, 0
+repos/cpp/leveldb/db/db_bench.cc,"leveldb::Benchmark::ReadReverse( ThreadState * thread)",12, 74, 4, 0
+repos/cpp/leveldb/db/db_bench.cc,"leveldb::Benchmark::ReadRandom( ThreadState * thread)",17, 65, 4, 0
+repos/cpp/leveldb/db/db_bench.cc,"leveldb::Benchmark::ReadMissing( ThreadState * thread)",11, 53, 6, 0
+repos/cpp/leveldb/db/db_bench.cc,"leveldb::Benchmark::ReadHot( ThreadState * thread)",12, 49, 6, 0
+repos/cpp/leveldb/db/db_bench.cc,"leveldb::Benchmark::SeekRandom( ThreadState * thread)",17, 65, 4, 0
+repos/cpp/leveldb/db/db_bench.cc,"leveldb::Benchmark::DoDelete( ThreadState * thread , bool seq)",20, 69, 8, 0
+repos/cpp/leveldb/db/db_bench.cc,"leveldb::Benchmark::DeleteSeq( ThreadState * thread)",3, 40, 2, 0
+repos/cpp/leveldb/db/db_bench.cc,"leveldb::Benchmark::DeleteRandom( ThreadState * thread)",3, 43, 2, 0
+repos/cpp/leveldb/db/db_bench.cc,"leveldb::Benchmark::ReadWhileWriting( ThreadState * thread)",29, 81, 10, 0
+repos/cpp/leveldb/db/db_bench.cc,"leveldb::Benchmark::Compact( ThreadState * thread)",3, 41, 4, 0
+repos/cpp/leveldb/db/db_bench.cc,"leveldb::Benchmark::PrintStats( const char * key)",7, 46, 4, 0
+repos/cpp/leveldb/db/db_bench.cc,"leveldb::Benchmark::WriteToFile( void * arg , const char * buf , int n)",3, 65, 4, 0
+repos/cpp/leveldb/db/db_bench.cc,"leveldb::Benchmark::HeapProfile()",16, 79, 4, 0
+repos/cpp/leveldb/db/db_bench.cc,"main( int argc , char ** argv)",65, 79, 4, 0
+repos/cpp/leveldb/db/filename.cc,"leveldb::MakeFileName( const std :: string & dbname , uint64_t number , const char * suffix)",8, 76, 0, 0
+repos/cpp/leveldb/db/filename.cc,"leveldb::LogFileName( const std :: string & dbname , uint64_t number)",4, 70, 0, 0
+repos/cpp/leveldb/db/filename.cc,"leveldb::TableFileName( const std :: string & dbname , uint64_t number)",4, 72, 0, 0
+repos/cpp/leveldb/db/filename.cc,"leveldb::SSTTableFileName( const std :: string & dbname , uint64_t number)",4, 75, 0, 0
+repos/cpp/leveldb/db/filename.cc,"leveldb::DescriptorFileName( const std :: string & dbname , uint64_t number)",7, 77, 0, 0
+repos/cpp/leveldb/db/filename.cc,"leveldb::CurrentFileName( const std :: string & dbname)",3, 57, 0, 0
+repos/cpp/leveldb/db/filename.cc,"leveldb::LockFileName( const std :: string & dbname)",3, 54, 0, 0
+repos/cpp/leveldb/db/filename.cc,"leveldb::TempFileName( const std :: string & dbname , uint64_t number)",4, 71, 0, 0
+repos/cpp/leveldb/db/filename.cc,"leveldb::InfoLogFileName( const std :: string & dbname)",3, 57, 0, 0
+repos/cpp/leveldb/db/filename.cc,"leveldb::OldInfoLogFileName( const std :: string & dbname)",3, 60, 0, 0
+repos/cpp/leveldb/db/filename.cc,"leveldb::ParseFileName( const std :: string & filename , uint64_t * number , FileType * type)",45, 69, 4, 0
+repos/cpp/leveldb/db/filename.cc,"leveldb::SetCurrentFile( Env * env , const std :: string & dbname , uint64_t descriptor_number)",17, 74, 2, 0
+repos/cpp/leveldb/db/fault_injection_test.cc,"leveldb::GetDirName( const std :: string & filename)",8, 61, 0, 0
+repos/cpp/leveldb/db/fault_injection_test.cc,"leveldb::SyncDir( const std :: string & dir)",4, 76, 2, 0
+repos/cpp/leveldb/db/fault_injection_test.cc,"leveldb::Truncate( const std :: string & filename , uint64_t length)",31, 67, 4, 0
+repos/cpp/leveldb/db/fault_injection_test.cc,"leveldb::FileState::FileState( const std :: string & filename)",5, 41, 2, 0
+repos/cpp/leveldb/db/fault_injection_test.cc,"leveldb::FileState::FileState()",1, 75, 2, 0
+repos/cpp/leveldb/db/fault_injection_test.cc,"leveldb::FileState::IsFullySynced() const",1, 80, 2, 0
+repos/cpp/leveldb/db/fault_injection_test.cc,"leveldb::FaultInjectionTestEnv::FaultInjectionTestEnv()",2, 64, 6, 0
+repos/cpp/leveldb/db/fault_injection_test.cc,"leveldb::FaultInjectionTestEnv::~FaultInjectionTestEnv()",1, 39, 2, 0
+repos/cpp/leveldb/db/fault_injection_test.cc,"leveldb::FaultInjectionTestEnv::LOCKS_EXCLUDED( mutex_)",4, 53, 2, 0
+repos/cpp/leveldb/db/fault_injection_test.cc,"leveldb::FaultInjectionTestEnv::LOCKS_EXCLUDED( mutex_)",4, 65, 2, 0
+repos/cpp/leveldb/db/fault_injection_test.cc,"leveldb::TestWritableFile::TestWritableFile( const FileState & state , WritableFile * f , FaultInjectionTestEnv * env)",9, 63, 35, 0
+repos/cpp/leveldb/db/fault_injection_test.cc,"leveldb::TestWritableFile::~TestWritableFile()",6, 40, 0, 0
+repos/cpp/leveldb/db/fault_injection_test.cc,"leveldb::TestWritableFile::Append( const Slice & data)",7, 53, 0, 0
+repos/cpp/leveldb/db/fault_injection_test.cc,"leveldb::TestWritableFile::Close()",8, 38, 4, 0
+repos/cpp/leveldb/db/fault_injection_test.cc,"leveldb::TestWritableFile::Flush()",7, 46, 2, 0
+repos/cpp/leveldb/db/fault_injection_test.cc,"leveldb::TestWritableFile::SyncParent()",7, 52, 2, 0
+repos/cpp/leveldb/db/fault_injection_test.cc,"leveldb::TestWritableFile::Sync()",17, 73, 2, 0
+repos/cpp/leveldb/db/fault_injection_test.cc,"leveldb::FaultInjectionTestEnv::NewWritableFile( const std :: string & fname , WritableFile ** result)",17, 72, 0, 0
+repos/cpp/leveldb/db/fault_injection_test.cc,"leveldb::FaultInjectionTestEnv::NewAppendableFile( const std :: string & fname , WritableFile ** result)",19, 74, 0, 0
+repos/cpp/leveldb/db/fault_injection_test.cc,"leveldb::FaultInjectionTestEnv::DropUnsyncedFileData()",13, 61, 2, 0
+repos/cpp/leveldb/db/fault_injection_test.cc,"leveldb::FaultInjectionTestEnv::DirWasSynced()",4, 45, 0, 0
+repos/cpp/leveldb/db/fault_injection_test.cc,"leveldb::FaultInjectionTestEnv::IsFileCreatedSinceLastDirSync( const std :: string & filename)",6, 59, 0, 0
+repos/cpp/leveldb/db/fault_injection_test.cc,"leveldb::FaultInjectionTestEnv::UntrackFile( const std :: string & f)",5, 64, 0, 0
+repos/cpp/leveldb/db/fault_injection_test.cc,"leveldb::FaultInjectionTestEnv::DeleteFile( const std :: string & f)",8, 65, 0, 0
+repos/cpp/leveldb/db/fault_injection_test.cc,"leveldb::FaultInjectionTestEnv::RenameFile( const std :: string & s , const std :: string & t)",20, 65, 41, 0
+repos/cpp/leveldb/db/fault_injection_test.cc,"leveldb::FaultInjectionTestEnv::ResetState()",6, 72, 2, 0
+repos/cpp/leveldb/db/fault_injection_test.cc,"leveldb::FaultInjectionTestEnv::DeleteFilesCreatedAfterLastDirSync()",13, 76, 2, 0
+repos/cpp/leveldb/db/fault_injection_test.cc,"leveldb::FaultInjectionTestEnv::WritableFileClosed( const FileState & state)",4, 73, 0, 0
+repos/cpp/leveldb/db/fault_injection_test.cc,"leveldb::FileState::DropUnsyncedData() const",4, 70, 2, 0
+repos/cpp/leveldb/db/fault_injection_test.cc,"leveldb::FaultInjectionTest::FaultInjectionTest()",12, 71, 4, 0
+repos/cpp/leveldb/db/fault_injection_test.cc,"leveldb::FaultInjectionTest::~FaultInjectionTest()",6, 35, 4, 0
+repos/cpp/leveldb/db/fault_injection_test.cc,"leveldb::FaultInjectionTest::ReuseLogs( bool reuse)",3, 33, 4, 0
+repos/cpp/leveldb/db/fault_injection_test.cc,"leveldb::FaultInjectionTest::Build( int start_idx , int num_vals)",11, 61, 4, 0
+repos/cpp/leveldb/db/fault_injection_test.cc,"leveldb::FaultInjectionTest::ReadValue( int i , std :: string * val) const",7, 52, 2, 0
+repos/cpp/leveldb/db/fault_injection_test.cc,"leveldb::FaultInjectionTest::Verify( int start_idx , int num_vals , ExpectedVerifResult expected) const",21, 71, 4, 0
+repos/cpp/leveldb/db/fault_injection_test.cc,"leveldb::FaultInjectionTest::Key( int i , std :: string * storage) const",6, 49, 2, 0
+repos/cpp/leveldb/db/fault_injection_test.cc,"leveldb::FaultInjectionTest::Value( int k , std :: string * storage) const",4, 56, 4, 0
+repos/cpp/leveldb/db/fault_injection_test.cc,"leveldb::FaultInjectionTest::OpenDB()",6, 46, 4, 0
+repos/cpp/leveldb/db/fault_injection_test.cc,"leveldb::FaultInjectionTest::CloseDB()",4, 19, 2, 0
+repos/cpp/leveldb/db/fault_injection_test.cc,"leveldb::FaultInjectionTest::DeleteAllData()",9, 61, 4, 0
+repos/cpp/leveldb/db/fault_injection_test.cc,"leveldb::FaultInjectionTest::ResetDBState( ResetMethod reset_method)",12, 63, 8, 0
+repos/cpp/leveldb/db/fault_injection_test.cc,"leveldb::FaultInjectionTest::PartialCompactTestPreFault( int num_pre_sync , int num_post_sync)",6, 73, 2, 0
+repos/cpp/leveldb/db/fault_injection_test.cc,"leveldb::FaultInjectionTest::PartialCompactTestReopenWithFault( ResetMethod reset_method , int num_pre_sync , int num_post_sync)",10, 90, 4, 0
+repos/cpp/leveldb/db/fault_injection_test.cc,"leveldb::FaultInjectionTest::NoWriteTestPreFault()",2, 31, 2, 0
+repos/cpp/leveldb/db/fault_injection_test.cc,"leveldb::FaultInjectionTest::NoWriteTestReopenWithFault( ResetMethod reset_method)",5, 62, 2, 0
+repos/cpp/leveldb/db/fault_injection_test.cc,"leveldb::FaultInjectionTest::DoTest()",26, 77, 6, 0
+repos/cpp/leveldb/db/fault_injection_test.cc,"leveldb::TEST( FaultInjectionTest , FaultTestNoLogReuse)",4, 48, 0, 0
+repos/cpp/leveldb/db/fault_injection_test.cc,"leveldb::TEST( FaultInjectionTest , FaultTestWithLogReuse)",4, 50, 0, 0
+repos/cpp/leveldb/db/fault_injection_test.cc,"main( int argc , char ** argv)",3, 39, 2, 0
+repos/cpp/leveldb/db/table_cache.cc,"leveldb::DeleteEntry( const Slice & key , void * value)",6, 61, 2, 0
+repos/cpp/leveldb/db/table_cache.cc,"leveldb::UnrefEntry( void * arg1 , void * arg2)",5, 61, 2, 0
+repos/cpp/leveldb/db/table_cache.cc,"leveldb::TableCache::TableCache( const std :: string & dbname , const Options & options , int entries)",8, 50, 0, 0
+repos/cpp/leveldb/db/table_cache.cc,"leveldb::TableCache::~TableCache()",3, 28, 0, 0
+repos/cpp/leveldb/db/table_cache.cc,"leveldb::TableCache::FindTable( uint64_t file_number , uint64_t file_size , Cache :: Handle ** handle)",36, 74, 6, 0
+repos/cpp/leveldb/db/table_cache.cc,"leveldb::TableCache::NewIterator( const ReadOptions & options , uint64_t file_number , uint64_t file_size , Table ** tableptr)",22, 80, 2, 0
+repos/cpp/leveldb/db/table_cache.cc,"leveldb::TableCache::Get( const ReadOptions & options , uint64_t file_number , uint64_t file_size , const Slice & k , void * arg , void(*saver)(void*,const Slice&,const Slice&))",15, 78, 4, 0
+repos/cpp/leveldb/db/table_cache.cc,"leveldb::TableCache::Evict( uint64_t file_number)",5, 47, 0, 0
+repos/cpp/leveldb/db/log_reader.cc,"leveldb::log::Reader::Reporter::~Reporter()",2, 32, 0, 0
+repos/cpp/leveldb/db/log_reader.cc,"leveldb::log::Reader::Reader( SequentialFile * file , Reporter * reporter , bool checksum , uint64_t initial_offset)",13, 72, 0, 0
+repos/cpp/leveldb/db/log_reader.cc,"leveldb::log::Reader::~Reader()",3, 27, 2, 0
+repos/cpp/leveldb/db/log_reader.cc,"leveldb::log::Reader::SkipToInitialBlock()",22, 70, 2, 0
+repos/cpp/leveldb/db/log_reader.cc,"leveldb::log::Reader::ReadRecord( Slice * record , std :: string * scratch)",119, 80, 8, 0
+repos/cpp/leveldb/db/log_reader.cc,"leveldb::log::Reader::LastRecordOffset()",3, 38, 0, 0
+repos/cpp/leveldb/db/log_reader.cc,"leveldb::log::Reader::ReportCorruption( uint64_t bytes , const char * reason)",3, 68, 0, 0
+repos/cpp/leveldb/db/log_reader.cc,"leveldb::log::Reader::ReportDrop( uint64_t bytes , const Status & reason)",6, 75, 6, 0
+repos/cpp/leveldb/db/log_reader.cc,"leveldb::log::Reader::ReadPhysicalRecord( Slice * result)",83, 81, 6, 0
+repos/cpp/leveldb/db/write_batch.cc,"leveldb::WriteBatch::WriteBatch()",3, 27, 0, 0
+repos/cpp/leveldb/db/write_batch.cc,"leveldb::WriteBatch::~WriteBatch()",1, 30, 0, 0
+repos/cpp/leveldb/db/write_batch.cc,"leveldb::WriteBatch::Handler::~Handler()",1, 36, 0, 0
+repos/cpp/leveldb/db/write_batch.cc,"leveldb::WriteBatch::Clear()",4, 27, 0, 0
+repos/cpp/leveldb/db/write_batch.cc,"leveldb::WriteBatch::ApproximateSize() const",3, 45, 0, 0
+repos/cpp/leveldb/db/write_batch.cc,"leveldb::WriteBatch::Iterate( Handler * handler) const",39, 67, 4, 0
+repos/cpp/leveldb/db/write_batch.cc,"leveldb::WriteBatchInternal::Count( const WriteBatch * b)",3, 53, 0, 0
+repos/cpp/leveldb/db/write_batch.cc,"leveldb::WriteBatchInternal::SetCount( WriteBatch * b , int n)",3, 58, 0, 0
+repos/cpp/leveldb/db/write_batch.cc,"leveldb::WriteBatchInternal::Sequence( const WriteBatch * b)",3, 67, 0, 0
+repos/cpp/leveldb/db/write_batch.cc,"leveldb::WriteBatchInternal::SetSequence( WriteBatch * b , SequenceNumber seq)",3, 74, 0, 0
+repos/cpp/leveldb/db/write_batch.cc,"leveldb::WriteBatch::Put( const Slice & key , const Slice & value)",6, 75, 2, 0
+repos/cpp/leveldb/db/write_batch.cc,"leveldb::WriteBatch::Delete( const Slice & key)",5, 75, 2, 0
+repos/cpp/leveldb/db/write_batch.cc,"leveldb::WriteBatch::Append( const WriteBatch & source)",3, 52, 0, 0
+repos/cpp/leveldb/db/write_batch.cc,"leveldb::MemTableInserter::Put( const Slice & key , const Slice & value)",4, 59, 2, 0
+repos/cpp/leveldb/db/write_batch.cc,"leveldb::MemTableInserter::Delete( const Slice & key)",4, 55, 4, 0
+repos/cpp/leveldb/db/write_batch.cc,"leveldb::WriteBatchInternal::InsertInto( const WriteBatch * b , MemTable * memtable)",7, 60, 38, 0
+repos/cpp/leveldb/db/write_batch.cc,"leveldb::WriteBatchInternal::SetContents( WriteBatch * b , const Slice & contents)",4, 77, 0, 0
+repos/cpp/leveldb/db/write_batch.cc,"leveldb::WriteBatchInternal::Append( WriteBatch * dst , const WriteBatch * src)",5, 76, 2, 0
+repos/cpp/leveldb/db/c.cc,"leveldb_comparator_t::~leveldb_comparator_t()",3, 36, 2, 0
+repos/cpp/leveldb/db/c.cc,"leveldb_comparator_t::Compare( const Slice & a , const Slice & b) const",3, 72, 4, 0
+repos/cpp/leveldb/db/c.cc,"leveldb_comparator_t::Name() const",3, 37, 2, 0
+repos/cpp/leveldb/db/c.cc,"leveldb_comparator_t::FindShortestSeparator( std :: string * , const Slice &) const",1, 75, 2, 0
+repos/cpp/leveldb/db/c.cc,"leveldb_comparator_t::FindShortSuccessor( std :: string * key) const",1, 62, 2, 0
+repos/cpp/leveldb/db/c.cc,"leveldb_filterpolicy_t::~leveldb_filterpolicy_t()",3, 38, 2, 0
+repos/cpp/leveldb/db/c.cc,"leveldb_filterpolicy_t::Name() const",3, 37, 2, 0
+repos/cpp/leveldb/db/c.cc,"leveldb_filterpolicy_t::CreateFilter( const Slice * keys , int n , std :: string * dst) const",12, 81, 4, 0
+repos/cpp/leveldb/db/c.cc,"leveldb_filterpolicy_t::KeyMayMatch( const Slice & key , const Slice & filter) const",4, 74, 2, 0
+repos/cpp/leveldb/db/c.cc,"SaveError( char ** errptr , const Status & s)",13, 56, 0, 0
+repos/cpp/leveldb/db/c.cc,"CopyString( const std :: string & str)",5, 77, 2, 0
+repos/cpp/leveldb/db/c.cc,"leveldb_open( const leveldb_options_t * options , const char * name , char ** errptr)",12, 75, 2, 0
+repos/cpp/leveldb/db/c.cc,"leveldb_close( leveldb_t * db)",4, 36, 0, 0
+repos/cpp/leveldb/db/c.cc,"leveldb_put( leveldb_t * db , const leveldb_writeoptions_t * options , const char * key , size_t keylen , const char * val , size_t vallen , char ** errptr)",9, 81, 12, 0
+repos/cpp/leveldb/db/c.cc,"leveldb_delete( leveldb_t * db , const leveldb_writeoptions_t * options , const char * key , size_t keylen , char ** errptr)",7, 72, 2, 0
+repos/cpp/leveldb/db/c.cc,"leveldb_write( leveldb_t * db , const leveldb_writeoptions_t * options , leveldb_writebatch_t * batch , char ** errptr)",7, 64, 2, 0
+repos/cpp/leveldb/db/c.cc,"leveldb_get( leveldb_t * db , const leveldb_readoptions_t * options , const char * key , size_t keylen , size_t * vallen , char ** errptr)",20, 67, 2, 0
+repos/cpp/leveldb/db/c.cc,"leveldb_create_iterator( leveldb_t * db , const leveldb_readoptions_t * options)",7, 55, 2, 0
+repos/cpp/leveldb/db/c.cc,"leveldb_create_snapshot( leveldb_t * db)",6, 55, 2, 0
+repos/cpp/leveldb/db/c.cc,"leveldb_release_snapshot( leveldb_t * db , const leveldb_snapshot_t * snapshot)",6, 43, 2, 0
+repos/cpp/leveldb/db/c.cc,"leveldb_property_value( leveldb_t * db , const char * propname)",11, 62, 4, 0
+repos/cpp/leveldb/db/c.cc,"leveldb_approximate_sizes( leveldb_t * db , int num_ranges , const char * const * range_start_key , const size_t * range_start_key_len , const char * const * range_limit_key , const size_t * range_limit_key_len , uint64_t * sizes)",14, 75, 4, 0
+repos/cpp/leveldb/db/c.cc,"leveldb_compact_range( leveldb_t * db , const char * start_key , size_t start_key_len , const char * limit_key , size_t limit_key_len)",10, 74, 6, 0
+repos/cpp/leveldb/db/c.cc,"leveldb_destroy_db( const leveldb_options_t * options , const char * name , char ** errptr)",6, 52, 2, 0
+repos/cpp/leveldb/db/c.cc,"leveldb_repair_db( const leveldb_options_t * options , const char * name , char ** errptr)",6, 51, 2, 0
+repos/cpp/leveldb/db/c.cc,"leveldb_iter_destroy( leveldb_iterator_t * iter)",4, 54, 0, 0
+repos/cpp/leveldb/db/c.cc,"leveldb_iter_valid( const leveldb_iterator_t * iter)",3, 67, 0, 0
+repos/cpp/leveldb/db/c.cc,"leveldb_iter_seek_to_first( leveldb_iterator_t * iter)",3, 60, 0, 0
+repos/cpp/leveldb/db/c.cc,"leveldb_iter_seek_to_last( leveldb_iterator_t * iter)",3, 59, 0, 0
+repos/cpp/leveldb/db/c.cc,"leveldb_iter_seek( leveldb_iterator_t * iter , const char * k , size_t klen)",3, 79, 0, 0
+repos/cpp/leveldb/db/c.cc,"leveldb_iter_next( leveldb_iterator_t * iter)",3, 51, 0, 0
+repos/cpp/leveldb/db/c.cc,"leveldb_iter_prev( leveldb_iterator_t * iter)",3, 51, 0, 0
+repos/cpp/leveldb/db/c.cc,"leveldb_iter_key( const leveldb_iterator_t * iter , size_t * klen)",5, 77, 0, 0
+repos/cpp/leveldb/db/c.cc,"leveldb_iter_value( const leveldb_iterator_t * iter , size_t * vlen)",5, 79, 0, 0
+repos/cpp/leveldb/db/c.cc,"leveldb_iter_get_error( const leveldb_iterator_t * iter , char ** errptr)",3, 77, 0, 0
+repos/cpp/leveldb/db/c.cc,"leveldb_writebatch_create()",3, 52, 0, 0
+repos/cpp/leveldb/db/c.cc,"leveldb_writebatch_destroy( leveldb_writebatch_t * b)",3, 59, 0, 0
+repos/cpp/leveldb/db/c.cc,"leveldb_writebatch_clear( leveldb_writebatch_t * b)",3, 57, 0, 0
+repos/cpp/leveldb/db/c.cc,"leveldb_writebatch_put( leveldb_writebatch_t * b , const char * key , size_t klen , const char * val , size_t vlen)",6, 50, 2, 0
+repos/cpp/leveldb/db/c.cc,"leveldb_writebatch_delete( leveldb_writebatch_t * b , const char * key , size_t klen)",5, 36, 4, 0
+repos/cpp/leveldb/db/c.cc,"leveldb_writebatch_iterate( const leveldb_writebatch_t * b , void * state , void(*put)(void*,const char*k,size_t klen,const char*v,size_t vlen) , void(*deleted)(void*,const char*k,size_t klen))",23, 81, 4, 0
+repos/cpp/leveldb/db/c.cc,"leveldb_writebatch_append( leveldb_writebatch_t * destination , const leveldb_writebatch_t * source)",4, 69, 31, 0
+repos/cpp/leveldb/db/c.cc,"leveldb_options_create()",3, 46, 0, 0
+repos/cpp/leveldb/db/c.cc,"leveldb_options_destroy( leveldb_options_t * options)",3, 59, 0, 0
+repos/cpp/leveldb/db/c.cc,"leveldb_options_set_comparator( leveldb_options_t * opt , leveldb_comparator_t * cmp)",5, 37, 0, 0
+repos/cpp/leveldb/db/c.cc,"leveldb_options_set_filter_policy( leveldb_options_t * opt , leveldb_filterpolicy_t * policy)",5, 40, 0, 0
+repos/cpp/leveldb/db/c.cc,"leveldb_options_set_create_if_missing( leveldb_options_t * opt , unsigned char v)",4, 47, 4, 0
+repos/cpp/leveldb/db/c.cc,"leveldb_options_set_error_if_exists( leveldb_options_t * opt , unsigned char v)",4, 47, 4, 0
+repos/cpp/leveldb/db/c.cc,"leveldb_options_set_paranoid_checks( leveldb_options_t * opt , unsigned char v)",4, 47, 4, 0
+repos/cpp/leveldb/db/c.cc,"leveldb_options_set_env( leveldb_options_t * opt , leveldb_env_t * env)",3, 75, 0, 0
+repos/cpp/leveldb/db/c.cc,"leveldb_options_set_info_log( leveldb_options_t * opt , leveldb_logger_t * l)",3, 81, 0, 0
+repos/cpp/leveldb/db/c.cc,"leveldb_options_set_write_buffer_size( leveldb_options_t * opt , size_t s)",3, 79, 0, 0
+repos/cpp/leveldb/db/c.cc,"leveldb_options_set_max_open_files( leveldb_options_t * opt , int n)",3, 73, 0, 0
+repos/cpp/leveldb/db/c.cc,"leveldb_options_set_cache( leveldb_options_t * opt , leveldb_cache_t * c)",3, 77, 0, 0
+repos/cpp/leveldb/db/c.cc,"leveldb_options_set_block_size( leveldb_options_t * opt , size_t s)",3, 72, 0, 0
+repos/cpp/leveldb/db/c.cc,"leveldb_options_set_block_restart_interval( leveldb_options_t * opt , int n)",3, 81, 0, 0
+repos/cpp/leveldb/db/c.cc,"leveldb_options_set_max_file_size( leveldb_options_t * opt , size_t s)",3, 75, 0, 0
+repos/cpp/leveldb/db/c.cc,"leveldb_options_set_compression( leveldb_options_t * opt , int t)",3, 70, 0, 0
+repos/cpp/leveldb/db/c.cc,"leveldb_comparator_create( void * state , void(*destructor)(void*) , int(*compare)(void*,const char*a,size_t alen,const char*b,size_t blen) , const char *(*name)(void*))",15, 59, 2, 0
+repos/cpp/leveldb/db/c.cc,"leveldb_comparator_destroy( leveldb_comparator_t * cmp)",3, 61, 0, 0
+repos/cpp/leveldb/db/c.cc,"leveldb_filterpolicy_create( void * state , void(*destructor)(void*) , char *(*create_filter)(void*,const char*const*key_array,const size_t*key_length_array,int num_keys,size_t*filter_length) , unsigned char(*key_may_match)(void*,const char*key,size_t length,const char*filter,size_t filter_length) , const char *(*name)(void*))",21, 70, 8, 0
+repos/cpp/leveldb/db/c.cc,"leveldb_filterpolicy_destroy( leveldb_filterpolicy_t * filter)",3, 68, 0, 0
+repos/cpp/leveldb/db/c.cc,"leveldb_filterpolicy_create_bloom( int bits_per_key)",22, 78, 0, 0
+repos/cpp/leveldb/db/c.cc,"leveldb_readoptions_create()",3, 54, 0, 0
+repos/cpp/leveldb/db/c.cc,"leveldb_readoptions_destroy( leveldb_readoptions_t * opt)",3, 63, 0, 0
+repos/cpp/leveldb/db/c.cc,"leveldb_readoptions_set_verify_checksums( leveldb_readoptions_t * opt , unsigned char v)",5, 47, 0, 0
+repos/cpp/leveldb/db/c.cc,"leveldb_readoptions_set_fill_cache( leveldb_readoptions_t * opt , unsigned char v)",4, 51, 4, 0
+repos/cpp/leveldb/db/c.cc,"leveldb_readoptions_set_snapshot( leveldb_readoptions_t * opt , const leveldb_snapshot_t * snap)",5, 52, 2, 0
+repos/cpp/leveldb/db/c.cc,"leveldb_writeoptions_create()",3, 56, 0, 0
+repos/cpp/leveldb/db/c.cc,"leveldb_writeoptions_destroy( leveldb_writeoptions_t * opt)",3, 65, 0, 0
+repos/cpp/leveldb/db/c.cc,"leveldb_writeoptions_set_sync( leveldb_writeoptions_t * opt , unsigned char v)",4, 52, 4, 0
+repos/cpp/leveldb/db/c.cc,"leveldb_cache_create_lru( size_t capacity)",5, 61, 0, 0
+repos/cpp/leveldb/db/c.cc,"leveldb_cache_destroy( leveldb_cache_t * cache)",4, 53, 0, 0
+repos/cpp/leveldb/db/c.cc,"leveldb_create_default_env()",6, 46, 0, 0
+repos/cpp/leveldb/db/c.cc,"leveldb_env_destroy( leveldb_env_t * env)",4, 47, 0, 0
+repos/cpp/leveldb/db/c.cc,"leveldb_env_get_test_directory( leveldb_env_t * env)",11, 64, 2, 0
+repos/cpp/leveldb/db/c.cc,"leveldb_free( void * ptr)",3, 31, 0, 0
+repos/cpp/leveldb/db/c.cc,"leveldb_major_version()",3, 30, 0, 0
+repos/cpp/leveldb/db/c.cc,"leveldb_minor_version()",3, 30, 0, 0
+repos/cpp/leveldb/db/recovery_test.cc,"leveldb::RecoveryTest::RecoveryTest()",5, 56, 2, 0
+repos/cpp/leveldb/db/recovery_test.cc,"leveldb::RecoveryTest::~RecoveryTest()",4, 35, 4, 0
+repos/cpp/leveldb/db/recovery_test.cc,"leveldb::RecoveryTest::dbfull() const",1, 68, 2, 0
+repos/cpp/leveldb/db/recovery_test.cc,"leveldb::RecoveryTest::env() const",1, 36, 2, 0
+repos/cpp/leveldb/db/recovery_test.cc,"leveldb::RecoveryTest::CanAppend()",10, 72, 4, 0
+repos/cpp/leveldb/db/recovery_test.cc,"leveldb::RecoveryTest::Close()",4, 19, 4, 0
+repos/cpp/leveldb/db/recovery_test.cc,"leveldb::RecoveryTest::OpenWithStatus( Options * options = nullptr)",14, 63, 6, 0
+repos/cpp/leveldb/db/recovery_test.cc,"leveldb::RecoveryTest::Open( Options * options = nullptr)",4, 42, 2, 0
+repos/cpp/leveldb/db/recovery_test.cc,"leveldb::RecoveryTest::Put( const std :: string & k , const std :: string & v)",3, 59, 2, 0
+repos/cpp/leveldb/db/recovery_test.cc,"leveldb::RecoveryTest::Get( const std :: string & k , const Snapshot * snapshot = nullptr)",10, 78, 2, 0
+repos/cpp/leveldb/db/recovery_test.cc,"leveldb::RecoveryTest::ManifestFileName()",9, 75, 4, 0
+repos/cpp/leveldb/db/recovery_test.cc,"leveldb::RecoveryTest::LogName( uint64_t number)",3, 41, 2, 0
+repos/cpp/leveldb/db/recovery_test.cc,"leveldb::RecoveryTest::DeleteLogFiles()",10, 73, 6, 0
+repos/cpp/leveldb/db/recovery_test.cc,"leveldb::RecoveryTest::DeleteManifestFile()",3, 53, 4, 0
+repos/cpp/leveldb/db/recovery_test.cc,"leveldb::RecoveryTest::FirstLogFile()",3, 34, 4, 0
+repos/cpp/leveldb/db/recovery_test.cc,"leveldb::RecoveryTest::GetFiles( FileType t)",13, 70, 6, 0
+repos/cpp/leveldb/db/recovery_test.cc,"leveldb::RecoveryTest::NumLogs()",3, 38, 4, 0
+repos/cpp/leveldb/db/recovery_test.cc,"leveldb::RecoveryTest::NumTables()",3, 40, 4, 0
+repos/cpp/leveldb/db/recovery_test.cc,"leveldb::RecoveryTest::FileSize( const std :: string & fname)",5, 59, 4, 0
+repos/cpp/leveldb/db/recovery_test.cc,"leveldb::RecoveryTest::CompactMemTable()",3, 38, 4, 0
+repos/cpp/leveldb/db/recovery_test.cc,"leveldb::RecoveryTest::MakeLogFile( uint64_t lognum , SequenceNumber seq , Slice key , Slice val)",12, 80, 2, 0
+repos/cpp/leveldb/db/recovery_test.cc,"leveldb::TEST( RecoveryTest , ManifestReused)",15, 79, 4, 0
+repos/cpp/leveldb/db/recovery_test.cc,"leveldb::TEST( RecoveryTest , LargeManifestCompacted)",30, 79, 4, 0
+repos/cpp/leveldb/db/recovery_test.cc,"leveldb::TEST( RecoveryTest , NoLogFiles)",8, 38, 2, 0
+repos/cpp/leveldb/db/recovery_test.cc,"leveldb::TEST( RecoveryTest , LogFileReuse)",29, 79, 4, 0
+repos/cpp/leveldb/db/recovery_test.cc,"leveldb::TEST( RecoveryTest , MultipleMemTables)",28, 77, 2, 0
+repos/cpp/leveldb/db/recovery_test.cc,"leveldb::TEST( RecoveryTest , MultipleLogFiles)",45, 79, 2, 0
+repos/cpp/leveldb/db/recovery_test.cc,"leveldb::TEST( RecoveryTest , ManifestMissing)",8, 38, 0, 0
+repos/cpp/leveldb/db/recovery_test.cc,"main( int argc , char ** argv)",3, 39, 2, 0
+repos/cpp/leveldb/db/builder.cc,"leveldb::BuildTable( const std :: string & dbname , Env * env , const Options & options , TableCache * table_cache , Iterator * iter , FileMetaData * meta)",66, 64, 46, 0
+repos/cpp/leveldb/db/version_edit.cc,"leveldb::VersionEdit::Clear()",14, 33, 2, 0
+repos/cpp/leveldb/db/version_edit.cc,"leveldb::VersionEdit::EncodeTo( std :: string * dst) const",46, 71, 4, 0
+repos/cpp/leveldb/db/version_edit.cc,"leveldb::GetInternalKey( Slice * input , InternalKey * dst)",9, 61, 0, 0
+repos/cpp/leveldb/db/version_edit.cc,"leveldb::GetLevel( Slice * input , int * level)",10, 49, 0, 0
+repos/cpp/leveldb/db/version_edit.cc,"leveldb::VersionEdit::DecodeFrom( const Slice & src)",102, 67, 10, 0
+repos/cpp/leveldb/db/version_edit.cc,"leveldb::VersionEdit::DebugString() const",53, 69, 2, 0
+repos/cpp/leveldb/db/skiplist_test.cc,"leveldb::Comparator::operator ( )( const Key & a , const Key & b) const",9, 53, 2, 0
+repos/cpp/leveldb/db/skiplist_test.cc,"leveldb::TEST( SkipTest , Empty)",15, 51, 2, 0
+repos/cpp/leveldb/db/skiplist_test.cc,"leveldb::TEST( SkipTest , InsertAndLookup)",77, 69, 4, 0
+repos/cpp/leveldb/db/skiplist_test.cc,"leveldb::ConcurrentTest::key( Key key)",1, 55, 2, 0
+repos/cpp/leveldb/db/skiplist_test.cc,"leveldb::ConcurrentTest::gen( Key key)",1, 68, 2, 0
+repos/cpp/leveldb/db/skiplist_test.cc,"leveldb::ConcurrentTest::hash( Key key)",1, 55, 2, 0
+repos/cpp/leveldb/db/skiplist_test.cc,"leveldb::ConcurrentTest::HashNumbers( uint64_t k , uint64_t g)",4, 65, 4, 0
+repos/cpp/leveldb/db/skiplist_test.cc,"leveldb::ConcurrentTest::MakeKey( uint64_t k , uint64_t g)",6, 79, 4, 0
+repos/cpp/leveldb/db/skiplist_test.cc,"leveldb::ConcurrentTest::IsValidKey( Key k)",3, 60, 4, 0
+repos/cpp/leveldb/db/skiplist_test.cc,"leveldb::ConcurrentTest::RandomTarget( Random * rnd)",13, 44, 8, 0
+repos/cpp/leveldb/db/skiplist_test.cc,"leveldb::ConcurrentTest::State::Set( int k , int v)",3, 57, 6, 0
+repos/cpp/leveldb/db/skiplist_test.cc,"leveldb::ConcurrentTest::State::Get( int k)",3, 60, 6, 0
+repos/cpp/leveldb/db/skiplist_test.cc,"leveldb::ConcurrentTest::State::State()",5, 36, 6, 0
+repos/cpp/leveldb/db/skiplist_test.cc,"leveldb::ConcurrentTest::ConcurrentTest()",1, 54, 2, 0
+repos/cpp/leveldb/db/skiplist_test.cc,"leveldb::ConcurrentTest::WriteStep( Random * rnd)",7, 44, 4, 0
+repos/cpp/leveldb/db/skiplist_test.cc,"leveldb::ConcurrentTest::ReadStep( Random * rnd)",58, 79, 20, 0
+repos/cpp/leveldb/db/skiplist_test.cc,"leveldb::TEST( SkipTest , ConcurrentWithoutThreads)",8, 43, 0, 0
+repos/cpp/leveldb/db/skiplist_test.cc,"leveldb::TestState::TestState( int s)",5, 28, 2, 0
+repos/cpp/leveldb/db/skiplist_test.cc,"leveldb::TestState::LOCKS_EXCLUDED( mu_)",7, 49, 2, 0
+repos/cpp/leveldb/db/skiplist_test.cc,"leveldb::TestState::LOCKS_EXCLUDED( mu_)",6, 51, 2, 0
+repos/cpp/leveldb/db/skiplist_test.cc,"leveldb::ConcurrentReader( void * arg)",11, 63, 2, 0
+repos/cpp/leveldb/db/skiplist_test.cc,"leveldb::RunConcurrent( int run)",19, 61, 4, 0
+repos/cpp/leveldb/db/skiplist_test.cc,"leveldb::TEST( SkipTest , Concurrent1)",1, 50, 0, 0
+repos/cpp/leveldb/db/skiplist_test.cc,"leveldb::TEST( SkipTest , Concurrent2)",1, 50, 0, 0
+repos/cpp/leveldb/db/skiplist_test.cc,"leveldb::TEST( SkipTest , Concurrent3)",1, 50, 0, 0
+repos/cpp/leveldb/db/skiplist_test.cc,"leveldb::TEST( SkipTest , Concurrent4)",1, 50, 0, 0
+repos/cpp/leveldb/db/skiplist_test.cc,"leveldb::TEST( SkipTest , Concurrent5)",1, 50, 0, 0
+repos/cpp/leveldb/db/skiplist_test.cc,"main( int argc , char ** argv)",3, 39, 2, 0
+repos/cpp/leveldb/db/corruption_test.cc,"leveldb::CorruptionTest::SetFileLimits( int mmap_limit)",3, 60, 4, 0
+repos/cpp/leveldb/db/corruption_test.cc,"leveldb::CorruptionTest::RelaxFilePermissions()",3, 50, 4, 0
+repos/cpp/leveldb/db/corruption_test.cc,"leveldb::CorruptionTest::CorruptionTest()",12, 51, 4, 0
+repos/cpp/leveldb/db/corruption_test.cc,"leveldb::CorruptionTest::~CorruptionTest()",5, 36, 5, 0
+repos/cpp/leveldb/db/corruption_test.cc,"leveldb::CorruptionTest::TryReopen()",5, 46, 4, 0
+repos/cpp/leveldb/db/corruption_test.cc,"leveldb::CorruptionTest::Reopen()",3, 28, 4, 0
+repos/cpp/leveldb/db/corruption_test.cc,"leveldb::CorruptionTest::RepairDB()",5, 55, 4, 0
+repos/cpp/leveldb/db/corruption_test.cc,"leveldb::CorruptionTest::Build( int n)",17, 81, 6, 0
+repos/cpp/leveldb/db/corruption_test.cc,"leveldb::CorruptionTest::Check( int min_expected , int max_expected)",37, 80, 12, 0
+repos/cpp/leveldb/db/corruption_test.cc,"leveldb::CorruptionTest::Corrupt( FileType filetype , int offset , int bytes_to_corrupt)",49, 70, 2, 0
+repos/cpp/leveldb/db/corruption_test.cc,"leveldb::CorruptionTest::Property( const std :: string & name)",10, 56, 8, 0
+repos/cpp/leveldb/db/corruption_test.cc,"leveldb::CorruptionTest::Key( int i , std :: string * storage)",6, 44, 4, 0
+repos/cpp/leveldb/db/corruption_test.cc,"leveldb::CorruptionTest::Value( int k , std :: string * storage)",4, 56, 4, 0
+repos/cpp/leveldb/db/corruption_test.cc,"leveldb::TEST( CorruptionTest , Recovery)",10, 78, 2, 0
+repos/cpp/leveldb/db/corruption_test.cc,"leveldb::TEST( CorruptionTest , RecoverWriteError)",5, 42, 0, 0
+repos/cpp/leveldb/db/corruption_test.cc,"leveldb::TEST( CorruptionTest , NewFileErrorDuringWrite)",16, 66, 2, 0
+repos/cpp/leveldb/db/corruption_test.cc,"leveldb::TEST( CorruptionTest , TableFile)",10, 48, 2, 0
+repos/cpp/leveldb/db/corruption_test.cc,"leveldb::TEST( CorruptionTest , TableFileRepair)",15, 70, 2, 0
+repos/cpp/leveldb/db/corruption_test.cc,"leveldb::TEST( CorruptionTest , TableFileIndexData)",9, 52, 2, 0
+repos/cpp/leveldb/db/corruption_test.cc,"leveldb::TEST( CorruptionTest , MissingDescriptor)",6, 42, 0, 0
+repos/cpp/leveldb/db/corruption_test.cc,"leveldb::TEST( CorruptionTest , SequenceNumberRecovery)",20, 70, 2, 0
+repos/cpp/leveldb/db/corruption_test.cc,"leveldb::TEST( CorruptionTest , CorruptedDescriptor)",16, 55, 2, 0
+repos/cpp/leveldb/db/corruption_test.cc,"leveldb::TEST( CorruptionTest , CompactionInputError)",14, 79, 2, 0
+repos/cpp/leveldb/db/corruption_test.cc,"leveldb::TEST( CorruptionTest , CompactionInputErrorParanoid)",20, 73, 2, 0
+repos/cpp/leveldb/db/corruption_test.cc,"leveldb::TEST( CorruptionTest , UnrelatedKeys)",15, 77, 2, 0
+repos/cpp/leveldb/db/corruption_test.cc,"main( int argc , char ** argv)",14, 79, 2, 0
+repos/cpp/leveldb/db/dbformat.cc,"leveldb::PackSequenceAndType( uint64_t seq , ValueType t)",5, 65, 0, 0
+repos/cpp/leveldb/db/dbformat.cc,"leveldb::AppendInternalKey( std :: string * result , const ParsedInternalKey & key)",4, 76, 0, 0
+repos/cpp/leveldb/db/dbformat.cc,"leveldb::ParsedInternalKey::DebugString() const",10, 53, 0, 0
+repos/cpp/leveldb/db/dbformat.cc,"leveldb::InternalKey::DebugString() const",11, 47, 0, 0
+repos/cpp/leveldb/db/dbformat.cc,"leveldb::InternalKeyComparator::Name() const",3, 50, 0, 0
+repos/cpp/leveldb/db/dbformat.cc,"leveldb::InternalKeyComparator::Compare( const Slice & akey , const Slice & bkey) const",17, 81, 0, 0
+repos/cpp/leveldb/db/dbformat.cc,"leveldb::InternalKeyComparator::FindShortestSeparator( std :: string * start , const Slice & limit) const",18, 81, 4, 0
+repos/cpp/leveldb/db/dbformat.cc,"leveldb::InternalKeyComparator::FindShortSuccessor( std :: string * key) const",13, 81, 4, 0
+repos/cpp/leveldb/db/dbformat.cc,"leveldb::InternalFilterPolicy::Name() const",3, 49, 0, 0
+repos/cpp/leveldb/db/dbformat.cc,"leveldb::InternalFilterPolicy::CreateFilter( const Slice * keys , int n , std :: string * dst) const",11, 68, 2, 0
+repos/cpp/leveldb/db/dbformat.cc,"leveldb::InternalFilterPolicy::KeyMayMatch( const Slice & key , const Slice & f) const",3, 81, 0, 0
+repos/cpp/leveldb/db/dbformat.cc,"leveldb::LookupKey::LookupKey( const Slice & user_key , SequenceNumber s)",18, 65, 2, 0
+repos/cpp/leveldb/db/filename_test.cc,"leveldb::TEST( FileNameTest , Parse)",60, 71, 4, 0
+repos/cpp/leveldb/db/filename_test.cc,"leveldb::TEST( FileNameTest , Construction)",53, 65, 2, 0
+repos/cpp/leveldb/db/filename_test.cc,"main( int argc , char ** argv)",3, 39, 2, 0
+repos/cpp/leveldb/db/log_test.cc,"leveldb::log::BigString( const std :: string & partial_string , size_t n)",8, 76, 0, 0
+repos/cpp/leveldb/db/log_test.cc,"leveldb::log::NumberString( int n)",5, 41, 0, 0
+repos/cpp/leveldb/db/log_test.cc,"leveldb::log::RandomSkewedString( int i , Random * rnd)",3, 60, 0, 0
+repos/cpp/leveldb/db/log_test.cc,"leveldb::log::LogTest::StringDest::Close()",1, 52, 4, 0
+repos/cpp/leveldb/db/log_test.cc,"leveldb::log::LogTest::StringDest::Flush()",1, 52, 4, 0
+repos/cpp/leveldb/db/log_test.cc,"leveldb::log::LogTest::StringDest::Sync()",1, 51, 4, 0
+repos/cpp/leveldb/db/log_test.cc,"leveldb::log::LogTest::StringDest::Append( const Slice & slice)",4, 52, 6, 0
+repos/cpp/leveldb/db/log_test.cc,"leveldb::log::LogTest::StringSource::StringSource()",1, 71, 4, 0
+repos/cpp/leveldb/db/log_test.cc,"leveldb::log::LogTest::StringSource::Read( size_t n , Slice * result , char * scratch)",17, 76, 6, 0
+repos/cpp/leveldb/db/log_test.cc,"leveldb::log::LogTest::StringSource::Skip( uint64_t n)",10, 68, 8, 0
+repos/cpp/leveldb/db/log_test.cc,"leveldb::log::LogTest::ReportCollector::ReportCollector()",1, 46, 4, 0
+repos/cpp/leveldb/db/log_test.cc,"leveldb::log::LogTest::ReportCollector::Corruption( size_t bytes , const Status & status)",4, 66, 4, 0
+repos/cpp/leveldb/db/log_test.cc,"leveldb::log::LogTest::LogTest()",5, 71, 14, 0
+repos/cpp/leveldb/db/log_test.cc,"leveldb::log::LogTest::~LogTest()",4, 20, 4, 0
+repos/cpp/leveldb/db/log_test.cc,"leveldb::log::LogTest::ReopenForAppend()",4, 58, 4, 0
+repos/cpp/leveldb/db/log_test.cc,"leveldb::log::LogTest::Write( const std :: string & msg)",4, 64, 4, 0
+repos/cpp/leveldb/db/log_test.cc,"leveldb::log::LogTest::WrittenBytes() const",3, 35, 4, 0
+repos/cpp/leveldb/db/log_test.cc,"leveldb::log::LogTest::Read()",13, 50, 6, 0
+repos/cpp/leveldb/db/log_test.cc,"leveldb::log::LogTest::IncrementByte( int offset , int delta)",3, 46, 2, 0
+repos/cpp/leveldb/db/log_test.cc,"leveldb::log::LogTest::SetByte( int offset , char new_byte)",3, 44, 2, 0
+repos/cpp/leveldb/db/log_test.cc,"leveldb::log::LogTest::ShrinkSize( int bytes)",3, 60, 4, 0
+repos/cpp/leveldb/db/log_test.cc,"leveldb::log::LogTest::FixChecksum( int header_offset , int len)",6, 78, 4, 0
+repos/cpp/leveldb/db/log_test.cc,"leveldb::log::LogTest::ForceError()",3, 33, 4, 0
+repos/cpp/leveldb/db/log_test.cc,"leveldb::log::LogTest::DroppedBytes() const",3, 35, 4, 0
+repos/cpp/leveldb/db/log_test.cc,"leveldb::log::LogTest::ReportMessage() const",3, 38, 2, 0
+repos/cpp/leveldb/db/log_test.cc,"leveldb::log::LogTest::MatchError( const std :: string & msg) const",7, 59, 4, 0
+repos/cpp/leveldb/db/log_test.cc,"leveldb::log::LogTest::WriteInitialOffsetLog()",7, 60, 4, 0
+repos/cpp/leveldb/db/log_test.cc,"leveldb::log::LogTest::StartReadingAt( uint64_t initial_offset)",4, 80, 4, 0
+repos/cpp/leveldb/db/log_test.cc,"leveldb::log::LogTest::CheckOffsetPastEndReturnsNoRecords( uint64_t offset_past_end)",11, 77, 4, 0
+repos/cpp/leveldb/db/log_test.cc,"leveldb::log::LogTest::CheckInitialOffsetRecord( uint64_t initial_offset , int expected_record_offset)",23, 77, 4, 0
+repos/cpp/leveldb/db/log_test.cc,"leveldb::log::TEST( LogTest , Empty)",3, 28, 2, 0
+repos/cpp/leveldb/db/log_test.cc,"leveldb::log::TEST( LogTest , ReadWrite)",12, 60, 2, 0
+repos/cpp/leveldb/db/log_test.cc,"leveldb::log::TEST( LogTest , ManyBlocks)",9, 40, 4, 0
+repos/cpp/leveldb/db/log_test.cc,"leveldb::log::TEST( LogTest , Fragmentation)",9, 49, 2, 0
+repos/cpp/leveldb/db/log_test.cc,"leveldb::log::TEST( LogTest , MarginalTrailer)",12, 72, 2, 0
+repos/cpp/leveldb/db/log_test.cc,"leveldb::log::TEST( LogTest , MarginalTrailer2)",12, 72, 2, 0
+repos/cpp/leveldb/db/log_test.cc,"leveldb::log::TEST( LogTest , ShortTrailer)",11, 59, 2, 0
+repos/cpp/leveldb/db/log_test.cc,"leveldb::log::TEST( LogTest , AlignedEof)",7, 59, 2, 0
+repos/cpp/leveldb/db/log_test.cc,"leveldb::log::TEST( LogTest , OpenForAppend)",8, 31, 0, 0
+repos/cpp/leveldb/db/log_test.cc,"leveldb::log::TEST( LogTest , RandomRead)",12, 57, 4, 0
+repos/cpp/leveldb/db/log_test.cc,"leveldb::log::TEST( LogTest , ReadError)",7, 45, 2, 0
+repos/cpp/leveldb/db/log_test.cc,"leveldb::log::TEST( LogTest , BadRecordType)",9, 54, 2, 0
+repos/cpp/leveldb/db/log_test.cc,"leveldb::log::TEST( LogTest , TruncatedTrailingRecordIsIgnored)",8, 64, 2, 0
+repos/cpp/leveldb/db/log_test.cc,"leveldb::log::TEST( LogTest , BadLength)",10, 57, 2, 0
+repos/cpp/leveldb/db/log_test.cc,"leveldb::log::TEST( LogTest , BadLengthAtEndIsIgnored)",7, 41, 0, 0
+repos/cpp/leveldb/db/log_test.cc,"leveldb::log::TEST( LogTest , ChecksumMismatch)",7, 52, 2, 0
+repos/cpp/leveldb/db/log_test.cc,"leveldb::log::TEST( LogTest , UnexpectedMiddleType)",8, 48, 2, 0
+repos/cpp/leveldb/db/log_test.cc,"leveldb::log::TEST( LogTest , UnexpectedLastType)",8, 48, 2, 0
+repos/cpp/leveldb/db/log_test.cc,"leveldb::log::TEST( LogTest , UnexpectedFullType)",10, 61, 2, 0
+repos/cpp/leveldb/db/log_test.cc,"leveldb::log::TEST( LogTest , UnexpectedFirstType)",10, 61, 2, 0
+repos/cpp/leveldb/db/log_test.cc,"leveldb::log::TEST( LogTest , MissingLastIsIgnored)",8, 46, 2, 0
+repos/cpp/leveldb/db/log_test.cc,"leveldb::log::TEST( LogTest , PartialLastIsIgnored)",8, 50, 2, 0
+repos/cpp/leveldb/db/log_test.cc,"leveldb::log::TEST( LogTest , SkipIntoMultiRecord)",15, 79, 2, 0
+repos/cpp/leveldb/db/log_test.cc,"leveldb::log::TEST( LogTest , ErrorJoinsRecords)",22, 70, 2, 0
+repos/cpp/leveldb/db/log_test.cc,"leveldb::log::TEST( LogTest , ReadStart)",3, 34, 2, 0
+repos/cpp/leveldb/db/log_test.cc,"leveldb::log::TEST( LogTest , ReadSecondOneOff)",3, 34, 0, 0
+repos/cpp/leveldb/db/log_test.cc,"leveldb::log::TEST( LogTest , ReadSecondTenThousand)",3, 39, 0, 0
+repos/cpp/leveldb/db/log_test.cc,"leveldb::log::TEST( LogTest , ReadSecondStart)",3, 38, 2, 0
+repos/cpp/leveldb/db/log_test.cc,"leveldb::log::TEST( LogTest , ReadThirdOneOff)",3, 38, 2, 0
+repos/cpp/leveldb/db/log_test.cc,"leveldb::log::TEST( LogTest , ReadThirdStart)",3, 38, 2, 0
+repos/cpp/leveldb/db/log_test.cc,"leveldb::log::TEST( LogTest , ReadFourthOneOff)",3, 38, 2, 0
+repos/cpp/leveldb/db/log_test.cc,"leveldb::log::TEST( LogTest , ReadFourthFirstBlockTrailer)",3, 52, 2, 0
+repos/cpp/leveldb/db/log_test.cc,"leveldb::log::TEST( LogTest , ReadFourthMiddleBlock)",3, 52, 2, 0
+repos/cpp/leveldb/db/log_test.cc,"leveldb::log::TEST( LogTest , ReadFourthLastBlock)",3, 56, 2, 0
+repos/cpp/leveldb/db/log_test.cc,"leveldb::log::TEST( LogTest , ReadFourthStart)",5, 81, 6, 0
+repos/cpp/leveldb/db/log_test.cc,"leveldb::log::TEST( LogTest , ReadInitialOffsetIntoBlockPadding)",3, 56, 2, 0
+repos/cpp/leveldb/db/log_test.cc,"leveldb::log::TEST( LogTest , ReadEnd)",3, 41, 2, 0
+repos/cpp/leveldb/db/log_test.cc,"leveldb::log::TEST( LogTest , ReadPastEnd)",3, 41, 2, 0
+repos/cpp/leveldb/db/log_test.cc,"main( int argc , char ** argv)",3, 39, 2, 0
+repos/cpp/leveldb/db/version_set_test.cc,"leveldb::FindFileTest::FindFileTest()",1, 52, 2, 0
+repos/cpp/leveldb/db/version_set_test.cc,"leveldb::FindFileTest::~FindFileTest()",5, 46, 4, 0
+repos/cpp/leveldb/db/version_set_test.cc,"leveldb::FindFileTest::Add( const char * smallest , const char * largest , SequenceNumber smallest_seq = 100 , SequenceNumber largest_seq = 100)",9, 67, 4, 0
+repos/cpp/leveldb/db/version_set_test.cc,"leveldb::FindFileTest::Find( const char * key)",5, 53, 4, 0
+repos/cpp/leveldb/db/version_set_test.cc,"leveldb::FindFileTest::Overlaps( const char * smallest , const char * largest)",8, 71, 33, 0
+repos/cpp/leveldb/db/version_set_test.cc,"leveldb::TEST( FindFileTest , Empty)",7, 45, 2, 0
+repos/cpp/leveldb/db/version_set_test.cc,"leveldb::TEST( FindFileTest , Single)",29, 43, 2, 0
+repos/cpp/leveldb/db/version_set_test.cc,"leveldb::TEST( FindFileTest , Multiple)",37, 41, 2, 0
+repos/cpp/leveldb/db/version_set_test.cc,"leveldb::TEST( FindFileTest , MultipleNullBoundaries)",19, 45, 0, 0
+repos/cpp/leveldb/db/version_set_test.cc,"leveldb::TEST( FindFileTest , OverlapSequenceChecks)",8, 44, 0, 0
+repos/cpp/leveldb/db/version_set_test.cc,"leveldb::TEST( FindFileTest , OverlappingFiles)",17, 41, 2, 0
+repos/cpp/leveldb/db/version_set_test.cc,"main( int argc , char ** argv)",3, 39, 2, 0
+repos/cpp/leveldb/db/db_test.cc,"leveldb::RandomString( Random * rnd , int len)",5, 56, 0, 0
+repos/cpp/leveldb/db/db_test.cc,"leveldb::RandomKey( Random * rnd)",6, 75, 13, 0
+repos/cpp/leveldb/db/db_test.cc,"leveldb::AtomicCounter::AtomicCounter()",1, 34, 2, 0
+repos/cpp/leveldb/db/db_test.cc,"leveldb::AtomicCounter::Increment()",3, 21, 2, 0
+repos/cpp/leveldb/db/db_test.cc,"leveldb::AtomicCounter::LOCKS_EXCLUDED( mu_)",4, 52, 2, 0
+repos/cpp/leveldb/db/db_test.cc,"leveldb::AtomicCounter::LOCKS_EXCLUDED( mu_)",4, 35, 2, 0
+repos/cpp/leveldb/db/db_test.cc,"leveldb::AtomicCounter::LOCKS_EXCLUDED( mu_)",4, 37, 2, 0
+repos/cpp/leveldb/db/db_test.cc,"leveldb::DelayMilliseconds( int millis)",3, 55, 2, 0
+repos/cpp/leveldb/db/db_test.cc,"leveldb::TestEnv::TestEnv( Env * base)",1, 78, 2, 0
+repos/cpp/leveldb/db/db_test.cc,"leveldb::TestEnv::SetIgnoreDotFiles( bool ignored)",1, 72, 2, 0
+repos/cpp/leveldb/db/db_test.cc,"leveldb::TestEnv::GetChildren( const std :: string & dir , std :: vector<std::string> * result)",18, 66, 21, 0
+repos/cpp/leveldb/db/db_test.cc,"leveldb::SpecialEnv::SpecialEnv( Env * base)",9, 53, 2, 0
+repos/cpp/leveldb/db/db_test.cc,"leveldb::SpecialEnv::NewWritableFile( const std :: string & f , WritableFile ** r)",72, 79, 6, 0
+repos/cpp/leveldb/db/db_test.cc,"leveldb::SpecialEnv::NewRandomAccessFile( const std :: string & f , RandomAccessFile ** r)",23, 75, 2, 0
+repos/cpp/leveldb/db/db_test.cc,"leveldb::DBTest::DBTest()",8, 52, 13, 0
+repos/cpp/leveldb/db/db_test.cc,"leveldb::DBTest::~DBTest()",6, 35, 4, 0
+repos/cpp/leveldb/db/db_test.cc,"leveldb::DBTest::ChangeOptions()",9, 34, 4, 0
+repos/cpp/leveldb/db/db_test.cc,"leveldb::DBTest::CurrentOptions()",18, 48, 8, 0
+repos/cpp/leveldb/db/db_test.cc,"leveldb::DBTest::dbfull()",3, 43, 4, 0
+repos/cpp/leveldb/db/db_test.cc,"leveldb::DBTest::Reopen( Options * options = nullptr)",3, 44, 2, 0
+repos/cpp/leveldb/db/db_test.cc,"leveldb::DBTest::Close()",4, 19, 4, 0
+repos/cpp/leveldb/db/db_test.cc,"leveldb::DBTest::DestroyAndReopen( Options * options = nullptr)",6, 54, 2, 0
+repos/cpp/leveldb/db/db_test.cc,"leveldb::DBTest::TryReopen( Options * options)",14, 42, 4, 0
+repos/cpp/leveldb/db/db_test.cc,"leveldb::DBTest::Put( const std :: string & k , const std :: string & v)",3, 59, 2, 0
+repos/cpp/leveldb/db/db_test.cc,"leveldb::DBTest::Delete( const std :: string & k)",3, 43, 4, 0
+repos/cpp/leveldb/db/db_test.cc,"leveldb::DBTest::Get( const std :: string & k , const Snapshot * snapshot = nullptr)",12, 78, 2, 0
+repos/cpp/leveldb/db/db_test.cc,"leveldb::DBTest::Contents()",24, 74, 4, 0
+repos/cpp/leveldb/db/db_test.cc,"leveldb::DBTest::AllEntriesFor( const Slice & user_key)",41, 81, 10, 0
+repos/cpp/leveldb/db/db_test.cc,"leveldb::DBTest::NumTableFilesAtLevel( int level)",7, 79, 8, 0
+repos/cpp/leveldb/db/db_test.cc,"leveldb::DBTest::TotalTableFiles()",7, 63, 4, 0
+repos/cpp/leveldb/db/db_test.cc,"leveldb::DBTest::FilesPerLevel()",15, 65, 6, 0
+repos/cpp/leveldb/db/db_test.cc,"leveldb::DBTest::CountFiles()",5, 43, 4, 0
+repos/cpp/leveldb/db/db_test.cc,"leveldb::DBTest::Size( const Slice & start , const Slice & limit)",6, 58, 2, 0
+repos/cpp/leveldb/db/db_test.cc,"leveldb::DBTest::Compact( const Slice & start , const Slice & limit)",3, 57, 2, 0
+repos/cpp/leveldb/db/db_test.cc,"leveldb::DBTest::MakeTables( int n , const std :: string & small_key , const std :: string & large_key)",8, 55, 2, 0
+repos/cpp/leveldb/db/db_test.cc,"leveldb::DBTest::FillLevels( const std :: string & smallest , const std :: string & largest)",3, 77, 2, 0
+repos/cpp/leveldb/db/db_test.cc,"leveldb::DBTest::DumpFileCounts( const char * label)",12, 65, 16, 0
+repos/cpp/leveldb/db/db_test.cc,"leveldb::DBTest::DumpSSTableList()",5, 53, 4, 0
+repos/cpp/leveldb/db/db_test.cc,"leveldb::DBTest::IterStatus( Iterator * iter)",9, 73, 6, 0
+repos/cpp/leveldb/db/db_test.cc,"leveldb::DBTest::DeleteAnSSTFile()",13, 79, 6, 0
+repos/cpp/leveldb/db/db_test.cc,"leveldb::DBTest::RenameLDBToSST()",16, 79, 6, 0
+repos/cpp/leveldb/db/db_test.cc,"leveldb::TEST( DBTest , Empty)",6, 40, 4, 0
+repos/cpp/leveldb/db/db_test.cc,"leveldb::TEST( DBTest , ReadWrite)",10, 33, 4, 0
+repos/cpp/leveldb/db/db_test.cc,"leveldb::TEST( DBTest , PutDeleteGet)",10, 54, 4, 0
+repos/cpp/leveldb/db/db_test.cc,"leveldb::TEST( DBTest , GetFromImmutableLayer)",19, 76, 4, 0
+repos/cpp/leveldb/db/db_test.cc,"leveldb::TEST( DBTest , GetFromVersions)",7, 38, 4, 0
+repos/cpp/leveldb/db/db_test.cc,"leveldb::TEST( DBTest , GetMemUsage)",10, 77, 4, 0
+repos/cpp/leveldb/db/db_test.cc,"leveldb::TEST( DBTest , GetSnapshot)",17, 79, 6, 0
+repos/cpp/leveldb/db/db_test.cc,"leveldb::TEST( DBTest , GetIdenticalSnapshots)",24, 79, 6, 0
+repos/cpp/leveldb/db/db_test.cc,"leveldb::TEST( DBTest , IterateOverEmptySnapshot)",23, 58, 4, 0
+repos/cpp/leveldb/db/db_test.cc,"leveldb::TEST( DBTest , GetLevel0Ordering)",14, 71, 4, 0
+repos/cpp/leveldb/db/db_test.cc,"leveldb::TEST( DBTest , GetOrderedByLevels)",11, 38, 4, 0
+repos/cpp/leveldb/db/db_test.cc,"leveldb::TEST( DBTest , GetPicksCorrectFile)",14, 62, 4, 0
+repos/cpp/leveldb/db/db_test.cc,"leveldb::TEST( DBTest , GetEncountersEmptyLevel)",38, 75, 6, 0
+repos/cpp/leveldb/db/db_test.cc,"leveldb::TEST( DBTest , IterEmpty)",14, 52, 2, 0
+repos/cpp/leveldb/db/db_test.cc,"leveldb::TEST( DBTest , IterSingle)",37, 52, 2, 0
+repos/cpp/leveldb/db/db_test.cc,"leveldb::TEST( DBTest , IterMulti)",82, 52, 2, 0
+repos/cpp/leveldb/db/db_test.cc,"leveldb::TEST( DBTest , IterSmallAndLargeMix)",37, 65, 2, 0
+repos/cpp/leveldb/db/db_test.cc,"leveldb::TEST( DBTest , IterMultiWithDelete)",16, 54, 4, 0
+repos/cpp/leveldb/db/db_test.cc,"leveldb::TEST( DBTest , Recover)",21, 33, 4, 0
+repos/cpp/leveldb/db/db_test.cc,"leveldb::TEST( DBTest , RecoveryWithEmptyLog)",11, 37, 0, 0
+repos/cpp/leveldb/db/db_test.cc,"leveldb::TEST( DBTest , RecoverDuringMemtableCompaction)",20, 81, 4, 0
+repos/cpp/leveldb/db/db_test.cc,"leveldb::Key( int i)",5, 44, 2, 0
+repos/cpp/leveldb/db/db_test.cc,"leveldb::TEST( DBTest , MinorCompactionsHappen)",24, 61, 4, 0
+repos/cpp/leveldb/db/db_test.cc,"leveldb::TEST( DBTest , RecoverWithLargeLog)",23, 70, 2, 0
+repos/cpp/leveldb/db/db_test.cc,"leveldb::TEST( DBTest , CompactionsGenerateMultipleFiles)",25, 70, 2, 0
+repos/cpp/leveldb/db/db_test.cc,"leveldb::TEST( DBTest , RepeatedWritesToSameKey)",18, 76, 2, 0
+repos/cpp/leveldb/db/db_test.cc,"leveldb::TEST( DBTest , SparseMerge)",39, 76, 2, 0
+repos/cpp/leveldb/db/db_test.cc,"leveldb::Between( uint64_t val , uint64_t low , uint64_t high)",10, 65, 0, 0
+repos/cpp/leveldb/db/db_test.cc,"leveldb::TEST( DBTest , ApproximateSizes)",57, 80, 10, 0
+repos/cpp/leveldb/db/db_test.cc,"leveldb::TEST( DBTest , ApproximateSizes_MixOfSmallAndLarge)",42, 76, 6, 0
+repos/cpp/leveldb/db/db_test.cc,"leveldb::TEST( DBTest , IteratorPinsRef)",21, 79, 4, 0
+repos/cpp/leveldb/db/db_test.cc,"leveldb::TEST( DBTest , Snapshot)",28, 45, 4, 0
+repos/cpp/leveldb/db/db_test.cc,"leveldb::TEST( DBTest , HiddenValuesAreRemoved)",30, 70, 4, 0
+repos/cpp/leveldb/db/db_test.cc,"leveldb::TEST( DBTest , DeletionMarkers1)",28, 80, 2, 0
+repos/cpp/leveldb/db/db_test.cc,"leveldb::TEST( DBTest , DeletionMarkers2)",25, 80, 2, 0
+repos/cpp/leveldb/db/db_test.cc,"leveldb::TEST( DBTest , OverlapInLevel0)",40, 82, 4, 0
+repos/cpp/leveldb/db/db_test.cc,"leveldb::TEST( DBTest , L0_CompactionBug_Issue44_a)",16, 61, 2, 0
+repos/cpp/leveldb/db/db_test.cc,"leveldb::TEST( DBTest , L0_CompactionBug_Issue44_b)",25, 61, 2, 0
+repos/cpp/leveldb/db/db_test.cc,"leveldb::TEST( DBTest , Fflush_Issue474)",8, 62, 4, 0
+repos/cpp/leveldb/db/db_test.cc,"leveldb::TEST( DBTest , ComparatorCheck)",22, 79, 4, 0
+repos/cpp/leveldb/db/db_test.cc,"leveldb::TEST( DBTest , CustomComparator)",54, 79, 4, 0
+repos/cpp/leveldb/db/db_test.cc,"leveldb::TEST( DBTest , ManualCompaction)",33, 66, 6, 0
+repos/cpp/leveldb/db/db_test.cc,"leveldb::TEST( DBTest , DBOpen_Options)",38, 74, 2, 0
+repos/cpp/leveldb/db/db_test.cc,"leveldb::TEST( DBTest , DestroyEmptyDir)",27, 67, 2, 0
+repos/cpp/leveldb/db/db_test.cc,"leveldb::TEST( DBTest , DestroyOpenDB)",23, 56, 2, 0
+repos/cpp/leveldb/db/db_test.cc,"leveldb::TEST( DBTest , Locking)",5, 67, 2, 0
+repos/cpp/leveldb/db/db_test.cc,"leveldb::TEST( DBTest , NoSpace)",19, 65, 4, 0
+repos/cpp/leveldb/db/db_test.cc,"leveldb::TEST( DBTest , NonWritableFileSystem)",20, 63, 2, 0
+repos/cpp/leveldb/db/db_test.cc,"leveldb::TEST( DBTest , WriteSyncError)",30, 72, 2, 0
+repos/cpp/leveldb/db/db_test.cc,"leveldb::TEST( DBTest , ManifestWriteError)",40, 81, 4, 0
+repos/cpp/leveldb/db/db_test.cc,"leveldb::TEST( DBTest , MissingSSTFile)",17, 64, 2, 0
+repos/cpp/leveldb/db/db_test.cc,"leveldb::TEST( DBTest , StillReadSST)",15, 38, 2, 0
+repos/cpp/leveldb/db/db_test.cc,"leveldb::TEST( DBTest , FilesDeletedAfterCompaction)",10, 44, 0, 0
+repos/cpp/leveldb/db/db_test.cc,"leveldb::TEST( DBTest , BloomFilter)",46, 67, 2, 0
+repos/cpp/leveldb/db/db_test.cc,"leveldb::MTThreadBody( void * arg)",43, 79, 8, 0
+repos/cpp/leveldb/db/db_test.cc,"leveldb::TEST( DBTest , MultiThreaded)",31, 68, 6, 0
+repos/cpp/leveldb/db/db_test.cc,"leveldb::ModelDB::ModelDB( const Options & options)",1, 66, 2, 0
+repos/cpp/leveldb/db/db_test.cc,"leveldb::ModelDB::~ModelDB()",1, 17, 2, 0
+repos/cpp/leveldb/db/db_test.cc,"leveldb::ModelDB::Put( const WriteOptions & o , const Slice & k , const Slice & v)",3, 78, 2, 0
+repos/cpp/leveldb/db/db_test.cc,"leveldb::ModelDB::Delete( const WriteOptions & o , const Slice & key)",3, 67, 2, 0
+repos/cpp/leveldb/db/db_test.cc,"leveldb::ModelDB::Get( const ReadOptions & options , const Slice & key , std :: string * value)",5, 61, 21, 0
+repos/cpp/leveldb/db/db_test.cc,"leveldb::ModelDB::NewIterator( const ReadOptions & options)",11, 77, 10, 0
+repos/cpp/leveldb/db/db_test.cc,"leveldb::ModelDB::GetSnapshot()",5, 49, 4, 0
+repos/cpp/leveldb/db/db_test.cc,"leveldb::ModelDB::ReleaseSnapshot( const Snapshot * snapshot)",3, 61, 4, 0
+repos/cpp/leveldb/db/db_test.cc,"leveldb::ModelDB::Write( const WriteOptions & options , WriteBatch * batch)",15, 73, 2, 0
+repos/cpp/leveldb/db/db_test.cc,"leveldb::ModelDB::GetProperty( const Slice & property , std :: string * value)",3, 72, 2, 0
+repos/cpp/leveldb/db/db_test.cc,"leveldb::ModelDB::GetApproximateSizes( const Range * r , int n , uint64_t * sizes)",5, 77, 2, 0
+repos/cpp/leveldb/db/db_test.cc,"leveldb::ModelDB::CompactRange( const Slice * start , const Slice * end)",2, 68, 2, 0
+repos/cpp/leveldb/db/db_test.cc,"leveldb::ModelDB::ModelIter::ModelIter( const KVMap * map , bool owned)",3, 57, 8, 0
+repos/cpp/leveldb/db/db_test.cc,"leveldb::ModelDB::ModelIter::~ModelIter()",3, 31, 6, 0
+repos/cpp/leveldb/db/db_test.cc,"leveldb::ModelDB::ModelIter::Valid() const",1, 64, 4, 0
+repos/cpp/leveldb/db/db_test.cc,"leveldb::ModelDB::ModelIter::SeekToFirst()",1, 58, 4, 0
+repos/cpp/leveldb/db/db_test.cc,"leveldb::ModelDB::ModelIter::SeekToLast()",7, 51, 8, 0
+repos/cpp/leveldb/db/db_test.cc,"leveldb::ModelDB::ModelIter::Seek( const Slice & k)",3, 47, 6, 0
+repos/cpp/leveldb/db/db_test.cc,"leveldb::ModelDB::ModelIter::Next()",1, 37, 4, 0
+repos/cpp/leveldb/db/db_test.cc,"leveldb::ModelDB::ModelIter::Prev()",1, 37, 4, 0
+repos/cpp/leveldb/db/db_test.cc,"leveldb::ModelDB::ModelIter::key() const",1, 55, 4, 0
+repos/cpp/leveldb/db/db_test.cc,"leveldb::ModelDB::ModelIter::value() const",1, 58, 4, 0
+repos/cpp/leveldb/db/db_test.cc,"leveldb::ModelDB::ModelIter::status() const",1, 59, 4, 0
+repos/cpp/leveldb/db/db_test.cc,"leveldb::CompareIterators( int step , DB * model , DB * db , const Snapshot * model_snap , const Snapshot * db_snap)",47, 79, 6, 0
+repos/cpp/leveldb/db/db_test.cc,"leveldb::TEST( DBTest , Randomized)",70, 79, 8, 0
+repos/cpp/leveldb/db/db_test.cc,"leveldb::MakeKey( unsigned int num)",5, 44, 2, 0
+repos/cpp/leveldb/db/db_test.cc,"leveldb::BM_LogAndApply( int iters , int num_base_files)",51, 74, 10, 0
+repos/cpp/leveldb/db/db_test.cc,"main( int argc , char ** argv)",11, 59, 2, 0
+repos/cpp/leveldb/db/version_set.cc,"leveldb::TargetFileSize( const Options * options)",3, 55, 0, 0
+repos/cpp/leveldb/db/version_set.cc,"leveldb::MaxGrandParentOverlapBytes( const Options * options)",3, 68, 0, 0
+repos/cpp/leveldb/db/version_set.cc,"leveldb::ExpandedCompactionByteSizeLimit( const Options * options)",3, 73, 0, 0
+repos/cpp/leveldb/db/version_set.cc,"leveldb::MaxBytesForLevel( const Options * options , int level)",12, 69, 2, 0
+repos/cpp/leveldb/db/version_set.cc,"leveldb::MaxFileSizeForLevel( const Options * options , int level)",4, 73, 0, 0
+repos/cpp/leveldb/db/version_set.cc,"leveldb::TotalFileSize( const std :: vector<FileMetaData*> & files)",7, 72, 0, 0
+repos/cpp/leveldb/db/version_set.cc,"leveldb::Version::~Version()",19, 61, 2, 0
+repos/cpp/leveldb/db/version_set.cc,"leveldb::FindFile( const InternalKeyComparator & icmp , const std :: vector<FileMetaData*> & files , const Slice & key)",20, 77, 4, 0
+repos/cpp/leveldb/db/version_set.cc,"leveldb::AfterFile( const Comparator * ucmp , const Slice * user_key , const FileMetaData * f)",6, 74, 2, 0
+repos/cpp/leveldb/db/version_set.cc,"leveldb::BeforeFile( const Comparator * ucmp , const Slice * user_key , const FileMetaData * f)",6, 74, 2, 0
+repos/cpp/leveldb/db/version_set.cc,"leveldb::SomeFileOverlapsRange( const InternalKeyComparator & icmp , bool disjoint_sorted_files , const std :: vector<FileMetaData*> & files , const Slice * smallest_user_key , const Slice * largest_user_key)",36, 85, 4, 0
+repos/cpp/leveldb/db/version_set.cc,"leveldb::Version::LevelFileNumIterator::LevelFileNumIterator( const InternalKeyComparator & icmp , const std :: vector<FileMetaData*> * flist)",6, 64, 23, 0
+repos/cpp/leveldb/db/version_set.cc,"leveldb::Version::LevelFileNumIterator::Valid() const",3, 36, 4, 0
+repos/cpp/leveldb/db/version_set.cc,"leveldb::Version::LevelFileNumIterator::Seek( const Slice & target)",3, 47, 4, 0
+repos/cpp/leveldb/db/version_set.cc,"leveldb::Version::LevelFileNumIterator::SeekToFirst()",1, 45, 2, 0
+repos/cpp/leveldb/db/version_set.cc,"leveldb::Version::LevelFileNumIterator::SeekToLast()",3, 55, 4, 0
+repos/cpp/leveldb/db/version_set.cc,"leveldb::Version::LevelFileNumIterator::Next()",4, 24, 2, 0
+repos/cpp/leveldb/db/version_set.cc,"leveldb::Version::LevelFileNumIterator::Prev()",8, 52, 6, 0
+repos/cpp/leveldb/db/version_set.cc,"leveldb::Version::LevelFileNumIterator::key() const",4, 48, 4, 0
+repos/cpp/leveldb/db/version_set.cc,"leveldb::Version::LevelFileNumIterator::value() const",6, 63, 4, 0
+repos/cpp/leveldb/db/version_set.cc,"leveldb::Version::LevelFileNumIterator::status() const",1, 57, 2, 0
+repos/cpp/leveldb/db/version_set.cc,"leveldb::GetFileIterator( void * arg , const ReadOptions & options , const Slice & file_value)",13, 73, 8, 0
+repos/cpp/leveldb/db/version_set.cc,"leveldb::Version::NewConcatenatingIterator( const ReadOptions & options , int level) const",6, 72, 0, 0
+repos/cpp/leveldb/db/version_set.cc,"leveldb::Version::AddIterators( const ReadOptions & options , std :: vector<Iterator*> * iters)",18, 75, 2, 0
+repos/cpp/leveldb/db/version_set.cc,"leveldb::SaveValue( void * arg , const Slice & ikey , const Slice & v)",14, 70, 0, 0
+repos/cpp/leveldb/db/version_set.cc,"leveldb::NewestFirst( FileMetaData * a , FileMetaData * b)",3, 60, 0, 0
+repos/cpp/leveldb/db/version_set.cc,"leveldb::Version::ForEachOverlapping( Slice user_key , Slice internal_key , void * arg , bool(*func)(void*,int,FileMetaData*))",44, 79, 4, 0
+repos/cpp/leveldb/db/version_set.cc,"leveldb::Version::Get( const ReadOptions & options , const LookupKey & k , std :: string * value , GetStats * stats)",98, 79, 8, 0
+repos/cpp/leveldb/db/version_set.cc,"leveldb::Version::UpdateStats( const GetStats & stats)",12, 64, 4, 0
+repos/cpp/leveldb/db/version_set.cc,"leveldb::Version::RecordReadSample( Slice internal_key)",37, 74, 2, 0
+repos/cpp/leveldb/db/version_set.cc,"leveldb::Version::Ref()",3, 22, 0, 0
+repos/cpp/leveldb/db/version_set.cc,"leveldb::Version::Unref()",8, 43, 2, 0
+repos/cpp/leveldb/db/version_set.cc,"leveldb::Version::OverlapInLevel( int level , const Slice * smallest_user_key , const Slice * largest_user_key)",6, 73, 2, 0
+repos/cpp/leveldb/db/version_set.cc,"leveldb::Version::PickLevelForMemTableOutput( const Slice & smallest_user_key , const Slice & largest_user_key)",27, 81, 4, 0
+repos/cpp/leveldb/db/version_set.cc,"leveldb::Version::GetOverlappingInputs( int level , const InternalKey * begin , const InternalKey * end , std :: vector<FileMetaData*> * inputs)",43, 81, 8, 0
+repos/cpp/leveldb/db/version_set.cc,"leveldb::Version::DebugString() const",25, 61, 2, 0
+repos/cpp/leveldb/db/version_set.cc,"leveldb::VersionSet::Builder::BySmallestKey::operator ( )( FileMetaData * f1 , FileMetaData * f2) const",9, 72, 6, 0
+repos/cpp/leveldb/db/version_set.cc,"leveldb::VersionSet::Builder::Builder( VersionSet * vset , Version * base)",10, 63, 4, 0
+repos/cpp/leveldb/db/version_set.cc,"leveldb::VersionSet::Builder::~Builder()",20, 63, 4, 0
+repos/cpp/leveldb/db/version_set.cc,"leveldb::VersionSet::Builder::Apply( VersionEdit * edit)",44, 77, 6, 0
+repos/cpp/leveldb/db/version_set.cc,"leveldb::VersionSet::Builder::SaveTo( Version * v)",47, 81, 6, 0
+repos/cpp/leveldb/db/version_set.cc,"leveldb::VersionSet::Builder::MaybeAddFile( Version * v , int level , FileMetaData * f)",14, 72, 8, 0
+repos/cpp/leveldb/db/version_set.cc,"leveldb::VersionSet::VersionSet( const std :: string & dbname , const Options * options , TableCache * table_cache , const InternalKeyComparator * cmp)",20, 57, 23, 0
+repos/cpp/leveldb/db/version_set.cc,"leveldb::VersionSet::~VersionSet()",6, 76, 2, 0
+repos/cpp/leveldb/db/version_set.cc,"leveldb::VersionSet::AppendVersion( Version * v)",16, 45, 0, 0
+repos/cpp/leveldb/db/version_set.cc,"leveldb::VersionSet::LogAndApply( VersionEdit * edit , port :: Mutex * mu)",84, 79, 8, 0
+repos/cpp/leveldb/db/version_set.cc,"leveldb::VersionSet::Recover( bool * save_manifest)",125, 80, 2, 0
+repos/cpp/leveldb/db/version_set.cc,"leveldb::VersionSet::ReuseManifest( const std :: string & dscname , const std :: string & dscbase)",30, 75, 4, 0
+repos/cpp/leveldb/db/version_set.cc,"leveldb::VersionSet::MarkFileNumberUsed( uint64_t number)",5, 55, 0, 0
+repos/cpp/leveldb/db/version_set.cc,"leveldb::VersionSet::Finalize( Version * v)",37, 80, 10, 0
+repos/cpp/leveldb/db/version_set.cc,"leveldb::VersionSet::WriteSnapshot( log :: Writer * log)",29, 78, 2, 0
+repos/cpp/leveldb/db/version_set.cc,"leveldb::VersionSet::NumLevelFiles( int level) const",5, 49, 0, 0
+repos/cpp/leveldb/db/version_set.cc,"leveldb::VersionSet::LevelSummary( LevelSummaryStorage * scratch) const",14, 75, 0, 0
+repos/cpp/leveldb/db/version_set.cc,"leveldb::VersionSet::ApproximateOffsetOf( Version * v , const InternalKey & ikey)",31, 80, 0, 0
+repos/cpp/leveldb/db/version_set.cc,"leveldb::VersionSet::AddLiveFiles( std :: set<uint64_t> * live)",12, 66, 6, 0
+repos/cpp/leveldb/db/version_set.cc,"leveldb::VersionSet::NumLevelBytes( int level) const",5, 53, 0, 0
+repos/cpp/leveldb/db/version_set.cc,"leveldb::VersionSet::MaxNextLevelOverlappingBytes()",16, 73, 6, 0
+repos/cpp/leveldb/db/version_set.cc,"leveldb::VersionSet::GetRange( const std :: vector<FileMetaData*> & inputs , InternalKey * smallest , InternalKey * largest)",21, 68, 0, 0
+repos/cpp/leveldb/db/version_set.cc,"leveldb::VersionSet::GetRange2( const std :: vector<FileMetaData*> & inputs1 , const std :: vector<FileMetaData*> & inputs2 , InternalKey * smallest , InternalKey * largest)",8, 70, 0, 0
+repos/cpp/leveldb/db/version_set.cc,"leveldb::VersionSet::MakeInputIterator( Compaction * c)",32, 78, 2, 0
+repos/cpp/leveldb/db/version_set.cc,"leveldb::VersionSet::PickCompaction()",53, 78, 2, 0
+repos/cpp/leveldb/db/version_set.cc,"leveldb::VersionSet::SetupOtherInputs( Compaction * c)",60, 80, 2, 0
+repos/cpp/leveldb/db/version_set.cc,"leveldb::VersionSet::CompactRange( int level , const InternalKey * begin , const InternalKey * end)",34, 71, 2, 0
+repos/cpp/leveldb/db/version_set.cc,"leveldb::Compaction::Compaction( const Options * options , int level)",11, 66, 6, 0
+repos/cpp/leveldb/db/version_set.cc,"leveldb::Compaction::~Compaction()",5, 35, 2, 0
+repos/cpp/leveldb/db/version_set.cc,"leveldb::Compaction::IsTrivialMove() const",9, 70, 2, 0
+repos/cpp/leveldb/db/version_set.cc,"leveldb::Compaction::AddInputDeletions( VersionEdit * edit)",7, 67, 6, 0
+repos/cpp/leveldb/db/version_set.cc,"leveldb::Compaction::IsBaseLevelForKey( const Slice & user_key)",20, 79, 2, 0
+repos/cpp/leveldb/db/version_set.cc,"leveldb::Compaction::ShouldStopBefore( const Slice & internal_key)",22, 80, 20, 0
+repos/cpp/leveldb/db/version_set.cc,"leveldb::Compaction::ReleaseInputs()",6, 35, 0, 0
+repos/cpp/leveldb/db/dumpfile.cc,"leveldb::GuessType( const std :: string & fname , FileType * type)",11, 76, 4, 0
+repos/cpp/leveldb/db/dumpfile.cc,"leveldb::CorruptionReporter::Corruption( size_t bytes , const Status & status)",8, 64, 2, 0
+repos/cpp/leveldb/db/dumpfile.cc,"leveldb::PrintLogContents( Env * env , const std :: string & fname , void(*func)(uint64_t,Slice,WritableFile*) , WritableFile * dst)",19, 70, 24, 0
+repos/cpp/leveldb/db/dumpfile.cc,"leveldb::WriteBatchItemPrinter::Put( const Slice & key , const Slice & value)",8, 59, 2, 0
+repos/cpp/leveldb/db/dumpfile.cc,"leveldb::WriteBatchItemPrinter::Delete( const Slice & key)",6, 42, 2, 0
+repos/cpp/leveldb/db/dumpfile.cc,"leveldb::WriteBatchPrinter( uint64_t pos , Slice record , WritableFile * dst)",24, 79, 0, 0
+repos/cpp/leveldb/db/dumpfile.cc,"leveldb::DumpLog( Env * env , const std :: string & fname , WritableFile * dst)",3, 72, 0, 0
+repos/cpp/leveldb/db/dumpfile.cc,"leveldb::VersionEditPrinter( uint64_t pos , Slice record , WritableFile * dst)",14, 80, 0, 0
+repos/cpp/leveldb/db/dumpfile.cc,"leveldb::DumpDescriptor( Env * env , const std :: string & fname , WritableFile * dst)",3, 79, 0, 0
+repos/cpp/leveldb/db/dumpfile.cc,"leveldb::DumpTable( Env * env , const std :: string & fname , WritableFile * dst)",64, 74, 0, 0
+repos/cpp/leveldb/db/dumpfile.cc,"leveldb::DumpFile( Env * env , const std :: string & fname , WritableFile * dst)",14, 73, 0, 0
+repos/cpp/leveldb/db/autocompact_test.cc,"leveldb::AutoCompactTest::AutoCompactTest()",9, 52, 4, 0
+repos/cpp/leveldb/db/autocompact_test.cc,"leveldb::AutoCompactTest::~AutoCompactTest()",5, 35, 4, 0
+repos/cpp/leveldb/db/autocompact_test.cc,"leveldb::AutoCompactTest::Key( int i)",5, 46, 4, 0
+repos/cpp/leveldb/db/autocompact_test.cc,"leveldb::AutoCompactTest::Size( const Slice & start , const Slice & limit)",6, 58, 2, 0
+repos/cpp/leveldb/db/autocompact_test.cc,"leveldb::AutoCompactTest::DoReads( int n)",47, 74, 12, 0
+repos/cpp/leveldb/db/autocompact_test.cc,"leveldb::TEST( AutoCompactTest , ReadAll)",3, 33, 0, 0
+repos/cpp/leveldb/db/autocompact_test.cc,"leveldb::TEST( AutoCompactTest , ReadHalf)",3, 34, 0, 0
+repos/cpp/leveldb/db/autocompact_test.cc,"main( int argc , char ** argv)",3, 39, 2, 0
+repos/cpp/leveldb/db/db_iter.cc,"leveldb::DumpInternalIter( Iterator * iter)",10, 76, 6, 0
+repos/cpp/leveldb/db/db_iter.cc,"leveldb::DBIter::DBIter( DBImpl * db , const Comparator * cmp , Iterator * iter , SequenceNumber s , uint32_t seed)",11, 78, 2, 0
+repos/cpp/leveldb/db/db_iter.cc,"leveldb::DBIter::~DBIter()",3, 22, 2, 0
+repos/cpp/leveldb/db/db_iter.cc,"leveldb::DBIter::Valid() const",1, 48, 2, 0
+repos/cpp/leveldb/db/db_iter.cc,"leveldb::DBIter::key() const",4, 81, 4, 0
+repos/cpp/leveldb/db/db_iter.cc,"leveldb::DBIter::value() const",4, 69, 4, 0
+repos/cpp/leveldb/db/db_iter.cc,"leveldb::DBIter::status() const",7, 34, 2, 0
+repos/cpp/leveldb/db/db_iter.cc,"leveldb::DBIter::SaveKey( const Slice & k , std :: string * dst)",3, 58, 2, 0
+repos/cpp/leveldb/db/db_iter.cc,"leveldb::DBIter::ClearSavedValue()",8, 45, 4, 0
+repos/cpp/leveldb/db/db_iter.cc,"leveldb::DBIter::RandomCompactionPeriod()",3, 53, 4, 0
+repos/cpp/leveldb/db/db_iter.cc,"leveldb::DBIter::ParseKey( ParsedInternalKey * ikey)",18, 70, 4, 0
+repos/cpp/leveldb/db/db_iter.cc,"leveldb::DBIter::Next()",26, 69, 4, 0
+repos/cpp/leveldb/db/db_iter.cc,"leveldb::DBIter::FindNextUserEntry( bool skipping , std :: string * skip)",31, 70, 14, 0
+repos/cpp/leveldb/db/db_iter.cc,"leveldb::DBIter::Prev()",26, 71, 4, 0
+repos/cpp/leveldb/db/db_iter.cc,"leveldb::DBIter::FindPrevUserEntry()",41, 78, 10, 0
+repos/cpp/leveldb/db/db_iter.cc,"leveldb::DBIter::Seek( const Slice & target)",13, 77, 6, 0
+repos/cpp/leveldb/db/db_iter.cc,"leveldb::DBIter::SeekToFirst()",10, 67, 4, 0
+repos/cpp/leveldb/db/db_iter.cc,"leveldb::DBIter::SeekToLast()",6, 28, 0, 0
+repos/cpp/leveldb/db/db_iter.cc,"leveldb::NewDBIterator( DBImpl * db , const Comparator * user_key_comparator , Iterator * internal_iter , SequenceNumber sequence , uint32_t seed)",8, 77, 2, 0
+repos/cpp/leveldb/db/repair.cc,"leveldb::Repairer::Repairer( const std :: string & dbname , const Options & options)",12, 77, 4, 0
+repos/cpp/leveldb/db/repair.cc,"leveldb::Repairer::~Repairer()",9, 35, 6, 0
+repos/cpp/leveldb/db/repair.cc,"leveldb::Repairer::Run()",23, 52, 6, 0
+repos/cpp/leveldb/db/repair.cc,"leveldb::Repairer::FindFiles()",32, 64, 6, 0
+repos/cpp/leveldb/db/repair.cc,"leveldb::Repairer::ConvertLogFilesToTables()",12, 75, 8, 0
+repos/cpp/leveldb/db/repair.cc,"leveldb::Repairer::ConvertLogToTable( uint64_t log)",81, 77, 4, 0
+repos/cpp/leveldb/db/repair.cc,"leveldb::Repairer::ExtractMetaData()",5, 57, 4, 0
+repos/cpp/leveldb/db/repair.cc,"leveldb::Repairer::NewTableIterator( const FileMetaData & meta)",7, 70, 4, 0
+repos/cpp/leveldb/db/repair.cc,"leveldb::Repairer::ScanTable( uint64_t number)",62, 66, 6, 0
+repos/cpp/leveldb/db/repair.cc,"leveldb::Repairer::RepairTable( const std :: string & src , TableInfo t)",53, 68, 4, 0
+repos/cpp/leveldb/db/repair.cc,"leveldb::Repairer::WriteDescriptor()",58, 76, 4, 0
+repos/cpp/leveldb/db/repair.cc,"leveldb::Repairer::ArchiveFile( const std :: string & fname)",19, 69, 4, 0
+repos/cpp/leveldb/db/repair.cc,"leveldb::RepairDB( const std :: string & dbname , const Options & options)",4, 69, 0, 0
+repos/cpp/leveldb/db/write_batch_test.cc,"leveldb::PrintContents( WriteBatch * b)",39, 59, 2, 0
+repos/cpp/leveldb/db/write_batch_test.cc,"leveldb::TEST( WriteBatchTest , Empty)",5, 51, 2, 0
+repos/cpp/leveldb/db/write_batch_test.cc,"leveldb::TEST( WriteBatchTest , Multiple)",13, 56, 2, 0
+repos/cpp/leveldb/db/write_batch_test.cc,"leveldb::TEST( WriteBatchTest , Corruption)",12, 77, 34, 0
+repos/cpp/leveldb/db/write_batch_test.cc,"leveldb::TEST( WriteBatchTest , Append)",25, 45, 2, 0
+repos/cpp/leveldb/db/write_batch_test.cc,"leveldb::TEST( WriteBatchTest , ApproximateSize)",16, 53, 2, 0
+repos/cpp/leveldb/db/write_batch_test.cc,"main( int argc , char ** argv)",3, 39, 2, 0
+repos/cpp/leveldb/db/leveldbutil.cc,"leveldb::StdoutPrinter::Append( const Slice & data)",4, 49, 4, 0
+repos/cpp/leveldb/db/leveldbutil.cc,"leveldb::StdoutPrinter::Close()",1, 50, 2, 0
+repos/cpp/leveldb/db/leveldbutil.cc,"leveldb::StdoutPrinter::Flush()",1, 50, 2, 0
+repos/cpp/leveldb/db/leveldbutil.cc,"leveldb::StdoutPrinter::Sync()",1, 49, 2, 0
+repos/cpp/leveldb/db/leveldbutil.cc,"leveldb::HandleDumpCommand( Env * env , char ** files , int num)",12, 58, 0, 0
+repos/cpp/leveldb/db/leveldbutil.cc,"Usage()",7, 71, 6, 0
+repos/cpp/leveldb/db/leveldbutil.cc,"main( int argc , char ** argv)",17, 60, 6, 0
+repos/cpp/leveldb/db/version_edit_test.cc,"leveldb::TestEncodeDecode( const VersionEdit & edit)",9, 56, 0, 0
+repos/cpp/leveldb/db/version_edit_test.cc,"leveldb::TEST( VersionEditTest , EncodeDecode)",19, 77, 4, 0
+repos/cpp/leveldb/db/version_edit_test.cc,"main( int argc , char ** argv)",3, 39, 2, 0
+repos/cpp/leveldb/db/memtable.cc,"leveldb::GetLengthPrefixedSlice( const char * data)",6, 77, 2, 0
+repos/cpp/leveldb/db/memtable.cc,"leveldb::MemTable::MemTable( const InternalKeyComparator & cmp)",5, 53, 0, 0
+repos/cpp/leveldb/db/memtable.cc,"leveldb::MemTable::~MemTable()",3, 24, 0, 0
+repos/cpp/leveldb/db/memtable.cc,"leveldb::MemTable::ApproximateMemoryUsage()",1, 75, 0, 0
+repos/cpp/leveldb/db/memtable.cc,"leveldb::MemTable::KeyComparator::operator ( )( const char * aptr , const char * bptr) const",7, 76, 0, 0
+repos/cpp/leveldb/db/memtable.cc,"leveldb::EncodeKey( std :: string * scratch , const Slice & target)",6, 74, 0, 0
+repos/cpp/leveldb/db/memtable.cc,"leveldb::MemTableIterator::MemTableIterator( MemTable :: Table * table)",1, 71, 2, 0
+repos/cpp/leveldb/db/memtable.cc,"leveldb::MemTableIterator::Valid() const",1, 55, 2, 0
+repos/cpp/leveldb/db/memtable.cc,"leveldb::MemTableIterator::Seek( const Slice & k)",1, 73, 2, 0
+repos/cpp/leveldb/db/memtable.cc,"leveldb::MemTableIterator::SeekToFirst()",1, 54, 2, 0
+repos/cpp/leveldb/db/memtable.cc,"leveldb::MemTableIterator::SeekToLast()",1, 52, 2, 0
+repos/cpp/leveldb/db/memtable.cc,"leveldb::MemTableIterator::Next()",1, 40, 2, 0
+repos/cpp/leveldb/db/memtable.cc,"leveldb::MemTableIterator::Prev()",1, 40, 2, 0
+repos/cpp/leveldb/db/memtable.cc,"leveldb::MemTableIterator::key() const",1, 76, 2, 0
+repos/cpp/leveldb/db/memtable.cc,"leveldb::MemTableIterator::value() const",4, 72, 4, 0
+repos/cpp/leveldb/db/memtable.cc,"leveldb::MemTableIterator::status() const",1, 57, 2, 0
+repos/cpp/leveldb/db/memtable.cc,"leveldb::MemTable::NewIterator()",3, 40, 2, 0
+repos/cpp/leveldb/db/memtable.cc,"leveldb::MemTable::Add( SequenceNumber s , ValueType type , const Slice & key , const Slice & value)",25, 60, 6, 0
+repos/cpp/leveldb/db/memtable.cc,"leveldb::MemTable::Get( const LookupKey & key , std :: string * value , Status * s)",36, 74, 0, 0
+repos/cpp/leveldb/db/dbformat_test.cc,"leveldb::IKey( const std :: string & user_key , uint64_t seq , ValueType vt)",7, 69, 2, 0
+repos/cpp/leveldb/db/dbformat_test.cc,"leveldb::Shorten( const std :: string & s , const std :: string & l)",5, 81, 2, 0
+repos/cpp/leveldb/db/dbformat_test.cc,"leveldb::ShortSuccessor( const std :: string & s)",5, 75, 2, 0
+repos/cpp/leveldb/db/dbformat_test.cc,"leveldb::TestKey( const std :: string & key , uint64_t seq , ValueType vt)",15, 58, 2, 0
+repos/cpp/leveldb/db/dbformat_test.cc,"leveldb::TEST( FormatTest , InternalKey_EncodeDecode)",15, 74, 2, 0
+repos/cpp/leveldb/db/dbformat_test.cc,"leveldb::TEST( FormatTest , InternalKeyShortSeparator)",35, 62, 2, 0
+repos/cpp/leveldb/db/dbformat_test.cc,"leveldb::TEST( FormatTest , InternalKeyShortestSuccessor)",6, 64, 12, 0
+repos/cpp/leveldb/db/dbformat_test.cc,"main( int argc , char ** argv)",3, 39, 2, 0
+repos/cpp/leveldb/doc/bench/db_bench_sqlite3.cc,"ExecErrorCheck( int status , char * err_msg)",7, 56, 0, 0
+repos/cpp/leveldb/doc/bench/db_bench_sqlite3.cc,"StepErrorCheck( int status)",6, 62, 4, 0
+repos/cpp/leveldb/doc/bench/db_bench_sqlite3.cc,"ErrorCheck( int status)",6, 61, 4, 0
+repos/cpp/leveldb/doc/bench/db_bench_sqlite3.cc,"WalCheckpoint( sqlite3 * db_)",7, 77, 4, 0
+repos/cpp/leveldb/doc/bench/db_bench_sqlite3.cc,"leveldb::RandomGenerator::RandomGenerator()",14, 76, 6, 0
+repos/cpp/leveldb/doc/bench/db_bench_sqlite3.cc,"leveldb::RandomGenerator::Generate( int len)",8, 50, 4, 0
+repos/cpp/leveldb/doc/bench/db_bench_sqlite3.cc,"leveldb::TrimSpace( Slice s)",11, 50, 2, 0
+repos/cpp/leveldb/doc/bench/db_bench_sqlite3.cc,"leveldb::Benchmark::PrintHeader()",12, 75, 4, 0
+repos/cpp/leveldb/doc/bench/db_bench_sqlite3.cc,"leveldb::Benchmark::PrintWarnings()",11, 81, 12, 0
+repos/cpp/leveldb/doc/bench/db_bench_sqlite3.cc,"leveldb::Benchmark::PrintEnvironment()",33, 77, 4, 0
+repos/cpp/leveldb/doc/bench/db_bench_sqlite3.cc,"leveldb::Benchmark::Start()",9, 49, 4, 0
+repos/cpp/leveldb/doc/bench/db_bench_sqlite3.cc,"leveldb::Benchmark::FinishedSingleOp()",25, 67, 8, 0
+repos/cpp/leveldb/doc/bench/db_bench_sqlite3.cc,"leveldb::Benchmark::Stop( const Slice & name)",28, 79, 6, 0
+repos/cpp/leveldb/doc/bench/db_bench_sqlite3.cc,"leveldb::Benchmark::Benchmark()",22, 62, 8, 0
+repos/cpp/leveldb/doc/bench/db_bench_sqlite3.cc,"leveldb::Benchmark::~Benchmark()",4, 37, 4, 0
+repos/cpp/leveldb/doc/bench/db_bench_sqlite3.cc,"leveldb::Benchmark::Run()",73, 80, 10, 0
+repos/cpp/leveldb/doc/bench/db_bench_sqlite3.cc,"leveldb::Benchmark::Open()",62, 80, 6, 0
+repos/cpp/leveldb/doc/bench/db_bench_sqlite3.cc,"leveldb::Benchmark::Write( bool write_sync , Order order , DBState state , int num_entries , int value_size , int entries_per_batch)",102, 79, 4, 0
+repos/cpp/leveldb/doc/bench/db_bench_sqlite3.cc,"leveldb::Benchmark::Read( Order order , int entries_per_batch)",67, 81, 4, 0
+repos/cpp/leveldb/doc/bench/db_bench_sqlite3.cc,"leveldb::Benchmark::ReadSequential()",15, 81, 6, 0
+repos/cpp/leveldb/doc/bench/db_bench_sqlite3.cc,"main( int argc , char ** argv)",50, 80, 4, 0
+repos/cpp/leveldb/doc/bench/db_bench_tree_db.cc,"DBSynchronize( kyotocabinet :: TreeDB * db_)",7, 69, 4, 0
+repos/cpp/leveldb/doc/bench/db_bench_tree_db.cc,"leveldb::RandomGenerator::RandomGenerator()",14, 76, 6, 0
+repos/cpp/leveldb/doc/bench/db_bench_tree_db.cc,"leveldb::RandomGenerator::Generate( int len)",8, 50, 4, 0
+repos/cpp/leveldb/doc/bench/db_bench_tree_db.cc,"leveldb::TrimSpace( Slice s)",11, 50, 2, 0
+repos/cpp/leveldb/doc/bench/db_bench_tree_db.cc,"leveldb::Benchmark::PrintHeader()",17, 81, 12, 0
+repos/cpp/leveldb/doc/bench/db_bench_tree_db.cc,"leveldb::Benchmark::PrintWarnings()",11, 81, 12, 0
+repos/cpp/leveldb/doc/bench/db_bench_tree_db.cc,"leveldb::Benchmark::PrintEnvironment()",34, 81, 4, 0
+repos/cpp/leveldb/doc/bench/db_bench_tree_db.cc,"leveldb::Benchmark::Start()",9, 49, 4, 0
+repos/cpp/leveldb/doc/bench/db_bench_tree_db.cc,"leveldb::Benchmark::FinishedSingleOp()",25, 67, 8, 0
+repos/cpp/leveldb/doc/bench/db_bench_tree_db.cc,"leveldb::Benchmark::Stop( const Slice & name)",28, 79, 6, 0
+repos/cpp/leveldb/doc/bench/db_bench_tree_db.cc,"leveldb::Benchmark::Benchmark()",21, 61, 8, 0
+repos/cpp/leveldb/doc/bench/db_bench_tree_db.cc,"leveldb::Benchmark::~Benchmark()",5, 65, 6, 0
+repos/cpp/leveldb/doc/bench/db_bench_tree_db.cc,"leveldb::Benchmark::Run()",68, 80, 10, 0
+repos/cpp/leveldb/doc/bench/db_bench_tree_db.cc,"leveldb::Benchmark::Open( bool sync)",34, 64, 6, 0
+repos/cpp/leveldb/doc/bench/db_bench_tree_db.cc,"leveldb::Benchmark::Write( bool sync , Order order , DBState state , int num_entries , int value_size , int entries_per_batch)",34, 78, 6, 0
+repos/cpp/leveldb/doc/bench/db_bench_tree_db.cc,"leveldb::Benchmark::ReadSequential()",10, 51, 4, 0
+repos/cpp/leveldb/doc/bench/db_bench_tree_db.cc,"leveldb::Benchmark::ReadRandom()",10, 46, 6, 0
+repos/cpp/leveldb/doc/bench/db_bench_tree_db.cc,"main( int argc , char ** argv)",45, 79, 4, 0
+repos/cpp/leveldb/issues/issue200_test.cc,"leveldb::TEST( Issue200 , Test)",38, 66, 2, 0
+repos/cpp/leveldb/issues/issue200_test.cc,"main( int argc , char ** argv)",3, 39, 2, 0
+repos/cpp/leveldb/issues/issue178_test.cc,"Key1( int i)",5, 46, 2, 0
+repos/cpp/leveldb/issues/issue178_test.cc,"Key2( int i)",3, 27, 2, 0
+repos/cpp/leveldb/issues/issue178_test.cc,"TEST( Issue178 , Test)",57, 72, 2, 0
+repos/cpp/leveldb/issues/issue178_test.cc,"main( int argc , char ** argv)",3, 39, 2, 0
+repos/cpp/leveldb/helpers/memenv/memenv.cc,"leveldb::FileState::FileState()",1, 38, 2, 0
+repos/cpp/leveldb/helpers/memenv/memenv.cc,"leveldb::FileState::Ref()",4, 34, 4, 0
+repos/cpp/leveldb/helpers/memenv/memenv.cc,"leveldb::FileState::Unref()",16, 36, 6, 0
+repos/cpp/leveldb/helpers/memenv/memenv.cc,"leveldb::FileState::Size() const",4, 36, 4, 0
+repos/cpp/leveldb/helpers/memenv/memenv.cc,"leveldb::FileState::Truncate()",8, 36, 4, 0
+repos/cpp/leveldb/helpers/memenv/memenv.cc,"leveldb::FileState::Read( uint64_t offset , size_t n , Slice * result , char * scratch) const",43, 79, 2, 0
+repos/cpp/leveldb/helpers/memenv/memenv.cc,"leveldb::FileState::Append( const Slice & data)",29, 52, 8, 0
+repos/cpp/leveldb/helpers/memenv/memenv.cc,"leveldb::FileState::~FileState()",3, 17, 2, 0
+repos/cpp/leveldb/helpers/memenv/memenv.cc,"leveldb::SequentialFileImpl::SequentialFileImpl( FileState * file)",3, 72, 2, 0
+repos/cpp/leveldb/helpers/memenv/memenv.cc,"leveldb::SequentialFileImpl::~SequentialFileImpl()",3, 26, 2, 0
+repos/cpp/leveldb/helpers/memenv/memenv.cc,"leveldb::SequentialFileImpl::Read( size_t n , Slice * result , char * scratch)",7, 64, 2, 0
+repos/cpp/leveldb/helpers/memenv/memenv.cc,"leveldb::SequentialFileImpl::Skip( uint64_t n)",11, 54, 6, 0
+repos/cpp/leveldb/helpers/memenv/memenv.cc,"leveldb::RandomAccessFileImpl::RandomAccessFileImpl( FileState * file)",3, 65, 2, 0
+repos/cpp/leveldb/helpers/memenv/memenv.cc,"leveldb::RandomAccessFileImpl::~RandomAccessFileImpl()",3, 28, 2, 0
+repos/cpp/leveldb/helpers/memenv/memenv.cc,"leveldb::RandomAccessFileImpl::Read( uint64_t offset , size_t n , Slice * result , char * scratch) const",4, 64, 2, 0
+repos/cpp/leveldb/helpers/memenv/memenv.cc,"leveldb::WritableFileImpl::WritableFileImpl( FileState * file)",3, 52, 2, 0
+repos/cpp/leveldb/helpers/memenv/memenv.cc,"leveldb::WritableFileImpl::~WritableFileImpl()",3, 24, 2, 0
+repos/cpp/leveldb/helpers/memenv/memenv.cc,"leveldb::WritableFileImpl::Append( const Slice & data)",3, 45, 2, 0
+repos/cpp/leveldb/helpers/memenv/memenv.cc,"leveldb::WritableFileImpl::Close()",1, 50, 2, 0
+repos/cpp/leveldb/helpers/memenv/memenv.cc,"leveldb::WritableFileImpl::Flush()",1, 50, 2, 0
+repos/cpp/leveldb/helpers/memenv/memenv.cc,"leveldb::WritableFileImpl::Sync()",1, 49, 2, 0
+repos/cpp/leveldb/helpers/memenv/memenv.cc,"leveldb::NoOpLogger::Logv( const char * format , va_list ap)",1, 56, 2, 0
+repos/cpp/leveldb/helpers/memenv/memenv.cc,"leveldb::InMemoryEnv::InMemoryEnv( Env * base_env)",1, 65, 2, 0
+repos/cpp/leveldb/helpers/memenv/memenv.cc,"leveldb::InMemoryEnv::~InMemoryEnv()",5, 81, 4, 0
+repos/cpp/leveldb/helpers/memenv/memenv.cc,"leveldb::InMemoryEnv::NewSequentialFile( const std :: string & fname , SequentialFile ** result)",11, 62, 35, 0
+repos/cpp/leveldb/helpers/memenv/memenv.cc,"leveldb::InMemoryEnv::NewRandomAccessFile( const std :: string & fname , RandomAccessFile ** result)",11, 66, 37, 0
+repos/cpp/leveldb/helpers/memenv/memenv.cc,"leveldb::InMemoryEnv::NewWritableFile( const std :: string & fname , WritableFile ** result)",19, 59, 2, 0
+repos/cpp/leveldb/helpers/memenv/memenv.cc,"leveldb::InMemoryEnv::NewAppendableFile( const std :: string & fname , WritableFile ** result)",12, 61, 2, 0
+repos/cpp/leveldb/helpers/memenv/memenv.cc,"leveldb::InMemoryEnv::FileExists( const std :: string & fname)",4, 54, 2, 0
+repos/cpp/leveldb/helpers/memenv/memenv.cc,"leveldb::InMemoryEnv::GetChildren( const std :: string & dir , std :: vector<std::string> * result)",16, 81, 4, 0
+repos/cpp/leveldb/helpers/memenv/memenv.cc,"leveldb::InMemoryEnv::EXCLUSIVE_LOCKS_REQUIRED( mutex_)",8, 52, 4, 0
+repos/cpp/leveldb/helpers/memenv/memenv.cc,"leveldb::InMemoryEnv::DeleteFile( const std :: string & fname)",9, 56, 2, 0
+repos/cpp/leveldb/helpers/memenv/memenv.cc,"leveldb::InMemoryEnv::CreateDir( const std :: string & dirname)",3, 57, 2, 0
+repos/cpp/leveldb/helpers/memenv/memenv.cc,"leveldb::InMemoryEnv::DeleteDir( const std :: string & dirname)",3, 57, 2, 0
+repos/cpp/leveldb/helpers/memenv/memenv.cc,"leveldb::InMemoryEnv::GetFileSize( const std :: string & fname , uint64_t * file_size)",9, 78, 2, 0
+repos/cpp/leveldb/helpers/memenv/memenv.cc,"leveldb::InMemoryEnv::RenameFile( const std :: string & src , const std :: string & target)",12, 57, 28, 0
+repos/cpp/leveldb/helpers/memenv/memenv.cc,"leveldb::InMemoryEnv::LockFile( const std :: string & fname , FileLock ** lock)",4, 71, 2, 0
+repos/cpp/leveldb/helpers/memenv/memenv.cc,"leveldb::InMemoryEnv::UnlockFile( FileLock * lock)",4, 46, 2, 0
+repos/cpp/leveldb/helpers/memenv/memenv.cc,"leveldb::InMemoryEnv::GetTestDirectory( std :: string * path)",4, 55, 2, 0
+repos/cpp/leveldb/helpers/memenv/memenv.cc,"leveldb::InMemoryEnv::NewLogger( const std :: string & fname , Logger ** result)",4, 72, 2, 0
+repos/cpp/leveldb/helpers/memenv/memenv.cc,"leveldb::NewMemEnv( Env * base_env)",3, 36, 2, 0
+repos/cpp/leveldb/helpers/memenv/memenv_test.cc,"leveldb::MemEnvTest::MemEnvTest()",3, 42, 6, 0
+repos/cpp/leveldb/helpers/memenv/memenv_test.cc,"leveldb::MemEnvTest::~MemEnvTest()",3, 18, 2, 0
+repos/cpp/leveldb/helpers/memenv/memenv_test.cc,"leveldb::TEST( MemEnvTest , Basics)",67, 81, 2, 0
+repos/cpp/leveldb/helpers/memenv/memenv_test.cc,"leveldb::TEST( MemEnvTest , ReadWrite)",41, 78, 2, 0
+repos/cpp/leveldb/helpers/memenv/memenv_test.cc,"leveldb::TEST( MemEnvTest , Locks)",7, 56, 2, 0
+repos/cpp/leveldb/helpers/memenv/memenv_test.cc,"leveldb::TEST( MemEnvTest , Misc)",14, 60, 2, 0
+repos/cpp/leveldb/helpers/memenv/memenv_test.cc,"leveldb::TEST( MemEnvTest , LargeWrite)",32, 68, 4, 0
+repos/cpp/leveldb/helpers/memenv/memenv_test.cc,"leveldb::TEST( MemEnvTest , OverwriteOpenFile)",22, 78, 2, 0
+repos/cpp/leveldb/helpers/memenv/memenv_test.cc,"leveldb::TEST( MemEnvTest , DBTest)",42, 67, 2, 0
+repos/cpp/leveldb/helpers/memenv/memenv_test.cc,"main( int argc , char ** argv)",3, 39, 2, 0

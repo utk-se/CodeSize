@@ -1,0 +1,27 @@
+File, Function, Length, Total Width, Leading Space(s), Leading Tab(s)
+repos/javascript/react-beautiful-dnd/test/unit/view/drag-drop-context/store-management.spec.js,"mapStateToProps ( state : AppState )",3, 56, 2, 0
+repos/javascript/react-beautiful-dnd/.storybook/config.js,"loadStories ( )",3, 49, 2, 0
+repos/javascript/react-beautiful-dnd/flow-typed/npm/react-test-renderer_v16.x.x.js,"act ( callback : ( )",12, 62, 4, 0
+repos/javascript/react-beautiful-dnd/flow-typed/npm/testcafe_v0.x.x.js,"$RequestLoggerFn ( filter ? : | string | RegExp | Object | ( ( req : TestCafe $RequestData , res : TestCafe $ResponseData )",17, 76, 4, 0
+repos/javascript/react-beautiful-dnd/flow-typed/npm/testcafe_v0.x.x.js,"$RequestMockFn ( )",98, 76, 4, 0
+repos/javascript/react-beautiful-dnd/flow-typed/npm/jest_v24.x.x.js,"beforeAll ( fn : ( done : ( )",35, 84, 3, 0
+repos/javascript/react-beautiful-dnd/flow-typed/npm/jest_v24.x.x.js,"afterAll ( fn : ( done : ( )",123, 84, 3, 0
+repos/javascript/react-beautiful-dnd/flow-typed/npm/jest_v24.x.x.js,"fit ( name : JestTestName , fn : ( done : ( )",23, 45, 2, 0
+repos/javascript/react-beautiful-dnd/flow-typed/npm/jest_v24.x.x.js,"beforeEach ( fn : ( done : ( )",177, 84, 3, 0
+repos/javascript/react-beautiful-dnd/flow-typed/npm/jest_v24.x.x.js,"afterEach ( fn : ( done : ( )",193, 84, 3, 0
+repos/javascript/react-beautiful-dnd/flow-typed/npm/jest_v24.x.x.js,"spyOn ( value : mixed , method : string )",23, 79, 1, 0
+repos/javascript/react-beautiful-dnd/flow-typed/npm/redux_v4.x.x.js,"> ( ... middlewares : Array < Middleware < S , A , D > > )",4, 120, 2, 0
+repos/javascript/react-beautiful-dnd/flow-typed/npm/react-redux_v5.x.x.js,"> ( mapStateToProps : MapStateToProps < S , OP , SP > , mapDispatchToProps : MapDispatchToPropsFn < D , OP , DP > , mergeProps ? : null | void , options ? : ? Options < S , OP , SP , { | ... OP , ... SP , ... DP | } > , )",7, 85, 4, 0
+repos/javascript/react-beautiful-dnd/flow-typed/npm/react-redux_v5.x.x.js,"> ( mapStateToProps : MapStateToProps < S , OP , SP > , mapDispatchToProps : DP , mergeProps : MergeProps < P , OP , SP , $ObjMap < DP , Bind < D > > > , options ? : ? Options < S , OP , SP , P > , )",15, 66, 2, 0
+repos/javascript/react-beautiful-dnd/flow-typed/npm/react-redux_v5.x.x.js,"> ( mapStateToProps : MapStateToProps < S , OP , SP > , mapDispatchToProps : MapDispatchToPropsFn < D , OP , DP > , mergeProps : MergeProps < P , OP , SP , DP > , options ? : ? Options < S , OP , SP , P > , )",25, 80, 2, 0
+repos/javascript/react-beautiful-dnd/flow-typed/npm/react-redux_v5.x.x.js,"createProvider ( storeKey ? : string , subKey ? : string , )",17, 66, 2, 0
+repos/javascript/react-beautiful-dnd/flow-typed/npm/react-redux_v5.x.x.js,"> ( mapStateToProps : null | void , mapDispatchToProps : DP , mergeProps : MergeProps < P , OP , { || } , $ObjMap < DP , Bind < D > > > , options ? : ? Options < S , OP , { || } , P > , )",64, 80, 2, 0
+repos/javascript/react-beautiful-dnd/flow-typed/npm/react-redux_v5.x.x.js,"> ( selectorFactory : SelectorFactory < Com , D , S , OP , EFO , CP > , connectAdvancedOptions : ? ( ConnectAdvancedOptions & EFO )",11, 63, 2, 0
+repos/javascript/react-beautiful-dnd/flow-typed/npm/enzyme_v3.x.x.js,"> ( node : React $Element < T > , options ? : { context ? : Object } )",16, 43, 4, 0
+repos/javascript/react-beautiful-dnd/src/native-with-fallback.js,"> ( map : Map < T > )",4, 74, 2, 0
+repos/javascript/react-beautiful-dnd/src/native-with-fallback.js,"> ( list : Array < T > , predicate : PredicateFn < T > , )",17, 59, 2, 0
+repos/javascript/react-beautiful-dnd/src/native-with-fallback.js,"> ( list : Array < T > , predicate : PredicateFn < T > )",11, 73, 0, 0
+repos/javascript/react-beautiful-dnd/src/state/is-movement-allowed.js,"isMovementAllowed ( state : State )",3, 75, 0, 0
+repos/javascript/react-beautiful-dnd/src/view/is-type-of-element/is-element.js,"isElement ( el : Object )",3, 65, 0, 0
+repos/javascript/react-beautiful-dnd/src/view/is-type-of-element/is-svg-element.js,"isSvgElement ( el : Object )",3, 68, 0, 0
+repos/javascript/react-beautiful-dnd/src/view/is-type-of-element/is-html-element.js,"isHtmlElement ( el : Object )",3, 69, 0, 0
