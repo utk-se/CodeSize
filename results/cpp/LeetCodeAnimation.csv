@@ -1,0 +1,213 @@
+File, Function, Length, Total Width, Leading Space(s), Leading Tab(s)
+repos/cpp/LeetCodeAnimation/0026-Remove-Duplicates-from-Sorted-Array/cpp-0026/main.cpp,"Solution::removeDuplicates( vector<int> & nums)",16, 66, 12, 0
+repos/cpp/LeetCodeAnimation/0026-Remove-Duplicates-from-Sorted-Array/cpp-0026/main.cpp,"Solution::nextDifferentCharacterIndex( const vector<int> & nums , int p)",6, 69, 4, 0
+repos/cpp/LeetCodeAnimation/0026-Remove-Duplicates-from-Sorted-Array/cpp-0026/main.cpp,"main()",7, 56, 4, 0
+repos/cpp/LeetCodeAnimation/0102-Binary-Tree-Level-Order-Traversal/cpp-0102/main2.cpp,"TreeNode::TreeNode( int x)",1, 57, 4, 0
+repos/cpp/LeetCodeAnimation/0102-Binary-Tree-Level-Order-Traversal/cpp-0102/main2.cpp,"Solution::levelOrder( TreeNode * root)",35, 53, 4, 0
+repos/cpp/LeetCodeAnimation/0102-Binary-Tree-Level-Order-Traversal/cpp-0102/main2.cpp,"main()",4, 14, 4, 0
+repos/cpp/LeetCodeAnimation/0102-Binary-Tree-Level-Order-Traversal/cpp-0102/main.cpp,"TreeNode::TreeNode( int x)",1, 57, 4, 0
+repos/cpp/LeetCodeAnimation/0102-Binary-Tree-Level-Order-Traversal/cpp-0102/main.cpp,"Solution::levelOrder( TreeNode * root)",28, 60, 16, 0
+repos/cpp/LeetCodeAnimation/0102-Binary-Tree-Level-Order-Traversal/cpp-0102/main.cpp,"main()",4, 14, 4, 0
+repos/cpp/LeetCodeAnimation/0349-Intersection-of-Two-Arrays/cpp-0349/main.cpp,"Solution::intersection( vector<int> & nums1 , vector<int> & nums2)",11, 71, 4, 0
+repos/cpp/LeetCodeAnimation/0349-Intersection-of-Two-Arrays/cpp-0349/main.cpp,"printVec( const vector<int> & vec)",5, 39, 0, 0
+repos/cpp/LeetCodeAnimation/0349-Intersection-of-Two-Arrays/cpp-0349/main.cpp,"main()",12, 64, 4, 0
+repos/cpp/LeetCodeAnimation/0283-Move-Zeroes/cpp-0283/main3.cpp,"Solution::moveZeroes( vector<int> & nums)",7, 61, 8, 0
+repos/cpp/LeetCodeAnimation/0283-Move-Zeroes/cpp-0283/main3.cpp,"printVec( const vector<int> & vec)",5, 39, 0, 0
+repos/cpp/LeetCodeAnimation/0283-Move-Zeroes/cpp-0283/main3.cpp,"main()",9, 59, 4, 0
+repos/cpp/LeetCodeAnimation/0283-Move-Zeroes/cpp-0283/main2.cpp,"Solution::moveZeroes( vector<int> & nums)",11, 61, 8, 0
+repos/cpp/LeetCodeAnimation/0283-Move-Zeroes/cpp-0283/main2.cpp,"printVec( const vector<int> & vec)",5, 39, 0, 0
+repos/cpp/LeetCodeAnimation/0283-Move-Zeroes/cpp-0283/main2.cpp,"main()",9, 59, 4, 0
+repos/cpp/LeetCodeAnimation/0283-Move-Zeroes/cpp-0283/main4.cpp,"Solution::moveZeroes( vector<int> & nums)",11, 61, 8, 0
+repos/cpp/LeetCodeAnimation/0283-Move-Zeroes/cpp-0283/main4.cpp,"printVec( const vector<int> & vec)",5, 39, 0, 0
+repos/cpp/LeetCodeAnimation/0283-Move-Zeroes/cpp-0283/main4.cpp,"main()",9, 59, 4, 0
+repos/cpp/LeetCodeAnimation/0283-Move-Zeroes/cpp-0283/main.cpp,"Solution::moveZeroes( vector<int> & nums)",17, 77, 8, 0
+repos/cpp/LeetCodeAnimation/0283-Move-Zeroes/cpp-0283/main.cpp,"printVec( const vector<int> & vec)",5, 39, 0, 0
+repos/cpp/LeetCodeAnimation/0283-Move-Zeroes/cpp-0283/main.cpp,"main()",9, 59, 4, 0
+repos/cpp/LeetCodeAnimation/0024-Swap-Nodes-in-Pairs/cpp-0024/main.cpp,"ListNode::ListNode( int x)",1, 44, 4, 0
+repos/cpp/LeetCodeAnimation/0024-Swap-Nodes-in-Pairs/cpp-0024/main.cpp,"createLinkedList( int arr [ ] , int n)",14, 46, 0, 0
+repos/cpp/LeetCodeAnimation/0024-Swap-Nodes-in-Pairs/cpp-0024/main.cpp,"printLinkedList( ListNode * head)",19, 38, 0, 0
+repos/cpp/LeetCodeAnimation/0024-Swap-Nodes-in-Pairs/cpp-0024/main.cpp,"deleteLinkedList( ListNode * head)",11, 39, 0, 0
+repos/cpp/LeetCodeAnimation/0024-Swap-Nodes-in-Pairs/cpp-0024/main.cpp,"Solution::swapPairs( ListNode * head)",21, 47, 8, 0
+repos/cpp/LeetCodeAnimation/0024-Swap-Nodes-in-Pairs/cpp-0024/main.cpp,"main()",15, 47, 4, 0
+repos/cpp/LeetCodeAnimation/0020-Valid-Parentheses/cpp-0020/main.cpp,"Solution::isValid( string s)",33, 59, 12, 0
+repos/cpp/LeetCodeAnimation/0020-Valid-Parentheses/cpp-0020/main.cpp,"printBool( bool res)",3, 46, 4, 0
+repos/cpp/LeetCodeAnimation/0020-Valid-Parentheses/cpp-0020/main.cpp,"main()",9, 45, 4, 0
+repos/cpp/LeetCodeAnimation/0203-Remove-Linked-List-Elements/cpp-0203/main2.cpp,"ListNode::ListNode( int x)",1, 44, 4, 0
+repos/cpp/LeetCodeAnimation/0203-Remove-Linked-List-Elements/cpp-0203/main2.cpp,"Solution::removeElements( ListNode * head , int val)",14, 56, 4, 0
+repos/cpp/LeetCodeAnimation/0203-Remove-Linked-List-Elements/cpp-0203/main2.cpp,"main()",4, 14, 4, 0
+repos/cpp/LeetCodeAnimation/0203-Remove-Linked-List-Elements/cpp-0203/main.cpp,"ListNode::ListNode( int x)",1, 44, 4, 0
+repos/cpp/LeetCodeAnimation/0203-Remove-Linked-List-Elements/cpp-0203/main.cpp,"createLinkedList( int arr [ ] , int n)",14, 46, 0, 0
+repos/cpp/LeetCodeAnimation/0203-Remove-Linked-List-Elements/cpp-0203/main.cpp,"printLinkedList( ListNode * head)",19, 38, 0, 0
+repos/cpp/LeetCodeAnimation/0203-Remove-Linked-List-Elements/cpp-0203/main.cpp,"deleteLinkedList( ListNode * head)",11, 39, 0, 0
+repos/cpp/LeetCodeAnimation/0203-Remove-Linked-List-Elements/cpp-0203/main.cpp,"Solution::removeElements( ListNode * head , int val)",21, 56, 4, 0
+repos/cpp/LeetCodeAnimation/0203-Remove-Linked-List-Elements/cpp-0203/main.cpp,"main()",15, 47, 4, 0
+repos/cpp/LeetCodeAnimation/0167-Two-Sum-II-Input-array-is-sorted/cpp-0167/main3.cpp,"Solution::twoSum( vector<int> & numbers , int target)",20, 61, 8, 0
+repos/cpp/LeetCodeAnimation/0167-Two-Sum-II-Input-array-is-sorted/cpp-0167/main3.cpp,"Solution::isSorted( const vector<int> & numbers)",6, 51, 8, 0
+repos/cpp/LeetCodeAnimation/0167-Two-Sum-II-Input-array-is-sorted/cpp-0167/main3.cpp,"printVec( const vector<int> & vec)",5, 39, 0, 0
+repos/cpp/LeetCodeAnimation/0167-Two-Sum-II-Input-array-is-sorted/cpp-0167/main3.cpp,"main()",9, 62, 4, 0
+repos/cpp/LeetCodeAnimation/0167-Two-Sum-II-Input-array-is-sorted/cpp-0167/main2.cpp,"Solution::twoSum( vector<int> & numbers , int target)",15, 87, 12, 0
+repos/cpp/LeetCodeAnimation/0167-Two-Sum-II-Input-array-is-sorted/cpp-0167/main2.cpp,"Solution::binarySearch( const vector<int> & nums , int l , int r , int target)",18, 73, 4, 0
+repos/cpp/LeetCodeAnimation/0167-Two-Sum-II-Input-array-is-sorted/cpp-0167/main2.cpp,"Solution::isSorted( const vector<int> & numbers)",6, 51, 8, 0
+repos/cpp/LeetCodeAnimation/0167-Two-Sum-II-Input-array-is-sorted/cpp-0167/main2.cpp,"printVec( const vector<int> & vec)",5, 39, 0, 0
+repos/cpp/LeetCodeAnimation/0167-Two-Sum-II-Input-array-is-sorted/cpp-0167/main2.cpp,"main()",9, 62, 4, 0
+repos/cpp/LeetCodeAnimation/0167-Two-Sum-II-Input-array-is-sorted/cpp-0167/main.cpp,"Solution::twoSum( vector<int> & numbers , int target)",14, 61, 8, 0
+repos/cpp/LeetCodeAnimation/0167-Two-Sum-II-Input-array-is-sorted/cpp-0167/main.cpp,"Solution::isSorted( const vector<int> & numbers)",6, 51, 8, 0
+repos/cpp/LeetCodeAnimation/0167-Two-Sum-II-Input-array-is-sorted/cpp-0167/main.cpp,"printVec( const vector<int> & vec)",5, 39, 0, 0
+repos/cpp/LeetCodeAnimation/0167-Two-Sum-II-Input-array-is-sorted/cpp-0167/main.cpp,"main()",9, 62, 4, 0
+repos/cpp/LeetCodeAnimation/0350-Intersection-of-Two-Arrays-II/cpp-0350/main2.cpp,"Solution::intersect( vector<int> & nums1 , vector<int> & nums2)",17, 68, 4, 0
+repos/cpp/LeetCodeAnimation/0350-Intersection-of-Two-Arrays-II/cpp-0350/main2.cpp,"main()",12, 64, 4, 0
+repos/cpp/LeetCodeAnimation/0350-Intersection-of-Two-Arrays-II/cpp-0350/main.cpp,"Solution::intersect( vector<int> & nums1 , vector<int> & nums2)",15, 68, 4, 0
+repos/cpp/LeetCodeAnimation/0350-Intersection-of-Two-Arrays-II/cpp-0350/main.cpp,"printVec( const vector<int> & vec)",5, 39, 0, 0
+repos/cpp/LeetCodeAnimation/0350-Intersection-of-Two-Arrays-II/cpp-0350/main.cpp,"main()",12, 64, 4, 0
+repos/cpp/LeetCodeAnimation/0219-Contains-Duplicate-II/cpp-0219/main.cpp,"Solution::containsNearbyDuplicate( vector<int> & nums , int k)",24, 61, 4, 0
+repos/cpp/LeetCodeAnimation/0219-Contains-Duplicate-II/cpp-0219/main.cpp,"printBool( bool b)",3, 44, 4, 0
+repos/cpp/LeetCodeAnimation/0219-Contains-Duplicate-II/cpp-0219/main.cpp,"main()",10, 60, 4, 0
+repos/cpp/LeetCodeAnimation/0001-Two-Sum/cpp-0001/main3.cpp,"Solution::twoSum( vector<int> & nums , int target)",16, 61, 8, 0
+repos/cpp/LeetCodeAnimation/0001-Two-Sum/cpp-0001/main3.cpp,"printVec( const vector<int> & vec)",5, 39, 0, 0
+repos/cpp/LeetCodeAnimation/0001-Two-Sum/cpp-0001/main3.cpp,"main()",9, 67, 4, 0
+repos/cpp/LeetCodeAnimation/0001-Two-Sum/cpp-0001/main2.cpp,"Solution::twoSum( vector<int> & nums , int target)",16, 83, 12, 0
+repos/cpp/LeetCodeAnimation/0001-Two-Sum/cpp-0001/main2.cpp,"printVec( const vector<int> & vec)",5, 39, 0, 0
+repos/cpp/LeetCodeAnimation/0001-Two-Sum/cpp-0001/main2.cpp,"main()",9, 67, 4, 0
+repos/cpp/LeetCodeAnimation/0001-Two-Sum/cpp-0001/main.cpp,"Solution::twoSum( vector<int> & nums , int target)",11, 61, 8, 0
+repos/cpp/LeetCodeAnimation/0001-Two-Sum/cpp-0001/main.cpp,"printVec( const vector<int> & vec)",5, 39, 0, 0
+repos/cpp/LeetCodeAnimation/0001-Two-Sum/cpp-0001/main.cpp,"main()",9, 67, 4, 0
+repos/cpp/LeetCodeAnimation/0145-Binary-Tree-Postorder-Traversal/cpp-0145/main9.cpp,"TreeNode::TreeNode( int x)",1, 57, 4, 0
+repos/cpp/LeetCodeAnimation/0145-Binary-Tree-Postorder-Traversal/cpp-0145/main9.cpp,"Solution::postorderTraversal( TreeNode * root)",33, 65, 16, 0
+repos/cpp/LeetCodeAnimation/0145-Binary-Tree-Postorder-Traversal/cpp-0145/main9.cpp,"Solution::reverseTraversal( TreeNode * node , vector<int> & res)",9, 61, 4, 0
+repos/cpp/LeetCodeAnimation/0145-Binary-Tree-Postorder-Traversal/cpp-0145/main9.cpp,"print_vec( const vector<int> & vec)",5, 40, 0, 0
+repos/cpp/LeetCodeAnimation/0145-Binary-Tree-Postorder-Traversal/cpp-0145/main9.cpp,"main()",9, 52, 4, 0
+repos/cpp/LeetCodeAnimation/0145-Binary-Tree-Postorder-Traversal/cpp-0145/main8.cpp,"TreeNode::TreeNode( int x)",1, 57, 4, 0
+repos/cpp/LeetCodeAnimation/0145-Binary-Tree-Postorder-Traversal/cpp-0145/main8.cpp,"Solution::postorderTraversal( TreeNode * root)",33, 61, 16, 0
+repos/cpp/LeetCodeAnimation/0145-Binary-Tree-Postorder-Traversal/cpp-0145/main8.cpp,"print_vec( const vector<int> & vec)",5, 40, 0, 0
+repos/cpp/LeetCodeAnimation/0145-Binary-Tree-Postorder-Traversal/cpp-0145/main8.cpp,"main()",9, 52, 4, 0
+repos/cpp/LeetCodeAnimation/0145-Binary-Tree-Postorder-Traversal/cpp-0145/main3.cpp,"TreeNode::TreeNode( int x)",1, 57, 4, 0
+repos/cpp/LeetCodeAnimation/0145-Binary-Tree-Postorder-Traversal/cpp-0145/main3.cpp,"Solution::TagNode::TagNode( TreeNode * node)",1, 62, 8, 0
+repos/cpp/LeetCodeAnimation/0145-Binary-Tree-Postorder-Traversal/cpp-0145/main3.cpp,"Solution::postorderTraversal( TreeNode * root)",30, 53, 4, 0
+repos/cpp/LeetCodeAnimation/0145-Binary-Tree-Postorder-Traversal/cpp-0145/main3.cpp,"main()",4, 14, 4, 0
+repos/cpp/LeetCodeAnimation/0145-Binary-Tree-Postorder-Traversal/cpp-0145/main2.cpp,"TreeNode::TreeNode( int x)",1, 57, 4, 0
+repos/cpp/LeetCodeAnimation/0145-Binary-Tree-Postorder-Traversal/cpp-0145/main2.cpp,"Solution::Command::Command( string s , TreeNode * node)",1, 62, 8, 0
+repos/cpp/LeetCodeAnimation/0145-Binary-Tree-Postorder-Traversal/cpp-0145/main2.cpp,"Solution::postorderTraversal( TreeNode * root)",25, 67, 20, 0
+repos/cpp/LeetCodeAnimation/0145-Binary-Tree-Postorder-Traversal/cpp-0145/main2.cpp,"main()",4, 14, 4, 0
+repos/cpp/LeetCodeAnimation/0145-Binary-Tree-Postorder-Traversal/cpp-0145/main6.cpp,"TreeNode::TreeNode( int x)",1, 57, 4, 0
+repos/cpp/LeetCodeAnimation/0145-Binary-Tree-Postorder-Traversal/cpp-0145/main6.cpp,"Solution::postorderTraversal( TreeNode * root)",32, 76, 15, 0
+repos/cpp/LeetCodeAnimation/0145-Binary-Tree-Postorder-Traversal/cpp-0145/main6.cpp,"print_vec( const vector<int> & vec)",5, 40, 0, 0
+repos/cpp/LeetCodeAnimation/0145-Binary-Tree-Postorder-Traversal/cpp-0145/main6.cpp,"main()",9, 52, 4, 0
+repos/cpp/LeetCodeAnimation/0145-Binary-Tree-Postorder-Traversal/cpp-0145/main7.cpp,"TreeNode::TreeNode( int x)",1, 57, 4, 0
+repos/cpp/LeetCodeAnimation/0145-Binary-Tree-Postorder-Traversal/cpp-0145/main7.cpp,"Solution::postorderTraversal( TreeNode * root)",33, 57, 12, 0
+repos/cpp/LeetCodeAnimation/0145-Binary-Tree-Postorder-Traversal/cpp-0145/main7.cpp,"print_vec( const vector<int> & vec)",5, 40, 0, 0
+repos/cpp/LeetCodeAnimation/0145-Binary-Tree-Postorder-Traversal/cpp-0145/main7.cpp,"main()",9, 52, 4, 0
+repos/cpp/LeetCodeAnimation/0145-Binary-Tree-Postorder-Traversal/cpp-0145/main5.cpp,"TreeNode::TreeNode( int x)",1, 57, 4, 0
+repos/cpp/LeetCodeAnimation/0145-Binary-Tree-Postorder-Traversal/cpp-0145/main5.cpp,"Solution::postorderTraversal( TreeNode * root)",29, 53, 4, 0
+repos/cpp/LeetCodeAnimation/0145-Binary-Tree-Postorder-Traversal/cpp-0145/main5.cpp,"main()",4, 14, 4, 0
+repos/cpp/LeetCodeAnimation/0145-Binary-Tree-Postorder-Traversal/cpp-0145/main4.cpp,"TreeNode::TreeNode( int x)",1, 57, 4, 0
+repos/cpp/LeetCodeAnimation/0145-Binary-Tree-Postorder-Traversal/cpp-0145/main4.cpp,"Solution::postorderTraversal( TreeNode * root)",28, 53, 4, 0
+repos/cpp/LeetCodeAnimation/0145-Binary-Tree-Postorder-Traversal/cpp-0145/main4.cpp,"main()",4, 14, 4, 0
+repos/cpp/LeetCodeAnimation/0145-Binary-Tree-Postorder-Traversal/cpp-0145/main.cpp,"TreeNode::TreeNode( int x)",1, 57, 4, 0
+repos/cpp/LeetCodeAnimation/0145-Binary-Tree-Postorder-Traversal/cpp-0145/main.cpp,"Solution::postorderTraversal( TreeNode * root)",6, 53, 4, 0
+repos/cpp/LeetCodeAnimation/0145-Binary-Tree-Postorder-Traversal/cpp-0145/main.cpp,"Solution::__postorderTraversal( TreeNode * node , vector<int> & res)",8, 65, 4, 0
+repos/cpp/LeetCodeAnimation/0145-Binary-Tree-Postorder-Traversal/cpp-0145/main.cpp,"main()",4, 14, 4, 0
+repos/cpp/LeetCodeAnimation/0019-Remove-Nth-Node-From-End-of-List/cpp-0019/main2.cpp,"ListNode::ListNode( int x)",1, 44, 4, 0
+repos/cpp/LeetCodeAnimation/0019-Remove-Nth-Node-From-End-of-List/cpp-0019/main2.cpp,"createLinkedList( int arr [ ] , int n)",14, 46, 0, 0
+repos/cpp/LeetCodeAnimation/0019-Remove-Nth-Node-From-End-of-List/cpp-0019/main2.cpp,"printLinkedList( ListNode * head)",19, 38, 0, 0
+repos/cpp/LeetCodeAnimation/0019-Remove-Nth-Node-From-End-of-List/cpp-0019/main2.cpp,"deleteLinkedList( ListNode * head)",11, 39, 0, 0
+repos/cpp/LeetCodeAnimation/0019-Remove-Nth-Node-From-End-of-List/cpp-0019/main2.cpp,"Solution::removeNthFromEnd( ListNode * head , int n)",26, 56, 4, 0
+repos/cpp/LeetCodeAnimation/0019-Remove-Nth-Node-From-End-of-List/cpp-0019/main2.cpp,"main()",15, 49, 4, 0
+repos/cpp/LeetCodeAnimation/0019-Remove-Nth-Node-From-End-of-List/cpp-0019/main.cpp,"ListNode::ListNode( int x)",1, 44, 4, 0
+repos/cpp/LeetCodeAnimation/0019-Remove-Nth-Node-From-End-of-List/cpp-0019/main.cpp,"createLinkedList( int arr [ ] , int n)",14, 46, 0, 0
+repos/cpp/LeetCodeAnimation/0019-Remove-Nth-Node-From-End-of-List/cpp-0019/main.cpp,"printLinkedList( ListNode * head)",19, 38, 0, 0
+repos/cpp/LeetCodeAnimation/0019-Remove-Nth-Node-From-End-of-List/cpp-0019/main.cpp,"deleteLinkedList( ListNode * head)",11, 39, 0, 0
+repos/cpp/LeetCodeAnimation/0019-Remove-Nth-Node-From-End-of-List/cpp-0019/main.cpp,"Solution::removeNthFromEnd( ListNode * head , int n)",23, 77, 8, 0
+repos/cpp/LeetCodeAnimation/0019-Remove-Nth-Node-From-End-of-List/cpp-0019/main.cpp,"main()",15, 49, 4, 0
+repos/cpp/LeetCodeAnimation/0092-Reverse-Linked-List-II/cpp-0092/main.cpp,"ListNode::ListNode( int x)",1, 44, 4, 0
+repos/cpp/LeetCodeAnimation/0092-Reverse-Linked-List-II/cpp-0092/main.cpp,"Solution::reverseBetween( ListNode * head , int m , int n)",19, 61, 4, 0
+repos/cpp/LeetCodeAnimation/0092-Reverse-Linked-List-II/cpp-0092/main.cpp,"Solution::reverse( ListNode * head , int index , ListNode * & left)",12, 67, 4, 0
+repos/cpp/LeetCodeAnimation/0092-Reverse-Linked-List-II/cpp-0092/main.cpp,"main()",4, 14, 4, 0
+repos/cpp/LeetCodeAnimation/0447-Number-of-Boomerangs/cpp-0447/main.cpp,"Solution::numberOfBoomerangs( vector<pair<int,int>> & points)",17, 106, 12, 0
+repos/cpp/LeetCodeAnimation/0447-Number-of-Boomerangs/cpp-0447/main.cpp,"Solution::dis( const pair<int,int> & pa , const pair<int,int> & pb)",4, 66, 15, 0
+repos/cpp/LeetCodeAnimation/0447-Number-of-Boomerangs/cpp-0447/main.cpp,"main()",11, 56, 4, 0
+repos/cpp/LeetCodeAnimation/0237-Delete-Node-in-a-Linked-List/cpp-0237/main.cpp,"ListNode::ListNode( int x)",1, 44, 4, 0
+repos/cpp/LeetCodeAnimation/0237-Delete-Node-in-a-Linked-List/cpp-0237/main.cpp,"createLinkedList( int arr [ ] , int n)",14, 46, 0, 0
+repos/cpp/LeetCodeAnimation/0237-Delete-Node-in-a-Linked-List/cpp-0237/main.cpp,"printLinkedList( ListNode * head)",12, 40, 8, 0
+repos/cpp/LeetCodeAnimation/0237-Delete-Node-in-a-Linked-List/cpp-0237/main.cpp,"deleteLinkedList( ListNode * head)",11, 39, 0, 0
+repos/cpp/LeetCodeAnimation/0237-Delete-Node-in-a-Linked-List/cpp-0237/main.cpp,"findNode( ListNode * head , int x)",10, 43, 0, 0
+repos/cpp/LeetCodeAnimation/0237-Delete-Node-in-a-Linked-List/cpp-0237/main.cpp,"Solution::deleteNode( ListNode * node)",12, 52, 8, 0
+repos/cpp/LeetCodeAnimation/0237-Delete-Node-in-a-Linked-List/cpp-0237/main.cpp,"main()",16, 47, 4, 0
+repos/cpp/LeetCodeAnimation/0094-Binary-Tree-Inorder-Traversal/cpp-0094/main3.cpp,"TreeNode::TreeNode( int x)",1, 57, 4, 0
+repos/cpp/LeetCodeAnimation/0094-Binary-Tree-Inorder-Traversal/cpp-0094/main3.cpp,"Solution::inorderTraversal( TreeNode * root)",23, 51, 4, 0
+repos/cpp/LeetCodeAnimation/0094-Binary-Tree-Inorder-Traversal/cpp-0094/main3.cpp,"main()",4, 14, 4, 0
+repos/cpp/LeetCodeAnimation/0094-Binary-Tree-Inorder-Traversal/cpp-0094/main2.cpp,"TreeNode::TreeNode( int x)",1, 57, 4, 0
+repos/cpp/LeetCodeAnimation/0094-Binary-Tree-Inorder-Traversal/cpp-0094/main2.cpp,"Solution::Command::Command( string s , TreeNode * node)",1, 62, 8, 0
+repos/cpp/LeetCodeAnimation/0094-Binary-Tree-Inorder-Traversal/cpp-0094/main2.cpp,"Solution::inorderTraversal( TreeNode * root)",25, 67, 20, 0
+repos/cpp/LeetCodeAnimation/0094-Binary-Tree-Inorder-Traversal/cpp-0094/main2.cpp,"main()",4, 14, 4, 0
+repos/cpp/LeetCodeAnimation/0094-Binary-Tree-Inorder-Traversal/cpp-0094/main5.cpp,"TreeNode::TreeNode( int x)",1, 57, 4, 0
+repos/cpp/LeetCodeAnimation/0094-Binary-Tree-Inorder-Traversal/cpp-0094/main5.cpp,"Solution::inorderTraversal( TreeNode * root)",32, 65, 16, 0
+repos/cpp/LeetCodeAnimation/0094-Binary-Tree-Inorder-Traversal/cpp-0094/main5.cpp,"main()",4, 14, 4, 0
+repos/cpp/LeetCodeAnimation/0094-Binary-Tree-Inorder-Traversal/cpp-0094/main4.cpp,"TreeNode::TreeNode( int x)",1, 57, 4, 0
+repos/cpp/LeetCodeAnimation/0094-Binary-Tree-Inorder-Traversal/cpp-0094/main4.cpp,"Solution::inorderTraversal( TreeNode * root)",23, 51, 4, 0
+repos/cpp/LeetCodeAnimation/0094-Binary-Tree-Inorder-Traversal/cpp-0094/main4.cpp,"main()",4, 14, 4, 0
+repos/cpp/LeetCodeAnimation/0094-Binary-Tree-Inorder-Traversal/cpp-0094/main.cpp,"TreeNode::TreeNode( int x)",1, 57, 4, 0
+repos/cpp/LeetCodeAnimation/0094-Binary-Tree-Inorder-Traversal/cpp-0094/main.cpp,"Solution::inorderTraversal( TreeNode * root)",6, 51, 4, 0
+repos/cpp/LeetCodeAnimation/0094-Binary-Tree-Inorder-Traversal/cpp-0094/main.cpp,"Solution::__inorderTraversal( TreeNode * node , vector<int> & res)",8, 63, 4, 0
+repos/cpp/LeetCodeAnimation/0094-Binary-Tree-Inorder-Traversal/cpp-0094/main.cpp,"main()",4, 14, 4, 0
+repos/cpp/LeetCodeAnimation/0150-Evaluate-Reverse-Polish-Notation/cpp-0150/main.cpp,"Solution::evalRPN( vector<string> & tokens)",27, 62, 12, 0
+repos/cpp/LeetCodeAnimation/0150-Evaluate-Reverse-Polish-Notation/cpp-0150/main.cpp,"main()",4, 14, 4, 0
+repos/cpp/LeetCodeAnimation/0328-Odd-Even-Linked-List/cpp-0328/main2.cpp,"ListNode::ListNode( int x)",1, 44, 4, 0
+repos/cpp/LeetCodeAnimation/0328-Odd-Even-Linked-List/cpp-0328/main2.cpp,"Solution::oddEvenList( ListNode * head)",24, 75, 8, 0
+repos/cpp/LeetCodeAnimation/0328-Odd-Even-Linked-List/cpp-0328/main2.cpp,"main()",4, 14, 4, 0
+repos/cpp/LeetCodeAnimation/0328-Odd-Even-Linked-List/cpp-0328/main.cpp,"ListNode::ListNode( int x)",1, 44, 4, 0
+repos/cpp/LeetCodeAnimation/0328-Odd-Even-Linked-List/cpp-0328/main.cpp,"Solution::oddEvenList( ListNode * head)",31, 75, 8, 0
+repos/cpp/LeetCodeAnimation/0328-Odd-Even-Linked-List/cpp-0328/main.cpp,"main()",4, 14, 4, 0
+repos/cpp/LeetCodeAnimation/0144-Binary-Tree-Preorder-Traversal/cpp-0144/main3.cpp,"TreeNode::TreeNode( int x)",1, 57, 4, 0
+repos/cpp/LeetCodeAnimation/0144-Binary-Tree-Preorder-Traversal/cpp-0144/main3.cpp,"Solution::preorderTraversal( TreeNode * root)",20, 52, 4, 0
+repos/cpp/LeetCodeAnimation/0144-Binary-Tree-Preorder-Traversal/cpp-0144/main3.cpp,"main()",4, 14, 4, 0
+repos/cpp/LeetCodeAnimation/0144-Binary-Tree-Preorder-Traversal/cpp-0144/main2.cpp,"TreeNode::TreeNode( int x)",1, 57, 4, 0
+repos/cpp/LeetCodeAnimation/0144-Binary-Tree-Preorder-Traversal/cpp-0144/main2.cpp,"Solution::Command::Command( string s , TreeNode * node)",1, 62, 8, 0
+repos/cpp/LeetCodeAnimation/0144-Binary-Tree-Preorder-Traversal/cpp-0144/main2.cpp,"Solution::preorderTraversal( TreeNode * root)",25, 67, 20, 0
+repos/cpp/LeetCodeAnimation/0144-Binary-Tree-Preorder-Traversal/cpp-0144/main2.cpp,"main()",4, 14, 4, 0
+repos/cpp/LeetCodeAnimation/0144-Binary-Tree-Preorder-Traversal/cpp-0144/main6.cpp,"TreeNode::TreeNode( int x)",1, 57, 4, 0
+repos/cpp/LeetCodeAnimation/0144-Binary-Tree-Preorder-Traversal/cpp-0144/main6.cpp,"Solution::preorderTraversal( TreeNode * root)",31, 65, 16, 0
+repos/cpp/LeetCodeAnimation/0144-Binary-Tree-Preorder-Traversal/cpp-0144/main6.cpp,"main()",4, 14, 4, 0
+repos/cpp/LeetCodeAnimation/0144-Binary-Tree-Preorder-Traversal/cpp-0144/main5.cpp,"TreeNode::TreeNode( int x)",1, 57, 4, 0
+repos/cpp/LeetCodeAnimation/0144-Binary-Tree-Preorder-Traversal/cpp-0144/main5.cpp,"Solution::preorderTraversal( TreeNode * root)",22, 52, 4, 0
+repos/cpp/LeetCodeAnimation/0144-Binary-Tree-Preorder-Traversal/cpp-0144/main5.cpp,"print_vec( const vector<int> & vec)",5, 40, 0, 0
+repos/cpp/LeetCodeAnimation/0144-Binary-Tree-Preorder-Traversal/cpp-0144/main5.cpp,"main()",10, 58, 4, 0
+repos/cpp/LeetCodeAnimation/0144-Binary-Tree-Preorder-Traversal/cpp-0144/main4.cpp,"TreeNode::TreeNode( int x)",1, 57, 4, 0
+repos/cpp/LeetCodeAnimation/0144-Binary-Tree-Preorder-Traversal/cpp-0144/main4.cpp,"Solution::preorderTraversal( TreeNode * root)",21, 52, 4, 0
+repos/cpp/LeetCodeAnimation/0144-Binary-Tree-Preorder-Traversal/cpp-0144/main4.cpp,"print_vec( const vector<int> & vec)",5, 40, 0, 0
+repos/cpp/LeetCodeAnimation/0144-Binary-Tree-Preorder-Traversal/cpp-0144/main4.cpp,"main()",10, 58, 4, 0
+repos/cpp/LeetCodeAnimation/0144-Binary-Tree-Preorder-Traversal/cpp-0144/main.cpp,"TreeNode::TreeNode( int x)",1, 57, 4, 0
+repos/cpp/LeetCodeAnimation/0144-Binary-Tree-Preorder-Traversal/cpp-0144/main.cpp,"Solution::preorderTraversal( TreeNode * root)",6, 52, 4, 0
+repos/cpp/LeetCodeAnimation/0144-Binary-Tree-Preorder-Traversal/cpp-0144/main.cpp,"Solution::preorderTraversal( TreeNode * node , vector<int> & res)",8, 62, 4, 0
+repos/cpp/LeetCodeAnimation/0144-Binary-Tree-Preorder-Traversal/cpp-0144/main.cpp,"main()",4, 14, 4, 0
+repos/cpp/LeetCodeAnimation/0279-Perfect-Squares/cpp-0279/main3.cpp,"Solution::numSquares( int n)",10, 58, 16, 0
+repos/cpp/LeetCodeAnimation/0279-Perfect-Squares/cpp-0279/main3.cpp,"main()",7, 47, 4, 0
+repos/cpp/LeetCodeAnimation/0279-Perfect-Squares/cpp-0279/main2.cpp,"Solution::numSquares( int n)",6, 36, 8, 0
+repos/cpp/LeetCodeAnimation/0279-Perfect-Squares/cpp-0279/main2.cpp,"Solution::numSquares( int n , vector<int> & mem)",13, 60, 12, 0
+repos/cpp/LeetCodeAnimation/0279-Perfect-Squares/cpp-0279/main2.cpp,"main()",7, 47, 4, 0
+repos/cpp/LeetCodeAnimation/0279-Perfect-Squares/cpp-0279/main.cpp,"Solution::numSquares( int n)",28, 52, 12, 0
+repos/cpp/LeetCodeAnimation/0279-Perfect-Squares/cpp-0279/main.cpp,"main()",7, 47, 4, 0
+repos/cpp/LeetCodeAnimation/0454-4Sum-II/cpp-0454/main2.cpp,"Solution::fourSumCount( vector<int> & A , vector<int> & B , vector<int> & C , vector<int> & D)",20, 109, 8, 0
+repos/cpp/LeetCodeAnimation/0454-4Sum-II/cpp-0454/main2.cpp,"main()",15, 73, 4, 0
+repos/cpp/LeetCodeAnimation/0454-4Sum-II/cpp-0454/main.cpp,"Solution::fourSumCount( vector<int> & A , vector<int> & B , vector<int> & C , vector<int> & D)",15, 87, 4, 0
+repos/cpp/LeetCodeAnimation/0454-4Sum-II/cpp-0454/main.cpp,"main()",15, 73, 4, 0
+repos/cpp/LeetCodeAnimation/0086-Partition-List/cpp-0086/main.cpp,"ListNode::ListNode( int x)",1, 44, 4, 0
+repos/cpp/LeetCodeAnimation/0086-Partition-List/cpp-0086/main.cpp,"Solution::partition( ListNode * head , int x)",29, 51, 8, 0
+repos/cpp/LeetCodeAnimation/0086-Partition-List/cpp-0086/main.cpp,"main()",4, 14, 4, 0
+repos/cpp/LeetCodeAnimation/0002-Add-Two-Numbers/cpp-0002/main3.cpp,"ListNode::ListNode( int x)",1, 44, 4, 0
+repos/cpp/LeetCodeAnimation/0002-Add-Two-Numbers/cpp-0002/main3.cpp,"Solution::addTwoNumbers( ListNode * l1 , ListNode * l2)",22, 58, 4, 0
+repos/cpp/LeetCodeAnimation/0002-Add-Two-Numbers/cpp-0002/main3.cpp,"Solution::getLen( ListNode * l)",6, 35, 12, 0
+repos/cpp/LeetCodeAnimation/0002-Add-Two-Numbers/cpp-0002/main3.cpp,"main()",4, 14, 4, 0
+repos/cpp/LeetCodeAnimation/0002-Add-Two-Numbers/cpp-0002/main2.cpp,"ListNode::ListNode( int x)",1, 44, 4, 0
+repos/cpp/LeetCodeAnimation/0002-Add-Two-Numbers/cpp-0002/main2.cpp,"Solution::addTwoNumbers( ListNode * l1 , ListNode * l2)",25, 66, 16, 0
+repos/cpp/LeetCodeAnimation/0002-Add-Two-Numbers/cpp-0002/main2.cpp,"main()",4, 14, 4, 0
+repos/cpp/LeetCodeAnimation/0002-Add-Two-Numbers/cpp-0002/main.cpp,"ListNode::ListNode( int x)",1, 44, 4, 0
+repos/cpp/LeetCodeAnimation/0002-Add-Two-Numbers/cpp-0002/main.cpp,"Solution::addTwoNumbers( ListNode * l1 , ListNode * l2)",22, 62, 12, 0
+repos/cpp/LeetCodeAnimation/0002-Add-Two-Numbers/cpp-0002/main.cpp,"main()",4, 14, 4, 0
+repos/cpp/LeetCodeAnimation/0344-Reverse-String/cpp-0344/main.cpp,"Solution::reverseString( string s)",11, 37, 4, 0
+repos/cpp/LeetCodeAnimation/0344-Reverse-String/cpp-0344/main.cpp,"main()",6, 55, 4, 0
+repos/cpp/LeetCodeAnimation/0075-Sort-Colors/cpp-0075/main2.cpp,"Solution::sortColors( vector<int> & nums)",15, 52, 8, 0
+repos/cpp/LeetCodeAnimation/0075-Sort-Colors/cpp-0075/main2.cpp,"printArr( const vector<int> & vec)",5, 39, 0, 0
+repos/cpp/LeetCodeAnimation/0075-Sort-Colors/cpp-0075/main2.cpp,"main()",12, 43, 4, 0
+repos/cpp/LeetCodeAnimation/0075-Sort-Colors/cpp-0075/main.cpp,"Solution::sortColors( vector<int> & nums)",16, 50, 12, 0
+repos/cpp/LeetCodeAnimation/0075-Sort-Colors/cpp-0075/main.cpp,"printArr( const vector<int> & vec)",5, 39, 0, 0
+repos/cpp/LeetCodeAnimation/0075-Sort-Colors/cpp-0075/main.cpp,"main()",12, 43, 4, 0

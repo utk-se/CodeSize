@@ -1,0 +1,50 @@
+File, Function, Length, Total Width, Leading Space(s), Leading Tab(s)
+repos/cpp/DeepSpeech/native_client/generate_trie.cpp,"generate_trie( const char * alphabet_path , const char * kenlm_path , const char * trie_path)",6, 94, 0, 0
+repos/cpp/DeepSpeech/native_client/generate_trie.cpp,"main( int argc , char ** argv)",8, 92, 4, 0
+repos/cpp/DeepSpeech/native_client/c_speech_features/c_speech_features.cpp,"csf_mfcc( const T * aSignal , unsigned int aSignalLen , int aSampleRate , csf_float aWinLen , csf_float aWinStep , int aNCep , int aNFilters , int aNFFT , int aLowFreq , int aHighFreq , csf_float aPreemph , int aCepLifter , int aAppendEnergy , csf_float * aWinFunc , csf_float ** aMFCC)",62, 83, 2, 0
+repos/cpp/DeepSpeech/native_client/c_speech_features/c_speech_features.cpp,"csf_fbank( const T * aSignal , unsigned int aSignalLen , int aSampleRate , csf_float aWinLen , csf_float aWinStep , int aNFilters , int aNFFT , int aLowFreq , int aHighFreq , csf_float aPreemph , csf_float * aWinFunc , csf_float ** aFeatures , csf_float ** aEnergy)",72, 80, 10, 0
+repos/cpp/DeepSpeech/native_client/c_speech_features/c_speech_features.cpp,"csf_logfbank( const T * aSignal , unsigned int aSignalLen , int aSampleRate , csf_float aWinLen , csf_float aWinStep , int aNFilters , int aNFFT , int aLowFreq , int aHighFreq , csf_float aPreemph , csf_float * aWinFunc , csf_float ** aFeatures , csf_float ** aEnergy)",18, 80, 2, 0
+repos/cpp/DeepSpeech/native_client/c_speech_features/c_speech_features.cpp,"csf_ssc( const T * aSignal , unsigned int aSignalLen , int aSampleRate , csf_float aWinLen , csf_float aWinStep , int aNFilters , int aNFFT , int aLowFreq , int aHighFreq , csf_float aPreemph , csf_float * aWinFunc , csf_float ** aFeatures)",76, 78, 8, 0
+repos/cpp/DeepSpeech/native_client/c_speech_features/c_speech_features.cpp,"csf_hz2mel( csf_float aHz)",4, 26, 0, 0
+repos/cpp/DeepSpeech/native_client/c_speech_features/c_speech_features.cpp,"csf_mel2hz( csf_float aMel)",4, 27, 0, 0
+repos/cpp/DeepSpeech/native_client/c_speech_features/c_speech_features.cpp,"csf_lifter( csf_float * aCepstra , int aNFrames , int aNCep , int aCepLifter)",18, 73, 0, 0
+repos/cpp/DeepSpeech/native_client/c_speech_features/c_speech_features.cpp,"csf_delta( const csf_float * aFeatures , int aNFrames , int aNFrameLen , int aN)",28, 79, 10, 0
+repos/cpp/DeepSpeech/native_client/c_speech_features/c_speech_features.cpp,"csf_get_filterbanks( int aNFilters , int aNFFT , int aSampleRate , int aLowFreq , int aHighFreq)",35, 76, 28, 0
+repos/cpp/DeepSpeech/native_client/c_speech_features/c_speech_features.cpp,"csf_framesig( const csf_float * aSignal , unsigned int aSignalLen , int aFrameLen , int aPaddedFrameLen , int aFrameStep , csf_float * aWinFunc , csf_float ** aFrames)",42, 79, 0, 0
+repos/cpp/DeepSpeech/native_client/c_speech_features/c_speech_features.cpp,"csf_deframesig( const csf_float * aFrames , int aNFrames , int aSigLen , int aFrameLen , int aFrameStep , csf_float * aWinFunc , csf_float ** aSignal)",41, 68, 0, 0
+repos/cpp/DeepSpeech/native_client/c_speech_features/c_speech_features.cpp,"csf_preemphasis( const T * aSignal , unsigned int aSignalLen , csf_float aCoeff)",12, 77, 0, 0
+repos/cpp/DeepSpeech/native_client/c_speech_features/c_speech_features.cpp,"csf_magspec( const csf_float * aFrames , int aNFrames , int aNFFT)",20, 81, 2, 0
+repos/cpp/DeepSpeech/native_client/c_speech_features/c_speech_features.cpp,"csf_powspec( const csf_float * aFrames , int aNFrames , int aNFFT)",13, 63, 0, 0
+repos/cpp/DeepSpeech/native_client/c_speech_features/c_speech_features.cpp,"csf_logpowspec( const csf_float * aFrames , int aNFrames , int aNFFT , int aNorm)",27, 77, 0, 0
+repos/cpp/DeepSpeech/native_client/ctcdecode/path_trie.cpp,"PathTrie::PathTrie()",20, 35, 2, 0
+repos/cpp/DeepSpeech/native_client/ctcdecode/path_trie.cpp,"PathTrie::~PathTrie()",5, 33, 2, 0
+repos/cpp/DeepSpeech/native_client/ctcdecode/path_trie.cpp,"PathTrie::get_path_trie( int new_char , int new_timestep , float cur_log_prob_c , bool reset)",70, 102, 0, 0
+repos/cpp/DeepSpeech/native_client/ctcdecode/path_trie.cpp,"PathTrie::get_path_vec( std :: vector<int> & output , std :: vector<int> & timesteps)",3, 90, 0, 0
+repos/cpp/DeepSpeech/native_client/ctcdecode/path_trie.cpp,"PathTrie::get_path_vec( std :: vector<int> & output , std :: vector<int> & timesteps , int stop , size_t max_steps)",14, 79, 2, 0
+repos/cpp/DeepSpeech/native_client/ctcdecode/path_trie.cpp,"PathTrie::iterate_to_vec( std :: vector<PathTrie*> & output)",15, 64, 0, 0
+repos/cpp/DeepSpeech/native_client/ctcdecode/path_trie.cpp,"PathTrie::remove()",20, 78, 4, 0
+repos/cpp/DeepSpeech/native_client/ctcdecode/path_trie.cpp,"PathTrie::set_dictionary( fst :: StdVectorFst * dictionary)",5, 63, 0, 0
+repos/cpp/DeepSpeech/native_client/ctcdecode/path_trie.cpp,"PathTrie::set_matcher( std :: shared_ptr<FSTMATCH> matcher)",3, 64, 0, 0
+repos/cpp/DeepSpeech/native_client/ctcdecode/decoder_utils.cpp,"get_pruned_log_probs( const double * prob_step , size_t class_dim , double cutoff_prob , size_t cutoff_top_n)",33, 78, 8, 0
+repos/cpp/DeepSpeech/native_client/ctcdecode/decoder_utils.cpp,"get_beam_search_result( const std :: vector<PathTrie*> & prefixes , size_t beam_size)",22, 75, 2, 0
+repos/cpp/DeepSpeech/native_client/ctcdecode/decoder_utils.cpp,"get_utf8_str_len( const std :: string & str)",7, 50, 0, 0
+repos/cpp/DeepSpeech/native_client/ctcdecode/decoder_utils.cpp,"split_utf8_str( const std :: string & str)",18, 66, 0, 0
+repos/cpp/DeepSpeech/native_client/ctcdecode/decoder_utils.cpp,"split_str( const std :: string & s , const std :: string & delim)",19, 63, 35, 0
+repos/cpp/DeepSpeech/native_client/ctcdecode/decoder_utils.cpp,"prefix_compare( const PathTrie * x , const PathTrie * y)",11, 60, 0, 0
+repos/cpp/DeepSpeech/native_client/ctcdecode/decoder_utils.cpp,"add_word_to_fst( const std :: vector<int> & word , fst :: StdVectorFst * dictionary)",16, 63, 4, 0
+repos/cpp/DeepSpeech/native_client/ctcdecode/decoder_utils.cpp,"add_word_to_dictionary( const std :: string & word , const std :: unordered_map<std::string,int> & char_map , bool add_space , int SPACE_ID , fst :: StdVectorFst * dictionary)",30, 58, 4, 0
+repos/cpp/DeepSpeech/native_client/ctcdecode/scorer.cpp,"Scorer::Scorer( double alpha , double beta , const std :: string & lm_path , const std :: string & trie_path , const Alphabet & alphabet)",26, 74, 4, 0
+repos/cpp/DeepSpeech/native_client/ctcdecode/scorer.cpp,"Scorer::Scorer( double alpha , double beta , const std :: string & lm_path , const std :: string & trie_path , const std :: string & alphabet_config_path)",8, 84, 2, 0
+repos/cpp/DeepSpeech/native_client/ctcdecode/scorer.cpp,"Scorer::~Scorer()",3, 18, 0, 0
+repos/cpp/DeepSpeech/native_client/ctcdecode/scorer.cpp,"Scorer::setup( const std :: string & lm_path , const std :: string & trie_path)",60, 90, 4, 0
+repos/cpp/DeepSpeech/native_client/ctcdecode/scorer.cpp,"Scorer::save_dictionary( const std :: string & path)",11, 96, 2, 0
+repos/cpp/DeepSpeech/native_client/ctcdecode/scorer.cpp,"Scorer::get_log_cond_prob( const std :: vector<std::string> & words)",20, 82, 4, 0
+repos/cpp/DeepSpeech/native_client/ctcdecode/scorer.cpp,"Scorer::get_sent_log_prob( const std :: vector<std::string> & words)",16, 72, 0, 0
+repos/cpp/DeepSpeech/native_client/ctcdecode/scorer.cpp,"Scorer::get_log_prob( const std :: vector<std::string> & words)",11, 68, 35, 0
+repos/cpp/DeepSpeech/native_client/ctcdecode/scorer.cpp,"Scorer::reset_params( float alpha , float beta)",5, 51, 0, 0
+repos/cpp/DeepSpeech/native_client/ctcdecode/scorer.cpp,"Scorer::split_labels( const std :: vector<int> & labels)",13, 78, 0, 0
+repos/cpp/DeepSpeech/native_client/ctcdecode/scorer.cpp,"Scorer::make_ngram( PathTrie * prefix)",33, 85, 6, 0
+repos/cpp/DeepSpeech/native_client/ctcdecode/scorer.cpp,"Scorer::fill_dictionary( const std :: vector<std::string> & vocabulary , bool add_space)",31, 89, 0, 0
+repos/cpp/DeepSpeech/native_client/ctcdecode/ctc_beam_search_decoder.cpp,"ctc_beam_search_decoder( const double * probs , int time_dim , int class_dim , const Alphabet & alphabet , size_t beam_size , double cutoff_prob , size_t cutoff_top_n , Scorer * ext_scorer)",160, 80, 2, 0
+repos/cpp/DeepSpeech/native_client/ctcdecode/ctc_beam_search_decoder.cpp,"ctc_beam_search_decoder_batch( const double * probs , int batch_size , int time_dim , int class_dim , const int * seq_lengths , int seq_lengths_size , const Alphabet & alphabet , size_t beam_size , size_t num_processes , double cutoff_prob , size_t cutoff_top_n , Scorer * ext_scorer)",39, 99, 2, 0
+repos/cpp/DeepSpeech/native_client/ctcdecode/third_party/ThreadPool/example.cpp,"main()",23, 70, 16, 0
