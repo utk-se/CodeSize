@@ -1,10 +1,10 @@
-#CodeSize
+# CodeSize
 
 Codesize depends on these repos:
 * https://github.com/terryyin/lizard
 
 
-##Python Script
+## Python Script
 
 To use:
 
@@ -26,10 +26,10 @@ With the `-d` flag, you can specify a specific directory to analyze.
 With the `-l` flag, you can specify a specific file extension. You can use this flag to specify multiple extensions (ex. `-l .cpp -l .cc`).
 
 
-##Repos
+## Repos
 
 The repos analyzed were picked from the top 25 repos for the day on 03/12/2019 from C++, Java, Javascript, and Python. The commit hashes are available in the `repos.txt` file.
 
-##Results
+## Results
 
 The results are stored in `results/` in the repo. The files are broken down per repo analyzed. 
