@@ -1,300 +1,400 @@
 repos/cpp/DeepSpeech:
+https://github.com/mozilla/DeepSpeech.git
 382707388ab32e9066c61dcaf621982942139500
 
 repos/cpp/LeetCodeAnimation:
+https://github.com/MisterBooo/LeetCodeAnimation.git
 5871d9af0920d304c40c4c23c9389c14ab10ae1f
 
 repos/cpp/bitcoin:
+https://github.com/bitcoin/bitcoin.git
 c3b1cb958f7c57c5d87db663f2b1a83e3471d354
 
 repos/cpp/caffe:
+https://github.com/BVLC/caffe.git
 04ab089db018a292ae48d51732dd6c66766b36b6
 
 repos/cpp/calculator:
+https://github.com/Microsoft/calculator.git
 67fa2286eb55a6447687d9f68f5da76bd537a94f
 
 repos/cpp/chunkwm:
+https://github.com/koekeishiya/chunkwm.git
 13c05fce73312cb4a2a357cb9c83e0a4b7b58a2c
 
 repos/cpp/curv:
+https://github.com/curv3d/curv.git
 94349a412a9bce69526112317687597b57f6a33a
 
 repos/cpp/electron:
+https://github.com/electron/electron.git
 48a95f9677f4e6200a82ce98a10984b6d2c9ff12
 
 repos/cpp/envoy:
+https://github.com/envoyproxy/envoy.git
 f133be333c96898f1efed79bcd1299e104fa2b09
 
 repos/cpp/godot:
+https://github.com/godotengine/godot.git
 53131635b405d3417da55a3cd4c5e01c626210df
 
 repos/cpp/grpc:
+https://github.com/grpc/grpc.git
 ee500f1963b5ed070d05dde7904b46af92d80de5
 
 repos/cpp/interview:
+https://github.com/huihut/interview.git
 3e383123022bd29fc0c96d35db9d3024f99a3ad7
 
 repos/cpp/leveldb:
+https://github.com/google/leveldb.git
 9ce30510d482f5b2fa2965201453f0fc914f700c
 
 repos/cpp/olive:
+https://github.com/olive-editor/olive.git
 ed05cedc48c700b64900b007a716ecfc178aae53
 
 repos/cpp/opencv:
+https://github.com/opencv/opencv.git
 a534af68b8dfac83360d49f799ad1e6288550abd
 
 repos/cpp/openpose:
+https://github.com/CMU-Perceptual-Computing-Lab/openpose.git
 063c03541e68209a2fa3000f0c6840076ec77efc
 
 repos/cpp/protobuf:
+https://github.com/protocolbuffers/protobuf.git
 70dc39ed3d677c39c6b0abd3fa76bfa0db54ac14
 
 repos/cpp/pytorch:
+https://github.com/pytorch/pytorch.git
 02c48cced963984e3403c6aaba7b106ff4ab85ef
 
 repos/cpp/simdjson:
+https://github.com/lemire/simdjson.git
 55e9b082cba27d0c64d1e421b786c4f97df72024
 
 repos/cpp/smhasher:
+https://github.com/rurban/smhasher.git
 f8c994a8e33257e729346c1f7e81d264af9c27c0
 
 repos/cpp/swoole-src:
+https://github.com/swoole/swoole-src.git
 815999d8cc802cc11ff7d34274d833ba592410f6
 
 repos/cpp/tensorflow:
+https://github.com/tensorflow/tensorflow.git
 489f2cac03ee2940d971be0042e7c025686759ac
 
 repos/cpp/tesseract:
+https://github.com/tesseract-ocr/tesseract.git
 e965de77eb0cf8dcdcee70a2ea8116c3dc9ba62c
 
 repos/cpp/wyhash:
+https://github.com/wangyi-fudan/wyhash.git
 027671d6e41cbd75867168d5aec3b012c91bbfc9
 
 repos/cpp/xgboost:
+https://github.com/dmlc/xgboost.git
 a36c3ed4f4f17f58bb005b9e8fd741db9a7b7804
 
 repos/java/DoraemonKit:
+https://github.com/didi/DoraemonKit.git
 6de77ff99db07b55fee97bb6a9ee04ac874840a5
 
 repos/java/JCSprout:
+https://github.com/crossoverJie/JCSprout.git
 3b510fbe9aa11496aece2ec29116859339f98d10
 
 repos/java/JavaGuide:
+https://github.com/Snailclimb/JavaGuide.git
 5fd6855a0ee82c39a723828a23ffd5e30652c4cc
 
 repos/java/Leaf:
+https://github.com/Meituan-Dianping/Leaf.git
 61f53f8c000d48f479c2a3a609f2d9ee6049e1aa
 
 repos/java/MyBookshelf:
+https://github.com/gedoor/MyBookshelf.git
 945199b9844965416a4e8b0abd6abc2dd062f604
 
 repos/java/TowerGame:
+https://github.com/geeeeeeeek/TowerGame.git
 9493a373f421c96ae6e9c50e60a197d5a6ce187c
 
 repos/java/advanced-java:
+https://github.com/doocs/advanced-java.git
 04fc6ca2fcb610c31f18a0273e6e5289f779643d
 
 repos/java/apollo:
+https://github.com/ctripcorp/apollo.git
 21e76b3d43f455c1e28a9d6626601362cf4997ae
 
 repos/java/arthas:
+https://github.com/alibaba/arthas.git
 88ed7897bdd5dcbe8a16618695f7601f31baec40
 
 repos/java/caffeine:
+https://github.com/ben-manes/caffeine.git
 91eec88be93f16549ce82dd2f17959fd8eba75dd
 
 repos/java/elasticsearch:
+https://github.com/elastic/elasticsearch.git
 55eded9a4ffa182a0ef1976ccc8dd9e30c3a2bd2
 
 repos/java/fescar:
+https://github.com/alibaba/fescar.git
 3e4e0b9fd0214dd805a80a362177df1f869b7bae
 
 repos/java/flutter_boost:
+https://github.com/alibaba/flutter_boost.git
 d5efd999f9f53ee30843d055d81826660fcde3cf
 
 repos/java/helidon:
+https://github.com/oracle/helidon.git
 ca1ffd3b04c38b08993e1b34bdbfbfdfc3a9f633
 
 repos/java/mall:
+https://github.com/macrozheng/mall.git
 efb540cb09b3b8e837f752a352150a92cbd134bd
 
 repos/java/miaosha:
+https://github.com/qiurunze123/miaosha.git
 b01a546229d6b6041e09efc22dbb0ed3c5108ae3
 
 repos/java/nacos:
+https://github.com/alibaba/nacos.git
 2b9d884f988b7d525a6061b52adfcfe5d0d67857
 
 repos/java/quarkus:
+https://github.com/quarkusio/quarkus.git
 9d99d9732278df0770af16d40930a64affa4b038
 
 repos/java/security:
+https://github.com/opendistro-for-elasticsearch/security.git
 b69e821a360a774ec2e94dc01390cd61521562d2
 
 repos/java/spring-boot:
+https://github.com/spring-projects/spring-boot.git
 39971bbbd388e5fbc392ba8c8174f8b8620dcbd3
 
 repos/java/spring-boot-examples:
+https://github.com/ityouknow/spring-boot-examples.git
 a1166aa189366cfce12cd5b312e20affc6a890d7
 
 repos/java/spring-cloud-alibaba:
+https://github.com/spring-cloud-incubator/spring-cloud-alibaba.git
 03788b58f993e62364f5d102cf027ee7d849d396
 
 repos/java/spring-framework:
+https://github.com/spring-projects/spring-framework.git
 a35adc6ea651d82fed1458bab745f3201922c6f6
 
 repos/java/sql:
+https://github.com/opendistro-for-elasticsearch/sql.git
 2e6ed45dcf7b13cae34ebaebedf4ad46b9260f4b
 
 repos/java/tutorials:
+https://github.com/eugenp/tutorials.git
 2cdae3f8b98314b55ea41edeba78d246935d5222
 
 repos/javascript/30-seconds-of-code:
+https://github.com/30-seconds/30-seconds-of-code.git
 a16f855c386fefb5d7cc3d6de4b9801bbc49dc75
 
 repos/javascript/Motrix:
+https://github.com/agalwood/Motrix.git
 324347e5915cb07481b1d72f71e1d113c510fb97
 
 repos/javascript/awesome-vscode:
+https://github.com/viatsko/awesome-vscode.git
 2286a63e5154550beffec263d3d2b5331e120324
 
 repos/javascript/axios:
+https://github.com/axios/axios.git
 283d7b306ce231f092d28e01713905e5c1600d14
 
 repos/javascript/bootstrap:
+https://github.com/twbs/bootstrap.git
 ff1788666ffe935fa066eca6f5a6b9f4384c9b36
 
 repos/javascript/create-react-app:
+https://github.com/facebook/create-react-app.git
 b60f56fca753b84a9e8c931f12bc6d04b36604d3
 
 repos/javascript/gerador-de-tweet-do-bolsonaro:
+https://github.com/gabrielferreiraa/gerador-de-tweet-do-bolsonaro.git
 9a9508209cec80f7e09b13f939d69d2980275cb0
 
 repos/javascript/handtrack.js:
+https://github.com/victordibia/handtrack.js.git
 69dacf0d55b6b461776c15af16a3a8b6fd10460a
 
 repos/javascript/ink:
+https://github.com/vadimdemedes/ink.git
 1aaabc62c819d7f06f1dc12573f008adcd43f92f
 
 repos/javascript/iro.js:
+https://github.com/jaames/iro.js.git
 67b78ac5342a596f2d47d7975db24bb5981a51c1
 
 repos/javascript/javascript-algorithms:
+https://github.com/trekhleb/javascript-algorithms.git
 2267642a3dc78e4f5db2ed017f4438839b26d492
 
 repos/javascript/material-ui:
+https://github.com/mui-org/material-ui.git
 a74b0205cb54cae0c3e9216f9cccb131b74afa39
 
 repos/javascript/next.js:
+https://github.com/zeit/next.js.git
 8cf6ef58f0b6d39d35e5e2aaa161bc0be6719468
 
 repos/javascript/portable-node-guide:
+https://github.com/ehmicky/portable-node-guide.git
 215222c62b02d0c6cea7e19bd308e0f83c666b83
 
 repos/javascript/puppeteer:
+https://github.com/GoogleChrome/puppeteer.git
 6474b3ffe0b5c01296ac1f53bae6bacfda9215c5
 
 repos/javascript/react:
+https://github.com/facebook/react.git
 103378b1eada44561821b1c22ff54e0537cf9764
 
 repos/javascript/react-beautiful-dnd:
+https://github.com/atlassian/react-beautiful-dnd.git
 a67e670ac74e1a4fe815571d73cc302d86f11523
 
 repos/javascript/react-spring:
+https://github.com/react-spring/react-spring.git
 0c708ff6eeefb71df596f535f00eec5a77974f95
 
 repos/javascript/react-three-fiber:
+https://github.com/drcmda/react-three-fiber.git
 a0359dbd07b0b340664431c3bc73b2c7f7dde62a
 
 repos/javascript/react-window:
+https://github.com/bvaughn/react-window.git
 a669fc94c0b261d6a2c25eeb320ca008181ebc53
 
 repos/javascript/storybook:
+https://github.com/storybooks/storybook.git
 017b18e56d376189aaf1b597cbb7ff03d6161938
 
 repos/javascript/strapi:
+https://github.com/strapi/strapi.git
 b83b1ffcdccae66e436a6bfe5c8dcc74322c28e3
 
 repos/javascript/taro:
+https://github.com/NervJS/taro.git
 28f1ea90f3851bfb01ae73ef3a9e3bd345fd5df2
 
 repos/javascript/vsc-netease-music:
+https://github.com/nondanee/vsc-netease-music.git
 9f142686c96ba0e6d50f213ec73584cf6119b6fb
 
 repos/javascript/vue:
+https://github.com/vuejs/vue.git
 aa043347818a39da695375697e8ae2b9afb846c8
 
 repos/python/ArchiveBox:
+https://github.com/pirate/ArchiveBox.git
 4921a54dfe461a052bed789a2f57d9066d37f07a
 
 repos/python/CheatSheetSeries:
+https://github.com/OWASP/CheatSheetSeries
 9260a57605ae9de6da26ce15b2e7596d540b6f4c
 
 repos/python/ChromeAppHeroes:
+https://github.com/zhaoolee/ChromeAppHeroes.git
 7da592877b5add7ba6e2e6b256432baf975631ba
 
 repos/python/HelloGitHub:
+https://github.com/521xueweihan/HelloGitHub.git
 97dcc6a8888d871d73b20539cfa7844fb137c4cf
 
 repos/python/SharPyShell:
+https://github.com/antonioCoco/SharPyShell.git
 ed8ebe3bbccf24f7b8ca3197c8aa3ae1eef91f5a
 
 repos/python/SiamMask:
+https://github.com/foolwood/SiamMask.git
 73259f50c6e001d5c6aeb5ee014538b8348a3621
 
 repos/python/TheAlgorithms-Python:
+https://github.com/TheAlgorithms/Python.git
 8e67ac3b7672c1aa05c59bef29ad1b2c5520e07d
 
 repos/python/USTC-Course:
+https://github.com/USTC-Resource/USTC-Course.git
 31fc53077ad48dab936a414d64f888a4febf8d4d
 
 repos/python/awesome-python:
+https://github.com/vinta/awesome-python.git
 e294d63781f29ead83ab85d0e773f6802fdd1aa1
 
 repos/python/awesome-python-login-model:
+https://github.com/CriseLYJ/awesome-python-login-model.git
 59543a2f3336f2e8ef316a18f6fb9a58139685b1
 
 repos/python/csgo-menu-maker:
+https://github.com/citrusCS/csgo-menu-maker
 bc1f3544b527dee7969e117fdcbbf5c447422f51
 
 repos/python/face_recognition:
+https://github.com/ageitgey/face_recognition.git
 8217bd259181f9dc3f64c6f15e612efea5a0ff1d
 
 repos/python/faceswap:
+https://github.com/deepfakes/faceswap.git
 80a6c73c84a8441abc1269b26d0a7e07d800ab52
 
 repos/python/flask:
+https://github.com/pallets/flask.git
 86bf9dca72cd188813e26ef5dd972101ef8983cf
 
 repos/python/funNLP:
+https://github.com/fighting41love/funNLP.git
 162a9e69c66bf45c691658f27b481f722482224b
 
 repos/python/geekcomputers-Python:
+https://github.com/geekcomputers/Python.git
 f44b26c040612bf4a421cd47765bb2d6fe2f7fa2
 
 repos/python/gpt-2:
+https://github.com/openai/gpt-2.git
 86378284e119d09bd2b6e449d9bac52c9b821db7
 
 repos/python/home-assistant:
+https://github.com/home-assistant/home-assistant.git
 d3bab30dbeee0dd614169da8c621c78b37509c38
 
 repos/python/keras:
+https://github.com/keras-team/keras.git
 14625e57af7fe85eae501582ce1da135fc04c8e8
 
 repos/python/models:
+https://github.com/tensorflow/models
 0b0dc7f546f38a34d9f49279a1ad899e1a46b8b6
 
 repos/python/public-apis:
+https://github.com/toddmotto/public-apis.git
 8703e55bfa8d93b225d6392008ac66d96ae81834
 
 repos/python/pytorch-OpCounter:
+https://github.com/Lyken17/pytorch-OpCounter.git
 38a802aad5146f89292a27fc7800000c2647bdae
 
 repos/python/pytorch_geometric:
+https://github.com/rusty1s/pytorch_geometric
 e09a581c21d64e66608070b316c350ed8d1673b3
 
 repos/python/system-design-primer:
+https://github.com/donnemartin/system-design-primer.git
 82d80a08a0f6bbfe192eb0f4d26899658d869098
 
 repos/python/zero:
+https://github.com/remoteinterview/zero.git
 7372d866a0fa1dd94b6cf6355945a3d475791864
 
